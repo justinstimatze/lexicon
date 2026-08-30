@@ -148,10 +148,19 @@ function AppShell() {
                 flex-nowrap forced the whole page into horizontal scroll on
                 every view, at every phone width. overflow-x-auto then makes
                 whatever doesn't fit scroll inside the tab strip itself
-                instead of dragging the document with it. */}
+                instead of dragging the document with it.
+                Two more things this needs, both from the same CSS rule: setting
+                overflow on one axis promotes the OTHER axis's default `visible`
+                to `auto` too, not left alone -- so overflow-y-hidden is explicit,
+                not redundant. And the active tab's underline (tabs.tsx's `after:`
+                pseudo-element) sits at bottom:-5px, genuinely outside this box's
+                content area -- pb-1.5 gives it room to live inside the box
+                instead of past it, which is what was creating real (if tiny)
+                vertical overflow for that promoted auto to find and turn into a
+                scrollbar. */}
             <TabsList
               variant="line"
-              className="!h-auto min-w-0 flex-nowrap items-center gap-4 overflow-x-auto overscroll-x-contain !p-0"
+              className="!h-auto min-w-0 flex-nowrap items-center gap-4 overflow-x-auto overflow-y-hidden overscroll-x-contain !pt-0 !px-0 !pb-1.5"
             >
               <TabsTrigger value="about" className={TAB_CLASS}>
                 About
