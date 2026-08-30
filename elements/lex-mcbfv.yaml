@@ -1,0 +1,23 @@
+id: lex-mcbfv
+name: virtue-affirmation-as-a-valid-act-of-truth
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'A formal ritual utterance of a true personal fact, invoked to produce a real physical effect, need not confess a flaw. What the device actually runs on is sincerity plus formal assertion; a declaration of sustained, lifelong virtue satisfies both conditions just as fully as a confession of imperfection does. In the Jataka''s tale of Supparaka, the blind navigator saves a doomed ship by declaring, under oath, that he has never in his life taken another creature''s life: "Since I can myself remember, since intelligence first grew, Not one life of living creature have I taken, that I knew: May this ship return to safety if my solemn words are true!"'
+related: [lex-hxesr]
+scaffolds-from: [lex-hxesr]
+evokes: [jataka, ekadasanipata, supparaka-jataka, timsanipata, sambula-jataka, act-of-truth, saccakiriya, virtue-affirmation-as-causal-lever]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-supparaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 463, Supparaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Since I can myself remember, since intelligence first grew, Not one life of living creature have I taken, that I knew: May this ship return to safety if my solemn words are true!"
+  - source: primary
+    text: jataka-francis1905-sambula-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XVI (Timsanipata), No. 519, Sambula-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "May Truth for aye my shelter be, / As I love no man more than thee, / And by this Act of Truth, I pray, / May thy disease be healed to-day."
+canonical-instances:
+  - "A whistleblower under oath states, plainly and without embellishment, that in twenty years at the company she never once falsified a safety report — and the sheer verifiable truth of the sustained record, not any confession, is what finally moves the regulator to act."
+critical-questions:
+  - "The corpus already holds an Act of Truth built on confessing a flaw (lex-hxesr) — does the causal power of the device actually come from sincerity itself, regardless of whether the content confessed is flattering or not, or does the specific content (virtue affirmed versus flaw admitted) change what work the ritual is doing?"
+status: active

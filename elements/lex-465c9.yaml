@@ -1,0 +1,20 @@
+id: lex-465c9
+name: a-verifiably-costly-injury-functions-as-an-unforgeable-trust-signal
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When trying to earn an enemy's trust by claiming injury at a rival's hands, check whether the injury is genuinely costly and independently verifiable, since a cheap or fakeable injury fails to carry the trust the claim depends on. The 36 Stratagems' 'Inflict injury on oneself to win the enemy's trust' names this specific application: 'a way of ingratiating yourself to your enemy by pretending the injury was caused by a mutual enemy.' The mechanism only works if the cost is real enough that no one would incur it merely to sell a story — a genuine flogging carries weight a staged one cannot, because the target's trust is calibrated to how much the claimant was actually willing to suffer to make the claim credible."
+related: []
+evokes: [36-stratagems, inflict-injury-to-win-trust, costly-signaling, unforgeable-trust-signal]
+lineage:
+  - source: primary
+    text: taylor-2013-36-stratagems-34-inflict-injury-on-oneself
+    citation: "Peter Taylor, The Thirty-Six Stratagems: A Modern-Day Interpretation of a Strategy Classic (Infinite Ideas, 2013), Stratagem 34, 'Inflict injury on oneself to win the enemy's trust.' Verified verbatim against a direct pdftotext extraction of the held copy."
+    quote: "a way of ingratiating yourself to your enemy by pretending the injury was caused by a mutual enemy."
+canonical-instances:
+  - "the 2009 rugby 'Bloodgate' scandal, in which Harlequins used a fake blood capsule to simulate an injury, is a documented case of this exact mechanism failing: because the injury was cheap and unverifiable rather than genuinely costly, it was exposed and discredited — illustrating by failure why the mechanism requires a real, independently verifiable cost to work at all."
+  - "In the Jataka's Maha-Ummagga-Jataka, Mahosadha's own agent Anukevatta consents in advance to a real, brutal beating staged by Mahosadha's men — bound, dragged, and beaten until 'weals rise on your back' — so that when he is handed over to the besieging king as a supposed traitor with a genuine grievance, his visible injuries make his fabricated betrayal story unforgeable, winning him complete trust and command of the enemy's army."
+critical-questions:
+  - "How costly does an injury have to be before it functions as a credible signal — is there a threshold below which a target remains suspicious regardless of how the injury is presented?"
+  - "Does the target's trust depend on verifying the injury independently, or can a sufficiently convincing story about a costly injury work even without third-party confirmation, and if so, how is that different from an ordinary lie?"
+status: active

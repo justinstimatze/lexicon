@@ -1,0 +1,19 @@
+id: lex-phk59
+name: feign-incapacity-with-a-plausible-cause-to-survive-under-a-usurper
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A witness to a crime who lacks the power to act or expose it safely can disguise himself as harmless by feigning incapacity, backing the deception with an independently plausible causal explanation, buying time and safety under a hostile new authority. In the Jataka''s tale of Parantapa, the witness does exactly this by pretending blindness: "in fear of his life he pretended to be blind when he came back to the hut. Parantapa saw him and asked what had happened to him. He feigned not to know him and said, ''O king, I am come back with my eyes lost: I was standing by an ant-hill in a wood full of serpents, and the breath of some venomous serpent must have fallen on me.''"'
+related: [lex-unckp]
+evokes: [jataka, sattanipata, parantapa-jataka, feigned-incapacity-as-survival-ruse, plausible-cover-story-for-a-deception]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-parantapa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 416, Parantapa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "in fear of his life he pretended to be blind when he came back to the hut. Parantapa saw him and asked what had happened to him. He feigned not to know him and said, \"O king, Iam come back with my eyes lost: I was standing by an ant-hill in a wood full of serpents, and the breath of some venomous serpent must have fallen on me.\""
+canonical-instances:
+  - "Having witnessed the new regional director cover up a safety violation, an employee starts acting confused and forgetful in every meeting under him, backed by a plausible story about medication side effects, buying himself years of being overlooked as harmless until the director is finally gone."
+critical-questions:
+  - "Does maintaining a feigned incapacity for years carry its own cost — professional, psychological, or otherwise — that the safety it buys doesn't fully offset?"
+  - "What would have happened if the cover story hadn't been independently plausible on its own, rather than just asserted?"
+status: active

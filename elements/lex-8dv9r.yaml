@@ -1,0 +1,19 @@
+id: lex-8dv9r
+name: a-preset-arbitrary-tripwire-triggers-action-regardless-of-urgency
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A decision that could always be deferred a little longer gets made reliably only if a specific, arbitrary signal is chosen in advance and then acted on the moment it fires, without re-litigating whether the timing actually makes sense. In the Jataka's tale of King Makhadeva, the king instructs his barber years ahead of time to report the very first grey hair found on his head. When it finally appears, the king renounces his throne and possessions that same day — despite the story's own reckoning that he still had eighty-four thousand years left to live. The trigger was never a measure of actual decline; it was a symbol chosen once, before comfort or rationalization could weigh in, and honored literally when it arrived. The technique defeats the kind of drift where a postponable decision keeps finding a reason to wait for a more decisive sign that in practice never comes."
+related: []
+evokes: [jataka, ekanipata, makhadeva-jataka, precommitted-tripwire, defeating-status-quo-drift]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-makhadeva-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 9, Makhadeva-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "he said to his barber--\"Tell me, friend barber, when you see any grey hairs in my head.\""
+canonical-instances:
+  - "A researcher, years before any specific paper is written, tells a mentor to flag it the day a new dataset shows a certain effect has clearly reversed. When the mentor flags it, the researcher retracts a long-standing public claim within the week, before spending months looking for reasons the reversal might not really count."
+critical-questions:
+  - "What happens when the chosen signal turns out to be a poor proxy for the thing that actually mattered — does honoring it literally anyway still beat the drift it was meant to prevent, or does it just substitute one arbitrary failure for another?"
+  - "Does this technique require the trigger to be set by someone other than the person who will act on it, the way the king delegated to his barber, or does a purely self-monitored tripwire work just as reliably?"
+status: active

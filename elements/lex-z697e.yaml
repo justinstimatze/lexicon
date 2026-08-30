@@ -1,0 +1,19 @@
+id: lex-z697e
+name: an-engineered-startle-tests-composure-before-conferring-power
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Before confirming a candidate for power based on passive credentials alone, a deliberate sudden stimulus can test how they hold up under an invasive shock, since composure under stress is not visible in a resting state. In the Jataka''s tale of Darimukha, the priest doesn''t just check the sleeping candidate''s auspicious bodily marks — he has every instrument in the procession sound at once to see how the man reacts: ''observing the auspicious marks on his feet, he thought, "He has merit and is worthy to be king even of the four continents with two thousand islands around them, but what is his courage?" So he made all the instruments sound their loudest.'''
+related: []
+evokes: [jataka, chanipata, darimukha-jataka, engineered-startle-tests-composure, stress-test-before-conferring-authority]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-darimukha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 378, Darimukha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "observing the auspicious marks on his feet, he thought, \"He has merit and is worthy to be king even of the four continents with two thousand islands around them, but what is his courage?\" So he made all the instruments sound their loudest."
+canonical-instances:
+  - "Before promoting a candidate into an on-call lead role, a manager pages them with a fabricated high-severity incident at an inconvenient hour, wanting to see their composure under sudden pressure rather than trust the resume alone."
+critical-questions:
+  - "Does reacting calmly to one engineered shock actually predict composure under the real, unpredictable pressures the role will bring, or does it just measure a narrower skill — handling sudden loud noise?"
+  - "Is it fair to test someone with a fabricated crisis without their consent, given that the same information might be gathered by simply asking about past experience under pressure?"
+status: active

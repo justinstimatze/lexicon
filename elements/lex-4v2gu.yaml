@@ -1,0 +1,19 @@
+id: lex-4v2gu
+name: dont-touch-a-mechanism-under-load-you-dont-understand
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When something looks like an obstacle or an anomaly, check whether it is actually holding two opposing forces apart before removing it out of idle curiosity. The Panchatantra's monkey sees a wedge holding open a half-split log and pulls it out with no understanding of what it was holding apart; the log closes on him, and the verse names the general failure: 'Death pursues the meddling flunkey: note the wedge-extracting monkey.' The wedge looked like debris jammed into a crack, not like the one thing keeping two enormous forces from meeting — the danger was invisible from the monkey's vantage point precisely because the structural work the wedge was doing had no other visible sign."
+related: []
+evokes: [panchatantra, loss-of-friends, dont-meddle-with-a-mechanism-under-load, structural-work-invisible-from-outside]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-the-wedge-pulling-monkey
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book I, 'The Wedge-Pulling Monkey.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Death pursues the meddling flunkey: Note the wedge-extracting monkey."
+canonical-instances:
+  - "a new engineer finds an odd-looking hard-coded value in a legacy system and removes it as apparent dead code, not realizing it was compensating for an unrelated bug elsewhere in the pipeline, and the removal takes down a production system that had been silently depending on it for years."
+critical-questions:
+  - "How is someone supposed to distinguish an anomaly that's actually holding something apart from one that's just debris, when both can look identical from outside without deep knowledge of the system?"
+  - "Does this counsel excessive caution in situations where the anomaly really is harmless clutter, teaching people to leave dysfunction in place out of fear it might secretly be doing something useful?"
+status: active

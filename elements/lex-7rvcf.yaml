@@ -1,0 +1,19 @@
+id: lex-7rvcf
+name: an-explicit-warning-fails-against-affection-for-its-subject
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A direct, explicit warning about someone can be delivered clearly and still fail to prompt any precaution at all when the listener's affection for that specific person overrides the rational weight the warning should carry — the warning is heard and simply doesn't change behavior. In the Jataka's tale of the four stanzas, the Buddha explicitly tells the historical king this old cautionary tale about a murderous son, but the king, doting on his own son, disregards it entirely: 'The Master here ended his lesson and said, \"Thus, Sire, kings of old suspected in cases in which suspicion was justified,\" and related this incident, [126] but the king gave no heed to his words.'"
+related: []
+evokes: [jataka, catukkanipata, thusa-jataka, affection-for-a-threats-subject-overrides-an-explicit-warning, a-clear-warning-heard-and-not-acted-on]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-thusa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 338, Thusa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The Master here ended his lesson and said, \"Thus, Sire, kings of old suspected in cases in which suspicion was justified,\" and related this incident, [126] but the king gave no heed to his words."
+canonical-instances:
+  - "A financial advisor lays out in specific, documented detail exactly how an adult child is siphoning money from an aging parent's accounts, and the parent listens, nods, and changes nothing — the warning was clear and believed in the abstract, but affection for the child made acting on it unthinkable."
+critical-questions:
+  - "Is there any form the warning could have taken that would have actually worked against this specific kind of affection-driven denial, or is the failure mode inherent to warnings about people we love regardless of delivery?"
+  - "Does the warning-giver bear any responsibility once they've delivered a clear warning that goes unheeded, or does the obligation end at the point of honest disclosure?"
+status: active

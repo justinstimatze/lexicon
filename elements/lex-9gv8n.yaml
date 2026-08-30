@@ -1,0 +1,22 @@
+id: lex-9gv8n
+name: enduring-an-event-repeatedly-is-mistaken-for-expertise-in-managing-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Undergoing an ordeal many times gets treated as equivalent to having developed skill at managing that ordeal well, when the two are actually unrelated capacities. The raw experience of suffering through something repeatedly adds nothing to the separate, teachable knowledge of how to handle it competently; conflating exposure-count with expertise credits the wrong thing as a credential. Gilman names the confusion precisely: 'We try to get \"an experienced nurse.\" We insist on \"an experienced physician.\" But our idea of an experienced mother is simply one who has borne many children, as if parturition was an educative process! [...] adds nothing whatever to the mother's knowledge of the proper care, clothing, feeding, and teaching of the child.'"
+related: []
+evokes: [women-and-economics, chapter-xiii, as-if-parturition-was-an-educative-process, adds-nothing-whatever-to-the-mothers-knowledge, undergoing-is-not-learning]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-xiii
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter XIII. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "We try to get 'an experienced nurse.' We insist on 'an experienced physician.' But our idea of an experienced mother is simply one who has borne many children, as if parturition was an educative process! To experience the pangs of child-birth, or the further pangs of a baby's funeral, adds nothing whatever to the mother's knowledge of the proper care, clothing, feeding, and teaching of the child. The educative department of maternity is not a personal function: it is in its very nature a social function; and we fail grievously in its fulfilment."
+canonical-instances:
+  - "A manager who has survived five rounds of company layoffs gets treated as an authority on how to lead a team through downsizing, when surviving the layoffs personally never required or taught the separate skill of managing other people through one."
+  - "A patient who has been hospitalized a dozen times for the same chronic illness gets assumed by new staff to understand their own treatment plan expertly, when repeatedly experiencing the illness never involved learning the medical reasoning behind the treatment choices."
+  - "A homeowner who has lived through several major storms gets treated as the neighborhood's disaster-preparedness expert. Surviving the storms passively never involved learning the engineering or planning knowledge that actual preparedness requires."
+critical-questions:
+  - "Does repeated exposure to an ordeal ever produce genuine tacit skill as a side effect, even without deliberate study, in a way that would partially validate treating experience-count as a real credential?"
+  - "How would you actually distinguish someone who has merely endured an event many times from someone who has endured it many times AND deliberately reflected on and improved their handling of it each time, given that both might describe themselves the same way?"
+  - "If exposure-count is not a valid credential, what replaces it as the socially legible signal of competence, and is that replacement -- formal credentials, demonstrated skill tests -- actually more reliable, or does it just relocate the same conflation to a different proxy?"
+status: active

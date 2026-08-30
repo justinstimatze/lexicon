@@ -1,0 +1,19 @@
+id: lex-cg4wv
+name: manufacturing-visible-flaws-makes-an-exploiter-abandon-the-target-voluntarily
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A target facing repeated exploitation for a valuable trait can defeat it by manufacturing visible evidence that the trait is actually defective, prompting the exploiter to voluntarily withdraw rather than having to be fought off directly. In the Jataka's tale of the sacred tree, woodcutters plan to fell a large, healthy tree for an offering; a lesser tree-sprite disguises itself as a chameleon and riddles the trunk with holes, staging the appearance of rot. The woodcutters, concluding the tree is unsound and unfit for their purpose, abandon it and leave it standing untouched — never once suspecting the flaw itself was manufactured specifically to make them walk away."
+related: []
+evokes: [jataka, ekanipata, kusanali-jataka, manufactured-flaw-triggers-voluntary-abandonment, fabricated-defect-defeats-exploitation-without-confrontation]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kusanali-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 121, Kusanali-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "the tree was rotten and that they didn't look carefully before making their offerings the day before."
+canonical-instances:
+  - "A researcher whose dataset keeps getting scraped without attribution seeds a handful of detectable errors into a low-stakes portion of it. A scraper who cites those exact errors unknowingly proves the theft, decides the dataset looks unreliable, and moves on to another source."
+critical-questions:
+  - "Does manufacturing a visible flaw risk damaging the target's genuine reputation or value even after the immediate exploiter is gone, given that other observers might take the fabricated defect at face value too?"
+  - "Would simply hiding the valuable trait, rather than actively manufacturing a fake defect, achieve the same protective effect with less risk of lasting collateral damage to how the target is perceived?"
+status: active

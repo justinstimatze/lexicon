@@ -1,0 +1,19 @@
+id: lex-fyac7
+name: refuse-once-before-accepting-an-offered-elevation
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When offered a major elevation in status, a recipient can perform an initial refusal before accepting on a second request — a legitimizing ritual that signals reluctance rather than ambition. In the Jataka''s tale of Susima, the priest does exactly this when offered the throne: "The priest said, ''It cannot be'' but being asked again he consented: and the king made the priest king."'
+related: []
+evokes: [jataka, sattanipata, susima-jataka, ritual-refusal-before-accepting-power, reluctance-as-legitimizing-performance]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-susima-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 411, Susima-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The priest said, \"It cannot be \" but being asked again he consented: and the king made the priest king, the queen-mother chief queen, and himself viceroy."
+canonical-instances:
+  - "Nominated for the board chair position, a longtime director says she couldn't possibly take it, and only agrees once the board asks a second time, having wanted the role from the start."
+critical-questions:
+  - "Does performing reluctance before accepting change anything about the substance of the decision, or does it only manage how the ambition is perceived by others?"
+  - "What happens to a genuinely reluctant candidate who means the first refusal — does the ritual pressure them to accept anyway on the second ask, regardless of whether they've actually changed their mind?"
+status: active

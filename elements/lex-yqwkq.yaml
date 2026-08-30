@@ -1,0 +1,21 @@
+id: lex-yqwkq
+name: a-propped-decoy-maintains-an-illusion-only-until-someone-touches-it
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "A static prop arranged to suggest that everything is still normal can survive a glance completely intact, and yet collapse the instant anyone actually makes contact with it -- the illusion was never load-bearing, it just never expected to be tested. In Radin's Winnebago Trickster cycle, after killing a family's children, Trickster stages a decoy to delay discovery: 'he cut off the head of one of the children, put a stick through its neck and placed it at the door as though the child were peeping out and laughing.' From a distance, it works exactly as intended: when the mothers return, 'one of the children was peeping out of the door. It was smiling at them.' Their first reaction is only mild confusion, not alarm: 'What kind of a joke is this?' The illusion holds right up until physical contact happens for an unrelated reason: 'I am angry,' said one of the women. So she slapped the child on the cheek and the head toppled over. ... There, much to her horror, she noticed that it was only the child's head.' One slap, thrown in irritation rather than suspicion, was all it took to end an illusion that had survived visual inspection completely. Diagnostic move: when something looks normal only from a fixed distance or angle, don't mistake that visual survival for real verification -- a decoy that has never been touched hasn't actually been checked, it has only avoided the one test that would end it."
+related: []
+evokes: [radin-winnebago-trickster-cycle, wakdjunkaga, as-though-the-child-were-peeping-out-and-laughing, the-head-toppled-over]
+lineage:
+  - source: primary
+    text: radin-tricksters-propped-up-decoy-fools-the-mothers-until-touched
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'The Winnebago Trickster Cycle,' episode 29. Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "When he was finished, he cut off the head of one of the children, put a stick through its neck and placed it at the door as though the child were peeping out and laughing. ... As they approached their lodge, much to their annoyance, one of the children was peeping out of the door. It was smiling at them. 'What kind of a joke is this? We were not able to get any plums.''I am angry,' said one of the women. So she slapped the child on the cheek and the head toppled over. ... There, much to her horror, she noticed that it was only the child's head. Then both of the women cried out, 'Oh, my children! He has killed them! It must have been Trickster!'"
+canonical-instances:
+  - "A store clerk arranges empty boxes to look like a fully stocked shelf from the aisle's entrance, and the illusion holds for every customer who glances down the aisle and leaves, until one customer actually reaches for a box and finds it weightless and empty."
+  - "An employee sets an 'away' status and a scheduled email to look like they're actively working during an unauthorized absence, and it survives a manager glancing at the online-status indicator all day, until a colleague tries to actually reach them for an urgent matter and gets no response at all."
+critical-questions:
+  - "Would a less irritable reaction from the mothers, checking the child gently out of concern rather than slapping it out of anger, have delayed the discovery even longer, or was some form of contact inevitable given how close the decoy was positioned to their daily path?"
+  - "Does the decoy's success at a distance actually buy Trickster anything meaningful, given how quickly it fails on contact, or is its real function only to delay the mothers' reaction by the few minutes needed for him to prepare the next stage of his plan?"
+  - "Is there a meaningful difference between a decoy that fails upon deliberate inspection and one, like this one, that fails through an unrelated accident, being slapped in anger rather than checked in suspicion -- does the manner of failure change what lesson an observer should draw from it?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-met2u
+name: gripping-a-fixed-anchor-fails-when-the-captor-can-uproot-it-too
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A captured party can attempt escape by gripping something large and immovable, betting the captor cannot dislodge both it and the anchor — but when the captor''s strength exceeds the anchor''s holding power, the anchor comes up along with the captive, and the tactic fails outright. In the Jataka''s tale of Kotisimbali, the snake-king''s attempt fails exactly this way: "The snake-king thought, ''I will make him drop me and let me go,'' so he stuck his hood into a banyan-tree and wound himself round it firmly. Owing to the roc-king''s strength and the great size of the snake-king the banyan was uprooted."'
+related: []
+evokes: [jataka, sattanipata, kotisimbali-jataka, anchor-tactic-fails-against-superior-strength, escape-attempt-backfires]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kotisimbali-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 412, Kotisimbali-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The snake-king thought, \"I will make him drop me and let me go,\" so he stuck his hood into a banyan-tree and wound himself round it firmly. Owing to the roe-king's strength and the great size of the snake-king the banyan was uprooted."
+canonical-instances:
+  - "Facing a hostile takeover, a small company tries to make itself un-acquirable by tying its core assets to an exclusive long-term supplier contract, only to watch the acquirer buy the supplier outright and take both anyway."
+critical-questions:
+  - "Did the escaping party fail to correctly judge the relative scale of their anchor against their pursuer's strength, or was there simply no anchor available that would have actually held?"
+  - "Does a failed anchoring attempt leave the captive worse off than not attempting escape at all, given that it cost the tree along with the escape itself?"
+status: active

@@ -1,0 +1,21 @@
+id: lex-fugev
+name: reframing-a-rule-as-local-to-its-source-exempts-you-elsewhere
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "A rule given to you by someone else, along with an explicit warning about its limit, can be quietly reinterpreted as a local custom rather than a universal fact once you're operating somewhere the rule's author isn't watching, even though the rule was actually describing a fixed physical or structural limit that doesn't care whose territory you're standing in. Coyote learns the eye-throwing trick along with an explicit warning: ''Don't do this more than four times in one day,' the man said. 'Of course not. Why would I do that?' said Coyote.' Having used the trick exactly four times without consequence, Coyote doesn't simply forget the warning -- he actively reasons his way past it: 'That man's rule is made for his country. I don't think it applies here. This is my country.' The rule wasn't jurisdictional at all; it described a property of the trick itself, not a local custom of the place he learned it. The fifth attempt confirms this immediately: his eyes don't come back, and he's left blind. Diagnostic move: when you catch yourself reasoning that a warning or limit someone else gave you must have been specific to their context and therefore doesn't bind you in a different one, check whether the limit was actually describing a fixed property of the thing itself, in which case moving to new territory changes nothing about whether it applies."
+related: []
+evokes: [hyde-trickster-makes-this-world-introduction, coyote-and-the-eyes-in-the-tree, that-mans-rule-is-made-for-his-country, this-is-my-country]
+lineage:
+  - source: primary
+    text: hyde-coyote-reframes-the-four-times-warning-as-local-to-the-mans-country
+    citation: "Lewis Hyde, Trickster Makes This World: Mischief, Myth, and Art (Farrar, Straus and Giroux, 1998; Canongate Books 2008 edition), Introduction, retelling a Navajo Coyote story told to Hyde by a driver north of Winslow, Arizona. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "Coyote wanted very much to learn this trick and begged and begged until the man taught it to him. “But be careful, Coyote,” the man said. “Don’t do this more than four times in one day.” “Of course not. Why would I do that?” said Coyote. ... When he had done this four times, he thought, “That man’s rule is made for his country. I don’t think it applies here. This is my country.” For a fifth time he threw his eyes into the tree and for a fifth time he cried “Eyes come back!” But they didn’t come back."
+canonical-instances:
+  - "A junior employee is warned by a mentor never to skip a specific safety check when running a particular machine, and after leaving that mentor's team assumes the warning was really just that manager's personal caution rather than an actual mechanical limit, and skips the check on the same model machine at a new job."
+  - "A trader is warned by an experienced colleague never to hold a specific type of position past a certain size, and after moving to a new firm assumes the limit was a rule specific to the old firm's risk culture rather than a real constraint of the instrument itself, and exceeds it."
+critical-questions:
+  - "Does Coyote's reasoning reflect a genuine, if mistaken, belief that rules can be jurisdictional, or is it better read as motivated reasoning, a story he tells himself because he wants to keep using a power he enjoys, constructed after the fact to justify what he already intended to do?"
+  - "Is there a meaningful category of rule that genuinely is local or contextual, tied to the place or person who gave it rather than to a fixed underlying limit, and how would someone tell the two kinds apart before testing the rule the hard way, as Coyote does?"
+  - "Would Coyote have made the same mistake if the man's warning had explained the mechanism behind the limit rather than simply stating the limit itself, and does this suggest that a bare rule invites this kind of reinterpretation in a way an explained rule would not?"
+status: active

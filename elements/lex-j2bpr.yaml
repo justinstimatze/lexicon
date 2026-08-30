@@ -1,0 +1,19 @@
+id: lex-j2bpr
+name: staging-a-technicality-invalidates-a-vow-without-admitting-the-breach
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A public vow phrased around a specific, narrow condition can be defeated by prearranging for that exact condition to become true in a way that has nothing to do with the vow's actual spirit, letting the vow-taker escape accountability by technicality rather than by admitting the breach. In the Jataka's tale of the guarded girl, caught and put to a fire ordeal, she swears that no man's hand but her guardian's has ever touched her. Her lover, prearranged, grabs her hand publicly right before she steps into the fire — technically falsifying the vow's premise on the spot, which lets her refuse the ordeal without ever confessing to the actual affair the vow was meant to rule out."
+related: []
+evokes: [jataka, ekanipata, andabhuta-jataka, staged-technicality-invalidates-a-vow, letter-vs-spirit-gap-in-a-verification-ritual]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-andabhuta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 62, Andabhuta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"my asseveration was that no man's hand but thine had ever touched me; ... and now here is a man who has seized hold of my hand!\""
+canonical-instances:
+  - "An employee under investigation swears in a signed statement that they've never accessed a particular restricted file since the policy took effect. A colleague opens that same file on their behalf moments before the deadline for the statement passes, technically making the sworn claim unfalsifiable without anyone admitting to the actual prior access."
+critical-questions:
+  - "Does the ritual's designer bear responsibility for phrasing the vow narrowly enough to be gameable this way, or is the staged technicality entirely on the person exploiting it?"
+  - "What happens once the staging itself is recognized as staged — does exposing the trick restore the original accountability the vow was meant to test, or does the ambiguity it created linger regardless?"
+status: active

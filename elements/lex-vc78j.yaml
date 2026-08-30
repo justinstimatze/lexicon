@@ -1,0 +1,19 @@
+id: lex-vc78j
+name: a-programs-lifespan-tracks-executive-mentions-not-ground-results
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "An institutional program's survival is governed by whether it's still mentioned at the top of the hierarchy, not by whether it's actually producing results where it's implemented. A productivity program fell into disuse specifically because upper-middle managers noticed the absence of any mention of it at executive meetings — at the exact moment when managers further down felt the program was finally starting to bear fruit at the ground level. The abandonment signal and the outcome signal are completely decoupled and can point in opposite directions simultaneously; treating executive silence as evidence the program failed, when ground-level data says otherwise, mistakes the actual termination trigger for a performance judgment it never was."
+related: []
+evokes: [jackall-moral-mazes, "quality circles at least were beginning to bear fruit", executive-silence-as-the-actual-kill-signal]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch6-program-tracked-by-executive-mention
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 6, Dexterity with Symbols."
+    quote: "managers at the upper-middle levels noticed that there had not been a single mention of productivity at executive meetings, and the program fell into disuse just as managers in charge further down the line felt that the quality circles at least were beginning to bear fruit."
+canonical-instances:
+  - "A wellness initiative quietly disappears from a company's priorities the same quarter attendance and participation metrics finally start trending upward, because the initiative stopped appearing in the CEO's quarterly addresses months earlier and middle managers read that silence as license to stop supporting it."
+critical-questions:
+  - "Is there a way to protect a genuinely working program from this kind of premature abandonment, or does any program that depends on visible executive sponsorship inevitably have a shelf life set by attention span rather than results?"
+status: active

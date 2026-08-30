@@ -1,0 +1,23 @@
+id: lex-badnn
+name: observed-moral-inversion-threatens-a-foundational-belief
+type-in: state
+type-out: claim
+_tier: atomic
+agent-instruction: "A person can directly observe that betrayal and collaboration produce comfort while loyalty and integrity produce starvation, and the observed inversion doesn't get explained away -- it genuinely destabilizes their confidence in a cherished, formative belief they had built their identity around. Watching Spotted Tail arrive fat and well-dressed to persuade his starving nephew Crazy Horse to surrender, Black Elk doesn't reach for a reframe that protects his vision. He states the doubt directly: 'How could men get fat by being bad, and starve by being good? I thought and thought about my vision, and it made me very sad; for I wondered if maybe it was only a queer dream after all.' Distinct from lex-3ep98, where disconfirming evidence gets converted into internal proof that strengthens a belief: here the disconfirming pattern is granted its full force, and the belief takes real damage rather than being rescued."
+related: [lex-3ep98]
+scaffolds-from: [lex-3ep98]
+evokes: [black-elk-speaks, walking-the-black-road, spotted-tail, fat-with-wasichu-food, only-a-queer-dream-after-all]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch10-walking-the-black-road
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 10, 'Walking the Black Road.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "I saw him and I did not like him. He was fat with Wasichu food and we were lean with famine. [...] I could not understand this, and I thought much about it. How could men get fat by being bad, and starve by being good? I thought and thought about my vision, and it made me very sad; for I wondered if maybe it was only a queer dream after all."
+canonical-instances:
+  - "A whistleblower who was fired and struggles financially watches the executive who covered up the fraud get promoted, and rather than reassuring themselves that honesty always pays off eventually, admits to a friend that they're no longer sure it does."
+  - "A lifelong believer in a strict religious community watches devout, careful members suffer while a well-known hypocrite in the congregation prospers openly, and finds the observation genuinely shaking their faith rather than something they can pray their way past."
+  - "A soldier who volunteered out of conviction sees deserters return home safely to families and jobs while comrades who stayed and fought are wounded or dead, and privately concludes that the cause he believed in may not have been worth what it cost."
+critical-questions:
+  - "Does the fact that this doubt is reported at all, rather than resolved into a comforting reframe, suggest Black Elk's account is more honest than most testimony about faith under strain, or is the doubt itself later folded into a larger narrative of eventual vindication that softens how destabilizing it really was in the moment?"
+  - "Is there a specific threshold of how directly and personally the inversion is witnessed, a hated relative's own body seen fat while your own people starve, that makes disconfirmation land as genuine doubt rather than triggering the more common reframing response?"
+  - "The doubt here targets his vision specifically -- does it actually spread to his other commitments, the Lakota cause, the war itself, or does it stay narrowly confined to the one belief that happened to be on his mind that day?"
+status: active

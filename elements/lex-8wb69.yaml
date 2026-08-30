@@ -1,0 +1,18 @@
+id: lex-8wb69
+name: a-small-hidden-agent-transforms-an-entire-mass-by-diffusion
+type-in: state
+type-out: claim
+_tier: atomic
+agent-instruction: "A small quantity of an active agent, mixed into a much larger inert mass, can transform the entire mass through diffusion alone, with no further action required and no point at which the agent remains visibly separate from what it's transforming — leaven hidden in three measures of meal leavens the whole batch. The mechanism is invisible in progress: there's no moment of watching it work, only an untransformed mass beforehand and a fully transformed one after."
+related: []
+evokes: [kjv, leaven-in-the-meal, yeast-in-the-dough, a-little-leaven-leavens-the-whole-lump, hidden-agent-transforms-the-batch]
+lineage:
+  - source: primary
+    text: kjv-1611-matthew-13-the-leaven
+    citation: "The Holy Bible, King James Version (1611; this edition Project Gutenberg #10), Matthew 13:33. Verified verbatim against a direct extraction of the held copy."
+    quote: "The kingdom of heaven is like unto leaven, which a woman took, and hid in three measures of meal, till the whole was leavened."
+canonical-instances:
+  - "One engineer who insists on writing tests for every change they touch, on a team of thirty who don't, gradually shifts the whole codebase's test coverage over two years without ever running a mandate or a training session — just by being the small active agent mixed into every piece of code they came near."
+critical-questions:
+  - "Is the transforming agent actually diffusing through the whole mass, or is it staying isolated in the parts it directly touches while the rest remains genuinely unchanged — has anyone checked the parts furthest from the agent, or only the parts closest to it?"
+status: active

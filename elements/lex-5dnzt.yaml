@@ -1,0 +1,19 @@
+id: lex-5dnzt
+name: grant-bounded-temporary-access-to-defuse-a-fatal-obsession
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than punish or flatly refuse a subordinate''s obsessive fixation, a person with the standing to grant or deny it can offer bounded, temporary access specifically to defuse an otherwise fatal psychosomatic infatuation, rather than let the refusal itself become the thing that kills him. In the Jataka''s tale of Dasannaka, the king does this for the lovesick minister: "I give her to you for seven days, spend those days at your house and on the eighth send her back."'
+related: []
+evokes: [jataka, sattanipata, dasannaka-jataka, bounded-access-defuses-obsession, conflict-avoidance-through-a-time-limited-concession]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dasannaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 401, Dasannaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "I give her to you for seven days, spend those days at your house and on the eighth send her back."
+canonical-instances:
+  - "Rather than deny outright a top engineer's obsessive fixation on rebuilding a system everyone else considers stable, a manager grants a strict two-week window to attempt it, defusing the standoff without either forcing compliance or letting the fixation fester unaddressed."
+critical-questions:
+  - "Does granting bounded access actually resolve the underlying obsession, or only postpone the conflict to the moment the time limit expires?"
+  - "What does this concession cost the person granting it, and does that cost fall unevenly on someone who had no say in being granted as the terms of the deal?"
+status: active

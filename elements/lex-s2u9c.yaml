@@ -1,0 +1,19 @@
+id: lex-s2u9c
+name: a-nascent-grievance-grows-in-proportion-to-force-applied-against-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a small, still-manageable dispute or grievance appears, check whether force applied against it is what actually causes it to escalate, rather than functioning as neutral suppression. Aesop's 'Hercules and Minerva' has Hercules encounter a small object blocking his path and strike it repeatedly, only to watch it swell each time until Minerva names what it is: 'that which you see before you is the apple of discord: if you do not meddle with it, it remains small as it was at first, but if you resort to violence it swells into the thing you see.' The claim being made is mechanistic rather than moral: growth tracks the force applied as a direct function, with the conflict's mere continuation playing no independent role at all."
+related: []
+evokes: [aesop, hercules-and-minerva, force-as-the-escalation-mechanism, streisand-effect-precursor]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-hercules-and-minerva
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'Hercules and Minerva.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Leave it alone, my friend; that which you see before you is the apple of discord: if you do not meddle with it, it remains small as it was at first, but if you resort to violence it swells into the thing you see."
+canonical-instances:
+  - "a company's heavy-handed legal takedown notice or PR response turns a minor complaint into a viral story that a simple non-response would have left small — the escalation is a direct function of the pressure applied, not an inevitable outcome of the original complaint."
+critical-questions:
+  - "Does this claim hold for every kind of nascent grievance, or are there disputes where non-engagement lets a problem fester and grow on its own, making Minerva's advice actively wrong in that different case?"
+  - "How would Hercules have known in advance that this particular object would respond to force by growing, rather than simply being destroyed by it as any ordinary obstacle would?"
+status: active

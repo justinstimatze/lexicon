@@ -1,0 +1,19 @@
+id: lex-ru9ca
+name: feigned-patience-conceals-continuous-intent-until-the-least-resistant-moment
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Appearing calm and accepting of a constraint can mask an unbroken intention to escape it, deployed the instant the constraint's enforcers are least able to resist. Patience of this kind holds intent in reserve rather than releasing it, waiting only for the odds to improve. In the Jataka's tale of the chained dog, mocked for not simply biting through his own leash, he explains that his stillness has never meant acceptance: 'Resolute--determined, I Wait my opportunity: Careful watch and ward I keep Till the people are asleep.' The moment his captors are asleep, he gnaws through the strap and leaves. Nothing about his intention changed between the mockery and the escape — only the timing was ever in question, and he never let anyone mistake the wait for consent."
+related: []
+evokes: [jataka, dukanipata, sunakha-jataka, apparent-acceptance-of-a-constraint-can-mask-continuous-intent, deploying-intent-at-the-moment-of-least-resistance]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sunakha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 242, Sunakha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Resolute--determined, I Wait my opportunity: Careful watch and ward I keep Till the people are asleep."
+canonical-instances:
+  - "An employee who seems to have quietly accepted an unfair reassignment, showing no visible resistance for months, submits a fully prepared resignation and competing job offer the exact week their manager is on leave and least able to counter-offer or negotiate."
+critical-questions:
+  - "Is there a meaningful difference between the dog's patience and simple deception, given that everyone watching genuinely believed he had accepted the leash — does calling this 'patience' rather than 'concealment' just flatter the same underlying act?"
+  - "How long can this kind of concealed intent be sustained before the waiting itself starts to look suspicious to an attentive captor, and does the strategy depend on the captors specifically being inattentive enough not to notice the dog was never actually calm?"
+status: active

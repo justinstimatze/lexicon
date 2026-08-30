@@ -1,0 +1,19 @@
+id: lex-8aw5s
+name: classify-a-conflict-as-removable-or-structural-before-seeking-reconciliation
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Before deciding whether reconciliation with an apparent adversary is even possible, classify what kind of conflict actually separates you, since the two kinds respond to completely different treatments. The Panchatantra's mouse, weighing whether to trust a crow who could easily eat him, states the framework directly: 'strife is of two kinds, natural and incidental... incidental strife springs from a specific cause, and can therefore be removed by rendering an appropriate service. But strife rooted in nature never disappears.' A conflict traceable to a specific, removable circumstance can be dissolved by addressing that circumstance; a conflict built into the parties' basic structural relationship — predator and prey, direct competitors for the same fixed resource — persists no matter what service either side renders, because there is no specific cause to remove."
+related: []
+evokes: [panchatantra, winning-of-friends, classify-conflict-as-removable-or-structural, due-diligence-before-alliance-formation]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-golds-typology-of-strife
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book II, Gold's typology of natural vs. incidental strife. Verified verbatim against a direct extraction of the held copy."
+    quote: "incidental strife springs from a specific cause, and can therefore be removed by rendering an appropriate service. But strife rooted in nature never disappears."
+canonical-instances:
+  - "a vendor and a client repair a relationship damaged by a missed deadline with an apology and a service credit — the conflict was incidental to that one failure. A vendor whose entire business model requires undercutting the client's own margins is a different case entirely: no number of service credits fixes a conflict built into what each party structurally needs from the other."
+critical-questions:
+  - "How would someone actually distinguish natural from incidental strife in a genuinely ambiguous case — is there a reliable diagnostic beyond just trying a reconciling gesture and seeing whether it works?"
+  - "Can a relationship that starts as natural strife (structural, built-in) ever be converted into incidental strife by changing the underlying structure itself, or does the framework assume the structural category is permanently fixed?"
+status: active

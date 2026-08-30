@@ -1,0 +1,19 @@
+id: lex-mkpcw
+name: a-nascent-threat-gets-sentimentally-reframed-as-a-future-relationship-to-nurture
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A categorical warning about a small, currently-harmless threat can be dismissed not by disputing the warning but by reframing the threat sentimentally, as something to nurture rather than remove — manufacturing an anticipatory attachment to a thing that hasn't yet earned one, in order to justify inaction now. This is distinct from an existing relationship overriding a known danger: here no relationship exists yet, and the reframing itself invents one. In the Jataka's tale of Palasa, a tree-spirit dismisses a warning about a young banyan shoot sprouting in its bark: 'well! let it grow, and should I be a refuge to the banyan tree, and tend it with a parent's love, it will to me a blessing prove.' The shoot grows and destroys the tree that sheltered it."
+related: [lex-s664b]
+evokes: [jataka, pancanipata, palasa-jataka, nascent-threat-reframed-as-future-relationship, warning-dismissed-via-anticipatory-attachment]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-palasa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 370, Palasa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Well! let it grow, and should I be A refuge to the banyan tree, And tend it with a parent's love, It will to me a blessing prove."
+canonical-instances:
+  - "A department head is warned that a small pilot tool being run by an outside vendor could eventually take over core functions the department currently owns. Rather than shutting it down, the head reframes it as a partnership worth nurturing and investing in — and years later the vendor's tool has replaced the department entirely."
+critical-questions:
+  - "Is the sentimental reframing actually a form of self-deception, or could it sometimes be a genuinely reasonable bet — plenty of small, uncertain things really do turn into valuable relationships rather than threats?"
+  - "Does the tree-spirit's fate depend on this specific reframing, or would a categorical policy of destroying every small unfamiliar growth carry its own costs by eliminating things that would have been harmless or beneficial?"
+status: active

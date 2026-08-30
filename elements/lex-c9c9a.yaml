@@ -1,0 +1,19 @@
+id: lex-c9c9a
+name: a-compressed-effort-before-a-deadline-voids-a-rivals-fait-accompli
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When rivals build a plan to seize a contested position on the explicit assumption that you lack a specific capability, and there remains any window before their plan executes, closing that exact gap before the deadline can void their plan entirely — even if the effort required is wildly disproportionate to how the gap would normally be closed. In the Jataka's tale of the young chaplain's son, rival brahmins maneuver the king into handing them a lucrative hereditary ceremony on the stated grounds that the rightful heir 'knows neither the three Vedas nor the lore of elephants.' With four days before the festival, he commits to the only intervention that can still work: 'our hereditary right we shall not lose. One day will take me to Takkasila; one night will be enough to teach me the three Vedas and the elephant lore; on the morrow I will journey home; and on the fourth day I will manage the elephant festival. Weep no more!' The rivals' entire scheme depended on the gap persisting through the festival date — closing it before that date, however extreme the method, doesn't just improve his odds, it removes their plan's stated justification altogether."
+related: []
+evokes: [jataka, dukanipata, susima-jataka, closing-the-exact-gap-a-rivals-plan-depends-on, disproportionate-effort-inside-a-real-deadline]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-susima-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 163, Susima-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "our hereditary right we shall not lose. One day will take me to Takkasila; one night will be enough to teach me the three Vedas and the elephant lore; on the morrow I will journey home; and on the fourth day I will manage the elephant festival. Weep no more!"
+canonical-instances:
+  - "A cofounder who is about to be voted out of a leadership role on the stated grounds that they don't understand the company's finances spends the four days before the board vote learning the entire financial model well enough to run the walkthrough themselves, removing the board's stated justification before the vote happens."
+critical-questions:
+  - "Was the rivals' plan actually contingent on the gap, or was the gap a pretext for a decision they wanted to make anyway — and if it's the latter, does closing the gap just force them to state their real reason, rather than actually stopping them?"
+  - "How often does this kind of compressed, extreme effort succeed versus simply exhaust the person attempting it while the outcome was already decided — does the story's version, where the method works flawlessly, understate how rarely a single night is actually enough?"
+status: active

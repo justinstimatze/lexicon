@@ -1,0 +1,21 @@
+id: lex-e6r4n
+name: an-invisible-obstacle-at-the-strike-point-turns-aggression-into-capture
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "You don't need to stop an aggressor before they attack if you can place something undetectable exactly where their own attack is going to land -- their aggression does the work of driving them into the trap themselves. In Cushing's telling, one of the War-gods hurls a magic net-shield at a cannibal demon about to bite one of his captives: 'it sailed straight over the heads of the maidens and settled between them and the demon's face. The shield was invisible, and the old demon knew not it was there.' Nothing about the scene has changed from the demon's point of view; he still sees an open, undefended target. He 'opened his great mouth, and, bending yet nearer, made a vicious bite at the elder one,' fully committing to the strike, and 'the demon's teeth caught in the meshes of the invisible shield,' leaving him tangled and vulnerable precisely because his own aggressive impulse carried him straight into it. No restraint was required of the maidens; the trap needed only the demon's own eagerness to attack an apparently helpless target. Diagnostic move: when facing an aggressor confident enough to commit fully to an attack on what looks like an easy target, an obstacle they cannot perceive in advance turns that very confidence into the mechanism of their capture -- the more certain they are of an easy strike, the harder they commit, and the harder they commit, the more thoroughly they're caught."
+related: []
+evokes: [the-aggressors-own-commitment-drives-them-into-the-unseen-obstacle, cushing-atahsaia-the-cannibal-demon, the-shield-was-invisible-and-the-old-demon-knew-not-it-was-there, his-teeth-caught-in-the-meshes]
+lineage:
+  - source: primary
+    text: cushing-invisible-shield-catches-atahsaias-bite
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'Atahsaia, the Cannibal Demon.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'He hurled the shield through the air. Swiftly as a hawk and noiselessly as an owl, it sailed straight over the heads of the maidens and settled between them and the demon's face. The shield was invisible, and the old demon knew not it was there. He leaned over as if to examine the maidens' heads. He opened his great mouth, and, bending yet nearer, made a vicious bite at the elder one. ... But the demon's teeth caught in the meshes of the invisible shield, and, howling with vexation, he began struggling to free himself of the encumbrance.'"
+canonical-instances:
+  - "A cybersecurity team leaves what looks like an unprotected, easily exploitable server exposed to attackers, but the moment an intruder attempts to actually execute code on it, invisible monitoring and containment tools activate and trap the connection, the attacker's own confident commitment to what looked like easy prey being what allows them to be caught."
+  - "A prey animal's camouflaged burrow entrance narrows sharply just past where it appears to open wide, so that a predator lunging in at full speed and full commitment gets wedged tightly, unable to reverse out as easily as it went in, the predator's own aggressive full-speed strike being the reason it becomes stuck rather than merely blocked."
+critical-questions:
+  - "Would the trap have worked at all if the demon had approached more cautiously, testing the space in front of him before committing to a full bite -- does this tactic specifically depend on an aggressor who never bothers to verify an apparently helpless target is actually undefended?"
+  - "Is there a meaningful difference between an obstacle that is truly undetectable, as the invisible shield is, and one that is merely well-concealed and could in principle be noticed with more caution -- does the demon's failure here reflect the trap's design or his own overconfidence?"
+  - "Does this tactic generalize to situations where the aggressor's target isn't a specific point of attack but a broader course of action, such as a scam that only 'catches' someone once they've fully committed to a purchase -- or does it require the same instantaneous, single-point commitment the demon's bite involves?"
+status: active

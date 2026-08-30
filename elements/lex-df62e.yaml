@@ -1,0 +1,18 @@
+id: lex-df62e
+name: evading-an-obligation-by-removing-the-people-who-would-owe-it
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A group stuck with a ritual or social obligation it has no safe way to decline out loud has a quieter option available: make sure the specific people who''d have to perform it simply aren''t there when the moment comes. Sending the obligated parties away leaves no one present to withhold respect from, so nobody has technically refused anything, and there''s no stated act a punishment could attach to — yet the obligation goes entirely unmet all the same. In the Bhadda-sala-Jataka, when Prince Vidudabha comes to Kapilavatthu expecting to be greeted by his mother''s Sakyan relatives, the Sakyans send all their young kin into the countryside rather than have them pay him the respect his rank would ordinarily require, since ''it is impossible to receive him with respect'' as an equal.'
+related: []
+evokes: [jataka, dvadasanipata, bhadda-sala-jataka, technical-non-refusal, obligation-evaded-not-declined]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-bhadda-sala-jataka
+    citation: 'The Jataka, or Stories of the Buddha''s Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XII (Dvadasanipata), No. 465, Bhadda-sala-jataka. Verified verbatim against a direct extraction of the held copy.'
+    quote: 'the Sakyas, on hearing of the coming of VidGdabha, sent off all their young children into the country. "It is impossible," said they, "to receive him with respect."'
+canonical-instances:
+  - 'A company that doesn''t want to formally decline a visiting executive''s request for a welcome dinner instead schedules every senior manager who would normally attend into an off-site that week, so there''s simply no one senior available to host it.'
+critical-questions:
+  - 'Does removing the obligated parties actually avoid the offense, or does the absence itself communicate the refusal just as clearly as declining would have — and if the target reads it correctly either way, what does the indirection actually buy the evading party?'
+status: active

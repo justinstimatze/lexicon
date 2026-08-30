@@ -1,0 +1,22 @@
+id: lex-zzqww
+name: a-comparison-case-tests-a-claimed-benefit-of-a-practice
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "When someone claims that departing from a natural or ancestral baseline practice produces a specific improved outcome -- a stronger bond, a deeper virtue, a higher form of some good -- the claim can be tested rather than simply accepted as self-evident. Look for an available comparison case that holds the claimed outcome's natural baseline roughly constant while varying the practice in question, then ask directly whether the group engaging in the modified practice actually shows MORE of the claimed benefit in proportion to how much they engage in it, rather than assuming the causal story because it feels intuitively obvious. Gilman stages this exactly: Ellador tests a claim that unrestricted romantic/sexual expression produces higher, more permanent love than a strictly seasonal natural baseline, by citing pair-bonding animals that mate only seasonally yet show equally strong lifelong devotion: 'There are some birds who love each other so that they mope and pine if separated, and never pair again if one dies, but they never mate except in the mating season. Among your people do you find high and lasting affection appearing in proportion to this indulgence?'"
+related: [lex-mr4nb]
+evokes: [herland, chapter-11, it-is-a-very-awkward-thing-sometimes-to-have-a-logical-mind, do-you-find-high-and-lasting-affection-in-proportion-to-this-indulgence, a-comparison-case-tests-a-claimed-benefit-instead-of-assuming-it]
+lineage:
+  - source: primary
+    text: gilman-1915-herland-chapter-11
+    citation: "Charlotte Perkins Gilman, Herland (1915), Chapter 11, 'Our Difficulties.' Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "\"Are you sure?\" she asked gently. \"How do you know that it was so developed? There are some birds who love each other so that they mope and pine if separated, and never pair again if one dies, but they never mate except in the mating season. Among your people do you find high and lasting affection appearing in proportion to this indulgence?\" It is a very awkward thing, sometimes, to have a logical mind."
+canonical-instances:
+  - "A manager claims that requiring the team to work weekends produces deeper commitment to the product than a strict forty-hour schedule would; a skeptical colleague points to teams elsewhere with firm hour limits that report equally strong loyalty and retention, and asks directly whether commitment on this team actually rises in proportion to the extra hours worked, rather than accepting the claim on its face."
+  - "A wine collector claims that aging a bottle for decades beyond its recommended window produces a deeper, more refined flavor than drinking it at peak; a friend points to comparable vintages opened at their recommended window that blind tasters rate just as highly, and asks whether the extra years actually correlate with better ratings, rather than assuming age alone explains the collector's preference."
+  - "A fitness coach claims that training every single day without rest days builds more discipline and strength than a program with built-in recovery; a client points to elite athletes on rest-day programs who show equal or greater strength gains, and asks whether the extra training days are actually producing the claimed advantage in proportion to the added strain."
+critical-questions:
+  - "Is the comparison case actually well-matched -- do the birds' seasonal mating and the humans' claimed 'higher love' really measure the same underlying thing, or could the comparison be superficially apt while missing some relevant difference between species that makes the test invalid?"
+  - "Even if the modified-practice group shows no MORE of the claimed benefit in proportion to the indulgence, does that fully refute the superiority claim, or could the benefit be real but simply not scale linearly with the amount of the practice -- present at some threshold rather than growing with more of it?"
+  - "Does winning this kind of logical test actually change the other person's underlying commitment to the practice, or can a claim built on intuition and feeling survive being shown empirically ungrounded, as it does for the narrator here?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-madaj
+name: relinquishing-a-contested-prize-removes-you-from-further-attack
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A contested prize draws every rival claimant your way for as long as you hold it. Release it the moment its cost outweighs its worth, and the pursuit stops cold — there's nothing left to chase. In the Jataka's tale of the hawk and the meat, a hawk seizing food is set upon by other birds; the pattern repeats with whoever holds the meat, and stops the instant they release it: 'While the hawk had aught to eat, Birds of prey pecked at him sore, When perforce he dropped the meat, Then they pecked at him no more.'"
+related: []
+evokes: [jataka, catukkanipata, silavimamsa-jataka, releasing-a-contested-prize-ends-the-pursuit-instantly, holding-what-others-want-keeps-you-the-target]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-silavimamsa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 330, Silavimamsa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "While the hawk had aught to eat, Birds of prey pecked at him sore, When perforce he dropped the meat, Then they pecked at him no more."
+canonical-instances:
+  - "An executive holding onto a prestigious but politically embattled project keeps absorbing attacks from every rival who wants it; the moment they publicly step back and hand it off, the attacks stop entirely — nobody has any further reason to come after them."
+critical-questions:
+  - "Is relinquishing the prize actually the right call, or does it just reward whoever's willing to escalate the attack the hardest, teaching future aggressors that pressure works?"
+  - "Does the released prize simply transfer the exact same pursuit onto whoever picks it up next, meaning nothing is actually resolved at the level of the group, only relocated?"
+status: active

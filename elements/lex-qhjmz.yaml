@@ -1,0 +1,19 @@
+id: lex-qhjmz
+name: an-experts-fraud-fails-only-against-a-mark-who-knows-the-trick
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A specialist deceiver calibrates their method against marks who don't know the trick. That calibration leaves them with no defense the one time someone executes their own signature method right back at them. In the Jataka's tale of the rag-robe swap, a monk is famous for reworking old rags into a fine-looking robe and trading it for a brother's brand-new cloth. A country robe-maker known for the identical con hears about him, deliberately dresses up a rag-robe of his own, travels to the city specifically to offer it, and lets the famous swindler covet and trade for it — conning the con man with the con man's own technique. The city monk's surface-quality heuristics, tuned to exploit an unsuspecting victim, are exactly what the visiting forger exploits in return."
+related: []
+evokes: [jataka, ekanipata, baka-jataka, expert-fraud-defeated-by-its-own-method, threat-model-blind-to-a-mark-who-knows-the-trick]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-baka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 38, Baka-jataka, introductory Story of the Present. Verified verbatim against a direct extraction of the held copy."
+    quote: "Now, there was a robe-maker in a hamlet who used to cozen everybody just as the brother did at Jetavana... Then the thought struck him, \"Come now, let me cozen that city man!\""
+canonical-instances:
+  - "A contractor known locally for quietly substituting cheaper materials than the ones invoiced is approached by a supplier who deliberately invoices premium materials while delivering standard ones, betting correctly that the contractor's own habit of not checking closely will keep the swap from being noticed."
+critical-questions:
+  - "Does the technique require the forger to know specifically that this particular mark runs the same scam, or does calibrating a con against unsuspecting victims generally leave anyone who happens to know the trick equally able to exploit it?"
+  - "What happens after the exposure — does the city monk's fraud stop entirely once he's been shown it can be turned on him, or does he simply become more selective about future marks?"
+status: active

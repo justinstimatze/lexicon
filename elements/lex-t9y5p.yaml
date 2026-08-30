@@ -1,0 +1,21 @@
+id: lex-t9y5p
+name: a-false-promise-of-abundance-elsewhere-clears-a-guardian-from-their-post
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "One of the most effective ways to get past a guardian is not to overpower them but to give them a better reason, in their own eyes, to leave voluntarily -- especially a reason framed as generosity toward them. In Radin's Winnebago Trickster cycle, two mothers hesitate to leave their children to gather plums: 'we cannot leave our children alone for they are very disobedient.' Trickster removes the obstacle directly, offering himself as a substitute guardian: 'Sisters, if you wish to go, I will take care of the children for you.' He then makes the lure impossible to walk away from -- unlimited abundance, a clear confirming signal, and an explicit instruction not to second-guess it: 'You cannot really pick them all for they are too plentiful. If, toward evening, as the sun sets, you see the sky red, you will know that the plums are causing it. ... Do not turn back for you will surely find it.' The moment they are gone, the guardianship he volunteered for becomes the access he wanted: 'They started out and as soon as they were out of sight, he killed the children.' The mothers were not tricked into distrusting their instinct to stay; they were given an appealing, self-generated reason to leave that felt like their own good fortune. Diagnostic move: when someone offers to cover your responsibility so you can pursue an unusually generous opportunity elsewhere, especially one that also tells you in advance not to doubt it if things look strange, treat the offer to guard as the more consequential part of the deal than the opportunity itself."
+related: []
+evokes: [radin-winnebago-trickster-cycle, wakdjunkaga, i-will-take-care-of-the-children-for-you, do-not-turn-back-for-you-will-surely-find-it]
+lineage:
+  - source: primary
+    text: radin-trickster-lures-the-mothers-away-with-a-false-promise-of-plums
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'The Winnebago Trickster Cycle,' episode 27. Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "'We would like very much to have some, brother,' they said. 'However, we cannot leave our children alone for they are very disobedient.''Sisters, if you wish to go, I will take care of the children for you,' he said. ... 'You cannot really pick them all for they are too plentiful. If, toward evening, as the sun sets, you see the sky red, you will know that the plums are causing it. ... Do not turn back for you will surely find it.' They started out and as soon as they were out of sight, he killed the children, singed them, and then boiled them. They were racoons."
+canonical-instances:
+  - "A babysitting scammer offers to watch a family's children for free so the parents can attend a limited-time sale event across town, framing it as a favor, and uses the parents' absence to search the house for valuables while the children are left unsupervised."
+  - "A fraudster convinces a small business owner to leave their storefront unattended during business hours by offering to 'mind the register' while directing the owner toward an unusually generous supplier deal that turns out to require an in-person visit, then empties the till during the owner's absence."
+critical-questions:
+  - "Would the mothers have refused the offer if Trickster had not also solved their explicit stated obstacle, the disobedient children needing supervision, or was the guardianship offer the specific thing that converted a tempting opportunity into an actionable one?"
+  - "Is the instruction not to turn back, 'do not turn back for you will surely find it,' functioning mainly to keep the mothers moving forward physically, or is it also designed to preempt the moment of doubt that might otherwise make them check on their children partway through the journey?"
+  - "Does this pattern require the guardian's own generosity or trust to be exploited specifically, or would it work identically against a purely self-interested guardian who simply calculated that the trade, absence for opportunity, was worth the risk?"
+status: active

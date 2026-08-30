@@ -1,0 +1,19 @@
+id: lex-pps5s
+name: correct-an-imbalance-by-applying-its-opposite
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a system is out of balance, diagnose which direction it has moved before choosing a correction, and then correct in the opposite direction rather than applying a fixed remedy regardless of which way the imbalance runs. Hippocrates' Aphorisms states the rule and its polarity together: diseases arising from repletion (excess) are cured by depletion, and those arising from depletion (deficiency) are cured by repletion — in general, diseases are cured by their contraries. The same corrective action that fixes one direction of imbalance actively worsens the other, so the diagnostic step of identifying which direction a system has drifted is not optional groundwork before treatment — it determines which of two opposite treatments is the right one to apply."
+related: []
+evokes: [hippocrates, aphorisms, correct-imbalance-with-its-opposite, negative-feedback-correction-mechanism]
+lineage:
+  - source: primary
+    text: hippocrates-aphorisms-adams1849-sectionII-22
+    citation: "Hippocrates, Aphorisms, trans. Francis Adams (Sydenham Society, 1849), Section II, §22. Verified verbatim against a direct extraction of the held copy; a running head and page number falling mid-sentence in the scan's pagination are excised as printer's furniture."
+    quote: "Diseases which arise from repletion are cured by depletion ; and those that arise from depletion are cured by repletion ; and in general, diseases arc cnred l)y their contraries."
+canonical-instances:
+  - "a manager mandates reduced hours to fix what looks like chronic overwork, and the team's real problem turns out to be under-challenge and disengagement. The exact remedy that would have fixed genuine burnout deepens the disengagement instead."
+critical-questions:
+  - "Does 'cured by contraries' hold for every kind of imbalance, or only for imbalances that sit on a genuine single axis where excess and deficiency are truly opposite states rather than two different problems that happen to look similar?"
+  - "How reliably can the direction of an imbalance actually be diagnosed in practice, given that misreading which way a system has drifted means applying the wrong one of the two opposite corrections rather than merely an ineffective one?"
+status: active

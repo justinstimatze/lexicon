@@ -1,0 +1,22 @@
+id: lex-x4xw6
+name: indivisible-capacity-additions-cause-periodic-industry-wide-overcapacity
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When an industry's production technology only comes in large, discrete chunks — a new chemical plant, steel mill, or semiconductor fab sized to its own minimum efficient scale rather than to that moment's incremental demand growth — expect periodic industry-wide oversupply and price wars as a structural feature of the technology, not as evidence of any single firm's bad judgment or bad faith. A capacity decision this lumpy can't be timed to track demand smoothly: it either falls short (leaving money on the table) or overshoots by an amount much larger than normal demand growth can absorb quickly, and because several competitors often decide to add capacity around the same signal (rising demand, an improving margin), their additions land close together and compound. The resulting glut forces price cutting until demand grows into the excess capacity, after which the cycle can repeat. Before diagnosing an industry price war as a competitive-intensity or leadership failure, check whether the industry's capacity comes in large indivisible increments — if so, the boom-bust pattern is close to inevitable regardless of who's running which company."
+related: [lex-2m3ep]
+evokes: [lumpy-investment, minimum-efficient-scale, chlorine-and-vinyl-chloride, supply-demand-disruption, capacity-cycle]
+lineage:
+  - source: primary
+    text: porter-1979-capacity-large-increments
+    citation: "Michael E. Porter, 'How Competitive Forces Shape Strategy,' Harvard Business Review, March-April 1979, section 'Jockeying for position,' listing the structural drivers of intense industry rivalry. Verified verbatim against a direct pdftotext extraction of pp. 3-12 of the HBR reprint bundle (Porter's own article only)."
+    quote: "'Capacity is normally augmented in large increments. Such additions, as in the chlorine and vinyl chloride businesses, disrupt the industry's supply-demand balance and often lead to periods of overcapacity and price cutting.'"
+canonical-instances:
+  - "Semiconductor fabs: a single new fab costs billions and is sized for decades of minimum-efficient-scale output, not for next quarter's demand. When several manufacturers greenlight new fabs in response to the same demand upswing, the fabs come online in a similar window a few years later, producing the chip gluts and subsequent price collapses that have recurred across multiple semiconductor cycles."
+  - "Commercial airliner orders: airlines and lessors order aircraft in large batches years ahead of delivery: when several carriers order into the same favorable-outlook window, the deliveries land together, seat capacity on popular routes outruns near-term demand growth, and fares fall until traffic catches up."
+  - "operationally distinct from lex-2m3ep exit-barriers-keep-losers-competing-and-depress-everyones-returns: that atom explains why an existing glut PERSISTS (sunk, specialized assets keep losers in the game rather than exiting). This atom explains why the glut ARISES in the first place (capacity can only be added in chunks too large to match demand growth). The two compound: lumpy additions create the oversupply, high exit barriers keep it from clearing."
+critical-questions:
+  - "Does this require oligopoly-style coordination or common knowledge of rivals' plans, or does it work even when each firm decides independently — is the compounding effect (several firms' lumps landing in the same window) driven by genuinely independent responses to the same public demand signal, or by firms actually watching and reacting to each other's announced expansions?"
+  - "What determines the size of the 'lump' relative to the market — is minimum efficient scale itself changing over time (shrinking with modular plant designs, growing with automation), and would a shrinking lump size relative to market size dampen this cycle over time in a given industry?"
+  - "Does the same mechanism apply to capacity that could be added in smaller increments but is deliberately built oversized for other reasons (prestige, deterrence signaling to rivals) — is the driver always technological indivisibility, or can strategic overbuilding produce the identical oversupply pattern without a true minimum-efficient-scale constraint?"
+status: active

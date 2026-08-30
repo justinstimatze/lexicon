@@ -1,0 +1,19 @@
+id: lex-mh67m
+name: expand-a-private-corrections-occasion-into-a-lesson-for-everyone-present
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'An advocate can use a single individual''s specific grievance as the occasion to deliver a general ethical teaching to the entire assembled audience, expanding a one-on-one correction of the wrongdoer into a broadly applicable moral lesson for everyone present. In the Jataka''s tale of Dalhadhamma, the Bodhisatta does exactly this after restoring the elephant''s honor: "To all the multitude around this blessed truth I tell: Be grateful all, and for reward you long in heaven shall dwell."'
+related: []
+evokes: [jataka, sattanipata, dalhadhamma-jataka, private-correction-becomes-public-lesson, occasion-as-teaching-opportunity]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dalhadhamma-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 409, Dalhadhamma-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "To all the multitude around this blessed truth I tell: Be grateful all, and for reward you long in heaven shall dwell."
+canonical-instances:
+  - "After resolving one engineer's specific complaint about being passed over for credit, a team lead uses the all-hands meeting to lay out a general policy on crediting contributions, turning a single grievance into a standing lesson for the whole department."
+critical-questions:
+  - "Does broadcasting the lesson to everyone present risk publicly embarrassing the original wrongdoer beyond what the specific correction required?"
+  - "Is the general lesson actually warranted by one specific case, or does treating an isolated incident as proof of a universal pattern overreach what the evidence supports?"
+status: active

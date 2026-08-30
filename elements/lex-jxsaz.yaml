@@ -1,0 +1,18 @@
+id: lex-jxsaz
+name: staging-a-decoy-death-to-escape-a-plot-undetected
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Realizing she has been left in a place where she is meant to be killed, an intended victim substitutes an object for herself under a covering, then flees and hides, letting her would-be killers believe the plan succeeded. This allows escape without confrontation and without continued pursuit, since the aggressors believe the matter is already resolved. In the Jataka''s tale of Padakusalamanava, the old woman fakes her own death at the cemetery with a corpse in her place: she stretched a corpse on the bed and covered it over with a cloth, and ran away and hid herself in a mountain cave in that same place.'
+related: []
+evokes: [jataka, navanipata, padakusalamanava-jataka, faked-death-via-decoy, substituted-corpse-motif]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-padakusalamanava-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 432, Padakusalamanava-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "she stretched a corpse on the bed and covered it over with a cloth, and ran away and hid herself in a mountain cave in that same place."
+canonical-instances:
+  - "A whistleblower who learns her cover has been blown leaves behind a resignation letter and a cleared-out apartment that reads as someone who simply gave up and left town, then goes to ground elsewhere under a different name while her pursuers stop looking."
+critical-questions:
+  - "Staging a decoy only works once the aggressors stop verifying. What happens to this tactic against a pursuer who checks the outcome rather than assuming success?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-kegph
+name: a-disproportionate-tool-in-incompetent-hands-turns-trivial-into-fatal
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Entrusting a task to an ally whose competence doesn't match the force available to them can convert a minor irritant into a fatal outcome, in a way a hostile actor with no access to that force never could. In the Jataka's twin tales of the mosquito and the fly, a son asked to swat a mosquito off his sleeping father's bald head swings an axe instead and splits the father's skull; in the paired tale, a maid asked to shoo flies off her mother kills her with a pestle. Both stanzas draw the same explicit conclusion: an incompetent friend is more dangerous than an enemy with sense, because an enemy at least intends no harm, while a well-meaning ally with a mismatched tool has both the intent to help and the means to destroy."
+related: []
+evokes: [jataka, ekanipata, makasa-jataka, rohini-jataka, disproportionate-tool-in-incompetent-hands, incompetent-ally-worse-than-a-sensible-enemy]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-makasa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 44, Makasa-jataka, and its restatement as No. 45, Rohini-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Sense-lacking friends are worse than foes with sense; Witness the son that sought the gnat to slay, But cleft, poor fool, his father's skull in twain."
+canonical-instances:
+  - "A well-meaning junior administrator, asked to quietly remove one flagged user account from a production database, runs a broad deletion query that wipes out an entire customer table, causing far more damage than the original account would ever have caused left alone."
+critical-questions:
+  - "Is the actual failure the mismatch between the tool and the task, or is it the decision to hand a disproportionately powerful tool to someone without first confirming they know how to scale its use down?"
+  - "Does this pattern require genuine incompetence, or can the identical outcome occur from ordinary carelessness in someone who is otherwise entirely capable of using the tool correctly?"
+status: active

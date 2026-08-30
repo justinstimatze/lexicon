@@ -1,0 +1,19 @@
+id: lex-mpbsq
+name: punishing-the-first-transgressor-costs-less-than-letting-a-pattern-form
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a first minor abuse goes unanswered, check whether that passivity is what actually invites the pattern to repeat, rather than the abuse itself being an isolated event. Aesop's 'The Snake and Jupiter' has a snake trodden on by a traveller complain to Jupiter that no one takes care where they step; Jupiter names the real cause: 'if you had bitten the first that trod on you, the others would have taken more trouble to look where they put their feet.' A costly response to the very first offender establishes a population-level norm that deters everyone who comes after. The claim runs entirely on precedent; self-defense in the moment has nothing to do with it."
+related: []
+evokes: [aesop, the-snake-and-jupiter, deterrence-via-the-first-response, precedent-setting]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-snake-and-jupiter
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Snake and Jupiter.' Verified verbatim against a direct extraction of the held copy."
+    quote: "I dare say, said he, that if you had bitten the first that trod on you, the others would have taken more trouble to look where they put their feet."
+canonical-instances:
+  - "a platform that lets a first bad-faith account or bot slide watches the abuse scale from there. Other actors read non-enforcement of that first case as the going rate."
+critical-questions:
+  - "Does responding costly to the first offender always establish the intended deterrent, or can it sometimes be dismissed by later transgressors as a one-off overreaction rather than a stated policy?"
+  - "Is there a risk of disproportionate response built into this logic — does treating the first transgressor as a precedent-setting opportunity justify a harsher response than the first offense alone would otherwise warrant?"
+status: active

@@ -1,0 +1,20 @@
+id: lex-r2fnq
+name: banking-cheap-boons-first-to-soften-the-costly-one-last
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When someone has bound themselves to grant several requests under one open-ended promise, the order you ask in matters as much as what you ask for. Leading with requests that cost the grantor almost nothing builds their sense of you as reasonable, even generous toward them, before the request that actually costs them something arrives — so by the time it lands, backing out would mean reneging not on a stranger's ask but on a pattern of goodwill they've already been crediting themselves for extending. In the Jataka's tale of Sutasoma, granted any four boons he chooses by the man-eater who holds him captive, Sutasoma reasons through the order before speaking: \"He has spoken like a brave fellow and will do what I tell him; I will accept his offer. But if I should choose as the very first boon that he should abstain from eating human flesh, he will be very sick at heart. I will first choose three other boons, and after that I will choose this.\" The first three cost the man-eater nothing he values; the fourth costs him everything he came to the forest for."
+related: []
+evokes: [jataka, asitinipata, maha-sutasoma-jataka, request-sequencing, goodwill-banked-before-the-hard-ask]
+lineage:
+  - source: primary
+    text: jataka-francis1905-maha-sutasoma-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XXI (Asitinipata), No. 537, Maha-Sutasoma-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "He has spoken like a brave fellow and will do what I tell him; I will accept his offer. But if I should choose as the very first boon that he should abstain from eating human flesh, he will be very sick at heart. I will first choose three other boons, and after that I will choose this."
+canonical-instances:
+  - "A vendor granted 'anything within reason' after a contract dispute asks first for an extended deadline, then a small change order, then a minor scope reduction, each cheerfully approved, before finally asking for the one thing that actually matters: a full-price renewal despite the dispute, which the client now grants almost on momentum."
+  - "An employee negotiating a return-to-office exception after a manager says 'let's figure out something that works' starts with small, easy asks, a later start time, a specific desk, before raising the one that was the actual point, two remote days a week, landing it as the natural next step rather than the real ask it always was."
+critical-questions:
+  - "The man-eater grants the first three boons without suspecting where the sequence is headed — does the tactic depend on the grantor's genuine surprise at each step, and does it stop working the moment they notice the pattern partway through?"
+  - "Sutasoma chose this order to spare the man-eater's feelings, not to trap him — does the ethical status of boon-sequencing depend on the requester's intent, softening a hard ask out of consideration, versus a requester using the identical sequence purely to manipulate reluctant compliance?"
+status: active

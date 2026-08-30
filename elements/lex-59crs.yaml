@@ -1,0 +1,22 @@
+id: lex-59crs
+name: constancy-cannot-be-demanded-from-a-thing-defined-by-change
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When something's defining nature is constant change, don't read its next change as a betrayal of a prior state -- the change IS the constancy, and demanding it hold still is demanding it stop being the thing you engaged with in the first place. Philosophy makes this a paradox on purpose: Fortune's mutability is itself her one unchanging trait, so a person who complains that Fortune 'changed' has misdiagnosed the situation -- Fortune never changed at all, she behaved exactly as she always does. 'Thou deemest Fortune to have changed towards thee; thou mistakest. Such ever were her ways, ever such her nature. Rather in her very mutability hath she preserved towards thee her true constancy. [...] What! art thou verily striving to stay the swing of the revolving wheel? Oh, stupidest of mortals, if it takes to standing still, it ceases to be the wheel of Fortune.'"
+related: []
+evokes: [consolation-of-philosophy, book-ii-prose-i, if-it-takes-to-standing-still-it-ceases-to-be-the-wheel-of-fortune, her-true-constancy-is-her-mutability, wheel-of-fortune-rota-fortunae]
+lineage:
+  - source: primary
+    text: boethius-c524-consolation-of-philosophy-book-ii-prose-i
+    citation: "Boethius, The Consolation of Philosophy (c. 524 AD), trans. H. R. James (London: George Bell & Sons, 1897), Book II, Prose I. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "Thou deemest Fortune to have changed towards thee; thou mistakest. Such ever were her ways, ever such her nature. Rather in her very mutability hath she preserved towards thee her true constancy. [...] What! art thou verily striving to stay the swing of the revolving wheel? Oh, stupidest of mortals, if it takes to standing still, it ceases to be the wheel of Fortune."
+canonical-instances:
+  - "An investor complains that a volatile stock 'betrayed' them by crashing after years of gains, when the stock's volatility -- the same trait that produced the gains -- never once stopped being volatile."
+  - "Someone feels wronged when a famously unreliable friend fails to show up again, as though this instance of unreliability were a departure from their character rather than the character itself operating exactly as it always has."
+  - "A startup founder feels blindsided when a fast-moving market shifts against their product, despite having chosen that market specifically for how fast it moves."
+critical-questions:
+  - "Does calling the whole pattern 'constancy' let a genuinely harmful or exploitative actor off the hook, by relabeling every fresh instance of harm as merely the expected operation of an already-known trait?"
+  - "Is there a meaningful difference between a system whose changes are genuinely random (an actual wheel of fortune) and one whose changes are patterned or predictable, where 'it's just being itself' wrongly forecloses asking whether the pattern could have been anticipated and hedged against?"
+  - "If the mutable thing's true constancy was knowable in advance, does that shift any responsibility onto the person who engaged with it anyway, or does knowing a thing will eventually hurt you not obligate you to have refused it in the first place?"
+status: active

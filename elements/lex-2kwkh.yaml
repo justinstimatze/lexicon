@@ -1,0 +1,36 @@
+id: lex-2kwkh
+name: reality-threshold-crossing
+type-in: state
+type-out: state
+_tier: atomic
+agent-instruction: "When a hypothetical crosses into reality, the threshold-crossing itself changes its character. 'I might do X' and 'I did X' aren't on the same continuum. Surface the crossing-event explicitly when it happens; pre-crossing and post-crossing reasoning don't transfer cleanly."
+related: [lex-uz7g4, lex-dzqje, lex-5yufs, lex-tjwfn, lex-e8wv6, lex-nzj6u, lex-8cbn9, lex-h7z9x, lex-ksqk8, lex-ebujz]
+scaffolds-from: [lex-h7z9x]
+evokes: [diegetic-non-diegetic-boundary, frame-permeable, this-is-not-a-game-it-is-the-game, breaking-the-fourth-wall-from-the-other-side, the-call-was-from-inside-the-house]
+lineage:
+  - source: primary
+    text: goffman-1974-frame-analysis
+    citation: "Erving Goffman, Frame Analysis: An Essay on the Organization of Experience (Harper & Row, 1974), p.84, ch. 'Designs and Fabrications' — the canonical sociological treatment of frames as bounded interpretive containers, with explicit analysis of frame-keying, frame-breaking, frame-shifting. Goffman's notion of 'fabrication' (a frame designed to mislead a participant about which frame is operative) is the closest sociological precursor to immersive-design's reality-threshold-crossing. Goffman is also the canonical source for lex-tjwfn recursive-mind-simulation-shapes-self (1956 Edinburgh Monograph) — the same author at two stages of his career"
+    quote: "'I refer to the intentional effort of one or more individuals to manage activity so that a party of one or more others will be induced to have a false belief about what it is that is going on.'"
+  - source: primary
+    text: schechner-1985-between-theater-and-anthropology
+    citation: "Richard Schechner, Between Theater and Anthropology (University of Pennsylvania Press, 1985), ch.2 'Restoration of Behavior' — the canonical text on performance-as-restored-behavior and on the liminal zone between staged-and-actual. Schechner's 'efficacy-vs-entertainment' continuum and his work on environmental theater (Performance Group / The Wooster Group) provide the theoretical scaffolding for reality-threshold-crossing as a design-stance move. Direct precursor to immersive-theater's contemporary practice"
+    quote: "'Restored behavior is living behavior treated as a film director treats a strip of film.' [...] 'They are independent of the causal systems (social, psychological, technological) that brought them into existence. They have a life of their own.' [...] 'In fact, restored behavior is the main characteristic of performance.'"
+canonical-instances:
+  - "Sleep No More entry sequence: audience members put on white masks and are told they may explore freely; the mask is the threshold-crossing artifact. From the moment the mask is on, the social rules of theater (sit still, applaud) are suspended; the rules of the world are now in force. The mask both signals and enforces the crossing"
+  - "ARG 'this is not a game' (TINAG) convention: the genre rule that the immersive fiction NEVER acknowledges itself as fiction within its own frame. Phone numbers really ring; URLs really exist; characters respond to genuine emails. The threshold has been pre-crossed by the design; participant discovers themselves already inside"
+  - "The Game (1997 Fincher film) as fictional treatment: the protagonist is enrolled in an experience that systematically erodes his ability to distinguish staged-vs-actual, with the explicit design intent that he cross the threshold and stay across. The film's structure is itself a meditation on the design-stance"
+  - "Punk'd / hidden-camera-prank televised genre: the same mechanism in a comedy register; participant's reality-frame is the essential element. The participant doesn't know they're inside someone else's frame, which IS the entertainment for the external audience"
+  - "religious-ritual initiation: many traditions use literal threshold-crossing (door-thresholds, river-crossings, masks, fasts) to mark the participant's transition from profane to sacred frame. Van Gennep 1909 *Les rites de passage* and Turner 1969 *The Ritual Process* (liminal phase) are the anthropological canon"
+  - "operationally distinct from lex-uz7g4 archetype-as-projective-shorthand: archetype gives WHO you are seen-as in the new frame; reality-threshold-crossing gives WHEN/HOW the frame-shift occurs. They often co-fire in immersive design (you cross threshold AND adopt archetypal role) but are separately specifiable"
+  - "operationally distinct from lex-dzqje licensed-transgression-within-trusted-frame: licensed-transgression is the specific case of frame-shift that permits otherwise-prohibited actions (carnival, role-play, ritual sacrifice); reality-threshold-crossing is the broader category of any frame-shift. Licensed-transgression is one CONSEQUENCE of crossing certain thresholds; not all crossings license transgression"
+  - "operationally compositional with lex-tjwfn recursive-mind-simulation-shapes-self: once the threshold is crossed, the participant's recursive self-modeling (am-I-being-watched, what-do-they-see) shifts to operate within the new frame. The crossing rebuilds the recursive-self machinery on new ground"
+  - "operationally adjacent to lex-5yufs form-persists-when-content-dissolves: when threshold-crossing fails (participant doesn't fully cross), the form (mask, ritual, scripted role) persists while the content (interior frame-shift) dissolves. The hollow-ritual phenomenon"
+  - "foundational critical question: was the threshold crossed consensually? Goffman distinguishes 'frames the participant is aware of' (keying) from 'fabrications' (frames designed to mislead). Immersive-theater conventions assume consent (you bought the ticket); ARG TINAG conventions are ambiguous; deceptive-design (cult initiation, social engineering) crosses without consent. Same mechanism, different ethical valences"
+  - "decisive critical question: is reality-threshold-crossing reversible? Some crossings (mask off, applause, curtain) build in clean reversal. Others (cult immersion, deep ARG engagement) make reversal increasingly costly. The design-stance ethics depends substantially on reversibility provisions"
+critical-questions:
+  - "what specifically counted as 'crossing the threshold' — name the observable, not the felt-sense"
+  - "is the threshold being treated as binary when the underlying variable is continuous (gradient)?"
+  - "did the threshold move because reality changed, or because your observation method changed?"
+  - "what's the action that becomes available now that the threshold has been crossed — and is the action right-sized to the actual crossing?"
+status: active

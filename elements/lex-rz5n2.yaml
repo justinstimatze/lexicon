@@ -1,0 +1,21 @@
+id: lex-rz5n2
+name: an-unformed-plan-dies-when-disclosed-too-early
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Treat a plan still in its formative stage as fragile against premature disclosure, not just against opposition. The I Ching's Great Appendix states the mechanism as a direct causal chain: 'When disorder arises, it will be found that ill-advised speech was the steppingstone to it. If a ruler do not keep secret his deliberations with his minister, he will lose that minister. If a minister do not keep secret his deliberations with his ruler, he will lose his life. If important matters in the germ be not kept secret, that will be injurious to their accomplishment.' The claim isn't generic caution about talking too much — it names a specific stage (a matter still 'in the germ,' not yet ready to withstand outside pressure) where speech that would be harmless later actively damages the outcome. The prescription that follows, guarding speech, is scoped to that formative window rather than applied as a blanket rule."
+related: []
+evokes: [i-ching, legge, great-appendix, secrecy, premature-disclosure]
+lineage:
+  - source: primary
+    text: i-ching-legge-1899-appendix3-great-appendix-secrecy
+    citation: "The Yî King (I Ching), translated by James Legge, Sacred Books of the East vol. 16 (Oxford, 1899), Appendix III (The Great Appendix), Section I, Chapter VIII, paragraph 47. Verified verbatim against a direct fetch of sacred-texts.com's own hosted page for this appendix, clean digital text, no OCR."
+    quote: "When disorder arises, it will be found that (ill-advised) speech was the steppingstone to it. If a ruler do not keep secret (his deliberations with his minister), he will lose that minister. If a minister do not keep secret (his deliberations with his ruler), he will lose his life. If (important) matters in the germ be not kept secret, that will be injurious to their accomplishment. Therefore the superior man is careful to maintain secrecy, and does not allow himself to speak."
+canonical-instances:
+  - "The passage grounds its claim in a specific hexagram line ('He does not quit the courtyard before his door; there will be no occasion for blame'), reading the line's image of staying within one's own courtyard as the concrete behavior that avoids the disclosure risk — the abstract secrecy claim gets tied to an actual stated action rather than floating free as generic advice."
+  - "A startup that announces a pivot to investors and the press before the new product direction has actually been validated internally often finds the announcement itself constrains and damages the pivot — competitors react, the old customer base disengages, and the team loses the room to quietly abandon the idea if it doesn't work, exactly the 'germ' vulnerability this passage names."
+critical-questions:
+  - "How does an actor tell, in the moment, whether a matter has moved past 'the germ' stage into one robust enough to survive disclosure — is there a reliable marker, or does this only become clear in hindsight?"
+  - "Does treating secrecy as protective ever become self-defeating — could keeping deliberations hidden prevent the very external input (allies, information, correction) that would have improved the plan before it had to face real-world pressure?"
+  - "Is the ruler-loses-minister and minister-loses-life framing specific to a hierarchical, high-stakes political context, or does the same germ-stage vulnerability apply just as much to a low-stakes personal plan shared too early?"
+status: active

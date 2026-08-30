@@ -1,0 +1,19 @@
+id: lex-guakd
+name: declining-a-volunteer-substitute-because-only-the-original-has-the-deterrent-trait
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone volunteers to take on a dangerous task in another's place out of care or duty, the offer can still be refused for a reason that has nothing to do with the substitute's competence or willingness: the original's deterrent effect may depend on a specific attribute — size, reputation, visible standing — that the substitute doesn't yet possess. Swapping in the substitute wouldn't just risk the substitute; it would remove the very thing that was keeping the threat passive. In the Jataka's tale, the young tortoise offers to face the men who plan to kill his father in his place: \"Here at thy ease remain, O father mine, / And I thy son will do this task of thine.\" The father accepts the sentiment but declines the substitution on a specific, stated ground — his own bulk is doing deterrent work the son's cannot yet do: \"Yet they may leave the Hawk's young brood alone, / Perchance, if they see me so fully grown.\""
+related: []
+evokes: [jataka, pakinnakanipata, maha-ukkusa-jataka, deterrence-depends-on-a-specific-trait-not-general-willingness, refusing-a-well-meant-substitute]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-maha-ukkusa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XIV (Pakinnaka-Nipata), No. 486, Maha-Ukkusa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Yet they may leave the Hawk's young brood alone, / Perchance, if they see me so fully grown."
+canonical-instances:
+  - "A veteran negotiator's junior colleague offers to take the next tense meeting alone to spare their boss the stress, and is turned down not because the junior lacks skill but because the other side has only ever backed off when the veteran personally is in the room — a reputation the junior hasn't built yet."
+critical-questions:
+  - "The father tortoise never explains how he knows his size is the deterrent rather than, say, his age or his manner — the story simply confirms he's right. How would you tell, before the fact, whether a substitution genuinely removes a working deterrent or is just an untested assumption about what's been keeping the threat at bay?"
+  - "Does refusing the substitute on these grounds train the substitute out of ever developing the trait that would let them take over later, since they never get to test it under real conditions?"
+status: active

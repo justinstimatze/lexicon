@@ -1,0 +1,20 @@
+id: lex-d9vwq
+name: a-failed-test-of-a-claim-can-be-explained-by-the-testers-own-unfitness
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: 'When someone proposes a supposedly decisive practical test of a claim and the test predictably fails to produce results, don''t rush to explain why the claim survived the test — check whether the failure is fully explained by something about the tester that has nothing to do with the claim''s truth. In the Mahanaradakassapa-Jataka, King Angati tries to expose the doctrine of an afterlife as empty talk with a wager: "If thou believest, Narada, that there is in another world a dwelling-place for the dead, then give me here five hundred pieces, and I will give thee a thousand in the next world." Narada doesn''t defend the afterlife directly — he points out that no one lends to a debtor with no intention or capacity to repay: "I would give thee the five hundred if I knew that thou wast virtuous and generous; but who would press thee for the thousand in the next world, if thou, the merciless one, wast dwelling in hell?" The wager''s failure to produce a loan proves the king is a bad credit risk, not that the next world doesn''t exist.'
+related: []
+evokes: [jataka, mahanipata, mahanaradakassapa-jataka, flawed-test, confound, null-result-misattribution]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-mahanaradakassapa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 544, Mahanaradakassapa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "I would give thee the five hundred if I knew that thou wast virtuous and generous; but who would press thee for the thousand in the next world, if thou, the merciless one, wast dwelling in hell? Here when a man is averse to virtue, a lover of sin, idle, and cruel,—wise men do not entrust a loan to him: there is no return from such a debtor."
+canonical-instances:
+  - "A skeptic 'proves' a fitness program doesn't work by trying it for three days and quitting; the program's failure to produce results on him confirms nothing about the program's efficacy, since he never actually ran the trial it requires."
+  - "An investor 'tests' whether a founder's business plan is sound by offering to fund it only on terms no reasonable founder would accept, then cites the founder's refusal as proof the plan itself was never viable."
+critical-questions:
+  - "Narada's reversal is rhetorically clean, but does it actually answer the king's underlying challenge — that no one has ever produced verifiable evidence of an afterlife — or does it just relocate the unfalsifiability one step further away?"
+  - "How do you tell, from outside the exchange, whether a test really was confounded by the tester's unfitness, versus whether that explanation is just a convenient excuse for why the claim failed to deliver?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-44uq4
+name: half-learned-competence-is-more-dangerous-than-none-or-mastery
+type-in: state
+type-out: claim
+_tier: atomic
+agent-instruction: "Danger from a skill doesn't decrease steadily as competence increases from zero — it can rise first. Someone with no training in a dangerous domain is usually cautious enough to avoid attempting what they can't do, and someone with full training avoids it by actually succeeding; the person with just enough training to attempt confidently but not enough to succeed safely sits in the most dangerous position of the three. When assessing whether a partially-trained person should attempt something, the comparison worth making is against someone with no training at all, who'd have known better than to try — the expert comparison sets the wrong baseline entirely."
+related: [lex-4697f]
+evokes: [galef, kotowaza, japanese-proverbs, a-little-learning-is-a-dangerous-thing, the-danger-peak-of-partial-competence]
+lineage:
+  - source: primary
+    text: galef-1987-even-monkeys-fall-from-trees
+    citation: "David Galef (compiler and translator), *Even Monkeys Fall From Trees: And Other Japanese Proverbs*, illustrations by Jun Hashimoto, foreword by Edward G. Seidensticker (Tuttle Publishing, copyright 1987; ebook ISBN 978-1-4629-0318-4), Proverb No. 94. Verified verbatim against a direct extraction of the held copy."
+    quote: "Nama-byōhō wa ō-kega no moto. Crude military tactics are the cause of severe casualties."
+canonical-instances:
+  - "A hiker who has done a few day trips attempts a technical winter ascent that a total novice would have known to avoid and an experienced mountaineer would have completed safely — the middling experience is what supplied the confidence to attempt it at all."
+  - "operationally distinct from lex-4697f incompetence-in-a-domain-blocks-the-metacognitive-ability-to-recognize-the-incompetence: that atom is about a SELF-ASSESSMENT failure — the unskilled can't see their own gap. This atom is about an OBJECTIVE danger curve — even a person with an accurate sense of their own middling skill can still be in the most dangerous position, because partial competence licenses attempts that neither zero competence nor full competence would attempt in the same way. They can compound (unrecognized partial competence is worse than recognized partial competence) but the mechanisms are separate."
+critical-questions:
+  - "Is the danger curve here actually non-monotonic in this specific domain, or does risk simply decrease steadily with skill and the felt confidence-vs-competence gap is doing all the explanatory work instead?"
+status: active

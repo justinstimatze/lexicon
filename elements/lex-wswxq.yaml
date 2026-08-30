@@ -1,0 +1,19 @@
+id: lex-wswxq
+name: each-refuted-pretext-is-replaced-by-a-bigger-one-regardless
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: 'Each time a victim successfully rebuts one accusation, an aggressor already committed to violence can simply supply a new, more expansive pretext rather than concede the point, because the justification was never the actual cause of the coming violence — only its cover, with the outcome fixed independent of any argument offered. In the Jataka''s tale of Dipi, the panther manufactures a fresh accusation each time the she-goat disproves the last one, and the tale''s own closing stanza names the pattern directly: "Conduct, nor right, nor courtesy, the bad man will display; He hates the good: to face him then ''tis best in open fray."'
+related: [lex-88muq]
+evokes: [jataka, atthanipata, dipi-jataka, pretext-survives-rebuttal, wolf-and-the-lamb]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dipi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 426, Dipi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Conduct, nor right, nor courtesy, the bad man will display; He hates the good: to face him then ‘tis best in open fray."
+canonical-instances:
+  - "A landlord looking for a reason to evict a tenant cites late payment. The tenant produces receipts proving every payment was on time, so he switches to noise complaints; a clean record from the building super gets him switching again. None of the stated reasons was ever what the eviction was actually about."
+critical-questions:
+  - "Refuting the stated pretext never changes the outcome here. Is there any value left in doing it anyway, past costing the target time while the aggressor moves to the next pretext?"
+  - "How early in the pattern could the she-goat, or anyone in her position, have recognized that the accusations were pretextual rather than genuine, before exhausting herself trying to answer each one?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-wywde
+name: replacing-a-signoff-process-with-a-faster-one-can-erase-accountability
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Substituting a documented, multi-party signoff process with a faster alternative that also happens to remove the record of who approved what can be sold purely as an efficiency gain, while its actual effect is clouding responsibility for critical procedures. A replacement system requiring 'either no signatures at all for work done or only [the replacing party's] personnel signatures' genuinely does speed up work — that part of the pitch is true — but speed and accountability-erasure arrive bundled together, and the efficiency framing is what makes the accountability loss go unexamined. Treat any process-speedup proposal that also reduces the number of independent parties whose sign-off is required as two separate changes bundled into one, and evaluate each on its own terms."
+related: [lex-9dk2x]
+evokes: [jackall-moral-mazes, "clouded responsibility for the accomplishment of important procedures", speed-as-cover-for-accountability-loss]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch5-bechtel-work-packages
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 5, Drawing Lines."
+    quote: "Bechtel substituted its own \"work package system\" for Wilson's UWI system. Bechtel's work packages required either no signatures at all for work done or only Bechtel personnel signatures. This system did speed up work but it also clouded responsibility for the accomplishment of important procedures."
+canonical-instances:
+  - "A hospital replaces a two-nurse medication-verification signoff with a single-scan barcode system pitched purely on speed, and only afterward notices that a category of transcription errors the second signoff used to catch now goes unflagged."
+critical-questions:
+  - "Was the accountability loss here an unavoidable tradeoff for the speed gained, or was there a version of the faster system that could have preserved independent sign-off without sacrificing the efficiency the replacement was adopted for?"
+status: active

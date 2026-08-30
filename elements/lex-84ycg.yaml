@@ -1,0 +1,22 @@
+id: lex-84ycg
+name: a-name-reads-as-pejorative-until-its-origin-story-is-known
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A person's name can sound strange or negative when read at face value in an outside frame, while actually referencing a specific, dignified originating event that only becomes legible once its origin story is told -- reading the name literally erases the meaning it was built to carry. In English, 'Crazy Horse' invites exactly the wrong inference: an animal out of control, a man given to recklessness. Black Elk supplies the correction directly: the name 'does not mean that his horse was crazy or wild,' but comes from a specific vision in which Crazy Horse's own horse, in the spirit-world behind this one, 'danced around like a horse made only of shadow.' The English gloss preserves the surface word and discards the referent -- a listener who stops at the translation gets an insult where the name-givers intended a description of a sacred experience."
+related: []
+evokes: [black-elk-speaks, wasichus-in-the-hills, crazy-horse, danced-around-in-that-queer-way, name-misread-without-origin-story]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch7-wasichus-in-the-hills
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 7, 'Wasichus in the Hills.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "His horse was standing still there, and yet it danced around like a horse made only of shadow, and that is how he got his name, which does not mean that his horse was crazy or wild, but that in his vision it danced around in that queer way."
+canonical-instances:
+  - "A martial art called 'Drunken Fist' sounds, in translation, like a joke or an admission of sloppiness, until its origin story explains the style was built to mimic a specific master's genuinely precise, deliberately unpredictable footwork, not actual intoxication."
+  - "A person's inherited surname sounds comic or crude to speakers of their new country's language. Back in the original language it named a respected trade, and only that history recovers what the name was ever meant to say."
+  - "A sports team nickname sounds aggressive or violent taken at face value, until fans learn it actually commemorates a specific historical event or local landmark that has nothing to do with aggression at all."
+critical-questions:
+  - "Once a name has been widely used and understood by outsiders in its literal, misreading sense for generations, does the recovered origin story actually restore the original meaning in practice, or has the mistake simply become what the name means now, whatever its etymology says?"
+  - "Does Black Elk's correction actually settle what the name means, or is a name's meaning partly constituted by how it's understood by whoever is using it, in which case both readings coexist rather than one simply being wrong?"
+  - "Would Crazy Horse himself have wanted or expected non-Lakota speakers to know the origin story, or was the name's meaning always intended for an audience that already shared the frame needed to read it correctly?"
+status: active

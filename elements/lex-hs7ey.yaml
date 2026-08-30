@@ -1,0 +1,21 @@
+id: lex-hs7ey
+name: a-binary-can-share-a-hidden-premise-both-poles-depend-on
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When facing an apparent subjective-versus-objective binary, check whether both poles secretly rest on one premise a third position could refuse outright, rather than split between them. Thacker's case: moral pessimism (the 'world-for-us,' the world judged by human solipsism) and metaphysical pessimism (the 'world-in-itself,' the world judged as objectively worst) both still put a human vantage in the judge's seat. His 'cosmic pessimism' works differently than a compromise between the two positions: it's what remains once that shared premise, a human vantage capable of judging the world at all, drops out, at a scale where neither pole retains any purchase. The diagnostic move generalizes: when someone proposes a third option to an entrenched binary, check whether it averages the two poles or actually names and rejects the assumption they both needed."
+related: [lex-qqvug]
+evokes: [eugene-thacker, cosmic-pessimism, world-for-us, world-in-itself, world-without-us, correlationism]
+lineage:
+  - source: primary
+    text: thacker-2015-cosmic-pessimism-shared-premise
+    citation: "Eugene Thacker, Cosmic Pessimism (Univocal Publishing, 2015). Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "Pessimism's two major keys are moral and metaphysical pessimism, its subjective and objective poles, an attitude towards the world and a claim about the world. For moral pessimism, it is better not to have been born at all; for metaphysical pessimism, this is the worst of all possible worlds. For moral pessimism the problem is the solipsism of human beings, the world made in our own image, a world-for-us. For metaphysical pessimism, the problem is the solipsism of the world, objected and projected as a world-in-itself. Both moral and metaphysical pessimism are compromised philosophically [...] Both moral and metaphysical pessimism point to another kind, a pessimism that is neither subjective nor objective, neither for-us nor in-itself, and instead a pessimism of the world-without-us."
+canonical-instances:
+  - "The specific shared premise Thacker names for both poles is solipsism itself. Moral pessimism's version projects the human onto the world, yielding a world-for-us. Metaphysical pessimism's version projects the world's own totality back as if seen from outside it, yielding a world-in-itself. A totalizing viewpoint survives in both — just relocated."
+  - "The diagnostic test for a proposed third option: does it merely average the two poles, or does it name and reject what they both assumed? Thacker's world-without-us fails the first test (it isn't a blend of for-us and in-itself) and passes the second (it explicitly drops the human-vantage premise both poles needed)."
+critical-questions:
+  - "Is 'the world-without-us' a coherent third position at all, or does even naming it require the same human vantage it claims to discard — can a perspective be articulated from nowhere?"
+  - "Does this diagnostic generalize past this specific pessimism/optimism binary to other apparent subjective-objective splits, or is something particular to solipsism-as-shared-premise doing the work here?"
+  - "How would you distinguish a genuine third position that refuses a binary's shared premise from a position that merely relabels one of the two original poles under new terminology?"
+status: active

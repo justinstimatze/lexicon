@@ -1,0 +1,19 @@
+id: lex-vqaav
+name: technically-true-flattery-can-defeat-a-captors-own-checkable-rule
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a captor or gatekeeper has imposed a formal, checkable test on themselves, check whether you can survive it not by solving a puzzle but by supplying statements that are technically true and happen to flatter the gatekeeper's own self-image. Aesop's 'The Wolf and the Boy' has a wolf demand three indisputable truths before releasing a captured boy; the boy names the wolf's own strength, ferocity, and daring, and the wolf, bound by the rule it set for itself, honors it against its predatory interest: 'Well, what you say is true enough from your point of view; so you may go.' The hinge is that the captor imposed a checkable criterion on itself, which is precisely what makes face-saving compliance exploitable — the boy did not need to be clever about escaping, only accurate about praising."
+related: []
+evokes: [aesop, the-wolf-and-the-boy, self-imposed-checkable-rule, flattering-technically-true-escape]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-wolf-and-the-boy
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Wolf and the Boy.' Verified verbatim against a direct extraction of the held copy."
+    quote: "The Wolf replied, Well, what you say is true enough from your point of view; so you may go."
+canonical-instances:
+  - "satisfying a formal review or disclosure requirement with statements that are individually unfalsifiable and happen to flatter the reviewing institution's own self-narrative, meeting the letter of the rule without any genuine concession."
+critical-questions:
+  - "Does this only work when the captor genuinely values consistency with its own imposed rule, or would a captor willing to break its own stated criterion simply ignore the technically-true answer once flattery fails to move it emotionally?"
+  - "Is there a limit to how far this technique generalizes — does it require the specific combination of a checkable rule and an ego invested in the answer, or does mere technical truth suffice against any self-bound gatekeeper?"
+status: active

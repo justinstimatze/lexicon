@@ -1,0 +1,19 @@
+id: lex-kptb3
+name: one-timely-rebuttal-from-a-trusted-advisor-reverses-a-rulers-favor
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A ruler's freshly-formed admiration for a display can be undone entirely by a single well-timed counter-argument from a trusted advisor, before the admiration converts into a reward. In the Jataka's tale of Setaketu, right after the king praises a group of ascetics for their austerities, the family priest reframes their display as insufficient without right conduct — and the king's favor flips instantly. 'A learned sage may do ill deeds, O king: A learned sage may fail to follow right: A thousand Vedas will not safety bring, Failing just works, or save from evil plight.' ... 'When the king heard this, he took away his favour from the ascetics.'"
+related: []
+evokes: [jataka, chanipata, setaketu-jataka, timely-rebuttal-reverses-favor, advisor-intercepts-before-reward]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-setaketu-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 377, Setaketu-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "A learned sage may do ill deeds, O king: A learned sage may fail to follow right: A thousand Vedas will not safety bring, Failing just works, or save from evil plight. ... When the king heard this, he took away his favour from the ascetics."
+canonical-instances:
+  - "A board member visibly impressed by a flashy product demo has the enthusiasm reversed within the same meeting when the CFO points out the demo used fabricated data, before any funding decision is finalized."
+critical-questions:
+  - "Does the timing of the rebuttal matter more than its content — would the same argument delivered a day later, after the reward was already granted, have failed to reverse anything?"
+  - "What gives the advisor's single counter-argument more weight than the audience's own direct impression of the display they just watched?"
+status: active

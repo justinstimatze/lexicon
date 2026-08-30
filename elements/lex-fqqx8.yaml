@@ -1,0 +1,23 @@
+id: lex-fqqx8
+name: pity-belongs-to-the-wrongdoer-not-the-wronged
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Legal and social practice reserves pity for the victim of a wrong and anger for its perpetrator -- but a consistent illness-model of wrongdoing would reverse that assignment: if wickedness is a disease of the soul, the wrongdoer, not the person wronged, is the one deserving compassion, the way a sick person deserves a physician's care rather than a judge's fury. This is a distinct, prescriptive companion to the comparative-misery claim in [[lex-e9qfp]] (that the wrongdoer is simply worse off than the victim) -- here the point is what emotional and institutional posture that fact should produce. Philosophy names the mismatch directly: 'the practice of the law-courts is just the opposite: advocates try to arouse the commiseration of the judges for those who have endured some grievous and cruel wrong; whereas pity is rather due to the criminal, who ought to be brought to the judgment-seat by his accusers in a spirit not of anger, but of compassion and kindness, as a sick man to the physician, to have the ulcer of his fault cut away by punishment.'"
+related: [lex-e9qfp, lex-rnkta]
+scaffolds-from: [lex-e9qfp]
+evokes: [consolation-of-philosophy, book-iv-prose-iv, pity-is-rather-due-to-the-criminal, as-a-sick-man-to-the-physician, restorative-not-retributive-justice]
+lineage:
+  - source: primary
+    text: boethius-c524-consolation-of-philosophy-book-iv-prose-iv
+    citation: "Boethius, The Consolation of Philosophy (c. 524 AD), trans. H. R. James (London: George Bell & Sons, 1897), Book IV, Prose IV. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "the practice of the law-courts is just the opposite: advocates try to arouse the commiseration of the judges for those who have endured some grievous and cruel wrong; whereas pity is rather due to the criminal, who ought to be brought to the judgment-seat by his accusers in a spirit not of anger, but of compassion and kindness, as a sick man to the physician, to have the ulcer of his fault cut away by punishment."
+canonical-instances:
+  - "A restorative-justice program reframes a courtroom's entire emotional register: instead of prosecutors performing outrage on the victim's behalf, facilitators approach the offender the way an intake nurse approaches a patient -- diagnosing what produced the harm rather than building a case for how much anger it deserves."
+  - "A workplace investigating a manager's pattern of dishonesty treats the manager, not the employees who were misled, as the one who needs an intervention plan, coaching, and monitoring -- framing the dishonesty as a correctable deficiency in the manager rather than reserving all institutional concern for the people harmed by it."
+  - "A family therapist working with a parent who has behaved cruelly toward a child insists the parent is the one who most urgently needs therapeutic attention, not out of minimizing the child's suffering, but because only intervening on the parent's own condition prevents the harm from recurring."
+critical-questions:
+  - "Does directing pity toward the wrongdoer risk starving the actual victim of the acknowledgment and support they need, since compassionate attention is a limited social resource and courtrooms already routinely under-serve victims?"
+  - "The physician analogy assumes wrongdoing is always a treatable, disease-like condition -- what happens to this framework when a wrongdoer's actions were calculated and unrepentant, hard to read as the product of any underlying sickness that punishment-as-cure could plausibly correct?"
+  - "If pity is due to the wrongdoer and anger is unreasonable, does that leave any legitimate place for a victim's own anger at what was done to them, or does the framework implicitly ask victims to also adopt the physician's clinical detachment toward the person who harmed them?"
+status: active

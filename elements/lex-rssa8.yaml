@@ -1,0 +1,22 @@
+id: lex-rssa8
+name: transpose-a-hierarchy-onto-a-weaker-species-to-expose-its-arbitrariness
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "A claimed hierarchy of rank or power can be exposed as arbitrary by transposing it onto a much smaller or physically weaker class of creature -- the same spectacle that looks natural and impressive among humans becomes obviously absurd once played out among near-identical, low-status animals, because the absurdity was always there, just invisible at the scale where the claim is normally made. Philosophy performs the transposition directly: 'Suppose, now, that in the mouse tribe there should rise up one claiming rights and powers for himself above the rest, would ye not laugh consumedly? Yet if thou lookest to his body alone, what creature canst thou find more feeble than man, who oftentimes is killed by the bite of a fly, or by some insect creeping into the inner passage of his system!'"
+related: []
+evokes: [consolation-of-philosophy, book-ii-prose-vi, the-mouse-tribe-claiming-rights-and-powers, killed-by-the-bite-of-a-fly, scale-transposition-satire]
+lineage:
+  - source: primary
+    text: boethius-c524-consolation-of-philosophy-book-ii-prose-vi
+    citation: "Boethius, The Consolation of Philosophy (c. 524 AD), trans. H. R. James (London: George Bell & Sons, 1897), Book II, Prose VI. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "Look, too, at the nature of that power which ye find so attractive and glorious! Do ye never consider, ye creatures of earth, what ye are, and over whom ye exercise your fancied lordship? Suppose, now, that in the mouse tribe there should rise up one claiming rights and powers for himself above the rest, would ye not laugh consumedly? Yet if thou lookest to his body alone, what creature canst thou find more feeble than man, who oftentimes is killed by the bite of a fly, or by some insect creeping into the inner passage of his system!"
+canonical-instances:
+  - "A satirist illustrates the absurdity of office politics by staging an identical power struggle among a colony of ants over which anthill gets closer to the picnic blanket, making visible the same jockeying that looked consequential among the humans it was based on."
+  - "A philosopher arguing against species-wide human exceptionalism points out that a chimpanzee troop's dominance hierarchy, if narrated with the same solemn vocabulary used for human politics -- coups, alliances, legitimacy -- would sound exactly as grandiose and exactly as silly."
+  - "A children's fable makes fun of a kingdom's rigid class system by retelling it among barnyard chickens squabbling over the top rung of the coop's pecking order, and the story's satire only works because the chickens' stakes are transparently tiny."
+critical-questions:
+  - "Does the transposition actually prove the human hierarchy is arbitrary, or does it just prove that any hierarchy looks silly when narrated with grandiose language regardless of whether the underlying stakes are real -- conflating a rhetorical trick with a substantive argument?"
+  - "Human hierarchies often track differences invisible in a mouse -- accumulated skill, resources, alliances built over years -- that a mouse's brief lifespan and simple social structure can't replicate. Does comparing across such different capacities for complexity understate what makes human hierarchy meaningful, even granting we're just as physically fragile as mice?"
+  - "If the argument works, does it prove hierarchy itself is always absurd, or only that this particular hierarchy's stakes are disproportionate to the participants' actual physical insignificance -- could a defender of rank simply concede the physical frailty while denying that frailty is the relevant measure of what the hierarchy is actually about?"
+status: active

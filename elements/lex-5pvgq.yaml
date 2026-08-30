@@ -1,0 +1,19 @@
+id: lex-5pvgq
+name: a-seller-extracts-maximal-price-from-a-desperate-captive-buyer
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When a buyer has no alternative source for something they've decided they must have, a seller can extract far above any reasonable price simply by holding out through repeated, gradually escalating counteroffers — the buyer's captivity to that one source, not the item's actual worth, sets the ceiling. In the Jataka's tale of the crow in Baveru, the merchants hold out through the natives' escalating bids for both the crow and later the peacock: 'Gradually increasing their offer the people said, \"Give it us for a hundred pieces of money.\"' 'And raising the price offered they at last bought it for a thousand pieces.'"
+related: []
+evokes: [jataka, catukkanipata, baveru-jataka, buyer-captivity-not-item-worth-sets-the-price-ceiling, holding-out-through-escalating-offers-extracts-maximal-value]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-baveru-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 339, Baveru-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Gradually increasing their offer the people said, \"Give it us for a hundred pieces of money.\""
+canonical-instances:
+  - "The sole hardware store in an isolated town after a storm knocks out every competitor simply declines each customer's first offer for a generator, letting desperation do the work of pushing the price to several times its normal value before finally accepting."
+critical-questions:
+  - "Is holding out for maximal price against a captive buyer exploitative, or is it simply the seller responding rationally to genuine scarcity — where's the line between profiting from circumstance and taking unfair advantage of desperation?"
+  - "Does this pricing dynamic depend on the merchants having somewhere else to sell the bird if the natives ever stopped bidding, or does it work purely because the buyer, not the seller, has no alternative?"
+status: active

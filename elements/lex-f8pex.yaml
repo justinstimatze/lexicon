@@ -1,0 +1,19 @@
+id: lex-f8pex
+name: in-mutual-mistaken-fear-speed-of-reaction-decides-the-outcome
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When two parties each mistake the other for something more dangerous than it actually is, check whether the outcome will be decided by who reacts fastest rather than who reasons most accurately. The Panchatantra's fiend mistakes an ordinary horse-thief named Twilight for a legendary man-eating menace, purely on the strength of Twilight's fearsome reputation. The bystander monkey then makes the identical mistake about the fiend himself. Both are wrong about who they're actually facing. The encounter still resolves cleanly, and it resolves in favor of whoever moves first. The closing verse names the deciding factor: 'To judge by the expression, friend monkey, on your face, you have been caught by Twilight — he lives who wins the race.' Correct identification of the threat was never the operative variable; speed of reaction was."
+related: []
+evokes: [panchatantra, ill-considered-action, mutual-mistaken-identity-rewards-speed, fastest-reactor-wins-not-best-reasoner]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-the-credulous-fiend
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book V, 'The Credulous Fiend.' Verified verbatim against a direct extraction of the held copy."
+    quote: "To judge by the expression, Friend monkey, on your face, You have been caught by Twilight— He lives who wins the race."
+canonical-instances:
+  - "two companies each overestimate the other's competitive strength based on inflated market reputation, and the one that moves fastest to lock in a deal wins the negotiation, even though a slower, more accurate assessment by either side might have revealed neither company actually held the advantage it feared the other one had."
+critical-questions:
+  - "Does 'whoever reacts first wins' actually hold as a general rule, or only in this specific fable's structure where both mistaken parties are equally wrong and equally unwilling to test their assumption before acting?"
+  - "Would either party have been better off pausing to verify what they were actually facing, even at the cost of losing the speed advantage — is there a version of this encounter where checking first beats reacting first?"
+status: active

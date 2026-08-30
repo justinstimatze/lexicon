@@ -1,0 +1,19 @@
+id: lex-8eyc8
+name: invoking-a-past-favor-as-leverage-against-a-self-interested-actor
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Facing a threat, a person can invoke a debt of gratitude — a past sacrifice made on the aggressor''s behalf — as grounds for reciprocal restraint. The appeal fails whenever the aggressor''s calculation is already fully self-interested, since reciprocity norms only bind someone who still recognizes an obligation. In the Jataka''s tale of Sulasa, the wife pleads her past sacrifice to the husband about to kill her: "Husband, remember the good I have done you: when you were being hauled along in chains, I gave up a rich man''s son for you and paid a large sum and saved your life: though I might get a thousand pieces a day, I never look at another man: such a benefactress I am to you: do not kill me, I will give you much money and he your slave."'
+related: []
+evokes: [jataka, atthanipata, sulasa-jataka, reciprocity-appeal, gratitude-debt-as-leverage]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sulasa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 419, Sulasa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Husband, remember the good I have done you: when you were being hauled along in chains, I gave up a rich man's son for you and paid a large sum and saved your life: though I might get a thousand pieces a day, I never look at another man: such a benefactress I am to you: do not kill me, I will give you much money and he your slave."
+canonical-instances:
+  - "An employee about to be laid off reminds their manager of the unpaid weekends they covered during last year's crunch, hoping the debt will matter — only for the manager, already committed to the cost-cutting numbers, to proceed anyway."
+critical-questions:
+  - "What would signal in advance that a reciprocity appeal is about to fail — is there a way to detect that the other party has already stopped recognizing the obligation before making the appeal?"
+  - "Does invoking the debt publicly, rather than privately, change whether it has any binding force on someone who has already decided to disregard it?"
+status: active

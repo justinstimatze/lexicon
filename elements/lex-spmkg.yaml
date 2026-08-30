@@ -1,0 +1,19 @@
+id: lex-spmkg
+name: tighter-constraints-leave-less-slack-to-absorb-a-deviation
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When designing a strict regime — a diet, a budget, a schedule — weigh the cost of an eventual lapse against the regime's tightness, since a stricter constraint does not just reduce lapses, it makes each remaining lapse more damaging. Hippocrates' Aphorisms: 'In a restricted diet, patients who transgress are thereby more hurt... a very slender, regulated, and restricted diet is dangerous to persons in health, because they bear transgressions of it more difficultly. For this reason, a slender and restricted diet is generally more dangerous than one a little more liberal.' A looser regime has slack built in, so a deviation gets absorbed without much consequence; a tighter regime has already spent that slack on the constraint itself, so the identical deviation lands with full force. Choosing the tightest possible version of a constraint can therefore raise total risk rather than lower it, once the near-certainty of eventual deviation is priced in."
+related: []
+evokes: [hippocrates, aphorisms, tighter-constraints-have-less-slack, brittleness-from-over-constraint]
+lineage:
+  - source: primary
+    text: hippocrates-aphorisms-adams1849-sectionI-5
+    citation: "Hippocrates, Aphorisms, trans. Francis Adams (Sydenham Society, 1849), Section I, §5. Verified verbatim against a direct extraction of the held copy."
+    quote: "In a restricted diet, patients wlio transgress are thereby more hurt (than in any other ?) ; for every such transgression, whatever it may be, is followed by greater consequences than in a diet somewhat more generous. On this account, a very slender, regulated, and restricted diet is dangerous to persons in health, because they bear transgressions of it more difficultly. For this reason, a slender and restricted diet is generally more dangerous than one a little more liberal."
+canonical-instances:
+  - "a strict zero-tolerance budget with no discretionary category gets blown apart by a single unplanned expense in a way a budget with a built-in 10% buffer would simply absorb, even though the strict budget was designed specifically to prevent overspending."
+critical-questions:
+  - "Does this argue against strict regimes in general, or only against regimes that will predictably be broken at least once — is a regime that will genuinely never be transgressed exempt from the tradeoff Hippocrates describes?"
+  - "How would someone actually calibrate the right amount of built-in slack, given that too much slack defeats the regime's original purpose just as thoroughly as too little slack makes it brittle?"
+status: active

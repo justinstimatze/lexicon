@@ -1,0 +1,21 @@
+id: lex-kvsdw
+name: an-excuse-recasts-a-caught-theft-as-protection-from-a-different-thief
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "Caught in the act of taking something you were trusted to guard, claiming you were actually intercepting it before someone else could steal it converts your own hands on the object into evidence of vigilance rather than evidence of guilt, without requiring you to deny that you had it. In Radin's comparative Assiniboine summary, Inktonmi is left to guard a man's rattle while its owner sleeps, and instead uses the opportunity to steal it: 'Inktonmi pretends to guard a man's rattle, while the owner is sleeping, but tries to steal it.' Caught with the rattle in hand, he doesn't claim he wasn't taking it -- he reframes why: 'He is overtaken, and pleads as an excuse that he was only trying to preserve the rattle from winged thieves.' The excuse doesn't contest the physical fact that damns him; it supplies a different reason for that exact fact to exist, one that turns the same action into its opposite. Diagnostic move: when caught holding or moving something you shouldn't have, consider that denying the physical fact usually fails once you're already caught with it -- the more durable move, ethically compromised as it is, is supplying a competing motive for the identical fact that recasts it as protective rather than acquisitive, since the observer already has to explain the same evidence either way."
+related: []
+evokes: [radin-assiniboine-trickster-summary, inktonmi-and-the-rattle, pleads-as-an-excuse, preserve-the-rattle-from-winged-thieves]
+lineage:
+  - source: primary
+    text: radin-inktonmi-caught-stealing-a-rattle-claims-he-was-guarding-it
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'Summary of the Assiniboine Trickster Myth' (after R. H. Lowie, The Assiniboine, Anthropological Papers of the American Museum of Natural History, Vol. IV, 1909), episode 48. Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "Inktonmi pretends to guard a man's rattle, while the owner is sleeping, but tries to steal it. He is overtaken, and pleads as an excuse that he was only trying to preserve the rattle from winged thieves."
+canonical-instances:
+  - "A stockroom clerk caught carrying inventory toward the loading dock after hours claims they noticed the door was unlocked and were moving the items to a more secure area, rather than denying they were moving them at all."
+  - "An assistant caught with a colleague's unlocked laptop open on their desk says they were closing it before someone less careful walked by, rather than denying they had touched it."
+critical-questions:
+  - "Does the excuse's success depend on there being a real, plausible category of 'winged thieves' that the owner could believe exists, and would the excuse fail entirely in a context with no such believable alternative threat?"
+  - "Is there a meaningful difference between this excuse and a false alibi, or does inventing a threat you were supposedly guarding against cross into a more serious deception than simply minimizing your own involvement?"
+  - "Does the story tell us whether the owner actually believed Inktonmi, or only that Inktonmi offered the excuse, leaving open whether this move works or merely gets attempted?"
+status: active

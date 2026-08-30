@@ -1,0 +1,19 @@
+id: lex-jw6a9
+name: factions-sharing-one-outcome-can-destroy-it-through-internal-spite
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When two factions are structurally welded to a single shared outcome, check whether internal spite between them could destroy that shared outcome even while each side believes it is only hurting the other. The Panchatantra's Bharunda bird has two necks and one belly; one neck, resentful, eats a poisoned fruit purely to spite the other neck — and both die, because the belly they shared absorbed the poison together. The verse names the general danger: 'Bharunda birds will teach you why the disunited surely die,' closing with the direct lesson, 'thus union is strength.' Neither neck was trying to destroy the bird itself; each acted as though only the rival neck would bear the cost of an act that the shared body made unavoidably mutual."
+related: []
+evokes: [panchatantra, winning-of-friends, shared-outcome-destroyed-by-internal-spite, factions-welded-to-one-body]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-the-bharunda-birds
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book II, 'The Bharunda Birds.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Bharunda birds will teach you why The disunited surely die:"
+canonical-instances:
+  - "two co-founders locked in a bitter dispute each withhold cooperation from the other out of spite, not realizing that the company's single bank account and shared legal liability mean every move meant to hurt the rival co-founder also drains the company both of their equity depends on."
+critical-questions:
+  - "Does the Bharunda bird's literal single-belly structure make this a special case that doesn't generalize — how tightly does a real organization or partnership actually need to share outcomes before this mechanism applies?"
+  - "Is spite really the operative mechanism in most real-world versions of this pattern, or is it more often simple miscalculation — a faction that genuinely doesn't realize how connected the shared outcome is, rather than one acting out of malice?"
+status: active

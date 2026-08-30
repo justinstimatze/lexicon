@@ -1,0 +1,19 @@
+id: lex-4p2ns
+name: transparent-honesty-outperforms-detectable-flattery-in-persuading-a-target
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When several people try to win something from the same target through flattery, the one who instead states an uncomfortable truth plainly can succeed precisely because the target can tell the difference between manipulation and sincerity, even when the honest statement offers nothing pleasant. In the Jataka's tale of the noseless lake-keeper, two young men flatter a disfigured keeper with insincere logic implying his nose will regrow, and both are refused. A third simply acknowledges the truth and asks directly: 'Babbling fools! to think that they Can get a lotus in this way. Say they yes, or say they no, Noses cut no more will grow. See, I ask you honestly: Give a lotus, air, to me!' The keeper's response names exactly what decided it: 'The other two lied, but you have spoken the truth. You deserve to have some lotuses.'"
+related: []
+evokes: [jataka, tikanipata, paduma-jataka, a-target-can-detect-flattery-and-rewards-sincerity-instead, an-uncomfortable-truth-outperforms-pleasant-manipulation]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-paduma-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 261, Paduma-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Babbling fools! to think that they Can get a lotus in this way. Say they yes, or say they no, Noses cut no more will grow. See, I ask you honestly: Give a lotus, air, to me!\" ... \"The other two lied, but you have spoken the truth. You deserve to have some lotuses.\""
+canonical-instances:
+  - "Two vendors pitching the same client both insist their product has no real drawbacks. A third vendor wins the contract by openly naming the one genuine limitation the others glossed over, because the client can tell which pitch is actually leveling with them."
+critical-questions:
+  - "Does this only work because the story stacks the deck with two obviously insincere flatterers for contrast, or would a single honest approach succeed just as well without weaker competing pitches to be measured against?"
+  - "Is the keeper rewarding honesty as a virtue in itself, or specifically rewarding the fact that the honest approach didn't insult his intelligence the way the flattery did?"
+status: active

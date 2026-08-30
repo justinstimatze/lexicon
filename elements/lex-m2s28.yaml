@@ -1,0 +1,21 @@
+id: lex-m2s28
+name: doubt-their-pluck-to-goad-self-destructive-imitation
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When you want someone to volunteer for something self-destructive that they'd resist if you simply asked them to do it, don't sell them on the benefit -- question whether they have the toughness to endure the cost, and let their own pride do the recruiting. In Cushing's telling, a Coyote fakes a demonstration of shattering his own legs with a stone to gain miraculous speed, and when the demon watching wants to try it too, the Coyote doesn't encourage him -- he warns him off in a way calculated to provoke the opposite response: 'I am afraid you won't have the pluck to go through with it.' The demon can't let that stand: 'Do you think I am a baby?... or a woman, that I should be afraid to pound my legs and arms?' The Coyote never has to argue for the benefit at all -- once the demon's pride is on the line, he demands to be allowed to shatter his own limbs, and does. The whole persuasion rests on a single move: state the cost, then cast doubt on whether the target can bear it, and let them override your reluctance rather than your enthusiasm. Diagnostic move: when someone is deciding whether to imitate a risky or costly action you've supposedly just taken yourself, watch for anyone who responds to your caution about the cost with a challenge to their own toughness -- that's the exact lever being pulled, and 'I only thought I'd warn you, go ahead if you want' is often the final push toward a decision they were talked into resisting less, not persuaded to want more."
+related: []
+evokes: [cast-doubt-on-their-pluck-let-pride-do-the-recruiting, cushing-coyote-and-siuiuki, do-you-think-i-am-a-baby, i-am-afraid-you-wont-have-the-pluck]
+lineage:
+  - source: primary
+    text: cushing-coyote-siuiuki-demon-goaded-into-self-destruction
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Coyote Who Killed the Demon Síuiuki: or Why Coyotes Run Their Noses Into Deadfalls.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'Certainly,' replied the Coyote. 'But it will hurt you.' 'Ho! who cares for a little hurt?' said the Demon. 'Oh! but it hurts terribly,' said the Coyote, 'and I am afraid you won't have the pluck to go through with it.' 'Do you think I am a baby?' said the old Demon, getting up,--'or a woman, that I should be afraid to pound my legs and arms?' 'Well, I only thought I'd tell you how much it hurts,' said the Coyote; 'but if you want to try it yourself, why, go ahead.'"
+canonical-instances:
+  - "A veteran employee wanting a new hire to take on an unreasonable, unpaid workload doesn't ask directly, but mentions offhand that the last person in the role 'couldn't really hack the pace' and seems to have quit because of it, prompting the new hire to volunteer for the same unsustainable schedule specifically to prove they're not like the person being subtly disparaged."
+  - "A fraternity hazing tradition doesn't order pledges to perform a dangerous stunt, but has senior members perform a milder, faked version of it while questioning aloud whether the pledges have 'what it takes' to do the real thing, reliably getting pledges to demand the chance to prove their toughness rather than needing to be coerced."
+critical-questions:
+  - "does this tactic only work on targets whose sense of identity is already heavily invested in appearing tough, brave, or capable -- would it fail entirely against someone secure enough to simply agree that, yes, they'd rather not endure unnecessary pain?"
+  - "how would a target recognize, in the moment, that a stated doubt about their toughness is a deliberate lever rather than a genuine, well-meaning warning -- what actually distinguishes manipulative reverse psychology from an honest caution that happens to provoke defensiveness?"
+  - "is there a meaningful difference between this tactic used against someone whose destruction benefits the manipulator directly, as with the Coyote and the demon, versus a coach or mentor using the same lever to push someone toward a genuinely worthwhile but difficult challenge -- does the tactic's ethical status depend entirely on whether the goal is actually good for the target?"
+status: active

@@ -1,0 +1,37 @@
+id: lex-9nj6a
+name: composition-over-inheritance
+type-in: claim
+type-out: posture
+_tier: atomic
+agent-instruction: "When two classes share behavior, prefer composition (holding an instance) over inheritance (extending a class). Composition lets each piece evolve independently; inheritance binds them through a shared ancestor whose changes propagate unpredictably."
+related: [lex-hnfrw, lex-9akfh, lex-gfxw3, lex-z8m97, lex-spk4s, lex-jue9r, lex-dwycr, lex-ew7zx, lex-etfhv]
+scaffolds-from: [lex-hnfrw]
+evokes: [has-a-not-is-a, runtime-flexibility-over-compile-time-rigidity, prefer-delegation-to-extension]
+lineage:
+  - source: primary
+    tradition: gof
+    text: gamma-helm-johnson-vlissides-1994
+    citation: "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides, Design Patterns: Elements of Reusable Object-Oriented Software (Addison-Wesley 1994; the Gang of Four / GoF) — chapter 1 §1.6 has the explicit principle; recurring across Adapter (object form), Bridge, Decorator, Strategy. Verified verbatim from Wikipedia 'Design Patterns' article (en-wp; retrieved via local ZIM dump 2025-12 → local Wikipedia archive, 2026-05-04) which lists the principle as one of two canonical chapter-1 design heuristics"
+    quote: "Composition over inheritance: 'Favor object composition over class inheritance.' [Wikipedia 'Design Patterns' article quoting GoF chapter 1 — alongside 'Program to an interface, not an implementation,' this is one of the two canonical heuristics the book opens with.]"
+  - source: practitioner
+    text: bloch-effective-java
+    citation: "Joshua Bloch, Effective Java (Addison-Wesley) — Item 18, 'Favor composition over inheritance.' In-copyright. The item title is the canonical-attestation that Bloch endorses the GoF principle in his own widely-circulated practitioner text; substantive grounding for the composition-over-inheritance primitive is carried by GoF 1994 above (ZIM-grounded via Wikipedia's 'Design Patterns' article). This entry is a within-software-engineering cross-attestation pointer, not a verbatim quote."
+  - source: practitioner
+    text: gof-decomposition-pass
+    citation: "promoted from cross-family attestation: appears in Structural (Adapter, Bridge, Decorator) and Behavioral (Strategy) patterns"
+canonical-instances:
+  - "modeling shared behavior across types: prefer 'X has-a Logger' (composition; runtime swappable) over 'X extends LoggingClass' (inheritance; compile-time fixed)"
+  - "the design move at the heart of Strategy: instead of subclassing to vary algorithm, hold the algorithm as a field and swap it"
+  - "operational test: if the relationship needs to change at runtime, it's composition; if it's a permanent type-of relationship, inheritance may still apply"
+  - "biological evolution favors composition over inheritance at the molecular level: gene regulatory networks combine transcription factors and enhancer modules in mix-and-match arrangements rather than inheriting fixed regulatory schemes by descent. Modularity enables evolvability — organisms that compose regulatory units gain new functions faster than ones locked into ancestral schemes"
+  - "organizational design: matrix structures (a person composes their role from functional + project memberships) trade compile-time clarity for runtime reconfigurability. Hierarchical structures (a person inherits role from reporting line) are easier to reason about but rigid to restructuring"
+  - "Magic-the-Gathering deckbuilding: each card is independently composable into a deck — the deck's behavior is composition of cards, not inheritance from a template archetype. Templates (aggro, control, combo) exist as patterns but cards aren't bound to one — they're swapped in by composition"
+  - "operationally distinct from lex-hnfrw polymorphism-as-extension-mechanism: polymorphism is the MECHANISM that makes composition tractable (you compose against an interface, dispatched polymorphically); composition-over-inheritance is the POSTURE that recommends preferring composition+polymorphism over inheritance. Polymorphism is HOW; cov-i is WHY/WHEN"
+  - "operationally distinct from lex-spk4s isolate-component-for-separate-treatment: isolate-component is the move of extracting ONE component out of an existing unified object so it becomes separately-actionable; composition-over-inheritance is a global stance about whether to encode relationships as has-a or is-a. Isolation can be invoked under either posture; cov-i is the prior choice"
+  - "operationally distinct from lex-jue9r categorical-axis-decomposition: categorical-axis-decomposition partitions the entire design space into orthogonal axes (any object inhabits ALL axes simultaneously); composition-over-inheritance is one specific posture about HOW to encode within whatever design space — recommending has-a relationships over is-a hierarchies. Different scopes of decision"
+critical-questions:
+  - "is the relationship structural (is-a, type-of) or functional (has-a, uses-a)? composition-over-inheritance only applies when the relationship is functional. A genuine subtype (Dog IS-A Mammal, semantically and behaviorally) is not improved by reframing as has-a"
+  - "does the relationship need to vary at runtime? composition wins when the role can change (a context can swap its Strategy); inheritance is fine when the role is fixed at instantiation. The test: would you ever want to swap this behavior on a live instance?"
+  - "is composition costing more than inheritance saves? composition requires more boilerplate (constructor injection, delegation forwarding), and the saved flexibility may not be exercised. The discipline: composition is the right default but inheritance is sometimes cheaper when the design space is small and stable"
+  - "is the heuristic being applied dogmatically? GoF's 'favor composition over inheritance' is a default, not a law. Some patterns (Template Method, Decorator-the-class-variant) legitimately use inheritance because the variation IS subclass-shaped. Prefer composition, but don't refactor working inheritance away on principle"
+status: active

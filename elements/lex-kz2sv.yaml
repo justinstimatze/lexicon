@@ -1,0 +1,19 @@
+id: lex-kz2sv
+name: a-predator-switches-from-force-to-seduction-after-force-fails
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Having exhausted a direct approach against a wary target, a predator can pivot to flattery and offers of status, tailoring a new strategy specifically to a target that has already resisted the earlier method. In the Jataka''s tale of Kukkuta, having eaten every other cock in the flock through more direct means, the cat recognizes this cock''s wariness and switches to a marriage proposal: ''it is good that I cajole him, saying, "I will be your wife," and so eat him when he comes into my power.'''
+related: []
+evokes: [jataka, chanipata, kukkuta-jataka, predator-switches-force-to-seduction, tailored-strategy-after-first-approach-fails]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kukkuta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 383, Kukkuta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "This cock is very crafty, but he knows not that I am crafty and skilful in device: it is good that I cajole him, saying, \"I will be your wife,\" and so eat him when he comes into my power."
+canonical-instances:
+  - "A vendor who couldn't push a deal through by cold-calling a wary procurement officer switches to warmly courting them at industry events, offering friendship and flattery instead of a pitch, once the direct approach has clearly failed."
+critical-questions:
+  - "Does switching tactics after one failure signal genuine adaptability, or does it just mean the target should now expect every future approach to be a new disguise for the same underlying intent?"
+  - "Would the wary target have been safer sticking with whatever behavior made them resistant to the first approach, rather than engaging with the second one at all?"
+status: active

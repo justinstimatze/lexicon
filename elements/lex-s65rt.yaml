@@ -1,0 +1,22 @@
+id: lex-s65rt
+name: public-accusation-with-proof-and-penalty-embedded-in-ceremony
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A sacred ceremony can include a formal procedure requiring anyone with a grievance or accusation against a participant's reputation to state it publicly and prove it on the spot, with a real, stated penalty for a false accusation -- converting a private reputational dispute into a public, evidence-bearing process with deterrent cost on both sides. Before the maidens who will chop down the sun dance's holy tree can proceed, the ceremony builds in an open challenge window: they 'had to be so good that nobody there could say anything against them,' and 'it was the duty of any one who knew anything bad about any of them to tell it right before all the people there and prove it. But if anybody lied, it was very bad for him.' The maidens' virtue isn't simply assumed or privately vouched for -- it's tested by an open floor that anyone can use, at a real cost if the accusation doesn't hold up."
+related: []
+evokes: [black-elk-speaks, fight-with-three-stars, sun-dance-maidens, tell-it-right-before-all-the-people, false-accusation-was-very-bad-for-him]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch8-fight-with-three-stars
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 8, 'The Fight with Three Stars.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "a band of young maidens came singing, with sharp axes in their hands; and they had to be so good that nobody there could say anything against them, or that any man had ever known them; and it was the duty of any one who knew anything bad about any of them to tell it right before all the people there and prove it. But if anybody lied, it was very bad for him."
+canonical-instances:
+  - "A professional guild's induction ceremony includes an open floor where any member can formally object to a candidate's fitness on stated grounds, with a documented penalty for objections later shown to be baseless."
+  - "A wedding ceremony's 'speak now or forever hold your peace' moment functions as a formalized public challenge window, where an unfounded objection carries real social cost to the objector rather than being free to raise."
+  - "A community land-use hearing requires anyone opposing a permit to state their objection on the record and support it with evidence, with sanctions available against objections later found to be knowingly false."
+critical-questions:
+  - "Does building the challenge window directly into a sacred, high-stakes ceremony make people more likely to actually come forward with real grievances, or does the ceremonial pressure and public setting suppress legitimate complaints as much as it deters false ones?"
+  - "What actually counts as 'proof' in this setting, and who judges whether an accusation has met that bar -- without a specified adjudicator, does the penalty for lying depend entirely on the crowd's own collective judgment in the moment?"
+  - "Does the existence of a real penalty for false accusation protect the maidens, or does it also protect anyone who has actually wronged one of them by raising the cost of coming forward too high for a victim who fears not being believed?"
+status: active

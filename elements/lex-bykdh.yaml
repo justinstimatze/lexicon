@@ -1,0 +1,19 @@
+id: lex-bykdh
+name: a-peace-overture-is-rightly-refused-while-the-original-incentive-survives
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a party who tried and failed to harm you later offers reconciliation, check whether the underlying incentive that drove the original conflict has actually changed, rather than taking the overture's surface sincerity at face value. Aesop's 'The Labourer and the Snake' has a man who killed a snake's child, after the snake bit off his son's foot in revenge, offer peace. The snake's refusal names what the offer glosses over: 'I can never be your friend because of my lost tail, nor you mine because of your lost child.' The visible, permanent injury each carries functions as an unerasable trust-blocker, because time alone did nothing to resolve either party's underlying incentive to finish the conflict."
+related: []
+evokes: [aesop, the-labourer-and-the-snake, incentive-persists-past-the-overture, visible-injury-as-trust-blocker]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-labourer-and-the-snake
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Labourer and the Snake.' Verified verbatim against a direct extraction of the held copy."
+    quote: "I can never be your friend because of my lost tail, nor you mine because of your lost child."
+canonical-instances:
+  - "post-conflict 'let's normalize relations' overtures from a recent aggressor are treated with justified suspicion when the grievance and the capability that caused the conflict both remain fully intact."
+critical-questions:
+  - "What would actually count as evidence that the underlying incentive has changed, rather than merely that enough time has passed for an overture to be offered — is there a reliable signal short of a resolved grievance?"
+  - "Does refusing reconciliation indefinitely simply lock both parties into permanent hostility, and if so, is there ever a point at which accepting the risk of a genuine change becomes the better bet than permanent distrust?"
+status: active

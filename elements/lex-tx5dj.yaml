@@ -1,0 +1,19 @@
+id: lex-tx5dj
+name: an-unconfirmed-coded-hint-controls-a-target-without-ever-accusing-them
+type-in: situation
+type-out: posture
+_tier: atomic
+agent-instruction: "Rather than exposing a fraud outright, delivering a coded phrase that only makes sense if the fraud has been discovered can permanently cow the impostor into compliance, without the confronting party ever having to confirm or act on what they actually know. In the Jataka's tale of Katahaka, the wronged master teaches the impostor's wife a specific verse whose meaning is opaque to everyone except the man it targets. Hearing it, Katahaka assumes his real identity has been fully revealed to her, and from that day forward gives himself no more airs — even though nothing was ever confirmed, and no accusation was ever actually made. The ambiguity itself is the lever: he can't test whether she really knows without revealing more than he's already worried she does."
+related: []
+evokes: [jataka, ekanipata, katahaka-jataka, coded-ambiguity-as-a-permanent-control-lever, unconfirmed-suspicion-cannot-be-safely-tested]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-katahaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 125, Katahaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Dear me,\" thought Katahaka, \"the Treasurer must have informed her of my name, and have told her the whole story.\""
+canonical-instances:
+  - "Rather than confronting an employee suspected of falsifying timesheets directly, a manager mentions in an unrelated meeting that the company has recently 'improved its ability to reconcile logged hours against badge data,' and the employee, unsure exactly what's been discovered, stops the behavior entirely without ever being accused of anything."
+critical-questions:
+  - "Does the target's compliance depend on genuinely believing the ambiguous signal points to real evidence, and what happens once enough time passes without any actual consequence for them to test that belief safely?"
+  - "Is there a meaningful difference in fairness between this indirect pressure and a direct accusation, given that one leaves the target permanently uncertain while the other at least gives them the chance to respond to a specific claim?"
+status: active

@@ -1,0 +1,81 @@
+id: lex-9ty22
+name: strategic-ambiguity
+type-in: claim
+type-out: posture
+_tier: atomic
+agent-instruction: "When a stakeholder gives a vague answer to a clear question, surface strategic ambiguity — vagueness can be the message; the latitude it preserves is the point; press for specificity only if the latitude itself is what you need to remove."
+related: [lex-2bbqf, lex-2s3ze, lex-4txwf, lex-chp44, lex-ppm3j, lex-smf9s, lex-x9sda, lex-xrg6e]
+evokes: [refusal-to-disambiguate, multivocal-assertion, audience-favorable-reading-each, deniable-assertion-prospective]
+lineage:
+  - source: primary
+    text: eisenberg-1984
+    citation: "Eric M. Eisenberg, 'Ambiguity as Strategy in Organizational Communication,' Communication Monographs 51 (1984): 227–242 — the canonical primary source. Eisenberg distinguishes strategic ambiguity (deliberate refusal to disambiguate) from communicative incompetence (unintentional vagueness) by tying it to the asserter's preference for multivocal interpretation."
+    quote: "'Strategic ambiguity is essential to organizing because it allows for multiple interpretations to exist among people who contend that they are attending to the same [...] message—i.e., perceive the message to be clear. It is a political necessity to engage in strategic ambiguity so that different constituent groups may apply different interpretations to the symbol.' [The ellipsis routes around a page-break running-head intrusion in the source PDF, not an omission of argument.]"
+canonical-instances:
+  - "A CEO's all-hands message about 'evolving priorities' lets the engineering audience hear 'we'll keep building' and the finance audience hear 'we'll cut spend' — both readings are simultaneously available without commitment."
+  - "A politician's position statement on a contested issue uses language whose precise parsing differs by audience subgroup; each subgroup's media outlet reports the version they wanted to hear."
+  - "An RFC author phrases a constraint with a SHOULD that downstream implementers parse as either MUST (strict shops) or MAY (lenient shops); the spec author preserves both communities by not picking."
+severity-tier: warning
+critical-questions:
+  - "is the vagueness preserving useful latitude (intentional) or hiding a position the speaker hasn't decided (unprepared)?"
+  - "what would specificity force, and is that the actual unwanted outcome? sometimes vagueness defends nothing important"
+  - "are you giving up reading by accepting the ambiguity — could a probe at low cost extract more?"
+  - "in what timeframe will the ambiguity have to resolve — and does the speaker get to choose when?"
+status: active
+---
+# strategic-ambiguity
+
+A cognitive move that produces a *posture* of refusing-to-disambiguate
+on a claim, such that multiple audiences each take a favorable reading
+of the claim without the asserter committing to any single reading.
+
+## Type-signature rationale
+
+Type-signature `claim → posture` matches the parallel signaling-stance
+moves plausible-deniability (lex-xrg6e) and cheap-talk (lex-c7pga). The
+asserter's stance toward the asserted claim is "I won't pick a
+reading"; that's a posture, not a frame.
+
+## Distinct from neighbors
+
+- **plausible-deniability** (lex-xrg6e) is a primary
+  contrast partner. Deniability is *retrospective disclaimability*: the
+  asserter has committed enough to be heard, but engineered the
+  commitment to be retractable later. Strategic-ambiguity is
+  *prospective non-commitment*: the asserter never picks a reading
+  in the first place. Different operational shapes, different
+  defeaters. Most real instances of either move involve the other,
+  but the cognitive primitives are distinct.
+- **cheap-talk** (lex-c7pga) doesn't commit either, but the absence of
+  commitment is via *zero cost*; strategic-ambiguity's absence of
+  commitment is via *multivocal phrasing*. Cheap-talk can be
+  unambiguous; strategic-ambiguity can be costly. Orthogonal axes.
+- **lex-chp44 meta-pointer** (state → frame) is the structural
+  primitive about pointing-to-the-pointing. Strategic-ambiguity
+  sometimes deploys meta-pointing ("I'm gesturing at a cluster of
+  meanings rather than naming one") but isn't reducible to it.
+
+## Why it surfaces
+
+The cognitive primitive is the recognition of the move-as-strategy
+— distinguishing strategic-ambiguity from honest underspecification
+(communicative incompetence, conceptual underdevelopment, prudent
+hedging on uncertain knowledge). The diagnostic is whether the
+asserter would *prefer* disambiguation if forced. Eisenberg's
+discipline: ask whether the asserter resists clarification when
+asked. If yes, strategic-ambiguity; if no, the vagueness is
+incidental.
+
+## Composition notes
+
+Probable molecule: `parallel(strategic-ambiguity, plausible-deniability)`
+captures the common deployment-pattern in political/organizational
+communication — multi-audience phrasing plus pre-engineered retreat.
+The 2-atom parallel already shows up in canonical-instances; awaiting
+3-occurrence rule before promoting to molecule.
+
+The cognitive failure mode worth naming separately:
+*audience-segmentation-dependent-strategic-ambiguity* — when the
+move only works because the audience subgroups don't communicate
+with each other. Once subgroups compare notes, the multivocal
+phrasing collapses. Surfacing context for the surfacing function.

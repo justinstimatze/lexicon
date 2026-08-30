@@ -1,0 +1,19 @@
+id: lex-5npyr
+name: an-unmonitored-direction-gets-rationalized-as-assessed-safe
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When vigilance is concentrated toward a historically dangerous direction, check whether the neglected direction was actually judged safe or simply cheap to ignore, since the two get treated as the same thing after the fact. Aesop's 'The Stag with One Eye' has a stag graze at the shore, keeping its sighted eye toward the land where danger has always come from and its blind eye toward the sea it assumes is safe; a hunter approaches from the water and kills it, leaving the stag to realize: 'I bethought me of the dangers of the land, whence none assailed me: but I feared no peril from the sea, yet thence has come my ruin.' The sea was never actually assessed as safe — it was simply the direction that happened to be cheap to leave unwatched, and that cheapness gets mistaken for a judgment."
+related: []
+evokes: [aesop, the-stag-with-one-eye, unmonitored-direction-rationalized-as-safe, structural-blind-spot]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-stag-with-one-eye
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Stag with One Eye.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Wretch that I am! I bethought me of the dangers of the land, whence none assailed me: but I feared no peril from the sea, yet thence has come my ruin."
+canonical-instances:
+  - "a company pours its security budget into perimeter defense, where it already has instrumentation, while treating insider or physical access as safe by default — not because it was assessed, but because it sits outside the tooling's field of view."
+critical-questions:
+  - "How would the stag have distinguished a genuinely low-risk direction from one that was merely unmonitored, given that both look identical from inside the same blind spot that created the neglect in the first place?"
+  - "Does allocating some minimal ongoing attention to the historically safe direction meaningfully reduce this risk, or does any allocation short of true parity just relocate the same blind spot to a smaller, still-exploitable gap?"
+status: active

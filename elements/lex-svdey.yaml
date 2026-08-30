@@ -1,0 +1,18 @@
+id: lex-svdey
+name: a-mishearing-is-enshrined-as-fact-by-downstream-rationalization
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: 'When a message is relayed through an intermediary and mishears one word for another, treat the recipient''s instinct to explain the error away — ''must be some ancient family name'' — as the actual mechanism that fixes it as fact, not the mishearing itself. Each person downstream of the error has the option to check the source and instead manufactures a plausible-sounding reason the garbled version makes sense, and the false version becomes permanent precisely because nobody''s rationalization looked like credulity from the inside. In the Bhadda-sala-Jataka, a deaf courtier mishears the king''s grandmother saying the newborn prince will be the king''s ''darling'' as the name ''Vidudabha''; the king, told this, assumes ''this must be some ancient family name'' and names the prince Vidudabha rather than asking the source to repeat the message.'
+related: []
+evokes: [jataka, dvadasanipata, bhadda-sala-jataka, transmission-error-rationalized-into-fact, downstream-credulity]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-bhadda-sala-jataka
+    citation: 'The Jataka, or Stories of the Buddha''s Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XII (Dvadasanipata), No. 465, Bhadda-sala-jataka. Verified verbatim against a direct extraction of the held copy.'
+    quote: 'The deaf man did not hear the word "darling" aright, but thought she said "VidGdabha;"'
+canonical-instances:
+  - 'A product manager mishears a colleague''s shorthand for a feature name in a hallway conversation, and rather than confirming it in the next meeting, decides the odd name ''must be an internal codename'' and it ships to customers that way.'
+critical-questions:
+  - 'Would the king have caught the error by simply asking the grandmother directly, and if so, is the rationalization (''ancient family name'') actually filling a gap that mild verification would have closed for free?'
+status: active

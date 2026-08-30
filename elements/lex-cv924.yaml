@@ -1,0 +1,19 @@
+id: lex-cv924
+name: a-corrupt-evaluators-own-verification-ritual-is-turned-against-them
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "An evaluator who relies on an idiosyncratic personal ritual to render judgment, rather than an objective standard, can be attacked precisely through that ritual by anyone who understands how it works. In the Jataka's tale of the bribe-taking sword-tester, a corrupt official judges sword quality partly by smelling the blade for luck, a superstitious step with no real bearing on quality. A smith who won't pay the expected bribe hides pepper in the scabbard, and the tester's own habitual sniff triggers a violent sneeze that drives his face onto the blade's edge, injuring him. The vulnerability was never the swords he judged; it was the specific, exploitable habit that stood in for a real evaluation."
+related: []
+evokes: [jataka, ekanipata, asilakkhana-jataka, idiosyncratic-verification-ritual-is-attackable, corrupt-evaluation-method-becomes-its-own-weakness]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-asilakkhana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 126, Asilakkhana-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The pepper got up his nose and made him sneeze, and that so violently that he slit his nose on the edge of the sword."
+canonical-instances:
+  - "A code reviewer who quietly approves pull requests faster when they include a specific inside-joke comment in the commit message, rather than reviewing the actual diff carefully, gets a genuinely broken change merged by a frustrated engineer who has figured out and exploited the pattern."
+critical-questions:
+  - "Does exposing the corrupt or idiosyncratic method this way actually fix the underlying evaluation process, or does it just remove one exploitable habit while leaving the evaluator free to adopt an equally arbitrary replacement?"
+  - "How would an outsider identify that an evaluator is relying on an idiosyncratic ritual rather than a genuine standard, before having the specific knowledge needed to exploit it the way the smith does?"
+status: active

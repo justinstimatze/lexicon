@@ -1,0 +1,20 @@
+id: lex-w9j67
+name: loyalty-override-conflict-is-the-same-shape-across-institutions
+type-in: situation
+type-out: frame
+_tier: atomic
+agent-instruction: "When a dominant power demands primary loyalty and requires some group to set aside its own internalized professional or communal norms in favor of the power's criteria, don't read the resulting resistance as specific to that group's particular subject matter. Merton draws the analogy explicitly: a scientist refusing to let political criteria override scientific validity, and a devout Catholic resisting a political authority's attempt to redefine what belongs to religion, are 'of the same order' — structurally identical conflicts even though one is about empirical method and the other about religious doctrine. The content that gets defended differs completely; the shape of the conflict (embedded norm-holder vs. externally-imposed loyalty-override) does not. Diagnostic move: when you see a specific group's resistance to a power's encroachment described in that group's own vocabulary (heresy, malpractice, unscientific, unpatriotic), check whether stripping the vocabulary reveals the same generic conflict recurring in other domains under different names — this predicts that groups with no shared interests or values will resist a centralizing power for structurally identical reasons, which is itself a basis for otherwise-unlikely coalitions."
+related: [lex-ejde6]
+evokes: [merton-1957, devout-catholics-and-the-scientist, conflicting-loyalties, same-order-of-resistance]
+lineage:
+  - source: primary
+    text: merton-1957-devout-catholics-same-order-as-scientist
+    citation: "Robert K. Merton, Social Theory and Social Structure, Revised and Enlarged Edition (Glencoe, IL: Free Press, 1957), Ch. XV 'Science and the Social Order' [orig. 1938], p.540."
+    quote: "'In this respect, the reactions of devout Catholics who resist the efforts of the political authority to redefine the social structure, to encroach upon the preserves which are traditionally those of religion, are of the same order as the resistance of the scientist.'"
+canonical-instances:
+  - "A hospital administration overrides physicians' clinical judgment with a cost-driven scheduling algorithm, and separately overrides chaplains' pastoral-confidentiality norms with a data-sharing mandate. Physicians and chaplains have no natural affinity and rarely coordinate — but both are resisting the identical structural move (administrative loyalty-override of a professional norm), which is why they sometimes end up as unlikely allies against the same policy."
+  - "operationally distinct from lex-ejde6 centralized-authority-organizes-what-was-diffuse-opposition: that atom is the aggregate/macro claim that centralization concentrates scattered resistance into a unified force; this atom is the individual/micro claim that the resistance mechanism itself is structurally identical across domains regardless of content. They compose — recognizing the shared shape (this atom) is often the precondition for the scattered resisters actually finding each other and organizing (lex-ejde6)."
+critical-questions:
+  - "Does recognizing the shared structural shape actually help embedded norm-holders coordinate in practice, or does the surface-level vocabulary difference (heresy vs. malpractice vs. unscientific) usually prevent them from recognizing the kinship even when an outside analyst can see it clearly?"
+  - "Is there a principled way to tell a legitimate defense of professional/religious autonomy from a self-serving refusal of accountability dressed in the same 'they're overriding our norms' language — since a corrupt guild protecting its own malpractice would describe its resistance in identical terms to a legitimately autonomous profession defending real expertise?"
+status: active

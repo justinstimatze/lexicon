@@ -1,0 +1,19 @@
+id: lex-e3g8h
+name: search-for-a-parable-rather-than-confront-directly
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than confront a wrongdoing superior head-on, a counselor can deliberately search the immediate surroundings for a physical object to use as an oblique teaching parable, letting the target draw the moral himself instead of hearing it stated as an accusation. In the Jataka''s tale of Kukku, the Bodhisatta does exactly this: "The Bodhisatta wishing to admonish him goes about looking for a parable."'
+related: []
+evokes: [jataka, sattanipata, kukku-jataka, indirect-counsel-via-found-object, teach-through-parable]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kukku-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 396, Kukku-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The Bodhisatta wishing to admonish him goes about looking for a parable."
+canonical-instances:
+  - "A mentor who notices a junior colleague cutting corners doesn't raise it in the next one-on-one, but waits until they pass a poorly-maintained piece of shared equipment together and uses it as an offhand example of what neglect costs later."
+critical-questions:
+  - "Does waiting for a convenient parable risk letting the wrongdoing continue longer than a direct statement would have, trading speed for tact?"
+  - "What happens when no suitable object presents itself — does the counselor eventually have to confront the matter directly, or does the search itself become a way of indefinitely deferring an uncomfortable conversation?"
+status: active

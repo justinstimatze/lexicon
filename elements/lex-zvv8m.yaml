@@ -1,0 +1,19 @@
+id: lex-zvv8m
+name: deadpan-ironic-agreement-acknowledges-disbelief-without-confrontation
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Responding to an obvious lie by playing along with its own internal logic, deadpan, lets you register disbelief without ever directly accusing the liar — the absurdity of the premise, echoed back sincerely, does the accusing for you. In the Jataka's tale of the lizard, a man eats an entire roasted lizard alone and claims it 'ran away'; his wife doesn't call him a liar, she simply mirrors the absurdity: '\"Well, my lord,\" she said, \"what can one do with a roast lizard that runs away?\"'"
+related: []
+evokes: [jataka, catukkanipata, godha-jataka, mirroring-a-lies-own-logic-registers-disbelief-without-accusation, deadpan-agreement-as-a-non-confrontational-callout]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-godha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 333, Godha-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Well, my lord,\" she said, \"what can one do with a roast lizard that runs away?\""
+canonical-instances:
+  - "A manager tells their team a project is 'on track' despite an obviously missed deadline, and an employee responds, straight-faced, 'right, and it'll catch itself back up once it's done running' — registering the disbelief without ever directly calling the manager a liar."
+critical-questions:
+  - "Does this actually communicate disbelief to the liar, or does it risk being read as genuine agreement, letting the falsehood stand unchallenged in the record even if the tone was meant ironically?"
+  - "Is there a cost to never confronting the lie directly — does repeated deadpan deflection train the liar that this particular audience will always let it pass without real consequence?"
+status: active

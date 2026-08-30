@@ -1,0 +1,23 @@
+id: lex-2wvey
+name: perceived-difficulty-decomposes-into-objective-challenge-minus-compensating-capacity
+type-in: situation
+type-out: composition
+_tier: atomic
+agent-instruction: "What a performer feels as a task's difficulty is not the task's objective difficulty in isolation — it's objective difficulty reduced by every compensating capacity available to them: tools, power, or resources the designer or environment provides, and practice-derived skill the performer has already accumulated at similar tasks. Decompose 'this feels too hard' or 'this feels too easy' into these separately tunable terms rather than treating difficulty as one knob. When a challenge feels miscalibrated, check each term independently: is the objective challenge wrong, is the compensating capacity provided wrong, or has the performer's accumulated experience simply outgrown a challenge that was correctly calibrated when they started?"
+related: [lex-ykb5a, lex-xzq67]
+evokes: [game-balancing, perceived-difficulty-formula, power-provided, in-game-experience, adams-fundamentals-of-game-design]
+lineage:
+  - source: primary
+    text: adams-2014-fundamentals-of-game-design-ch15-perceived-difficulty
+    citation: "Ernest Adams, Fundamentals of Game Design, 3rd edition (New Riders/Pearson Education, 2014), Chapter 15 'Game Balancing,' section 'Perceived Difficulty and In-Game Experience.' Verified verbatim against ebook-convert extraction, curly apostrophe and en-dash preserved as in source."
+    quote: "The perceived difficulty of a challenge—the difficulty that the player actually senses, and the type we are most concerned with—consists of the relative difficulty minus the player's experience at meeting such challenges. Remembering that relative difficulty is absolute difficulty minus power provided, we can put all these factors together into a single equation such that perceived difficulty = absolute difficulty – (power provided + in-game experience)"
+canonical-instances:
+  - "A game level built at one fixed absolute difficulty feels punishing to a first-time player. The same level, nothing about it changed, feels trivial to a veteran of the game, because accumulated in-game experience has quietly lowered the perceived-difficulty term across repeated play. Adams's own recommendation follows directly: raise absolute difficulty for players who already carry more experience with that challenge type, instead of treating the level's design as a fixed quantity."
+  - "A pilot trainee's checkride feels harder without an instructor's dual controls (power provided drops to zero) even though the aircraft, the weather, and the maneuver are identical to a training flight with an instructor present — the compensating-capacity term, not the objective task, is what changed."
+  - "operationally distinct from lex-ykb5a pendulum-between-pain-and-boredom (Schopenhauer/Csikszentmihalyi flow): lex-ykb5a names the subjective experience of challenge-skill mismatch — anxiety when overmatched, boredom when undermatched. This atom is an engineering decomposition of what produces that felt mismatch in the first place: three independently adjustable terms a designer can tune to hold perceived difficulty constant even as objective difficulty rises, or to intentionally push it toward either end of lex-ykb5a's pendulum."
+  - "operationally distinct from lex-xzq67 optimal-stimulus-intensity-decreases-as-task-difficulty-increases (Yerkes-Dodson): lex-xzq67 is about the relationship between arousal level and performance, peaking at a task-specific optimum. This atom doesn't involve arousal at all — it's a formula for how three factors (objective challenge, provided power, accumulated experience) combine into a felt difficulty level."
+critical-questions:
+  - "Are the three terms actually independent in practice, or does changing one term quietly move another? Providing more power to compensate for a harder challenge can itself change how much in-game experience a player accumulates, since an easier-feeling challenge gets attempted more and mastered faster."
+  - "Is 'power provided' being measured as what the designer intends to give the player, or as what the player actually understands and uses? A tool the player doesn't know exists or doesn't know how to use provides no actual compensating capacity regardless of what the design spec says."
+  - "Does this decomposition hold outside games, for any skill domain where a designer or instructor can adjust both the raw challenge and the support available around it — driver's-ed difficulty scaling, onboarding-flow complexity in software? The formula's three terms look transferable; whether they're independently tunable in a given domain is worth checking case by case."
+status: active

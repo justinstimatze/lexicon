@@ -1,0 +1,18 @@
+id: lex-q5mcd
+name: escalating-violence-against-an-authoritys-agents-culminates-in-killing-the-heir
+type-in: process
+type-out: state
+_tier: atomic
+agent-instruction: "When an absent authority sends successive representatives to enforce a claim, and each is met with escalating violence, the final escalation targets the authority's own heir specifically — on the theory that eliminating the person who would inherit the claim extinguishes the claim itself, not merely the current enforcement attempt. This is a distinct and more severe move than simply resisting each agent as they arrive: it's an attempt to end the underlying claim permanently by removing whoever would carry it forward."
+related: []
+evokes: [kjv, this-is-the-heir-let-us-kill-him, cast-out-of-the-vineyard, beat-one-killed-another-stoned-another, the-wicked-husbandmen]
+lineage:
+  - source: primary
+    text: kjv-1611-matthew-21-the-wicked-husbandmen
+    citation: "The Holy Bible, King James Version (1611; this edition Project Gutenberg #10), Matthew 21:34-39. Verified verbatim against a direct extraction of the held copy."
+    quote: "And when the time of the fruit drew near, he sent his servants to the husbandmen, that they might receive the fruits of it. And the husbandmen took his servants, and beat one, and killed another, and stoned another. Again, he sent other servants more than the first: and they did unto them likewise. But last of all he sent unto them his son, saying, They will reverence my son. But when the husbandmen saw the son, they said among themselves, This is the heir; come, let us kill him, and let us seize on his inheritance. And they caught him, and cast him out of the vineyard, and slew him."
+canonical-instances:
+  - "A hostile takeover target that has already forced out two rounds of the acquirer's placed executives moves to block the founder's own designated successor from taking the board seat that would make the acquisition's terms permanent — the target has moved from resisting oversight to attempting to end the underlying claim to the company itself."
+critical-questions:
+  - "Does removing the heir actually extinguish the underlying claim, or does it just remove the current claimant while leaving the claim itself — and whatever enforcement follows it — fully intact?"
+status: active

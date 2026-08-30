@@ -1,0 +1,21 @@
+id: lex-m2q6s
+name: reviving-a-discarded-asset-arbitrages-value-others-priced-at-zero
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When you need an asset with history, structure, or recognition and building one fresh would be expensive, check whether something already discarded by others — a defunct brand, an abandoned method, a lapsed institution — still carries latent value that its previous owners have already written off to zero. The 36 Stratagems' 'Borrow a corpse to resurrect the soul' names this move directly: 'Take an institution, a method, or even an ideology that has been forgotten or discarded and appropriate it for your own purpose. Revive something from the past by giving it a new purpose.' The hinge is that the market or the public has already priced the discarded thing at nothing, so acquiring and repurposing it captures whatever residual recognition or structure survives for a fraction of what building the equivalent from scratch would cost — the value was never actually zero, only unclaimed."
+related: []
+evokes: [36-stratagems, borrow-a-corpse-to-resurrect-the-soul, discarded-asset-arbitrage, brand-revival, dormant-value]
+lineage:
+  - source: primary
+    text: taylor-2013-36-stratagems-14-borrow-a-corpse
+    citation: "Peter Taylor, The Thirty-Six Stratagems: A Modern-Day Interpretation of a Strategy Classic (Infinite Ideas, 2013), Stratagem 14, 'Borrow a corpse to resurrect the soul.' Verified verbatim against a direct pdftotext extraction of the held copy."
+    quote: "Take an institution, a method, or even an ideology that has been forgotten or discarded and appropriate it for your own purpose. Revive something from the past by giving it a new purpose."
+canonical-instances:
+  - "Skoda Auto after Volkswagen's 1990 acquisition: a brand that had become a byword for shoddy Eastern Bloc engineering was rebuilt on VW platforms and engineering under the surviving Skoda name. The market had priced the name near zero; two decades later it was an internationally award-winning marque, built on recognition a fresh brand launch could never have bought at any price."
+  - "operationally distinct from ordinary rebranding of an already-functioning asset: this mechanism specifically targets something the wider market has already declared dead or worthless — the arbitrage only exists because the asset's price has collapsed to zero in others' eyes while some structural or recognition value survives underneath."
+critical-questions:
+  - "How do you tell, before committing resources, whether a discarded asset's remaining value is real (Skoda's manufacturing base and brand recognition) versus purely nostalgic and unable to support the new purpose it's being revived for?"
+  - "Does reviving something under its old identity import the old liabilities along with the surviving value — reputational baggage, legal obligations, expectations the revived version cannot actually meet?"
+  - "At what point does 'a new purpose' stretch so far from the discarded thing's original identity that using its name is no longer arbitraging real recognition, just borrowing a familiar word for something unrelated?"
+status: active

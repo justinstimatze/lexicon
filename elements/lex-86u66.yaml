@@ -1,0 +1,20 @@
+id: lex-86u66
+name: pivot-to-flattery-once-staged-evidence-backfires
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Having caused an effect opposite to what she wanted, a persuader can immediately pivot strategy from staged evidence to direct flattery, trying to undo the damage. In the Jataka''s tale of Susima, the queen does exactly this once her fabricated grey hair pushes the king toward renunciation instead of toward her: "Mine, not thine, the silvered hair; Mine the head from which it came: For thy good the lie I dare: One such fault forbear to blame! Thou art young, and fair to see, Like a tender plant in spring! Keep thy kingdom, smile on me! Seek not now what age will bring!"'
+related: [lex-werdq]
+scaffolds-from: [lex-werdq]
+evokes: [jataka, sattanipata, susima-jataka, pivot-to-flattery-after-backfire, strategy-reversal-mid-persuasion]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-susima-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 411, Susima-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Mine, not thine, the silvered hair; Mine the head from which it came: For thy good the lie I dare: One such fault forbear to blame! Thou art young, and fair to see, Like a tender plant in spring! Keep thy kingdom, smile on me! Seek not now what age will bring!"
+canonical-instances:
+  - "After a scare tactic about competitors overtaking the market fails to move a hesitant board and instead makes them question the pitch's honesty, the same executive immediately switches to praising the board's foresight and vision, hoping charm will recover what alarm couldn't."
+critical-questions:
+  - "Does switching strategies immediately after a failed attempt read as adaptive persuasion or as a tell that the whole approach was manipulative from the start?"
+  - "Is there a cost to burning through multiple persuasion tactics on the same target in quick succession, even if any one of them might have worked in isolation?"
+status: active

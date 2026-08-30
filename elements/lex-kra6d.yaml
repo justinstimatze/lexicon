@@ -1,0 +1,18 @@
+id: lex-kra6d
+name: a-genuine-unplanned-event-is-opportunistically-folded-into-a-prior-staged-deception
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Someone maintaining a long-running fraud can encounter a real, unplanned event that happens to fit the fraud''s needs, and seize it to complete and bulletproof the deception, substituting a genuine fact for what would otherwise have remained an unverifiable staged claim. In the Jataka''s tale of Nigrodha, the woman faking pregnancy discovers a real abandoned newborn and claims it as her own delivered child, converting her staged pregnancy into an unfalsifiable birth: "By-and bye she called out to the nurse that their object was gained; unwound the bandages from her loins; and declared that the babe was her own, and that she had just brought him forth."'
+related: []
+evokes: [jataka, dasanipata, nigrodha-jataka, opportunistic-exploitation-of-a-real-event, bulletproofing-a-staged-deception]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-nigrodha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 445, Nigrodha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "By-and bye she called out to the nurse that their object was gained; unwound the bandages from her loins; and declared that the babe was her own, and that she had just brought him forth."
+canonical-instances:
+  - "An employee who has been quietly padding his expense reports for months stumbles on a genuinely lost, unclaimed reimbursement receipt in a shared drawer and slips it into his own pile, using the one real document to make an otherwise unverifiable pattern look legitimate."
+critical-questions:
+  - "Does folding a genuine unplanned event into an ongoing deception make the deception meaningfully harder to detect, or does the earlier staged pattern remain the real vulnerability regardless of this one authentic-seeming addition?"
+status: active

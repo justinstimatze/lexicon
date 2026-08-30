@@ -1,0 +1,19 @@
+id: lex-huhrz
+name: response-is-graduated-to-degree-of-exposure-rather-than-applied-uniformly
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A remedy can be proportioned to how far each affected party had already committed to a mistake, rather than applied uniformly to everyone regardless of exposure — full commitment treated as calling for one response, partial commitment treated as recoverable through an active countermeasure. The general principle: triage by degree of exposure, not by a single blanket rule. In the Jataka's tale of Gumbiya, the caravan leader treats the half-poisoned differently from the fully poisoned: 'to those who had eaten only half of it, he administered an emetic, and after they had vomited, [201] he gave them the four sweet things, and so by his supernatural power they recovered.'"
+related: []
+evokes: [jataka, pancanipata, gumbiya-jataka, response-graduated-to-degree-of-exposure, triage-by-commitment-not-blanket-rule]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-gumbiya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 366, Gumbiya-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "But to those who had eaten only half of it, he administered an emetic, and after they had vomited, [201] he gave them the four sweet things, and so by his supernatural power they recovered."
+canonical-instances:
+  - "When a bad database migration corrupts records, the recovery team doesn't apply the same fix to every affected row — records fully overwritten are restored from backup, while records only partially touched get a targeted repair script, matching the remedy to how far each record's damage had actually progressed."
+critical-questions:
+  - "Graduating the response by exposure level takes more information and judgment than may be available in the moment — what happens when a case that looked partial gets under-treated because its true exposure was misread?"
+  - "Is there a risk that treating people differently based on exposure level, even for good triage reasons, creates a perception of unequal treatment among those affected by the same underlying event?"
+status: active

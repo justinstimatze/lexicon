@@ -1,0 +1,38 @@
+id: lex-wdeje
+name: asymmetry-as-function-enabler
+type-in: state
+type-out: state
+_tier: atomic
+agent-instruction: "When a function needs an enabler, surface that asymmetry (energy gradient, geometric mismatch, regulatory bias) is often the enabler — symmetric situations don't act; introducing or finding the asymmetry is the move."
+related: [lex-rupk9, lex-mnxhs, lex-975pa, lex-2zyhy, lex-kyc5a]
+scaffolds-from: [lex-rupk9]
+evokes: [break-symmetry-deliberately, asymmetric-by-design, the-difference-is-the-mechanism, the-tilt-is-the-thing]
+lineage:
+  - source: primary
+    text: altshuller-1984-principle-4-asymmetry
+    citation: "G. S. Altshuller, Creativity as an Exact Science: The Theory of the Solution of Inventive Problems, trans. Anthony Williams (Gordon and Breach, 1984), Ch.5 'Forty Basic Methods,' Principle 4 'The Principle of Asymmetry.' UPGRADED 2026-08-26 from a practitioner-tier citation to a primary quote."
+    quote: "'4. The principle of asymmetry. a. Switching from symmetrical to asymmetrical forms of the object. b. If the object is already asymmetrical increasing the degree of asymmetry. Example: One side of a car's bumper bar is increased in strength to improve resistance to impact with the kerbstone.'"
+  - source: practitioner
+    text: taleb-2012-antifragile
+    citation: "Nassim Nicholas Taleb, Antifragile: Things That Gain from Disorder (Random House 2012, Incerto Book 3) — Chapter 12 'Thales' Sweet Grapes' explicitly names asymmetry as the essential structure of optionality, the canonical decision-theoretic instance. Taleb identifies the option contract as 'the only explicit asymmetry you can find in its purest form' — a sharper formulation than the abstract TRIZ principle. Decision-asymmetry (lex-2zyhy optionality) is a sub-case of asymmetry-as-function-enabler where the function being enabled is acting-under-uncertainty-without-needing-to-predict."
+    quote: "Simply, he had a contract that is the archetype of what an asymmetry is, perhaps the only explicit asymmetry you can find in its purest form. It is an option, 'the right but not the obligation' for the buyer and, of course, 'the obligation but not the right' for the other party, called the seller. [Ch.12 — asymmetry-as-function-enabler made operational: the asymmetric structure (right/no-obligation vs obligation/no-right) is what enables the function (favorable expected outcome under uncertainty). This is the decision-theoretic counterpart to the engineering form (TRIZ) and the physical form (symmetry-breaking).] You are only harmed if you repeatedly pay too much for the option…we don't pay for the options given to us by nature and technological innovation. [Ch.12 — the practical extension: nature and technology give us asymmetries for free; the work is recognizing them.]"
+  - source: practitioner
+    text: spontaneous-symmetry-breaking-physics
+    citation: "spontaneous symmetry breaking in particle physics: the Higgs mechanism gives mass to gauge bosons by breaking electroweak symmetry; the universe at large is matter-antimatter asymmetric, which is precisely why anything exists. The asymmetry IS the function. Not yet staked from a specific text; no verbatim quote is claimed here."
+  - source: practitioner
+    text: triz-decomposition-pass
+    citation: "promoted from cross-attestation: TRIZ engineering (asymmetric forms enabling function), physics (symmetry-breaking → mass; baryogenesis), game design (Magic the Gathering's color pie + Settlers of Catan's asymmetric resources; asymmetric multiplayer games like Dead by Daylight), software (asymmetric APIs: read vs write, idempotent vs non-idempotent), economics (asymmetric information markets — the asymmetry IS the source of agency cost), decision theory (Taleb 2012 — option contracts as the purest decision-asymmetry)"
+canonical-instances:
+  - "drill bit shape: an asymmetric (helical) flute removes chips efficiently; a symmetric (straight) flute clogs. The asymmetry is what makes the bit cut"
+  - "Magic the Gathering's five colors: each color does what the others can't (white can heal, black can sacrifice, etc.) — the deliberate asymmetry of the color pie IS the design space; symmetric colors would collapse to one effective color"
+  - "the option contract (Taleb's archetypal example): right-but-not-obligation for one party + obligation-without-right for the other. The asymmetric structure IS the mechanism that enables acting under uncertainty with bounded loss + unbounded upside. lex-2zyhy optionality atomizes this specific decision-theoretic instance; lex-wdeje names the broader category"
+  - "operationally bears on lex-rupk9 conservation-as-invariant-tracking through Noether's theorem: continuous symmetry → conservation law. The INVERSE direction is asymmetry: deliberately break a symmetry to NOT conserve some quantity, allowing it to flow / change / accumulate (e.g., breaking time-translation symmetry by adding an external clock allows energy to enter a system)"
+  - "social institutions: asymmetric information (one party knows X, the other doesn't) creates the entire field of mechanism design + agency theory; the asymmetry is the problem AND the lever"
+  - "operationally distinct from lex-2zyhy optionality: lex-2zyhy is the decision-theoretic specialization (asymmetric *payoff* structure under *uncertainty*). lex-wdeje is the broader frame covering engineering form (drill bits), game design (asymmetric mechanics), physical law (Noether-broken symmetries), and informational structure (mechanism-design asymmetries). Optionality inherits from asymmetry-as-function-enabler"
+critical-questions:
+  - "is the function actually enabled BY the asymmetry, or just compatible with it? Counter-test: would a symmetric variant produce the same function via a different mechanism? If yes, the asymmetry is implementation-detail, not function-substrate. The atom names cases where removing the asymmetry removes the function (drill-bit flute symmetric → clogs and stops cutting)."
+  - "is the structural asymmetry deliberate-and-functional or vestigial-and-incidental? Many institutional asymmetries are historical contingencies that no longer carry function — a legacy reporting hierarchy whose information-asymmetry once enabled coordination but no longer does. Discriminator: does removing it BREAK something specific, or just feel symbolically wrong?"
+  - "who bears the cost of the asymmetry? Every asymmetric structure imposes its asymmetry on someone (the option-seller pays the obligation that the option-buyer escapes). The atom is structural — whether the function deserves enabling at that cost is an ethical question the atom doesn't answer. Make the cost-bearer visible before invoking the atom as justification."
+  - "would the function survive role-reversal? Reversal test: swap the asymmetric positions. If the function is preserved (it works either way), the asymmetry is weak — the function rides on something else. If the function fails (drill bit run backwards, option contract with reversed parties), the asymmetry is foundational and the atom applies."
+  - "is the system's symmetry a constraint we should respect, or a baseline to break? Noether's theorem: symmetry → conservation law. The atom's productive deployment is in domains where conservation is the problem (energy stuck in a system) and breaking symmetry is the solution (add an external clock so energy can flow). Don't break symmetry where conservation is the feature."
+status: active

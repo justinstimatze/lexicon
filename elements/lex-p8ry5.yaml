@@ -1,0 +1,24 @@
+id: lex-p8ry5
+name: later-usefulness-does-not-prove-need-drove-original-discovery
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone argues that a discovery or idea must have been produced BY a practical need, because it later turned out to satisfy that need, check the dates first — if the discovery predates the need by a wide margin, the argument has the causal arrow backwards. Merton's own example, aimed at a common move in functionalist and Marxist history of science: 'the application of science to a need does not necessarily testify that the need has been significantly involved in leading to the result. Hyperbolic functions were discovered two centuries before they had any practical significance and the study of conic sections had a broken history of two millennia before being applied in science and technology. Can we infer, then, that the \"needs\" which were ultimately satisfied through such applications served to direct the attention of mathematicians to these fields, that there was, so to speak, a retroactive influence of some two to twenty centuries?' Put generally: showing that X now serves need Y is not evidence that need Y caused X to arise, whenever X substantially predates Y's emergence or Y's recognition — the fit between a thing and a later use can be pure retrospective convenience, not design or unconscious direction. Merton's own prescription for actually settling the question, rather than assuming it: 'detailed inquiry into the relations between the emergence of needs, recognition of these needs by scientists or by those who direct their selection of problems and the consequences of such recognition is required before the role of needs in determining the thematics of scientific research can be established.' Use this whenever a causal story runs 'this exists because it serves purpose P' — check whether the thing predates P, and if so, demand the actual mechanism connecting them rather than accepting the fit itself as proof."
+related: []
+evokes: [merton-1957, retroactive-influence-fallacy, hyperbolic-functions-conic-sections, function-does-not-prove-origin, temporal-precedence-check, wissenssoziologie]
+lineage:
+  - source: primary
+    text: merton-1957-hyperbolic-functions-retroactive
+    citation: "Robert K. Merton, Social Theory and Social Structure, Revised and Enlarged Edition (Glencoe, IL: Free Press, 1957), Ch. XII 'The Sociology of Knowledge,' p.484. Verified verbatim against a University of Iowa library scan via Internet Archive OCR text (item 31858016281432)."
+    quote: "'the application of science to a need does not necessarily testify that the need has been significantly involved in leading to the result. Hyperbolic functions were discovered two centuries before they had any practical significance and the study of conic sections had a broken history of two millennia before being applied in science and technology. Can we infer, then, that the \"needs\" which were ultimately satisfied through such applications served to direct the attention of mathematicians to these fields, that there was, so to speak, a retroactive influence of some two to twenty centuries?'"
+  - source: primary
+    text: merton-1957-detailed-inquiry-required
+    citation: "Robert K. Merton, Social Theory and Social Structure (1957), same chapter, p.484, immediately following."
+    quote: "'Detailed inquiry into the relations between the emergence of needs, recognition of these needs by scientists or by those who direct their selection of problems and the consequences of such recognition is required before the role of needs in determining the thematics of scientific research can be established.'"
+canonical-instances:
+  - "A company retroactively explains an old, unused patent as evidence the founders 'always understood' a market that only emerged a decade later — the patent's later relevance to that market is not evidence anyone was pursuing it for that reason at the time."
+  - "A cultural commentator argues that an old folk tradition 'exists because' it satisfies a modern psychological or social need it happens to serve today — without checking whether the tradition predates that need's recognition, or even that population's existence, by centuries."
+critical-questions:
+  - "Does this reasoning generalize cleanly to biological evolution, where a trait's current function genuinely can explain its selection and persistence even though the trait's origin may have been for something else (exaptation) — is Merton's target specifically INTENTIONAL-direction claims (needs 'directing attention'), leaving function-explains-persistence claims untouched?"
+  - "How wide does the time gap need to be before 'later usefulness' becomes clearly disqualified as evidence of original cause — Merton's examples are extreme (centuries to millennia), but does the same fallacy operate, just less visibly, over shorter and more ambiguous gaps?"
+status: active

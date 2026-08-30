@@ -1,0 +1,19 @@
+id: lex-hvhpp
+name: a-self-exempting-maxim-names-a-tell-while-escaping-it
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A speaker can name a well-known deception-tell out loud — 'whenever anybody says I'm going to be completely honest with you, a curveball is on the way' — and in the same breath exempt their own current statement from the rule they just stated, using the act of naming the pattern as evidence they're now standing outside it. The move works because openly naming a manipulation tactic reads as a marker of unusual candor, which is exactly the impression the tactic itself is designed to produce — so naming the tell doesn't protect the listener, it can actually strengthen the impression of honesty the speaker is manufacturing. Treat explicit meta-commentary about honesty ('let me be real with you,' 'I'm not going to spin this') as no more trustworthy than the thing it claims to be an exception to."
+related: []
+evokes: [jackall-moral-mazes, "that doesn't apply to what I'm about to tell you", naming-the-tell-as-a-fresh-tell]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch6-self-exempting-maxim
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 6, Dexterity with Symbols."
+    quote: "in the corporate world, whenever anybody says to you: \"I'm going to be completely honest with you about this,\" you should immediately know that a curveball is on the way. But, of course, that doesn't apply to what I'm about to tell you."
+canonical-instances:
+  - "A negotiator opens with 'I'll be straight with you, most people in my position would inflate this number' and then states a number that is itself inflated, using the disclosed awareness of the tactic as cover for deploying it."
+critical-questions:
+  - "Is there any version of naming a manipulation tactic that actually does protect a listener, or does the self-exempting move always neutralize the warning the moment it's spoken, regardless of the speaker's actual intent?"
+status: active

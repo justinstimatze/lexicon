@@ -1,0 +1,22 @@
+id: lex-ekhpx
+name: a-named-eyewitness-corrects-a-hostile-accounts-claim-about-intent
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When a widely circulated account claims a person deliberately killed someone during a chaotic physical struggle, a witness who was standing right there at the exact moment can correct not the basic facts, that a gun went off and killed the officer, but the narrower and more consequential claim about what the person meant to do. Black Elk reports Dog Chief's correction directly: 'Wasichus and some others have said he meant to do this, but Dog Chief was standing right there, and he told me it was not so.' The event itself isn't disputed; only the intent attributed to it is, and that dispute rests entirely on how close the witness stood to the struggle itself, independent of anyone's view of the outcome."
+related: []
+evokes: [black-elk-speaks, the-butchering-at-wounded-knee, he-told-me-it-was-not-so, dog-chief-was-standing-right-there, while-they-were-wrestling-the-gun-went-off]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch24-butchering-at-wounded-knee
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 24, 'The Butchering at Wounded Knee.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "An officer came to search them. He took the other man's gun, and then started to take Yellow Bird's. But Yellow Bird would not let go. He wrestled with the officer, and while they were wrestling, the gun went off and killed the officer. Wasichus and some others have said he meant to do this, but Dog Chief was standing right there, and he told me it was not so."
+canonical-instances:
+  - "A news report claims a driver deliberately struck a pedestrian during a chaotic street confrontation, and a bystander who was standing at the exact spot says the car lurched forward during a struggle over the door handle, not from any intent to hit anyone."
+  - "A company's official incident report states an employee intentionally damaged equipment during a heated argument, but a coworker who was standing right beside them says the equipment broke because the employee was shoved into it during the scuffle."
+  - "A historical account claims a soldier executed a prisoner in cold blood during a raid, and a fellow soldier who was present at the exact moment says the weapon discharged during a struggle for control of it, not from an order or intent to kill."
+critical-questions:
+  - "Is Dog Chief's account more reliable than the version 'Wasichus and some others' reported, or does loyalty to a fellow Lakota and distance from the Wasichu perspective make his correction just as motivated as the account it disputes?"
+  - "Intent during a two-second physical struggle is notoriously hard for even the participants themselves to know with certainty -- can a bystander, however close, actually distinguish a deliberate shot from an accidental discharge with the confidence Dog Chief's testimony claims?"
+  - "Does correcting the intent claim actually matter once the outcome, a dead officer and a massacre that followed, is the same either way, or does the intent question carry real moral and historical weight independent of the body count it didn't change?"
+status: active

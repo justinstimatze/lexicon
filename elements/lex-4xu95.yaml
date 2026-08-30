@@ -1,0 +1,19 @@
+id: lex-4xu95
+name: each-uncosted-reward-doubles-the-next-demand-toward-a-terminal-catastrophe
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Each successive reward obtained without cost can generate a demand for a proportionally larger reward, in a numeric doubling sequence with no natural stopping point until a catastrophic terminal step is reached. This models escalating expectation as a structural process rather than a moral failing — the sequence has its own arithmetic, and nothing internal to it signals when to stop. In the Jataka's tale of Mittavinda, the escalation is rendered as an explicit progression: 'from four to eight, to sixteen thence, and so to thirty-two insatiate greed doth grow.'"
+related: []
+evokes: [jataka, pancanipata, mittavinda-jataka, structural-doubling-escalation-of-demand, insatiability-as-arithmetic-not-morality]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mittavinda-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 369, Mittavinda-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "From four to eight, to sixteen thence, and so To thirty-two insatiate greed doth grow."
+canonical-instances:
+  - "A vendor who grants a client's first request for a small scope addition at no extra charge finds the client's next request twice as large, then twice as large again each renewal cycle, with no request ever coming back down in size — each free concession simply resets the baseline the next demand escalates from."
+critical-questions:
+  - "Does the doubling pattern reflect something structurally inevitable about uncosted reward, or is it a specific narrative device that doesn't generalize to real cases where demand growth is typically messier and less regular?"
+  - "At what point does responsibility shift from the escalating demander to whoever kept granting the rewards without ever naming a limit — is the terminal catastrophe the demander's fault alone?"
+status: active

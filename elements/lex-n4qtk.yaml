@@ -1,0 +1,20 @@
+id: lex-n4qtk
+name: a-forced-ranking-hypothetical-plus-praise-provoked-criticism-surfaces-true-sentiment
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'To learn someone''s real private opinion of a person they''d normally only praise in public, pose a forced-tradeoff hypothetical that ranks everyone they care about against each other — then, once you have the ranking, praise each highly-placed person in turn and ask why they''re not ranked higher. Defending the ranking forces them to voice the real, unflattering reason each one placed where they did, information a direct question would never get. In the Maha-Ummagga-Jataka, the ascetic Bheri wants to know King Culani''s true feeling toward Mahosadha without asking directly. She poses a forced hypothetical: "If there were seven of you voyaging on the ocean, and a demon seeking for a human sacrifice should seize the ship, in what order would you give them up?" The king ranks his own mother, wife, brother, friend, and priest below himself — sparing only Mahosadha. She then praises his mother''s virtues to his face, forcing him to explain, unprompted, exactly why he''d sacrifice her first: "she mocks unseasonably at doorkeepers and guards, unbidden she sends messages to rival kings."'
+related: []
+evokes: [jataka, mahanipata, maha-ummagga-jataka, forced-ranking, provoked-honesty, true-sentiment-elicited]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-maha-ummagga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 546, Maha-Ummagga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: 'If there were seven of you voyaging on the ocean, and a demon seeking for a human sacrifice should seize the ship, in what order would you give them up and save yourself from the water-demon?'
+canonical-instances:
+  - "A CEO evaluating which of five division heads to retain in a downsizing is asked by an HR consultant to rank them by who they'd keep if forced to cut four; once the ranking is set, the consultant praises the lowest-ranked division head's public track record, forcing the CEO to articulate the real, previously unstated performance concerns behind the low ranking."
+  - "A researcher wanting an honest assessment of a lab's true pecking order asks each member privately who they'd choose to save if the lab could only fund one more year of one person's project, then follows up by praising whoever ranked lowest, drawing out candid grievances no direct interview question would surface."
+critical-questions:
+  - "The hypothetical forces an artificial ranking of people the subject may genuinely refuse to rank in reality — does the answer reflect real priorities, or just whatever ordering feels least uncomfortable to defend under pressure in the moment?"
+  - "Bheri stages the same question twice, privately then publicly, to both learn the truth and broadcast it — does eliciting a private truth and then republishing it publicly betray the confidence of the private disclosure, even when the public version confirms rather than contradicts it?"
+status: active

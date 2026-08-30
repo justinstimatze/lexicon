@@ -1,0 +1,19 @@
+id: lex-2gtv6
+name: hired-conspirators-expose-a-frame-up-by-flaunting-their-own-payoff
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A carefully staged frame-up can unravel not through investigation into the crime itself, but through the hired executors' own inability to keep quiet about the money they were paid to commit it. The conspiracy's weak point was never the plan. It was trusting people motivated by payment to stay disciplined once they'd spent it. In the Jataka's tale of the murdered woman, heretics hire ruffians to kill someone and frame the Buddha's disciples, and the plot collapses when the ruffians, having spent their blood money on drink, argue publicly about the crime: 'You killed Sundari with one blow, and then threw her in the dust-heap, and here you are, buying liquor with the blood- money!' Nobody investigated the frame-up. The people who committed it simply announced it themselves."
+related: []
+evokes: [jataka, tikanipata, manisukara-jataka, hired-executors-expose-a-conspiracy-through-their-own-indiscretion, conspicuous-spending-of-payoff-money-betrays-the-crime]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-manisukara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 285, Manisukara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Now the ruffians had drunk the blood-money, and were quarrelling together. Said one to another, \"You killed Sundari with one blow, and then threw her in the dust-heap, and here you are, buying liquor with the blood- money!\""
+canonical-instances:
+  - "An executive who hires outside contractors to leak a rival's trade secrets gets exposed not by a forensic investigation but because the contractors, having spent their fee, get into a public dispute over who deserves more credit for the job."
+critical-questions:
+  - "Is this failure mode specific to hiring people motivated primarily by money, or would any group of conspirators eventually let a similar detail slip regardless of what motivated their participation?"
+  - "Does the mastermind bear more responsibility for the exposure by choosing unreliable executors, or is some minimum risk of this kind unavoidable whenever a plan requires bringing in outside help at all?"
+status: active

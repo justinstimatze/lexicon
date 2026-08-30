@@ -1,0 +1,18 @@
+id: lex-rucv8
+name: declining-formal-authority-to-remain-in-proximity-to-real-power
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'A mentor can advise a protégé to refuse an offered grant of autonomous formal authority and instead stay physically close to the actual source of power, on the theory that access and standing beat distant, nominal control. In the Jataka''s tale of Prince Samvara, the Bodhisatta advises the youngest of a hundred princes to turn down a province and stay at the king''s feet instead: "He replied, ''My son, when a province is offered you, you should refuse it, and say, My lord, I am the youngest of all: if I go too, there will be no one about your feet: I will remain where I am, at your feet.''"'
+related: []
+evokes: [jataka, ekadasanipata, samvara-jataka, proximity-to-power-over-formal-authority, court-politics]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-samvara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 462, Samvara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "He replied, \"My son, when a province is offered you, you should refuse it, and say, My lord, I am the youngest of all: if I go too, there will be no one about your feet: I will remain where I am, at your feet.\""
+canonical-instances:
+  - "A junior aide turns down a regional directorship to stay on the senator's personal staff, betting that daily access to the person who actually decides things outweighs formal authority over a distant office."
+critical-questions:
+  - "Samvara ends up sole king, so the bet pays off spectacularly — but the advice was given before any of that could have been known. Nothing about the moment of giving it would have distinguished it from equally plausible advice that simply never paid off."
+status: active

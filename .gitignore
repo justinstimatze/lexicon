@@ -1,0 +1,98 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Per-machine tool state (defn AI-native code database)
+.defn/
+
+# Per-clone redaction-audit config — patterns are local, never published
+.lexicon/
+
+# Secrets — also gitignored under render/.gitignore but belt-and-suspenders
+*.env
+*.env.local
+.env
+
+# Logs / per-machine session state
+*.log
+session-log.jsonl
+
+# Reference PDFs / EPUBs — large binaries, often copyrighted source
+# materials. Kept local-only; never committed (especially never published).
+# Note: V8 commit 71710ed historically added 8 PDFs before this rule;
+# those remain in git history but no remote is configured, so they
+# have not been published.
+refs/
+render/viz/
+
+# .claude/* ignores everything in .claude/ EXCEPT subdirs we explicitly
+# re-include below. (A bare `.claude/` would exclude the dir and make
+# negation impossible per gitignore semantics.)
+.claude/*
+# Project-level skills SHIP with the repo (2026 Claude Code skills
+# best practice: skills live at .claude/skills/<name>/SKILL.md and are
+# checked in for everyone working on the project).
+!.claude/skills/
+.plancheck-debug.json
+
+# Per-session handoff archive — local recovery state, not for the public repo.
+# Future handoffs go to .session-handoffs/SESSION-N-HANDOFF.md (V114 d).
+.session-handoffs/
+
+# Pre-V114-d top-level handoff/report files (now archived in git history).
+SESSION-*.md
+
+# Working procurement queues — transient, format unstable, kept on disk only.
+wanted-materials.md
+wanted-materials-archive-*.md
+mining-queue.md
+acquired-materials.md
+lexicon.db
+lexicon.db-shm
+lexicon.db-wal
+docs/working/
+docs/passes/
+__pycache__/
+
+# Batch-sweep and quote-verification audit logs — raw process artifacts, same
+# class as docs/passes/. The triage/adjudication .txt files name files from
+# refs/ (305 distinct filenames across the directory as of 2026-08-19) —
+# exactly the corpus-inventory leak scripts/private/ was gitignored for above.
+docs/audits/
+
+# Local utility scripts and config — kept on disk per clone, not shipped.
+# Anything that scrapes/fetches external sites stays local-only.
+# Tooling is public by default; anything that names how the corpus was
+# obtained lives here instead. clean-names.sh hardcoded 29 acquisition
+# filenames with publisher metadata, ISBNs and 28 MD5 hashes — an inventory of
+# a private corpus plus its provenance — and was the one file the 2026-05-31
+# citation scrub never opened, because that pass cleaned the citations where
+# the rule is written down and not the tool that implements it.
+scripts/private/
+scripts/*-fetch.sh
+scripts/*-scrape.*
+.lexicon/
+
+# Built Pages output (baked by .github/workflows/pages.yml). Anchored to
+# repo root — an unanchored `public/` also matched web/public/, Vite's
+# legitimate source-asset dir (favicon, icons), not a generated artifact.
+/public/
+
+# OCR sidecars and extraction caches — derived from refs/, never committed
+.cache/
+refs/*.ocr.txt
+.ocr-tmp/
+**/.ocr-tmp/
+
+# Local ref-resolution pins for scripts/verify-quotes.py. Maps a citation
+# slug to the file in refs/ that holds the work. refs/ is a local corpus and
+# these filenames carry acquisition formats, so the map stays out of the
+# published repo the same way the corpus does.
+.refs-pins.tsv

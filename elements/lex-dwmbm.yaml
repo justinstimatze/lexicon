@@ -1,0 +1,18 @@
+id: lex-dwmbm
+name: a-repeated-refrain-binding-varied-examples-into-one-lesson
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: 'A teaching figure can deliver a single ethical conclusion after each of several distinct illustrations of a broader truth, using the identical closing line each time to bind otherwise unrelated examples into one reinforced lesson rather than stating the conclusion once and trusting the examples to carry it. In the Jataka''s tale of the chaste king, four stanzas on youth, wealth, family, and the body itself each close on the same refrain: "Youth passes soon: a moment—''tis gone by; No standing-place is firm: all creatures die To new life born: this fragile frame decays: Then be not careless, walk in piety."'
+related: []
+evokes: [jataka, ekadasanipata, udaya-jataka, didactic-refrain, repetition-as-persuasion]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-udaya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 458, Udaya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Youth passes soon: a moment—'tis gone by; No standing-place is firm: all creatures die To new life born: this fragile frame decays: Then be not careless, walk in piety."
+canonical-instances:
+  - "A safety trainer closes four unrelated near-miss stories — a dropped tool, a skipped lockout, a rushed inspection, a misread gauge — with the identical line 'and nobody thought it would be the one that mattered', so the pattern lands harder than any single retelling."
+critical-questions:
+  - "Does the repeated refrain strengthen the lesson through reinforcement, or does its predictability eventually let the audience anticipate and tune out the closing line before the example itself has been absorbed?"
+status: active

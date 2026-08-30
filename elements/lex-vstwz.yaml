@@ -1,0 +1,19 @@
+id: lex-vstwz
+name: managerial-distance-from-detail-breeds-punishing-bad-news
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Executives positioned far from the operational detail of a process come to expect clean, uncomplicated results as the default — and that expectation, not personal cruelty, is what produces the well-documented aversion to bad news and the tendency to punish whoever surfaces a complication. The causal chain runs from structural distance to expectation to punishment, not from some general managerial callousness. This matters diagnostically: the fix isn't asking executives to be kinder to messengers, it's closing the distance between the decision-maker and the operational detail, since the expectation of cleanliness is what's generating the punishment, and that expectation is a direct function of how far removed someone is from where the mess actually happens."
+related: [lex-46eeg]
+evokes: [jackall-moral-mazes, "top executives' well-known aversion to bad news", kill-the-messenger]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch2-distance-from-detail
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 2, Section I."
+    quote: "corporate higher echelons tend to expect successful results without messy complications. This is central to top executives' well-known aversion to bad news and to the resulting tendency to kill the messenger who bears the news."
+canonical-instances:
+  - "A hospital administrator several layers removed from the ward floor reacts to a nurse's incident report by questioning the nurse's judgment, while a floor supervisor who deals with the same category of incident daily treats the same report as routine and expected."
+critical-questions:
+  - "Would moving the same executive physically or organizationally closer to the operational detail actually change their expectation of cleanliness, or is the aversion to bad news load-bearing for something else — status, liability, performance metrics — that distance alone won't fix?"
+status: active

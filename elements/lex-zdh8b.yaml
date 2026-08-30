@@ -1,0 +1,22 @@
+id: lex-zdh8b
+name: one-trusted-outsider-is-exempted-from-a-groups-distrust-confirmed-later
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A group that has come to broadly distrust an outsider category can still single out one specific member of it as genuinely good and different from the rest, holding the general distrust and the individual exception side by side without resolving the tension between them -- and a later, unrelated event can be cited afterward as confirming that the exception was warranted. Black Elk's people reject a Catholic priest's message along with every other Wasichu promise, yet Black Elk still marks him apart: 'He was a good man and he was badly wounded that winter in the butchering of Big Foot's band. He was a very good man, and not like the other Wasichus.' The priest's later injury, sustained among the very people who had turned his message away, becomes retroactive evidence for a distinction drawn before any such proof existed."
+related: []
+evokes: [black-elk-speaks, bad-trouble-coming, not-like-the-other-wasichus, he-was-a-very-good-man, badly-wounded-that-winter]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch23-bad-trouble-coming
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 23, 'Bad Trouble Coming.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "There a Black Robe (Catholic Priest) came and tried to coax us to return. Our people told him that Wasichu promises were no good; that everything they had promised was a lie. Only a few Ogalalas turned back with the Black Robe. He was a good man and he was badly wounded that winter in the butchering of Big Foot's band. He was a very good man, and not like the other Wasichus."
+canonical-instances:
+  - "A community that has learned to distrust a certain government agency's promises still names one specific caseworker as genuinely trying to help, and points to her quitting the agency in protest years later as proof she was different from her colleagues all along."
+  - "A neighborhood skeptical of a large developer's outreach efforts nonetheless trusts one particular site manager as honest, and later cites his testimony against the company in a lawsuit as confirmation of the earlier exception."
+  - "A union that distrusts management as a class still regards one specific supervisor as fair, and treats his being fired for siding with workers during a later dispute as evidence the union's earlier judgment of him had been correct."
+critical-questions:
+  - "Is the priest's later wounding actually evidence that he was different from other Wasichus, or is it simply what happened to be present at a massacre that also killed and wounded many people who had no such reputation for goodness?"
+  - "Does carving out one trusted exception risk functioning as a release valve that lets the broader distrust of the group stay comfortably intact, rather than prompting any real reconsideration of whether the group-level judgment was too broad to begin with?"
+  - "The exception is drawn before the confirming event happens -- does the later wounding actually validate the original judgment, or does the account simply select, after the fact, the one piece of evidence that happens to fit a distinction already made?"
+status: active

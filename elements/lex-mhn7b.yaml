@@ -1,0 +1,21 @@
+id: lex-mhn7b
+name: a-stakeless-guard-can-be-asked-to-stand-down
+type-in: process
+type-out: warning
+_tier: atomic
+agent-instruction: "When you delegate vigilance to a proxy while you rest -- an automated alert, a junior watcher, a mechanism with no independent stake in the outcome -- don't assume it protects you the way your own attention would, because a watcher with no loyalty of its own can often be neutralized simply by being asked, rather than by being defeated. In Eastman's telling, Unktomee, exhausted after killing a flock of ducks for a feast, wants to nap while his dinner cooks, so he instructs his own detached Face to keep watch: 'first telling his Face to be on the watch and to twitch if any one came, so as to awaken him.' When the thieving Foxes arrive, they don't have to trick, disable, or overpower this guard at all -- 'the Foxes stroked it very gently, and told it to be quiet,' and it simply complied, having no actual investment in Unktomee's dinner or any reason to resist a direct, gentle request. The vigilance was real in form -- there genuinely was a designated watcher, with a genuine mechanism for raising an alarm -- but it failed completely because the watcher had no stake of its own in the outcome it was guarding, and could therefore be talked out of doing its job as easily as it could have been talked into doing it in the first place. Diagnostic move: when evaluating whether a guard, alert system, or delegated watcher actually protects you, ask not just whether it's technically capable of detecting a threat, but whether it has any independent reason to resist being asked, persuaded, or instructed to stand down by the very party it's supposed to be watching for -- a mechanism that will do whatever it's told, by whoever tells it, isn't vigilance, it's a formality that anyone polite enough can walk straight past."
+related: []
+evokes: [a-watcher-with-no-stake-can-be-talked-out-of-watching, eastman-unktomee-and-his-bundle-of-songs, vigilance-in-form-without-loyalty-is-not-vigilance, the-thief-simply-asks-the-guard-to-be-quiet]
+lineage:
+  - source: primary
+    text: eastman-unktomee-bundle-of-songs-face-persuaded-to-stay-quiet
+    citation: "Charles A. Eastman (Ohiyesa) and Elaine Goodale Eastman, Wigwam Evenings: Sioux Folk Tales Retold (Little, Brown, 1909), 'Ninth Evening: Unktomee and His Bundle of Songs.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'So he lay down in the warm sand near by, first telling his Face to be on the watch and to twitch if any one came, so as to awaken him. While Unktomee slept, the Fox returned with a friend. Unktomee's Face did not twitch as it had been told to do, for the Foxes stroked it very gently, and told it to be quiet.'"
+canonical-instances:
+  - "A company relies on a single automated fraud-detection alert with no separate escalation requirement, and an insider who knows the system simply configures a maintenance exception 'to be quiet' during a specific window, sailing straight through a control that was never actually adversarial to someone with legitimate-looking access to ask it nicely."
+  - "A landlord asks a friendly, unpaid neighbor to keep an eye on a vacant property, and when a smooth-talking stranger shows up claiming to be a new tenant's mover and asks the neighbor not to worry about the truck being there overnight, the neighbor, having no real stake in the property, simply agrees and stops watching."
+critical-questions:
+  - "how does a designer actually build a watcher with genuine, resistant loyalty rather than one that will comply with whoever addresses it politely -- is a stake-holding guard always more expensive or harder to obtain than a purely mechanical or delegated one?"
+  - "does every delegated watcher actually lack a stake, or are some proxies (a well-compensated employee, a system with real accountability built in) genuinely resistant to being talked down, making this a spectrum rather than a binary the story's simple mechanism suggests?"
+  - "is the deeper failure here Unktomee's choice of guard, or his decision to rest at all while holding something valuable and vulnerable -- does blaming the guard's lack of loyalty let the actual decision-maker off the hook for accepting the risk of resting unguarded in the first place?"
+status: active

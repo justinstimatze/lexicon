@@ -1,0 +1,19 @@
+id: lex-qfe59
+name: swap-an-asset-for-a-placeholder-to-test-its-real-value
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When you suspect a hoarded asset is generating no actual value, check whether replacing it with an inert placeholder and observing daily life changes anything at all. Aesop's 'The Miser,' devastated after his buried, never-used gold is stolen, is told by a neighbor: 'put a brick into the hole, and take a look at it every day: you won't be any worse off than before, for even when you had your gold it was of no earthly use to you.' The suggestion is a genuine, testable substitution — if a brick performs the exact same function the gold did, the gold's value was already zero, and the loss changes nothing measurable in the miser's actual life."
+related: []
+evokes: [aesop, the-miser, value-is-in-use-not-possession, swap-test-for-hoarded-value]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-miser
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Miser.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Don't take it so much to heart, my friend; put a brick into the hole, and take a look at it every day: you won't be any worse off than before, for even when you had your gold it was of no earthly use to you."
+canonical-instances:
+  - "hoarded data, inventory, or credentials kept 'just in case' and never touched — swapped for a placeholder, if nothing about daily operations changes, the asset was never generating the value its holder assumed."
+critical-questions:
+  - "Does the swap test actually capture all the value an asset like gold provides, or does it miss forms of value — security, optionality, status — that don't show up in day-to-day behavior but still matter?"
+  - "Would the miser have accepted this reasoning before the theft, or does the test only feel persuasive once the loss has already happened and there's nothing left to protect?"
+status: active

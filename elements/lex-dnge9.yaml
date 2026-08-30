@@ -1,0 +1,18 @@
+id: lex-dnge9
+name: a-characters-own-couplet-crystallizes-the-tales-moral-inside-the-narrative-itself
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'Rather than leaving the audience to extract the lesson, a story can have a character within the narrative itself compose and speak the tale''s moral as a memorable couplet, minting the takeaway as part of the plot rather than appending it as external commentary. In the Jataka''s tale of Nigrodha, Pottika, now blessed with sons and daughters, speaks the tale''s own moral for their admonition: "''With Nigrodha one should dwell; To wait on Sakha is not well. Better with Nigrodha death Than with Sakha to draw breath.''"'
+related: []
+evokes: [jataka, dasanipata, nigrodha-jataka, diegetic-proverb-minting, moral-crystallized-inside-the-narrative]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-nigrodha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 445, Nigrodha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "With Nigrodha one should dwell; To wait on Sakha is not well. Better with Nigrodha death Than with Sakha to draw breath."
+canonical-instances:
+  - "A war memoir ends not with the author's own reflection but with a line the protagonist's old sergeant is quoted saying to his own grandchildren years later, letting a character inside the story deliver the book's moral rather than the narrator stepping outside it."
+critical-questions:
+  - "Does having a character mint the moral inside the story make the lesson land more persuasively than authorial commentary would, or does it just relocate the same didactic move one level down without changing its effect?"
+status: active

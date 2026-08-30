@@ -1,0 +1,18 @@
+id: lex-xw3cc
+name: preemptively-narrating-ones-own-version-of-events-before-an-accusation-can-land
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: 'Before a formal accusation can be made, a wrongdoer can proactively assemble witnesses and narrate a self-serving account of events first, framing themselves as blameless and getting ahead of the story rather than reacting defensively once the accusation has already been made public. In the Jataka''s tale of Bilari-Kosiya, the merchant gathers a crowd and narrates his own innocent-sounding version before anyone else can speak: "I call you to witness that I am guiltless."'
+related: []
+evokes: [jataka, dasanipata, bilari-kosiya-jataka, preemptive-reputation-management, getting-ahead-of-the-story]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-bilari-kosiya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 450, Bilari-Kosiya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "I call you to witness that I am guiltless."
+canonical-instances:
+  - "Before an internal audit can circulate its findings, an executive calls an all-hands meeting to present his own account of the numbers first, framing himself as the one who caught the discrepancy rather than the one who caused it."
+critical-questions:
+  - "Does getting ahead of an accusation with a self-serving narrative actually protect the wrongdoer once contrary evidence surfaces, or does the preemptive framing tend to collapse faster once discovered as such?"
+status: active

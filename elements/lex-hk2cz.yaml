@@ -1,0 +1,19 @@
+id: lex-hk2cz
+name: force-fitting-a-working-analogy-onto-cases-it-was-never-built-for
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Correctly grasping one analogy doesn't mean grasping why it worked, and a learner who force-fits the same comparison onto structurally unrelated cases reveals that the original success was pattern-matching rather than understanding. In the Jataka's tale of the dull pupil, a student correctly likens a snake to a plough-shaft — a genuinely apt comparison for the specific case he was taught — then applies the identical comparison to an elephant, to sugar-cane, and finally to curds and milk, which merely take the shape of whatever vessel holds them. Each subsequent application exposes that he never understood the underlying structural resemblance that made the first comparison work; he only learned that saying 'like a plough-shaft' pleased his teacher once."
+related: []
+evokes: [jataka, ekanipata, nangalisa-jataka, force-fitting-an-analogy-past-its-domain, pattern-matching-mistaken-for-understanding]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-nangalisa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 123, Nangalisa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "For universal application he Employs a term of limited import. Plough-shaft and curds to him alike unknown, --The fool asserts the two things are the same."
+canonical-instances:
+  - "A new analyst who successfully explains one company's declining margins using a 'race to the bottom' pricing analogy starts describing every subsequent margin change with the identical phrase, including cases driven by currency shifts and input-cost inflation that have nothing to do with competitive pricing at all."
+critical-questions:
+  - "How would a teacher or observer distinguish genuine understanding from lucky pattern-matching at the moment of the first correct answer, before any force-fit reveals the gap?"
+  - "Is there a way to test understanding directly, by asking the learner to explain why the comparison works rather than simply whether they can produce it, that would catch this earlier?"
+status: active

@@ -1,0 +1,18 @@
+id: lex-qhyj5
+name: perceived-underpayment-relative-to-value-signals-an-exit
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: 'Consistent underpayment relative to the value of service rendered can be read not just as poor compensation but as evidence about the payer''s character or status, triggering voluntary exit from the relationship on the strength of that inference. The valuer in the Jataka''s tale of Supparaka gets the same stingy eight pieces of money every time, no matter how valuable the judgment he''s just delivered. He reads that flat reward as proof of the king''s low character, and quits over it: "Only eight pieces of money, with such marvels as these to see! This is a barber''s gift; this king must be a barber''s brat. Why should I serve such a king? I will return to my own home."'
+related: []
+evokes: [jataka, ekadasanipata, supparaka-jataka, equity-theory, underpayment-as-exit-signal]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-supparaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 463, Supparaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Only eight pieces of money, with such marvels as these to see! This is a barber's gift; this king must be a barber's brat. Why should I serve such a king? I will return to my own home."
+canonical-instances:
+  - "A star consultant has saved a client company millions across a string of engagements, all billed at the same small flat fee. She quits the account, reading that fixed number as the client's real answer to how much her work is actually worth to them."
+critical-questions:
+  - "Is a flat, consistent payment necessarily evidence of stinginess, or could it just as easily reflect an inflexible pay scale the king has no discretion to adjust, regardless of how he privately values the service?"
+status: active

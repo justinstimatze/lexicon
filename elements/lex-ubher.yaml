@@ -1,0 +1,19 @@
+id: lex-ubher
+name: an-outsider-can-mistake-register-dependent-speech-for-a-literal-commitment
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When overhearing an emotionally charged statement inside a relationship you're not part of, check whether it is register-dependent speech — a scolding threat, a comforting exaggeration — rather than a literal, binding claim. In Aesop's 'The Wolf, the Mother, and Her Child,' a wolf overhears a mother threaten to throw her crying baby to the wolves. Later he hears her soothe the same child with a promise to kill any wolf that comes near, and concludes from the mismatch: 'you can't believe a word they say.' The wolf takes both statements as literal, factual commitments and gets caught by their contradiction — but each was ordinary emotional register for a distressed or comforting parent, true to the moment rather than to any external fact."
+related: []
+evokes: [aesop, the-wolf-the-mother-and-her-child, register-dependent-speech, outsider-literalism]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-wolf-the-mother-and-her-child
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Wolf, the Mother, and Her Child.' Verified verbatim against a direct extraction of the held copy."
+    quote: "As for the people in that house, said he to himself, you can't believe a word they say."
+canonical-instances:
+  - "an automated moderation system or outside observer treats a venting social-media post as a literal, actionable threat, missing that the language was emotional register within its own social context rather than a factual statement of intent."
+critical-questions:
+  - "How would an outsider reliably distinguish register-dependent speech from a genuine literal claim without already belonging to the social context that supplies the register — is there any signal available from outside?"
+  - "Does the wolf's conclusion generalize past this one household, or does it risk becoming an overcorrection — dismissing every future statement from that source as unreliable, even ones meant literally?"
+status: active

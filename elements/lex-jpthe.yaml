@@ -1,0 +1,19 @@
+id: lex-jpthe
+name: an-insecure-incumbent-intercepts-a-rivals-resources-under-a-cover-story
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "An incumbent who fears losing a patron's favor to a rising rival doesn't need to contest the rival openly — intercepting resources meant for that rival under a plausible cover story works instead, and the cover story only has to survive as long as the interception is never directly checked. In the Jataka's tale of the resident monk, a monk fears that a visiting Arahat will win his patron's esteem. He intercepts the food the patron sent for the guest, then covers for its absence by claiming the guest 'couldn't be woken.' The food itself gets dumped into embers and the ashes filled back in, rather than the monk simply refusing to deliver it. Open refusal would have been visibly wrong; the interception plus cover story lets the same outcome happen while looking like an unfortunate mishap instead of a deliberate act."
+related: []
+evokes: [jataka, ekanipata, losaka-jataka, intercepting-a-rivals-resources-under-cover, destroying-evidence-to-preserve-a-cover-story]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-losaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 41, Losaka-jataka, embedded past-story (part one). Verified verbatim against a direct extraction of the held copy."
+    quote: "'I'm losing my hold on the squire,' thought the Brother."
+canonical-instances:
+  - "An established vendor's account manager intercepts a client's introduction email to a competing vendor, replies claiming the competitor 'never responded,' and quietly deletes the forwarded thread rather than telling the client outright not to consider other options."
+critical-questions:
+  - "What happens once the intercepted party or the deceived principal finds an independent way to confirm what actually happened, the way a delayed conversation or a direct question could expose the cover story here — how fragile is this tactic to a single unplanned encounter?"
+  - "Does the insecurity driving this behavior reflect an accurate read of the incumbent's declining standing, or does the interception itself, once discovered, guarantee the exact loss of favor it was meant to prevent?"
+status: active

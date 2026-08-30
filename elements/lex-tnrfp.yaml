@@ -1,0 +1,19 @@
+id: lex-tnrfp
+name: a-guarded-perimeter-is-only-as-secure-as-its-weakest-trusted-contact
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A heavily fortified perimeter built around a single point of access is only as secure as the one trusted intermediary allowed to cross it, since an attacker who can't breach the fortification directly can instead target that person. In the Jataka's tale of the guarded girl, a chaplain isolates his ward behind a sevenfold guard specifically to win a bet with the king that she can be kept perfectly chaste, permitting only himself and a single waiting-woman any contact with her at all. The king's agent doesn't attempt to breach the seven guards — he bypasses the entire fortification by targeting the one unguarded relationship, the waiting-woman, through a staged personal connection. The multiplied layers of defense counted for nothing once the weakest authorized contact point was compromised."
+related: []
+evokes: [jataka, ekanipata, andabhuta-jataka, perimeter-security-fails-through-its-weakest-contact, fortification-bypassed-via-trusted-intermediary]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-andabhuta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 62, Andabhuta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Only the chaplain was allowed to see the girl, and she had only a single waiting-woman."
+canonical-instances:
+  - "A company with an air-gapped server room and biometric access controls gets breached not through the hardware, but through the one contractor authorized to service the HVAC system, whose laptop credentials an attacker compromises instead."
+critical-questions:
+  - "Does adding more layers of fortification around the primary target actually make a breach less likely, or does it just concentrate the real risk more narrowly onto whichever single contact point remains necessarily open?"
+  - "Could the chaplain have prevented this specific attack by also restricting or monitoring the waiting-woman more closely, or does every system with any human contact point at all retain this same exploitable seam no matter how it's structured?"
+status: active

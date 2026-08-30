@@ -1,0 +1,19 @@
+id: lex-ky78t
+name: declaring-no-witch-hunt-triggers-the-opposite-response
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When an authority figure opens a crisis discussion by saying they're 'not interested in a witch hunt,' the literal content of the statement and its actual social effect are inverted: everyone in the room immediately reads it as a signal that blame is about to be assigned, and their first move is defensive self-protection rather than the open cooperation the statement nominally invites. The words function as an alarm precisely because experience has taught the audience that this specific phrase precedes exactly what it disclaims. Treat the phrase as a reliable predictor of imminent blame-seeking behavior in the room, regardless of the speaker's actual intent — the learned association is strong enough that even a sincere use of the phrase will still trigger the defensive reaction."
+related: []
+evokes: [jackall-moral-mazes, "the first instinct of people is to immediately hunker down", inverted-signal-of-reassurance]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch4-not-a-witch-hunt
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 4, Looking Up and Looking Around."
+    quote: "The one statement that will paralyze a room is when some guy in authority says: \"Now I'm not interested in a witch hunt but…\" When those words are uttered, the first instinct of people is to immediately hunker down and protect their own flanks."
+canonical-instances:
+  - "A team lead opens a post-incident review by saying 'this isn't about blame, we just want to understand what happened,' and every engineer in the room immediately starts drafting a written account of exactly what they did and didn't do."
+critical-questions:
+  - "Has this specific team or organization actually seen 'no witch hunt' precede blame-assignment before, or is the defensive reaction a generic learned response from past experience elsewhere that may not predict this particular authority figure's actual behavior?"
+status: active

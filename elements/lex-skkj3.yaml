@@ -1,0 +1,19 @@
+id: lex-skkj3
+name: framing-a-concession-as-a-rivals-win-blocks-the-concession
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "A faction can keep its members from ever reconsidering a disputed position by telling them that conceding the point would let a rival faction 'win,' converting what should be a question about truth into a contest about not losing face. Once the stakes are reframed this way, evidence and argument stop mattering. What's actually being protected is standing against the rival faction; the original claim is beside the point. In the Jataka's tale of the disputing heretics, two factions keep their followers from giving up contested opinions with the same line: 'You are no worse than these, brother, in birth, lineage, or character; if you give up your opinions, they will have much the better of you.' Nobody has to defend the original position anymore. They just have to avoid losing to the other side."
+related: []
+evokes: [jataka, tikanipata, satapatta-jataka, reframing-concession-as-a-rivals-victory-blocks-genuine-revision, status-competition-substitutes-for-a-truth-question]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-satapatta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 279, Satapatta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "You are no worse than these, brother, in birth, lineage, or character; if you give up your opinions, they will have much the better of you,"
+canonical-instances:
+  - "A political faction discourages its members from updating a discredited position by warning that admitting error would hand the opposing faction a victory, and members who privately recognize the error stay publicly committed to it anyway, because the question has stopped being about the position and started being about not losing to the other side."
+critical-questions:
+  - "Does this reframing actually change anyone's private beliefs, or does it only suppress the public expression of doubt while leaving the underlying disagreement fully intact beneath the surface?"
+  - "Is there a way to separate a genuine concern about relative status from a legitimate worry that conceding a point really would embolden an opposing faction to overreach on unrelated matters?"
+status: active

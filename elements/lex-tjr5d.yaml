@@ -1,0 +1,24 @@
+id: lex-tjr5d
+name: violence-without-an-actor-is-structural
+type-in: state
+type-out: structure
+_tier: atomic
+agent-instruction: "When assessing whether harm is occurring, don't require a locatable actor performing an intentional act. If a state of affairs — unequal life chances, resources, or power — persists and is objectively avoidable, ask whether it's built into the structure itself rather than committed by any traceable person. The absence of a perpetrator doesn't mean the absence of violence."
+related: [lex-9zjpf, lex-dgwbn, lex-s2uyr, lex-wcpsk]
+evokes: [structural-violence, personal-vs-structural, one-million-husbands, violence-without-a-subject]
+lineage:
+  - source: primary
+    text: galtung-1969-violence-peace-and-peace-research
+    citation: "Johan Galtung, 'Violence, Peace, and Peace Research,' Journal of Peace Research 6:3 (1969), pp.167-191. The founding paper of peace-and-conflict studies as a discipline distinct from war studies. Galtung's central move is widening the definition of violence past the personal/direct case (a traceable actor intentionally harms a traceable victim) to include the structural/indirect case: harm built into a social structure's ordinary operation, with no single actor whose removal would stop it. The paper's own worked example is deliberately domestic in scale rather than geopolitical, to make the structural case as concrete as the personal one."
+    quote: "'We shall refer to the type of violence where there is an actor that commits the violence as personal or direct, and to violence where there is no such actor as structural or indirect.' [A few lines later, the mechanism:] 'There may not be any person who directly harms another person in the structure. The violence is built into the structure and shows up as unequal power and consequently as unequal life chances.' [The paper's own worked example:] 'Thus, when one husband beats his wife there is a clear case of personal violence, but when one million husbands keep one million wives in ignorance there is structural violence.'"
+canonical-instances:
+  - "Galtung's own worked case: a society where life expectancy is twice as high in the upper class as in the lower class is committing violence, even though no single actor can be pointed to as directly attacking anyone — the harm is distributed across the ordinary functioning of the social structure itself"
+  - "redlining: no bank officer today personally decides to deny a Black family a mortgage out of animus, but decades of structural credit-allocation rules produce the same unequal-life-chances outcome a personally-motivated campaign of exclusion would — the actor has dissolved into the structure without the harm dissolving with it"
+  - "operationally distinct from lex-dgwbn others-acts-explained-by-disposition-own-by-situation: that atom is about attribution bias, the same act getting explained differently depending on who's judging it. This atom is a claim about where harm itself can live — not a bias about how harm gets explained, but a recognition that harm can be structurally distributed with no actor to explain at all"
+  - "operationally adjacent to lex-s2uyr oppression-is-five-distinct-structural-forms-not-one-distributive-deficit: Young's five faces of oppression name the specific shapes structural harm takes; this atom supplies the prior, more general recognition that harm without an actor is still violence, which is what makes Young's typology cash out as harm rather than as mere social difference"
+critical-questions:
+  - "is there a state of affairs here that is objectively avoidable and unequally distributed — and if so, does the absence of a locatable, intending actor actually exonerate anyone, or does it just make the harm harder to see?"
+  - "would this be recognized as violence immediately if a single person did it on purpose to a single victim? If so, and the same harm is instead distributed across a structure with no such person, the harm hasn't gone away, only the visibility has"
+  - "who benefits from the structure staying exactly as it is, even if no one currently in it designed it that way? Structural violence doesn't require a designer, but it usually has beneficiaries, and naming them is a separate question from naming a perpetrator"
+severity-tier: warning
+status: active

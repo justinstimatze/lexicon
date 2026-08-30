@@ -1,0 +1,24 @@
+id: lex-63b4q
+name: copying-an-experts-visible-steps-without-their-invisible-capacity-can-kill
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "Reproducing every visible step of an expert's method, exactly as observed, is not the same as having what actually makes that method work, and the gap between the two can be fatal rather than just less effective. In Hyde's telling of \"The Bungling Host,\" Kingfisher catches fish by heating willow sticks, tying them to his belt, and diving through a hole in the ice -- and it works, because Kingfisher has \"a way,\" a nature suited to this. Coyote watches, then does exactly the same thing: he has his son fetch three willow sticks, heats and bends them onto his belt, climbs to the top of his lodge, and jumps for the hole. \"Coyote jumped off the top of the lodge down to the river but he missed the hole and broke his neck and was killed.\" Kingfisher, unmoved, revives him and states the lesson directly: \"'This is my way, not your way,' said Kingfisher. 'I do not imitate others like you do.'\" Coyote copied every observable action correctly; what he couldn't copy was whatever in Kingfisher's nature made the hole findable, the dive safe, the whole procedure actually work. Diagnostic move: before adopting an expert's exact visible procedure, ask whether their success depends on something you can see them do, or on some capacity, judgment, or condition you can't see and therefore can't copy -- if it's the latter, replicating the steps precisely gives you all of the risk and none of the competence."
+related: [lex-2vsgs]
+evokes: [hyde-trickster-makes-this-world-the-bungling-host, kingfisher-and-coyote, this-is-my-way-not-your-way, radin-trickster-copies-minks-ice-crack-phrase]
+lineage:
+  - source: primary
+    text: hyde-coyote-copies-kingfishers-fishing-method-exactly-and-dies
+    citation: "Lewis Hyde, Trickster Makes This World: Mischief, Myth, and Art (Farrar, Straus and Giroux, 1998; Canongate Books 2008 edition), 'That's My Way, Coyote, Not Your Way,' 'The Bungling Host,' quoting an Okanagon Coyote-and-Kingfisher tale. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "Coyote jumped off the top of the lodge down to the river but he missed the hole and broke his neck and was killed. ... “This is my way, not your way,” said Kingfisher. “I do not imitate others like you do.”"
+canonical-instances:
+  - "A junior engineer watches a senior colleague ship a risky database migration by running it directly against production during business hours and getting away with it, then copies the exact same procedure on their own migration without the senior engineer's years of intuition for when a lock will actually contend, and takes the service down."
+  - "An amateur investor copies a well-known trader's exact publicized trades one for one, without the trader's private risk models, timing information, or capital cushion, and is wiped out on a position the trader could actually absorb."
+  - "A different Winnebago telling makes the same point through a copied phrase rather than a copied physical action: Trickster loses a race to a mink, watches it cross a dangerous crack in the ice safely by saying 'Crack in the ice, become large!', repeats the identical words with total confidence, and the crack swallows him instead -- whatever let the mink cross safely was never in the phrase (Paul Radin, The Trickster: A Study in American Indian Mythology, Philosophical Library, 1956, 'The Winnebago Trickster Cycle,' episode 36)."
+critical-questions:
+  - "Is Kingfisher's warning that he 'does not imitate others' actually about an unteachable, invisible capacity, or could Coyote have succeeded with better observation -- did he miss a visible step (checking the ice, aiming correctly) rather than lacking something fundamentally uncopiable?"
+  - "Does this diagnostic risk discouraging all learning-by-imitation, when copying an expert's visible method is often exactly how competence is transmitted -- what distinguishes methods that transfer safely through imitation from methods that silently depend on something the imitator lacks?"
+  - "Could Coyote have tested the method at lower stakes first, and does the myth's binary outcome (total success versus death) obscure a middle path where partial imitation is safely diagnostic before full commitment?"
+  - "Does copying a verbal formula or ritual phrase hide the missing capacity more thoroughly than copying a physical technique does, since words carry no visible trace of the skill, timing, or standing that made them work for the original speaker?"
+  - "An expert who calls the missing ingredient unteachable might be reporting something genuinely uncopiable, or might simply be declining to explain, deliberately or not -- how would the imitator tell the difference before finding out the hard way?"
+status: active

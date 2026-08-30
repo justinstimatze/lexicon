@@ -1,0 +1,19 @@
+id: lex-pdsf9
+name: two-parties-guarding-a-windfall-independently-plan-to-betray-each-other
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When two parties must split an unearned windfall and each is left temporarily alone with it, each can independently conclude that eliminating the other is more profitable than splitting fairly, without either knowing the other has reached the identical calculation. In the Jataka's tale of the two surviving robbers, one guards the treasure while the other fetches food; the guard resolves to kill his partner the moment he returns rather than hand over half, while the partner, at the very same time, poisons the food he's bringing back for the identical reason. Both plans land simultaneously, and both men die from the same windfall that neither was willing to share."
+related: []
+evokes: [jataka, ekanipata, vedabbha-jataka, independent-simultaneous-betrayal-over-a-windfall, unshared-gain-destroys-both-parties]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-vedabbha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 48, Vedabbha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "When my mate comes back, he'll want half of this. Suppose I kill him the moment he gets back."
+canonical-instances:
+  - "Two co-founders left alone at different times with sole access to a newly funded company account each quietly move to freeze the other out of the business, neither aware the other reached the same plan independently, and both end up losing the funding in the legal fight that follows."
+critical-questions:
+  - "Does either party need to suspect the other of the same plan for this to occur, or does the temptation arise independently and identically just from being alone with an unshared asset?"
+  - "Would an enforceable prior agreement about the split have prevented this, or does the temptation only appear once actual possession removes the abstractness of the original deal?"
+status: active

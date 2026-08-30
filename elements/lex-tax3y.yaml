@@ -1,0 +1,19 @@
+id: lex-tax3y
+name: racing-to-deliver-the-final-step-claims-credit-for-anothers-labor
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When two people's invisible preparation feeds into one visible moment of delivery, whoever rushes to perform that final, visible step first can absorb credit for work they didn't do, because the report of completion is the only part of the labor an observer actually sees. In the Jataka's tale of the two novices, the idle one never does the underlying work but always races to announce it to the elder himself: 'Whatever was done by his comrade, he makes as if it were done by himself. For instance, when the other lad had placed water to rinse the mouth, he goes to the elder and saluting him, says, \"Sir, the water is ready. Please to rinse your mouth.\"'"
+related: []
+evokes: [jataka, catukkanipata, kutidusaka-jataka, the-visible-delivery-step-eclipses-the-invisible-labor-behind-it, racing-to-report-completion-substitutes-for-doing-the-work]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kutidusaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 321, Kutidusaka-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Whatever was done by his comrade, he makes as if it were done by himself. For instance, when the other lad had placed water to rinse the mouth, he goes to the elder and saluting him, says, \"Sir, the water is ready. Please to rinse your mouth.\""
+canonical-instances:
+  - "Two engineers collaborate on a fix; one spends the afternoon actually debugging it, and the other, noticing it's ready, immediately pings the manager to say 'it's deployed and working' — becoming, in the manager's mind, the person who solved the problem."
+critical-questions:
+  - "Is this purely a credit-stealing tactic, or does the person delivering the final report also add real value — coordination, communication, timing — that the underlying laborer wouldn't have provided on their own?"
+  - "How would the actual laborer even detect this pattern happening, given that by the time they notice, the report has already been delivered and the credit already assigned?"
+status: active

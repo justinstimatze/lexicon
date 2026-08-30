@@ -1,0 +1,19 @@
+id: lex-sn88g
+name: attachment-to-home-overrides-a-clear-departure-signal
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Attachment to a familiar place can override every reliable signal that it's time to leave. The resulting harm rarely comes from a predator exploiting the delay. It tends to come from an unrelated, oblivious hazard that wouldn't have existed anywhere else. In the Jataka's tale of the tortoise and the drying lake, fish and tortoises correctly read the drought signs and migrate to the river; one tortoise refuses, buries himself in the drying mud out of loyalty to his birthplace, and is killed not by a hunter but by a potter's spade, digging for clay with no idea the tortoise is there. His own dying words diagnose it: 'Go where thou canst find happiness, where'er the place may be; Forest or village, there the wise both home and birthplace see; Go where there's life; nor stay at home for death to master thee.' Home itself was never the danger. Refusing to leave when the signal is clear is what exposes you to whatever happens to be there next, predator or not."
+related: []
+evokes: [jataka, dukanipata, kacchapa-jataka-178, attachment-overrides-a-clear-departure-signal, death-by-an-oblivious-hazard-rather-than-a-predator]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kacchapa-jataka-178
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 178, Kacchapa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Go where thou canst find happiness, where’er the place may be; Forest or village, there the wise both home and birthplace see; Go where there's life; nor stay at home for death to master thee."
+canonical-instances:
+  - "A longtime employee stays at a company well past every visible sign it's declining — shrinking budgets, departing colleagues, canceled projects — and ends up laid off not through any dramatic failure but through a routine restructuring that happens to eliminate exactly their role."
+critical-questions:
+  - "Is the tortoise's death actually a punishment for the attachment, or is it just bad luck that happened to land on the one creature who stayed — would a tortoise who left have been just as likely to encounter an unrelated hazard somewhere else?"
+  - "What makes a signal 'clear' in the moment rather than only clear in hindsight — did the other fish and tortoises have information the one holdout didn't, or did they simply weigh the same information differently?"
+status: active

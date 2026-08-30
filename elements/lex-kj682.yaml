@@ -1,0 +1,19 @@
+id: lex-kj682
+name: appealing-to-scope-a-wronged-partys-anger-to-the-culpable-individual-alone
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When someone has been gravely wronged by one person acting within a larger group or institution, a bystander can appeal directly to the victim to confine any resulting anger or retaliation to the specific individual responsible, shielding the wider group from collective punishment for one person's act. In the Jataka's tale of the Preacher of Patience, as the mutilated ascetic lies dying, the commander-in-chief pleads with him on behalf of the whole land: 'If, Reverend Sir, you would be angry with one who has sinned against you, be angry with the king, but with no one else.'"
+related: []
+evokes: [jataka, catukkanipata, khantivadi-jataka, an-appeal-to-scope-retaliation-to-the-guilty-individual, shielding-a-wider-group-from-one-persons-wrongdoing]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-khantivadi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 313, Khantivadi-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"If, Reverend Sir, you would be angry with one who has sinned against you, be angry with the king, but with no one else.\""
+canonical-instances:
+  - "After a single manager's misconduct triggers a public scandal, a company spokesperson pleads with affected customers to direct their anger at the individual responsible rather than boycotting the whole company, whose thousands of other employees had nothing to do with the decision."
+critical-questions:
+  - "Does the appeal actually succeed in scoping the consequences, or does collective punishment tend to happen anyway regardless of who asks for restraint — what made the ascetic's forgiveness here effective where a similar plea might fail elsewhere?"
+  - "Is it fair to ask the wronged party to manage the scope of their own justified anger for the benefit of bystanders who happen to share an affiliation with the wrongdoer?"
+status: active

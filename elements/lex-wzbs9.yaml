@@ -1,0 +1,19 @@
+id: lex-wzbs9
+name: crediting-yourself-for-an-allys-specific-deterrent-effect-invites-disaster
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When an ally's presence reliably deters a specific threat, check whether you are misattributing that narrow, specific effect to your own general dominance, especially right after that ally leaves. Aesop's 'The Ass, the Cock, and the Lion' has an ass watch a lion flee from a crowing cock, and draw the wrong lesson: 'The Ass was mightily elated at this, and thought that, if the Lion couldn't face a Cock, he would be still less likely to stand up to an Ass: so he ran out and pursued him.' The lion feared the cock specifically, not strength in general, and the ass acts on the false generalization at the exact moment the enabling condition — the cock's continued presence — has already been removed."
+related: []
+evokes: [aesop, the-ass-the-cock-and-the-lion, misattributed-deterrence, acting-after-the-enabling-condition-is-gone]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-ass-the-cock-and-the-lion
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Ass, the Cock, and the Lion.' Verified verbatim against a direct extraction of the held copy."
+    quote: "The Ass was mightily elated at this, and thought that, if the Lion couldn't face a Cock, he would be still less likely to stand up to an Ass: so he ran out and pursued him."
+canonical-instances:
+  - "a junior colleague watches a senior teammate's reputation deter a difficult client, reads it as their own standing, and picks a fight with the client solo after the senior teammate has already left the room."
+critical-questions:
+  - "Would the ass's error have been avoidable through better observation, or is misreading a narrow deterrent as general strength an easy mistake to make even for a careful observer, given that both look identical from outside?"
+  - "Does this pattern only bite when the observer acts immediately after the enabling ally departs, or does the same misattribution linger and cause harm much later, once the specific cause has been forgotten entirely?"
+status: active

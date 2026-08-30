@@ -1,0 +1,20 @@
+id: lex-t8vzn
+name: sudden-unearned-wealth-kills-through-its-own-excess-and-reverts-to-its-source
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: 'Wealth extracted through exploitation, suddenly available in quantity to someone with no history of managing it, can destroy the person who took it through the very indulgence it was meant to enable — and if they have no heirs, everything reverts to wherever it was taken from, closing the loop without any external justice being enacted. In the Vessantara-Jataka, the brahmin Jujaka, having extorted Vessantara''s children and been richly repaid for them by King Sanjaya, finally has more food and comfort than he has ever had access to. He eats too much, cannot digest it, and dies on the spot: "JGjaka ate too much and could not digest it, so he died on the spot." No relative can be found to inherit; his goods fall back to the king who paid them out in the first place. The extraction and its reversal both happened without anyone having to intervene.'
+related: []
+evokes: [jataka, mahanipata, vessantara-jataka, self-destructive-windfall, wealth-reversion, unearned-gain]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-vessantara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 547, Vessantara-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "JGjaka ate too much and could not digest it, so he died on the spot."
+canonical-instances:
+  - "A lottery winner with no financial experience and no close family spends lavishly for a year before dying of a preventable illness he never treated because he didn't know how to navigate the healthcare he could now easily afford — his estate, with no named heirs, escheats back to the state that issued the winning ticket."
+  - "An employee who embezzled a large sum from a family business quits, buys an expensive boat he's never operated, and drowns in an accident within the year; the recovered funds, with no will and no children, revert by law to the very company he stole from."
+critical-questions:
+  - "The story frames this as a kind of natural justice, but Jujaka's death is medically incidental to his greed, not caused by it in any mechanistic sense — how much of the satisfaction here comes from an actual causal link versus a coincidence readers are primed to read as poetic?"
+  - "The reversion here depends entirely on Jujaka having no heirs — what happens to the tidy closed loop when ill-gotten wealth passes to an innocent third party, like a child, before the windfall's holder self-destructs?"
+status: active

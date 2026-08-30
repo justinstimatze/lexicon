@@ -1,0 +1,19 @@
+id: lex-4y2tq
+name: taunting-from-an-unseen-protected-position-baits-self-destruction
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A target sealed inside a protective barrier the attacker can't perceive can bait repeated, escalating attacks simply by taunting from within it, since each attacker judges the danger by what a normal target would represent, not by the invisible obstacle actually standing between them. In the Jataka's tale of the crystal-hidden mouse, a stone-cutter conceals a mouse inside solid crystal and has her hurl insults at approaching cats, unseen from outside. Each cat, reading only an exposed, insultable target and no barrier, leaps to attack with full force and shatters itself against the crystal wall it never perceived. The mouse never has to fight; the attackers' own uninformed aggression against a threat model they've misjudged does all the damage."
+related: []
+evokes: [jataka, ekanipata, babbu-jataka, taunting-from-a-hidden-barrier-baits-self-destruction, attackers-misjudge-a-threat-model-they-cannot-see]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-babbu-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 137, Babbu-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Now stop there,\" said he, \"and don't fail to fiercely threaten and revile all who come near.\""
+canonical-instances:
+  - "A honeypot server deliberately displays taunting, provocative banner text daring attackers to breach it, and each automated scanner that lunges at the apparent vulnerability trips the fully instrumented logging and containment system hidden beneath, revealing its methods without ever reaching a real target."
+critical-questions:
+  - "Does this technique depend on the attacker having no way to detect the barrier in advance, and what happens once word spreads that a given target's apparent exposure is actually a trap?"
+  - "Is there a meaningful moral difference between provoking an attack this way and simply waiting passively behind a defense, given that the taunting actively invites the self-destructive response rather than merely surviving it?"
+status: active

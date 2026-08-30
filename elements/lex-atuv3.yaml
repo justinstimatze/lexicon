@@ -1,0 +1,19 @@
+id: lex-atuv3
+name: a-dispute-escalates-through-authority-tiers-each-declining-to-rule
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A contested claim can pass through several tiers of authority, each declining to personally adjudicate and deferring upward, until it reaches whoever is finally unable to pass it further. In the Jataka''s tale of Sirikalakanni, two goddesses'' quarrel over precedence moves up through the Four Kings, then a further pair among them, before landing on Sakka: ''Then both said, "The Four Kings will know which of us ought to bathe first" ... Dhatarattha and Virdpakkha said, "We cannot decide," and laid the duty on Virdlha and Vessavana. They too said, "We cannot decide, we will send it to our Lord''s feet": so they sent it to Sakka.'''
+related: []
+evokes: [jataka, chanipata, sirikalakanni-jataka, dispute-escalates-through-authority-tiers, buck-passing-up-a-chain]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sirikalakanni-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 382, Sirikalakanni-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Then both said, \"The Four Kings will know which of us ought to bathe first\" ... Dhatarattha and Virdpakkha said, \"We cannot decide,\" and laid the duty on Virdlha and Vessavana. They too said, \"We cannot decide, we will send it to our Lord's feet\": so they sent it to Sakka."
+canonical-instances:
+  - "A customer complaint gets escalated from a support rep to a team lead to a department head to a VP, each one declining to make the call and forwarding it up, until it finally lands on someone with no one left to defer to."
+critical-questions:
+  - "Does the dispute get resolved better for having passed through several layers of authority, or does each deferral just add delay without adding judgment?"
+  - "What would it take for one of the middle tiers to actually rule on the case, and why does declining seem to be the easier choice at every level except the last?"
+status: active

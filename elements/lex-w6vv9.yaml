@@ -1,0 +1,21 @@
+id: lex-w6vv9
+name: a-remedy-given-without-payment-is-treated-as-carrying-no-curative-power
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "In some systems of belief, and in a surprising amount of ordinary human psychology, a cure's effectiveness is tied not just to what it contains but to whether a real cost was paid for it -- a free remedy is treated as inherently weaker, even worthless, regardless of its actual contents. In the Zuni retelling of 'The Cock and the Mouse,' an old woman refuses to heal her rooster's wound until he assembles payment through an entire chain of favors, four bristles from a dog earned with bread earned with wood earned with rain earned with the rooster's own feathers. Only once the debt is fully paid does she act, and she states the principle explicitly: 'Doing right keeps right; doing wrong makes wrong, which, to make right, one must even pay as the sick pay those who cure them.' The story draws the general rule directly from this: 'the medicine masters of that people never give cure without pay; never, for there is no virtue in medicine of no value.' The medicine itself hasn't changed. What changes is whether it counts, in this belief system, as medicine at all. Diagnostic move: when you notice yourself or others discounting the value of a free remedy, service, or piece of advice regardless of its actual quality, or conversely over-trusting one simply because it was expensive, recognize this as the same pattern -- perceived worth is being read off the price rather than off the content, and the two can come apart completely."
+related: []
+evokes: [perceived-worth-is-read-off-the-price-not-the-content, cushing-zuni-the-cock-and-the-mouse, no-virtue-in-medicine-of-no-value, doing-right-keeps-right-doing-wrong-makes-wrong]
+lineage:
+  - source: primary
+    text: cushing-zuni-cock-and-mouse-grandmother-cure-requires-payment
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Cock and the Mouse' (Zuñi version, as retold by Waihusiwa from Cushing's own telling of the Italian tale, reproduced alongside the Italian original for comparative folklore study). Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'Doing right keeps right; doing wrong makes wrong, which, to make right, one must even pay as the sick pay those who cure them. ... It is for this reason that ever since that time the medicine masters of that people never give cure without pay; never, for there is no virtue in medicine of no value.'"
+canonical-instances:
+  - "A consumer who receives a free sample of a skincare product uses it half-heartedly and reports no improvement, then buys the identical formula at full price and reports it working noticeably better, the actual chemistry having never changed between the two experiences."
+  - "A patient who is prescribed a free generic medication expresses doubt about whether it will really work compared to the name-brand version at ten times the cost, even when a pharmacist confirms the active ingredients are chemically identical, the price tag functioning as evidence of potency independent of the contents."
+critical-questions:
+  - "Is the grandmother's principle actually about the medicine's efficacy, or is it a social and moral rule about not devaluing the healer's labor and knowledge by treating cures as something owed for free -- does the story conflate curative power with social respect for the healer?"
+  - "Would this belief system's confidence in paid-for cures ever be tested by an actual failure, given that the payment itself becomes part of the ritual meaning of the cure -- does the story leave room for a paid cure to fail and be recognized as having failed, or does payment guarantee belief in success regardless of outcome?"
+  - "Does this pattern only apply to healing and medicine specifically, or does the underlying psychology, that cost signals worth independent of content, generalize just as strongly to advice, information, and other intangible goods where no physical remedy is involved at all?"
+status: active

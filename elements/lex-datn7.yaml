@@ -1,0 +1,22 @@
+id: lex-datn7
+name: belief-changes-moral-feeling-not-the-acts-actual-effect
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "Believing an act is right or wrong changes how it feels to the person doing it, and how society judges them for it, but does not change what actually happens afterward as a consequence of the act -- subjective moral coloring and objective downstream effect are two different things, and confusing them lets a belief substitute for an actual accounting of consequences. Gilman states it directly: 'What we think and feel alters the moral quality of an act in our consciousness as we do it, but does not alter its subsequent effect. We justify and approve the economic dependence of women upon the sex-relation in marriage. We condemn it unsparingly out of marriage.'"
+related: []
+evokes: [women-and-economics, chapter-v, alters-the-moral-quality-of-an-act-but-not-its-subsequent-effect, love-sanctifies-it-we-say, belief-versus-causal-consequence]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-v
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter V. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "What we think and feel alters the moral quality of an act in our consciousness as we do it, but does not alter its subsequent effect. We justify and approve the economic dependence of women upon the sex-relation in marriage. We condemn it unsparingly out of marriage. We follow it with our blame and scorn up to the very doors of marriage,—the mercenary bride,—but think no harm of the mercenary wife, filching her husband's pockets in the night. Love sanctifies it, we say: love must go with it."
+canonical-instances:
+  - "A company culture that sincerely believes unpaid overtime is a mark of dedication rather than exploitation still produces the same burnout and turnover as a culture that openly admits it's exploitation -- the belief changes how the overtime feels to give, not its physical toll on the people giving it."
+  - "A community that considers a particular harsh child-rearing practice a loving act of discipline sees the same developmental effects in the children as a community that considers the identical practice abusive -- the label changes how the parents feel about what they're doing, not what happens to the child."
+  - "Two investors, one who sincerely believes a risky bet is prudent and one who knows it's reckless but proceeds anyway, face the same downstream financial consequences if the bet fails -- their differing beliefs about the act's moral or rational status don't alter what the market actually does."
+critical-questions:
+  - "Doesn't belief sometimes causally affect the outcome, not just the experience of it -- someone who believes an act is right may act with more confidence, care, or commitment than someone who believes it's wrong, and that difference in execution could genuinely change the actual result, beyond how the act merely feels?"
+  - "If moral belief is causally inert with respect to consequences, why does Gilman spend the rest of the book trying to change people's beliefs about the sexuo-economic relation -- doesn't her own reform project depend on belief eventually translating into changed behavior and changed consequences?"
+  - "Is subsequent effect itself a belief-independent fact, or does what counts as a harmful versus neutral consequence of an act already depend on some prior evaluative framework -- can the claim really separate objective effect from subjective judgment as cleanly as it proposes to?"
+status: active

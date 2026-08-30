@@ -1,0 +1,19 @@
+id: lex-j67dc
+name: learning-a-threats-own-exception-clause-disarms-it
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A threat that operates under a fixed, self-declared rule can be neutralized entirely by anyone who learns the rule's exact exception and satisfies it, without needing to fight, flee, or outwit the threat by any other means. In the Jataka's tale of the haunted rest-house, a goblin has earned the right to devour anyone who enters and fails to answer a sneeze correctly: 'All except those who say the same to you when another wishes them long life.' The son, working this out from watching the goblin's behavior, supplies the exact phrase for himself and then teaches it to his father in time. The goblin ends up with no one it's permitted to eat. It wasn't defeated — both potential victims simply came to satisfy the one condition its own rule requires for sparing them."
+related: []
+evokes: [jataka, dukanipata, gagga-jataka, a-threats-self-declared-exception-is-a-usable-key, correct-social-script-satisfies-a-formal-condition]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-gagga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 155, Gagga-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "All except those who say 'The same to you' when another wishes them long life."
+canonical-instances:
+  - "A new employee learns that a notoriously aggressive collections process only exempts accounts flagged with a specific dispute code, and rather than arguing with the process on the merits, simply files the correct code before the automated escalation runs, stopping it entirely."
+critical-questions:
+  - "Does knowing the exception require the same kind of close, patient observation the son used here — watching the goblin's actual behavior rather than just its threat — and how often is that observation step skipped in favor of trying to fight or flee a rule-bound threat instead?"
+  - "What made the goblin bound by its own stated rule rather than free to simply eat whoever it wanted regardless — is the mechanism only available against threats that are themselves constrained by an external, prior agreement (its twelve years' service of Vessavana), not against threats acting on pure will?"
+status: active

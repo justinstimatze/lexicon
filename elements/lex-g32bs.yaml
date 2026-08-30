@@ -1,0 +1,18 @@
+id: lex-g32bs
+name: eliciting-an-adversarys-boundary-under-an-innocent-pretext
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A captive reasons that a more powerful party''s control must be geographically or operationally limited, and rather than asking directly, which would reveal the intent to escape, frames the question as an innocuous curiosity. Once the boundary is disclosed, the answer is converted into an exploit. This models extracting operationally critical information from a more powerful party by disguising the request as harmless. In the Jataka''s tale of Padakusalamanava, the captive son asks his Yakkha mother the limits of her territory under cover of an inheritance question: The Bodhisatta thought, "My mother must have a limited sphere of action. Suppose I were to ask her the limits of space over which her authority extends. Then I will escape by going beyond this." So one day sitting respectfully near his mother he said, "My dear, that which belongs to a mother comes to the children; tell me now what is the boundary of our ground."'
+related: []
+evokes: [jataka, navanipata, padakusalamanava-jataka, eliciting-a-captors-limit, innocent-pretext-extraction]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-padakusalamanava-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 432, Padakusalamanava-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The Bodhisatta thought, \"My mother must have a limited sphere of action. Suppose I were to ask her the limits of space over which her authority extends. Then I will escape by going beyond this.\" So one day sitting respectfully near his mother he said, \"My dear, that which belongs to a mother comes to the children; tell me now what is the boundary of our ground.\""
+canonical-instances:
+  - "An employee under an unusually restrictive non-compete asks HR, framed as simple curiosity about \"what counts as our industry,\" exactly which sectors the clause covers, then takes a job just outside that boundary once the scope is confirmed."
+critical-questions:
+  - "Does disguising the real motive behind an innocent-seeming question cross into deception even though no false statement is made — only a true motive withheld?"
+status: active

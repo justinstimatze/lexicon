@@ -1,0 +1,19 @@
+id: lex-dtrnw
+name: rehearsal-against-a-mock-stand-in-fails-under-real-stakes
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Extensive rehearsal against a low-stakes stand-in can fail completely to transfer once the real situation carries genuine social or emotional weight, sometimes producing an outcome that inverts the intended result rather than merely falling short of it. In the Jataka's tale of the bashful father, he practices a request for an ox for a full year against tufts of grass labeled 'king,' 'viceroy,' and 'chief captain.' Facing the actual king, panic flips the script entirely, and he offers his own last ox to the king instead of asking for one. His son's verdict names the gap precisely: 'All the year long never ceasing with unwearied diligence Where the sweet grass grows in clusters day by day he practised it: When he came amid the courtiers all at once he changed the sense; Practice truly nought availeth if a man has little wit.' The rehearsal built fluency with the words, but the actual barrier — social panic in the presence of real authority — was never the thing being practiced against."
+related: []
+evokes: [jataka, dukanipata, somadatta-jataka, mock-rehearsal-does-not-transfer-under-real-social-stakes, rehearsed-fluency-inverts-under-panic-rather-than-merely-failing]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-somadatta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 211, Somadatta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "All the year long never ceasing with unwearied diligence Where the sweet grass grows in clusters day by day he practised it: When he came amid the courtiers all at once he changed the sense; Practice truly nought availeth if a man has little wit."
+canonical-instances:
+  - "A job candidate rehearses answers to interview questions for weeks with a supportive friend playing the interviewer, and then freezes and gives the exact opposite of a prepared answer the moment a real hiring panel's silence and note-taking triggers a panic the friend's encouraging nods never simulated."
+critical-questions:
+  - "Was the actual missing variable social panic specifically, or could any sufficiently different context — unfamiliar surroundings, time pressure, an audience — have produced the same collapse regardless of whether the rehearsal partner was human or a labeled tuft of grass?"
+  - "Is there a way to rehearse that would have actually transferred here, or does this kind of failure mode suggest some skills simply cannot be practiced in a lower-stakes proxy no matter how faithfully the words are reproduced?"
+status: active

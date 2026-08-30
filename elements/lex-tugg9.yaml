@@ -1,0 +1,19 @@
+id: lex-tugg9
+name: each-granted-favor-recalibrates-the-exploiters-baseline-ask-upward
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Generosity extended to an exploiter doesn't satisfy them — it resets their baseline expectation upward and licenses a larger request next time, converting the relationship into a renewable resource rather than a closed transaction. In the Jataka's tale of the good elephant king, a forester rescued and befriended by the elephant returns first for one tusk, and once that's spent, for the rest of the ivory, and finally for the stumps of the tusks themselves — each visit trampling the elephant further to extract what's left. The elephant's compliance at each stage doesn't reduce the forester's future demands; it teaches him that a slightly larger ask is always granted, which is exactly what escalates the next one."
+related: []
+evokes: [jataka, ekanipata, silavanaga-jataka, generosity-recalibrates-an-exploiters-baseline, compliance-teaches-the-next-larger-ask]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-silavanaga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 72, Silavanaga-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Ingratitude lacks more, the more it gets; Not all the world can glut its appetite."
+canonical-instances:
+  - "A landlord who once waived a month's rent for a struggling tenant out of goodwill finds the same tenant asking for a second waiver within weeks, then a rent reduction, then an indefinite deferral, each request calibrated exactly to what the last one succeeded in getting."
+critical-questions:
+  - "At what point in the escalation does refusing the next ask actually work, given that the elephant's compliance seemingly never reaches a point of diminishing returns for the forester until there's nothing left to take?"
+  - "Is the elephant's own continued willingness to help part of the problem, or is the forester's escalating greed the entire story regardless of how the elephant responds at each stage?"
+status: active

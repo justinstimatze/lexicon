@@ -1,0 +1,31 @@
+id: lex-f8h44
+name: black-swan-dominance-licenses-barbell-and-subtractive-prescriptions
+type-in: claim
+type-out: claim
+_tier: molecule
+agent-instruction: "When accepting that an outsized share of consequences flows from black-swan events — outlier, extreme-impact, retrospectively-rationalized (lex-rqbsr) — don't stop at the diagnosis. Two independent practitioner prescriptions follow from taking black-swan-dominance seriously rather than assuming moderate, predictable exposure is the safe default. First, the barbell: concentrate at the safe extreme (capital preservation) AND the high-variance extreme (asymmetric upside), and avoid the exposed middle (lex-975pa). Second, via-negativa: when uncertain, prioritize what you can SUBTRACT — removing fragility, wrong inputs, wasted commitments — over what you can add, since subtraction doesn't require the predictive knowledge that addition implicitly claims (lex-gfb9k). Both prescriptions share the same root: don't act as if you can predict the tails, act so the tails can't ruin you."
+related: [lex-rqbsr, lex-975pa, lex-gfb9k]
+scaffolds-from: [lex-rqbsr, lex-975pa, lex-gfb9k]
+evokes: [black-swan, barbell-strategy, via-negativa, antifragility, tail-risk]
+decomposes-into:
+  - lex-rqbsr
+  - lex-975pa
+  - lex-gfb9k
+assembly: "classification(lex-rqbsr, lex-975pa, lex-gfb9k)"
+premises:
+  - "an outsized share of consequences flows from black swan events — outlier, extreme-impact, and only retrospectively explained as if they'd been predictable — which means models built to predict the future reliably miss exactly the events that matter most (lex-rqbsr)"
+  - "accepting black-swan-dominance, the barbell strategy concentrates exposure at the safe extreme and the high-variance extreme simultaneously, avoiding the middle — because the middle carries the high-variance arm's downside without its asymmetric upside (lex-975pa)"
+  - "accepting black-swan-dominance, via-negativa prioritizes subtraction (removing fragility, wrong inputs, wasted commitments) over addition, because subtraction doesn't require the predictive knowledge that adding something new implicitly claims to have (lex-gfb9k)"
+  - "the two prescriptions (183, 184) are independent, non-competing practitioner responses to the same diagnosis (706) — a portfolio or a life can be barbelled AND pursue via-negativa at once, they don't trade off against each other"
+critical-questions:
+  - "does 'black-swan-dominance' as a diagnosis apply uniformly, or are there domains (well-characterized physical systems, most everyday personal decisions) where the tails genuinely are thin and neither prescription is warranted — does the diagnosis get over-applied by analogy from finance/geopolitics to domains where it doesn't hold?"
+  - "can the barbell strategy itself become a target that gets gamed (lex-tb3re territory) — does publicly committing to 'barbell allocation' change the incentive structure in a way that undermines the strategy's own asymmetric-upside logic?"
+  - "is via-negativa actually knowledge-free, or does knowing WHAT to subtract (which inputs are the wrong ones, which commitments are wasted) require exactly the kind of predictive/diagnostic knowledge the strategy claims to avoid needing?"
+lineage:
+  - source: practitioner
+    text: assembled-from-lex-rqbsr-lex-975pa-lex-gfb9k
+    citation: "Molecule assembled from lex-rqbsr (black-swans-are-outlier-extreme-impact-and-retrospectively-explained, Taleb), lex-975pa (barbell-strategy, Taleb), and lex-gfb9k (via-negativa, Taleb). lex-rqbsr's own canonical-instances state both links directly: 'Composes with lex-975pa barbell-strategy: barbell-strategy is the practitioner-prescription that flows from accepting black-swan-dominance — combine maximum-safety-for-most-capital with maximum-speculative-exposure for a small fraction, instead of moderate exposure to all. Composes with lex-gfb9k via-negativa: another Taleb prescription — when uncertain, REMOVE fragility rather than adding presumed-knowledge.' Types don't chain (706: claim→claim, 183: situation→posture, 184: question→process), so `classification` rather than `sequential`/`parallel`."
+canonical-instances:
+  - "An individual investor who has internalized that market crashes are black-swan events rather than predictable cycles (lex-rqbsr) puts 90% of savings in the safest available instruments and 10% in high-variance speculative positions rather than 100% in a moderate-risk index (lex-975pa), while also auditing recurring expenses and commitments to cut the ones that add fragility without adding resilience, rather than adding a new hedging product they don't fully understand (lex-gfb9k)."
+  - "A public-health agency that accepts pandemics as black-swan events (lex-rqbsr) maintains a barbelled posture — most resources on cheap, robust baseline capacity, a smaller reserve on high-cost surge capability for extreme scenarios, avoiding the moderate middle-ground of 'somewhat more capacity than usual' (lex-975pa) — while also stripping out brittle single-point-of-failure supply dependencies identified during the last crisis, rather than adding a new predictive-modeling program whose accuracy in a true black-swan event is unproven (lex-gfb9k)."
+status: under-review

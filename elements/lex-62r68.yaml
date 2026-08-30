@@ -1,0 +1,18 @@
+id: lex-62r68
+name: repeated-mentor-consultation-incrementally-escalates-delegated-scope
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than request a large scope of authority at once, a protégé can repeatedly return to an advisor after mastering each small delegated task and ask what comes next, building trust and demonstrated capability step by step until broad administrative control has accumulated without ever having been asked for outright. In the Jataka''s tale of Prince Samvara, the prince asks the Bodhisatta "What else am I to do, father?" after each completed task, moving from a park to food-money distribution to full palace provisioning, each step only granted after the last is proven: "''Ask the king''s leave, my son,'' said the Bodhisatta, ''to distribute the food-money within the city.'' So he did, and without the least neglect of any person he distributed the food-money within the city."'
+related: []
+evokes: [jataka, ekadasanipata, samvara-jataka, incremental-capability-building, foot-in-the-door-applied-to-self]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-samvara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 462, Samvara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Ask the king's leave, my son, said the Bodhisatta, to distribute the food-money within the city. So he did, and without the least neglect of any person he distributed the food-money within the city."
+canonical-instances:
+  - "A new manager doesn't ask for a full department on day one; she asks to own one recurring report well, then asks what's next once that's proven, building toward real authority through a sequence of small, verified successes rather than one big request."
+critical-questions:
+  - "Does returning to ask 'what next' actually build capability faster than requesting a larger scope upfront, or does it just spread the same eventual authority over more approval checkpoints while accomplishing the same outcome?"
+status: active

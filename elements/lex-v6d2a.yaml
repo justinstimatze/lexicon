@@ -1,0 +1,19 @@
+id: lex-v6d2a
+name: surface-resemblance-across-locations-does-not-prove-shared-cause
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When two signals present the same way in different locations or contexts, resist folding them into a single diagnosis before checking whether they actually share a cause. Hippocrates' Aphorisms poses the question directly rather than assuming the answer: 'It deserves to be considered whether the pains in the sides, and in the breasts, and in the other parts, differ much from one another.' The aphorism's whole content is the act of asking the question rather than answering it. Pattern-matching on surface likeness — same sensation, different location — is exactly the move that needs testing before it gets trusted, because unrelated underlying processes can produce an identical presentation."
+related: []
+evokes: [hippocrates, aphorisms, resemblance-is-not-evidence-of-shared-cause, test-pattern-match-before-trusting-it]
+lineage:
+  - source: primary
+    text: hippocrates-aphorisms-adams1849-sectionVI-5
+    citation: "Hippocrates, Aphorisms, trans. Francis Adams (Sydenham Society, 1849), Section VI, §5. Verified verbatim against a direct extraction of the held copy."
+    quote: "It deserves to be considered whether the pains in the sides, and in the breasts, and in the other parts, differ much from one another."
+canonical-instances:
+  - "two unrelated production outages both present as elevated database latency, and an on-call engineer who treats the second incident as a repeat of the first — instead of checking whether the underlying cause actually matches — applies last week's fix to this week's different problem."
+critical-questions:
+  - "What actually counts as sufficient evidence that two surface-similar cases share a cause, short of a full causal investigation into each one — is there a cheaper diagnostic shortcut, or does the aphorism imply there isn't?"
+  - "Treating every resemblance as suspect until proven identical has a cost: it slows down a pattern-recognition habit that is usually reliable, in exchange for catching the rare case where the resemblance actually misleads. Is that trade worth it here?"
+status: active

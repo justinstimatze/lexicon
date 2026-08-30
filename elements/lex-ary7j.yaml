@@ -1,0 +1,22 @@
+id: lex-ary7j
+name: waiting-at-the-only-exit-defeats-a-stealthy-escape
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "An escapee can spend enormous effort and risk trying to evade detection while moving toward the single place they must eventually end up, believing that avoiding observation along the route is what will secure their escape. A pursuer who knows there is only one possible destination and no other way out doesn't need to track the route at all -- a quiet watch at the one endpoint lets the escapee's own effort walk them straight into recapture, making all the trouble taken to stay hidden along the way completely wasted. Gilman stages this exactly: the three men creep and hide for days to reach their hidden airplane undetected. 'They knew well we would make for our machine, and also that there was no other way of getting down--alive. So our flight had troubled no one; all they did was to call the inhabitants to keep an eye on our movements all along the edge of the forest between the two points... these estimable women had just been waiting for us to come out.'"
+related: []
+evokes: [herland, chapter-4, they-knew-well-we-would-make-for-our-machine, just-been-waiting-for-us-to-come-out, a-single-exit-makes-pursuit-unnecessary]
+lineage:
+  - source: primary
+    text: gilman-1915-herland-chapter-4
+    citation: "Charlotte Perkins Gilman, Herland (1915), Chapter 4, 'Our Venture.' Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "They knew well we would make for our machine, and also that there was no other way of getting down--alive. So our flight had troubled no one; all they did was to call the inhabitants to keep an eye on our movements all along the edge of the forest between the two points. It appeared that many of those nights we had been seen, by careful ladies sitting snugly in big trees by the riverbed, or up among the rocks. [...] Here we had been risking our lives, hiding and prowling like outlaws, living on nuts and fruit, getting wet and cold at night, and dry and hot by day, and all the while these estimable women had just been waiting for us to come out."
+canonical-instances:
+  - "An employee who has leaked confidential documents spends weeks covering their tracks across multiple internal systems, unaware that the only place the leaked material can be sold is a small handful of known outlets investigators are already quietly monitoring, making the whole cover-up effort irrelevant."
+  - "A fugitive changes vehicles and routes repeatedly to avoid being followed across a country, not realizing that border control at the one crossing they must eventually use has already been alerted, so every mile of careful evasion accomplishes nothing."
+  - "A student cheating on a takehome exam disguises their process across multiple devices and drafts, without realizing the professor only needs to check the single final submission portal everyone must eventually use, making the elaborate cover trail pointless."
+critical-questions:
+  - "Does the pursuer's strategy actually require full certainty that the destination is the only possible one, or does it work almost as well with high confidence, accepting some risk that the escapee finds an alternative exit no one anticipated?"
+  - "Once an escapee suspects the pursuer might be using this strategy, what changes -- does trying to find or create an alternative exit become the rational response, even if none currently exists, rather than continuing to invest in stealth along the known route?"
+  - "Is the pursuer's restraint here purely tactical, or does choosing to wait rather than actively hunt also serve some other purpose -- conserving resources, avoiding unnecessary confrontation -- that would make the strategy attractive even if tracking the route were just as easy?"
+status: active

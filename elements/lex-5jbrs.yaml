@@ -1,0 +1,19 @@
+id: lex-5jbrs
+name: loss-fixation-sacrifices-a-larger-held-gain-for-a-trivial-one
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Fixating on recovering a single small loss can drive someone to abandon a much larger gain they're already holding, even when the recovery attempt has no realistic chance of success. In the Jataka's tale of the monkey and the peas, a monkey with both hands and mouth full of peas drops a single pea, then throws away everything else he's holding to search for it on the ground — and never finds it. The Bodhisatta draws the direct comparison to a king about to launch a costly, ill-timed campaign over a minor border provocation: 'A foolish monkey, living in the trees, O king, when both his hands were full of peas, Has thrown them all away to look for one: There is no wisdom, Sire, in such as these.' The monkey doesn't lose the held peas because searching for the lost one is hard — he loses them because he stops holding onto what he has the instant something is taken from him."
+related: []
+evokes: [jataka, dukanipata, kalaya-mutthi-jataka, sunk-attention-on-a-small-loss-costs-a-larger-held-gain, loss-aversion-drives-abandonment-of-what-is-still-held]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kalaya-mutthi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 176, Kalaya-mutthi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "A foolish monkey, living in the trees, O king, when both his hands were full of peas, Has thrown them all away to look for one: There is no wisdom, Sire, in such as these."
+canonical-instances:
+  - "A store manager who notices a single item missing from inventory pulls two employees off the sales floor for a half-day search, losing far more in missed sales than the item was ever worth, while the floor itself goes unstaffed."
+critical-questions:
+  - "Is the monkey's mistake really about the size of the loss, or is there a version of this where chasing the lost item is actually rational — for instance if letting a small loss go unaddressed teaches predators or thieves that losses go unpunished?"
+  - "Does the same fixation apply when the held gain is abstract or reputational rather than physical and countable — is a king's border skirmish actually the same shape as dropped peas, or does the metaphor stretch too far there?"
+status: active

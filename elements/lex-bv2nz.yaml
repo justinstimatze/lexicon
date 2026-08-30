@@ -1,0 +1,18 @@
+id: lex-bv2nz
+name: material-power-cannot-answer-an-existential-fear
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: 'A power-holder can try to resolve someone''s fear of an unavoidable metaphysical condition with political or material remedies. The offer can be turned down flat: it answers a different category of problem than the one actually feared. In the Jataka''s tale of the Great Renunciation prefigured, the king offers protection and granted wishes against a fear that isn''t political at all, and the prince names the mismatch directly: "No man there is that does me harm: my wishes nothing lack: But I would seek a refuge, where old age makes no attack."'
+related: []
+evokes: [jataka, ekadasanipata, yuvanjaya-jataka, category-mismatch-remedy, material-power-versus-existential-fear]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-yuvanjaya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 460, Yuvanjaya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "No man there is that does me harm: my wishes nothing lack: But I would seek a refuge, where old age makes no attack."
+canonical-instances:
+  - "A CEO offers a terminally diagnosed executive an unlimited budget and a corner office for as long as she wants it, and she has to explain, gently, that none of what he's offering touches what she's actually afraid of."
+critical-questions:
+  - "The king's offer is a genuine category error here — but is every material offer in response to an existential fear necessarily as mismatched, or can material remedies sometimes meaningfully address what looks like an existential complaint?"
+status: active

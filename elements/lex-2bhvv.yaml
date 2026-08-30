@@ -1,0 +1,19 @@
+id: lex-2bhvv
+name: a-late-arriving-novelty-displaces-established-favorites-in-status
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Status and provisions once given to a long-standing favorite can shift entirely to whoever arrives most recently, independent of any change in the original favorite's merit or conduct — mere recency of arrival functions as its own claim on attention. In the Jataka's tale of the two parrots, Radha and Potthapada hold the king's highest favor until a black monkey arrives as a later gift: 'Then a certain forester brought a big black monkey, called Kalabahu, as a present to the king, and from the fact of his coming later than the parrots, he received still greater gain and respect, while that paid to the parrots fell off.'"
+related: []
+evokes: [jataka, catukkanipata, kalabahu-jataka, mere-recency-of-arrival-displaces-an-established-favorite, status-shifts-with-no-change-in-the-original-favorites-merit]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kalabahu-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 329, Kalabahu-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Then a certain forester brought a big black monkey, called Kalabahu, as a present to the king, and from the fact of his coming later than the parrots, he received still greater gain and respect, while that paid to the parrots fell off."
+canonical-instances:
+  - "A veteran employee who has quietly delivered strong results for years watches all of leadership's attention and resources flow to a flashy new hire in their first month — nothing about the veteran's output changed, only who most recently walked through the door."
+critical-questions:
+  - "Is this purely about recency, or does novelty itself carry a separate appeal — would a returning old favorite get the same boost as a genuinely new arrival?"
+  - "Does the displaced favorite's restraint (Radha says nothing, unlike his brother) actually pay off here, or does the story's resolution depend entirely on the monkey's own behavior rather than anything Radha does?"
+status: active

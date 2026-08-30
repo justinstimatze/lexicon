@@ -1,0 +1,19 @@
+id: lex-utruh
+name: a-problem-moving-toward-visibility-is-more-tractable-than-hidden
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When assessing whether a spreading problem is getting better or worse, weight the direction of its movement — toward the surface or away from it — alongside its raw extent. Hippocrates' Aphorisms: 'It is not a good sign for an erysipelas spreading outwardly, to be determined inwards; but for it to be determined outwards from within is good.' A visible, externalized problem stays observable and reachable; the same problem retreating inward becomes harder to see, harder to measure, and harder to intervene on, even if its total size hasn't changed. The direction of movement carries information independent of magnitude — a shrinking-but-hidden problem can be a worse sign than a spreading-but-visible one, because visibility itself is part of what makes a problem tractable."
+related: []
+evokes: [hippocrates, aphorisms, externalized-problems-stay-tractable, concealment-signals-worse-outcome]
+lineage:
+  - source: primary
+    text: hippocrates-aphorisms-adams1849-sectionVI-25
+    citation: "Hippocrates, Aphorisms, trans. Francis Adams (Sydenham Society, 1849), Section VI, §25. Verified verbatim against a direct extraction of the held copy."
+    quote: "It is not a good sign for an erysipelas spreading out- wardly^ to he determined inwards ; but for it to be determined outwards from within is good."
+canonical-instances:
+  - "a manager notices open complaints about a team's dysfunction have quieted down and reads it as improvement, when the underlying resentment has actually gone underground into private side-channels and will surface later as a wave of resignations no one saw coming."
+critical-questions:
+  - "Is visibility always a reliable proxy for tractability, or are there cases where a problem staying visible just means it keeps causing surface damage while a problem that goes quiet actually is resolving on its own?"
+  - "How would someone tell the difference, in real time, between a problem genuinely retreating inward and getting worse versus one that is simply shrinking and will soon be gone entirely?"
+status: active

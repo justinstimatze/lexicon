@@ -1,0 +1,19 @@
+id: lex-vvcbc
+name: a-small-proportionate-concession-can-supply-the-missing-piece-of-a-threat
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When asked for a small, seemingly proportionate concession, check whether it is actually the one missing component that converts an otherwise incapable threat into a fully functional one. Aesop's 'The Trees and the Axe' has a woodman ask a forest only for enough wood to make a handle. The trees judge the request too minor to refuse. Once the finished axe turns on them, they name their own mistake: 'The little we gave has cost us all: had we not sacrificed the rights of the ash, we might ourselves have stood for ages.' The request looked trivial specifically because it was framed as one part rather than the whole weapon, and the missing piece was assembled from the victims' own material."
+related: []
+evokes: [aesop, the-trees-and-the-axe, missing-component-assembled-from-the-victim, disguised-as-proportionate]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-trees-and-the-axe
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Trees and the Axe.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Alas! alas! We are undone, but we are ourselves to blame. The little we gave has cost us all: had we not sacrificed the rights of the ash, we might ourselves have stood for ages."
+canonical-instances:
+  - "providing what looks like an incomplete component of a dual-use technology to a partner who lacks everything else. That single piece turns out to be exactly what a hostile capability was missing."
+critical-questions:
+  - "How would the trees have recognized that the axe-head alone was harmless, making the handle the actual decisive piece, before the finished weapon revealed which part had mattered most?"
+  - "Does this mechanism only work once per victim — once a group recognizes that even small requests can complete a threat, does that awareness generalize to protect against all future small asks, or does each new request require re-deriving the same lesson?"
+status: active

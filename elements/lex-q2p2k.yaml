@@ -1,0 +1,19 @@
+id: lex-q2p2k
+name: hard-to-fake-verification-defeats-serial-predation
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A predator who extracts victims one at a time through manufactured trust can be stopped when a target refuses to accept the offer on faith and instead insists on a costly, hard-to-fake verification method. In the Jataka's tale of the crane and the crab, a crane unable to catch fish directly convinces a pond of fish their pool is drying up, offering to carry them one by one to a better pond, then eating each one against a tree. A suspicious crab agrees to be carried only if he can grip the crane's neck with his own claws throughout the flight; when the crane reveals the plan mid-air, that physical grip is already in place, and the crab strangles him before he can act. The verification method worked because it cost the crane nothing to grant when he intended to comply, and everything once he didn't."
+related: []
+evokes: [jataka, ekanipata, baka-jataka, hard-to-fake-verification-defeats-serial-predation, physical-leverage-as-trust-substitute]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-baka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 38, Baka-jataka, Story of the Past. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"It was through their own folly that those fish were eaten by you; but I shan't give you the chance of eating me... For you, fool that you were, did not see that I was tricking you."
+canonical-instances:
+  - "An investor being courted with promises of a guaranteed buyback if a startup fails insists the guarantee be escrowed in a separate account before wiring funds, rather than accepting the founder's verbal assurance, and the founder quietly withdraws the offer once the request is made."
+critical-questions:
+  - "Does the resolution depend on the crab having a body capable of physical leverage, or does an equivalent verification exist for a target with no way to enforce compliance directly?"
+  - "What stops the crane from simply refusing the crab's condition and moving on to an easier victim instead — does the mechanism assume the predator has no other targets left to pick off?"
+status: active

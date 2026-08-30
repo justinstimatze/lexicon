@@ -1,0 +1,19 @@
+id: lex-c65ug
+name: scarce-positions-relocate-competition-to-method-not-jobs
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When open positions within a division are genuinely scarce, active competition for them doesn't disappear once people learn the odds — it relocates from competing for the job openings themselves to competing over whose way of doing things becomes the group's standard approach. Once people accept there aren't three candidates realistically contesting one spot, the ongoing rivalry shifts to method and approach, since imposing your way of working is a form of influence and validation available regardless of how many actual openings exist. This explains persistent, sometimes intense workplace conflict in settings where the naive model — 'they're competing for the same promotion' — clearly doesn't apply, because the competition never stopped, it just changed what it's fought over."
+related: []
+evokes: [jackall-moral-mazes, "the ongoing competition is for your way of doing things", competition-relocates-to-method-when-jobs-are-scarce]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch8-competition-relocates-to-method
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 8, Invitations to Jeopardy, Section II — a vice-president's account."
+    quote: "[T]he competition is not necessarily for the jobs that open up, since they are so few. Rather the ongoing competition is for your way of doing things."
+canonical-instances:
+  - "Two senior engineers on a team with no realistic path to more than one lead role continue to clash intensely over which testing methodology the whole team should adopt, long after both have accepted that only one of them will ever be promoted."
+critical-questions:
+  - "Would removing the scarcity of positions actually reduce this method-level competition, or has the competition become self-sustaining as a form of professional validation independent of the original career-advancement stakes that produced it?"
+status: active

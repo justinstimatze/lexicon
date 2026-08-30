@@ -1,0 +1,24 @@
+id: lex-zvdc3
+name: influence-can-rest-on-who-you-know-or-on-what-you-know
+type-in: situation
+type-out: frame
+_tier: atomic
+agent-instruction: "When assessing why someone holds sway over others' decisions, check which of two structurally different foundations their influence rests on before assuming either one generalizes to a new setting. Merton's Rovere study distinguishes 'local' influentials, rooted in the town for decades and drawing on dense personal networks, from 'cosmopolitan' influentials, recent arrivals who bring prestige and expertise from outside: 'the influence of local influentials rests not so much on what they know but on whom they know.' The cosmopolitan works the opposite way: 'the cosmopolitan influential has a following because he knows; the local influential, because he understands. The one is sought out for his specialized skills and experience; the other, for his intimate appreciation of intangible but affectively significant details.' The two forms don't transfer to each other's terrain: a relationship-based influencer moved to a new community starts from zero, since the whole asset was local accumulated trust; a knowledge-based influencer can walk into a brand-new town and be sought out immediately, since the asset travels with the person. Use this to predict how someone's influence will hold up under a move, a network disruption, or a domain change — ask whether the underlying asset is portable expertise or embedded relationships, since only one of the two survives the transplant."
+related: []
+evokes: [merton-1957, local-and-cosmopolitan-influentials, rovere-study, whom-you-know-not-what-you-know, having-a-following-because-he-knows]
+lineage:
+  - source: primary
+    text: merton-1957-what-they-know-vs-whom-they-know
+    citation: "Robert K. Merton, Social Theory and Social Structure, Revised and Enlarged Edition (Glencoe, IL: Free Press, 1957), Ch. X 'Patterns of Influence: Local and Cosmopolitan Influentials,' p.400. Verified verbatim against a University of Iowa library scan via Internet Archive OCR text (item 31858016281432)."
+    quote: "'And this leads to the decisive attribute of the local influentials' path to success: far more than with the cosmopolitans, their influence rests on an elaborate network of personal relationships. In a formula which at once simplifies and highlights the essential fact, we can say: the influence of local influentials rests not so much on what they know but on whom they know.'"
+  - source: primary
+    text: merton-1957-following-because-he-knows
+    citation: "Robert K. Merton, Social Theory and Social Structure (1957), same chapter, p.403, immediately following."
+    quote: "'This adds another dimension to the distinction between the two types of influential. It appears that the cosmopolitan influential has a following because he knows; the local influential, because he understands. The one is sought out for his specialized skills and experience; the other, for his intimate appreciation of intangible but affectively significant details.'"
+canonical-instances:
+  - "A longtime small-town lawyer who knows every family's history and every judge personally has influence that evaporates the moment he relocates to a new city; a visiting specialist surgeon has influence that travels with her to any hospital, because her authority is portable expertise rather than accumulated local ties."
+  - "An internal company 'fixer' who gets things done because they know exactly whom to call in every department loses that power the moment they change companies, while an external consultant hired for specific technical expertise retains their influence across client engagements, since the asset that grants it is knowledge, not relationships."
+critical-questions:
+  - "Can the same person hold both forms of influence simultaneously in the same community, or does building one asset (deep local embedding) tend to crowd out building the other (portable specialized expertise) because they require different uses of the same finite time and attention?"
+  - "Does relationship-based influence decay faster or slower than expertise-based influence once the person stops actively maintaining it — does a network of personal ties erode gradually as people move away and die, or can specialized knowledge become obsolete more abruptly when the field itself changes?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-ndzbt
+name: visible-to-power-spending-beats-efficient-spending
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Spending that would fail any ordinary cost-benefit test can still be the rational choice when the audience that matters is a superior whose favor determines your future, rather than an abstract budget. Freshly painting a plant before the CEO's visit, or producing an expensive presentation book nobody will read twice, looks wasteful by efficiency standards but makes sense once you treat pleasing the person who controls your position as existentially prior to the resource question — there's no future budget to optimize if today's audience isn't satisfied. The diagnostic move is to ask which standard is actually operative in a given spending decision: object-level efficiency, or visibility to whoever holds power over the decision-maker's fate."
+related: []
+evokes: [jackall-moral-mazes, "far more important to please the king today", visibility-to-power-over-efficiency]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch2-symbolic-display-over-efficiency
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 2, Section II."
+    quote: "By any standards of budgetary stringency, such expenditures are irrational. But by the social standards of the corporation, they make perfect sense. It is far more important to please the king today than to worry about the future economic state of one's fief, since, if one does not please the king, there may not be a fief to worry about."
+canonical-instances:
+  - "A department manager spends the last of a discretionary budget on a polished slide deck for an executive review rather than on a tool the team actually needs, because the review outcome determines whether the department's budget survives next year at all."
+critical-questions:
+  - "Is the visible-to-power spending actually irrational by the org's own stated standards, or only irrational relative to a naive efficiency metric that was never the real constraint the decision-maker was optimizing against?"
+status: active

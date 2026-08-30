@@ -1,0 +1,20 @@
+id: lex-nf8zk
+name: substitute-i-dont-understand-for-theyre-irrational
+type-in: process
+type-out: posture
+_tier: atomic
+agent-instruction: "Calling an opposing group 'irrational' is the easy way out of the harder work of understanding them, and the label should be caught and replaced with the honest admission 'I don't understand that group's point of view.' Rationality means efficient use of means toward whatever end an actor actually holds -- it does not require that the end match your own goals, or that you agree the end is worth pursuing at all. A group can be perfectly rational in service of an objective you simply haven't identified yet. Reaching for 'irrational' closes the investigation before it starts, a dismissal standing in for work that was never done. Freeman's diagnostic test: manager's job is to understand stakeholder behavior whether or not there's agreement on whether that behavior is appropriate -- explanation and endorsement are separate tasks, and only one of them is required to act effectively."
+related: []
+evokes: [freeman-1984-strategic-management, chapter-5, stakeholder-behavior-explanation, i-dont-understand-that-stakeholders-point-of-view, rationality-relative-to-ends]
+lineage:
+  - source: primary
+    text: freeman-1984-strategic-management-ch5
+    citation: "R. Edward Freeman, Strategic Management: A Stakeholder Approach (Pitman, 1984), Chapter 5 'Formulating Strategies for Stakeholders,' section 'Stakeholder Behavior Explanation.'"
+    quote: "It is quite easy to claim, 'that stakeholder group is irrational,' especially when there is a high degree of conflict between the firm and the stakeholder. (Critics of business pose an excellent example here.) The phrase 'I don't understand that stakeholder's point of view' should be substituted whenever a manager is tempted to say that a group is irrational. It may be that a group's objectives are quite different from those of the firm, but rationality involves efficient means to whatever end a group might have. I believe that it is management's job to understand stakeholder behavior whether or not there is agreement on the appropriateness of that behavior. Managers must construct 'theories' about stakeholder behavior which try to explain how a stakeholder could possibly act in the way that has been observed. To attribute 'irrationality' to a stakeholder is to take the easy way out."
+canonical-instances:
+  - "A product team calls a small, vocal user segment 'irrational' for rejecting a change that tests well with everyone else, and stops there. Substituting 'I don't understand this segment's actual priorities' leads to interviews that surface a real constraint (an accessibility need the test group didn't share) the original label had simply erased from consideration."
+  - "A city council labels a neighborhood association 'NIMBY and irrational' for opposing a development that pencils out on every metric the council tracks. Treating the label as a placeholder for missing understanding instead surfaces a coherent, if unstated, objective -- protecting a fixed income from a coming property-tax reassessment -- that the council's own metrics never priced in."
+critical-questions:
+  - "Is there a point at which a group's stated objective genuinely is incoherent or self-defeating rather than merely unexplained, and if so, how does 'irrational' get distinguished from 'genuinely inconsistent' without the label becoming a dodge in the other direction?"
+  - "Does understanding a stakeholder's actual objective create any obligation to accommodate it, or does the substitution rule only improve the accuracy of the model without implying anything about how much weight the newly-understood objective deserves?"
+status: active

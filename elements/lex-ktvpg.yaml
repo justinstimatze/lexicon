@@ -1,0 +1,22 @@
+id: lex-ktvpg
+name: contradictory-folk-verdicts-can-both-be-right-about-different-bundled-mechanisms
+type-in: situation
+type-out: claim
+_tier: molecule
+agent-instruction: "A culture can hold two flatly contradictory judgments about the same named category and be correct on both counts at once, without needing to resolve the contradiction, when the category itself is actually a bundle of two distinct mechanisms traveling under one surface label. Each verdict tracks a real effect of one component of the bundle. Splitting the bundle back into its separate parts dissolves the apparent inconsistency, though the culture never has to notice the split to keep functioning on both judgments at once. Gilman states this explicitly about the sexuo-economic relation: 'The world is quite right. It does not have to be consistent. Both judgments are correct. Woman affecting society through the sex-relation or through her individual economic relation is an ennobling influence. Woman affecting society through our perverse combination of the two becomes a strange influence, indeed.'"
+related: []
+evokes: [women-and-economics, chapter-vi, the-world-is-quite-right-it-does-not-have-to-be-consistent, both-judgments-are-correct, a-stable-contradiction-hides-an-unsplit-bundle]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-vi
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter VI. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "The social perception of the evil resultant from the intrusion of sex-influence upon racial action has found voice in the heartless proverb, 'There is no evil without a woman at the bottom of it.' [...] It is not for nothing that a man's best friends sigh when he marries, especially if he is a man of genius. This judgment of the world has obtained side by side with its equal faith in the ennobling influence of woman. The world is quite right. It does not have to be consistent. Both judgments are correct. Woman affecting society through the sex-relation or through her individual economic relation is an ennobling influence. Woman affecting society through our perverse combination of the two becomes a strange influence, indeed."
+canonical-instances:
+  - "A profession is simultaneously praised as a calling that builds character and blamed as the thing that ruins marriages and friendships, and both verdicts hold. The calling itself is admirable. The damage traces to the specific economic structure the profession is embedded in -- the travel, the precarity, the isolation."
+  - "A company's culture is praised by long-tenured staff for its loyalty and camaraderie and condemned by former employees for enabling cover-ups, and both are accurate readings of the same tight-knit dynamic, because the loyalty that makes people show up for each other is the identical mechanism that makes them protect each other from accountability."
+  - "Immigration to a particular city is credited with the city's cultural vitality and blamed for its housing crisis by different groups who are both correct. The cultural contribution traces to population diversity. The housing pressure traces to a separate, fixable policy failure to build enough housing -- a bundle the two verdicts never pull apart."
+critical-questions:
+  - "How do you distinguish a genuine bundled-mechanism case, where both folk verdicts really are tracking different real effects, from a case where one of the two verdicts is simply wrong and the apparent 'both are correct' resolution is really just a way of avoiding the harder work of adjudicating between them?"
+  - "If the two mechanisms inside the bundle are never actually separable in practice -- if you cannot have the sex-relation's ennobling effect without also getting the sexuo-economic combination's corrosive effect, because in the world Gilman describes marriage always carries both -- does calling them separately correct mechanisms still do useful diagnostic work, or does it just relabel an inescapable package deal?"
+  - "Once a bundled contradiction like this is correctly split into its components, does that splitting actually change anyone's behavior, or can a culture go on holding both verdicts unsplit indefinitely, with the diagnosis remaining an analyst's insight that never reaches the level of the folk judgments it explains?"
+status: active

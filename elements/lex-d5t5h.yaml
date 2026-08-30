@@ -1,0 +1,19 @@
+id: lex-d5t5h
+name: compassion-toward-a-rescued-stranger-imports-a-future-betrayer
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "An act of unconditional compassion toward a stranger in desperate need can unwittingly bring a future betrayer into one's own household, with the rescue itself creating the exact proximity and dependency the betrayal later requires. In the Jataka's tale of the Bodhisatta and the mutilated criminal, he hears a condemned man drifting downriver, groaning in pain, and rescues him purely out of principle: 'While I live, said he, no poor creature shall perish for me!' He nurses the man back to health in his own home — and his wife falls for the rescued man and conspires with him to murder her husband. The compassion wasn't the mistake; the danger was inherent in what compassion required (bringing the stranger close and keeping him there), not in any flaw in the motive itself."
+related: [lex-9uv4r]
+evokes: [jataka, dukanipata, culla-paduma-jataka, rescue-creates-the-proximity-a-later-betrayal-needs, unconditional-compassion-carries-an-unseen-structural-risk]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-culla-paduma-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 193, Culla-paduma-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"While I live,\" said he, \"no poor creature shall perish for me!\""
+canonical-instances:
+  - "A small business owner takes in a struggling former competitor who lost everything and gives them a job out of genuine sympathy, and years later that same person, now trusted with the books, quietly embezzles enough to nearly sink the company that saved them."
+critical-questions:
+  - "Was there any way to extend the same compassion while structurally limiting the proximity or dependency it created — could the Bodhisatta have helped the man recover without housing him indefinitely alongside his own wife?"
+  - "Does this mean compassion toward strangers in need is generally unwise? Or is the story just an unlucky specific case, memorable precisely because betrayal following rescue is rare rather than typical?"
+status: active

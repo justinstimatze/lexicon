@@ -1,0 +1,22 @@
+id: lex-djrk9
+name: denied-training-then-blamed-for-the-predictable-failure
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "An actor can be handed exclusive responsibility for an important decision while being systematically denied the education, information, or preparation that would let them exercise it well. When the predictable failure follows, the failure gets read as the actor's own personal unfitness or moral shortcoming, rather than as the foreseeable result of the systemic denial that produced it. The very ignorance that was imposed on the actor becomes, circularly, the proof offered for their unfitness to have been trusted with the responsibility in the first place. Gilman names this directly about young women and mate-selection: 'But how can a young girl know a good prospective father, we ask. That she is not so educated as to know proves her unfitness for her great task. That she does not think or care proves her dishonorable indifference to her great duty.'"
+related: []
+evokes: [women-and-economics, chapter-x, that-she-is-not-so-educated-as-to-know-proves-her-unfitness, dishonorable-indifference-to-her-great-duty, denied-preparation-becomes-proof-of-unfitness]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-x
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter X. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "But how can a young girl know a good prospective father, we ask. That she is not so educated as to know proves her unfitness for her great task. That she does not think or care proves her dishonorable indifference to her great duty. She can in no way shirk the responsibility for criminal carelessness in choosing a father for her children, unless indeed there were no choice,--no good men left on earth. Moreover, we are not obliged to leave this crucial choice in the hands of young girls. Motherhood is the work of grown women, not of half-children; and, when we honestly care as much for motherhood as we pretend, we shall train the woman for her duty, not the girl for her guileless manœuvres to secure a husband."
+canonical-instances:
+  - "A new hire is handed full ownership of a client relationship on day one with no onboarding or mentorship, and when they mishandle a negotiation, management concludes they simply lack good judgment, rather than recognizing the company never trained them to have it."
+  - "A teenager is given a car and full responsibility for driving safely without any formal instruction beyond a learner's permit test, and when they cause an accident, it's read as evidence of their recklessness rather than as the predictable outcome of inadequate preparation for the responsibility handed to them."
+  - "A junior officer is put in command of a unit with no leadership training, and when the unit's morale collapses under poor decisions, the officer is judged unfit for command, rather than the institution being judged for putting an untrained person there in the first place."
+critical-questions:
+  - "How would you distinguish a genuine case of denied-training producing predictable failure from a case where the actor actually had access to adequate preparation but failed to seek it out, given that both can look identical from the outside as 'unprepared and then blamed'?"
+  - "Does naming this mechanism actually change how responsibility gets assigned afterward, or does the institution that denied the training simply absorb the critique and continue denying training to the next person while conceding the point in the abstract?"
+  - "If the actor genuinely had no way to acquire the missing preparation on their own, is blaming them entirely displaced onto the system that denied training, or does some responsibility remain with the actor for not recognizing and flagging their own unpreparedness before acting?"
+status: active

@@ -1,0 +1,20 @@
+id: lex-4rz5w
+name: underspending-on-a-new-program-reads-as-neglect-not-discipline
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A favorable budget variance -- spending less than planned -- usually reads as managerial discipline, and for an established, routine program it probably is. For a genuinely new program, the same favorable variance more often means the opposite. A new initiative requires active effort to spend resources on unfamiliar work: hiring, building relationships, learning processes that don't exist yet. When actual spending comes in well below plan on something new, the likelier explanation is that the effort never happened at all, since unfamiliar work takes a deliberate push that comfortable inaction never generates on its own. Freeman's diagnostic: favorable variances on new and support programs specifically call for a careful watch, precisely because the interpretation that would be reassuring for an old program is a warning sign for a new one, and reading it the ordinary way lets real neglect hide behind a number that looks like good news."
+related: []
+evokes: [freeman-1984-strategic-management, chapter-6, implementation-control, favorable-variance, new-strategic-programs]
+lineage:
+  - source: primary
+    text: freeman-1984-strategic-management-ch6
+    citation: "R. Edward Freeman, Strategic Management: A Stakeholder Approach (Pitman, 1984), Chapter 6 'Implementing and Monitoring Stakeholder Strategies,' section 'Implementation Control.'"
+    quote: "I shall say no more about this relatively well-known area except to point out that if the budget has been separated into actions required under existing programs and actions required under new and support programs, then a careful watch must be kept not to underestimate the new programs. While favorable variances are usually welcomed as signs of managerial excellence and financial diligence, in this case, they may well be signs of an inattention to strategic program implementation."
+canonical-instances:
+  - "A company launches a new customer-advisory-panel program and celebrates that it came in 30% under its first-year budget. Someone eventually notices the panel met only twice instead of the planned quarterly cadence, and the underspend turns out to describe a program nobody actually ran."
+  - "A city agency praises a department for coming in under budget on a newly funded community-outreach initiative, treating it as a sign of frugal management, when the real story is that no new outreach staff were hired and the funded events simply didn't happen."
+critical-questions:
+  - "How would a manager distinguish a new program that's genuinely running efficiently from one that's simply neglected, given that both produce the identical favorable-variance signal on the budget line?"
+  - "Does this diagnostic generalize past strategic programs specifically -- is any brand-new initiative's underspend suspect by default, or does the warning apply only when the program requires the kind of unfamiliar, effortful work Freeman describes?"
+status: active

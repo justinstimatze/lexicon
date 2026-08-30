@@ -1,0 +1,22 @@
+id: lex-uc52k
+name: an-arguments-form-can-mirror-its-own-subject-matter
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "An argument's form can be deliberately built to mirror its subject matter -- a closed, self-referential, circular chain of reasoning is the fitting way to argue for a subject that is itself closed and self-contained, rather than a flaw to apologize for. When Boethius accuses Philosophy of arguing in circles, seeming to end where she began and begin where she ended, she doesn't deny the circularity -- she defends it as appropriate to a divine essence that likewise 'neither can... pass into things external, nor take up anything external into itself': 'as Parmenides says of it, \"In body like to a sphere on all sides perfectly rounded,\" it rolls the restless orb of the universe, keeping itself motionless the while. And if I have also employed reasonings not drawn from without, but lying within the compass of our subject, there is no cause for thee to marvel, since thou hast learnt on Plato's authority that words ought to be akin to the matter of which they treat.'"
+related: []
+evokes: [consolation-of-philosophy, book-iii-prose-xii, words-ought-to-be-akin-to-the-matter-of-which-they-treat, a-sphere-on-all-sides-perfectly-rounded, form-mirroring-content]
+lineage:
+  - source: primary
+    text: boethius-c524-consolation-of-philosophy-book-iii-prose-xii
+    citation: "Boethius, The Consolation of Philosophy (c. 524 AD), trans. H. R. James (London: George Bell & Sons, 1897), Book III, Prose XII. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "Far is it from me to mock thee; nay, by the blessing of God, whom we lately addressed in prayer, we have achieved the most important of all objects. For such is the form of the Divine essence, that neither can it pass into things external, nor take up anything external into itself; but, as Parmenides says of it, 'In body like to a sphere on all sides perfectly rounded,' it rolls the restless orb of the universe, keeping itself motionless the while. And if I have also employed reasonings not drawn from without, but lying within the compass of our subject, there is no cause for thee to marvel, since thou hast learnt on Plato's authority that words ought to be akin to the matter of which they treat."
+canonical-instances:
+  - "A poet writing about grief's repetitive, looping quality structures the poem itself as a loop -- the final line returns to the opening line nearly unchanged -- rather than describing the repetition in a conventional, linear stanza structure."
+  - "A lecture on modular software design is itself delivered as a set of independent, swappable segments that can be reordered without losing coherence, demonstrating the principle being taught rather than just describing it."
+  - "A legal brief arguing that a contract's terms are deliberately, defensibly ambiguous is itself written in careful, hedged, multiply-qualified prose, rather than in the crisp declarative style briefs usually favor -- the argument's own style embodies the ambiguity it defends."
+critical-questions:
+  - "Is this a genuine epistemic principle, or a convenient excuse -- couldn't any writer facing an accusation of circular reasoning retroactively claim the circularity was deliberate and mirrors the subject, when in fact it's simply invalid reasoning dressed up as intentional form?"
+  - "Does matching form to content actually help the audience evaluate the argument's soundness, or does it risk using stylistic elegance to distract from whether the underlying logic holds up on its own merits, independent of how well it echoes its topic?"
+  - "If circular reasoning about a genuinely circular, self-contained subject is legitimate, how would a listener ever distinguish that case from ordinary question-begging about a subject that isn't actually self-contained, but is merely being described as though it were, to license the same rhetorical move?"
+status: active

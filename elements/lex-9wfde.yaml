@@ -1,0 +1,22 @@
+id: lex-9wfde
+name: a-prophetic-dream-is-confirmed-by-events-decades-later
+type-in: state
+type-out: claim
+_tier: atomic
+agent-instruction: "A dream or vision, dismissed or only half-understood by the people who first hear it, can later be treated as having accurately foretold a specific outcome -- not because the dream is mystically privileged, but because the content, with the benefit of hindsight, matches concrete details of what actually happened. Black Elk's father told him what his own father told him: long before any Wasichu had been seen, a Lakota holy man named Drinks Water dreamed that 'a strange race had woven a spider's web all around the Lakotas,' and said: 'When this happens, you shall live in square gray houses, in a barren land, and beside those square gray houses you shall starve.' Decades later, government-built reservation housing left his people in exactly that kind of house, on exactly that kind of land, starving -- and the dream had already passed through two generations of retelling before any of it came true. Black Elk's own gloss: 'Sometimes dreams are wiser than waking.' The specificity of the match, square gray houses, not just 'hard times', is what makes this stronger than an all-purpose premonition that could be read onto nearly any bad outcome; whether that specificity survives scrutiny once you ask how much interpretive work happened after the fact is a separate question."
+related: [lex-3vwzk, lex-kgphf]
+evokes: [black-elk-speaks, drinks-water, square-gray-houses, sometimes-dreams-are-wiser-than-waking, prophetic-dream-transmitted-across-generations]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch2-early-boyhood
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 2, 'Early Boyhood.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "A long time ago my father told me what his father told him, that there was once a Lakota holy man, called Drinks Water, who dreamed what was to be; and this was long before the coming of the Wasichus. He dreamed that the four-leggeds were going back into the earth and that a strange race had woven a spider's web all around the Lakotas. And he said: 'When this happens, you shall live in square gray houses, in a barren land, and beside those square gray houses you shall starve.' They say he went back to Mother Earth soon after he saw this vision, and it was sorrow that killed him. You can look about you now and see that he meant these dirt-roofed houses we are living in, and that all the rest was true. Sometimes dreams are wiser than waking."
+canonical-instances:
+  - "A family story about a grandmother's dream the week before a specific disaster (a fire, a death) gets told and retold as proof of her second sight -- the story's staying power often has less to do with the dream's actual predictive precision than with how memorable and retellable the coincidence turned out to be."
+  - "Corporate 'visionary founder' narratives retroactively treat an early, vague statement like 'someday everyone will carry a computer' as a precise prediction of a specific later product, collapsing the distance between a broad directional guess and a checkable, detailed forecast."
+  - "Distinct from a vision whose promise concretely failed and is defended anyway (lex-3vwzk): this pattern runs the opposite direction -- the dream's content is treated as validated because a later event actually matched it, not despite a later event failing to match it."
+critical-questions:
+  - "How much of the dream's apparent precision was already fixed in language before the events occurred, versus how much of the fit was constructed retroactively once 'square gray houses' had an obvious real-world referent to be mapped onto?"
+  - "'Barren land' and 'starve' are common features of colonized or displaced populations generally -- does the prophecy's specificity actually rest on the housing detail alone, with the rest doing far less predictive work than it appears to in retrospect?"
+  - "If this dream had not been followed by anything resembling its content, would it have been remembered and retold at all, or does the selection of which dreams get preserved already bias the sample toward apparent hits?"
+status: active

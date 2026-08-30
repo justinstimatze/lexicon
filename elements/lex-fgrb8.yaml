@@ -1,0 +1,19 @@
+id: lex-fgrb8
+name: centralize-a-shared-task-when-sharing-it-corrupts-the-groups-purpose
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When a task shared among a group starts producing behavior that undermines the group's actual purpose — not because anyone is doing the task badly, but because the act of sharing it generates comparison, display, or chatter the group exists specifically to avoid — the fix is not to redesign how the task is shared but to remove the sharing itself, concentrating the task in one person who absorbs the full cost alone. In the Jataka's tale, seven ascetic brothers foraging together for wild fruit fall into showing each other what they found — \"it seemed like a village market\" — which their leader recognizes as incompatible with having renounced a fortune of eighty crores to live simply. He doesn't ask them to forage more modestly; he takes over the entire task himself: \"to go about greedily seeking for wild fruits is not seemly... From henceforth I will bring the wild fruits by myself.\""
+related: []
+evokes: [jataka, pakinnakanipata, bhisa-jataka, removing-a-shared-activity-rather-than-reforming-it, absorbing-a-groups-burden-to-protect-its-values]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-bhisa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XIV (Pakinnaka-Nipata), No. 488, Bhisa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "to go about greedily seeking for wild fruits is not seemly... From henceforth I will bring the wild fruits by myself."
+canonical-instances:
+  - "A research lab's shared equipment sign-up sheet turns into an informal ranking of whose experiments get the most bench time, undermining the lab's stated collaborative culture; the PI scraps the sign-up sheet entirely and personally schedules every booking instead, absorbing the administrative burden so no one can see, or compare, anyone else's usage."
+critical-questions:
+  - "The brothers immediately object and insist on rotating the burden among themselves instead, which the ascetic accepts. Does the fix only work when the group agrees to accept the sacrifice, or could the leader have imposed it unilaterally without eroding trust?"
+  - "Removing the shared activity also removes whatever legitimate coordination or bonding it was doing alongside the corrupting comparison. What's lost when a group solves a comparison problem by eliminating the shared task entirely rather than finding a version of it without the comparison?"
+status: active

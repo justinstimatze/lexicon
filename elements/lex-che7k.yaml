@@ -1,0 +1,18 @@
+id: lex-che7k
+name: a-small-past-gift-is-cited-to-argue-a-present-great-gift-must-also-pay-off
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: 'To reassure someone that a large present act of generosity will be rewarded, a speaker can point to a much smaller past act of the same kind that already proved fruitful, arguing from the lesser case to the greater by simple proportion rather than by any new evidence about the present gift itself. In the Jataka''s tale of Sankha, one pair of shoes once given to an enlightened being had already brought its giver safety at sea. The Buddha treats that as license to expect protection from a far larger gift: "thou hast given to the whole of Buddha''s company all that a Brother can need—how can it be, but that thy gift of shoes should prove a refuge to thee?"'
+related: []
+evokes: [jataka, dasanipata, sankha-jataka, a-fortiori-argument, past-gift-as-precedent]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sankha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 442, Sankha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "thou hast given to the whole of Buddha's company all that a Brother can need—how can it be, but that thy gift of shoes should prove a refuge to thee?"
+canonical-instances:
+  - "A fundraiser tells a donor who once covered a single scholarship and saw the recipient graduate that funding an entire building's construction will surely produce results many times greater, extrapolating from the one proven case to the much larger ask."
+critical-questions:
+  - "Does a single successful small-scale instance actually license confidence in a much larger instance of the same kind, or is the inference doing more rhetorical work than logical work?"
+status: active

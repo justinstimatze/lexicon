@@ -1,0 +1,24 @@
+id: lex-qs52d
+name: a-classification-can-be-valid-and-still-explanatorily-sterile
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a classification scheme keeps failing to produce insight, check whether the actual defect is validity or fruitfulness — these are different failure modes and only one of them is fixed by more rigor. Merton's own first attempt at classifying Rovere's influentials (currently-influential, potentially-influential, waning, dormant, plus rank-and-file and isolates among non-influentials) was not wrong: 'This classification proved to be logically impeccable, empirically applicable, and virtually sterile. To be sure, our data could readily be arranged in these categories. But this resulted in few clear-cut uniformities of communications behavior or of other patterns of behavior. In short, the distinctions were valid but relatively fruitless for our purposes.' He notes the ironic cover this gives a bad classification: 'since, as L. J. Henderson once remarked, \"almost any classification is better than none,\" this did lead to some scattered clues' — meaning a sterile-but-valid scheme can look productive enough to survive scrutiny simply because any sorting beats no sorting at all. The classification that actually worked (local vs. cosmopolitan influentials) wasn't a corrected version of the first one; it came from noticing an unrelated pattern in the same interview data and cutting the population along a completely different axis. The diagnostic move: when a classification isn't generating uniformities, don't audit it for logical errors or definitional sloppiness — check whether it's carving the population along an axis that happens to be irrelevant to the outcome you're trying to explain, and be willing to replace the axis rather than refine the categories."
+related: []
+evokes: [merton-1957, logically-impeccable-empirically-applicable-virtually-sterile, l-j-henderson-almost-any-classification, rovere-study, phases-of-qualitative-analysis]
+lineage:
+  - source: primary
+    text: merton-1957-logically-impeccable-sterile
+    citation: "Robert K. Merton, Social Theory and Social Structure, Revised and Enlarged Edition (Glencoe, IL: Free Press, 1957), Ch. X 'Patterns of Influence: Local and Cosmopolitan Influentials,' p.390. Verified verbatim against a University of Iowa library scan via Internet Archive OCR text (item 31858016281432)."
+    quote: "'This classification proved to be logically impeccable, empirically applicable, and virtually sterile. To be sure, our data could readily be arranged in these categories. But this resulted in few clear-cut uniformities of communications behavior or of other patterns of behavior. In short, the distinctions were valid but relatively fruitless for our purposes.'"
+  - source: primary
+    text: merton-1957-almost-any-classification-better-than-none
+    citation: "Robert K. Merton, Social Theory and Social Structure (1957), same chapter, p.390, immediately following."
+    quote: "'But since, as L. J. Henderson once remarked, \"almost any classification is better than none,\" this did lead to some scattered clues concerning the functions of newsmagazines and other communications for those occupying various positions in the influence-structure.'"
+canonical-instances:
+  - "A support team sorts every incoming ticket by which product feature it mentions, and the sort is completely accurate and easy to audit, yet resolution time and customer satisfaction show no pattern across the categories — the feature-based axis is valid but sterile; sorting the same tickets by whether the customer's underlying goal was blocked or merely delayed turns out to explain both outcomes at once."
+  - "A school sorts students into gifted, average, and struggling based on standardized test scores, and the sort is measured with real precision, but the sorting predicts almost nothing about which students respond to a given teaching intervention — a different, less obvious axis (whether the student has a stable home routine) turns out to carry the explanatory weight the test-score axis never had."
+critical-questions:
+  - "Is there a way to tell, before investing months of data collection, whether a proposed classification axis is likely to be sterile — or is discovering sterility necessarily a retrospective judgment that can only be made after the uniformities fail to appear?"
+  - "Henderson's line implies sterile classifications survive because 'any sorting beats none' — does that mean organizations should expect to accumulate several sterile-but-plausible-looking classification schemes over time, and if so, what would make an audit of 'which of our standing categories are actually explanatorily sterile' worth doing deliberately rather than waiting to stumble onto the productive axis by accident?"
+status: active

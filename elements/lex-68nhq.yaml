@@ -1,0 +1,19 @@
+id: lex-68nhq
+name: trust-in-a-claim-runs-inverse-to-how-checkable-it-is
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone claims expertise in a domain, check whether that domain is one where failure would be easy to verify or nearly impossible to pin down, since trust tends to track checkability rather than actual competence. Aesop's 'The Cobbler Turned Doctor' has a cobbler nobody trusted with shoe repairs win a town's confidence as a physician; when a rival tricks him into confessing under threat, the king asks the crowd: 'What folly could be greater than yours? Here is this Cobbler to whom no one will send his boots to be mended, and yet you have not hesitated to entrust him with your lives!' The cobbler failed at an easily-checked craft and thrived at a self-promoted, hard-to-verify one, exposed only by a staged test rather than by ordinary scrutiny."
+related: []
+evokes: [aesop, the-cobbler-turned-doctor, verifiability-asymmetry, trust-tracks-checkability]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-cobbler-turned-doctor
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Cobbler Turned Doctor.' Verified verbatim against a direct extraction of the held copy."
+    quote: "What folly could be greater than yours? Here is this Cobbler to whom no one will send his boots to be mended, and yet you have not hesitated to entrust him with your lives!"
+canonical-instances:
+  - "wellness and supplement influencers who couldn't land a job requiring an easily-checked credential build large, monetized followings in a domain where health outcomes are slow and hard to falsify, exactly reproducing the cobbler's asymmetry between his two trades."
+critical-questions:
+  - "Does a hard-to-verify domain actually make fraud more common, or does it just make genuine competence look the same as fraud from outside, leaving the true base rate of skill no different from any other domain?"
+  - "What would a reliable, non-staged test for exposing this asymmetry look like, given that the fable's own exposure required an artificial threat rather than an ordinary evaluation of the cobbler's medical claims?"
+status: active

@@ -1,0 +1,20 @@
+id: lex-jhwkw
+name: refusing-to-reclaim-an-already-relinquished-thing-even-at-mortal-cost
+type-in: situation
+type-out: posture
+_tier: atomic
+agent-instruction: "Treating an already-completed act of relinquishment as irrevocable in principle can mean refusing to undo it even when reversal would save your life, because what's actually being protected is the relinquishment itself, independent of whatever substance happened to be involved. In the Jataka's tale of the snake and its venom, a doctor orders a snake to suck its own poison back out of a bite victim to save the man's life. The snake refuses, choosing to burn rather than reclaim poison it has already shed, on the reasoning that swallowing back down what was once given up would be a greater loss than death. The venom was replaceable; the completed act of relinquishing it was what the snake would not take back."
+related: []
+evokes: [jataka, ekanipata, visavanta-jataka, refusing-to-reclaim-a-relinquished-thing, principle-held-past-the-cost-of-death]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-visavanta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 69, Visavanta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "May shame be on the poison which, once shed, To save my life, I swallow down again! More welcome death than life by weakness bought!"
+canonical-instances:
+  - "A whistleblower who has already handed over incriminating documents to a regulator refuses an offer to quietly retrieve and destroy them in exchange for a settlement that would save their job, reasoning that reclaiming what's already been given up would cost more than the job is worth."
+  - "In the Vessantara-Jataka, after giving his children to the brahmin Jujaka, Vessantara arms himself intending to chase the man down and take them back — then stops himself: \"even if my children die 'tis wicked to feel pain: who knows the customs of the good, yet asks a gift again?\" The children's suffering doesn't move him to reverse a completed gift; reversing it, in his own reasoning, would be the greater failure."
+critical-questions:
+  - "Is this principle actually protecting something real, or is it a form of loss aversion dressed up as integrity — would a purely consequentialist assessment of the outcome ever recommend the snake's choice?"
+  - "Does the refusal depend on the relinquishment having been a deliberate, meaningful act in the first place, or would the same logic apply to something given up accidentally or under duress?"
+status: active

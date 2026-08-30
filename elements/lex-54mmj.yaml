@@ -1,0 +1,19 @@
+id: lex-54mmj
+name: point-in-time-samples-are-wrongly-generalized-into-contradicting-wholes
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Observing the same object at different points in time, without asking about the other times, can produce descriptions so different that observers conclude they must be describing different things entirely, when the real error is treating one sampled moment as if it were the whole timeline. In the Jataka's tale of the four princes and the Judas tree, each is shown the same tree at a different stage — budding, leafing, flowering, fruiting — and their descriptions contradict each other so completely they nearly come to blows over which is right. Their father names the actual gap: 'All four of you have seen the tree. Only when the charioteer showed you the tree, you did not ask him 'What is the tree like at such a time?' or 'at such another time?' You made no distinctions, and that is the reason of your mistake.' Nobody lied here, and nobody misperceived anything. Each sample was accurate for its own moment. The only failure was never asking whether the sampling moment itself needed specifying."
+related: []
+evokes: [jataka, dukanipata, kimsukopama-jataka, temporal-sampling-mistaken-for-a-complete-description, failing-to-ask-about-the-sampling-frame-produces-false-contradiction]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kimsukopama-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 248, Kimsukopama-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "All four of you have seen the tree. Only when the charioteer showed you the tree, you did not ask him 'What is the tree like at such a time?' or 'at such another time?' You made no distinctions, and that is the reason of your mistake."
+canonical-instances:
+  - "Four analysts who each pulled a company's stock performance from a different quarter argue heatedly over whether the company is thriving or failing, until someone points out that none of them specified which quarter they were describing, and the full year's data shows all four snapshots were accurate for their own moment."
+critical-questions:
+  - "Is this really a failure to ask about timing specifically, or a more general failure to check whether the object under discussion is even stable across the dimension being sampled — would the same trap occur with any object that changes across some axis nobody thought to specify?"
+  - "How would the four princes have known in advance that timing was the relevant variable to ask about, given that for many other objects a single sample genuinely would be representative of the whole — what tips someone off that a Judas tree, specifically, needed this caveat?"
+status: active

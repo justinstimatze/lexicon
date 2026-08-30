@@ -1,0 +1,26 @@
+id: lex-9xzrt
+name: crossing-an-intensity-threshold-matters-more-than-total-time-applied
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: "Before crediting 'more time' with progress toward a threshold-gated transformation, check whether the applied intensity ever actually crosses the critical value the transformation requires. If it doesn't, no amount of additional time substitutes for crossing it — the process can run indefinitely below threshold and never start. If it does cross the threshold, less total time at sufficient intensity can outperform more total time at insufficient intensity. Measure the peak intensity reached, not just the elapsed duration, before concluding a process failed or simply needs longer."
+related: [lex-becfq, lex-d7p2y, lex-mkadu, lex-mr4nb]
+evokes: [maillard-reaction, americas-test-kitchen, guy-crosby, browning-needs-heat-not-patience, low-and-slow-doesnt-always-work, more-time-isnt-more-progress]
+lineage:
+  - source: primary
+    text: americas-test-kitchen-crosby-2012-science-of-good-cooking
+    citation: "The Editors at America's Test Kitchen and Guy Crosby, The Science of Good Cooking: Master 50 Simple Concepts to Enjoy a Lifetime of Success in the Kitchen (America's Test Kitchen, 2012), Concept 2, 'High Heat Develops Flavor,' p. 91."
+    quote: "Cooking time had no relation to overall browning. The cutlets cooked over medium-low heat required about seven minutes to reach an internal temperature of 160 degrees. In contrast, the cutlets cooked over high heat required just five minutes to reach an internal temperature of 160 degrees. So browning was better in the sample that spent less—not more—time being heated."
+  - source: primary
+    text: americas-test-kitchen-crosby-2012-science-of-good-cooking
+    citation: "The Editors at America's Test Kitchen and Guy Crosby, The Science of Good Cooking (America's Test Kitchen, 2012), Concept 2, 'High Heat Develops Flavor,' p. 88."
+    quote: "Because the Maillard reaction becomes rapid at this high temperature, certain cooking methods don't brown foods. Food cooked in boiling water, for example, never browns because the surface temperature cannot exceed 212 degrees."
+canonical-instances:
+  - "Chicken cutlets cooked in oil held at 240 degrees browned barely at all even after seven minutes over the burner, while cutlets in oil at 420 degrees browned well in five minutes. The surface of the slower batch never crossed 300 degrees, the point at which the browning reaction actually starts, so its extra two minutes of cooking time bought it nothing."
+  - "No dish simmered or boiled in water browns, no matter how long it cooks, because water's own boiling point caps the surface at 212 degrees — a full 88 degrees short of the roughly 300-degree point at which the reaction that produces browning even begins."
+critical-questions:
+  - "What is the specific critical value this transformation requires, and has the applied intensity actually been measured against it, rather than assumed adequate from how long the process has been running?"
+  - "Is the transformation genuinely threshold-gated, so nothing happens until that value is crossed, or is it only rate-limited, where the process runs slower under the threshold but would eventually finish given enough additional time? The two look identical from 'it hasn't happened yet' but call for opposite fixes."
+  - "If intensity were increased instead of extending time, would the transformation complete in less total time and with less collateral effect (less moisture loss, less waiting) than the current low-and-slow approach?"
+status: active
+severity-tier: info

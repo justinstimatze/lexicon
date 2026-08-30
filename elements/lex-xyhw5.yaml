@@ -1,0 +1,22 @@
+id: lex-xyhw5
+name: a-goods-name-is-earned-by-reliably-producing-its-effect
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "Test whether a supposed good deserves its name by checking whether it reliably produces its proper effect in whoever holds it -- a real cause always produces its characteristic effect, so something that routinely fails to produce that effect, or even coexists with its opposite, was never rightly entitled to the name. Philosophy states the test directly, then applies it: 'No one doubts a man to be brave in whom he has observed a brave spirit residing... So also music makes men musical, the healing art physicians, rhetoric public speakers. For each of these has naturally its own proper working... And yet wealth cannot extinguish insatiable greed, nor has power ever made him master of himself whom vicious lusts kept bound in indissoluble fetters; dignity conferred on the wicked not only fails to make them worthy, but contrarily reveals and displays their unworthiness.'"
+related: []
+evokes: [consolation-of-philosophy, book-ii-prose-vi, music-makes-men-musical-the-healing-art-physicians, wealth-cannot-extinguish-insatiable-greed, functional-definition-of-a-true-good]
+lineage:
+  - source: primary
+    text: boethius-c524-consolation-of-philosophy-book-ii-prose-vi
+    citation: "Boethius, The Consolation of Philosophy (c. 524 AD), trans. H. R. James (London: George Bell & Sons, 1897), Book II, Prose VI. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "No one doubts a man to be brave in whom he has observed a brave spirit residing. It is plain that one who is endowed with speed is swift-footed. So also music makes men musical, the healing art physicians, rhetoric public speakers. For each of these has naturally its own proper working; there is no confusion with the effects of contrary things--nay, even of itself it rejects what is incompatible. And yet wealth cannot extinguish insatiable greed, nor has power ever made him master of himself whom vicious lusts kept bound in indissoluble fetters; dignity conferred on the wicked not only fails to make them worthy, but contrarily reveals and displays their unworthiness."
+canonical-instances:
+  - "A hiring process calls itself a meritocracy that selects for competence, but if promoted employees routinely turn out incompetent at the very tasks the promotion was meant to reward, the test suggests the process was never actually selecting for merit at all."
+  - "A therapy claims to build genuine emotional resilience, but if graduates of the program collapse at the same rate under stress as people who never took it, the claim that the program produces resilience fails its own causal test."
+  - "A credential is marketed as certifying real expertise, but if credential-holders perform no better on the actual tasks the credential is supposed to guarantee than uncredentialed peers, the credential was never really certifying expertise, whatever it was called."
+critical-questions:
+  - "Does the test set the bar at a 100% success rate, when bravery training that produces brave conduct in the great majority of graduates would still fail such a strict standard -- and 'usually produces the effect' might be all that's reasonable to expect of any real cause acting on variable human material?"
+  - "Could wealth or power fail to produce virtue not because they were never truly goods, but because virtue requires a separate, additional input -- education, community, self-discipline -- that the good alone was never claimed to supply on its own?"
+  - "Is 'producing its proper effect in the holder' even the right test for whether something is a good, when many uncontroversial goods -- health, safety, free time -- don't produce any particular character trait in their possessor at all, virtuous or otherwise?"
+status: active

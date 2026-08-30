@@ -1,0 +1,22 @@
+id: lex-jhtjb
+name: external-breeding-for-anothers-benefit-distorts-natural-balance
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "An organism's natural balance across its full range of functions can be deliberately distorted by external breeders who select and maintain it purely to maximize one function for their own benefit, producing a creature dominated by that single trait far beyond what it would ever need or develop on its own. Gilman's comparison makes the mechanism concrete: 'look at the relative condition of a wild cow and a \"milch cow\"... The wild cow is a female. She has healthy calves, and milk enough for them; and that is all the femininity she needs... We, for economic uses, have artificially developed the cow's capacity for producing milk. She has become a walking milk-machine, bred and tended to that express end, her value measured in quarts... Turn her loose in natural conditions, and, if she survive the change, she would revert in a very few generations to the plain cow, with her energies used in the general activities of her race, and not all running to milk.'"
+related: []
+evokes: [women-and-economics, chapter-iii, the-wild-cow-and-the-milch-cow, a-walking-milk-machine-bred-and-tended-to-that-express-end, external-breeding-distorts-natural-balance]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-iii
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter III. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "look at the relative condition of a wild cow and a 'milch cow,' such as we have made. The wild cow is a female. She has healthy calves, and milk enough for them; and that is all the femininity she needs. Otherwise than that she is bovine rather than feminine. [...] We, for economic uses, have artificially developed the cow's capacity for producing milk. She has become a walking milk-machine, bred and tended to that express end, her value measured in quarts. The secretion of milk is a maternal function,—a sex-function. The cow is over-sexed. Turn her loose in natural conditions, and, if she survive the change, she would revert in a very few generations to the plain cow, with her energies used in the general activities of her race, and not all running to milk."
+canonical-instances:
+  - "A specialty crop bred over generations for maximum shelf life and uniform appearance loses the flavor complexity and nutritional range its wild relatives still have, because every selection pressure applied to it came from what supermarket distributors needed, not from what would serve the plant's own reproductive success."
+  - "A working dog breed selected for centuries purely for one trait a hunter needs, like an intensified prey drive, develops behavioral extremes and health issues that would never emerge in a wild canid living a fuller range of natural behaviors, because the breeding pressure came entirely from human utility."
+  - "A junior employee is trained and evaluated so heavily on one narrow skill their manager finds most useful that their broader professional development stalls, since every incentive shaping their growth comes from what serves the manager's immediate needs, not from what a well-rounded career would actually require."
+critical-questions:
+  - "Does the domesticated-animal analogy actually transfer to human social development, given that literal selective breeding operates across generations through reproduction, while Gilman's claim about women is about cultural and educational shaping within a single lifetime -- are these genuinely the same mechanism, or only similar in outcome?"
+  - "The milch cow's transformation required generations of deliberate, targeted breeding by people with a specific economic goal in mind -- does Gilman's argument require an equally deliberate, targeted human agent shaping women's development, or could a similar distortion arise from diffuse, unintentional cultural pressure with no one actually steering it?"
+  - "If reverting to natural balance is as easy as a few generations once the artificial pressure is removed, as Gilman claims for the cow, does that optimistic timeline hold for a human population's psychological and social development, or does undoing generations of shaping take much longer, or work differently, than undoing selective breeding?"
+status: active

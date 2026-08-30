@@ -1,0 +1,19 @@
+id: lex-mwuvr
+name: preemptively-expelling-a-liability-to-protect-yourself-not-the-liability
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "An action that looks like it's protecting someone from future harm can actually be motivated by protecting yourself from the collateral consequences of their eventual capture — the apparent kindness is really self-interested risk-avoidance wearing the shape of concern. In the Jataka's tale of the Nimb-tree spirit, the spirit doesn't drive off a sleeping thief out of care for him — it reasons purely about its own exposure: 'If people should come and capture this robber, they will cut off a branch and make a stake from this Nimb-tree and impale him on it. And in that case the tree will be destroyed. So I will drive the fellow away.'"
+related: []
+evokes: [jataka, catukkanipata, pucimanda-jataka, apparent-concern-for-another-is-really-self-protection, expulsion-motivated-by-your-own-collateral-exposure]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-pucimanda-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 311, Pucimanda-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "So the spirit of the Nimb-tree thought: \"If people should come and capture this robber, they will cut off a branch and make a stake from this Nimb-tree and impale him on it. And in that case the tree will be destroyed. So I will drive the fellow away.\""
+canonical-instances:
+  - "A manager quietly transfers a struggling employee off a high-visibility project before their performance issues become obvious to leadership — framed to the employee as a favor, it's actually motivated by not wanting the manager's own judgment in staffing the project questioned when the failure surfaces."
+critical-questions:
+  - "Does it matter that the motive is self-interested if the outcome for the person being 'helped' is genuinely better either way — is the distinction between protecting them and protecting yourself only relevant when the two interests diverge?"
+  - "Would the tree-spirit have acted at all if the robber's capture posed no risk to the tree itself — does this reveal that the entire action was contingent on self-interest all along, with no independent concern for the robber's fate?"
+status: active

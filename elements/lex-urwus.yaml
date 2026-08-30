@@ -1,0 +1,19 @@
+id: lex-urwus
+name: passive-proximity-to-grandeur-is-mistaken-for-personal-importance
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Being carried alongside, near, or by something impressive can be mistaken by the one being carried for evidence of their own comparative standing, when the only actual similarity is the surface structure of the situation. In the Jataka's tale, Dingy the crow-goose hybrid is being carried aloft on a stick by his two goose half-brothers when he sees King Videha processing through the city behind four milk-white horses. He draws a direct comparison to his own situation: 'As yonder king goes galloping with his milk-white four-in-hand, Dingy has these, his pair of Geese, to bear him over the land!' Being transported by others isn't inherently meaningless, so that isn't what makes the comparison absurd. Dingy mistakes the structural parallel — being borne along by someone else — for the substantive one he actually lacks: commanding respect, wealth, or authority. His own brothers' furious reaction is the tell that the gap between the two was never actually close."
+related: []
+evokes: [jataka, dukanipata, vinilaka-jataka, structural-parallel-mistaken-for-substantive-parity, riding-along-with-grandeur-is-not-possessing-it]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-vinilaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 160, Vinilaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "As yonder king goes galloping with his milk-white four-in-hand, Dingy has these, his pair of Geese, to bear him over the land!"
+canonical-instances:
+  - "A junior staffer who rides in the executive's car to the same meetings, sits near the same table, and hears the same briefings starts speaking in meetings as though their own opinion carries the executive's authority, mistaking proximity to decision-making for possessing it."
+critical-questions:
+  - "Is there a version of this comparison that would actually be legitimate — some threshold of genuine shared standing where 'I am carried like a king' stops being a category error and starts being an accurate description — and where exactly does Dingy's case fall short of it?"
+  - "Would Dingy have made the same mistake if he hadn't been physically elevated and moving through the same public space as the king at that exact moment, or is the error specifically triggered by literal spatial parallel rather than any more abstract form of proximity?"
+status: active

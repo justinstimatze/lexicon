@@ -1,0 +1,19 @@
+id: lex-v5ktw
+name: theatrical-scruple-over-a-trifle-launders-a-major-violation
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Ostentatious, visible honesty about a trivial matter can manufacture an image of hyper-scrupulousness convincing enough to cover a much larger violation committed at the same time. In the Jataka's tale of the fraudulent ascetic, a man steals a hundred gold pieces entrusted to him, then theatrically returns to hand back a single straw that had stuck to his hair during the theft — treating the straw's return as evidence of his fastidious honesty. The performance nearly works precisely because it inverts scale: no one expects a person who'd fuss over an insignificant straw to have simultaneously stolen a fortune, so the trivial scruple does the work of concealing the major one."
+related: []
+evokes: [jataka, ekanipata, kuhaka-jataka, trivial-scruple-launders-major-violation, inverted-scale-as-a-credibility-device]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kuhaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 89, Kuhaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "How plausible the story that the rascal told! How heedful of the straw! How heedless of the gold!"
+canonical-instances:
+  - "An executive who quietly approves a large, questionable expense makes a visible show of returning a fifteen-dollar overcharge on their own expense report the same week, betting that colleagues who notice the small correction will assume someone that scrupulous couldn't possibly be behind the larger irregularity."
+critical-questions:
+  - "Does this technique require the audience to actually notice the trivial scruple, or does its protective effect work even when no one consciously registers the contrast between the two scales at all?"
+  - "What actually breaks an illusion like this — someone independently checking the larger amount, or the sheer mismatch in scale becoming suspicious on reflection, once anyone stops to compare the two?"
+status: active

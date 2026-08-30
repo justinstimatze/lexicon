@@ -1,0 +1,20 @@
+id: lex-q7fyn
+name: delay-granting-a-request-until-its-fallout-on-absent-third-parties-is-settled
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Granting someone''s deeper request immediately, before they''ve discharged an existing obligation, can offload the fallout of that unfinished business onto people who had no part in the request — so the grantor delays until the requester has settled it. In the Jataka''s tale of Temiya, when his charioteer asks on the spot to become an ascetic alongside him, the prince recognizes that admitting him immediately would leave the royal chariot, horses, and ornaments abandoned in the forest and his own parents publicly blamed for the charioteer''s disappearance, so he reasons through the cost before answering: "If I at once admit him to the ascetic life, my father and mother will not come here and thus they will suffer loss, and the horses and chariot and ornaments will perish, and blame will accrue to me, for men will say, ''He is a goblin,—has he devoured the charioteer?''"'
+related: []
+evokes: [jataka, mahanipata, muga-pakkha-jataka, temiya-jataka, sequencing-a-request, third-party-fallout]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-muga-pakkha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 538, Muga-Pakkha-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "If I at once admit him to the ascetic life, my father and mother will not come here and thus they will suffer loss, and the horses and chariot and ornaments will perish, and blame will accrue to me, for men will say, \"He is a goblin,—has he devoured the charioteer?\""
+canonical-instances:
+  - "An employee who wants to quit on the spot to join a friend's startup is asked by their manager to first hand off their client accounts and train a replacement — not because the resignation itself is opposed, but because walking out immediately would leave existing clients and the manager holding the fallout."
+  - "A guru who used to accept every walk-in disciple immediately learns to instead ask new arrivals to first settle debts and responsibilities at home, since an unresolved life left behind becomes the community's problem once the person is gone."
+critical-questions:
+  - "Temiya's delay costs the charioteer nothing but a trip home — how does this move hold up when settling the collateral obligation is itself costly or risky for the person making the request, not just a minor errand?"
+  - "Is the real function of the delay protecting the third parties, or is it protecting the grantor's own reputation from the specific accusation of having caused someone's disappearance?"
+status: active

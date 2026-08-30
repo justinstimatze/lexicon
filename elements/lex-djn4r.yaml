@@ -1,0 +1,19 @@
+id: lex-djn4r
+name: feigned-weakness-lures-a-pursuing-enemy-into-a-pincer
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "A garrison or defender can invite a stronger attacker into a trap by deliberately performing weakness in a location chosen to funnel them into terrain where hidden forces can close from both directions at once. The performed weakness isn't a real vulnerability. It's the entire mechanism drawing the attacker exactly where the ambush is staged. In the Jataka's tale of the overheard tactic, two monks unknowingly reveal a war plan to royal spies: 'If those who wish to capture Ajatasattu will post garrisons in two hill-forts right away in the hills, and pretend that they are weak, and watch till they get him among the hills, and bar his passage, leap out from the two forts and take him in front and in the rear, and shout aloud, they will quickly have him like a landed fish, like a frog in the fist.' The weakness was bait. The hills were the trap."
+related: []
+evokes: [jataka, tikanipata, vaddhaki-sukara-jataka, performed-weakness-as-bait-for-a-terrain-based-pincer-trap, feigned-vulnerability-funnels-a-pursuer-into-a-prepared-kill-zone]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-vaddhaki-sukara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 283, Vaddhaki-sukara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "If those who wish to capture Ajatasattu will post garrisons in two hill-forts right away in the hills, and pretend that they are weak, and watch till they get him among the hills, and bar his passage, leap out from the two forts and take him in front and in the rear, and shout aloud, they will quickly have him like a landed fish, like a frog in the fist; and so they will be able to secure him."
+canonical-instances:
+  - "A struggling competitor deliberately underprices a niche product line to look weak and non-threatening, luring a larger rival into over-investing in that same niche, then reveals reserved capacity and pricing power in the adjacent markets the rival had left undefended to chase the bait."
+critical-questions:
+  - "Does this tactic depend entirely on the target's overconfidence, and would it fail against a pursuer cautious enough to suspect feigned weakness before committing to the terrain?"
+  - "Is there a meaningful risk that the performance of weakness becomes real if the trap fails to close in time, leaving the defenders genuinely exposed rather than merely appearing to be?"
+status: active

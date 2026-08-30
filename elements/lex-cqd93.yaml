@@ -1,0 +1,18 @@
+id: lex-cqd93
+name: deterring-a-threat-with-a-fabricated-show-of-strength
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than fight or flee, a target invents an overwhelming, entirely fictional force that would make attacking them too costly, causing the predator to break off contact voluntarily — the bluff works because verifying it is riskier than believing it. In the Jataka''s tale of Putimansa, the goat invents a two-thousand-dog escort to deter the jackals: "Each of these," she added, "is accompanied by five hundred dogs: so I shall appear with a guard of two thousand dogs. If they should not find food, they will kill and eat you and your mate."'
+related: []
+evokes: [jataka, navanipata, putimansa-jataka, puss-in-boots, bluffing-a-predator-into-retreat]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-putimansa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 437, Putimansa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Each of these,\" she added, \"is accompanied by five hundred dogs: so I shall appear with a guard of two thousand dogs. If they should not find food, they will kill and eat you and your mate."
+canonical-instances:
+  - "A lone hiker who spots a mountain lion loudly announces to no one in particular that the rest of her group is right behind her with bear spray, inventing backup that doesn't exist because the lion has no way to verify the claim without approaching first."
+critical-questions:
+  - "Does the bluff work because the threat sounds genuinely credible, or simply because the cost of the predator being wrong about calling the bluff is too high regardless of how credible it sounds?"
+status: active

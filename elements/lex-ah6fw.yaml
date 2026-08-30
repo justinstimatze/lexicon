@@ -1,0 +1,21 @@
+id: lex-ah6fw
+name: underplay-your-resilience-so-the-attacker-believes-they-won
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When an attack against you only partially fails, and your attacker is watching for the outcome, consider presenting the result as a complete success on their part rather than revealing how much you actually deflected or how quickly you can recover -- an enemy who believes they've won will walk away and stop trying, while one who sees your real capability will keep escalating. In Cushing's telling, a youth dodges a thrown boomerang skillfully enough to avoid anything vital, but rather than show that skill, he collapses as though gravely wounded: 'the missile missed his vital parts, but struck his leg and apparently broke it, so that he fell down senseless.' His attackers, satisfied, abandon him entirely: 'Let him lie there and rot!' Only once they're gone does he reveal what they never saw -- a real injury minor enough, and a medicine effective enough, that he's walking home triumphant with a full bag of rabbits before sunset. He had two things worth hiding: how well he'd actually dodged, and how fast he could actually heal, and hiding both is what got his attackers to stand down completely rather than finish the job. Diagnostic move: when you've survived an attack better than the attacker intended, resist the instinct to show them how little damage was actually done -- letting them believe they succeeded, even at the cost of looking weaker than you are in the moment, often ends the threat more completely than proving your resilience ever could."
+related: []
+evokes: [let-them-believe-they-won-so-they-stop-trying, cushing-the-warrior-suitor-of-moki, let-him-lie-there-and-rot, hiding-both-the-dodge-and-the-recovery]
+lineage:
+  - source: primary
+    text: cushing-warrior-suitor-moki-feigns-injury-to-end-the-attack
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Warrior Suitor of Moki.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'The youth, who was wily, sprang into the air so high, pretending meanwhile to throw his boomerang, that the missile missed his vital parts, but struck his leg and apparently broke it, so that he fell down senseless in the midst of the crowd... Let him lie there and rot! said the angry suitors, catching up their own rabbits and making off for the pueblo... When the youth had been left alone, he opened his eyes and smiled. Then, taking from his pouch a medicine unfailing in its effects, applied it to the bruised spot and quickly became relieved of pain, if not even of injury.'"
+canonical-instances:
+  - "A company facing a hostile takeover attempt that partially damages its stock price and reputation doesn't rush to publicly demonstrate how quickly it's actually recovering, but lets the acquiring firm believe the damage was more severe and lasting than it really was, causing the aggressor to move on to an easier target rather than escalate further."
+  - "A boxer who takes a hard punch that looks devastating but barely hurt them doesn't immediately show full recovery, but plays up the apparent damage for a moment, drawing the opponent into overconfidence and a careless follow-up attack that the boxer is actually fully prepared to counter."
+critical-questions:
+  - "does this tactic only work when the attacker has no way to verify the outcome directly, as the suitors simply leave rather than checking -- what happens when an attacker stays to confirm the kill, or when concealment isn't physically possible?"
+  - "is there a risk that underplaying an injury to deceive an attacker also deceives allies who might otherwise have helped sooner -- the story notes some old men ran for medicine out of genuine concern, and the youth's deception withholds the truth from them as much as from his enemies?"
+  - "how many times can this tactic actually work against the same set of attackers before they learn to verify results themselves rather than assume a fallen target is finished -- does repeated success at faking incapacitation eventually train opponents to stop trusting appearances?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-k9tnm
+name: internal-dissent-gets-recoded-as-disloyalty-when-money-is-at-stake
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A member of a self-interested group who objects to the group''s harmful plan on ethical grounds can be met with anger not because the objection is wrong, but because it threatens everyone''s material benefit. Moral dissent within a coalition gets reinterpreted as betrayal of the group whenever money is on the table. In the Jataka''s tale of Atthasadda, the pupil''s ethical objection to a mass slaughter draws exactly this reaction: "Hearing this, the other brahmins were angry with the pupil for endangering their gains."'
+related: []
+evokes: [jataka, atthanipata, atthasadda-jataka, dissent-as-disloyalty, whistleblower-retaliation]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-atthasadda-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 418, Atthasadda-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Hearing this, the other brahmins were angry with the pupil for endangering their gains."
+canonical-instances:
+  - "A junior partner who raises an ethical concern about a lucrative but questionable client engagement is quietly frozen out of future deals — not because the concern was wrong, but because raising it put shared bonuses at risk."
+critical-questions:
+  - "Is the anger a genuine belief that the dissenter is factually mistaken, or a reaction to the threat the objection poses to everyone's payout regardless of its merits?"
+  - "What would it take for a group whose gains are threatened by an internal objection to actually evaluate the objection on its merits rather than on its inconvenience?"
+status: active

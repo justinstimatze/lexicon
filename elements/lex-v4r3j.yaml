@@ -1,0 +1,21 @@
+id: lex-v4r3j
+name: an-injury-gets-explained-by-assuming-the-victim-provoked-it
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "When someone comes home hurt, the person they turn to for comfort can reach immediately for an explanation that quietly shifts responsibility onto the injured party's own conduct, offered before any actual investigation and stated as though it were simply obvious. In Radin's Winnebago Hare Cycle, young Hare is shot with an arrow by a stranger he'd been harmlessly blowing at, cries out, and runs home. His grandmother's first response isn't to ask what happened; it's to supply a cause that assumes Hare must be at fault: 'It'must have been one of your uncles ... and you must have been annoying him for otherwise he would not have shot at you.' Hare's own account, offered in reply, undercuts the assumption completely -- he was shot from a distance for no provocation at all, simply for being visible: 'What great people my uncles must be, for he shot me when I was quite some distance away from him.' The grandmother's explanation was never checked against what Hare actually did; it was generated from a general expectation about how these encounters usually go, and delivered with full confidence anyway. Diagnostic move: when your first instinct on hearing that someone was hurt is to explain why they probably brought it on themselves, notice that the explanation arrived before the facts did -- the confidence of the explanation says nothing about whether it happened to be true this time."
+related: []
+evokes: [radin-winnebago-hare-cycle, hare-and-his-grandmother, it-must-have-been-one-of-your-uncles, you-must-have-been-annoying-him]
+lineage:
+  - source: primary
+    text: radin-grandmother-assumes-hare-provoked-the-shooting
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'The Winnebago Hare Cycle,' episode 2. Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "She pulled the arrow out of him and said, 'It'must have been one of your uncles ... and you must have been annoying him for otherwise he would not have shot at you.''What great people my uncles must be,' said Hare, 'for he shot me when I was quite some distance away from him.''Grandson, that is the weapon these people use for killing game,' she said."
+canonical-instances:
+  - "A manager hears that an employee was yelled at by a client and immediately assumes the employee must have said something to provoke it, before asking either party what actually happened."
+  - "A parent, told that their child was excluded from a game at recess, responds by asking what the child must have done to deserve it, rather than first finding out whether anything the child did was actually involved."
+critical-questions:
+  - "Does the grandmother's explanation turn out to be accurate in any sense within the story, or does Hare's own account fully contradict it, and if so, why does the story let the inaccurate explanation stand unchallenged rather than correcting it?"
+  - "Is there a difference between a caregiver offering a plausible general explanation to make sense of an unfamiliar situation, weapons and hunting customs are new to Hare, and a caregiver specifically assuming fault on the injured party's part, or are these the same move dressed differently?"
+  - "Would the grandmother have reached for the same explanation if the person who shot Hare had been a known danger rather than one of the family's own uncles, and does treating the shooter as kin change how automatically blame shifts toward the person who got hurt?"
+status: active

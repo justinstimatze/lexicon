@@ -1,0 +1,19 @@
+id: lex-6mbz3
+name: distinguish-a-loud-actors-performative-threat-from-who-holds-real-leverage
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a vocal actor makes demands, check whether they actually hold enforcement power or are simply performing at volume, and calibrate your response to the real leverage rather than the noise. Aesop's 'The Fly and the Draught-Mule' has a fly perched on a mule's yoke order it to hurry, only to be told: 'Behind me, in the cart, sits my master. He holds the reins, and flicks me with his whip, and him I obey, but I don't want any of your impertinence. I know when I may dawdle and when I may not.' The mule maintains an explicit two-tier model of authority — the one who can actually compel it, and everyone else — and responds to demands accordingly, regardless of how insistently they're delivered."
+related: []
+evokes: [aesop, the-fly-and-the-draught-mule, real-leverage-vs-performative-volume, two-tier-authority-model]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-fly-and-the-draught-mule
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Fly and the Draught-Mule.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Behind me, in the cart, sits my master. He holds the reins, and flicks me with his whip, and him I obey, but I don't want any of your impertinence. I know when I may dawdle and when I may not."
+canonical-instances:
+  - "ignoring a loud, title-less colleague's demands in a meeting because everyone present knows only the actual budget-holder can compel the deliverable, regardless of how insistently the demand is delivered."
+critical-questions:
+  - "Does maintaining this two-tier model risk ever missing a genuine escalation of authority — could a vocal actor without formal power still accumulate enough real leverage over time that the mule's dismissal becomes outdated?"
+  - "Is the mule's model always this clean in practice, or does real authority sometimes get distributed enough that there is no single obvious 'master holding the reins' to calibrate against?"
+status: active

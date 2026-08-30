@@ -1,0 +1,19 @@
+id: lex-9g7s7
+name: a-captor-releases-a-legitimate-claim-purely-on-hearing-of-filial-duty
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A captor holding a legitimate claim over a captive can voluntarily forfeit it purely on hearing of the captive''s obligation to dependents, resolved through compassion rather than negotiation, ransom, or force. In the Jataka''s tale of Gijjha, the hunter releases the vulture this way: "Go, tend your aged parents within their mountain-cave, Go, visit them in peace, you have from me the leave you crave."'
+related: []
+evokes: [jataka, sattanipata, gijjha-jataka, mercy-moved-by-filial-duty, captor-forfeits-legitimate-claim]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-gijjha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 399, Gijjha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Go, tend your aged parents within their mountain-cave, Go, visit them in peace, you have from me the leave you crave."
+canonical-instances:
+  - "A landlord with every legal right to evict a tenant who's fallen behind drops the case entirely on learning the tenant has been the sole caregiver for a disabled parent, without asking for repayment or any concession in return."
+critical-questions:
+  - "Does an appeal to dependents work as reliably when the captor has something material to lose by releasing the claim, rather than nothing at stake beyond the choice itself?"
+  - "Is this act of mercy something the captive could have anticipated and strategically invoked, or does it only work when the appeal to filial duty is genuine and unplanned?"
+status: active

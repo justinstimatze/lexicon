@@ -1,0 +1,29 @@
+id: lex-q4kj7
+name: subaltern-speech-fails-via-structural-foreclosure-and-identity-protective-resistance
+type-in: claim
+type-out: posture
+_tier: molecule
+agent-instruction: "When a subordinated group's testimony or self-representation fails to register with a dominant audience even though it was clearly stated and attended to, check for two independent mechanisms rather than assuming amplification alone will fix it. First, the dominant epistemic framework may be structurally constituted in a way that intercepts or reabsorbs the speech before it can register as speech (lex-qg68a). Second, independent of that structural foreclosure, dominant-group listeners may be actively resisting via identity-protective belief maintenance — the content threatens what believing the old story makes them, so they're defending an identity, not evaluating a claim (lex-2rsad). Both operate simultaneously and neither alone is the full explanation."
+related: [lex-qg68a, lex-2rsad]
+scaffolds-from: [lex-qg68a, lex-2rsad]
+evokes: [subaltern-speech, identity-protective-cognition, epistemic-foreclosure, testimonial-failure]
+decomposes-into:
+  - lex-qg68a
+  - lex-2rsad
+assembly: "parallel(lex-qg68a, lex-2rsad)"
+premises:
+  - "even when a subaltern speaker's words are recorded and attended to, the dominant epistemic framework can be constituted in a way that forecloses the speech-as-speech — it gets intercepted, mistranslated, or reabsorbed into pre-existing categories (lex-qg68a)"
+  - "dominant-group members who won't update on the subaltern speaker's testimony aren't (only) evaluating the claim on its merits — they may be defending what believing the old, comfortable story makes them, which is identity-protective belief maintenance operating as a second, independent resistance mechanism (lex-2rsad)"
+  - "the two mechanisms are structurally different in kind — one is a property of the discourse-framework itself (lex-qg68a), the other a property of the individual listener's psychology (lex-2rsad) — so fixing one (e.g., better translation, more amplification) doesn't touch the other"
+critical-questions:
+  - "in a given failure-to-register case, is it possible to tell which mechanism is doing the work, or do they always co-occur to the point that isolating them is more analytically convenient than empirically real?"
+  - "does naming identity-protective resistance (lex-2rsad) as operating alongside structural foreclosure (lex-qg68a) let a dominant listener off the hook by making their resistance sound structural/inevitable rather than a choice they could make differently?"
+  - "if the framework itself is constituted to foreclose the speech (lex-qg68a), can identity-protective belief maintenance (lex-2rsad) even get a fair opportunity to operate on the actual content, or is lex-qg68a doing all the real work and lex-2rsad just describing what a listener who never really received the content does instead?"
+lineage:
+  - source: practitioner
+    text: assembled-from-lex-qg68a-lex-2rsad
+    citation: "Molecule assembled from lex-qg68a (subaltern-speech-cannot-register-within-a-framework-constituted-by-her-erasure, Spivak) and lex-2rsad (identity-protective-belief-maintenance). lex-qg68a's own canonical-instances state the link directly: 'Composes with lex-2rsad identity-protective-belief-maintenance: lex-2rsad names dominant-group psychological resistance.' Both atoms are claim→posture, parallel-compatible."
+canonical-instances:
+  - "A survivor's testimony before a tribunal or truth commission is fully transcribed and formally admitted into the record, yet the institution's final findings characterize the events in terms that quietly reabsorb her account into the categories the institution already had available (lex-qg68a) — while individual commissioners who grew up believing their nation's clean self-story show visible, specific resistance to the parts of her testimony that would require abandoning that self-story, not just neutral fact-weighing (lex-2rsad)."
+  - "A junior employee's harassment complaint is investigated and documented, but the resulting HR summary translates her account into 'interpersonal conflict' language the organization already has a category for (lex-qg68a), while the accused's peers who have long believed him to be a fundamentally good colleague show the specific defensiveness of identity-protective belief maintenance rather than neutral evaluation of the new evidence (lex-2rsad)."
+status: under-review

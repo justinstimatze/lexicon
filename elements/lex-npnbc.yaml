@@ -1,0 +1,19 @@
+id: lex-npnbc
+name: concealing-visible-distress-denies-a-rival-the-satisfaction-of-witnessing-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Composure under duress can be justified on strategic grounds independent of any internal philosophical stance: visible suffering degrades a person's position and hands satisfaction to watching rivals, so maintaining an outward front denies them that advantage regardless of what's actually happening inside. Whatever is felt privately is beside the point; what showing it costs is concrete and separate. In the Jataka's tale of Ghata: 'One that is sick with sorrow pines away, his food insipid and distasteful grows, pierced as with arrows, to his grief a prey, he sinks a laughing-stock to all his foes.'"
+related: []
+evokes: [jataka, pancanipata, ghata-jataka, composure-denies-a-rival-the-satisfaction, visible-suffering-degrades-strategic-position]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-ghata-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 355, Ghata-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "One that is sick with sorrow pines away, His food insipid and distasteful grows, Pierced as with arrows, to his grief a prey, He sinks a laughing-stock to all his foes."
+canonical-instances:
+  - "A negotiator whose deal has just collapsed keeps a level, unbothered tone in the room with the other side present, not because the loss doesn't sting, but because visible distress would hand the other party leverage in whatever negotiation comes next."
+critical-questions:
+  - "Is there a real cost to habitually concealing distress this way — does the strategy of never letting rivals see suffering also cut a person off from allies who might actually help if they knew how bad things were?"
+  - "Does the strategic framing risk becoming an excuse to suppress a feeling that has nothing to do with rivals at all, applying an adversarial logic to situations where no one is actually watching to gain advantage?"
+status: active

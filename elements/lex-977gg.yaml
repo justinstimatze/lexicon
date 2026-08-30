@@ -1,0 +1,27 @@
+id: lex-977gg
+name: critical-systems-rest-on-an-unmaintained-single-point-dependency
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a system feels stable, surface that critical infrastructure often rests on an unmaintained single-point dependency (a forgotten library, one underpaid maintainer, one undocumented script) — find the key thread, because that's where the next outage will be."
+related: [lex-9mk87, lex-dxx5k, lex-hgdkj, lex-hxs7v, lex-kyc5a, lex-mwgep, lex-vsede]
+scaffolds-from: [lex-mwgep]
+evokes: [xkcd-2347-dependency, all-modern-digital-infrastructure, a-project-some-random-person-in-nebraska, thanklessly-maintaining-since-2003, the-load-bearing-block, bus-factor-of-one]
+lineage:
+  - source: primary
+    text: xkcd-2347-dependency
+    citation: "Randall Munroe, xkcd #2347 'Dependency' (2020-08-17), with the explainxkcd.com community explanation. Refs-grounded froml 2026-05-28. The comic draws modern digital infrastructure as a precarious block-tower in which one small essential block near the bottom is labelled 'a project some random person in Nebraska has been thanklessly maintaining since 2003.' The substrate-claim: large, apparently-robust systems often rest on a critical component that is invisible, unrewarded, and maintained by a single person (or no one) — a single point of failure that is hidden precisely because reuse and abstraction made the dependency too deep to see. Internal double-quotes rendered as single-quotes for YAML"
+    quote: "All modern digital infrastructure [drawn as a tower of blocks, resting on] a project some random person in Nebraska has been thanklessly maintaining since 2003. [The comic's core image and label — the foundational block.] Title text: 'Someday ImageMagick will finally break for good and we'll have a long period of scrambling as we try to reassemble civilization from the rubble.' [The title-text names a concrete instance of the hidden critical dependency.] [explainxkcd, paraphrased: taking code-reuse and modularization to its logical extreme buries dependencies so deep that a critical one can be maintained by a single semi-anonymous person without fame or acknowledgement, and the whole tower loses balance if that block is removed.]"
+canonical-instances:
+  - "log4j / Log4Shell (2021): a logging library maintained by a tiny volunteer team turned out to be a decisive dependency across a vast fraction of enterprise Java; a single vulnerability triggered a global scramble — the comic published ~16 months earlier reads as a prediction"
+  - "OpenSSL / Heartbleed (2014): the cryptographic library underpinning much of the web's TLS was maintained on a shoestring by a handful of people; the bug exposed how thin the maintenance was relative to the criticality"
+  - "core-js, left-pad, xz-utils: small packages that quietly became indispensable across npm / the Linux ecosystem; left-pad's unpublication (2016) broke thousands of builds, and the xz backdoor (2024) showed the single-maintainer surface is also an attack vector — a hostile actor social-engineered maintainership of the crucial block"
+  - "the bus-factor framing: 'how many people would have to be hit by a bus before the project is in serious trouble.' A bus-factor of one is the human-scale statement of this comic. The dependency is invisible because abstraction hides it; the fragility is invisible because the block has held so far"
+  - "operationally the negative of lex-dxx5k antifragility-as-system-property: an antifragile system gains from stressors; a tower resting on a hidden single-maintainer block is maximally FRAGILE — one removal collapses it, and the concealment means the fragility is not priced in. lex-dxx5k is the property to engineer toward; lex-977gg is the failure-configuration to detect and de-risk (fund the maintainer, fork, add redundancy)"
+  - "operationally downstream of lex-mwgep positive-feedback-amplifies-early-events-into-locked-in-trajectories: the dependency became critical through the same lock-in dynamic — early adoption plus reuse compounded until the whole stack sits on it, and switching away is now prohibitively costly. The lock-in is what converts a small project into a single point of failure"
+critical-questions:
+  - "the bus-factor audit: for each critical component, how many people understand and maintain it? If the answer is one (or zero, or 'we do not know who'), the system has a hidden single point of failure regardless of how robust it looks in aggregate"
+  - "the visibility problem: abstraction and reuse are what HIDE the dependency — the deeper and more successful the modularization, the less likely anyone notices the cardinal block until it breaks. The discipline is to make the dependency graph explicit and inspect its thinnest, least-funded nodes"
+  - "the de-risking moves: once a vital single-maintainer dependency is found, the options are fund/sponsor the maintainer, vendor or fork the code, add a redundant implementation, or reduce reliance. Doing nothing because 'it has always worked' is the failure mode the comic mocks"
+  - "the attack-surface corollary (xz 2024): a single-maintainer central dependency is not only a reliability risk but a security one — a hostile party can target the lone maintainer (burnout-then-handoff, social engineering) to compromise everything downstream. Criticality plus thin maintenance equals a concentrated target"
+status: active

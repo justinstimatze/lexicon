@@ -1,0 +1,20 @@
+id: lex-nbepu
+name: an-open-ended-wish-forecloses-even-the-grantors-own-future-visits
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: 'Given an open-ended wish, the sharpest use of it is not to decline every material option in favor of internal virtues (freedom from malice, from lust, from covetousness) — that alone still leaves one channel of future risk open: the grantor''s own continued, well-meaning presence. In the Jataka''s tale of the ascetic Akitti, having already chosen boon after boon for inner freedom, his final request targets the benefactor himself: "Sakka, the lord of beings all, to me a boon he gave:— O Sakka, visit me no more: this boon is all I crave." Sakka, honestly puzzled, points out that most people would want more of his company, not less: "But many men and women too of those who live aright / Desire to see me: can there be a danger in the sight?" Akitti''s answer names the specific mechanism: the sheer splendor of Sakka''s own form is the danger, whatever Sakka actually intends by visiting. "Such is thy aspect all divine, such glory and delight, / This seen, I may forget my vows: this danger has the sight." He spends the wish not on gaining anything, but on removing a temptation that has not yet occurred and would otherwise recur indefinitely, however benevolently offered.'
+related: [lex-cxbhy]
+scaffolds-from: [lex-cxbhy]
+evokes: [jataka, terasanipata, akitta-jataka, foreclosing-future-temptation, boon-spent-on-absence-not-gain]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-akitta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XIII (Terasanipata), No. 480, Akitta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: 'Such is thy aspect all divine, such glory and delight, / This seen, I may forget my vows: this danger has the sight.'
+canonical-instances:
+  - "Offered one favor by a departing mentor who has been nothing but generous, a founder skips the introduction or the reference and asks instead that the mentor stop sitting in on board meetings going forward. The mentor has done nothing wrong; the team simply still defers to that presence instead of building its own judgment."
+critical-questions:
+  - "Operationally distinct from lex-cxbhy (choosing freedom from named inner vices over material boons): that atom is about the CONTENT of what gets chosen instead of wealth; this one is about a further, later move that targets the grantor's own continued access, which lex-cxbhy's Kanha never makes. Does the distinction actually matter, or is foreclosing future contact just one more instance of choosing freedom from attachment?"
+  - "Sakka never shows any sign of testing or manipulating Akitti — the danger is entirely genuine and entirely on Akitti's side. Does that make this a stronger example of self-knowledge than stories where the temptation is deliberately staged, or does it just make the sacrifice look more one-sided?"
+status: active

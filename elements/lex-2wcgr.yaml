@@ -1,0 +1,18 @@
+id: lex-2wcgr
+name: anger-grows-only-when-engaged-with-and-starves-when-left-unstirred
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: 'A rising feeling can be modeled on the mechanics of a fire: it intensifies in proportion to how much it is stirred or engaged with. Stop stirring it and it dies down unassisted, which puts the operative lever in non-engagement rather than in any active act of suppression. In the Jataka''s tale of Culla-Bodhi, this causal claim is stated directly: "The fire will rise the higher, if the fuel be stirred and turned; And because the fire uprises, the fuel itself is burned."'
+related: []
+evokes: [jataka, dasanipata, culla-bodhi-jataka, fire-fuel-analogy, non-engagement-starves-anger]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-culla-bodhi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 443, Culla-Bodhi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The fire will rise the higher, if the fuel be stirred and turned; And because the fire uprises, the fuel itself is burned."
+canonical-instances:
+  - "A moderator who replies to every inflammatory comment finds the thread escalates each time, while comments left entirely unanswered tend to fizzle out within a day — a pattern she now treats as the operative rule for managing the forum."
+critical-questions:
+  - "Is withholding engagement actually distinct as a mechanism from active suppression, or is choosing not to respond itself a form of the same regulatory effort?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-96hj3
+name: correcting-an-imbalance-too-fast-can-kill-even-when-directionally-right
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Before rapidly correcting a long-accumulated imbalance, separate the question of whether the correction is directionally right from the question of whether its speed is survivable. Hippocrates' Aphorisms: 'Those cases of empyema or dropsy which are treated by incision or the cautery, if the water or pus flow rapidly all at once, certainly prove fatal.' Draining the fluid is the correct treatment — the aphorism does not dispute that — and the same correct treatment still kills when it happens all at once, because a system that has adapted around a long-standing imbalance cannot necessarily tolerate its sudden removal. Rate of change is a variable independent of direction of change, and getting the direction right supplies no guarantee about what speed the system carrying the imbalance can actually absorb."
+related: []
+evokes: [hippocrates, aphorisms, correction-speed-independent-of-correction-direction, rapid-correction-of-long-imbalance-kills]
+lineage:
+  - source: primary
+    text: hippocrates-aphorisms-adams1849-sectionVI-27
+    citation: "Hippocrates, Aphorisms, trans. Francis Adams (Sydenham Society, 1849), Section VI, §27. Verified verbatim against a direct extraction of the held copy."
+    quote: "Those cases of empyema or dropsy which are treated by incision or the cautery, if tlie water or pus flow rapidly all at once, certainly prove fatal."
+canonical-instances:
+  - "a country with chronic currency overvaluation devalues all at once instead of gradually, and the sudden correction — even though it targets a genuine, long-standing distortion — triggers a banking crisis that a slower, phased devaluation would have avoided; modern refeeding-syndrome protocols for severe starvation follow the identical logic, reintroducing nutrition on a deliberately slow schedule for the same reason."
+critical-questions:
+  - "Is there a general way to estimate, in advance, how fast a given system can tolerate a correction, or is the safe speed only discoverable by watching what happens when correction is attempted?"
+  - "Does slowing down a correction to avoid this failure mode ever cost more than it saves, by prolonging exposure to the original imbalance for longer than a fast, risky correction would have?"
+status: active

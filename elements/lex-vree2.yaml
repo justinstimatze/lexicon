@@ -1,0 +1,20 @@
+id: lex-vree2
+name: absence-during-framing-forfeits-the-argument-later
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Ignoring a stakeholder costs more than the chance to respond to them later -- it means being absent during the phase when the issue itself gets framed and defined, and that phase is where the real influence lived. Company KSD ignored a group that knew how to use the political process. That group got a state legislature to sponsor a bill affecting KSD's operations, and KSD only organized to fight it once the bill already had enough sponsors to pass. The problem wasn't the strength of KSD's eventual argument -- the argument arrived after the frame was already locked in by whoever showed up during the window when framing was still possible. Once enough sponsors, momentum, or shared understanding of 'what this issue is about' has accumulated, a technically stronger case arriving later has to dislodge the frame itself before anyone will even weigh its content -- a much taller order than winning a debate whose terms both sides already accept."
+related: []
+evokes: [freeman-1984-strategic-management, chapter-6, ksd-company, issue-identification, ignoring-the-stakeholder]
+lineage:
+  - source: primary
+    text: freeman-1984-strategic-management-ch6
+    citation: "R. Edward Freeman, Strategic Management: A Stakeholder Approach (Pitman, 1984), Chapter 6 'Implementing and Monitoring Stakeholder Strategies,' section 'Ignore the Stakeholders.'"
+    quote: "Company KSD found that they ignored a particular stakeholder group which knew how to use the political process to affect KSD. The group got a state legislature to sponsor a bill that would affect KSD's operations in the state. By the time that KSD managers organized to try and defeat the bill it already had enough sponsors to pass. KSD had to forego a large sum of potential profits in that state because of the restrictive legislation. [...] The lack of any organized effort means that the firm will not participate in the initial phase of issue identification, where it is crucial to influence the discussion and the definition of the issue."
+canonical-instances:
+  - "A hospital system dismisses early complaints about a billing practice as isolated grumbling and doesn't engage the patient-advocacy groups raising them. By the time the system responds with data showing the practice is standard and fair, state legislators have already co-sponsored a bill defining the practice as predatory -- the hospital's strong technical case now has to argue against a label that has already stuck."
+  - "An engineering team ignores early bug reports about a confusing API from a small set of developers, treating the reports as edge-case noise. By the time the team engages seriously, a competing library has become the community's default answer to 'how do you avoid that confusing API,' and no amount of subsequent improvement dislodges the framing that the original API is the one to avoid."
+critical-questions:
+  - "How would an organization tell, in real time, which early signals are the start of a framing process worth engaging versus genuine noise not worth the resources -- is there a reliable tell before the framing has already locked in?"
+  - "Once a frame has locked in against you, is arguing against the frame itself ever more effective than accepting it and competing within it -- or does fighting the frame directly just reinforce its salience?"
+status: active

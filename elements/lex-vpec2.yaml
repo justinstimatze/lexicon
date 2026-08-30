@@ -1,0 +1,22 @@
+id: lex-vpec2
+name: isolated-unspecialized-practice-caps-a-crafts-quality-regardless-of-effort
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a craft is performed only by isolated individual practitioners who each start over from scratch, with no specialization and no cumulative transmission of expertise from one practitioner to the next, the craft cannot rise above an amateur, rule-of-thumb level. This isn't because any individual practitioner lacks devotion or effort -- genuine development of a human skill structurally requires specialization and knowledge that accumulates and passes between practitioners, something isolated individual practice can never generate no matter how hard any single person tries. Gilman applies this directly to cooking under the sexuo-economic relation: 'The development of any human labor requires specialization, and specialization is forbidden to our cook-by-nature system... each daughter begins again as ignorant as her mother was before her. This \"rule of thumb\" is not transmissible... Only organization can oppose such evils.'"
+related: []
+evokes: [women-and-economics, chapter-xi, specialization-is-forbidden-to-our-cook-by-nature-system, this-rule-of-thumb-is-not-transmissible, isolated-practice-caps-a-craft-at-amateur-level]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-xi
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter XI. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "Each mother slowly acquires some knowledge of her business by practising it upon the lives and health of her family and by observing its effect on the survivors; and each daughter begins again as ignorant as her mother was before her. This 'rule of thumb' is not transmissible. It is not a genuine education such as all important work demands, but a slow animal process of soaking up experience,--hopelessly ineffectual in protecting the health of society. [...] The development of any human labor requires specialization, and specialization is forbidden to our cook-by-nature system. What progress we have made in the science of cooking has been made through the study and experience of professional men cooks and chemists, not through the Sisyphean labors of our endless generations of isolated women, each beginning again where her mother began before her."
+canonical-instances:
+  - "A thousand small family farms, each run by a single household reinventing its own methods with no shared research or extension service, produce steady, dedicated labor for generations without ever matching the yields achieved once specialized agronomists and shared trial data enter the picture."
+  - "A community of self-taught home electricians, each learning entirely from their own trial and error with no licensing, shared training, or professional body, never collectively approaches the safety record of a trade with formal apprenticeship and accumulated code standards, however careful any individual electrician is."
+  - "Ten thousand hobbyist woodworkers, each rediscovering joinery techniques alone in their own garage with no guild, no shared literature, and no formal instruction passed down, remain at a craft level no individual among them can escape purely through personal dedication."
+critical-questions:
+  - "Is the missing ingredient really specialization and transmission specifically, or could sufficient individual practice time eventually approximate the same result, just far more slowly than organized transmission would?"
+  - "How large does a group of isolated practitioners need to become before informal transmission -- neighbors comparing notes, word of mouth -- starts to function like real specialization, and is there a sharp threshold or a gradual one?"
+  - "Gilman treats this as a structural claim independent of individual talent, but could an unusually gifted isolated practitioner still develop genuine mastery on their own, even without any peer network, the way a self-taught artist sometimes does?"
+status: active

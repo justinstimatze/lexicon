@@ -1,0 +1,21 @@
+id: lex-v6zsz
+name: innocent-questions-to-naive-subordinates-extract-the-patrol-schedule
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When you need operational intelligence that a target's leadership would never give up, look for the least-informed, most trusting people close to that leadership -- they often don't realize the innocent details they know are exactly the intelligence you need, and won't recognize a friendly question as reconnaissance. In Cushing's telling, the boy, having infiltrated the Eagles' nest, doesn't need to fight both parent Eagles at once -- he just needs to know when each one is coming. He gets it by asking the naive, trusting chicks directly, dressed as harmless curiosity: 'Tell me about what time your mother comes home... what time does your father come home?' The chicks answer without any sense that they're revealing anything at all -- to them, 'when the clouds begin to gather' and 'when the fine rain begins to fall' are just facts about their own lives, not operational intelligence about their parents' movements. Their innocence is exactly what makes the extraction work: an adult Eagle would recognize the question as a threat, but the chicks have no framework for treating a simple question as anything other than conversation. Diagnostic move: when you need to know an organization's or a target's patterns, routines, or schedule, look past the people who'd recognize the value of that information and toward the ones closest to it who wouldn't -- a junior, trusting, or simply uninformed insider will often answer a plainly phrased question that a more guarded principal would immediately recognize as reconnaissance."
+related: []
+evokes: [naive-insiders-dont-recognize-a-question-as-reconnaissance, cushing-how-the-summer-birds-came, when-does-your-mother-come-home, the-chicks-answer-without-knowing-they-revealed-anything]
+lineage:
+  - source: primary
+    text: cushing-summer-birds-boy-questions-eaglets-for-parents-schedule
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'How the Summer Birds Came.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'Tell me about what time your mother comes home,' said he, sitting up. 'What time does she usually come?' 'Well,' said the little Eagles, 'she comes home when the clouds begin to gather and throw their shadow over our nest.' ... 'Very well,' said the boy; 'what time does your father come home?' 'When the fine rain begins to fall,' said they."
+canonical-instances:
+  - "A social engineer targeting a company's security posture doesn't approach the security team directly, but strikes up friendly small talk with a receptionist or junior employee, asking seemingly innocuous questions about when the office is usually emptiest or when the IT team does maintenance, extracting exactly the scheduling intelligence a direct request to security would have been refused."
+  - "A competitor scouting a rival business's supply chain doesn't approach the rival's procurement leadership, but asks a warehouse worker or driver casual-sounding questions about delivery timing and frequency, getting precise operational detail that the rival's leadership would treat as confidential if asked directly."
+critical-questions:
+  - "does exploiting a subordinate's innocence to extract information the principal would withhold cross an ethical line the story doesn't examine -- the chicks are harmed by trusting a stranger's friendly question, and the tale never returns to that cost from their side?"
+  - "how would an organization actually defend against this -- is it realistic to expect the least-informed people closest to sensitive operations to recognize an innocent-sounding question as reconnaissance, or does the vulnerability described here have no real fix short of restricting what junior people are told in the first place?"
+  - "does this tactic depend on the questioner appearing genuinely harmless in the moment, as the boy does lying still and small in the nest -- would the same questions asked by someone who'd already shown any sign of threat fail to get an honest answer?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-ufbby
+name: forcing-a-flawed-rule-to-its-own-conclusion-exposes-it
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A flawed pricing rule or heuristic often survives because no one ever makes its author apply it consistently to a case extreme enough to reveal the absurdity. In the Jataka's valuer tale, a corrupt appraiser prices 500 horses at a single measure of rice — a ruling that benefits whoever bribes him, but that he never has to defend as a general principle. The wronged horse-dealer, coached by the ousted honest valuer, bribes the fool into extending his own logic one step further: what, then, is that measure of rice worth? Forced to answer consistently, the fool prices it at the whole city of Benares, publicly exposing the rule's incoherence with no need for anyone to argue against it directly. The technique is to find the next input in the same series the rule already committed to, rather than to contest the rule's original conclusion."
+related: []
+evokes: [jataka, ekanipata, tandulanali-jataka, reductio-via-forced-self-consistency, exposing-a-heuristic-by-extending-it]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-tandulanali-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 5, Tandulanali-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Very good, my friend; if 500 horses then are worth one measure of rice, what is that measure of rice worth?\" \"It is worth all Benares and its suburbs,\" was the fool's reply."
+canonical-instances:
+  - "A committee approves an exception to a spending cap for one favored vendor, justifying it as a special case. A rival vendor asks the committee to state the general rule that would make the exception principled, then plugs in a purchase large enough to bankrupt the budget. The committee is left with a choice: retract the exception, or approve the absurd purchase."
+critical-questions:
+  - "Does forcing the extension actually change the outcome, or does an actor already benefiting from the flawed rule just refuse to answer consistently once the absurdity becomes visible?"
+  - "What is the right next input to pick — is there a general method for finding the case that will expose a given rule, or does it depend on noticing the specific direction in which the rule was never meant to travel?"
+status: active

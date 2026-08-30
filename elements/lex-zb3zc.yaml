@@ -1,0 +1,19 @@
+id: lex-zb3zc
+name: exhaust-a-fixed-search-order-rather-than-abandon-the-method
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Facing repeated failure with no diagnostic information about why, a searcher can exhaust a fixed, ordered search space one region at a time rather than abandoning the method or randomizing it — persistence through a structured search that eventually locates the target where an abandoned or scattershot search would not. In the Jataka''s tale of Aditta, the king works through all four cardinal directions in order before finding paccekabuddhas to receive his gift: "As there are no paccekabuddhas in the eastern quarter, they did not come next day. On the second day he paid respects to the south quarter: but none came from thence. On the third day he paid respects to the west quarter [471], but none came. On the fourth day he paid respects to the north quarter, and after paying respects he threw seven handfuls of flowers with the ...words, "May the paccekabuddhas who live in the north district of Himalaya receive our alms."'
+related: []
+evokes: [jataka, atthanipata, aditta-jataka, exhaustive-search, persist-through-a-fixed-order-not-abandon]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-aditta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 424, Aditta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "As there are no paccekabuddhas in the eastern quarter, they did not come next day. On the second day he paid respects to the south quarter: but none came from thence. On the third day he paid respects to the west quarter [471], but none came. On the fourth day he paid respects to the north quarter, and after paying respects he threw seven handfuls of flowers with the ...words, \"May the paccekabuddhas who live in the north district of Himalaya receive our alms.\""
+canonical-instances:
+  - "A researcher who gets no response after mailing a survey to the east-coast sample doesn't change her method or give up; she works methodically through the remaining three regions on her list in order, and the fourth region is the one that finally answers."
+critical-questions:
+  - "Would switching methods after the first failure, rather than continuing through the fixed order, have found the target faster, or would it have introduced noise that made the search less reliable?"
+  - "The exhaustive search only pays off if the target is actually inside the fixed space to begin with. What tells a searcher that in advance, before committing to work through the whole thing?"
+status: active

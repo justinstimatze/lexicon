@@ -1,0 +1,19 @@
+id: lex-2bfb2
+name: alliance-seeking-is-rational-even-from-a-position-of-strength
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Being self-sufficient and facing no direct threat does not make seeking an alliance irrational, because strength and complementary capability are not substitutes for each other. The Panchatantra's crow Swift, who fears nothing and needs nothing from anyone, still actively pursues friendship with a much smaller, weaker mouse. The verse states the general principle behind the choice: 'Even the self-sufficient should get friends, and seek a greater good: the ocean fears no diminution, yet waits Arcturus' contribution.' The ocean's vastness gives it no capability the star's rains actually add; strength on one axis says nothing about sufficiency on every other axis, and a genuinely strong party can still be missing exactly what a much smaller ally happens to supply."
+related: []
+evokes: [panchatantra, winning-of-friends, alliance-seeking-rational-from-strength, strength-is-not-a-substitute-for-complementary-capability]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-swifts-reasoning
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book II, Swift's reasoning for seeking Gold's friendship. Verified verbatim against a direct extraction of the held copy."
+    quote: "Even the self-sufficient should Get friends, and seek a greater good: The ocean fears no diminution, Yet waits Arcturus’ contribution."
+canonical-instances:
+  - "a dominant tech platform with no direct competitive threat still forms a partnership with a small specialized startup, not because the platform needs protection, but because the startup holds a specific technical capability the platform's own scale and resources never happened to produce internally."
+critical-questions:
+  - "Does the self-sufficient party actually risk anything by seeking an alliance it doesn't strictly need, or is the analysis incomplete without weighing the cost side — the time, trust, and potential vulnerability an alliance introduces even when it adds real capability?"
+  - "Is the ocean-and-star image doing real argumentative work here, or is it a persuasive metaphor standing in for a claim (strength and capability are different axes) that would need independent support to actually justify Swift's specific decision?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-pzgu8
+name: shared-exposure-is-framed-as-the-reason-to-commit-the-crime
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'An instigator can frame the shared consequence of discovery as the justification and motivator for an accomplice to commit violence, converting self-preservation into complicity. In the Jataka''s tale of Parantapa, the instigator states this bluntly: "If the king knows, neither you nor I would live: kill him."'
+related: []
+evokes: [jataka, sattanipata, parantapa-jataka, mutual-exposure-recruits-an-accomplice, self-preservation-as-motive-for-violence]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-parantapa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 416, Parantapa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "If the king knows, neither you nor I would live: kill him."
+canonical-instances:
+  - "Having discovered a colleague already falsified one report together, one of them convinces the other to falsify a second, larger one on the reasoning that they're already exposed together and getting caught now would ruin them both regardless of which one stops."
+critical-questions:
+  - "Does framing shared exposure as the reason to escalate actually reflect the accomplice's real risk, or does it inflate the danger of stopping to make continuing feel like the only option?"
+  - "Is there ever a point where the shared-fate framing stops working, and the accomplice recognizes that turning back carries less risk than the instigator claims?"
+status: active

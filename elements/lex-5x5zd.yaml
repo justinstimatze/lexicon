@@ -1,0 +1,19 @@
+id: lex-5x5zd
+name: capacity-built-under-crisis-investment-decays-faster-than-it-rebuilds
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Sustained investment can build a real capability, but check whether whoever controls the budget is quietly mistaking that capability for a durable stock rather than something that only holds up under continued maintenance. Aesop's 'The Soldier and His Horse' has a war-horse, once well-fed and cared for during active campaigning, reduced to menial farm labor and poor feed in peacetime. When war returns and the soldier expects instant readiness, the horse names the asymmetry: 'you have turned me from a Horse into an ass; and you cannot in a moment turn me back again into a Horse.' Urgency in the moment of need cannot compress a rebuilding timeline that runs on its own clock, slower than however fast the decay happened."
+related: []
+evokes: [aesop, the-soldier-and-his-horse, capability-decay-under-neglect, stock-vs-flow-investment]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-soldier-and-his-horse
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Soldier and His Horse.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Thanks to hard work and bad food, you have turned me from a Horse into an ass; and you cannot in a moment turn me back again into a Horse."
+canonical-instances:
+  - "a crisis-response capability funded during an emergency gets its budget cut the moment calm returns. Skills, relationships, and readiness erode quietly through the quiet period, and reconstituting any of it for the next emergency takes far longer than anyone budgeted for."
+critical-questions:
+  - "Is there a way to maintain a crisis-built capability at low cost during peacetime, avoiding both the expense of full readiness and the total decay the horse experienced, or does any meaningful reduction in investment guarantee this kind of loss?"
+  - "Does the soldier bear responsibility for the horse's decline, given that the neglect was itself a rational response to peacetime budget pressure — is this a failure of foresight or simply an unavoidable cost of demobilization?"
+status: active

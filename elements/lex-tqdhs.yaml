@@ -1,0 +1,29 @@
+id: lex-tqdhs
+name: cultural-change-has-internal-mechanisms-not-just-external-causes
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When asked to explain a cultural shift — a fashion changing, names cycling, a musical genre rising or falling, a slang term spreading then dying, a design trend — do not jump immediately to 'what external social force caused this?' Lieberson's 2000 *A Matter of Taste* documents systematically that tastes have INTERNAL MECHANISMS that drive change independently of (or in interaction with) external social forces. The two broad classes of explanation: (1) external — social, economic, technological, demographic shifts in surrounding society; (2) internal — endogenous dynamics of the taste-system itself. The internal mechanisms Lieberson surfaces include the ratchet effect (each new generation building on the previous within the taste-tradition), the mutation analogue (small drift accumulating), enhancement-contamination (a fashion becoming over-associated with a particular sub-group then losing appeal among other sub-groups precisely because of that association), the expansion model (taste-bearers expanding into new domains), and others. The decisive empirical evidence is that names exhibit characteristic cycle dynamics (rise-peak-decline-eventual-revival) that look very similar across very different external conditions — suggesting the internal-dynamic part is doing real work. Transferable diagnostic: when proposing an external-cause explanation for a cultural change, check whether the change-shape matches generic internal-dynamics first; many apparently external-cause stories are post-hoc rationalizations of internal dynamics. Operational consequence in adjacent domains: software-language popularity cycles, music-genre rise-decline, academic-jargon spread-and-decay, baby-name fashions, brand-name lifespans, design-pattern adoption-curves — all show signatures of endogenous dynamics that don't need external-cause explanations. Inverse: external explanations are not wrong — they're just systematically over-weighted; the right model is usually internal-dynamics-shaped-by-external-context, not external-cause-only."
+related: [lex-spm8x, lex-uz24q, lex-s2pjj, lex-9kuqg, lex-3fzvf, lex-wx2ma, lex-f5pns, lex-u6sw3, lex-z7kgm, lex-uxqdz, lex-ybjru]
+scaffolds-from: [lex-3fzvf, lex-u6sw3, lex-z7kgm]
+evokes: [lieberson-2000-matter-of-taste, internal-mechanisms-of-taste, endogenous-cultural-dynamics, ratchet-effect, enhancement-contamination, expansion-model, mutation-analogue, baby-name-cycles, fashion-cycle-without-external-cause, taste-has-its-own-physics, post-hoc-external-cause-explanations]
+lineage:
+  - source: primary
+    tradition: lieberson-taste
+    text: lieberson-2000-matter-of-taste
+    citation: "Stanley Lieberson, A Matter of Taste: How Names, Fashions, and Culture Change (Yale University Press, 2000), Chapter 1 (Introduction)."
+    quote: "There are, broadly speaking, two major influences on taste: external social forces and internal mechanisms of change. The first category includes what are probably the most commonly used explanations for cultural events generally and fashions in particular. Namely, there is a disposition to explain changing tastes by looking at social and cultural developments in the surrounding society. […] Less obvious is that tastes have their own internal mechanisms that cause fashions to change in specific directions. Even in the presence of external influences, these internal mechanisms affect the outcome."
+  - source: primary
+    tradition: lieberson-taste
+    text: lieberson-2000-matter-of-taste
+    citation: "Stanley Lieberson, A Matter of Taste: How Names, Fashions, and Culture Change (Yale University Press, 2000), Chapter 1 (mechanism inventory)."
+    quote: "Although this book focuses on internal mechanisms relevant for first names, many of these mechanisms influence other fashions, too. The ratchet effect, the mutation analogue, the enhancement-contamination effects, and the expansion model are only a few of the mechanisms I propose here that have wider significance."
+canonical-instances:
+  - U.S. baby-name fashions across the 20th century — names like 'Linda' or 'Jennifer' rise sharply, peak for a generation, then decline; the shape of the curve is generic across many names and many cultures. External-cause explanations cannot account for the regularity across so many names.
+  - Programming-language adoption curves — Ruby, Scala, CoffeeScript, etc. show similar rise-peak-decline shapes; the shape is dominated by internal-dynamic features (peers-using-it, projects-built-on-it) more than external technology-shift causes.
+  - Brand-name lifespans (Kodak, BlackBerry, MySpace) — typically explained by external-cause stories about disruption; Lieberson's frame suggests the internal-dynamic ratchet-and-contamination story is usually as important.
+  - Academic-jargon trajectories — terms like 'discourse,' 'liminal,' 'praxis' rise then sometimes saturate-and-decline in usage; internal-dynamic forces drive the cycle independent of any 'cause.'
+  - The decline of the fedora and other men's hat fashions — Lieberson's specific historical example; the external-cause story (Kennedy didn't wear a hat at the 1961 inauguration) is largely post-hoc rationalization of an internal-dynamic decline already underway.
+  - Music-genre rise and decline (disco, grunge, dubstep) — external-cause explanations exist but rarely fit the shape of the cycle as well as endogenous-fashion-dynamics do.
+severity-tier: info
+status: active

@@ -1,0 +1,19 @@
+id: lex-72kns
+name: bluff-omniscience-to-extract-a-confession-no-evidence-has-earned-yet
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A suspect can be confronted with an assertion of near-total foreknowledge before any actual evidence is presented, inducing a voluntary admission out of fear rather than being caught by proof. In the Jataka''s tale of Sattubhasta, Senaka confronts the thief this way: "You do not know that I am the wise Senaka; I will make you fetch those pieces." He was afraid and confessed, saying, "I took them."'
+related: []
+evokes: [jataka, sattanipata, sattubhasta-jataka, bluffed-omniscience, confession-extracted-by-reputation-not-proof]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sattubhasta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 402, Sattubhasta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "You do not know that I am the wise Senaka; I will make you fetch those pieces.\" He was afraid and confessed, saying, \"I took them.\""
+canonical-instances:
+  - "An investigator with no hard evidence yet tells a suspect flatly that their reputation for always finding the truth means the suspect might as well confess now, and the suspect, believing the bluff, does."
+critical-questions:
+  - "Does this technique depend entirely on the confronter's prior reputation, meaning it stops working the moment someone doesn't already believe the bluff?"
+  - "What happens to an innocent person subjected to the same bluffed confidence — does it risk manufacturing a false confession as readily as extracting a true one?"
+status: active

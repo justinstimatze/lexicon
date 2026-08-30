@@ -1,0 +1,19 @@
+id: lex-59dux
+name: alternating-between-friendly-and-hostile-signals-is-itself-the-betrayal
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone alternates between friendly and hostile behavior toward the same target, check whether the harm is the oscillation itself, independent of the net balance between the two. Aesop's 'The Hound and the Hare' has a hound alternately biting and playfully licking the same hare, who finally demands a single, stable stance: 'If you are my friend, why do you bite me? If you are my enemy, why do you play with me?' The stated moral names the mechanism directly: 'He is no friend who plays double.' A consistently hostile actor at least allows the target to orient and respond; alternating signals denies that orientation entirely, which is a distinct harm from either kind of behavior on its own."
+related: []
+evokes: [aesop, the-hound-and-the-hare, alternating-signals-as-harm, denial-of-orientation]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-hound-and-the-hare
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Hound and the Hare.' Verified verbatim against a direct extraction of the held copy."
+    quote: "He is no friend who plays double."
+canonical-instances:
+  - "intermittent-reinforcement dynamics in an abusive relationship, or a manager who alternates unpredictably between praise and threat, leaving the other party permanently unable to calibrate their own behavior in response."
+critical-questions:
+  - "Does the harm scale with the frequency of the alternation, or is even a single instance of a friendly gesture following a hostile one enough to trigger the same disorientation the hare describes?"
+  - "Is there a version of alternating signals that is genuinely benign — a relationship with real ups and downs rather than a deliberate double game — and how would the target tell the difference from the inside?"
+status: active

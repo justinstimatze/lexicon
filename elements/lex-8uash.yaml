@@ -1,0 +1,24 @@
+id: lex-8uash
+name: mobility-outruns-reputation-propagation-across-jurisdictional-boundaries
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When an actor's threat information is bounded by a jurisdiction (a city, a department's records system, a platform's ban list) and the actor being tracked can physically or digitally cross that boundary faster than the information does, the actor gets a fresh start on the other side. The exploit is velocity: stay ahead of the reputational or criminal record long enough that it never catches up before the actor has already moved on. Detecting or defending against this requires either speeding up cross-boundary information-sharing (a shared registry, a cross-platform ban database) or slowing the actor down (residency requirements, licensing checks at each new location) — patching only one side of the race rarely works, since the actor adapts to whichever side stays slow."
+related: [lex-522hr, lex-xdc7z]
+scaffolds-from: [lex-xdc7z]
+evokes: [the-terrible-williamsons, hit-and-run-fraud, jurisdiction-shopping, cross-border-arbitrage, fresh-start-in-the-next-town]
+lineage:
+  - source: primary
+    text: santoro-1999-frauds-rip-offs-and-con-games-terrible-williamsons
+    citation: "Victor Santoro, Frauds, Rip-Offs and Con Games (Breakout Productions, 1988/1999), chapter 'The Terrible Williamsons.' No reliable page numbers survive the extracted text (a scanned paperback, no page-footer markers); cited by chapter. Verified verbatim against pdftotext -layout output."
+    quote: "Only during the last couple of decades has there been a serious effort at a national data bank of criminal information. The net result has been that law officers in one part of the country are unaware of related crimes in another. Sometimes their awareness ends at the city line, which enables traveling criminals to make fresh starts in all the jurisdictions they penetrate. [Later in the same chapter, the tactical framing:] The \"hit and run\" tactics have been very effective in preventing interference by law enforcement officers. By the time lawmen become aware of their presence in a particular jurisdiction, they're already gone."
+canonical-instances:
+  - "The Williamson traveling con-family (Santoro's subject): a nomadic clan selling shoddy home repairs town to town, moving on before the first rainfall reveals the defect and before local police records reach the next county. Also intermarry and use varying surnames, which slows the one cross-jurisdiction tool (name-keyed criminal records) that did exist."
+  - "Modern digital analog: a banned account slips back in under a new handle before the ban record catches up with the new identity. The velocity is the same mechanism at a different substrate — network latency in cross-platform information-sharing instead of a national criminal database."
+  - "lex-522hr jurisdiction-shaped-crime-fits-no-agencys-threshold names a static gap: an act falls between two agencies' mandates and neither has jurisdiction to act on it at all. This atom names a dynamic gap in the same territory — jurisdiction exists and the act is illegal everywhere it happens, but the actor crosses the boundary faster than the record of the act does. The two compose: a crime that both fits no single mandate AND outruns the propagation of what evidence does exist is doubly hard to stop."
+  - "lex-xdc7z gossip-distributes-reputation-information-letting-cooperation-scale-past-direct-observation names the same propagation channel from the defender's side — reputation information traveling through a network lets strangers trust or distrust each other without direct experience. This atom is the exploit of where that channel is too slow or has a gap the actor can outrun."
+critical-questions:
+  - "How fast does the actor actually move relative to the information channel — is this a real structural race, or is 'they moved to another town' doing rhetorical work for a slower, more mundane failure like nobody bothering to check?"
+  - "Does closing the information gap (a faster shared database) actually stop the actor, or does the actor simply increase velocity further, use aliases, or shift to a domain the database doesn't cover? The race can escalate rather than resolve."
+  - "Who bears the cost of the lag while the information catches up? The propagation delay carries a real cost, and each town in the actor's path pays it in turn, before the next town gets any benefit from the warning."
+status: active

@@ -1,0 +1,18 @@
+id: lex-5gr6n
+name: a-verification-test-is-satisfied-by-gaming-its-literal-letter
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'When a skeptical party cannot verify a claim directly and substitutes an observable behavioral proxy as a test, the proxy itself becomes the new attack surface, because satisfying its literal, checkable form is all the tested party actually has to do. A staged interruption or a single minimal instance of compliance lets an outside observer walk away reporting the proxy was met, while the substance it was supposed to stand in for stayed absent the whole time. In the Bhadda-sala-Jataka, Kosalan envoys will only accept a Sakyan bride ''who eats along with'' the ruling family as proof of full-blooded status; Mahanama arranges for his daughter by a slave woman to take exactly one mouthful at his table before a conveniently timed letter interrupts the meal, satisfying the observed letter of the test while never actually establishing what it was meant to prove.'
+related: []
+evokes: [jataka, dvadasanipata, bhadda-sala-jataka, goodharting-a-verification-proxy, minimal-compliance-staged]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-bhadda-sala-jataka
+    citation: 'The Jataka, or Stories of the Buddha''s Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XII (Dvadasanipata), No. 465, Bhadda-sala-jataka. Verified verbatim against a direct extraction of the held copy.'
+    quote: 'Mahanama had taken one mouthful with her, and put it in his mouth; but just as he stretched out his hand for another, they brought him a letter, saying, "My lord, such a king has sent a letter to you: be pleased to hear his message at once."'
+canonical-instances:
+  - 'A hiring team requires a ''pair-programming session'' as proof a candidate can collaborate, and the candidate''s friend on the inside schedules the interviewer''s calendar so the session ends the moment the easy warm-up problem is solved, before any real friction can surface.'
+critical-questions:
+  - 'Once a verification test is known to be gameable through minimal compliance, does the requesting party have any recourse short of a test that can''t be staged — and does that stronger test even exist for a claim this hard to observe directly (birth status, genuine competence, sincerity)?'
+status: active

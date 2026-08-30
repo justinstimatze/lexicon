@@ -1,0 +1,19 @@
+id: lex-7xm8z
+name: a-new-allys-risk-includes-exposure-through-their-other-relationships
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When vetting a new ally, the relevant risk is not confined to whether that ally will personally betray you — it extends to whoever else has access through their other relationships. The Panchatantra's mouse Gold tests the crow Swift's sincerity before granting trust, but even after satisfying himself of Swift's own character, names a second-order concern: 'I have no fear of you, for I have examined your mind. But if I gave my confidence, I might perhaps meet death through other friends of yours.' The verse generalizes the caution: 'Friends purchased at the price of death to other friends and true, one should avoid, like worthless corn where finest rice-plants grew.' An ally's own trustworthiness clears only the first hurdle. Trust extended to one party can still be reached through anyone that party is also connected to."
+related: []
+evokes: [panchatantra, winning-of-friends, vet-an-allys-network-not-just-the-ally, counterparty-risk-propagates-through-connections]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-golds-trust-test
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book II, Gold's incremental trust-test of Swift. Verified verbatim against a direct extraction of the held copy."
+    quote: "I have no fear of you,” said Gold, “for I have examined your mind. But if I gave my confidence, I might perhaps meet death through other friends of yours."
+canonical-instances:
+  - "a company vets a new business partner thoroughly and confirms the partner's own conduct and finances are sound. The breach comes anyway, months later. It arrives through one of the partner's other clients, a party the company never even knew to ask about."
+critical-questions:
+  - "Is there a practical limit to how far this due diligence should extend — Gold worries about Swift's other friends, but should he also worry about Swift's other friends' other friends, and if not, where does the chain of relevant risk actually stop?"
+  - "Does raising this concern to Swift risk damaging the alliance being formed, by signaling suspicion of Swift's own social circle rather than of Swift specifically — is there a way to vet this risk without insulting the ally being vetted?"
+status: active

@@ -1,0 +1,29 @@
+id: lex-mnfv6
+name: social-amplification-dynamics-reward-truth-indifferent-speech
+type-in: state
+type-out: posture
+_tier: molecule
+agent-instruction: "When evaluating why a piece of content spread, check whether the speaker's incentive was ever truth-tracking (is this true?) or was truth-indifferent from the start (will this spread?). The same path-dependent amplification dynamics that make cultural-market success unpredictable and unequal also reward bullshit over accuracy — spread-optimized speech and truth-optimized speech are different production processes competing on the same amplification substrate, and amplification doesn't select for the second one."
+related: [lex-hbanm, lex-63e4c]
+scaffolds-from: [lex-hbanm, lex-63e4c]
+evokes: [bullshit-vs-lying, truth-indifference, viral-amplification-selects-for-spread-not-accuracy, cultural-market-unpredictability]
+decomposes-into:
+  - lex-hbanm
+  - lex-63e4c
+assembly: "sequential(lex-hbanm, lex-63e4c)"
+premises:
+  - "social influence amplifies both the inequality and the unpredictability of what succeeds in a cultural market — early, often arbitrary, attention differences compound into large final-outcome gaps (lex-hbanm's path-amplified-noise dynamic)"
+  - "a speaker producing an utterance under that amplification regime faces pressure toward truth-indifference (optimizing for 'will this spread?') rather than truth-tracking (optimizing for 'is this true?'), because the amplification mechanism rewards spread regardless of accuracy"
+  - "the resulting speech is bullshit in Frankfurt's technical sense — indifferent to truth-value, not a deliberate inversion of it — and it is bullshit BECAUSE of the amplification incentive structure, not despite it"
+critical-questions:
+  - "is the speaker actually indifferent to truth, or knowingly false (lying) but strategically camouflaged as bullshit? The amplification-reward mechanism explains why truth-indifference is adaptive; it doesn't by itself distinguish a genuine truth-indifferent speaker from a liar exploiting the same dynamic."
+  - "does the amplification dynamic reward ALL truth-indifferent content equally, or does it specifically reward content that's also emotionally activating / identity-relevant / novel — meaning truth-indifference is necessary but not sufficient for viral reward?"
+  - "can a truth-tracking speaker still win under this dynamic by other means (institutional trust, verified-source signaling), or does the path-amplified-noise mechanism structurally disadvantage accuracy regardless of the speaker's other credentials?"
+lineage:
+  - source: practitioner
+    text: assembled-from-lex-hbanm-lex-63e4c
+    citation: "Molecule assembled from lex-hbanm (social-influence-amplifies-both-inequality-and-unpredictability-of-cultural-market-success, Salganik-Dodds-Watts 2006) and lex-63e4c (bullshit-is-truth-indifference-not-truth-inversion, Frankfurt). lex-63e4c's own canonical-instances state the link: 'the pressure on the speaker is toward truth-indifference (will-this-spread?) rather than toward truth-tracking (is-this-true?). Composes with lex-hbanm social-influence-amplifies-inequality-and-unpredictability (the speaker's utterance gets amplified by the same path-amplified-noise dynamic that picks app-store winners).'"
+canonical-instances:
+  - "Viral misinformation vs. corrections: a false claim optimized for shareability (emotionally activating, simple, novel) spreads through the same path-amplified-noise dynamics that made an arbitrary song a chart-topper in Salganik's experiment; the correction, optimized for accuracy rather than shareability, faces the same amplification mechanics working against it — the dynamic doesn't care which claim is true, only which one an early cascade favored."
+  - "Influencer content mills: creators who explicitly optimize output for engagement metrics rather than accuracy are rational actors responding to the amplification incentive structure lex-hbanm names — the resulting content is bullshit in Frankfurt's sense (truth-indifferent) as a direct, predictable consequence of the reward function, not a personal ethical failure distinct from the system."
+status: under-review

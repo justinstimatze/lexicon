@@ -1,0 +1,19 @@
+id: lex-j99k2
+name: a-shared-decode-table-translates-institutional-praise-language
+type-in: situation
+type-out: frame
+_tier: atomic
+agent-instruction: "Institutional evaluative language operates through a stable, widely-known translation key where the literal praise and the intended meaning are systematically different — 'unusually loyal' translates to 'wanted by no one else,' 'indifferent to instruction' translates to 'knows more than one's superior,' 'strong adherence to principles' translates to 'stubborn.' The existence of a shared decode table is itself the finding: literal evaluative language has become unsafe to use directly, so a coded substitute language emerged that insiders can read accurately while outsiders take at face value. Reading any formal evaluation from inside such a system requires running it through the decode table first — the literal words are not the message."
+related: []
+evokes: [jackall-moral-mazes, "wanted by no one else", euphemism-decode-key]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch6-decode-table
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 6, Dexterity with Symbols. The source presents this as a two-column table (Stock Phrase / Probable Intended Meaning); the arrows below are an editorial addition marking that pairing, since the table's columns collapse into run-on text in the plain-text extraction — every word is verbatim."
+    quote: "Exceptionally well qualified → Has committed no major blunders to date; Unusually loyal → Wanted by no one else; Indifferent to instruction → Knows more than one's superior; Strong adherence to principles → Stubborn; Requires work-value attitudinal readjustment → Lazy and hardheaded."
+canonical-instances:
+  - "A letter of recommendation describing a former employee as 'independent and self-directed' is read by hiring managers in the same field as a coded warning that the person did not take direction well, even though nothing in the letter states this directly."
+critical-questions:
+  - "Does everyone in the institution actually share the same decode table with the same confidence, or do newcomers and outsiders systematically misread the literal praise as genuine, which is precisely what lets the coded language keep functioning?"
+status: active

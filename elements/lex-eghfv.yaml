@@ -1,0 +1,18 @@
+id: lex-eghfv
+name: a-shared-refrain-across-varied-cases-inductively-establishes-a-law
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: 'The same underlying principle can be demonstrated repeatedly across transgressions of visibly different severity, each instance closing on an identical refrain, so the principle is generalized inductively by showing it holds regardless of the act''s apparent scale rather than argued abstractly once. In the Jataka''s tale of the five Pacceka-Buddhas, the same self-correcting response recurs across a stolen sip of water, a lustful glance, a protective lie, and two acts of enabled harm, each ending the identical way: "The water-draught of my own friend, although a friend, I stole: Loathing the sin which I had done, I afterwards was fain To leave the world, an eremite, lest I should sin again."'
+related: []
+evokes: [jataka, ekadasanipata, paniya-jataka, case-variation-induction, argument-from-multiple-instances]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-paniya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 459, Paniya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The water-draught of my own friend, although a friend, I stole: Loathing the sin which I had done, I afterwards was fain To leave the world, an eremite, lest I should sin again."
+canonical-instances:
+  - "A compliance trainer walks through five completely different scale-of-violation case studies, each ending on the same line — 'and it started with someone deciding this one didn't count' — so the audience concludes the pattern holds regardless of severity rather than accepting it for just the most dramatic case."
+critical-questions:
+  - "Five instances sharing a refrain is still a small sample chosen by the storyteller — does the repetition actually establish a general law, or does it just make a law feel established by rhetorical rhythm?"
+status: active

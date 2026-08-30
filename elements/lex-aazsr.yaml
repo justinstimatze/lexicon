@@ -1,0 +1,18 @@
+id: lex-aazsr
+name: enumerated-future-regrets-are-used-to-motivate-present-virtue
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: 'Rather than arguing directly for a virtue in the abstract, a teacher can enumerate the specific regrets a person will predictably feel later for having failed to practice it now — not saving, not learning a trade, not honoring parents while they lived — and let the vividness of imagined future hindsight do the motivational work that a present-tense argument for virtue often can''t. The list format matters: a single regret is easy to dismiss as one person''s particular circumstance, but a numbered catalog of parallel failures makes the pattern feel like a near-certain, generalizable law of hindsight rather than an isolated warning. In the Janasandha-Jataka, King Janasandha''s teaching opens ''ten things in truth there be, which if a man omit to do, he suffers presently,'' and the first item alone establishes the pattern: ''not to have got nor gathered store in time, the heart torments; to think he sought no wealth before he afterwards repents.'''
+related: []
+evokes: [jataka, dvadasanipata, janasandha-jataka, prospective-regret-as-motivation, future-hindsight-catalog-as-didactic-device]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-janasandha-jataka
+    citation: 'The Jataka, or Stories of the Buddha''s Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XII (Dvadasanipata), No. 468, Janasandha-jataka. Verified verbatim against a direct extraction of the held copy.'
+    quote: 'Thus spake King Janasandha: Ten things in truth there be, Which if a man omit to do, he suffers presently. "Not to have got nor gathered store in time, the heart torments; To think he sought no wealth before he afterwards repents.'
+canonical-instances:
+  - 'A financial-literacy course opens not with an argument for saving early but with a list of ten specific regrets alumni surveys found most common among people nearing retirement — not starting a retirement account at twenty-five, not negotiating a starting salary, not tracking spending in their thirties — letting the accumulated weight of the list do what one abstract argument for saving couldn''t.'
+critical-questions:
+  - 'Does enumerating regrets in advance actually change present behavior any more effectively than a single well-chosen example would, or does the list format persuade mainly by volume — by making omission feel statistically inevitable rather than by making any one item more compelling on its own?'
+status: active

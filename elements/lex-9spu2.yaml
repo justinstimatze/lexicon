@@ -1,0 +1,39 @@
+id: lex-9spu2
+name: stalemate-as-apparent-stability
+type-in: state
+type-out: state
+_tier: atomic
+agent-instruction: "When parties have been locked at zero for a long time, surface that stalemate is apparent stability, not real equilibrium — pressures are accumulating off-screen; the snap-back, when it comes, is sudden."
+related: [lex-spm8x, lex-ypecd, lex-uz7g4, lex-sxwn7, lex-2jaf6]
+scaffolds-from: [lex-spm8x]
+evokes: [dynamic-equilibrium, the-bow-and-the-lyre, opposing-forces-balance, predator-prey-coexistence, nash-equilibrium-feel, calm-on-the-surface-roiling-beneath]
+lineage:
+  - source: practitioner
+    text: heraclitus-fragments
+    citation: "Heraclitus, Fragments DK B51 + DK B53 (~5th century BCE, via Diels-Kranz numbering, preserved through Hippolytus of Rome 3rd century CE Refutation of All Heresies). The bow and the lyre (B51) as the canonical metaphor for stability through opposed tensions; the war-as-father (B53) as the generalization that opposition is constitutive. English: Charles Kahn translation in The Art and Thought of Heraclitus (Cambridge UP, 1979); also Kirk, Raven & Schofield The Presocratic Philosophers (2nd ed. Cambridge UP, 1983) as the standard scholarly reference"
+    quote: "DK B51: They do not comprehend how a thing agrees at variance with itself: it is a backwards-turning attunement, like that of the bow and the lyre. DK B53: War is the father of all and king of all; some he has shown to be gods and some men, some he has made slaves and some free."
+  - source: practitioner
+    text: hutchinson-1961-paradox-of-plankton
+    citation: "G.E. Hutchinson, 'The Paradox of the Plankton,' American Naturalist 95(882):137-145 (1961). Documented the empirical observation that many phytoplankton species coexist in well-mixed water columns where competitive exclusion theory predicts only one should win. The coexistence is dynamic — populations cycle, oscillate, never reach the predicted single-species equilibrium — but the ecosystem-level appearance is stable diversity"
+  - source: practitioner
+    text: nash-1951-non-cooperative-games
+    citation: "John Nash, 'Non-Cooperative Games,' Annals of Mathematics 54(2):286-295 (1951). The canonical formulation of equilibrium in strategic interaction: a configuration where each player's strategy is the best response to others' strategies, and no player has incentive to unilaterally deviate. The equilibrium is structurally a stalemate — appearance of stability maintained by mutual best-response, not by absence of incentive"
+  - source: practitioner
+    text: essay-informed-mining-pass
+    citation: "promoted from cross-attestation: chemistry (Le Chatelier's principle and dynamic equilibrium — forward and reverse reaction rates equal; macroscopic appearance is stable concentration even though molecular reactions continue), ecology (Hutchinson plankton paradox; Chesson 2000 modern coexistence theory in Annual Review of Ecology and Systematics 31:343-366; Van Valen 1973 Red Queen dynamics in Evolutionary Theory 1:1-30), game theory (Nash 1951 equilibrium), pre-Socratic philosophy (Heraclitus B51 bow/lyre, B53 'war is the father of all and king of all'), thermodynamics (Prigogine 1977 Nobel Lecture on dissipative structures and Prigogine & Stengers 1984 Order Out of Chaos — order maintained by continuous energy flux through the system, not by absence of dynamics), military strategy (deterrence — MAD as canonical stalemate-as-apparent-stability across nuclear-superpower confrontations). Cross-domain attestation across chemistry, biology, mathematics, philosophy, physics, and strategic theory"
+canonical-instances:
+  - "Le Chatelier's principle in chemical equilibrium: a reaction H2 + I2 ⇌ 2HI at equilibrium has equal forward and reverse rates; the bottle's appearance is stable composition; molecular reactions never stop. Disturbing the equilibrium (adding H2) causes the system to consume the disturbance and re-establish a new equilibrium. The appearance of stability IS the dynamic balance"
+  - "Cold War nuclear deterrence (~1949-1991): apparent geopolitical stability between superpowers maintained by mutually-assured destruction; both sides continuously invest in nuclear capability; the absence of war is structurally identical to chemical equilibrium — the stability IS the ongoing tension, not its absence"
+  - "predator-prey coexistence: a wolf-deer ecosystem may show roughly stable population counts at the decade scale; zoom in to monthly resolution and populations oscillate; zoom further to per-encounter resolution and the system is violent. The 'stability' is a scale-of-observation property of an underlying high-frequency dynamic"
+  - "Nash equilibrium in repeated games (e.g., Cournot duopoly): two firms set quantities such that neither benefits from unilateral deviation; the apparent stable market structure IS the standoff. Removing the strategic-interaction dimension would collapse the equilibrium"
+  - "operationally distinct from lex-spm8x feedback-loop-as-mechanism: feedback is the MECHANISM (A modifies B which modifies A); stalemate-as-apparent-stability is the OBSERVED STABILITY produced by mutually-balancing forces, which often involves feedback but doesn't require it (mutual-physical-obstruction without sensing also produces stalemate). The two are causally connected but operationally separable"
+  - "operationally adjacent to lex-ypecd inversion-as-meaning-modifier: stalemate often inverts the naive read of stability (the calm system is often the most-actively-balanced one; the moving system is often the most-stable in the dynamical-systems sense — like a bicycle staying upright through continuous correction)"
+  - "operationally adjacent to lex-uz7g4 archetype-as-projective-shorthand: the bow-and-lyre is one of the canonical archetypal handles for this pattern; the named figure (Heraclitus' bow) carries the cluster of associated structural insights"
+  - "vital critical question: is the stalemate genuinely sustainable, or is it metastable — a local-equilibrium that will eventually escape (e.g., the 'stable' Cold War's eventual end; ecosystems' eventual succession)? Distinguishing genuine equilibrium from metastability requires understanding the energy flows; the appearance is the same in the short run"
+  - "central critical question: at what scale of observation does the stability appear? A stalemate at one scale may be wild oscillation at finer resolution; the methodological choice of scale (lex-hm8yx) co-determines whether you're seeing stalemate or chaos"
+critical-questions:
+  - "what pressure is accumulating off-screen that the stalemate isn't reflecting — name the channel"
+  - "is the apparent stability critical for someone (politicians, executives) — and does that explain why it persists past its sustainability?"
+  - "what's the cheapest probe that would distinguish real equilibrium from apparent stability before the snap?"
+  - "if you intervene to break the stalemate, do you also have to manage the released energy — or does it cascade?"
+status: active

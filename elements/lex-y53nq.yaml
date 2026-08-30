@@ -1,0 +1,26 @@
+id: lex-y53nq
+name: widening-the-gaze-trades-visual-detail-for-reading-intent
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When you're tracking a fast, threat-bearing opponent — a person mid-negotiation, an adversarial system, literally a swordsman — resist fixing your attention on the single most legible point: the hands, the weapon-tip, one clause. Musashi's discipline deliberately keeps 'sight' (focus on a specific visible detail) weak and 'perception' (a broad, soft take on the whole field and the opponent's overall intent) strong: fixing on any one detail narrows what you register and slows your reaction to whatever you weren't watching. Hold a wide, unfixed gaze instead — like a footballer who plays well without staring at the ball — so you catch the shift in intent before any single cue confirms it."
+related: [lex-5au8b]
+evokes: [musashi-book-of-five-rings, perception-and-sight, dont-watch-the-ball, quiet-eye, soft-focus-attention]
+lineage:
+  - source: primary
+    text: musashi-1645-gaze-in-strategy
+    citation: "Miyamoto Musashi, The Book of Five Rings (Go Rin no Sho, 1645), trans. Victor Harris (Allison & Busby, 1974) — Feedbooks edition, Chapter 2, 'The Water Book,' section 'The Gaze in Strategy.' Translator not credited in the epub itself; confirmed as Harris via the Wikipedia 'The Book of Five Rings' article's own footnote (Miyamoto, A Book of Five Rings, trans. Victor Harris, Allison and Busby, 1974), attached to a Book-of-the-Void passage that matches this edition's text verbatim — cross-checked via the local Wikipedia ZIM archive, not guessed from the filename. 'sight week' reproduced as printed in this edition — evidently a typo for 'sight weak,' not silently corrected."
+    quote: "'The gaze should be large and broad. This is the twofold gaze \"Perception and Sight\". Perception is strong and sight week. [...] In strategy it is important to see distant things as if they were close and to take a distanced view of close things. [...] It is necessary in strategy to be able to look to both sides without moving the eyeballs. You cannot master this ability quickly. Learn what is written here; use this gaze in everyday life and do not vary it whatever happens.'"
+  - source: primary
+    text: musashi-1645-fixing-the-eyes-in-other-schools
+    citation: "Miyamoto Musashi, The Book of Five Rings, trans. Victor Harris (1974) — Feedbooks edition, Chapter 4, 'The Wind Book,' section 'Fixing the Eyes in Other Schools.' Musashi's own worked instance of the gaze principle from the first lineage entry, criticizing rival schools' fixed-point eye-training and offering the footballer analogy this atom's agent-instruction draws on directly."
+    quote: "'Some schools maintain that the eyes should be fixed on the enemy's long sword. Some schools fix the eyes on the hands. Some fix the eyes on the face, and some fix the eyes on the feet, and so on. If you fix the eyes on these places your spirit can become confused and your strategy thwarted. [...] Footballers do not fix their eyes on the ball, but by good play on the field they can perform well. [...] It means that they can see naturally. [...] In strategy, fixing the eyes means gazing at the man's heart.'"
+canonical-instances:
+  - "Musashi's own footballer analogy (quoted above): skilled play doesn't require staring at the ball, because the useful information is in the whole unfolding situation, not the one object everyone assumes you must be watching."
+  - "A goalkeeper facing a penalty kick reads the kicker's run-up and hip rotation rather than fixating on the ball or the planted foot — watching only the ball is exactly the sight-only failure mode this atom names, since the ball's own path is set well before contact."
+  - "A code reviewer who fixes attention on the single changed line flagged by the diff tool can miss that the surrounding function's whole behavior shifted; reading the broader shape of the change first, then the line, catches what line-level focus alone would not."
+critical-questions:
+  - "Is the 'broad gaze' actually working, or a rationalization for not noticing a tell you should be tracking? Practitioner-test: after the fact, can you name what the opponent's overall intent shifted to, even though you weren't fixed on any one point?"
+  - "Does this generalize past physical combat to domains where the 'detail' is verbal — a single clause, a single data point — and the 'whole' is the counterparty's actual overall position? What does 'not fixing your eyes' look like in a negotiation or a code review?"
+  - "When is fixed, narrow attention actually correct — verifying one load-bearing fact, say — versus when does it cost you the gestalt read this atom describes?"
+status: active

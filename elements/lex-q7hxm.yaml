@@ -1,0 +1,20 @@
+id: lex-q7hxm
+name: reasserting-the-doctrinal-goal-repeatedly-outweighs-direct-emotional-pleas
+type-in: situation
+type-out: state
+_tier: atomic
+agent-instruction: 'When someone with narrative authority over a stated goal is opposed by a series of emotional appeals, the appeals lose every round not because they are weaker arguments but because they address the person while the doctrine addresses the goal the person is already chasing. In the Khandahala-Jataka, the king repeatedly relents and orders his sons freed after each new plea — from his mother, his father, the prince himself, the wives, a daughter, a grandson — and each time Khandahala simply returns and re-asserts the frame rather than rebutting the plea: "I warned thee that this sacrifice would prove a hard and toilsome one; / Why interfere to stop the rite when it is all so well begun? / They who give offerings such as these go by a certain road to heaven." The pleas never lose the argument; they simply never engage the terms the king is actually reasoning in, so the doctrine regains ground every time it is merely repeated.'
+related: [lex-w2ndc]
+evokes: [jataka, mahanipata, khandahala-jataka, frame-control, doctrinal-authority, emotional-appeal, reassertion]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-khandahala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 542, Khandahala-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "I warned thee that this sacrifice would prove a hard and toilsome one; / Why interfere to stop the rite when it is all so well begun? / They who give offerings such as these go by a certain road to heaven; / Or those who heartily approve, seeing the same by others given."
+canonical-instances:
+  - "A board keeps voting to delay a risky acquisition after employees raise concerns, but the CFO simply re-presents the growth-target slide each time rather than answering the specific objections, and the deal survives every round."
+  - "Parents wavering on a child's risky elective surgery are talked back into it each time a specialist restates 'this is what gives them the best long-term outcome' rather than engaging the immediate fear the parents are voicing."
+critical-questions:
+  - "The king could in principle attack the doctrine itself rather than plead against its consequences — his son eventually tries exactly that (see lex-w2ndc) — so is the failure here specific to pleading, or would any argument lose that isn't aimed at the frame?"
+  - "Is the doctrine actually winning on its merits each time, or is it winning because it is asserted by someone the king has already granted authority to interpret the goal — would the same words from a stranger carry the same weight?"
+status: active

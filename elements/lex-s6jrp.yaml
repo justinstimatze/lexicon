@@ -1,0 +1,19 @@
+id: lex-s6jrp
+name: privacy-is-demanded-to-control-visibility-not-the-size-of-a-request
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Someone insisting on a private audience before making a request isn't necessarily signaling that the request is large — they may be managing something else entirely: who gets to witness whichever emotional reaction follows, whether that's the asker's disappointment or the refuser's guilt. In the Jataka's tale of the ascetic's shoes, wanting only sandals and a parasol from the king, the ascetic still insists on privacy, and explains why once asked: '\"Great King, the man who says \"Give me so and so,\" sheds tears, and the one who refuses and says \"I have it not,\" in his turn weeps. If, when I begged, you should have refused me, I feared the people might see us mingling our tears. This is why I asked for a secret interview.\"'"
+related: []
+evokes: [jataka, catukkanipata, brahmadatta-jataka, privacy-manages-emotional-visibility-not-request-scale, a-small-request-can-still-demand-a-private-audience]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-brahmadatta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 323, Brahmadatta-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Great King, the man who says \"Give me so and so,\" sheds tears, and the one who refuses and says \"I have it not,\" in his turn weeps. If, when I begged, you should have refused me, I feared the people might see us mingling our tears. This is why I asked for a secret interview.\""
+canonical-instances:
+  - "An employee asks to speak with their manager behind closed doors before requesting a single day off for a personal matter. The request itself is small; what they're actually managing is whether colleagues get to see either their own vulnerability in asking, or the manager's face if the answer turns out to be no."
+critical-questions:
+  - "Does the listener have any way to distinguish this motive from the more common assumption — that a request for privacy signals something big — without simply asking, which the ascetic's own account suggests people rarely do?"
+  - "Is managing emotional visibility this carefully actually healthy, or does it reflect an oversensitivity to being seen that costs more in avoided directness than it saves in spared embarrassment?"
+status: active

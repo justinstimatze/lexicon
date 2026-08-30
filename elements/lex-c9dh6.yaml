@@ -1,0 +1,19 @@
+id: lex-c9dh6
+name: a-disguise-fails-by-violating-the-disguised-objects-invariant-behavior
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A disguise can pass visual inspection completely and still be exposed the moment it behaves in a way the thing it imitates never could — not through any flaw in appearance, but through a violation of a fixed, invariant property of the disguised object itself. In the Jataka's tale of the fowler disguised as foliage, he repeatedly covers himself with branches to snare a wary bird, matching the visual texture of the forest perfectly. The bird isn't fooled, because trees don't reposition themselves to track prey: 'Trees a many have I seen Growing in the woodland green: But, O Tree, they could not do Any such strange things as you!' No amount of visual refinement to the disguise could have fixed this. The fowler needed to move to hunt. A moving tree is a contradiction the disguise can never resolve, however well-disguised it looks standing still."
+related: []
+evokes: [jataka, dukanipata, kakkara-jataka, an-invariant-property-of-the-disguised-object-cannot-be-faked, behavioral-violation-exposes-what-visual-fidelity-cannot-hide]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kakkara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 209, Kakkara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Trees a many have I seen Growing in the woodland green: But, O Tree, they could not do Any such strange things as you!"
+canonical-instances:
+  - "A phishing email perfectly replicates a bank's logo, fonts, and formatting, but a careful recipient notices it's asking them to reply with a password — something the actual bank's invariant policy states it will never do by email — and the disguise fails on that single behavioral violation regardless of how convincing everything else looks."
+critical-questions:
+  - "Is the fowler's mistake really about the disguise's design, or is it that the entire strategy of disguising-as-a-static-object is fundamentally incompatible with the active pursuit his job requires — was any refinement ever going to solve this rather than a completely different approach?"
+  - "How does a defender learn which properties of a disguised category are actually invariant and worth testing for? Some properties vary enough within the real category that testing for them just produces false alarms."
+status: active

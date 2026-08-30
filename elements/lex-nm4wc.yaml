@@ -1,0 +1,19 @@
+id: lex-nm4wc
+name: many-individually-weak-actors-can-destroy-one-dominant-actor-by-attrition
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A single dominant actor that would trivially defeat any one of many individually-weak opponents can still be destroyed by their combined, sustained attrition, because the relevant comparison is never one-on-one. The Panchatantra's snake kills a swarm of ants without effort individually, but the swarm's numbers draw more and more of them to the blood from the wound, and their combined stinging eventually kills him: 'their uncounted phalanx stung him in every member, and enlarged the numerous wounds. And Haughty perished.' The verse states the general danger: 'beware the populace enraged; a crowd’s a fearsome thing: the ants devoured the giant snake for all his quivering.' No single ant's contribution mattered. What did the work was sheer numbers converging on the same wound faster than the snake could pick them off."
+related: []
+evokes: [panchatantra, crows-and-owls, attrition-from-many-weak-actors-destroys-one-strong-one, individual-defeat-does-not-predict-aggregate-outcome]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-the-snake-and-the-ants
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book III, 'The Snake and the Ants.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Beware the populace enraged; A crowd’s a fearsome thing: The ants devoured the giant snake For all his quivering."
+canonical-instances:
+  - "a dominant retailer that could out-negotiate any single independent supplier is eventually forced to change its practices when thousands of small suppliers, none individually significant enough to matter, coordinate simultaneous public complaints and the aggregate reputational damage does what no single supplier's leverage ever could."
+critical-questions:
+  - "Does the mechanism require the weak actors to coordinate deliberately, or does the ants' swarm — drawn individually by the scent of blood, not by any shared plan — show that pure aggregation without coordination can be just as effective?"
+  - "Is there a threshold number of weak actors below which the dominant party remains genuinely safe, or does any wound at all create the risk of an uncontrolled cascade once enough weak actors start converging on it?"
+status: active

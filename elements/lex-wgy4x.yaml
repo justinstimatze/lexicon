@@ -1,0 +1,19 @@
+id: lex-wgy4x
+name: an-adversarys-self-imposed-rule-is-a-reliable-point-of-leverage
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When facing an adversary bound by a rule they treat as inviolable — a vow, a ritual, a code — identify exactly what that rule forbids them from doing, since it marks a window where you are safe regardless of their intent to harm you. The Panchatantra's fiend explains his own constraint outright: 'I am under a vow never to touch the ground with my feet until I have washed them.' A cornered Brahman, realizing the fiend cannot pursue him without breaking that vow, simply leaves before the washing is complete, and the fiend — bound by his own rule more tightly than by his hunger — does not follow. The adversary's stated commitment functions as a fixed constraint the target can read and act on with full confidence, regardless of how the adversary actually feels about the target."
+related: []
+evokes: [panchatantra, ill-considered-action, self-imposed-rule-as-exploitable-leverage, adversarys-own-constraint-marks-a-safe-window]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-the-fiend-who-washed-his-feet
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book V, 'The Fiend Who Washed His Feet' (nested tale). Verified verbatim against a direct extraction of the held copy."
+    quote: "I am under a vow never to touch the ground with my feet until I have washed them."
+canonical-instances:
+  - "a negotiator learns their counterparty operates under a strict internal compliance rule that forbids verbal commitments outside a formal written process, and uses that window — the period before anything is in writing — to walk away from a bad verbal offer with full confidence the counterparty's own rule prevents any binding consequence from following them."
+critical-questions:
+  - "How does a target verify that a stated constraint actually binds the adversary's behavior, rather than being a bluff meant to look like exploitable leverage while carrying no real force?"
+  - "Does relying on an adversary's self-imposed rule ever backfire if the adversary is willing to break their own rule under sufficient provocation — is the constraint actually as fixed as it appears, or does it have a breaking point the target hasn't tested?"
+status: active

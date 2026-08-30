@@ -1,0 +1,19 @@
+id: lex-qwsj8
+name: mocking-a-victims-coping-while-blind-to-causing-their-crisis
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone criticizes the manner in which a victim is coping with a crisis, check whether the critic is himself the one who caused it. In Aesop's 'The Boy and the Snails,' a boy roasting snails over a fire hears them hiss and scolds them: 'You abandoned creatures, how can you find heart to whistle when your houses are burning?' He is directly causing the fire that is killing them, yet critiques their response to it as if he were a neutral observer of a misfortune he had no hand in. The mechanism is specifically the persecutor's blindness to his own causal role, not mere hypocrisy about a separate standard he fails to meet himself."
+related: []
+evokes: [aesop, the-boy-and-the-snails, blindness-to-own-causal-role, critiquing-the-victims-coping]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-boy-and-the-snails
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Boy and the Snails.' Verified verbatim against a direct extraction of the held copy."
+    quote: "You abandoned creatures, how can you find heart to whistle when your houses are burning?"
+canonical-instances:
+  - "a manager who orders layoffs, then privately criticizes the remaining team's low morale, without registering that the drop in morale is a direct effect of the layoffs he himself ordered."
+critical-questions:
+  - "Does the boy actually fail to see his own causal role, or does he see it and simply not weigh it as relevant to his complaint — is this a blindness or a chosen indifference?"
+  - "How would an outside observer distinguish this pattern from ordinary hypocrisy (failing to meet a standard you set for others), given that both can look identical from the victim's side?"
+status: active

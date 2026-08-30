@@ -1,0 +1,19 @@
+id: lex-6bagq
+name: satisfying-a-threats-literal-condition-while-evading-its-substance
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A threat that names a specific triggering condition, rather than the outcome it's actually trying to prevent, can be defeated by finding a way to get the outcome without ever meeting the named condition. In the Jataka's tale of the monkey troop and the water-ogre, the ogre's jurisdiction is anyone who enters the water — so the monkeys drink through hollow canes reaching from dry land, technically never entering it at all. The ogre's rule names a proxy — entering the water — for the outcome it's actually enforcing, catching the monkeys. That gap between the named proxy and the real target is the exact space the workaround lives in."
+related: []
+evokes: [jataka, ekanipata, nalapana-jataka, exploiting-the-gap-between-a-rules-letter-and-its-target, defeating-a-threat-via-its-own-narrow-condition]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-nalapana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 20, Nalapana-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "...we shall not enter the water at all, but the whole eighty thousand of us will take a cane each and drink therewith from your lake... And so you will not be able to eat us.\""
+canonical-instances:
+  - "A city ordinance bans vehicles from parking on a residential street for more than two hours. A delivery company avoids violation entirely by having drivers move their trucks one parking space over every ninety minutes, never actually leaving the block."
+critical-questions:
+  - "Does this only work once, the way a single loophole gets closed the moment the rule-writer notices, or can a target keep finding new literal-compliance gaps faster than the rule can be rewritten to cover its actual intent?"
+  - "Is there a point where satisfying the letter of a rule this deliberately starts to carry its own cost, even if no formal rule is broken — does the ogre, or an equivalent authority, have any recourse against behavior that is technically compliant but obviously adversarial?"
+status: active

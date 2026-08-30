@@ -1,0 +1,19 @@
+id: lex-qgkuv
+name: emotional-turbulence-masks-knowledge-rather-than-erasing-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone who has fully mastered a body of knowledge finds they can no longer recall or perform it after their life fills with new emotional cares, the knowledge itself hasn't necessarily been lost — it can simply be inaccessible under the resulting mental disturbance. In the Jataka's tale of the scholar who forgets his verses after marrying, his teacher diagnoses the mechanism with an image rather than a test: 'Thick, muddy water will not show Fish or shell or sand or gravel that may lie below.' The claim is specific: the fish and shells are still there, exactly as they were, and clearing the water rather than searching harder for what's in it is the actual fix — a mind under emotional disturbance behaves like a mind that has forgotten, whether or not anything was actually erased."
+related: []
+evokes: [jataka, dukanipata, anabhirati-jataka, disturbance-masks-retrieval-rather-than-erasing-storage, clear-the-turbulence-rather-than-search-harder]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-anabhirati-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 185, Anabhirati-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Thick, muddy water will not show Fish or shell or sand or gravel that may lie below"
+canonical-instances:
+  - "An experienced pilot who freezes up and can't recall emergency procedures during a family crisis isn't tested further or retrained on the material — a supervisor recognizes the procedures are still there, gives them leave to resolve the personal turmoil, and the recall returns fully once the disturbance clears."
+critical-questions:
+  - "Is this always true, or does sufficiently long disuse under emotional disturbance eventually cause genuine decay of the knowledge itself, so that 'it's still there, just masked' stops being an accurate diagnosis past some duration?"
+  - "How would the scholar or anyone observing him actually distinguish masked-but-intact knowledge from knowledge that has genuinely degraded, before waiting to see whether it returns once the disturbance passes?"
+status: active

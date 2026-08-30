@@ -1,0 +1,21 @@
+id: lex-hhpfq
+name: an-unneeded-precaution-can-retroactively-mark-an-act-as-careful
+type-in: process
+type-out: state
+_tier: atomic
+agent-instruction: "A layer of care that exceeds what an act strictly required doesn't just add safety margin — it can change what the whole act reads as. The I Ching's Great Appendix makes this explicit through Confucius's gloss on a divination line about placing an offering directly on bare ground versus placing it on woven grass mats first: 'To place the things on the ground might be considered sufficient; but when he places beneath them mats of the white grass, what occasion for blame can there be? Such a course shows the height of carefulness. The white grass is a trivial thing, but, through the use made of it, it may become important.' The mats add no function the ground didn't already serve. Their entire value is in what the extra, unnecessary step signals about the carefulness of everything else in the act."
+related: []
+evokes: [i-ching, yi-jing, legge, ten-wings, xi-ci, great-appendix, symbolic-precaution]
+lineage:
+  - source: primary
+    text: legge-1899-i-ching-appendix-iii-i-white-grass
+    citation: "James Legge, translator, The Yî King (I Ching), Sacred Books of the East vol. 16 (Oxford University Press, 1899), Appendix III ('The Great Appendix'), Section I, Chapter VIII, paragraph 44. Verified verbatim against a direct extraction of the text hosted at sacred-texts.com, clean digital text, no OCR."
+    quote: "'The first six, (divided), shows its subject placing mats of the white grass beneath what he sets on the ground.' The Master said:--'To place the things on the ground might be considered sufficient; but when he places beneath them mats of the white grass, what occasion for blame can there be? Such a course shows the height of carefulness. The white grass is a trivial thing, but, through the use made of it, it may become important. He who goes forward using such careful art will not fall into any error.'"
+canonical-instances:
+  - "The text's final line names the payoff directly — 'he who goes forward using such careful art will not fall into any error' — tying the trivial precaution to a broad protective effect that extends past the specific act of placing the offering."
+  - "A surgeon who double-checks a chart already confirmed correct, or a pilot who runs a checklist item that's never once caught a real problem, gains the same thing this passage names: the visible extra step marks the whole procedure as careful, independent of whether that specific step ever does functional work."
+critical-questions:
+  - "At what point does an unnecessary precaution stop signaling carefulness and start reading as empty ritual or performative caution with no real content behind it?"
+  - "Does the signal require an observer to register the extra step, or does the text intend the mechanism to work even when no one else witnesses the act — is this about others' perception or about the actor's own state?"
+  - "Is there a risk that habitually adding unnecessary precautions to signal carefulness eventually erodes judgment about which precautions actually prevent errors and which are purely symbolic?"
+status: active

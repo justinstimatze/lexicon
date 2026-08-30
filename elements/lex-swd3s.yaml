@@ -1,0 +1,18 @@
+id: lex-swd3s
+name: insisting-on-structural-correction-of-the-root-cause-rather-than-a-one-off-resolution
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than accepting a single reversed decision as sufficient, an agent can insist on a durable structural fix to whatever caused the problem in the first place, recognizing that a one-time reversal leaves the underlying cause intact and free to recur. In the Jataka''s tale of Takkala, the boy, having stopped his father from killing his grandfather this once, insists on a deeper fix aimed at his mother''s ongoing pattern: "''You must bend my mother, that she may never again do such a deed as this.''"'
+related: []
+evokes: [jataka, dasanipata, takkala-jataka, structural-fix-vs-one-off-resolution, root-cause-correction]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-takkala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 446, Takkala-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "You must bend my mother, that she may never again do such a deed as this."
+canonical-instances:
+  - "After a company reverses one wrongful termination following an internal appeal, a union representative insists that reversing the single case is not enough — the manager whose flawed process caused it needs retraining, or the same pattern will simply produce the next wrongful termination."
+critical-questions:
+  - "Is insisting on a structural fix always the more responsible response, or can it sometimes overreach a situation that a simpler, one-off correction would have adequately resolved?"
+status: active

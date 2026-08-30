@@ -1,0 +1,19 @@
+id: lex-yjkkg
+name: feigned-servility-earns-sustained-access-for-gradual-exploitation
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A threat can secure ongoing, trusted access to a group of potential victims not by defeating their wariness in one confrontation, but by offering to serve them in a subordinate role, then consuming them gradually from inside the access that service earns. The Panchatantra's snake Slow-Poison, rather than attacking a group of frightened frogs directly, offers to carry them on his back as a servant would, entertaining them with tricks: 'Slow-Poison, with an eye to making his living, showed them fancy turns in great variety.' His own private accounting of the scheme states the mechanism and its limit together: 'the trick was good. All sorts of frogs within my power have passed. The only question that remains, is: how long will they last?' The servile role is not a temporary disguise to get past a single gate — it is the sustained operating structure that keeps supplying fresh access for as long as the frogs don't notice their numbers dwindling."
+related: []
+evokes: [panchatantra, crows-and-owls, feigned-servility-enables-gradual-exploitation, sustained-access-through-a-subordinate-role]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-the-frogs-that-rode-snakeback
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book III, 'The Frogs That Rode Snakeback.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Now Slow- Poison, with an eye to making his living, showed them fancy turns in great variety."
+canonical-instances:
+  - "a vendor embeds a support engineer inside a client's team at a steep discount specifically to build deep, ongoing access to internal systems, then uses that sustained access over many months to quietly extract far more value in scope-creep billing than the client would ever have agreed to in a single upfront negotiation."
+critical-questions:
+  - "What actually causes the frogs to eventually notice their diminishing numbers and stop trusting Slow-Poison, given that the fable's own closing question implies the scheme has a natural limit — is detection inevitable given enough time, or does the fable leave this genuinely open?"
+  - "Is there a meaningful difference between this pattern and ordinary predator-prey dynamics amplified by deception, or does the specific element of voluntary servility — the snake choosing subordination as a strategy — make this a distinct mechanism worth naming separately?"
+status: active

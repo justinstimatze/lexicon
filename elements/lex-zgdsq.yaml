@@ -1,0 +1,19 @@
+id: lex-zgdsq
+name: quick-informal-approval-can-foreclose-a-slower-internal-review
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Securing quick, informal sign-off from an external authority — a regulator, an outside auditor, any body whose approval carries weight — before an internal review process has finished lets you treat internal objections as already settled, regardless of how rigorous that external approval actually was. When internal staff dispute a technical issue, the response that the outside body 'had no problem with' the specifications functions to close the debate, even though the outside approval may have been faster, shallower, or based on less complete information than the internal review still in progress. The external approval's speed becomes a weapon against the internal review's thoroughness — being first to get sign-off matters more here than which review was actually more careful."
+related: []
+evokes: [jackall-moral-mazes, "the NRC had no problem with particular technical specifications", racing-to-external-approval-to-preempt-internal-review]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch5-nrc-informal-approval
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 5, Drawing Lines."
+    quote: "NRC officials often gave informal approval to work requests before internal reviews within GPUN were completed."
+canonical-instances:
+  - "A vendor secures a quick verbal sign-off from an external certification body on a product design before the company's own internal engineering review has finished, then cites the certifier's approval to overrule the internal engineers' still-open concerns."
+critical-questions:
+  - "Was the external body's informal approval actually based on the same depth of review the internal team was still conducting, or was it treated as equivalent simply because it arrived first and carried outside authority?"
+status: active

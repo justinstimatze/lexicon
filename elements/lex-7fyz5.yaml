@@ -1,0 +1,19 @@
+id: lex-7fyz5
+name: ruling-out-flight-first-licenses-full-commitment-to-fight
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Facing a cornered threat with no viable escape, a person can explicitly reason through the alternative — that fleeing means certain death — before committing fully and immediately to confrontation rather than hesitating, with the decisive reasoning step of ruling out flight coming first and licensing the aggressive action that follows. In the Jataka''s tale of Dipi, the she-goat does exactly this the first time she meets the panther: "She looked all round, and saw the panther. "He is there because he wishes to kill and eat me," she thought; "if I turn and run, my life is lost; I must play the man," and so she tosses her horns, and sprang straight at him with all her might."'
+related: []
+evokes: [jataka, atthanipata, dipi-jataka, fight-once-flight-is-ruled-out, cornered-threat-full-commitment]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dipi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 426, Dipi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "She looked all round, and saw the panther. \"He is there because he wishes to kill and eat me,\" she thought; \"if I turn and run, my life is lost; I must play the man,\" and so she tosses her horns, and sprang straight at him with all her might."
+canonical-instances:
+  - "Cornered by a hostile takeover with no viable buyer of last resort, a CEO explicitly rules out a quiet sale as certain loss of the company's mission, then goes fully public and combative with the board fight rather than hedging with a partial concession."
+critical-questions:
+  - "Would a half-committed fight, hedging in case flight turns out to be possible after all, have worked better or worse here than the full, immediate commitment the she-goat made?"
+  - "Ruling out flight in the heat of the moment is a live judgment call, made under threat, with none of the clarity that comes only afterward. How reliable is that judgment call, actually?"
+status: active

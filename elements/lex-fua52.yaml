@@ -1,0 +1,22 @@
+id: lex-fua52
+name: unfamiliar-weapon-technology-is-first-explained-as-magic
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When a group encounters an adversary's weapon technology whose mechanism they don't yet understand, the first explanation reached for is often supernatural power rather than a mundane mechanical cause, and the misattribution can persist until someone learns the actual mechanism. At the Wagon Box Fight, Fire Thunder recalls the Lakota warriors facing a rate of fire they had never seen: 'We thought it was some new medicine of great power that they had, for they shot so fast that it was like tearing a blanket.' The real cause, learned only afterward, was mundane: 'it was because they had new guns that they loaded from behind, and this was the first time they used these guns' -- breech-loading rifles replacing the muzzle-loaders both sides had used before. The 'medicine' framing wasn't a failure of intelligence; it was the best available explanation given the actual evidence in hand, an unprecedented rate of fire, before the mechanical cause was accessible to observation."
+related: []
+evokes: [black-elk-speaks, wagon-box-fight, medicine-of-great-power, breech-loading-rifles, fire-thunder, technology-misread-as-magic]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch2-early-boyhood
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 2, 'Early Boyhood,' Fire Thunder's firsthand account of the Wagon Box Fight. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "We thought it was some new medicine of great power that they had, for they shot so fast that it was like tearing a blanket. Afterwards I learned that it was because they had new guns that they loaded from behind, and this was the first time they used these guns."
+canonical-instances:
+  - "Pacific Islander populations encountering cargo delivered by airplane during WWII developed 'cargo cult' movements attributing the goods to supernatural or ancestral origin, absent access to the actual mechanism, a global military-industrial supply chain, that produced them."
+  - "A patient recovering from a then-mysterious infection in the era before germ theory attributes their doctor's success to a healer's personal gift or divine favor, before the actual causal mechanism, targeted antimicrobial action, was available as a competing explanation."
+  - "Distinct from a case where the mundane explanation was always available but ignored in favor of a preferred supernatural one: here the mechanical cause was genuinely inaccessible to the observers at the moment of the misattribution, since breech-loading technology had no precedent they could reason from."
+critical-questions:
+  - "Is 'medicine of great power' functioning here as a genuine causal hypothesis, or as a placeholder label for 'something is happening that our existing categories can't yet explain' -- and does that distinction matter for how the misattribution eventually gets corrected?"
+  - "How long does a supernatural placeholder explanation typically survive once contact with the actual mechanism becomes possible -- did the 'medicine' framing collapse quickly once breech-loaders became familiar, or did it leave any residue in how the weapon was regarded afterward?"
+  - "Does calling this 'first explained as magic' risk implying naivety, when the same reasoning move, attributing an unprecedented effect to an unknown but powerful cause pending better evidence, is exactly what any observer, including a modern scientist facing a genuinely novel phenomenon, would also do?"
+status: active

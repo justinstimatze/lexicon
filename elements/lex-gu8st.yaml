@@ -1,0 +1,33 @@
+id: lex-gu8st
+name: iterated-cooperation-rewards-strategies-that-are-nice-provocable-forgiving-and-clear
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When you face a repeated interaction with another agent where unilateral defection is locally tempting but mutual cooperation is globally better (an iterated Prisoner's Dilemma in form), the winning strategy is reciprocity with four properties. Axelrod & Hamilton 1981 tournament finding (a 2-line program — tit-for-tat — beat dozens of clever programs over rounds and won the rematch when everyone knew tit-for-tat had won): (1) NICE — cooperate first, do not defect first; (2) PROVOCABLE — retaliate immediately to an uncalled-for defection (slowness to anger sends the wrong signal and invites further defection); (3) FORGIVING — return to cooperation after one round of retaliation; do not escalate a vendetta; (4) CLEAR — be legible enough that the other agent can model what you'll do and adapt to it. Cooperation thrives when the 'shadow of the future' is long enough that the value of continued cooperation exceeds the one-shot defection payoff. Transferable diagnostic: in any repeated interaction, ask whether your behavior has these four properties; failure modes are (a) too nice — never retaliating, gets exploited; (b) too retaliatory — escalating into vendetta and loss of cooperative window; (c) too forgiving — defectors learn they can hit-and-run; (d) too opaque — opponent can't tell what you'll do, fails to coordinate on cooperation. The ratchet effect: once reciprocity is the dominant norm, it self-reinforces by punishing newcomers' defection. The structural prerequisites: detection of defection must be reliable AND fast (slow detection allows defection to accumulate past the provocability threshold), and the interaction must be repeated (one-shot interactions revert to defection-dominant)."
+related: [lex-eg9zm, lex-spm8x, lex-z9s5d, lex-n8smn, lex-3fzvf, lex-6tvr6, lex-36cbh, lex-nbk6e, lex-nb82m, lex-g9b38, lex-cat29, lex-uxqdz, lex-m9arm, lex-jfy8w, lex-ry4x3]
+evokes: [tit-for-tat, axelrod-hamilton-1981, iterated-prisoners-dilemma, nice-provocable-forgiving-clear, shadow-of-the-future, reciprocity-as-cooperation-engine, christmas-truce-1914, live-and-let-live-trench-warfare, ratchet-effect-cooperation, detection-must-be-fast-and-reliable, slowness-to-anger-sends-wrong-signal]
+lineage:
+  - source: primary
+    tradition: axelrod-hamilton-cooperation
+    text: axelrod-hamilton-1981-1984-evolution-of-cooperation
+    citation: "Robert Axelrod, The Evolution of Cooperation (Basic Books, 1984), Page 2-3 (The Computer Tournament — four properties)."
+    quote: "The analysis of the data from these tournaments reveals four properties which tend to make a strategy successful: avoidance of unnecessary conflict by cooperating as long as the other player does, provocability in the face of an uncalled-for defection by the other, forgiveness after responding to a provocation, and clarity of behavior so that the other player can recognize and adapt to your pattern of action."
+  - source: primary
+    tradition: axelrod-hamilton-cooperation
+    text: axelrod-hamilton-1981-1984-evolution-of-cooperation
+    citation: "Robert Axelrod, The Evolution of Cooperation (Basic Books, 1984), Page 5 (The Value of Provocability)."
+    quote: "Cooperation theory has implications for individual choice as well as for the design of institutions. Speaking personally, one of my biggest surprises in working on this project has been the value of provocability and that it is important to respond sooner, rather than later. I came to this project believing one should be slow to anger. The results of the computer tournament for the Prisoner's Dilemma demonstrate that it is actually better to respond quickly to a provocation. It turns out that if one waits to respond to uncalled-for defections, there is a risk of sending the wrong signal."
+  - source: primary
+    tradition: axelrod-hamilton-cooperation
+    text: axelrod-hamilton-1981-1984-evolution-of-cooperation
+    citation: "Robert Axelrod, The Evolution of Cooperation (Basic Books, 1984), Page 4 (Live-and-Let-Live system in trench warfare)."
+    quote: "The soldiers of these opposing small units actually violated orders from their own high commands in order to achieve tacit cooperation with each other… cooperation based upon reciprocity can develop even between antagonists."
+canonical-instances:
+  - The Christmas Truce of 1914 + the broader WWI trench-warfare live-and-let-live system — Axelrod's primary historical example. Soldiers in opposing trenches reciprocally restrained fire even against high-command orders, because they faced the same opponent day after day (long shadow of future) and could detect violations immediately.
+  - Diamond markets — Axelrod cites these as norm-enforced cooperation among repeated traders; reputation-loss from defection is severe enough that traditional handshake deals enforce contracts across millions of dollars.
+  - Open-source contribution norms — reciprocity ratchets contribution into projects; defectors (vendors who take without giving back) get socially-sanctioned, hesitatingly.
+  - Neighborhood-level reciprocity in driveway snow-clearing, package-receipt-for-absent-neighbor, etc. — works because of repeated interaction and clear detection.
+  - International arms control agreements — only stable when violations can be detected quickly enough that provocability still functions; this is why monitoring regimes are decisive, not auxiliary.
+  - Tit-for-tat in cell-biology / immune-microbiome dynamics — bacteria producing public-good metabolites only when their kin neighbors also do (kin-recognition-driven reciprocity).
+severity-tier: warning
+status: active

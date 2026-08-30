@@ -1,0 +1,21 @@
+id: lex-6ap3z
+name: assign-a-companion-to-monitor-someone-without-it-looking-like-monitoring
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When you need to keep someone from ever being unsupervised without making the supervision visible as control, attach a companion to them under the cover of an ordinary, warm relationship rather than an assigned watch. In Zitkála-Šá's telling, the toad who has raised a stolen human boy for ten years senses she's about to lose him the moment he's moved by his birth mother's distant voice. Rather than confining him or forbidding him to wander, 'when by chance he started off alone, she shoved out one of her own children after him, saying: \"Do not come back without your big brother.\"' The result: 'always at his feet hops a little toad brother' -- framed entirely as sibling companionship, not as surveillance, so the boy has no obvious reason to resist or resent it, and no clear moment at which he could name what's actually happening to him. The mechanism depends on the cover relationship being genuinely plausible on its own terms -- a toad sibling accompanying a toad-raised boy isn't inherently suspicious, which is exactly what makes it effective as monitoring: the boy would need to first doubt the sincerity of an otherwise unremarkable family bond before he could even recognize that he's being tracked. Diagnostic move: when you notice a companion, mentor, or 'buddy' has been placed with you under a warm, relationship-shaped pretext right around the time your loyalty or intentions became suspect to someone with power over you, consider that the relationship's true function may be surveillance -- and recognize that the reason it's hard to object to is precisely that objecting would mean rejecting what looks, on its face, like ordinary companionship."
+related: []
+evokes: [surveillance-disguised-as-a-warm-relationship, zitkala-sa-the-toad-and-the-boy, a-companion-assigned-right-when-loyalty-becomes-suspect, the-cover-relationship-must-be-genuinely-plausible-to-work]
+lineage:
+  - source: primary
+    text: zitkala-sa-toad-and-boy-sibling-as-surveillance
+    citation: "Zitkála-Šá, Old Indian Legends (Ginn & Company, 1901), 'The Toad and the Boy.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'Very closely watched the old toad mother her stolen human son. When by chance he started off alone, she shoved out one of her own children after him, saying: \"Do not come back without your big brother.\" Thus the wild boy with the long, loose hair sits every day on a marshy island hid among the tall reeds. But he is not alone. Always at his feet hops a little toad brother.'"
+canonical-instances:
+  - "A manager who has grown suspicious that a talented employee is job-hunting assigns a friendly, well-liked coworker to 'pair up' with them on every project going forward, framing it as mentorship and collaboration rather than the monitoring it actually is, making it socially awkward for the employee to ever object to the arrangement."
+  - "Parents worried a teenager has started spending time with a bad influence arrange for a trusted, likable cousin to suddenly become available for every outing 'as company,' rather than directly restricting the teenager's movements, so the surveillance is absorbed into what looks like ordinary family closeness rather than an imposed restriction."
+critical-questions:
+  - "how does the monitored person ever distinguish a genuinely caring companion assignment from a surveillance one, if the entire mechanism depends on the cover being indistinguishable from the real thing -- is there any reliable signal available to them at all?"
+  - "does this tactic damage the cover relationship itself once discovered -- if the companion is later recognized as having been assigned for monitoring, does that retroactively poison whatever genuine warmth existed in the relationship, even if the companion's own affection was real?"
+  - "is there a meaningful ethical difference between this tactic used protectively (a parent worried about a child's safety) versus controllingly (an employer suspicious of disloyalty), or does the mechanism's covert, relationship-disguising nature make it ethically suspect regardless of the motive behind it?"
+status: active

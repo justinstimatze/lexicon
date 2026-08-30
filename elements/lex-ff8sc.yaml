@@ -1,0 +1,18 @@
+id: lex-ff8sc
+name: scaling-down-needs-to-match-a-diminished-resource
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than abandoning a depleted resource for a richer one elsewhere, an agent adapts consumption downward to whatever the diminished resource still offers and treats that as sufficient. This is a satisficing strategy under scarcity that trades maximization for stability and continuity, presented approvingly as contentment rather than as mere poverty of ambition. In the Jataka''s tale of Mahasuka, the parrot king, once the tree''s fruit is gone, simply eats what remains: he ate whatever was left, whether shoot or leaf or bark or rind, and drank of water from the Ganges, and being very happy and contented he kept where he was.'
+related: []
+evokes: [jataka, navanipata, mahasuka-jataka, satisficing-under-scarcity, contentment-vs-maximization]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahasuka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 429, Mahasuka-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "ate whatever was left, whether shoot or leaf or bark or rind, and drank of water from the Ganges, and being very happy and contented he kept where he was."
+canonical-instances:
+  - "A small nonprofit that loses its biggest donor doesn't chase a richer funding source elsewhere; it scales its programs down to match what its remaining, smaller donor base can sustain, and keeps running."
+critical-questions:
+  - "At what point does scaling down needs to match a shrinking resource stop being contentment and become a failure to notice that leaving was actually the better option?"
+status: active

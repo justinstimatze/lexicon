@@ -1,0 +1,19 @@
+id: lex-dwsuc
+name: failing-a-trivial-test-licenses-withdrawing-trust-on-the-large-stake
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A protector's demonstrated failure on a small, low-stakes responsibility can be used as sufficient grounds to withdraw trust entirely on a much larger one, since a party unable to manage what should have been the easy case has offered no evidence it would manage the hard one. In the Jataka's tale of the ascetic and the ox, a fire-worshipping ascetic leaves his sacrificial ox tied up unguarded while he goes to fetch salt, and hunters kill and eat it in his brief absence. He reasons that a fire-deity who couldn't even protect its own dedicated offering has no plausible claim to protecting him, a far larger and more complex undertaking, and abandons the practice entirely. The trivial failure wasn't treated as an isolated incident; it was treated as the only data point needed to answer a much bigger question."
+related: []
+evokes: [jataka, ekanipata, nangutthajataka, trivial-failure-as-sufficient-evidence-for-the-larger-question, small-scale-competence-test-before-large-scale-reliance]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-nangutthajataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 144, Nangutthajataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"As this Lord of Fire cannot so much as look after his own, how shall he look after me? It is a waste of time to serve him, bringing neither good nor profit.\""
+canonical-instances:
+  - "A homeowner discovers that a security company failed to notice a test package left unattended on the porch for an entire afternoon during a trial period, and cancels the contract entirely rather than trust the same company with monitoring the house during actual vacations."
+critical-questions:
+  - "Is a single trivial failure genuinely predictive of performance on a much larger, structurally different task, or does this inference sometimes overgeneralize from a case too small to say anything reliable about the real stakes?"
+  - "Does this reasoning only ever run toward withdrawing trust? A protector who passed the trivial test might not earn proportionate trust on the larger stake the same way a failure revokes it."
+status: active

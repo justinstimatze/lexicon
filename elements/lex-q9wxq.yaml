@@ -1,0 +1,19 @@
+id: lex-q9wxq
+name: an-audience-can-disbelieve-the-genuine-article-for-not-matching-the-fake
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When an audience judges whether something is authentic, check whether their standard is calibrated to a prior performance rather than to the raw evidence in front of them. In Aesop's 'The Clown and the Countryman,' a clown's convincing fake pig-squeal wins a crowd's approval over a countryman's real, live pig hidden under his smock, because the real squeal sounds different from the remembered fake one; the countryman proves it by producing the actual pig: 'There, that shows what sort of judges you are!' This runs opposite to ordinary deception, where a fake is mistaken for the real thing — here the genuine article loses precisely because expectation, not perception, is doing the judging."
+related: []
+evokes: [aesop, the-clown-and-the-countryman, expectation-over-perception, genuine-article-disbelieved]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-clown-and-the-countryman
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Clown and the Countryman.' Verified verbatim against a direct extraction of the held copy."
+    quote: "There, that shows what sort of judges you are!"
+canonical-instances:
+  - "a tasting panel rates an artificial flavor as more 'authentic' than the real ingredient. The artificial version matches a manufactured flavor-memory already lodged in the panel's expectations, an anchor the real ingredient's actual taste was never built to fit."
+critical-questions:
+  - "Once an audience's expectation has been shaped by an earlier fake, is there any way to correct it back toward the genuine article, or does the anchor become permanent until a new performance replaces it in turn?"
+  - "Does this mechanism require the fake to have come first specifically, or can an audience develop the same expectation-over-perception bias from repeated exposure to a genuine version that happens to vary slightly each time?"
+status: active

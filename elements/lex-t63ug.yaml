@@ -1,0 +1,20 @@
+id: lex-t63ug
+name: snail-darter-fallacy-small-does-not-mean-powerless
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: "Narrowing a long stakeholder list down to the ones worth tracking is necessary -- no organization can give equal attention to everyone. The mistake is narrowing on the wrong axis: the qualities that make a stakeholder look small and dismissible -- size, visibility, resources -- do not correlate with the qualities that determine whether it can actually block you. A tiny group can hold disproportionate leverage on a specific issue through a legal technicality, a procedural veto point, or a symbolic hook that has nothing to do with its size. Freeman names this after the real controversy where a three-inch endangered fish, the snail darter, nearly halted the Tellico Dam: 'it is just these \"snail darter\" stakeholders that can at times hold the balance of power on an issue.' Before crossing a stakeholder off the list as too small to matter, check what specific lever it might hold, not how big it looks."
+related: []
+evokes: [freeman-1984-strategic-management, chapter-6, snail-darter-fallacy, analysis-paralysis, insignificant-stakeholders]
+lineage:
+  - source: primary
+    text: freeman-1984-strategic-management-ch6
+    citation: "R. Edward Freeman, Strategic Management: A Stakeholder Approach (Pitman, 1984), Chapter 6 'Implementing and Monitoring Stakeholder Strategies,' section 'The Snail Darter Fallacy.'"
+    quote: "As a corporation narrows down its strategic options, so must it narrow down its list of stakeholders. It must leave those who are too small and too insignificant to worry about to others. However, the lessons from the real 'snail darter' story must not be lost. We must be careful in making these assessments, for it is just these 'snail darter' stakeholders that can at times hold the balance of power on an issue."
+canonical-instances:
+  - "A construction company narrows its stakeholder attention to major contractors, city officials, and large neighborhood associations, dismissing a small local wetlands preservation group as too minor to matter -- until that group invokes an obscure environmental review requirement that halts the entire project for eighteen months, a lever the company never checked for because it was too busy checking the group's size."
+  - "A software company deprioritizes a niche accessibility-advocacy nonprofit with a handful of members, focusing instead on its largest enterprise customers -- until the nonprofit files a complaint that triggers a regulatory audit none of the large customers had the standing to trigger."
+critical-questions:
+  - "Is there a reliable way to check a stakeholder's actual leverage before narrowing the list, or is the snail-darter risk simply an irreducible cost of any triage process -- something to accept rather than solve?"
+  - "Does spending resources checking every small stakeholder for hidden leverage defeat the purpose of narrowing the list in the first place, recreating the analysis-paralysis problem this triage was meant to avoid?"
+status: active

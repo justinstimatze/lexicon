@@ -1,0 +1,19 @@
+id: lex-ys9nv
+name: securing-a-behavioral-guarantee-before-consenting-to-a-foreseen-conflict
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A family anticipating a specific future conflict can refuse to consent to an otherwise-desired arrangement until the counterparty explicitly commits to a behavioral guarantee protecting the thing at risk — negotiating the condition before commitment rather than leaving it to be fought over afterward, once leverage has shifted. In the Jataka's tale of Suvannamiga, a bride's family withholds consent to the marriage until her freedom to practice her own religion is explicitly promised: 'Let your daughter when she comes to our house do everything of this kind, as she pleases. We will not prevent her. Only grant us this boon.' The groom's family answers: 'Take her then.'"
+related: []
+evokes: [jataka, pancanipata, suvannamiga-jataka, precommitted-guarantee-secured-before-consent, negotiating-a-foreseen-conflict-in-advance]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-suvannamiga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 359, Suvannamiga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Let your daughter when she comes to our house do everything of this kind, as she pleases. We will not prevent her. Only grant us this boon.\" \"Take her then,\" they answered."
+canonical-instances:
+  - "A founder joining a larger company through an acquisition won't sign the deal until the acquirer explicitly commits in writing to letting the founder's team keep operating under its original process for a fixed period, rather than trusting a verbal assurance that gets renegotiated once the deal has already closed."
+critical-questions:
+  - "Does securing the guarantee in advance actually protect the weaker party once the arrangement is underway, or do power dynamics after the fact tend to erode even explicit prior commitments regardless of how clearly they were stated?"
+  - "Is naming the specific future conflict in advance itself a cost — does it introduce friction or suspicion into a relationship that might otherwise have avoided the conflict entirely without ever being named?"
+status: active

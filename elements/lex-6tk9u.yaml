@@ -1,0 +1,20 @@
+id: lex-6tk9u
+name: pre-committing-to-an-escalating-ladder-of-appeals-before-the-first-attempt
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Before making a request you expect might be refused, planning out an entire sequence of increasingly weighty follow-up appeals in advance — starting modest and escalating in stages toward whatever maximum leverage you can muster — means a first refusal doesn't require improvising a response, since the next rung was already decided before the first one was tried. In the Jataka's tale of Sona and Nanda, expelled and needing to win back his brother's forgiveness, Nanda plans the whole campaign before attempting even the first step: \"I can fetch precious sand from the foot of Mount Sineru and sprinkling it in the cell of my brother's hut I can ask his forgiveness, and should he not even so be mollified, I will fetch water from lake Anotatta and ask him to forgive me, and should he not even thus be mollified... I would bring the four Great Kings and Sakka and ask his forgiveness, and should he still not be mollified, I would bring the chief king in all India, Manoja, and the rest of the kings.\""
+related: []
+evokes: [jataka, sattatinipata, sona-nanda-jataka, graduated-escalation, pre-planned-fallback-sequence]
+lineage:
+  - source: primary
+    text: jataka-francis1905-sona-nanda-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XX (Sattatinipata), No. 532, Sona-Nanda-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "I can fetch precious sand from the foot of Mount Sineru and sprinkling it in the cell of my brother's hut I can ask his forgiveness, and should he not even so be mollified, I will fetch water from lake Anotatta and ask him to forgive me, and should he not even thus be mollified, Supposing my brother should not pardon me for the sake of angelic beings, I would bring the four Great Kings and Sakka and ask his forgiveness, and should he still not be mollified, I would bring the chief king in all India, Manoja, and the rest of the kings and beg him to pardon me."
+canonical-instances:
+  - "Before asking a strict landlord for a lease exception, a tenant plans in advance to first offer extra rent, then a longer lease commitment, then a co-signer, then finally an appeal to the property management company above the landlord — deciding the whole sequence before making the first ask, so a 'no' just triggers the next prepared step rather than a scramble."
+  - "A junior researcher preparing to challenge a senior colleague's flawed methodology plans, before the first conversation, to escalate from a private note, to a shared meeting with a neutral peer present, to raising it with the department head — each step decided in advance rather than reactively assembled after each rejection."
+critical-questions:
+  - "The plan works partly because Nanda has the supernatural power to execute every rung of it himself, including conquering an empire to reach the final rung — how much does a pre-committed escalation ladder depend on actually possessing the resources for its top step, versus just being a hollow threat if the escalation is bluffed?"
+  - "Does planning the whole ladder in advance risk committing to disproportionate escalation out of momentum — pursuing the next rung because it was already decided, rather than reassessing after each refusal whether escalating further is still the right call?"
+status: active

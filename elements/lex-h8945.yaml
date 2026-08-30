@@ -1,0 +1,22 @@
+id: lex-h8945
+name: missing-evidence-only-refutes-a-theory-that-predicted-its-presence
+type-in: claim
+type-out: state
+_tier: atomic
+agent-instruction: "When a theory is defended against a 'you didn't find the effect everywhere' objection, first read what the theory itself predicted for each case. A theory that specifies a mechanism applying to only some cases predicts DIFFERENT outcomes across them, so it isn't weakened by failing to find a uniform signature everywhere a critic expected one. A signature's absence counts against the theory only in the cases the theory itself said should have one; where the theory predicted no signal, a null result confirms the theory's own differentiation rather than exposing a gap in it. The discipline: name the predicted-present cases and the predicted-absent cases separately, then check the absence landed only where predicted."
+related: [lex-xxmeh, lex-uhbgy]
+evokes: [ekman-vs-ortony-turner, differential-prediction, a-null-result-is-only-evidence-where-a-signal-was-predicted, not-every-emotion-needs-the-same-physiology]
+lineage:
+  - source: primary
+    text: ekman-1992-are-there-basic-emotions-abstract
+    citation: "Paul Ekman, 'Are There Basic Emotions?' Psychological Review 99(3):550-553 (1992), abstract. A direct reply to Ortony and Turner's (1990) critique of the basic-emotions position, retrieved from paulekman.com's own hosted PDF (image-scanned; OCR'd and independently re-verified against the source image). Ekman defends basic emotions on two evidentiary pillars — cross-cultural universality of expression and emotion-specific autonomic physiology — and argues Ortony and Turner's reviews of both literatures are faulted."
+    quote: "Ortony and Turner's (1990) arguments against those who adopt the view that there are basic emotions are challenged. The evidence on universals in expression and in physiology strongly suggests that there is a biological basis to the emotions that have been studied. Ortony and Turner's reviews of this literature are faulted, and their alternative theoretical explanations do not fit the evidence."
+  - source: primary
+    text: ekman-1992-differential-ans-prediction
+    citation: "Paul Ekman, 'Are There Basic Emotions?' Psychological Review 99(3):550-553 (1992), section 'Physiology.' Ortony and Turner had objected that emotion-specific autonomic nervous system (ANS) activity had not been demonstrated for every emotion any theorist has proposed. Ekman's reply is the atom's canonical instance: he does not treat the missing signature as a gap to explain away, because his own theory (ANS patterns evolved to prepare the organism for the specific motor action an emotion calls for) predicts no distinct signature for emotions with no distinct associated action."
+    quote: "What are we to make of the fact that there is not evidence of distinctive patterns of autonomic physiology for every emotion that every theorist has ever mentioned, not even for every emotion for which there is a universal expression? My own view is that these different patterns of ANS activity evolved to prepare the organism for quite different motor actions that were likely to be adaptive for particular emotions, such as anger, fear, or disgust."
+canonical-instances:
+  - "A drug is tested against a disease with several molecular subtypes; the mechanism of action only targets one subtype's pathway. A critic notes the drug shows no effect in the other subtypes and calls this a failure of the drug's proposed mechanism. That silence in the untargeted subtypes is exactly what the mechanism predicted; a uniform effect across every subtype would have been the actual anomaly."
+critical-questions:
+  - "Was the differentiation (which cases should show the effect and which shouldn't) specified BEFORE the data came in, or is it being read off the results after the fact to explain away an inconvenient null? Ekman's motor-preparation story predates the specific ANS findings it's invoked to protect; a differentiation invented only after seeing which cases failed is the ad hoc rescue this pattern is not, and the two can look identical from outside without checking the timeline."
+status: active

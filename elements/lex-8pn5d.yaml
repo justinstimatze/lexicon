@@ -1,0 +1,19 @@
+id: lex-8pn5d
+name: preaching-a-virtue-maintains-cover-until-temptation-exceeds-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "An opportunist seeking access to a target doesn't just imitate the target's virtuous behavior — actively lecturing the target about that same virtue reinforces the cover, and the disguise holds only up to the point where temptation exceeds what the performance was built to withstand. The Jataka's crow flatters his way into sharing a disciplined pigeon's lodging. He claims to admire the pigeon's restraint, imitates it, and lectures him that 'excess should be shunned' — right up until he's left alone near a store of fish, where the performance drops entirely and he's caught and killed trying to steal it. The moralizing wasn't insurance against temptation; it was camouflage that had nothing left to offer once the crow judged the opportunity worth the exposure."
+related: []
+evokes: [jataka, ekanipata, kapota-jataka, preaching-virtue-as-active-camouflage, disguise-collapses-past-its-temptation-threshold]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kapota-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 42, Kapota-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"My lord, you give too much time to eating; excess therein should be shunned.\""
+canonical-instances:
+  - "A new hire who publicly champions strict expense-reporting discipline, and even corrects colleagues who round numbers up, quietly submits a padded reimbursement the first month a large, hard-to-verify travel claim comes up."
+critical-questions:
+  - "Is actively preaching the virtue meaningfully different from simply imitating it silently, or does the lecturing only matter because it makes the eventual exposure feel more like hypocrisy than plain theft?"
+  - "How would a target distinguish this pattern from someone who genuinely holds the stated principle but has a single, uncharacteristic lapse under unusually strong temptation?"
+status: active

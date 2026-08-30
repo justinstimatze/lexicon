@@ -1,0 +1,19 @@
+id: lex-kmw7b
+name: preemptive-severance-from-a-failing-peer-is-reputational-firewalling
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When colleagues cut social and professional ties with someone who's starting to fail, the stated or implied concern for the failing person is often absent entirely — the motive is protecting one's own reputation from contagion by association, and the severance happens proactively, before the failure is fully confirmed, precisely because waiting for certainty would mean waiting too long to firewall the association. This is a distinct mechanism from ordinary abandonment: it's structural and pre-emptive rather than reactive, driven by pure self-interest that the practitioners can state plainly without apparent discomfort, and it typically ends the relationship completely rather than merely cooling it, since a partial distancing still carries some of the reputational risk being avoided."
+related: []
+evokes: [jackall-moral-mazes, "put him in a little boat, tow him out to sea, and cut the rope", proactive-reputational-firewalling]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch3-tow-him-out-to-sea
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 3, Section III."
+    quote: "Our motives are purely selfish. We're not concerned about old Joe failing, but we're worried about how his failure will reflect on us [...] What we do essentially when somebody fails is to put him in a little boat, tow him out to sea, and cut the rope. And we never think about him again."
+canonical-instances:
+  - "Colleagues who previously socialized openly with a coworker facing performance scrutiny stop being seen with them at lunch and in meetings weeks before any formal outcome is decided, well ahead of any confirmation that the scrutiny will end in termination."
+critical-questions:
+  - "Is the preemptive severance actually protecting the group from real reputational contagion, or is contagion itself mostly manufactured by the visible act of distancing — would staying visibly associated have carried any real cost at all if no one had distanced themselves first?"
+status: active

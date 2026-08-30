@@ -1,0 +1,22 @@
+id: lex-9mncs
+name: one-channel-for-every-good-collapses-many-bets-into-one
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "One group's path through life offers many independent channels for pursuing any given good, so that failure in one channel is recoverable by trying another; a different group's path forces every one of those same goods to route through a single, non-repeatable choice, collapsing what should be many separate bets into one all-or-nothing wager. Gilman contrasts the two directly. Of the young man: 'the world lies wide... If he chooses wrong at first, he may choose again, and yet again... Wealth, power, social distinction, fame,—what he wants he can try for.' Of the young woman, by contrast: 'all that she may wish to have, all that she may wish to do, must come through a single channel and a single choice... all, must come to her through a small gold ring.'"
+related: []
+evokes: [women-and-economics, chapter-iv, if-he-chooses-wrong-at-first-he-may-choose-again, must-come-to-her-through-a-small-gold-ring, single-channel-versus-many-channels-of-attainment]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-iv
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter IV. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "To the young man confronting life the world lies wide. Such powers as he has he may use, must use. If he chooses wrong at first, he may choose again, and yet again. [...] What he wants to be, he may strive to be. What he wants to get, he may strive to get. Wealth, power, social distinction, fame,—what he wants he can try for. [...] To the young woman confronting life there is the same world beyond, there are the same human energies and human desires and ambition within. But all that she may wish to have, all that she may wish to do, must come through a single channel and a single choice. Wealth, power, social distinction, fame,—not only these, but home and happiness, reputation, ease and pleasure, her bread and butter,—all, must come to her through a small gold ring."
+canonical-instances:
+  - "A worker in an industry with many employers, many career paths, and easy lateral moves can recover from a bad job choice by finding another; a worker locked into one employer through a restrictive contract, visa sponsorship, or company town must get that single choice right, because there's no second channel to fall back on."
+  - "An investor who can spread capital across many independent opportunities can absorb the failure of any single bet. An investor whose entire fortune sits in one illiquid position has no such cushion, no matter how promising that position looked going in."
+  - "A student with access to many possible schools, majors, and career pivots can recover from choosing the wrong path early; a student whose family's entire resources and expectations are staked on one single, irreversible path has no equivalent margin for a wrong first choice."
+critical-questions:
+  - "Is the contrast really about the number of channels, or about how forgiving each channel is when things go wrong -- a person with many options that are each individually harsh might be worse off than a person with one option that's genuinely recoverable, which the channel-count alone doesn't capture?"
+  - "Gilman frames the man's many channels as pure advantage, but doesn't pursuing many independent paths also mean never fully committing to or mastering any one of them -- could the single-channel path, despite its risk, sometimes produce deeper expertise or commitment than the many-channel path allows?"
+  - "How much does this structural difference actually predict outcomes in practice, versus other factors like starting resources or luck -- having many channels available in principle doesn't guarantee any of them are genuinely accessible to a given person."
+status: active

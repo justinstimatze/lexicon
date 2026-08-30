@@ -1,0 +1,19 @@
+id: lex-6h74q
+name: the-same-choice-replayed-with-a-different-outcome-marks-change
+type-in: situation
+type-out: structure
+_tier: atomic
+agent-instruction: 'A frame story and an embedded past-life story can present the same character facing the same pressure — resolving it oppositely each time — so that the contrast itself, rather than any stated argument, becomes the evidence of moral progress. This is a narrative-structural device: pairing a present case against a near-identical past case to make change visible without narrating the change directly. In the Jataka''s tale of Kaccani, the Buddha names the contrast explicitly: "This time you would not do her bidding: but formerly you cast out your mother at her bidding and owing to me took her back again to your house and tended her"'
+related: []
+evokes: [jataka, atthanipata, kaccani-jataka, paired-repetition-as-evidence, before-and-after-structure]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kaccani-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 417, Kaccani-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "This time you would not do her bidding: but formerly you cast out your mother at her bidding and owing to me took her back again to your house and tended her"
+canonical-instances:
+  - "A performance review cites the exact scenario an employee mishandled a year earlier and shows how they handled the same kind of client complaint this time, letting the side-by-side contrast argue for their growth instead of asserting it."
+critical-questions:
+  - "Does replaying the identical setup actually isolate the variable that changed, or could something else about the second instance — different stakes, a different audience — explain the different outcome?"
+  - "Who controls which two instances get placed side by side, and could the same technique be used to manufacture an appearance of change that isn't real?"
+status: active

@@ -1,0 +1,29 @@
+id: lex-q9asc
+name: source-attribution
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: "When citing a source, name it AND its access path. Source-attribution must include both 'who said it' and 'how I know they said it'; otherwise the citation can't be checked. Untraceable sources are unaccountable claims dressed as evidence."
+related: [lex-af9ax, lex-kebfa, lex-dm5te, lex-xrg6e, lex-c7pga, lex-hfjhy, lex-cpjma, lex-nn3u9, lex-2rpxq, lex-yv8ag, lex-7q3ph, lex-utn22, lex-aut4h, lex-fn2gx, lex-vs2t5]
+evokes: [provenance-tagging, says-S, assertion-event, attributing, framed-claim-as-side-channel]
+lineage:
+  - source: primary
+    tradition: walton
+    text: walton-reed-macagno-2008
+    citation: "Douglas Walton, Chris Reed, and Fabrizio Macagno, Argumentation Schemes (Cambridge University Press 2008), Ch.1 §2 'Argument from Position to Know and Expert Opinion,' p.13 (citing Walton 1996 p.61). Walton's classification (Ch.10 §1 p.350 'Source-Based Arguments') groups Position to Know, Witness Testimony, Expert Opinion, and Argument from Ignorance as source-based argument family — source-attribution is the structural prerequisite shared by all four schemes. PDF on shelf (isbn13 9780521723749), verbatim 2026-05-21."
+    quote: "Argument from Position to Know. Major Premise: Source a is in a position to know about things in a certain subject domain S containing proposition A. Minor Premise: a asserts that A (in domain S) is true (false). Conclusion: A is true (false). [...] CQ3: Did a assert that A is true (false)?"
+  - source: practitioner
+    text: coady-1992
+    citation: "C.A.J. Coady, Testimony: A Philosophical Study (Oxford University Press 1992), Ch.2 — testimony as basic source-type. Tier-3 deepening source The verified Walton Ch.1 §2 verbatim above supplies the canonical source-attribution scheme; Coady would deepen the philosophical-foundations side (testimony-as-knowledge-source) but is not central for the operational source-attribution claim this atom names."
+    quote: "[Tier-3 deepening source; the verified Walton Ch.1 §2 verbatim above (Argument from Position to Know scheme + CQ3 'Did a assert that A?') carries the operational claim. Coady's testimony-epistemology would deepen but not change the source-attribution premise structure.]"
+canonical-instances:
+  - "the RFC author asserts that protocol P does X — the claim 'P does X' continues as the principal output, with attribution 'said-by-RFC-author' attached as side-channel"
+  - "Dr. Y (oncology) said treatment T helps cancer C — input claim 'T helps C' remains the principal claim; 'attributed-to-Y' rides as metadata on the same claim"
+  - "the move 'where did you read that?' explicitly invokes this atom — the conversational ask attaches the attribution side-channel to a free-floating assertion, which is the substrate-prerequisite for downstream credibility-assessment (lex-dm5te) and defeater-attachment (lex-af9ax). The claim itself doesn't change; what changes is whether the attribution metadata is now present"
+critical-questions:
+  - "did the source actually assert this, or was it framed/paraphrased/inferred? Walton's CQ3 — if the chain is 'I heard from X who said Y meant Z,' the attribution has degraded to hearsay before reaching the claim"
+  - "is the attribution the right metadata to attach, or is it being used as the critical argument? if acceptance rides on WHO said it rather than WHAT was said + position-to-know, this is ad verecundiam disguised as source-attribution"
+  - "is the source a person, an institution, a document, or a model? attribution-shape differs across these — an RFC author's claim has a different attribution-edge from a model's output, and pretending otherwise smuggles human-credibility into model-output (or vice versa)"
+  - "what happens to the claim if the attribution is stripped? if the same claim from an unnamed source would be evaluated differently, attribution is doing argument-work, not metadata-work — surface that explicitly per lex-kebfa"
+severity-tier: info
+status: active

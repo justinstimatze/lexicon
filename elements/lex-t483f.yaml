@@ -1,0 +1,21 @@
+id: lex-t483f
+name: quitting-a-failing-attempt-early-caps-the-damage-persisting-makes-it-total
+type-in: process
+type-out: warning
+_tier: atomic
+agent-instruction: "When an attempt at something is visibly costing you more with each try and achieving nothing, the moment you notice the cost mounting is the cheapest moment to stop -- waiting only trades a partial, recoverable loss for a total one. In Cushing's telling, Eagles and Crows try to extinguish a blinded man's magic torch out of pure cruelty, and both groups pay a real cost for trying: the flames singe and blacken their feathers with every failed pass. The Eagles notice the damage and stop: 'Good gracious, brothers! exclaimed some of them to the others, we have made a fine mess of our white plumage! And they gave it up,' ending up merely speckled with brown and black. The Crows see exactly the same evidence and keep going anyway: 'they grew blacker and blacker, they would not give it up. So they became as black as crows are now.' Same failing attempt, same visible cost accumulating in real time, same lack of any progress toward the goal, and the only variable that determined a partial mark versus total transformation was how long each group kept trying past the point the cost was already obvious. Diagnostic move: when you're partway into a costly attempt that isn't working and the failure is visibly mounting rather than hypothetical, the fact that you've already paid some cost is not a reason to pay more of it, it's the exact evidence that tells you the price of continuing is only going up."
+related: [lex-b3g28]
+evokes: [visible-mounting-cost-with-no-progress-is-the-signal-to-stop-now, cushing-the-hermit-mitsina, we-have-made-a-fine-mess-of-our-white-plumage, they-would-not-give-it-up]
+lineage:
+  - source: primary
+    text: cushing-eagles-quit-early-crows-persist-into-total-blackness
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Hermit Mitsina.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'In looking at one another they saw what a sad plight they were in. Good gracious, brothers! exclaimed some of them to the others, we have made a fine mess of our white plumage! And they gave it up. Then the Crows rushed in and flapped against the light, but they could not put it out; and although they grew blacker and blacker, they would not give it up. So they became as black as crows are now; and ever since then eagles have been speckled with brown and black, and crows have been black, even to the tips of their beaks.'"
+canonical-instances:
+  - "Two competing startups burn cash on the same failing marketing channel, and one team notices the rising customer acquisition cost with no matching growth and reallocates the budget elsewhere, while the other keeps pouring money in on the belief that quitting now would waste what's already been spent, ending up far deeper in the loss than the team that stopped early."
+  - "Two hikers caught in worsening weather both realize the trail ahead is getting more dangerous with each step, and one turns back while still only mildly exposed, while the other pushes on hoping conditions will improve, ending up in a genuinely life-threatening situation that the earlier turnaround point never carried."
+critical-questions:
+  - "Is the Eagles' choice to quit actually the wiser one, or does the story simply reward whichever group happened to stop first, with no indication that continuing could ever have succeeded either way -- does 'no progress' need to be established before this logic applies?"
+  - "Would the Crows' persistence look different, and perhaps more justified, if there had been any sign that one more attempt might succeed, rather than the story's implication that the torch was never going to go out regardless of effort?"
+  - "Does the sunk-cost logic here differ meaningfully from ordinary situations, given that the birds are pursuing pure cruelty rather than a goal with legitimate value -- does the same stop-early principle apply as strongly when the failing attempt was never a good idea to begin with?"
+status: active

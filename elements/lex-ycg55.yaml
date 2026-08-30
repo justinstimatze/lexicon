@@ -1,0 +1,19 @@
+id: lex-ycg55
+name: literal-terrain-hazards-as-decode-on-request-code-for-social-dangers
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: 'When a listener has no framework yet for an abstract danger, phrase the warning first in concrete, physical terms they already understand — precipices, mud, snakes — and only unpack the metaphor when they ask what it actually means. The concrete version can be absorbed and acted on (avoid the literal-sounding hazard) even before the listener grasps what it stands for, and the reveal, once requested, lands harder because the listener has already been holding the warning as something real. In the Jataka''s tale, a forest ascetic instructs his son on returning to society: "Keep clear of every precipice, from poison keep afar, / Sit never in the mud, and walk with care where serpents are." The son, "not understanding this pithy counsel," asks what precipices and mud and snakes have to do with religious life, and only then does the father decode each term in turn: "women in the world can set fools'' wits a whirling round... The precipice I mean is this"; "High honours shown by other men, respect and fame and gain, / This is the mud, O Narada, which holy men may stain"; "these are the snakes of whom I spake just now," of walking before the feet of kings and monarchs.'
+related: []
+evokes: [jataka, terasanipata, culla-narada-jataka, coded-warning, concrete-metaphor-for-abstract-danger, decode-on-request-teaching]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-culla-narada-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XIII (Terasanipata), No. 477, Culla-Narada-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: 'Keep clear of every precipice, from poison keep afar, / Sit never in the mud, and walk with care where serpents are.'
+canonical-instances:
+  - "A veteran engineer tells a new hire moving to a client-facing role, before explaining anything about office politics, to treat three things like live wires: don't let a client rewrite the roadmap in a hallway conversation, refuse credit you can't defend in a room without the person who did the work, and never let silence stand in for a commitment you haven't actually made — and only walks through what each one is really protecting against when the new hire asks which client conversation triggered the rule."
+critical-questions:
+  - "Does the concrete phrasing actually transmit the right boundary before it's decoded, or does the son simply avoid nothing until the explanation arrives — is the literal version doing real protective work, or only the decoded one?"
+  - "What determines whether a listener asks for the decode at all — if the son had accepted the literal warning at face value and never asked, would the teaching have failed silently?"
+status: active

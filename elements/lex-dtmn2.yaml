@@ -1,0 +1,30 @@
+id: lex-dtmn2
+name: simulated-companionship-monetizes-a-vulnerability-that-outlasts-any-single-technology
+type-in: situation
+type-out: frame
+_tier: molecule
+agent-instruction: "When a new technology is proposed as the fix for a vulnerability-driven exploitation pattern (AI companions 'solving' loneliness, a new platform 'solving' a prior platform's extraction model), check whether the underlying vulnerability the exploitation targets is itself disruption-proof. Simulated companionship strips out the vulnerability (real solitude, real risk of rejection) that made genuine connection valuable in the first place — and vice-shaped exploitation patterns tend to survive technological disruption by relocating to the new medium, not by being solved by it."
+related: [lex-kwec5, lex-qe23q]
+scaffolds-from: [lex-qe23q, lex-kwec5]
+evokes: [ai-companion-monetizes-loneliness, vice-survives-disruption, vulnerability-stripping, simulated-vs-real-connection]
+decomposes-into:
+  - lex-qe23q
+  - lex-kwec5
+assembly: "sequential(lex-qe23q, lex-kwec5)"
+premises:
+  - "simulated companionship strips out the vulnerability and solitude that made genuine connection possible and valuable in the first place — a companion that can't reject you, forget you, or need anything from you removes the risk that real connection requires (lex-qe23q)"
+  - "AI-companion apps monetizing loneliness by supplying this stripped-down substitute are exploiting a real, capacity-and-vulnerability-shaped human need"
+  - "this kind of exploitation is vice-shaped, and vice is disruption-proof — new technology doesn't eliminate the underlying exploitable vulnerability, it relocates the exploitation to a new, often more scalable medium (lex-kwec5)"
+  - "each new companionship-technology wave should therefore be read as a new venue for the same persistent exploitation pattern, not as evidence the pattern has been solved"
+critical-questions:
+  - "is the AI-companion case actually vulnerability-exploitation, or does it supply genuine (if partial) value to users who would otherwise have no connection at all — is the relevant comparison against real connection, or against no connection?"
+  - "does 'vice is disruption-proof' predict that regulation or design changes are futile, or only that they must target the underlying vulnerability-exploitation mechanism rather than the specific technology? The composition implies the latter, but the practitioner has to actually specify what targeting the mechanism looks like."
+  - "who bears the cost when the vulnerability-stripping fails to deliver its promised substitute — does simulated companionship actually reduce felt loneliness, or does it deepen it by further reducing tolerance for the vulnerability real connection requires? This is an empirical question the composition doesn't settle."
+lineage:
+  - source: practitioner
+    text: assembled-from-lex-qe23q-lex-kwec5
+    citation: "Molecule assembled from lex-qe23q (simulated-companionship-strips-vulnerability-solitude-enables-connection) and lex-kwec5 (vice-is-disruption-proof). lex-qe23q's own canonical-instances state the link: 'Composes with lex-kwec5/lex-7wvdb (prospect-project atoms on monetizing a vulnerability vs. a capacity, with \"AI-companion apps monetizing lo[neliness]...\"'."
+canonical-instances:
+  - "AI companion apps (Replika and successors): marketed as a solution to loneliness, these products strip out the risk-of-rejection and reciprocal-need that define real connection (lex-qe23q), and the underlying commercial exploitation of loneliness-as-vulnerability predates the technology — arcade fortune-tellers, 900-number chat lines, and online role-play communities monetized the same vulnerability with lower-fidelity tools; the AI wave is a new venue, not a new phenomenon (lex-kwec5)."
+  - "Contrast case showing the boundary: a video-call app that helps a homebound elderly person maintain real relationships with actual family members is not an instance of this composition — it doesn't strip out the vulnerability of real connection, it removes a logistical barrier to it. The molecule applies specifically when the product substitutes a vulnerability-free simulation for the real thing, not when it merely enables the real thing at a distance."
+status: under-review

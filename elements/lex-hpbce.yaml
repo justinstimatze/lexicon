@@ -1,0 +1,20 @@
+id: lex-hpbce
+name: withhold-a-shared-necessity-from-everyone-to-force-one-offenders-submission
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A personal grievance against one offender can be escalated into a crisis affecting an entire community sharing some universal resource or condition, deliberately using the community's own distress as leverage to force third parties to compel the offender's public submission — rather than retaliating against the offender directly, which the aggrieved party could also do but chooses not to, since the point is repentance rather than harm. In the Jataka's tale of Matanga, cursed repeatedly by a proud ascetic who threatens him, the sage resolves not to strike back but to break the man's pride a different way: \"The Great Being thought, 'If I allow myself to be angry with the man, I shall not be keeping my virtue; but I will find a way to break down his pride.' On the seventh day, he prevented the sunrise.\" The whole world's distress at the missing sunrise brings the community to physically deliver the offender to beg forgiveness — accomplishing through collective pressure what direct retaliation against one person never could."
+related: []
+evokes: [jataka, visatinipata, matanga-jataka, escalation-as-leverage, collective-pressure-forces-submission]
+lineage:
+  - source: primary
+    text: jataka-rouse1901-matanga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XV (Visati-Nipata), No. 497, Matanga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The Great Being thought, 'If I allow myself to be angry with the man, I shall not be keeping my virtue; but I will find a way to break down his pride.' On the seventh day, he prevented the sunrise."
+canonical-instances:
+  - "A tenant with no individual leverage against an unresponsive landlord organizes the whole building to withhold rent simultaneously, converting one tenant's private grievance into a building-wide crisis the landlord's lender and city inspectors can't ignore."
+  - "An open-source maintainer, tired of a single corporate downstream consumer ignoring license terms, doesn't sue that one company but pulls the package from the public registry entirely, breaking every downstream project at once until the offending company is publicly named and the terms are honored."
+critical-questions:
+  - "The sage's leverage works because he has genuine supernatural power over a resource everyone needs. What does this move look like — and does it still work — when the aggrieved party's claimed control over the shared resource is bluffed or only partial?"
+  - "Everyone but the offender suffers during the escalation, and the text doesn't dwell on whether the community resents being made collateral. When does converting bystanders into hostages backfire by turning their anger toward the aggrieved party instead of the offender?"
+status: active

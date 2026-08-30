@@ -1,0 +1,22 @@
+id: lex-p3vm5
+name: a-narrator-names-the-skeptical-reading-without-taking-a-side
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A writer reporting a strikingly-timed event that coincides with a ritual can name, in their own narrating voice, exactly how their intended skeptical readership will interpret it -- without asserting the supernatural claim themselves and without arguing the reader out of the skeptical reading -- while still reporting the precise, checkable facts of what happened. Describing the sudden rain and thunder at Harney Peak, Neihardt writes plainly: 'What happened is, of course, related to Wasichu readers as being merely a more or less striking coincidence.' He neither endorses Black Elk's framing nor debunks it; he names the coincidence-reading as the reading his readers will bring, and moves on to the next precise, checkable detail."
+related: []
+evokes: [black-elk-speaks, authors-postscript, related-to-wasichu-readers, a-more-or-less-striking-coincidence, of-course]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch26-authors-postscript
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 26, 'Author's Postscript.' Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "What happened is, of course, related to Wasichu readers as being merely a more or less striking coincidence."
+canonical-instances:
+  - "A journalist covering a faith healer's public demonstration writes that a skeptical reader will attribute the patient's recovery to the placebo effect, states the fact of the recovery plainly, and neither argues for nor against the skeptical explanation in the piece."
+  - "A biographer recounting a scientist's account of a dream that supplied a key equation notes that most readers will read the dream as ordinary subconscious processing rather than genuine inspiration, states what the scientist reported, and leaves the interpretation to the reader."
+  - "An anthropologist documenting a community's account of a healer's successful diagnosis writes that Western medical readers will call the outcome a lucky guess, records the diagnosis and its confirmation precisely, and declines to adjudicate between the two readings."
+critical-questions:
+  - "Does naming the skeptical reading in advance actually preserve neutrality, or does labeling it 'merely' a coincidence subtly steer the reader toward taking the skeptical frame less seriously than a genuinely neutral presentation would?"
+  - "Is withholding a personal verdict on an event the narrator personally witnessed a genuine editorial restraint, or does it let the writer have it both ways, preserving the story's mystical power for readers inclined to believe while retaining deniability with those who aren't?"
+  - "Neihardt names only one skeptical explanation, coincidence -- does omitting other possible naturalistic readings (seasonal weather patterns already shifting, a storm system already approaching) make the coincidence framing itself an incomplete stand-in for a fuller skeptical account?"
+status: active

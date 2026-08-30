@@ -1,0 +1,22 @@
+id: lex-pquu2
+name: a-found-object-is-repurposed-by-the-nearest-available-category
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A person can find an unfamiliar manufactured object stripped of the cultural context that would explain it, and repurpose it entirely according to a category already available to them rather than its designed function, holding that repurposing for a long time before later learning what the object actually was. Looting a dead soldier's belt after the Little Bighorn, Black Elk pulls out something 'round and bright and yellow and very beautiful' -- a pocket watch -- and puts it on as a necklace. 'At first it ticked inside, and then it did not any more. I wore it around my neck for a long time before I found out what it was and how to make it tick again.' The object's actual function, timekeeping, was invisible to him; 'beautiful ornament' was the nearest category his experience supplied, and it held until outside knowledge eventually arrived to replace it."
+related: []
+evokes: [black-elk-speaks, rubbing-out-of-long-hair, round-and-bright-and-yellow, wore-it-around-my-neck-for-a-long-time, ornament-before-function]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch9-rubbing-out-of-long-hair
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 9, 'The Rubbing Out of Long Hair.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "Then I saw something bright hanging on this soldier's belt, and I pulled it out. It was round and bright and yellow and very beautiful and I put it on me for a necklace. At first it ticked inside, and then it did not any more. I wore it around my neck for a long time before I found out what it was and how to make it tick again."
+canonical-instances:
+  - "A child finds a discarded computer mouse at a scrapyard and uses it for months as a toy car, pushing it across the floor, before ever seeing one connected to a screen and understanding what it was built to do."
+  - "An archaeological dig in a region with no prior contact finds later generations wearing fragments of an older civilization's coin currency as decorative pendants, the coins' original function as exchangeable money having been completely lost and replaced by their function as pretty metal disks."
+  - "A person inherits an antique tool from an unrelated trade and displays it on a shelf as a decorative curiosity for years, never suspecting it has a specific mechanical function, until a specialist eventually identifies it."
+critical-questions:
+  - "Once an object has been fully and satisfyingly repurposed into an available category, ornament rather than instrument, does the person have any way to notice the mismatch before outside information arrives, or is 'it stopped ticking' the only clue that ever surfaces on its own?"
+  - "Does wearing the watch as jewelry change or damage it in a way that eventually made its real function harder to recover once he did learn what it was, or did the object survive its long ornamental use intact?"
+  - "When an object's designed function only reaches its finder much later, what actually gets lost during the gap -- does knowing the watch could have told him time all along change how Black Elk might have valued the years he wore it as pure ornament?"
+status: active

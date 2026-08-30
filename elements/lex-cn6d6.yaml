@@ -1,0 +1,18 @@
+id: lex-cn6d6
+name: crowd-legitimated-merit-succession-overrides-birth-order-seniority
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: 'A dying leader can decline to name an heir by strict birth order and instead delegate the choice to the collective will of the court, resulting in a younger candidate being chosen over elder siblings on the basis of demonstrated merit and popularity rather than seniority. In the Jataka''s tale of Prince Samvara, the king refuses to name his eldest as automatic heir and instead defers entirely to whoever the court prefers: "''Friends,'' said he, ''all my sons have a right to the White Umbrella. But you may give it to him that pleases your mind.''" The court chooses the youngest of a hundred sons.'
+related: []
+evokes: [jataka, ekadasanipata, samvara-jataka, merit-based-succession, primogeniture-overridden]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-samvara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 462, Samvara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Friends, said he, all my sons have a right to the White Umbrella. But you may give it to him that pleases your mind."
+canonical-instances:
+  - "A family business patriarch, instead of automatically handing the CEO title to his eldest, tells the leadership team to choose whichever of his children they trust most to run the company — and they pick the youngest, who's spent years quietly earning their confidence."
+critical-questions:
+  - "Delegating succession to crowd preference replaces one arbitrary criterion (birth order) with another (popularity) — does popularity among the court actually track competence any more reliably than seniority does?"
+status: active

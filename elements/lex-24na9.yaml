@@ -1,0 +1,19 @@
+id: lex-24na9
+name: a-metrics-trajectory-is-more-diagnostic-than-its-current-level
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When assessing whether someone or something is doing well, weight the direction a key metric is moving over its current absolute value. Hippocrates' Aphorisms: 'For the most part, all persons in ill health, who have a good appetite at the commencement, but do not improve, have a bad appetite again towards the end; whereas, those who have a very bad appetite at the commencement, and afterwards acquire a good appetite, get better off.' Two patients can pass through an identical appetite level at different points and be headed toward opposite outcomes — a strong start that's degrading predicts worse than a weak start that's recovering, even though the weak-starting patient's current number may still be lower. A single reading tells you where a system is; a trajectory tells you where it's headed, and the second question is usually the one that actually matters."
+related: []
+evokes: [hippocrates, aphorisms, trajectory-more-diagnostic-than-current-level, direction-of-change-beats-static-reading]
+lineage:
+  - source: primary
+    text: hippocrates-aphorisms-adams1849-sectionII-32
+    citation: "Hippocrates, Aphorisms, trans. Francis Adams (Sydenham Society, 1849), Section II, §32. Verified verbatim against a direct extraction of the held copy."
+    quote: "For the most part, all persons in ill health, who have a good appetite at the commencement, but do not improve, have a bad appetite again towards the end ; v.hereas, those Avho have a very bad appetite at the commencement, and afterwards acquire a good appetite, get better off."
+canonical-instances:
+  - "an investor comparing two startups picks the one with higher current revenue over one with lower revenue but a steeper accelerating growth curve, and a year later the fast-improving smaller company has overtaken the stagnant larger one, exactly as its trajectory rather than its starting level had predicted."
+critical-questions:
+  - "How much history does someone need before a direction of change counts as a real trajectory rather than noise — is one data point of improvement or decline ever enough to outweigh a strong current level?"
+  - "Does this claim hold when the current level carries its own hard floor or ceiling effect — a system already near a physical limit may show a flattening trajectory for reasons that have nothing to do with its underlying direction?"
+status: active

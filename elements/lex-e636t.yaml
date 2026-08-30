@@ -1,0 +1,19 @@
+id: lex-e636t
+name: securing-future-supply-destroys-the-capacity-it-was-meant-to-protect
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'Anticipating future weakness, a person can trap a captive resource inside an enclosure specifically to avoid having to range further afield once frailty sets in — but the very act of no longer ranging causes the physical capacity to range to atrophy, leaving them worse off than the future they were hedging against. In the Jataka''s tale of Indriya, the hunter''s own reasoning states the trap this way before it backfires on him: "I shall not always be strong; when I grow weak I shall not be able to range the forest: now I will drive many kinds of wild animals into this defile, close it up by a gate, and then without roaming the forest I shall kill and eat them at my pleasure:" and so he did.'
+related: []
+evokes: [jataka, atthanipata, indriya-jataka, use-it-or-lose-it-atrophy, hedge-against-frailty-produces-frailty]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-indriya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 423, Indriya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "I shall not always be strong; when I grow weak I shall not be able to range the forest: now I will drive many kinds of wild animals into this defile, close it up by a gate, and then without roaming the forest I shall kill and eat them at my pleasure:"
+canonical-instances:
+  - "A skilled navigator, worried she'll lose her edge as she ages, has the ship's systems automated so she never has to manually plot a course again — and within a few years finds she genuinely can't navigate without the automation she installed to protect her from that exact loss."
+critical-questions:
+  - "Is there a way to secure future supply against a real, anticipated weakness without also removing the practice that was keeping the capacity strong in the first place?"
+  - "At what point in the hunter's story could he have noticed the trap was backfiring in time to reverse it, before the capacity was already gone?"
+status: active

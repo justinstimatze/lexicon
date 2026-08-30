@@ -1,0 +1,19 @@
+id: lex-hny5k
+name: vet-a-petitioner-by-interrogating-the-company-they-keep
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Before granting access to someone seeking a benefit, asking about the character of the people they associate with can work as a diagnostic proxy for their own nature, on the theory that company reveals what direct questioning about oneself might not. In the Jataka's tale of Sirikalakanni, the merchant questions each goddess about the kind of people she favors before deciding who may use his reserved seat: 'What the conduct, what the ways, Of the men with whom you dwell This is what my question prays: We will mark the answer well.'"
+related: []
+evokes: [jataka, chanipata, sirikalakanni-jataka, vetting-via-associates, company-as-diagnostic-proxy]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sirikalakanni-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 382, Sirikalakanni-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "What the conduct, what the ways, Of the men with whom you dwell This is what my question prays: We will mark the answer well."
+canonical-instances:
+  - "A landlord vetting a prospective tenant asks who their previous roommates were and how those living situations ended, treating the answer as more informative than anything the applicant might say about themselves directly."
+critical-questions:
+  - "Does the quality of someone's company actually predict their own conduct reliably, or does this just import guilt or credit by association that the person themselves may not deserve?"
+  - "Can a petitioner game this test simply by naming better company than they actually keep, given that the merchant has no independent way to verify the claim?"
+status: active

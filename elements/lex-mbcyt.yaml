@@ -1,0 +1,19 @@
+id: lex-mbcyt
+name: scrupulosity-over-trivial-unintended-infractions-signals-genuine-moral-rigor
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Intense self-doubt over a trivial, unintended infraction functions as a hard-to-fake signal of genuine moral rigor, precisely because someone who was actually lax wouldn't bother scrutinizing themselves this closely over something this small. The scruple isn't proof of wrongdoing. It's proof of the standard the person holds themselves to. In the Jataka's tale of the Kuru righteousness, messengers pass down a chain of increasingly virtuous people, and each refuses to claim the virtue, citing some minute, unintended lapse. The messengers point out what the scruple itself demonstrates: 'You had no wish to kill the crab. What is done without intent is not counted to the score; if you feel a scruple about so small a matter, what real transgression would you ever do?' The person worried they'd failed the standard was, by that very worry, shown to be holding it."
+related: []
+evokes: [jataka, tikanipata, kurudhamma-jataka, self-scrutiny-over-a-trivial-lapse-signals-a-high-standard-being-held, a-scruple-too-small-to-fake-is-evidence-of-genuine-rigor]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kurudhamma-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 276, Kurudhamma-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "You had no wish to kill the crab. What is done without intent is not counted to the score; if you feel a scruple about so small a matter, what real transgression would you ever do?"
+canonical-instances:
+  - "A junior auditor who agonizes over a rounding error too small to affect any actual figure is reassured by a senior colleague that this exact level of concern over something this minor is the clearest evidence the firm has that the audit's larger conclusions can be trusted."
+critical-questions:
+  - "Does genuine scrupulosity actually correlate with rigor this reliably, or can someone perform anxious self-doubt over small things specifically to build a reputation they don't otherwise deserve?"
+  - "Is there a point where scrupulosity over trivial matters stops signaling rigor and starts indicating a different problem entirely, such as an inability to distinguish which infractions actually matter?"
+status: active

@@ -1,0 +1,21 @@
+id: lex-fwegg
+name: when-moderation-fails-err-toward-the-safer-excess
+type-in: situation
+type-out: state
+_tier: atomic
+agent-instruction: "When perfect moderation isn't achievable and some excess is inevitable, check which direction of error the situation can actually absorb before defaulting to a symmetric middle. The I Ching's Xiang Zhuan commentary on hexagram LXII (Hsiâo Kwo, 'Small Excess') skips past balance entirely and names a specific asymmetric direction for the unavoidable error, prescribing the same lean three separate times — in conduct, in mourning, in expenditure. Each pairing names a virtue with two failure directions of unequal cost: excess humility beats excess pride, deeper mourning beats a colder one, frugality beats waste. The prescription is to lean toward the cheaper failure deliberately, rather than aim for an exact midpoint that risks landing on the costlier side."
+related: []
+evokes: [i-ching, ten-wings, xiang-zhuan, asymmetric-error, safe-excess]
+lineage:
+  - source: primary
+    text: legge-1899-i-ching-appendix-ii-hexagram-62
+    citation: "The Yî King, translated by James Legge, Appendix II ('Treatise on the Symbolism'), Hexagram LXII (Hsiâo Kwo, 'Small Excess'), Sacred Books of the East vol. 16 (Oxford, 1899). Verified verbatim against a direct extraction of the full text hosted at sacred-texts.com, clean digital text, no OCR."
+    quote: "The superior man, in accordance with this, in his conduct exceeds in humility, in mourning exceeds in sorrow, and in his expenditure exceeds in economy."
+canonical-instances:
+  - "The three named cases share a common shape: each virtue (humility, grief, frugality) sits on a spectrum where overshooting toward the virtue itself is socially or personally cheap, while overshooting toward its opposite (arrogance, callousness, extravagance) carries the real cost. That asymmetry between the two failure directions is the specific thing being targeted here, ahead of any generic praise of the virtue itself."
+  - "A pilot trained to err toward extra altitude rather than exact fuel-optimal descent is applying the identical logic in a different domain: the cost of a little excess margin is negligible, while the cost of the opposite error can be catastrophic, so the deliberate default shifts toward the cheaper failure rather than the statistically expected midpoint."
+critical-questions:
+  - "Does this generalize past the three named cases, or are humility, grief, and frugality specifically chosen because they're social virtues where excess reads as admirable rather than merely tolerated — would the same asymmetric-erring logic hold for a virtue where excess in either direction is genuinely costly?"
+  - "Who decides which side of a given virtue is the 'safer' excess, and could that judgment itself be self-serving — humility is convenient advice to give to someone else, less so to prescribe for oneself?"
+  - "Does habitually erring toward one side eventually stop being an error-management strategy and start being the actual, uncorrected policy — does 'small excess' risk becoming 'permanent excess' once it's built into a person's default conduct?"
+status: active

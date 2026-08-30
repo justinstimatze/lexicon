@@ -1,0 +1,19 @@
+id: lex-u56rn
+name: refusing-to-discard-an-ally-over-a-superficial-stigma-pays-off
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Rejecting pressure to discard a proven ally based on a superficial stigma unrelated to their actual conduct or track record protects a relationship that a more superstitious response would have thrown away. In the Jataka's tale of Anathapindika's friend, the merchant is pressured to fire a devoted, loyal friend solely because the friend's name happens to mean 'Curse.' Anathapindika refuses on principle, stating plainly that a name only denotes a person and shouldn't be treated as if it governs their character, and the friend later proves his loyalty decisively. The refusal cost nothing but social conformity in the moment, and the alternative would have discarded a genuinely valuable relationship for a reason that had nothing to do with the friend's actual behavior."
+related: []
+evokes: [jataka, ekanipata, kalakanni-jataka, superficial-stigma-versus-actual-track-record, refusing-superstitious-pressure-to-discard-a-proven-ally]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kalakanni-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 83, Kalakanni-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"a name only serves to denote a man, and the wise do not measure a man by his name; nor is it proper to wax superstitious about mere sounds."
+canonical-instances:
+  - "A hiring manager is pressured to reject an otherwise strong candidate because their previous employer had a bad reputation, and hires them anyway based on the candidate's own verifiable work, gaining a reliable team member that a more image-conscious decision would have passed over."
+critical-questions:
+  - "How does someone distinguish a genuinely irrelevant stigma, like a name, from a piece of surface information that actually does carry predictive value about future behavior?"
+  - "Does holding this principle consistently require accepting some real social or reputational cost from others who judge by the superficial signal, even when the underlying decision turns out to be correct?"
+status: active

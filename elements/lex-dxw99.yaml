@@ -1,0 +1,19 @@
+id: lex-dxw99
+name: hold-the-targets-own-claimed-identity-against-their-current-conduct
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A corrective can be delivered not by citing an external rule, but by holding the target''s own claimed identity or status up against their current behavior, making the contradiction between self-conception and conduct itself the source of the reproach. In the Jataka''s tale of Somadatta, Sakka rebukes the grieving ascetic this way: "To sorrow for the dead doth ill become The lone ascetic, freed from ties of home."'
+related: []
+evokes: [jataka, sattanipata, somadatta-jataka, rebuke-by-identity-contradiction, hold-them-to-their-own-claimed-standard]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-somadatta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 410, Somadatta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "To sorrow for the dead doth ill become The lone ascetic, freed from ties of home."
+canonical-instances:
+  - "When a manager who built her reputation on data-driven decisions overrules an analysis purely on gut feeling, a colleague doesn't cite the process document — he just reminds her that this isn't how the person she's known for operating would decide."
+critical-questions:
+  - "Does holding someone to their claimed identity work only when they genuinely value that identity, and does it backfire if they experience it as an attack rather than a reminder?"
+  - "Is every departure from a claimed identity actually a contradiction worth correcting, or is some inconsistency just being human rather than a failure to live up to a standard?"
+status: active

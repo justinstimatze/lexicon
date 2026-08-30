@@ -1,0 +1,19 @@
+id: lex-sa6w9
+name: an-unvarying-habitual-signal-makes-its-source-trackable-and-killable
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A creature or person who repeats the identical behavioral signal from the identical location, without ever varying the pattern, hands a predator or adversary the exact information needed to locate and target them, regardless of how harmless the signal itself seems. In the Jataka's tale of the piping partridge, a bird's unvarying habit of piping from the same spot on an ant-hill, early and late every day, is precisely what lets a hunter recognize the call, find the source, and kill it. Nothing about the piping itself was dangerous; the danger was entirely in the pattern's total predictability, which turned an ordinary habit into a fixed coordinate an adversary could simply wait for."
+related: []
+evokes: [jataka, ekanipata, tittira-jataka, unvarying-habitual-signal-enables-targeting, predictability-converts-a-harmless-habit-into-a-coordinate]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-tittira-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 117, Tittira-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "there dwelt a partridge which early and late was always piping on the top of the ant-hill."
+canonical-instances:
+  - "A remote worker who posts the exact same daily check-in message at the exact same minute every morning, from the same coffee shop, unknowingly gives a stalker everything needed to predict precisely where and when to find them, purely from a habit that felt completely innocuous."
+critical-questions:
+  - "Is the fix necessarily to vary the pattern, or does simply recognizing the risk of an unvarying habit sometimes not outweigh whatever value the routine itself provides to the person or creature doing it?"
+  - "How much variation in a signal is actually enough to defeat this kind of targeting — does an adversary need total unpredictability to lose the trail, or does even modest, irregular variation raise the cost of tracking substantially?"
+status: active

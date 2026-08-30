@@ -1,0 +1,23 @@
+id: lex-ab5zk
+name: strength-has-a-bounded-zone-relocate-past-its-edge
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Any concentration of power -- physical strength, institutional authority, domain expertise, home-field advantage -- is effective only within a bounded zone around its holder. Matching or overpowering that strength inside its own zone is the losing move, since the zone is precisely where the strength is strongest. The alternative is to relocate the actual point of contention outside that zone: once the engagement happens somewhere the strength doesn't reach, even a small counter-force dominates, because the differential that made the strength decisive was never a property of the holder in the abstract, only of the holder within their zone. The work is locating the zone's edge and moving the contest past it, not accumulating enough force to win inside it."
+related: []
+evokes: [ueshiba-art-of-peace, aikido, sphere-of-strength, home-court-advantage, jurisdictional-forum-shopping]
+lineage:
+  - source: primary
+    text: ueshiba-2011-art-of-peace
+    citation: "Morihei Ueshiba, The Art of Peace, trans. and ed. John Stevens (Shambhala Publications, Shambhala Classics edition, 2011; text originally published 2002), Part One, Morihei Ueshiba, Prophet of the Art of Peace."
+    quote: "Once Morihei pinned a huge sumo wrestler named Mihamahiro with a single finger. This behemoth could lift hundreds of pounds, but when he tried to move Morihei, the diminutive master stayed firmly put. Morihei then threw Mihamahiro to the ground and held him immobile with a single finger. Morihei explained the feat like this: 'Draw a circle around the center of a human being. Within this circle lies all physical power. Outside of this circle, even the strongest human being loses his power. If you can pin your partner outside of his sphere of strength, you can control him with just one finger.'"
+canonical-instances:
+  - "A small claims dispute that would bankrupt a solo defendant in a fight against a corporation's in-house legal team gets relocated to a jurisdiction or forum (arbitration, small claims court, a regulator's complaint process) where the corporation's usual legal-resourcing advantage doesn't apply -- the same corporation, the same dispute, but the zone where its strength operates no longer contains the engagement."
+  - "An incumbent's marketing budget and shelf presence define its zone of strength inside its own product category, which is exactly where a challenger brand loses if it tries to out-advertise it there. The challenger instead relocates the contest to a channel -- a niche community, a new format, a different price tier -- that budget was never built to cover."
+  - "Operationally distinct from lex-8ennw harm-as-resource-via-redirection: lex-8ennw converts an incoming force into fuel for your own response by changing its vector; this atom does not touch the opponent's force at all, it changes WHERE the contest happens so the force's zone of effect no longer reaches the point of contact. Redirection uses the force; relocation escapes it."
+  - "Operationally distinct from lex-5u3w3 avoid-decisive-battle-and-let-a-stronger-foe-decay (Fabius): Fabius's strategy works over TIME, letting a wasting asset erode; this atom works over SPACE, exploiting the fact that a strength's effect is bounded to a zone around its holder right now, no decay or waiting required."
+critical-questions:
+  - "Is the zone actually bounded, or is this wishful framing of a strength that in fact travels with its holder (reputation, capital, institutional reach) regardless of where the engagement occurs?"
+  - "Does relocating the contest have its own cost -- switching forums, categories, or terrain often means giving up ground you'd otherwise hold -- and does that cost stay smaller than the strength differential you're avoiding?"
+  - "Once you've won outside the zone, does the win actually resolve anything, or does the stronger party simply re-engage on its own terms next time, having lost nothing but one encounter it wasn't equipped for?"
+status: active

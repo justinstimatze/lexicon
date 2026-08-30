@@ -1,0 +1,18 @@
+id: lex-t4y29
+name: forensic-inference-from-circumstantial-evidence-plus-character-history
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Absent an eyewitness, an investigator reasons from physical traces at the scene combined with the suspect''s known disposition and past record to reach a confident conclusion of guilt, then confronts the suspect with that inference rather than an open question. In the Jataka''s tale of Tittira, the tiger reads feathers in the wanderer''s hair and bones nearby as proof: In his matted locks were to be seen some feathers of the partridge, and close by appeared the bones of the cow and calf. King tiger seeing all this and missing the partridge from his golden cage thought, "These creatures must have been killed by this wicked fellow,"'
+related: []
+evokes: [jataka, navanipata, tittira-jataka, circumstantial-inference-plus-disposition, deduction-from-physical-traces]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-tittira-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 438, Tittira-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "In his matted locks were to be seen some feathers of the partridge, [540] and close by appeared the bones of the cow and calf. King tiger seeing all this and missing the partridge from his golden cage thought, \"These creatures must have been killed by this wicked fellow,\""
+canonical-instances:
+  - "A shop owner sees flour dust on a new employee's shoes matching the storeroom floor, combined with his history of unexplained absences right before inventory counts, and confronts him directly rather than asking an open question about the missing stock."
+critical-questions:
+  - "How much weight should a suspect's prior character or record carry in a circumstantial case, compared to the physical evidence alone — and where does that weighting stop being reasonable inference and start being prejudice?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-j6q7z
+name: revealing-non-competing-ambition-dissolves-a-rivals-motive
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "A suspicious rival's hostility toward your rising influence can dissolve entirely once you demonstrate that your actual ambition doesn't compete with their position at all — the threat was only ever a projection of what the rival assumed you wanted, and correcting that assumption removes the motive to undermine you. In the Jataka's tale of Visayha, Sakka relents and restores the merchant's fortune the moment he's convinced the merchant wants neither his throne nor Brahma's, only enlightenment, a goal Sakka has nothing to fear from: '\"Desiring,\" he said, \"neither Sakkahood nor Brahmaship, but seeking omniscience do I give.\"'"
+related: []
+evokes: [jataka, catukkanipata, visayha-jataka, a-rivals-hostility-was-a-projection-of-assumed-competition, revealing-a-non-competing-goal-dissolves-the-original-motive]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-visayha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 340, Visayha-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Desiring,\" he said, \"neither Sakkahood nor Brahmaship, but seeking omniscience do I give.\""
+canonical-instances:
+  - "A department head who has been quietly blocking a rising colleague's initiatives, suspecting a bid to take over the department, backs off the moment the colleague mentions they've already accepted a research fellowship elsewhere and just want to leave things in good shape first."
+critical-questions:
+  - "Does this actually require the ambition to be genuinely non-competing, or would a rival accept a plausible claim of non-competition even if it weren't fully true — does the mechanism depend on honesty or just on a convincing enough signal?"
+  - "What happens if the rival doesn't believe the claim, or believes it but still can't shake the underlying insecurity that made them hostile in the first place — does clarifying intent always resolve status anxiety, or only sometimes?"
+status: active

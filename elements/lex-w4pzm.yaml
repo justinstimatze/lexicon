@@ -1,0 +1,18 @@
+id: lex-w4pzm
+name: identical-input-yields-different-outcomes-by-receiving-condition
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: "The same message, sent identically to every recipient, produces different outcomes depending entirely on the condition it lands in — a sower scatters the same seed on the path, on rocky ground, among thorns, and on good soil, and only one of the four produces anything. When a message fails to take root, the failure often says more about the receiving condition than about the message's content or delivery, and the same message that fails with nine recipients can succeed fully with a tenth without any change on the sender's part."
+related: []
+evokes: [kjv, parable-of-the-sower, seed-on-rocky-ground, fell-among-thorns, same-message-different-soil, blaming-the-message-not-the-soil]
+lineage:
+  - source: primary
+    text: kjv-1611-matthew-13-the-sower
+    citation: "The Holy Bible, King James Version (1611; this edition Project Gutenberg #10), Matthew 13:3-8. Verified verbatim against a direct extraction of the held copy."
+    quote: "Behold, a sower went forth to sow; And when he sowed, some seeds fell by the way side, and the fowls came and devoured them up: Some fell upon stony places, where they had not much earth: and forthwith they sprung up, because they had no deepness of earth: And when the sun was up, they were scorched; and because they had no root, they withered away. And some fell among thorns; and the thorns sprung up, and choked them: But other fell into good ground, and brought forth fruit, some an hundredfold, some sixtyfold, some thirtyfold."
+canonical-instances:
+  - "A company sends the identical onboarding email to every new signup; nine out of ten never open it again, and the tenth becomes a power user within a week — the variance is entirely in what state each recipient's attention and need were in when the identical message arrived."
+critical-questions:
+  - "Before concluding the message itself needs to change, has anyone actually audited the receiving conditions it's landing in — or is the message getting blamed for a distribution problem it can't fix by itself?"
+status: active

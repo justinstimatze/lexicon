@@ -1,0 +1,26 @@
+id: lex-jmhea
+name: partial-charge-neutralization-smooths-a-transition-too-much-collapses-it
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: "When an agent works by neutralizing the electrical charges that hold a structure's repelling parts apart, expect a non-monotonic response as more of it is added: a moderate dose weakens the repulsion just enough to let the structure form a soft, gradual, evenly distributed network, but pushing all the way to full charge balance — the isoelectric point, where positive and negative charges cancel out — collapses the structure abruptly instead, squeezing out whatever the network was holding. Titrate the agent and test at multiple doses rather than assuming that more of a modifier already producing a desired effect keeps producing more of that same effect indefinitely."
+related: [lex-mr4nb, lex-d7p2y]
+evokes: [americas-test-kitchen, guy-crosby, isoelectric-point, acid-and-eggs, more-of-a-good-thing-can-flip-on-you, lemon-curd-vs-scrambled-eggs]
+lineage:
+  - source: primary
+    text: americas-test-kitchen-crosby-2012-science-of-good-cooking
+    citation: "The Editors at America's Test Kitchen and Guy Crosby, The Science of Good Cooking: Master 50 Simple Concepts to Enjoy a Lifetime of Success in the Kitchen (America's Test Kitchen, 2012), Concept 19 sidebar, 'How Does Acid Affect the Texture of Eggs?', p. 734."
+    quote: "Introducing an acid to the egg proteins neutralizes some of their negative electrical charges. Consequently, when the proteins are heated and unwind they do so at a lower temperature. However, the altered electrical charges on the proteins cause them to form a weak, soft gel. This creates a layer of liquid trapped between the weakly bonded ribbons of protein, like a sandwich, producing the effect that we pleasantly experience with our lemon curd."
+  - source: primary
+    text: americas-test-kitchen-crosby-2012-science-of-good-cooking
+    citation: "The Editors at America's Test Kitchen and Guy Crosby, The Science of Good Cooking (America's Test Kitchen, 2012), Concept 13 sidebar, 'Why Does Acid Make Meat Tough and Dry?', p. 517."
+    quote: "A protein molecule normally contains many positive and negative charges. ... sometimes these electrical charges completely balance each other out. This moment of balance is called the isoelectric point. And while being in balance sounds like a good thing, when proteins hit the isoelectric point, they pack closer together, squeezing out any excess liquid. And this squeezing, as we know, can make the meat tough and dry."
+canonical-instances:
+  - "An egg stirred over heat with plain water clumped into hard, separated curds, like ordinary scrambled eggs. The same egg stirred with a small amount of vinegar formed a soft, creamy gel instead, because the mild acid partially neutralized the proteins' charge. A stronger dose, lemon juice, neutralized more of the charge and produced a firmer gel that still stayed creamy. None of the three doses reached the isoelectric point, the pH where this same charge-neutralizing mechanism flips over into abrupt clumping instead."
+  - "Muscle protein's isoelectric point sits at pH 5.2, well below chicken's own resting pH of 6.0 to 6.5. A marinade with little acid, or a short soak, never drops the meat's pH that far, so the charge-loosening mechanism stays in the gentle, tenderizing regime. Left in a strongly acidic marinade long enough to actually pull the pH down to 5.2, the same mechanism that made a soft egg gel instead packs the meat's proteins tightly together and squeezes out moisture, producing meat that is tough and dry rather than tender."
+critical-questions:
+  - "Has the isoelectric point, or an equivalent full-neutralization point, for this specific structure actually been identified, or is the assumption 'more of the modifier is safe' being extended past a boundary that hasn't been located?"
+  - "At the current dose, is the structure closer to the smooth, gradual regime or closer to the full-neutralization collapse — and would a small additional increase in the modifier cross that line?"
+  - "Is the same modifier being used for two different goals here that actually require stopping at different doses, so that a 'more is better' assumption borrowed from one use case silently breaks the other?"
+status: active
+severity-tier: info

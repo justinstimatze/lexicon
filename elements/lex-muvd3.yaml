@@ -1,0 +1,19 @@
+id: lex-muvd3
+name: disguising-bait-as-an-unclaimed-benign-windfall-lowers-guard-without-coercion
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A deceptive trap can be disguised as an unclaimed, benign windfall — the victims' own inference that someone left this as a good deed is exploited to lower their guard, with no active pursuit or coercion required from the deceiver at all. The victims defeat their own suspicion for the trap-setter. In the Jataka's tale of Gumbiya, travelers poison themselves on honey left beside the road: 'in their ignorance men thought, \"This honey must have been left here as a meritorious act,\" and then through eating it, they met their death.'"
+related: []
+evokes: [jataka, pancanipata, gumbiya-jataka, benign-windfall-disguise-lowers-guard, victims-own-inference-defeats-their-suspicion]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-gumbiya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 366, Gumbiya-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "In their ignorance men thought, \"This honey must have been left here as a meritorious act,\" and then through eating it, they met their death."
+canonical-instances:
+  - "A phishing email arrives looking like an unexpected internal bonus notification with a link to claim it — recipients don't need to be coerced or even particularly greedy, since the framing of an unclaimed windfall someone else generously left behind is what defeats their normal caution."
+critical-questions:
+  - "Does labeling a benign-windfall framing as inherently suspicious risk teaching people to distrust genuine acts of unattributed generosity, which do exist and would then go unclaimed out of learned paranoia?"
+  - "Is the danger specific to windfalls framed as gifts from an unknown benefactor, or does any unearned, unexplained benefit — regardless of framing — trigger the same reduced scrutiny?"
+status: active

@@ -1,0 +1,33 @@
+id: lex-hnfrw
+name: polymorphism-as-extension-mechanism
+type-in: composition
+type-out: frame
+_tier: atomic
+agent-instruction: "When an interface needs to extend behavior without forks, surface polymorphism (override the operation per type) as the extension mechanism — distinct from conditionals or feature flags."
+related: [lex-9akfh, lex-9nj6a, lex-gfxw3, lex-z8m97, lex-a9wpd, lex-w6v3m]
+evokes: [interface-and-implementations, dispatch-by-type, open-closed-extension, substitutability]
+lineage:
+  - source: primary
+    tradition: gof
+    text: gamma-helm-johnson-vlissides-1994
+    citation: "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides, Design Patterns: Elements of Reusable Object-Oriented Software (Addison-Wesley 1994; the 'Gang of Four' / GoF) — chapter 1 introduces the canonical polymorphism principle ('Program to an interface, not an implementation,' p.18); the same principle recurs across Abstract Factory, Factory Method, Composite, Decorator, Strategy, State, Visitor, Iterator, Bridge, Observer (10 of 23 patterns). Verified verbatim from Wikipedia 'Design Patterns' article (en-wp; retrieved via local ZIM dump 2025-12 → local Wikipedia archive, 2026-05-04) which explicitly cites GoF 1995:18 for the principle below"
+    quote: "Program to an interface, not an implementation. [GoF 1995:18, as quoted in the Wikipedia 'Design Patterns' article introduction — the canonical polymorphism-as-extension-mechanism principle.] [Wikipedia confirms: book published Addison-Wesley 1994 with 1995 copyright, foreword by Grady Booch, 23 classic design patterns, sold over 500,000 copies in English and 13 other languages, authors collectively known as the Gang of Four (GoF).]"
+  - source: practitioner
+    text: liskov-substitution-principle-1987
+    citation: "Liskov, 'Data Abstraction and Hierarchy' — formal basis for the substitutability that polymorphism enables"
+  - source: practitioner
+    text: meyer-1988
+    citation: "Object-Oriented Software Construction, ch.14 (open-closed principle)"
+  - source: practitioner
+    text: gof-decomposition-pass
+    citation: "promoted from frequency analysis: appears in 10 of 23 GoF patterns"
+canonical-instances:
+  - "given N variants of behavior and probable future additions: define a common interface, implement it once per variant, dispatch via the interface — adding the (N+1)th variant doesn't require modifying existing code"
+  - "the structural arrangement at the heart of Strategy / State / Visitor / Decorator / Composite — same atom, different surrounding bonds"
+  - "the design discipline behind 'program to an interface, not an implementation'"
+critical-questions:
+  - "is the interface designed for variation, or assumed-shared after-the-fact? GoF presupposes the interface was designed to be the substitutable surface — discovering a shared interface across N existing classes and treating them as polymorphic is fragile (Liskov-violating coercion); designing for the interface up-front is robust"
+  - "is the new (N+1)th variant actually substitutable? Liskov substitutability requires the new variant to honor the existing interface's CONTRACT (pre/post conditions, invariants), not just its SIGNATURE. Signature without contract breaks the open-closed promise"
+  - "does the dispatch-overhead matter? polymorphism has a runtime cost (vtable lookup, branch-prediction misses) invisible until performance constraints surface. For hot paths the open-closed gain can lose to monomorphic specialization (final classes, devirtualization). The discipline: name the regime"
+  - "is this distinct from lex-9akfh decoupling-via-indirection? polymorphism enables substitutability via shared interface (same call-site, multiple implementations); indirection adds a hop that may or may not involve polymorphism. Polymorphism is dispatch-by-type; indirection is layer-of-mediation"
+status: active

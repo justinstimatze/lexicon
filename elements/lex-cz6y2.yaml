@@ -1,0 +1,19 @@
+id: lex-cz6y2
+name: credit-flows-up-and-blame-flows-down-by-design
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "In hierarchical organizations, credit and blame don't follow the same allocation rule — they flow in opposite directions, and authority itself is the mechanism that makes this possible. Credit for a success is appropriated by the highest-ranking person associated with it, to the point that authority functions as a license to take credit for an idea even in front of the person who originated it. Blame, by contrast, is pushed downward onto whoever is closest to the failure, regardless of who actually decided the approach. The asymmetry isn't incidental friction in an otherwise fair system — it's what authority is partly for, and naming it as two separate rules (one for credit, one for blame) rather than a single 'fairness' rule makes the mechanism visible."
+related: [lex-w5nep]
+evokes: [jackall-moral-mazes, "authority provides a license to steal ideas", asymmetric-allocation-of-credit-and-blame]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch2-credit-up-blame-down
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 2, Section I."
+    quote: "Credit flows up in this structure and is usually appropriated by the highest-ranking officer involved in a successful decision or resolution of a problem. There is, for instance, a tremendous competition for ideas in the corporate world; authority provides a license to steal ideas, even in front of those who originated them."
+canonical-instances:
+  - "A junior researcher's finding gets presented to the board under the lab director's name as 'our result,' while a failed experiment the director approved gets described in the same meeting as 'a mistake in the junior researcher's methodology.'"
+critical-questions:
+  - "Are credit and blame actually being allocated by two different rules here, or does this read that way only because the specific case examined happened to have a clean success and a clean failure to compare?"
+status: active

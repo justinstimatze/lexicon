@@ -1,0 +1,19 @@
+id: lex-34a9c
+name: judge-a-decision-by-its-evidence-at-the-time-not-the-outcome
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a well-reasoned course of action produces a disappointing result, check whether the evidence that originally justified it has actually changed before abandoning it for something else. Hippocrates' Aphorisms addresses the case where a treatment was correctly chosen for the evidence in front of you and still disappoints. A bad result by itself is no reason to abandon it, so long as the evidence that justified it hasn't moved. 'Indication' names the evidence available at the time a decision was made. A bad outcome, standing alone, says nothing about whether that evidence was sound. Switching strategy purely in reaction to the outcome means being steered by something the decision-maker had no way to see in advance."
+related: []
+evokes: [hippocrates, aphorisms, judge-decisions-by-evidence-not-outcome, resulting-fallacy-anticipated]
+lineage:
+  - source: primary
+    text: hippocrates-aphorisms-adams1849-sectionII-53
+    citation: "Hippocrates, Aphorisms, trans. Francis Adams (Sydenham Society, 1849), Section II, §53. Verified verbatim against a direct extraction of the held copy."
+    quote: "When doing everything according to indication, although things may not turn out agreeably to indication, we should not change to another while the original appearances remain."
+canonical-instances:
+  - "a poker player makes a mathematically correct fold given the odds and information available, loses the hand anyway because a low-probability card came up, and a spectator who judges the decision by its result alone concludes the fold was wrong — when the decision was exactly right given what was knowable at the time it was made."
+critical-questions:
+  - "How does a decision-maker actually verify, honestly and in real time, that the 'original appearances' genuinely haven't changed, rather than convincing themselves nothing has changed simply to avoid admitting a mistake?"
+  - "At what point does sticking with a sound original indication despite repeated bad outcomes become its own error — is there a threshold of accumulated disappointing results that should itself count as new evidence the indication was wrong?"
+status: active

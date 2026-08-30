@@ -1,0 +1,21 @@
+id: lex-7stm4
+name: scorn-for-your-weapon-can-become-consent-to-test-it
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When an adversary confidently dismisses your weapon or capability as harmless, don't waste effort trying to convince them otherwise -- their very confidence in its harmlessness can become the thing that gets them to agree to the one demonstration that proves them fatally wrong. In Cushing's telling, a Bear who secretly intends to devour the boy examines his freshly made arrows and scoffs: 'These points are nothing but black coals,' said the Bear. The boy doesn't argue the point -- he offers a test built entirely on the Bear's own skepticism: 'Now, suppose you let me try one of those coals on you,' said the boy. The Bear's confidence that the arrow is harmless is exactly what makes him agree: 'All right,' said the Bear. The arrow goes straight into the heart of the Bear, and even passes through him entirely. The boy never had to force a confrontation or defend his weapon's credibility -- the Bear's own dismissiveness supplied the consent that a direct attack never could have gotten. Diagnostic move: when someone underestimates a capability you have and states that dismissal out loud, look for the offer that turns their stated skepticism into voluntary exposure to a real test -- 'let me show you' lands very differently, and gets much less resistance, when it's framed as proving the skeptic right rather than as an attack they'd need to defend against."
+related: []
+evokes: [the-skeptics-confidence-supplies-the-consent-for-the-test, cushing-how-the-summer-birds-came, nothing-but-black-coals-said-the-bear, prove-me-right-lands-softer-than-an-attack]
+lineage:
+  - source: primary
+    text: cushing-summer-birds-bear-consents-to-test-the-arrow-on-itself
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'How the Summer Birds Came.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'These points are nothing but black coals,' said the Bear. 'I tell you,' said the boy, 'they are good, black, flint arrow-heads, hard and sharp as any others.' 'No,' said the other, 'nothing but coals.' 'Now, suppose you let me try one of those coals on you,' said the boy. 'All right,' said the Bear. He walked over to the other side of the roof and stood there, and the boy took one of the arrows, fitted it to the bow, and let go. It went straight into the heart of the Bear, and even passed through him entirely."
+canonical-instances:
+  - "A junior negotiator whose opposing counterpart openly dismisses their walk-away leverage as a bluff proposes calling that exact bluff on a specific, minor point first, and the counterpart's confidence that it's empty leads them to agree to the test, only to discover the leverage was real and now applies to the larger deal too."
+  - "A security researcher whose target company publicly dismisses a reported vulnerability as theoretical and unexploitable offers to demonstrate it live on a low-stakes internal system, and the company's confidence that nothing will actually happen is what gets them to agree to the demonstration, at which point the vulnerability is proven real under their own terms."
+critical-questions:
+  - "does this tactic only work on a target arrogant enough to publicly commit to their skepticism -- what happens against an adversary who simply refuses to engage with any proposed test at all, rather than confidently agreeing to one?"
+  - "is there a meaningful difference, ethically, between this move and simply attacking without warning, given that the Bear's 'consent' was manufactured entirely by the boy's rhetorical framing rather than freely and fully informed -- did the Bear actually understand what he was agreeing to?"
+  - "how much of this tactic's success depended on the Bear's own pre-existing intention to harm the boy, which the story uses to justify the outcome -- would the same tactic used against a genuinely harmless skeptic feel like a very different, less justifiable act?"
+status: active

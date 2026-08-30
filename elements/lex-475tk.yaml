@@ -1,0 +1,23 @@
+id: lex-475tk
+name: a-purchasable-exemption-converts-a-restriction-into-a-price
+type-in: frame
+type-out: state
+_tier: atomic
+agent-instruction: "When a prohibition or restriction can be legally lifted for an individual by paying a fee -- a fine treated as optional, a licensing exemption, a permit -- recognize that the rule has stopped functioning as a behavioral restriction and started functioning as a price for the restricted behavior, and a price only deters the people for whom it isn't worth paying. Don't expect the restriction's original moral or social framing to survive this conversion: once an exemption is openly for sale, the population priced out of it experiences a real restriction while the population that can afford it experiences none at all, and the rule-making authority has become a vendor of the very thing it claims to prohibit -- incentivized to keep enforcement just strict enough that people keep paying, not to actually stop the behavior."
+related: [lex-dj5q9]
+evokes: [florentine-gabella, sumptuary-fine-as-license, purchasable-exemption, fiscal-motive-behind-regulation, ronald-rainey]
+lineage:
+  - source: primary
+    text: postrel-2020-fabric-of-civilization-ch6-consumers
+    citation: "Virginia Postrel, The Fabric of Civilization: How Textiles Made the World (Basic Books, 2020), Chapter Six: Consumers, on Florence's fourteenth-century sumptuary laws and the gabella, an annual fee that bought individual exemption from specific dress restrictions."
+    quote: "Scrambling for revenue, Florence went a step further, turning its fines into de facto licenses. An annual fee, or gabella, could buy an exemption from an irritating restriction. Under the 1373 rules, fifty gold florins -- enough for the commune to pay a crossbowman for fifteen months -- gave a woman the right to wear woolen dresses embellished with silk patterns... 'So extensive were these purchasable exemptions, in fact,' writes [historian Ronald] Rainey, 'that few items forbidden by earlier regulations remained altogether prohibited to women who could afford to pay the required taxes.' The predictable result, he observes, 'was to foster indifference among the Florentines to the regulation of conspicuous consumption.'"
+canonical-instances:
+  - "Florence's 1373 sumptuary code priced its own restrictions explicitly: fifty gold florins for a woman's right to silk-patterned wool, twenty-five florins for a married woman to decorate her hemlines, ten florins for a man to wear thigh-revealing short cloth or for a woman to sport silk-covered buttons -- turning what read as a uniform moral rule into a wealth-graded menu that Rainey concludes fostered general 'indifference' to the underlying restriction rather than compliance with it."
+  - "Bologna's 1401 statute similarly let more than two hundred previously-forbidden garments be registered for a fee, generating at least a thousand lire in fines -- against a clerk's annual salary of sixty lire -- prompting a historian to observe that 'fines and seal tagging became a sort of tax collection,' with fiscal motivation, not moral suasion, driving the policy."
+  - "Hypothetical: A city that fines illegal stadium-adjacent parking fifty dollars, well below the value of a guaranteed close spot on game day, has not restricted that parking -- it has priced it, and only ticket-averse or cash-strapped drivers are actually deterred."
+critical-questions:
+  - "Is the exemption fee scaled to income or wealth, or a flat amount? A flat fee converts what looked like a uniform social rule into a de facto wealth-based tax on the restricted behavior -- one that in hindsight looks designed to extract revenue rather than change conduct."
+  - "Does the authority collecting the fee have a fiscal incentive that conflicts with actually suppressing the behavior -- would its revenue drop if the underlying restricted behavior stopped happening entirely?"
+  - "Was the exemption available at the restriction's original passage, or was it added later, after the restriction failed to achieve compliance? A retrofitted pay-to-exempt option, like Florence's gabella, is a stronger tell of fiscal motive than one baked in from the start."
+severity-tier: info
+status: active

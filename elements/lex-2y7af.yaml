@@ -1,0 +1,19 @@
+id: lex-2y7af
+name: naming-no-one-traps-the-accused-between-silence-and-self-outing
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When you need to discipline or warn someone whose status places them beyond direct confrontation, check whether an indirect accusation through analogy denies them any safe response. The 36 Stratagems' 'Point at the mulberry tree while cursing the locust tree' names the trap precisely: 'To discipline, control, or warn others whose status or position excludes them from direct confrontation, use analogy and innuendo. When names are not used directly, those accused cannot retaliate without revealing their complicity.' The accuser gains deniability by never naming the target. The target, meanwhile, is left with only costly moves: staying silent lets onlookers infer guilt on their own, and objecting confirms exactly who the accusation was aimed at."
+related: []
+evokes: [36-stratagems, point-at-the-mulberry-tree, indirect-accusation, forced-choice-between-silence-and-self-outing]
+lineage:
+  - source: primary
+    text: taylor-2013-36-stratagems-26-point-at-the-mulberry-tree
+    citation: "Peter Taylor, The Thirty-Six Stratagems: A Modern-Day Interpretation of a Strategy Classic (Infinite Ideas, 2013), Stratagem 26, 'Point at the mulberry tree while cursing the locust tree.' Verified verbatim against a direct pdftotext extraction of the held copy."
+    quote: "To discipline, control, or warn others whose status or position excludes them from direct confrontation, use analogy and innuendo. When names are not used directly, those accused cannot retaliate without revealing their complicity."
+canonical-instances:
+  - "the 'Grass-Mud Horse' meme and other coded euphemisms used on the Chinese internet to criticize censorship or officials without naming them directly — a well-documented phenomenon that lets critics avoid direct confrontation while forcing targets into the same silence-or-self-outing trap."
+critical-questions:
+  - "Does this mechanism require an audience of onlookers who can draw the intended inference, or does it fail entirely in a private exchange where no one else is watching to register the accusation?"
+  - "Can the targeted party escape the trap by responding to the surface-level content of the analogy itself, treating it as genuinely unrelated, rather than either staying silent or objecting as if it were about them?"
+status: active

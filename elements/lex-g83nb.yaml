@@ -1,0 +1,19 @@
+id: lex-g83nb
+name: mere-proximity-to-a-legitimate-group-signals-borrowed-virtue
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Standing near a trusted, legitimate group while imitating one of its visible postures can produce an inference of shared virtue in observers who judge by proximity and posture rather than by any actual track record. In the Jataka's tale of the hypocritical monkey, a monkey who has spent months trashing a hermitage waits until real anchorites are receiving alms, then poses nearby in a worshipful posture; villagers infer holiness from the association alone. The Bodhisatta, who has actually watched the monkey's behavior, corrects them: 'You praise this creature's character because you know him not; He has defiled the sacred fire, and broke each waterpot.' The villagers' inference wasn't stupid given what they could see — it just weighted visible posture and proximity over the track record they didn't have access to."
+related: []
+evokes: [jataka, dukanipata, adiccupatthana-jataka, proximity-to-legitimacy-substitutes-for-a-track-record, insider-knowledge-debunks-a-crowds-proximity-inference]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-adiccupatthana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 175, Adiccupatthana-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "You praise this creature's character because you know him not; He has defiled the sacred fire, and broke each waterpot."
+canonical-instances:
+  - "A vendor who has never delivered a working product mingles at an industry conference near well-known, reputable exhibitors, and attendees who see them standing in that section assume they must be equally credible, having no way to see the vendor's actual delivery record."
+critical-questions:
+  - "Is the villagers' error really about the monkey specifically, or is judging-by-association simply the correct low-cost strategy most of the time, when direct track-record information is unavailable and a costly investigation isn't warranted for every stranger?"
+  - "What would it have taken for the villagers to catch this themselves without the Bodhisatta's inside information — is there a cheap test they could have run, or does this kind of deception only get caught by someone who already had the missing history?"
+status: active

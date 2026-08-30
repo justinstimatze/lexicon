@@ -1,0 +1,21 @@
+id: lex-2g2ba
+name: tradition-fixes-the-plot-and-leaves-style-to-the-teller
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "A tradition can hold its plot, themes, and cast of characters completely fixed while leaving the actual language, pacing, and delivery entirely open to the individual performer, and audiences can end up preferring the open part more than the fixed part. Among Winnebago raconteurs, 'no marked departure from a traditional plot or from the specific literary tradition is countenanced' -- the fundamental structure is non-negotiable. But within that fixed structure, fidelity to a predecessor's exact wording was never actually required: 'fidelity was not demanded of him. In fact, an audience generally preferred and valued a raconteur in terms of his own style and phrasing, that is, in terms of his own personality.' Radin is explicit about why this distinction matters: 'we are not dealing here with narratives that were written down. Every narrative was, strictly speaking, a drama where as much depended upon the acting of the raconteur as upon his actual narration.' The fixed plot gave the audience a stable structure they already knew and could track; the free style gave each performer room to be recognizably themselves inside it, and that personal signature, not verbatim accuracy, was the thing audiences actually valued. Diagnostic move: when operating inside a tradition, format, or genre with a fixed underlying structure, look for where the real creative and personal latitude actually lives, since it's rarely in the structure itself but in the style and delivery layered on top of it, and audiences often care more about that layer than about the parts you assumed were the point."
+related: []
+evokes: [radin-winnebago-mythology-and-literary-tradition, fidelity-was-not-demanded-of-him, style-and-phrasing-as-personality, every-narrative-was-a-drama]
+lineage:
+  - source: primary
+    text: radin-winnebago-tradition-fixes-plot-but-leaves-style-open-to-the-raconteur
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'Winnebago Mythology and Literary Tradition.' Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "In short, no marked departure from a traditional plot or from the specific literary tradition is countenanced. ... The strict conformists and 'classicists' among the raconteurs would manifestly try to preserve the exact language of a predecessor. However, fidelity was not demanded of him. In fact, an audience generally preferred and valued a raconteur in terms of his own style and phrasing, that is, in terms of his own personality. We must never forget that we are not dealing here with narratives that were written down. Every narrative was, strictly speaking, a drama where as much depended upon the acting of the raconteur as upon his actual narration."
+canonical-instances:
+  - "A stand-up comedian performing a well-worn bit structure that every comedian in the genre uses gets judged entirely on timing, phrasing, and persona rather than on inventing a new structure, and audiences return specifically for that comedian's particular delivery of familiar material."
+  - "A jazz musician playing a jam-session standard everyone in the room already knows keeps the chord changes and form completely intact while the actual notes, phrasing, and personal voice in the solo are where all the individual expression and audience interest concentrate."
+critical-questions:
+  - "Does this distinction between fixed plot and free style hold uniformly across all Winnebago narrative genres, or does Radin's account suggest some myths permitted more structural latitude than others, undermining a single clean rule?"
+  - "Is audience preference for personal style over verbatim fidelity specific to oral performance traditions, or does it also hold for written or recorded traditions where the audience can directly compare two fixed texts side by side?"
+  - "Could a raconteur's stylistic latitude eventually accumulate into what amounts to a plot change, and if so, where does Winnebago tradition draw the line between acceptable stylistic variation and unacceptable structural departure?"
+status: active

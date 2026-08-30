@@ -1,0 +1,21 @@
+id: lex-62cbv
+name: a-feigned-response-becomes-genuine-through-repetition
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "A group ordered or expected to display some internal state can start by performing it hollowly, with no intention of actually experiencing it, and still end up genuinely in that state simply because the performance was sustained long enough. In Radin's Winnebago Hare Cycle, trapped by a circle of pursuing heads and needing them to stop watching him, Hare sings a command: 'Bodiless heads, I want to go by, Go to sleep! Go to sleep!' The heads comply only as theater at first: 'And so they said to one another, 'Our grandson says sleep, so let us sleep.' Thus they spoke but they only feigned sleep.' Nothing about that first compliance was real. But Hare doesn't stop after one attempt; he repeats the same song, and the repetition itself does what the initial command couldn't: 'Finally, however, after he had sung the song four times, they actually went to sleep.' The performance and the real state weren't opposites that stayed separate -- sustained performance became the real thing, and only then could Hare act on it. Diagnostic move: don't assume that a state someone is only performing, calm, agreement, disengagement, will necessarily stay performance-only; repetition of the same cue can convert a hollow display into the genuine condition, which means both the performer and the observer should watch for the point where 'going through the motions' quietly stops being a description."
+related: []
+evokes: [radin-winnebago-hare-cycle, hare-and-the-bodiless-heads, go-to-sleep-go-to-sleep, they-only-feigned-sleep]
+lineage:
+  - source: primary
+    text: radin-the-bodiless-heads-feigned-sleep-becomes-real-sleep
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'The Winnebago Hare Cycle,' episode 11. Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "Then he began to sing: 'Bodiless heads, I want to go by, Go to sleep! Go to sleep!' And so they said to one another, 'Our grandson says sleep, so let us sleep.' Thus they spoke but they only feigned sleep. Finally, however, after he had sung the song four times, they actually went to sleep. Then he came down very quietly."
+canonical-instances:
+  - "A group of coworkers told to 'stay positive' during a difficult reorganization start by repeating upbeat phrases they don't believe, and after weeks of the same repeated framing in every meeting, several of them report genuinely feeling less anxious about the change than they expected to."
+  - "Children told to sit quietly and pretend to meditate at the start of a class begin by fidgeting and mimicking stillness for the teacher's benefit, and after several minutes of sustained repetition of the same instruction, a number of them visibly settle into an actually calm, unforced stillness."
+critical-questions:
+  - "Does the story attribute the shift from feigned to genuine sleep to the repetition of the song specifically, or could ordinary tiredness after a long chase explain the heads falling asleep regardless of what Hare was singing, making the song coincidental rather than causal?"
+  - "Is there a meaningful difference between a feigned state gradually becoming real through repetition and a feigned state simply being abandoned once its purpose, staying alert to catch Hare, no longer seems necessary, and does the story give enough detail to distinguish the two?"
+  - "Does this mechanism generalize past sleep to other states people are asked to perform, calm, enthusiasm, forgiveness, or is there something specific about a physiological state like drowsiness that makes repetition especially likely to convert performance into reality?"
+status: active

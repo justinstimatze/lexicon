@@ -1,0 +1,19 @@
+id: lex-meufj
+name: past-a-competency-floor-social-fit-outranks-performance
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Advancement inside a hierarchy follows a three-tier rule once a minimum competency floor is cleared, and the ranking is explicit rather than merely felt: first, chronic poor performance ends any chance of survival regardless of social fit; second, consistently strong performance paired with weak social skills caps out without further advancement; third, occasionally weak performance paired with strong social fit still rises. The floor exists — performance can't be ignored entirely — but above that floor, social fit dominates the ranking rather than merely tie-breaking it. Treat 'they have all the right numbers but don't rise' and 'they miss numbers sometimes but keep getting promoted' as two data points confirming the same three-tier structure, not as separate anomalies."
+related: [lex-xgyur]
+evokes: [jackall-moral-mazes, "a person who sometimes misses his numbers but who has all the desirable social traits will rise", social-fit-over-metrics-past-a-floor]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch3-three-tier-ranking
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 3, Section III."
+    quote: "First, no one in a line position-that is, with responsibility for profit and loss-who regularly \"misses his numbers\" will survive, let alone rise. Second, a person who always hits his numbers but who lacks some or all of the required social skills will not rise. Third, a person who sometimes misses his numbers but who has all the desirable social traits will rise."
+canonical-instances:
+  - "Two sales managers hit their targets consistently; the one described by colleagues as 'easy to work with' gets promoted to regional director, while the other, described as 'difficult but effective,' stays in place for years despite equal or better numbers."
+critical-questions:
+  - "Is 'social fit' here doing real predictive work about future leadership capacity, or is it a proxy for something narrower — like willingness to defer to existing power structures — that happens to correlate with likability without actually measuring it?"
+status: active

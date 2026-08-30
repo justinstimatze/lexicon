@@ -1,0 +1,19 @@
+id: lex-u8bvg
+name: puncture-an-unfalsifiable-authority-claim-with-a-real-stakes-test
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a charlatan claims special or hidden access that cannot be directly checked, skip the argument and propose a test with a real, physical cost attached to being wrong. The Panchatantra's fraudulent monk convinces a king he can shed his body and travel to the world of the gods, displacing a loyal but unglamorous advisor named Strong who was actually doing the substantive work. Strong has no way to disprove the claim through argument, so he offers a different move entirely: 'if this is indeed the case, then bring a great quantity of firewood, so that I may set fire to this cell.' Confronted with actual fire instead of a rhetorical challenge, the monk is exposed immediately. Rhetoric can defend an unfalsifiable claim indefinitely. A genuine physical stake cannot be talked around."
+related: []
+evokes: [panchatantra, loss-of-friends, puncture-unfalsifiable-claims-with-a-real-stakes-test, argument-cannot-touch-an-unfalsifiable-claim]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-the-monk-who-left-his-body-behind
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book I, 'The Monk Who Left His Body Behind.' Verified verbatim against a direct extraction of the held copy."
+    quote: "If this is indeed the case,” said Strong, “then bring a great quantity of firewood, so that I may set fire to this cell.”"
+canonical-instances:
+  - "a self-proclaimed psychic advisor to a wealthy client claims spiritual insight into which of two investment funds will outperform. A skeptical family member skips the debate entirely and proposes the advisor put their own retained fee on the specific, checkable prediction. The advisor suddenly hedges."
+critical-questions:
+  - "A real-stakes test needs some genuine, checkable consequence to attach to — fire, a wager, a public commitment. Is one always available for a given unfalsifiable claim, or does the tactic only work when the claim happens to offer that kind of hook?"
+  - "Does proposing this kind of test carry real risk to the person proposing it — Strong's plan only worked because he was confident enough in his read to risk being wrong in front of the king — and what happens to the advisor who proposes the test and loses?"
+status: active

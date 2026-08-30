@@ -1,0 +1,18 @@
+id: lex-jv4cn
+name: maintaining-a-vow-under-mortal-extremity-as-proof-the-virtue-was-never-circumstantial
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: 'A commitment kept only when convenient proves nothing about the agent''s real character; the same commitment kept while facing death demonstrates the virtue was never contingent on comfortable circumstances at all. In the Jataka''s tale of Sankha, the shipwrecked brahmin keeps his fast-day vow while swimming for his life at sea: "Even then he kept the holy fast day, washing his mouth with the salt water," and later refuses food from the very deity come to save him: "''Take thy food away, for I am keeping fast.''"'
+related: []
+evokes: [jataka, dasanipata, sankha-jataka, vow-under-duress, virtue-not-circumstantial]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sankha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 442, Sankha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Even then he kept the holy fast day, washing his mouth with the salt water."
+canonical-instances:
+  - "A whistleblower who has always claimed she values honesty over her career proves it is not a convenient posture only when she repeats the same disclosure under direct threat of termination, when lying would have cost her nothing observable."
+critical-questions:
+  - "How much mortal extremity is actually needed before a maintained commitment counts as proof of character rather than just a slightly harder version of ordinary compliance?"
+status: active

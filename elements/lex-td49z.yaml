@@ -1,0 +1,19 @@
+id: lex-td49z
+name: naming-an-exhaustive-category-closes-a-sophistic-definition-trap
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A sophistic trap can demand ever more precise definition of a term, hoping to find some gap between the offered categories that forces an admission of confusion. One move closes it: point out that the offered categories already exhaust every possibility, so no further distinction is left for the trap to demand. In the Jataka's tale of the disputing pilgrim, he tries to catch an ascetic by demanding an impossibly precise definition of 'the Ganges': 'What is Ganges? Ganges may be sand, Ganges may be water...Ganges may be the far bank!' The ascetic doesn't attempt a finer definition. He points out that the gambit has already listed everything there is: 'Besides the sand, the water, the hither and the further bank, what other Ganges can you have?' The trap depended on there being some remaining category to demand next; naming that none exists ends the game in one move."
+related: []
+evokes: [jataka, dukanipata, viticcha-jataka, exhausting-the-category-space-closes-an-infinite-regress-demand, a-sophistic-trap-requires-an-undisclosed-remaining-option]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-viticcha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 244, Viticcha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "What is Ganges? Ganges may be sand, Ganges may be water, Ganges may be the near bank, Ganges may be the far bank!... Besides the sand, the water, the hither and the further bank, what other Ganges can you have?"
+canonical-instances:
+  - "A vendor stalls a contract dispute by repeatedly demanding ever-more-precise definitions of 'reasonable delivery time,' and the buyer's lawyer closes the tactic in one move by pointing out the contract's own definitions section already enumerates every measurable condition the term could refer to, leaving no undefined case left to dispute."
+critical-questions:
+  - "Does this move actually work against every sophistic definition trap, or only against ones where the category space genuinely is finite and enumerable — what happens when the disputed term has a real, irreducible vagueness that isn't just a rhetorical trick?"
+  - "How does the ascetic know with confidence that sand, water, and the two banks are truly exhaustive, rather than simply the four options the pilgrim happened to name — could the pilgrim have pushed back by naming a fifth?"
+status: active

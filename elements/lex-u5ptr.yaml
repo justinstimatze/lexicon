@@ -1,0 +1,20 @@
+id: lex-u5ptr
+name: notoriety-can-be-mistaken-for-fame-by-the-one-who-bears-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a target of correction, punishment, or public warning starts attracting extra attention because of it, check whether they are reading that attention as a status marker rather than the warning it actually is. Aesop's 'The Mischievous Dog,' fitted with a bell by its owner specifically to warn others away from it, 'took to strutting about with tremendous pride' until an old dog told it plainly: 'Notoriety is often mistaken for fame.' The error is self-directed: nobody else is deceived about the dog's nature, only the dog itself, about what the bell actually means. A signal designed to make others avoid you can feel, from the inside, like a signal that marks you as important."
+related: []
+evokes: [aesop, the-mischievous-dog, notoriety-vs-fame, self-directed-signal-misreading]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-mischievous-dog
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Mischievous Dog.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Notoriety is often mistaken for fame."
+canonical-instances:
+  - "an employee placed on a formal performance-improvement plan, receiving unusually close managerial attention as a corrective measure, misreads the attention itself as a sign of being groomed for advancement rather than as a warning."
+  - "operationally distinct from 'there's no such thing as bad publicity' (a claim about how an audience values any attention): this atom is about the bearer's own private misreading of a signal meant as a warning to others, not about how a wider audience actually values the attention."
+critical-questions:
+  - "Is there a way for the bearer of such a signal to tell, from the inside, whether it is being read by others as warning or as status — or does the misreading only get corrected once someone tells them plainly, as the old dog does here?"
+  - "Does the signal's design contribute to the confusion — a bell announces presence loudly regardless of intent, so is some of this error built into any warning mechanism that happens to also draw attention?"
+status: active

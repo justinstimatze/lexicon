@@ -1,0 +1,20 @@
+id: lex-6hsku
+name: a-technical-terms-ordinary-homonym-causes-a-catastrophic-misreading
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A word that functions as precise technical terminology within a specialist community can be catastrophically misread by anyone outside it who only knows its ordinary everyday meaning, especially when the two readings point in opposite directions. In the Jataka's tale of the dying teacher, a master says on his deathbed that he has 'won Nothing,' meaning the specific meditative attainment called insight into the Nothingness of Things. His disciples, unfamiliar with the technical sense, take the ordinary meaning at face value as a confession of failure and deny him funeral honors, refusing to believe the one disciple who correctly parses the specialist term until it's explained directly."
+related: [lex-3vgtm]
+scaffolds-from: [lex-3vgtm]
+evokes: [jataka, ekanipata, parosahassa-jataka, technical-term-misread-via-ordinary-homonym, specialist-vocabulary-invisible-to-outsiders]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-parosahassa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 99, Parosahassa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Our master meant that he had attained to the insight called the insight into the Nothingness of Things.\""
+canonical-instances:
+  - "A patient reads 'negative' on a lab report as bad news and panics for a day before a nurse clarifies that in this specific test, a negative result is the good outcome, the exact opposite of what the word means to someone outside clinical terminology."
+critical-questions:
+  - "Whose responsibility is it to prevent this kind of misreading — should the specialist have anticipated the ambiguity and used a less loaded ordinary word, or is the burden on the listener to ask before assuming the everyday meaning?"
+  - "Does this failure mode only strike once, at first contact with an unfamiliar term, or can it recur even after someone has been corrected, if the ordinary meaning is strong enough to keep reasserting itself?"
+status: active

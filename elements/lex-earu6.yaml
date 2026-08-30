@@ -1,0 +1,21 @@
+id: lex-earu6
+name: taking-a-protected-form-bypasses-defenses-built-for-an-adversary
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "Defenses built to repel an armed, external threat can be walked straight through by something that instead takes the form of what those same defenses are designed to protect -- a dependent, a helpless member of the household -- because the guard is watching the door for an intruder, not watching the nursery for a threat that has already been welcomed inside. Hyde reads Raven's theft of daylight exactly this way: after entering the chief's household as a swallowed cedar leaf and being born as the daughter's child, \"as a crying baby he then subverts the group's defenses (as con artists sometimes use their children to soften up the mark). All good people are vulnerable to the helpless, unhappy child. If Raven had approached the lodge armed with weapons and demanding the Daylight-Box in a loud voice, he would have had a fight on his hands. But as a helpless babe he is not only welcomed and washed, he is actually given the prize.\" The lodge's defenses were never designed to be suspicious of an infant's crying; they were designed to repel force. Raven doesn't defeat those defenses, he simply doesn't trigger them, because he never presents as the kind of thing they exist to stop. Diagnostic move: when assessing how well-defended something is, ask what category of threat the defenses were actually built to recognize -- a defense calibrated for an external, adversarial intruder has no natural trigger for something that arrives already claiming a protected, dependent status, and that gap is where it can be walked straight through."
+related: []
+evokes: [hyde-trickster-makes-this-world-hallmarks-of-tricksters-mind, raven-steals-the-daylight-box, crying-baby-subverts-defenses, con-artists-use-their-children]
+lineage:
+  - source: primary
+    text: hyde-ravens-infant-disguise-subverts-defenses-built-for-an-armed-intruder
+    citation: "Lewis Hyde, Trickster Makes This World: Mischief, Myth, and Art (Farrar, Straus and Giroux, 1998; Canongate Books 2008 edition), 'Hallmarks of Trickster's Mind,' analyzing the Tsimshian Raven cycle's daylight-theft episode. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "As a crying baby he then subverts the group’s defenses (as con artists sometimes use their children to soften up the mark). All good people are vulnerable to the helpless, unhappy child. If Raven had approached the lodge armed with weapons and demanding the Daylight-Box in a loud voice, he would have had a fight on his hands. But as a helpless babe he is not only welcomed and washed, he is actually given the prize."
+canonical-instances:
+  - "A fraudster who wants access to a locked ward doesn't try to force the door; they show up presenting as a distressed, elderly relative needing help, and staff trained to spot aggressive intruders wave them straight through because nothing in their protocol flags a category the ward exists to protect."
+  - "Malware designed to look like a routine system update bypasses defenses built to catch unauthorized external code, not because it defeats those defenses technically, but because it arrives already classified as the trusted, protected category the system is designed to let through automatically."
+critical-questions:
+  - "Does this pattern require the exploiter to genuinely occupy the protected category convincingly, or is a mere claim to the category (crying, in Raven's case) sufficient, and if the latter, why don't more adversaries exploit it more often?"
+  - "Once a defender realizes this vulnerability exists, do they close it by extending suspicion to the protected category itself, and does that create a worse cost, treating every dependent as a potential threat, than the original vulnerability?"
+  - "Is there a meaningful difference between an entity that takes a protected form deceptively from the start (Raven) versus one that genuinely was the protected category and later betrays that trust, and does the same defensive gap apply to both?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-5amtz
+name: a-forced-choice-ultimatum-gets-decided-on-one-sided-testimony
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: 'One party can demand that a decision-maker choose between two relationships, and the decision gets made by simply accepting the accuser''s account without ever hearing the accused directly. The mechanism generalizes to any adjudication that skips the other side entirely. In the Jataka''s tale of Kaccani, the son decides against his mother purely on his wife''s word: "when his wife said she could not live with the old witch and he must decide which of them should go, he took her word that his mother was in fault and said, "Mother, you are always raising Strife in the house: henceforth go and live in some other place, where you choose.""'
+related: []
+evokes: [jataka, atthanipata, kaccani-jataka, audi-alteram-partem, one-sided-adjudication]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kaccani-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 417, Kaccani-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "when his wife said she could not live with the old witch and he must decide which of them should go, he took her word that his mother was in fault and said, \"Mother, you are always raising Strife in the house: henceforth go and live in some other place, where you choose.\""
+canonical-instances:
+  - "A new manager, told by one team member that another is 'impossible to work with,' reassigns the accused off the project the same day without ever asking them for their own account of any specific incident."
+critical-questions:
+  - "What single procedural step — hearing the other side before deciding — would have changed this outcome, and what makes that step so easy to skip under pressure?"
+  - "Does the decision-maker's later regret, once the fuller picture surfaces, actually undo any of the harm already done by acting on one-sided testimony?"
+status: active

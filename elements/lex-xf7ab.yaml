@@ -1,0 +1,19 @@
+id: lex-xf7ab
+name: a-fabricated-urgent-danger-justifies-an-irreversible-transfer-before-abandonment
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A con can manufacture an urgent, unverifiable danger to justify an irreversible, sequential transfer of value — get the valuables carried across first, for safety — then exploit the moment the transfer completes and recall becomes impossible, abandoning the counterparty having extracted everything before any reciprocal service was rendered. The danger's function is purely to make the one-way transfer feel prudent rather than suspicious. In the Jataka's tale of Culladhanuggaha, a thief invents a crocodile in the river to justify carrying a woman's jewels across first: he 'took all her adornments, and going down to the stream, like one in great haste, he gained the other bank, and left her and fled.'"
+related: []
+evokes: [jataka, pancanipata, culladhanuggaha-jataka, fabricated-danger-justifies-irreversible-transfer, exploiting-the-point-of-no-recall]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-culladhanuggaha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 374, Culladhanuggaha-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Very well,\" he said, and took all her adornments, and going down to the stream, like one in great haste, he gained the other bank, and left her and fled."
+canonical-instances:
+  - "A caller claiming to be from the bank's fraud department convinces a customer that an active hacker is about to drain their account, and that the only way to secure the funds is an immediate transfer to a new safe account. The hacker never existed. By the time the customer realizes it, the transfer is irreversible and the money is gone."
+critical-questions:
+  - "Does the fabricated urgency need to be plausible on its own merits, or does the sheer act of demanding immediate, irreversible action itself function as the primary tell, regardless of how good the cover story is?"
+  - "Is there a general defense against this pattern — some rule of thumb about refusing irreversible one-way transfers under manufactured time pressure — that would work regardless of how convincing the specific danger sounds?"
+status: active

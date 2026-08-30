@@ -1,0 +1,19 @@
+id: lex-cd7ty
+name: decomposing-a-vague-compound-threat-into-separately-explicable-causes
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than treating an undifferentiated frightening signal as one indivisible omen, an investigator can dissolve the fear by identifying each component''s separate, mundane origin one at a time. Naming and separating the parts of a vague threat converts unmanageable anxiety into a series of small, individually solvable problems. In the Jataka''s tale of Atthasadda, the ascetic takes eight terrifying midnight sounds apart sound by sound: "Then pray tell me." "Great king, there is no danger connected with those sounds: there is a certain crane in your old garden; it was without food, and half dead with hunger made the first sound:"'
+related: []
+evokes: [jataka, atthanipata, atthasadda-jataka, decompose-the-threat, differential-diagnosis]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-atthasadda-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 418, Atthasadda-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Then pray tell me.\" \"Great king, there is no danger connected with those sounds: there is a certain crane in your old garden; it was without food, and half dead with hunger made the first sound:"
+canonical-instances:
+  - "A team panicking over 'the dashboard is completely broken' calms down once an engineer walks through each broken widget separately — one is a stale cache, one is a typo, one is a real bug — turning one unmanageable crisis into three small tickets."
+critical-questions:
+  - "Does decomposing the threat into separate causes ever risk missing a genuine common cause that connects all the components, by treating them as independent when they aren't?"
+  - "What made the compound signal feel more dangerous than the sum of its separately-explained parts turned out to be?"
+status: active

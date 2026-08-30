@@ -1,0 +1,19 @@
+id: lex-jskt3
+name: harm-is-laundered-through-a-craving-frame-and-a-relationship-layer
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A beneficiary of harm can avoid direct culpability by framing the desired harm as an involuntary craving voiced to an intermediate party, who then recruits the actual instrument of harm — inserting two layers of indirection between the beneficiary and the act while the craving framing removes personal responsibility from the request. In the Jataka''s tale of Suvannakakkata, the she-crow frames her wish this way to her mate, who in turn recruits the snake that will do the killing: "Husband, I have a longing." "Longing for what?" "I wish to eat the eyes of a certain brahmin." "Your longing is a bad one: who will be able to get them for you!" "I know that you can''t: but in the ant-hill near our tree there lives a black snake: wait on him: he will bite the brahmin and kill him, then you will tear out his eyes and bring them to me."'
+related: []
+evokes: [jataka, chanipata, suvannakakkata-jataka, harm-laundered-through-craving-frame, indirection-removes-personal-culpability]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-suvannakakkata-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 389, Suvannakakkata-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Husband, I have a longing.\" \"Longing for what?\" \"I wish to eat the eyes of a certain brahmin.\" \"Your longing is a bad one: who will be able to get them for you!\" \"I know that you can't: but in the ant-hill near our tree there lives a black snake: wait on him: he will bite the brahmin and kill him, then you will tear out his eyes and bring them to me.\" He agreed and afterwards waited on the black snake."
+canonical-instances:
+  - "An executive never orders a competitor undermined; they just mention offhand to an aide how frustrating the rival's success feels, and it's the aide who quietly arranges for a third-party contractor to leak damaging information."
+critical-questions:
+  - "Framing a request as an involuntary craving doesn't erase the underlying moral responsibility for the outcome — does it do anything more than make that responsibility harder to pin down and prosecute?"
+  - "How many layers of indirection does it take before the original beneficiary becomes practically unreachable for the consequences of what they set in motion?"
+status: active

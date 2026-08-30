@@ -1,0 +1,19 @@
+id: lex-h3een
+name: a-patrons-reputational-stake-makes-patronage-durable
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A patron's continued backing of a client isn't primarily generosity — it persists because the patron has staked their own reputation for picking winners on the client's success, and a client's failure damages that reputation directly. This self-interested mechanism is what actually makes patronage relationships durable and asymmetric-effort-justifying in a way pure goodwill couldn't sustain: the patron is incentivized to actively protect the investment, not just passively hope it pays off, and the client reciprocates by publicly crediting the patron's judgment, which reinforces the same reputational stake from the other direction. Treat any patron-client relationship's durability as evidence of this reputational alignment first, before reaching for goodwill or personal loyalty as the explanation."
+related: []
+evokes: [jackall-moral-mazes, "a client's failure can damage a patron's reputation for picking winners", reputational-alignment-in-patronage]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch3-patron-reputational-stake
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 3, Section III."
+    quote: "to the extent that a patron \"invests\" in a client, to that extent will he make sure that the client does not fail since a client's failure can damage a patron's reputation for picking winners."
+canonical-instances:
+  - "A senior partner who publicly championed a junior associate's promotion works behind the scenes to secure that associate better assignments and cover for their early mistakes, not out of personal warmth but because the associate's failure would read as the partner's own bad judgment."
+critical-questions:
+  - "If the patron's own reputation were somehow shielded from the client's outcome entirely, would the same protective effort still be forthcoming — and if not, how much of what looks like mentorship is actually risk management for the mentor?"
+status: active

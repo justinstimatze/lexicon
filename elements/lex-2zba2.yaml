@@ -1,0 +1,18 @@
+id: lex-2zba2
+name: claiming-priority-by-seniority-as-a-status-tiebreaker
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: 'In a dispute over precedence with no neutral arbiter available, a party can ground its claim not in present merit but in temporal priority — having existed first — and demand the later-arriving party yield purely on the grounds of being younger. In the Jataka''s tale of Right and Wrong, Right argues for the right of way over Wrong entirely on the basis of having come first: "Right of a truth was first made manifest, Primeval he, the oldest, and the best; Wrong was the younger, later born in time. Way, younger, at the elder-born''s behest!"'
+related: []
+evokes: [jataka, ekadasanipata, dhamma-jataka, appeal-to-seniority, precedence-claim]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dhamma-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 457, Dhamma-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Right of a truth was first made manifest, Primeval he, the oldest, and the best; Wrong was the younger, later born in time. Way, younger, at the elder-born's behest!"
+canonical-instances:
+  - "The founding department in a merged company insists its processes take precedence over the newly acquired team's, arguing seniority alone — 'we were here first' — rather than any comparison of which process actually works better."
+critical-questions:
+  - "Right happens to also be correct on the merits in this tale — does the seniority argument carry any force independent of that, or is it doing no real work once the deeper claim (Right is simply right) is available?"
+status: active

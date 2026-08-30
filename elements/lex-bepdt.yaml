@@ -1,0 +1,22 @@
+id: lex-bepdt
+name: a-species-wide-capacity-gets-misfiled-as-one-groups-property
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: "A capacity that actually belongs to an entire category -- a mental faculty, a survival instinct, a general skill -- can get culturally mislabeled as the exclusive property of one subgroup within that category. Once the mislabeling takes hold, members of the excluded subgroup exercising that same universal capacity get read as 'becoming' the other subgroup, or as abnormal, rather than as simply doing what the capacity was always available to anyone in the category to do. The error is locating a general capacity inside a specific identity that never actually owned it. Gilman makes the claim directly about mental faculty: 'There is no female mind. The brain is not an organ of sex. As well speak of a female liver.' She extends it to self-preservation generally: '\"Masculine\" and \"feminine\" are only to be predicated of reproductive functions,--processes of race-preservation. The processes of self-preservation are racial, peculiar to the species, but common to either sex.'"
+related: []
+evokes: [women-and-economics, chapter-viii, there-is-no-female-mind, as-well-speak-of-a-female-liver, a-universal-capacity-mislabeled-as-one-groups-property]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-viii
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter VIII. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "And the clearness and strength of the brain of the woman prove continually the injustice of the clamorous contempt long poured upon what was scornfully called 'the female mind.' There is no female mind. The brain is not an organ of sex. As well speak of a female liver. [...] There is no more sublimated expression of our morbid ideas of sex-distinction than in this complacent claiming of all human life-processes as sex-functions of the male. 'Masculine' and 'feminine' are only to be predicated of reproductive functions,--processes of race-preservation. The processes of self-preservation are racial, peculiar to the species, but common to either sex."
+canonical-instances:
+  - "A company culturally codes strategic ambition as belonging exclusively to one department. When staff from a different department start exercising the same ordinary planning skill everyone in the company actually has, colleagues describe them as 'acting like' that other department. Nobody notices the capacity was never department-specific to begin with."
+  - "A school culturally codes mechanical aptitude as belonging to one track of students, so a student from a different track who is simply exercising the general human capacity to reason about how objects fit together gets described as unusually 'technical for their type,' as though the capacity itself needed borrowing from elsewhere rather than being available to any student."
+  - "An organization culturally codes emotional composure under pressure as a trait specific to one role, so when someone outside that role handles a crisis calmly, using a capacity every person in the organization actually has, they get praised as 'surprisingly' composed, as if displaying a trait on loan rather than a universal one they always possessed."
+critical-questions:
+  - "How would you tell, for any given trait, whether it's genuinely species-general and merely mislabeled, versus a trait that really does have some differential distribution across the subgroups in question, without simply asserting universality by fiat?"
+  - "If a capacity really is universal, why does the mislabeling persist so durably across cultures and generations -- what keeps reattaching a general capacity to one subgroup's identity even after direct counter-evidence, like Gilman's own observation of capable women, keeps accumulating?"
+  - "Does correcting the mislabeling -- recognizing the capacity as species-general rather than subgroup-specific -- actually change how the capacity gets evaluated when the excluded subgroup exercises it, or can the same double standard persist under a formally corrected label?"
+status: active

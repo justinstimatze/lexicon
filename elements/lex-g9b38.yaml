@@ -1,0 +1,32 @@
+id: lex-g9b38
+name: regulator-variety-must-equal-or-exceed-disturbance-variety-to-keep-outcome-bounded
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When attempting to regulate or control a system against an external disturbance, the regulator must have at least as many distinct states or responses as the disturbance has distinct conditions to-be-corrected. Ashby's Law of Requisite Variety (1956): only variety in R can force down the variety in the outcome O caused by disturbance D — variety can destroy variety. If D has 100 possible conditions and R can choose between only 10 responses, at most 10 of the 100 outcomes can be brought to the target value; the other 90 will fall as they fall. The law is structural, not empirical: it follows from the cardinality of the state space, has nothing to do with the substrate (electronic, biological, organizational) or with how cleverly R is implemented. Diagnostic question when a control system is failing: 'does the regulator have at least as many distinct responses as the situation has distinct conditions worth treating differently?' If the answer is no — the regulator is undersized — no amount of clever tuning will bring outcome-variety to target; the only fix is to add response-variety to R or to coarsen-the-target so that the regulator's available variety becomes sufficient. Operational consequences: (1) policy-against-diverse-population requires diverse policy responses, not one-size-fits-all (which has variety = 1 and cannot regulate a variety-N situation); (2) software-against-attackers needs response-variety matching attack-variety (which is why pure-allow-list firewalls regulate well against known attacks but not against zero-days, which have variety the regulator hasn't enumerated); (3) management-decisions-by-rule cannot regulate variety the rule did not anticipate; (4) immune-system response-variety must grow to match pathogen-variety, which is why both keep pace as evolutionary arms races. Inverse: when the regulator's available variety dramatically exceeds the disturbance's, the system is over-engineered — slack that can be reduced if the disturbance distribution is stable. The transferable claim is the cardinality-of-state-space constraint, which is identical wherever regulation occurs."
+related: [lex-kebfa, lex-eg9zm, lex-spm8x, lex-mj7x2, lex-58gqb, lex-5b9gv, lex-94b62, lex-7qp5w, lex-zpfv9, lex-gu8st, lex-3hw32, lex-n5jed, lex-9an5g, lex-jxaht, lex-qcv5z]
+scaffolds-from: [lex-spm8x]
+evokes: [law-of-requisite-variety, only-variety-can-destroy-variety, ashby-1956-cybernetics, regulator-state-space-cardinality, control-system-fundamental-limit, disturbance-variety-vs-regulator-variety, shannon-theorem-10-analog, cybernetic-regulation, one-size-fits-all-cannot-regulate-variety, the-undersized-controller-failure-mode]
+lineage:
+  - source: primary
+    tradition: ashby-cybernetics
+    text: ashby-1956-introduction-to-cybernetics
+    citation: "W. Ross Ashby, An Introduction to Cybernetics (Chapman & Hall, 1956), Chapter 11 (Requisite Variety), Section 11.7 (The Law)."
+    quote: "'Only variety in R can force down the variety due to D; variety can destroy variety. This thesis is so fundamental in the general theory of regulation that I shall give some further illustrations and proofs before turning to consider its actual application.'"
+  - source: primary
+    tradition: ashby-cybernetics
+    text: ashby-1956-introduction-to-cybernetics
+    citation: "W. Ross Ashby, An Introduction to Cybernetics (Chapman & Hall, 1956), Chapter 11, relating to Shannon."
+    quote: "The law of Requisite Variety says that R's capacity as a regulator cannot exceed R's capacity as a channel of communication. In the form just given, the law of Requisite Variety can be shown in exact relation to Shannon's Theorem 10, which says that if noise appears in a message, the amount of noise that can be removed by a correction channel is limited to the amount of information that can be carried by that channel."
+canonical-instances:
+  - "A thermostat with ON/OFF only (variety = 2) can regulate against a temperature disturbance that varies continuously only by oscillating; a continuous-PID controller (much higher variety) can regulate smoothly. Same law, two regulator-variety regimes."
+  - "A workforce policy that has one rule (everyone gets 2 weeks vacation) cannot regulate worker burnout when employees have different roles, family situations, and recovery needs (variety much greater than 1); flexible-PTO with manager discretion adds variety to R, restoring regulability at the cost of consistency."
+  - "An immune system maintains a repertoire of millions of antibody variants because pathogen-variety is millions; antibody-diversity dropping (e.g. in immunosuppressed states) immediately breaks regulation against pathogen-variety that didn't go away."
+  - "An error-correcting code can correct up to a number of bit-flips bounded by the redundancy bits added (the channel-variety added); Shannon's bound is the formal statement of Ashby's law for communication channels."
+  - "A monetary-policy central bank with only one tool (interest rate, variety = small) cannot simultaneously regulate inflation, employment, exchange-rate, and asset-bubble — variety in disturbance space dramatically exceeds variety in R; Tinbergen's rule (one instrument per target) is the macroeconomic reformulation of Ashby."
+  - "A customer-service chatbot with 12 canned responses cannot regulate customer-issue-variety > 12; either the issue space gets reshaped to fit the regulator (frustrating customers into stock complaints) or the regulator gets escalated (handoff to human with much higher response-variety)."
+critical-questions:
+  - "The law says a regulator needs variety >= the disturbance's, but says nothing about how to measure a live disturbance's true variety before the regulator has already failed against it — how would you estimate that number in advance, rather than reading it off the failure afterward?"
+  - "Matching cardinality isn't the same as matching structure: a regulator could have variety equal to or exceeding the disturbance's and still fail if its responses are mapped onto the wrong conditions. How would you distinguish 'insufficient variety' from 'sufficient but misallocated variety' when diagnosing a failing control system?"
+severity-tier: warning
+status: active

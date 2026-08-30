@@ -1,0 +1,22 @@
+id: lex-etp76
+name: mandating-current-best-practice-outlaws-the-deviation-that-improves-it
+type-in: frame
+type-out: claim
+_tier: atomic
+agent-instruction: "When designing a standards regime that requires practitioners to follow the current best-known method (for quality control, safety, or interoperability), check whether the same regime also bans deviating from that method. If it does, you have simultaneously demanded future improvement -- by publicizing best practice and rewarding whoever improves on it -- and forbidden the only means of discovering that improvement, since discovery requires deviating from the mandated present practice to test something new. Either carve out an explicit, legally sanctioned experimentation channel outside the compliance mandate (a pilot program, a licensed exemption, a research exception), or accept that the standard will calcify, because no one can legally run the trial that would justify updating it."
+related: []
+evokes: [colbert-dye-regulation, best-known-practice-frozen, illegal-experiment-rewarded-fruit, dirigiste-standards-paradox, regulatory-calcification]
+lineage:
+  - source: primary
+    text: postrel-2020-fabric-of-civilization-ch4-dye
+    citation: "Virginia Postrel, The Fabric of Civilization: How Textiles Made the World (Basic Books, 2020), Chapter Four: Dye, on Jean-Baptiste Colbert's 1671 program to standardize and regulate the French dye industry."
+    quote: "Colbert moved to publicize effective formulas, invest in research, and enforce uniform standards. His seemingly sensible demand that dyers adhere to the best-known practices, however, contained a contradiction. The policy simultaneously banned new methods and rewarded dyers who came up with improvements. 'The fruits of experimentation were rewarded,' observes a historian of science, 'while the experiment itself was illegal.'"
+canonical-instances:
+  - "Colbert's French dye regulations, backed by an official 1737 government post of chemist-inspector of dye works, required dyers to follow codified best-known formulas while simultaneously banning unsanctioned new methods -- so that any dyer who wanted to test whether a different mordant, temperature, or additive produced a better result was, by the letter of the rule, already breaking the law before they could show the improvement worked."
+  - "Hypothetical: A national electrical code that certifies only components tested against the current wiring standard, while making it an offense to wire a building using any untested configuration, leaves an inventor of a genuinely safer topology with no legal path to build the very installation that would generate the safety record needed to update the code."
+critical-questions:
+  - "Does the regime reward deviations that turn out well after the fact, while banning deviation in advance? That combination is the tell -- it means improvement can only happen via violation, discovered retroactively, never via a legitimate research path."
+  - "Is there a carved-out, legally sanctioned space (a lab, a pilot program, an exemption process) where deviating from the mandated standard is permitted specifically so it can be tested and evaluated before being adopted?"
+  - "Who bears the risk of an experiment that fails? If the practitioner alone bears legal and financial exposure for an unauthorized experiment that doesn't pan out, only the most desperate or best-resourced actors will ever attempt one, and the standard will drift further behind what's actually possible."
+severity-tier: info
+status: active

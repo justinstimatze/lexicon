@@ -1,0 +1,19 @@
+id: lex-5vtzm
+name: an-ambiguous-term-exposes-false-pride-in-surface-meaning
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Posing a question with a term that carries both a literal and a deeper metaphorical sense lets a questioner expose someone who assumes the literal reading is the only one — deflating an unearned status claim without ever attacking it directly. In the Jataka''s tale of Setaketu, a candala asks a caste-proud student what the ''quarters'' are; the student answers only the compass directions and is humiliated for missing the deeper sense (parents, teacher, host, final refuge). ''The candala said, "I am not asking about that kind of quarter: and you, ignorant even of this, loathe the wind that has struck my body," so he took him by the shoulder and forcing him down put him between his feet.'''
+related: []
+evokes: [jataka, chanipata, setaketu-jataka, ambiguous-term-exposes-surface-reading, deflating-unearned-status]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-setaketu-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 377, Setaketu-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The candala said, \"I am not asking about that kind of quarter: and you, ignorant even of this, loathe the wind that has struck my body,\" so he took him by the shoulder and forcing him down put him between his feet."
+canonical-instances:
+  - "An interviewer asks a candidate who claims deep systems knowledge what 'scale' means to them; the candidate answers only in terms of server count, missing that the interviewer meant organizational and cost scale too, and the gap in the answer is the actual signal."
+critical-questions:
+  - "Is this a fair test of understanding, or does it just reward whoever happens to already know which sense of the word the questioner intended?"
+  - "The literal sense is usually the more natural first response to a bare word — could someone who genuinely grasps the deeper sense still stumble on that same first answer?"
+status: active

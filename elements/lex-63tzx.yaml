@@ -1,0 +1,22 @@
+id: lex-63tzx
+name: diagnosis-locates-the-cure-in-what-a-patient-cannot-answer
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When treating someone in acute distress, don't diagnose from their presenting complaints or their own account of what's wrong with them. Ask a structured sequence of questions probing what they should know, and locate the disease in the specific question they cannot answer -- not in what they say troubles them. Philosophy interrogates Boethius methodically: does God govern the world? (he answers confidently). What is the end toward which all existence tends? ('I once heard, but sorrow hath dulled my recollection.'). What are you, beyond a rational, mortal being? ('Nothing' else.) She diagnoses precisely from the gap the questioning exposes: 'I know another cause of thy disease... Thou hast ceased to know thy own nature. So, then, I have made full discovery both of the causes of thy sickness and the means of restoring thy health.'"
+related: []
+evokes: [consolation-of-philosophy, book-i-prose-vi, a-breach-in-the-ramparts, thou-hast-ceased-to-know-thy-own-nature, socratic-elenchus-as-diagnosis]
+lineage:
+  - source: primary
+    text: boethius-c524-consolation-of-philosophy-book-i-prose-vi
+    citation: "Boethius, The Consolation of Philosophy (c. 524 AD), trans. H. R. James (London: George Bell & Sons, 1897), Book I, Prose VI. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "'Now, tell me, since thou doubtest not that God governs the world, dost thou perceive by what means He rules it?' 'I scarcely understand what thou meanest,' I said, 'much less can I answer thy question.' 'Did I not say truly that something is missing, whereby, as through a breach in the ramparts, disease hath crept in to disturb thy mind? But, tell me, dost thou remember the universal end towards which the aim of all nature is directed?' 'I once heard,' said I, 'but sorrow hath dulled my recollection.' [...] 'Then, canst thou say what man is?' 'Is this thy question: Whether I know myself for a being endowed with reason and subject to death? Surely I do acknowledge myself such.' Then she: 'Dost know nothing else that thou art?' 'Nothing.' 'Now,' said she, 'I know another cause of thy disease, one, too, of grave moment. Thou hast ceased to know thy own nature. So, then, I have made full discovery both of the causes of thy sickness and the means of restoring thy health.'"
+canonical-instances:
+  - "A therapist doesn't take a client's stated complaint ('I can't sleep') at face value, but asks a structured sequence of questions about the client's routines, relationships, and beliefs, and locates the actual disorder in the one question the client visibly cannot answer -- what they're afraid will happen if they succeed."
+  - "A mechanic diagnosing an intermittent engine stall doesn't stop at 'it dies sometimes' but runs a systems checklist, and finds the fault in the one test the customer can't describe results for, because no one had ever thought to check whether the fuel pump holds pressure after the engine has been off."
+  - "A manager investigating a team's missed deadlines doesn't accept 'we're understaffed' as the diagnosis, but has each person walk through their week, and finds the actual bottleneck in the one process step nobody can explain who owns."
+critical-questions:
+  - "Could the patient's inability to answer come from momentary distraction, embarrassment, or trauma-related recall failure rather than a genuine gap in underlying knowledge -- treating a temporary block as a permanent absence?"
+  - "Does the diagnostician's own chosen sequence of questions presuppose which gap exists before probing even begins, so that 'he cannot answer X' is a self-fulfilling result of only ever having asked about X?"
+  - "Is locating a missing piece of declarative knowledge -- does he know what the end of existence is -- actually diagnostic of what's producing the emotional suffering, or could the sickness have a cause the diagnostician's own conceptual framework has no question for?"
+status: active

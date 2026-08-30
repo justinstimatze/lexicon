@@ -1,0 +1,19 @@
+id: lex-3qtmb
+name: give-a-partial-answer-and-redirect-rather-than-resolve-the-whole-question
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When someone asks a question so large that a complete, totalizing answer would leave them with nothing further to search for, the more useful response can be a partial answer paired with a concrete pointer to where the fuller inquiry continues — deliberately withholding completeness not out of ignorance, but because a fully resolved account would flatten the asker's own path toward understanding. In the Jataka's tale, a hunter who has just abandoned a nihilistic worldview asks the peacock how he should live to avoid a bad rebirth. The peacock, capable of far more, chooses not to fully answer: \"If I solve this problem for him, the world will seem all empty and vain. I will tell him for this time the nature of upright and holy ascetic brahmins,\" and directs him onward instead: \"Visit in season such good men as these, / And question any one it shall thee please: / They will explain the matter, for they know.\""
+related: []
+evokes: [jataka, pakinnakanipata, maha-mora-jataka, deliberately-partial-answer, redirecting-toward-continued-inquiry]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-maha-mora-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XIV (Pakinnaka-Nipata), No. 491, Maha-Mora-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "If I solve this problem for him, the world will seem all empty and vain. I will tell him for this time the nature of upright and holy ascetic brahmins."
+canonical-instances:
+  - "A senior engineer, asked by a junior how the entire distributed system actually works end to end, explains only the one component the junior is currently debugging and points them to the two engineers who own the adjacent pieces, judging that a complete architecture briefing right now would answer the question but shortcut the junior's own map-building."
+critical-questions:
+  - "The peacock's stated reason is protecting the hunter from an 'empty and vain' feeling — a claim about the asker's psychological state that the peacock never verifies. How would you tell the difference between a teacher genuinely protecting a learner's capacity for inquiry and a teacher simply unable or unwilling to give the full answer, dressed up as pedagogical restraint?"
+  - "This shares its shape with a Socratic refusal to hand over a finished doctrine, but here the peacock redirects to a specific named group (ascetic brahmins) rather than to the hunter's own continued reasoning. Does redirecting to an external authority rather than to the asker's own inquiry undercut the stated goal of not flattening their search?"
+status: active

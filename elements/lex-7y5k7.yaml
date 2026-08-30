@@ -1,0 +1,21 @@
+id: lex-7y5k7
+name: a-chronic-complainers-one-correct-complaint-gets-dismissed-too
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "When a family, team, or group has one member with a reputation for chronic complaint or bad temper, don't assume every complaint from that person can be safely filed under 'that's just how they are' -- a group that's stopped distinguishing between that person's habitual grumbling and their genuinely correct observations will miss the one complaint that actually mattered. In Cushing's telling, the Mountain Lion returns home growling before he's even said anything specific, and his siblings have already categorized him: 'There he goes again... Always out of temper with something.' When he then names something real and precise -- 'You smell just like a Coyote' -- his family's response isn't to check whether he's right; it's to scold him for being rude to their sister, exactly as they would any other outburst. His reputation for chronic complaint has made his complaints illegible as information, regardless of content, and the one time he's correctly identified a genuine intruder in the house, it costs him nothing but more disapproval. Diagnostic move: when someone in your group has a well-earned reputation for grumbling or negativity, resist letting that reputation become a blanket filter that discards everything they say without distinguishing between the habitual noise and the occasional real signal -- the cost of that filter isn't paid when they're wrong, which everyone expects, but on the specific occasion they're right and nobody checks."
+related: []
+evokes: [reputation-for-complaint-makes-content-illegible, cushing-coyote-and-siuiuki, there-he-goes-again-always-out-of-temper, you-smell-just-like-a-coyote]
+lineage:
+  - source: primary
+    text: cushing-coyote-siuiuki-mountain-lions-correct-complaint-dismissed
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Coyote Who Killed the Demon Síuiuki: or Why Coyotes Run Their Noses Into Deadfalls.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'_Hu-hu-ya!_' exclaimed the Mountain Lion again, louder than before... 'There he goes again,' said the brothers and sisters, all in a chorus. 'Always out of temper with something.' ... 'What in the world is the matter with you, sister? You smell just like a Coyote. _Hu-hu-ya!_' 'Have you no more decency than to come home and scold your sister in that way?' exclaimed the Wolf. 'I'm disgusted with you.'"
+canonical-instances:
+  - "A team's most frequently critical member raises a specific, accurate concern about a project timeline slipping, and the rest of the team dismisses it as the same chronic pessimism they've learned to tune out, only realizing weeks later that this particular complaint, unlike the usual grumbling, was the one that turned out to be correct."
+  - "A family member known for being difficult and quick to find fault correctly notices a genuine safety issue with a relative's living situation, and the rest of the family responds to the tone of the complaint rather than its content, dismissing it as more of the same negativity until the actual problem becomes undeniable on its own."
+critical-questions:
+  - "is it reasonable to expect a group to carefully evaluate every complaint from a chronically negative member on its individual merits, when doing so for every instance of habitual grumbling would be exhausting and rarely rewarded -- is some degree of filtering actually a reasonable cost of managing a difficult group member?"
+  - "how would the group actually distinguish, in real time, between the Mountain Lion's usual temper and this specific, accurate observation, when both are delivered in the identical tone and register he always uses -- does the story offer any signal besides the content itself, which is exactly what got ignored?"
+  - "does the Mountain Lion's own established pattern of complaining about everything share some responsibility for training his family to stop listening -- is this only a story about a group's failure, or also about how someone with a reputation for constant complaint erodes their own future credibility regardless of what they eventually get right?"
+status: active

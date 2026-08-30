@@ -1,0 +1,19 @@
+id: lex-yh6h4
+name: role-inversion-via-trust-has-no-single-detectable-takeover-moment
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone accepted into a subordinate position (a guest, a junior partner, a licensed operator) gradually accumulates authority, check whether the shift is happening through a sustained sequence of small, individually legitimate-looking steps rather than one discrete takeover. The 36 Stratagems' 'Make the host and the guest exchange roles' describes exactly this trajectory: 'Usurp leadership in a situation where you are normally subordinate. Infiltrate your target. Initially, pretend to be a guest to be accepted, but develop from inside and become the owner later.' Because no single step in the sequence looks like a seizure of power, there is no clear moment at which the host could point and say the reversal happened — by the time it is obvious, it is already complete."
+related: []
+evokes: [36-stratagems, make-the-host-and-the-guest-exchange-roles, gradual-role-inversion, no-discrete-takeover-moment]
+lineage:
+  - source: primary
+    text: taylor-2013-36-stratagems-30-host-and-guest-exchange-roles
+    citation: "Peter Taylor, The Thirty-Six Stratagems: A Modern-Day Interpretation of a Strategy Classic (Infinite Ideas, 2013), Stratagem 30, 'Make the host and the guest exchange roles.' Verified verbatim against a direct pdftotext extraction of the held copy."
+    quote: "Usurp leadership in a situation where you are normally subordinate. Infiltrate your target. Initially, pretend to be a guest to be accepted, but develop from inside and become the owner later."
+canonical-instances:
+  - "the British East India Company, licensed by the Mughal emperor as a trading 'guest,' built its own private army and administration over decades and became the de facto ruling power in Bengal following the Battle of Plassey (1757)."
+critical-questions:
+  - "Is there a way for the original host to detect the trajectory early, before individual steps accumulate past the point of reversal, or does each step look legitimate enough on its own that intervention only becomes obvious in hindsight?"
+  - "Does the mechanism require the guest to have a deliberate, foresighted plan from the start, or can the same role-inversion happen through opportunistic accumulation with no initial intent to seize control?"
+status: active

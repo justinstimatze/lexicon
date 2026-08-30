@@ -1,0 +1,21 @@
+id: lex-t3mu6
+name: a-hidden-countermeasure-neutralizes-an-opponents-signature-attack
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "Knowing exactly how an opponent attacks lets you prepare a specific, narrow countermeasure aimed at that one method, rather than a general defense, and carry it into the confrontation disguised as something else entirely. In Radin's Winnebago Hare Cycle, Sharp-elbow's signature weapon is well established by the time Hare confronts him -- it's how he killed Hare's friend moments earlier. Before going to retrieve his arrow personally, Hare asks a single, specific question: 'Have you a whetstone, grandmother?' He carries it into the encounter not as a weapon but as a tool, positioned exactly where the attack will land: 'Then Hare put the whetstone between himself and the chief and bent forward to reach it.' When Sharp-elbow attacks the only way he knows how, the countermeasure absorbs it and turns it back on him: 'As he did so Sharpelbow jabbed him with his elbow but he struck the whetstone and broke his elbow.' Sharp-elbow tries the same attack with his other elbow, then his knees, and each one breaks against the same principle, because the counter wasn't built to withstand attacks in general -- it was built to stop this one, specific, known method. Diagnostic move: when you know precisely how an opponent has hurt someone else before you, look for a narrow, purpose-built countermeasure to that exact method rather than a general defense, and be willing to walk in carrying something unremarkable that only reveals its function at the moment of attack."
+related: []
+evokes: [radin-winnebago-hare-cycle, hare-and-sharp-elbow, have-you-a-whetstone-grandmother, he-struck-the-whetstone-and-broke-his-elbow]
+lineage:
+  - source: primary
+    text: radin-hare-uses-a-whetstone-to-break-sharp-elbows-attack
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'The Winnebago Hare Cycle,' episode 7. Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "Have you a whetstone, grandmother?''Here is one,' she said. Taking it, he went over to Sharp-elbow's village ... The arrow was stuck between the lodge wall and the poles, just above where Sharp-elbow was lying. 'There it is,' said the latter. 'You can get it.' Then Hare put the whetstone between himself and the chief and bent forward to reach it. As he did so Sharpelbow jabbed him with his elbow but he struck the whetstone and broke his elbow. 'Well,' said Hare, 'if you have any more jabs just come on with them.''All right,' said Sharp-elbow and jabbed him with his other elbow. But he broke that too so then he used his knees and broke those. 'Well!' said Hare, 'now I will show you how to kill people.' So he shot him, the arrow going clear through him."
+canonical-instances:
+  - "A negotiator, knowing a counterpart has a habit of blindsiding people with a specific fabricated statistic mid-meeting, brings a printed rebuttal to that exact statistic and nothing else prepared, because that is the one attack they know is coming."
+  - "A security team, aware that an intruder has previously bypassed access using a cloned badge at a specific side entrance, installs a countermeasure only at that one door rather than overhauling every entry point in the building, because that is the only attack vector with a documented precedent."
+critical-questions:
+  - "Would the whetstone have worked as a countermeasure if Hare hadn't already known specifically that Sharp-elbow attacks with his elbows, or does the mechanism depend entirely on having advance knowledge of the exact method rather than general caution?"
+  - "Does the story suggest any limit to this kind of narrow countermeasure, what happens when an opponent has more than one method of attack, or does Sharp-elbow's escalation to knees after his elbows fail suggest the same countermeasure generalizes further than intended?"
+  - "Is there a meaningful difference between Hare's use of the whetstone here and simple superior strength or resolve, or does crediting the whetstone specifically understate how much of the outcome depended on Hare's willingness to confront Sharp-elbow at all?"
+status: active

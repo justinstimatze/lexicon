@@ -1,0 +1,20 @@
+id: lex-k9mxa
+name: fear-sends-you-back-to-the-advice-you-overruled
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Rejecting someone's counsel and acting anyway doesn't erase the fact that they were right if the outcome turns out badly, and when the consequence catches up with you emotionally, the very person you overruled can become the only one you trust to fix it, precisely because they're the one person who already told you the truth once. In the Jataka's tale of Samkicca, the king who murdered his father to seize the throne early is wracked with guilt and terror; his thoughts go straight to the friend he ignored: \"My friend tried to stop me, saying the murder of one's father was a grievous thing, but failing to persuade me he ran away to keep himself free from guilt. If he had been here, he would not have let me slay my father and he would free me from this terror. Where in the world can he be living? If I knew where he was dwelling, I would send for him.\""
+related: []
+evokes: [jataka, satthinipata, samkicca-jataka, retroactive-vindication-of-rejected-counsel, seeking-out-the-one-who-warned-you]
+lineage:
+  - source: primary
+    text: jataka-francis1905-samkicca-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XIX (Satthinipata), No. 530, Samkicca-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "My friend tried to stop me, saying the murder of one's father was a grievous thing, but failing to persuade me he ran away to keep himself free from guilt. If he had been here, he would not have let me slay my father and he would free me from this terror. Where in the world can he be living? If I knew where he was dwelling, I would send for him."
+canonical-instances:
+  - "A company ignores a security engineer's repeated warnings about a vulnerable dependency and gets breached six months later. The first call the CEO makes afterward is to that same engineer, now treated as the only person in the building whose judgment can be trusted on what to do next."
+  - "A patient dismisses a doctor's advice to get a second opinion before an elective procedure, and when complications set in, calls that same doctor back rather than the surgeon who performed the procedure, on the theory that the doctor was already right once."
+critical-questions:
+  - "Does the king actually trust Samkicca's judgment more now, or is he really seeking absolution, someone who already disapproved of the act and can therefore credibly grant forgiveness for it, which is a different thing from seeking competent counsel?"
+  - "Samkicca left without a trace and had to be found again after fifty years — does the pattern depend on the overruled advisor still being reachable when the fear arrives, and what happens to someone in this position when the person they need to seek out is simply gone?"
+status: active

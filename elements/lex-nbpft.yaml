@@ -1,0 +1,22 @@
+id: lex-nbpft
+name: a-single-consequential-moment-becomes-the-origin-of-a-vocational-identity
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A child doesn't always choose a career path through abstract deliberation about interests or aptitudes. One vivid, concrete encounter at a formative age, in which the child's own small individual action turns out to have real and significant consequences for something much larger than themselves, can become the origin of a lifelong vocational identity. The felt sense that a personal action genuinely mattered at a consequential scale does more recruiting work in that single remembered moment than years of abstract career guidance ever could. Gilman stages this exactly: Ellador traces her forestry career to one afternoon with a butterfly. 'This is a female of the obernut moth,' the teacher told her. 'They are almost gone. We have been trying to exterminate them for centuries. If you had not caught this one, it might have laid eggs enough to raise worms enough to destroy thousands of our nut trees.' ... 'I grew a foot, it seemed to me, and determined then and there to be a forester.'"
+related: []
+evokes: [herland, chapter-9, it-was-a-butterfly-that-made-me-a-forester, i-grew-a-foot-it-seemed-to-me, one-moment-of-mattering-becomes-a-vocation]
+lineage:
+  - source: primary
+    text: gilman-1915-herland-chapter-9
+    citation: "Charlotte Perkins Gilman, Herland (1915), Chapter 9, 'Our Relations and Theirs.' Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "\"It was a butterfly that made me a forester,\" said Ellador. \"I was about eleven years old, and I found a big purple-and-green butterfly on a low flower... 'This is a female of the obernut moth,' she told me. 'They are almost gone. We have been trying to exterminate them for centuries. If you had not caught this one, it might have laid eggs enough to raise worms enough to destroy thousands of our nut trees--thousands of bushels of nuts--and make years and years of trouble for us.' Everybody congratulated me. [...] I grew a foot, it seemed to me, and determined then and there to be a forester.\""
+canonical-instances:
+  - "A young volunteer at a wildlife shelter helps stabilize an injured bird that goes on to be released and later spotted nesting successfully, and that single afternoon of watching a small act of care ripple into a real outcome becomes the moment they decide to become a veterinarian, years before any career counselor ever asks them what they want to do."
+  - "A student flags a small formatting error in a shared class document, one that would have failed the whole group's submission. The teacher's public acknowledgment that this single catch saved everyone's grade becomes, years later, the origin story the student tells for choosing quality assurance as a career."
+  - "A child on a family fishing trip notices unusually cloudy water and mentions it to a nearby park ranger, who traces it to an upstream leak and shuts it down before real damage is done; the child's memory of that one moment of being taken seriously and mattering becomes the reason they later become an environmental scientist."
+critical-questions:
+  - "How reliable is this mechanism as a predictor of long-term vocational commitment -- do most people who report such an origin story actually stay in that field, or is the story retrofitted later onto a career path chosen for other, more mundane reasons?"
+  - "Does the mechanism require the consequence to be genuinely real and significant, or would a fabricated or exaggerated sense of mattering -- staged for pedagogical effect -- work just as well at producing the same vocational commitment?"
+  - "Is a society that can reliably manufacture these formative moments for its children, as Herland seems to, doing something more deliberate than a society where such moments happen only by accident -- and if so, could the mechanism be designed and scaled rather than left to chance?"
+status: active

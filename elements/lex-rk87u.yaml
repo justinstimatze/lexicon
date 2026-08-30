@@ -1,0 +1,20 @@
+id: lex-rk87u
+name: tight-interdependence-confers-outsized-leverage-on-any-single-link
+type-in: structure
+type-out: claim
+_tier: atomic
+agent-instruction: "When a production or operational system is organized as a tightly coupled, interdependent chain, recognize that a stoppage at any single node or sector threatens to paralyze the entire system — and that this vulnerability confers disproportionate bargaining power on that single link, regardless of its own size or headcount, reshaping the overall balance of power among the parties involved. Merton, describing why 'big industry' increasingly negotiates through organized labor rather than against an unorganized mass: 'Moreover, a condition of technological tenuousness in which the stoppage of any one sector of production threatens to paralyze the entire industry modifies the constellation of power relations. All this confers heightened power and responsibility upon labor.' The leverage here is not won through numbers, organization, or persuasion — it is a direct structural consequence of how tightly the system's parts depend on each other. Diagnostic use: when assessing a party's real bargaining power in a tightly coupled system, don't measure it by headcount, wealth, or formal authority alone; measure the cost of that specific link's failure to the whole system. A small group occupying a genuine chokepoint in a tightly coupled system can outweigh a much larger group whose failure the system can absorb — and conversely, deliberately de-coupling a system (redundancy, buffers, diversified sourcing) is a direct way to strip a link of leverage it currently holds only because of the coupling."
+related: [lex-pejc7]
+evokes: [merton-1957, technological-tenuousness, unions-of-the-workers-own-choosing, constellation-of-power-relations, stoppage-paralyzes-the-entire-industry]
+lineage:
+  - source: primary
+    text: merton-1957-technological-tenuousness-confers-power-on-labor
+    citation: "Robert K. Merton, Social Theory and Social Structure, Revised and Enlarged Edition (Glencoe, IL: Free Press, 1957), Ch. XVII 'The Machine, the Worker, and the Engineer,' p.566. Verified verbatim against a University of Iowa library scan via Internet Archive OCR text (item 31858016281432)."
+    quote: "'For industry has come to learn that discipline is often more effectively achieved with the aid of unions of the workers' own choosing than through exclusive resort to the managerial and supervisory apparatus. Moreover, a condition of technological tenuousness in which the stoppage of any one sector of production threatens to paralyze the entire industry modifies the constellation of power relations. All this confers heightened power and responsibility upon labor.'"
+canonical-instances:
+  - "A small group of longshoremen or a single specialized parts supplier can halt an entire national supply chain — their bargaining leverage tracks the system's dependence on that one link, not the size of the group holding it."
+  - "A just-in-time manufacturing system that eliminated buffer inventory to cut costs discovers, during any single-supplier disruption, that the supplier it never worried about now has outsized power over the whole production run — the tight coupling that saved money in normal times is the same coupling that produced the leverage."
+critical-questions:
+  - "Does the leverage described here require the link to know it holds this power and act on it deliberately, or does the power exist structurally even for a link that never intends to use it (e.g., an accidental outage having the same paralyzing effect as a deliberate strike)?"
+  - "At what point does a system's designers choose de-coupling specifically to strip a link of this leverage, versus accepting the leverage as a cost of efficiency gains from tight coupling — and who typically makes that trade-off, and on whose behalf?"
+status: active

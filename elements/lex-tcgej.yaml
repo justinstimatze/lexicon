@@ -1,0 +1,34 @@
+id: lex-tcgej
+name: time-on-device-optimization-targets-engagement-not-welfare
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When evaluating a designed system that mediates between a user and some nominal benefit (entertainment, information, money, a service), ask whether its operative objective is the nominal benefit or 'time-on-device' — Schüll's 2012 term from gambling-industry interviews for keeping the player at the machine as long as possible, regardless of whether they win or even enjoy themselves. The mechanism: when extraction is metered per unit time of engagement, every design choice that increases engagement is incentive-compatible with the operator, regardless of how it affects user outcome. Schüll's gambling-industry quote: 'I want to keep you there as long as humanly possible — that's the whole trick, that's what makes you lose.' The transferable diagnostic: when a system's revenue or value-extraction is proportional to engagement-duration NOT to user-outcome, you should expect the design to optimize for continuous engagement at the expense of the nominal purpose. Operational signatures: (1) variable-ratio reinforcement schedules (slot machines, push notifications, infinite scroll); (2) seamless friction-elimination on entry, friction-injection on exit (the casino floor with no clocks or windows; the app that closes only via 5-step navigation); (3) personalized 'low-volatility / high-hit-frequency' tuning (the player's preference learned and exploited — Schüll's 'drip-feed, grind, dribble-pay' modes); (4) industry-acknowledged 'time-on-device' KPI replacing or supplementing user-stated-purpose KPIs. Generalizes to: social media engagement-optimization, free-to-play mobile games, streaming auto-play, attention-economy platforms, casino design, some workplace surveillance / productivity tools, certain therapeutic apps that optimize for retention not improvement. Inverse — systems where revenue is proportional to USER OUTCOME (a per-task billing structure, a money-back-on-no-recovery medical incentive, a school paid only on student post-graduation success) align design with the nominal purpose rather than with engagement duration."
+related: [lex-spm8x, lex-n8smn, lex-th6tr, lex-y9q22, lex-mj7x2, lex-kwec5, lex-smxtw, lex-4nunt, lex-ukgke, lex-z2fkk, lex-ksqk8, lex-nbk6e, lex-z7kgm, lex-3hw32, lex-f2rjs, lex-bx8hz]
+scaffolds-from: [lex-bx8hz]
+evokes: [time-on-device, schull-2012-addiction-by-design, machine-zone, variable-ratio-reinforcement, designed-extraction, casino-floor-architecture, drip-feed-grind-dribble-pay, attention-economy, engagement-not-outcome, friction-asymmetry-on-entry-and-exit, infinite-scroll]
+lineage:
+  - source: primary
+    tradition: schull-machine-gambling
+    text: schull-2012-addiction-by-design
+    citation: "Natasha Dow Schüll, Addiction by Design: Machine Gambling in Las Vegas (Princeton University Press, 2012), Chapter 2 (Engineering Experience), section 'Extending Time-on-Device'."
+    quote: "As much as repeat machine gamblers want speed, they want to play for as long as possible. Their desire for 'time-on-device,' as the gambling industry terms it, moves in tandem with the industry's desire for continuous productivity. 'The key is duration of play,' a consultant told me. 'I want to keep you there as long as humanly possible — that's the whole trick, that's what makes you lose.' 'It's basically a matter of getting them into the seat and keeping them there,' echoed a machine-gambling industry insider."
+  - source: primary
+    tradition: schull-machine-gambling
+    text: schull-2012-addiction-by-design
+    citation: "Natasha Dow Schüll, Addiction by Design: Machine Gambling in Las Vegas (Princeton University Press, 2012), Chapter 4 (Matching the Market)."
+    quote: "Escape players, on the other hand, otherwise known as time-on-device players or play-to-win-to-play players, are willing to forgo large jackpots for regular wins and extended play time, and so prefer 'low volatility, high hit frequency' games programmed to dispense constant little payouts (or reinforcements, in Skinnerian lingo). Known as 'drip-feed,' 'grind,' or 'dribble-pay' games, they nibble slowly at a budget until it is gone. 'Some people,' Vallejo remarked, 'want to be bled slowly.'"
+  - source: primary
+    tradition: schull-machine-gambling
+    text: schull-2012-addiction-by-design
+    citation: "Natasha Dow Schüll, Addiction by Design: Machine Gambling in Las Vegas (Princeton University Press, 2012), Introduction (Mapping the Machine Zone)."
+    quote: "Echoing Mollie's wish to stay in the machine zone, they spoke of gamblers' desire for 'time-on-device,' or TOD. An evolving repertoire of technological capabilities was facilitating this desire. 'On these newer products, they can really get into that zone,' remarked a game developer from a top manufacturing company."
+canonical-instances:
+  - Las Vegas slot-machine floor architecture — no clocks, no windows, low ceilings, narrow aisles funneling player toward machines, all engineered to maximize time-on-device per Schüll's primary observation.
+  - Mobile free-to-play games (Candy Crush, Clash of Clans) — variable-ratio reward schedules, low-volatility / high-hit-frequency tuning per player, friction asymmetry between entry (one tap) and exit (multi-step navigation).
+  - Social-media infinite-scroll + push-notification systems — the platform's primary KPI is engagement-time, not user-reported satisfaction or task completion; design optimizes for the former.
+  - Streaming auto-play (Netflix, YouTube) — auto-play next episode after 5 seconds; the user has to ACT to NOT keep watching, friction asymmetry as a design tool.
+  - Online dating apps where the platform makes money from continued subscription, not from successful pairings; design encourages continued engagement rather than match-and-exit.
+  - Some therapeutic apps (meditation, language learning) whose revenue model is subscription-retention rather than outcome — design optimizes for streak-keeping (continued engagement) not actual skill acquisition.
+severity-tier: warning
+status: active

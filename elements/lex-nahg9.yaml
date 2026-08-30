@@ -1,0 +1,37 @@
+id: lex-nahg9
+name: upaya
+type-in: frame
+type-out: posture
+_tier: atomic
+agent-instruction: "When teaching, choose words that meet the listener where they are, not words that satisfy your sense of accuracy. Upaya: skillful means. The word that's true-in-the-classroom may be false-in-the-doctoral-defense; both are sometimes right."
+related: [lex-2vpet, lex-448qd, lex-68abd, lex-75r77, lex-7gm7f, lex-9k7tt, lex-9m3vy, lex-9t2ux, lex-gng22, lex-jvr5p, lex-qdxa7, lex-qqgm5, lex-ucw53, lex-uz7g4, lex-v2dps, lex-vh6bb, lex-wy3r4]
+evokes: [skillful-means, raft-not-shore, ladder-then-discard, vehicle-not-truth, view-free-view, non-grasping-toward-own-framings]
+lineage:
+  - source: primary
+    tradition: buddhism
+    text: lotus-sutra
+    citation: "The Lotus Sutra, trans. Burton Watson (Columbia University Press, 1993), ch.3 (parable of the burning house — vehicles as expedient means)."
+  - source: practitioner
+    text: wittgenstein-tlp
+    citation: "Tractatus Logico-Philosophicus 6.54 (Pears/McGuinness 1961 English translation). [Correction 2026-08-30: the prior citation-status flag here (2026-08-19) said this translation was absent from the project's source corpus and the quote unverified. That was wrong -- the held Wittgenstein-1921-TractatusLogicoPhilosophicus-KlementSideBySide.pdf is a three-column edition (German, Ogden 1922, Pears/McGuinness 1961) and its Pears/McGuinness column matches this quote byte-for-byte.]"
+    quote: "My propositions serve as elucidations in the following way: anyone who understands me eventually recognizes them as nonsensical, when he has used them—as steps—to climb up beyond them. (He must, so to speak, throw away the ladder after he has climbed up it.) He must transcend these propositions, and then he will see the world aright."
+  - source: primary
+    tradition: buddhism
+    text: alagaddupama-sutta-mn22
+    citation: "Alagaddūpama Sutta, Majjhima Nikāya 22, in Bhikkhu Bodhi & Bhikkhu Ñāṇamoli translation The Middle Length Discourses of the Buddha (Wisdom Publications, 1995). The canonical pre-Mahāyāna raft simile from the Pali canon — same operational shape (vehicle to be discarded after crossing) appears in early Buddhist, Mahāyāna (Lotus Sūtra), and Western analytic philosophy (Wittgenstein TLP 6.54)"
+    quote: "Bhikkhus, I shall show you how the Dhamma is similar to a raft, being for the purpose of crossing over, not for the purpose of grasping. So I have shown you how the Dhamma is similar to a raft, being for the purpose of crossing over, not for the purpose of grasping. Bhikkhus, when you know the Dhamma to be similar to a raft, you should abandon even good states, how much more so bad states."
+  - source: primary
+    tradition: madhyamaka
+    text: tibetan-tradition
+    citation: "lta ba med pa — 'no view' / 'view-free view'; cf. Mipham's commentaries on Madhyamaka. The non-grasping stance toward one's own framings is the posture-output of upāya in the Tibetan reading: if all teachings are vehicles, the stance toward them is non-identification"
+canonical-instances:
+  - "treating a teaching/framing as a useful vehicle to be discarded once it has done its work, rather than as a final truth-claim to be defended"
+  - "the lexicon's own naming policy (per pass-1-corrections.md): names are upāya — useful imprecise vehicles, not accurate-portrayals of the referent"
+  - "the view-free posture (lta ba med pa): holding views as means rather than identifying with them as positions to be defended — the same upāya logic applied reflexively to one's own current frame"
+  - "doing-the-instructions-vs-doing-the-thing canonical case (Chapin 2024): the contemporary meditation-pedagogy instance of upāya. Mark (meditationstuff) via Chapin's paraphrase: 'holding stuff loosely, experimentally, provisionally is good, as well as self-authoring your own stuff... do hold any particular system lightly, including this one.' Chapin extends: 'Instructions just try to put you in the zip code where you\\'re likely to figure out the right direction—meditation teaching is often a game of broken telephone. Once you find the motion, do that motion, until it\\'s no longer useful.' The transferable upāya-claim: instructions are pointer-language; finding the thing requires throwing the pointer away. Rigid adherence to instructions blocks finding the mental-motion the instructions point at. Cross-fires with lex-7gm7f via-negativa-as-development when the target is a latent-attractor (the instructions are upāya for the via-negativa method)"
+critical-questions:
+  - "the work-done test: has the vehicle done its work? Upāya is meant to be discarded ONCE it has carried the practitioner across — not before, not as a permanent fixture. The raft-not-shore distinction matters because premature-discard loses the support, and indefinite-retention turns the vehicle into the destination. Practitioner-discipline: ask 'has this teaching/framing produced the understanding it was meant to produce?' If yes, the move is to set it down; if no, the move is to keep using it"
+  - "the vehicle-vs-truth-claim discrimination: is the framing being held as a USEFUL VEHICLE (provisional pointer, instrumentally good) or as a TRUTH-CLAIM (position to be defended, must-be-true)? The pathological move is mistaking upāya for ultimate truth — defending the raft as if the raft were the shore. Practitioner-question: what would I do if a better vehicle for the same destination appeared? If I would defend the current vehicle against the alternative, I'm treating it as truth-claim, not as upāya"
+  - "the discard-without-loss check: when you set the vehicle down, do you retain what it carried? The raft-simile assumes you carry the WATER-CROSSING-CAPACITY forward even after discarding the raft. If discarding the framing also loses the understanding, you may have been using the framing as scaffolding for understanding-that-never-formed-its-own-support. Practitioner-discipline: before discarding upāya, verify the understanding it was meant to produce is operational independent of the vehicle"
+  - "the upāya-as-pedagogy-vs-upāya-as-deception failure-mode: upāya teaching can collapse into manipulation when the speaker holds the framing as instrumentally-useful-for-the-listener while privately rejecting it. The bodhisattva's upāya is HONEST (speaks the provisional vehicle openly as a vehicle); manipulative upāya is DECEPTIVE (presents the vehicle as truth while privately holding the contrary). Practitioner-question: would I tell the listener that this framing is provisional if asked? If not, I'm in manipulation-territory, not upāya"
+status: active

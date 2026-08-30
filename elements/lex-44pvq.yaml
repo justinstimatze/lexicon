@@ -1,0 +1,19 @@
+id: lex-44pvq
+name: if-it-worked-everyone-with-the-same-motive-would-already-use-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'An argument that a given action is futile can be proved by observing that everyone shares a strong enough motive to try it, yet the desired outcome demonstrably never occurs — so if the action actually worked, it would already be in universal use, and its absence is the proof that it doesn''t. In the Jataka''s tale of Somadatta, Sakka makes exactly this case against weeping for the dead: "If by our tears we might prevail against the grave, Thus would we all unite our dearest ones to save."'
+related: []
+evokes: [jataka, sattanipata, somadatta-jataka, universal-incentive-reductio, if-it-worked-everyone-would-do-it]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-somadatta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 410, Somadatta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "If by our tears we might prevail against the grave, Thus would we all unite our dearest ones to save."
+canonical-instances:
+  - "A skeptical analyst dismisses a proposed timing strategy for the market by pointing out that if the pattern really predicted returns this reliably, every fund with the same data and the same obvious incentive would already be exploiting it, and none of them are."
+critical-questions:
+  - "Does this argument assume everyone has equal access to try the action, when in fact some barrier other than motive might be preventing most people from attempting it?"
+  - "Could the action work only under conditions rare enough that most people with the motive never actually get to test it, making universal non-adoption weaker evidence than it first appears?"
+status: active

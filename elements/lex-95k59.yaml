@@ -1,0 +1,21 @@
+id: lex-95k59
+name: dignitys-practical-value-can-collapse-without-resources-behind-it
+type-in: claim
+type-out: state
+_tier: atomic
+agent-instruction: "Someone counseling that dignity matters more than money or resources is making a claim worth pressure-testing: what does that dignity actually buy once the resources run out? The Ferengi Rules of Acquisition state a materialist counter-claim bluntly: 'Dignity and an empty sack is worth the sack.' The empty sack — the worthless container — is named as the only thing with any residual value in the comparison; the dignity contributes nothing. This isn't a claim that dignity never matters; it's a claim about what happens to its practical value specifically once resources run out, distinct from dignity's felt or moral value, which the rule doesn't address at all."
+related: []
+evokes: [ferengi, rules-of-acquisition, star-trek, dignity, materialist-critique]
+lineage:
+  - source: primary
+    text: star-trek-ds9-rules-of-acquisition-109
+    citation: "Star Trek: Deep Space Nine, Rule of Acquisition #109, spoken dialogue from 'Rivals' (season 2, episode 11, 1994). Verified against Memory Alpha's sourced compilation of on-screen Rules of Acquisition dialogue (a wiki page functioning as a transcript aggregator with per-rule episode citations, not quoted for its own editorial framing)."
+    quote: "Dignity and an empty sack is worth the sack."
+canonical-instances:
+  - "The rule's own construction does the work: it doesn't say dignity is worthless outright, it specifically pairs dignity with an empty sack and prices the pair at exactly the sack's value — the dignity is priced at zero in that specific comparison, not declared meaningless in general."
+  - "'You can't eat pride' runs the identical structure in ordinary English idiom: a person who refuses a demeaning but survival-necessary job on principle is making a claim about dignity's moral weight that this rule's practical-value framing simply brackets as a separate question."
+critical-questions:
+  - "Is the rule actually a claim about dignity's practical value specifically, or is it a broader cynical claim that nothing non-material has real value — does the Ferengi framing collapse the distinction this atom is trying to preserve?"
+  - "Does dignity ever have practical value beyond the purely material — does holding onto it in a resource-scarce situation ever produce a material payoff later (reputation, alliance, self-respect that sustains further effort) that this rule's snapshot comparison misses?"
+  - "Who benefits from convincing someone that their dignity is worth exactly nothing once their resources are gone — is this rule genuine folk wisdom, or does it double as a tool for pressuring someone out of their last remaining leverage?"
+status: active

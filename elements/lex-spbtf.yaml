@@ -1,0 +1,21 @@
+id: lex-spbtf
+name: a-presence-check-confirms-visibility-not-identity
+type-in: process
+type-out: warning
+_tier: atomic
+agent-instruction: "When you're wary enough about an opponent's unusual proposal to demand a check on them, make sure the check actually verifies the thing you're worried about, and not just something that resembles it. In Cushing's telling, champion runners agree to race an old Gopher who wants to travel underground the whole way, and, sensing the risk, they add one condition: he 'should appear at the surface occasionally, that they might know where he was.' That sounds like real oversight, and the runners accept the race confidently because of it. But the condition only asks whether a Gopher with the agreed marker appears -- it says nothing about whether it's the same Gopher each time, and the old Gopher has already arranged for six identical brothers, each wearing the same red plume, to surface once apiece down the length of the course. The check gets satisfied perfectly, every time, and confirms nothing about continuity of identity at all. Diagnostic move: before trusting a periodic check as protection against an opponent's unusual request, ask specifically what the check would fail to catch if the opponent had access to more than one of themselves -- a check that only confirms 'something matching the description showed up' is not the same as a check that confirms 'the same specific individual is still doing this.'"
+related: []
+evokes: [a-check-that-confirms-visibility-is-not-a-check-on-identity, cushing-how-the-gopher-raced-with-the-runners-of-kiakime, appear-at-the-surface-occasionally-that-they-might-know-where-he-was, satisfied-perfectly-every-time]
+lineage:
+  - source: primary
+    text: cushing-kiakime-runners-demand-a-surfacing-condition-that-doesnt-verify-identity
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'How the Gopher Raced with the Runners of K'iakime.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'Right glad were the runners of K'iakime to run against anyone proposed by those whom they had so often beaten. They hesitated not a moment in replying that they would run against the Gopher or any other friend of the people of Matsaki and Shiwina, stipulating only that the Gopher, if he ran underground, should appear at the surface occasionally, that they might know where he was.'"
+canonical-instances:
+  - "A company auditing a remote contractor's hours requires periodic webcam check-ins as proof of continuous work, and a team of contractors sharing one account and one desk setup satisfies every check-in perfectly by simply taking turns sitting at the camera, since the check only confirms someone matching the profile is present, not that it's the same person doing the actual work throughout."
+  - "An exam proctoring system requires a student to show their face on camera at random intervals during a long take-home test, and a group of students who look similar enough, or who coordinate who sits for which interval, passes every check without the system ever verifying that one specific person completed the whole exam."
+critical-questions:
+  - "Was there any check the runners of K'iakime could plausibly have demanded instead that would have actually verified continuity of identity rather than mere appearance, given that the Gopher's underground travel was already a condition they'd granted -- or does allowing underground travel at all make any surface-based identity check structurally hopeless?"
+  - "Does the runners' confidence after securing the surfacing condition suggest they mistook the mere existence of a check for its adequacy -- would they have raced just as readily with no condition at all, given how little the one they got actually protected them?"
+  - "Is the failure here specific to a check that only samples appearance at intervals, or would any check the K'iakime runners could have designed in advance have been vulnerable to an opponent willing to recruit multiple identical-seeming allies?"
+status: active

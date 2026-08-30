@@ -1,0 +1,19 @@
+id: lex-jjzh9
+name: a-demanded-replacement-for-passive-rule-can-turn-actively-predatory
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When impatience with a passive, undignified but harmless status quo drives a demand for change, check whether the replacement being asked for could turn out to be efficient and predatory rather than merely more competent. In Aesop's 'The Frogs Asking for a King,' frogs dissatisfied with an inert log ruler get their wish for something more decisive: 'Jupiter, annoyed at being pestered in this way, sent a Stork to rule over them, who no sooner arrived among them than he began to catch and eat the Frogs as fast as he could.' This fable is itself the origin of the idiom 'King Log and King Stork' — the complaint that provoked the first, tolerable change can just as easily provoke a second change that is actively worse."
+related: []
+evokes: [aesop, the-frogs-asking-for-a-king, king-log-and-king-stork, demanded-change-turns-predatory]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-frogs-asking-for-a-king
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Frogs Asking for a King.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Jupiter, annoyed at being pestered in this way, sent a Stork to rule over them, who no sooner arrived among them than he began to catch and eat the Frogs as fast as he could."
+canonical-instances:
+  - "a team frustrated with a hands-off, disengaged manager lobbies for a more 'hands-on' replacement who turns out to be an aggressive micromanager who makes daily work worse than the original passive neglect ever did."
+critical-questions:
+  - "Could the frogs have distinguished a genuinely competent-but-benign replacement from a predatory one before the change was made, or does the risk only become visible in hindsight once the new authority has already arrived?"
+  - "Is inert passivity actually the safer baseline the fable implies, or does that framing understate the real costs of the original log-ruler's neglect that provoked the complaint in the first place?"
+status: active

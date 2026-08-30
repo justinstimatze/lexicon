@@ -1,0 +1,21 @@
+id: lex-zqqea
+name: physiological-state-can-silently-bias-a-negotiated-decision
+type-in: situation
+type-out: state
+_tier: atomic
+agent-instruction: "A decision that feels purely rational to the person making it can still be shaped by a bodily state they aren't tracking. The Ferengi Rules of Acquisition state the specific case as practical advice: 'Never begin a business negotiation on an empty stomach.' The implied claim goes past etiquette: hunger changes negotiating behavior in ways the negotiator won't notice from the inside, since the felt experience registers only as 'considering the offer,' with the hunger itself never entering awareness as a factor. The general move: when a consequential decision seems purely about its content, check the decider's physiological state as a candidate hidden variable before trusting that the content is the only thing driving the outcome."
+related: []
+evokes: [ferengi, rules-of-acquisition, star-trek, physiological-bias, decision-fatigue]
+lineage:
+  - source: primary
+    text: star-trek-ds9-rules-of-acquisition-214
+    citation: "Star Trek: Deep Space Nine, Rule of Acquisition #214, spoken dialogue from 'The Maquis, Part I' (season 2, episode 20, 1994). Verified against Memory Alpha's sourced compilation of on-screen Rules of Acquisition dialogue (a wiki page functioning as a transcript aggregator with per-rule episode citations, not quoted for its own editorial framing)."
+    quote: "Never begin a business negotiation on an empty stomach."
+canonical-instances:
+  - "Danziger, Levav, and Avnaim-Pesso's 2011 PNAS study of Israeli parole boards found favorable-ruling rates dropped sharply across the hours since a judge's last food break, then jumped back up after the next one — a real empirical instance of the same mechanism this fictional rule states as folk advice, in a domain (judicial decisions) where the deciders would least expect their body to be doing any of the deciding."
+  - "A hiring manager scheduling every interview back-to-back with no breaks is running the same risk in a different domain — a candidate's fate can hinge on where in the day they land, for reasons that have nothing to do with their qualifications."
+critical-questions:
+  - "Is hunger specifically doing the work here, or is it a proxy for a broader class of depleted-resource states (fatigue, low blood sugar generally, stress) that would produce the same negotiation-outcome shift regardless of which specific depletion caused it?"
+  - "How would a negotiator detect their own hunger-driven bias in the moment, given that the rule's whole point is that the bias is invisible from the inside while it's operating?"
+  - "Does the advice generalize past negotiation to any consequential decision made under time pressure, or does negotiation carry a specific vulnerability, since it already turns on weighing competing near-term rewards, exactly the territory hunger is known to distort?"
+status: active

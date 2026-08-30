@@ -1,0 +1,22 @@
+id: lex-4hasb
+name: a-collective-failure-to-harm-is-read-as-confirming-protected-status
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A group can all fail to harm a specific target despite trying, and the failure itself, rather than being read as coincidence or bad aim, gets retrospectively interpreted as confirmation that the target holds a sacred or protected status. Watching a flock of swallows swirl overhead, other boys throw stones at them; Black Elk cannot bring himself to try, but he does not stop the others either. No one connects. Only afterward does he draw the conclusion: 'the swallows seemed holy. Nobody hit one, and when I thought about this I knew that of course they could not.' The claim reaches past the birds going unharmed, to something stronger: an entire group's shared failure at an ordinary task becomes, after the fact, proof the task was never actually possible."
+related: []
+evokes: [black-elk-speaks, wasichus-in-the-hills, the-swallows-seemed-holy, nobody-hit-one, failure-retroactively-read-as-confirmation]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch7-wasichus-in-the-hills
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 7, 'Wasichus in the Hills.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "The boys tried to hit the swallows with stones and it hurt me to see them doing this, but I could not tell them. I got a stone and acted as though I were going to throw, but I did not. The swallows seemed holy. Nobody hit one, and when I thought about this I knew that of course they could not."
+canonical-instances:
+  - "A fishing crew that repeatedly fails to catch a particular unusually marked fish, despite good conditions and skilled anglers, begins calling it a spirit fish that cannot be caught, treating their own bad luck as the fish's protected nature."
+  - "A sports team that has never managed to score against one specific rival goalkeeper starts describing him as unbeatable, reading a real but coincidental streak as an intrinsic property of the player rather than as variance."
+  - "A village whose hunters have never managed to kill a particular white deer for several seasons running begins forbidding anyone from trying, the accumulated failures having hardened into an unquestioned taboo."
+critical-questions:
+  - "How many failed attempts does it actually take before a run of bad luck gets reclassified as confirmed sacredness, and is there any number of misses that would instead just be read as everyone having bad aim that day?"
+  - "Black Elk himself deliberately didn't try to hit a swallow -- does his own quiet non-participation bias what he later notices and remembers about whether anyone else succeeded?"
+  - "If one boy had eventually hit a swallow, would that single success have overturned the belief, or would it more likely have been explained away as an accident that doesn't really count against the pattern?"
+status: active

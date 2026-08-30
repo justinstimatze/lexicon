@@ -1,0 +1,19 @@
+id: lex-hx6h8
+name: invert-a-discovered-exploit-rather-than-simply-blocking-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a tactic that exploited a fixed environmental interaction is discovered, check whether the strongest response re-engineers the same interaction to produce the opposite payoff, rather than simply closing it off. In Aesop's 'The Ass and His Burdens,' an ass carrying salt learns that lying down in a stream dissolves his load, making it lighter; his owner's response the next trip is not to forbid the water crossing but to load him with sponges instead, so the same trick now soaks up water and makes the burden heavier. The countermeasure keeps the exploit available and structurally identical — same water, same lie-down move — while inverting its result, which is a sharper response than a simple block."
+related: []
+evokes: [aesop, the-ass-and-his-burdens, inverting-an-exploit, countermeasure-as-structural-inversion]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-ass-and-his-burdens
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Ass and His Burdens.' Verified verbatim against a direct extraction of the held copy."
+    quote: "You may play a good card once too often."
+canonical-instances:
+  - "an ad platform closes a free-impressions loophole not by blocking the behavior outright but by re-pricing so the same exploit behavior now costs the advertiser more than playing straight — the mechanism stays open, the payoff flips."
+critical-questions:
+  - "Does inverting an exploit require the same structural conditions the original relied on (here, water and something to carry), or can the technique generalize to countering tactics with no obvious material to swap?"
+  - "Once an actor discovers their exploit has been inverted, do they simply stop trying it, or does an arms race begin where each side keeps re-engineering the same interaction?"
+status: active

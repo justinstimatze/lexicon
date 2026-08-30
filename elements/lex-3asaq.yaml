@@ -1,0 +1,18 @@
+id: lex-3asaq
+name: premature-purging-of-the-bad-damages-the-good-alongside-it
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When a harmful element is discovered mixed in among a larger good population, and the two are already too entangled to separate cleanly, pulling the harmful element out immediately can damage the good population that surrounds it — a servant who wants to root out weeds sown among wheat is told to wait, because uprooting the weeds now would tear out the wheat's roots along with them. Sorting is deferred to a later point (harvest) precisely because that's the earliest moment separation becomes possible without collateral damage — the delay is a technical constraint on when the harm can be safely removed, and says nothing about how tolerated it is in the meantime."
+related: []
+evokes: [kjv, wheat-and-tares, let-them-grow-together-until-the-harvest, uprooting-weeds-too-early, gather-the-tares-first]
+lineage:
+  - source: primary
+    text: kjv-1611-matthew-13-the-tares
+    citation: "The Holy Bible, King James Version (1611; this edition Project Gutenberg #10), Matthew 13:27-29. Verified verbatim against a direct extraction of the held copy."
+    quote: "So the servants of the householder came and said unto him, Sir, didst not thou sow good seed in thy field? from whence then hath it tares? He said unto them, An enemy hath done this. The servants said unto him, Wilt thou then that we go and gather them up? But he said, Nay; lest while ye gather up the tares, ye root up also the wheat with them."
+canonical-instances:
+  - "A manager discovers one team member has been quietly undermining a project, but firing them immediately mid-sprint would also disrupt the three colleagues whose work is currently entangled with theirs — the manager waits for the sprint boundary, a natural separation point, rather than acting the moment the problem is confirmed."
+critical-questions:
+  - "Is the entanglement here actually real — would immediate separation genuinely damage the good alongside the bad — or is 'wait until later' being used to justify inaction against a harm that could be excised cleanly right now?"
+status: active

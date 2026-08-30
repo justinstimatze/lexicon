@@ -1,0 +1,19 @@
+id: lex-yq9qt
+name: a-thrice-repeated-public-claim-check-legitimizes-taking-found-property
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Before keeping something you have no established right to, performing a formal, repeated public announcement asking whether anyone owns it — and treating silence as clearance — converts an act of appropriation into something that feels procedurally justified, even though no actual owner was ever in a position to hear the announcement. In the Jataka's tale of the four friends, the otter finds a fisherman's buried catch and, before claiming it, goes through exactly this ritual: 'pulling them out cried aloud thrice, \"Does any one own these fish?\" And not seeing any owner he took hold of the withe with his teeth and laid the fish in the jungle where he dwelt.'"
+related: []
+evokes: [jataka, catukkanipata, sasa-jataka, a-repeated-public-announcement-launders-an-appropriation, silence-treated-as-clearance-when-no-owner-could-hear]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sasa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 316, Sasa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "pulling them out cried aloud thrice, \"Does any one own these fish?\" And not seeing any owner he took hold of the withe with his teeth and laid the fish in the jungle where he dwelt, intending to eat them at a fitting time."
+canonical-instances:
+  - "Someone finds an unattended bicycle locked to a rack for weeks, posts a single 'is this anyone's?' message to a small local forum nobody checks, waits a day, and then takes it — the announcement was real, but its reach was never actually calibrated to reach the true owner."
+critical-questions:
+  - "Does the number of repetitions or the volume of the announcement matter at all, or is 'thrice' just a formal flourish that provides no more actual notice to a real owner than saying it once?"
+  - "Is the finder actually acting in good faith here, or is the ritual specifically chosen because it satisfies the finder's own conscience while being structurally unlikely to ever reach an actual claimant?"
+status: active

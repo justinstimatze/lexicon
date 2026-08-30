@@ -1,0 +1,19 @@
+id: lex-hahnh
+name: delegate-the-vow-conflicting-act-to-preserve-the-vow
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When someone has bound themselves by a personal vow that conflicts with a real practical need, a third party close to them can meet the need directly, acting in their place, so the vow-holder's own hands stay clean and the vow itself is never broken — even though the outcome the vow was meant to prevent still occurs. The fix isn't persuading the vow-holder to break their word or finding a loophole in the vow's wording; it's someone else stepping in to do the very thing the vow forbids, on the vow-holder's behalf. In the Jataka's tale, King Suruci refuses to take further wives despite his kingdom's demand for an heir, because he had promised his one queen he would take no other: \"I passed my word I would take no other but one, and on those terms I got her. I cannot lie, no host of women for me.\" His queen Sumedha, recognizing that the king's word cannot be the thing that bends, herself selects sixteen thousand women to be the king's wives, acting explicitly as his proxy: \"Playing the part of mother and wife to the king, she chose at her own will a thousand maidens of the warrior caste... and delivered them to him.\""
+related: []
+evokes: [jataka, pakinnakanipata, suruci-jataka, proxy-action-preserves-a-personal-constraint, delegating-the-constraint-violating-act]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-suruci-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XIV (Pakinnaka-Nipata), No. 489, Suruci-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Playing the part of mother and wife to the king, she chose at her own will a thousand maidens of the warrior caste, a thousand of the courtiers, a thousand daughters of householders, a thousand of all kinds of dancing girls, four thousand in all, and delivered them to him."
+canonical-instances:
+  - "A founder who has publicly promised investors they will never personally fire an employee, but whose company urgently needs a round of layoffs, has their COO make every termination decision and deliver every notice — the founder's specific promise stays technically unbroken while the company still does what it needed to do."
+critical-questions:
+  - "The king's vow was specifically about his own act of choosing wives, not about whether he would have more wives at all. Does the proxy-action move only work because the vow was narrowly worded around the vow-holder's own hands, and fail against a vow phrased more broadly (\"I will have no other wife,\" rather than \"I will not choose another\")?"
+  - "Sumedha's solution gets the king an heir without him ever breaking his word, but it also means he ends up with sixteen thousand wives he never chose and, per the story, still has no children by any of them for tens of thousands of years. Does preserving the letter of a vow this way sometimes deliver a hollow version of compliance that fails to produce what the vow-holder actually needed?"
+status: active

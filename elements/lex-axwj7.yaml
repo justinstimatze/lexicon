@@ -1,0 +1,18 @@
+id: lex-axwj7
+name: a-junior-figure-adjudicates-and-sets-the-terms-for-an-adults-rehabilitation-and-reinstatement
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: 'A junior figure whose moral clarity has already been proven through the episode can end up hearing the plea, setting the condition, and granting reinstatement — a role ordinarily reserved for an elder or authority figure. In the Jataka''s tale of Takkala, the seven-year-old son fills that role: it is the boy who hears his repentant mother''s plea and sets the terms of her return, with the father silent throughout: "''Yes, mother,'' replied the lad, ''if you do no more as you did, I will; be of good cheer!''"'
+related: []
+evokes: [jataka, dasanipata, takkala-jataka, authority-inversion, junior-figure-adjudicates-reinstatement]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-takkala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 446, Takkala-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Yes, mother, replied the lad, if you do no more as you did, I will; be of good cheer!"
+canonical-instances:
+  - "After a founder's misconduct nearly sinks a startup, it is the most junior engineer on the team — the one who first raised the alarm — whom the board asks to sign off on the founder's proposed terms of return, rather than any senior executive."
+critical-questions:
+  - "Does the fact that a junior figure earned this adjudicating role through demonstrated moral clarity justify placing that responsibility on someone with less standing than the wrongdoer being judged?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-nny38
+name: a-punished-group-spares-the-one-member-on-record-objecting
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When a group commits collectively to a harmful decision and someone with the power to punish them intervenes, that punisher can discriminate within the group by individual conduct rather than treating membership itself as the basis for punishment — sparing whoever is on record having objected, even though the objector didn't leave, didn't stop the decision, and shared in every benefit the group received up to that point. Merely having spoken against the act, without successfully preventing it, is enough to be sorted out of the collective consequence. In the Jataka's tale, a caravan of merchants who have already taken water, food, and treasure from a wishing-tree push their luck by deciding to cut it down for more; their chief alone objects — \"But they were many, he was one whose voice forbade them do't\" — and when the tree's guardian serpent king takes vengeance, he spares exactly this one man: \"Burn them to cinders save the chief, and then your task is done.\""
+related: []
+evokes: [jataka, pakinnakanipata, maha-vanija-jataka, discriminating-punishment-by-individual-dissent, recorded-objection-exempts-from-collective-consequence]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-maha-vanija-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XIV (Pakinnaka-Nipata), No. 493, Maha-vanija-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "But they were many, he was one whose voice forbade them do't: They struck the whetted axes in to fell it by the root."
+canonical-instances:
+  - "A regulator investigating a firm's fraudulent filing finds a junior compliance officer's internal memo flagging the exact numbers as false months before the filing went out, and excludes that one employee from the enforcement action even though they never escalated further or refused to process the paperwork."
+critical-questions:
+  - "The chief's objection was recorded but ineffective — he was outvoted and the tree was cut anyway. Does the punisher's discrimination here reward the mere act of objecting, independent of whether the objector tried harder means (refusing to participate, physically stopping them) once the objection failed?"
+  - "The chief benefited from every earlier round of the tree's gifts just as much as the others did, and only objected at the final, most destructive step. Does sparing him treat the earlier complicity as forgiven, or does the punisher's judgment only ever look at the specific act being punished, not the pattern leading up to it?"
+status: active

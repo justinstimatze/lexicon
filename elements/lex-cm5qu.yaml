@@ -1,0 +1,21 @@
+id: lex-cm5qu
+name: competing-primary-attachments-force-a-single-winner
+type-in: situation
+type-out: state
+_tier: atomic
+agent-instruction: "When two relationships both compete to serve as someone's primary orienting attachment — the figure whose values and cues anchor behavior — expect the system to pick one rather than blend them. Neufeld's clinical-observational claim (a single-author thesis, not RCT-backed — treat it as a compelling clinical framework rather than an experimentally established mechanism) is that a child's attachment compass tolerates only one primary orienting pole at a time. Peer attachment rising to rival parental attachment doesn't produce a weighted average; it produces a winner, with the other pole functionally suppressed rather than merely deprioritized. Generalize past parenting: an employee acquiring a new mentor whose judgment starts to outweigh a long-standing one's fits the same forced-selection dynamic, and so does someone absorbed into a new organizational culture that no longer defers to the one they came from. The diagnostic is whether the second relationship stays additive — safely subordinate to the first, the way siblings sit under parents in Neufeld's own account — or has actually started contesting the primary slot."
+related: []
+evokes: [neufeld, mate, hold-onto-your-kids, peer-orientation, attachment-compass, single-orienting-pole]
+lineage:
+  - source: primary
+    text: neufeld-mate-2006-hold-onto-your-kids-competing-attachments
+    citation: "Gordon Neufeld and Gabor Maté, Hold On to Your Kids: Why Parents Need to Matter More Than Peers (Ballantine Books, 2006), Ch.1, section 'When Important Attachments Compete.' Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "What does not work, and cannot work, is the coexistence of competing primary attachments, competing orienting relationships—in other words, orienting relationships with conflicting values, conflicting messages. When primary attachments compete, one will lose out. And it is easy to see why. A sailor relying on a compass could not find his way if there were two magnetic North Poles. No more successfully could a child simultaneously use both peers and adults as working compass points. The child will orient either by the values of the peer world or the values of the parents, but not both. [...] The attachment brain of immature beings cannot tolerate two orienting influences of equal force, two sets of messages dissonant with each other. It must select one over the other; otherwise, emotions would be confused, motivation paralyzed, and action impaired. [...] In the same way, when an infant's eyes diverge so that he has double vision, the brain automatically suppresses visual information from one of the eyes. The ignored eye will go blind."
+canonical-instances:
+  - "Neufeld's own analogy pair carries the mechanism: a compass with two magnetic norths gives no bearing at all, and an infant's diverging eyes get resolved by the brain suppressing one eye's input entirely — both land on forced selection rather than a blended result."
+  - "The book's contrast case, immediately preceding this passage, is attachments that stay additive: a child can hold parents and teachers and siblings simultaneously as long as those relationships aren't in competition for the same orienting role. What triggers the failure mode is rivalry for that single primary slot, a narrower condition than simply having several attachments at once."
+critical-questions:
+  - "Is 'the attachment brain cannot tolerate two orienting influences' a description of a hard neural constraint, or a clinical generalization from cases where it looked that way?"
+  - "Does the forced-single-winner pattern hold outside attachment specifically, in cases like a rising mentor or a freshly-joined culture pulling against an established one, or does Neufeld's argument depend on features unique to a developing child's neurology?"
+  - "What would count as evidence that a given pair of relationships is genuinely competing for the primary slot, rather than one already being safely subordinate to the other?"
+status: active

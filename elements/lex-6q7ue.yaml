@@ -1,0 +1,19 @@
+id: lex-6q7ue
+name: a-physically-impossible-event-overrides-business-as-usual-priors
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When an event occurs that violates a basic physical regularity everyone has always relied on, the correct response is to treat it as unambiguous proof of hostile action and act immediately, rather than waiting to understand the mechanism behind it. In the Jataka's tale of the naga king's lake, enraged at birds fouling his waters, a naga makes the lake itself catch fire — water burning, a plain physical impossibility. The bird-king reads this single impossible event as sufficient grounds to evacuate the entire flock instantly; birds who wait for a more familiar-looking danger before fleeing, expecting the situation to resolve into something ordinary, are killed. The impossibility itself was the entire warning; no further explanation was needed or available in time."
+related: []
+evokes: [jataka, ekanipata, ghatasana-jataka, physical-impossibility-as-unambiguous-warning, act-on-the-anomaly-not-its-explanation]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-ghatasana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 133, Ghatasana-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Lo! in your stronghold stands the foe, And fire doth water burn"
+canonical-instances:
+  - "A systems team sees a service report a valid response in under a millisecond for a query that has taken at least thirty milliseconds on every prior measurement, and immediately treats it as evidence of a compromised or spoofed monitoring pipeline rather than waiting to understand exactly how the anomaly was produced."
+critical-questions:
+  - "How does an observer distinguish a genuinely impossible event from an unusual but explicable one under time pressure, when both might initially look equally alarming?"
+  - "Does acting instantly on the anomaly risk an overreaction if the 'impossibility' turns out to have a mundane explanation after all, and is that risk worth accepting given what waiting could cost?"
+status: active

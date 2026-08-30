@@ -1,0 +1,21 @@
+id: lex-ejde6
+name: centralized-authority-organizes-what-was-diffuse-opposition
+type-in: situation
+type-out: state
+_tier: atomic
+agent-instruction: "When power that used to sit in several independent hands gets concentrated into one central authority, don't assume the main effect on opposition is simple suppression. Merton's contrast is that a pluralistic structure leaves sources of hostility toward any one institution scattered, unorganized, and often latent — never quite finding each other — while a centralized structure does the opposite: it organizes and intensifies those same sources of hostility into a single, effective, unified force, precisely because centralizing control gives scattered opponents a common target and a common grievance where before they had many separate, unrelated ones. The same move that lets a central authority suppress rivals more efficiently also concentrates whatever resentment that suppression generates into a coherent opposition it wouldn't otherwise have created. Diagnostic move: when evaluating a push to centralize control over some previously pluralistic domain, ask not only 'can the center now suppress dissent more effectively' but also 'has the center just handed previously-unconnected dissenters a shared enemy and a shared reason to coordinate.'"
+related: [lex-8kqer, lex-w9j67]
+scaffolds-from: [lex-w9j67]
+evokes: [merton-1957, dictatorship-organizes-centralizes-and-intensifies, diffuse-unorganized-and-often-latent, pluralistic-authority-vs-centralized-authority]
+lineage:
+  - source: primary
+    text: merton-1957-dictatorship-organizes-diffuse-resistance
+    citation: "Robert K. Merton, Social Theory and Social Structure, Revised and Enlarged Edition (Glencoe, IL: Free Press, 1957), Ch. XV 'Science and the Social Order' [orig. 1938], p.548."
+    quote: "'Dictatorship organizes, centralizes and hence intensifies sources of revolt against science which in a liberal structure remain unorganized, diffuse, and often latent.'"
+canonical-instances:
+  - "A holding company merges several independent regional brands under one unpopular unified policy (return terms, pricing, layoffs). Customers and workers who each had only a scattered, brand-specific grievance now share a single named target and a single grievance, and organize a coordinated boycott or union drive that none of the separate brands would have faced alone."
+  - "A government agency consolidates several previously autonomous regulatory bodies into one ministry under unified political direction. Industries that used to lobby separate regulators with separate, non-overlapping complaints now face — and can jointly oppose — one centralized authority, producing a unified industry coalition where none previously existed."
+critical-questions:
+  - "Does this cut both ways depending on who benefits from organization — is a coalition of the previously-powerless being handed the ability to coordinate a genuine gain for them, even though it's also a genuine loss of control for the centralizer? Whose interest the 'organizing' serves seems to depend entirely on who was diffuse before: scattered citizens who now can unify against a dictator, or scattered small rivals who now unify against a newly dominant firm."
+  - "How much centralization is required before this effect appears — is there a threshold below which consolidation still leaves opposition too fragmented to unify, or does even partial centralization measurably increase the coordination among people who were previously unconnected?"
+status: active

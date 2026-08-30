@@ -1,0 +1,19 @@
+id: lex-sfpgu
+name: deflect-a-rebuke-by-invoking-the-correctors-own-stated-principle-against-them
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than address the substance of a correction, the rebuked party can counter-charge the corrector with hypocrisy by invoking the corrector''s own previously stated principle back at them. In the Jataka''s tale of Gandhara, the rebuked ascetic does exactly this: "did you not leave your kingdom and become religious, saying, ''Why should I admonish another? I will admonish myself alone'': why then are you now admonishing me?"'
+related: []
+evokes: [jataka, sattanipata, gandhara-jataka, tu-quoque-deflection, invoke-correctors-own-principle-against-them]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-gandhara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 406, Gandhara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "did you not leave your kingdom and become religious, saying, \"Why should I admonish another? I will admonish myself alone\": why then are you now admonishing me?"
+canonical-instances:
+  - "Called out for missing a deadline, an employee who once heard their manager say 'I trust people to manage their own time' throws the line back at the manager instead of addressing why the deadline was missed."
+critical-questions:
+  - "Does pointing out an apparent inconsistency in the corrector actually refute the substance of the correction, or does it just successfully change the subject?"
+  - "Is there a real contradiction here, or has the rebuked party stretched the corrector's earlier principle further than it was ever meant to reach?"
+status: active

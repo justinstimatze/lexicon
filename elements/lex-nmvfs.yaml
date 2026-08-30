@@ -1,0 +1,19 @@
+id: lex-nmvfs
+name: an-absent-expected-feature-signals-wrongdoing-from-a-distance
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Wrongdoing can be inferred from a distance, before any direct accusation or evidence, purely by noticing that a specific structure everyone expected to be there is missing. In the Jataka's tale of Mayhaka, the returning elder concludes his brother's moral collapse the instant he sees the alms-chamber is gone: \"going through the air and lighting at Benares in fair raiment under and upper, he stood at the door: not seeing the alms-chamber, he thought, 'That wicked man has destroyed the chamber.'\""
+related: []
+evokes: [jataka, chanipata, mayhaka-jataka, absent-feature-signals-wrongdoing, inference-from-a-missing-structure]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mayhaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 390, Mayhaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "going through the air and lighting at Benares in fair raiment under and upper, he stood at the door: not seeing the alms-chamber, he thought, \"That wicked man has destroyed the chamber.\""
+canonical-instances:
+  - "A returning business partner notices the customer-complaints inbox that used to be checked daily hasn't been opened in weeks, and concludes the company has stopped caring about service quality before looking at a single actual complaint."
+critical-questions:
+  - "Is inferring wrongdoing from one missing feature reliable, or does it risk convicting on a single absence that might have an entirely innocent explanation?"
+  - "Does the inference work because the observer already suspected trouble, meaning the missing feature confirms a prior belief rather than independently proving anything?"
+status: active

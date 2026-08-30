@@ -1,0 +1,19 @@
+id: lex-dv645
+name: preach-a-virtue-you-dont-practice-to-harvest-what-others-give-up
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A con artist can preach a virtue he has never practiced himself, and the following it earns him is exactly what lets him later appropriate what his followers give up. In the Jataka''s tale of Dabbhapuppha, the false ascetic does this by preaching contentment: "explained to the Brethren, as if he were making the moon rise in the sky, the way to the noble state of content, praising contentment with the necessaries. Hearing him the Brethren threw away their pleasant robes and vessels, and took pots of clay and robes of dust-rags."'
+related: []
+evokes: [jataka, sattanipata, dabbhapuppha-jataka, false-teacher-priming, preach-what-you-exploit]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dabbhapuppha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 400, Dabbhapuppha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "explained to the Brethren, as if he were making the moon rise in the sky, the way to the noble state of content, praising contentment with the necessaries. Hearing him the Brethren threw away their pleasant robes and vessels, and took pots of clay and robes of dust-rags."
+canonical-instances:
+  - "A financial guru who lives lavishly off seminar fees convinces attendees to liquidate diversified holdings into a single fund he personally profits from, framing the pitch as teaching them the discipline of simple living."
+critical-questions:
+  - "What would actually distinguish a sincere teacher of a virtue from one exploiting it, before the appropriation becomes visible after the fact?"
+  - "Does the harm here come from the virtue being false, or from the fact that adopting it left the followers holding fewer defenses against exactly this kind of exploitation?"
+status: active

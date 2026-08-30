@@ -1,0 +1,27 @@
+id: lex-asu3y
+name: calibration-and-equal-error-rates-jointly-impossible-when-base-rates-differ
+type-in: claim
+type-out: frame
+_tier: atomic
+agent-instruction: "When evaluating a probabilistic classifier (or any risk-prediction system) that operates across two or more groups, three intuitively-desirable fairness criteria cannot all be satisfied simultaneously when the groups' base rates differ. The three: (1) calibration — for any predicted-risk score s, the actual rate of the predicted event matches s within each group; (2) equal false-positive rates across groups — the rate of incorrectly flagging non-events is the same in each group; (3) equal false-negative rates across groups — the rate of missing actual events is the same in each group. Kleinberg, Mullainathan, Raghavan (2016) and Chouldechova (2017) independently proved: when base rates differ, you can satisfy at most one of these. This is a mathematical fact about probabilistic risk estimates, not a fact about machine learning or any specific decision domain. Operational consequence: 'is this classifier fair?' is not a well-formed question — different reasonable people will pick different criteria to optimize, and no system can satisfy all of them. The conflict ProPublica vs Northpointe over COMPAS recidivism (2016) was not one side being wrong; ProPublica was emphasizing criterion (2), Northpointe was emphasizing (1), and the two ARE mathematically incompatible at differing base rates. Diagnostic move: when asked about fairness, immediately ask 'fair in which sense — calibrated, equal FP rates, equal FN rates, or something else?' and surface that the chooser is exercising substantive moral judgment, not naming an objective property. Generalizes beyond ML / criminal justice to any classification system across heterogeneous populations: medical diagnosis (different prevalences across demographics), lending (different default rates), college admissions, hiring, anti-fraud, content moderation. The impossibility-fact is structurally identical wherever the inputs differ across groups."
+related: [lex-et8q2, lex-4nunt, lex-ftu47, lex-653ng, lex-nx7u7, lex-hbknh, lex-n5cf6, lex-r3aug]
+evokes: [kleinberg-chouldechova-impossibility, fairness-as-multiple-incompatible-criteria, base-rate-divergence, COMPAS-recidivism-debate, propublica-vs-northpointe, calibration-vs-equal-error-rates, you-cant-have-it-all, statistical-impossibility-theorem, fairness-criterion-choice-is-moral-not-technical, the-impossibility-of-group-fairness]
+lineage:
+  - source: primary
+    tradition: kleinberg-chouldechova-fairness
+    text: christian-2020-alignment-problem
+    citation: "Brian Christian, The Alignment Problem: Machine Learning and Human Values (W. W. Norton & Company, 2020), Chapter 2 (Fairness), section 'The Impossibility of Fairness'."
+    quote: "It is simply, Kleinberg and his colleagues write, a fact about risk estimates when the base rates differ between two groups. Chouldechova's analysis lands exactly in the same place: A tool that is calibrated, she writes, cannot have equal false positive and negative rates across groups, when the recidivism prevalence differs across those groups. So you just can't have it all, she says. It's a general principle, but in this case it leads you to interesting conclusions . . that [have] implications for risk assessment in the real world."
+  - source: primary
+    tradition: kleinberg-chouldechova-fairness
+    text: christian-2020-alignment-problem
+    citation: "Brian Christian, The Alignment Problem: Machine Learning and Human Values (W. W. Norton & Company, 2020), Chapter 2 (Fairness), Kleinberg quoted."
+    quote: "Only in a world in which Black and White defendants happened to have equal 'base rates' — that is, happened to actually reoffend exactly as often as one another — would it be possible to satisfy ProPublica's and Northpointe's criteria at the same time. Otherwise, it is simply impossible. This has nothing to do with machine learning. Nothing to do with criminal justice as such."
+canonical-instances:
+  - COMPAS recidivism algorithm (2016) — ProPublica reported it had higher false-positive rates for Black defendants; Northpointe reported it was calibrated across groups; both were correct, and the criteria are mathematically incompatible given different actual recidivism base rates across demographic groups.
+  - Medical-AI breast-cancer screening — calibrated across age groups means it cannot have equal false-positive rates across age groups (because base rates differ by age); a policy choice has to be made and articulated.
+  - Mortgage-default risk scoring across geographic regions with differing actual default rates — same impossibility; lender must pick which criterion to optimize and own the policy implication.
+  - University-admissions predictive models that try to be simultaneously calibrated and equally-error-balanced across demographic groups; the math says you can't, regardless of how thoughtful the modeling team is.
+  - Content moderation systems flagging posts as policy-violating across user populations with differing actual violation rates — the impossibility is the same; "fair moderation" is not a single-target objective.
+severity-tier: warning
+status: active

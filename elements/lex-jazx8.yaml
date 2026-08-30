@@ -1,0 +1,19 @@
+id: lex-jazx8
+name: reverence-for-reputation-suppresses-objection-until-violation-is-blatant
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Deep respect for someone's established reputation can suppress the objection that a first, small violation would otherwise draw, letting the violation escalate through multiple repetitions before anything finally breaks through. In the Jataka's tale of the treasury theft, a treasurer's veneration for a royally-favored brahmin keeps him silent through a first theft and then a second, larger one, saying nothing either time despite directly witnessing both. Only a third, more blatant theft finally overrides the deference. The reputation didn't just fail to prevent the escalation — it actively financed it, since each act was permitted specifically because the halo from the reputation was still doing its work."
+related: []
+evokes: [jataka, ekanipata, silavimamsana-jataka, reputational-halo-finances-escalating-violation, deference-suppresses-objection-until-blatant]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-silavimamsana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 86, Silavimamsana-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Such was the treasurer's veneration for the brahmin that he sat perfectly still and said not a word."
+canonical-instances:
+  - "A board member with decades of unquestioned credibility submits a slightly inflated expense report, then a more inflated one the following quarter, and colleagues who reviewed both say nothing either time, deferring to a track record that only a third, blatantly fraudulent claim finally overrides."
+critical-questions:
+  - "Is there a way to calibrate how much deference a reputation should actually earn against how much scrutiny a given claim or expense genuinely warrants, independent of who's making it?"
+  - "Does the treasurer's eventual objection at the third theft suggest a threshold effect, where enough repetition eventually overrides even strong deference, or was the third theft simply too blatant to explain away regardless of who committed it?"
+status: active

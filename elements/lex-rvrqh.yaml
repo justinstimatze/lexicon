@@ -1,0 +1,19 @@
+id: lex-rvrqh
+name: a-cover-story-is-exposed-by-contradicting-a-known-timeline
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A cover story can be exposed not by any inconsistency within itself, but by contradicting a specific, independently known fact that everyone present already agreed on. In the Jataka's tale of the staged debt collection, a wife stages a scene where the village headman appears to be demanding payment for meat, to explain his presence to her returning husband. The husband sees through it immediately, not because the performance is unconvincing, but because it violates an agreed timeline: 'Sir Headman, when we had some of your old ox to eat, we promised to give you rice for it in two months' time. Not half a month has passed; then why do you try to make us pay now? That's not the reason you are here: you must have come for something else.' The excuse was internally coherent — a headman demanding payment is entirely plausible on its own — it just contradicted a fact the husband already held independently of anything the performance itself claimed."
+related: []
+evokes: [jataka, dukanipata, gahapati-jataka, contradicting-an-independently-known-fact-exposes-a-cover-story, an-internally-coherent-excuse-can-still-fail-an-external-check]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-gahapati-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 199, Gahapati-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Sir Headman, when we had some of your old ox to eat, we promised to give you rice for it in two months' time. Not half a month has passed; then why do you try to make us pay now? That's not the reason you are here: you must have come for something else."
+canonical-instances:
+  - "An employee claims a late arrival was due to a doctor's appointment scheduled weeks ago. The excuse falls apart the moment a manager recalls that same employee saying, in a meeting two days prior, that they had no appointments at all that week."
+critical-questions:
+  - "Is the husband's deduction actually airtight, or could there be an innocent explanation for the timeline mismatch that he never considers because the sight of them together already primed him to look for a lie?"
+  - "How much does this detection method depend on the deceiver's own carelessness — would the plan have worked with a story that referenced a plausible unrelated debt rather than one already pinned to a specific, checkable date?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-8zvts
+name: outward-stillness-mimicking-piety-lowers-prey-vigilance
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A predator can lower prey's guard not by hiding but by performing an outward stillness that reads as piety or harmlessness, exploiting the prey's own tendency to interpret a specific visual signal (motionlessness, an averted gaze) as evidence of virtue rather than as evidence of nothing at all. In the Jataka's tale of the hypocritical crane, a crane stands motionless with wings spread near a shoal of fish, and the fish read the posture as devotion: 'See that twice-born bird, how white-- Like a water-lily seeming; Wings outspread to left and right-- Oh, how pious! dreaming, dreaming!' The wise fish among them corrects the reading by naming what the stillness actually signals: 'He is our most treacherous foe; That is why no wing he raises.' The crane's stillness proves nothing at all. It's simply the precondition for an ambush. The naive fish read a necessary condition for predation as a sign of its opposite."
+related: []
+evokes: [jataka, dukanipata, baka-jataka, motionlessness-read-as-virtue-is-a-predators-precondition, a-necessary-condition-for-attack-mistaken-for-evidence-against-it]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-baka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 236, Baka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "See that twice-born bird, how white-- Like a water-lily seeming; Wings outspread to left and right-- Oh, how pious! dreaming, dreaming!"
+canonical-instances:
+  - "New employees assume a notoriously silent, unreadable executive who never raises their voice in meetings must be calm and trustworthy. Longtime staff know that same stillness usually precedes the executive quietly building a case to eliminate someone's role."
+critical-questions:
+  - "Is stillness actually doing any signaling work here, or is the fish's mistake simpler than that — are they just failing to notice the crane at all, and retroactively rationalizing its presence as pious once questioned, rather than actively interpreting a signal?"
+  - "How does the wise fish know the crane's stillness specifically means predation rather than genuine rest or unrelated behavior — is this a case of a track record informing the correct read, the way the corpus has already seen with other insider-versus-crowd distinctions?"
+status: active

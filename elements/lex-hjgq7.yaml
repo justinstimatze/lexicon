@@ -1,0 +1,19 @@
+id: lex-hjgq7
+name: a-credential-object-self-enforcingly-punishes-an-unentitled-claimant
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A credential object can be built so it doesn't merely fail to confer prestige when falsely claimed — it actively inflicts escalating harm on the false wearer, making the token itself the enforcement mechanism instead of requiring any external judge to test the claim. In the Jataka's tale of the divine flowers, the moment the priest falsely claims the virtues required to wear them, the object itself begins punishing him: 'As soon as they were gone, the priest was seized with a violent pain in the head, as if it were being pounded by a sharp spike, or crushed by an instrument of iron.'"
+related: []
+evokes: [jataka, catukkanipata, kakkaru-jataka, the-credential-itself-enforces-its-own-eligibility-check, no-external-judge-is-needed-when-the-object-punishes-directly]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kakkaru-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 326, Kakkaru-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "As soon as they were gone, the priest was seized with a violent pain in the head, as if it were being pounded by a sharp spike, or crushed by an ... instrument of iron."
+canonical-instances:
+  - "A cryptographic access badge is designed so that using it without the matching biometric authorization doesn't just fail silently — it triggers an immediate, unremovable alarm broadcast to security, making the badge itself the enforcement layer rather than depending on a guard noticing the mismatch."
+critical-questions:
+  - "Is a self-enforcing punitive mechanism actually more just than external verification, given that it offers no due process, no chance to explain circumstances, and no proportionality between the offense and the inflicted harm?"
+  - "What happens to someone who claims the credential in good faith but is mistaken about actually possessing the required qualities — does the mechanism distinguish honest error from deliberate lying, or does it punish both identically?"
+status: active

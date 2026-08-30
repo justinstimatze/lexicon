@@ -1,0 +1,19 @@
+id: lex-t7s23
+name: baiting-a-predators-retreat-instinct-turns-the-attack-against-itself
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A predator's instinctive recoil from resistance can be used against it, when a target deliberately invites the attack into a position that lets the predator's own withdrawal complete the escape. In the Jataka's tale of King Goodness, buried to the neck with jackals closing in, the king raises his throat as if offering it to the lead jackal's bite, then clamps down on its throat with his teeth. The jackal's own pain-driven retreat instinct — thrashing to escape the grip — loosens the earth around the king enough to free him, and the rest of the pack scatters at the sound of their leader's distress. The king never generates any force of his own beyond a single well-timed bite; the jackal's own reflexes do the rest of the work."
+related: []
+evokes: [jataka, ekanipata, mahasilava-jataka, predators-own-retreat-instinct-completes-the-escape, inviting-an-attack-to-redirect-its-force]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahasilava-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 51, Mahasilava-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Fertile in resource, the king marked the beast's approach, and, raising his throat as if to receive the bite, fastened his teeth in the jackal's throat with a grip like a vice!"
+canonical-instances:
+  - "A hiker cornered by an aggressive dog stops running and instead grabs its collar the instant it lunges, and the dog's own violent effort to pull free drags them both away from the edge of the ravine the hiker had been backed toward."
+critical-questions:
+  - "Does this technique require correctly predicting the exact form the attack will take, the way the king anticipates precisely where the jackal will bite, or does it work against a wider range of attack shapes?"
+  - "What happens if the timing is off by even a moment — is there a version of this move that fails catastrophically rather than simply not working, given how little margin the king has buried to the neck?"
+status: active

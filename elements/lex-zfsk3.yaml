@@ -1,0 +1,19 @@
+id: lex-zfsk3
+name: an-escalation-ladder-should-end-in-an-honest-declaration-of-incurable
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a problem resists a series of progressively more aggressive interventions, build in an explicit stopping point where the honest conclusion is that the problem cannot be fixed by any further escalation, rather than continuing to escalate indefinitely. Hippocrates' Aphorisms states the ladder and its ceiling together: 'Those diseases which medicines do not cure, iron cures; those which iron cannot cure, fire cures; and those which fire cannot cure, are to be reckoned wholly incurable.' Three tiers of increasing aggression are named in order, and the aphorism keeps going past the top tier: it names what happens when fire itself fails, which is a formal declaration of incurability. The ladder only does its job with that declared ceiling attached. Strip the ceiling away and escalation has no natural endpoint — nothing tells you when to stop trying harder and start accepting the limit."
+related: []
+evokes: [hippocrates, aphorisms, escalation-ladder-with-declared-ceiling, honest-limit-on-intervention]
+lineage:
+  - source: primary
+    text: hippocrates-aphorisms-adams1849-sectionVII-87
+    citation: "Hippocrates, Aphorisms, trans. Francis Adams (Sydenham Society, 1849), Section VII, §87. Verified verbatim against a direct extraction of the held copy."
+    quote: "Those diseases which medicines do not cure, iron [the knife?) cures ; those which iron cannot cure, fire cures; and those A\\ hich fire cannot cure, arc to be reckoned wholly incurable."
+canonical-instances:
+  - "a software incident-response runbook escalates from automated retry, to a human on-call engineer, to a full incident bridge with senior leadership — and the runbook's final tier is a formal 'root-cause unknown, mitigations exhausted' postmortem status, not an unwritten expectation to keep escalating past the point anyone has more authority to invoke."
+critical-questions:
+  - "How does anyone distinguish, in a real case, between having genuinely exhausted every tier of escalation versus having simply failed to try the right specific version of the top tier — is 'fire cannot cure it' ever fully verifiable, or always somewhat provisional?"
+  - "Does naming a formal ceiling risk becoming an excuse to stop trying prematurely, giving up on cases that a more persistent or more creative escalation might still have resolved?"
+status: active

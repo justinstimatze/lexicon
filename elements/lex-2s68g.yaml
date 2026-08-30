@@ -1,0 +1,19 @@
+id: lex-2s68g
+name: sustained-inescapable-torment-can-flip-preference-toward-mutual-ruin
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a party under sustained, escalating, inescapable harm has no way to end it through ordinary means, check whether their calculus has shifted from self-preservation toward preferring mutual destruction over continued endurance. Aesop's 'The Wasp and the Snake,' tormented repeatedly by a wasp with no way to strike back effectively, chooses self-destruction as the only remaining path to ending the torment: 'Kill you I will, even at the cost of my own life,' and lays its head with the wasp on it under the wheel of a passing wagon, and they both perish together. This differs from an overreaction to a minor, survivable slight — the torment here is severe and ongoing with no exit, which is what makes mutual ruin rational under the snake's own terms rather than merely spiteful."
+related: []
+evokes: [aesop, the-wasp-and-the-snake, mutual-destruction-preference, escalation-with-no-exit]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-wasp-and-the-snake
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Wasp and the Snake.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Kill you I will, even at the cost of my own life, he laid his head with the Wasp on it under the wheel of a passing waggon, and they both perished together."
+canonical-instances:
+  - "a cornered competitor or besieged negotiator chooses a scorched-earth move that damages itself as much as the opponent, once continued endurance under ongoing harm becomes worse than mutual ruin — a calculus close to deterrence logic rather than petty spite."
+critical-questions:
+  - "Is there a point earlier in the escalation where an intervention could have changed the snake's calculus, or does sustained, inescapable torment reliably produce this same shift regardless of when it's addressed?"
+  - "Does labeling this rational under the snake's own terms risk excusing the choice too readily — is mutual destruction ever actually the best available option, or does it only feel that way once every other option has been foreclosed?"
+status: active

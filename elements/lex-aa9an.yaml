@@ -1,0 +1,22 @@
+id: lex-aa9an
+name: atomized-buyers-lack-market-leverage-regardless-of-competence
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A purchaser who buys in small, frequent, individually-scattered quantities has structurally weak leverage against sellers, no matter how intelligent or diligent that individual purchaser is. Market power comes from the aggregate volume behind a purchase, not from any buyer's personal skill, so unpooled buyers systematically receive worse quality and price than the same buyers would get if their purchasing were consolidated -- and no amount of individual expertise closes that gap on its own. Gilman states this about the housewife as purchaser: 'The individual housewife must buy at short intervals and in small quantities... Not unless she becomes the head of a wealthy household, and so purchases in quantity for family, servants, and guests, is her trade of sufficient value to have force in the market. The dealer who sells to a hundred poor women can and does sell a much lower quality of food than he who sells an equal amount to one purchaser.'"
+related: []
+evokes: [women-and-economics, chapter-xi, sufficient-value-to-have-force-in-the-market, the-dealer-who-sells-to-a-hundred-poor-women, unpooled-purchases-carry-no-market-weight]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-xi
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter XI. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "The individual housewife must buy at short intervals and in small quantities. This operates to her pecuniary disadvantage, as is well known; but its effect on the quality of her purchases is not so commonly observed. Not unless she becomes the head of a wealthy household, and so purchases in quantity for family, servants, and guests, is her trade of sufficient value to have force in the market. The dealer who sells to a hundred poor women can and does sell a much lower quality of food than he who sells an equal amount to one purchaser. Therefore, the home, as a food agency, holds an essentially and permanently unfavorable position as a purchaser."
+canonical-instances:
+  - "A hundred independent freelancers each negotiating their own software subscription pay full price and get minimal support, no matter how sharp any individual freelancer's negotiating skill is, while a single company buying the same total volume of licenses gets a discount and a dedicated account manager."
+  - "Individual renters scattered across a city, each negotiating their own lease terms alone, get worse terms than the same renters would get through a tenants' union bargaining collectively for the same total number of units, regardless of how well any single renter understands their rights."
+  - "A thousand small independent bookstores, each ordering a handful of copies from a publisher, pay a higher wholesale price per book than a single large chain ordering the same total volume, no matter how knowledgeable any individual bookstore owner is about the industry."
+critical-questions:
+  - "Is the leverage gap purely a function of volume, or does it also depend on how substitutable the seller finds each individual buyer -- would a buyer with no realistic alternative supplier lack leverage even at high volume?"
+  - "Once atomized buyers recognize this dynamic, how easily can they actually organize to pool their purchasing power, and what specifically tends to prevent that organization from happening even when everyone involved would benefit from it?"
+  - "Does aggregating buyer volume always transfer the resulting leverage back to the individual buyers in the form of better price or quality, or can an intermediary that does the aggregating capture most of that gained leverage for itself instead?"
+status: active

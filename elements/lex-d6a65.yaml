@@ -1,0 +1,20 @@
+id: lex-d6a65
+name: an-unarguable-obstacle-gets-removed-through-a-third-party
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Someone who blocks you with an argument can be answered directly, refused, or persuaded — the exchange stays between the two of you. Someone who blocks you without arguing at all, just by physically or emotionally holding on, can't be dissolved the same way, because there's no claim to counter. That's the moment the tactic often shifts from persuasion to enlisting a third party to do the actual removal — which also lets the person doing the blocking be moved without their own hand doing the moving. In the Jataka's tale of Sutasoma, a king renouncing his throne for the ascetic life turns back every appeal aimed at him — his counsellors, his parents, his wives, even a merchant's offer of unlimited wealth — with a direct answer each time. His youngest son doesn't argue at all; he simply clasps his father by the neck and says he won't let go. Unable to counter a grip with a rebuttal, the king turns to the boy's nurse instead: \"Good nurse, behold this jewel ornament: this is yours: only take away the child, that he be not a hindrance to me.\" She takes the bribe and leads the child away, and the king proceeds without ever having had to be the one who pried his own son's arms loose."
+related: []
+evokes: [jataka, cattalisanipata, culla-sutasoma-jataka, non-argumentative-resistance-requires-a-different-tactic, third-party-removal-avoids-direct-confrontation]
+lineage:
+  - source: primary
+    text: jataka-francis1905-culla-sutasoma-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XVII (Cattalisanipata), No. 525, Culla-Sutasoma-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "My mother, lo! is weeping and / My brother fain would keep thee still, / I too will hold thee by the hand / Nor let thee go against our will. ... Good nurse, behold this jewel ornament: this is yours: only take away the child, that he be not a hindrance to me."
+canonical-instances:
+  - "A departing business partner has fielded every argument from the board about staying, and answered each one, but can't get past a co-founder who simply refuses to schedule the handover meeting and stops responding. Rather than confront the co-founder directly, they route the handover through a mutual colleague who has enough standing to just make it happen, so the co-founder is worked around rather than argued with."
+  - "A parent trying to leave for a work trip has answered every one of their older child's arguments about why they should stay, but the toddler just won't stop physically clinging to their leg at the door. Instead of prying the toddler off themselves, they hand the toddler a favorite toy and slip out while the other parent distracts them — solving by redirection what no argument could."
+critical-questions:
+  - "The child's grip isn't an argument, but is it actually weaker as a claim than the arguments the king already refused — or is bribing a third party to remove him precisely because his claim, don't leave me, is the hardest one of all of them to refuse directly?"
+  - "The tale presents this as a practical solution to an obstacle, without dwelling on what it costs the child to be led away not knowing his father is never coming back — does routing an unanswerable claim through a third party avoid the confrontation, or just relocate the harm to whoever is easiest to not have to watch?"
+status: active

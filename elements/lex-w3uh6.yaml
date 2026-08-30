@@ -1,0 +1,18 @@
+id: lex-w3uh6
+name: announcing-intent-to-replicate-a-treatment-one-generation-forward-as-a-precedent-argument
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: 'To argue against a precedent being set, an agent can announce their own future intention to apply that exact precedent to the very person setting it, one generation later, making the argument concrete by naming themselves as the next enforcer of the rule rather than merely warning of a hypothetical general pattern. In the Jataka''s tale of Takkala, the boy tells his father he will do to him, in old age, exactly what his father now proposes to do to the grandfather: "''I too, when thou art aged, father mine, Will treat my father as thou treatest thine; Following the custom of the family Deep in a pit I too will bury thee.''"'
+related: []
+evokes: [jataka, dasanipata, takkala-jataka, generational-mirror-argument, precedent-turned-back-on-its-author]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-takkala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 446, Takkala-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "I too, when thou art aged, father mine, Will treat my father as thou treatest thine; Following the custom of the family Deep in a pit I too will bury thee."
+canonical-instances:
+  - "When a manager proposes laying off the team's most senior, highest-paid engineer purely for cost reasons, a younger engineer tells him directly that she will cite this exact layoff as precedent to justify replacing him the moment his own salary becomes inconvenient."
+critical-questions:
+  - "Does naming oneself as the future enforcer of a bad precedent actually deter the precedent-setter more effectively than warning of a general, impersonal pattern would?"
+status: active

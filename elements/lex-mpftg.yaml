@@ -1,0 +1,19 @@
+id: lex-mpftg
+name: a-fortiori-magnitude-comparison-redirects-a-rebuke-back-onto-the-rebuker
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone dismisses a staged demonstration as pointless, the demonstrator can accept their exact premise and escalate it, arguing that if reviving even the lesser case is impossible, then grieving over the far greater case is even more absurd. The rebuke is redirected onto the rebuker through a magnitude comparison rather than argued against directly. In the Jataka's tale of Sujata, the father protests that no food can revive a dead ox, and the son points out the ox's own limbs are all still there, while the buried grandfather has none at all: 'Methinks this beast may come to life again, Both head and tail and its four feet remain. But of my grandsire head and limbs are gone: No fool weeps o'er his grave, but thou alone.'"
+related: []
+evokes: [jataka, pancanipata, sujata-jataka, a-fortiori-rebuke-turns-the-objection-into-the-lesson, lesser-case-magnitude-comparison]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sujata-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 352, Sujata-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Methinks this beast may come to life again, Both head and tail and its four feet remain. But of my grandsire head and limbs are gone: No fool weeps o'er his grave, but thou alone."
+canonical-instances:
+  - "A consultant tells a client their plan to revive a discontinued product line is a waste of time. The client points out the discontinued line at least still has its factory tooling, its supplier contracts, and its brand recognition intact — unlike the entirely-imagined new product the consultant proposed building instead, which has none of those things and is being pursued with a straight face."
+critical-questions:
+  - "Does accepting the interlocutor's premise and escalating it actually persuade them, or does it just win the immediate exchange while leaving the underlying disagreement about whether either case is worth grieving unresolved?"
+  - "Is the magnitude comparison actually valid here, or does it quietly assume the two cases differ only in degree when they might differ in kind — reviving a dead relative and giving up a discontinued product line may not sit on the same scale at all?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-uymmh
+name: recruiting-peers-into-sharing-your-loss-normalizes-it-without-reframing-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone who has suffered a personal loss campaigns to make that same loss standard among their peers, check whether the goal is normalizing the loss socially rather than genuinely deciding it was good to lose. In Aesop's 'The Fox Without a Tail,' a fox who lost his tail in a trap urges the other foxes to cut off theirs too, praising the change; one fox sees through the campaign immediately: 'My friend, if you hadn't lost your own tail, you wouldn't be so keen on getting us to cut off ours.' This is distinct from privately deciding an unattainable thing wasn't worth having — here the fox actively works to erase his own stigma by recruiting others into sharing the identical defect, not by reframing the loss for himself alone."
+related: []
+evokes: [aesop, the-fox-without-a-tail, recruiting-peers-into-a-loss, normalizing-a-defect]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-fox-without-a-tail
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Fox Without a Tail.' Verified verbatim against a direct extraction of the held copy."
+    quote: "My friend, if you hadn't lost your own tail, you wouldn't be so keen on getting us to cut off ours."
+canonical-instances:
+  - "an employee denied a benefit or a promotion lobbies to have that benefit eliminated company-wide, rather than accepting that they alone missed out — the campaign goes after everyone else's standing, leaving the private reassessment untouched."
+critical-questions:
+  - "Is there ever a genuine, self-interest-free version of this advocacy — could someone denied a benefit correctly conclude the benefit itself was flawed, independent of wanting company in their loss?"
+  - "How would the other foxes distinguish a self-interested campaign like this one from a legitimately good argument for change, given that the same proposal could be correct on its own merits regardless of the advocate's motive?"
+status: active

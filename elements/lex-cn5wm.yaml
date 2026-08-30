@@ -1,0 +1,21 @@
+id: lex-cn5wm
+name: description-replaces-explanation-for-an-irreducible-mystery
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When a phenomenon resists every attempt to explain it in terms of something more familiar or intuitive, consider that the right response may be to describe it precisely rather than keep searching for an explanation that dissolves the strangeness. Feynman's framing of quantum behavior (introducing the double-slit experiment) is that some phenomena contain 'the only mystery' at the heart of a theory, and no amount of further explanation makes that mystery go away — the theory's job becomes telling you exactly how the phenomenon behaves, not why it behaves that way in terms you already find intuitive. This is a deliberate stopping point rather than a failure of pedagogy or an admission of ignorance: it names the difference between a problem that yields to more analysis and one where the analysis IS learning to work with the strangeness directly."
+related: [lex-cmwmy, lex-dyx5y]
+evokes: [feynman, feynman-lectures, quantum-behavior, double-slit-experiment, irreducible-mystery]
+lineage:
+  - source: primary
+    text: feynman-leighton-sands-1965-lectures-vol3-ch1-quantum-behavior
+    citation: "Richard Feynman, Robert B. Leighton, and Matthew Sands, The Feynman Lectures on Physics, Vol. III: Quantum Mechanics (New Millennium Edition, Basic Books), Ch.1 'Quantum Behavior,' Section 1-1 'Atomic mechanics.' Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "In this chapter we shall tackle immediately the basic element of the mysterious behavior in its most strange form. We choose to examine a phenomenon which is impossible, absolutely impossible, to explain in any classical way, and which has in it the heart of quantum mechanics. In reality, it contains the only mystery. We cannot make the mystery go away by 'explaining' how it works. We will just tell you how it works. In telling you how it works we will have told you about the basic peculiarities of all quantum mechanics."
+canonical-instances:
+  - "The double-slit experiment itself, introduced immediately after this passage: no classical mechanism (particle or wave alone) reproduces the interference pattern, and Feynman's pedagogical choice is to present the experiment's actual behavior precisely rather than offer a classical analogy that would misleadingly resolve the strangeness."
+  - "operationally distinct from ordinary scientific humility about incomplete theories (acknowledging a gap pending future explanation): Feynman isn't saying quantum mechanics is incomplete or that a deeper explanation might arrive later — the claim is that accurate description of the phenomenon IS the complete theory, and searching for an underlying classical-style explanation is treated as a category error rather than a live research question."
+critical-questions:
+  - "Is 'the only mystery' actually a single, well-defined phenomenon, or does the claim quietly bundle several distinct puzzles (wave-particle duality, measurement, superposition) under one label? Treating them as one mystery could obscure that some have since seen real theoretical progress (decoherence accounts of measurement) even if the core weirdness of quantum superposition remains."
+  - "Does 'stop explaining, start describing' generalize to other domains, or is quantum mechanics genuinely special because classical intuition is provably inadequate rather than just currently inadequate? Applying this move prematurely elsewhere risks foreclosing real explanatory progress that hasn't been tried yet."
+  - "How does a learner distinguish, from the inside, between a problem that has reached this genuine stopping point and one where they've simply given up too early? Feynman's authority as the one declaring the mystery irreducible is doing real work here that an individual learner can't independently verify."
+status: active

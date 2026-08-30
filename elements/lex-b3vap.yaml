@@ -1,0 +1,22 @@
+id: lex-b3vap
+name: a-figure-can-hold-opposed-moral-poles-without-resolving-them
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Not every symbolic figure that embodies a contradiction is doing the work of resolving it. Radin's Trickster is 'creator and destroyer, giver and negator... he knows neither good nor evil yet he is responsible for both' — the figure doesn't mediate between these poles or transform them into a synthesizing third term; it holds both simultaneously and permanently, as an irreducible feature of what the figure is. Radin's own account of why the figure persists across generations follows from this: because the symbol 'contains within itself the promise of differentiation' without ever completing it, each generation can reinterpret Trickster without exhausting him, since there's no final resolved reading to arrive at."
+related: [lex-7yemm, lex-v6kay, lex-dzqje, lex-uz7g4]
+scaffolds-from: [lex-7yemm]
+evokes: [radin, the-trickster, unresolved-paradox, moral-ambivalence, winnebago-trickster-cycle]
+lineage:
+  - source: primary
+    text: radin-1956-the-trickster-introduction-and-closing-commentary
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), Introduction pp.viii-ix and closing commentary p.168 — compiling the Winnebago/Ho-Chunk trickster cycle as narrated by Sam Blowsnake and other tribal narrators, translated by Radin, with commentaries by Karl Kerényi and C.G. Jung appended. This quote is Radin's own analytical framing, not the translated narrative itself or the Jung/Kerényi commentary. Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "Trickster is at one and the same time creator and destroyer, giver and negator, he who dupes others and who is always duped himself. He wills nothing consciously. At all times he is constrained to behave as he does from impulses over which he has no control. He knows neither good nor evil yet he is responsible for both. He possesses no values, moral or social, is at the mercy of his passions and appetites, yet through his actions all values come into being. ... The symbol which Trickster embodies is not a static one. It contains within itself the promise of differentiation, the promise of god and man. For this reason every generation occupies itself with interpreting Trickster anew. No generation understands him fully but no generation can do without him."
+canonical-instances:
+  - "Radin's closing claim that 'no generation understands him fully but no generation can do without him' treats the figure's persistent reinterpretability as a direct consequence of the unresolved paradox, not a separate cultural fact about Trickster's popularity."
+  - "operationally distinct from lex-7yemm (Lévi-Strauss's myth-mediates-an-irresolvable-contradiction-via-structural-transformation, where a myth resolves a real cultural contradiction by generating a logically intermediate third term): Radin's claim is the opposite shape — the figure doesn't resolve or mediate the opposed poles into anything, it holds them both, unresolved, at once. Also distinct from lex-v6kay (rule-violation as information source, about what a transgressive act does to a community) and lex-dzqje (licensed transgression renewing a trusted frame) — neither addresses moral valence at all. Distinct from lex-uz7g4 (Jung's archetype as projective shorthand, about the archetype's function for an interpreter) — Radin's claim is about the trickster's own internal structure being genuinely, irreducibly contradictory, not about how an interpreter projects meaning onto it."
+critical-questions:
+  - "Is 'holds both poles without resolving them' a coherent claim distinct from simply saying the figure is inconsistently drawn across different tellings — how would one distinguish a genuinely paradoxical figure from a poorly unified one?"
+  - "Radin's interpretation is itself a mid-20th-century academic reading layered onto oral narratives collected from specific Winnebago narrators — does the paradox live in the narratives themselves, or is it partly an artifact of Radin's own synthesizing frame across many separate stories?"
+  - "Does this generalize past Trickster figures specifically to other symbols sometimes read as holding rather than resolving a contradiction, or is something specific to the Trickster's narrative role doing the work?"
+status: active

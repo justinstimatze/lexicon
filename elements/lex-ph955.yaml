@@ -1,0 +1,19 @@
+id: lex-ph955
+name: an-arbitrary-incidental-sign-is-read-as-a-confident-portent
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "An arbitrary, low-information detail — a seating choice, a coin flip, an offhand remark — can get converted into a confident prediction that then shapes real decisions, even though the detail carried no actual information about the future. In the Jataka's tale of Darimukha, a householder's random choice of which cloth to lay on which guest's seat is read by Darimukha as an omen predicting royal rank, and he acts on that reading for the rest of the story: 'Darimukha observed the omen and understood that his friend should be king in Benares and himself commander of the army.'"
+related: []
+evokes: [jataka, chanipata, darimukha-jataka, ambiguous-signal-read-as-portent, low-information-cue-drives-confident-prediction]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-darimukha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 378, Darimukha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Darimukha observed the omen and understood that his friend should be king in Benares and himself commander of the army."
+canonical-instances:
+  - "An investor notices the CEO sat closest to the door during a pitch meeting and reads it as a sign of low commitment to the deal, then builds an entire risk assessment around that one seating detail."
+critical-questions:
+  - "Once a prediction built on an arbitrary sign starts guiding behavior, does the behavior itself sometimes make the prediction come true regardless of whether the original sign meant anything?"
+  - "How would someone tell an arbitrary sign apart from a genuinely informative one in the moment, rather than only in hindsight once the outcome is known?"
+status: active

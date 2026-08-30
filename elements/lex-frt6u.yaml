@@ -1,0 +1,19 @@
+id: lex-frt6u
+name: unsolicited-correction-of-someone-under-strain-provokes-disproportionate-anger
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Offering unsolicited technical correction to someone already under physical or emotional strain can trigger a reaction wildly disproportionate to the correction itself. Whatever capacity that person had to absorb an interruption is already spent on the strain itself. In the Jataka's tale of the woodcutter, a bystander sits down beside a man suffering from jaundice who's chopping wood, and starts directing his technique — telling him to chop here, chop there — until the woodcutter, already at his limit, explodes in rage and kills him with the axe over what would ordinarily be a trivial, even well-meaning, piece of unsolicited advice."
+related: []
+evokes: [jataka, ekanipata, tittira-jataka, unsolicited-correction-of-someone-under-strain, disproportionate-reaction-reflects-depleted-capacity-not-the-trigger]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-tittira-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 117, Tittira-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "a chattering Brother came and sat by him, and directed his work, bidding him give here a chop and there a chop, till the jaundiced ascetic lost his temper."
+canonical-instances:
+  - "A colleague who's visibly rushing to fix a live production outage gets unsolicited style feedback on their emergency patch from a teammate who means well, and snaps at them far more harshly than the comment would ever warrant under ordinary circumstances."
+critical-questions:
+  - "Is the disproportionate reaction actually about the correction's timing and framing, or would the exact same feedback, delivered identically, provoke no reaction at all if offered on an ordinary day?"
+  - "Does the person offering correction bear any responsibility for reading the other person's visible strain before speaking, or is an explosive reaction to well-meant advice always disproportionate regardless of context?"
+status: active

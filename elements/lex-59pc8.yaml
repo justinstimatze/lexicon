@@ -1,0 +1,18 @@
+id: lex-59pc8
+name: a-standing-directive-conditions-rescue-on-the-victims-prior-eligibility
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: 'A rescue can be governed by a standing rule set in advance rather than by immediate discretion. The rule limits whom the rescuer is obligated to save to those meeting a stated eligibility criterion, and it judges the rescuer only against whether that criterion was applied correctly — what becomes of the excluded victim is a separate question. In the Jataka''s tale of Sankha, a guardian deity operates under an explicit prior directive: "''If by shipwreck any ill befall men who have gone to the Three Refuges, or are endued with virtue, or who worship their parents, you should save them,''" and the deity''s own anxiety about compliance is explicit: "were he to die, great would be my blame."'
+related: []
+evokes: [jataka, dasanipata, sankha-jataka, conditional-rescue, eligibility-gated-obligation]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sankha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 442, Sankha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "If by shipwreck any ill befall men who have gone to the Three Refuges, or are endued with virtue, or who worship their parents, you should save them"
+canonical-instances:
+  - "A search-and-rescue charter authorizes crews to divert from a scheduled patrol only for vessels flying a valid distress signal and registered with the coast authority, and a crew that let an unregistered boat sink faces internal review not for cruelty but for correctly following the eligibility rule."
+critical-questions:
+  - "Does gating rescue on a prior eligibility criterion protect the rescuer's accountability at the cost of the excluded victim's survival, and who is meant to bear that tradeoff?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-4uhvg
+name: an-involuntary-startle-can-be-retroactively-reframed-as-a-deliberate-stance
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When you are caught in an involuntary, status-damaging reaction, check whether asserting a deliberate motive before anyone challenges you can overwrite the reflex in the record. In Aesop's 'The Lion, the Mouse, and the Fox,' a lion startled by a mouse running past immediately claims the flinch as irritation at bad manners, denying anything close to fear. The reframe does not need to be plausible to work — it only needs to be asserted first, before the involuntary nature of the reaction becomes the accepted story."
+related: []
+evokes: [aesop, the-lion-the-mouse-and-the-fox, retroactive-reframing, narrative-control-after-a-reflex]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-lion-the-mouse-and-the-fox
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Lion, the Mouse, and the Fox.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Afraid of a Mouse? said the Lion testily: not I! It's his bad manners I can't stand."
+canonical-instances:
+  - "someone who flinches at a loud noise or a surprising remark in a meeting immediately claims 'I wasn't startled, I was just annoyed you interrupted,' before anyone has a chance to comment on the flinch itself."
+critical-questions:
+  - "Does the reframe actually work on observers who witnessed the original reflex clearly, or does it only succeed with an audience who didn't see the moment closely enough to compare the two accounts?"
+  - "Is there a cost to reaching for this move too often — does a pattern of retroactive reframing eventually become recognizable itself, undermining the very reframes it's meant to protect?"
+status: active

@@ -1,0 +1,18 @@
+id: lex-umcyq
+name: an-unscoped-boon-becomes-a-weapon-later
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: 'A ruler can grant an open-ended promise before knowing what will be asked, out of affection or in a weak moment, and that promise is then held in reserve and invoked later for a request the ruler would never have agreed to upfront — the harm lies not in granting a request but in having pre-committed to grant an unknown one. In the Jataka''s tale of Dasaratha, the king offers his newest queen an unscoped boon at his son''s birth, which she holds in reserve for years before cashing it in to disinherit his elder sons: "The king loved his son much, and said to the queen, ''Lady, I offer you a boon: choose.'' She accepted the offer, but put it off for the time."'
+related: []
+evokes: [jataka, ekadasanipata, dasaratha-jataka, unscoped-commitment, ramayana-kaikeyi-boon-motif]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dasaratha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 461, Dasaratha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The king loved his son much, and said to the queen, \"Lady, I offer you a boon: choose.\" She accepted the offer, but put it off for the time."
+canonical-instances:
+  - "A father tells his newborn's mother 'name it and it's yours' in the delivery room, and years later she invokes that exact promise to demand he sign over the family business to her side of the family alone."
+critical-questions:
+  - "The translator's own note ties this directly to the Ramayana's Kaikeyi boon (with Sita recast here as sister rather than wife) — does the structural trap depend on the promise being genuinely unconditional, or would a boon with even one unstated limit still carry the same risk?"
+status: active

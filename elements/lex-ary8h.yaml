@@ -1,0 +1,18 @@
+id: lex-ary8h
+name: instant-abandonment-of-sunk-investment-upon-updated-threat-model
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Once an agent realizes a hidden party is armed and dangerous to them personally, they don''t deliberate or verify further — they immediately discard the very thing they had invested enormous effort protecting, because the new information reframes it from asset to threat. In the Jataka''s tale of Samugga, the demon instantly throws up the box the moment he suspects a swordsman hides inside: On hearing this the Asura thought, "Magicians surely are full of tricks: supposing his sword should be in his hand, he will rip open my belly and make his escape." And being greatly alarmed he threw up the box and placed it before him.'
+related: []
+evokes: [jataka, navanipata, samugga-jataka, instant-reassessment-of-a-protected-asset-as-threat, sunk-cost-abandoned-under-threat]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-samugga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 436, Samugga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "On hearing this the Asura thought, \"Magicians surely are full of tricks: supposing his sword should be in his hand, he will rip open my belly and make his escape.\" And being greatly alarmed he threw up the box and placed it before him."
+canonical-instances:
+  - "A smuggler who has spent months building trust with a shipping contact instantly cuts contact and abandons the entire operation the moment he suspects the contact might be an undercover agent, with no attempt to verify the suspicion first."
+critical-questions:
+  - "Is instant abandonment on a mere suspicion of threat the right call here, or does skipping verification risk discarding a valuable asset on a false alarm?"
+status: active

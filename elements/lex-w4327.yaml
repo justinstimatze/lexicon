@@ -1,0 +1,19 @@
+id: lex-w4327
+name: naming-a-predators-track-record-terminates-the-negotiation
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When flattery escalates and a polite deflection fails to end the approach, stating the concealed threat outright — citing the predator''s history of harming others like the target — can shut down further persuasion entirely, since it removes the pretense the approach depended on. In the Jataka''s tale of Kukkuta, once refusal-by-deflection doesn''t work, the cock ends all further negotiation by naming the cat''s history directly: ''Thou hast drunk my kindred''s blood, and robbed and slain them cruelly: "Honoured wife"! there is no honour in your heart when wooing me.'''
+related: []
+evokes: [jataka, chanipata, kukkuta-jataka, naming-the-track-record-ends-negotiation, exposing-concealed-threat-directly]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kukkuta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 383, Kukkuta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Thou hast drunk my kindred's blood, and robbed and slain them cruelly: \"Honoured wife\"! there is no honour in your heart when wooing me."
+canonical-instances:
+  - "A small business owner being courted by a supplier known for undercutting and then dropping every past partner ends the pitch meeting by naming that history directly, refusing to let the conversation continue on the supplier's polite terms."
+critical-questions:
+  - "Does naming the track record directly actually end the approach, or does a sufficiently determined predator simply deny the history and continue pressing?"
+  - "Why does the polite deflection get tried first when the direct approach is what actually ends the matter — is the escalation itself doing useful work, or is it just a cost paid before arriving at the effective move?"
+status: active

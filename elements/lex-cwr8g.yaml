@@ -1,0 +1,22 @@
+id: lex-cwr8g
+name: a-storyteller-decouples-truth-value-from-worth-telling
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A narrator can explicitly flag that a story's literal truth is uncertain, then assert that its plausibility or typicality, not its factual accuracy, is what licenses telling it -- whether or not it actually happened, it could have, and that is treated as sufficient reason to tell it anyway. Introducing the tale of High Horse's Courting, Black Elk reports exactly how his friend Watanye framed it: 'Watanye said the story happened just as he told it, and maybe it did. If it did not, it could have, just as well as not.' The claim isn't that verification was attempted and failed -- it's that verification was never the point. A story earns its telling by being a believable instance of how people actually behave, and that standard is explicitly set apart from, and sufficient without, the separate question of whether this particular telling is a factual record."
+related: []
+evokes: [black-elk-speaks, high-horses-courting, maybe-it-did, it-could-have-just-as-well-as-not, plausibility-not-verification-license-a-story]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch5-at-the-soldiers-town
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 5, 'At the Soldiers' Town.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "I still remember one story he told me about a young Lakota called High Horse, and what a hard time he had getting the girl he wanted. Watanye said the story happened just as he told it, and maybe it did. If it did not, it could have, just as well as not. I will tell that story now."
+canonical-instances:
+  - "A grandparent prefaces a family story with 'now, I don't know if this really happened this way, but it's the kind of thing that would happen,' before telling it as though it were fact."
+  - "A folklorist collecting oral tradition records a village elder's tale of a trickster outwitting a landlord, noting the elder shrugged off a question about whether it really occurred: whether it did or not, everyone in the village had met a landlord exactly like that one."
+  - "A stand-up comedian tells an anecdote framed as autobiographical that the audience broadly suspects is exaggerated or invented, and the audience's laughter isn't withheld pending verification -- the bit works because it rings true to a shared experience, not because it happened exactly as told."
+critical-questions:
+  - "Does explicitly flagging uncertain truth-value make a listener more or less likely to believe the specific details of the story that follows, compared to a story told with unqualified confidence?"
+  - "If plausibility is what actually licenses a story, why bother narrating it as something a specific named person, High Horse, actually experienced, rather than simply describing the pattern of behavior it's meant to illustrate?"
+  - "Is 'it could have happened, just as well as not' a genuinely different epistemic stance from ordinary fiction, or is Watanye's framing just a more honest way of admitting what every storyteller who claims their tale is true is actually doing?"
+status: active

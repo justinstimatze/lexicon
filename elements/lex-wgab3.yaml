@@ -1,0 +1,18 @@
+id: lex-wgab3
+name: fair-weather-associates-exposed-by-a-change-in-fortune
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When a resource that once benefited a group dries up, the associates who depart reveal retroactively that their attachment was conditional on the benefit, while whoever stays is validated as different in kind. Adversity or resource loss functions as a social-diagnostic filter, separating conditional associates from genuine ones — and the pattern can be stated explicitly rather than left as subtext. In the Jataka''s parallel telling of the parrot tale (Cullasuka), the other birds who fled the withered tree are named and judged directly: "Nor leaves nor fruit it yields, alas! the tree is dead: / Why blame thy fellow-birds, that they should all have fled?" ... "They loved it for its fruit, and now that it has none, / Poor selfish fools! their love and gratitude is gone."'
+related: []
+evokes: [jataka, navanipata, cullasuka-jataka, fair-weather-friend, adversity-as-social-filter]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-cullasuka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 430, Cullasuka-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Nor leaves nor fruit it yields, alas! the tree is dead: / Why blame thy fellow-birds, that they should all have fled? ... They loved it for its fruit, and now that it has none, / Poor selfish fools! their love and gratitude is gone."
+canonical-instances:
+  - "When a once-hot startup's stock stops climbing, half the team that praised the founder's vision at every all-hands quietly starts interviewing elsewhere within a month, making visible exactly whose enthusiasm was tied to the upside and whose wasn't."
+critical-questions:
+  - "Is it fair to call the departing associates \"selfish fools,\" or is leaving a depleted resource sometimes simply the rational choice rather than evidence of a character flaw?"
+status: active

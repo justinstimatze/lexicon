@@ -1,0 +1,19 @@
+id: lex-59r5j
+name: propose-a-remedy-that-channels-anothers-power-to-destroy-your-rival
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a rival has slandered you to an authority in your absence, a plausible 'remedy' proposal can redirect that authority's own power onto the rival — check whether it's available before reaching for denial. Aesop's 'The Lion, the Wolf, and the Fox' has a fox, accused by a wolf of disloyalty, respond not with denial but with a suggested cure for the lion's illness: 'you must flay a Wolf and wrap yourself in his skin while it is still warm.' The fox never touches the wolf itself — the lion's own violence becomes the instrument of the fox's retaliation, and the fox retains full plausible deniability throughout, having only ever offered helpful advice."
+related: []
+evokes: [aesop, the-lion-the-wolf-and-the-fox, weaponizing-the-authoritys-own-power, plausible-deniability-through-advice]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-lion-the-wolf-and-the-fox
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Lion, the Wolf, and the Fox.' Verified verbatim against a direct extraction of the held copy."
+    quote: "I have, sire, said the Fox, and it is this: you must flay a Wolf and wrap yourself in his skin while it is still warm."
+canonical-instances:
+  - "a workplace rival badmouths you to a manager in your absence; instead of denying it, you suggest a plausible 'fix' that gets the manager to remove the rival themselves, with your own hands never involved."
+critical-questions:
+  - "Does this tactic require the authority to already be primed to act — sick, angry, looking for a solution — or can the same redirection work on an authority with no independent motive to act against the rival at all?"
+  - "How would the wolf, or an outside observer, ever trace the fox's culpability after the fact, given that every visible action was performed by the lion acting on its own accepted remedy?"
+status: active

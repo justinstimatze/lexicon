@@ -1,0 +1,21 @@
+id: lex-wu45s
+name: delivered-value-converts-skepticism-before-identity-is-known
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When you need a skeptical, resource-strapped person to invest in you before they have any reason to trust you, don't try to win them over with explanation or an appeal to who you really are -- deliver something of concrete value first, on the smallest possible ask, and let the returned value do the persuading. In Eastman's telling, an old man takes in a strange ragged boy only grudgingly, at his wife's insistence, and stays openly hostile to the very first small investment asked of him: 'And why should I make arrows for a strange little ragged boy?' he grumbles -- there's no warmth here, just resentment at spending a poor household's scarce resources on an unknown dependent. He makes the arrows anyway, minimally, and the boy immediately returns more than was invested: birds, meat, soup, feathers for a pillow. Only then does the old man's stance shift, and it shifts entirely on the strength of what came back, not on anything the boy has said about himself: 'You have done well, my grandson!' The boy never reveals his real identity or explains himself at any point in this exchange -- the old man has no idea he's harboring someone who will later kill a Red Eagle and marry a chief's daughter. His change of heart tracks the delivered value alone, at the smallest scale the household could risk. Diagnostic move: when trying to earn investment from someone with every rational reason to be stingy and suspicious of a stranger, don't lead with your credentials or your case for why you deserve trust -- ask for the smallest possible initial investment, deliver back more value than it cost, and let repeated small returns do the work that argument and reputation can't do with someone who has nothing to spare on faith."
+related: []
+evokes: [win-a-skeptics-investment-with-the-smallest-possible-ask, eastman-the-magic-arrows, delivered-returns-persuade-where-explanation-cant, identity-stays-hidden-while-value-does-the-talking]
+lineage:
+  - source: primary
+    text: eastman-magic-arrows-old-man-won-over-by-delivered-value
+    citation: "Charles A. Eastman (Ohiyesa) and Elaine Goodale Eastman, Wigwam Evenings: Sioux Folk Tales Retold (Little, Brown, 1909), 'Twenty-Sixth Evening: The Magic Arrows.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'You hear, my old man?' said she. 'It will be very well for you to make some little arrows for the boy.' 'And why should I make arrows for a strange little ragged boy?' grumbled the old man. However, he made two or three, and the boy went hunting. In a short time he returned with several small birds... 'You have done well, my grandson!' he said; for they were really very poor."
+canonical-instances:
+  - "A new hire nobody wanted to bring onto a resource-constrained team wins over a skeptical manager not by explaining their credentials but by asking for one small task, over-delivering on it, and letting a string of small over-deliveries build the trust that no interview pitch could."
+  - "An unfamiliar vendor pitching to a cost-conscious, wary small-business owner gets a foot in the door only by offering a tiny trial order at minimal risk, then delivering results that exceed what was promised, converting skepticism into a standing relationship purely through the first trade's returns."
+critical-questions:
+  - "does this pattern only work because the old man had almost nothing to lose on such a small first ask -- does it scale to situations where even the smallest ask still carries real risk for the skeptic?"
+  - "is there a point where 'deliver value repeatedly and let it speak for itself' becomes a trap, keeping someone in an under-recognized, unrewarded role indefinitely because they never assert their actual worth or identity?"
+  - "how many repetitions of delivered value does it actually take before it's reliable evidence of ability rather than a lucky first outcome -- the old man is won over after a single catch of birds, which could just as easily have been chance?"
+status: active

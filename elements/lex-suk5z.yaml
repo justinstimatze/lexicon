@@ -1,0 +1,19 @@
+id: lex-suk5z
+name: a-self-serving-warning-to-monopolize-a-resource-undoes-its-own-issuer
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Someone who fabricates a danger to keep others away from a resource they want to monopolize can still fall victim to the very complacency their own false warning was designed to exploit in everyone else. In the Jataka's tale of the bird and the highway, a bird invents fictitious dangers along a rich foraging road specifically to keep rival birds from competing with her for it, and enjoys the road alone as a result. She's eventually killed by an oncoming carriage there herself, having misjudged its closing speed — the same overconfidence about safety that her lie was meant to induce in others turns out to apply to her too, since she never actually eliminated the real risk, only the competition for a road that was dangerous the whole time."
+related: []
+evokes: [jataka, ekanipata, anusasika-jataka, self-serving-lie-monopolizes-a-real-risk-not-just-a-resource, deceivers-own-complacency-undoes-them]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-anusasika-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 115, Anusasika-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Oh it's quite a long way off,\" thought she and went on as before. Up swift as the wind came the carriage"
+canonical-instances:
+  - "A trader who spreads a false rumor that a particular stock is about to be delisted, specifically to scare off other buyers and accumulate shares cheaply for themselves, ends up holding the position through a real, unrelated crash that the rumor never actually protected them from in the first place."
+critical-questions:
+  - "Does monopolizing a resource by lying about its danger ever leave the liar with an accurate read of the real risk, or does maintaining the lie for others eventually distort the liar's own judgment about it too?"
+  - "Would the bird have survived if she'd never invented the lie at all, given that the actual danger — the carriage — was real and unrelated to the fictitious one she made up to scare off competitors?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-8q7zk
+name: discard-the-means-of-a-recurring-temptation-rather-than-resist-it-again
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Someone who notices the same dangerous impulse recurring despite each attempt to resist it can recognize that repeated willpower will eventually fail, and instead remove the physical means of acting on the impulse entirely, trusting the removal rather than trusting their future self. In the Jataka''s tale of Gangamala, King Half-penny discards his sword after the murderous thought returns a third time: "A second and a third time the same thought rose. Feeling that this thought, rising again and again, would lead him on to the evil deed, he threw the sword on the ground and woke the king."'
+related: [lex-4s9ry, lex-jj68r]
+evokes: [jataka, atthanipata, gangamala-jataka, precommitment, remove-the-means-not-the-willpower]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-gangamala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 421, Gangamala-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "A second and a third time the same thought rose. Feeling that this thought, rising again and again, would lead him on to the evil deed, he threw the sword on the ground and woke the king."
+canonical-instances:
+  - "Someone who keeps reopening a betting app at 2am despite deleting and reinstalling it twice finally has a family member change the app-store password on their behalf, converting a recurring test of willpower into a removed capability."
+critical-questions:
+  - "How many recurrences of the same impulse should it take before someone concludes that resisting again won't work and removal is the better strategy?"
+  - "What does discarding the means cost when the capability being removed also has legitimate uses — is the sword only ever a threat, or something else too?"
+status: active

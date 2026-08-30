@@ -1,0 +1,22 @@
+id: lex-sk5e9
+name: wrongdoing-stacks-three-separate-sources-of-wretchedness
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "A single compound bad outcome -- wanting to do wrong, being able to do wrong, and actually doing wrong -- can be decomposed into three separate, cumulative sources of harm to the wrongdoer, rather than treated as one monolithic bad state. Philosophy makes the case in three explicit stages: an evil will alone is already wretched; the power to carry that will into effect adds a second, independent wretchedness, since without it the will would stay harmlessly inert; and the completed act adds a third. Each stage carries its own measure of harm, so the successful wrongdoer accumulates all three at once rather than absorbing one single bad outcome."
+related: []
+evokes: [consolation-of-philosophy, book-iv-prose-iv, a-threefold-wretchedness, to-will-to-be-able-to-accomplish-and-to-accomplish-crime, stacking-not-monolithic-harm]
+lineage:
+  - source: primary
+    text: boethius-c524-consolation-of-philosophy-book-iv-prose-iv
+    citation: "Boethius, The Consolation of Philosophy (c. 524 AD), trans. H. R. James (London: George Bell & Sons, 1897), Book IV, Prose IV. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "it needs must be that the bad are more unfortunate when they have accomplished their desires than if they are unable to get them fulfilled. If it is wretched to will evil, to have been able to accomplish evil is more wretched; for without the power the wretched will would fail of effect. Accordingly, those whom thou seest to will, to be able to accomplish, and to accomplish crime, must needs be the victims of a threefold wretchedness, since each one of these states has its own measure of wretchedness."
+canonical-instances:
+  - "A fraud investigator scoring the severity of white-collar cases doesn't just note that fraud occurred as a single fact, but separately tallies whether the person wanted to defraud, had the access and skill to pull it off, and actually executed the scheme -- three independently damning findings rather than one."
+  - "An ethics review of a research misconduct case distinguishes the researcher's intent to falsify data, their technical ability to falsify it undetected, and their actual act of falsification as three separate aggravating factors, each worsening the case independently of the other two."
+  - "A parole board evaluating an applicant's original crime scores three separate dimensions rather than one verdict: genuine intent to commit the offense, actual capability to carry it out, and completion of the act itself -- treating a thwarted-but-willing offender as meaningfully different from one who succeeded on all three counts."
+critical-questions:
+  - "Does decomposing wrongdoing into three stacking components actually track anything real about the wrongdoer's inner state, or is it a rhetorical trick that makes successfully committing a crime sound three times worse than it is by counting the same underlying fact three separate times?"
+  - "Boethius uses this decomposition to argue the successful wrongdoer is worse off than the merely-willing-but-thwarted one -- does this risk letting people who wanted to do wrong but failed off the hook too easily, when their intent was identical to the person who succeeded?"
+  - "If wretchedness genuinely stacks this way, does that imply less moral urgency about stopping a crime already fully willed and enabled, since by this logic the wrongdoer is already accumulating maximum self-inflicted misery regardless of whether the act is completed?"
+status: active

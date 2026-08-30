@@ -1,0 +1,19 @@
+id: lex-qvj7j
+name: solvency-overrides-nominal-rank-in-a-dependency-relationship
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When comparing two people's real standing in a specific interaction, check who currently needs something from whom before trusting either person's nominal social rank. Franklin's Poor Richard: 'A ploughman on his legs is higher than a gentleman on his knees.' The gentleman's title, in the abstract, outranks the ploughman's — but the moment the gentleman must beg, the interaction's actual hierarchy is set by who is standing upright and who is kneeling, and title does not buy back the posture. This is a claim about a specific, situated, transactional hierarchy — the standing created inside a request for help — not a claim that the ploughman now generally outranks the gentleman in every other context where no request is pending."
+related: []
+evokes: [franklin, way-to-wealth, solvency-overrides-nominal-rank, real-standing-set-by-who-needs-whom]
+lineage:
+  - source: primary
+    text: franklin-1758-way-to-wealth
+    citation: "Benjamin Franklin, Father Abraham's Speech ('The Way to Wealth' / 'Poor Richard Improved'), 1758 (Gutenberg #43855). Verified verbatim against a direct extraction of the held copy."
+    quote: "A ploughman on his legs is higher than a gentleman on his knees"
+canonical-instances:
+  - "a well-connected founder who has burned through their runway must court a mid-level program officer at a small foundation for a bridge grant — for the duration of that meeting, the officer holds the real leverage, regardless of whose name is better known outside the room."
+critical-questions:
+  - "Does the reversal actually last only for the duration of the specific request, or does a single instance of begging leave a lasting mark on how the gentleman is regarded afterward, extending the ploughman's advantage past the moment it was earned?"
+  - "Is 'higher' here purely about leverage in a negotiation, or does Franklin also mean something about moral standing — that self-sufficiency itself is a kind of dignity independent of who is asking whom for anything?"
+status: active

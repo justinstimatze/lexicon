@@ -1,0 +1,18 @@
+id: lex-wxqu4
+name: refuting-an-absurd-sounding-true-prophecy-fulfills-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A prophecy can be literally true while phrased in a way that sounds impossible on its face; rather than entertaining a non-literal reading, listeners can treat the apparent absurdity as proof of fraud and destroy the prophet, with the very act of destroying and disposing of the supposedly impossible object being precisely what sets the prophecy''s fulfillment in motion. In the Jataka''s tale of Ghata, the young men kill the ascetic for predicting a man will bring forth a knot of acacia wood, dismissing it as impossible: "''Ah, false ascetic!'' said they, ''a man can never bring forth a child!'' and they did the rope and string business, and killed him at once."'
+related: []
+evokes: [jataka, dasanipata, ghata-jataka, cassandra-complex, self-fulfilling-prophecy, oedipus, macbeth]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-ghata-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 454, Ghata-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Ah, false ascetic! said they, a man can never bring forth a child! and they did the rope and string business, and killed him at once."
+canonical-instances:
+  - "A board dismisses an analyst's literally accurate but strangely worded warning that \"the company will give birth to its own competitor,\" fires her for the absurd phrasing, and only later realizes the spin-off they approved in her place is exactly the competitor she meant."
+critical-questions:
+  - "Is the fatal error here disbelieving the prophecy's literal truth, or refusing to consider that an apparently absurd phrasing might carry a non-literal but still accurate meaning?"
+status: active

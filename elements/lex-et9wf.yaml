@@ -1,0 +1,19 @@
+id: lex-et9wf
+name: a-small-scale-demonstration-lets-the-subject-draw-their-own-damning-conclusion
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Rather than telling someone directly what their current trajectory will become, presenting them with a small, physical demonstration of the same pattern at an early stage can let them extrapolate the damning conclusion themselves, which lands with a force that being told the same thing never would. In the Jataka's tale of the poison seedling, wanting to reform a violent prince, the Bodhisatta has him taste a leaf from a young, already-poisonous Nimb tree and simply asks what the full-grown tree will be like. The prince himself supplies the answer and then extends it, unprompted, to his own future: if he's already this dangerous as a young man, the people will destroy him before he can inherit the throne, exactly as he'd just destroyed the poisonous seedling himself. The insight is his own conclusion, arrived at through his own hands, not an accusation delivered by someone else."
+related: []
+evokes: [jataka, ekanipata, ekapanna-jataka, physical-demonstration-elicits-self-persuasion, the-subject-supplies-their-own-damning-conclusion]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-ekapanna-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 149, Ekapanna-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "...Prince, dreading what the poisonous seedling might grow to, you have torn it up and rent it asunder. Even as you acted to the tree, so the people of this kingdom, dreading what a prince so fierce and passionate may become when king, will not place you on the throne but uproot you like this Nimb tree and drive you forth to exile."
+canonical-instances:
+  - "Rather than telling a junior engineer directly that their habit of skipping code review will eventually cause a serious incident, a mentor has them trace through a small, contained bug that slipped past their own unreviewed change, and lets the engineer connect, on their own, what a larger unreviewed change could eventually cost."
+critical-questions:
+  - "Does this technique require the subject to genuinely draw the connection themselves, or does the mentor's leading question do most of the persuasive work regardless of who technically states the conclusion out loud?"
+  - "What happens when the subject fails to make the intended connection on their own — does the technique have a graceful fallback, or does it depend entirely on the demonstration landing exactly as designed?"
+status: active

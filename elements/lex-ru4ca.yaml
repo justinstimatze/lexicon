@@ -1,0 +1,19 @@
+id: lex-ru4ca
+name: successful-cooperation-collapses-at-the-division-stage
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Two parties can succeed completely through combined effort at acquiring a prize, only to have their alliance collapse at the distribution stage because neither will agree on a fair split, opening the door for a third party to intervene. In the Jataka''s tale of Dabbhapuppha, the two otters lament exactly this after the jackal arbitrates their catch away: "But for our strife, it would have long sufficed us without fail: But now the jackal takes the fish, and leaves us head and tail."'
+related: []
+evokes: [jataka, sattanipata, dabbhapuppha-jataka, cooperation-fails-at-distribution, alliance-collapse-invites-third-party]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dabbhapuppha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 400, Dabbhapuppha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "But for our strife, it would have long sufficed us without fail: But now the jackal takes the fish, and leaves us head and tail."
+canonical-instances:
+  - "Two co-founders who built a company together and successfully sold it can't agree on how to split the proceeds, and end up handing most of the settlement to lawyers neither of them wanted to pay."
+critical-questions:
+  - "Could the parties have agreed on a division rule before the joint effort began, rather than only discovering the disagreement once there was something concrete to fight over?"
+  - "Does inviting a third party to arbitrate ever avoid this outcome, or does it structurally create the very opening described here?"
+status: active

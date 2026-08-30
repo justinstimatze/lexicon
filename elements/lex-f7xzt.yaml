@@ -1,0 +1,20 @@
+id: lex-f7xzt
+name: closure-for-one-party-can-be-the-openings-for-the-other
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "The same moment in an interaction can function as an ending for one party and a beginning for the other, and organizations routinely design their processes around only the ending they experience. A representative tells a complaining customer 'sorry, it's company policy' and the script treats the matter as resolved: the explanation has been given, the ticket can close. For the customer, nothing has been addressed at all -- being handed a policy citation with no path forward is exactly the moment their real grievance starts, since it confirms nobody is going to fix anything and the only options left are escalation or giving up. Freeman notes the companies that outperform here don't have a better policy explanation; they treat the complaint itself as valuable information rather than a script to complete, which changes what 'done' means for both sides at once. Before treating an interaction as finished because your side of it has run its course, check what the same moment looks like from the other end -- your closing move may be exactly where their process begins."
+related: []
+evokes: [freeman-1984-strategic-management, chapter-3, company-policy, consumer-complaints, the-incident-begins-for-the-consumer]
+lineage:
+  - source: primary
+    text: freeman-1984-strategic-management-ch3
+    citation: "R. Edward Freeman, Strategic Management: A Stakeholder Approach (Pitman, 1984), Chapter 3 'Stakeholder Management: Framework and Philosophy,' section 'The Transactional Level: Interacting with Stakeholders.'"
+    quote: "Nothing is more frustrating to the consumer than being told 'sorry, I wish I could help you, but it's company policy to do things this way.' One consumer leader commented that being told it was company policy may well finish the incident for the manager, but it begins the incident for the consumer advocate. Several successful companies seem to 'overspend' on handling consumer complaints. IBM's commitment to service, P&G's consumer complaint department and the Sears philosophy of taking merchandise back with no questions asked, yield valuable lessons in understanding the nature of transactions with customers."
+canonical-instances:
+  - "A support agent marks a ticket resolved after explaining that a feature works as designed, satisfied the explanation was accurate and complete. The customer, still unable to do what they came to do, now has to find a second channel to escalate through, having learned the first channel treats an accurate explanation as equivalent to a fix."
+  - "A landlord tells a tenant that a maintenance delay is standard procedure during a busy season and considers the conversation closed. For the tenant, living with the unresolved problem, the conversation is the first data point that the landlord isn't going to prioritize it, and the tenant's actual process -- documenting the issue, researching tenant rights, deciding whether to escalate -- starts right there."
+critical-questions:
+  - "Is 'overspending' on complaints actually more expensive in the long run, or does it just relocate the cost from handling escalations later to handling first contact better now -- does the total cost really go down, or only move earlier and become more visible?"
+  - "Are there complaints where the policy explanation genuinely is the correct and complete response, and the customer's dissatisfaction is simply a mismatch between what they wanted and what they're owed -- how does an organization distinguish that case from a genuine unresolved grievance before deciding whether to treat 'policy' as sufficient?"
+status: active

@@ -1,0 +1,18 @@
+id: lex-sqj2a
+name: the-leftover-share-can-be-reframed-as-the-lucky-one
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "The portion left over after everyone else has chosen — the last slice, the residual assignment, the person picked last — carries an inherited status of low value that comes entirely from social convention — nothing about the leftover itself is physically diminished by being chosen last. Naming it as specially fortunate rather than merely last converts a position of low status into one of privilege, and the reframe costs nothing but the willingness to say it."
+related: []
+evokes: [galef, kotowaza, japanese-proverbs, reframing-the-residual-as-privileged, luck-of-the-last-pick]
+lineage:
+  - source: primary
+    text: galef-1987-even-monkeys-fall-from-trees
+    citation: "David Galef (compiler and translator), *Even Monkeys Fall From Trees: And Other Japanese Proverbs*, illustrations by Jun Hashimoto, foreword by Edward G. Seidensticker (Tuttle Publishing, copyright 1987; ebook ISBN 978-1-4629-0318-4), Proverb No. 75. Verified verbatim against a direct extraction of the held copy."
+    quote: "Nokorimono ni fuku go ari. The leftover piece is lucky."
+canonical-instances:
+  - "The intern assigned the project nobody else wanted is told it's 'the one with the most room to make it their own' — the same low-status leftover, renamed into the most desirable slot in the batch."
+critical-questions:
+  - "Does the reframe change anything about the leftover's actual value, or does it only change how the recipient feels about receiving it — and does that distinction matter for whether the reframe is honest or manipulative?"
+status: active

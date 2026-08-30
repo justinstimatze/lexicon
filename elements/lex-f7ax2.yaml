@@ -1,0 +1,19 @@
+id: lex-f7ax2
+name: a-self-flattering-misreading-of-a-threat-persists-past-a-warning
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Once someone has interpreted an ambiguous physical signal as a unique tribute to their own status, that flattering interpretation can survive direct, explicit warning from a third party who correctly identifies the real danger — the pleasure of feeling singled out is sticky enough to override a competing, accurate account. In the Jataka's tale of the mendicant and the ram, seeing a ram backing away — actually winding up to charge — the mendicant interprets it as unique reverence for his holiness and stands his ground even after a merchant warns him what's actually about to happen: '\"In the whole world,\" he thought, \"this ram alone recognises my merits,\" and raising his joined hands in respectful salutation he stood.'"
+related: []
+evokes: [jataka, catukkanipata, cammasataka-jataka, a-flattering-misreading-outcompetes-an-accurate-warning, vanity-filters-out-a-correct-account-of-danger]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-cammasataka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 324, Cammasataka-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"In the whole world,\" he thought, \"this ram alone recognises my merits,\" and raising his joined hands in respectful salutation he stood"
+canonical-instances:
+  - "A manager reads a new hire's unusually quiet, watchful demeanor in meetings as awed deference to their leadership, and dismisses a colleague's warning that the hire is actually documenting complaints for HR — the flattering read persists right up until the complaint is filed."
+critical-questions:
+  - "Is there something specific about status or vanity that makes this misreading especially resistant to correction, or would the same stubbornness apply to any flattering-but-wrong interpretation, regardless of what it's flattering about?"
+  - "Did the merchant's warning actually reach the mendicant in a form he could act on, or was the warning itself delivered too late, alongside the charge rather than meaningfully before it?"
+status: active

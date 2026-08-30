@@ -1,0 +1,19 @@
+id: lex-6rps9
+name: a-granted-power-comes-bound-with-a-self-destructing-transmission-clause
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A gift of power can arrive with a built-in constraint that makes sharing it fatal to the giver, forcing permanent secrecy on whoever holds it and blocking the power from ever propagating further. In the Jataka's tale of Kharaputta, the naga-king's gift of universal-language knowledge comes with exactly this clause: 'This, O king, is a priceless spell: if you give anyone this spell you will at once enter the fire and die.'"
+related: []
+evokes: [jataka, chanipata, kharaputta-jataka, self-destructing-transmission-clause, power-bound-to-permanent-secrecy]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kharaputta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 386, Kharaputta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "This, O king, is a priceless spell: if you give anyone this spell you will at once enter the fire and die."
+canonical-instances:
+  - "A retiring master craftsman is given a rare technique by a mentor on the explicit condition that teaching it to anyone else voids the mentor's own reputation entirely, so the technique dies with whoever holds it unless they accept that cost."
+critical-questions:
+  - "Does a self-destructing transmission clause actually protect the power from misuse, or does it just guarantee the power eventually disappears once its sole holder dies or is pressured into breaking the constraint?"
+  - "Who benefits from a power being unshareable — the original giver, the current holder, or does the constraint mainly serve to concentrate the power rather than protect anyone?"
+status: active

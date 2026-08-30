@@ -1,0 +1,19 @@
+id: lex-jnrbq
+name: a-sophisticated-partys-willing-bad-deal-signals-missing-information
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a counterparty known for shrewdness willingly accepts a trade that looks favorable to you, treat that willingness itself as evidence you're missing something, rather than as a stroke of luck. In the Panchatantra, a merchant's son learns that a batch of sesame — offered at what looks like a good exchange rate — belongs to a woman famous for hard bargaining, and his father immediately reasons backward from her reputation rather than forward from the apparent deal: 'she is mighty shrewd at a bargain. You had better throw this sesame away.' The apparent good fortune is not independent evidence about the deal's quality; it is itself a signal, and a known-sophisticated party accepting bad terms is far more likely to indicate a hidden defect than a genuine miscalculation on their part."
+related: []
+evokes: [panchatantra, winning-of-friends, sophisticated-counterpartys-bad-deal-signals-missing-info, adverse-selection-heuristic]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-mother-shandilees-bargain
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book II, 'Mother Shandilee's Bargain.' Verified verbatim against a direct extraction of the held copy."
+    quote: "My dear wife, she is mighty shrewd at a bargain. You had better throw this sesame away."
+canonical-instances:
+  - "a retail investor is offered shares in a private deal at a price a well-known, historically successful hedge fund had already turned down at the same terms, and treats the fund's rejection as the operative signal rather than trusting their own read of the deal's apparent attractiveness."
+critical-questions:
+  - "Is this heuristic reliable in general, or does it risk making someone permanently suspicious of any favorable outcome involving a known-sophisticated party, even in the many cases where a good deal really is just a good deal?"
+  - "How would the merchant have actually confirmed his suspicion without directly testing it — is there a way to verify 'something is wrong with this sesame' short of simply throwing away a batch that might, this one time, have been genuinely fine?"
+status: active

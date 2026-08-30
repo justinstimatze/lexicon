@@ -1,0 +1,18 @@
+id: lex-hdqe3
+name: public-shaming-by-a-crowd-is-deployed-as-the-corrective-mechanism-once-wrongdoing-is-exposed
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Once a wrongdoer''s deception is exposed before witnesses, the crowd itself, rather than any formal authority, can become the instrument of correction, with the shame of public reproach doing the disciplining work that private conscience had already failed to do. In the Jataka''s tale of Bilari-Kosiya, once the merchant''s deceit is uncovered, the assembled crowd itself delivers the correction: "Blind fool! you have broken the custom of your family; you have burnt the alms-hall; the beggars you have taken by the throat and cast forth."'
+related: []
+evokes: [jataka, dasanipata, bilari-kosiya-jataka, public-shaming, community-enforcement-prior-to-formal-sanction]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-bilari-kosiya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 450, Bilari-Kosiya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Blind fool! you have broken the custom of your family; you have burnt the alms-hall; the beggars you have taken by the throat and cast forth"
+canonical-instances:
+  - "When a store owner's hidden security footage of mistreating an elderly customer is shown to the gathered crowd outside, it is the bystanders' collective, unscripted outrage — not any police citation — that forces the visible, immediate change in his behavior."
+critical-questions:
+  - "Does public shaming by a crowd produce a more durable correction than a formal, private sanction would, or does it mainly produce compliance for as long as the crowd's attention remains on the wrongdoer?"
+status: active

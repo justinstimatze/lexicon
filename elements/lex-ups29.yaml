@@ -1,0 +1,24 @@
+id: lex-ups29
+name: attention-worthy-and-claim-worthy-are-separable-legitimacy-questions
+type-in: claim
+type-out: posture
+_tier: atomic
+agent-instruction: "Two different questions hide inside the single word 'legitimate' when a group makes a demand on you. The weak, managerial question: is it legitimate to spend your time and resources tracking and responding to this group, given their ability to affect your objectives? The strong, normative question: is the group's specific demand actually deserved -- should they get what they're asking for? You can answer the first question yes while leaving the second completely open, or answering it no. A group with the power to affect you earns your attention purely by virtue of that power, independent of whether their cause is just. Freeman pushes this to its starkest case: a firm that must plan around a terrorist group's capacity to disrupt its operations is not thereby conceding the group's cause has any merit -- it is only conceding the group's capacity to affect the firm's objectives, which is all the weak sense of legitimacy ever claimed. Collapsing the two senses produces two matched errors: refusing to track a powerful but distasteful group because tracking would seem to endorse them, or treating a merely powerful group's specific demands as automatically deserving because you've already granted them attention."
+related: []
+evokes: [freeman-1984-strategic-management, chapter-2, weak-versus-strong-legitimacy, blame-the-stakeholder, terrorist-groups-as-stakeholders]
+lineage:
+  - source: primary
+    text: freeman-1984-strategic-management-ch2
+    citation: "R. Edward Freeman, Strategic Management: A Stakeholder Approach (Pitman, 1984), Chapter 2 'The Stakeholder Concept and Strategic Management,' section 'A Stakeholder Approach to Strategic Management.'"
+    quote: "'Stakeholder' connotes 'legitimacy,' and while managers may not think that certain groups are 'legitimate' in the sense that their demands on the firm are inappropriate, they had better give 'legitimacy' to these groups in terms of their ability to affect the direction of the firm. Hence, 'legitimacy' can be understood in a managerial sense implying that it is 'legitimate to spend time and resources' on stakeholders, regardless of the appropriateness of their demands. [...] For the present time I shall put these questions aside [...] I believe that first we must understand the weaker sense of 'stakeholder legitimacy': if you want to be an effective manager, then you must take stakeholders into account."
+  - source: primary
+    text: freeman-1984-strategic-management-ch3
+    citation: "R. Edward Freeman, Strategic Management: A Stakeholder Approach (Pitman, 1984), Chapter 3 'Stakeholder Management: Framework and Philosophy.'"
+    quote: "Some groups may have as an objective simply to interfere with the smooth operations of our business. For instance, some corporations must count 'terrorist groups' as stakeholders. As unsavory as it is to admit that such 'illegitimate' groups have a stake in our business, from the standpoint of strategic management, it must be done. Strategies must be put in place to deal with terrorists if they can substantially affect the operations of the business."
+canonical-instances:
+  - "A news outlet tracks a coordinated harassment campaign against its reporters closely enough to prepare a response plan. The campaign's capacity to disrupt coverage is the entire reason for the tracking; its actual grievances have earned no hearing at all yet, and may never."
+  - "A city government builds a formal engagement channel with a group known for bad-faith, delay-oriented objections to every permit, not because the objections deserve to be granted but because the group has demonstrated real capacity to stall projects through procedural means."
+critical-questions:
+  - "Does formally tracking a group's capacity to cause harm create pressure, over time, to also start granting their specific demands, even when the two questions were meant to stay separate -- does attention quietly convert into concession in practice, whatever the theory says?"
+  - "Freeman defers the strong, normative legitimacy question rather than answering it -- for a manager who can't defer it forever (a real allocation decision has to get made), what replaces the weak sense once attention alone isn't enough?"
+status: active

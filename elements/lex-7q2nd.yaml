@@ -1,0 +1,18 @@
+id: lex-7q2nd
+name: meditative-review-of-past-lives-locates-the-causal-seed-of-inexplicable-present-suffering
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'Facing suffering with no apparent present-life cause, a meditator with the relevant power can review the entire span of past existence to locate the specific long-ago act that seeded the current consequence, converting an otherwise arbitrary-seeming punishment into a traceable causal chain. In the Jataka''s tale of Kanhadipayana, the impaled ascetic surveys his past lives and finds the seed of his suffering in an act as small as harming an insect: "The ascetic wondered what past deed of his could have caused this, and surveyed the past; then there arose in him the knowledge of former existences, and by this as he surveyed the past he saw what he had done long ago; and this it was—the piercing of a fly upon a splinter of ebony."'
+related: []
+evokes: [jataka, dasanipata, kanhadipayana-jataka, retrocognitive-diagnosis, small-cause-large-consequence]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kanhadipayana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 444, Kanhadipayana-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The ascetic wondered what past deed of his could have caused this, and surveyed the past; then there arose in him the knowledge of former existences, and by this as he surveyed the past he saw what he had done long ago; and this it was—the piercing of a fly upon a splinter of ebony."
+canonical-instances:
+  - "A patient with an inexplicable autoimmune flare works with a specialist to trace it, through years of medical history, to a single untreated infection from childhood that no one had connected to the current condition until the full record was reviewed."
+critical-questions:
+  - "Locating a distant causal seed for present suffering gives the suffering a shape, but a satisfying origin story is not the same thing as a treatment plan — does naming the seed here change anything about what should be done now?"
+status: active

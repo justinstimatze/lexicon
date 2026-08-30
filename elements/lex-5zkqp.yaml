@@ -1,0 +1,19 @@
+id: lex-5zkqp
+name: a-newcomer-can-extrapolate-a-rotating-favor-policy-and-exit-preemptively
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When you receive unusually favorable treatment purely for being the newest arrival, check whether the shape of that policy itself predicts your own eventual displacement once someone newer arrives, and consider leaving before it happens rather than waiting to be pushed out. Aesop's 'The Goatherd and the Wild Goats' has newly-arrived wild goats, given better feed than the herder's own established flock, leave anyway; when asked why they'd abandon such good treatment, they explain the forward inference: 'it's more than likely that, if another lot of strange goats joined yours, we should then be neglected in favour of the last comers.' The wild goats are not reacting to any mistreatment they've personally experienced — they are defecting purely on inference from the structure of an incentive that rewards whoever is newest, which by its own logic guarantees their turn to be displaced."
+related: []
+evokes: [aesop, the-goatherd-and-the-wild-goats, forward-inference-from-incentive-structure, preemptive-exit-before-displacement]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-goatherd-and-the-wild-goats
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Goatherd and the Wild Goats.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Oh, yes, you treated us all right--too well, in fact; it was just that that put us on our guard. If you treat newcomers like ourselves so much better than your own flock, it's more than likely that, if another lot of strange goats joined yours, we should then be neglected in favour of the last comers."
+canonical-instances:
+  - "new hires who receive outsized onboarding perks watch how veteran staff are treated once the glow fades, and quit early having inferred their own future from someone else's present treatment, rather than waiting to experience the decline themselves."
+critical-questions:
+  - "Is this inference always correct, or could a genuinely different policy — one that doesn't systematically favor whoever is newest — be mistaken for the same pattern by a newcomer too quick to generalize from a single data point?"
+  - "Does defecting preemptively cost the wild goats anything real, given that they're leaving favorable treatment behind based purely on a prediction rather than any experienced harm — is the trade actually worth it?"
+status: active

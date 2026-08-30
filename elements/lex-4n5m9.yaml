@@ -1,0 +1,18 @@
+id: lex-4n5m9
+name: manufacturing-domestic-conflict-through-deniable-sabotage-with-a-false-flagged-culprit
+type-in: process
+type-out: state
+_tier: atomic
+agent-instruction: 'An agent who wants to turn one household member against another without being caught can sabotage shared conditions in small, deniable ways and then attribute the resulting mess to the intended target, manufacturing the very evidence used to incriminate them. In the Jataka''s tale of Takkala, the wife spoils the food and water, then blames the father-in-law for what she herself did: "she began to make the water too cold or too hot for him, and the food she salted too much or not at all, and the rice she served up all hard or else soaking wet... And all over the ground she would spit, and then stir up her husband—''Look there!'' would she say, ''that''s your father''s doing!''"'
+related: []
+evokes: [jataka, dasanipata, takkala-jataka, false-flagged-sabotage, manufactured-domestic-conflict]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-takkala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 446, Takkala-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "she began to make the water too cold or too hot for him, and the food she salted too much or not at all, and the rice she served up all hard or else soaking wet... And all over the ground she would spit, and then stir up her husband—\"Look there!\" would she say, \"that's your father's doing!\""
+canonical-instances:
+  - "A coworker deliberately misconfigures a shared server late at night and then loudly points a teammate to the broken build the next morning, manufacturing the exact evidence being used to make the teammate look incompetent."
+critical-questions:
+  - "What would actually distinguish this pattern from ordinary, unintentional household friction, if the sabotaged party never independently checks who caused the damage?"
+status: active

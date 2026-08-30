@@ -1,0 +1,19 @@
+id: lex-57hgb
+name: analyzing-each-accusers-self-interest-exposes-a-coerced-confession-chain
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When a chain of threatened people each falsely name the next person in line to deflect blame, the chain can be exposed not by evaluating the content of each accusation but by recognizing that everyone in it has the identical incentive to lie in exactly that direction. In the Jataka's tale of the stolen necklace, five innocent people, each threatened with punishment, falsely claim to have passed the necklace along to the next — a rustic implicates the treasurer, who implicates the chaplain, and so on. The investigating minister realizes each has a distinct, predictable reason to shift blame onto someone more prominent than themselves, and concludes from that shared incentive alone that all five are innocent, without needing to verify any individual claim."
+related: []
+evokes: [jataka, ekanipata, mahasara-jataka, self-interest-pattern-exposes-a-coerced-confession-chain, shared-incentive-to-lie-discredits-every-link]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahasara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 92, Mahasara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The truth is this poor wretched fellow must have said he gave it to the Treasurer merely in order to save his own skin; and the Treasurer must have said he gave it to the Chaplain, in the hope that he would get off if he could mix the Chaplain up in the matter."
+canonical-instances:
+  - "When five employees under threat of termination for a shared budget shortfall each name the colleague they claim approved the overspend, an auditor traces how each accusation conveniently points to someone with more authority than the accuser, and concludes the whole chain reflects coerced self-preservation rather than actual responsibility."
+critical-questions:
+  - "What happens when the underlying incentive to deflect isn't uniform across the chain — does the diagnostic still work if one person in the sequence genuinely has less to gain from lying than the others?"
+  - "Does recognizing the pattern actually identify who's really responsible, or does it only clear the people caught in the chain without answering the original question of where the necklace, or the shortfall, actually went?"
+status: active

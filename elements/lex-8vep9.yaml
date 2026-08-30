@@ -1,0 +1,19 @@
+id: lex-8vep9
+name: refusing-to-preemptively-eliminate-a-threat-based-on-prophecy-alone
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Warned that someone not yet capable of harming you will eventually do so, choosing to accept that risk rather than eliminate them preemptively treats the prophecy as insufficient grounds for action on its own — the warned party accepts personal exposure rather than act against a threat that hasn't materialized yet. In the Jataka's tale of the astrologers' warning, told his unborn son will kill him and seize his kingdom, the king permits the birth anyway: '\"If my son,\" said the king, \"should kill me and seize my kingdom, what is the harm of it?\"' And later: 'But I am not exempt from old age and death: suffer me to behold the face of my child.'"
+related: []
+evokes: [jataka, catukkanipata, thusa-jataka, a-prophecy-alone-is-treated-as-insufficient-grounds-for-preemption, accepting-personal-risk-rather-than-eliminating-an-unmaterialized-threat]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-thusa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 338, Thusa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"If my son,\" said the king, \"should kill me and seize my kingdom, what is the harm of it?\""
+canonical-instances:
+  - "A founder is warned by an advisor that a brilliant but ambitious new hire will likely try to push them out of the company within a few years — rather than block the hire or box them out preemptively, the founder brings them on anyway, reasoning that the company being led well eventually matters more than who's leading it."
+critical-questions:
+  - "Is this actually wisdom or fatalism — does refusing to act on a prophecy reflect genuine equanimity about mortality and succession, or a failure to take a credible warning seriously enough to protect oneself?"
+  - "Does the outcome of this specific story (the son does eventually turn against him) vindicate the astrologers' warning, and if so, does that undercut the king's choice as wise rather than simply fortunate to have survived as long as he did?"
+status: active

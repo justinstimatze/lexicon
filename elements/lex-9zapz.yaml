@@ -1,0 +1,21 @@
+id: lex-9zapz
+name: armoring-up-and-choosing-when-to-accept-an-inevitable-capture
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "When something is going to catch you eventually and evasion only delays it, the useful move isn't to keep evading indefinitely -- it's to prepare yourself for what happens after capture, then let yourself be taken on your own schedule, once the preparation is actually in place. In Radin's Winnebago Hare Cycle, having learned that a being can swallow anything it touches, Hare doesn't try to become permanently uncatchable. He arms himself first, covering his body in flint arrow-points, then deliberately puts himself in the being's path and sings a song inviting the very thing he's about to spend three tries dodging. 'Then this being came at him... But Hare jumped aside as he attempted to lap him in and he missed him.' He lets it happen three times, still unprepared to accept it, testing his own readiness or simply extending the setup. Only after everything is in place does he stop evading: 'Three times he missed him. The fourth time, however, Hare allowed himself to be lapped in voluntarily.' The distinction that matters isn't whether Hare gets caught, he was always going to be, it's that being caught happens on a schedule Hare set, armored in a way his captor doesn't know about, rather than as a surprise he has to react to from inside. Diagnostic move: when an outcome is coming regardless of how long you delay it, ask whether the time you're spending on evasion would be better spent preparing for what happens the moment it lands, so that when it finally does, it happens on your terms and not as an ambush."
+related: []
+evokes: [radin-winnebago-hare-cycle, hare-and-the-swallowing-being, covered-himself-with-flint-arrow-points, allowed-himself-to-be-lapped-in-voluntarily]
+lineage:
+  - source: primary
+    text: radin-hare-arms-himself-then-lets-himself-be-swallowed-on-purpose
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'The Winnebago Hare Cycle,' episode 14. Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "The next morning Hare went out and, gathering some flint arrow-points, covered himself with them. Then he went on top of a hill and sang: 'You who can lap them in; You of whom it is said, you lap them in; Lap me in! Lap me in!' Thus he sang. Then this being came at him as fast as a flame shoots upward. ... But Hare jumped aside as he attempted to lap him in and he missed him. Then when this being came back again, Hare sang the same song again. This being was loaded with people. As he was sitting there and singing, the being spoke, 'I thought I lapped you in once.' He tried again to lap him in but always missed him. Three times he missed him. The fourth time, however, Hare allowed himself to be lapped in voluntarily."
+canonical-instances:
+  - "A founder who knows a hostile acquisition of their small company is nearly certain stops fighting every approach outright and instead spends the delay negotiating specific protections into any eventual deal, letting the acquisition happen on a timeline that gives those protections time to be finalized first."
+  - "A patient facing a diagnosis they know is likely to be confirmed uses the time before the final test result to arrange their affairs, treatment plan, and support network, so that when the confirmation actually arrives it triggers an already-prepared response rather than a scramble."
+critical-questions:
+  - "Does the flint armor actually matter to what happens once Hare is inside, or is the real determining factor his willingness to act calmly once swallowed, making the physical preparation more symbolic than functional?"
+  - "Is there a meaningful difference between Hare's three evasions and genuine indecision about whether to accept capture at all, or does the story frame the delay as purely strategic, testing the being's method, from the start?"
+  - "Would this diagnostic apply to a situation where the 'inevitable' outcome actually could have been avoided entirely, and how would someone in the moment distinguish a genuinely unavoidable capture from one that only feels unavoidable?"
+status: active

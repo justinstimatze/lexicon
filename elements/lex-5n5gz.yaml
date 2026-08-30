@@ -1,0 +1,24 @@
+id: lex-5n5gz
+name: a-mechanism-visible-in-extreme-cases-is-assumed-to-apply-only-there
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a general causal mechanism is most VISIBLE in extreme or deprived cases, watch for the fallacious step of concluding it therefore only OPERATES in those cases. Merton's example: physicians who accept that a patient's social environment matters tend to illustrate the point only with the poor, uneducated, or visibly deprived patient — the person whose 'overcrowded, ill-ventilated, and unheated' home is an obvious causal factor in illness. Merton names the trap directly: 'this should not invite the fallacious though superficially plausible inference that sociological considerations are pertinent only in such instances of gross defects of environment. Well-fed patients living in well-ventilated and well-heated houses may also be subject to less conspicuous but no less stressful conditions of environment, in their homes, at work, and in the other groups of which they are a part.' The mechanism (social environment affecting health) doesn't switch off for comfortable patients — it just stops being dramatic enough to notice without looking. The inference is 'superficially plausible' precisely because the extreme cases really are the clearest illustration available, which makes it easy to mistake clearest-to-see for only-place-it-happens. Diagnostic move: whenever a mechanism is being taught or illustrated exclusively through its most extreme instances, explicitly ask whether the same mechanism operates continuously across the whole range of cases, just below the threshold of easy visibility in the milder ones — and if so, correct for the fact that people exposed only to the extreme illustrations will systematically underestimate the mechanism's reach into ordinary cases."
+related: []
+evokes: [merton-1957, visibility-bias-in-applicability, sir-henry-cohen-patient-environment, fallacious-inference-to-extreme-cases-only, generalizing-from-the-dramatic-instance]
+lineage:
+  - source: primary
+    text: merton-1957-fallacious-inference-named
+    citation: "Robert K. Merton, \"Some Preliminaries to a Sociology of Medical Education,\" in Merton, Reader, and Kendall, eds., The Student-Physician (Cambridge: Harvard University Press for The Commonwealth Fund, 1957), p.27-28. Verified against the pdftotext extraction of the source PDF."
+    quote: "'even those physicians who see a distinct and growing place for a sociological orientation in medicine sometimes write as if, though they obviously do not intend to say this, the social environment affected only the socially disadvantaged patient: the poor, the uneducated, the decrepit.'"
+  - source: primary
+    text: merton-1957-well-fed-patients-too
+    citation: "Robert K. Merton, \"Some Preliminaries to a Sociology of Medical Education\" (1957), p.28. Ellipsis marks a disclosed cut of a page break where three scrambled footnote citation fragments are spliced into the sentence by the OCR extraction between \"invite\" and \"the fallacious.\""
+    quote: "'But this should not invite [...] the fallacious though superficially plausible inference that sociological considerations are pertinent only in such instances of gross defects of environment. Well-fed patients living in well-ventilated and well-heated houses may also be subject to less conspicuous but no less stressful conditions of environment, in their homes, at work, and in the other groups of which they are a part.'"
+canonical-instances:
+  - "A workplace-stress training program illustrates burnout entirely with extreme cases (100-hour weeks, hostile managers, no time off), leading employees with a merely mediocre-but-not-abusive workload to conclude their own situation can't be a stress-mechanism case — missing that the same causal mechanism operates at lower intensity in their own milder-but-still-real chronic overwork."
+  - "Public-health messaging about the dangers of a sedentary lifestyle uses only the most extreme illustration (a person who never leaves their chair), leaving moderately active people to assume the mechanism doesn't apply to them, when the same dose-response mechanism continues to operate, just less dramatically, well above the extreme threshold used to illustrate it."
+critical-questions:
+  - "Is there a principled way to decide how far a mechanism actually extends past its dramatic illustrations, or does correcting for this bias just replace one unexamined assumption (it stops at the extreme) with another (it extends indefinitely) without evidence either way?"
+  - "Does using extreme cases for illustration always risk this fallacy, or are there mechanisms that genuinely DO have a threshold below which they don't operate at all — and how would you tell the two situations apart before committing to 'it's probably continuous' as the safer default?"
+status: active

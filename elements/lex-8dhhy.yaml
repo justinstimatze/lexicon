@@ -1,0 +1,21 @@
+id: lex-8dhhy
+name: the-threat-they-dont-mock-reveals-the-real-vulnerability
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When an adversary mocks every threat you make in the same dismissive register, pay closest attention to the one threat that breaks that pattern -- the absence of the usual mockery is a far more reliable signal of a real vulnerability than anything they'd ever say outright. In Cushing's telling, a humiliated Coyote names four different substances he'll use to smoke the Burrowing-Owls out of their holes, and the first three get identical, contemptuous laughter: 'That is our succotash!'... 'We make our mush-stew of that!'... 'We make our sweet gruel with that, you fool!' The pattern is consistent and confident -- until the fourth: 'Pitch-pine,' snarled the Coyote. This frightened the Owls... Away they plunged into their holes, pell-mell.' No admission, no explanation -- just the sudden absence of the mockery that had answered everything else, replaced by flight. That silence and that flight are the confirmation; the Owls never had to say 'this one actually works on us' because their behavior said it more reliably than words could have. Diagnostic move: when you're testing an adversary's defenses by naming possible threats one at a time and they mock each one in the same tone, watch specifically for the threat that breaks their established pattern of mockery -- a sudden change in register, especially toward silence, fear, or flight, is diagnostic precisely because it interrupts a baseline the adversary themselves established through their own confident dismissals."
+related: []
+evokes: [the-break-in-their-own-established-pattern-is-the-signal, cushing-coyote-and-the-burrowing-owls, that-is-our-succotash, pitch-pine-emptied-their-holes]
+lineage:
+  - source: primary
+    text: cushing-coyote-owls-pitch-pine-breaks-the-pattern-of-mockery
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'How the Coyote Joined the Dance of the Burrowing-Owls.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'What will you smoke us out with?' tauntingly asked the Burrowing-owls. 'Ha! you'll find out. With yucca!' 'O! O! ha! ha!' laughed the Owls. 'That is our succotash!' ... 'Grease-weed.' 'He, ha! ho, ho! We make our mush-stew of that!' ... 'Yellow-top weeds,' said he. 'Ha, ha! All right; smoke away! We make our sweet gruel with that, you fool!' ... 'Pitch-pine,' snarled the Coyote. This frightened the Owls, for pitch-pine, even to this day, is sickening to them. Away they plunged into their holes, pell-mell."
+canonical-instances:
+  - "A negotiator probing an opposing company's weaknesses by naming several possible points of leverage gets the same practiced, dismissive non-response to most of them, until one specific point gets a noticeably different, more careful, hedging answer -- that shift in register, not anything actually said, is what tells the negotiator where the real vulnerability lies."
+  - "A security researcher testing a system's defenses by trying several known attack vectors gets bland, confident denials each time, until one particular vector produces silence, a delayed response, or an unusually defensive reply -- the break in the pattern of confident denial is the strongest signal of where the real weakness actually is."
+critical-questions:
+  - "how reliably does a shift from mockery to silence actually indicate a real vulnerability, versus simply indicating that a threat has become tedious, or that the mocking party has run out of jokes -- does the pattern require a genuinely established baseline of consistent mockery before the break becomes meaningful?"
+  - "does this diagnostic move only work when the tester has the luxury of naming several threats in sequence and observing the reaction to each -- what happens when there's only one chance to name a threat, with no baseline of prior mockery to compare it against?"
+  - "once the vulnerability is confirmed this way, does naming it aloud, as the Coyote does, forfeit the informational advantage by warning the adversary that their weakness has been identified, versus quietly exploiting the knowledge without ever revealing that the pattern break was noticed?"
+status: active

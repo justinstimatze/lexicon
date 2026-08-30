@@ -1,0 +1,19 @@
+id: lex-w7gta
+name: choosing-visibility-over-structural-safety-trades-status-for-risk
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Weaker units that interlock into a dense structure can resist a force that would destroy a single strong unit standing alone. The units that end up failing are often not the weakest ones at all — they're the ones that deliberately traded structural safety for visibility or reward. In the Jataka's tale of the forest-dwelling fairies, those who settle together in a dense forest with interlaced branches survive a tempest untouched, while fairies who instead chose showy, solitary trees near human settlements — specifically for the richer offerings and worship such visibility brings — are uprooted and destroyed. The failure wasn't a lack of options; it was a trade the losers made on purpose, picking status over the safety that interlocking with others would have provided."
+related: []
+evokes: [jataka, ekanipata, rukkhadhamma-jataka, distributed-interlock-resists-what-isolation-cannot, chosen-exposure-trades-safety-for-status]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-rukkhadhamma-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 74, Rukkhadhamma-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "United, forest-like, should kinsfolk stand; The storm o'erthrows the solitary tree."
+canonical-instances:
+  - "A junior employee who joins a tight-knit team with overlapping responsibilities keeps their job through a round of layoffs that a peer, who took a flashier standalone role reporting directly to an executive specifically for the visibility, does not survive."
+critical-questions:
+  - "Is the tradeoff genuinely a free choice, given that the visible, solitary positions are often the ones offering more reward precisely because they're rarer — does declining them always mean giving something real up?"
+  - "Does interlocking with others actually protect a unit in every kind of storm, or does distributed structure trade vulnerability to sudden force for vulnerability to a slower threat that spreads through the whole connected group at once?"
+status: active

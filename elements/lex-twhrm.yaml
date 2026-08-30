@@ -1,0 +1,19 @@
+id: lex-twhrm
+name: flattering-re-narration-avoids-naming-the-real-cause
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "After a costly, failed effort, a group can protect itself from confronting an uncomfortable real cause by re-narrating the loss in flattering terms that avoid the subject entirely, converting a preventable failure into an unfalsifiable tribute. In the Jataka's tale of the grieving crows, having failed to empty the sea to recover their companion, the flock stops examining what actually happened and instead praises her beauty and grace, concluding that her own excellence must have provoked the sea into taking her — a story that requires no accountability from anyone, since it locates the cause entirely outside the flock's own reckless behavior at the shore that actually caused the loss."
+related: []
+evokes: [jataka, ekanipata, kaka-jataka, flattering-re-narration-avoids-the-real-cause, unfalsifiable-story-forecloses-accountability]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kaka-jataka-146
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 146, Kaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Then all the crows fell to praising the beauty of her beak and eyes, her complexion, figure and sweet voice, saying that it was her excellencies that had provoked the sea to steal her from them."
+canonical-instances:
+  - "After a product launch fails despite obvious warning signs the team ignored under deadline pressure, the postmortem narrative shifts to praising how ambitious and visionary the project was, with no mention of the specific decisions that caused the failure, letting everyone involved avoid examining their own role in it."
+critical-questions:
+  - "Does this kind of re-narration serve any genuine emotional purpose worth preserving, such as helping a group grieve a loss, even while it actively prevents the group from learning anything that would avoid repeating the same failure?"
+  - "Would naming the real cause directly have required assigning blame to specific individuals, and is that the actual reason the flattering story was more comfortable to settle on instead?"
+status: active

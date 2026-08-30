@@ -1,0 +1,18 @@
+id: lex-ssut2
+name: genuine-top-tier-quality-does-not-announce-its-own-category-membership
+type-in: claim
+type-out: state
+_tier: atomic
+agent-instruction: "In several independent domains, the item that most obviously advertises the qualities of its category turns out to be a lesser instance of that category, while the best instance is understated. Bean paste that smells strongly of bean paste is not the finest bean paste; a fine lacquer dish needs no ornament to prove its quality. Treat visible self-advertisement of a claimed virtue as mildly negative evidence about that virtue rather than confirming it — the item that has to insist is usually compensating."
+related: []
+evokes: [galef, kotowaza, japanese-proverbs, ostentation-as-a-quality-tell, understated-excellence]
+lineage:
+  - source: primary
+    text: galef-1987-even-monkeys-fall-from-trees
+    citation: "David Galef (compiler and translator), *Even Monkeys Fall From Trees: And Other Japanese Proverbs*, illustrations by Jun Hashimoto, foreword by Edward G. Seidensticker (Tuttle Publishing, copyright 1987; ebook ISBN 978-1-4629-0318-4), Proverbs No. 24 and No. 92. Verified verbatim against a direct extraction of the held copy."
+    quote: "Miso no miso-kusai wa jō-miso ni arazu. The bean paste that smells like bean paste is not the best quality. [...] Tanshitsu kazarazu. A red lacquer dish needs no decoration."
+canonical-instances:
+  - "A candidate whose résumé leads with 'proven leader' and 'strategic thinker' reads as less credible on those exact traits than one whose résumé simply lists what they built and who followed."
+critical-questions:
+  - "Is this signal reliable enough to actively penalize confident self-description, or does it only justify withholding credit for self-description on its own?"
+status: active

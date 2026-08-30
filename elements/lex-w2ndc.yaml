@@ -1,0 +1,21 @@
+id: lex-w2ndc
+name: testing-a-claimed-universal-rule-by-asking-why-its-author-is-exempt
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: 'When someone advances a self-serving rule dressed as a universal moral or spiritual principle, the fastest test of its sincerity is not to argue against the rule directly but to ask why the person proposing it never applies it to themselves or their own family. In the Khandahala-Jataka, Prince Candakumara does not dispute that sacrificing sons might lead to heaven — he instead turns the priest''s own doctrine back on him: "If they who sacrifice their sons are, when they die, all glorified, / Then let the brahmin offer his: the king shall follow him as guide. / If they who sacrifice their sons go straight to heaven when they die, / Why does the brahmin offer not himself and all his family?" A rule its author refuses to live under is evidence the rule was never meant to be universal in the first place.'
+related: [lex-q7hxm]
+scaffolds-from: [lex-q7hxm]
+evokes: [jataka, mahanipata, khandahala-jataka, reflexive-test, universalizability, hypocrisy-exposure]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-khandahala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 542, Khandahala-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "If they who sacrifice their sons are, when they die, all glorified, / Then let the brahmin offer his: the king shall follow him as guide. / If they who sacrifice their sons go straight to heaven when they die, / Why does the brahmin offer not himself and all his family?"
+canonical-instances:
+  - "A consultant proposes that a company's survival depends on across-the-board pay cuts while quietly exempting executive bonuses; an employee asks the board why the fix that saves the company doesn't apply to the people proposing it."
+  - "A pundit insists austerity is a moral necessity for the public while retaining every personal subsidy available to them; a heckler's only question is why the pundit doesn't volunteer to go first."
+critical-questions:
+  - "The test exposes insincerity, but does it work against someone who genuinely believes the rule applies differently to different roles — a general who accepts battle risk isn't hypocritical for not personally digging latrines?"
+  - "Candakumara's rebuttal doesn't actually stop the sacrifice in this telling — what does it take for a rhetorically won exposure of hypocrisy to also be a practically won argument?"
+status: active

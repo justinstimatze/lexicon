@@ -1,0 +1,19 @@
+id: lex-cysbn
+name: a-staged-mirror-enactment-precedes-the-explicit-comparison
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Rather than accusing someone directly, a party can orchestrate a live, disguised enactment of a structurally similar folly, let the wrongdoer judge it freely in ignorance of the parallel, and only then draw the explicit comparison to their own conduct — exploiting the human capacity to judge others' failings clearly while remaining blind to identical failings in oneself. In the Jataka's tale of Culladhanuggaha, a divine figure stages an animal losing everything through greed in front of a woman who has just done the same thing herself, then names the parallel: 'another's faults are plainly seen, 'tis hard to see one's own, I ween. Methinks thou too must count the cost, when spouse and lover both are lost.'"
+related: []
+evokes: [jataka, pancanipata, culladhanuggaha-jataka, staged-enactment-precedes-the-explicit-comparison, judging-others-clearly-while-blind-to-oneself]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-culladhanuggaha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 374, Culladhanuggaha-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Another's faults are plainly seen, 'Tis hard to see one's own, I ween. Methinks thou too must count the cost, When spouse and lover both are lost."
+canonical-instances:
+  - "A mediator, unable to get a client to see how their own aggressive negotiating tactic backfired, tells an anonymized story about a different company doing the exact same thing and losing the deal — lets the client freely criticize that company's foolishness — and only then points out it's a mirror of the client's own last move."
+critical-questions:
+  - "Does the staged mirror actually work better than direct feedback, or does the elaborate indirection risk the parallel being missed entirely, wasting the effort of staging it in the first place?"
+  - "Is there something manipulative about letting a person condemn a disguised version of their own conduct before revealing the setup, compared to simply naming the criticism directly and trusting them to hear it?"
+status: active

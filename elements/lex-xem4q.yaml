@@ -1,0 +1,18 @@
+id: lex-xem4q
+name: insulting-a-claimed-virtue-to-see-if-it-holds-before-rewarding-it
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: 'Before granting a reward for an apparent virtue, a tester can deliberately provoke the claimant with an insult targeting the very quality being tested, using the provoked (or unprovoked) response as the real evidence, since a claim of equanimity is worthless until it has survived an attempt to break it. In the Jataka''s tale of Kanha, Sakka insults the ascetic''s blackness and diet specifically to see whether anger will arise: "Behold yon man, all black of hue, that dwells on this black spot, Black is the meat that he doth eat—my spirit likes him not!"'
+related: []
+evokes: [jataka, dasanipata, kanha-jataka, trial-by-insult, testing-a-claimed-virtue]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kanha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 440, Kanha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Behold yon man, all black of hue, that dwells on this black spot, Black is the meat that he doth eat—my spirit likes him not!"
+canonical-instances:
+  - "A hiring manager, skeptical of a candidate's claimed calm under pressure, deliberately interrupts and belittles the candidate mid-answer in the interview to see whether the composure holds up when actually tested rather than merely described."
+critical-questions:
+  - "Does provoking someone to test a virtue risk damaging the very thing being tested, independent of whether the test is passed?"
+status: active

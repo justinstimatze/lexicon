@@ -1,0 +1,21 @@
+id: lex-a632v
+name: winning-on-speed-over-durability-can-lock-in-a-permanent-hidden-cost
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "When two candidate approaches are racing toward the same immediate goal and you pick the winner purely because it got there faster, the losing approach's other qualities, like durability, don't just disappear -- they were never actually being tested, and picking on speed alone can lock in a permanent cost the contest never measured. In the Tlingit creation myth Radin quotes, the creator makes humanity from whichever material finishes first: 'Nas-caki-yel tried to make human beings out of a rock and out of a leaf at the same time, but the rock was slow while the leaf was very quick. Therefore human beings came from the leaf.' Speed was the only thing the contest measured, but the myth is explicit about what that choice actually determined: 'That is why there is death in the world. If men had come from the rock there would be no death.' The rock would have made mortals just as viable as the leaf did, on a longer timeline; instead, the race for who finishes first quietly decided something the race was never actually about. Diagnostic move: when choosing between two options based on which one is ready or wins first, check what quality that speed-based selection is actually deciding on your behalf -- durability, robustness, or some other property having nothing to do with speed can get permanently locked in or locked out as a side effect of a contest that was never designed to measure it."
+related: []
+evokes: [radin-the-wakdjunkaga-cycle-and-north-american-trickster-cycles, nas-caki-yel-and-the-rock-and-the-leaf, the-rock-was-slow-while-the-leaf-was-very-quick, that-is-why-there-is-death-in-the-world]
+lineage:
+  - source: primary
+    text: radin-nas-caki-yel-chooses-the-fast-leaf-over-the-slow-rock-and-fixes-mortality
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'The Wakdjunkaga Cycle and Its Relation to Other North American Indian Trickster Cycles,' quoting the Tlingit Raven cycle (after J. R. Swanton, Tlingit Texts and Myths, Bureau of American Ethnology Bulletin 39, 1909). Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "Nas-caki-yel tried to make human beings out of a rock and out of a leaf at the same time, but the rock was slow while the leaf was very quick. Therefore human begins came from the leaf. Then he showed a leaf to the human beings and said, \"You see this leaf. You are to be like it. When it falls off the branch and rots there is nothing left of it.\" That is why there is death in the world. If men had come from the rock there would be no death."
+canonical-instances:
+  - "A company picks whichever of two competing internal software prototypes ships first, and only years later realizes that the slower, more carefully engineered prototype would have avoided the maintenance debt now permanently built into the product's architecture, a property the speed-based selection never tested for."
+  - "A hiring manager extends an offer to whichever candidate accepts fastest between two similarly qualified finalists, and the resulting hire's long-term fit with the team, something the quick-acceptance criterion said nothing about, ends up shaping the team's culture for years."
+critical-questions:
+  - "Does the myth actually present the rock-versus-leaf race as an arbitrary, poorly designed contest, or is speed presented as a legitimate criterion in its own right, one the creator genuinely valued over durability for reasons the text doesn't fully explain?"
+  - "Is human mortality actually best read as a hidden cost nobody intended, or does the myth's explanatory logic work backward from an already-known fact, human death, to invent an origin story that makes the outcome feel like the result of a contest rather than a deliberate choice?"
+  - "Would explicitly testing for durability alongside speed have been possible in this scenario, or are speed and durability sometimes genuinely exclusive properties where you cannot select for both without changing the nature of the contest entirely?"
+status: active

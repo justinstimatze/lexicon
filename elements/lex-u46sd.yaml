@@ -1,0 +1,18 @@
+id: lex-u46sd
+name: a-condemned-sufferer-eagerly-hands-off-a-disguised-burden-to-a-volunteer
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When someone under an ongoing punishment is approached by a person who mistakes the punishment for a prize and demands to take it, the sufferer can conclude their own suffering is nearly finished and gladly comply, transferring the burden to a volunteer who begged for it under a false description. In the Jataka''s tale of Mittavindaka, the wearer of a torturous razor-wheel hands it over the moment Mittavindaka demands it as a lotus: "''Ho, man! Long enough you have been carrying that flower of lotus; now give it to me!''" ... "Then he said, ''Here then, take the lotus,'' and with those words cast the razor-wheel upon his head."'
+related: []
+evokes: [jataka, dasanipata, catu-dvara-jataka, mittavindaka, confidence-trick-reversal, disguised-burden]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-catu-dvara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 439, Catu-dvara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Ho, man! Long enough you have been carrying that flower of lotus; now give it to me!\"... Then he said, \"Here then, take the lotus,\" and with those words cast the razor-wheel upon his head."
+canonical-instances:
+  - "A veteran employee, exhausted by an unglamorous on-call rotation, watches a status-hungry new hire demand to be added to the rotation believing it a mark of seniority, and hands off the pager without correcting the misunderstanding."
+critical-questions:
+  - "Does the sufferer's willingness to hand off the burden the instant someone else wants it change anything about who deserves blame for the eventual harm to the volunteer?"
+status: active

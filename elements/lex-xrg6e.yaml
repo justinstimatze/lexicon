@@ -1,0 +1,130 @@
+id: lex-xrg6e
+name: plausible-deniability
+type-in: claim
+type-out: posture
+_tier: atomic
+agent-instruction: "When an action is structured so the actor can later deny intent ('I didn't tell them to do it'), suspect plausible-deniability engineering. The structure isn't an accident; it's a feature. Trace who benefits from the deniability."
+related: [lex-59rqy, lex-9ty22, lex-c7pga, lex-chp44, lex-d7h2y, lex-dm5te, lex-e3yhv, lex-e48nt, lex-gq42q, lex-hfjhy, lex-k2kdc, lex-q9asc, lex-s2pjj, lex-sfadp, lex-v5fqf, lex-wnmfk, lex-y48fs]
+scaffolds-from: [lex-e3yhv, lex-wnmfk, lex-y48fs]
+evokes: [retrospective-disclaimability, signal-with-disavowable-attribution, deniable-assertion, ambiguity-as-shield]
+lineage:
+  - source: primary
+    text: schelling-1966-arms-and-influence
+    citation: "Thomas C. Schelling, Arms and Influence (Yale University Press, 1966; this citation from the 2008 Yale Nota Bene ed. with new preface and afterword), ch.2 'The Art of Commitment,' the Berlin-commitment discussion. Schelling's general statement of the inverse of burning-bridges commitment: an ill-defined, ambiguous commitment leaves a loophole through which to exit gracefully later — the structural mechanism plausible-deniability builds on, complementing the Goffman-quoting Strategy of Conflict entry below. Corrects the prior citation, which paired the right chapter number with the wrong chapter title (ch.3, not ch.2, is 'The Manipulation of Risk' in this edition)."
+    quote: "'The first is that if the commitment is ill defined and ambiguous—if we leave ourselves loopholes through which to exit—our opponent will expect us to be under strong temptation to make a graceful exit (or even a somewhat graceless one) and he may be right.'"
+  - source: primary
+    text: schelling-1960-strategy-of-conflict
+    citation: "Thomas C. Schelling, The Strategy of Conflict (Harvard UP 1960), ch.5 §Promises, footnote {81}, p.[near end matter] — Schelling quotes Erving Goffman on hinted communication as the paradigm case of an assertion engineered to preserve deniability: sender withholds official commitment, recipient is obliged to treat the message as unreceived. Directly names the mechanism this atom captures."
+    quote: "'Tact in regard to face-work often relies for its operation on a tacit agreement to do business through the language of hint—the language of innuendo, ambiguities, well placed pauses, carefully worded jokes, and so on. The rule regarding this unofficial kind of communication is that the sender ought not to act as if he had officially conveyed the message he has hinted at, while the recipients have the right and the obligation to act as if they have not officially received the message contained in the hint. Hinted communication, then, is deniable communication.'"
+  - source: primary
+    text: pinker-nowak-lee-2008-logic-of-indirect-speech
+    citation: "Steven Pinker, Martin A. Nowak and James J. Lee, 'The Logic of Indirect Speech,' PNAS 105(3):833-838 (22 January 2008). Pinker is a caveat-author elsewhere in this corpus; this is a co-authored formal paper cited for its mechanism, not for Pinker's popular-science voice. Supplies the game-theoretic backing Schelling's qualitative treatment above doesn't provide: a formal model showing plausible deniability is the first of three functions of indirect speech (the other two are relationship-negotiation and language's digital/common-knowledge property), predicting the costs and benefits to a speaker of direct versus indirect requests. Their examples (a sexual come-on, a veiled threat, a bribe) are the same shape as the engineered/retrospective cases (1-3) this atom already names."
+    quote: "'First, indirect requests allow for plausible deniability, in which a cooperative listener can accept the request, but an uncooperative one cannot react adversarially to it. This intuition is supported by a game-theoretic model that predicts the costs and benefits to a speaker of direct and indirect requests.'"
+canonical-instances:
+  - "A government provides material support to a non-state actor through arms-length channels (no signature, no document) so that if the action is exposed, the state can publicly disavow knowledge."
+  - "A manager raises a complaint via 'I've heard some people are saying X' rather than 'I think X' — preserving the option to retreat to 'I was just relaying what I heard' if X turns out wrong."
+  - "An LLM-system author releases a model card with vague capability claims and explicit hedges so that downstream misuse can be attributed to deployment context rather than the released artifact."
+  - "Friday 1973 sincere-performance disavowal variant (My Secret Garden Ch.1-3): women's sexual fantasies of 1960s-70s were systematically structured around the removal of agency — seduction by strangers, being 'taken,' anonymous encounters. The fantasies allowed the exercise of sexual desire while disavowing the choice to desire. The ritual framing — 'I was forced, therefore I am not responsible for wanting this' — simultaneously expressed and denied female sexual agency. Friday reads this not as women wanting coercion but as the structural signature of desire under prohibition. Unlike the engineered/retrospective deniability of Schelling's signaling cases (the canonical core above), this disavowal is sincere — the actor often genuinely believes the not-doing performance, which is what makes it a more robust defense. See also lex-k2kdc constitutive-defense-when-the-defense-generates-the-threat: sincere-performance disavowal is one mechanism by which constitutive-defense self-sustains."
+  - "Nietzsche slave-morality ressentiment variant (Beyond Good and Evil 1886 §260; On the Genealogy of Morals 1887 First Essay): the exercise of power through the performance of powerlessness. Ressentiment reframes the inability to act as a moral choice not to act — 'the meek shall inherit the earth' performs renunciation while exercising the will to power through moral judgment. Distinct from the Schelling-style engineered case in two ways: (a) the actor sincerely believes the renunciation-performance, not maintaining it as a retrospective fallback; (b) the disavowal is constitutive of the moral system, not a tactical move within it. Nietzsche's genealogical method is precisely the intervention that names the disavowal to expose the power-exercise beneath the moral performance."
+  - "Corporate Social Responsibility (CSR) sincere-performance variant: CSR programs allow corporations to exercise profit-maximizing behavior (including externalization of costs) while performing social responsibility. The ritual framing includes sustainability reports, charitable donations, and ESG metrics that coexist with business practices contradicting them. The disavowal is structural: the CSR apparatus is not a failure of implementation but the mechanism through which the gap is maintained. Distinct from engineered-deniability — corporate actors often sincerely believe the CSR performance; the disavowal operates without intentional setup-for-retreat. References: Banerjee 2008 'Corporate Social Responsibility: The Good, the Bad and the Ugly'; Fleming & Jones 2013 'The End of Corporate Social Responsibility'."
+  - "operationally adjacent to lex-k2kdc constitutive-defense-when-the-defense-generates-the-threat: plausible-deniability is the engineered/retrospective core of the broader disavowal pattern; constitutive-defense is the system-topological frame within which disavowal-as-sincere-performance is one of the self-sustaining mechanisms. The Friday/Nietzsche/CSR cases above are sincere-performance variants that lex-xrg6e captures here (broadening its scope) but whose system-level dynamics are framed by lex-k2kdc. Disavowal allows the constitutive-defense to continue while the actor denies its generative role — the defense is maintained through the fiction that the threat is wholly external. The two atoms co-fire: lex-xrg6e names the cognitive-tier mechanism (the disavowal-move); lex-k2kdc names the system-tier consequence (the threat-generating feedback loop the disavowal protects)."
+critical-questions:
+  - "the engineered-vs-sincere discrimination: is the disavowal engineered ex-ante (Schelling-style, arms-length channels designed for later denial) or sincerely performed (Friday/Nietzsche/CSR, actor genuinely believes the renunciation)? Different interventions target each: engineered-deniability dissolves under document discovery; sincere-performance dissolves under genealogical reflection (Nietzsche's method). Practitioner-question: which type is operative, and which intervention applies?"
+  - "the lex-d7h2y paltering vs lex-xrg6e deniability boundary: paltering requires literal-true statements; deniability allows lies as long as the structure preserves deniability. Practitioner-discipline: when diagnosing strategic deception, audit literal-truth of each statement first (paltering vs. lying-with-deniability) — different evidentiary thresholds apply"
+  - "the upstream-vs-downstream attribution: when the deniability shield is invoked, is the denied act actually attributable to the deniability-protector? Some 'plausible-deniability' invocations are post-hoc constructions where the protector didn't actually arrange the channels (genuine arms-length AND deniability claim). Practitioner-question: is there evidence of the deniability being PRE-engineered, or only retrospectively-asserted?"
+  - "the constitutive-defense co-fire: when lex-xrg6e is operative, is it ALSO producing the threat it disavows (lex-k2kdc territory)? Friday/Nietzsche/CSR cases tend to co-fire — the disavowal mechanism sustains the threat the disavowal claims to manage. Practitioner-discipline: when sincere-performance disavowal is diagnosed, audit for constitutive-defense feedback (does the disavowal feed the thing-disavowed?)"
+severity-tier: warning
+status: active
+---
+# plausible-deniability
+
+A cognitive move that produces a *posture* in which a claim has been
+asserted (or an action has been taken) but the asserter retains the
+ability to *retrospectively* disclaim authorship, intent, or
+knowledge if the claim is challenged.
+
+The atom's roadening (canonical-instances 4-6) extends the
+pattern to cover sincere-performance disavowal — the asserter
+genuinely believes the not-doing performance, not maintaining it as
+a retreat option. The Schelling-style engineered/retrospective cases
+(1-3) and the Friday/Nietzsche/CSR sincere-performance cases (4-6)
+share the same operational structure (a gap between what is done
+and what is acknowledged, maintained through ritual framing) but
+differ in whether the actor is aware of the gap.
+
+## Distinct from neighbors
+
+- **strategic-ambiguity** (mining target, see signaling-deception-
+  mining-pass-1.md) is *prospective non-commitment*: the asserter
+  refuses to disambiguate so multiple audiences each take the
+  favorable reading. Deniability is *retrospective disclaimability*:
+  the asserter has committed *enough* to be heard, but engineered
+  the commitment to be retractable later. Different operational
+  shapes; different defeaters.
+- **lex-chp44 meta-pointer** is a structural primitive about
+  pointing-to-the-pointing (state → frame). Plausible-deniability
+  *uses* meta-pointing as one of its vehicles ("I'm just relaying
+  what others said") but is not reducible to it; many deniability
+  moves don't go meta.
+- **lex-q9asc source-attribution** (claim → frame) is the
+  metadata-attaching primitive. Deniability often piggybacks on
+  source-attribution ("I'm just citing X") but the attribution can
+  be honest while the deniability move is operating; orthogonal axes.
+- **lex-k2kdc constitutive-defense-when-the-defense-generates-the-threat**
+  is the system-topological frame within which sincere-performance
+  disavowal is one of the self-sustaining mechanisms. lex-xrg6e
+  captures the cognitive-tier mechanism (both engineered and
+  sincere-performance variants); lex-k2kdc names the system-tier
+  consequence (the feedback loop the disavowal protects from
+  recognition).
+
+## Critical questions (atomic-tier; rough — no Walton scheme yet)
+
+- Was the asserter's later disavowal pre-engineered, or is it an
+  honest reassessment? (deniability collapses if the disavowal was
+  unprepared at the time of assertion)
+- Did the assertion carry enough commitment-weight to count as
+  asserted, or was it pre-deflated to the point of not being a claim?
+  (deniability requires asymmetry: heard as commitment, defended as
+  non-commitment)
+- Is the asymmetry between asserter-side and audience-side framing
+  indispensable? If the asserter would be content to either get the
+  claim taken seriously or have it dismissed, the move is
+  strategic-ambiguity, not plausible-deniability.
+- Engineered-retrospective or sincere-performance? Schelling-style
+  cases (1-3) involve deliberate setup-for-disclaim; Friday/Nietzsche/
+  CSR cases (4-6) involve actors who genuinely believe the not-doing
+  performance. Diagnostic asymmetry: engineered cases collapse when
+  the deliberate setup is named; sincere-performance cases collapse
+  when the actor recognizes the gap themselves, but may reconstitute
+  at a meta-level ("I'm being honest about my disavowal, which counts
+  as honesty") rather than dissolving entirely.
+- The legibility-trap risk: naming the disavowal can destroy social
+  relationships that depended on it functioning. In asymmetric power
+  contexts, naming can be dangerous for the person who names. Weil-
+  check: does naming serve the dignity of those harmed by the
+  disavowal, or does it serve the pleasure of the person doing the
+  naming?
+- The meta-disavowal trap: "I know I'm disavowing, and that self-
+  awareness counts as honesty" is a higher-order reconstitution of
+  the same mechanism. Self-awareness of the disavowal does not
+  automatically dissolve it; it can become the new disavowal layer
+  ("I am so honest about my disavowals" — performance of meta-honesty
+  while still operating the underlying gap).
+
+## Composition notes
+
+The signaling-deception family expects this to compose with
+`source-attribution` (lex-q9asc) and an unmined `cover-story-construction`
+atom into the molecule `pretextual-justification`. Mining pass for
+the cover-story-construction atom is queued.
+
+Probable molecule shape: `defeasibility-attach(<assertion>, defeaters=<disavowal-channels>)`.
+
+roadening note: with canonical-instances 4-6 extending the atom
+to sincere-performance disavowal, the molecule shape generalizes to
+`gap-maintain(<exercise-of-X>, <performance-of-not-X>, <ritual-framing>)`
+where the ritual-framing channel is engineered-deniability in cases
+1-3 and sincere-performance-belief in cases 4-6. The lex-k2kdc
+constitutive-defense frame applies system-topologically when the
+sincere-performance variant is operating in a feedback loop.

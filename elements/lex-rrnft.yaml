@@ -1,0 +1,22 @@
+id: lex-rrnft
+name: a-technique-calibrated-to-one-audience-backfires-unchanged-in-another
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A courtship or persuasion approach that reliably worked at home -- charm, intimate flattery, confident compliments -- can be applied unchanged in a new social context, expecting the same success. The same behavior that consistently attracted people in the old context can consistently repel people in the new one, because the technique was never universally effective in itself. It was calibrated to a specific audience's particular expectations, and transplanting it unmodified into an audience with different expectations produces the opposite of the intended effect. Gilman stages this exactly: Terry's proven approach fails completely in Herland. 'I could see, just in snatches... how his suave and masterful approach seemed to irritate them; his too-intimate glances were vaguely resented, his compliments puzzled and annoyed... Girl after girl turned on her heel and left him, till he had but a small ring of questioners.'"
+related: []
+evokes: [herland, chapter-8, his-suave-and-masterful-approach-seemed-to-irritate-them, girl-after-girl-turned-on-her-heel, a-proven-technique-repels-a-different-audience]
+lineage:
+  - source: primary
+    text: gilman-1915-herland-chapter-8
+    citation: "Charlotte Perkins Gilman, Herland (1915), Chapter 8, 'The Girls of Herland.' Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "I watched Terry with special interest, knowing how he had longed for this time, and how irresistible he had always been at home. And I could see, just in snatches, of course, how his suave and masterful approach seemed to irritate them; his too-intimate glances were vaguely resented, his compliments puzzled and annoyed. Sometimes a girl would flush, not with drooped eyelids and inviting timidity, but with anger and a quick lift of the head. Girl after girl turned on her heel and left him, till he had but a small ring of questioners, and they, visibly, were the least 'girlish' of the lot."
+canonical-instances:
+  - "A sales manager whose aggressive, high-pressure closing style consistently won deals in a fast-moving domestic market applies the identical approach when expanding into a market that values slow relationship-building, and prospects who would have signed at home now walk away offended by the same tactics that used to work."
+  - "A comedian whose blunt, insult-based crowd work reliably won laughs at rowdy late-night clubs applies the same routine unchanged at a corporate event, and jokes that used to land as playful now read as hostile to an audience with entirely different expectations about what a comedian owes them."
+  - "A manager whose command-and-control leadership style motivated a factory floor crew for years applies the identical style unchanged after being promoted to lead a team of research scientists, and the directness that once read as decisive now reads as controlling to people who expect autonomy."
+critical-questions:
+  - "How would the person actually recognize, in the moment, that their proven technique is backfiring rather than simply needing more persistence -- is there a reliable early signal, or does the failure only become clear well after real damage has already been done?"
+  - "Once someone recognizes their technique has stopped working in a new context, how much of it can actually be recalibrated versus needing to be abandoned entirely -- is this a tuning problem or does the whole underlying approach need to be rebuilt from different assumptions?"
+  - "Was the technique ever actually effective on its own merits, even in the original context? Its apparent success there might trace to some other factor entirely, in which case the person's confidence in the technique itself was misplaced well before any question of transferability arose."
+status: active

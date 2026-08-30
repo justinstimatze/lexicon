@@ -1,0 +1,19 @@
+id: lex-vs4kh
+name: survival-outranks-honoring-a-desire-conceived-in-passion
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A stated decision-rule can rank self-preservation above keeping a commitment made in the heat of passion, treating the discovery of a desire's true cost as sufficient grounds to abandon it. The Jataka's tale of Kharaputta states this hierarchy directly: 'A king, like thee, may have conceived desire And yet renounced it if his life's the cost: Life is the chief thing: what can man seek higher? If life's secured, desires need ne'er be crossed.'"
+related: []
+evokes: [jataka, chanipata, kharaputta-jataka, survival-outranks-a-rash-commitment, life-as-the-highest-priority]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kharaputta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 386, Kharaputta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "A king, like thee, may have conceived desire And yet renounced it if his life's the cost: Life is the chief thing: what can man seek higher? If life's secured, desires need ne'er be crossed."
+canonical-instances:
+  - "A climber who swore to summit no matter what turns back a few hundred feet from the top once a storm makes the attempt genuinely lethal, treating the earlier vow as void the moment its actual cost became clear."
+critical-questions:
+  - "Does ranking survival above every commitment risk becoming a universal excuse for abandoning any promise once it turns out to be costly, rather than only the genuinely life-threatening ones?"
+  - "Who decides how much cost is enough to justify renouncing a desire — is 'life is the chief thing' a clean rule, or does it just relocate the judgment call to what counts as a real threat to life?"
+status: active

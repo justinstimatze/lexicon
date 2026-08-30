@@ -1,0 +1,21 @@
+id: lex-mkadu
+name: qualitative-threshold-effect-does-not-require-abruptness-or-irreversibility
+type-in: claim
+type-out: frame
+_tier: atomic
+agent-instruction: "Widen your criteria for what counts as a tipping point past the popular image of a sudden, irreversible collapse. A component genuinely qualifies as having a tipping element if crossing some critical value in a control parameter produces a qualitative change in a defining feature after some observation time — nothing more is required. The change can unfold slower than the forcing that caused it, the crossing itself can be gradual rather than abrupt, and expert models can disagree about whether the resulting state is reversible in principle. Requiring abruptness or irreversibility before naming something a tipping element screens out real cases that share the actual mechanism at stake — a threshold that reroutes a system onto a qualitatively different trajectory — just because they lack the dramatic surface features."
+related: [lex-869h7, lex-9xzrt, lex-agxhu]
+evokes: [tipping-elements, lenton-2008, earth-system-thresholds, qualitative-vs-quantitative-change, control-parameter]
+lineage:
+  - source: primary
+    text: lenton-et-al-2008-tipping-elements-pnas-p1786
+    citation: "Timothy M. Lenton, Hermann Held, Elmar Kriegler, Jim W. Hall, Wolfgang Lucht, Stefan Rahmstorf, and Hans Joachim Schellnhuber, 'Tipping elements in the Earth's climate system,' Proceedings of the National Academy of Sciences 105(6):1786-1793 (2008), p.1786. Verified verbatim against a direct pdftotext extraction, no OCR involved."
+    quote: "We have formulated a much broader definition of a tipping element, because (i) we wish to include nonclimatic variables; (ii) there may be cases where the transition is slower than the anthropogenic forcing causing it; (iii) there may be no abruptness, but a slight change in control may have a qualitative impact in the future; and (iv) for several important phase changes, state-of-the-art models differ as to whether the transition is reversible or irreversible (in principle)."
+canonical-instances:
+  - "The Amazon rainforest dieback candidate, one of Lenton et al.'s named tipping elements: the forcing (deforestation plus regional drying) can act over decades while the ecosystem's qualitative shift to savanna-like vegetation unfolds on its own slower timescale — the transition being slower than its cause doesn't disqualify it from the taxonomy, per criterion (ii) above."
+  - "operationally distinct from lex-869h7 slowing-recovery-from-perturbation-warns-of-an-approaching-tipping-point: lex-869h7 is a detection method — a statistical signature (critical slowing down) that can be measured as a system approaches a threshold, regardless of how the threshold itself is defined. This atom is the definitional question one level upstream — what counts as a tipping element at all — and is a precondition for lex-869h7's detection method to even apply to a given candidate system."
+critical-questions:
+  - "Does broadening the definition this far risk making 'tipping element' apply to almost any threshold effect, diluting its usefulness as a category? Lenton et al.'s own answer is a specific taxonomy of named Earth-system components meeting the criteria, not an open-ended license — check whether a candidate case is actually being evaluated against the stated criteria or just labeled a tipping point for rhetorical weight."
+  - "Is the control parameter and its critical value actually identified for a given candidate, or is 'tipping point' being invoked before the threshold itself has been specified? The broad definition still requires a real critical value and a real qualitative-change criterion, not just a vague sense that something big might happen."
+  - "For a given case, which of the four broadening criteria (nonclimatic, slower-than-forcing, non-abrupt, uncertain-reversibility) actually applies? Naming the specific criterion sharpens the claim and makes it checkable against the source material rather than treated as a blanket exemption."
+status: active

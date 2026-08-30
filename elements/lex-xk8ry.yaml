@@ -1,0 +1,18 @@
+id: lex-xk8ry
+name: an-advantage-gaining-act-leaves-its-own-incriminating-trace
+type-in: process
+type-out: state
+_tier: atomic
+agent-instruction: "Some acts leave behind evidence that is inherent to the act itself rather than externally imposed — the person who steals incense carries its scent, not because anyone designed a trap, but because the very substance of the theft clings to the thief. When looking for how a concealed advantage might come to light, check first for a trace that the advantage-gaining act itself would necessarily produce, before assuming detection requires an outside investigator or a planted decoy."
+related: [lex-rj23t]
+evokes: [galef, kotowaza, japanese-proverbs, self-incriminating-residue, the-crime-carries-its-own-evidence]
+lineage:
+  - source: primary
+    text: galef-1987-even-monkeys-fall-from-trees
+    citation: "David Galef (compiler and translator), *Even Monkeys Fall From Trees: And Other Japanese Proverbs*, illustrations by Jun Hashimoto, foreword by Edward G. Seidensticker (Tuttle Publishing, copyright 1987; ebook ISBN 978-1-4629-0318-4), Proverb No. 89. Verified verbatim against a direct extraction of the held copy."
+    quote: "Kō o nusumu mono wa kō ni arawaru. He who steals incense smells of it."
+canonical-instances:
+  - "An employee who pads their expense reports develops a pattern of round-number submissions that shows up automatically in an audit — not because anyone was looking for that employee specifically, but because the padding itself has a shape that padding always has."
+critical-questions:
+  - "Is the self-incriminating trace here actually inherent to the act, or does it only look inevitable in hindsight because this particular instance happened to get caught?"
+status: active

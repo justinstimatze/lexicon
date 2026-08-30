@@ -1,0 +1,20 @@
+id: lex-2qzfm
+name: a-leader-enters-a-correctly-suspected-trap-to-avoid-alienating-followers
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Correctly recognizing a threat doesn't end the decision — a leader whose followers are eager to go somewhere new sometimes goes anyway, not because the danger-read was wrong, but because holding the group back on a risk it doesn't share costs the leader something the group's own comfort weighs against. In the Jataka's tale of the great geese, King Dhatarattha reasons through an unprecedented, suspiciously perfect 'sanctuary' lake correctly the first time: 'Men, verily, are full of wiles and skilled in expedients: there must be some reason for this. All this long time past there was no such lake: it must have been made now to catch us.' [...] When his flock asks a second time, he goes anyway, thinking only, 'My kinsfolk must not be vexed by reason of me: we will go there.' The trap catches him exactly as his own first read predicted."
+related: []
+evokes: [jataka, asitinipata, mahahamsa-jataka, correctly-diagnosed-risk, social-cost-of-refusal, groupthink-override]
+lineage:
+  - source: primary
+    text: jataka-francis1905-mahahamsa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XXI (Asitinipata), No. 534, Mahahamsa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Men, verily, are full of wiles and skilled in expedients: there must be some reason for this. All this long time past there was no such lake: it must have been made now to catch us. [...] My kinsfolk must not be vexed by reason of me: we will go there."
+canonical-instances:
+  - "A security lead correctly flags a too-convenient vendor offer as a likely social-engineering setup and blocks it once — when the sales team pushes back a second time, annoyed at losing the deal, she approves it anyway rather than keep overruling a decision the rest of the room doesn't see the danger in."
+  - "A parent recognizes a 'free trial' summer camp pitch as a data-harvesting funnel and says no — when their kid asks again, visibly hurt at being the only one not going, they sign up anyway, their own read of the situation unchanged."
+critical-questions:
+  - "Dhatarattha's kin never learn why the lake was suspicious in the first place — is relenting without ever explaining the reasoning a failure to lead, even if the immediate decision to go along is defensible on its own?"
+  - "The king is caught precisely because he went; would voicing the suspicion out loud and letting the flock choose with full information have changed anything, or does a group that has already decided it wants the reward discount a leader's warning regardless of how clearly it's stated?"
+status: active

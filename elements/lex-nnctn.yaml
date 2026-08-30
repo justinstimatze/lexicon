@@ -1,0 +1,19 @@
+id: lex-nnctn
+name: a-purely-internal-affliction-gets-misread-as-an-external-attack
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "An observer who finds someone wasting away with no visible wound defaults to assuming an external cause, because an internal, self-inflicted affliction leaves nothing for the eye to find. The absence of evidence for an attacker is not evidence that no harm occurred — it just means the harm has no exterior. In the Jataka's tale of the lovesick hermit, a king finds the ascetic prostrate and assumes enemies must be responsible: 'I suppose my enemies must have done this. They could not get a chance at me, so they determined to do a mischief to what I love.' The hermit corrects him directly: 'No one has hurt me,' replied the Bodhisatta, 'only I have wounded my own heart.' The king was searching for a wound. The wound was never going to be found that way."
+related: []
+evokes: [jataka, tikanipata, samkappa-jataka, absence-of-a-visible-wound-does-not-imply-absence-of-harm, self-inflicted-affliction-defaults-misread-as-attack]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-samkappa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 251, Samkappa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "I suppose my enemies must have done this. They could not get a chance at me, so they determined to do a mischief to what I love.\" ... \"No one has hurt me,\" replied the Bodhisatta, \"only I have wounded my own heart.\""
+canonical-instances:
+  - "A manager notices a normally reliable team member has stopped delivering and assumes a rival team must be sabotaging their access to resources, when the actual cause is a private crisis the employee has told no one about, invisible because it never produced anything an outside observer could point to."
+critical-questions:
+  - "Is the external-cause assumption actually unreasonable here, or is it simply the rational prior when someone with real enemies turns up wounded, updated only once the internal explanation is offered directly?"
+  - "Would the king have ever arrived at the correct explanation without the hermit's own admission, or does a purely internal affliction require the sufferer to disclose it, since no amount of external investigation would surface it?"
+status: active

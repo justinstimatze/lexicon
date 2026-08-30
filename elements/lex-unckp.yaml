@@ -1,0 +1,20 @@
+id: lex-unckp
+name: hold-damning-knowledge-dormant-until-the-rightful-avenger-is-capable
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A witness with damning knowledge can deliberately withhold action for years — not out of indecision but because he alone lacks the power to prevail — waiting until a designated future agent is old enough and trained to act, then revealing everything at once. In the Jataka''s tale of Parantapa, the witness does exactly this until the orphaned prince turns sixteen: "Then the brahmin made him take a stick, and going with him to the bathing-place opened his eyes and looked. ''Are you not blind, brahmin?'' said the prince. ''I am not, but by this means I have saved my life: do you know who is your father?''"'
+related: [lex-phk59]
+scaffolds-from: [lex-phk59]
+evokes: [jataka, sattanipata, parantapa-jataka, dormant-deception-until-the-avenger-is-ready, patience-as-strategic-restraint]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-parantapa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 416, Parantapa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "In time the young prince grew up and reached the age of sixteen. Then the brahmin made him take a stick, and going with him to the bathing-place opened his eyes and looked. [420] \"Are you not blind, brahmin?\" said the prince. \"I am not, but by this means I have saved my life: do you know who is your father?\""
+canonical-instances:
+  - "A longtime employee who witnessed the founder's ouster keeps a low profile under the regime that replaced him for a full decade, breaking his silence only once the founder's estranged daughter finally holds enough authority to act."
+critical-questions:
+  - "Does waiting years to reveal damning knowledge cost the eventual avenger anything that could never be recovered, even once the revelation finally comes?"
+  - "How does the witness know, in advance, that the designated future agent will actually be capable and willing to act once the moment finally arrives?"
+status: active

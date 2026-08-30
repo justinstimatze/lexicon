@@ -1,0 +1,19 @@
+id: lex-9frsu
+name: unexplained-favor-toward-an-outsider-breeds-suspicion-until-explained
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone in a close relationship shows unexplained, sustained favor toward an outsider, the people around them will tend to infer an illegitimate cause for it rather than assume there's a legitimate one they simply haven't been told — and the suspicion resolves completely, without residue, the moment the actual cause is disclosed. In the Jataka's tale of the lion and the jackal, the lioness watches her mate bring home and permanently house a jackal family, and concludes there must be something improper between them: 'My Lion seems very fond of the Jackal and his mate and young ones. What if there be something wrong between them! That must be the cause why he is so fond of them, I suppose. Well, I will plague her and frighten her, and get her away from this place.' Her suspicion is entirely reasonable given what she knows — sustained, unexplained favoritism toward an outsider is genuinely ambiguous evidence — and it evaporates completely once her mate explains the jackal once saved his life."
+related: []
+evokes: [jataka, dukanipata, guna-jataka, unexplained-favoritism-defaults-to-the-worst-explanation, disclosure-resolves-suspicion-that-argument-cannot]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-guna-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 157, Guna-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "My Lion seems very fond of the Jackal and his mate and young ones. What if there be something wrong between them! That must be the cause why he is so fond of them, I suppose. Well, I will plague her and frighten her, and get her away from this place."
+canonical-instances:
+  - "A team lead quietly gives one contractor extra scheduling flexibility without telling anyone the contractor is covering nights for a hospitalized parent. Resentment builds among teammates who assume favoritism, and it disappears the moment the actual reason comes out."
+critical-questions:
+  - "Is the lioness's suspicion actually irrational, or is it the correct default response to the evidence she had — and if disclosure would have prevented the whole conflict, does the burden fall on the one keeping the reason private rather than on the one who noticed the pattern and drew the obvious inference?"
+  - "Would the suspicion have resolved as cleanly if the disclosed reason had been less sympathetic than a life-debt — does this mechanism depend on the actual cause being one the suspicious party would accept as legitimate once heard?"
+status: active

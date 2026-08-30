@@ -1,0 +1,21 @@
+id: lex-m2wc4
+name: a-deliberately-hard-task-screens-for-the-trait-status-cant-fake
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When you're overwhelmed by candidates who all look qualified on the trait you don't actually care about, wealth, looks, confidence, don't screen on that trait at all -- pose a genuinely hard, unfakeable problem whose only solution requires the trait you actually want, and let the difficulty itself do the screening. In Cushing's telling, a wealthy, beautiful young woman is pursued by every eligible man in the valley for her looks and possessions, neither of which tells her anything about the quality she actually values. So she sets a real problem instead of a beauty contest: 'if any one of you will go to my corn-fields, and destroy or scare away ... the pests that eat up my corn, him I will marry and cherish, for I shall respect his ability and ingenuity.' Every wealthy, handsome suitor fails. An ugly, poor stranger solves it by building an elaborate camouflaged pit-trap, because the test was never about status; it was built specifically to require ingenuity, and he names the difficulty as the whole point rather than a flaw: when told the condition was very hard, the girl replies simply, 'I know it is ... that is why I ask it.' Diagnostic move: when the candidates in front of you all clear an easy bar on the wrong trait, resist relaxing the bar to make a decision faster -- design a genuinely difficult, hard-to-fake task around the trait you actually need, and treat anyone who balks at the difficulty as having already told you what you needed to know."
+related: []
+evokes: [difficulty-itself-is-the-screening-mechanism-for-an-unfakeable-trait, cushing-how-the-corn-pests-were-ensnared, i-shall-respect-his-ability-and-ingenuity, i-know-it-is-that-is-why-i-ask-it]
+lineage:
+  - source: primary
+    text: cushing-girl-sets-a-hard-corn-pest-test-to-screen-for-ingenuity
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'How the Corn-Pests Were Ensnared.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'Look you! if any one of you will go to my corn-fields, and destroy or scare away, so that they will never come back again, the pests that eat up my corn, him I will marry and cherish, for I shall respect his ability and ingenuity. ... she took the young man aside and spoke a few words to him,--in fact, told him what were the conditions of his becoming her accepted husband. He smiled, and said he would certainly try to the best of his ability, but this was a very hard thing she asked. I know it is, said the girl; that is why I ask it.'"
+canonical-instances:
+  - "A hiring manager flooded with polished resumes and confident interview performances that all say the same things stops screening on presentation entirely and instead gives every finalist a real, unsolved problem from the team's actual backlog, treating the candidates who produce a genuinely useful approach as having demonstrated the one thing a resume can't fake."
+  - "An open-source project maintainer overwhelmed by contributors eager for the credit of merged code sets a policy that new contributors must first fix one of the project's hardest, most avoided bugs, correctly predicting that only someone with real skill and patience, not just enthusiasm, will follow through."
+critical-questions:
+  - "Does the difficulty of the task actually correlate with the trait the girl wants, ingenuity, or could a task be hard for reasons unrelated to cleverness, such as raw luck or brute persistence, and still filter out the wrong people for the wrong reason?"
+  - "What happens to suitors who might possess real ingenuity but lack the specific resources the winning young man had, such as knowledge of pit-trap construction -- does a single hard task risk filtering for one narrow skill rather than the broader trait it's meant to represent?"
+  - "Is the girl's test morally different from simply picking a husband for looks or wealth, given that it still reduces a person to whether they pass one designed obstacle -- does designing a harder, more relevant test make the selection more fair, or just differently arbitrary?"
+status: active

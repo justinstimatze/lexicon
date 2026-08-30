@@ -1,0 +1,30 @@
+id: lex-89rjr
+name: goal-state-anchoring
+type-in: question
+type-out: state
+_tier: atomic
+agent-instruction: "When starting work with fuzzy success criteria, pre-commit to the exact done-state: typed signature plus one expected example. Anchoring the goal early lets all subsequent decisions be tested against the anchor; without it, scope slides invisibly."
+related: [lex-ftke9, lex-gx8m2, lex-bpr6b, lex-dvydj, lex-betym, lex-ewafs, lex-nadsx, lex-jy4aq, lex-th6tr, lex-bra5e, lex-ts4qp, lex-v7ceq, lex-y9q22, lex-2m6jq, lex-ykb5a, lex-druv9, lex-w5qfe, lex-6tvr6, lex-zpfv9, lex-kh8gf, lex-kdj8h, lex-5qv7q, lex-c9xba, lex-73wdz, lex-p77e7, lex-y5jm9, lex-m43kg]
+scaffolds-from: [lex-bra5e]
+evokes: [pre-commit-to-done-criteria, write-the-success-spec-before-acting, anchor-target-then-navigate, fix-the-end-state-before-the-path]
+lineage:
+  - source: primary
+    text: polya-1945
+    citation: "George Polya, How to Solve It (Princeton UP 1945; 2nd ed. 1957) — Stage 2 'Devise a plan' (the precondition for work-backwards methods); plus the 'Wisdom of Proverbs' p.222-223 framing of think-on-the-end-before-you-begin as the canonical goal-state-anchoring discipline. Foreword by John H. Conway notes the book has sold over a million copies and Schoenfeld 1987 calls it 'a line of demarcation between two eras, problem solving before and after Polya'"
+    quote: "[Front-matter chart, p.xvi — the Stage-2 framing.] 'Second. Find the connection between the data and the unknown. You may be obliged to consider auxiliary problems if an immediate connection cannot be found. You should obtain eventually a plan of the solution.' [Verified 2026-08-19 against the real OCR text: exact match once de-interleaved. The chart is a two-column table (the short imperative column beside the longer numbered-question column) and the raw extraction interleaves the two columns word-by-word, which is why the checker cannot confirm it as a contiguous span — the underlying words and order are correct.] The very first thing we must do for our problem is to understand it: 'Who understands ill, answers ill.' We must see clearly the end we have to attain: 'Think on the end before you begin.' This is an old piece of advice; 'respice finem' is the saying in Latin. Unfortunately, not everybody heeds such good advice, and people often start speculating, talking, and even acting fussily without having properly understood the aim for which they should work. 'A fool looks to the beginning, a wise man regards the end.' If the end is not clear in our mind, we may easily stray from the problem and drop it. 'A wise man begins in the end, a fool ends in the beginning.' [p.222-223 'Wisdom of Proverbs' — the canonical goal-state-anchoring framing.]"
+  - source: practitioner
+    text: gps-newell-simon-1959
+    citation: "General Problem Solver — explicit goal-state representation as the basis for means-ends analysis"
+  - source: practitioner
+    text: polya-decomposition-pass
+    citation: "promoted from Polya decomposition; cross-attests with goal-attribution (third-person variant — anchoring is first-person; goal-attribution was reserved during early planning but never minted)"
+canonical-instances:
+  - "about to start work with fuzzy success-criteria: PRE-COMMIT to the exact done-state (typed signature + one expected example, sketched test, the user-visible behavior) BEFORE acting"
+  - "before debugging, fix what 'fixed' looks like — without an anchored target you can't tell when to stop"
+  - "distinct from goal-attribution (never minted, reserved during early planning): attribution is recognizing that an actor has a goal; anchoring is fixing your own goal as the navigation target. Distinct from work-backwards (lex-ftke9): anchoring is just NAMING the target; work-backwards traverses from it."
+critical-questions:
+  - "can you state the done-state precisely enough to know if you've reached it? if not, anchoring is theater — you need to first surface what would count"
+  - "is the fuzziness in WHAT done means, or in HOW to get there? anchoring fixes the former. the latter calls for decomposition (lex-ftke9) instead"
+  - "is the goal stable enough to anchor? under radical uncertainty (lex-th6tr), the target is itself a moving variable and anchoring prematurely forecloses options worth keeping"
+  - "what is the cheapest test of having reached the anchored state? if you can't sketch one, the anchor is decorative"
+status: active

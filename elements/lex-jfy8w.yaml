@@ -1,0 +1,33 @@
+id: lex-jfy8w
+name: default-human-disposition-is-decent-not-veneer-over-savagery
+type-in: claim
+type-out: frame
+_tier: atomic
+agent-instruction: "When designing systems, interpreting behavior, or staffing institutions, do not default to 'veneer theory' — the persistent assumption (named by Frans de Waal, popularized by Bregman 2019) that civilization is a thin veneer over savage human nature that cracks at the slightest provocation. Bregman's accumulated empirical case (with caveats — see below): in actual crises (Blitz, Katrina, Tongan boys' real-life Lord-of-the-Flies, post-disaster behavior generally) most people behave PROSOCIALLY; cooperation, not panic-violence, is the modal response. Marshall's WWII rifle-fire data (controversial but persistent finding) suggested most soldiers never fired their weapons at the enemy because of a deep inhibition against killing fellow humans. Transferable design consequence: institutions assuming veneer theory (high-control, high-surveillance, harsh enforcement) often produce WORSE outcomes than institutions assuming default decency — because the latter trust-by-default elicits the trustworthy behavior they assume, while the former erode the prosocial default by signaling 'you are not trusted' and 'cheating is normal here.' Operational diagnostic: when proposing a control measure justified by 'people will defect without it,' ask whether the measure ITSELF SIGNALS expected defection — and whether the same outcome could be achieved by a measure that signals expected cooperation. Caveats per known reception: (a) Bregman is in the user's caveat-authors register (post-2018 Utopia-for-Realists pundit-drift concern); his specific case studies have been challenged in spots (Stanford prison was already debunked elsewhere; Easter Island ecocide narrative is contested). The transferable claim survives those challenges — even strict critics of Bregman accept that veneer theory is empirically weak as a DEFAULT assumption. (b) Veneer theory is sometimes right in specific structural conditions (atrocity-by-ordinary-people, lex-f5pns doubling) — the cardinal distinction is what conditions activate which disposition, not which disposition is 'real.' Both prosocial-default and capacity-for-atrocity are real; veneer theory mis-weights which is structurally more common."
+related: [lex-spm8x, lex-r3w25, lex-z9s5d, lex-n8smn, lex-exczm, lex-f5pns, lex-4ydm6, lex-nb82m, lex-gu8st, lex-cat29, lex-uxqdz, lex-m9arm, lex-ybjru, lex-v64bg, lex-zdqt9, lex-a2g3x]
+evokes: [veneer-theory, bregman-2019-humankind, frans-de-waal-veneer-theory, real-lord-of-the-flies-tonga, blitz-spirit, katrina-mutual-aid, marshall-rifle-fire-data, default-decency, caveat-author-bregman, the-modal-human-is-prosocial, design-for-trust-not-suspicion]
+lineage:
+  - source: primary
+    tradition: bregman-most-people-decent
+    text: bregman-2019-humankind
+    citation: "Rutger Bregman, Humankind: A Hopeful History, trans. Elizabeth Manton and Erica Moore (Little, Brown and Company, 2020), Chapter 1 (A New Realism)."
+    quote: "There is a persistent myth that by their very nature humans are selfish, aggressive and quick to panic. It's what Dutch biologist Frans de Waal likes to call veneer theory: the notion that civilisation is nothing more than a thin veneer that will crack at the merest provocation. In actuality, the opposite is true. It's when crisis hits — when the bombs fall or the floodwaters rise — that we humans become our best selves."
+  - source: primary
+    tradition: bregman-most-people-decent
+    text: bregman-2019-humankind
+    citation: "Rutger Bregman, Humankind: A Hopeful History, trans. Elizabeth Manton and Erica Moore (Little, Brown and Company, 2020), Chapter 1."
+    quote: "The Germans, she said, don't believe in humanity's innate goodness. A member of the Parisian intelligentsia assured me that the French need government's firm hand. And when I toured the United States after the 2016 presidential election, everyone, everywhere, asked me if my head was screwed on straight. Most people are decent? Had I ever turned on a television? […] We are trained to see selfishness everywhere. See someone helping an elderly person cross the street? What a show-off."
+  - source: primary
+    tradition: bregman-most-people-decent
+    text: bregman-2019-humankind
+    citation: "Rutger Bregman, Humankind: A Hopeful History, trans. Elizabeth Manton and Erica Moore (Little, Brown and Company, 2020), Chapter 4 (Colonel Marshall and the Soldiers Who Wouldn't Shoot)."
+    quote: "Marshall […] found a heretofore usually unrealized resistance toward killing a fellow man that he will not of his own volition take life. Most people, he wrote, have a 'fear of aggression' that is a normal part of our 'emotional make-up.'"
+canonical-instances:
+  - "The Blitz (London 1940-1941) — government planners expected mass-panic and psychological collapse; instead the population displayed sustained cooperative behavior even under sustained bombing. Bregman's canonical case."
+  - "Hurricane Katrina 2005 New Orleans — media narrative emphasized looting and violence; the empirical reality (per multiple academic studies after the fact, including Solnit's *A Paradise Built in Hell*) was widespread mutual aid and reduced-not-elevated violent crime."
+  - "The actual 'Lord of the Flies' — six Tongan boys marooned on 'Ata 1965-1966; survived 15 months by cooperation, rotation of duties, conflict-resolution rituals, never reverted to Golding's predicted savagery. Bregman surfaced this case prominently."
+  - "Marshall 1947 *Men Against Fire* — the contested empirical claim that only ~15-25% of WWII US infantry actually fired their weapons in combat, suggesting innate resistance to killing. Even critics granted that some real fire-rate gap existed."
+  - "Institutional design for trust — Buurtzorg (Dutch home-care org with no managers, just self-organized nursing teams) operates on default-trust assumption and outperforms managed competitors on outcome and cost; high-surveillance call centers operating on veneer-theory assumption underperform on quality and turnover."
+  - "Drug-court / restorative-justice programs vs traditional punitive sentencing — assume offender capacity for prosocial behavior; produce lower recidivism than veneer-theory-based incarceration."
+severity-tier: warning
+status: active

@@ -1,0 +1,19 @@
+id: lex-cpb5p
+name: a-high-status-figures-gift-triggers-an-imitative-giving-cascade
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Once a recognized high-status figure makes a public gift to an obscure recipient, other elites often send their own gifts purely because the first gift happened, without independently assessing whether the recipient actually merits it. The original act's scale has nothing to do with the cascade's eventual size. In the Jataka's tale of the fortunate almswoman, a poor old woman happens to host a revered elder for alms. Word spreads, and the king's gift alone triggers a chain: 'As the king did, so did Anatha-pindika ... the lay sister Visakha (a great lady),--all sent the same: other families sent one hundred, two hundred or so, as their means allowed. Thus in a single day the old woman got as much as a hundred thousand pieces of money.' Nobody in the chain evaluated the woman's own merit. Each simply followed the party that came before."
+related: []
+evokes: [jataka, tikanipata, kundaka-kucchi-sindhava-jataka, status-driven-giving-cascades-without-independent-merit-assessment, one-visible-gift-licenses-a-disproportionate-chain]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kundaka-kucchi-sindhava-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 254, Kundaka-kucchi-sindhava-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "As the king did, so did Anatha-pindika, [287] the younger Anatha-pindika, the lay sister Visakha (a great lady),--all sent the same: other families sent one hundred, two hundred or so, as their means allowed. Thus in a single day the old woman got as much as a hundred thousand pieces of money."
+canonical-instances:
+  - "A single well-known investor writes a small check into a little-known founder's company. Within days a string of other investors wire in far larger sums without ever independently reviewing the numbers, purely because that first name was already on the list."
+critical-questions:
+  - "Does anyone in the cascade actually benefit from joining it, or is each participant just protecting their own reputation by not being the one who declined to follow the recognized leader?"
+  - "Would the old woman's outcome have been any different if the first gift had come from someone with no particular standing — does the cascade depend entirely on the status of whoever moves first?"
+status: active

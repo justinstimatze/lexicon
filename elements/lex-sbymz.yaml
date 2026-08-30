@@ -1,0 +1,19 @@
+id: lex-sbymz
+name: uncoordinated-strangers-confirming-the-same-lie-manufactures-certainty
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Repeated confirmation of an implausible claim from multiple seemingly independent, unconnected sources can manufacture false certainty, precisely because each source appears uncoordinated with the others. In the Panchatantra, three rogues plan to steal a Brahman's goat by each separately telling him, one after another, that the animal on his shoulder is actually a dog or a goblin; no single claim would have convinced him, but three strangers with no apparent connection to each other, each independently reporting the same impossible thing, is enough to override his direct physical evidence: 'the Brahman concluded that it was a goblin in quadruped form, threw it on the ground, and made for home, terrified.' The verse generalizes the vulnerability: 'is any man uncheated by new servants' diligence, the praise of guests, the maiden's tears, and roguish eloquence?' The apparent independence of the sources was the entire mechanism — a single liar is a claim to weigh, three unconnected-seeming liars saying the same thing reads as consensus."
+related: []
+evokes: [panchatantra, crows-and-owls, uncoordinated-confirmation-manufactures-false-certainty, apparent-independence-of-sources-is-the-mechanism]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-the-brahmans-goat
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book III, 'The Brahman's Goat.' Verified verbatim against a direct extraction of the held copy."
+    quote: "So the Brahman concluded that it was a goblin in quadruped form, threw it on the ground, and made for home, terrified. Meanwhile, the three rogues met, caught the goat, and carried out their plan."
+canonical-instances:
+  - "a shopper researching a product finds three glowing reviews on three unrelated-looking websites. All three are actually run by the same affiliate marketer under different names. The shopper never learns this, and the apparent consensus outweighs a single skeptical friend's direct, firsthand warning."
+critical-questions:
+  - "Is there a reliable way for the Brahman, in the moment, to check whether the three strangers are actually independent of each other, short of already suspecting a coordinated scheme — or does this vulnerability only become visible in hindsight?"
+  - "Does the number of confirming sources matter in a predictable way — would two strangers have been enough to convince the Brahman, or does the effect only kick in at some threshold of apparent independent agreement?"
+status: active

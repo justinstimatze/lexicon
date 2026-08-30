@@ -1,0 +1,19 @@
+id: lex-qqbdg
+name: staged-unity-rituals-coexist-with-genuine-half-belief
+type-in: situation
+type-out: state
+_tier: atomic
+agent-instruction: "When an organization stages an expensive unity ritual shortly after a divisive event — a 'Family Day' costing a million dollars not long after a purge of hundreds of employees — the participants' response isn't simple cynicism or simple sincerity but an ambivalent half-belief that holds both at once. Even people who can see exactly why the ritual is being staged, and when, still feel some real pull toward the rhetoric of unity it offers. Don't model this as deception successfully landing or failing to land; model it as a genuinely split psychological state where structural awareness of the manipulation and emotional participation in it coexist without resolving into either pure belief or pure detachment."
+related: []
+evokes: [jackall-moral-mazes, "an ambivalent half-belief in the litany of rhetorics of unity", cynical-awareness-and-genuine-pull-coexisting]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch2-family-day-half-belief
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 2, Section III."
+    quote: "not long after the \"big purge\" at Covenant Corporation when 600 people were fired, the CEO spent $1 million for a \"Family Day\" to \"bring everyone together.\" [...] Even battle-scarred veterans evince, at times, an ambivalent half-belief in the litany of rhetorics of unity."
+canonical-instances:
+  - "Employees who openly joke about a company's newly announced 'core values' rebrand, launched weeks after layoffs, still show up early and participate earnestly in the values-launch event."
+critical-questions:
+  - "Is the half-belief a stable feature of how people process staged unity rituals generally, or does it fade over repeated cycles until only the cynicism remains — and if so, what number of repetitions marks that shift?"
+status: active

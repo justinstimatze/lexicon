@@ -1,0 +1,337 @@
+# Rediscovery-set scaffold for composition-recovery-pass-1.
+#
+# Each named model declares (a) the atoms/molecules that
+# *should* fire to recover it, and (b) labeled excerpts where a
+# practitioner-level reader would recognize that named model in
+# operation. The metric pipeline computes, per excerpt, which
+# elements entries fire (binary) and compares against the should-fire
+# truth set.
+#
+# Round-2 expert call: build 30 named models × ~120 excerpts. This
+# scaffold is seeded with 5 named models × 15 excerpts as the
+# proof-of-concept; remaining ~25 named models are listed as TODO
+# templates for the maintainer to fill.
+#
+# When complete, run:
+#   lexicon recovery elements-recovery/rediscovery-set.yaml
+# Outputs: composition-recovery rate per M, per-entry discriminativity,
+# pairwise redundancy.
+
+named_models:
+
+# ---- SEEDED (proof-of-concept) ----
+
+  - id: rm-001
+    name: argument-from-expert-opinion
+    source: walton-reed-macagno-2008-ch3
+    # V20 pass-2 cleanup: dropped lex-af9ax defeasible-presumption — too
+    # general to expect on every expert-opinion excerpt; the gate fires it
+    # on e2 only. Restored if/when excerpts that explicitly raise a
+    # defeater are added.
+    should_fire:
+      - lex-kebfa  # the molecule itself
+      - lex-q9asc  # source-attribution
+      - lex-dm5te  # domain-credibility
+    excerpts:
+      - id: rm-001-e1
+        text: "Dr. Smith, an oncologist with 30 years' experience, says treatment T is effective for cancer C, so we should start it."
+        fired:
+          lex-kebfa: true
+          lex-dm5te: true
+          lex-th68b: true
+        should_fire_in_addition: []
+      - id: rm-001-e2
+        text: "The RFC author explicitly states protocol P does X; presumption is that the spec is correct unless we find an internal contradiction."
+        fired:
+          lex-q9asc: true
+          lex-af9ax: true
+          lex-chp44: true
+        should_fire_in_addition: []
+      - id: rm-001-e3
+        text: "The committee chair has chaired this review board for a decade, so when she says the proposal is sound, it carries weight."
+        fired:
+          lex-4mtpe: true
+          lex-dm5te: true
+          lex-q9asc: true
+        should_fire_in_addition: []
+
+  - id: rm-002
+    name: confirmation-bias-with-identity-protection
+    source: lex-2rsad  # identity-protective-belief-maintenance (origin atom)
+    # V20 pass-2 cleanup: dropped lex-2rsad from should_fire — the molecule-
+    # head doesn't fire when excerpts express constituents (gate returns
+    # lex-rcj6y + lex-vacbr + lex-t9fs7 directly). Restored if/when excerpts
+    # explicitly express the molecule SHAPE (the assembly, not constituents).
+    should_fire:
+      - lex-rcj6y  # motivated-reasoning
+      - lex-vacbr  # identity-protective-cognition
+      - lex-t9fs7  # confirmation-bias
+    excerpts:
+      - id: rm-002-e1
+        text: "I read the headlines I agree with and skip the ones I don't, because the others are obviously biased and don't reflect the real story."
+        fired:
+          lex-t9fs7: true
+          lex-r3w25: true
+          lex-u74ex: true
+        should_fire_in_addition: []
+      - id: rm-002-e2
+        text: "Of course the study showing my political position is wrong has methodological flaws — it would have to."
+        fired:
+          lex-vacbr: true
+          lex-rcj6y: true
+          lex-t9fs7: true
+        should_fire_in_addition: []
+      - id: rm-002-e3
+        text: "The reason we hold these beliefs is because they're right. People who disagree haven't thought it through."
+        fired:
+          lex-rcj6y: true
+          lex-vacbr: true
+          lex-e5des: true
+        should_fire_in_addition: []
+
+  - id: rm-003
+    name: fermi-estimation
+    source: lex-3ydmv
+    # V20 pass-2 cleanup: e3 (billion-seconds) split off to rm-006
+    # order-of-magnitude-approximation — single-step scale comparison
+    # is not the multi-factor decomposition that defines fermi.
+    should_fire:
+      - lex-3ydmv
+      - lex-axa6h  # order-of-magnitude-approximation
+      - lex-ds73b  # dimensional-analysis
+    excerpts:
+      - id: rm-003-e1
+        text: "How many piano tuners in Chicago? Population ~3M, households ~1M, fraction with pianos ~5%, tunings/year ~1, tunings/tuner/year ~1000. So ~50 tuners."
+        fired:
+          lex-3ydmv: true
+          lex-yg484: true
+          lex-eg9zm: true
+        should_fire_in_addition: []
+      - id: rm-003-e2
+        text: "Order of magnitude: solar irradiance is ~1 kW/m², so a 10 m² panel collects ~10 kW peak, ~50 kWh/day, ~18 MWh/year."
+        fired:
+          lex-3ydmv: true
+          lex-axa6h: true
+          lex-ds73b: true
+        should_fire_in_addition: []
+
+  - id: rm-004
+    name: catuskoti-suspended-judgment
+    source: madhyamaka-mmk-13.8
+    # V20 pass-2 cleanup: added lex-x6sbv dualist-reduction-as-cue as
+    # accepted neighbor — dualist-reduction is what tetralemma negates
+    # (4-corner refutation of 2-corner partition; definitionally adjacent).
+    should_fire:
+      - lex-9m3vy  # catuskoti-schema (absorbed lex-0001..0004 in V17 J-followup-A; the suspended-judgment position is canonical-instance #2)
+      - lex-x6sbv  # dualist-reduction-as-cue (definitionally adjacent; lens fires reliably)
+      - lex-nahg9  # upaya (names as useful imprecise vehicles)
+    excerpts:
+      - id: rm-004-e1
+        text: "I won't say the proposal is good, won't say it's bad, won't say it's both, won't say it's neither — I want to look at the actual data first."
+        fired:
+          lex-u74ex: true
+          lex-gfb9k: true
+          lex-9m3vy: true
+        should_fire_in_addition: []
+      - id: rm-004-e2
+        text: "On the question of consciousness in LLMs: assertion overstates, denial overstates, both is incoherent, neither is dismissive — sit with it."
+        fired:
+          lex-68abd: true
+          lex-e2tnt: true
+          lex-e5des: true
+        should_fire_in_addition: []
+      - id: rm-004-e3
+        text: "We're treating 'startup' as a useful but imprecise label here, not as a precise definition of what this entity actually is."
+        fired:
+          lex-nahg9: true
+          lex-68abd: true
+          lex-9ty22: true
+        should_fire_in_addition: []
+
+  - id: rm-005
+    name: gof-decorator-pattern
+    source: gof-1994
+    # V20 pass-2 cleanup: dropped lex-9nj6a/0065/0069 — conceptually
+    # decompose-into decorator but have no surface signal in decorator-
+    # example text (--no-lens --top-k 10 confirms). Added lex-9akfh/0091
+    # as accepted neighbors — gate fires them reliably and they're
+    # semantic neighbors of the wrapping pattern. If we want
+    # 0067/0065/0069 measured, write excerpts that explicitly discuss
+    # the decomposition (e.g., "decorator works because polymorphism...").
+    should_fire:
+      - lex-z8m97  # gof-decorator (the molecule)
+      - lex-9akfh  # decoupling-via-indirection (accepted neighbor; fires reliably)
+      - lex-spk4s  # isolate-component-for-separate-treatment (accepted neighbor; fires reliably)
+    excerpts:
+      - id: rm-005-e1
+        text: "We wrap each handler in a logging decorator that calls the wrapped handler then records the timing — same interface, transparent to callers."
+        fired:
+          lex-z8m97: true
+          lex-9akfh: true
+          lex-spk4s: true
+        should_fire_in_addition: []
+      - id: rm-005-e2
+        text: "Python's @cached_property is a decorator that adds caching behavior to a property accessor without subclassing the host class."
+        fired:
+          lex-z8m97: true
+          lex-9akfh: true
+          lex-c3rr5: true
+        should_fire_in_addition: []
+      - id: rm-005-e3
+        text: "We can stack the auth check, the rate limiter, and the metrics emitter as nested wrappers around the route handler — order matters; outermost runs first."
+        fired:
+          lex-z8m97: true
+          lex-9akfh: true
+          lex-u74ex: true
+        should_fire_in_addition: []
+
+  - id: rm-006
+    name: order-of-magnitude-approximation
+    source: lex-axa6h
+    # V20 pass-2: split out from rm-003 fermi — single-step scale comparison
+    # (no multi-factor decomposition) is order-of-magnitude, not fermi.
+    should_fire:
+      - lex-axa6h  # order-of-magnitude-approximation
+      - lex-ds73b  # dimensional-analysis
+    excerpts:
+      - id: rm-006-e1
+        text: "Roughly: a billion seconds is ~30 years; so a billion of anything that happens once a second is a long-lived process."
+        fired:
+          lex-3ydmv: true
+          lex-ds73b: true
+          lex-axa6h: true
+        should_fire_in_addition: []
+      - id: rm-006-e2
+        text: "Storing one entry per user costs ~100 bytes; 100M users is ~10 GB, fits in RAM on a single machine."
+        fired:
+          lex-89rjr: true
+          lex-4yhqs: true
+          lex-axa6h: true
+        should_fire_in_addition: []
+      - id: rm-006-e3
+        text: "Light takes ~1 ns per foot; signals across a 40-foot rack hop incur a few ns of pure travel — negligible against millisecond-class disk seeks."
+        fired:
+          lex-4yhqs: true
+          lex-axa6h: true
+          lex-ds73b: true
+        should_fire_in_addition: []
+
+  - id: rm-007
+    name: robustness-principle
+    source: lex-22etp
+    # V25 add: tests recovery of postel's-law via interface-asymmetry moves.
+    # Expected fire pattern: lex-22etp directly; lex-gfb9k (via-negativa applied
+    # at output edge); lex-9akfh (alternative decoupling mechanism — Postel vs
+    # indirection-layer).
+    should_fire:
+      - lex-22etp  # postels-law / robustness-principle
+      - lex-gfb9k  # via-negativa (strict-output is via-negativa at the boundary)
+      - lex-9akfh  # decoupling-via-indirection (alternative interface-decoupling)
+    excerpts:
+      - id: rm-007-e1
+        text: "Our HTTP parser accepts lowercase headers, missing trailing CRLF, and slightly malformed Content-Length; but we emit strictly canonical responses. The asymmetry is what keeps us interoperable with messy upstream clients."
+        fired:
+          lex-22etp: true
+          lex-u74ex: true
+          lex-9akfh: true
+        should_fire_in_addition: []
+      - id: rm-007-e2
+        text: "Be precise in what you say and charitable in what you hear — same shape applied to conversation: tight on output, generous on input."
+        fired:
+          lex-e5des: true
+          lex-u74ex: true
+          lex-xhvgy: true
+        should_fire_in_addition: []
+      - id: rm-007-e3
+        text: "The JSON parser-debate split along this axis: strict parsers reject trailing commas; lenient parsers accept them. Public APIs lean lenient because you can't fix every client; internal APIs lean strict because you can."
+        fired:
+          lex-22etp: true
+          lex-jy4aq: true
+          lex-yexax: true
+        should_fire_in_addition: []
+
+  - id: rm-008
+    name: chestertons-fence
+    source: lex-u5869
+    # V25 add: tests recovery of "don't remove a constraint until you know why
+    # it's there" — the institutional-reform / refactor-default move. Expected
+    # fire pattern: lex-u5869 directly; lex-4rx6s (iatrogenics — careless removal
+    # IS the harm-by-intervention); lex-jv983 (fluency-trap — the removal feels
+    # confidently warranted when the original reason isn't visible).
+    should_fire:
+      - lex-u5869  # chestertons-fence
+      - lex-4rx6s  # iatrogenics (careless removal as harm-by-intervention)
+      - lex-jv983  # fluency-trap (removal feels well-warranted)
+    excerpts:
+      - id: rm-008-e1
+        text: "Before we delete this fifteen-year-old check, let's find out who put it there and what bug it was catching. The previous person had reasons we may not be tracking."
+        fired:
+          lex-u5869: true
+          lex-4mtpe: true
+          lex-spk4s: true
+        should_fire_in_addition: []
+      - id: rm-008-e2
+        text: "The org has a policy that looks pointless until you remember the incident two years ago that motivated it. Removing it now is cheap but the second-order cost is paid by whoever rediscovers the original failure."
+        fired:
+          lex-u5869: true
+          lex-m54nv: true
+          lex-4rx6s: true
+        should_fire_in_addition: []
+      - id: rm-008-e3
+        text: "Why is the kitchen wall here? It looks load-bearing. The fact that we don't immediately see the reason is itself a signal to investigate before swinging the sledgehammer."
+        fired:
+          lex-u5869: true
+          lex-zgmyw: true
+          lex-u74ex: true
+        should_fire_in_addition: []
+
+  - id: rm-009
+    name: fluency-trap
+    source: lex-jv983
+    # V25 add: tests recovery of the canonical fluency-trap pattern —
+    # subjective confidence on a poorly-grounded inference because the surface
+    # was easy to process. Expected fire pattern: lex-jv983 directly; lex-gfb9k
+    # (via-negativa — structural mitigation by preferring subtraction-of-claims
+    # to elaboration); lex-wtkuz (descriptive-vs-operational-metacognition — the
+    # fluency-trap is a descriptive-metacognition failure mode that operational
+    # metacognition is meant to catch).
+    should_fire:
+      - lex-jv983  # fluency-trap
+      - lex-gfb9k  # via-negativa (structural prevention by subtraction-bias)
+      - lex-wtkuz  # descriptive-vs-operational-metacognition (the catch)
+    excerpts:
+      - id: rm-009-e1
+        text: "The model's answer reads cleanly and uses the right jargon, so the team approves it; nobody re-derives the underlying calculation. Weeks later the bug surfaces and the derivation never held up."
+        fired:
+          lex-4mtpe: true
+          lex-u74ex: true
+          lex-quu4s: true
+        should_fire_in_addition: []
+      - id: rm-009-e2
+        text: "When an explanation flows easily, I trust it more — even though ease-of-processing is a property of my brain meeting the surface, not of the explanation meeting reality."
+        fired:
+          lex-68abd: true
+          lex-u74ex: true
+          lex-rcj6y: true
+        should_fire_in_addition: []
+      - id: rm-009-e3
+        text: "I caught myself nodding along to a confident-sounding security analysis. Slowing down to ask 'what concrete thing would have to be true for this to hold?' surfaced two unargued steps."
+        fired:
+          lex-u74ex: true
+          lex-rcj6y: true
+          lex-t9fs7: true
+        should_fire_in_addition: []
+
+# ---- TODO templates (maintainer to flesh out) ----
+# Round-2 spec: 30 named models × ~120 excerpts total. 21 more to go after V25.
+# Suggested target source families:
+#   - CBT cognitive distortions (8-10 distinct distortions, each a named model)
+#   - Walton schemes (5-7 beyond expert-opinion)
+#   - Image schemas (5-7: container, source-path-goal, balance, ...)
+#   - Polya problem-solving moves (3-5)
+#   - TRIZ contradiction-resolution variants (2-3)
+#   - Madhyamaka primaries (3-5 beyond catuskoti)
+#   - Cialdini influence levers (3 — already as molecule lex-8c35v)
+#   - GoF patterns (3-5 beyond decorator)
+#   - Hero-journey arc (1, already lex-h7vet)
+#   - S&W relevance theory cluster (lex-xhvgy + supporting; 1-2 models)

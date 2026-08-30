@@ -1,0 +1,27 @@
+id: lex-k2gnb
+name: premature-peer-framing-accelerates-professional-identity-formation
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When you want a trainee to develop the judgment and sense of responsibility of the fully-credentialed role faster than ordinary skill accumulation would produce it, consider deliberately conferring the outward markers of that role — the title, the mode of address, being treated as a near-equal colleague — before the trainee has actually earned it through full mastery. Reader's program made this a matter of explicit policy: address the student as \"Doctor\" and treat him as a junior colleague of the staff physicians, rather than as a student under instruction. The mechanism only works safely because it's paired with a retained accountability floor: the supervising instructor keeps ultimate legal and practical responsibility for the outcome and must countersign every consequential decision, so the trainee gets the motivating experience of real peer-level stakes without the institution actually accepting the risk of unsupervised judgment. The design move has two load-bearing parts, not one — granting status early is what accelerates identity formation, and retaining the sign-off is what makes doing so responsible. Drop the second half and you've just lowered the bar; drop the first half and you've just described ordinary supervised training with no acceleration effect."
+related: [lex-arct8, lex-cnjfd, lex-hng49]
+scaffolds-from: [lex-cnjfd]
+evokes: [reader-1957-cctp, address-the-student-as-doctor, junior-colleague-framing, consultant-to-physician-analogy, earned-titles-conferred-in-advance, scaffolded-autonomy-with-a-retained-signoff, fake-it-till-you-become-it, countersigning-the-chart]
+lineage:
+  - source: primary
+    text: reader-1957-address-as-doctor
+    citation: "George G. Reader, \"The Cornell Comprehensive Care and Teaching Program,\" in Merton, Reader, and Kendall, eds., The Student-Physician (Cambridge: Harvard University Press for The Commonwealth Fund, 1957), p.88."
+    quote: "'In the Comprehensive Care and Teaching Program it is a matter of policy to address the student as \"Doctor\" and to consider him as a junior colleague of the staff physicians.'"
+  - source: primary
+    text: reader-1957-consultant-to-physician-analogy
+    citation: "George G. Reader, \"The Cornell Comprehensive Care and Teaching Program,\" in Merton, Reader, and Kendall, eds., The Student-Physician (Cambridge: Harvard University Press for The Commonwealth Fund, 1957), p.88, quoting the program's own mimeographed instructions to students, \"Course in Comprehensive Medicine.\""
+    quote: "'Relationship of instructor to student will be analogous to that of consultant to physician, although for legal reasons, the instructor must take ultimate responsibility for patient management and must countersign all student notes on the chart.'"
+canonical-instances:
+  - "Surgical residency: a resident is introduced to patients and staff as \"Doctor,\" leads rounds, and makes the first call on management decisions, while the attending's name is the one of record on the chart and the attending must approve every consequential decision."
+  - "Legal pupillage: a first-year associate is put in front of clients as \"counsel\" and drafts the actual filings, while a partner's signature is required before anything is submitted and the partner carries the malpractice exposure."
+  - "Student pilot training: a student is allowed to fly the aircraft and make real-time in-flight decisions from the controls, while a certificated instructor sits ready to intervene and remains the pilot-in-command of record for regulatory and liability purposes."
+critical-questions:
+  - "Is the \"junior colleague\" framing doing real motivational work, or is Reader's claim asserted rather than tested — the essay states it as settled policy without citing the same kind of before-and-after attitude data the program's own evaluation research collected for other questions?"
+  - "At what point does the retained safety net undercut the very autonomy the status-conferral is meant to create — if the trainee comes to see the supervisor's countersignature as a routine rubber stamp rather than genuine oversight, does the peer-framing lose its motivating force, or does it become actively misleading about how much real responsibility the trainee holds?"
+  - "How does this differ from ordinary expectancy-effect literature (Pygmalion-in-the-classroom-style: raised expectations raise performance)? The distinguishing feature here looks like the deliberate pairing of an institutional status grant with a formal accountability backstop, rather than an unstructured interpersonal expectation alone — is that pairing actually doing separate work, or is it just expectancy-effect wearing an institutional costume?"
+status: active

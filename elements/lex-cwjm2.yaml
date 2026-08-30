@@ -1,0 +1,19 @@
+id: lex-cwjm2
+name: a-bigger-draw-fully-evacuates-a-rivals-audience-rather-than-splitting-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Attention isn't always divided proportionally between competing draws. Sometimes it moves as a bloc, leaving one option with zero audience rather than a smaller share of one. In the Jataka's tale of the emptied procession, a young man is used to the entire city turning out in tiered crowds every time he processions between his mansions. The Buddha happens to be preaching nearby on one particular day. His audience drops to zero: 'Usually all the city was in aflutter to see him pass from house to house; circles on circles and tiers above tiers the seats were built; but just then there was nobody but his own followers!' His audience wasn't reduced. It was gone."
+related: []
+evokes: [jataka, tikanipata, maha-panada-jataka, attention-moves-as-a-bloc-rather-than-splitting-proportionally, a-competing-draw-can-leave-zero-audience-not-a-smaller-share]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-maha-panada-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 264, Maha-panada-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Usually all the city was in aflutter to see him pass from house to house; circles on circles and tiers above tiers the seats were built; but just then there was nobody but his own followers!"
+canonical-instances:
+  - "A local shop that reliably draws a steady crowd every weekend finds its storefront completely empty the one Saturday a major new venue opens two blocks away, not because its usual customers split their attention, but because they all went to the new venue at once."
+critical-questions:
+  - "Does this pattern require the competing draw to be genuinely novel or exceptional, or can any sufficiently timed alternative empty an audience regardless of its actual quality?"
+  - "Is a fully evacuated audience actually worse for the original draw than a gradually eroded one, or does the totality of the loss make the cause easier to identify and respond to?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-sk82g
+name: a-desired-deal-can-be-used-to-induce-voluntary-surrender-of-leverage
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When you badly want a deal, check whether the other party is making your own disarmament a precondition of getting it, rather than trying to take your leverage by force. Aesop's 'The Lion in Love' has a farmer set a condition on a lion seeking his daughter's hand: 'I cannot consent to your union unless you let me draw your teeth and pare your nails, for my daughter is terribly afraid of them.' The lion agrees and submits. What happens next needs no strength on the farmer's part at all: 'the Cottager was afraid of him no longer, but drove him away with his club.' Wanting the deal badly enough did the disarming for him."
+related: []
+evokes: [aesop, the-lion-in-love, voluntary-surrender-of-leverage, disarmament-as-a-precondition]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-lion-in-love
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Lion in Love.' Verified verbatim against a direct extraction of the held copy."
+    quote: "I think you will make a very good husband for my daughter: but I cannot consent to your union unless you let me draw your teeth and pare your nails, for my daughter is terribly afraid of them."
+canonical-instances:
+  - "a founder gets diluted out of voting control as a stated condition of a 'friendly' acquisition, then gets ousted once the deal closes and the leverage that could have contested it is already gone."
+critical-questions:
+  - "Could the lion have negotiated the deal without accepting this specific precondition, or does wanting something badly enough always create an opening for the other party to name disarmament as the price of getting it?"
+  - "Is there a way to distinguish, before agreeing, whether a precondition is a genuine requirement for the deal versus a deliberate strip of leverage disguised as one?"
+status: active

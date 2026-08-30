@@ -1,0 +1,80 @@
+id: lex-c7pga
+name: cheap-talk
+type-in: claim
+type-out: posture
+_tier: atomic
+agent-instruction: "When someone makes a claim that costs them nothing to assert, surface that cheap talk has weak signal value — what would the claim cost if false? If nothing, treat as preference revelation at best, not credible commitment."
+related: [lex-q9asc, lex-xrg6e, lex-hfjhy, lex-nqxt9, lex-bdbb5]
+scaffolds-from: [lex-q9asc]
+evokes: [unbacked-assertion, costless-signal, pooling-equilibrium-signal, no-skin-in-the-game-claim]
+lineage:
+  - source: primary
+    text: crawford-sobel-1982
+    citation: "Vincent P. Crawford and Joel Sobel, 'Strategic Information Transmission,' Econometrica 50, no. 6 (Nov. 1982): 1431–1451 — the canonical formal cheap-talk model: sender's message imposes no cost, so signals carry information only when sender's and receiver's preferences are sufficiently aligned. Author-hosted scan (econweb.ucsd.edu/~vcrawfor), no text layer, OCR'd."
+    quote: "'This paper develops a model of strategic communication, in which a better-informed Sender (S) sends a possibly noisy signal to a Receiver (R), who then takes an action that determines the welfare of both.'"
+  - source: primary
+    text: spence-1973
+    citation: "Michael Spence, 'Job Market Signaling,' The Quarterly Journal of Economics 87, no. 3 (Aug. 1973): 355–374 — the contrast partner: costly signals separate types because the cost is type-correlated; cheap-talk assertions don't separate types because anyone can say them."
+    quote: "'It is not difficult to see that a signal will not effectively distinguish one applicant from another, unless the costs of signaling are negatively correlated with productive capability. For if this condition fails to hold, given the offered wage schedule, everyone will invest in the signal in exactly the same way, so that they cannot be distinguished on the basis of the signal.'"
+canonical-instances:
+  - "A vendor's promise of 'best-in-class support' carries no commitment; it costs nothing to say and every vendor says it. Buyers infer no information from its presence."
+  - "An LLM's self-assessment 'I am highly confident' has zero cost to emit — the model emits it on poorly-grounded answers as readily as on well-grounded ones. Cheap-talk; do not update on it."
+  - "Politicians declaring 'we strongly support X' before any roll-call vote — words alone, no commitment-shaped action. Carries no information until the vote."
+severity-tier: warning
+critical-questions:
+  - "what would the claim cost if false? if nothing, name as cheap talk and adjust weight downward"
+  - "is the speaker bearing any reputational stake, and is that stake actually loseable to you?"
+  - "does the cheap-talk content predict behavior (correlated with intent) or just preference (correlated with desire)?"
+  - "is the absence of cost itself the diagnostic — are you in a context where everyone speaks freely because nobody is accountable?"
+status: active
+---
+# cheap-talk
+
+A cognitive move that produces a *posture* of having-asserted-without-cost.
+The asserter emits a claim that imposes no measurable cost (financial,
+reputational, opportunity-of-retreat) on themselves; the recipient
+infers little to no type-information from its presence.
+
+## Distinct from neighbors
+
+- **plausible-deniability** (lex-xrg6e) is about *engineering retractability*
+  — the asserter does commit, but with retreat pre-arranged. Cheap-talk
+  doesn't commit at all; there's no need to engineer retreat because
+  there was no advance.
+- **costly-signal** (mining target, future molecule) is the inverse:
+  the assertion is backed by an action whose cost is type-correlated.
+  Cheap-talk and costly-signal partition the signaling space; the
+  asymmetry between them is the central object of Spence/Crawford-Sobel.
+- **lex-q9asc source-attribution** (claim → frame) tags a claim with
+  provenance metadata. Cheap-talk doesn't preclude attribution; an
+  attributed cheap-talk claim is still cheap-talk if the attribution
+  itself is costless.
+
+## Why it surfaces in the substrate
+
+The cognitive operation isn't "say something cheaply" — speakers do
+that constantly without it being a deception move. The operation is
+*classifying a received claim as cheap-talk* and downgrading inference
+accordingly. The atom captures the receiver-side move: the recognition
+that an emitted signal has no cost-backing, therefore carries no
+type-discrimination.
+
+In Crawford-Sobel's formal model, the only equilibria of cheap-talk
+games are *pooling* (every type emits the same signal) or *partial
+pooling* (types split into intervals where preferences are sufficiently
+aligned). The cognitive primitive is the recognition of this structure
+in the wild.
+
+## Composition notes
+
+Pairs naturally with `lex-q9asc source-attribution` to form the
+recognition-of-unbacked-claim sequence: source-attribution then
+cheap-talk-classification produces the posture of attributed-but-
+unbacked. This 2-atom shape may graduate to a molecule under the
+3-occurrence rule once it shows up in distinct enough domains
+(politics, vendor pitches, LLM self-assessment all already qualify).
+
+The contrast partner `costly-signal` (lex-x6sbv reserved, future
+molecule) shares the input type (claim) but produces the opposite
+posture; the `evokes:` field carries the partnership without
+inflating the substrate.

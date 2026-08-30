@@ -1,0 +1,18 @@
+id: lex-cx67w
+name: sequential-exploitation-of-hospitality-starting-with-least-noticed-victims
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A guest granted access and trust exploits that access in ascending order of consequence and visibility, starting with the least-valued, least-missed members of a household and working up to the more prominent ones, maximizing the window before anyone notices and intervenes. In the Jataka''s tale of Tittira, the wandering ascetic kills the household in exactly this order across a single day: "In such and such a place you will find rice, oil and such like; boil some rice and enjoy yourself," and so saying he went off in quest of his own food. Early in the morning the wretch boiled his rice, and killed and ate the two young lizards, making a dainty dish of them. At midday he killed and ate the learned partridge and the calf, and in the evening no sooner did he see the cow had come home than he killed her too and ate the flesh.'
+related: []
+evokes: [jataka, navanipata, tittira-jataka, betrayed-hospitality, ascending-order-of-victim-visibility]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-tittira-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 438, Tittira-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"In such and such a place you will find rice, oil and such like; boil some rice and enjoy yourself,\" and so saying he went off in quest of his own food. Early in the morning the wretch boiled his rice, and killed and ate the two young lizards, making a dainty dish of them. At midday he killed and ate the learned partridge and the calf, and in the evening no sooner did he see the cow had come home than he killed her too and ate the flesh."
+canonical-instances:
+  - "A contractor given the keys to a family's house while they're away starts by pawning the least-noticed items in the garage, then moves up to jewelry, and finally the television, timing each theft to the point where the family is least likely to check."
+critical-questions:
+  - "Would starting with the most valuable target rather than the least-noticed one actually reduce the total window of exploitation, or does the ascending order genuinely maximize how much damage is done before detection?"
+status: active

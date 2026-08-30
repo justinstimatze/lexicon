@@ -1,0 +1,19 @@
+id: lex-j9z29
+name: repeatedly-demanding-a-friends-most-prized-possession-converts-affection-to-fear
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Repeatedly asking a friend to hand over the single thing they value most doesn't test the friendship — it ends it, because the demand itself, not any refusal, is what makes you unsafe to be around. The friend doesn't need to be angry to leave for good; simply being asked again is reason enough. In the Jataka's tale of the visiting serpent-king, a hermit coached to press his affectionate visitor for his prized jewel finds that the serpent doesn't retaliate. He simply stops coming, permanently, once the visits themselves became a threat to what he had come to protect: 'Importune not a man whose love you prize, For begging makes you hateful in his eyes.'"
+related: []
+evokes: [jataka, tikanipata, mani-kantha-jataka, repeated-demand-for-a-prized-possession-ends-a-relationship, importunity-itself-not-refusal-drives-the-departure]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mani-kantha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 253, Mani-kantha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Importune not a man whose love you prize, For begging makes you hateful in his eyes."
+canonical-instances:
+  - "A friend who repeatedly asks to borrow a colleague's one irreplaceable piece of equipment, even after each loan is returned undamaged, finds the colleague quietly stops answering their calls — not out of anger at any single loan, but because being asked again signals the equipment is no longer safe around them."
+critical-questions:
+  - "Is the serpent's total withdrawal proportionate, or does it overreact to a request that could have simply been refused once without ending the relationship entirely?"
+  - "Does the specific value of what's being demanded matter here, or would any repeated demand for something the friend holds dear produce the same silent departure, regardless of the object?"
+status: active

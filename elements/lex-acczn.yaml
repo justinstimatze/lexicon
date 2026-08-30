@@ -1,0 +1,19 @@
+id: lex-acczn
+name: a-single-channel-verification-check-is-defeated-by-a-matching-decoy
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "A security check that verifies only one sensory or physical channel can be satisfied by a decoy that matches only that specific channel, leaving the actual party free to move through everything else the check never touched. Passing the one thing being checked is not the same as being the person the check was designed to stop. In the Jataka's tale of the guarded princess, a king personally holds his daughter's hand throughout her nightly bathing ritual specifically to prevent her escape. On the planned night, a soft-handed page is swapped in at the exact moment of hand-to-hand contact: 'He loosed off the bangles from her arm, and fastened them on the arm of his page boy; then he lifted the lad, and placed him upon the lotus beside the princess. She took his hand, and placed it in her father's, who took it, and let go his daughter's hand.' The check registers a hand that feels right. It was never built to verify anything beyond that."
+related: []
+evokes: [jataka, tikanipata, mudu-pani-jataka, a-decoy-satisfying-one-verified-channel-defeats-a-single-factor-check, passing-the-check-is-not-the-same-as-being-the-checked-party]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mudu-pani-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 262, Mudu-pani-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "He loosed off the bangles from her arm, and fastened them on the arm of his page boy; then he lifted the lad, and placed him upon the lotus beside the princess. [326] She took his hand, and placed it in her father's, who took it, and let go his daughter's hand."
+canonical-instances:
+  - "A company's identity check for phone-based account changes relies on a customer confirming a memorized security answer. An attacker who has simply looked up that one public answer passes the entire check, because the system verifies nothing about the caller beyond it."
+critical-questions:
+  - "Was there any check the king could have added that a sufficiently prepared conspiracy couldn't also spoof, or does relying on any single verifiable channel always leave this exact vulnerability open?"
+  - "Does the king's failure here reflect a design flaw in the check itself, or an unavoidable limit on what continuous physical verification can ever actually confirm about who is present?"
+status: active

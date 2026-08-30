@@ -1,0 +1,19 @@
+id: lex-sqx7f
+name: identify-the-responsible-parties-before-retaliating
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Before exacting revenge for a wrong, establishing exactly who is responsible narrows the retaliation to the actual culpable individuals rather than lashing out indiscriminately at whoever happens to be nearby. In the Jataka's tale of the mother heron, after her chicks are killed, she doesn't retaliate blindly — she first asks who did it and is told exactly which boys, before planning anything: 'The mother bird came back and missing her young ones, asked who had killed her offspring. They said, \"So and So.\"'"
+related: []
+evokes: [jataka, catukkanipata, kuntani-jataka, naming-the-responsible-party-precedes-retaliation, revenge-scoped-to-the-actually-culpable-not-whoever-is-nearby]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kuntani-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 343, Kuntani-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The mother bird came back and missing her young ones, asked who had killed her offspring. They said, \"So and So.\""
+canonical-instances:
+  - "A manager whose project was sabotaged doesn't confront the whole team at once — they first quietly ask around to identify exactly who made the specific change that caused the damage, before deciding on any response."
+critical-questions:
+  - "Does taking the time to identify the responsible party risk letting the initial shock and clarity of the moment fade, weakening the resolve to act at all?"
+  - "What happens when the informants themselves are unreliable or have their own motives for naming a particular culprit — does this step actually guarantee accuracy, or just the appearance of due diligence before acting?"
+status: active

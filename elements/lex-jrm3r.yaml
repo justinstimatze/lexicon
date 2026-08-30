@@ -1,0 +1,20 @@
+id: lex-jrm3r
+name: the-rescued-turns-on-their-exhausted-rescuer
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "The moment right after a rescue, when the rescuer is spent from the effort and the rescued party is safe and unwatched, is a real vulnerability window — not because gratitude typically fails, but because it's the one moment the rescuer can least defend themselves and the rescued party has both the opportunity and, if hungry or desperate enough, the motive. In the Jataka's tale of the monkey-king, a monkey exhausts himself hauling a starving man out of a ravine, then asks the man to stand watch while he rests. The man's own account narrates the calculation with no self-deception at all: \"While, as I watched, he took a moment's rest, / An ugly thought was harboured in my breast. / 'Monkeys and such like deer are good to eat; / What if I kill him and my hunger cheat?'\" This isn't panic or misjudgment — it's a lucid, opportunistic exploitation of exactly the moment the rescuer is least able to protect himself."
+related: [lex-dbd3m]
+evokes: [jataka, timsanipata, mahakapi-jataka, betrayal-of-an-exhausted-rescuer, opportunistic-attack-on-a-vulnerable-benefactor]
+lineage:
+  - source: primary
+    text: jataka-francis1905-mahakapi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XVI (Timsanipata), No. 516, Mahakapi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "While, as I watched, he took a moment's rest, / An ugly thought was harboured in my breast. / 'Monkeys and such like deer are good to eat; / What if I kill him and my hunger cheat?'"
+canonical-instances:
+  - "A rideshare driver who pulls over to help a stranded motorist change a tire, then turns their back to put the jack away, gets robbed at the exact moment they're least braced for it — not because the motorist panicked, but because the opening was finally there."
+  - "A company that bails out a struggling supplier with an emergency loan, then relaxes its usual contract terms while the deal closes, discovers the supplier used the newly permissive window to quietly renegotiate exclusivity away from them — the generosity itself created the opening."
+critical-questions:
+  - "Is there a way for a rescuer to protect themselves in this specific window without undermining the rescue itself — since standing guard, staying alert, or delaying trust all cost something the rescued party may genuinely need right away?"
+  - "How much of this risk is really about the rescued party's character versus the situation itself — would a different person, in the same hunger and the same unwatched moment, have made the same calculation?"
+status: active

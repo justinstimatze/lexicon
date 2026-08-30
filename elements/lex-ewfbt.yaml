@@ -1,0 +1,19 @@
+id: lex-ewfbt
+name: withhold-known-expertise-until-the-proper-authority-asks
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Someone who genuinely knows an answer can refuse to volunteer it unsolicited, framing unprompted claims of knowledge as a form of boastfulness, and will only answer once the party with actual standing to ask does so directly. This is a deliberate reticence strategy that protects credibility by never appearing to seek an audience. In the Jataka''s tale of Atthasadda, the ascetic states this policy outright: "Young brahmin, how can I go with a horn fastened : on my forehead to say, "I know?" If the king comes here to question me, I will tell him."'
+related: []
+evokes: [jataka, atthanipata, atthasadda-jataka, deliberate-reticence, unsolicited-advice-avoided]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-atthasadda-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 418, Atthasadda-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Young brahmin, how can I go with a horn fastened : on my ...forehead to say, \"I know?\" If the king comes here to question me, I will tell him."
+canonical-instances:
+  - "A retired engineer who spots the exact cause of a public project's cost overruns says nothing to the press and waits until the oversight committee actually calls her to testify, rather than publishing an op-ed no one asked for."
+critical-questions:
+  - "Does withholding unsolicited expertise actually protect credibility, or does it risk letting real, preventable harm continue simply because the proper authority never gets around to asking?"
+  - "What decides whether 'wait to be asked' is prudent restraint versus a convenient excuse to avoid the discomfort of speaking up first?"
+status: active

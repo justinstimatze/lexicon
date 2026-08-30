@@ -1,0 +1,19 @@
+id: lex-2at2v
+name: misattributing-a-personal-timing-failure-to-anothers-character
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Arriving too early or too late to receive something you expected, and getting nothing as a result, can be misread not as your own bad timing but as evidence of a character flaw in the people you approached — the failure gets relocated from the visitor's schedule onto the host's integrity. In the Jataka's tale of the mistimed monk, arriving at two households at the wrong hour and receiving no alms, a monk concludes the families are secretly unbelievers rather than considering his own timing: '\"The brethren here speak of these two families as faithful believers, but both of them really are without faith and unbelievers.\" Thus did he go about abusing these families.'"
+related: []
+evokes: [jataka, catukkanipata, pitha-jataka, a-timing-failure-is-relocated-onto-the-hosts-character, ones-own-bad-luck-reinterpreted-as-anothers-flaw]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-pitha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 337, Pitha-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"The brethren here speak of these two families as faithful believers, but both of them really are without faith and unbelievers.\" Thus did he go about abusing these families."
+canonical-instances:
+  - "A salesperson who shows up to two client offices right after their lunch breaks end and gets brushed off both times concludes the clients are flaky and uninterested in the product, rather than considering that arriving during a predictably bad window explains the reception entirely."
+critical-questions:
+  - "Does the monk have any way to distinguish his own bad timing from an actual pattern of unbelief in these households, or is the misattribution effectively unfalsifiable from his position?"
+  - "Does spreading this misattributed judgment cause real harm to the families' reputation, independent of whether the monk ever corrects the record once the truth comes out?"
+status: active

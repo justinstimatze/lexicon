@@ -1,0 +1,19 @@
+id: lex-hkc66
+name: an-urgent-feeling-drive-can-be-resolved-by-waiting-it-out
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a craving or impulse feels urgent enough to demand immediate action, treat that felt intensity as a fact about the drive rather than as proof of what it requires. Hippocrates' Aphorisms: 'When persons have intense thirst, it is a good thing if they can sleep off the desire of drinking.' The claim puts sleep — inaction, letting time pass, disengaging from the craving — on equal footing with satisfying the drive directly, as a genuine way of resolving it rather than merely deferring it. Some drives are self-limiting and dissolve on their own given enough time. Mistaking their intensity for urgency means acting on a state that would have ended for free."
+related: []
+evokes: [hippocrates, aphorisms, restraint-resolves-urgent-drives, urgency-is-not-evidence-of-necessity]
+lineage:
+  - source: primary
+    text: hippocrates-aphorisms-adams1849-sectionV-27
+    citation: "Hippocrates, Aphorisms, trans. Francis Adams (Sydenham Society, 1849), Section V, §27. Verified verbatim against a direct extraction of the held copy."
+    quote: "When persons have intense thirst, it is a good thing if they can sleep oft' the desire of drinking."
+canonical-instances:
+  - "someone hit by an intense urge to send an angry email waits until morning instead, and by then the urge itself is gone. The delay was the whole fix; there was never a postponed email waiting to be sent."
+critical-questions:
+  - "How does a person tell, in the moment, whether a given drive is the self-limiting kind that dissolves with time or the kind that genuinely needs prompt action — is there any reliable signal available before trying the delay?"
+  - "Does 'sleep it off' as a general strategy create real risk when the underlying need is physiologically genuine? Actual dehydration doesn't dissolve with a delay — it gets worse, and treating it like a passing craving could cause real harm."
+status: active

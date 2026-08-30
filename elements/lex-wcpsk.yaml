@@ -1,0 +1,23 @@
+id: lex-wcpsk
+name: systemic-group-violence-is-tolerated-in-advance-not-individual-deviance
+type-in: claim
+type-out: structure
+_tier: atomic
+agent-instruction: "Recognize this pattern when violence against members of a group is being explained away as the acts of 'extremists, deviants, or the mentally unsound' rather than named as a SYSTEMIC social practice: 'directed at members of a group simply because they are members of that group,' known in advance and tolerated — 'a social given that everyone knows happens and will happen again... always at the horizon of social imagination' — and often going unpunished or lightly punished when it occurs. This is what makes it a matter of INSTITUTIONAL injustice, not mere individual immorality. Xenophobic violence in particular is NOT rationally motivated the way repressive state violence against strikers is; it is motivated by fear and hatred and functions to keep groups subordinate as a side effect rather than by rational design. 'Violence is a form of injustice that a distributive understanding of justice seems ill equipped to capture. This may be why contemporary discussions of justice rarely mention it.'"
+related: [lex-s2uyr, lex-tjr5d]
+scaffolds-from: [lex-tjr5d]
+evokes: [systemic-violence, tolerated-in-advance, xenophobic-vs-repressive-violence, five-faces-of-oppression, iris-marion-young-1990]
+lineage:
+  - source: primary
+    text: young-1990-justice-and-the-politics-of-difference
+    citation: "Iris Marion Young, *Justice and the Politics of Difference* (Princeton, NJ: Princeton University Press, 1990), Chapter 2, 'Five Faces of Oppression,' the violence section (pp. 61-63). One face of a five-part typology (see lex-s2uyr for the full typology and how the five faces relate)."
+    quote: "'Violence is systemic because it is directed at members of a group simply because they are members of that group... The oppression of violence consists not only in direct victimization, but in the daily knowledge shared by all members of oppressed groups that they are liable to violation, solely on account of their group identity... Violence is a social practice. It is a social given that everyone knows happens and will happen again... Group violence approaches legitimacy, moreover, in the sense that it is tolerated... Violence is a form of injustice that a distributive understanding of justice seems ill equipped to capture. This may be why contemporary discussions of justice rarely mention it.'"
+  - source: discovery-loop
+    text: split-from-lex-s2uyr-young-five-faces-of-oppression
+    citation: "Split out of lex-s2uyr (see lex-9z37e's discovery-loop entry for the full split rationale). lex-tjr5d (Galtung, violence-without-an-actor-is-structural) previously named itself 'operationally adjacent' to the undifferentiated lex-s2uyr, supplying the prior, more general recognition that harm without a locatable actor is still violence -- the recognition that is what lets this atom's systemic, no-single-actor form of group violence count as violence at all rather than mere social disadvantage. That adjacency is now a direct scaffolds-from edge to this atom specifically, since Galtung's structural-violence claim and Young's systemic-group-violence claim are the same mechanism observed from two traditions (peace-and-conflict research; feminist/critical political philosophy) rather than merely adjacent ones."
+canonical-instances:
+  - "Group violence's advance-toleration: 'It is a social given that everyone knows happens and will happen again... always at the horizon of social imagination' — a hate crime against a member of a targeted group is treated, before it even happens, as a known and expected risk of belonging to that group, which is precisely what makes the harm systemic rather than a series of unconnected individual acts."
+critical-questions:
+  - "Is this violence being explained as the isolated act of an aberrant individual ('extremists, deviants, or the mentally unsound'), when its real pattern is systemic — known in advance, expected, and tolerated when it occurs?"
+  - "Is the violence rationally motivated toward a specific goal (as with repressive state violence against strikers), or motivated by fear and hatred and functioning to keep a group subordinate as a side effect rather than by design? Young treats these as mechanistically different even when the harm looks similar."
+status: active

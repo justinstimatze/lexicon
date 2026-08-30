@@ -1,0 +1,19 @@
+id: lex-s8zhw
+name: repeated-low-stakes-exposure-converts-an-attitude-that-direct-argument-cannot
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Rather than arguing directly for a belief change, a party can engineer repeated, low-stakes, non-confrontational contact between a resistant target and the desired influence, letting organic, incremental exposure do the persuasive work that direct advocacy could not. The move is not to argue the position but to keep placing the person near it until proximity itself shifts the attitude. In the Jataka's tale of Suvannamiga, a wife doesn't argue her husband into accepting her religious teachers; she simply keeps inviting them to meals until one day she suggests he merely look: 'Sir, the priests constantly come here. Why do you not see them?' On hearing this he said, 'Very well, I will see them.'"
+related: []
+evokes: [jataka, pancanipata, suvannamiga-jataka, gradual-exposure-converts-a-resistant-attitude, proximity-does-the-persuasive-work-argument-cannot]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-suvannamiga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 359, Suvannamiga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Sir, the priests constantly come here. Why do you not see them?\" On hearing this he said, \"Very well, I will see them.\""
+canonical-instances:
+  - "A manager who wants a skeptical engineer to warm up to a new testing framework never argues the case directly; she just keeps scheduling routine, low-stakes demos the engineer happens to be in the room for, until the engineer eventually asks to try it out on a real ticket without ever being persuaded by an argument."
+critical-questions:
+  - "Does the person on the receiving end of this gradual exposure retain real agency over the outcome, or is the technique a form of manipulation dressed up as patience, since the exposure is engineered specifically to produce a predetermined result?"
+  - "Does this approach only work when the target has no strong prior objection, meaning it's a technique for softening indifference rather than one capable of overcoming genuine, reasoned resistance?"
+status: active

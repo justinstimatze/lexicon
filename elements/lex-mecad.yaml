@@ -1,0 +1,19 @@
+id: lex-mecad
+name: removing-an-annoying-regulating-signal-unleashes-the-thing-it-moderated
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When an irritating signal seems to be the source of a problem, check whether it is actually a moderating proxy standing between you and a less constrained version of the real cause. In Aesop's 'The Mistress and Her Servants,' maids who resent being woken by a crowing cock kill it, believing this will let them sleep longer — instead, their mistress, deprived of her own signal for the hour, wakes them earlier and by her own less predictable judgment: 'their Mistress, not hearing the cock crow as usual, waked them up earlier than ever, and set them to work in the middle of the night.' The maids correctly identified the proximate irritant but mistook it for the cause, when it had actually been constraining a harsher, less predictable authority the whole time."
+related: []
+evokes: [aesop, the-mistress-and-her-servants, mistaking-a-proxy-for-the-cause, removing-a-regulating-signal]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-mistress-and-her-servants
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Mistress and Her Servants.' Verified verbatim against a direct extraction of the held copy."
+    quote: "their Mistress, not hearing the cock crow as usual, waked them up earlier than ever, and set them to work in the middle of the night."
+canonical-instances:
+  - "disabling a noisy health-check or alarm because it's annoying, which does nothing to remove the underlying failure mode it was tracking — it only delays detection until the outage the alarm would have caught arrives far worse and unsignaled."
+critical-questions:
+  - "How would the maids have distinguished, in advance, whether the cock was the cause of their early wake-up or merely a proxy moderating a harsher underlying authority — is there a way to test this before acting, or only after?"
+  - "Does this mechanism require the underlying cause to already exist and simply be constrained, or can removing an irritating signal sometimes genuinely remove the problem, with no worse hidden authority behind it?"
+status: active

@@ -1,0 +1,29 @@
+id: lex-f2rjs
+name: fun-rewards-pattern-mastery-and-saturates-with-mastery
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When designing or evaluating activities that should be 'fun' — games, exercises, learning curricula, hobbies, work routines, software interfaces — recognize Koster's 2013 structural claim: fun is the brain's reward signal for mastering a pattern in a context without consequence. The signal tracks the RATE of pattern-mastery, not the absolute skill level. Operational consequences: (1) An activity is fun while the brain is acquiring new chunks (pattern-recognition, motor sequences, strategic insights) and stops being fun once those chunks are fully mastered. This is why mastered games become boring, why competent professionals stop being excited by routine work, why hobbies cycle, why kids stop playing with a toy once they've 'figured it out.' (2) Difficulty calibration must track the learner's current mastery: too easy → no new chunks to acquire → not fun; too hard → can't make progress → frustrating not fun. The fun-window is the zone where chunks are being acquired at a manageable rate. (3) The same activity can be fun for one person and boring for another based on where they are on the mastery curve — a child finding chess deeply fun while a Grandmaster finds the same game routine. (4) Designing for sustained engagement requires either continuously serving new patterns (game difficulty progression, new content, expansion packs, procedural generation) OR accepting that an activity has a natural fun-lifespan and designing for graceful saturation rather than permanent engagement. (5) Compare with Schüll's time-on-device (lex-tcgej): platforms that optimize for engagement without serving new chunks substitute variable-ratio reinforcement (gambling) for genuine fun — addictive without being fun. Transferable beyond games to: pedagogy (good teaching presents patterns at the rate the learner can chunk), software UX (good interfaces have a learning curve that delivers chunks at expected rates), career design (the fun-saturation curve explains career change drives), exercise (variation prevents the saturation that demotivates), and the general design question of how to keep something enjoyable over long timeframes."
+related: [lex-spm8x, lex-n8smn, lex-mthv9, lex-y9q22, lex-5b9gv, lex-smxtw, lex-yrbrz, lex-p48xw, lex-rgr3t, lex-3fzvf, lex-ksqk8, lex-tcgej, lex-jxaht, lex-zuzcf]
+evokes: [koster-2013-theory-of-fun, fun-is-learning, chunking, pattern-mastery, brain-reward-signal, fun-saturation, difficulty-calibration, the-mastery-window, mastered-games-become-boring, why-hobbies-cycle, addictive-vs-fun, the-fun-lifespan]
+lineage:
+  - source: primary
+    tradition: koster-game-design
+    text: koster-2013-theory-of-fun
+    citation: "Raph Koster, Theory of Fun for Game Design (O'Reilly Media, 2nd ed., 2013), Chapter 5 (Why Games Matter)."
+    quote: "To recap the preceding pages: Games aren't stories. Games aren't about beauty or delight. Games aren't about jockeying for social status. They stand, in their own right, as something incredibly valuable. Fun is about learning in a context where there is no pressure from consequence, and that is why games matter."
+  - source: primary
+    tradition: koster-game-design
+    text: koster-2013-theory-of-fun
+    citation: "Raph Koster, Theory of Fun for Game Design (O'Reilly Media, 2nd ed., 2013), Chapter 2 (How the Brain Works)."
+    quote: "Most of them are examples of a concept called 'chunking.' Chunking is something we do all the time. […] You have them developed already, so the brain only rewards you for doing them in the context of a mental challenge. You don't get a high from just typing, you get it from typing while pondering what to say, or from typing during a typing game."
+canonical-instances:
+  - "The familiar arc of a video game — initially exciting as new mechanics are introduced, peaks in mid-game when systems are mastered enough to enable strategic play but not yet routine, falls off at the end when nothing new is being learned."
+  - "A child's relationship with a toy — intense interest while the toy's affordances are being discovered, abandonment once the patterns are fully chunked."
+  - "A teacher's interest in teaching the same course year over year — fun in years 1-3 as classroom-dynamics patterns are being learned; rote by year 10 unless the teacher actively introduces new variables."
+  - "Jazz improvisation across a career — repertoire mastery saturates for tunes the musician has played 1000 times; the fun moves to new tunes, new instrumentalists, new venues — anywhere new patterns can be chunked."
+  - "Software UX with a steep learning curve — first hours and weeks are not fun (no chunks acquired yet); the joy of the tool appears once enough patterns are mastered to use it fluently; eventually saturates and the tool becomes background."
+  - "Career change at midlife — often driven by fun-saturation in a domain where the person has mastered the patterns; the new field offers chunks to acquire even if the absolute skill level is lower."
+  - "The contrast between addictive and fun activities — slot machines (Schüll lex-tcgej) use variable-ratio reinforcement to substitute for genuine pattern-mastery; engagement is sustained but no chunks are acquired, so the experience is addictive without being fun."
+severity-tier: info
+status: active

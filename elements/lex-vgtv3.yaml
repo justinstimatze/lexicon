@@ -1,0 +1,19 @@
+id: lex-vgtv3
+name: a-request-is-sized-by-its-build-up-not-its-content
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone spends an unusually long time working up to a request without ever stating it, a listener will infer the request's magnitude from the length and visible reluctance of the build-up rather than from anything about the request itself — and can badly overestimate what's actually being asked for. In the Jataka's tale of the ascetic's shoes, twelve years pass with the ascetic asking for a private audience and then failing to say anything once he has it — and from that alone, the king concludes the unstated request must be enormous: '\"This priest said, \"I wish to speak in private,\" and when the courtiers are departed, he has not the courage to speak. And while he is longing to do so, twelve years have elapsed. After living a religious life so long, I suspect, he is regretting the world. He is eager to enjoy pleasures and is longing for sovereignty...\"' The actual request turns out to be a pair of sandals."
+related: []
+evokes: [jataka, catukkanipata, brahmadatta-jataka, prolonged-reluctance-inflates-a-listeners-estimate-of-the-ask, the-actual-request-can-be-trivial-compared-to-the-inferred-one]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-brahmadatta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 323, Brahmadatta-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"This priest said, \"I wish to speak in private,\" and when the courtiers are departed, he has not the courage to speak. And while he is longing to do so, twelve years have elapsed. After living a religious life so long, I suspect, he is regretting the world. He is eager to enjoy pleasures and is longing for sovereignty..."
+canonical-instances:
+  - "A junior employee books a hesitant, rescheduled-three-times meeting with HR, and by the time it finally happens, the whole department has quietly speculated it must be about a lawsuit or a resignation — when the actual issue turns out to be a request to adjust their parking assignment."
+critical-questions:
+  - "Does the king's overestimate actually cost anyone anything here, since he ends up offering more generosity than the ascetic wanted anyway — is inflated inference always harmful, or can it sometimes produce a better outcome than accurately sizing the request would have?"
+  - "Is there a way to signal 'this is a small ask that I'm just anxious about' without the anxiety itself being read as evidence of scale, or does visible reluctance inherently communicate magnitude regardless of intent?"
+status: active

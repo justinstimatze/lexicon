@@ -1,0 +1,22 @@
+id: lex-7s23n
+name: a-reversibility-test-exposes-a-one-directional-offered-role
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "A person can offer another an ostensibly elevated treatment -- being worshipped, waited on, protected -- framed as a gift or a benefit for the recipient. The recipient can test the genuineness of the claim by asking whether the offerer would actually want to receive the identical treatment themselves. When the offerer would not want to be on the receiving end of what they're offering, that refusal exposes the arrangement as a one-directional role dressed up as a mutual benefit, not a treatment either party would actually choose if the positions were reversed. Gilman states this exchange directly: '\"Don't be so literal,\" Terry begged lazily. \"Why aren't you willing to be worshipped and waited on? We like to do it.\" \"You don't like to have us do it to you,\" she answered.'"
+related: []
+evokes: [herland, chapter-8, why-arent-you-willing-to-be-worshipped-and-waited-on, you-dont-like-to-have-us-do-it-to-you, reversal-exposes-a-one-directional-role]
+lineage:
+  - source: primary
+    text: gilman-1915-herland-chapter-8
+    citation: "Charlotte Perkins Gilman, Herland (1915), Chapter 8, 'The Girls of Herland.' Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "\"Does it work?\" asked Alima, in her keen, swift way. \"Do all men in all countries carry everything? Or is it only in yours?\" \"Don't be so literal,\" Terry begged lazily. \"Why aren't you willing to be worshipped and waited on? We like to do it.\" \"You don't like to have us do it to you,\" she answered."
+canonical-instances:
+  - "A manager who insists on personally reviewing and approving every decision their team makes, framing it as protecting the team from mistakes, is asked whether they'd want their own boss reviewing and approving every decision they make -- and their immediate discomfort at the idea exposes the arrangement as control rather than the stated protection."
+  - "A parent who insists on choosing every outfit their teenager wears, framing it as caring for their child's image, is asked whether they'd want someone else choosing their own outfits every morning -- and their refusal reveals the arrangement isn't actually about care but about control they wouldn't accept in the other direction."
+  - "A company that requires customer support staff to always defer to managers for any refund decision, framing it as protecting customers from staff error, sees the policy questioned when someone asks whether managers would accept the same deference being required of them by their own superiors for every decision they make."
+critical-questions:
+  - "Is the reversal test always fair -- could there be genuine asymmetries (age, expertise, vulnerability) where it makes sense for one party to receive a treatment the other party legitimately wouldn't need or want in return, without that asymmetry being evidence of exploitation?"
+  - "Does the offerer's refusal to accept the reversed treatment always mean the original offer was insincere or self-serving, or could someone genuinely prefer giving a kind of care they wouldn't personally want to receive, without that preference being suspect?"
+  - "Once the reversal exposes the one-directional nature of the arrangement, does naming it actually change the offerer's behavior, or can the arrangement persist unchanged even after both parties acknowledge it isn't mutual?"
+status: active

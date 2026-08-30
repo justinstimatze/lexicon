@@ -1,0 +1,19 @@
+id: lex-2spdm
+name: a-credible-threat-of-self-harm-strips-a-coercers-leverage
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When someone threatens violence against a third party to get what they want from you, declaring your own credible willingness to inflict a worse cost on yourself can remove the entire payoff the coercer was counting on. The threat isn't answered with a counter-threat against the coercer. It's answered by making the coercer's planned outcome impossible to achieve. In the Jataka's tale of the captured wife, robbers seize a merchant and his wife, and the chief plans to kill the husband to take the wife. She stops him by declaring she'll take her own life regardless of what he does: 'My lord, if you kill my husband for love of me, I will take poison, or stop my breath, and kill myself too! With you I will not go. Do not kill my husband uselessly!' Killing the husband no longer gets the chief anything. The wife removed the prize before he could take it."
+related: []
+evokes: [jataka, tikanipata, kakkata-jataka, declaring-self-harm-removes-a-coercers-entire-payoff, a-hostage-negotiating-with-their-own-life-as-the-only-leverage-they-have]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kakkata-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 267, Kakkata-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "My lord, if you kill my husband for love of me, I will take poison, or stop my breath, and kill myself too! With you I will not go. Do not kill my husband uselessly!"
+canonical-instances:
+  - "An employee being pressured by a manager to falsify a report under threat of a colleague's firing states plainly that they will resign and report the pressure publicly regardless of what happens to the colleague, removing any benefit the manager could gain from following through on the original threat."
+critical-questions:
+  - "Does this tactic depend entirely on the coercer believing the threat is genuine? What happens to whoever tries it against someone willing to call the bluff?"
+  - "Is there a meaningful difference between this and simple desperation, or does naming the self-harm explicitly as a response to the coercer's specific plan make it a deliberate strategic move rather than a threat made in panic?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-93q68
+name: one-betrayal-gets-generalized-into-an-entire-class
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: 'A single instance of mistreatment can be immediately generalized into a sweeping claim about an entire category of people, and that generalization treated as sufficient justification for a total life-course reversal — the emotional salience of the one vivid event overriding the base rate built up over a long prior relationship. In the Jataka''s tale of Atthana, the merchant''s son does exactly this after one betrayal by a courtesan he''d supported for years: "He thought, "I have spent on her eighty crores of money; yet on the one day when I come empty-handed, she has me seized by the neck and cast out: Oh, womankind are wicked, shameless, ungrateful, treacherous:" and so he pondered and pondered on the bad qualities of womankin4d, till he felt dislike and disgust, and became discontented with a layman''s life."'
+related: [lex-jznmv]
+evokes: [jataka, atthanipata, atthana-jataka, hasty-generalization, vivid-instance-overrides-base-rate]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-atthana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 425, Atthana-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "He thought, \"I have spent on her eighty crores of money; yet on the one day when I come empty-handed, she has me seized by the neck and cast out: Oh, womankind are wicked, shameless, ungrateful, treacherous:\" and so he pondered and pondered on the bad qualities of womankin4d, till he felt dislike and disgust, and became discontented with a layman's life."
+canonical-instances:
+  - "After one investor pulls out at the last minute, a founder who has closed a dozen smooth funding rounds with a dozen other investors starts telling every new pitch meeting that 'investors always bail when you need them most,' generalizing from the one loud betrayal rather than the eleven quiet successes."
+critical-questions:
+  - "What would it take for the merchant's son to notice that eighty crores of prior good treatment is a larger sample than the one betrayal he's generalizing from?"
+  - "Does the intensity of the one betrayal make it more informative about the category, or only more memorable — and how would someone tell those apart from the inside?"
+status: active

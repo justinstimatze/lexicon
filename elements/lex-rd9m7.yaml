@@ -1,0 +1,19 @@
+id: lex-rd9m7
+name: autonomy-without-a-defender-can-be-worse-than-dependency-with-one
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When comparing an independent position to a dependent one, ask a sharper question than which is safer on its face: does the independent party simply lack anyone with a protective stake in defending it? Aesop's 'The Pack-Ass, the Wild Ass, and the Lion' has a lion attack the free wild ass while sparing the burdened pack-ass, whose owner has reason to intervene. The fable's own moral names the mechanism directly: 'It is no use being your own master unless you can stand up for yourself.' What decides the outcome is the predator's incentive structure, with no judgment about freedom's value required. The wild ass draws the attack for want of a defender; the pack-ass survives because someone else's investment makes attacking it expensive."
+related: []
+evokes: [aesop, the-pack-ass-the-wild-ass-and-the-lion, autonomy-without-a-defender, predators-incentive-structure]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-pack-ass-the-wild-ass-and-the-lion
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Pack-Ass, the Wild Ass, and the Lion.' Verified verbatim against a direct extraction of the held copy."
+    quote: "It is no use being your own master unless you can stand up for yourself."
+canonical-instances:
+  - "a gig-economy freelancer with no institutional backing is more exposed to exploitation than a formally employed worker, whose employer has its own reasons to defend that worker's position."
+critical-questions:
+  - "Does this argument favor dependency categorically, or does it only apply when the independent party genuinely cannot defend themselves — would a wild ass capable of real self-defense escape the same targeting?"
+  - "What happens when the protecting party's own interest shifts — does the pack-ass's safety hold only as long as its owner's investment in it remains intact, making the protection just as conditional as the freedom it replaces?"
+status: active

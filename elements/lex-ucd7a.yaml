@@ -1,0 +1,19 @@
+id: lex-ucd7a
+name: inventing-kinship-to-defuse-a-predator
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Facing a predatory threat, a target can try verbal appeasement instead of fighting, opening with an invented familial claim and warm greetings from an invented relative, attempting to reframe a predator-prey encounter as a relationship carrying obligations of kinship — targeting the predator''s social categories rather than its hunger. In the Jataka''s tale of Dipi, the she-goat tries exactly this the second time she meets a panther: "How fares it with you, uncle? and is it well with you? My mother sends her kind regards: and I''m your friend so true."'
+related: [lex-pm7yz]
+evokes: [jataka, atthanipata, dipi-jataka, ingratiation, fictive-kinship-as-appeasement]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dipi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 426, Dipi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "How fares it with you, uncle? and is it well with you? My mother sends her kind regards: and I'm your friend so true."
+canonical-instances:
+  - "Cornered by an aggressive new landlord known for evicting tenants on any pretext, a renter opens the conversation by claiming a mutual family friend and passing along warm regards from him, hoping the fabricated social tie will do what a direct appeal to fairness could not."
+critical-questions:
+  - "The tactic only makes sense against a predator with some real chance of being moved by a social appeal. What tells the target, in the moment, whether this predator is that kind or not?"
+  - "What does the she-goat lose, compared to the fight she chose the first time, by leading with appeasement instead — does the choice of tactic itself signal weakness that invites further aggression?"
+status: active

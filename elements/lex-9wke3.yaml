@@ -1,0 +1,19 @@
+id: lex-9wke3
+name: strip-the-captives-held-plunder-before-dealing-with-the-captive
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Before killing or consuming a captured target, a captor can first force the target to surrender whatever it is holding, separating the object of value from its holder as a distinct step before dealing with the holder itself. In the Jataka''s tale of Kotisimbali, the roc does exactly this to the snake-king he seizes: "he seized by the tail a king of snakes a thousand fathoms long, and making the snake disgorge what he had seized in his mouth, he flew along the tree tops towards the cotton-tree."'
+related: []
+evokes: [jataka, sattanipata, kotisimbali-jataka, separate-the-plunder-from-the-holder, secure-the-object-before-the-captive]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kotisimbali-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 412, Kotisimbali-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "he seized by the tail a king of snakes a thousand fathoms long, and making the snake disgorge what he had seized in his mouth, he flew along the tree tops towards the cotton-tree."
+canonical-instances:
+  - "When investigators catch a courier carrying stolen data on a drive, the first move is recovering the drive itself before anything else proceeds against the courier, treating the object and the person as two separate problems to be handled in a fixed order."
+critical-questions:
+  - "Is there a risk in this sequencing — could a captive use the moment before the plunder is secured to destroy it, or otherwise turn the delay to their advantage?"
+  - "Does separating the object from the holder change what happens to the holder afterward, or is that decision entirely independent of whether the plunder was recovered first?"
+status: active

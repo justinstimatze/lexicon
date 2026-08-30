@@ -1,0 +1,19 @@
+id: lex-g8fsj
+name: surface-resemblance-to-a-safe-category-invites-a-fatal-misclassification
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "An unfamiliar thing that closely resembles a known-safe category by appearance, smell, and taste can be trusted right up to the point of catastrophe, unless someone imposes a verification step before acting on the resemblance. In the Jataka's tale of the poisonous fruit, a tree bearing lethal fruit looks, smells, and tastes exactly like a familiar mango. Those who eat immediately, trusting the resemblance, die; those who first check with the caravan leader before eating survive. The fruit gave no honest signal distinguishing it from the safe category it resembled — the only thing that separated the living from the dead was whether they treated resemblance as sufficient evidence or paused to verify first."
+related: []
+evokes: [jataka, ekanipata, kimpakka-jataka, resemblance-to-a-safe-category-invites-misclassification, verification-before-acting-on-resemblance]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kimpakka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 85, Kimpakka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"In this forest grow trees that bear poisonous fruit. Let no man eat any unfamiliar fruit without first asking me.\""
+canonical-instances:
+  - "A new open-source package on a registry uses a name, icon, and description nearly identical to a widely trusted library, and developers who install it without checking the publisher first pull in malicious code indistinguishable from the real thing at a glance."
+critical-questions:
+  - "Does requiring verification for every unfamiliar-but-resembling case impose a cost high enough that most groups would rather accept the occasional catastrophic loss than pay it every time?"
+  - "Is there a way to distinguish a resemblance that's coincidental from one that's been deliberately engineered to mislead, or does the verification step have to apply uniformly regardless of which kind it is?"
+status: active

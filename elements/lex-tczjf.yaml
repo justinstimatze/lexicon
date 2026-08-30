@@ -1,0 +1,19 @@
+id: lex-tczjf
+name: nearness-to-an-enemy-compounds-risk-independent-of-current-calm
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A stated general moral holds that nearness to an enemy compounds risk over time regardless of any specific active provocation right now, so prudence dictates distance even absent immediate threat. In the Jataka''s tale of Kapi, the moral is given directly: "Let not the wise man dwell where dwells his foe: One night, two nights, so near will bring him woe."'
+related: []
+evokes: [jataka, sattanipata, kapi-jataka, proximity-to-enemy-compounds-risk, prudence-favors-distance-over-current-calm]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kapi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 404, Kapi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Let not the wise man dwell where dwells his foe: One night, two nights, so near will bring him woe."
+canonical-instances:
+  - "A company keeps a former hostile acquirer at arm's length in every joint venture negotiation, even years after relations have appeared to cool, on the reasoning that ongoing proximity to a onetime aggressor carries risk that no amount of current calm can retire."
+critical-questions:
+  - "Does treating proximity itself as inherently risky foreclose ever repairing a relationship, since the caution never gets a chance to be tested against evidence that the danger has genuinely passed?"
+  - "How long does 'one night, two nights' actually compound before the risk from proximity outweighs whatever benefit staying close was providing in the first place?"
+status: active

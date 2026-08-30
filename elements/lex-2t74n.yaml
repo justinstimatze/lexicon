@@ -1,0 +1,19 @@
+id: lex-2t74n
+name: repeated-correction-is-a-firing-process-that-proves-a-person-can-hold
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'Repeated chiding or correction of people can be justified by analogy to a potter who discards raw, unfired clay and keeps only vessels that have been fired and proven stable — premature abandonment of correction never yields a person who has actually been tested. In the Jataka''s tale of Gandhara, this is offered directly: "as a potter among his vessels, after beating them often, takes not the raw clay, but takes the baked vessel only, so preaching and chiding again and again he takes a man like a good vessel."'
+related: []
+evokes: [jataka, sattanipata, gandhara-jataka, correction-as-firing-process, repeated-testing-proves-stability]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-gandhara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 406, Gandhara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "as a potter among his vessels, after beating them often, takes not the raw clay, but takes the baked vessel only, so preaching and chiding again and again he takes a man like a good vessel"
+canonical-instances:
+  - "A head coach keeps correcting the same rookie's footwork drill after drill long after teammates would have given up on him, reasoning that only repeated testing under criticism reveals whether the player can actually hold up, not a single tryout."
+critical-questions:
+  - "How does anyone distinguish repeated correction that's genuinely firing someone into stability from correction that's simply wearing them down without producing any improvement?"
+  - "Does the potter analogy assume the clay wants to become a vessel — what does this justification miss about a person who never consented to being fired in the first place?"
+status: active

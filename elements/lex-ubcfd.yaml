@@ -1,0 +1,20 @@
+id: lex-ubcfd
+name: change-the-venue-when-the-argument-keeps-losing
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When the same argument keeps losing in the same venue, the fix is not always a better argument -- the venue itself determines which considerations carry weight and which actors hold leverage, and changing it can succeed where refining the case cannot. Environmental groups spent years failing to convince state legislatures to require deposits on bottles and cans, unable to get past industry lobbying and jobs-and-economics framing. Rather than sharpen the argument further, they moved it to a different forum entirely: a direct ballot initiative, letting voters decide instead of legislators. The underlying case was unchanged. What changed was which arguments could actually land -- industry lobbying has far less purchase on a mass electorate than on a small legislature -- and the measure passed in states where it had failed for years in the statehouse. Before concluding an argument is simply weak, check whether it's losing because of its content or because of the room it's being made in."
+related: []
+evokes: [freeman-1984-strategic-management, chapter-5, change-the-decision-forum, bottle-bill, ballot-initiative]
+lineage:
+  - source: primary
+    text: freeman-1984-strategic-management-ch5
+    citation: "R. Edward Freeman, Strategic Management: A Stakeholder Approach (Pitman, 1984), Chapter 5 'Formulating Strategies for Stakeholders,' section '\"Change the Rules\" Programs.'"
+    quote: "Environmental groups successfully used a 'change the rules strategy' with beverage industry companies in recent battles over 'bottle bills.' In 1976, proponents of enacting legislation to require deposits on soft drink and beer containers were frustrated by their inability to convince state legislatures of the merits of their point of view. Instead, they adopted a program to change the decision forum, and placed measures requiring deposits on the ballot to be voted on by the voters in Maine, Michigan, Massachusetts and Colorado. Changing the forum caught the industry off-guard, and their response was to argue as if the fight was still in the state legislature -- emphasizing jobs and economics rather than litter and a clean environment. The bills passed in Maine and Michigan, and lost narrowly in Massachusetts (and subsequently passed)."
+canonical-instances:
+  - "A tenant advocacy group loses repeated attempts to pass rent-stabilization rules through a city council dominated by landlord-aligned donors, then shifts the same proposal to a countywide ballot measure, where the deciding audience is renters directly rather than council members whose campaigns landlords fund."
+  - "An open-source maintainer fails for years to get a security fix prioritized through a vendor's private bug-tracker triage process, then discloses the same technical case publicly at a conference, where the argument that couldn't move an internal queue moves a company that suddenly has to answer to its own customers."
+critical-questions:
+  - "Does changing the venue actually improve the argument's chances, or does it just find a venue whose biases happen to favor this particular case -- is the tactic principled or is it venue-shopping dressed up as strategy?"
+  - "What made the beverage industry's response ineffective -- did they genuinely fail to adapt their argument to the new audience, or was the ballot-initiative venue simply unwinnable for them regardless of framing, meaning the forum change alone would have been decisive either way?"
+status: active

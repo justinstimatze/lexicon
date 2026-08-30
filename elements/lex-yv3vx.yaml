@@ -1,0 +1,18 @@
+id: lex-yv3vx
+name: countering-a-domain-native-threat-requires-a-domain-native-actor
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When a threat operates by rules specific to its own domain — a con artist's tells, a smuggler's routes, a hacker's exploits — someone fluent in those rules is often the only reliable counter, because the knowledge required to detect the move is the same knowledge required to make it. This is why institutions reach for reformed insiders rather than pure outsiders when a threat is domain-native: the outsider's honesty doesn't compensate for not knowing the terrain."
+related: []
+evokes: [galef, kotowaza, japanese-proverbs, set-a-thief-to-catch-a-thief, insider-knowledge-as-the-only-counter]
+lineage:
+  - source: primary
+    text: galef-1987-even-monkeys-fall-from-trees
+    citation: "David Galef (compiler and translator), *Even Monkeys Fall From Trees: And Other Japanese Proverbs*, illustrations by Jun Hashimoto, foreword by Edward G. Seidensticker (Tuttle Publishing, copyright 1987; ebook ISBN 978-1-4629-0318-4), Proverb No. 8. Verified verbatim against a direct extraction of the held copy."
+    quote: "Ja no michi wa hebi. Snakes follow the way of serpents."
+canonical-instances:
+  - "A bank hires a former fraud artist to design its anti-fraud controls, because the specific tells that flag a fraudulent transaction are only visible to someone who has run the scheme from the other side."
+critical-questions:
+  - "Does the domain-native actor's insider knowledge come with a competing loyalty or a residual sympathy for the threat's own kind, and has that risk been weighed against the value of their expertise?"
+status: active

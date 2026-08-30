@@ -1,0 +1,19 @@
+id: lex-gw5sc
+name: a-disguise-inherits-the-risks-native-to-the-identity-it-assumes
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When adopting a disguise to evade one specific threat, check what other risks come bundled with the identity you're assuming, since a costume defends only against the threat model it was designed for. In Aesop's 'The Wolf in Sheep's Clothing,' a wolf disguises itself to move undetected among a flock, evading the shepherd's predator-detection entirely — and is killed anyway when the shepherd, wanting mutton for dinner, 'laid hands on the Wolf in mistake for a Sheep, and killed him with his knife on the spot.' The wolf modeled the shepherd as a threat only in his role as guardian against wolves; he never modeled the shepherd's separate role as a consumer of sheep, which is the exact risk his disguise stepped into."
+related: []
+evokes: [aesop, the-wolf-in-sheeps-clothing, disguise-inherits-assumed-risk, incomplete-threat-model]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-wolf-in-sheeps-clothing
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Wolf in Sheep's Clothing.' Verified verbatim against a direct extraction of the held copy."
+    quote: "But that very night as it happened, the shepherd, requiring a supply of mutton for the table, laid hands on the Wolf in mistake for a Sheep, and killed him with his knife on the spot."
+canonical-instances:
+  - "an executive who goes undercover as a line employee to observe morale gets caught in a layoff round that targets that job category generally — not because the cover was blown, but because the assumed identity carried its own independent hazard the executive never modeled."
+critical-questions:
+  - "Is there a way to survey the full set of risks attached to an assumed identity before adopting it, or does the wolf's mistake only become visible in hindsight, once a hazard specific to the disguise materializes?"
+  - "Does this mechanism only apply to disguises assumed to evade a specific threat, or does any change of apparent category (a new job title, a new market segment) carry the same risk of inheriting hazards nobody intended to take on?"
+status: active

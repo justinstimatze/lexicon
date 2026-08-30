@@ -1,0 +1,19 @@
+id: lex-f844p
+name: a-convenient-coincidence-gets-promoted-to-proof-of-causation
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A temporal coincidence — an event that happens to follow a change someone already wanted to believe was consequential — gets asserted as proof of a causal, near-magical relationship, then used to retroactively justify cruelty that had no real justification to begin with. In the Jataka''s tale of Kaccani, the daughter-in-law treats her own conception, which merely followed her mother-in-law''s expulsion, as proof the older woman was cursing the household: "After she left, her daughter-in-law conceived a child, and went about saying to her husband and the neighbours that such a thing could never have happened as long as the old witch was in the house. After the child was born, she said to her husband, "I never had a son while your mother stayed in the house, but now I have: so you can see what a witch she was.""'
+related: []
+evokes: [jataka, atthanipata, kaccani-jataka, post-hoc-ergo-propter-hoc, convenient-causal-story]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kaccani-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 417, Kaccani-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "After she left, her daughter-in-law conceived a child, and went about saying to her husband and the neighbours that such a thing could never have happened as long as the old witch was in the house. After the child was born, she said to her husband, \"I never had a son while your mother stayed in the house, but now I have: so you can see what a witch she was.\""
+canonical-instances:
+  - "Sales pick up the same quarter a company fires its most skeptical analyst. Leadership skips any check of what else changed that quarter and points straight to the numbers as vindication."
+critical-questions:
+  - "What base rate of the outcome occurring anyway, with no causal link at all, would make this coincidence unremarkable rather than damning?"
+  - "The causal story serves someone's prior interest — whose, and did that interest exist before the coincidence supposedly proving it?"
+status: active

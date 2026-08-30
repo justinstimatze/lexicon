@@ -1,0 +1,19 @@
+id: lex-n72z2
+name: peers-wait-for-a-recognized-superior-to-enter-first-then-follow-instantly
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A group can refuse to act, not from fear of the action itself, but because a recognized superior individual hasn't gone first — and the instant that individual moves, the entire group follows without hesitation, as though the superior's action itself were the missing permission. In the Jataka's tale of the reluctant horses, five hundred horses refuse to enter a lodging house because they scent a higher-status foal already inside: 'the horses scented this highbred foal, that fed on red rice-powder, and not one of them would enter the place.' The moment that foal moves into its own stable, every other horse follows immediately. Nothing about the building itself had changed. Only the presence of the one they were waiting on."
+related: []
+evokes: [jataka, tikanipata, kundaka-kucchi-sindhava-jataka, a-recognized-superiors-action-functions-as-a-permission-signal, group-inaction-dissolves-instantly-once-the-superior-moves]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kundaka-kucchi-sindhava-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 254, Kundaka-kucchi-sindhava-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "But the horses scented this highbred foal, that fed on red rice-powder, and not one of them would enter the place."
+canonical-instances:
+  - "A room full of engineers hesitates to adopt a new tool nobody has tried in production, and the moment the most senior engineer on the team quietly starts using it themselves, every other engineer switches over within the week, with no new information about the tool having changed hands."
+critical-questions:
+  - "Is the group actually deferring to the superior's judgment about safety, or merely to their status, since nothing about the building was inspected or explained before the horses finally entered?"
+  - "What happens when no recognized superior is present to break the deadlock — does the group simply never enter, or does some other signal eventually substitute for the missing permission?"
+status: active

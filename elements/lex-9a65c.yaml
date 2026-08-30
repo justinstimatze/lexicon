@@ -1,0 +1,19 @@
+id: lex-9a65c
+name: sabotaging-exported-copies-prevents-a-rivals-replication
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A party who benefits from a unique advantage can give away the outward product of that advantage and still look generous, if the gift covertly disables the recipient's ability to reproduce it. In the Jataka's tale of king Dadhi-vahana's mango tree, he sends the prized golden mangoes as gifts to rival kings, but first: 'King Dadhi-vahana, before sending presents of these mangoes to other kings... used to prick with a thorn that place in the stone where the sprout would come from, for fear of their growing the like by planting it.' The gift looks unrestricted and the recipients never suspect otherwise — they simply find, without explanation, that the seed they plant never takes root."
+related: []
+evokes: [jataka, dukanipata, dadhi-vahana-jataka, covertly-disabling-an-exported-products-reproducibility, an-apparently-generous-gift-conceals-a-deliberate-limitation]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dadhi-vahana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 186, Dadhi-vahana-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "King Dadhi-vahana, before sending presents of these mangoes to other kings... used to prick with a thorn that place in the stone where the sprout would come from, for fear of their growing the like by planting it."
+canonical-instances:
+  - "A specialty food producer sends samples of a signature product to potential distributors, quietly omitting one key ingredient from the shipped batch. The product tastes right when eaten. Any attempt to reverse-engineer the recipe from the sample fails silently."
+critical-questions:
+  - "Does this practice have a shelf life — once enough recipients notice their seeds all fail identically, does the pattern eventually become visible and expose the sabotage, or is the failure specific enough each time to read as unrelated bad luck?"
+  - "Is there a meaningful ethical distinction between this and a rival's later act of poisoning the tree itself through the nimb trees, or are both simply variations on the same underlying willingness to sabotage another's access to a shared resource?"
+status: active

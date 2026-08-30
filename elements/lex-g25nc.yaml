@@ -1,0 +1,19 @@
+id: lex-g25nc
+name: public-language-vagueness-scales-with-how-dangerous-the-topic-is
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Public language describing an institutional problem gets vaguer and more desiccated in direct proportion to how troublesome the problem actually is — the correlation isn't accidental, it's a rule of thumb institutions apply deliberately. A plane crash becomes 'controlled flight into terrain,' cotton dust becomes 'air-borne particulate,' a nuclear accident becomes 'plant transient' — and the pattern holds across unrelated industries and unrelated crises, which is itself evidence that vagueness-scaling-with-danger is a general institutional reflex rather than one organization's peculiar habit. Use unusual abstraction or euphemism in official language as a direct signal to search harder for what specifically is being obscured — the vaguer the term, the more worth investigating what it's standing in for."
+related: []
+evokes: [jackall-moral-mazes, "controlled flight into terrain", euphemism-density-as-a-danger-signal]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch6-vagueness-scales-with-danger
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 6, Dexterity with Symbols."
+    quote: "The rule of thumb here seems to be that the more troublesome a problem, the more desiccated and vague the public language describing it should be."
+canonical-instances:
+  - "A company's public statement about a data breach describes 'an anomaly affecting a subset of user records' rather than naming which records were exposed or how many users were affected — the vagueness increasing in step with how damaging the specifics would be if stated plainly."
+critical-questions:
+  - "Is the vagueness-scaling pattern actually a deliberate strategy in most cases, or does genuinely troublesome news also tend to be the hardest to describe precisely on short notice, which would produce the same correlation without any intent to obscure?"
+status: active

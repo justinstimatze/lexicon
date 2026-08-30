@@ -1,0 +1,35 @@
+---
+id: lex-r3aug
+name: open-impartiality-admits-distant-voices-closed-removes-only-intra-group-bias
+type-in: process
+type-out: posture
+_tier: atomic
+agent-instruction: "When evaluating whether a deliberation has produced a just outcome, distinguish two ways impartiality can be enforced. (1) Closed impartiality — strip individuals within the group of knowledge of their own position (Rawlsian veil-of-ignorance). Removes individual vested interest within the focal group. Does NOT remove parochial conventions shared across the whole group. (2) Open impartiality — admit the judgement of a disinterested spectator from outside the group (Smithian impartial spectator). Removes group-level parochialism by importing distant views. Diagnostic question: 'whose voices are admitted to the deliberation?' If only members of the focal group, closed-impartiality at best; group parochialism is unaddressed. If outside voices are required-to-be-considered, open-impartiality. Operational consequence: a fair-process audit that asks only 'is anyone reasoning from their own narrow interest?' will not catch parochialism shared across the entire focal group. Add a second audit: 'what would this look like to an informed observer with no stake in our local conventions?' The two audits remove different biases and neither subsumes the other."
+related: [lex-wtkuz, lex-kebfa, lex-kfk68, lex-7mdpd, lex-exczm, lex-cgqta, lex-ftu47, lex-653ng, lex-asu3y, lex-cpq3s, lex-s7qxv, lex-x9sda, lex-3656j, lex-5tpy8, lex-cgbrt, lex-afzzp, lex-m8j35, lex-tqd9x, lex-7xz6k, lex-f2ktw, lex-2kbpp, lex-x3hgq, lex-kxk99, lex-xuwr2, lex-zfxbw, lex-ezcv6, lex-kjb2b, lex-xuna9, lex-epczs]
+scaffolds-from: [lex-kxk99]
+evokes: [smith-impartial-spectator, rawls-veil-of-ignorance, parochialism-as-residual-bias-after-individual-impartiality, the-eyes-of-the-rest-of-mankind, the-man-within-the-breast, far-as-well-as-near, group-level-bias-vs-individual-bias, contractarian-vs-spectator-impartiality, voices-from-outside-the-focal-group, two-distinct-kinds-of-bias-removal]
+lineage:
+  - source: primary
+    tradition: smithian-impartial-spectator
+    text: sen-2010-idea-of-justice
+    citation: "Amartya Sen, The Idea of Justice (Belknap Press of Harvard University Press, 2009), Chapter 6 (Closed and Open Impartiality), pp. 124-125."
+    quote: "The need to invoke how things would look to 'any other fair and impartial spectator' is a requirement that can bring in judgements that would be made by disinterested people from other societies as well — far as well as near. In contrast, the institutionally constructive character of the Rawlsian system restricts the extent to which the perspectives of the 'outsiders' can be accommodated within the exercise of impartial assessment. […] Smithian reasoning thus not only admits but requires consideration of the views of others who are far as well as near. This procedure of achieving impartiality is, in this sense, open rather than closed and confined to the perspectives and understandings of the local community only."
+  - source: primary
+    tradition: smithian-impartial-spectator
+    text: sen-2010-idea-of-justice
+    citation: "Amartya Sen, The Idea of Justice (Belknap Press of Harvard University Press, 2009), Chapter 6, p. 127."
+    quote: "Even as the Rawlsian 'veil of ignorance' addresses effectively the need to remove the influence of the vested interests and personal slants of the diverse individuals within the focal group, it abstains from invoking the scrutiny of (in Smith's language) 'the eyes of the rest of mankind'. Something more than an 'identity blackout' within the confines of the local focal group would be needed to address this problem. In this respect, the procedural device of closed impartiality in 'justice as fairness' can be seen as being 'parochial' in construction."
+canonical-instances:
+  - A Supreme Court deciding a capital-punishment question with only U.S. precedents in view — closed-impartial among the justices, parochial vs. the global jurisprudential conversation Sen flags as relevant under open impartiality.
+  - A worker-cooperative deciding compensation behind a veil-of-ignorance among its members but never asking what a customer or unpaid caregiver might object to — closed-impartial among insiders, open-impartiality unmet.
+  - A peer-review panel of domain experts on a question whose values are domain-laden — closed-impartial against individual reviewer self-interest, but parochial to the discipline's conventions until a reviewer from outside the field is admitted.
+critical-questions:
+  - "Has this deliberation only been checked for individual vested interest (a veil-of-ignorance-style procedure among its own members), or has it also been checked against what an informed observer with no stake in the group's shared conventions would object to? Passing the first check says nothing about the second."
+  - "Whose outside judgement is actually being consulted to satisfy open impartiality — a real, differently-positioned perspective brought into the process, or the group's own members imagining what an outsider might think? The latter risks reproducing the same parochial conventions it's meant to test against."
+severity-tier: info
+status: active
+---
+
+When you find yourself trusting a deliberation because "we removed self-interest," ask the second question: did we remove the conventions everyone in the group shares? Closed impartiality is a check on individual bias; open impartiality is a check on group-level bias; they catch different things and one does not subsume the other.
+
+Sen's diagnostic move in *The Idea of Justice* Ch.6 is that Rawls's veil-of-ignorance is rightly celebrated for what it removes (individual vested interest within the focal group) but is widely mistaken for a complete bias-removal device. It is not. The veil leaves whole-group parochial conventions intact — every person behind it shares them — and the procedure has no internal mechanism to surface them. Smith's earlier device of the impartial spectator (in *The Theory of Moral Sentiments*) was constructed precisely to import distant views, and Sen reads this as the structurally distinct second move that closed impartiality cannot perform. The two procedures are complementary, not redundant: a deliberation that is closed-impartial but open-parochial can be perfectly fair to all its members and still systematically miss what someone outside the group would immediately notice.

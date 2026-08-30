@@ -1,0 +1,19 @@
+id: lex-yn3cf
+name: achieved-standing-openly-outranks-inherited-status
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A person of low ascribed status who has since achieved something exceptional can address someone of high inherited status informally, provoking outrage from those who hold the inherited-status framework, until an authority explicitly rules that the achieved standing takes precedence over the birth status. The clash is staged openly rather than left implicit. In the Jataka''s tale of Gangamala, a former low-caste barber, now a paccekabuddha, addresses the king by his family name; when the queen-mother objects, the king rebukes her: "Lo! how, e''er his death befall, / Meekness brings a man its fruit! / One who bowed before us all, / Kings and lords must now salute."'
+related: []
+evokes: [jataka, atthanipata, gangamala-jataka, achieved-status-vs-ascribed-status, merit-outranks-birth]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-gangamala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 421, Gangamala-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Lo! how, e’er his death befall, / Meekness brings a man its fruit! / One who bowed before us all, / Kings and lords must now salute."
+canonical-instances:
+  - "A self-taught programmer who built the company's most critical system gets addressed by first name by the founder in front of investors, while a board member with an old-money surname bristles at the informality, until the founder makes the priority explicit in the room."
+critical-questions:
+  - "The ruling settles this one instance because the authority making it happens to agree — what would it take for that to hold as a standing precedent instead, for a future authority who doesn't?"
+  - "What would it take for the objecting party (the queen-mother) to actually update her framework, versus simply being overruled once while holding the same view privately?"
+status: active

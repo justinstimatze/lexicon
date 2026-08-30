@@ -1,0 +1,22 @@
+id: lex-fy5qr
+name: a-population-sets-a-hard-capacity-ceiling-instead-of-competing-or-conquering
+type-in: situation
+type-out: process
+_tier: molecule
+agent-instruction: "Facing pressure on a fixed resource base, a population can reject both available default responses -- an internal competitive struggle where some prosper while many are crushed, and external conquest to seize more resources from someone else -- and instead collectively agree on a fixed population or consumption ceiling matched to the quality of life the resource base can sustainably support. The ceiling then holds through internalized, voluntary individual restraint distributed across the whole population, not through external enforcement on anyone. Gilman states the choice directly: 'Not by a \"struggle for existence\"... Neither did they start off on predatory excursions to get more land... Not at all. They sat down in council together and thought it out... They said: \"With our best endeavors this country will support about so many people, with the standard of peace, comfort, health, beauty, and progress we demand. Very well. That is all the people we will make.\"'"
+related: []
+evokes: [herland, chapter-6, that-is-all-the-people-we-will-make, not-by-a-struggle-for-existence, a-collectively-chosen-ceiling-instead-of-scarcity-or-conquest]
+lineage:
+  - source: primary
+    text: gilman-1915-herland-chapter-6
+    citation: "Charlotte Perkins Gilman, Herland (1915), Chapter 6, 'Comparisons Are Odious.' Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "Not by a 'struggle for existence' which would result in an everlasting writhing mass of underbred people trying to get ahead of one another... Neither did they start off on predatory excursions to get more land from somebody else, or to get more food from somebody else, to maintain their struggling mass. Not at all. They sat down in council together and thought it out. [...] They said: 'With our best endeavors this country will support about so many people, with the standard of peace, comfort, health, beauty, and progress we demand. Very well. That is all the people we will make.'"
+canonical-instances:
+  - "A fishing community facing a shrinking catch rejects both letting boats compete until only a few large operators survive and raiding neighboring waters for more fish, instead agreeing collectively on a total annual catch limit matched to what the fishery can sustainably support, and each family voluntarily holds to their agreed share."
+  - "A university facing overcrowded lecture halls rejects both a cutthroat admissions race that would leave most departments starved of resources and lobbying to annex a neighboring campus, instead setting a fixed total enrollment matched to what its facilities and faculty can actually support well, and holding to it even when it means turning away qualified applicants."
+  - "A neighborhood water cooperative facing a shrinking aquifer rejects both a first-come-first-served scramble that would leave later users with nothing and buying up water rights from a nearby town, instead agreeing on a fixed household usage cap matched to what the aquifer can replenish, with each household adjusting its own use to stay under it."
+critical-questions:
+  - "What actually made voluntary, internalized restraint hold across an entire population here, rather than collapsing under individual incentive to exceed the agreed ceiling while everyone else complies -- is there a specific enabling condition (small scale, shared identity, absence of anonymity) this mechanism depends on?"
+  - "Is setting a hard ceiling actually superior to the competitive alternative in every case? It trades the acute, visible suffering of a competition's crushed losers for a quieter cost: whatever growth and opportunity get foregone by capping ambition collectively."
+  - "Could a population choose the ceiling itself badly -- setting it too low out of excess caution, or too high through optimistic miscalculation -- and if so, what corrects a badly-chosen ceiling once the whole population has committed to holding it?"
+status: active

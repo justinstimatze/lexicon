@@ -1,0 +1,20 @@
+id: lex-25aey
+name: condemning-a-violation-reaffirms-the-violated-norm
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: "When a group violates a norm while simultaneously condemning some out-group for the identical violation, notice that the condemnation itself does work the violation alone couldn't: it invokes the norm as the standard by which the accusation is supposed to land, and in doing so treats the norm as legitimate and binding even while the accuser is breaking it. Merton's WWI case: nationalist scientists on every side accused rival-nation scientists of 'nationalistic bias' — an accusation that only makes sense, only counts as damning, if scientific universalism is the real standard everyone is supposed to meet. The accusers were being nationalistically biased themselves in leveling the charge, yet by choosing that specific charge rather than simply asserting national superiority outright, they conceded the norm's authority as the measuring stick. Diagnostic move: when you see mutual, hypocritical accusations of the same violation flying between rival factions, don't read it as evidence the norm is dead or meaningless — read the specific vocabulary of the accusation itself as evidence of which norm all sides still recognize as the one that matters, however badly they fail to live up to it."
+related: [lex-4x7vs]
+evokes: [merton-1957, nationalistic-bias-as-accusation, deviation-presupposes-legitimacy, mores-are-reaffirmed-by-condemning-their-violation]
+lineage:
+  - source: primary
+    text: merton-1957-deviation-presupposes-the-norms-legitimacy
+    citation: "Robert K. Merton, Social Theory and Social Structure, Revised and Enlarged Edition (Glencoe, IL: Free Press, 1957), Ch. XVI 'Science and Democratic Social Structure' [orig. 1942], p.554. Verified verbatim against a University of Iowa library scan via Internet Archive OCR text (item 31858016281432)."
+    quote: "'Yet this very deviation from the norm of universalism actually presupposed the legitimacy of the norm. For nationalistic bias is opprobrious only if judged in terms of the standard of universalism; within another institutional context, it is redefined as a virtue, patriotism. Thus by the very process of contemning their violation, the mores are reaffirmed.'"
+canonical-instances:
+  - "Two rival tech companies each accuse the other of 'anticompetitive lock-in' while running their own lock-in tactics — the specific accusation chosen (rather than just 'we should win because we're better') reveals that both companies still recognize open competition as the standard the industry is supposed to answer to, even as neither actually meets it."
+  - "Politicians from opposing parties each accuse the other side of 'undermining democratic norms' through procedural hardball, while each engages in comparable hardball when it serves them — the charge itself, chosen over simply asserting raw power, keeps democratic-process legitimacy alive as the shared standard even amid mutual violation."
+critical-questions:
+  - "Does the reaffirmation actually strengthen the norm over time, or can repeated hypocritical invocation cheapen it instead — teaching observers that the accusation is just a rhetorical weapon rather than a real constraint, so the norm's language survives while its binding force erodes?"
+  - "How would you distinguish a case where accusing an out-group of norm violation genuinely reaffirms the norm from a case where the accusation is purely instrumental cover with no residual commitment to the norm at all — is there any observable difference between an accuser who would still condemn their own side's violation if caught, versus one who would defend it as different?"
+status: active

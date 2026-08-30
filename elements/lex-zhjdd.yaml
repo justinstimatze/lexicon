@@ -1,0 +1,19 @@
+id: lex-zhjdd
+name: two-encounters-with-the-same-threat-become-a-natural-experiment
+type-in: situation
+type-out: structure
+_tier: atomic
+agent-instruction: 'A frame story can explicitly juxtapose two encounters between the same predator-type and the same prey animal across time, told so that the difference in strategy — fighting versus pleading — reads as the reason for the difference in outcome. The pairing is a deliberate comparison, staged for the listener rather than left to land as two unconnected anecdotes. In the Jataka''s tale of Dipi, the Buddha states the two-part contrast directly before telling the older story: "Moggallana, the panther failed to catch her this time, but once before he killed her though she cried out, and ate her."'
+related: []
+evokes: [jataka, atthanipata, dipi-jataka, paired-comparison-structure, same-threat-two-strategies-two-outcomes]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dipi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 426, Dipi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Moggallana, the panther failed to catch her this time, but once before he killed her though she cried out, and ate her."
+canonical-instances:
+  - "A case study juxtaposes two nearly identical product recalls at the same company five years apart — one where the team escalated immediately and the crisis was contained, one where they pleaded for more time and it spiraled — using the paired contrast, not either incident alone, to argue for the lesson."
+critical-questions:
+  - "Does presenting the two encounters as a controlled comparison risk implying the strategy alone determined the outcome, when other differences between the two encounters might also have mattered?"
+  - "Who decided which two instances count as comparable enough to pair this way, and could a different pairing have suggested a different lesson entirely?"
+status: active

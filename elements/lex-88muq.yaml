@@ -1,0 +1,19 @@
+id: lex-88muq
+name: refuting-a-stated-pretext-and-watching-the-outcome-reveals-the-real-motive
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone offers a justification for an action against you, check whether the outcome changes once you refute the stated reason — if it doesn't, the justification was never actually driving the decision. In Aesop's 'The Cat and the Cock,' a cat seizes a cock and invents a series of accusations to justify eating him; each time the cock disproves the charge, the cat simply raises another, until the fable's stated moral names what the pattern reveals: 'The want of a good excuse never kept a villain from crime.' Refute the reason given and watch whether the action proceeds anyway. An outcome that survives the rebuttal unchanged exposes the pretext as pure decoration, which turns the fable's line into a reusable diagnostic well past commentary on villainy."
+related: [lex-wswxq]
+evokes: [aesop, the-cat-and-the-cock, pretext-invariance-test, refuting-a-justification-reveals-real-motive]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-cat-and-the-cock
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Cat and the Cock.' Verified verbatim against a direct extraction of the held copy."
+    quote: "The want of a good excuse never kept a villain from crime."
+canonical-instances:
+  - "a stated pretextual reason for a termination or a disciplinary decision that, when factually rebutted point by point, produces no change in the outcome at all — the rebuttal itself functions as the test of whether the reason was ever the real one."
+critical-questions:
+  - "Does this test require the target to actually attempt the refutation and observe the response, or is there a way to predict in advance whether a given justification is doing real work, without going through the exchange?"
+  - "What happens when only some of several stated justifications get refuted — does a partial rebuttal still reveal the underlying motive, or does the accuser's continued reliance on the unrebutted reasons muddy the diagnosis?"
+status: active

@@ -1,0 +1,21 @@
+id: lex-s9q5q
+name: repeated-false-announcements-become-a-cue-for-the-payoff-not-belief
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "When someone repeats the same announcement several times and it fails to come true each time, the group stops evaluating whether the announcement is true and starts treating the announcement itself as the trigger for a known side-benefit, attending purely for that payoff. In Radin's Winnebago Trickster cycle, a chief three times announces a feast to prepare for war, and three times abandons his guests mid-feast to be with a woman instead, never going to war at all. By the fourth announcement, nobody is fooled, but nobody stays home either: 'all those invited realized that this was all mere talk. There would be a feast to which they would all go. But they also knew that the chief had no intention of going on the warpath.' The announcement's truth-value has become irrelevant to the group's behavior; only the feast that reliably follows it still matters. Diagnostic move: when a repeated claim keeps failing to materialize but the group keeps responding to it anyway, check whether they've actually stopped believing it and are just showing up for whatever real thing does reliably follow it -- the announcement has been demoted from a claim to a bell."
+related: []
+evokes: [radin-winnebago-trickster-cycle, a-cue-decouples-from-the-claim-it-once-carried, all-those-invited-realized-that-this-was-all-mere-talk, they-would-all-go-to-the-feast-anyway]
+lineage:
+  - source: primary
+    text: radin-chiefs-repeated-war-announcements-become-a-cue-for-the-feast
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'The Winnebago Trickster Cycle,' episode 1. Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "'Shortly afterward it was again rumoured that the chief was going on the warpath. Again, someone was dispatched to find the fire-builders. ... Shortly after, for the fourth time, it was rumoured that the chief was going on the warpath. By this time, because of what had happened before, all those invited realized that this was all mere talk. There would be a feast to which they would all go. But they also knew that the chief had no intention of going on the warpath.'"
+canonical-instances:
+  - "A manager announces every quarter that a promised reorganization is imminent and nothing ever actually changes; employees stop treating the announcement as information about the org chart and start treating it as the reliable cue that a town-hall lunch is coming, attending for the lunch."
+  - "A politician repeatedly promises a specific policy at rallies without ever introducing it once elected; longtime supporters keep showing up to the rallies, not because they expect the policy this time, but because the rally itself delivers the community and spectacle they actually came for."
+critical-questions:
+  - "Is there a point at which continuing to respond to a discredited announcement becomes actively costly rather than a harmless collection of a known side-benefit -- what would that cost look like here, and does the story show anyone paying it?"
+  - "Does the chief benefit from the announcement having become a mere cue, since it keeps drawing a crowd and supplies with no follow-through required, or is the story silent on whether he even notices that no one believes him anymore?"
+  - "Would a single loud public refusal to attend, rather than quiet private cynicism, have changed the chief's behavior, or does the story suggest the pattern is stable precisely because everyone still shows up despite privately discounting the claim?"
+status: active

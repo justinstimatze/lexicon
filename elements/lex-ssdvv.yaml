@@ -1,0 +1,20 @@
+id: lex-ssdvv
+name: correcting-a-misjudged-hierarchy-with-a-display-timed-for-its-audience
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When an audience has come to rank you beneath someone whose feats they witnessed and yours they didn't, arguing the point after the fact rarely undoes the impression — but a demonstration performed in front of that exact audience, timed to intercept them before any words are exchanged, resets what they believe they're looking at. In the Jataka's tale of Sona and Nanda, the elder brother learns that a hundred kings are approaching believing his younger brother is the more powerful of the two; rather than correct them by argument, he intercepts the procession performing an even greater feat: \"placing a carrying-pole in the air, not touching his shoulder by an interval of four inches, he thus travelled in space, passing close by the king\" — and the king's own words confirm the reset worked: \"Who goes to fetch him water through the air at such a pace, with wooden pole not touching him by quite four inches space?\""
+related: []
+evokes: [jataka, sattatinipata, sona-nanda-jataka, demonstration-over-argument, resetting-perceived-hierarchy]
+lineage:
+  - source: primary
+    text: jataka-francis1905-sona-nanda-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XX (Sattatinipata), No. 532, Sona-Nanda-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "and placing a carrying-pole in the air, not touching his shoulder by an interval of four inches, he thus travelled in space, passing close by the king, to fetch water from lake Anotatta. [...] Who goes to fetch him water through the air at such a pace, with wooden pole not touching him by quite four inches space?"
+canonical-instances:
+  - "A quiet senior engineer, after watching a flashy new hire impress the team with a demo the whole floor gathered to see, doesn't argue about who's more capable — they time their next actual fix to a production incident so the same audience watches them solve, live, the exact class of problem the new hire's demo only simulated."
+  - "An understudy who's been overshadowed by a co-star's showier scenes doesn't lobby the director for better lines; they wait for the one night the co-star is out sick, deliver the lead role flawlessly, and let that single timed performance do what weeks of argument couldn't."
+critical-questions:
+  - "Sona's demonstration works because it's genuinely superior, not merely different — does the tactic depend entirely on actually possessing the greater capability, or can a well-timed display reset an audience's ranking even when the underlying gap is smaller than the theatrics suggest?"
+  - "The reset happens through a single dramatic act rather than sustained demonstrated behavior — is a one-time display a durable correction to the audience's model, or does it just buy a temporary reassessment that erodes again once the memory of the display fades?"
+status: active

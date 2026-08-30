@@ -1,0 +1,21 @@
+id: lex-m7nzz
+name: a-shared-burden-stays-invisible-until-a-non-bearer-enters
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A cost borne equally by every competitor in a field -- a regulation, a union contract, an environmental standard -- functions like a tax rather than a competitive burden, because it doesn't change anyone's position relative to their peers. Freeman names this the 'umbrella effect': as long as every domestic firm bears the same cost, no one is at a disadvantage, and the field can implicitly coordinate around treating the burden as a fixed cost of doing business rather than something to compete away. The cost only becomes visible as a real liability the moment a competitor enters who doesn't bear it, or bears it more efficiently -- at which point everyone who was comfortable under the shared umbrella discovers they were carrying a cost they'd stopped noticing, because it had never previously cost anyone a sale. The diagnostic move: before assuming a universal cost within your field is harmless because everyone bears it, ask whether the field is actually closed to outside entrants who don't share that cost -- an open field means the umbrella is one new competitor away from folding."
+related: []
+evokes: [freeman-1984-strategic-management, chapter-1, umbrella-effect, managing-in-turbulent-times, foreign-competition]
+lineage:
+  - source: primary
+    text: freeman-1984-strategic-management-ch1
+    citation: "R. Edward Freeman, Strategic Management: A Stakeholder Approach (Pitman, 1984), Chapter 1 'Managing in Turbulent Times,' section 'Competitors.'"
+    quote: "As long as all significant competition is domestic, everyone must play by the same rules. Each competitor bears the burden and shares the benefits of government, a fickle consumer population, environmentalists, etc. There is an \"umbrella effect\" by which firms in an industry can implicitly or explicitly coordinate their response to various issues. No one is at a competitive disadvantage, hence everyone can afford to proceed as if the Managerial View were still appropriate. When foreign competitors figure out how to satisfy customers and government with high quality products that are less expensive and meet all requirements, then the umbrella folds. This scenario has already taken place in several businesses."
+canonical-instances:
+  - "Every taxi company in a city pays for the same medallion system and the same insurance requirements, so none of them competes on that cost. A ride-hailing platform enters carrying neither expense, and overnight the whole taxi industry discovers its shared regulatory burden was a price disadvantage all along."
+  - "Every unionized manufacturer in a region pays the same negotiated wage scale, so wages stop being a point of competition among them -- until a non-union plant opens nearby paying less, and the unionized firms suddenly feel a cost they had stopped tracking as competitively relevant."
+  - "Every publisher in a country complies with the same copyright-clearance costs for translated works, so the cost is baked into everyone's pricing without anyone losing market share to a rival -- until an overseas publisher selling into the same market via a jurisdiction with looser enforcement undercuts all of them on price."
+critical-questions:
+  - "Is the umbrella effect actually coordination (even implicit), or is it simply the natural consequence of every firm facing an identical cost structure with no need for any coordination at all -- does calling it 'coordination' overstate what's really just a shared constraint?"
+  - "Once the umbrella folds, is the right response to lobby for the entrant to bear the same cost, to find a way to shed the cost yourself, or to compete on some other axis entirely -- does the mechanism itself favor any of these over the others?"
+status: active

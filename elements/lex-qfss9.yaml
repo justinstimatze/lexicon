@@ -1,0 +1,21 @@
+id: lex-qfss9
+name: removing-something-from-context-can-disable-not-liberate-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When 'freeing' something from a constraint that looks like confinement, check whether the constraint was actually the medium the thing's capability depends on. The Ferengi Rules of Acquisition state this as a flat impossibility claim: 'You can't free a fish from water.' Water reads as confinement from outside, but it's the medium the fish's entire capability runs on — remove it and the fish doesn't become free, it becomes helpless. Generalize the diagnostic past literal environments: a limiting structure that looks like pure restriction might actually be what a capability depends on, so check the dependency before assuming removal helps."
+related: []
+evokes: [ferengi, rules-of-acquisition, star-trek, context-dependent-capability, false-liberation]
+lineage:
+  - source: primary
+    text: star-trek-ds9-rules-of-acquisition-217
+    citation: "Star Trek: Deep Space Nine, Rule of Acquisition #217, spoken dialogue from 'Past Tense, Part I' (season 3, episode 11, 1995). Verified against Memory Alpha's sourced compilation of on-screen Rules of Acquisition dialogue (a wiki page functioning as a transcript aggregator with per-rule episode citations, not quoted for its own editorial framing)."
+    quote: "You can't free a fish from water."
+canonical-instances:
+  - "Removing a specialist from the institutional structure that gave their expertise its value — pulling a senior engineer out of the specific codebase, team, and tooling they've spent a decade mastering and dropping them into an unrelated stack — reads as a promotion but functions the same way: the capability was relational to the water they were in."
+  - "A bureaucratic process that looks like pure red tape to an outsider can be the thing that actually lets a large organization coordinate at scale; stripping it out in the name of freeing employees from constraint sometimes disables coordination rather than liberating anyone."
+critical-questions:
+  - "How do you tell, before acting, whether a given constraint is genuinely the medium a capability depends on versus genuinely just confinement — is there a reliable test short of removing it and seeing what happens?"
+  - "Does this claim apply symmetrically in both directions, or are there cases where removal from a constraining context is a real net gain even though some capability is lost along with it?"
+  - "Is the fish worse off having never known anything but water, or does the rule implicitly assume the fish itself would recognize freedom if it saw it — does the claim depend on an outside observer's judgment of what counts as liberation?"
+status: active

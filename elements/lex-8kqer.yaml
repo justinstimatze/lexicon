@@ -1,0 +1,25 @@
+id: lex-8kqer
+name: purity-norm-latently-defends-institutional-autonomy
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a field's members insist their work must stay untainted by outside utility, ideology, or funders' preferences — a 'pure' or 'basic' version of the discipline held above the applied one — don't take the stated epistemic justification (bias-avoidance, truth-seeking) as the whole explanation. Merton reads the same insistence as doing latent institutional work: as long as science is judged only by its own internal criteria, no external authority (church, state, industry) can claim standing to redirect or veto it by appeal to religious, political, or economic tests. The moment a field concedes that external usefulness or approval is a legitimate criterion of its own worth, it has handed outside authorities a lever over its research agenda. So the purity norm functions as a boundary-defense mechanism regardless of whether any individual scientist consciously intends it that way — structurally identical to how moral outrage at rule-breaking defends a bureaucracy's impersonal-treatment norm (see the sibling latent-defense pattern in lex-99ytj) even though the outraged person is only consciously feeling that cheating is wrong. Diagnostic move: when a group defends a norm on stated epistemic or ethical grounds, ask separately what external claim on the group's autonomy that norm happens to block — the two questions can have different answers, and the second one predicts when and how hard the norm gets defended better than the first does."
+related: [lex-99ytj, lex-ejde6, lex-pazxc]
+scaffolds-from: [lex-pazxc]
+evokes: [merton-1957, science-and-the-social-order, pure-mathematics-cambridge-toast, exaltation-of-pure-science-as-defence, functions-of-norms-of-pure-science]
+lineage:
+  - source: primary
+    text: merton-1957-cambridge-toast-pure-mathematics
+    citation: "Robert K. Merton, Social Theory and Social Structure, Revised and Enlarged Edition (Glencoe, IL: Free Press, 1957), Ch. XV 'Science and the Social Order' [orig. 1938], p.543."
+    quote: "'A tacit recognition of this function may be the source of that possibly apocryphal toast at a dinner for scientists in Cambridge: To pure mathematics, and may it never be of any use to anybody!'"
+  - source: primary
+    text: merton-1957-exaltation-of-pure-science-as-defence
+    citation: "Robert K. Merton, Social Theory and Social Structure (1957), same chapter, p.543, immediately following."
+    quote: "'The exaltation of pure science is thus seen to be a defence against the invasion of norms which limit directions of potential advance and threaten the stability and continuance of scientific research as a valued social activity.'"
+canonical-instances:
+  - "A journal's insistence on double-blind peer review 'for objectivity' also has the latent effect of walling off editorial decisions from any single funder, government, or advocacy group's direct influence — the objectivity rationale and the autonomy-defense function are both true at once, and the norm gets defended hardest exactly when an outside party is most trying to steer the agenda."
+  - "operationally distinct from lex-99ytj moral-outrage-at-rule-breakers-is-a-latent-structural-defense: that atom's manifest surface is a felt emotional reaction (outrage, disgust) defending a bureaucracy's personal/impersonal boundary; this atom's manifest surface is a stated epistemic ideal (purity, disinterestedness) defending a discipline's boundary against external authority. Same latent-function structure, different institution and different surface vehicle (emotion vs. professed principle)."
+critical-questions:
+  - "Does the purity norm's autonomy-defense function mean the epistemic justification is false? Merton doesn't claim the bias-avoidance argument is wrong — only that it's incomplete on its own; a norm can be genuinely truth-protective and also happen to be the discipline's main lever against external capture. How would you separate a case where purity really is protecting validity from a case where 'purity' is invoked mainly to dodge legitimate accountability for real-world effects (the chapter's own next section argues the same purity norm helped provoke public backlash by licensing disregard of consequences)?"
+  - "If the same norm both defends autonomy and (per the chapter's later argument) fuels public hostility by licensing indifference to consequences, which effect dominates in a given field at a given time, and what would tell you which one is currently doing more work?"
+status: active

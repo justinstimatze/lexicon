@@ -1,0 +1,18 @@
+id: lex-asv5a
+name: an-automatic-portent-signals-accumulated-significance-without-any-message-being-sent
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A system for detecting significant events can be built so that it triggers automatically once some threshold is crossed, with no message, request, or intentional signal ever sent by the party whose situation caused it, so that the alert itself is evidence the underlying condition is real rather than claimed. In the Jataka''s tale of Kanha, Sakka''s throne grows hot purely from the accumulating force of the ascetic''s virtue, with no prayer or plea involved: the throne "grows hot when Sakka''s life draws towards its end, or when his merit is exhausted and worked out, or when some mighty Being prays, or through the efficacy of virtue in priests or brahmins full of potency." The translator''s own footnote cites a near-identical Scottish folk motif (a king''s judgment-seat that kicks when justice is denied) as an independent cultural parallel.'
+related: []
+evokes: [jataka, dasanipata, kanha-jataka, automatic-portent, unsent-signal-as-evidence]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kanha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 440, Kanha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "grows hot when Sakka's life draws towards its end, or when his merit is exhausted and worked out, or when some mighty Being prays, or through the efficacy of virtue in priests or brahmins full of potency"
+canonical-instances:
+  - "A monitoring dashboard pages the on-call engineer purely because error-rate crossed a threshold, with no one having filed a ticket or sent a request — the alert's very existence is treated as proof something real changed, distinct from any user complaint."
+critical-questions:
+  - "An automatic threshold-trigger looks like harder evidence than a deliberate report, but the trigger only ever fires on whatever line someone drew when setting the threshold — so has anything actually been removed from human judgment, or just moved earlier?"
+status: active

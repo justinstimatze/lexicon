@@ -1,0 +1,19 @@
+id: lex-v9t83
+name: testing-a-benefactors-limit-exposes-predation-hidden-behind-piety
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A predator disguised as a pious protector, picking off members of a trusting group one at a time, can be exposed by deliberately testing the exact point where the pretense would have to fail — placing the most vulnerable position last, where a genuine protector would still hold and a predator would finally strike. In the Jataka's tale of the ascetic jackal, a predator fakes extreme piety — standing on one leg, fasting, claiming sun-worship — to win a colony of rats' trust. He eats one straggler from each daily procession. The king of the rats, suspicious of the pattern, deliberately goes last himself, the position offering the predator its final and best remaining opportunity, and catches the jackal in the act at exactly the point real piety could no longer be distinguished from disguised hunger."
+related: []
+evokes: [jataka, ekanipata, bilara-jataka, testing-the-limit-exposes-disguised-predation, deliberately-occupying-the-position-of-maximum-exposure]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-bilara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 128, Bilara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Godly' is my name,\" said the jackal. \"Why do you stand only on one leg?\" \"Because if I stood on all four at once, the earth could not bear my weight.\""
+canonical-instances:
+  - "Suspicious that a mentor who's positioned themselves as protector of the team's most junior members is actually the reason several have quietly left, a senior colleague deliberately volunteers to be the newest, most vulnerable-seeming member of the mentor's next project, testing whether the same pattern will target them despite having far more standing to push back."
+critical-questions:
+  - "Does this test require someone with enough security or seniority to survive if the suspicion turns out wrong, meaning the more vulnerable members of the group could never safely run the same test themselves?"
+  - "What happens if the predator recognizes the test being run and simply refrains from acting this one time — does the piety's collapse only become visible with repeated tests, or is a single instance enough?"
+status: active

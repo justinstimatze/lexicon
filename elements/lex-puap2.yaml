@@ -1,0 +1,19 @@
+id: lex-puap2
+name: an-oversight-system-can-be-built-by-whoever-has-most-to-hide
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "An unusually rigorous compliance or dual-reporting system, presented as a mechanism for ensuring honesty, can actually be built and personally maintained by the person with the most to hide — functioning as an early-warning network that protects the architect from discovery rather than exposing their own wrongdoing. The system's existence and its stated purpose can be entirely genuine as artifacts while its actual function is the opposite of advertised, because the person best positioned to know what needs hiding is often also best positioned to design the system that would normally find it. Before trusting an oversight system's rigor as evidence of an organization's honesty, check who initiated it and what they specifically stood to lose from a less rigorous alternative."
+related: [lex-yqe6n]
+evokes: [jackall-moral-mazes, "an elaborate spy network to guard against discovery", the-architect-of-oversight-may-be-the-target-of-it]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch5-elaborate-spy-network
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 5, Drawing Lines."
+    quote: "The entire dual reporting system that the CEO had personally initiated was in part an elaborate spy network to guard against discovery of the slush fund manipulation, and perhaps other finagling, rather than a system to ensure financial honesty."
+canonical-instances:
+  - "A CFO personally champions an unusually detailed expense-reporting requirement for every department except the one function where the CFO's own discretionary fund sits, which stays under a lighter, self-administered review."
+critical-questions:
+  - "Is there an observable way to distinguish a genuinely protective oversight system from a self-protective one before a scandal reveals which it was, or is this mechanism only ever legible in hindsight, once the thing it was hiding has already surfaced?"
+status: active

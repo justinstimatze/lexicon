@@ -1,0 +1,19 @@
+id: lex-k7tda
+name: harm-schemed-against-an-innocent-instrument-recoils-onto-its-designer
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A manipulator who deceives an innocent, unwitting party into performing a dangerous act so the manipulator can profit from the resulting harm can find that harm redirecting onto the manipulator instead, because the second-order consequences of the scheme were never modeled. The dupe is the instrument, but the instrument's failure mode isn't contained the way the schemer assumed. In the Jataka's tale of Saliya: 'so dust that should be thrown against the wind, back in one's face is blown; and ill designed to one that holy is, and has no evil done, on the fool's pate at last recoils, like dust when thrown against the blast.'"
+related: []
+evokes: [jataka, pancanipata, saliya-jataka, harm-recoils-onto-its-own-designer, unmodeled-second-order-consequences-of-a-scheme]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-saliya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 367, Saliya-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "So dust that should be thrown Against the wind, back in one's face is blown; And ill designed to one That holy is, and has no evil done, On the fool's pate at last Recoils, like dust when thrown against the blast."
+canonical-instances:
+  - "A rival executive leaks a fabricated document through an unwitting junior employee, expecting the resulting scandal to sink a competitor, but the forgery is traced back through the same employee to the executive's own office because the executive never modeled how the leak would be investigated once it landed."
+critical-questions:
+  - "Does the harm reliably recoil onto the schemer, or does that outcome depend on lucky circumstances — a careful investigator, a traceable instrument — that a more competent manipulator could avoid?"
+  - "Is the innocent instrument actually blameless here, or does using someone as an unwitting tool still leave them harmed regardless of whether the scheme ultimately backfires on its designer?"
+status: active

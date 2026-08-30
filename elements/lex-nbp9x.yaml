@@ -1,0 +1,19 @@
+id: lex-nbp9x
+name: withholding-sympathy-for-a-failure-that-followed-refused-training
+type-in: situation
+type-out: posture
+_tier: atomic
+agent-instruction: "Someone who repeatedly skips available preparation, then suffers the exact consequence that preparation existed to prevent, can be met with withheld rescue or sympathy as a deliberate accountability move rather than mere coldness. In the Jataka's tale of the nephew deer, the young stag skips seven straight lessons in evading hunters; when he's finally caught, the Bodhisatta refuses to grieve for him, naming the refused training directly as the reason no one should feel sorry for him now. The refusal is notable specifically because it comes from someone otherwise disposed toward compassion. It targets this single moment of consequence rather than the animal in general, so that the link between the skipped lessons and the outcome registers clearly instead of getting smoothed over by sympathy."
+related: []
+evokes: [jataka, ekanipata, kharadiya-jataka, withholding-sympathy-as-accountability, consequence-follows-refused-preparation]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kharadiya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 15, Kharadiya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Take no thought for the unteachable rascal,\" said the Bodhisatta; \"your son failed to learn the ruses of deer.\""
+canonical-instances:
+  - "A senior engineer refuses to help a junior colleague recover from a production outage caused by skipping a deployment checklist the junior had been reminded about weekly for months, insisting the team let the postmortem name the skipped step plainly rather than quietly fixing it for them."
+critical-questions:
+  - "Where is the line between accountability and abandonment here — does withholding help ever actually improve future behavior, or does it just add a second harm on top of the first without changing anything?"
+  - "Does this response depend on the training having been genuinely available and refused, as opposed to unavailable, unclear, or offered in a form the learner couldn't actually use?"
+status: active

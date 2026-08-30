@@ -1,0 +1,19 @@
+id: lex-vs842
+name: a-trivial-denial-triggers-a-declared-blood-feud-not-proportionate-anger
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A party twice denied an expected minor benefit can respond not with proportionate irritation but with an extreme, life-ending revenge threat tied to a specific future event, converting a petty grievance into a declared feud. In the Jataka''s tale of Parantapa, the yakkhini does exactly this over shoes and a corpse: "The other day you prevented my children eating the shoes; to-day you prevent them eating the dead man. Very well: on the third day from this a hostile king will come and encompass the city, your father will send you to battle, they will cut off your head: I will drink your throat''s blood and satisfy my enmity."'
+related: []
+evokes: [jataka, sattanipata, parantapa-jataka, disproportionate-escalation-of-retaliation, trivial-denial-triggers-blood-feud]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-parantapa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 416, Parantapa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The other day you prevented my children eating the shoes; to-day you prevent them eating the dead man. Very well: on the third day from this a hostile king will come and encompass the city, your father will send you to battle, they will cut off your head: I will drink your throat's blood and satisfy my enmity: you make yourself an enemy of mine and I will see to it:"
+canonical-instances:
+  - "Passed over twice for a minor scheduling favor, an employee doesn't file a complaint or ask a question — he starts quietly building a case to have the manager fired, treating two small refusals as grounds for total professional destruction."
+critical-questions:
+  - "Does the scale of the retaliation reveal that the trivial denials were never really the cause, only the trigger for a resentment that had been building on other, unstated grounds?"
+  - "Is there a way to recognize disproportionate escalation early enough to intervene, before the declared feud reaches the point of no return?"
+status: active

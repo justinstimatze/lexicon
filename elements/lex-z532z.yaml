@@ -1,0 +1,19 @@
+id: lex-z532z
+name: some-partnerships-fail-on-physically-incompatible-outputs-not-personalities
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a proposed partnership or cohabitation is rejected, check whether the reason is a personality clash or a structural incompatibility between what each party's normal operation produces. Aesop's 'The Charcoal-Burner and the Fuller' has the fuller decline outright, with no ill will stated: 'I couldn't think of it, sir: why, everything I take such pains to whiten would be blackened in no time by your charcoal.' No amount of goodwill, cost-sharing, or negotiation changes the fact that one party's ordinary output is the literal negation of the other's — the incompatibility sits in the physics of what each side does, and no adjustment to the people involved touches it."
+related: []
+evokes: [aesop, the-charcoal-burner-and-the-fuller, structural-incompatibility, process-externality]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-charcoal-burner-and-the-fuller
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Charcoal-Burner and the Fuller.' Verified verbatim against a direct extraction of the held copy."
+    quote: "I couldn't think of it, sir: why, everything I take such pains to whiten would be blackened in no time by your charcoal."
+canonical-instances:
+  - "merging a data-hoarding product team with a privacy-hardening team under one shared roadmap: no amount of mutual respect resolves the fact that one team's normal success metric structurally undermines the other's, because the incompatibility sits in what each team's ordinary work produces, not in how the two teams get along."
+critical-questions:
+  - "How would two parties distinguish a genuine structural incompatibility like this one from a personality conflict that only feels intractable — is there a test besides simply trying to cohabit and observing the outcome?"
+  - "Does the incompatibility ever have a workaround short of separation — could physical or organizational distance between the two outputs (a wall, a handoff protocol) preserve the partnership where the fable's fuller assumes none is possible?"
+status: active

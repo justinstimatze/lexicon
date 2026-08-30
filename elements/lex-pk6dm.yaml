@@ -1,0 +1,18 @@
+id: lex-pk6dm
+name: reading-behavioral-omission-as-a-diagnostic-signal
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'An observer infers a hidden internal change in someone not from what they say but from routine behaviors they suddenly stop doing; the absence of expected action becomes evidence in its own right, without requiring confession. In the Jataka''s tale of Haliddiraga, the father reads his son''s silence and neglected chores as proof of infatuation: When she had left him, he neither fetched wood, nor brought water to drink, but just sat meditating, and when his father arrived, he did not go out to meet him. So the father knew that his son had fallen into the power of a woman'
+related: []
+evokes: [jataka, navanipata, haliddiraga-jataka, omission-as-diagnostic-signal, parental-perceptiveness]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-haliddiraga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 435, Haliddiraga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "When she had left him, he neither fetched wood, nor brought water to drink, but just sat meditating, and when his father arrived, he did not go out to meet him. So the father knew that his son had fallen into the power of a woman"
+canonical-instances:
+  - "A normally chatty employee stops replying to casual messages and quietly lets the recurring meeting he used to run without being asked lapse. His manager reads that gap in behavior as proof something's changed, well before he ever says a word about it."
+critical-questions:
+  - "How reliable is inferring cause from a pattern of omissions alone, compared to inferring the same conclusion from something the person actually says or does?"
+status: active

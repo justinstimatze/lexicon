@@ -1,0 +1,21 @@
+id: lex-f3eup
+name: a-sequences-opening-step-is-harder-to-judge-than-its-close
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "In any staged sequence, expect the opening move to be genuinely harder to evaluate than the closing one, as a structural fact about position rather than a matter of skill. The I Ching's Great Appendix states the asymmetry directly, using the first and last lines of a hexagram as the model case: 'There is difficulty in knowing (the significance of) the first line, while to know that of the topmost line is easy;--they form the beginning and the end (of the diagram).' The reason follows from position alone: an opening move has to anticipate a whole sequence that hasn't unfolded yet, while a closing move only has to be read against a sequence that's already complete and available for reference. Expect judgment of first moves to carry a residual uncertainty that final moves don't, independent of the mover's competence."
+related: []
+evokes: [i-ching, yi-jing, legge, ten-wings, xi-ci, great-appendix, first-move-uncertainty]
+lineage:
+  - source: primary
+    text: legge-1899-i-ching-appendix-iii-ii-first-line
+    citation: "James Legge, translator, The Yî King (I Ching), Sacred Books of the East vol. 16 (Oxford University Press, 1899), Appendix III ('The Great Appendix'), Section II, paragraph 58. Verified verbatim against a direct extraction of the text hosted at sacred-texts.com, clean digital text, no OCR."
+    quote: "There is difficulty in knowing (the significance of) the first line, while to know that of the topmost line is easy;--they form the beginning and the end (of the diagram). The explanation of the first line tasks the calculating (of the makers), but in the end they had (but) to complete this."
+canonical-instances:
+  - "The text's own phrasing locates the difficulty specifically in interpretation ('difficulty in knowing') rather than in the line's inherent significance, and even credits the original compilers with having to work hardest on the opening line ('tasks the calculating of the makers') — the asymmetry holds even for whoever authored the whole sequence, not just for a later reader trying to interpret it."
+  - "The opening sentence of a novel is famously harder to write well, and harder to judge as a reader, than the closing one. A closing line gets read against everything the book already delivered; an opening line has nothing behind it yet and the whole unwritten book still ahead."
+critical-questions:
+  - "Does the asymmetry hold for every kind of sequence, or specifically for ones where later stages genuinely depend on and build from the first — would it disappear in a sequence of independent, unordered steps?"
+  - "If the first step is structurally harder to judge, does that argue for spending disproportionately more evaluative effort on it, or does the difficulty mean added scrutiny won't actually resolve the uncertainty any faster?"
+  - "Is 'easy to judge' the same claim as 'easy to get right' for the final step — could the last move in a sequence still be difficult to execute even though it's comparatively easy to evaluate once it's made?"
+status: active

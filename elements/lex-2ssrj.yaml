@@ -1,0 +1,23 @@
+id: lex-2ssrj
+name: one-glance-can-sort-necessary-from-contingent-without-conflating-them
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "A single, undivided act of observation can correctly distinguish two different things it perceives as having different modal status -- one necessary, one contingent -- without that unified perception collapsing the distinction between them. Philosophy uses an everyday case to make the point vivid: 'even as ye, when at one and the same time ye see a man walking on the earth and the sun rising in the sky, distinguish between the two, though one glance embraces both, and judge the former voluntary, the latter necessary action: so also the Divine vision in its universal range of view does in no wise confuse the characters of the things which are present to its regard, though future in respect of time.'"
+related: [lex-kw2cv, lex-pb5sq]
+scaffolds-from: [lex-kw2cv]
+evokes: [consolation-of-philosophy, book-v-prose-vi, a-man-walking-on-the-earth-and-the-sun-rising-in-the-sky, one-glance-embraces-both, voluntary-and-necessary-action-distinguished]
+lineage:
+  - source: primary
+    text: boethius-c524-consolation-of-philosophy-book-v-prose-vi
+    citation: "Boethius, The Consolation of Philosophy (c. 524 AD), trans. H. R. James (London: George Bell & Sons, 1897), Book V, Prose VI. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "even as ye, when at one and the same time ye see a man walking on the earth and the sun rising in the sky, distinguish between the two, though one glance embraces both, and judge the former voluntary, the latter necessary action: so also the Divine vision in its universal range of view does in no wise confuse the characters of the things which are present to its regard, though future in respect of time."
+canonical-instances:
+  - "A single security review can flag one server outage as caused by an unavoidable hardware failure and another, simultaneous incident as caused by an engineer's avoidable mistake, without the review itself blurring those two very different kinds of cause together just because both appear in the same report."
+  - "A doctor examining a patient in one visit can correctly identify one symptom as an inevitable consequence of the patient's genetics and another, co-occurring symptom as the result of a lifestyle choice the patient could have made differently -- one look, two different kinds of cause, kept properly distinct."
+  - "A single quarterly earnings call can attribute one revenue shortfall to an unavoidable industry-wide downturn and another shortfall in the same report to an avoidable internal execution failure, without a listener concluding that because both appeared together, both must have been equally inevitable."
+critical-questions:
+  - "Is the walking-man/sunrise pairing actually a fair test case, since both are things we already independently know to be voluntary or necessary before we ever look at them -- does the argument show observation preserving a pre-existing distinction, rather than showing observation could correctly sort two things whose modal status wasn't already known in advance?"
+  - "Does the analogy actually scale from a human glancing at two ordinary events to a single divine act of cognition surveying the entire, otherwise-unknowable future -- the stakes of getting the sorting wrong are much higher when nothing external can double-check the judgment the way we can double-check whether the sun really did rise necessarily."
+  - "If the same single vision can classify one future event as necessary and another as free, what, within that act of vision itself, is actually doing the classifying work? The argument asserts the classification happens correctly without explaining the mechanism by which a unified perception manages not to blur two different modal categories together."
+status: active

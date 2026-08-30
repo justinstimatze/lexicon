@@ -1,0 +1,19 @@
+id: lex-u2t9m
+name: approach-avoidance-paralysis-between-two-dreaded-outcomes
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Facing two outcomes each dreaded for a different reason, someone can oscillate physically between them for an extended period, unable to resolve toward either, because each direction only becomes bearable by comparison to the other for as long as neither is actually chosen. In the Jataka's tale of the aging musician facing a public contest he fears losing, he can neither commit to the woods (fearing death from exposure) nor commit to returning (fearing the shame of a public defeat): 'So to the woods he went, but he kept returning through fear of death and going back to the wood through fear of shame. And in this way six days passed by. The grass died as he walked, and his feet wore away a path.' Both fears are genuine and neither yields the other any priority. The paralysis has nothing to do with weighing which is worse. Whichever direction he moves, it's the other fear's sudden absence that makes the chosen direction momentarily unbearable."
+related: []
+evokes: [jataka, dukanipata, guttila-jataka, oscillation-between-two-dreaded-outcomes-with-neither-resolvable, comparative-relief-in-either-direction-prevents-commitment-to-either]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-guttila-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 243, Guttila-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "So to the woods he went, but he kept returning through fear of death and going back to the wood through fear of shame. And in this way six days passed by. The grass died as he walked, and his feet wore away a path."
+canonical-instances:
+  - "An executive facing a board meeting where they must either admit a costly failure or continue a doomed cover-up spends the night pacing between drafting a resignation letter and drafting a defense of the project, unable to finish either because each option only feels tolerable in the brief moment before its own consequences come into focus."
+critical-questions:
+  - "What eventually broke this kind of paralysis in the musician's case, and does the resolution depend on outside intervention — Sakka's help — suggesting this particular deadlock may not be something a person can resolve alone from inside it?"
+  - "Is six days an unusually long time to sustain this oscillation, or is the specific duration less important than the underlying shape — does the paralysis end only when one fear is somehow reduced, or can it also end from sheer exhaustion regardless of which fear is larger?"
+status: active

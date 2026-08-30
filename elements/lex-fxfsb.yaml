@@ -1,0 +1,21 @@
+id: lex-fxfsb
+name: an-allys-appetite-for-restored-identity-outweighs-the-grudge-against-you
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "If you need to recruit an ally whose pride runs on being seen as formidable, a personal grudge against you may matter far less than the chance you're offering them to prove it. In Cushing's telling, two boys sneak up on their grandfather, the Rainbow-worm, purely to scare him for fun, startling him so badly 'he would have broken his back had he a back-bone.' Then, in the very same breath, they ask him for help against an enemy, and he doesn't hold the prank against them at all: 'I am old and a little deaf, and you frightened me, my boys,' followed immediately by 'I'll show them that they are not to treat my grandchildren like that. I'm a warrior, every direction of me ... I'm just made to use up life.' What actually moved him wasn't an apology, it was the appeal to an identity he was already eager to inhabit. The same pattern repeats with their other grandfather, the Turtle, whom they shoot with an arrow just before asking for his help, and who likewise sets the injury aside the moment he's called a great warrior with a real fight ahead of him. Diagnostic move: when you need help from someone whose self-image depends on a particular kind of glory or competence, don't assume a grievance against you has to be resolved first -- check whether the opportunity you're offering feeds that self-image more than the grievance costs it, because for someone starved of the chance to be what they already believe themselves to be, the opportunity itself can be the apology."
+related: []
+evokes: [the-opportunity-to-be-what-they-already-believe-themselves-to-be-is-the-apology, cushing-the-revenge-of-the-two-brothers-on-the-hawikuhkwe, im-a-warrior-every-direction-of-me, im-just-made-to-use-up-life]
+lineage:
+  - source: primary
+    text: cushing-rainbow-worm-forgives-the-prank-for-the-chance-at-glory
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Revenge of the Two Brothers on the Hawikuhkwe.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'Shoma! he exclaimed. It's my grandchildren, is it? I am old and a little deaf, and you frightened me, my boys. Did we frighten you, grandfather? That's too bad. Well, never mind; we've come to you for advice. ... Ah ha! exclaimed old Amiwili. Very well! ... I'll show them that they are not to treat my grandchildren like that. I'm a warrior, every direction of me--and there are a great many directions when I get angry, now, I can tell you! I'm just made to use up life, said he, with another swagger of his head.'"
+canonical-instances:
+  - "A manager who publicly overruled a senior engineer's technical judgment in front of the team later needs that same engineer's help on a high-visibility rescue project, and finds the engineer eager to join the moment the ask is framed around their unique expertise being indispensable, the earlier slight barely mentioned once the identity-affirming opportunity is on the table."
+  - "A sibling who forgot a family member's birthday and caused real hurt later asks that same relative to be the lead organizer of an important family event, and the relative agrees readily, the role of trusted organizer mattering more to them in the moment than the unresolved hurt feelings."
+critical-questions:
+  - "Does this pattern depend on the grudge being minor or the identity-appeal being unusually strong, or would it also work to smooth over a genuinely serious wrong if the opportunity offered were large enough -- is there a threshold past which no appeal to identity outweighs the grievance?"
+  - "Is the Rainbow-worm's forgiveness genuine, or is he simply performing the persona of 'warrior who doesn't dwell on slights' because that persona is itself part of the identity he wants to project -- does the story give any way to tell the difference?"
+  - "Would this tactic fail on an ally whose self-image doesn't depend on the specific kind of opportunity being offered -- does recruiting through identity-appeal require you to already know exactly which identity the person is hungry to inhabit?"
+status: active

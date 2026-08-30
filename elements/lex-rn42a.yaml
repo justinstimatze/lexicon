@@ -1,0 +1,19 @@
+id: lex-rn42a
+name: convert-a-just-witnessed-causal-insight-into-a-binding-personal-policy
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Having just witnessed vivid proof of a causal principle, a person can immediately propose converting that belief into an ongoing, costly, self-imposed rule of conduct rather than letting it remain a one-off realization. In the Jataka''s tale of Kummasapinda, the courtier does exactly this after seeing the fruits of charitable giving: "Great king, if you discern so visibly the fruits of charitable giving, from this day forward take a portion of rice and do not eat yourself until you have given it to righteous priests and brahmins."'
+related: []
+evokes: [jataka, sattanipata, kummasapinda-jataka, convert-insight-into-standing-policy, one-off-realization-becomes-a-rule]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kummasapinda-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 415, Kummasapinda-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Great king, if you discern so visibly the fruits of charitable giving, from this day forward take a portion of rice and do not eat yourself until you have given it to righteous priests and brahmins"
+canonical-instances:
+  - "After one dramatic customer story convinces the whole team how much a small onboarding touch matters, a product lead proposes making that touch a mandatory, permanent step in the onboarding flow rather than letting it stay a one-time feel-good anecdote."
+critical-questions:
+  - "Does one vivid, emotionally striking instance actually justify a permanent, costly rule, or does the vividness of the moment overstate how representative it really is?"
+  - "Who bears the ongoing cost of the new rule once the moment of conviction that inspired it has faded?"
+status: active

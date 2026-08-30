@@ -1,0 +1,19 @@
+id: lex-k36rt
+name: a-consistent-behavioral-tell-decodes-a-hidden-assets-location
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A person's psychological state can shift predictably and involuntarily near a hidden asset they alone know about. That consistent shift is decodable as a proxy signal for where the asset actually is, with no direct evidence needed at all. In the Jataka's tale of the treasure-guarding slave, a servant who knows where his late master's money is buried always insults and abuses the young heir — but only at one specific spot in the forest, nowhere else. A friend of the family deduces that the slave's emboldened contempt, triggered by unconscious proximity to the wealth he's protecting, is itself functioning as a map, and locates the treasure by watching where the behavior changes rather than by searching the ground."
+related: []
+evokes: [jataka, ekanipata, nanda-jataka, involuntary-behavioral-tell-decodes-hidden-location, emboldened-behavior-as-proxy-signal]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-nanda-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 39, Nanda-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"The spot at which Nanda stands to abuse you, my friend, is the place where your father's money is buried.\""
+canonical-instances:
+  - "A new manager notices that one particular team member becomes unusually confident and dismissive only during discussions of a specific legacy system nobody else understands well, and infers correctly that this is the one area where the employee's job security actually depends on staying the sole expert."
+critical-questions:
+  - "How reliably does emboldened behavior track proximity to something being protected, as opposed to simply reflecting a person's mood on a given day or their comfort in a particular location for unrelated reasons?"
+  - "Once the pattern is noticed and named out loud, does the tell vanish the next time the person is near the same asset? Or does the behavior keep firing even once the person knows they're being watched?"
+status: active

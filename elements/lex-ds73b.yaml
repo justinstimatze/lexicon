@@ -1,0 +1,31 @@
+id: lex-ds73b
+name: dimensional-analysis
+type-in: claim
+type-out: posture
+_tier: atomic
+agent-instruction: "When checking a derivation or proposed equation, run dimensional analysis: do the units on both sides match? Most errors leave dimensional fingerprints; dimensional consistency is necessary (not sufficient) for correctness, but it's the cheapest filter."
+related: [lex-fsazx, lex-axa6h, lex-3ydmv, lex-mnxhs, lex-yg484, lex-cpgyd, lex-wup2r, lex-g9zrz, lex-ccbdh, lex-vk65z, lex-875gz]
+evokes: [units-must-balance, type-check-for-physics, what-could-this-formula-even-mean, scaling-from-units-alone, buckingham-pi]
+lineage:
+  - source: practitioner
+    text: buckingham-1914-pi-theorem
+    citation: "Buckingham E. 'On physically similar systems; illustrations of the use of dimensional equations' Phys. Rev. 4, 345 (1914) — the canonical dimensional-analysis theorem (n variables in k fundamental dimensions reduce to n-k dimensionless groups)"
+  - source: practitioner
+    text: fluid-mechanics-tradition
+    citation: "Reynolds, Froude, Mach numbers as dimensionless similarity parameters; the methodological discipline of always checking units before trusting a derivation (cf. Landau-Lifshitz throughout)"
+  - source: practitioner
+    text: physics-decomposition-pass
+    citation: "promoted from cross-attestation: physics (Buckingham π, scaling laws), engineering (similarity analysis in fluids, structural design), CS (type-checking is dimensional-analysis applied to data — a 'String + Int' error is a units-mismatch error), finance (dimensional consistency in ratios — must compare apples-to-apples)"
+canonical-instances:
+  - "deriving the period of a pendulum without solving the ODE: T must depend on L (length), g (acceleration), m (mass); only [L/g]^(1/2) has units of time, so T ∝ √(L/g) up to a dimensionless constant"
+  - "type-checking in a typed language: the compiler refuses 'String + Int' because the operation is dimensionally inconsistent; same logic as physics units-checking, applied to data instead of physical quantities"
+  - "spotting a wrong formula at a glance: if E = mc^3 someone wrote, the right-hand-side has units of energy·velocity, not energy — the formula is wrong before any deeper analysis"
+  - "Reynolds number Re = ρvL/μ — a dimensionless ratio that tells you whether two fluid flows at different scales will exhibit similar behavior; same dimensional move generalizes the comparison"
+  - "operationally distinct from lex-yg484 multiplicative-decomposition: both touch products-of-factors but for different ends. dimensional-analysis CONSTRAINS the form (units must balance — only certain factor-combinations are admissible); multiplicative-decomposition CHOOSES the factorization (among admissible forms, which factors are most estimable?). Dimensional gives a type-checking veto; multiplicative gives a value-finding move. Often sequential — first check units (lex-ds73b), then estimate magnitudes via decomposition (lex-yg484), then plug numbers (lex-axa6h)"
+  - "operationally distinct from lex-axa6h order-of-magnitude-approximation: dimensional analysis works WITHOUT NUMERIC ESTIMATES — pure type-checking on units; order-of-magnitude works WITHOUT DIMENSIONAL STRUCTURE — pure magnitude on assumed factors. Complementary lenses on the same Fermi problem"
+critical-questions:
+  - "are the units consistent across all terms? Buckingham π requires every term to have the same dimensions. A formula with dimensionally-inconsistent terms is wrong before any deeper analysis — the discipline: check before trusting"
+  - "are dimensionless ratios (Reynolds, Mach) doing the right work? dimensionless numbers parameterize regime; the same dimensionless value at two scales predicts similar behavior (similitude). If the number is high here and low there, regimes differ and analogies break"
+  - "is the dimensional veto sufficient, or do you also need magnitudes? dimensional analysis vetoes WRONG forms but doesn't choose between right ones. T ∝ √(L/g) is right up to a dimensionless constant — getting the constant requires more (lex-axa6h or lex-yg484)"
+  - "is this distinct from lex-axa6h order-of-magnitude-approximation? dimensional analysis works WITHOUT NUMERIC ESTIMATES (type-check on units); order-of-magnitude works WITHOUT DIMENSIONAL STRUCTURE (magnitude on assumed factors). Complementary lenses on the same Fermi problem"
+status: active

@@ -1,0 +1,21 @@
+id: lex-wd78z
+name: giving-an-answer-can-expose-more-than-asking-the-question
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Asking a question carries an obvious, well-known risk: it can reveal what you don't already know. The Ferengi Rules of Acquisition point at a less obvious, opposite risk — 'Sometimes the only thing more dangerous than a question is an answer.' Supplying an answer can expose capability, position, or vulnerability the asker never had to show at all, since answering requires demonstrating the knowledge rather than just requesting it. Before treating silence as the safer move in an information exchange, check which side of the exchange is actually doing the more exposing work — asking is not always the riskier half of the interaction."
+related: []
+evokes: [ferengi, rules-of-acquisition, star-trek, information-asymmetry, exposure-risk]
+lineage:
+  - source: primary
+    text: star-trek-ds9-rules-of-acquisition-208
+    citation: "Star Trek: Deep Space Nine, Rule of Acquisition #208, spoken dialogue from 'Ferengi Love Songs' (season 5, episode 20, 1997); also cited via Star Trek: Prodigy, 'First Con-tact.' Verified against Memory Alpha's sourced compilation of on-screen Rules of Acquisition dialogue (a wiki page functioning as a transcript aggregator with per-rule episode citations, not quoted for its own editorial framing)."
+    quote: "Sometimes the only thing more dangerous than a question is an answer."
+canonical-instances:
+  - "A company facing a competitor's pointed question about its product roadmap often protects itself better by declining to answer, even though staying silent looks evasive. An honest reply would hand over exactly the strategic detail the question was fishing for in the first place."
+  - "In a legal deposition, a lawyer's advice to answer only the literal question asked, and no more, exists precisely because an unprompted elaboration (a voluntary answer beyond what was required) routinely exposes more than the question itself demanded."
+critical-questions:
+  - "Does refusing to answer carry its own exposure risk — does declining to respond sometimes reveal exactly as much as answering would, just through a different channel (the refusal itself becomes informative)?"
+  - "Is there a reliable way to tell in advance which specific answers will expose more than their questions, or does this only become visible in hindsight once the cost of a given answer has already been paid?"
+  - "Does this claim depend on an adversarial context (a negotiation, an interrogation), or does it generalize to cooperative information exchange where withholding an answer has its own cost to a shared goal?"
+status: active

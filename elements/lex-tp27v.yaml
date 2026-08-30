@@ -1,0 +1,22 @@
+id: lex-tp27v
+name: dependence-is-measured-by-who-controls-what-you-receive
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "Economic independence isn't measured by whether a party labors, but by whether what they receive is causally tied to what they give, rather than to another party's discretion. Gilman states the test through a comparison: 'The horse, in his free natural condition, is economically independent. He gets his living by his own exertions, irrespective of any other creature. The horse, in his present condition of slavery, is economically dependent... his exertions, though strenuous, bear no direct relation to his living. In fact, the horses who are the best fed and cared for and the horses who are the hardest worked are quite different animals. The horse works, it is true; but what he gets to eat depends on the power and will of his master. His living comes through another. He is economically dependent.'"
+related: []
+evokes: [women-and-economics, chapter-i, his-living-comes-through-another-he-is-economically-dependent, the-horse-in-his-present-condition-of-slavery, dependence-as-discretion-not-labor]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-i
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter I. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "The horse, in his free natural condition, is economically independent. He gets his living by his own exertions, irrespective of any other creature. The horse, in his present condition of slavery, is economically dependent. He gets his living at the hands of his master; and his exertions, though strenuous, bear no direct relation to his living. In fact, the horses who are the best fed and cared for and the horses who are the hardest worked are quite different animals. The horse works, it is true; but what he gets to eat depends on the power and will of his master. His living comes through another. He is economically dependent."
+canonical-instances:
+  - "A gig-economy worker who logs long, exhausting hours but whose pay depends entirely on an opaque, unilaterally-adjustable algorithm rather than on any fixed relationship between effort and earnings is economically dependent in exactly this sense, regardless of how hard they visibly work."
+  - "Two employees at the same company put in identical hours and quality of work, but one's compensation is set by a transparent, formula-based system while the other's depends entirely on a manager's private discretion -- only the first is economically independent by this test, even though both are equally industrious."
+  - "A tenant farmer who works a landlord's fields all season, but whose share of the harvest is set at the landlord's sole discretion each year rather than by any fixed, predictable arrangement, remains economically dependent no matter how productive the harvest is, because the link between effort and reward runs through someone else's will."
+critical-questions:
+  - "Is this test too strict in practice, given that almost every worker's pay ultimately depends on some employer's discretion at some level -- salary negotiations, raises, bonuses -- does the test end up classifying nearly everyone as economically dependent, draining the category of its diagnostic power?"
+  - "Does the test conflate two different things: having your compensation set by another party's decision, true of most wage labor, and having your compensation bear no relation to your effort at all, true of arbitrary charity -- most real employment relationships sit somewhere between these poles, which the horse analogy doesn't clearly locate."
+  - "The horse's exertions are strenuous yet still classified as dependent labor -- does this framing risk making the concept of economic independence so narrow that almost no employed person, in any economic system, could ever qualify as independent by it?"
+status: active

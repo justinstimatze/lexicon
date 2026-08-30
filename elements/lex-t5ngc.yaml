@@ -1,0 +1,18 @@
+id: lex-t5ngc
+name: being-equally-warm-to-everyone-forecloses-real-loyalty-to-anyone
+type-in: state
+type-out: claim
+_tier: atomic
+agent-instruction: "Someone who is warmly agreeable to every person they meet, with no variation and no exceptions, cannot also be exclusively loyal to any one of them — real attachment requires favoring some people over others, so universal pleasantness and genuine devotion are in tension rather than compatible virtues. When someone's warmth toward you never varies from their warmth toward everyone else, that consistency is itself the tell of impersonal warmth."
+related: []
+evokes: [galef, kotowaza, japanese-proverbs, universal-agreeableness-precludes-exclusive-loyalty, warmth-that-is-not-personal]
+lineage:
+  - source: primary
+    text: galef-1987-even-monkeys-fall-from-trees
+    citation: "David Galef (compiler and translator), *Even Monkeys Fall From Trees: And Other Japanese Proverbs*, illustrations by Jun Hashimoto, foreword by Edward G. Seidensticker (Tuttle Publishing, copyright 1987; ebook ISBN 978-1-4629-0318-4), Proverb No. 79. Verified verbatim against a direct extraction of the held copy."
+    quote: "Hoppō bijin wa hokujō. An eight-sided beauty is coldhearted."
+canonical-instances:
+  - "A manager who praises every member of the team with identical enthusiasm, regardless of what any of them actually did, is trusted by none of them specifically — the praise is real, but it isn't evidence of being seen."
+critical-questions:
+  - "Is the person's universal agreeableness actually a substitute for real attachment, or a defensible boundary-keeping choice not to play favorites — and how would those two look different from the outside?"
+status: active

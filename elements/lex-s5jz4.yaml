@@ -1,0 +1,21 @@
+id: lex-s5jz4
+name: visible-partial-concealment-signals-graded-authority
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When an authoritative text or symbol is presented with part of its content openly stated and part conspicuously covered, treat the act of covering as doing work of its own, separate from whatever content it hides. Waite reads the High Priestess's scroll this way: it bears the word Tora, and the scroll is partly covered by her mantle 'to shew that some things are implied and some spoken.' The visible act of covering advertises that a second tier of meaning exists for whoever is positioned to receive it. Plain secrecy hides that anything is being withheld at all; this is a different move, since the withholding itself is on display."
+related: [lex-8hkeh]
+evokes: [waite, pictorial-key-to-the-tarot, high-priestess, graded-disclosure, veiled-authority]
+lineage:
+  - source: primary
+    text: waite-1910-pictorial-key-high-priestess
+    citation: "Arthur Edward Waite, The Pictorial Key to the Tarot (Rider, 1910), Part II Section 2, 'The High Priestess.' The primary text behind the Rider-Waite-Smith deck's card meanings, illustrated by Pamela Colman Smith; not to be confused with L. W. De Laurence's 1918 plagiarized republication of this same book under his own name. Verified verbatim against a direct extraction of the full text hosted at sacred-texts.com, clean digital text, no OCR."
+    quote: "The scroll in her hands is inscribed with the word Tora, signifying the Greater Law, the Secret Law and the second sense of the Word. It is partly covered by her mantle, to shew that some things are implied and some spoken."
+canonical-instances:
+  - "A classified document released with visible redaction bars communicates that specific information exists and was withheld, which is itself information the reader gets to keep. A plainly secret document that's leaked in full, or destroyed outright, carries no equivalent signal."
+  - "operationally distinct from lex-8hkeh (a message borne openly and universally, with its interpretation held by a separate office): that atom concerns two capacities living in different places. This atom concerns a single object whose own visible design marks a boundary between what it says and what it withholds."
+critical-questions:
+  - "Does the concealed portion need to contain anything at all for the signal to work, or does a scroll partly covered over nothing but blank material still function as an authority claim?"
+  - "Who decides how much gets covered, and does that same authority get to decide who eventually gains access to what's hidden?"
+  - "Can this move be faked — covering an unremarkable or empty portion purely to manufacture the appearance of deeper meaning — and if so, what would distinguish a genuine graded disclosure from that kind of performance?"
+status: active

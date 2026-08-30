@@ -1,0 +1,19 @@
+id: lex-wb935
+name: prestige-signaling-triggers-capitulation-without-any-actual-contest
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A purely representational display of scale or grandeur, with no direct test of capability behind it, can end a confrontation before it starts, if the party sizing up the display infers overwhelming strength from it and flees rather than verify. In the Jataka's tale of the boastful challenger, an invader who has never lost an argument sees only the ornate gate-tower of his opponent's dwelling and concludes: 'If this be the gateway, what will the dwelling be like!' and withdraws without ever meeting the person inside. A king besieging a rival city has the identical reaction to a mere architectural impression: 'With so glorious a king we shall never be able to fight!' In both cases, the actual capability behind the gate was never tested — the surface signal alone was sufficient to end the contest."
+related: []
+evokes: [jataka, dukanipata, palayi-jataka, dutiya-palayi-jataka, a-surface-signal-of-grandeur-ends-a-contest-untested, capitulation-from-inference-rather-than-verification]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-palayi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 229, Palayi-jataka (told again with the identical mechanism at No. 230, Dutiya-palayi-jataka, in this same chunk). Verified verbatim against a direct extraction of the held copy."
+    quote: "If this be the gateway, what will the dwelling be like!... With so glorious a king we shall never be able to fight!"
+canonical-instances:
+  - "A smaller competitor preparing to challenge a market leader's pricing sees only the leader's lavish new headquarters and glossy annual report, and quietly abandons the challenge entirely, never learning that the company's actual finances behind that facade were far more fragile than the building suggested."
+critical-questions:
+  - "Is this a failure of the fleeing party, or a genuinely reasonable heuristic — when direct verification of an opponent's strength is costly or dangerous, is inferring capability from a visible, expensive display actually a defensible shortcut rather than a mistake?"
+  - "Does this tactic work in reverse as a deliberate strategy — could a weaker party invest specifically in an impressive surface display, knowing that opponents reliably infer strength from it without checking, to deter challenges they couldn't actually win?"
+status: active

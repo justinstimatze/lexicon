@@ -1,0 +1,19 @@
+id: lex-gs65d
+name: a-superiors-offhand-remark-becomes-binding-policy-below
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "In a power-asymmetric relationship, a superior's casually expressed, non-binding concern gets converted by anxious subordinates into a formal, stringent policy overnight — a CEO mentions rising rental-car costs, and by the next day a strict mileage-monitoring system replaces what had been casual practice. The subordinates aren't misreading the boss's intent; they're rationally over-responding, because the cost of under-reacting to a superior's mood (being seen as ignoring the boss) is worse than the cost of over-implementing a policy nobody explicitly asked for. The amplification is a predictable function of the power gap itself, not a communication failure — the bigger the asymmetry, the smaller a remark needs to be to trigger a large downstream policy response."
+related: []
+evokes: [jackall-moral-mazes, "when he sneezes we all catch colds", asymmetric-amplification-of-a-superiors-remark]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch2-offhand-remark-becomes-policy
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 2, Section II."
+    quote: "the CEO, new at the time, expressed mild concern about the rising operating costs of the company's fleet of rented cars. The following day, a stringent system for monitoring mileage replaced the previous casual practice."
+canonical-instances:
+  - "A department head mentions in passing that a report 'seemed a little long,' and by the following week every report from that team is capped at a fixed page limit nobody was ever told to set."
+critical-questions:
+  - "Is the over-implementation actually irrational, or is it a correctly-calibrated response to a power asymmetry where the downside of under-reacting genuinely does exceed the downside of over-reacting?"
+status: active

@@ -1,0 +1,22 @@
+id: lex-kzjdw
+name: a-perceived-quality-can-improve-while-its-literal-quantity-falls
+type-in: state
+type-out: claim
+_tier: atomic
+agent-instruction: "When a technique is credited with increasing some quality you can perceive (moistness, freshness, strength), check whether the literal underlying quantity people assume drives that perception actually increased, or whether a different physical change is doing the perceptual work while the literal quantity moves the opposite direction. Weigh, measure, or otherwise instrument the literal quantity directly rather than trusting that a perceived improvement confirms the intuitive causal story. Once the real physical variable is identified, optimize for that lever instead of the assumed one."
+related: [lex-mr4nb, lex-ccaxt]
+scaffolds-from: [lex-mr4nb]
+evokes: [americas-test-kitchen, guy-crosby, braising-doesnt-add-moisture, perceived-vs-measured, tenderness-reads-as-moistness]
+lineage:
+  - source: primary
+    text: americas-test-kitchen-crosby-2012-science-of-good-cooking
+    citation: "The Editors at America's Test Kitchen and Guy Crosby, The Science of Good Cooking: Master 50 Simple Concepts to Enjoy a Lifetime of Success in the Kitchen (America's Test Kitchen, 2012), Concept 8, 'Tough Cuts Like a Covered Pot,' p. 299."
+    quote: "It's a common misconception that braising adds moisture to meat as it cooks. However, this experiment demonstrates that moisture is being pulled out of the meat and into the surrounding liquid—not the other way around. So why, then, does braised meat seem so moist? Gentle cooking helps break down the meat's connective tissue and collagen into gelatin, which lubricates and tenderizes the muscle fibers. The resulting soft, tender texture is perceived as moist."
+canonical-instances:
+  - "Vacuum-sealed samples of beef chuck were weighed before and after braising in their own bags: the meat lost an average of 25 grams of weight (p. 298), and the surrounding liquid gained the same 25 grams — direct proof the meat was losing moisture overall rather than gaining it. Braised meat is still widely described and experienced as 'moist,' because the collagen-to-gelatin conversion that made it tender is the thing people are actually tasting when they call it moist; literal water content has nothing to do with it."
+critical-questions:
+  - "For this specific quality claim, has anyone actually measured the literal quantity — weight, moisture content, concentration — directly, or is the perceived quality being used as an informal proxy measurement for it?"
+  - "What is the real physical variable driving the perception, if not the one people assume, and does knowing that change which lever should be pulled to improve the outcome further, such as optimizing for tenderness rather than for added liquid?"
+  - "Are there cases where the literal quantity and the perceived quality move together, making this divergence the exception rather than the rule — and if so, what distinguishes when they'll diverge from when they won't?"
+status: active
+severity-tier: info

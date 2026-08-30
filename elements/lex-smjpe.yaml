@@ -1,0 +1,22 @@
+id: lex-smjpe
+name: theory-answers-the-wrong-question-for-the-operator
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A formal theory of a system can be entirely correct and still leave its operator without what they need. Theories of how a thing is built or why it works tend to answer the question a designer or engineer would ask. A pilot, a driver, a surgeon mid-procedure needs a different question answered: what to watch, right now, to keep the thing under control. Before dismissing a theory as wrong when it fails to help a practitioner, check which of these two questions it was actually built to answer. The fix is rarely discarding the theory — it's building or seeking out a second, operator-facing account of the identical underlying phenomenon, aimed at the decision points that actually matter in the moment."
+related: [lex-58ynk]
+evokes: [stick-and-rudder, theory-of-flight, angle-of-attack, felt-mechanics-vs-textbook-theory, constructor-vs-operator-knowledge]
+lineage:
+  - source: primary
+    text: langewiesche-stick-and-rudder-ch1-theory-of-the-wrong-thing
+    citation: "Wolfgang Langewiesche, Stick and Rudder: An Explanation of the Art of Flying (McGraw-Hill, ISBN 0-07-036240-8), Chapter 1 'How a Wing Is Flown,' opening pages."
+    quote: "What is wrong with \"Theory of Flight,\" from the pilot's point of view, is not that it is theory. What's wrong is that it is the theory of the wrong thing — it usually becomes a theory of building the airplane rather than of flying it. It goes deeply — much too deeply for a pilot's needs — into problems of aerodynamics; it even gives the pilot a formula by which to calculate his lift! But it neglects those phases of flight that interest the pilot most. It often fails to show the pilot the most important fact in the art of piloting — the Angle of Attack, and how it changes in flight."
+canonical-instances:
+  - "Langewiesche's own remedy, stated in the same passage: the whole book tries to refocus 'Theory of Flight' onto what actually matters to flying, building a second theory around the pilot's real decision points — angle of attack, the feel of the controls — alongside the aerodynamic one already on the shelf."
+  - "Medical education's basic-science-vs-clinical-reasoning gap: a correct account of cellular pathophysiology answers 'how does this disease work at the mechanism level,' while a clinician at the bedside needs 'given these symptoms, what do I do next' — both can be taught rigorously and correctly, and neither substitutes for the other."
+  - "operationally distinct from lex-58ynk knowledge-of-particular-circumstances-resists-centralization (Hayek): Hayek's mechanism is about WHO can access certain knowledge — dispersed local knowledge resists being collected by a central planner, no matter how good the planner's theory is. This atom's mechanism is about WHICH QUESTION a correct, fully-accessible theory was built to answer — the theory can be complete and still aimed at the wrong decision-maker's need. A theory can pass the Hayek test (fully centralized, fully explicit) and still fail this one."
+critical-questions:
+  - "Is the theory actually wrong, or is it correct-but-misaimed? Conflating the two leads to discarding good theoretical work when the real fix is building a second, operator-facing account alongside it, not replacing the first."
+  - "Who was the theory originally built for, and has that audience quietly drifted? A theory built for a designer or engineer often gets taught to operators unchanged, on the assumption that understanding construction implies understanding operation — Langewiesche's whole complaint is that it doesn't."
+  - "What is the operator's actual moment-to-moment decision point, and does any existing account address it directly? If the honest answer is no, that's the gap this atom names, and the theory-of-construction being correct doesn't fill it."
+status: active

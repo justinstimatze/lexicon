@@ -1,0 +1,19 @@
+id: lex-smrmr
+name: splitting-a-lie-across-two-true-statements-engineers-deniability
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a group jointly commits an act neither individual will own, check whether the deception is being engineered by splitting the truth across two separately accurate statements rather than by either party lying outright. Aesop's 'The Butcher and His Customers' has two men jointly take a piece of meat, then each answer separately and truthfully: 'the one who had taken it said he hadn't got it, and the one who had got it said he hadn't taken it.' Each sentence is literally accurate on its own terms, and the compound effect is a fully successful deception with no single liar to hold accountable — the stated moral names the risk directly: 'Prevarication often amounts to perjury.'"
+related: []
+evokes: [aesop, the-butcher-and-his-customers, distributed-plausible-deniability, splitting-truth-across-two-actors]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-butcher-and-his-customers
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Butcher and His Customers.' Verified verbatim against a direct extraction of the held copy."
+    quote: "the one who had taken it said he hadn't got it, and the one who had got it said he hadn't taken it."
+canonical-instances:
+  - "two departments each truthfully say 'I didn't approve that' and 'I didn't implement that' about a joint decision neither will own, reproducing the exact compartmentalized-deception structure with no individual liar to point to."
+critical-questions:
+  - "Does exposing this kind of split deception require questioning both parties together, so the two individually-true statements can be compared and shown to jointly conceal the truth, or is there a way to catch it from either statement alone?"
+  - "Where does responsibility actually sit when a lie is distributed this way — does each party bear full responsibility for the compound deception, or only for the narrow, technically accurate part they personally stated?"
+status: active

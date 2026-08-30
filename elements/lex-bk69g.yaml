@@ -1,0 +1,22 @@
+id: lex-bk69g
+name: erasing-the-category-for-moral-ambiguity-hides-it-rather-than-removes-it
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "Removing the cultural category that names and holds moral ambiguity doesn't eliminate the ambiguity from actual human behavior, it just removes the conscious framework that would let people recognize their own ambiguous actions as ambiguous, which tends to produce cruelty performed under the belief that it's pure righteousness. Hyde argues against the assumption that losing trickster figures, and with them the ancient category of sacred amorality, represents moral progress: 'the erasure of trickster figures, or the unthinking confusion of them with the Devil, only serves to push the ambiguities of life into the background. We may well hope our actions carry no moral ambiguity, but pretending that is the case when it isn't does not lead to greater clarity about right and wrong; it more likely leads to unconscious cruelty masked by inflated righteousness.' Trickster figures gave a culture an explicit place to locate and examine the fact that good and evil are often tangled together in the same act; without that place, the tangling doesn't disappear, it just goes unexamined, and unexamined moral ambiguity is what lets people commit real harm while genuinely believing they're acting purely for good. Diagnostic move: when a person, institution, or culture insists its actions carry no moral ambiguity at all, treat that insistence as a warning sign rather than a reassurance, since the absence of a conscious category for ambiguity doesn't mean the ambiguity is gone, it usually means it's operating unexamined, and unexamined ambiguity is what inflated righteousness tends to mask."
+related: [lex-ndkkb]
+scaffolds-from: [lex-ndkkb]
+evokes: [hyde-trickster-makes-this-world-slipping-the-trap-of-appetite, sacred-amorality, unconscious-cruelty-masked-by-inflated-righteousness, the-erasure-of-trickster-figures]
+lineage:
+  - source: primary
+    text: hyde-erasing-trickster-figures-pushes-moral-ambiguity-into-unconscious-cruelty
+    citation: "Lewis Hyde, Trickster Makes This World: Mischief, Myth, and Art (Farrar, Straus and Giroux, 1998; Canongate Books 2008 edition), Introduction. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "It might be argued that the passing of such a seemingly confused figure marks an advance in the spiritual consciousness of the race, a finer tuning of moral judgment; but the opposite could be argued as well—that the erasure of trickster figures, or the unthinking confusion of them with the Devil, only serves to push the ambiguities of life into the background. We may well hope our actions carry no moral ambiguity, but pretending that is the case when it isn’t does not lead to greater clarity about right and wrong; it more likely leads to unconscious cruelty masked by inflated righteousness."
+canonical-instances:
+  - "A well-intentioned charitable organization that has stripped its culture of any framework for acknowledging that its interventions might have mixed or harmful effects ends up causing real damage to the communities it serves, sustained by the staff's genuine, uncomplicated belief that their work is purely good."
+  - "A company culture that rewards only unambiguous, confident decision-making and treats any acknowledgment of moral complexity as weakness produces leaders who make genuinely harmful calls while remaining fully convinced they've acted with total integrity, having no internal category left for recognizing when their own actions might be doing harm."
+critical-questions:
+  - "Is Hyde's causal claim, that removing the trickster category specifically produces unconscious cruelty, actually demonstrated, or is it a plausible-sounding assertion that could just as easily run the other direction, with cruelty producing a need to simplify moral categories rather than the reverse?"
+  - "Does having an explicit cultural category for moral ambiguity actually reduce real-world cruelty, or could a culture retain the category in name while still committing the same harms, suggesting the category alone isn't sufficient protection?"
+  - "Is there a meaningful difference between a culture that never developed a category like trickster in the first place and one that had it and lost it, and does Hyde's diagnostic apply equally to both, or specifically to the loss?"
+status: active

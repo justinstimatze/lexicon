@@ -1,0 +1,19 @@
+id: lex-gq9bp
+name: declining-recruitment-into-an-ongoing-enforcement-role
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Asked implicitly to become a standing watchdog over someone's behavior, a party can refuse the open-ended enforcement relationship and push responsibility for continued self-governance back onto the individual, rather than accept an ongoing monitoring role. In the Jataka's tale of Bhisapuppha, the goddess refuses to keep watching and correcting the ascetic: \"I am not here to serve you, no hireling folk are we: Find, Brother, for yourself the path to reach felicity.\""
+related: []
+evokes: [jataka, chanipata, bhisapuppha-jataka, declining-ongoing-enforcement-role, responsibility-returned-to-the-individual]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-bhisapuppha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 392, Bhisapuppha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Iam not here to serve you, no hireling folk are we: Find, Brother, for yourself the path to reach felicity."
+canonical-instances:
+  - "A mentor who's given one round of pointed feedback declines a mentee's request to review every future decision before it's made, telling them the judgment now has to be their own."
+critical-questions:
+  - "Does declining an ongoing enforcement role abandon someone who genuinely needed sustained oversight, or does it correctly refuse to let them outsource self-discipline indefinitely?"
+  - "Is there a difference between refusing to be a permanent watchdog and refusing to ever check in again — does the goddess's refusal rule out future occasional correction, or only a standing arrangement?"
+status: active

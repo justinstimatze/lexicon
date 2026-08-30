@@ -1,0 +1,19 @@
+id: lex-8bmsg
+name: feigned-final-compliance-conceals-a-preemptive-counter-strike
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Recognizing that negotiation cannot save them, a person facing betrayal can decide to feign surrender while actually preparing to strike first — abandoning persuasion for preemption once persuasion is recognized as futile. In the Jataka''s tale of Sulasa, she stops pleading and works out how to strike before he does: "Sulasa''s wits rose to the occasion, and thinking, "This robber will not give me my life, but I''ll take his life first by throwing him down the precipice in some way,""'
+related: []
+evokes: [jataka, atthanipata, sulasa-jataka, preemptive-strike, feigned-compliance-as-setup]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sulasa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 419, Sulasa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Sulasa's wits rose to the occasion, and thinking, \"This robber will not give me my life, but I'll take his life first by throwing him down the precipice in some way,\""
+canonical-instances:
+  - "A founder being pushed out by an investor stops arguing for a better exit deal, appears to agree to every term, and uses the resulting calm to quietly move control of the company's key accounts before the paperwork is signed."
+critical-questions:
+  - "What is the exact signal that tells someone negotiation has become futile and it's time to switch from persuasion to preemption — how would they know they've crossed that line?"
+  - "Does abandoning honest negotiation for a feigned compliance carry a cost even when it succeeds, in terms of what becomes possible afterward?"
+status: active

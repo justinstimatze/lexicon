@@ -1,0 +1,31 @@
+id: lex-b4vxq
+name: auxiliary-element-introduction
+type-in: question
+type-out: question
+_tier: atomic
+agent-instruction: "When a proof or derivation seems stuck, surface Pólya's auxiliary-element introduction — adding a new line, point, variable, or term (not given but constructed) often unlocks the chain; the auxiliary opens what direct manipulation can't."
+related: [lex-9akfh, lex-kkr43, lex-spk4s]
+evokes: [add-a-helper, scaffold-then-discard, fresh-variable, draw-an-extra-line]
+lineage:
+  - source: primary
+    text: polya-1945
+    citation: "George Polya, How to Solve It (Princeton UP 1945; 2nd ed. 1957). Front-matter 'How to Solve It' chart p.xvi names the auxiliary-element move under DEVISING A PLAN ('Should you introduce some auxiliary element in order to make its use possible?'). The dictionary entry 'Auxiliary elements' (pp.46-47) supplies the typology: auxiliary lines in geometry, auxiliary unknowns in algebra, auxiliary theorems in proofs — and supplies a reason structure (recollected related problem requires an element not yet in the figure; going back to definitions; bright idea). Companion entry 'Auxiliary problem' (pp.50-51) supplies the algebraic example (x⁴ − 13x² + 36 = 0 solved by introducing y = x²). (OCR'd via scripts/ocr-pdf.py)"
+    quote: "You may be obliged to consider auxiliary problems if an immediate connection cannot be found. [...] Should you introduce some auxiliary element in order to make its use possible? [p.xvi chart, DEVISING A PLAN — the canonical Polya question naming the auxiliary-element move.] Auxiliary elements. There is much more in our conception of the problem at the end of our work than was in it as we started working. As our work progresses, we add new elements to those originally considered. An element that we introduce in the hope that it will further the solution is called an auxiliary element. There are various kinds of auxiliary elements. Solving a geometric problem, we may introduce new lines into our figure, auxiliary lines. Solving an algebraic problem, we may introduce an auxiliary unknown (AUXILIARY PROBLEMS, 1). An auxiliary theorem is a theorem whose proof we undertake in the hope of promoting the solution of our original problem. [pp.46-47 'Auxiliary Elements' dictionary entry — the three-way typology (lines/unknowns/lemmas) is the canonical Polya naming of this atom's move; the geometry-extra-line and algebra-fresh-variable canonical-instances both trace here.] Example. Find x, satisfying the equation x⁴ − 13x² + 36 = 0. If we observe that x⁴ = (x²)² we may see the advantage of introducing y = x². We obtain now a new problem: Find y, satisfying the equation y² − 13y + 36 = 0. The new problem is an auxiliary problem; we intend to use it as a means of solving our original problem. The unknown of our auxiliary problem, y, is appropriately called auxiliary unknown. [p.51 'Auxiliary Problem' §1 Example — the canonical algebra-substitution example; same shape as u-substitution in calculus.]"
+  - source: practitioner
+    text: algebra-substitution-tradecraft
+    citation: "the 'let u = ...' move in calculus / algebra — introducing a fresh variable that simplifies the surrounding expression (e.g., u-substitution in integration)"
+    quote: "[cross-attestation — Polya primary verbatim above carries the atom; the calculus u-substitution and the modern introduce-temporary-variable refactor are the same move in different surfaces]"
+  - source: practitioner
+    text: polya-decomposition-pass
+    citation: "promoted from cross-attestation: Polya (geometry / algebra), software (introduce-temporary-variable refactor), proof tradecraft (auxiliary lemma); shape-related to lex-9akfh decoupling-via-indirection (both add an extra-thing for leverage; auxiliary-element is local-and-disposable, indirection is structural-and-persistent)"
+canonical-instances:
+  - "geometry: a triangle problem becomes tractable when you draw an auxiliary line (median, altitude, parallel) that wasn't in the original figure"
+  - "u-substitution in integration: introducing u = f(x) makes ∫g(f(x))f'(x)dx into ∫g(u)du, visibly simpler"
+  - "introduce-temporary-variable refactor: extract a sub-expression to a named variable, see the larger structure that was hidden by inline-ness"
+  - "critical distinction from lex-9akfh decoupling-via-indirection: the auxiliary element is INTRODUCED for the duration of solving, OFTEN DISCARDED after; the indirection layer is STRUCTURAL and PERSISTS"
+critical-questions:
+  - "is the auxiliary element pivotal, or decorative? the move only pays off when the element MAKES STRUCTURE VISIBLE that was hidden. An auxiliary line that doesn't connect the unknown to the data is clutter; an auxiliary variable that doesn't simplify the surrounding expression is bookkeeping. Name what the element makes visible"
+  - "is the element discardable once the work is done? Polya's frame: the auxiliary is INTRODUCED for solving. If it persists in the final solution (renamed-variable everyone has to track), it has been promoted from auxiliary to structural — which may be fine, or may signal that the simpler form was sacrificed"
+  - "is this distinct from lex-9akfh decoupling-via-indirection? auxiliary-element is LOCAL and OFTEN DISPOSABLE; indirection is STRUCTURAL and PERSISTS. Both 'add an extra thing for leverage' but the lifecycle differs — auxiliary is solving-only; indirection is in the system forever"
+  - "what's the alternative if the auxiliary element doesn't help? Polya's algorithm: try, and if it doesn't help, back out. Auxiliary elements are exploratory — the discipline is to commit to one, test it, and abandon-without-shame if it doesn't reveal what you hoped"
+status: active

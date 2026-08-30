@@ -1,0 +1,20 @@
+id: lex-huwf3
+name: a-diagnostic-tools-value-is-conditional-on-real-misalignment
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "A framework built to surface hidden misalignment and challenge sacred cows only creates value when there's genuinely something hidden to find. Applying it when the environment truly hasn't changed doesn't produce a harmless null result -- it generates real friction, since surfacing hard questions makes trouble for whoever raises them, and there's no discovery on the other end to justify that cost. Freeman states the condition directly: 'if the environment of an organization truly has not changed, then a stakeholder approach is probably not appropriate.' At AS1, managers pushing the stakeholder approach repeatedly ran into colleagues who saw the exercise itself as an attempt to 'stir things up' and 'make a reputation' -- and where nothing had genuinely shifted, that read wasn't paranoid, it was often correct. A diagnostic tool's cost is fixed regardless of outcome; its benefit is entirely conditional on there being something real for it to expose."
+related: []
+evokes: [freeman-1984-strategic-management, chapter-6, openness-of-the-system, sacred-cows, when-not-to-use-a-framework]
+lineage:
+  - source: primary
+    text: freeman-1984-strategic-management-ch6
+    citation: "R. Edward Freeman, Strategic Management: A Stakeholder Approach (Pitman, 1984), Chapter 6 'Implementing and Monitoring Stakeholder Strategies,' section 'Openness of the System.'"
+    quote: "A stakeholder approach is likely to uncover 'sacred cows,' and managers who do the uncovering are not always the winners. The openness of the system is not always a positive attribute. Closed systems and the rules that govern them often work well, and work quite efficiently. If the environment of an organization truly has not changed, then a stakeholder approach is probably not appropriate. Managers at ASI constantly butted their heads up against others who simply refused to believe that a repositioning of Basic was necessary, and that business as usual was the order of the day. The attempt to change Basic Product was seen as an effort to 'stir things up' and to 'make a reputation' for certain managers."
+canonical-instances:
+  - "A newly appointed manager runs a full stakeholder-mapping exercise on a team that has operated smoothly and unchanged for a decade, surfacing a list of tensions and sacred cows nobody asked to have named. The team doesn't discover anything it needed to know; it discovers a manager who seems determined to justify their own hire by finding problems that were never really there."
+  - "A consultant applies a rigorous assumption-audit to a product line whose market genuinely hasn't shifted in years, and produces a stack of challenged assumptions that all turn out to still hold. The audit cost real hours and generated real anxiety among the team being audited, for a conclusion that changed nothing."
+critical-questions:
+  - "How can managers tell, before running the exercise, whether the environment has genuinely changed enough to justify it -- is there a cheap pre-check, or does confirming the need for the tool require most of the cost of the tool itself?"
+  - "Does the described colleague reaction -- reading the exercise as reputation-building rather than genuine inquiry -- ever misfire in the other direction, dismissing a legitimate stakeholder analysis as unnecessary stirring precisely because its findings are inconvenient?"
+status: active

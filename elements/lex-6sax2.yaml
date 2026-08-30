@@ -1,0 +1,19 @@
+id: lex-6sax2
+name: recognizing-a-principals-bad-faith-favors-exit-over-continued-compliance
+type-in: situation
+type-out: posture
+_tier: atomic
+agent-instruction: "Once a subordinate correctly reads that a superior's escalating demands are actually aimed at destroying them rather than testing them, the rational response shifts from continued compliance to immediate exit, since no further performance can satisfy a demand that was never really about performance. In the Jataka's tale of the jealous king, the mahout realizes partway through the escalating tests that the king intends the elephant's death, not its training. Rather than attempt the final impossible feat in good faith, he tells the elephant the truth and the two of them simply leave together, refusing to participate any further in a process whose real goal had nothing to do with the terms it was presented in."
+related: [lex-ebb6q]
+evokes: [jataka, ekanipata, dummedha-jataka, recognizing-bad-faith-favors-exit-over-compliance, no-performance-satisfies-a-demand-that-was-never-real]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dummedha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 122, Dummedha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"My son, the king wants you to fall over and get killed. He is not worthy of you. If you have power to journey through the air, rise up with me upon your back and fly through the air to Benares.\""
+canonical-instances:
+  - "A contractor realizes midway through a client's third round of 'just one more revision' requests that no version will ever be approved, and rather than submit a fourth round of free work, walks away from the contract entirely rather than keep treating an unwinnable demand as a legitimate one."
+critical-questions:
+  - "How does someone distinguish a genuinely bad-faith escalating demand from an unusually rigorous but legitimate one before deciding to walk away — is there a risk of exiting prematurely from something that would have resolved fairly?"
+  - "Does the mahout's option to simply leave depend on having somewhere else to go and a means of leaving, and what happens to this response when the subordinate has no comparable exit available?"
+status: active

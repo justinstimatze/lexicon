@@ -1,0 +1,22 @@
+id: lex-h3n6z
+name: interrupting-an-action-at-its-first-syllable-forecloses-it
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Musashi's 'hold down a pillow' technique: don't wait for an opponent's move to complete before responding — check the attack at the very first fragment of its formation (the 'at…' before 'attack' fully lands, the 'ju…' before the jump) so the move never gets to happen, rather than merely getting parried after it does. The escalation matters: mere defensive suppression ('holding down') is only half the technique — the full version uses the same early-interruption timing to positively direct the opponent's actions ('command him directly'), not just block them. Apply this wherever you can recognize an action's earliest, still-reversible fragment — a sentence's first clause, a process's first step — and act there instead of waiting for the completed form."
+related: []
+evokes: [hold-down-a-pillow, musashi-five-rings, checking-at-the-syllable, nip-it-in-the-bud, preemption-not-parrying]
+lineage:
+  - source: primary
+    text: musashi-1645-to-hold-down-a-pillow
+    citation: "Miyamoto Musashi, The Book of Five Rings (Go Rin no Sho, 1645), trans. Victor Harris (Allison & Busby, 1974) — Feedbooks edition, Chapter 3, 'The Fire Book,' section 'To Hold Down a Pillow.' Translator confirmed as Harris via the Wikipedia 'The Book of Five Rings' article's own footnoted citation, cross-checked against the local Wikipedia ZIM archive (see lex-y53nq's lineage for the full verification note). 'The spirit is too check his attack' reproduced as printed in this edition — evidently a typo for 'to check,' not silently corrected."
+    quote: "'\"To Hold Down a Pillow\" means not allowing the enemy's head to rise. [...] you must stop the enemy as he attempts to cut; you must push down his thrust, and throw off his hold when he tries to grapple. This is the meaning of \"to hold down a pillow\". When you have grasped this principle, whatever the enemy tries to bring about in the fight you will see in advance and suppress it. The spirit is too check his attack at the syllable \"at… \", when he jumps check his jump at the syllable \"ju… \", and check his cut at \"cu… \". [...] The important thing in strategy is to suppress the enemy's useful actions but allow his useless actions. However, doing this alone is defensive. First, you must act according to the Way, suppressing the enemy's techniques, foiling his plans and thence command him directly. When you can do this you will be a master of strategy.'"
+canonical-instances:
+  - "A debate moderator who cuts off a bad-faith reframing at 'well, actually—' before the diversion fully lands, rather than letting the whole tangent play out and rebutting it afterward."
+  - "A ransomware-response team that kills a process at the first anomalous file-write syscall rather than waiting to confirm encryption is underway — the syscall is the 'at…', not yet the completed 'attack'."
+  - "A parent who redirects a toddler's rising tantrum at the first waver in the voice, before the cry fully forms, rather than after — and who also uses that same early read to positively steer the child toward a different activity, not just to block the meltdown."
+critical-questions:
+  - "Is the 'first syllable' actually recognizable before commitment, or is this survivorship bias from recalling only the times the read was right? What's the false-positive cost of interrupting a fragment that wasn't the feared action after all?"
+  - "Musashi splits this into suppression (defensive) and command (offensive) and calls suppression alone incomplete — what does 'command him directly' look like outside combat, where you can't force an opponent's next move?"
+  - "Does foreclosing an action at its onset cost you information you'd have gained by letting it partially develop — for instance, learning the opponent's actual capability by watching the attack take shape?"
+status: active

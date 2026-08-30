@@ -1,0 +1,22 @@
+id: lex-qrvc7
+name: excess-resources-are-cached-at-a-remembered-landmark-for-deferred-retrieval
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Hunters who kill more than they can carry can deliberately leave the surplus hidden at an unguarded but memorable location in the wilderness, trusting the cache to remain undisturbed until a return trip can retrieve it, rather than carrying a partial load or abandoning the surplus outright. After an exceptional blizzard hunt yields eight bison, far more meat than four hunters and their exhausted horses can move at once, Black Elk's party takes what they can and leaves the rest: 'The rest of it we cached by a big tree where it would be easy to find.' No one guards it. Days later, 'some other men went back later to bring in the meat we had cached,' and it's still there -- the landmark itself, not a lock or a watcher, was the entire security system."
+related: []
+evokes: [black-elk-speaks, grandmothers-land, we-cached-by-a-big-tree, where-it-would-be-easy-to-find, went-back-later-to-bring-in-the-meat]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch12-grandmothers-land
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 12, 'Grandmother's Land.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "We started afoot for camp next day with as much meat loaded on the horses as they could carry. The rest of it we cached by a big tree where it would be easy to find. [...] Some other men went back later to bring in the meat we had cached."
+canonical-instances:
+  - "A mountaineering expedition unable to carry all its supplies to a base camp buries a cache of food and fuel at a marked landmark partway up the route, retrieving it on a planned return trip rather than hauling everything in one pass."
+  - "A backcountry trapper who takes more furs than a single trip can carry stores the surplus in a natural rock shelter memorable enough to relocate weeks later, trusting distance and obscurity rather than any lock to keep it safe."
+  - "A community food bank without cold storage during a surplus harvest buries root vegetables in a marked earthen pit for winter retrieval, relying on the pit's location being remembered rather than any active guarding."
+critical-questions:
+  - "What actually protects an unguarded cache like this from scavenging animals, other hunting parties, or simple decay over the days between leaving it and returning -- is 'easy to find' also, necessarily, 'easy to lose'?"
+  - "Does the reliability of this system depend on the group operating in territory where other people are unlikely to stumble across the exact landmark, and would the same tactic fail entirely in more heavily traveled country?"
+  - "Why cache the surplus at all instead of making two full trips back to camp immediately -- does the calculation favor a single delayed retrieval specifically because of the exhaustion, weather, and frozen hands already described in the same passage?"
+status: active

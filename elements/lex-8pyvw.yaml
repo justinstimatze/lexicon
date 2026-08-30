@@ -1,0 +1,19 @@
+id: lex-8pyvw
+name: an-unforced-celebration-at-the-moment-of-winning-forfeits-the-win
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Possessing every quality that earned a selection doesn't protect against losing it at the very moment of being chosen, when the winner's own celebratory display becomes the disqualifying act. In the Jataka's tale of the peacock, the bird is selected by the Royal Mallard's daughter as her husband from among all the birds present, purely on his own merits — then, overcome with joy, boasts of his vigor and breaks into an indecorous dance that exposes him in front of the whole assembly, costing him the match on the spot. Nothing about his qualification changed; the celebration itself, entirely unforced and unprompted by any rival, is what undid the outcome that had already been secured."
+related: []
+evokes: [jataka, ekanipata, nacca-jataka, self-sabotaging-celebration-at-the-moment-of-winning, unforced-display-forfeits-a-secured-outcome]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-nacca-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 32, Nacca-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Carried away by his extreme joy, the peacock exclaimed, \"Until this clay you have never seen how active I am;\" and in defiance of all decency he spread his wings and began to dance;--and in dancing he exposed himself."
+canonical-instances:
+  - "A candidate who has just been told they got the job breaks into an unguarded rant mocking the other finalists in front of the hiring panel, and the offer is rescinded before they've left the room."
+critical-questions:
+  - "Is the actual failure the celebration itself, or is it a deeper pattern of self-regard that the celebration merely happened to reveal at an unusually costly moment?"
+  - "The Jataka's own footnote traces this beat to Herodotus's account of Hippocleides dancing away his marriage to Cleisthenes' daughter — does the mechanism require an audience whose approval can still be withdrawn after the decision, or does it also apply to outcomes that are supposedly already final?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-exu6r
+name: an-eager-counterpartys-urgency-can-be-milked-before-the-favor-is-done
+type-in: situation
+type-out: posture
+_tier: atomic
+agent-instruction: "When a counterparty urgently needs something only you can provide, that urgency itself is a resource that can be spent down in stages before the actual favor is delivered, since it doesn't expire the moment you agree to help. In the Jataka's tale of King Goodness, two ogres need him to arbitrate a trivial corpse-division dispute. Before doing the task, he sequences a bath, fresh robes, perfume, a full feast, and finally the usurper's own sword out of them, extending the negotiation exactly as long as their urgency remains greater than their patience. Their need for the favor doesn't decrease as they wait — if anything the delay confirms he's still willing to eventually deliver it — so each new request lands on a still-motivated counterparty rather than a cooling one."
+related: []
+evokes: [jataka, ekanipata, mahasilava-jataka, sequencing-favors-out-of-an-urgent-counterparty, urgency-does-not-decay-while-help-is-still-promised]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahasilava-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 51, Mahasilava-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Certainly I will, my friends,\" said the king. \"But, as I am dirty, I must bathe first.\""
+canonical-instances:
+  - "A specialist contractor, the only one certified to sign off on a stalled project before a regulatory deadline, agrees to do the inspection but first requests an upgraded scope of work, a signing bonus, and payment for two prior invoices the client had been slow-walking, extracting each concession before ever showing up on site."
+critical-questions:
+  - "Is there a point where stretching the sequence too far causes the counterparty to walk away and seek an alternative, even at a worse deal — where is that threshold, and how would someone find it without overshooting?"
+  - "Does the counterparty's continued compliance at each step actually confirm their urgency is real, or could a target sometimes be testing whether the sequence will ever end before deciding whether to keep paying it out?"
+status: active

@@ -1,0 +1,20 @@
+id: lex-z2taz
+name: oversight-scope-is-decided-not-discovered
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "An oversight body's job is usually described as checking whether management is competently handling 'the affairs of the corporation' -- but that framing hides a prior decision the oversight body itself has to make: what counts as the affairs of the corporation in the first place. The scope isn't a fixed boundary the board discovers and then monitors against; it's a boundary the board actively sets, and as external groups gain political power and more decisions become politicized, that boundary has to keep moving through deliberate choice rather than sitting still as a given. Freeman states the reframe directly: 'The board must decide not only whether management is managing the affairs of the corporation, but indeed, what is to count as \"the affairs of the corporation.\"' Skipping this prior question doesn't shrink the board's job to something safely narrow -- it just leaves the boundary to be set by default, usually by whoever else is willing to contest it."
+related: []
+evokes: [freeman-1984-strategic-management, chapter-7, conflict-at-the-board-level, what-counts-as-the-affairs-of-the-corporation, board-scope]
+lineage:
+  - source: primary
+    text: freeman-1984-strategic-management-ch7
+    citation: "R. Edward Freeman, Strategic Management: A Stakeholder Approach (Pitman, 1984), Chapter 7 'Conflict at the Board Level,' section 'The Role of the Board of Directors.'"
+    quote: "As stakeholders have begun to exercise more political power and as marketplace decisions become politicized, the need for such 'board awareness' to grow into 'board responsiveness' has become apparent. While it is not the proper role of the board to be involved in the implementation of strategic programs, and even some direction setting decisions, it does set the overall direction for the firm (and should be involved in determining the enterprise strategy of the firm if such a determination is to be made). Perhaps more importantly, it sets the 'tone' or 'style' for how the company deals with stakeholders, both traditional marketplace stakeholders and those which have political power. The board must decide not only whether management is managing the affairs of the corporation, but indeed, what is to count as 'the affairs of the corporation.'"
+canonical-instances:
+  - "A city council treats its oversight role as checking whether the police department follows its own existing use-of-force policy. It never revisits whether use-of-force policy itself belongs within council oversight at all, until a crisis forces the question and reveals a boundary nobody ever actually chose."
+  - "A nonprofit's board audits program spending against its charter's stated mission every year without ever asking whether the mission statement itself still captures what the organization actually does -- the audit stays clean for years right up until a funder asks why the org's actual work has drifted so far from its stated purpose, a question the board's own scope decision had quietly deferred."
+critical-questions:
+  - "How does an oversight body know when the boundary of its own scope needs revisiting, given that the failure to revisit it looks identical to stability from the inside -- everything within the current scope can look perfectly well-managed?"
+  - "Who else gets to contest the boundary when the oversight body declines to set it deliberately -- is there always a default claimant waiting, or does an unclaimed scope sometimes just stay genuinely unclaimed?"
+status: active

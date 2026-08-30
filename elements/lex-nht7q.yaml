@@ -1,0 +1,19 @@
+id: lex-nht7q
+name: reforming-a-harmful-custom-provokes-its-narrow-beneficiaries-to-retaliate
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Banning a long-standing harmful custom benefits the diffuse public but directly threatens the narrow group that specifically profited from it — and that narrow group, not the general population, is who mounts real retaliation against the reformer, since they're the ones who actually lost something concrete. In the Jataka's tale of the reforming king, a king bans animal sacrifice; the Yakkhas, who fed on the sacrificial offerings, are enraged at losing their share and dispatch an assassin: 'The Yakkhas were enraged against the Bodhisatta at losing their offerings, and calling together an assembly of their kind in the Himalayas, they sent forth a certain savage Yakkha to slay the Bodhisatta.'"
+related: []
+evokes: [jataka, catukkanipata, ayakuta-jataka, a-narrow-beneficiary-group-not-the-public-mounts-retaliation, reform-threatens-concentrated-losers-more-than-it-pleases-diffuse-winners]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-ayakuta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 347, Ayakuta-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The Yakkhas were enraged against the Bodhisatta at losing their offerings, and calling together an assembly of their kind in the Himalayas, they sent forth a certain savage Yakkha to slay the Bodhisatta."
+canonical-instances:
+  - "A city council bans a wasteful municipal contract that benefited thousands of residents through lower taxes, and the fiercest, most organized backlash comes not from the public but from the single small firm that had been quietly billing the city for the wasteful service for a decade."
+critical-questions:
+  - "Does the reformer have any way to anticipate which narrow group will feel threatened enough to retaliate, before the reform is enacted, or is this kind of concentrated backlash only visible in hindsight?"
+  - "Is there a way to reform a harmful custom that doesn't leave its narrow beneficiaries feeling cornered enough to retaliate, or does removing a concentrated benefit always provoke this kind of response regardless of how it's handled?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-mjpg5
+name: a-testers-fire-fails-to-harm-a-genuine-sacrificial-intent
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A staged trial constructed to be genuinely dangerous can turn out, at the moment of maximum commitment, to have never been capable of inflicting the harm it appeared to threaten — validating and permanently commemorating the tested virtue without the sacrifice actually completing. In the Jataka's tale of the sacrificial hare, Sakka manufactures a bed of burning coals to test the hare's willingness to give his own flesh; when the hare leaps in fully committed, the fire proves incapable of harming him: 'But the flame failed even to heat the pores of the hair on the body of the Bodhisatta, and it was as if he had entered a region of frost.'"
+related: []
+evokes: [jataka, catukkanipata, sasa-jataka, a-trial-that-looked-lethal-was-never-capable-of-harm, genuine-intent-completes-the-test-without-the-cost-landing]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sasa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 316, Sasa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "But the flame failed even to heat the pores of the hair on the body of the Bodhisatta, and it was as if he had entered a region of frost."
+canonical-instances:
+  - "A recruit fully commits to jumping from what they believe is a live parachute-training tower, only to discover mid-fall that the entire rig was a padded, controlled simulator all along — their willingness to jump is what the trainers actually wanted to measure, and the apparent danger was never real."
+critical-questions:
+  - "Does knowing in advance that this class of trial sometimes turns out to be harmless undermine the value of the test itself — would a tester who suspected safety nets exist commit as fully as one who believes the danger is real?"
+  - "Is there a meaningful difference between a trial that is secretly rigged to be safe and one that is genuinely dangerous but happens to have a lucky outcome, or does the story treat them as equivalent proof of virtue?"
+status: active

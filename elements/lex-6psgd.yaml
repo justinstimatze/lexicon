@@ -1,0 +1,19 @@
+id: lex-6psgd
+name: one-partys-revelation-invites-a-matching-disclosure-from-the-other
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'After one party reveals a hidden personal history, that revelation can be used as the occasion to invite the other party to reveal their own parallel hidden history, structuring the exchange as matched, turn-taking confessions. In the Jataka''s tale of Kummasapinda, the king does exactly this to the queen after telling his own gruel-story: "Fair lady, I have told fully my good deeds done in former time, but amongst all these ladies there is none like you in beauty or charming grace: by what deed did you attain this beauty?"'
+related: []
+evokes: [jataka, sattanipata, kummasapinda-jataka, reciprocal-mutual-disclosure, matched-turn-taking-confession]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kummasapinda-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 415, Kummasapinda-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Fair lady, I have told fully my good deeds done in former time, but amongst all these ladies there is none like you in beauty or charming grace: by what deed did you attain this beauty?"
+canonical-instances:
+  - "After a founder shares candidly at an offsite about the near-failure that shaped his approach to risk, he turns to his co-founder and asks what formative failure shaped hers, structuring the exchange as a matched pair rather than a one-sided story."
+critical-questions:
+  - "Does inviting a matched disclosure create genuine mutual vulnerability, or does it pressure the second party into sharing something they weren't ready to reveal on their own timeline?"
+  - "Is the second disclosure actually as honest as the first, or does the structure of 'now it's your turn' incentivize a performance that matches the first story's tone rather than the truth?"
+status: active

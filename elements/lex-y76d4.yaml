@@ -1,0 +1,21 @@
+id: lex-y76d4
+name: accepting-a-mocking-name-completes-your-entry-into-social-identity
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "Owning a mocking or unflattering label a community has already attached to you, rather than resisting or ignoring it, can function as the moment you actually enter that community's recognized social order, since a name is a form of social existence a private, unacknowledged identity doesn't yet have. After a blundering mistake, Wakdjunkaga stops merely being embarrassed and instead affirms the name attached to his foolishness: ''Yes, indeed,' so he says, 'it is on this account that the people call me Wakdjunkaga, the foolish one! They are right.'' Radin reads this as a genuine developmental threshold: 'He has one of the necessary traits of an individualized being now, a name. In Winnebago society a child had no legal existence, no status, until he received a name.' The name isn't flattering, and Wakdjunkaga doesn't get to choose it -- it's the community's own verdict on his repeated foolishness. But accepting it, rather than disputing it or staying nameless, is specifically what moves him from an unintegrated, pre-social being toward one with recognized standing. Diagnostic move: when a group has already settled on an unflattering name or label for you, weigh whether disputing the label keeps you outside the group's recognition entirely, versus whether accepting the label, on your own terms, is actually the faster route into having any standing within that group at all."
+related: []
+evokes: [radin-the-winnebago-trickster-figure, wakdjunkaga-the-foolish-one, they-are-right, no-legal-existence-until-he-received-a-name]
+lineage:
+  - source: primary
+    text: radin-wakdjunkaga-accepts-his-own-mocking-name-and-gains-social-standing
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'The Winnebago Trickster Figure.' Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "'Yes, indeed,' so he says, 'it is on this account that the people call me Wakdjunkaga, the foolish one! They are right.' He has one of the necessary traits of an individualized being now, a name. In Winnebago society a child had no legal existence, no status, until he received a name."
+canonical-instances:
+  - "A new employee who keeps making the same small mistake gets nicknamed after it by the team, and rather than fighting the nickname, starts using it about themselves in meetings, which noticeably shifts how quickly the team starts treating them as a real member of the group rather than an outsider still being evaluated."
+  - "A once-mocking label applied to a subculture by outsiders gets adopted by the subculture itself as a badge of identity, and that adoption, more than any external legitimizing event, is what marks the moment the group starts being taken seriously as a coherent community with its own recognized identity."
+critical-questions:
+  - "Does accepting a mocking name only work as a path into social standing when the community offering the name is also willing to extend real belonging alongside it, or can a group mock someone and never actually integrate them regardless of whether they accept the name?"
+  - "Is there a cost to accepting a name specifically tied to your own foolishness or failure, and does the Wakdjunkaga cycle ever show that cost, or does it treat the naming purely as developmental progress with no downside?"
+  - "Would this mechanism work equally well for a name that mocks a trait the person cannot change about themselves, as opposed to a name tied to a specific, one-time mistake like Wakdjunkaga's, where the behavior behind the name is at least in principle avoidable?"
+status: active

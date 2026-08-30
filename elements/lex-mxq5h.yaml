@@ -1,0 +1,19 @@
+id: lex-mxq5h
+name: a-non-combatant-instigator-can-carry-more-culpability-than-a-direct-actor
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone defends their conduct by pointing out they never personally committed a harmful act, check whether their role as an amplifier or instigator of others' actions carries more culpability than a single participant's, precisely because its effect multiplies across many actors. Aesop's 'The Trumpeter Taken Prisoner' has a captured trumpeter plead that he never fought, only sounded the call to battle; his captors reject the defense on exactly that basis: 'That is only the more reason why we should take your life; for, though you do not fight yourself, you stir up others to do so.' The intuitive defense — 'I never personally did the harmful act' — fails here because amplification of others' violence is treated as a higher-order offense than any single instance of that violence."
+related: []
+evokes: [aesop, the-trumpeter-taken-prisoner, amplifier-culpability, instigator-vs-direct-actor]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-trumpeter-taken-prisoner
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Trumpeter Taken Prisoner.' Verified verbatim against a direct extraction of the held copy."
+    quote: "That is only the more reason why we should take your life; for, though you do not fight yourself, you stir up others to do so."
+canonical-instances:
+  - "debates over broadcaster or algorithm liability for violence: a platform or figure that never personally commits an act but reliably incites or coordinates it is held more responsible than any single follower who acts, because the effect scales across an audience rather than staying confined to one instance."
+critical-questions:
+  - "Does this reasoning generalize to any amplifying role, or does it depend on how directly the instigator's specific act (a battle-call, a broadcast) is causally tied to the resulting harm, versus a vaguer or more diffuse influence?"
+  - "Is there a risk that this standard punishes legitimate speech or coordination that merely happens to precede unrelated harmful acts by others, if culpability is assigned too readily to anyone in an amplifying position?"
+status: active

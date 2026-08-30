@@ -1,0 +1,34 @@
+id: lex-xgyv7
+name: failure-mode-elicitation-by-goal-inversion
+type-in: question
+type-out: process
+_tier: molecule
+agent-instruction: "When requirements feel locked, surface failure-mode elicitation by inversion — ask 'how would this design produce failure?' and let answers map back to constraints the positive form couldn't reach."
+related: [lex-znaau, lex-ftke9, lex-eb3wf, lex-73m95, lex-agefm, lex-m8j35, lex-7xz6k, lex-susgz]
+scaffolds-from: [lex-eb3wf, lex-73m95, lex-znaau]
+evokes: [premortem, assume-it-already-failed-why, design-for-guaranteed-failure-then-invert, find-failure-modes-by-flipping-the-goal, inversion-heuristic, how-would-we-guarantee-this-fails, what-would-sink-this]
+decomposes-into:
+  - lex-eb3wf
+  - lex-73m95
+assembly: "choice(lex-eb3wf, lex-73m95; selector=framing-fit)"
+premises:
+  - "you have a plan, design, or decision and want to surface its failure modes BEFORE committing — but direct elicitation ('what could go wrong?') systematically under-produces them (optimism, social pressure to defend the plan, premature closure per lex-znaau)"
+  - "the shared mechanism: INVERT the success-goal so that failure becomes the thing to explain or to produce — which licenses the imagination to name failures it would otherwise suppress, and disarms the defensiveness that guards a plan one is invested in"
+  - "choice of framing (both type question→process, so interchangeable at the type level): lex-eb3wf prospective-hindsight / premortem — 'assume the plan has ALREADY failed; now explain why' (retrospective framing; Klein's finding is that treating the failure as a fait accompli measurably increases the number and specificity of reasons generated); OR lex-73m95 anti-problem — 'how would we GUARANTEE this fails?' then invert each answer into a safeguard (generative framing; lowers the bar to naming uncomfortable failure modes via its playful absurdity)"
+  - "output: a richer, less-defended failure-mode list than direct elicitation yields — the same inversion trick, available in two framings suited to different settings (process)"
+critical-questions:
+  - "why does inversion out-elicit a direct 'what could go wrong?' Because the direct question runs into optimism and the social cost of seeming to attack a plan others are invested in. Inversion removes both: premortem makes failure the GIVEN (you are explaining, not predicting, so naming reasons is safe and even expected), and anti-problem makes failure the GOAL (so naming failure modes is the cooperative task, not disloyalty). Klein's prospective-hindsight result is the empirical backing."
+  - "when pick premortem vs anti-problem? Premortem fits a team evaluating a specific existing plan (retrospective imagination of a concrete failure). Anti-problem fits generative/workshop settings and surfacing systemic or structural failure modes — its playfulness ('how do we make this maximally terrible?') lowers the bar to naming failures people would hesitate to raise earnestly. Same mechanism, different social ergonomics."
+  - "how is the molecule more than its two atoms? It names the shared INVERSION mechanism as the REASON both techniques work, and packages them as alternative framings of one move — so a practitioner reaches for 'invert the goal to find failures' and then picks a framing, rather than treating premortem and anti-problem as two unrelated tricks. The unifying mechanism is the molecule's generative contribution (Principle 9 Test 1a)."
+  - "operationally distinct from lex-w5qfe: lex-xgyv7 is a one-shot, pre-commitment elicitation (surface failure modes before acting); lex-w5qfe is the repeated refine-on-feedback loop (learn from failures that actually occur). They compose — run lex-xgyv7 before the first cycle of lex-w5qfe, and again whenever a cycle reveals a new failure surface."
+lineage:
+  - source: discovery-loop
+    text: v70-molecule-discovery-failure-elicitation
+    citation: "molecule-discovery pass, 2026-05-28 (strengthen-mode). Principle 9: Test 1(a) generative — the molecule names the shared INVERSION mechanism that explains why both component techniques out-elicit direct questioning, and packages them as framings of one move; neither atom carries the unifying mechanism. Test 1(b) anti-pattern-clear — it is one named technique-family (inversion-based failure elicitation), not a typology of all failure-finding methods (it deliberately includes only the two inversion-framings, not e.g. checklists or FMEA). Test 2 type-check — choice(lex-eb3wf, lex-73m95; selector=framing-fit); both branches are question→process, so the choice is type-clean. Components individually refs-grounded: lex-eb3wf (Klein 2007 pre-mortem, HBR), lex-73m95 (Liberating Structures TRIZ anti-problem). The unifying inversion-mechanism is the discovery-loop synthesis. A deliberately thin (2-framing) molecule — a technique-family used as a single move."
+canonical-instances:
+  - "Klein pre-mortem (lex-eb3wf framing): at a project kickoff, 'imagine it is six months from now and the project has failed — write the story of why.' Prospective hindsight surfaces concrete, specific risks that the go-around-the-room 'any concerns?' reliably misses, because the failure is given rather than predicted."
+  - "Liberating Structures TRIZ anti-problem (lex-73m95 framing): 'how could we make this meeting/launch/service maximally terrible?' Participants generate failure modes freely (the absurd framing disarms defensiveness), then each answer is inverted into a design rule or safeguard. Suits generative/workshop settings."
+  - "Reliability engineering: 'how would we guarantee this service has an outage?' — the enumerated answers ARE the reliability checklist (single points of failure, missing alerts, unbounded retries). The anti-problem framing applied to systems design."
+  - "operationally distinct from each component atom: lex-eb3wf and lex-73m95 are the two inversion techniques; lex-xgyv7 names the shared mechanism (invert the success-goal) and presents them as a choosable pair, so the practitioner reaches for one named move ('invert to find failures') and selects the framing that fits the setting."
+severity-tier: info
+status: active

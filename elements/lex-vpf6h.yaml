@@ -1,0 +1,19 @@
+id: lex-vpf6h
+name: exploiting-your-own-cover-for-a-second-use-can-expose-you
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When something is providing you concealment, check whether using it for a second purpose at the same time generates exactly the signal that undoes the concealment. Aesop's 'The Stag and the Vine' has a stag hide from hunters behind a vine, then begin eating its leaves out of hunger; the resulting movement gives away his position, and dying, he names his own mistake: 'I deserve my fate for my treachery in feeding upon the leaves of my protector.' The vine could have served either need — cover or food — but not both at once, since exploiting it for the second purpose produced the exact motion that defeated the first."
+related: []
+evokes: [aesop, the-stag-and-the-vine, cover-collapse-from-dual-use, generating-your-own-detection-signal]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-stag-and-the-vine
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Stag and the Vine.' Verified verbatim against a direct extraction of the held copy."
+    quote: "I deserve my fate for my treachery in feeding upon the leaves of my protector."
+canonical-instances:
+  - "an employee uses a flexible remote-work arrangement as cover for visibly slacking off. The slacking is what eventually draws scrutiny, and the arrangement itself pays the price."
+critical-questions:
+  - "A different feeding pattern, a different vine — was there any way for the stag to satisfy both needs without one betraying the other, or does concealment inherently forbid drawing on the same resource for anything else?"
+  - "Does the stag's fatal move stem from desperation overriding judgment, or would even a careful actor struggle to avoid this trap once genuine need for the second resource became urgent enough?"
+status: active

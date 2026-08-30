@@ -1,0 +1,21 @@
+id: lex-gft49
+name: distributed-unequal-contribution-founds-what-no-single-agent-could
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a creation or founding narrative explains how something came to exist, check whether it credits a single powerful founder or something structurally different: a sequence of agents attempting the same task in decreasing order of apparent strength, where the strongest fail outright and the weakest succeeds at fatal cost, with the outcome credited jointly afterward. In the Haudenosaunee Skywoman story, Loon, Otter, Beaver, and Sturgeon all fail to reach the lake bottom for mud; tiny Muskrat succeeds and dies retrieving a single handful, which Turtle and Skywoman then transform into the whole earth. The story refuses single-founder credit directly: the earth is made 'not by Skywoman alone, but from the alchemy of all the animals' gifts.' Worth checking for wherever a founding story is told — does credit collapse onto one figure, or is it genuinely distributed across contributors of differing capability and cost?"
+related: [lex-5dnd9]
+evokes: [kimmerer, braiding-sweetgrass, skywoman, turtle-island, distributed-credit]
+lineage:
+  - source: primary
+    text: kimmerer-2013-braiding-sweetgrass-skywoman-falling-muskrat
+    citation: "Robin Wall Kimmerer, Braiding Sweetgrass (Milkweed Editions, 2013), 'Skywoman Falling' (opening chapter). Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "Loon dove first, but the distance was too far and after a long while he surfaced with nothing to show for his efforts. One by one, the other animals offered to help — Otter, Beaver, Sturgeon — but the depth, the darkness, and the pressures were too great for even the strongest of swimmers. ... Soon only little Muskrat was left, the weakest diver of all. ... a stream of bubbles rose with the small, limp body of the muskrat. He had given his life to aid this helpless human. But then the others noticed that his paw was tightly clenched and, when they opened it, there was a small handful of mud. ... The land grew and grew as she danced her thanks, from the dab of mud on Turtle's back until the whole earth was made. Not by Skywoman alone, but from the alchemy of all the animals' gifts coupled with her deep gratitude."
+canonical-instances:
+  - "The specific ordering — Loon, Otter, Beaver, Sturgeon, then Muskrat — runs as a decreasing-apparent-strength sequence where each failure narrows the field until only the least likely candidate remains, and that candidate's fatal success becomes the material every other contribution then builds on."
+  - "operationally distinct from lex-5dnd9 (inclusive fitness, a genetic explanation for self-sacrifice weighted by relatedness): Muskrat's sacrifice isn't explained or justified by kinship-relatedness math in the story — the narrative payoff is distributed founding credit across unequal contributors, not an account of why self-sacrifice for relatives is evolutionarily stable."
+critical-questions:
+  - "Does explicitly denying single-founder credit in a creation story serve a social function beyond narrative accuracy — modeling collective responsibility, or discouraging power concentration in descendant institutions?"
+  - "Is 'the weakest succeeds where the strong fail' a genuine narrative pattern worth checking for across other creation traditions, or specific to this telling?"
+  - "What distinguishes genuinely distributed credit from a story that merely lists several contributors while still centering one figure's transformative act as the real cause?"
+status: active

@@ -1,0 +1,21 @@
+id: lex-yu84d
+name: scolding-a-killer-flips-to-relief-once-the-benefit-is-named
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "A caregiver's shock at hearing that someone has been killed can function as a scripted first response rather than a genuine reaction, one that reverses completely and instantly the moment the practical benefit of the killing becomes clear. In Radin's Winnebago Hare Cycle, this happens with mechanical regularity: every time Hare reports killing one of his grandmother's brothers, she responds first with performed outrage, then immediately with relief once she names what's in it for her. After Hare kills the bear, he reenacts the killing for her: 'Oh, you big-eyed, big-eared, big-footed creature, you must have killed my brother,' she exclaims, and Hare threatens to do the same to her. She reverses instantly: 'Oh, I only said that in fun. Actually I am glad, for now we shall have plenty of fat to eat.' The outrage was never a real objection to the killing; it was a formality that evaporated the moment the food supply was named as the actual stake. Diagnostic move: when someone's strong disapproval of an action reverses completely and immediately the instant a concrete benefit to them is mentioned, treat the disapproval as having been about appearances rather than principle, and weigh what they say once the benefit is on the table more heavily than what they said before it was."
+related: []
+evokes: [radin-winnebago-hare-cycle, hare-and-his-grandmother, you-must-have-killed-my-brother, now-we-shall-have-plenty-of-fat-to-eat]
+lineage:
+  - source: primary
+    text: radin-grandmothers-outrage-flips-to-relief-over-the-bear
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'The Winnebago Hare Cycle,' episode 8. Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "Then Hare went home and said, 'Grandmother, what a great man my grandfather is!''Yes,' said she, 'he is one of the great spirits.''Oh, I wouldn't praise him too much. This is what I did to him.' And he went through the motions of shooting. 'Oh, you big-eyed, big-eared, big-footed creature, you must have killed my brother,' she exclaimed. 'Well, you evil old woman, I will wait for you outside and shoot you under the arm just as I did him,' said Hare. 'Oh, I only said that in fun. Actually I am glad, for now we shall have plenty of fat to eat,' she said."
+canonical-instances:
+  - "A board member publicly condemns an executive's aggressive, ethically questionable acquisition tactic in a meeting, then privately tells the executive it was the right call once the quarterly numbers come in and show the acquisition paid off."
+  - "A relative loudly criticizes a family member for cutting off contact with a difficult in-law, then quietly admits relief once it becomes clear the estrangement means one less person to split an inheritance with."
+critical-questions:
+  - "Does the story present the grandmother's outrage as a genuine but easily overridden feeling, or as pure performance from the start, and does the answer matter for deciding whether the diagnostic applies to a person's disapproval more broadly or only to this specific, exaggerated pattern?"
+  - "Is the grandmother's reversal here different in kind from ordinary grief resolving into acceptance over time, given that hers happens within the same conversation and is triggered specifically by naming a benefit, rather than by any passage of time or emotional processing?"
+  - "Does the repeated, near-identical structure of this reaction across multiple killings in the cycle, grasshopper, flint, sharp-elbow, bear, suggest this is a stock narrative formula rather than a claim about how real disapproval works, and if so, does that undercut or simply relocate the diagnostic's usefulness?"
+status: active

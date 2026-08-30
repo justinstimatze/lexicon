@@ -1,0 +1,21 @@
+id: lex-p3tj3
+name: a-system-built-on-perpetual-change-should-end-on-incompletion
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: "When designing the terminal state of a sequence meant to represent an ongoing process, check whether ending on resolution quietly contradicts the process's own premise. The I Ching's 64-hexagram sequence closes not on hexagram 63, Kî Zî ('Already Completed'), but on hexagram 64, Wei Zî ('Not Yet Completed') — and the commentary states the reason explicitly: 'the succession of events cannot come to an end, and therefore Kî Zî is succeeded by Wei Zî, with which (the hexagrams) come to a close.' A system whose entire premise is perpetual change would falsify itself by terminating on a state of finished stasis, so the sequence's own designed endpoint is deliberately left open rather than resolved."
+related: []
+evokes: [i-ching, ten-wings, xu-gua, incompletion, open-ended-closure]
+lineage:
+  - source: primary
+    text: legge-1899-i-ching-appendix-vi-final-transition
+    citation: "The Yî King, translated by James Legge, Appendix VI, 'The Orderly Sequence of the Hexagrams' (Xu Gua), Sacred Books of the East vol. 16 (Oxford, 1899), closing line of Section II. Verified verbatim against a direct extraction of the full text hosted at sacred-texts.com, clean digital text, no OCR."
+    quote: "But the succession of events cannot come to an end, and therefore Kî Zî is succeeded by Wei Zî, with which (the hexagrams) come to a close."
+canonical-instances:
+  - "The choice is pointedly asymmetric: hexagram 63 (Already Completed) exists in the sequence and could have been made the terminus, but the text specifically routes past it to hexagram 64 (Not Yet Completed) as the actual close — completion was available and was rejected as the ending."
+  - "operationally distinct from an ordinary open ending in narrative craft (a story declining to resolve a specific plot thread for dramatic or ambiguity purposes): this atom's claim is structural rather than stylistic — the system's terminal state is chosen because a resolved ending would be internally inconsistent with the premise the whole system is built to represent."
+critical-questions:
+  - "Does deliberately ending on incompletion actually avoid the contradiction it's meant to avoid, or does the very act of stopping the sequence at hexagram 64 still impose a kind of closure — the last word, even if that word is 'unfinished'?"
+  - "Would a sequence representing perpetual change need to end at all, or does any fixed-length representation of an open-ended process inevitably introduce some form of the same tension this design choice is trying to solve?"
+  - "Does this principle generalize past this one text — should any model, story, or system built around ongoing process design its terminal or default state to reflect incompletion rather than resolution, or is the I Ching's case special because the number of hexagrams is fixed at exactly 64?"
+status: active

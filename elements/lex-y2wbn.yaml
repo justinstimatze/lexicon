@@ -1,0 +1,20 @@
+id: lex-y2wbn
+name: self-imposed-restitution-recreates-the-exact-capacity-the-harm-destroyed
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Realizing that the person they have harmed was the sole provider of some specific, irreplaceable care to others, a person can respond not with a general apology or payment but by personally stepping into that exact role themselves, performing the precise function they destroyed the capacity for. In the Jataka''s tale of Sama, King Piliyakkha, having fatally wounded the sole caretaker of two blind parents, does not simply seek forgiveness but resolves on the spot to become their replacement caretaker himself: "This man has been fostering his parents in his excessive piety and devotion to duty, and even now amidst all his pain he only thinks of them,—I have done evil to such a holy being,—how can I comfort him? When I find myself in hell what good will my kingdom do me? I will watch over his father and mother as he watched over them; thus his death will be counteracted to them."'
+related: [lex-4z3ug]
+evokes: [jataka, mahanipata, sama-jataka, suvannasama-jataka, self-imposed-restitution, replacement-caregiving]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-sama-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 540, Sama-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "This man has been fostering his parents in his excessive piety and devotion to duty, and even now amidst all his pain he only thinks of them,—I have done evil to such a holy being,—how can I comfort him? When I find myself in hell what good will my kingdom do me? I will watch over his father and mother as he watched over them; thus his death will be counteracted to them."
+canonical-instances:
+  - "A driver who kills a rural mail carrier in a collision, rather than only paying a settlement, personally takes over the carrier's route for the families who depended on that daily contact, reasoning that money replaces income but not the actual thing that was lost."
+  - "A software company whose outage deleted a nonprofit's donor records doesn't just refund the contract — it assigns its own engineers to personally rebuild the donor database from every available backup and manual record, restoring the exact capability the bug destroyed rather than compensating for its absence."
+critical-questions:
+  - "The king is uniquely positioned to actually perform this role, a king who can spare the time and effort — how does this move fail when the person who caused the harm lacks the specific skill or availability the destroyed role required?"
+  - "Does stepping into the role yourself risk becoming more about the perpetrator's own need for absolution than about what the harmed parties actually need, versus simply asking them what form of restitution they'd prefer?"
+status: active

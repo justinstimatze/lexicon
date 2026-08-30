@@ -1,0 +1,19 @@
+id: lex-srwcb
+name: forcing-an-abuser-to-live-the-treatment-he-mocks
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Someone who mocks or mistreats a category of people they assume they'll never belong to can be confronted most effectively not by argument but by being made to experience the identical treatment, then reminded that the category is one they're guaranteed to join. In the Jataka's tale of the king who torments the old, a disguised god subjects the king to the exact humiliations he inflicts on elderly people, then reveals himself: 'O wicked and unrighteous king! Will you never become old yourself? will not age assail you? Yet you sport and mock, and do despite to those who are old!' The rebuke lands because the king's own cruelty rested on an unstated exemption he'd never actually earned — he treated old age as something that happened to other people, and the ordeal removes that exemption before the words do."
+related: []
+evokes: [jataka, dukanipata, keli-sila-jataka, an-abuser-exempts-themselves-from-a-category-they-will-join, experiencing-mistreatment-breaks-an-unearned-exemption]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-keli-sila-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 202, Keli-sila-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "O wicked and unrighteous king! Will you never become old yourself? will not age assail you? Yet you sport and mock, and do despite to those who are old!"
+canonical-instances:
+  - "A manager who mocks employees for asking for accommodations after minor injuries breaks their own ankle on a company retreat and, struggling with the same request they'd previously ridiculed, is confronted by a colleague who simply says, 'Isn't this exactly what you told Priya to just push through?'"
+critical-questions:
+  - "Does the ordeal actually change the king's underlying belief, or does it only suppress the specific mocking behavior while leaving intact whatever deeper assumption made him think he was exempt in the first place?"
+  - "Is disguising the confrontation as an ordeal actually necessary, or would the same rebuke, delivered as pure argument without any staged humiliation, have worked just as well on a king already primed to listen by a divine visitor's authority?"
+status: active

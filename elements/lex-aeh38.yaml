@@ -1,0 +1,19 @@
+id: lex-aeh38
+name: external-surveillance-cannot-substitute-for-absent-internal-motivation
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Monitoring someone's behavior can't produce the restraint that only comes from their own internal commitment, because surveillance limits what can be observed while doing nothing to change what the person actually wants. In the Jataka's tale of the two watchful parrots, one bird is asked to police an unfaithful wife's behavior and refuses outright, arguing that even carrying her constantly in one's arms wouldn't make her safe to trust — only her own genuine attachment to fidelity could actually constrain her, and no amount of watching manufactures a commitment that isn't there. The refusal isn't cynicism about the task; it's a correct diagnosis that surveillance and motivation solve entirely different problems, and no quantity of the first can compensate for the total absence of the second."
+related: []
+evokes: [jataka, ekanipata, radha-jataka, surveillance-cannot-manufacture-absent-motivation, monitoring-and-commitment-are-not-substitutes]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-radha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 145, Radha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Brother,\" said the Bodhisatta, \"your words are the words of folly. You might carry a woman about in your arms and yet, she would not be safe. So do not essay the impossible.\""
+canonical-instances:
+  - "A company installs increasingly intrusive monitoring software on employee laptops to prevent time theft, but the handful of genuinely disengaged employees simply find new ways around the specific tracking method, while the software adds friction and distrust for everyone who was already working honestly out of their own motivation."
+critical-questions:
+  - "Is there any level of surveillance intensive enough to functionally substitute for motivation, even if it can never truly manufacture it, or does the parrot's claim hold at every possible level of monitoring?"
+  - "Does refusing to attempt the impossible task of policing someone else's behavior here amount to giving up too early, or is recognizing the limits of surveillance actually the more honest and useful response compared to pretending monitoring can solve a motivation problem?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-32xmz
+name: an-involuntary-signal-betrays-a-hidden-nature-under-mimicry
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A creature or person passing as a member of a group by matching every visible trait can still be exposed by one channel that isn't under conscious control. The fix isn't concealment. It's never triggering that channel again. In the Jataka's tale of the lion-jackal hybrid cub, he matches the lion pride in toes, claws, mane, and figure, but his voice betrays his jackal mother the instant he tries to join the pride's roaring display, yelping instead. His father's advice isn't about disguising the voice better: 'My dear son, as long as you live here keep a quiet tongue in your head. If you give tongue again, they'll all find out that you are a Jackal.' The passing depends entirely on suppressing the one behavior that was never actually fakeable."
+related: []
+evokes: [jataka, dukanipata, sihakotthuka-jataka, an-uncontrollable-channel-exposes-a-competent-disguise, the-fix-for-an-involuntary-tell-is-avoidance-not-concealment]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sihakotthuka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 188, Sihakotthuka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "My dear son, as long as you live here keep a quiet tongue in your head. If you give tongue again, they'll all find out that you are a Jackal."
+canonical-instances:
+  - "A new hire who has learned to match the team's technical vocabulary and working style perfectly still gets exposed as inexperienced the moment they're asked an off-the-cuff estimate in a live meeting, since fluent improvisation under time pressure was the one skill preparation couldn't fake."
+critical-questions:
+  - "Is permanent avoidance actually sustainable, or does it just delay the exposure to whatever future moment finally forces the involuntary channel to fire — does the father's advice solve the problem or only postpone it?"
+  - "What makes a particular channel involuntary rather than merely unpracticed — could enough specific training have brought the cub's voice under conscious control the way his physical bearing already was?"
+status: active

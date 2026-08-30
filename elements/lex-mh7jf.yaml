@@ -1,0 +1,47 @@
+id: lex-mh7jf
+name: conformity-as-identity-signaling
+type-in: state
+type-out: posture
+_tier: molecule
+agent-instruction: "When conformity is performed (visible, identity-displaying, identity-affirming), the conformity is signaling group-membership, not preference-alignment. The act isn't 'agreement'; it's 'I belong'. Predict behavior by reading what membership is being claimed."
+related: [lex-uz7g4, lex-hbgcb, lex-u8u7y, lex-vacbr, lex-n8smn, lex-exczm, lex-3qnq3, lex-cjuza, lex-am8cj, lex-5qkj9, lex-kykwm, lex-tqd9x]
+scaffolds-from: [lex-hbgcb, lex-vacbr, lex-u8u7y]
+evokes: [adopting-the-belief-because-the-tribe-does, conformity-as-membership-display, the-belief-as-tribal-flag, in-group-signal-via-shared-stance]
+decomposes-into:
+  - lex-hbgcb
+  - lex-vacbr
+assembly: "sequential(lex-hbgcb, lex-vacbr)"
+premises:
+  - "lex-hbgcb social-proof signals what the in-group apparently believes/does — the visible distribution of stances within the relevant tribe"
+  - "the agent has identity-stake in tribe membership; not adopting the in-group stance carries identity-cost"
+  - "lex-vacbr identity-protective-cognition operates in the OUTGOING direction: the agent adopts (and may rationalize) the in-group stance not because the evidence compels it but because adopting it is identity-affirming and not adopting it would be identity-threatening"
+  - "the result: the belief-content is downstream of the social-proof signal; the agent reasons IN to the conclusion the tribe holds, often unable to distinguish 'I believe X because the evidence supports it' from 'I believe X because believing X is what we do'"
+critical-questions:
+  - "is the agent reasoning toward an INDEPENDENT conclusion that happens to align with the tribe, or reasoning FROM the tribe's stance toward justifications? The two are observationally similar but mechanistically distinct"
+  - "what happens when the tribe shifts? If the agent's belief shifts with the tribe (Catholic Church on Galileo; mainstream parties on policy positions), the molecule is firing. If belief persists across tribal shifts, an independent commitment is doing the vital work"
+  - "operationally distinct from lex-2rsad identity-protective-belief-maintenance: lex-2rsad is DEFENSIVE (incoming threatening claim → defended against); lex-mh7jf is ACQUISITIVE (in-group stance → adopted). Together they capture both directions of tribal-belief dynamics: defending what the tribe holds, adopting what the tribe shifts to"
+  - "is there pluralistic ignorance — the in-group's apparent stance is itself an artifact of conformity rather than genuine consensus? (Prentice & Miller 1993). The molecule still fires but the social-proof input is illusory"
+  - "what's the cost of dissent? When dissent is low-cost (anonymous polls), the molecule weakens. When dissent is high-cost (visible, sanctioned), it strengthens"
+lineage:
+  - source: primary
+    text: cialdini-1984-influence
+    citation: "Robert Cialdini, Influence: The Psychology of Persuasion (1984), Ch.4 'Social Proof' — Cialdini explicitly names SIMILARITY as the amplifier-condition under which social-proof produces in-group-signal uptake. The Ch.4 similarity passage carves the identity-signaling pathway from the general principle: when the observed others are 'just like us,' their conduct supplies in-group correct-behavior signal directly. This is the central claim for lex-mh7jf — without the similarity-amplifier, social-proof would not couple to identity. (Ch.4 'Social Proof' Similar Others sub-section)."
+    quote: "The principle of social proof operates most powerfully when we are observing the behavior of people just like us. It is the conduct of such people that gives us the greatest insight into what constitutes correct behavior for ourselves. Therefore we are more inclined to follow the lead of a similar individual than a dissimilar one. [Ch.4 Similar Others sub-section — the critical identity-signaling carve: similarity-of-observed-others is what makes social-proof produce identity-confirmation rather than mere imitation. The 'people just like us' framing IS the in-group selector.] That is why I believe we are seeing an increasing number of average-person-on-the-street testimonials on TV these days. Advertisers now know that one successful way to sell a product to ordinary viewers (who compose the largest potential market) is to demonstrate that other 'ordinary' people like and use it. [Ch.4 — the advertising-design corollary: target-market identity is what makes the testimonial load-bear. The molecule's failure-mode is when the in-group selector is mis-set; the success-mode is when it lands.]"
+  - source: practitioner
+    text: tajfel-turner-1979-social-identity-theory
+    citation: "Henri Tajfel & John Turner, An integrative theory of intergroup conflict, in Austin & Worchel eds., The Social Psychology of Intergroup Relations (1979) — the canonical social-identity-theory statement. Group membership shapes self-concept; in-group-favoring beliefs serve self-esteem function. Cited in lex-u8u7y lineage; here named as the identity-stake premise. No verbatim quote is claimed in this entry — a verbatim quote is carried in lex-u8u7y's lineage."
+  - source: practitioner
+    text: kahan-2013-ideology-motivated-reasoning-cognitive-reflection
+    citation: "Kahan 2013 establishes that identity-protection operates not just defensively (rejecting threatening claims) but also acquisitively (accepting identity-affirming claims at lower evidentiary bar). The numeracy-paradox subjects didn't just reject contrary evidence — they over-accepted confirmatory evidence. Already in lex-vacbr lineage; here named as the acquisition step. No verbatim quote is claimed in this entry — a verbatim quote is carried in lex-vacbr's lineage."
+  - source: practitioner
+    text: score-drivermap-mining-pass-1
+    citation: "The co-occurrence pass identified social_proof × trust_formation (17 plays, 27.9% strength) and obedience_authority × social_proof (12 plays, 27.3% strength) as co-occurrence pairs. Trust_formation and obedience_authority are not yet in substrate; this molecule is a substrate-anchored adjacent pattern using the OUTGOING-IPC mechanism that ties social-proof to identity rather than to trust or authority"
+canonical-instances:
+  - "political-policy belief in U.S. partisan environment: a voter discovers (via media, social network) that 'people like me' support policy P; over time they come to genuinely believe P, often unable to recall a moment of independent evaluation. The belief-content is downstream of the membership-signal"
+  - "fashion / aesthetic conformity: 'this is what people in our scene wear/listen to/read' becomes 'I prefer this'; the preference is real (felt as preference) but its origin is membership-signaling, not independent aesthetic evaluation"
+  - "professional-norm uptake: junior practitioners adopt the methodological commitments / vocabulary / aesthetic preferences of their mentors and peer-group; over time these feel like personal commitments. The conformity is identity-formative"
+  - "religious / ideological conversion via community immersion: the new convert genuinely comes to believe; the belief-uptake is bound up with membership-uptake. Disentangling 'I believe because true' from 'I believe because of us' is often impossible from inside the belief-system (cf. lex-5yufs form-persists-when-content-dissolves for the long-tail dynamics)"
+  - "operationally adjacent to lex-8c35v cialdini-three-lever-influence: cialdini's molecule names social-proof as one of three influence levers; lex-mh7jf names what specifically happens when the social-proof input meets identity-stakes — the influence becomes identity-formation rather than transient compliance"
+  - "operationally distinct from lex-uz7g4 archetype-as-projective-shorthand: archetype is a structural handle (named figure as cluster-pointer); conformity-as-identity-signaling is a dynamic pathway (signal → uptake → identity-tie). The two compose: archetypes supply named identities, this molecule names how individuals come to inhabit them"
+severity-tier: info
+status: active

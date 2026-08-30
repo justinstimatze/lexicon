@@ -1,0 +1,19 @@
+id: lex-u9tpz
+name: a-coded-message-lets-an-unwitting-carrier-pass-it-without-understanding-it
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Two people who need to coordinate covertly can pass a message through a trusted intermediary who need never understand what it means, by encoding the plan as ordinary-sounding language that only the intended recipient can decode. The carrier's innocence isn't a risk to the plan. It's the plan's protection. In the Jataka's tale of the princess's cipher, she sends her lover a cryptic verse through her nurse that sounds like harmless nonsense to any outsider: 'A soft hand, and a well-trained elephant, And a black rain-cloud, gives you what you want.' To the one person meant to read it, the verse specifies the entire escape plan exactly: a soft-handed decoy, a trained elephant, and a dark, rainy night. The nurse delivers it without ever knowing what she carried."
+related: []
+evokes: [jataka, tikanipata, mudu-pani-jataka, an-unwitting-intermediary-carries-a-message-they-cannot-decode, covert-coordination-hides-in-language-that-reads-as-harmless]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mudu-pani-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 262, Mudu-pani-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"A soft hand, and a well-trained elephant, And a black rain-cloud, gives you what you want.\""
+canonical-instances:
+  - "Two colleagues planning to leave a company together for a competitor pass logistical details through a mutual friend outside the industry by phrasing everything as ordinary small talk about weekend plans, so the friend genuinely has no idea they're carrying anything sensitive at all."
+critical-questions:
+  - "Does using an unwitting intermediary actually protect the plan, or does it just relocate the risk to whether the recipient interprets the coded message correctly without any way to ask clarifying questions?"
+  - "Is there a meaningful difference between this and simply lying to someone you trust to use them as cover, even though the intermediary suffers no direct harm from carrying the message?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-2q6zn
+name: stage-a-witnessed-spectacle-to-deliver-an-argument-indirectly
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than confront a target directly, counselors can construct an elaborate live demonstration with pre-scripted dialogue among themselves, positioned to be witnessed by the target from a distance, so the argument lands as observed truth rather than direct confrontation. In the Jataka''s tale of Dasannaka, the ministers stage exactly this: "we will have a gathering in the palace-yard and make a man who knows how to do it swallow a sword: we will put the king at a window and make him look down on the gathering."'
+related: []
+evokes: [jataka, sattanipata, dasannaka-jataka, staged-spectacle-as-indirect-persuasion, argument-delivered-as-observed-truth]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dasannaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 401, Dasannaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "we will have a gathering in the palace-yard and make a man who knows how to do it swallow a sword: we will put the king at a window and make him look down on the gathering"
+canonical-instances:
+  - "Rather than tell a stubborn board member directly that a project is failing, executives arrange for a routine demo to run in front of him unscripted, letting him watch the failure unfold himself instead of hearing it argued."
+critical-questions:
+  - "Does staging the observation for someone give it more or less legitimate weight than if they had encountered the same scene by accident?"
+  - "What happens if the target senses the demonstration was arranged for their benefit — does the indirection lose its persuasive force once it's recognized as a setup?"
+status: active

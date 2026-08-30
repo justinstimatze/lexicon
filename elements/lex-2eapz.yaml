@@ -1,0 +1,19 @@
+id: lex-2eapz
+name: gatekeeping-via-a-solvable-puzzle-instead-of-an-outright-refusal
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Instead of refusing a request outright, a gatekeeper can condition it on solving a puzzle that''s genuinely solvable but requires sustained effort — filtering for real commitment while never technically saying no. In the Jataka''s tale of Asanka, the ascetic-father doesn''t refuse the king his daughter; he sets a name-guessing condition that turns a simple request into a years-long trial: ''He did not say to the king directly, "Take her and go," but said, "If you know this maiden''s name, O great king, take her and go."'''
+related: []
+evokes: [jataka, chanipata, asanka-jataka, gatekeeping-via-solvable-puzzle, effort-filter-instead-of-refusal]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-asanka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 380, Asanka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "He did not say to the king directly, \"Take her and go,\" but said, \"If you know this maiden's name, O great king, take her and go.\""
+canonical-instances:
+  - "A landlord who doesn't want to simply reject an applicant tells them the unit is theirs if they can produce three references who'll vouch for on-time rent history going back five years — solvable, but only for the genuinely committed."
+critical-questions:
+  - "Is a solvable-but-effortful condition meaningfully different from a refusal, given that the gatekeeper still controls whether the puzzle is actually solvable in practice?"
+  - "Does the person being tested know they're being filtered rather than simply challenged, and would knowing change how they'd respond?"
+status: active

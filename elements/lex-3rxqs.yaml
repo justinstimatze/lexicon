@@ -1,0 +1,19 @@
+id: lex-3rxqs
+name: a-generous-act-pays-off-only-across-its-full-time-course
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A deliberate act of generosity can be framed as complete only when the giver's joy precedes it, accompanies it, and continues afterward without regret — delivering the physical gift while later regretting it is an incomplete performance whose benefit is correspondingly diminished. The Jataka's tale of Mayhaka states this as an explicit three-part model: \"Did we joy to feel the wish to give, Give the gift, and give it cheerfully, Ne'er regret the giving while we live, Children born of us would never die. Joy before the bounty's given, giving cheerfully, Pleasure at the thought thereafter, that is perfect charity.\""
+related: []
+evokes: [jataka, chanipata, mayhaka-jataka, generosity-completed-across-full-time-course, giving-undermined-by-later-regret]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mayhaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 390, Mayhaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Did we joy to feel the wish to give, Give the gift, and give it cheerfully, Ne'er regret the giving while we live, Children born of us would never die. Joy before the bounty's given, giving cheerfully, Pleasure at the thought thereafter, that is perfect charity."
+canonical-instances:
+  - "Someone donates a large sum enthusiastically at a fundraiser, then spends the following weeks quietly resenting the loss of that money every time their bank balance comes up — completing the transfer but not the act, by this model."
+critical-questions:
+  - "Is a gift given resentfully or regretted afterward really less valuable to the recipient, even if the three-part model says it's less complete for the giver?"
+  - "Can a person genuinely control whether they'll regret a gift later, or does the model set a standard that depends on emotional consistency nobody can fully guarantee in advance?"
+status: active

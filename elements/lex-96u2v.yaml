@@ -1,0 +1,18 @@
+id: lex-96u2v
+name: escalating-conflict-recruits-successively-higher-status-parties
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "A conflict between low-status or low-stakes parties tends to pull in higher-status parties as it escalates, and each escalation changes who the conflict is actually between — a children's squabble can draw in the parents, whose own involvement then risks drawing in still-higher authority. Watching only the original two parties misses this trajectory; the question worth tracking is who gets pulled in next if the escalation continues."
+related: []
+evokes: [galef, kotowaza, japanese-proverbs, conflict-escalation-recruits-authority, who-gets-drawn-in-next]
+lineage:
+  - source: primary
+    text: galef-1987-even-monkeys-fall-from-trees
+    citation: "David Galef (compiler and translator), *Even Monkeys Fall From Trees: And Other Japanese Proverbs*, illustrations by Jun Hashimoto, foreword by Edward G. Seidensticker (Tuttle Publishing, copyright 1987; ebook ISBN 978-1-4629-0318-4), Proverb No. 40 ('Inu no kenka ni kodomo ga de, kodomo no kenka ni oya ga deru' in romanized Japanese; the source epub's OCR renders the romanization inconsistently across its two listings, so only the English translation is quoted verbatim here). Verified verbatim against a direct extraction of the held copy."
+    quote: "Dogfights draw children; children’s fights draw parents."
+canonical-instances:
+  - "A disagreement between two engineers escalates to their managers, and the managers' disagreement escalates to a VP — by the third round, the original technical question is no longer what's actually being decided."
+critical-questions:
+  - "At which rung of the escalation does intervening actually resolve the original dispute, versus merely adding one more party who now also has a stake in not backing down?"
+status: active

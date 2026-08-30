@@ -1,0 +1,19 @@
+id: lex-7d93j
+name: a-follow-up-question-reveals-privileged-knowledge-the-asker-should-not-have
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A disguised suspect, listening to a report of events, can unmask himself by asking a question that could only be asked by someone who already possesses specific privileged information not yet disclosed to him. The interrogative itself becomes the evidence — a classic how-did-you-know-that detection pattern. In the Jataka's tale of Sussondi, a hidden king betrays himself by naming a remote island no one had mentioned to him: 'How didst thou cross the stormy main, and Seruma in safety gain? How didst thou Sagga, tell me, pray, to fair Sussondi win thy way?'"
+related: []
+evokes: [jataka, pancanipata, sussondi-jataka, follow-up-question-reveals-privileged-knowledge, how-did-you-know-that-detection]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sussondi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 360, Sussondi-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "How didst thou cross the stormy main, And Seruma in safety gain? How didst thou Sagga, tell me, pray, To fair Sussondi win thy way?"
+canonical-instances:
+  - "A manager investigating a leak asks the team to explain how a rumor started, and one employee, trying to look helpful, asks whether the leaked document was the one with the Q3 revision or the earlier draft — a distinction nobody in the room had mentioned, which is how the manager identifies who actually saw the file."
+critical-questions:
+  - "Does asking a probing follow-up question always indicate guilt, or could an innocent party plausibly have obtained the same privileged information through some legitimate channel the interrogator hasn't considered?"
+  - "Once the tell is noticed, does the interrogator gain anything by naming it immediately, or is there more value in letting the suspect continue talking without realizing what they've already revealed?"
+status: active

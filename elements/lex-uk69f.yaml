@@ -1,0 +1,19 @@
+id: lex-uk69f
+name: going-into-debt-is-a-self-imposed-loss-of-liberty
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When weighing whether to take on debt to sustain a lifestyle you cannot yet afford outright, name what is actually being traded away: not just future money, but present political-grade liberty, voluntarily surrendered to a private party. Franklin's Poor Richard argues that a government edict restricting how citizens may dress would be denounced as tyranny — yet a person who runs into debt for the same fine clothes hands a creditor that identical power over them, 'authority, at his pleasure, to deprive you of your liberty, by confining you in gaol for life, or by selling you for a servant.' The debtor would name the arrangement oppression if a government imposed it, and calls it a purchase when a creditor extracts it, even though the structural loss of freedom to the deciding party is the same in both cases — the only thing that changed is who is doing the constraining and whether the exchange looked voluntary at the moment it was entered."
+related: []
+evokes: [franklin, way-to-wealth, debt-as-voluntary-tyranny, creditor-power-equals-state-power]
+lineage:
+  - source: primary
+    text: franklin-1758-way-to-wealth
+    citation: "Benjamin Franklin, Father Abraham's Speech ('The Way to Wealth' / 'Poor Richard Improved'), 1758 (Gutenberg #43855). Verified verbatim against a direct extraction of the held copy."
+    quote: "Your creditor has authority, at his pleasure, to deprive you of your liberty, by confining you in gaol for life, or by selling you for a servant, if you should not be able to pay him."
+canonical-instances:
+  - "a payday-loan borrower accepts collection terms and default penalties they would call predatory if a government agency imposed the same conditions as a tax, because the initial transaction felt like a choice rather than an imposition."
+critical-questions:
+  - "Does labeling debt 'self-imposed tyranny' erase a real difference — that a debtor at least chose to enter the arrangement, while a government's citizens usually did not consent to a specific edict — or does the aphorism intend that distinction to collapse under scrutiny?"
+  - "Is the analogy weakened by cases where debt is not a lifestyle choice but the only available response to necessity, such as medical debt, where there was no meaningful alternative to compare against 'liberty'?"
+status: active

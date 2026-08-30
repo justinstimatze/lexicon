@@ -1,0 +1,18 @@
+id: lex-3ab6b
+name: persistent-naive-questioning-forces-a-guarded-secret-into-the-open
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'A protector holding a secret that would harm someone they love if disclosed can usually deflect a single question about it, but not an indefinite series of them asked in complete innocence over years. Each individual question is too small and too guileless to justify a harder lie or a flat refusal, so the protector concedes ground incrementally — an evasive answer here, a partial admission there — until the cumulative concessions add up to exactly the disclosure they were trying to prevent. In the Bhadda-sala-Jataka, the young Vidudabha repeatedly asks his mother why he alone receives no gifts from his mother''s family, and later insists on visiting them; her evasions (''don''t speak of it, child'') hold for years but not against the accumulated pressure of him asking ''again and again,'' and she finally lets him go, setting in motion the chain that exposes his mother''s slave parentage.'
+related: []
+evokes: [jataka, dvadasanipata, bhadda-sala-jataka, incremental-concession-under-innocent-pressure, secret-eroded-by-repetition]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-bhadda-sala-jataka
+    citation: 'The Jataka, or Stories of the Buddha''s Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XII (Dvadasanipata), No. 465, Bhadda-sala-jataka. Verified verbatim against a direct extraction of the held copy.'
+    quote: 'Again when he was sixteen, he said, "Mother, I want to see your father''s family." "Don''t speak of it, child," she said. "What will you do when you get there?" But though she put him off, he asked her again and again. At last his mother said, "Well, go then."'
+canonical-instances:
+  - 'A child who keeps asking why they''ve never met their other grandparents eventually wears down a parent who has spent years giving vague, shifting answers, until the parent finally arranges the visit that reveals the estrangement they''d been protecting the child from.'
+critical-questions:
+  - 'Is the secret actually safer withheld than disclosed on the protector''s own terms, at a moment they choose, rather than surrendered piecemeal to the pressure of a questioner who doesn''t yet know what they''re asking for?'
+status: active

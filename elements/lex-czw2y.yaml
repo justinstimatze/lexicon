@@ -1,0 +1,22 @@
+id: lex-czw2y
+name: a-virtues-object-migrates-as-social-scale-expands
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "A virtue like loyalty stays the same underlying force -- staying attached to a relation at personal cost, for the sake of something larger than oneself -- even as the actual object it attaches to shifts with the scale of social organization. The virtue is continuous across stages; what changes is which entity is large enough to deserve it at each stage. Gilman traces the migration directly: 'First, we see it in the vague, nebulous, coherence of the horde of savages, then in the tense devotion of families... Next came loyalty to the chief... And with the king... loyalty became a very passion... The lines of social relation to-day are mainly industrial... the unerring response of the soul to social needs has given us a new kind of loyalty,--loyalty to our work.'"
+related: []
+evokes: [women-and-economics, chapter-xiii, loyalty-to-our-work, the-tense-devotion-of-families, a-virtue-relocates-its-object-as-scale-grows]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-xiii
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter XIII. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "First, we see it in the vague, nebulous, coherence of the horde of savages, then in the tense devotion of families,--that absolute duty to the highest known social group. [...] Next came loyalty to the chief, passing even that due the father. And with the king--that dramatic personification of a nation... loyalty became a very passion. [...] The lines of social relation to-day are mainly industrial. [...] As our industrial organization has grown to the world-encircling intricacies of to-day... the unerring response of the soul to social needs has given us a new kind of loyalty,--loyalty to our work. The engineer who sticks to his engine till he dies, that his trainload of passengers may live; the cashier who submits to torture rather than disclose the secret of the safe,--these are loyal exactly as was the servitor of feudal times, who followed his master to the death, or the subject who gave up all for his king."
+canonical-instances:
+  - "A soldier's willingness to sacrifice personal safety for comrades, once organized entirely around clan and tribe, later reorganizes around regiment and nation without ever ceasing to be the same underlying willingness to place a larger group's survival above one's own."
+  - "A craftsman's devotion, once given entirely to a feudal guild's honor, later attaches to a professional field's standards and a scientific community's integrity, expressed through peer review and reproducibility rather than guild oath, while remaining recognizably the same commitment to something beyond personal gain."
+  - "A worker's sense of duty, once bound to a single employer for a lifetime, migrates in a more fluid labor market toward loyalty to a craft, a professional network, or a body of work that outlasts any single job, without the underlying commitment to something larger than immediate self-interest disappearing."
+critical-questions:
+  - "Is this really one continuous virtue changing its object, or are these actually several different virtues that happen to share a family resemblance and a common name, in which case the 'continuity' claim is doing more work than the evidence supports?"
+  - "Does the virtue's migration track social scale reliably in one direction, always toward larger units, or can it also contract back toward smaller ones -- family, tribe -- under conditions of social breakdown or crisis, reversing the trajectory Gilman describes?"
+  - "If loyalty's object can migrate this freely, what stops it from attaching to an object that is large in scale but genuinely harmful -- does the mechanism have any way of distinguishing a worthy object of expanded loyalty from an unworthy one, or is scale itself treated as sufficient justification?"
+status: active

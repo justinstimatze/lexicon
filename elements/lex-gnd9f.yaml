@@ -1,0 +1,19 @@
+id: lex-gnd9f
+name: committing-to-a-stranger-by-reputation-then-engineering-a-meeting
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A person can commit to pursuing someone they have never met, based purely on secondhand praise circulating among others, and then engineer an elaborate demonstration of merit to gain access rather than approach directly. In the Jataka''s tale of Suci, the smith decides to marry a woman he has only heard described by customers, then builds his entire needle-selling stunt as the means of reaching her: "People came from the villages round to have razors, axes, ploughshares and goads made, and generally saw that maiden. When they went back to their own villages, they praised her beauty in the places where men sit and elsewhere. The Bodhisatta, being attracted by merely hearing of her, thought, "I will make her my wife.""'
+related: []
+evokes: [jataka, chanipata, suci-jataka, commitment-by-reputation-alone, engineering-access-through-demonstrated-merit]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-suci-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 387, Suci-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "People came from the villages round to have razors, axes, ploughshares and goads made, and generally saw that maiden. When they went back to their own villages, they praised her beauty [282] in the places where men sit and elsewhere. The Bodhisatta, being attracted by merely hearing of her, thought, \"I will make her my wife\":"
+canonical-instances:
+  - "A researcher decides to collaborate with a scientist they've never met after hearing colleagues repeatedly praise the scientist's rigor at conferences, then spends months building an impressive independent result specifically to get an introduction on equal footing."
+critical-questions:
+  - "Does committing to someone based purely on others' praise risk building an entire plan around a reputation that may not match the actual person once met?"
+  - "Is engineering an elaborate demonstration of merit a genuine way to earn attention, or does it substitute for the more direct and vulnerable step of simply introducing oneself?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-vahcd
+name: many-small-well-meaning-visits-can-starve-a-debilitated-party
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a weakened party who cannot replenish their own resources receives many small, individually well-meaning visits, check whether the aggregate of those visits is quietly consuming the fixed resource their recovery actually depends on. Aesop's 'The Sick Stag' has a stag too feeble to forage receive a stream of sympathetic visitors who each nibble some of the grass near him, until: 'he was still too feeble to get up and go in search of fodder; and thus he perished miserably of hunger owing to the thoughtlessness of his friends.' No single visitor intends harm, and none would register their own share as significant — the damage comes specifically from the aggregate of caretaking behavior itself, not from any rival's competitive greed."
+related: []
+evokes: [aesop, the-sick-stag, aggregated-well-meaning-depletion, harm-without-a-malicious-actor]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-sick-stag
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Sick Stag.' Verified verbatim against a direct extraction of the held copy."
+    quote: "In a few days he began to mend, but was still too feeble to get up and go in search of fodder; and thus he perished miserably of hunger owing to the thoughtlessness of his friends."
+canonical-instances:
+  - "a person recovering from illness or burnout has well-wishers each ask for 'just five minutes,' collectively consuming the exact rest that recovery required, with no single visitor at fault for the outcome."
+critical-questions:
+  - "Is there a threshold number of visitors below which this aggregation effect wouldn't have mattered, and if so, how would any individual visitor know whether they are the one who tips it into genuine harm?"
+  - "Does this differ meaningfully from a tragedy-of-the-commons dynamic, given that here the depleting parties are sympathetic rather than competitive — does the caretaking framing change what corrective action is appropriate?"
+status: active

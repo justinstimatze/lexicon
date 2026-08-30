@@ -1,0 +1,19 @@
+id: lex-kgdqu
+name: displayed-weakness-can-bluff-a-sophisticated-opponent-into-overthinking-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When facing a genuinely undefended position against a capable opponent, check whether calm, obvious weakness can function as a trap precisely because a sophisticated opponent assumes weakness this obvious must be concealing something. The 36 Stratagems' 'The empty fort strategy' names its own precondition: 'This stratagem has to be used sparingly and only after one has first developed a reputation for military prowess. This also depends on having a clever opponent who, in perceiving a trap, may over-think his reaction.' The bluff is second-order — it does not work on a target who reads the situation at face value; it specifically requires and exploits an opponent smart enough to doubt a simple reading and hesitate over a possibility that was never actually there."
+related: [lex-4zz8v]
+evokes: [36-stratagems, the-empty-fort-strategy, second-order-bluff, exploiting-opponent-sophistication]
+lineage:
+  - source: primary
+    text: taylor-2013-36-stratagems-32-empty-fort-strategy
+    citation: "Peter Taylor, The Thirty-Six Stratagems: A Modern-Day Interpretation of a Strategy Classic (Infinite Ideas, 2013), Stratagem 32, 'The empty fort strategy.' Verified verbatim against a direct pdftotext extraction of the held copy."
+    quote: "This stratagem has to be used sparingly and only after one has first developed a reputation for military prowess. This also depends on having a clever opponent who, in perceiving a trap, may over-think his reaction."
+canonical-instances:
+  - "the persistent, decades-long public dispute over whether Fort Knox's gold reserves are genuinely intact: extreme secrecy combined with a lack of independent audits means the ambiguity itself does deterrent work, whether or not the vault actually holds what it claims — a real, documented controversy that has repeatedly drawn congressional pushes for a transparency audit."
+critical-questions:
+  - "What happens the first time this bluff is called and found empty — does the reputation for prowess that made the bluff credible collapse entirely, making the tactic unusable a second time against the same or any watching opponent?"
+  - "Does the required precondition (an established reputation for strength) mean this move is only available to actors who have already won enough real confrontations to earn the credibility the bluff depends on?"
+status: active

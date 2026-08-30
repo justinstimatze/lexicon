@@ -1,0 +1,19 @@
+id: lex-a4sav
+name: copying-a-one-off-events-surface-action-is-not-a-method
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Before repeating an action that once produced a spectacular result, check whether you understand the actual cause, or whether you are copying only the surface behavior that happened to accompany a non-repeatable event. The Panchatantra's barber watches a magical enchanted figure turn naked men to gold when clubbed on the head, and concludes: 'Surely, all these naked fellows turn to gold when clubbed on the head. So tomorrow morning I, too, will invite a lot of them and club them to death, in order to get a lot of gold.' He has correctly observed the surface action and completely missed that it was the specific enchantment producing the result, not the clubbing. The closing verse generalizes it: 'Deeds ill-known, ill-recognized, ill-accomplished, ill-advised — thought of these let no man harbor.'"
+related: []
+evokes: [panchatantra, ill-considered-action, mistaking-a-one-off-event-for-a-method, correlation-copied-without-its-cause]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-merchant-jewel-and-the-barber
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book V, frame story ('Merchant Jewel and the Barber'). Verified verbatim against a direct extraction of the held copy."
+    quote: "Surely, all these naked fellows turn to gold when clubbed on the head. So tomorrow morning I, too, will invite a lot of them and club them to death, in order to get a lot of gold."
+canonical-instances:
+  - "an executive notices a competitor cut an entire product line right before a huge success and copies the move. The competitor's actual advantage was a cash reserve deep enough to survive the cut and a market shift already underway — neither of which the copycat has, so the identical move produces the opposite result."
+critical-questions:
+  - "How would the barber, in the moment, have actually distinguished the enchantment's real causal role from the clubbing's incidental role, given that both were equally visible parts of the same one-time event he witnessed?"
+  - "Is this failure mode avoidable in general, or does every observer of a rare success face the same unresolvable problem — a single instance never reveals on its own which of its many features were the actual cause?"
+status: active

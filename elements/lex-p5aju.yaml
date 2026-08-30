@@ -1,0 +1,19 @@
+id: lex-p5aju
+name: imitating-a-visible-correlate-cannot-produce-an-unattainable-underlying-trait
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Copying a visible habit tied to an admired quality only works if that habit actually produces the quality, so check for a real causal link before assuming one. Aesop's 'The Crow and the Swan' has a crow, envying the swan's white plumage, move to a pond and bathe constantly in imitation, learning nothing except: 'You may change your habits, but not your nature.' The crow mistakes correlation for cause — the swan's whiteness was never produced by bathing, it was simply observed alongside it — and the imitation strategy is doomed from the start because it targets the wrong variable entirely."
+related: []
+evokes: [aesop, the-crow-and-the-swan, correlation-mistaken-for-cause, futile-imitation-of-a-correlate]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-crow-and-the-swan
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Crow and the Swan.' Verified verbatim against a direct extraction of the held copy."
+    quote: "You may change your habits, but not your nature."
+canonical-instances:
+  - "adopting a successful writer's observed routine — early-morning journaling, a specific notebook — hoping it produces the underlying discipline or talent, when the routine was an output of that trait rather than its source."
+critical-questions:
+  - "How would the crow have distinguished which of the swan's habits were causally responsible for its whiteness, if any, versus which were simply incidental behaviors that happened to co-occur with it?"
+  - "Is there ever a real path from imitating a correlate to acquiring the underlying trait — could sustained practice of a habit eventually produce enough adjacent change that the original goal becomes reachable after all?"
+status: active

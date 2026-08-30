@@ -1,0 +1,19 @@
+id: lex-b4j76
+name: repeated-explicit-warnings-about-a-trusted-danger-go-unheeded
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Attachment to something explicitly, repeatedly named as dangerous can keep a person from acting on the warning, even when the danger is a known category rather than some hidden or ambiguous risk. In the Jataka's tale of the hermit and his pet snake, fellow ascetics warn him more than once that a viper can never be trusted and should be released, stating the danger as a general, uncontroversial fact rather than a suspicion specific to this snake. The hermit keeps it anyway out of attachment, and is eventually killed when the snake, left hungry, bites him. The warnings weren't wrong, weren't ambiguous, and weren't ignored through ignorance — they were heard and set aside because the relationship mattered more than the acknowledged risk."
+related: []
+evokes: [jataka, ekanipata, veluka-jataka, repeated-warning-overridden-by-attachment, acknowledged-risk-set-aside-for-a-relationship]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-veluka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 43, Veluka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"A viper can never be trusted; keep it no longer.\""
+canonical-instances:
+  - "A manager is told more than once by peers that a particular contractor has a documented pattern of walking off with client data. The contract keeps getting renewed anyway, because the contractor is the only one who understands a system the manager depends on."
+critical-questions:
+  - "Does naming the risk as a general category, the way 'a viper can never be trusted' does, actually carry less weight than a specific warning about this individual case would — is generality part of why it's easier to set aside?"
+  - "What would have to change about how the warning is delivered, or by whom, to actually break through an attachment this strong, given that repetition alone clearly didn't?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-wh3ey
+name: defend-a-specific-instance-by-asserting-the-general-rule-it-falls-under
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When confronted with an apparent inconsistency, a person can defend the specific instance not by denying wrongdoing but by asserting a broader general principle that, if true, would license the behavior as a normal case rather than an exception. In the Jataka''s tale of Somadatta, the ascetic defends his grief this way: "Should man with beast consort, O Sakka, grief For a lost playmate finds in tears relief."'
+related: []
+evokes: [jataka, sattanipata, somadatta-jataka, defend-by-asserting-a-general-license, special-pleading-as-a-universal-rule]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-somadatta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 410, Somadatta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Should man with beast consort, O Sakka, grief For a lost playmate finds in tears relief."
+canonical-instances:
+  - "Called out for missing yet another deadline, a contractor doesn't deny it — he argues that anyone doing genuinely ambitious creative work inevitably runs over schedule, framing his lateness as the normal cost of the kind of work he does rather than a personal failure."
+critical-questions:
+  - "Set aside the specific case it's excusing — does the general principle being invoked actually hold up on its own?"
+  - "Is this move different from ordinary special pleading only in that it states the excuse as a rule rather than a one-off justification?"
+status: active

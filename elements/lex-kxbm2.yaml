@@ -1,0 +1,32 @@
+id: lex-kxbm2
+name: convexity-bias
+type-in: state
+type-out: claim
+_tier: atomic
+agent-instruction: "When evaluating an option with asymmetric payoffs (downside bounded, upside large) AND your assessment is uncertain, convexity bias favors taking it. Jensen's inequality applied to action: under uncertainty, convex payoffs gain value FROM the uncertainty itself."
+related: [lex-yg484, lex-2zyhy, lex-dxx5k, lex-xu8k9, lex-7wxxd, lex-jafkg, lex-yh672, lex-3u5vn]
+evokes: [jensen-inequality, mean-of-function-not-function-of-mean, nonlinearity-favors-volatility-lovers, second-order-effect, the-curve-shape-is-the-story]
+lineage:
+  - source: primary
+    text: taleb-2012-antifragile
+    citation: "Nassim Nicholas Taleb, Antifragile: Things That Gain from Disorder (Random House 2012, Incerto Book 3) — Chapter 18 'On the Difference Between a Large Stone and a Thousand Pebbles' and Chapter 19 'The Philosopher's Stone and Its Inverse'."
+    quote: "Look at the convexity effect at work: the average number of cars on the road does not matter at all for traffic speed. If you have 90,000 cars for one hour, then 110,000 cars for another hour, traffic would be much slower than if you had 100,000 cars for two hours. Note that travel time is a negative, so I count it as a cost, like an expense, and a rise is a bad thing. So travel cost is fragile to the volatility of the number of cars on the highway; it does not depend so much on their average number. Every additional car increases travel time more than the previous one. [Ch.18 — canonical instance; the mean-of-function vs function-of-mean discrepancy made concrete.] Why does asymmetry map to convexity or concavity? Simply, if for a given variation you have more upside than downside and you draw the curve, it will be convex; the opposite for the concave. [Ch.18 — the geometric core; ties the optionality payoff-shape to convexity directly.] This is a hint to a central problem of the world today, that of the misunderstanding of nonlinear response by those involved in creating 'efficiencies' and 'optimization' of systems…When you hear of a 'second-order' effect, it means convexity is causing the failure of approximation to represent the real story. [Ch.18 — the diagnostic shape: 'second-order' is the name approximation-theorists give to convexity effects when their first-order models break.]"
+  - source: practitioner
+    text: jensen-inequality-mathematical
+    citation: "Johan Jensen 1906, Sur les fonctions convexes et les inégalités entre les valeurs moyennes, Acta Mathematica 30:175-193. The mathematical statement: for a convex function φ, φ(E[X]) ≤ E[φ(X)] (and equality iff X is constant or φ is affine). The inequality reverses for concave φ. This is the pivotal math under convexity-bias: averaging the inputs (φ(E[X])) gives a different — and for convex φ, smaller — result than averaging the outputs (E[φ(X)]). This lineage entry is a historical-attribution anchor rather than a stake-able quote; no verbatim quote is claimed here. Substantive grounding for the convexity-bias primitive itself is carried by Taleb 2012 below."
+  - source: practitioner
+    text: antifragile-mining-pass-1
+    citation: "promoted from cross-attestation: traffic engineering (Taleb's canonical instance; congestion is convex in vehicle density), monetary policy (central-bank printing has near-zero effect, then suddenly large inflation jump — convex response curve), drug dosing (exposure-response curves are typically concave; the marginal benefit of dose-increase decreases; the marginal harm of overdose is convex), software performance (memory pressure produces near-flat then catastrophic response — paging cliff; queue depth produces near-flat then queue-collapse), risk-adjusted compensation (CEO comp with stock options has convex payoff in stock-price — the asymmetric upside is the option premium), insurance / catastrophe finance (premium is paid linearly; payout is bounded below and unbounded above — convex)"
+canonical-instances:
+  - "traffic congestion: average car-count is misleading; volatility-of-car-count is what matters. The function 'travel-time-as-function-of-car-count' is convex past a threshold, so the expected travel time under variable load > travel time at the mean load. The mean masks the convexity"
+  - "Jensen's inequality formally: for any convex function φ and random variable X, φ(E[X]) ≤ E[φ(X)]. If your payoff is convex in some parameter (option price in volatility, traffic-cost in density), you benefit from variability in that parameter; if concave, you suffer"
+  - "the diagnostic test for convexity-bias: ask 'is this system's response curve linear in the input I'm averaging over?' If no, the mean is hiding the answer. Engineering 'efficiency' projects that minimize-mean-cost can dramatically increase volatility-induced-cost because they push the operating point onto the convex part of the response curve"
+  - "operationally connected to lex-2zyhy optionality: an option's value is positively convex in the underlying — that's the mathematical reason the bounded-downside + unbounded-upside payoff structure carries positive expected value under volatility. Optionality is the decision-shape; convexity-bias is its mathematical signature"
+  - "operationally distinct from lex-yg484 multiplicative-decomposition (also math-shaped): lex-yg484 is the additive-in-log decomposition of unknowns into estimable factors (Fermi-style); convexity-bias is about nonlinear-response-to-variation in a single quantity. They co-occur in some analyses (e.g., portfolio compound-return where log-additivity meets Jensen) but the operations are distinct"
+  - "the 'second-order effect' euphemism: when a practitioner says 'we neglected second-order effects,' they typically mean 'we used a linear approximation and convexity bit us.' The phrase is widely deployed in engineering and finance without naming the underlying mechanism; recognizing it as convexity-bias makes the failure-mode legible"
+critical-questions:
+  - "is the response function actually convex — verify with two test points, don't assume from intuition"
+  - "is the asymmetric upside available to you specifically, or only in expectation across a population you're not in?"
+  - "what's the cost of locking in the convexity (option premium, capital tied up) — is it small relative to the asymmetry?"
+  - "could the convexity vanish under correlated shocks — Jensen's inequality assumes independence in many applications"
+status: active

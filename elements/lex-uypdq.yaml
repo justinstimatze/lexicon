@@ -1,0 +1,19 @@
+id: lex-uypdq
+name: a-staged-proof-can-be-fabricated-behind-genuine-witness-theatrics
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A demonstration that looks self-verifying in front of real witnesses can still be entirely rigged if the underlying evidence itself was swapped beforehand — verify what produced the evidence, not how convincingly it was presented. In the Panchatantra's tale, a weaver's wife, punished for adultery by having her nose cut off, secretly arranges for a friend to take the physical mutilation in her place while she is elsewhere; she then displays her own intact nose to her accusing husband as apparent divine proof of her fidelity. Ryder's translation gives the staged confrontation directly: 'Look, you villain! By virtue of my faithfulness my nose has grown as it was before' — and it is only later, examining the friend by torchlight and finding 'a great pool of blood on the floor,' that the truth surfaces. The theatrics of the reveal were completely genuine; what made them deceptive was a substitution that happened well before the audience ever arrived."
+related: []
+evokes: [panchatantra, loss-of-friends, staged-proof-fabricated-before-the-witnesses-arrive, verify-provenance-not-the-presentation]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-the-weavers-wife
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book I, nested inside 'Godly and June.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Look, you villain! By virtue of my faithfulness my nose has grown as it was before."
+canonical-instances:
+  - "a company demonstrates a product's live performance to skeptical investors in a session that looks entirely unscripted and genuine, when the actual dataset and hardware configuration were swapped for a specially prepared version hours before the room ever filled — the demo itself was real; what made it fraudulent happened upstream of anything the audience could observe."
+critical-questions:
+  - "Is there a general method for verifying provenance rather than presentation, given that the whole point of this kind of fraud is arranging for the provenance-check itself to also appear satisfied?"
+  - "Does the husband bear any responsibility for being deceived here, given that a sufficiently motivated skeptic could have insisted on examining the friend at the time of the original punishment rather than accepting the delayed reveal?"
+status: active

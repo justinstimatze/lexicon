@@ -1,0 +1,22 @@
+id: lex-nrt2d
+name: teaching-authority-shifts-from-oldest-to-newest-as-knowledge-type-changes
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When the most valuable knowledge in a domain is personally-accumulated lived experience, the oldest people are naturally the best teachers, because age directly tracks accumulated experience. Once a domain's most valuable knowledge becomes rapidly-advancing, systematically transmitted, collectively-updated information, teaching authority reverses: the best teachers become whoever was most recently trained in the field's current state, because recency of training now tracks currency of knowledge better than age tracks it. Gilman states the reversal directly: 'For a long time the aged were considered the only suitable teachers, because the major part of knowledge was still derived from personal experience... With our increased power to preserve and transmit individual experience through literature, and to disseminate such information through systematic education... the teacher of to-day is not the graybeard and beldame, but the man and woman most newly filled with the gathered experience of the world.'"
+related: []
+evokes: [women-and-economics, chapter-xiii, the-teacher-of-to-day-is-not-the-graybeard-and-beldame, most-newly-filled-with-the-gathered-experience-of-the-world, recency-of-training-replaces-age-as-the-mark-of-authority]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-xiii
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter XIII. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "For a long time the aged were considered the only suitable teachers, because the major part of knowledge was still derived from personal experience; and, of course, the older the person, the greater his experience, other things being equal, and they were rather equal then. [...] With our increased power to preserve and transmit individual experience through literature, and to disseminate such information through systematic education, we see younger and younger people, more rich in, say, chemical or electrical experience than 'the oldest inhabitant' could have been in earlier times. Therefore, the teacher of to-day is not the graybeard and beldame, but the man and woman most newly filled with the gathered experience of the world."
+canonical-instances:
+  - "In a slowly-changing agrarian trade, the eldest farmer's decades of seasonal observation make them the obvious person to teach newcomers; in a fast-moving software field, the engineer who graduated last year with training in the current frameworks is often a more useful teacher than a veteran whose expertise froze a decade earlier."
+  - "A hospital's most senior surgeon, trained thirty years ago, may be a worse source of current best practice on a rapidly-evolving procedure than a resident who just finished a fellowship built entirely around the newest published techniques."
+  - "In a small craft trade with slowly accumulating know-how, the oldest artisan is rightly deferred to; in a fast-changing scientific instrument field, the postdoc fresh from the latest lab often knows the working state of the art better than the tenured professor who set up that lab decades before."
+critical-questions:
+  - "Does this reversal apply evenly across a whole domain, or can a domain contain both slowly-changing and rapidly-changing subfields at once, meaning age-based and recency-based authority might both be correct simultaneously within the same overall field?"
+  - "Is recency of training really a reliable proxy for currency of knowledge? Someone could maintain currency through continuous updating long after their original training, which would undermine the clean oldest-versus-newest split."
+  - "Does the shift to recency-based authority discount a genuinely valuable kind of knowledge -- judgment built from having seen many cycles of change -- that no amount of recent training alone can replace, even in a fast-moving field?"
+status: active

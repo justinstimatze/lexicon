@@ -1,0 +1,19 @@
+id: lex-3rqsq
+name: an-early-dismissed-warning-is-recognized-verbatim-at-the-moment-of-payoff
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A mentor's early diagnosis of a disciple's character flaw, delivered as an explicit anticipatory warning and dismissed or forgotten at the time, can resurface decades later at the exact moment its predicted consequence lands — recalled verbatim and recognized only then as having precisely foretold the outcome. The warning did nothing to prevent the outcome; its only function turns out to be retrospective, arriving as recognition rather than as anything that could have changed course. In the Jataka's tale of Prince Bodhi, a king who has just been blinded by consequences of his own past cruelty recalls his teacher's old maxim at the instant of realization: 'Our teacher when he said \"These mortals experience results corresponding to their deeds, even as fruit corresponds with the seed,\" spoke, I suppose, with all this before his mind's eye.'"
+related: []
+evokes: [jataka, pancanipata, dhonasakha-jataka, foreshadowing-recognized-only-at-payoff, dismissed-warning-recalled-verbatim]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dhonasakha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 353, Dhonasakha-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "At this moment he recalled the words of the Bodhisatta and said, \"Our teacher when he said 'These mortals experience results corresponding to their deeds, even as fruit corresponds with the seed,' spoke, I suppose, with all this before his mind's eye.\""
+canonical-instances:
+  - "A junior engineer is told early on by a mentor that skipping input validation on a public endpoint always comes back around eventually. Years later, mid-outage from exactly that kind of exploit, the engineer recalls the mentor's exact phrasing for the first time since it was said, and only now recognizes it as having named this specific failure in advance."
+critical-questions:
+  - "Does recalling the warning at the moment of payoff carry any real value if it arrives too late to change the outcome, or is its only function emotional — supplying meaning and closure rather than altering anything?"
+  - "Is the warning being remembered accurately, or does the drama of the moment reshape the memory to fit more precisely than what was actually said at the time?"
+status: active

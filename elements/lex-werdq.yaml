@@ -1,0 +1,19 @@
+id: lex-werdq
+name: fabricated-evidence-to-force-a-decision-can-produce-the-opposite-effect
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'An interested party can manufacture false physical evidence to trigger a decision in the direction she wants, but the fabrication can produce the opposite of the intended effect once it lands. In the Jataka''s tale of Susima, the queen substitutes her own grey hair for his to force his hand, and it backfires: "Pull it out and put it in my hand." She pulled a hair out, but threw it away and put into his hand one of her own grey hairs.'
+related: [lex-86u66]
+evokes: [jataka, sattanipata, susima-jataka, fabricated-evidence-backfires, planted-sign-produces-opposite-effect]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-susima-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 411, Susima-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Pull it out and put it in my hand.\" She pulled a hair out, but threw it away and put into his hand one of her own grey hairs."
+canonical-instances:
+  - "Hoping to pressure the board into an early exit, an investor plants a leaked memo suggesting the company is running out of cash. The founders read it instead as proof he can't be trusted with sensitive information, and move up the split he was trying to prevent."
+critical-questions:
+  - "Does the fabricator's own motive leak through the staged evidence in ways that are hard to control, making backfire more likely than the schemer expects?"
+  - "What made this specific fabrication read differently than intended — was it something inherent to the evidence itself, or how the target happened to interpret it?"
+status: active

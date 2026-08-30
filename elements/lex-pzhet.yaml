@@ -1,0 +1,19 @@
+id: lex-pzhet
+name: ask-the-alarmed-partys-reasoning-before-judging-whether-fear-is-warranted
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than dismiss or ignore a visible fear response, a more powerful party can directly question the frightened party to elicit their reasoning before deciding whether the fear is warranted. In the Jataka''s tale of Kotisimbali, the roc-king does exactly this on seeing the tree-spirit tremble: "The roc-king perceived the trembling, and spoke two stanzas in enquiry as to the reason."'
+related: []
+evokes: [jataka, sattanipata, kotisimbali-jataka, ask-before-judging-a-fear-response, elicit-reasoning-before-dismissing-alarm]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kotisimbali-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 412, Kotisimbali-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The roc-king perceived the trembling, and spoke two stanzas in enquiry as to the reason:"
+canonical-instances:
+  - "When a normally steady operations lead suddenly insists on halting a routine deployment, the VP doesn't override her on the spot — he asks her to walk through exactly what she's seeing first, before deciding whether the halt is justified."
+critical-questions:
+  - "Does asking first cost meaningful time in situations where the danger, if real, is already unfolding?"
+  - "Would a leader who always demands justification before acting on someone's alarm end up training people to stop raising alarms at all?"
+status: active

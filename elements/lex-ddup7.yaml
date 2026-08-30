@@ -1,0 +1,19 @@
+id: lex-ddup7
+name: recasting-a-moral-objection-as-technical-doesnt-remove-opposition
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When the real source of resistance to a proposal is threatened material interests, switching the proposal's framing from moral language to neutral technical or rational language doesn't reduce the opposition — it just changes which vocabulary the opposition uses to fight it. Framing an issue as a moral concern makes an advocate 'unwanted in the circles where his opinion would count,' but reframing the identical issue as a rational or technical problem doesn't buy safety either: the interests rooted in the hierarchy's occupational structure oppose the technical framing on every score too, because the interests were never actually responding to the vocabulary in the first place. The lesson isn't that moral language is uniquely disqualifying — it's that vocabulary choice can't neutralize opposition whose actual source is a threatened stake, regardless of which register the threat gets dressed in."
+related: []
+evokes: [jackall-moral-mazes, "powerful interests would oppose him on every score", vocabulary-cant-neutralize-interest-driven-opposition]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch5-technical-reframing-still-opposed
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 5, Drawing Lines."
+    quote: "He was unwanted in the circles where his opinion would count, in some measure because he defined the hearing issue as a moral concern instead of approaching it practically. If, however, he were to frame the issue as a rational/technical problem, powerful interests rooted in the occupational group structure of the hierarchy would oppose him on every score."
+canonical-instances:
+  - "An internal advocate reframes a workplace-safety concern from 'this is unethical' to 'this creates measurable liability exposure,' expecting the technical framing to be harder to dismiss, only to find the same stakeholders who would have dismissed the moral case now contest the liability estimate line by line instead."
+critical-questions:
+  - "Is there any framing at all that could have neutralized this specific opposition, or does naming the interests directly and negotiating with them openly work better than any indirect vocabulary substitution, moral or technical?"
+status: active

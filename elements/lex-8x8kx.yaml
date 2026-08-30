@@ -1,0 +1,22 @@
+id: lex-8x8kx
+name: generosity-to-a-latecomer-reads-as-unfairness-to-the-loyal
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone who invested less time, effort, or loyalty receives the same reward or welcome as someone who invested far more, the person who invested more experiences it as unfairness — even when no agreement was broken and nothing was actually taken from them. Workers hired at the eleventh hour are paid the same wage as those who worked all day, and the full-day workers murmur; a son who never left resents the celebration thrown for the brother who squandered everything and returned. In both cases, the authority's answer is the same: nothing owed to the aggrieved party was withheld — the resentment comes entirely from comparison, not from any actual loss."
+related: []
+evokes: [kjv, eleventh-hour-workers, a-penny-a-day, the-elder-brother, killed-the-fatted-calf, is-thine-eye-evil-because-i-am-good]
+lineage:
+  - source: primary
+    text: kjv-1611-matthew-20-laborers-in-the-vineyard
+    citation: "The Holy Bible, King James Version (1611; this edition Project Gutenberg #10), Matthew 20:11-15. Verified verbatim against a direct extraction of the held copy."
+    quote: "And when they had received it, they murmured against the goodman of the house, Saying, These last have wrought but one hour, and thou hast made them equal unto us, which have borne the burden and heat of the day. But he answered one of them, and said, Friend, I do thee no wrong: didst not thou agree with me for a penny? Take that thine is, and go thy way: I will give unto this last, even as unto thee. Is it not lawful for me to do what I will with mine own? Is thine eye evil, because I am good?"
+  - source: primary
+    text: kjv-1611-luke-15-prodigal-son-elder-brother
+    citation: "The Holy Bible, King James Version (1611; this edition Project Gutenberg #10), Luke 15:29-31. Verified verbatim against a direct extraction of the held copy."
+    quote: "And he answering said to his father, Lo, these many years do I serve thee, neither transgressed I at any time thy commandment: and yet thou never gavest me a kid, that I might make merry with my friends: But as soon as this thy son was come, which hath devoured thy living with harlots, thou hast killed for him the fatted calf. And he said unto him, Son, thou art ever with me, and all that I have is thine."
+canonical-instances:
+  - "A team member who has been with a company for six loyal years watches a new hire get promoted to the same level after eighteen months, and feels cheated — even though the new hire's promotion took nothing from the six-year veteran's own comp or title, the veteran's sense of injury comes entirely from the comparison, not from any actual reduction in what they have."
+critical-questions:
+  - "Has the loyal party actually been shortchanged by some real standard, or is this pattern being used to wave away a legitimate structural unfairness (systematically slower advancement for people who stayed) by reframing it as mere comparison-envy?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-zjsys
+name: post-abuse-flattery-is-distrusted-on-demonstrated-behavior-not-words
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Someone who has already demonstrated harmful behavior toward another party doesn't earn trust back merely by switching to warm, flattering language once they want something again. A target weighing the demonstrated pattern over the currently offered words is doing exactly the right arithmetic: those words are what a manipulator says whether or not anything has actually changed. In the Jataka's tale of the escaped monkey, a snake-charmer who beat him tries sweet talk to lure him back down from a tree: 'Like my own son you shall be, Master in our family: Come down, Nuncle, from the tree-- Come and hurry home with me?' The monkey's refusal names exactly what the flattery can't undo: 'You are laughing in your sleeve! Have you quite forgot that beating? Here I am content to live (So good-bye) ripe mangoes eating.' The monkey isn't refusing to consider that people can change. He's pointing at the timing. The flattery showed up the moment recapturing him became necessary — and that timing tells the whole story of where it came from."
+related: []
+evokes: [jataka, dukanipata, salaka-jataka, demonstrated-behavior-outweighs-currently-offered-flattery, flattery-timed-to-need-is-evidence-against-its-own-sincerity]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-salaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 249, Salaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Like my own son you shall be, Master in our family: Come down, Nuncle, from the tree-- Come and hurry home with me?... You are laughing in your sleeve! Have you quite forgot that beating? Here I am content to live (So good-bye) ripe mangoes eating."
+canonical-instances:
+  - "An employee who left a job after months of a manager's public humiliation gets a warm, personal message from that same manager the week a major project needs extra hands. They decline. Change might be possible in principle, but this outreach arrived exactly when the manager needed something, and no apology ever came earlier, when nothing was at stake."
+critical-questions:
+  - "Is the monkey's refusal actually well-calibrated, or does it foreclose a genuine possibility that people do sometimes change and that timing coinciding with need doesn't automatically prove insincerity?"
+  - "What would it actually take for the snake-charmer to earn back trust here, given that almost any gesture he makes while still wanting the monkey back could be read through the same lens the monkey is applying?"
+status: active

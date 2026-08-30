@@ -1,0 +1,19 @@
+id: lex-vvxxg
+name: attempts-to-sully-the-incorruptible-only-polish-it-brighter
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "An attempt to smear or discredit something whose fundamental nature resists corruption can end up drawing more attention to it, or improving its visible condition, precisely because the material being attacked converts the attempted damage into something closer to maintenance. In the Jataka's tale of the crystal cave, boars terrified by a lion's reflection in crystal walls try to hide it by rubbing mud over the surface: 'So they got some mud from a pool close by, and rubbed and rubbed the crystal with it. But the crystal, being constantly polished by the boars' bristles, got brighter than ever.' The attack and the polish were the same physical action. Only the material determined which one it actually was."
+related: []
+evokes: [jataka, tikanipata, manisukara-jataka, an-attack-on-an-incorruptible-target-converts-into-maintenance, the-attempted-smear-and-the-polish-are-the-same-action]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-manisukara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 285, Manisukara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "So they got some mud from a pool close by, and rubbed and rubbed the crystal with it. But the crystal, being constantly polished by the boars' bristles, got brighter than ever."
+canonical-instances:
+  - "A competitor spreads exaggerated rumors about a company's product flaws, prompting the company to publish a detailed, transparent breakdown of exactly how the product works, which draws far more favorable attention than the product had before the rumors started."
+critical-questions:
+  - "Does this pattern depend on the target already being genuinely sound, so that scrutiny has nothing real to find, or does it only work when the underlying reputation was fragile enough to need exactly this kind of test to prove itself?"
+  - "Is there a point at which repeated attacks, even ones that fail to damage the target, still cost something in attention or resources, even if the material itself comes through unmarked?"
+status: active

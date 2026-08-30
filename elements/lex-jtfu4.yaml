@@ -1,0 +1,24 @@
+id: lex-jtfu4
+name: the-audience-selects-its-own-meaning-from-your-symbol
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Before assuming a message will land the way you intend, check whether you are relying on your own understanding of it as evidence for how the audience will read it — Merton and Lazarsfeld show this is exactly the assumption that fails, because a receiver doesn't take in your intended whole, they select whichever piece of it fits their own existing categories. Their illustrating parable: a missionary pointed to a table and repeatedly said 'table' until his non-literate audience could repeat the word, then was dismayed to learn that some had generalized 'table' to a tree, because both were brown, and others to dogs, because both had four legs — each listener selecting some aspect of the complex object which, for the missionary, was so well designated as a whole by a single word. The same failure recurs with sophisticated audiences and serious content: films built to dramatize the cruelty and immorality of the Nazis were instead appraised by audiences in purely technical terms, taken as illustrations of Nazi efficiency, because the emotional and moral implications the producers intended were overlooked in favor of whatever the audience's own frame of reference — here, competence and organization — made most salient. Diagnostic move: don't trust your own reaction to a message as a proxy for the audience's; the gap between intended and received meaning is not a defect in the audience's attention, it is the normal operation of interpretation, and it means the same symbol can be read as evidence for entirely different, even opposite, conclusions depending on which framework the receiver already has available to sort it into."
+related: []
+evokes: [merton-1957, lazarsfeld-and-merton-radio-film-propaganda, the-missionary-and-the-word-table, nazi-efficiency-not-nazi-cruelty, each-listener-selects-an-aspect, breakdown-in-communication, unanticipated-response]
+lineage:
+  - source: primary
+    text: merton-lazarsfeld-1957-missionary-table-parable
+    citation: "Robert K. Merton and Paul F. Lazarsfeld, Social Theory and Social Structure, Revised and Enlarged Edition (Glencoe, IL: Free Press, 1957), Ch. XIV 'Studies in Radio and Film Propaganda,' p.517. Verified verbatim against a University of Iowa library scan via Internet Archive OCR text (item 31858016281432)."
+    quote: "'The story is told of a missionary who pointed to a table and repeatedly said \"table\" until his audience of non-literates could repeat the word. After some time, he was dismayed to learn that some non-literates referred to a tree as \"table,\" because both were brown. Others called dogs \"tables\" since both had four legs. In short, each listener had selected some aspect of the complex object, which for the missionary was so well designated as a whole by the word \"table.\"'"
+  - source: primary
+    text: merton-lazarsfeld-1957-nazi-films-read-as-efficiency
+    citation: "Robert K. Merton and Paul F. Lazarsfeld, Social Theory and Social Structure (1957), same chapter, p.511."
+    quote: "'Other illustrations are provided by films which emphasize the cruelty and immorality of the Nazis. Episodes which ostensibly indicate that the Nazis are entirely unconcerned with common human decencies are at times appraised by audiences in purely technical terms: they are taken as illustrations of Nazi efficiency. The emotional and moral implications intended by the producers of these films are overlooked by the audience.'"
+canonical-instances:
+  - "A safety video shows graphic footage of a workplace accident to scare viewers into following protocol, but viewers with technical backgrounds focus on and admire the mechanical failure that caused it, treating the video as an interesting engineering case study rather than a cautionary tale."
+  - "A company posts a photo meant to showcase employee diversity and inclusion, but some viewers read the same image as evidence of tokenism, because 'a diverse group photographed together' fits their pre-existing category for performative gestures rather than the intended category of authentic representation."
+critical-questions:
+  - "Is there any way to predict, in advance, which existing categories a given audience segment will use to decompose a message — or is this only ever discoverable after the fact through interviews, the way Merton and Lazarsfeld's content-analysis and response-analysis pipeline requires?"
+  - "Does this mechanism have a scale limit — is a highly literal, single-purpose symbol (a stop sign) immune to this kind of reinterpretation in a way that a rich, multi-attribute one (a documentary scene) is not, and if so, where is the line?"
+status: active

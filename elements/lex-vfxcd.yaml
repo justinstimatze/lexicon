@@ -1,0 +1,18 @@
+id: lex-vfxcd
+name: scale-contrast-rhetoric-normalizes-a-personal-defeat
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'To frame why even a disciplined person can fall to temptation without treating it as an exceptional disgrace, a speaker reaches for an image of an overwhelming force taking down something enormous — then points out that a force capable of that has no reason to spare something trivial either. The comparison reduces the shame of the individual case by situating it within a scale where even the mighty are equally powerless, while still asserting that the underlying force is genuinely dangerous. In the Jataka''s tale of Harita, the Master frames the ascetic''s fall this way: "For the hurricane that smites Mount Sineru is not ashamed to carry off a withered leaf."'
+related: []
+evokes: [jataka, navanipata, harita-jataka, even-the-mighty-fall, scale-contrast-consolation]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-harita-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 431, Harita-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "For the hurricane that smites Mount Sineru is not ashamed to carry off a withered leaf."
+canonical-instances:
+  - "A mentor consoles a star engineer who fell for a phishing email by pointing out that the same attack technique has fooled security researchers who literally write the textbooks on it, so the mistake says less about her specifically than about the technique."
+critical-questions:
+  - "Does normalizing a personal failure by scale-contrast risk minimizing something that genuinely does warrant more individual scrutiny in this particular case?"
+status: active

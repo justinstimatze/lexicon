@@ -1,0 +1,19 @@
+id: lex-pw73w
+name: a-caught-wrongdoers-sudden-friendliness-reads-as-threat-not-warmth
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Someone whose wrongdoing is already known to a target sometimes turns suddenly warm and interested toward that target. The more plausible read is that the wrongdoer is managing the target as a threat. In the Jataka's tale of the parrot and the impostor, an escaped slave posing as a rich man's son is recognized by a parrot who knows his real identity; on being noticed, the impostor immediately turns fawning and solicitous toward the bird. The parrot isn't fooled, correctly inferring that a wish to silence a witness is driving the sudden interest."
+related: []
+evokes: [jataka, ekanipata, kalanduka-jataka, sudden-friendliness-from-a-known-wrongdoer-signals-threat-management, warmth-timed-to-a-witnesss-discovery-is-suspect]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kalanduka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 127, Kalanduka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"It is not friendliness, but a wish to wring my neck, that prompts this kindly interest.\""
+canonical-instances:
+  - "An employee who witnesses a colleague quietly falsifying a report is surprised when that same colleague, who had never previously shown much interest in them, suddenly starts inviting them to lunch and asking detailed questions about their weekend plans and travel schedule."
+critical-questions:
+  - "How does the target distinguish this pattern from a colleague who genuinely feels guilty and is trying to build real trust, rather than manage a threat, after being caught in wrongdoing?"
+  - "Is the safest response always to treat the sudden warmth as suspect regardless of the wrongdoer's actual intent, given that the cost of being wrong about a genuine overture seems much lower than the cost of being wrong about a threat?"
+status: active

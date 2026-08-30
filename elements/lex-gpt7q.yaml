@@ -1,0 +1,19 @@
+id: lex-gpt7q
+name: a-broken-promise-is-judged-worse-than-a-blunt-refusal
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A commitment offered and then not honored is judged more harshly than an honest, upfront refusal, because a promise carries an implicit claim of certainty that an outright 'no' never made — breaking it retroactively converts the original promise into a lie. In the Jataka's tale of the golden mountain, when rebuked for his coldness toward his wife, the king articulates the principle behind his own conduct: 'When you can, say \"Yes, I will,\" When you cannot, promise nil. Broken promises are lies; Liars all wise men despise.'"
+related: []
+evokes: [jataka, catukkanipata, succaja-jataka, a-broken-promise-retroactively-becomes-a-lie, an-honest-refusal-carries-no-such-cost]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-succaja-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 320, Succaja-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "When you can, say \"Yes, I will,\" When you cannot, promise nil. Broken promises are lies; Liars all wise men despise."
+canonical-instances:
+  - "A manager who tells a report 'I'll get you that promotion next cycle' and then doesn't follow through does more damage to trust than a manager who says upfront 'I can't promise anything, budgets are tight' and later delivers nothing — the first manager is now remembered as someone who lied."
+critical-questions:
+  - "Does this standard discourage people from making any commitments at all, since an honest refusal is now framed as strictly safer than a sincere promise that circumstances might later prevent from being kept?"
+  - "Is every broken promise really equivalent to a lie, or does intent matter — a promise made in good faith and broken by genuinely unforeseeable circumstances seems different from one that was never meant to be kept."
+status: active

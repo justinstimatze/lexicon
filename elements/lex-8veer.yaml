@@ -1,0 +1,18 @@
+id: lex-8veer
+name: a-returning-authority-punishes-non-cooperation-shown-during-its-absence
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Opposition to an authority's legitimacy, expressed while that authority is away and seemingly unable to enforce anything, is not forgotten once the authority actually returns with power restored — citizens who sent word they would not have a nobleman reign over them are brought before him and executed once he returns having received the kingdom. The absence of enforcement capacity at the time of the defiance doesn't erase the defiance from account; it just delays the reckoning until enforcement capacity returns."
+related: []
+evokes: [kjv, we-will-not-have-this-man-to-reign-over-us, slay-them-before-me, the-nobleman-who-went-to-receive-a-kingdom, defiance-during-a-power-vacuum]
+lineage:
+  - source: primary
+    text: kjv-1611-luke-19-the-pounds-citizens-rebellion
+    citation: "The Holy Bible, King James Version (1611; this edition Project Gutenberg #10), Luke 19:14, 19:27. Verified verbatim against a direct extraction of the held copy."
+    quote: "But his citizens hated him, and sent a message after him, saying, We will not have this man to reign over us. [...] But those mine enemies, which would not that I should reign over them, bring hither, and slay them before me."
+canonical-instances:
+  - "Employees who openly badmouth a founder to the board during an interim CEO's tenure, betting the founder won't return, find themselves first on the list for cuts the week the founder retakes control — the badmouthing looked safe only because it happened during a gap in enforcement, not because it was actually consequence-free."
+critical-questions:
+  - "Is the returning authority's punishment here proportionate to actual disloyalty, or is it being used to settle scores against anyone who merely expressed a preference during a period when a real decision hadn't yet been made?"
+status: active

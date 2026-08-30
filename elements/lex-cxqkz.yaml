@@ -1,0 +1,22 @@
+id: lex-cxqkz
+name: visible-active-synthesis-refutes-a-purely-passive-mind-theory
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "A theory that a system is purely passive, merely reflecting or recording whatever impressions arrive at it from outside, cannot account for behavior the system visibly displays that only an active, generative capacity could produce -- so the presence of that active behavior is itself evidence against the purely-passive theory. The poem levels this against the Stoic mind-as-blank-page doctrine: 'if verily the mind thus all passive lies; if no living power within its own force supplies; if it but reflect again, like a glass, things false and vain -- whence the wondrous faculty that perceives and knows, that in one fair ordered scheme doth the world dispose; grasps each whole that Sense presents, or breaks into elements? So divides and recombines, and in changeful wise now to low descends, and now to the height doth rise; last in inward swift review strictly sifts the false and true?'"
+related: []
+evokes: [consolation-of-philosophy, book-v-song-iv, a-psychological-fallacy, whence-the-wondrous-faculty-that-perceives-and-knows, refutation-of-the-blank-page-doctrine]
+lineage:
+  - source: primary
+    text: boethius-c524-consolation-of-philosophy-book-v-song-iv
+    citation: "Boethius, The Consolation of Philosophy (c. 524 AD), trans. H. R. James (London: George Bell & Sons, 1897), Book V, Song IV, 'A Psychological Fallacy.' Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "But if verily the mind Thus all passive lies; If no living power within Its own force supplies; If it but reflect again, Like a glass, things false and vain-- Whence the wondrous faculty That perceives and knows, That in one fair ordered scheme Doth the world dispose; Grasps each whole that Sense presents, Or breaks into elements? So divides and recombines, And in changeful wise Now to low descends, and now To the height doth rise; Last in inward swift review Strictly sifts the false and true?"
+canonical-instances:
+  - "A critic of a proposed purely reactive content-moderation algorithm points out that if the system genuinely only pattern-matched against a fixed rule set with no generative capacity, it couldn't produce the novel, context-sensitive judgment calls it visibly makes on cases the rule set never anticipated."
+  - "A manager who insists a team is just executing the plan with no independent judgment is confronted with the fact that the team routinely resolves ambiguities, catches contradictions in the plan, and improvises solutions the plan never specified -- behavior a purely execution-only team couldn't produce."
+  - "A skeptic of a blank-slate theory of personality points to a young child's spontaneous generation of novel sentences and jokes no one ever modeled for them, arguing that a purely receptive, input-recording mind couldn't generate genuinely new structure on its own."
+critical-questions:
+  - "Does the argument actually rule out sophisticated passive-reception theories, or only a crude version of them -- a system that stores impressions and then applies fixed, pre-built recombination rules to them might produce all the described behavior without needing any further living power beyond storage plus mechanical processing?"
+  - "Modern associationist and connectionist theories of mind claim to explain synthesis, division, and discrimination as emergent properties of purely input-driven networks with no separate active ingredient -- does the poem's argument anticipate and refute this kind of account, or does it only work against a much simpler notion of passivity that no serious empiricist actually held?"
+  - "Granting that the mind does something active with its inputs, does that specifically vindicate the poem's own preferred alternative -- pre-existing innate ideas the mind already possesses -- or could the active-synthesis capacity itself be acquired rather than built in from the start?"
+status: active

@@ -1,0 +1,21 @@
+id: lex-pqqp8
+name: pleading-with-a-tool-cannot-replace-learning-the-correct-method
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "Talking to a tool, encouraging it, flattering it, repeating a command at it more forcefully, can feel like a reasonable response to it not working, when the actual problem is that you're missing the correct method or apparatus entirely, and no amount of appeal to the object itself will substitute for that. In Radin's Winnebago Hare Cycle, Hare has an arrow and wants to kill an elk, so he aims it by hand and speaks to it directly: 'Arrow, go!' When it doesn't move, he doesn't reconsider his approach; he tries persuasion: 'He flattered it and tried again to direct it but it would not go.' Reporting the failure to his grandmother, Hare frames it entirely as a relational failure on the arrow's part -- 'the arrow would not obey me... I pleaded with it repeatedly but still it would not go' -- as though the arrow were a reluctant participant rather than an object requiring a mechanism he simply didn't have. His grandmother's correction names the actual gap: 'that is not the way hunters act. They send the arrow off by means of an object they call a bow.' The arrow was never disobedient. It was incomplete equipment being addressed as though it were a will that needed convincing. Diagnostic move: when something you're using won't do what you want and your instinct is to ask it more insistently or more nicely, check first whether you're missing the actual mechanism for using it correctly, rather than treating the object's non-cooperation as the thing that needs to change."
+related: []
+evokes: [radin-winnebago-hare-cycle, hare-and-his-grandmother, arrow-go, that-is-not-the-way-hunters-act]
+lineage:
+  - source: primary
+    text: radin-hare-pleads-with-the-arrow-instead-of-using-a-bow
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'The Winnebago Hare Cycle,' episode 2. Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "He put the arrow in the fork of a tree in line with the elk and said, 'Arrow, go!' Then he pushed it but it would not go. He flattered it and tried again to direct it but it would not go. So he went home and spoke thus to his grandmother: 'Grandmother, the arrow would not obey me and so I could not kill an elk. I pleaded with it repeatedly but still it would not go.' Then his grandmother said, 'My grandson, that is not the way hunters act. They send the arrow off by means of an object they call a bow.''Make me one, grandmother,' said Hare."
+canonical-instances:
+  - "A new employee tries to get an expense-report system to accept a submission by resubmitting the same form repeatedly and adding a polite note in the comments field, when the actual issue is that the report needs a manager's account they haven't been given access to yet."
+  - "A person struggling to start a stalled car tries turning the key more firmly and talking to the engine, rather than checking the fuel gauge or the battery connections that would actually explain why it won't start."
+critical-questions:
+  - "Is Hare's flattering of the arrow meaningfully different from a modern person's frustrated coaxing of a stubborn piece of software, or is the comparison unfair to Hare, who has no prior exposure to bows and no way to know a better method exists?"
+  - "Does the story frame this as a failure of Hare's understanding specifically, or as a more general commentary on a mismatch between effort and mechanism that applies whenever someone tries harder at the wrong thing instead of a different thing?"
+  - "Would Hare have discovered the need for a bow on his own eventually, or did he need his grandmother's correction specifically because the missing mechanism, the bow, was not something observation of the arrow itself could have revealed?"
+status: active

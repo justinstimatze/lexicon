@@ -1,0 +1,18 @@
+id: lex-pb6a6
+name: identical-surface-construction-hides-untested-foundation-quality
+type-in: state
+type-out: claim
+_tier: atomic
+agent-instruction: "Two structures can look identical while standing, because the difference between them is in a foundation that produces no visible signal until the structure is stress-tested — a house built on rock and a house built on sand can look the same in fair weather. Judging a structure's soundness from its current appearance, with no storm yet to test it, mistakes the absence of a stress event for the presence of a sound foundation."
+related: []
+evokes: [kjv, house-built-on-sand, house-built-on-rock, looks-solid-until-the-storm-hits, untested-until-pressure-arrives]
+lineage:
+  - source: primary
+    text: kjv-1611-matthew-7-wise-and-foolish-builders
+    citation: "The Holy Bible, King James Version (1611; this edition Project Gutenberg #10), Matthew 7:24-27. Verified verbatim against a direct extraction of the held copy."
+    quote: "Therefore whosoever heareth these sayings of mine, and doeth them, I will liken him unto a wise man, which built his house upon a rock: And the rain descended, and the floods came, and the winds blew, and beat upon that house; and it fell not: for it was founded upon a rock. And every one that heareth these sayings of mine, and doeth them not, shall be likened unto a foolish man, which built his house upon the sand: And the rain descended, and the floods came, and the winds blew, and beat upon that house; and it fell: and great was the fall of it."
+canonical-instances:
+  - "Two startups ship the same feature on the same timeline and look equally solid to investors — until a traffic spike hits, and the one that skipped load testing goes down while the other holds, revealing a difference that was always there but never visible before the spike."
+critical-questions:
+  - "Is there a way to test the foundation deliberately, at low cost, before the real stress event arrives — or does this structure only reveal its foundation quality at the moment testing it becomes expensive?"
+status: active

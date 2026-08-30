@@ -1,0 +1,19 @@
+id: lex-5ehbr
+name: an-unpleasant-cohabitants-presence-deters-a-graver-threat-removing-it-invites
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A dangerous or unpleasant presence that seems worth eliminating can, without anyone realizing it, be the single thing deterring a much graver external threat, so that removing the nuisance clears the way for exactly the harm it had been holding off. The nuisance and the protection are the same fact, seen from two different distances. In the Jataka's tale of the forest guardians, a foolish tree-spirit wants to drive off a lion and tiger fouling the forest with their kills. A wiser spirit warns him first: 'Good friend, it is just these two creatures that protect our homes. Once they are driven off, our homes will be made desolate. If men see not the lion and the tiger tracks, they will cut all the forest down, make it all one open space, and till the land.' The fool drives them off anyway. Loggers move in the moment the tracks disappear."
+related: []
+evokes: [jataka, tikanipata, vyaggha-jataka, removing-a-nuisance-can-clear-the-way-for-the-threat-it-deterred, keystone-presence-doubles-as-unnoticed-protection]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-vyaggha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 272, Vyaggha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Good friend, it is just these two creatures [357] that protect our homes. Once they are driven off, our homes will be made desolate. If men see not the lion and the tiger tracks, they will cut all the forest down, make it all one open space, and till the land."
+canonical-instances:
+  - "A company fires its most difficult, litigious client-relations veteran because internal staff find working with them exhausting, only to discover within months that this employee's reputation had been the sole thing keeping a much larger, more aggressive competitor from poaching the firm's biggest accounts."
+critical-questions:
+  - "How would the tree-spirits have known in advance that the lion and tiger were providing this protection, given that the benefit was invisible until after it was removed?"
+  - "Does this pattern generalize to any unpleasant presence, or does it only apply when the presence and the deterred threat happen to share the same underlying resource, as the predators and the loggers both wanted the same forest?"
+status: active

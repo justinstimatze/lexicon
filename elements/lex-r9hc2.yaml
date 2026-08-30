@@ -1,0 +1,18 @@
+id: lex-r9hc2
+name: leading-someone-through-questions-until-they-state-their-own-conclusion-unprompted
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: 'Rather than being told directly that they are wrong, a person can be walked through a sequence of comparisons and questions until they themselves state the conclusion that their own position is the more mistaken one, with the realization landing as self-generated rather than imposed. In the Jataka''s tale of Matta-Kundali, the mourning brahmin, having been shown his own grief mirrored in the youth''s absurd request, arrives at his own admission unprompted: "Of us two mourners, O most sapient youth, I am the greater fool—thou sayest truth."'
+related: []
+evokes: [jataka, dasanipata, matta-kundali-jataka, socratic-elenchus, self-administered-realization]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-matta-kundali-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 449, Matta-Kundali-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Of us two mourners, O most sapient youth, I am the greater fool—thou sayest truth,"
+canonical-instances:
+  - "A debate coach never tells a student her argument is weak; instead she asks a sequence of questions about the argument's own premises until the student stops mid-sentence and says, unprompted, that she has just talked herself out of her own position."
+critical-questions:
+  - "Does a conclusion reached through guided questioning actually stick better than the same conclusion stated directly, or does the difference matter mainly to how willingly the person accepts it in the moment?"
+status: active

@@ -1,0 +1,18 @@
+id: lex-xxrsc
+name: silently-relocating-a-superstition-question-into-an-ethics-question
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: 'Rather than answering a question literally as posed, a respondent can relocate the entire concept the question is built on — from external portents to internal conduct, for instance — silently substituting a better question for the one actually asked, so the answer satisfies the audience''s need for a resolution while changing what the resolution is actually about. In the Jataka''s tale of Maha-Mangala, asked which external sights or sounds count as a lucky omen, the sage answers instead in terms of kindness and right relationship: "Whoso the gods, and all that fathers be, And reptiles, and all beings, which we see, Honours for ever with a kindly heart, Surely a Blessing to all creatures he."'
+related: []
+evokes: [jataka, dasanipata, maha-mangala-jataka, reframing-the-question, demythologizing-external-portents]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-maha-mangala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 453, Maha-Mangala-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Whoso the gods, and all that fathers be, And reptiles, and all beings, which we see, Honours for ever with a kindly heart, Surely a Blessing to all creatures he."
+canonical-instances:
+  - "Asked by a nervous startup founder which specific lucky office ritual predicts a successful fundraise, an investor answers instead by describing the habits of founders who treat every stakeholder honestly, quietly relocating the question from superstition to conduct without ever saying the original question was wrong."
+critical-questions:
+  - "Does silently substituting a better question for the one actually asked serve the questioner well, or does it risk leaving their original concern unaddressed even while sounding responsive?"
+status: active

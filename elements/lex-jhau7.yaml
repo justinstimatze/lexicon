@@ -1,0 +1,18 @@
+id: lex-jhau7
+name: a-disguised-deity-tests-hospitality-by-appearing-as-the-lowest-status-petitioner
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: 'A powerful or divine figure who wants to genuinely test a mortal''s hospitality or virtue can take on the guise of the least prestigious, most easily dismissed kind of visitor, with real identity and purpose revealed only once the test has concluded, so the mortal''s response is uncontaminated by knowledge of who is really asking. In the Jataka''s tale of Bilari-Kosiya, Sakka approaches the miserly merchant disguised as an ordinary begging brahmin: "''Ho, Sir! give me to eat!''—''There is nothing to eat for you here, brahmin; go elsewhere.''"'
+related: [lex-njxdh]
+evokes: [jataka, dasanipata, bilari-kosiya-jataka, disguised-deity-hospitality-test, baucis-and-philemon]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-bilari-kosiya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 450, Bilari-Kosiya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Ho, Sir! give me to eat!—There is nothing to eat for you here, brahmin; go elsewhere."
+canonical-instances:
+  - "A wealthy philanthropist's foundation sends an unannounced staffer dressed as an ordinary walk-in applicant to a shelter the foundation funds, specifically to see how the shelter's own staff treats someone who looks like they have nothing to offer in return."
+critical-questions:
+  - "Does testing hospitality through disguise actually measure the tested person's real character, or does it only measure how they treat people they believe hold no power over them?"
+status: active

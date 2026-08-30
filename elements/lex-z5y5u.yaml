@@ -1,0 +1,19 @@
+id: lex-z5y5u
+name: elicit-the-damning-facts-as-questions-before-posing-the-moral-challenge
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'An advocate can restore a wronged party''s standing not by directly accusing the powerful wrongdoer, but by first walking them through a sequence of leading factual questions that force them to reconstruct and re-voice the forgotten service history themselves, and only then posing the direct moral question. In the Jataka''s tale of Dalhadhamma, the advocate does exactly this over a discarded elephant: "did not a she-elephant, named so and so, enter battle at such and such places with weapons bound on her breast, and on such a day with a writing on her neck did she not go a hundred leagues on a message? Thou gavest her great honour: where is she now?"'
+related: []
+evokes: [jataka, sattanipata, dalhadhamma-jataka, elicit-facts-before-the-moral-question, reawaken-gratitude-through-questions]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dalhadhamma-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 409, Dalhadhamma-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "did not a she-elephant, named so and so, enter battle at such and such places with weapons bound on her breast, and on such a day with a writing on her neck did she not go a hundred leagues on a message? Thou gavest her great honour: where is she now?"
+canonical-instances:
+  - "Rather than accuse a client of forgetting a longtime vendor's contributions, an account manager first walks the client through a series of questions recalling specific projects the vendor rescued, before finally asking why that vendor is now being cut without notice."
+critical-questions:
+  - "Does routing the confrontation through the wrongdoer's own reconstructed memory work only when the facts are genuinely forgotten rather than willfully ignored, and does it fail against someone who remembers perfectly well and doesn't care?"
+  - "Is there a risk this technique reads as manipulative once its structure is recognized, undermining the moral force it's trying to build?"
+status: active

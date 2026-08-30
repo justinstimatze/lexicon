@@ -1,0 +1,19 @@
+id: lex-bhp6c
+name: an-escalating-transgression-isolates-which-confounded-variable-earns-tolerance
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "To isolate which of two confounded variables is actually producing favorable treatment, a person can deliberately commit a costly, repeatable, escalating violation and observe the threshold at which the other party's tolerance breaks — the point of intervention itself becomes the measurement. Read this way, the escalation serves a specific diagnostic question about what's really being rewarded, and misbehavior is only its surface. In the Jataka's tale of Silavimamsa, a brahmin tests whether his favorable treatment comes from his reputation for virtue or for learning by repeatedly stealing from the treasury: 'one day he abstracted a coin from the royal treasury board. The treasurer, such was his respect for him, did not say a word. It occurred a second time, and the treasurer said nothing.'"
+related: [lex-mr4nb]
+evokes: [jataka, pancanipata, silavimamsa-jataka, escalating-transgression-as-diagnostic-instrument, deliberate-violation-isolates-a-confounded-variable]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-silavimamsa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 362, Silavimamsa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "So one day he abstracted a coin from the royal treasury board. The treasurer, such was his respect for him, did not say a word. It occurred a second time, and the treasurer said nothing."
+canonical-instances:
+  - "An employee suspects their manager tolerates their lateness because of a reputation for brilliance rather than simple leniency, so they show up progressively later several times in a row, watching for exactly the point where the manager's patience finally breaks."
+critical-questions:
+  - "Is deliberately committing real harm an ethically acceptable way to answer a diagnostic question, even when the answer is genuinely useful — does the value of the information justify the cost imposed on the other party during the test?"
+  - "Does the escalating-violation method actually isolate the variable cleanly, or could the treasurer's silence be caused by some third factor neither reputation-for-virtue nor reputation-for-learning, like simple conflict avoidance?"
+status: active

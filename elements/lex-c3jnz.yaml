@@ -1,0 +1,22 @@
+id: lex-c3jnz
+name: a-predicted-sign-arrives-exactly-bounded-to-the-ceremonys-duration
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A person can announce, hours in advance and to a witness, a specific and checkable natural sign that should occur if a claimed power still holds -- and have that sign arrive with unusual temporal precision, beginning only as the ceremony proceeds and clearing again once it concludes, on a day when the prevailing conditions made the outcome especially improbable. Before climbing Harney Peak during one of the worst droughts in living memory, under a cloudless sky, Black Elk tells his son what should happen: 'there should be at least a little thunder and a little rain.' The account records the sign's boundaries exactly: 'The sky remained clear until about the conclusion of the ceremony,' then clouds gathered, a scant rain fell with low thunder, and 'in a little while the sky was clear again.'"
+related: []
+evokes: [black-elk-speaks, authors-postscript, a-little-thunder-and-a-little-rain, until-about-the-conclusion-of-the-ceremony, in-a-little-while-the-sky-was-clear-again]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch26-authors-postscript
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 26, 'Author's Postscript.' Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "Something should happen to-day. If I have any power left, the thunder beings of the west should hear me when I send a voice, and there should be at least a little thunder and a little rain. [...] It was a bright and cloudless day, and after we had reached the summit the sky was perfectly clear. It was a season of drouth, one of the worst in the memory of the old men. The sky remained clear until about the conclusion of the ceremony. [...] We who listened now noted that thin clouds had gathered about us. A scant chill rain began to fall and there was low, muttering thunder without lightning. [...] In a little while the sky was clear again."
+canonical-instances:
+  - "A ship's navigator tells the crew before a becalmed, cloudless afternoon that the wind will pick up the moment they finish a specific ritual raising of the sails, and it does, holding steady only until the ritual's final knot is tied, then dying again."
+  - "A farmer facing a season-long drought tells his family before a specific rain dance that the sky will darken only for its duration, and neighbors later confirm the rain began and ended within the dance's bounds, with clear skies before and after."
+  - "A meditation teacher tells students in advance that a specific bell tone will ring spontaneously the moment the group's collective attention fully settles, and it does, sounding once and only once, precisely as the room's restlessness visibly stills."
+critical-questions:
+  - "How precisely was the ceremony's actual start and end time recorded relative to the rain's, and could a written account composed afterward round both toward each other more tightly than the lived experience actually was?"
+  - "Drought-breaking rains are not uniformly distributed across a season -- could the specific afternoon simply have been due for scattered precipitation regardless of any ceremony, making the coincidence less improbable than the drought framing suggests?"
+  - "The account was written by Neihardt, a professional author with a stake in a compelling narrative -- does his own authorial interest in the story's power create pressure toward tightening the timing in the retelling, independent of what he actually witnessed?"
+status: active

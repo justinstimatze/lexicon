@@ -1,0 +1,19 @@
+id: lex-8228v
+name: pursued-luck-migrates-away-from-the-chaser-toward-whoever-deserves-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Someone trying to seize another person's good fortune by taking the specific object it seems to reside in can find that the fortune simply relocates to the next object the moment the first is surrendered, evading capture indefinitely until it reaches something the chaser has no way to take at all. The pursuit itself is what keeps proving the fortune was never really tied to any single possession. In the Jataka's tale of the migrating luck, a brahmin visits a wealthy man to steal his good fortune, asking for it object by object, and reports the chase's outcome plainly: 'I came to your house to steal your luck. The luck was in the comb of your cock. But when you gave me the cock, the luck passed into this jewel; when you gave me the jewel it passed into your stick ... it passed into the head of the Lady Puffhalakkhana. Surely this is inalienable, I can never get it. It is impossible to steal your luck-- keep it, then!'"
+related: []
+evokes: [jataka, tikanipata, siri-jataka, pursued-fortune-relocates-until-it-reaches-something-uncapturable, luck-tied-to-a-person-rather-than-any-single-possession]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-siri-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 284, Siri-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "I came to your house to steal your luck. The luck was in the comb of your ... cock. But when you gave me the cock, the luck passed into this jewel; when you gave me the jewel it passed into your stick; when you gave the stick to me, it went out of it [411] and passed into the head of the Lady Puffhalakkhana. Surely this is inalienable, I can never get it. It is impossible to steal your luck-- keep it, then!"
+canonical-instances:
+  - "A rival firm poaches a successful team's star engineer, hoping the hire transplants the team's success. It doesn't, so they go after the project manager next, then buy the proprietary tooling outright, and still come up empty — the actual edge was interpersonal trust among the people left behind, and no single hire could ever carry that away."
+critical-questions:
+  - "Is the brahmin's conclusion actually correct, or is he simply running out of objects worth pursuing before reaching the object that genuinely does hold the fortune?"
+  - "Does this pattern only work as a story device, or is there a real, testable claim here about what makes some advantages transferable and others inseparable from a specific person?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-ff24x
+name: unbroken-visible-vigilance-makes-attackers-abandon-the-plan-unconfronted
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'An uninterrupted display of readiness, undertaken for its own purpose, can incidentally deny a waiting group of attackers the lapse in watchfulness they require to act; the mere continuation of visible alertness — with no confrontation, weapon, or even awareness of the threat — can be sufficient to make attackers abandon their plan. In the Jataka''s tale of Jagara, the ascetic''s all-night walking meditation does exactly this to five hundred waiting robbers: "Seeing the lay-brother at his walk they stood waiting to begin plundering when he should go to sleep. He went on walking all night. At dawn the robbers threw away the sticks and stones and other weapons they had picked up: they went away."'
+related: [lex-yd2fr]
+evokes: [jataka, sattanipata, jagara-jataka, deterrence-by-unbroken-vigilance, no-lapse-no-opportunity]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-jagara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 414, Jagara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Seeing the lay-brother at his walk they stood waiting to begin plundering when he should go to sleep. He went on walking all night. At dawn the robbers threw away the sticks and stones and other weapons they had picked up: they went away,"
+canonical-instances:
+  - "A shift supervisor who does an unbroken hourly walkthrough of the warehouse floor, for entirely unrelated inventory reasons, never learns that a crew planning to steal a shipment gave up twice because the walkthrough never let up long enough to make the attempt."
+critical-questions:
+  - "Does this deterrence depend on the vigilance being genuinely uninterrupted, meaning a single lapse late in the night could still hand the attackers their opening?"
+  - "Since the defender never knew a threat existed, is this really a deterrence strategy at all, or just a lucky byproduct of an unrelated routine?"
+status: active

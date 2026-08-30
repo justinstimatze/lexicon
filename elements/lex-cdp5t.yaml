@@ -1,0 +1,19 @@
+id: lex-cdp5t
+name: a-guilty-listener-projects-detection-onto-an-unrelated-coincidental-recitation
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A mentor can equip a future listener with figurative verses composed from unrelated past observations, recited at fixed ritual moments regardless of current relevance; a guilty listener, primed by his own concealed crime, can misread the coincidental recitation as direct evidence that he has been discovered — the deterrent effect, where it lands, works entirely through the listener's own projection onto genuinely neutral language. In the Jataka's tale of Musika, a prince overhears an unrelated verse and panics: 'my father has found out what I have done.' Being panic-stricken he fled and told everything to his attendants."
+related: []
+evokes: [jataka, pancanipata, musika-jataka, guilty-projection-onto-neutral-language, unrelated-recitation-misread-as-detection]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-musika-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 373, Musika-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Thought the prince, \"My father has found out what I have done.\" And being panic-stricken he fled and told everything to his attendants."
+canonical-instances:
+  - "An employee secretly padding expense reports overhears an unrelated company-wide memo about a routine audit schedule and, convinced it's aimed specifically at them, panics and confesses to their manager — when the audit had nothing to do with them at all."
+critical-questions:
+  - "Does this mechanism only work on someone already carrying a specific concealed guilt, meaning it's useless as a deliberate deterrent against wrongdoing that hasn't happened yet, since there's no guilt yet to project onto the neutral cue?"
+  - "Is there a moral difference between a mentor who deliberately anticipates this projection effect and merely happens to compose ambiguous verses that a guilty party later misreads by coincidence?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-v3byw
+name: the-answer-is-spoken-by-accident-in-the-act-of-giving-up
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A sought answer can surface not through deliberate effort but through the very words used to express giving up on the search — the goal achieved by the process of quitting rather than by trying. In the Jataka''s tale of Asanka, the king, worn down after years of failed guessing, vents his despair using the word that happens to be the very name he was hunting for: ''"My troops are wasted, all my stores are spent, I doubt my life is spoilt: ''tis time I went." ... "Prince, you have said the word that is my name: Come, king: my father will allow the claim."'''
+related: []
+evokes: [jataka, chanipata, asanka-jataka, answer-spoken-while-quitting, dramatic-irony-of-accidental-solution]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-asanka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 380, Asanka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "My troops are wasted, all my stores are spent, I doubt my life is spoilt: 'tis time I went. ... Prince, you have said the word that is my name: Come, king: my father will allow the claim."
+canonical-instances:
+  - "A programmer stares at a stubborn bug for hours, gives up and starts writing a message to a colleague explaining the failure, and names the exact broken variable in the act of describing it — solving the bug in the sentence meant to admit defeat."
+critical-questions:
+  - "Does this pattern only work because the searcher stopped consciously trying to solve the puzzle and started speaking naturally instead — would deliberately trying to 'give up out loud' as a technique actually reproduce the effect?"
+  - "How often does the accidental answer go unnoticed because nobody was listening for it the way Asanka was?"
+status: active

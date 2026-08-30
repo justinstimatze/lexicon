@@ -1,0 +1,19 @@
+id: lex-2uj9p
+name: interrogating-an-adversarys-specific-plan-yields-a-tailored-countermeasure
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Rather than defending against every possible form an adversary's attack could take, directly asking the adversary to state their specific plan and then engineering a countermeasure aimed exactly at that plan can neutralize a threat generic defenses would have missed. In the Jataka's tale of the jackal king's siege, the Bodhisatta doesn't fortify the city against every conceivable danger — he goes to the wall and asks the besieger directly what he intends. Told, 'I will cause the lions to roar, and with the roaring I will frighten the multitude: thus will I take it!' he responds with a countermeasure aimed at exactly that: 'He made proclamation by beat of drum that all the dwellers in the great city of Benares... must stop up their ears with flour.' The defense was built to cover one threat: the one the adversary had just confirmed. Against every threat that was never coming, it costs nothing at all."
+related: []
+evokes: [jataka, dukanipata, sabbadatha-jataka, ask-the-adversary-their-plan-then-build-only-that-countermeasure, a-tailored-defense-beats-a-generic-one-against-a-known-threat]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sabbadatha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 241, Sabbadatha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "I will cause the lions to roar, and with the roaring I will frighten the multitude: thus will I take it!"
+canonical-instances:
+  - "A security team facing an attacker who has already breached the perimeter once doesn't rebuild every possible defense from scratch — they trace the attacker's specific stated or observed method from the last breach and patch that exact path, rather than spending limited time and budget hardening surfaces the attacker never actually used."
+critical-questions:
+  - "Does directly asking the adversary their plan ever backfire — could Sabbadatha have lied about his actual method once he realized the Bodhisatta was probing him, making the resulting countermeasure worthless against his real intention?"
+  - "Is this approach only viable against an adversary arrogant or overconfident enough to answer honestly, and does it generalize to situations where a threat has no reason to reveal anything at all?"
+status: active

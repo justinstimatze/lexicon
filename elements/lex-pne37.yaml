@@ -1,0 +1,19 @@
+id: lex-pne37
+name: acquisition-habits-lock-out-the-capacity-to-enjoy-the-reward
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "The discipline that builds wealth or achievement can become so ingrained that it forecloses the capacity to enjoy what's been accumulated, even once the means to enjoy it are unlimited. In the Jataka's tale of Mayhaka, a merchant who spent his life in extreme self-denial cannot switch into an enjoyment mode even at the point of death: \"but though he had all that wealth he neither enjoyed it himself nor gave it to others: his wealth was like lotus-tanks guarded by demons. One day he fell into the jaws of death after refusing to enjoy the flavour of choice meats and the like.\""
+related: []
+evokes: [jataka, chanipata, mayhaka-jataka, acquisition-mode-forecloses-enjoyment, discipline-outlives-its-purpose]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mayhaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 390, Mayhaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "but though he had all that wealth he neither enjoyed it himself nor gave it to others: his wealth was like lotus-tanks guarded by demons. One day he fell into the jaws of death after refusing to enjoy the flavour of choice meats and the like."
+canonical-instances:
+  - "A founder who worked eighty-hour weeks for a decade to build the company still can't bring himself to take a vacation after selling it, because the frugal, always-working disposition that built the fortune never learned how to switch off."
+critical-questions:
+  - "Is the mismatch between the discipline needed to build wealth and the disposition needed to enjoy it inevitable, or is it specific to how extreme the original self-denial was?"
+  - "Could this person have changed their disposition at any point along the way, or does the habit become progressively harder to reverse the longer it's practiced?"
+status: active

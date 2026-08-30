@@ -1,0 +1,21 @@
+id: lex-h8ctn
+name: mirroring-an-impossible-demand-back-forces-the-demander-to-concede-it
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When someone in power issues a demand that sounds specific but is actually impossible, don''t argue that it can''t be done — construct a matching, equally absurd counter-request that only makes sense if the original demand were real, and send it back framed as a reasonable clarification. The demander''s own denial of the counter-request becomes their admission that the original demand was never possible. In the Maha-Ummagga-Jataka, a king orders a village to weave a rope of sand or pay a fine. Mahosadha has messengers tell the king: "the villagers do not know whether the sand-rope is to be thick or thin; send them a bit of the old rope, a span long or four fingers; this they will look at and twist a rope of the same size." If the king replied, "Sand-rope there never was in my house," they were to reply, "If your majesty cannot make a sand-rope, how can the villagers do so?"'
+related: []
+evokes: [jataka, mahanipata, maha-ummagga-jataka, mirrored-demand, forced-concession, impossible-request]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-maha-ummagga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 546, Maha-Ummagga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: 'the villagers do not know whether the sand-rope is to be thick or thin; send them a bit of the old rope, a span long or four fingers; this they will look at and twist a rope of the same size." If the king replied, "Sand-rope there never was in my house," they were to reply, "If your majesty cannot make a sand-rope, how can the villagers do so?'
+canonical-instances:
+  - "The same sage is later ordered to send the king a new pleasure-tank filled with lotuses grown wild in the forest; he sends men muddy and dripping to report the tank fled back to the forest and to ask for the king's own forest-caught tank to yoke alongside it in recapture, exposing that no such tank ever existed."
+  - "The same sage is ordered to deliver a pregnant royal bull with its calf; he has a man weep at the palace gate claiming his own son cannot give birth after seven days of labor, and when the king calls this impossible, the man replies that this is exactly why a bull cannot calve either."
+  - "A client demands a contractor deliver a building both cheaper than any competitor and finished twice as fast with no quality loss; the contractor asks the client to first name one other project anywhere that has ever met all three at once, and the client's inability to name one becomes the basis for renegotiating the demand."
+critical-questions:
+  - "This works because the demander holds enough institutional power that a subordinate can't simply refuse outright — does the mirrored counter-request still function against a demander who has no need to save face or maintain a reputation for reasonableness?"
+  - "The tactic relies on the demander not noticing the trap until they've already denied the mirrored version — what happens when the demander is sophisticated enough to see the parallel coming and refuses to engage with the counter-request at all?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-r8kxr
+name: a-symmetric-counter-lie-exposes-an-incredible-original-lie
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "An incredible lie can be exposed not by disproving it directly, but by constructing an equally absurd counter-claim and forcing the original liar to apply a consistent standard of plausibility to both, since rejecting the counter-claim requires conceding the original claim is just as implausible. The Jataka's tale of the ploughshares and the mice gives the clean case: a cheat claims mice ate five hundred deposited iron ploughshares. The depositor retaliates by claiming a hawk carried off the cheat's own son, then poses the trap before the judge: 'My lord, I have a question to ask you. If hawks cannot carry off boys into the air, can mice eat iron ploughshares?' The cheat cannot reject the hawk story without admitting his own ploughshare story is equally impossible — the two claims are forced into the same category of credibility, and he can't selectively believe one while dismissing the other."
+related: []
+evokes: [jataka, dukanipata, kuta-vanija-jataka, a-symmetric-counter-claim-forces-a-consistent-plausibility-standard, exposing-a-lie-by-matching-its-own-absurdity]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kuta-vanija-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 218, Kuta-vanija-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "I have a question to ask you. If hawks cannot carry off boys into the air, can mice eat iron ploughshares?"
+canonical-instances:
+  - "A supplier claims an entire shipment was lost to a freak warehouse fire with no documentation. The buyer responds by claiming their payment was lost to an equally freak bank error, also undocumented — forcing the supplier to accept both excuses or concede that neither deserves to be accepted."
+critical-questions:
+  - "Does this tactic actually resolve the underlying dispute, or does it just demonstrate the original lie was implausible without recovering the ploughshares — is exposing the lie the same thing as making the depositor whole?"
+  - "Is there a risk that this method backfires if the judge or observing authority takes the counter-claim at face value rather than recognizing it as a rhetorical trap, treating both absurd claims as equally worth investigating rather than equally worth dismissing?"
+status: active

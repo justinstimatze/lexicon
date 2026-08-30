@@ -1,0 +1,19 @@
+id: lex-b2ecy
+name: magic-lantern-effect-confident-projection-makes-a-staged-event-real
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "An idea that would seem extravagant or impossible at first glance can become genuinely, functionally real once it's projected into public life with enough confidence and skill — the difference between something merely dreamed about and something operating as reality in the world is, in the publicist's own account, simply a matter of projection. This isn't describing successful lying about facts that stay false underneath; it's describing how a sufficiently well-staged and confidently projected event or persona can acquire the actual social function and consequences of being real, regardless of how contrived its origin was. Treat 'is this genuine' as a less useful question than 'has this been projected skillfully enough to function as real' when evaluating a manufactured public event."
+related: [lex-eqstd]
+evokes: [jackall-moral-mazes, "a big item of commanding news value", the-magic-lantern]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch7-magic-lantern-effect
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 7, The Magic Lantern."
+    quote: "the whole difference between the things one dreamed about and reality was simply a matter of projection. [...] An idea that would seem at first flush, extravagant and impossible, became by the proper projection into life, a big item of commanding news value."
+canonical-instances:
+  - "A small startup's founder is confidently projected in press coverage as a major industry disruptor before the company has meaningful revenue, and within a year investors, partners, and customers are treating the projected status as an established fact rather than a claim that was once unverified."
+critical-questions:
+  - "Does the magic-lantern effect actually change anything substantive about the underlying reality being projected, or does it just change how long the gap between appearance and substance can persist before someone checks?"
+status: active

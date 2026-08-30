@@ -1,0 +1,19 @@
+id: lex-jk9v5
+name: judgment-before-hearing-both-sides-produces-injustice
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Ruling on a dispute based solely on the first, loudest, or most authoritative account guarantees the possibility of punishing the innocent party, since the accused's version was never actually weighed against the accuser's. In the Jataka's tale of the goad-stick, a king punishes carters purely on a priest's word until a minister intervenes to insist procedural fairness requires hearing the other side first: 'Wise men, O king, of partial views beware, Hear both sides first, then judgment true declare.'"
+related: [lex-yeqx7]
+evokes: [jataka, catukkanipata, rathalatthi-jataka, ruling-on-one-side-alone-guarantees-possible-injustice, procedural-fairness-requires-investigation-before-verdict]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-rathalatthi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 332, Rathalatthi-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Wise men, O king, of partial views beware, Hear both sides first, then judgment true declare."
+canonical-instances:
+  - "A landlord confiscates a tenant's security deposit the moment a neighbor complains about property damage, before ever asking the accused tenant for their side — only for the neighbor's own contractor to turn out to be the actual cause of the damage."
+critical-questions:
+  - "Does hearing both sides guarantee a fair outcome, or can a confident, well-spoken liar on either side still produce injustice even under a fully proper process?"
+  - "What's the actual cost of always waiting to hear both sides — are there situations urgent enough that acting on one credible account first is the more responsible choice, even at the risk of later correction?"
+status: active

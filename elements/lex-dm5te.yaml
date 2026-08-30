@@ -1,0 +1,31 @@
+id: lex-dm5te
+name: domain-credibility
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: "When evaluating a source's credibility, check domain-fit: is THIS claim in THEIR domain of expertise? Credibility doesn't transfer across domains. A renowned physicist is no more credible than the average person on policy unless policy is their domain too."
+related: [lex-af9ax, lex-kebfa, lex-q9asc, lex-xrg6e, lex-yexax, lex-cpjma, lex-nn3u9, lex-2rpxq, lex-yv8ag, lex-7q3ph, lex-utn22, lex-fn2gx]
+scaffolds-from: [lex-q9asc]
+evokes: [expertise-judgment, source-reliability, in-domain, qualification, gate-check]
+lineage:
+  - source: primary
+    tradition: walton
+    text: walton-reed-macagno-2008
+    citation: "Douglas Walton, Chris Reed, and Fabrizio Macagno, Argumentation Schemes (Cambridge University Press 2008), Ch.1 §2 'Argument from Position to Know and Expert Opinion,' p.15 (CQ2 Field Question, citing Walton 1997 p.223). Ch.7 §4 'Argumentation Schemes and Critical Questions,' p.246, supplies the operational treatment: the Field Question is what an undercutter attacks when 'D really attacks the assumption in the argument that E is an expert in the field into which the argument falls.' PDF on shelf (isbn13 9780521723749), verbatim 2026-05-21. Prior citation 'ch.3 §1 (critical questions on expert qualification)' was mis-pointed — Ch.3 §1 in this edition is 'Arguments from Knowledge,' not expert-qualification CQs; corrected at graduation."
+    quote: "Field Question: Is E an expert in the field that A is in? [...] The predicate 'being an expert' means having knowledge in a particular field. [Ch.7 §4 expansion:] What D really attacks is the assumption in the argument that E is an expert in the field into which the argument falls, namely, nutrition."
+  - source: practitioner
+    text: goldman-1999
+    citation: "Alvin Goldman, Knowledge in a Social World (Oxford University Press 1999), Ch.8 — expertise as social-epistemic role. Tier-3 deepening source The verified Walton Ch.1 §2 + Ch.7 §4 verbatim above supplies the operational in-domain gate-check that this atom names; Goldman would deepen the social-epistemology frame around domain-credibility but is not pivotal for the operational claim."
+    quote: "[Tier-3 deepening source; the Walton CQ2 verbatim above carries the operational claim. Goldman's social-epistemology of expertise would deepen the framing but not change the gate-check structure.]"
+canonical-instances:
+  - "the source claims expertise in D; gate-check whether the claim is in-domain — output is the same claim, with the in-domain status attached as side-channel metadata"
+  - "Dr. Y is an oncologist — domain-check on Y's claim about cancer passes (in-domain); same Y on cosmology, the gate flags out-of-domain. Either way, the principal output is the original claim plus the gate verdict"
+  - "the senior engineer with 15 years on this codebase comments on the new architecture proposal — in-domain credibility is high (give weight); the same engineer's view on the front-end framework choice routes through a lower in-domain gate verdict. Same source, different domain, different gate output; the claim itself rides through unchanged"
+  - "the credentialed-but-out-of-date specialist: a researcher with a PhD in field X published 20 years ago, now commenting on field X today. The gate splits into (qualified-in-historical-context, less-qualified-on-current-state) — credentials present, currency-in-domain decayed. The domain itself has shifted; the source hasn't tracked. The gate output is multi-valued metadata that downstream defeasibility (lex-af9ax) can weigh"
+critical-questions:
+  - "is the source's domain the SAME domain the claim is in? Walton's Field Question — the credentialed oncologist on cosmology is out-of-domain; the gate flags it. Domain-mismatch is the most common failure-mode"
+  - "are the credentials current? the credentialed-but-out-of-date specialist (PhD 20 years ago, field has moved) has decayed in-domain currency — the gate output is multi-valued, not binary"
+  - "is the domain itself legitimate? some claimed 'expertise domains' are not genuine fields (astrology, brand-equity-as-claimed-by-its-own-practitioners) — gate-check has to include domain-legitimacy, not just source-membership"
+  - "does domain-credibility transfer to adjacent claims? a senior backend engineer's high credibility on architecture doesn't auto-transfer to the frontend framework choice — adjacency is not identity, and the gate output should reset on each new domain"
+severity-tier: info
+status: active

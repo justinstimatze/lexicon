@@ -1,0 +1,22 @@
+id: lex-8n5xt
+name: chance-names-an-unintended-intersection-of-caused-chains
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "An event usually called pure chance or coincidence still has real causes behind it -- it is the unplanned intersection of two fully-caused, independently-intentional chains of action, where neither party intended the outcome their combination produced. Philosophy defines it via Aristotle's example: 'if a man is digging the earth for tillage, and finds a mass of buried gold. Now, such a find is regarded as accidental; yet it is not \"ex nihilo,\" for it has its proper causes, the unforeseen and unexpected concurrence of which has brought the chance about. For had not the cultivator been digging, had not the man who hid the money buried it in that precise spot, the gold would not have been found. These, then, are the reasons why the find is a chance one, in that it results from causes which met together and concurred, not from any intention on the part of the discoverer.'"
+related: []
+evokes: [consolation-of-philosophy, book-v-prose-i, digging-the-earth-for-tillage-and-finding-a-mass-of-buried-gold, causes-which-met-together-and-concurred, aristotelian-definition-of-chance]
+lineage:
+  - source: primary
+    text: boethius-c524-consolation-of-philosophy-book-v-prose-i
+    citation: "Boethius, The Consolation of Philosophy (c. 524 AD), trans. H. R. James (London: George Bell & Sons, 1897), Book V, Prose I. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "Whenever something is done for the sake of a particular end, and for certain reasons some other result than that designed ensues, this is called chance; for instance, if a man is digging the earth for tillage, and finds a mass of buried gold. Now, such a find is regarded as accidental; yet it is not 'ex nihilo,' for it has its proper causes, the unforeseen and unexpected concurrence of which has brought the chance about. For had not the cultivator been digging, had not the man who hid the money buried it in that precise spot, the gold would not have been found. These, then, are the reasons why the find is a chance one, in that it results from causes which met together and concurred, not from any intention on the part of the discoverer."
+canonical-instances:
+  - "A researcher stumbles onto a breakthrough while running an experiment designed to test something else entirely -- the discovery wasn't uncaused luck, it was the unplanned meeting of a fully-reasoned experimental setup and an unrelated, fully-caused phenomenon neither the researcher nor nature intended to align."
+  - "Two old friends run into each other at an airport thousands of miles from home -- each was following a completely determined, planned itinerary, and the coincidence is just the unplanned intersection of those two independently rational travel plans."
+  - "A company's product succeeds for a reason the founders never anticipated, discovered only because a completely unrelated feature they built for a different purpose happened to solve a problem some other unrelated group of users had -- two intentional design chains crossing paths by accident."
+critical-questions:
+  - "Does redefining chance this way actually preserve the ordinary sense of chance as something surprising and unplanned, or does it quietly convert every coincidence into a fully deterministic, non-random event dressed up in coincidence language?"
+  - "If literally everything traces back through unbroken causal chains, does any real distinction survive between chance and an outcome nobody happened to predict? The concept risks collapsing into complete equivalence with ordinary, unremarkable causation."
+  - "The buried-gold example works because both causal chains involved deliberate human intentions -- does the same account work for chance events with no intentional agents at all, like two unrelated natural processes intersecting, or does the definition quietly depend on intention in a way it doesn't admit?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-qd2vf
+name: unsupervised-access-functions-as-granted-permission
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When deciding whether to actively supervise someone who has access to money, materials, or work you rely on, treat the absence of oversight itself as a standing grant rather than a neutral gap. Franklin's Poor Richard: 'Not to oversee workmen, is to leave them your purse open.' The comparison is not to a locked purse that a thief must still break into — it names an open purse, one where taking requires no additional act of violation because the barrier was never closed in the first place. On this account, choosing not to supervise is not merely failing to prevent misuse; it is functionally equivalent to having handed over standing authorization, since the person with access faces no distinct threshold between using it honestly and using it dishonestly."
+related: []
+evokes: [franklin, way-to-wealth, absence-of-oversight-as-implicit-permission, unsupervised-access-open-purse]
+lineage:
+  - source: primary
+    text: franklin-1758-way-to-wealth
+    citation: "Benjamin Franklin, Father Abraham's Speech ('The Way to Wealth' / 'Poor Richard Improved'), 1758 (Gutenberg #43855). Verified verbatim against a direct extraction of the held copy."
+    quote: "Not to oversee workmen, is to leave them your purse open."
+canonical-instances:
+  - "a manager who never reviews expense reports or a system administrator who never audits access logs is treated, after a theft or a data breach, as merely negligent — but the aphorism's claim is stronger: the absence of review was itself the permission the breach relied on, not a separate failure alongside it."
+critical-questions:
+  - "Does calling unsupervised access 'granted permission' unfairly shift moral responsibility for a theft from the person who takes to the person who failed to lock things down, when the taking is still a distinct chosen act?"
+  - "Is there a scale or context where this collapses — where an open purse in a room full of trusted people really is just an open purse, and treating it as a standing invitation says more about the speaker's cynicism than about the actual risk?"
+status: active

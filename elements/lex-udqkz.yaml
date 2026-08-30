@@ -1,0 +1,19 @@
+id: lex-udqkz
+name: resolve-a-crisis-by-cascading-everyones-rank-rather-than-removing-anyone
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A relational crisis can be defused not by punishing or removing anyone but by cascading everyone''s rank one notch, preserving all parties'' position while resolving the underlying want. In the Jataka''s tale of Susima, the king resolves his mother''s crisis this way: "Friend, save my mother''s life: thou shalt be king, she thy chief queen, I viceroy."'
+related: []
+evokes: [jataka, sattanipata, susima-jataka, resolve-by-rank-cascade, no-one-loses-position]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-susima-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 411, Susima-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Friend, save my mother's life: thou shalt be ... king, she thy chief queen, I viceroy."
+canonical-instances:
+  - "Rather than fire either the founder or the operator who've become impossible to keep in the same role, a board resolves the standoff by moving the founder to chairman, promoting the operator to CEO, and creating a new president role for the founder's former deputy — nobody loses standing, everyone shifts up one seat."
+critical-questions:
+  - "Does resolving a conflict by cascading everyone upward actually address what caused the conflict, or does it just paper over it with a reshuffle that leaves the underlying tension intact under new titles?"
+  - "Who bears the cost of the cascade — does someone at the bottom of the chain absorb a demotion that nobody in the resolution ever discusses?"
+status: active

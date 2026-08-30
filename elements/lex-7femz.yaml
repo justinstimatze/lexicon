@@ -1,0 +1,19 @@
+id: lex-7femz
+name: an-actor-can-mistake-being-feared-for-anothers-sake-as-personal-power
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When another party avoids you and you have no independent standing of your own, check whether their avoidance is actually directed at someone more powerful you merely happen to be associated with. Aesop's 'The Dog Chasing a Wolf' has a dog boast of scaring off a wolf, only to be corrected: 'Don't you imagine I'm running away from you, my friend: it's your master I'm afraid of.' The dog's mistake is not claiming credit for an effect it didn't cause — it is mistaking a threat-relationship actually aimed at its master for one aimed at itself, treating derivative, borrowed authority as if it were personal."
+related: []
+evokes: [aesop, the-dog-chasing-a-wolf, misattributed-derivative-authority, borrowed-threat-relationship]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-dog-chasing-a-wolf
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Dog Chasing a Wolf.' Verified verbatim against a direct extraction of the held copy."
+    quote: "But the Wolf looked round just then and said, Don't you imagine I'm running away from you, my friend: it's your master I'm afraid of."
+canonical-instances:
+  - "a junior staffer assumes a client's deference is directed at them personally, when the client is actually wary of the staffer's boss or firm and would treat the staffer very differently standing alone."
+critical-questions:
+  - "How would the dog have distinguished, in the moment, whether the wolf's retreat was aimed at itself or at its master, given that both would produce the identical observable outcome from the dog's own point of view?"
+  - "Does this misattribution only matter once the dog acts on the false belief — separated from its master, does the confusion stay harmless right up until a real test of its own standing arrives?"
+status: active

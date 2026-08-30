@@ -1,0 +1,21 @@
+id: lex-ctten
+name: kinship-compounds-a-natural-tie-with-a-prescribed-code
+type-in: state
+type-out: composition
+_tier: atomic
+agent-instruction: "When analyzing what makes someone 'a relative' in a given kinship system, don't treat the category as a single, unified fact. Schneider's account of American kinship decomposes it into two independently-variable components: a natural-substance tie (the biogenetic fact of shared conception-material, culturally treated as permanent) and a code for conduct (the behavioral and moral pattern — obligations, expected affection, roles — prescribed for that relationship). The two normally travel together, which is what makes the category feel unitary, but they can and do come apart: an in-law or a step-relative has the code without the biogenetic substance; an unacknowledged biological parent has the substance without the code. Any social category that feels like one natural fact is worth checking for this same compound structure — a substance-like component treated as simply given, plus a separately-prescribed code for how to act toward it."
+related: [lex-pm93k]
+evokes: [schneider, american-kinship, substance-and-code, cultural-account-of-kinship, natural-vs-legal-relation]
+lineage:
+  - source: primary
+    text: schneider-1968-american-kinship-ch2-relatives
+    citation: "David M. Schneider, American Kinship: A Cultural Account (Prentice-Hall, 1968), Ch.2 'Relatives,' pp.23-29. Verified verbatim against a direct pdftotext -layout extraction, clean text layer, no OCR."
+    quote: "When a person is related to a blood relative he is related first by common biogenetic heredity, a natural substance, and second, by a relationship, a pattern for behavior or a code for conduct. ... If there is a relationship in law without a relationship in nature, as in the case of the spouse, step-, -in-law, and foster relatives, can there be a relationship in nature without a relationship in law? Indeed there can and there is. ... In sum, the cultural universe of relatives in American kinship is constructed of elements from two major cultural orders, the order of nature and the order of law."
+canonical-instances:
+  - "A stepparent (code without the biogenetic substance) versus a sperm-donor biological father unknown to the child (substance without the code): American kinship intuition treats these as asymmetric in opposite ways, which only makes sense once the category 'relative' is seen as a compound rather than a single natural fact."
+  - "operationally distinct from lex-pm93k (Morgan's cross-cultural finding that different societies carve the same genealogical substrate into different category-boundaries): Morgan's claim is about how cultures vary in where they draw kinship-category lines across a shared natural substrate. Schneider's claim is narrower and different in kind — that within a single culture's kinship category, the substrate itself is only one of two independently-variable components, the other being a prescribed code that can be present or absent independent of the substrate."
+critical-questions:
+  - "Schneider grounds this specifically in the American 'biogenetic' case. Is the same two-part structure a general feature of kinship everywhere, with only the substance side varying culturally (blood, spirit, shared substance from feeding, clan totem)? Schneider's own later work argued yes, but this atom doesn't independently establish that broader claim."
+  - "When the substance and code diverge, which one actually governs practical outcomes — inheritance, legal standing, felt obligation? Schneider's account describes the cultural logic of the category but doesn't itself settle which component dominates in a concrete dispute."
+  - "Is 'natural substance' doing real independent work here, or is it itself already a cultural code dressed up as biology — since what counts as the relevant biological fact (conception-material in 1968 America, DNA today) is itself a historically-specific scientific framing, not a culture-free given?"
+status: active

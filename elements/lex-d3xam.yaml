@@ -1,0 +1,19 @@
+id: lex-d3xam
+name: identical-treatment-can-mask-categorically-different-stakes
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone else's alarm at a situation you also share seems disproportionate, check whether the outward treatment you both receive is actually masking a categorical difference in what each of you stands to lose. Aesop's 'The Pig and the Sheep' has a pig, seized by the same shepherd who regularly handles the sheep without complaint, panic; when the sheep mocks the pig's excess distress, the pig corrects the comparison directly: 'my case and yours are altogether different: he only wants you for wool, but he wants me for bacon.' Calibrating your own alarm by comparison to someone facing the same handler but a different underlying stake is a specific, nameable error — the shared treatment tells you nothing about the shared risk."
+related: []
+evokes: [aesop, the-pig-and-the-sheep, identical-treatment-different-stakes, miscalibrated-alarm-by-comparison]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-pig-and-the-sheep
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Pig and the Sheep.' Verified verbatim against a direct extraction of the held copy."
+    quote: "No, I dare say not, replied the Pig, but my case and yours are altogether different: he only wants you for wool, but he wants me for bacon."
+canonical-instances:
+  - "a salaried employee reads a founder's personal-guarantee panic during a downturn as 'overreacting,' missing that the founder's downside is bankruptcy while the employee's is merely a bad quarter — the same room, the same crisis, completely different terminal stakes."
+critical-questions:
+  - "How would an outside observer, without direct knowledge of each party's actual exposure, know when to suspect that identical treatment is hiding different stakes rather than genuinely reflecting comparable risk?"
+  - "Does the sheep have any obligation to update its own judgment once the pig's reasoning is laid out, or is the sheep's miscalibration simply a structural blind spot that persists regardless of the correction offered?"
+status: active

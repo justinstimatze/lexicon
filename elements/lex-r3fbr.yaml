@@ -1,0 +1,19 @@
+id: lex-r3fbr
+name: a-cheaper-incompetent-agent-replaces-competence-and-invites-exploitation
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Firing a costly, honest agent to save money and replacing them with someone cheaper and unqualified creates an opening a third party can exploit at the principal's own expense. In the Jataka's valuer tale, a king dismisses his accurate appraiser purely because fair prices are draining his treasury, and promotes an unqualified, bribable rustic instead. The new valuer's prices become whatever his own fancy or a bribe dictates, which a wronged horse-dealer immediately learns to manipulate. The real vulnerability is the king's decision to optimize for a lower headline cost over verified competence; that decision, not the rustic's stupidity by itself, is what hands anyone willing to pay a bribe control over the actual outcome."
+related: []
+evokes: [jataka, ekanipata, tandulanali-jataka, cheap-incompetent-agent-invites-exploitation, principal-optimizes-wrong-variable]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-tandulanali-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 5, Tandulanali-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"This valuer with his style of valuing will soon exhaust all the riches in my house; I must get another valuer.\""
+canonical-instances:
+  - "A company replaces a rigorous but expensive third-party code auditor with an in-house reviewer who signs off on nearly everything, in order to ship faster and cut the audit line item. A vendor with a financial incentive to pass review quickly learns exactly how little scrutiny anything now receives."
+critical-questions:
+  - "Is the failure specifically about competence, or would any agent facing the same short-term cost pressure the king put on the honest valuer eventually get replaced regardless of skill?"
+  - "How would a principal notice this vulnerability before a third party exploits it, given that the cheaper agent's incompetence is often invisible until someone else has already found the seam?"
+status: active

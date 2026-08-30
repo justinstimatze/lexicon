@@ -1,0 +1,19 @@
+id: lex-cpr7h
+name: costless-fun-for-the-actor-can-be-lethal-for-the-target
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a harmful act persists without correction, check whether the cost of the act is asymmetrically distributed — trivial or entertaining for whoever commits it, severe or existential for whoever bears it — which removes the natural feedback loop that would otherwise make the actor internalize the real cost. In Aesop's 'The Boys and the Frogs,' boys throwing stones at frogs for sport are stopped only when a frog states the asymmetry directly: 'Oh, stop! stop! I beg of you: what is sport to you is death to us.' Nothing about the boys' character explains the harm continuing — the structure does: the actor never experiences the cost they impose, so there is nothing pushing them to stop on their own."
+related: []
+evokes: [aesop, the-boys-and-the-frogs, externalized-cost, asymmetric-harm, no-natural-feedback-loop]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-boys-and-the-frogs
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Boys and the Frogs.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Oh, stop! stop! I beg of you: what is sport to you is death to us."
+canonical-instances:
+  - "pile-on dynamics in online harassment, where each individual participant's contribution feels trivial and low-stakes to them while the cumulative effect on the target is severe — no single contributor experiences anything close to the target's actual cost."
+critical-questions:
+  - "Does naming the asymmetry out loud, as the frog does, reliably stop the harm, or does it only work when the actor was genuinely unaware of the cost rather than indifferent to it?"
+  - "When many small, independent actors each impose a trivial-seeming cost that aggregates into something severe, who is positioned to intervene, given that no single actor's individual contribution looks like the problem?"
+status: active

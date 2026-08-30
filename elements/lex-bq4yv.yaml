@@ -1,0 +1,22 @@
+id: lex-bq4yv
+name: the-knowers-faculty-not-the-objects-nature-shapes-knowledge
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "The same object can be known in genuinely different ways depending on the capacity of whatever is doing the knowing. The object itself doesn't change; only the access to it does. A higher mode of knowing takes in everything a lower mode reaches, and further stretches beyond that reach entirely. Philosophy grounds the principle in a concrete case: 'the roundness of a body is recognised in one way by sight, in another by touch. Sight looks upon it from a distance as a whole by a simultaneous reflection of rays; touch grasps the roundness piecemeal, by contact and attachment to the surface, and by actual movement round the periphery itself.' She draws the general rule from it: comprehension scales upward in one direction only -- a higher faculty can do everything a lower one does and more, but a lower faculty can never climb up to what only the higher one sees."
+related: [lex-s68a9]
+evokes: [consolation-of-philosophy, book-v-prose-iv, sight-looks-upon-it-from-a-distance-as-a-whole, touch-grasps-the-roundness-piecemeal, the-higher-faculty-embraces-the-lower]
+lineage:
+  - source: primary
+    text: boethius-c524-consolation-of-philosophy-book-v-prose-iv
+    citation: "Boethius, The Consolation of Philosophy (c. 524 AD), trans. H. R. James (London: George Bell & Sons, 1897), Book V, Prose IV. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "all that is known is grasped not conformably to its own efficacy, but rather conformably to the faculty of the knower. An example will make this clear: the roundness of a body is recognised in one way by sight, in another by touch. Sight looks upon it from a distance as a whole by a simultaneous reflection of rays; touch grasps the roundness piecemeal, by contact and attachment to the surface, and by actual movement round the periphery itself. [...] Wherein the main point to be considered is this: the higher faculty of comprehension embraces the lower, while the lower cannot rise to the higher."
+canonical-instances:
+  - "A junior engineer reads a codebase file by file, building up an understanding piece by piece over weeks; a senior architect who designed the system holds the whole architecture in mind at once and can immediately place any single file within it -- both know the same codebase, but the architect's view contains the junior engineer's without needing to be built up the same way."
+  - "A blind person who has never seen color can build a complete physical, relational understanding of how color works -- wavelengths, cone cells, mixing rules -- while someone with sight grasps the same facts instantly through direct visual experience; both know color, but not in ways that reduce to each other."
+  - "A statistician who has run the regression knows a correlation numerically and precisely; a domain expert who has spent decades in the field recognizes the same pattern instantly by feel before ever seeing the numbers -- the same underlying fact, known through structurally different faculties."
+critical-questions:
+  - "Does the claim that the higher faculty embraces the lower risk becoming self-flattering and unfalsifiable -- whoever claims the higher faculty gets to say their knowledge subsumes everyone else's, with no independent way to check the claim from outside?"
+  - "If different faculties genuinely produce different, non-interchangeable modes of knowing the same object, how would anyone verify that the higher mode is actually more accurate rather than simply different, since checking it would seem to require already possessing the higher faculty?"
+  - "The argument uses this hierarchy to defend God's foreknowledge as compatible with human freedom -- does the analogy actually transfer, given that sight and touch differ in richness of the same kind of access, while divine foreknowledge is being asked to differ in kind from human knowledge in a much more radical, unverifiable way?"
+status: active

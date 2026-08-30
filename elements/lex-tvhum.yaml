@@ -1,0 +1,19 @@
+id: lex-tvhum
+name: sabotaging-your-own-apparent-value-induces-a-captor-to-discard-you
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A captive whose value to a captor depends entirely on outward appearance can escape by deliberately degrading that appearance, accepting a real cost now to make continued captivity look unprofitable later. In the Jataka's tale of the caged quail, an animal reasons that eating the food its captor provides will fatten it into something worth selling, while refusing to eat will let it grow visibly thin — worthless-looking enough that the bird-catcher passes it over and lets it go. The quail doesn't fight the cage or attempt escape directly; it changes the one variable the captor's decision actually depends on, which is what the bird looks like worth."
+related: []
+evokes: [jataka, ekanipata, vattaka-jataka, self-degrading-apparent-value-to-be-discarded, changing-the-variable-the-captor-decides-on]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-vattaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 118, Vattaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"If I take the food and drink he gives me, I shall be sold; whilst if I don't eat it, I shall get so thin, that people will notice it and pass me over, with the result that I shall be safe. This, then, is what I must do.\""
+canonical-instances:
+  - "An employee trapped in an unwanted high-visibility project deliberately turns in mediocre, unremarkable work rather than their best effort, accurately predicting that a project seen as underperforming will be reassigned to someone else long before an obviously excellent one would be."
+critical-questions:
+  - "Does this strategy require a captor who evaluates the target purely on external appearance, and would it fail against a captor with an independent way to verify value that doesn't depend on how the target looks?"
+  - "What real cost does the target bear while executing this? The strategy only works for as long as visible deprivation stays survivable, and not every target can afford to look worthless that long."
+status: active

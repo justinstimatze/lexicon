@@ -1,0 +1,19 @@
+id: lex-5ztcv
+name: a-long-con-waits-out-a-normal-lapse-rather-than-defeating-vigilance
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A patient con does not need to break a target's guard through cleverness or force — it only needs to wait for the one ordinary moment the guard comes down on its own. The Panchatantra's ascetic Godly, having grown wealthy, trusts no one and keeps his treasure under his arm by night and day; a false disciple named June serves him with total, unbroken devotion for years, waiting specifically for a moment of ordinary practical necessity rather than trying to talk Godly out of his caution. When Godly must cross a river and briefly sets the treasure down to manage the crossing, June seizes it and disappears. The vigilance itself was never actually defeated — it simply couldn't be maintained through an entirely mundane physical act."
+related: []
+evokes: [panchatantra, loss-of-friends, a-long-con-waits-for-a-normal-lapse, vigilance-fails-at-an-ordinary-moment-not-a-tested-one]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-godly-and-june
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book I, 'Godly and June.' Verified verbatim against a direct extraction of the held copy."
+    quote: "he trusted no man, and kept his treasure under his arm by night and day."
+canonical-instances:
+  - "an employee who has never once triggered suspicion over years of exemplary work embezzles funds during the one week the usual approvals process is suspended for a system migration — the fraud didn't require defeating the company's controls, only waiting for the routine window when those controls were briefly, ordinarily, not running."
+critical-questions:
+  - "Is there a way to maintain vigilance through every ordinary necessary act — eating, sleeping, crossing a river — or does any sufficiently long timeline against a sufficiently patient adversary guarantee that some mundane lapse eventually occurs?"
+  - "How would Godly, or anyone in his position, actually distinguish a patient long-con operator from a genuinely loyal follower during the years before the theft, given that both would look identical the entire time?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-9er5b
+name: an-ailment-rooted-in-social-deprivation-resists-medical-treatment
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A physical illness whose actual root cause is emotional or social deprivation — the loss of a specific bond — can resist every medical intervention thrown at it, because the treatments are targeting symptoms of a cause the treatments themselves can't touch. In the Jataka's tale of Kesava, an old ascetic falls fatally ill from loneliness after being separated from his favorite disciple; five families of royal physicians cannot cure him, but the mere sight of the disciple heals him instantly: 'Kesava was unhappy at being deprived of the society of Kappa, and in his desire to see him got no sleep, and in consequence of losing his sleep, his food was not properly digested. A bloody flux set in, followed by severe pains. The king with his five families of leeches watched over the ascetic, but his sickness abated not.' 'But by the mere sight of Kappa, Kesava's mental disorder ceased and his unhappiness subsided.'"
+related: []
+evokes: [jataka, catukkanipata, kesava-jataka, medical-treatment-fails-when-the-root-cause-is-relational-not-physical, restoring-the-specific-bond-resolves-what-medicine-could-not]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kesava-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 346, Kesava-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Kesava was unhappy at being deprived of the society of Kappa, and in his desire to see him got no sleep, and in consequence of losing his sleep, his food was not properly digested. A bloody flux set in, followed by severe pains. The king with his five families of leeches watched over the ascetic, but his sickness abated not."
+canonical-instances:
+  - "An elderly patient's declining health baffles a rotating team of specialists running every standard test, until a nurse notices the decline began the same week their spouse moved into assisted living across town — a single visit, not any medication, is what actually reverses the symptoms."
+critical-questions:
+  - "How would a physician even distinguish this kind of illness from a purely physical one in real time, without the benefit of hindsight that makes the loneliness-cause obvious after the fact?"
+  - "Does treating the relational cause always work as cleanly as it does here, or does the story's clean resolution understate how often the physical damage from prolonged social deprivation outlasts the reunion that caused it?"
+status: active

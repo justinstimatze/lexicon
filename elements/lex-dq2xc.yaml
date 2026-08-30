@@ -1,0 +1,21 @@
+id: lex-dq2xc
+name: creating-the-gap-you-later-get-credit-for-bridging
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "A figure who causes a separation, a gap, a rupture between two things that used to be connected, can end up being the one specifically celebrated and relied upon for bridging that same gap afterward, so that the figure's usefulness as a solution obscures their authorship of the original problem. Hyde traces exactly this pattern across several mythologies: 'the gods lived on earth until something trickster did caused them to rise into heaven. Trickster is thus the author of the great distance between heaven and earth; when he becomes the messenger of the gods it's as if he has been enlisted to solve a problem he himself created.' The role trickster ends up occupying, the essential go-between who alone can carry messages across the new divide, wouldn't exist without the divide, and the divide wouldn't exist without trickster's own earlier action. His indispensability as messenger and his responsibility for the separation are the same fact viewed from two different points in the story. Diagnostic move: when evaluating someone's claimed indispensability as the one who bridges a gap or solves a persistent problem, check the history of how that gap or problem came to exist in the first place -- the same figure who benefits from being needed to cross a divide sometimes had a hand in creating it."
+related: []
+evokes: [hyde-trickster-makes-this-world-introduction, trickster-as-author-of-the-distance, enlisted-to-solve-a-problem-he-himself-created, gods-rise-into-heaven]
+lineage:
+  - source: primary
+    text: hyde-trickster-creates-the-heaven-earth-divide-he-later-bridges-as-messenger
+    citation: "Lewis Hyde, Trickster Makes This World: Mischief, Myth, and Art (Farrar, Straus and Giroux, 1998; Canongate Books 2008 edition), Introduction. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "In several mythologies, for example, the gods lived on earth until something trickster did caused them to rise into heaven. Trickster is thus the author of the great distance between heaven and earth; when he becomes the messenger of the gods it’s as if he has been enlisted to solve a problem he himself created."
+canonical-instances:
+  - "A consultant whose reorganization advice fractures communication between two departments later gets hired, at a premium rate, as the specialist who facilitates cross-department coordination, becoming indispensable specifically because of the dysfunction their own earlier work introduced."
+  - "A politician whose rhetoric deepens a rift between two constituencies later runs a successful campaign positioning themselves as the only candidate who can unite the two sides, their perceived value as a unifier resting entirely on a division their own earlier words helped widen."
+critical-questions:
+  - "Does this pattern require deliberate intent, the figure engineering the separation specifically to become indispensable afterward, or does it also apply to cases where the separation was an unintended consequence that the figure only later capitalized on?"
+  - "Is there a meaningful difference between a figure who is uniquely positioned to bridge a gap because of prior involvement in creating it, versus a figure who is simply the best-suited bridge-builder regardless of origin, and how would an observer distinguish genuine expertise from opportunistic self-installation?"
+  - "Does exposing this pattern actually reduce a figure's perceived indispensability, or does the practical need for someone to bridge the gap remain regardless of who caused it, meaning the diagnostic changes moral judgment without changing the practical reliance?"
+status: active

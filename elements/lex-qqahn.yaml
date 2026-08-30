@@ -1,0 +1,18 @@
+id: lex-qqahn
+name: interceding-for-mercy-on-behalf-of-ones-own-abuser-foregoing-available-retribution
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'A person who has just been mistreated and now has the power, through another''s authority, to see their abuser punished can instead actively plead for the abuser''s life, declining the retribution that has become available and easy to obtain. In the Jataka''s tale of Nigrodha, when the king orders Branch speared to death for his cruelty to Pottika, Pottika himself begs for mercy on Branch''s behalf: "''Great king, have mercy! life once gone is hard to bring again: My lord forgive, and let him live! I wish the churl no pain.''"'
+related: []
+evokes: [jataka, dasanipata, nigrodha-jataka, mercy-for-ones-abuser, foregoing-available-retribution]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-nigrodha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 445, Nigrodha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Great king, have mercy! life once gone is hard to bring again: My lord forgive, and let him live! I wish the churl no pain."
+canonical-instances:
+  - "A man beaten and fired by a former business partner intervenes when a court is about to impose the maximum penalty on that partner for an unrelated fraud, asking the judge for leniency even though he has every reason and every available means to see the man punished harder."
+critical-questions:
+  - "Is interceding for an abuser's mercy a genuine act of generosity, or can it also function to reinforce the interceder's own self-image as the more virtuous party in the relationship?"
+status: active

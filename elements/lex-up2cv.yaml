@@ -1,0 +1,19 @@
+id: lex-up2cv
+name: a-reusable-denial-argument-template-gets-redeployed-across-controversies
+type-in: situation
+type-out: frame
+_tier: atomic
+agent-instruction: "Institutions defending a product or practice against a health or safety concern converge on a reusable six-point argument structure regardless of the specific substance in question: deny direct evidence of harm in humans, dismiss animal-test evidence as inapplicable to humans, insist only a narrow category of study counts as reliable, demand regulation wait for a stricter evidentiary standard than usual, argue the product is too socially necessary to restrict, and note that natural sources of the same substance already exist everywhere. The template's genre-level identity across unrelated controversies is itself evidence that it's a rhetorical strategy transferable independent of the underlying science, not a conclusion reached freshly each time from an honest look at the specific evidence."
+related: []
+evokes: [jackall-moral-mazes, "a paradigm of sorts of the basic message of other disinterested scientific institutes", the-six-point-denial-template]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch7-formaldehyde-six-point
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 7, The Magic Lantern — the Formaldehyde Institute's public position."
+    quote: "1. There is no scientific evidence that formaldehyde causes cancer in humans. 2. Animal tests on rats that have shown incidences of nasal cancer are inapplicable to humans."
+canonical-instances:
+  - "A manufacturer facing concerns about a chemical additive issues a public statement that denies direct human evidence of harm, dismisses the animal studies that exist as non-transferable to humans, and calls for epidemiological studies that would take decades to complete before any restriction is warranted — a near-identical structure to arguments made by other industries about other substances in other decades."
+critical-questions:
+  - "Does recognizing the template as a reused rhetorical structure tell you anything about whether the underlying safety claim is actually true in this specific case, or does it only tell you the argument's form is not, by itself, evidence of anything about the facts?"
+status: active

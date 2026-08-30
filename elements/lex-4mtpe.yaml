@@ -1,0 +1,27 @@
+id: lex-4mtpe
+name: stress-tested-through-use
+type-in: claim
+type-out: posture
+_tier: atomic
+agent-instruction: "When evaluating a design or model in the abstract, surface that stress-testing through actual use is the missing step — analytical review misses failure modes that emerge only under load; deploy the probe, don't just inspect."
+related: [lex-jv983, lex-bwubx, lex-cwcj9, lex-dxx5k, lex-b2c6b, lex-4d53x]
+scaffolds-from: [lex-jv983]
+evokes: [implicit-acceptance-by-non-contradiction, accumulated-load-bearing-without-verification, internal-verification-hook-inverse]
+lineage:
+  - source: practitioner
+    text: internal-verification-hook
+    citation: "an internal hook that watches for unanchored load-bearing claims — same shape, opposite valence (it flags this as suspect; this seed names the legitimate version)"
+  - source: practitioner
+    text: taleb-lindy-effect
+    citation: "Nassim Nicholas Taleb, Antifragile: Things That Gain from Disorder (Random House 2012, Incerto Book 3) — Chapter 20 'Neomania and Treadmill Effects' section 'To Age in Reverse: The Lindy Effect'. Taleb generalizes (crediting Mandelbrot's later development of the original folk-theorem): for non-perishables, expected remaining lifespan is proportional to current age. The lex-4mtpe pattern is a Lindy specialization applied to conventions/assumptions/code: absence-of-contradiction over duration constitutes accumulated support, not because duration PROVES anything, but because non-survivors have already been pruned."
+    quote: "For the perishable, every additional day in its life translates into a shorter additional life expectancy. For the nonperishable, every additional day may imply a longer life expectancy. So the longer a technology lives, the longer it can be expected to live. [Ch.20 — the canonical Lindy formulation.] Every year that passes without extinction doubles the additional life expectancy. This is an indicator of some robustness. The robustness of an item is proportional to its life! [Ch.20 — robustness-as-survival-duration: the load-bearing claim for lex-4mtpe's framing of accumulated-survival as legitimate support.] I am not saying that all technologies do not age, only that those technologies that were prone to aging are already dead. [Ch.20 — the survivor-bias / selection-pruning mechanism that explains WHY Lindy works: the population observable at time T has already been filtered by everything that could have killed it before T.]"
+canonical-instances:
+  - "a working assumption that has carried weight across many sessions without any contradicting evidence surfacing — at some point the absence-of-counter is itself support"
+  - "the 'we've used this convention for 6 months without it breaking' justification — operationally rational but distinct from explicit verification"
+  - "the Lindy-effect intuition that an idea/convention/technology surviving for N units of time is expected to survive for ~N more — formalizes why long-survival without falsification is itself a Bayesian update toward the assumption's robustness, distinct from any specific test"
+critical-questions:
+  - "has the assumption actually been TESTED, or merely PRESENT WITHOUT CONTRADICTION? Lindy's selection mechanism only applies if real-world conditions would have surfaced a counter — if the assumption never had occasion to be falsified, age is theater not evidence"
+  - "is this the bright-pattern an internal verification hook flags (suspect load-bearing without anchor) or its legitimate inverse (selection-pruned survival)? both share the shape — duration-without-contradiction — but only one is supported. Name what would have killed the assumption if wrong, and check that condition obtained"
+  - "is the non-survivor population observable? if you can't see assumptions that DIDN'T survive (invisible by having been pruned), you can't tell whether selection happened — what assumptions in this domain DID get killed over the same duration?"
+  - "is the assumption perishable or non-perishable? Lindy explicitly applies to non-perishables (technologies, conventions). For perishables (human lives, biological organs), every additional unit of age REDUCES expected remaining life — reaching for Lindy here inverts the actual signal"
+status: active

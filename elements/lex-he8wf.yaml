@@ -1,0 +1,27 @@
+id: lex-he8wf
+name: possessing-a-credible-alternative-is-leverage-without-using-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When you depend on a counterparty for something, check whether you have a credible way to provide it for yourself instead — even one you never intend to use. The mere fact that you COULD walk away and self-supply changes the terms the other side offers, without your needing to announce a threat, sign any commitment, or ever actually switch. Porter's Five Forces names this directly on both sides of a buyer-supplier relationship: a supplier group is weaker if the industry poses 'a credible threat of integrating forward into the industry's business,' and a buyer group is weaker if it poses 'a credible threat of integrating backward to make the industry's product' — the Big Three automakers used the standing threat of self-manufacturing parts as a bargaining lever against suppliers for years without building the plants. The leverage comes from the counterparty's own assessment of your credible fallback, not from any move you make; if you never mention it, the mechanism still works as long as the other side can see the capability is real."
+related: [lex-du8yw, lex-rfcb7]
+evokes: [batna, outside-option, threat-of-integration, self-manufacture, bargaining-lever-you-never-pull]
+lineage:
+  - source: primary
+    text: porter-1979-supplier-forward-integration-threat
+    citation: "Michael E. Porter, 'How Competitive Forces Shape Strategy,' Harvard Business Review, March-April 1979, section 'Powerful suppliers & buyers,' listing the conditions that weaken a supplier group's power. Verified verbatim against a direct pdftotext extraction of pp. 3-12 of the HBR reprint bundle."
+    quote: "'It poses a credible threat of integrating forward into the industry's business. This provides a check against the industry's ability to improve the terms on which it purchases.'"
+  - source: primary
+    text: porter-1979-buyer-backward-integration-threat
+    citation: "Michael E. Porter, 'How Competitive Forces Shape Strategy,' Harvard Business Review, March-April 1979, same section, listing the conditions that weaken a buyer group's power."
+    quote: "'The buyers pose a credible threat of integrating backward to make the industry's product. The Big Three auto producers and major buyers of cars have often used the threat of self-manufacture as a bargaining lever.'"
+canonical-instances:
+  - "A large retailer's ability to launch a competing private-label product line disciplines the pricing of its branded suppliers, whether or not the retailer ever actually launches one — suppliers price as if the threat is live because the retailer's shelf space and manufacturing relationships make it credible."
+  - "A company that could plausibly build its own internal tool instead of buying a vendor's product gets better vendor pricing and terms than one that has no in-house engineering capacity to fall back on, even if it never actually builds the alternative."
+  - "operationally distinct from lex-rfcb7 credibility-comes-from-visibly-foreclosed-options-not-from-stated-intent: that atom's mechanism is REDUCING your own option set to make a promise credible (burning your ships so retreat isn't available). This atom's mechanism runs the opposite direction — HAVING an additional option (a viable alternative to the current relationship) is itself the leverage, with nothing foreclosed and nothing necessarily even stated."
+  - "operationally distinct from lex-du8yw a-credible-announced-threat-changes-behavior-without-ever-firing: that atom requires an explicit proclamation the audience must believe (the king's vow). This atom can operate as pure latent capability the counterparty infers on their own — no announcement is required for the leverage to exist, only for the counterparty to recognize the fallback is real."
+critical-questions:
+  - "How does the counterparty actually verify the alternative is credible rather than bluffed, given that (unlike lex-rfcb7's foreclosure mechanism) nothing has been visibly committed or burned? What makes an unexercised capability legible as real rather than dismissible as empty posturing?"
+  - "Does the leverage decay the longer the alternative goes unexercised — does a standing threat of self-manufacture lose force over years if the capability underlying it (engineering talent, plant designs, supplier relationships) isn't maintained, even though nothing was ever announced to signal the decay either?"
+  - "Whose assessment governs — if the counterparty doesn't believe your alternative is credible even though it genuinely is, does the leverage exist at all? The mechanism seems to require the credibility be perceived, not merely real, which makes this a claim about the counterparty's beliefs as much as about your actual capability."
+status: active

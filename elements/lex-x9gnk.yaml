@@ -1,0 +1,20 @@
+id: lex-x9gnk
+name: internal-fit-and-moral-goodness-are-independent-evaluations
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "Whether a strategy is internally consistent -- whether an organization's stated values, its stakeholders' expectations, and its social context actually cohere -- is a separate question from whether that strategy is morally good, and analyzing one answers nothing about the other. A firm can achieve excellent internal fit while pursuing something ethically troubling: a stockholder-value system that justifies illegal campaign contributions as protecting shareholder interests is perfectly self-consistent, and the consistency is exactly what makes the illegality possible rather than a check against it. Freeman names this directly about his own framework: it is easy to mistake an analysis of enterprise strategy for a call to corporate social responsibility, when it is a different project entirely -- whether a given strategy is socially responsible or morally praiseworthy is 'yet a further question which an analysis of enterprise strategy does not address.' Treating good internal fit as evidence of moral soundness, or treating moral concern as automatically part of a consistency analysis, collapses two evaluations that need to be run independently -- a coherent strategy can still be wrong, and a morally admirable one can still be internally incoherent."
+related: []
+evokes: [freeman-1984-strategic-management, chapter-4, enterprise-strategy-versus-social-responsibility, stockholder-strategy, internal-consistency-not-morality]
+lineage:
+  - source: primary
+    text: freeman-1984-strategic-management-ch4
+    citation: "R. Edward Freeman, Strategic Management: A Stakeholder Approach (Pitman, 1984), Chapter 4 'Setting Strategic Direction,' sections 'Stockholder Strategy' and 'The Necessity of Enterprise Strategy.'"
+    quote: "When questioned about payments to the Committee to Reelect the President in 1972, one Chief Executive responded that he was doing what was necessary to protect the interests of the company and its stockholders. [...] It is very easy to misinterpret the foregoing analysis as yet another call for corporate social responsibility or business ethics. While these issues are important in their own right, enterprise level strategy is a different concept. [...] Whether such changes are socially responsible or morally praiseworthy is an important question, but it is yet a further question which an analysis of enterprise strategy does not address."
+canonical-instances:
+  - "A hedge fund's every decision flows consistently from maximizing near-term returns to investors, and the fund's internal culture, compensation structure, and stated mission all reinforce each other cleanly -- the strategy has excellent internal fit, which is a separate question entirely from whether the specific bets it makes (say, aggressively shorting a struggling regional bank) are ones anyone should be proud of."
+  - "A religious charity's fundraising, staffing, and program decisions all cohere tightly around a single doctrinal commitment, and by that measure the organization is a model of strategic consistency -- whether the doctrine itself deserves that level of organizational devotion is a question the consistency analysis was never built to answer."
+critical-questions:
+  - "Does keeping the two evaluations strictly separate risk normalizing internally-consistent but harmful strategies, by giving them a clean bill of health on the one axis anyone actually measures?"
+  - "Is there a point at which a strategy's internal consistency itself becomes evidence relevant to the moral question -- does a value system that consistently justifies illegal or harmful action reveal something about the values themselves, or does the illustration only show that consistency and morality are independent, full stop?"
+status: active

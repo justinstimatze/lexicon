@@ -1,0 +1,31 @@
+id: lex-z68kz
+name: formal-structure-outlives-and-then-binds-its-original-purpose
+type-in: situation
+type-out: claim
+_tier: molecule
+agent-instruction: "When a formalized structure — a measured metric, an institutional order, or a chosen instrumental means — starts to operate independently of and against the purpose that originally justified it, recognize the shared Weberian shape: a metric pushed as a target detaches from what it was meant to indicate and starts punishing good behavior (lex-tb3re); an institution's material and procedural infrastructure persists after the animating value that built it has dissolved, and then compels participant conduct regardless of remaining belief (lex-qjsgk); and a political actor's chosen tainted means generates an inescapable moral bind that holds regardless of how pure the actor's motivating cause was (lex-czseb). In each case, formalization or instrumentalization creates a structure that becomes AUTONOMOUS of its own origin and then acts back on the people inside it."
+related: [lex-tb3re, lex-qjsgk, lex-czseb]
+scaffolds-from: [lex-tb3re, lex-qjsgk, lex-czseb]
+evokes: [goodharts-law, iron-cage, weberian-tragic-structure, means-outlive-ends]
+decomposes-into:
+  - lex-tb3re
+  - lex-qjsgk
+  - lex-czseb
+assembly: "classification(lex-tb3re, lex-qjsgk, lex-czseb)"
+premises:
+  - "a measure pushed as a target detaches from what it was originally supposed to indicate — Goodhart's law — and the detached metric then punishes behavior that departs from the metric's letter even when that behavior serves the original goal (lex-tb3re)"
+  - "an institution's material and procedural infrastructure, once consolidated around an animating value-orientation, persists after that orientation has dissolved among participants, and the persisting infrastructure compels conduct regardless of what participants currently believe (lex-qjsgk)"
+  - "a political actor who accepts responsibility-ethic means (force, coercion) for a cause generates an inescapable moral bind from the means themselves, regardless of the purity of the motivating conviction — the bind holds independent of institutional health or personal belief (lex-czseb)"
+  - "all three are instances of the same abstract mechanism — a structure (metric, institution, chosen means) formalized in service of a purpose becomes causally autonomous of that purpose and then binds the people operating under it, independent of their current intent or belief"
+critical-questions:
+  - "is 'the same mechanism' doing real analytic work here, or is this three loosely-Weberian-flavored cases being grouped by vibe — does grouping them actually predict anything (e.g., that fixing one instance's symptom requires addressing the underlying formalization-autonomy dynamic, not just the local metric/institution/means) that treating them separately wouldn't?"
+  - "for lex-tb3re specifically, is the 'binding regardless of intent' framing accurate — can't an organization simply stop treating the metric as a target and de-formalize it, unlike lex-qjsgk's institutional infrastructure which may be much harder to unwind?"
+  - "does lex-czseb's inclusion stretch the pattern — its bind is a specifically ETHICAL/normative claim (you are responsible for what your means do) rather than a descriptive claim about structures becoming causally autonomous, which is what 390 and 753 actually describe?"
+lineage:
+  - source: practitioner
+    text: assembled-from-lex-tb3re-lex-qjsgk-lex-czseb
+    citation: "Molecule assembled from lex-tb3re (a-measure-pushed-as-a-target-ceases-to-be-a-good-measure, Goodhart), lex-qjsgk (institutional-order-outlives-its-animating-spirit-and-then-compels, Weber's iron cage), and lex-czseb (responsibility-ethic-owns-tainted-means-conviction-ethic-blames-the-world, Weber's Politics as a Vocation). lex-qjsgk's own text: 'Composes with lex-tb3re Goodhart on the measurement structure that emerges to track the institutional behavior.' lex-czseb's own text: 'Composes with lex-qjsgk (Weber, iron-cage)... both are Weber's own diagnoses of tragic structure in modern life; iron-cage names how institutions outlive the spirit that built them and then compel conduct regardless of belief, while this atom names how the political vocation's specific means (force) generates an inescapable moral bind regardless of institutional health.' Types don't chain (390: situation→claim, 753: process→structure, 789: situation→posture), so `classification` rather than `sequential`/`parallel`."
+canonical-instances:
+  - "A hospital sets a target for patient-wait-time metrics; staff begin gaming intake classification to hit the number (lex-tb3re) inside a bureaucracy whose scheduling and staffing infrastructure was originally built around a founding mission of patient care that most current administrators no longer personally hold, but whose procedures now compel their conduct regardless (lex-qjsgk) — and a hospital administrator who authorizes an ethically dubious triage shortcut to hit the target cannot escape responsibility for what that shortcut does to deprioritized patients by pointing to the purity of the original patient-care mission (lex-czseb)."
+  - "A revolutionary movement measures its progress by a recruitment-target metric that starts rewarding coercive recruitment tactics that undermine the movement's stated goals (lex-tb3re); its organizational apparatus, built around the founding leaders' genuine ideological conviction, persists and compels new members' conduct long after ideological commitment has faded into careerism (lex-qjsgk); and a movement leader who authorizes violence toward a just end cannot escape moral accountability for that violence by appealing to the justness of the cause (lex-czseb)."
+status: under-review

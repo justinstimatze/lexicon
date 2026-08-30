@@ -1,0 +1,22 @@
+id: lex-t6mm9
+name: satire-affirms-a-mocked-practices-real-power-even-while-ridiculing-it
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "A satire can mock the way a sacred ritual is actually performed almost to the point of full blasphemy, and then pull back at the last moment by having the very figure used to stage the mockery affirm that the ritual's underlying power is still real, protecting the institution's legitimacy even while its performance has just been thoroughly humiliated. In the Wakdjunkaga cycle's parody of puberty fasting, a woman is fooled into striking open Wakdjunkaga's elk-skull-trapped head as though performing a genuine blessing ritual, and the scene builds toward outright sacrilege. But Radin notes the creators pull back before crossing that line: 'the implied blasphemy in the whole proceeding was more than the creators of the scene wished to take upon themselves, and Wakdjunkaga says, 'Inasmuch as you have made these offerings to me they will not be lost. For whatsoever be the purpose for which you use this head, that purpose will be accomplished.' So the people made themselves various medicinal instruments and afterwards found that they were efficacious.' The absurd, fraudulent circumstances of the blessing are fully exposed and mocked, but the myth still insists the resulting medicine objects actually worked. The comic exposure and the institution's real authority are allowed to coexist. Diagnostic move: when constructing or reading a satire of a serious practice, notice whether the satire eventually validates that the practice still delivers on its real function despite the ridiculous way it was obtained -- that validation is often a deliberate limit the satirists placed on their own critique, not an inconsistency, and it marks how far they were willing to let the mockery actually threaten the institution's legitimacy."
+related: [lex-x89dk]
+scaffolds-from: [lex-x89dk]
+evokes: [radin-the-wakdjunkaga-cycle-as-a-satire, the-elk-skull-blessing, that-purpose-will-be-accomplished, they-were-efficacious]
+lineage:
+  - source: primary
+    text: radin-the-elk-skull-satire-pulls-back-from-blasphemy-by-affirming-the-medicine-works
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'The Wakdjunkaga Cycle as a Satire.' Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "What is interesting in this incident is that, at the end when the elk skull has been split open and Wakdjunkaga revealed laughing at everybody's discomfiture, the implied blasphemy in the whole proceeding was more than the creators of the scene wished to take upon themselves, and Wakdjunkaga says, '\"Inasmuch as you have made these offerings to me they will not be lost. For whatsoever be the purpose for which you use this head, that purpose will be accomplished.\" So the people made themselves various medicinal instruments and afterwards found that they were efficacious."
+canonical-instances:
+  - "A workplace comedy relentlessly mocks the absurd, box-checking way a company's mandatory safety training gets delivered, but ends with a character's life genuinely being saved by something they retained from the ridiculous session, letting the audience laugh at the delivery while still trusting that the underlying safety content matters."
+  - "A satirical novel about a fraudulent faith healer has one supposedly fake cure turn out to be real and lasting, which lets the book skewer the healer's showmanship and exploitation without fully denying that the community's underlying belief in healing itself has any basis."
+critical-questions:
+  - "Does this pulled punch reflect genuine belief among the myth's creators that the underlying ritual power is real, or is it a strategic concession made purely to avoid the social consequences of a satire that goes all the way to denying the institution's legitimacy?"
+  - "Is there a meaningful difference between a satire that validates a mocked practice's efficacy despite its absurd performance, and one that simply never addresses whether the practice works at all, leaving the question open rather than affirmatively resolving it?"
+  - "Would this same pulling-back happen if the satirized institution had less social and religious authority to defend, or does the degree of restraint in a satire track how much power the target still holds over the satirists themselves?"
+status: active

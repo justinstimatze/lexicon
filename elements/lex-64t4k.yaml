@@ -1,0 +1,19 @@
+id: lex-64t4k
+name: an-identical-input-can-be-help-or-harm-depending-on-receiver-state
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When judging whether an intervention, resource, or input is 'good,' name the state of the specific system receiving it before answering, since goodness is not a fixed property of the input itself. Hippocrates' Aphorisms: 'If one give to a person in fever the same food which is given to a person in good health, what is strength to the one is disease to the other.' The identical food produces opposite effects purely as a function of the receiver's condition — nothing about the food changed between the two cases. A prescriptive practice that recommends inputs by their content alone, without first establishing the receiving system's state, is answering a question that has no context-free answer, because the same quantity that builds one system up depletes another."
+related: []
+evokes: [hippocrates, aphorisms, identical-input-help-or-harm-by-receiver-state, no-context-free-good-treatment]
+lineage:
+  - source: primary
+    text: hippocrates-aphorisms-adams1849-sectionVII-66
+    citation: "Hippocrates, Aphorisms, trans. Francis Adams (Sydenham Society, 1849), Section VII, §66. Verified verbatim against a direct extraction of the held copy."
+    quote: "If one give to a person in fever the same food which is given to a person in good health, what is strength to the one is disease to the other."
+canonical-instances:
+  - "a management technique that builds trust and autonomy on a high-performing team can accelerate failure on a team that lacks basic process discipline — the technique wasn't wrong in the first case or right in the second; it was matched to one team's state and mismatched to the other's."
+critical-questions:
+  - "Does this claim generalize to inputs with a genuinely intrinsic quality independent of the receiver — is there any input where 'good' really is a context-free property, or does the aphorism intend the claim to be universal?"
+  - "How finely does 'receiver state' need to be assessed before prescribing an input — is a coarse category like 'sick versus healthy' sufficient, or does the aphorism's logic actually demand assessing each individual case on its own terms?"
+status: active

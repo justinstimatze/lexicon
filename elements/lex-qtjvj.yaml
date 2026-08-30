@@ -1,0 +1,19 @@
+id: lex-qtjvj
+name: mercy-toward-an-unrecognized-stranger-creates-a-hidden-powerful-ally
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'An act of protection extended to someone who appears powerless, with no expectation of reward, can create an asymmetric alliance precisely because the recipient''s true status was hidden at the moment of the kindness. In the Jataka''s tale of Kharaputta, a king protects an unrecognized naga-king — mistaken for an ordinary snake — from village boys, and the rescued naga later returns with gifts and life-saving knowledge: ''The king, going to amuse himself in his garden, saw them, and being told they were beating a snake, said, "Don''t let them beat him, drive them away"; and this was done. So the naga-king got his life, and when he went back to the naga-world, he took many jewels, and coming at midnight to the king''s bedchamber he gave them to him, saying, "I got my life through you."'''
+related: []
+evokes: [jataka, chanipata, kharaputta-jataka, mercy-toward-a-hidden-powerful-stranger, asymmetric-alliance-from-unrewarded-kindness]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kharaputta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 386, Kharaputta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The king, going to amuse himself in his garden, saw them, and being told they were beating a snake, said, \"Don't let them beat him, drive them away \"; and this was done. So the naga-king got his life, and when he went back to the naga-world, he took many jewels, and coming at midnight to the king's bedchamber he gave them to him, saying, \"I got my life through you\""
+canonical-instances:
+  - "A shop owner who quietly lets a disheveled stranger charge their phone and use the bathroom later discovers the stranger was a traveling engineer, who returns months afterward to fix the shop's entire failing point-of-sale system for free."
+critical-questions:
+  - "Does this pattern actually justify extending kindness broadly, or does it just retroactively glamorize the rare cases where the powerless stranger turned out to be powerful, while ignoring the far more common cases where nothing comes back?"
+  - "Would the king have intervened the same way if he'd known the boys were beating an ordinary snake and not a disguised naga-king — does the story quietly reward kindness only because it was secretly self-interested in hindsight?"
+status: active

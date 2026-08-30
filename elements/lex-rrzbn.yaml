@@ -1,0 +1,19 @@
+id: lex-rrzbn
+name: bluffing-a-false-location-for-a-vulnerability-buys-an-escape
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Once a captor reveals their actual motive for holding you, claiming your vulnerability is kept somewhere other than on your person can buy the exact transport and access needed to escape, provided the claim is just plausible enough for the captor to act on it. In the Jataka's tale of the monkey and the crocodile, the crocodile admits he means to deliver the monkey's heart to his wife. The monkey claims his heart lives safely in a fig tree far from his body, and asks to be carried there to retrieve it. Once set down at the tree, he escapes and mocks the crocodile from the branches: 'O silly Crocodile!' said he, 'you thought that there were creatures that kept their hearts in a tree-top! You are a fool, and I have outwitted you!' The bluff only works because the crocodile needed the monkey's cooperation to complete the theft anyway — the false claim gave him a reason to keep transporting his victim exactly where the victim needed to go."
+related: []
+evokes: [jataka, dukanipata, sumsumara-jataka, a-captors-own-required-cooperation-creates-an-escape-window, a-plausible-false-claim-about-a-vulnerabilitys-location]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sumsumara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 208, Sumsumara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "O silly Crocodile! said he, you thought that there were creatures that kept their hearts in a tree-top! You are a fool, and I have outwitted you!"
+canonical-instances:
+  - "A hostage who learns their captors need a specific access code claims the code is written down at a location the captors must take them to retrieve, and slips away the moment they're brought there, since the captors' own plan required delivering the hostage to exactly the place they needed to reach."
+critical-questions:
+  - "Would this bluff have worked if the crocodile hadn't needed the monkey's active participation to reach the claimed location — is the mechanism specifically about exploiting a captor's dependency on the victim's cooperation, rather than about the cleverness of the lie itself?"
+  - "How much does the plausibility of 'hearts kept outside the body' matter here — is the crocodile's gullibility doing more work in this story than the monkey's cleverness, and would a more skeptical captor have simply refused to transport him at all?"
+status: active

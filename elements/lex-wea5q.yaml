@@ -1,0 +1,19 @@
+id: lex-wea5q
+name: an-incomplete-exit-can-be-worse-than-either-full-state
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When escaping a controlling situation, check whether some leftover vestige of the old constraint has been carried along unnoticed. Its danger is set entirely by the new environment around it, independent of anything inherent to the object. Aesop's 'The Escaped Jackdaw' has a captive bird break its cord and fly off, only to become fatally entangled in tree branches by the very cord still attached to its leg: 'He saw it was all up with him, and cried in despair, Alas, in gaining my freedom I have lost my life.' The string was harmless indoors and lethal in the branches — an incomplete break from a controlling system can leave someone worse off than either the original captivity or a genuinely full escape."
+related: []
+evokes: [aesop, the-escaped-jackdaw, incomplete-exit, environment-relative-risk]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-escaped-jackdaw
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Escaped Jackdaw.' Verified verbatim against a direct extraction of the held copy."
+    quote: "He saw it was all up with him, and cried in despair, Alas, in gaining my freedom I have lost my life."
+canonical-instances:
+  - "someone who quits a controlling job or relationship but keeps a legal, financial, or contractual tie 'just in case' finds that tie becomes far more dangerous once they're navigating an unmanaged, adversarial environment instead of the old, predictable one."
+critical-questions:
+  - "Is there a way to identify which retained ties are genuinely harmless carryovers versus which ones carry hidden environment-dependent risk, before the new setting exposes the danger?"
+  - "Does the jackdaw's fate argue against ever leaving a controlling situation without a fully clean break? A cheaper reading: audit exactly what gets carried out before calling the exit complete."
+status: active

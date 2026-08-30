@@ -1,0 +1,19 @@
+id: lex-zzcfn
+name: recognizing-you-enabled-a-rivals-success-ends-the-contest-unfought
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Discovering that you personally, unknowingly, provided the exact means your rival used to succeed against you can end the conflict without any further contest — the irony of having served as your own undoing is treated as decisive on its own, prompting concession rather than retaliation. In the Jataka's tale of the abducted queen, the Garuda king realizes from the minstrel's own song that he himself had unknowingly carried his rival to and from the queen, and simply concedes: 'Out upon the foolish blunder, What a booby I have been! Lovers best were kept asunder, Lo! I've served as go-between.'"
+related: []
+evokes: [jataka, catukkanipata, kakati-jataka, self-recognized-irony-ends-a-contest-without-further-fighting, discovering-you-enabled-your-own-defeat-prompts-concession]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kakati-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 327, Kakati-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Out upon the foolish blunder, What a booby I have been! Lovers best were kept asunder, Lo! I've served as go-between."
+canonical-instances:
+  - "A competing firm realizes mid-lawsuit that the confidential data their rival used to win the contract came from a shared vendor the firm itself had insisted on hiring for cost savings — rather than continue litigating, the firm quietly drops the suit once the irony of its own role sinks in."
+critical-questions:
+  - "Is conceding actually the rational response to this realization, or does the sting of having been an unwitting accomplice just make continued resistance feel embarrassing rather than actually pointless?"
+  - "Does the Garuda's concession reflect genuine acceptance of the queen's preference, or is it primarily wounded pride at being outmaneuvered, dressed up as magnanimity?"
+status: active

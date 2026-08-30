@@ -1,0 +1,18 @@
+id: lex-grgwj
+name: a-physical-object-stands-in-as-proxy-sovereign-for-an-absent-ruler
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than leave a power vacuum or hand power to someone unauthorized, a rightful ruler can designate an inanimate token as placeholder sovereign until their own return, and the political order defers to the token''s authority as though it were the ruler''s own person. In the Jataka''s tale of Dasaratha, Rama refuses the throne early and instead hands his brothers his straw slippers to rule in his stead: "''Then until I come, these Slippers shall do it,'' said Rama, and doffing his slippers of straw he gave them to his brother."'
+related: []
+evokes: [jataka, ekadasanipata, dasaratha-jataka, symbolic-proxy-sovereignty, kings-two-bodies]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dasaratha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 461, Dasaratha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Then until I come, these Slippers shall do it,\" said Rama, and doffing his slippers of straw he gave them to his brother."
+canonical-instances:
+  - "A company founder on medical leave has decisions routed through a signed standing directive rather than any single deputy, so the organization defers to the document's authority instead of improvising a new chain of command."
+critical-questions:
+  - "Does the token actually carry authority on its own, or does it only work because everyone involved already agrees to treat it as though it does — what happens the first time someone decides not to honor the slippers' rulings?"
+status: active

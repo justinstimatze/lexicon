@@ -1,0 +1,19 @@
+id: lex-tpck7
+name: conceding-a-symbolic-marker-can-cost-nothing-if-real-power-stays-untouched
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a subordinate group demands parity on a visible, symbolic marker, check whether granting it costs the ruling party anything real, or only appears to. In Aesop's 'The She-Goats and Their Beards,' female goats petition Jupiter for beards to match the males'; the he-goats object, and Jupiter's reply separates the symbol from the substance: 'What's in a tuft of hair? Let them have it if they want it. They can never be a match for you in strength.' The concession is total on the symbolic marker and irrelevant to the actual power differential — the ruling party can afford to be fully generous with a status marker precisely because it doesn't touch the structural advantage that determines relative power."
+related: []
+evokes: [aesop, the-she-goats-and-their-beards, symbolic-parity-vs-structural-power, costless-concession]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-she-goats-and-their-beards
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The She-Goats and Their Beards.' Verified verbatim against a direct extraction of the held copy."
+    quote: "What's in a tuft of hair? Let them have it if they want it. They can never be a match for you in strength."
+canonical-instances:
+  - "an organization grants a symbolic title change or a seat at the table to a historically excluded group, while assuring anxious incumbents that budget and hiring authority — the actual levers of power — remain untouched."
+critical-questions:
+  - "Does Jupiter actually know in advance that the concession costs nothing structurally, or can a symbol sometimes accumulate real leverage over time that the original grant failed to anticipate?"
+  - "From the petitioning side, is a purely symbolic win worth having at all if it explicitly does nothing to close the actual power gap — does the concession function as progress or as a pressure release that forestalls further demands?"
+status: active

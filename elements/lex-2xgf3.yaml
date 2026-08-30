@@ -1,0 +1,19 @@
+id: lex-2xgf3
+name: a-fabricated-kinship-claim-makes-a-delicate-bribe-request-acceptable
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "A bribe request that would be socially indefensible on its actual terms can be made presentable by inventing a closer relationship between the parties than really exists — reframing a transaction as family obligation rather than what it actually is. In the Jataka's tale of Sama and the robber, wanting to buy her condemned lover's freedom but unable to openly ask a governor to release a notorious criminal for a courtesan's sake, Sama invents a sibling relationship instead: '\"Tell him,\" she said, \"this robber is Sama's brother, and he has no other refuge except in Sama. And ask him to accept the money and let his prisoner escape.\"'"
+related: []
+evokes: [jataka, catukkanipata, kanavera-jataka, an-invented-kinship-frame-launders-a-transactional-request, family-obligation-as-cover-for-what-a-bribe-actually-is]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kanavera-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 318, Kanavera-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Tell him,\" she said, \"this robber is Sama's brother, and he has no other refuge except in Sama. And ask him to accept the money and let his prisoner escape.\""
+canonical-instances:
+  - "Wanting a hospital to let an unrelated, unmarried partner into a restricted ICU room, someone tells the front desk 'she's actually my sister, we just have different last names' — a fabricated family tie that makes an otherwise-blocked, sympathetic request procedurally sayable."
+critical-questions:
+  - "Does the fabrication actually deceive the recipient, or does everyone involved understand it as a face-saving fiction that both sides tacitly accept in order to grant the real, unstated request?"
+  - "What happens when the fabricated relationship is later checked or exposed — does the initial acceptance of the request get revoked, or does the social fiction, once granted, tend to stick regardless?"
+status: active

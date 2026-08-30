@@ -1,0 +1,19 @@
+id: lex-bhfje
+name: total-shielding-from-a-stimulus-removes-the-capacity-for-graduated-regulation
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Completely preventing someone from ever encountering a stimulus, in order to keep them from forming an attachment to it, doesn't leave them neutral when the shielding eventually fails. It leaves them without any of the graduated experience that would normally let a person regulate their own reaction, so the first real exposure produces an extreme response rather than a moderate one. In the Jataka's tale of the sheltered prince, a young man is never once permitted to see a woman throughout his entire upbringing. The moment the isolation is finally breached, his reaction has no proportion built into it at all: 'he went the way of the world, and knew the joy of love. \"I will not let another have this woman,\" he resolved; and taking his sword, he ran amuck through the street, chasing the people.' The strategy meant to prevent attachment produced, on first contact, the most extreme and least regulated attachment imaginable."
+related: []
+evokes: [jataka, tikanipata, culla-palobhana-jataka, complete-shielding-removes-the-capacity-for-graduated-self-regulation, first-exposure-after-total-isolation-produces-a-disproportionate-reaction]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-culla-palobhana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 263, Culla-palobhana-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "he went the way of the world, and knew the joy of love. \"I will not let another have this woman,\" he resolved; and taking his sword, he ran amuck through the street, chasing the people."
+canonical-instances:
+  - "A young adult raised with a total ban on unsupervised internet access leaves for college with no practiced sense of how to regulate their own time online, and the sudden unrestricted access produces a level of compulsive use that gradual, supervised exposure earlier in life would likely have never allowed to develop."
+critical-questions:
+  - "Is the extreme reaction actually caused by the total shielding, or would this particular prince have reacted the same way regardless of how he was raised — does the story give enough evidence to separate the two explanations?"
+  - "Does this mean any exposure at all is better than total shielding, or are there stimuli where the graduated-regulation tradeoff doesn't apply and complete avoidance really is the safer strategy?"
+status: active

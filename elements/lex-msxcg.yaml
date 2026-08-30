@@ -1,0 +1,19 @@
+id: lex-msxcg
+name: eliminate-a-foreseeable-byproduct-before-it-can-expose-the-group
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A leader who foresees a specific causal chain by which a minor byproduct of ordinary activity could expose the group to danger can have the group systematically destroy every instance of that byproduct before it can occur, rather than waiting for the danger to materialize. In the Jataka''s tale of Mahakapi, the monkey-king does this with fruit that could fall into a river below: "Someday danger will come upon us owing to the fruit of this tree falling on the water"; and so, not to leave one fruit on the branch which grew over the water, he made them eat or throw down the flowers at their season from the time they were of the size of a chick-pea.'
+related: [lex-edqyd]
+evokes: [jataka, sattanipata, mahakapi-jataka, preemptive-elimination-of-vulnerability, foresight-driven-prevention]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahakapi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 407, Mahakapi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Someday danger will come upon us owing to the fruit of this tree falling on the water\"; and so, not to leave one fruit on the branch which grew over the water, he made them eat or throw down the flowers at their season from the time they were of the size of a chick-pea."
+canonical-instances:
+  - "A security team that realizes a specific log format could leak customer data if it ever reached an external service has every internal tool that touches that format changed before any incident occurs, rather than waiting for a breach to justify the fix."
+critical-questions:
+  - "How does a leader distinguish a genuinely foreseeable danger worth this much preventive effort from an unlikely scenario that doesn't justify the cost of eliminating every instance of the byproduct?"
+  - "What happens when the preventive scheme itself becomes routine enough that people stop understanding why it exists, and start treating it as arbitrary busywork instead of active protection?"
+status: active

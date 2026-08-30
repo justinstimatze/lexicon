@@ -1,0 +1,20 @@
+id: lex-msf5p
+name: under-mortal-threat-the-named-fear-is-not-death
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone facing death or violation names what actually frightens them, the answer can reveal that survival itself isn't the thing they're defending — some other value (a relationship, a commitment, a piece of their own identity) outranks it, and naming that ranking out loud, to the very threat itself, is a way of refusing to let the threat define what's at stake. In the Jataka's tale of Sambula, seized by an ogre who threatens to eat her unless she becomes his bride, she doesn't plead for her life or bargain for survival — she states plainly that losing her own life is not the loss she fears: \"No grief to me that I should be a hateful ogre's prey, / But that the love of my dear lord from me should fall away.\" Her devotion to her leprosy-stricken, exiled husband — not her own continued existence — is what she names as the thing she cannot bear to lose."
+related: []
+evokes: [jataka, timsanipata, sambula-jataka, naming-the-real-stake-under-threat, devotion-outranks-survival]
+lineage:
+  - source: primary
+    text: jataka-francis1905-sambula-jataka-real-stake
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XVI (Timsanipata), No. 519, Sambula-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "No grief to me that I should be a hateful ogre's prey, / But that the love of my dear lord from me should fall away."
+canonical-instances:
+  - "A whistleblower told by company lawyers that testifying will end their career says the career was never the thing they were protecting — what they can't live with is having stayed silent while people got hurt, and that's the loss they name back to the threat."
+  - "A researcher whose funding will be pulled if their results contradict the sponsor's preferred conclusion tells the sponsor directly that losing the grant costs less than publishing a finding they know to be false — naming the actual hierarchy of what they're willing to lose."
+critical-questions:
+  - "Does naming the real stake out loud to the threat itself change the outcome here, or is it purely an act of self-definition that happens not to matter to the ogre's actual decision — and if it's the latter, is the naming still worth doing?"
+  - "Sambula's declared priority (her husband's love over her own life) is specific to her devotion — does the pattern generalize to any value ranked above survival, or does it only work when the named value is one the threatening party can be made to recognize as legitimate?"
+status: active

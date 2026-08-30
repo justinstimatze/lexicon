@@ -1,0 +1,19 @@
+id: lex-quds7
+name: consultants-are-hired-to-legitimate-a-decision-already-made
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "An outside consultant's actual function is frequently one of a small set of political purposes unrelated to genuine analysis: legitimating changes an executive already wants (like a reorganization), diverting rival executives' attention by routing resources to marginal programs, undercutting a rival faction's own consultants by establishing 'counter-plausibility,' or advancing a personal or organizational image of being current and forward-thinking. None of these four purposes require the consultant's actual findings to be accurate, novel, or even read carefully — the consultant's credentialed presence does the work regardless of content. Before treating a consultant's recommendation as independent analysis, check which of these four purposes the engagement was actually structured to serve."
+related: []
+evokes: [jackall-moral-mazes, "counter-plausibility", consultant-as-legitimation-device]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch6-legitimation-device
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 6, Dexterity with Symbols."
+    quote: "Most likely, executives are using the consultant to: legitimate already desired unpleasant changes, such as reorganizations; throw rival networks of executives off the track of one's real strategy by diverting resources to marginal programs; undercut consultants employed by other executive groups by establishing what might be called counter-plausibility; or advance, as already suggested, a personal or organizational image of being up-to-date, with-it, and avant-garde."
+canonical-instances:
+  - "A CEO who has already decided to lay off a division commissions an external efficiency study specifically so the eventual layoffs can be presented as following independent expert recommendation rather than the CEO's own prior decision."
+critical-questions:
+  - "Can a consultant's engagement serve one of these four political purposes and still produce genuinely useful, accurate analysis as a byproduct, or does the political framing of the engagement predictably shape what the consultant is actually permitted to find?"
+status: active

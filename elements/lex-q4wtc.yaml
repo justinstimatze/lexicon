@@ -1,0 +1,20 @@
+id: lex-q4wtc
+name: assuming-a-misunderstanding-before-reacting-to-a-senseless-hostile-demand
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When someone makes a demand for your life or ruin that makes no obvious sense on its face, the move that actually gets to the truth isn''t to plead, resist, or despair — it''s to assume the demand grew out of a chain of miscommunication and ask what the original, more reasonable request underneath it actually was. Hanging head-down over a precipice with a Yakkha about to kill him for his heart, Vidhura reasons: "This world is ruined by a thing being misunderstood, why should a wooer of a Naga maiden want my death? I will learn the whole truth of the matter," and asks Punnaka to explain. The literal demand — bring back a sage''s heart — turns out to be several relays removed from its real origin: a Naga queen who only wanted to hear Vidhura''s teaching, misread by her husband as a craving for the sage''s literal flesh, passed down as a task to a suitor eager to earn a bride. No one in the chain was actually malicious; the demand as stated was simply the last, worst-translated link in a relay of good intentions.'
+related: []
+evokes: [jataka, mahanipata, vidhurapandita-jataka, miscommunication, charitable-interpretation, root-cause-diagnosis]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-vidhurapandita-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 545, Vidhurapandita-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Be not deceived, O Yakkha; many people are destroyed by a thing being misunderstood; what has thy love for that fair maiden to do with my death? Come, let us hear the whole."
+canonical-instances:
+  - "An employee blindsided by a termination notice that cites 'insubordination' doesn't immediately argue the label — they ask HR to trace exactly which meeting and which comment triggered the report, and find a manager's offhand complaint was relayed through two people who each sharpened the wording."
+  - "A diplomat facing a sudden, seemingly disproportionate trade sanction asks the counterpart's staff to walk back through the domestic political chain that produced it, rather than treating the sanction itself as the true and final position of the other government."
+critical-questions:
+  - "The chain of misunderstanding here is fully real and Vidhura's guess about it turns out to be correct — what should someone do differently when a hostile demand really is malicious at its root, and assuming a benign miscommunication just wastes the time they needed to defend themselves?"
+  - "Vidhura is in no position to verify Punnaka's account independently and has to trust it — does the diagnostic value of this move depend on the person being asked having no further reason to lie, which was true here only because Punnaka had already been mostly disarmed by Vidhura's fearlessness?"
+status: active

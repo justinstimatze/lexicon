@@ -1,0 +1,19 @@
+id: lex-g7hz8
+name: peers-fail-to-intervene-only-higher-standing-succeeds
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A person in the grip of desire can rebuff successive same-level peers who try to intervene one after another, yielding and confessing only once a recognized higher authority personally arrives — showing that intervention effectiveness scales with the intervener''s standing relative to the person in crisis, not with the sheer number of attempts made. In the Jataka''s tale of Indriya, Narada repels three fellow ascetics before yielding to his and their master: "Narada repelled him with a falsehood, "You are talking nonsense, falsehood, and vanity." The other refused to leave him and brought Salissara, Mendissara, and Pabbatissara. He repelled them all in the same way. Kaladevala went flying to fetch their master Sarabhanga and did fetch him."'
+related: []
+evokes: [jataka, atthanipata, indriya-jataka, intervention-scales-with-standing, peer-intervention-fails]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-indriya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 423, Indriya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Narada repelled him with a falsehood, \"You are talking nonsense, falsehood, and vanity.\" The other refused to leave him and brought Salissara, Mendissara, and Pabbatissara. He repelled them all in the same way. Kaladevala went flying to fetch their master Sarabhanga and did fetch him."
+canonical-instances:
+  - "Three teammates each independently try to convince a colleague spiraling into overwork to take real time off, and each gets waved away, until the department head — the one person whose opinion he's never dismissed — has the same conversation and he actually stops."
+critical-questions:
+  - "Does this mean the earlier peer attempts were wasted, or do they do some softening work that makes the higher-authority intervention land more easily than it would have cold?"
+  - "What is it about relative standing specifically — rather than closeness, trust, or timing — that seems to be doing the work here, and how would you separate those factors in a real case?"
+status: active

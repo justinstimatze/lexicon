@@ -1,0 +1,19 @@
+id: lex-t4t4f
+name: check-a-disqualifying-fact-before-acting-further-on-an-attraction
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Before acting further on an attraction, a person can first check a disqualifying fact and only proceed once it is cleared — a minimal due-diligence gate embedded in an otherwise impulsive pursuit. In the Jataka''s tale of Kummasapinda, the king does exactly this before pursuing the woman he sees: "The king from horseback asked if she was married or no. Hearing that she was not, he dismounted."'
+related: []
+evokes: [jataka, sattanipata, kummasapinda-jataka, verify-eligibility-before-pursuit, minimal-due-diligence-gate]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kummasapinda-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 415, Kummasapinda-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The king from horseback asked if she was married or no. Hearing that she was:not, he dismounted"
+canonical-instances:
+  - "Before pitching a promising engineer on switching companies, a recruiter first confirms the engineer isn't already under a retention agreement, and only makes the approach once that one fact is cleared."
+critical-questions:
+  - "Does checking one disqualifying fact create a false sense of thoroughness that lets someone skip other, less obvious checks that matter just as much?"
+  - "What happens to the pursuit if the answer to the gating question had gone the other way — is there any evidence the check would have actually stopped anything?"
+status: active

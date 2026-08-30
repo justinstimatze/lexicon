@@ -1,0 +1,19 @@
+id: lex-na3gq
+name: repetition-alone-wears-down-a-firm-reasoned-refusal
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A firm refusal backed by a clear, catastrophic reason can still be worn down by sheer repetition of the same request, with no new argument offered — persistence itself doing the work that reasoning couldn't. In the Jataka's tale of Kharaputta, the deadly cost of the spell is spelled out in a clear refusal, and repeated asking alone still eventually wins it: 'Give me your spell of knowledge.' He said, 'It cannot be given': but though repulsed she pressed him again."
+related: []
+evokes: [jataka, chanipata, kharaputta-jataka, repetition-wears-down-refusal, persistence-without-new-argument]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kharaputta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 386, Kharaputta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Give me your spell of knowledge.\" He said, \"It cannot be given\": but though repulsed she pressed him again."
+canonical-instances:
+  - "A team member who's been told clearly why a risky shortcut can't be approved keeps raising the same request at every subsequent meeting, offering nothing new each time, until an exhausted manager finally relents just to end the recurring conversation."
+critical-questions:
+  - "Does repeated asking actually change the underlying risk calculus, or does it only change how costly it feels to keep saying no — meaning the refusal that finally breaks was never really about the argument at all?"
+  - "What distinguishes healthy persistence in advocating for a genuine need from pestering that simply exploits the asker's greater staying power?"
+status: active

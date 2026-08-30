@@ -1,0 +1,24 @@
+id: lex-6r8zw
+name: voluntary-blame-taking-can-function-as-a-loyalty-payment
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Accepting blame for someone else's mistake, when done voluntarily and with mutual understanding between the parties, operates as a loyalty transaction with an implicit future return — distinct from involuntary scapegoating, where the target has no say and no expectation of reciprocity. The half-joking proposal of a well-compensated 'Chief Fall Guy' position names the transaction explicitly: taking the fall is work, and work that valuable gets paid for, one way or another. Treat voluntary blame-acceptance as evidence of a standing relationship with an expected payback, not as pure self-sacrifice — the presence or absence of 'proper assurances' beforehand is the tell for which kind of blame-taking is actually happening."
+related: []
+evokes: [jackall-moral-mazes, "acceptance of blame can be an exercise in loyalty", chief-fall-guy]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch4-chief-fall-guy
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 4, Looking Up and Looking Around."
+    quote: "I've often thought that we should appoint a position entitled Chief Fall Guy. Joking, of course. But it would be a good idea. He would be well-paid; plenty of benefits. And if things go wrong, he would go to jail or whatever, and his family would be provided for."
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch4-acceptance-of-blame-loyalty
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 4, Looking Up and Looking Around."
+    quote: "Given the proper assurances and assumptions, acceptance of blame can be an exercise in loyalty, although it is never without risk."
+canonical-instances:
+  - "A deputy agrees in advance to publicly take responsibility if a joint decision fails, on the understanding that the executive will secure the deputy's next promotion regardless of the outcome."
+critical-questions:
+  - "Were the assurances behind a given instance of voluntary blame-taking actually honored afterward, or does the 'loyalty payment' framing sometimes just retroactively dignify what turns out to have been an uncompensated sacrifice?"
+status: active

@@ -1,0 +1,22 @@
+id: lex-nb2gz
+name: securing-immediate-safety-and-deferring-full-rescue-for-urgent-work
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "During an active crisis with competing urgent demands, a person can find a vulnerable person in danger, judge the immediate spot safe enough for the moment, take a small protective action, and consciously defer completing the rescue -- rather than either abandoning the vulnerable person entirely or stopping everything else to finish the rescue right now. Finding an abandoned infant mid-battle, Black Elk makes exactly this calculated triage: 'I could not pick her up just then, but I got her later and some of my people adopted her. I just wrapped her up tighter in a shawl that was around her and left her there. It was a safe place, and I had other work to do.' The rescue happens in two stages, separated by whatever the crisis required first."
+related: [lex-ywhk8]
+evokes: [black-elk-speaks, the-butchering-at-wounded-knee, i-could-not-pick-her-up-just-then, it-was-a-safe-place, i-had-other-work-to-do]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch24-butchering-at-wounded-knee
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 24, 'The Butchering at Wounded Knee.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "We found a little baby lying all alone near the head of the gulch. I could not pick her up just then, but I got her later and some of my people adopted her. I just wrapped her up tighter in a shawl that was around her and left her there. It was a safe place, and I had other work to do."
+canonical-instances:
+  - "A paramedic arriving at a multi-casualty accident stabilizes a conscious, breathing patient with a tourniquet and a blanket, judges them safe to wait, and moves immediately to a second patient in cardiac arrest before returning to complete the first patient's treatment."
+  - "A wildland firefighter finds a family sheltering safely behind a rock outcropping during an active burn, confirms the spot will hold against the fire's current path, and continues on to clear an evacuation route rather than escorting them out immediately."
+  - "A building manager during a gas leak finds an elderly tenant safely inside a sealed stairwell, props the door and tells her to wait, and continues clearing other floors before returning to walk her out."
+critical-questions:
+  - "How does Black Elk know the spot is genuinely safe rather than merely safe enough that leaving is convenient -- is 'it was a safe place' an assessment made under the same battlefield uncertainty as every other judgment that day, and how reliable can that assessment actually be?"
+  - "Does explicitly stating the deferred rescue and its later completion function as self-justification for what could otherwise read as abandonment, supplied only because the story happens to have a resolution -- would the same choice read differently if he had never made it back?"
+  - "Is 'I had other work to do' an adequate reason to leave an infant alone even briefly, or does the account's brevity here understate how close a call the decision actually was?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-knxpz
+name: a-dormant-friendship-obligation-resurfaces-after-decades-of-success
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'Success can cause a person to forget an old relational debt for decades, after which the memory resurfaces on its own and lingers unresolved until it''s finally discharged. In the Jataka''s tale of Darimukha, the newly-crowned king forgets his old friend entirely for forty years, infatuated by his own glory, before the memory suddenly returns: ''but the greatness of his glory infatuated him and for forty years he forgot Darimukha. In the fortieth year he remembered him, and saying, "I have a friend named Darimukha; where is he now?" he longed to see him.'''
+related: []
+evokes: [jataka, chanipata, darimukha-jataka, dormant-obligation-resurfaces, success-eclipses-old-relationships]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-darimukha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 378, Darimukha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "but the greatness of his glory infatuated him and for forty years he forgot Darimukha. In the fortieth year he remembered him, and saying, \"I have a friend named Darimukha; where is he now?\" he longed to see him."
+canonical-instances:
+  - "A founder who hasn't spoken to their college roommate in twenty years, absorbed in building the company, suddenly thinks of them the week the company finally sells, and starts trying to track them down."
+critical-questions:
+  - "What triggers the resurfacing after decades of dormancy — is it the achievement of a plateau that finally leaves room for the old memory, or something more arbitrary?"
+  - "Does the other party in the friendship experience the same forty-year gap the same way, or does the asymmetry of who forgot and who was forgotten change what reconnection actually repairs?"
+status: active

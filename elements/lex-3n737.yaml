@@ -1,0 +1,19 @@
+id: lex-3n737
+name: install-a-willing-successor-before-voluntarily-stepping-down
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Before renouncing power and status, a person can first ensure continuity by installing a designated, willing successor — sequencing departure as a handoff rather than an abandonment. In the Jataka''s tale of Susima, the king does exactly this before leaving for the ascetic life: "he sent for his friend and made him take the kingdom again: he left his majesty and power amid the loud lamentations of kinsmen and friends; he became an ascetic sage in the Himalaya."'
+related: []
+evokes: [jataka, sattanipata, susima-jataka, install-a-successor-before-departure, departure-as-handoff-not-abandonment]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-susima-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 411, Susima-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "he sent for his friend and made him take the kingdom again: he left his majesty and power amid the loud lamentations of kinsmen and friends; he became an ascetic sage in the Himalaya, and entering on the ecstasy of meditation, became destined for the world of Brahma."
+canonical-instances:
+  - "Before stepping away to care for a sick parent, a CEO spends a full quarter grooming her deputy and formally announcing the transition, rather than simply resigning and leaving the company to figure out leadership afterward."
+critical-questions:
+  - "Does installing a chosen successor actually protect the group's interests, or does it mainly protect the departing leader's legacy and sense of a clean exit?"
+  - "What happens when the departing leader's judgment about who deserves the handoff turns out to be wrong, and the group is left with a successor they never chose?"
+status: active

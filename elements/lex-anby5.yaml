@@ -1,0 +1,19 @@
+id: lex-anby5
+name: an-ambiguous-sound-confirms-a-pre-existing-fear-and-triggers-flight
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A mind already primed by a specific anxious hypothesis will read the next ambiguous sensory event as confirmation of exactly that hypothesis, and act on it immediately, without ever pausing to check whether a mundane cause could explain the same event. In the Jataka's tale of the hare who feared the end of the world, already wondering what would happen if the earth broke up, a single ripe fruit thudding onto a leaf is instantly read as proof: 'At the sound of it, the hare thought: \"This solid earth is collapsing,\" and starting up he fled, without so much as looking behind him.'"
+related: []
+evokes: [jataka, catukkanipata, daddabha-jataka, priming-determines-how-an-ambiguous-signal-gets-read, unverified-flight-follows-instantly-from-a-confirmed-fear]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-daddabha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 322, Daddabha-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "At the sound of it, the hare thought: \"This solid earth is collapsing,\" and starting up he fled, without so much as looking behind him."
+canonical-instances:
+  - "An investor who has spent the week reading warnings about an imminent market crash hears their brokerage app send an unrelated routine notification chime and immediately, without checking the actual content, starts liquidating positions in a panic."
+critical-questions:
+  - "Is the hare's error really about the ambiguous sound, or is the deeper problem the prior anxious rumination that made any sudden noise likely to be misread this way regardless of what it actually was?"
+  - "Would pausing to check before fleeing have cost the hare anything meaningful if the fear had turned out to be real — is instant flight actually irrational, or just a reasonable bet under genuine uncertainty about survival odds?"
+status: active

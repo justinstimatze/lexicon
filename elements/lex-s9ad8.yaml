@@ -1,0 +1,20 @@
+id: lex-s9ad8
+name: withholding-a-disqualifying-trait-until-a-relationship-can-absorb-it
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When a single visible trait would end a relationship before it starts, one way to protect the relationship is to prevent that trait from being seen until enough has already been invested — intimacy, obligation, sunk time — that discovering it no longer ends things outright. In the Jataka's tale of Kusa, the queen-mother knows her son's bride will flee the moment she sees his face, so before the marriage is even finalized she invents a family custom: \"In our family a wife is not allowed to see her husband by daylight until she has conceived. If she will act up to this, we will take her\" — deliberately routing the marriage through the one arrangement where intimacy can precede the disqualifying reveal."
+related: []
+evokes: [jataka, sattatinipata, kusa-jataka, sequencing-disclosure-after-investment, invented-custom-as-cover]
+lineage:
+  - source: primary
+    text: jataka-francis1905-kusa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XX (Sattatinipata), No. 531, Kusa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "My daughter-in-law is quite worthy of my son: howbeit we have an hereditary observance in our family. If she will abide by this custom, we will take her to be his bride. [...] In our family a wife is not allowed to see her husband by daylight until she has conceived. If she will act up to this, we will take her."
+canonical-instances:
+  - "A company omits a candidate's lack of a specific credential from the initial pitch to a client, waiting until the candidate has delivered strong work on a trial project before mentioning it — betting the client will weigh the demonstrated results over the missing credential once both are on the table together."
+  - "Someone dating long-distance delays telling a new partner about a health condition until after several months of video calls and visits have built real attachment, reasoning that revealing it on the first date would end things before the rest of who they are had a chance to register."
+critical-questions:
+  - "The custom the queen-mother invents controls Pabhavati's exposure without her knowledge or consent — does the tactic's success depend specifically on deceiving the person whose eventual acceptance is being engineered, and does that change its moral character compared to simply disclosing late but honestly?"
+  - "Once the delayed reveal happens, Pabhavati still reacts with revulsion and flees — did the investment already banked (a conceived heir, months of a functioning marriage) actually buy any protection, or does it only postpone the same reckoning to a moment with higher stakes attached?"
+status: active

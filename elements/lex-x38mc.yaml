@@ -1,0 +1,19 @@
+id: lex-x38mc
+name: proximity-to-a-much-stronger-party-is-itself-the-hazard
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a much stronger party offers protection or closeness out of genuine benevolence, check whether the danger comes from mere proximity at a mismatched scale, independent of any hostile intent. Aesop's 'The Two Pots' has an iron pot invite a fragile earthen pot to travel alongside it for company and safety. The earthen pot's refusal names the actual danger plainly: 'One touch from you and I should be broken in pieces.' Nobody doubts the iron pot's goodwill. The fable's own moral, 'Equals make the best friends,' points at a risk that is purely structural — routine contact between parties of radically different durability — and no amount of good intention on the stronger side touches it."
+related: []
+evokes: [aesop, the-two-pots, structural-risk-from-scale-mismatch, benevolence-does-not-cancel-hazard]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-two-pots
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Two Pots.' Verified verbatim against a direct extraction of the held copy."
+    quote: "he begged him not to come near him on any account: For that, he said, is just what I am most afraid of. One touch from you and I should be broken in pieces."
+canonical-instances:
+  - "a small startup entering a tight dependency with a much larger platform or investor, where the larger party's routine strategic moves — a pricing change, a pivot — can inadvertently crush the smaller one with no hostile intent involved at all."
+critical-questions:
+  - "Is there a safe way for a much weaker party to accept some benefit from a stronger one without exposing itself to this structural risk, or does any sustained proximity between radically mismatched parties eventually produce the same danger?"
+  - "Does the iron pot bear any responsibility for the risk it poses, given that its intentions are entirely good, or is responsibility simply the wrong frame for a hazard that comes from scale rather than from choice?"
+status: active

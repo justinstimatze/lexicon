@@ -1,0 +1,20 @@
+id: lex-eqstd
+name: a-fabricated-reputation-becomes-retroactively-true
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A publicity-manufactured reputation can become genuinely, retroactively true once its subject grows into it — no matter how fantastic the original fabricated story was, the person who lived it eventually comes to believe it themselves, at which point checking the original claim against present reality finds it accurate, and the press agent who invented it is shocked to discover they never actually told a lie. This is distinct from the magic-lantern effect of a staged event functioning as real: here the transformation happens specifically inside the subject of the fabrication, not just in the audience's perception, and the timescale matters — the claim starts false and becomes true through the subject's own subsequent growth into it."
+related: [lex-b2ecy]
+scaffolds-from: [lex-b2ecy]
+evokes: [jackall-moral-mazes, "he'd come to believe it was true", the-fabrication-becomes-true-through-the-subject]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch7-fabricated-reputation-becomes-true
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 7, The Magic Lantern."
+    quote: "[T]he irony of all publicity [is that] …No matter how fantastic the ruse by which an unknown actor was lifted to fame, he'd come to believe it was true and the poor press agent would be shocked to find that he had never told a lie."
+canonical-instances:
+  - "A musician is marketed early on with an exaggerated backstory of hardship and self-taught genius; years later, having genuinely internalized and lived out that identity through their own choices and habits, the once-exaggerated backstory describes them accurately."
+critical-questions:
+  - "Does this mechanism actually launder the original fabrication, or does it just mean the falsehood and its later truth are separate facts that happen to share the same words — is the original press agent's claim retroactively vindicated, or just coincidentally superseded?"
+status: active

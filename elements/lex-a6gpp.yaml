@@ -1,0 +1,19 @@
+id: lex-a6gpp
+name: amplifying-a-live-lie-one-notch-collapses-it-under-its-own-absurdity
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone tells an absurd, self-serving lie, check whether agreeing with it and extending it one step further discredits it more effectively than contradicting it directly. Aesop's 'The Debtor and His Sow' has a man falsely claim he cannot repay a debt because he has no assets, only a pregnant sow he swears never bears young; his creditor doesn't argue, he escalates: 'Don't be surprised, sir; why, still better, at the Dionysia this Sow has kids!' The lie collapses under the weight of its own extension rather than through any direct accusation, discrediting the liar publicly without the creditor ever needing to call him one."
+related: []
+evokes: [aesop, the-debtor-and-his-sow, agree-and-extend-to-absurdity, reductio-without-direct-accusation]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-debtor-and-his-sow
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Debtor and His Sow.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Don't be surprised, sir; why, still better, at the Dionysia this Sow has kids!"
+canonical-instances:
+  - "a public pile-on where instead of refuting an exaggerated claim, a commenter sarcastically 'agrees and extends' it until it becomes obviously ridiculous to onlookers, without ever directly calling the original speaker a liar."
+critical-questions:
+  - "Does this technique require an audience witnessing the exchange to work, or can amplifying a lie to its own absurdity still discredit it in a private, one-on-one confrontation with no one else to register the collapse?"
+  - "Is there a risk that the extended, more absurd version gets misremembered as the original claim, muddying who actually said what once the exchange is retold secondhand?"
+status: active

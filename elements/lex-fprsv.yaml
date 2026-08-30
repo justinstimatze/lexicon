@@ -1,0 +1,21 @@
+id: lex-fprsv
+name: mistaking-the-traps-next-offer-for-the-trappers-foolishness
+type-in: process
+type-out: warning
+_tier: atomic
+agent-instruction: "A gambler who has already lost everything and is offered one more absurd-sounding bet may accept it not out of desperation but out of contempt for the person making the offer -- believing he's the one about to exploit a fool, right up until the bet closes on him instead. In Cushing's telling, a master gamester who has already stripped a young man of his possessions, then his clothing, casually raises the stakes to something no reasonable opponent would offer: 'Bet your left thigh. I'll put all you have lost and more, too, on that.' The young man's internal reaction isn't fear or hope, it's condescension: 'What an old fool you are!' he thinks, 'and reply: All right! I will take your bet.' He accepts precisely because the offer looks like it favors him, a wildly generous wager from someone who doesn't understand the odds, when in fact the offer only ever looked generous because the game was already fixed against him from the start. Diagnostic move: when an opponent who has already been beating you offers a bet so lopsided it seems to favor you, be suspicious of your own private thought that they must be foolish to offer it -- if they've won every round so far, the more likely explanation is that they know something about the game you don't, not that they've suddenly become careless."
+related: []
+evokes: [an-opponent-who-has-been-winning-doesnt-suddenly-turn-careless, cushing-the-hermit-mitsina, bet-your-left-thigh-ill-put-all-you-have-lost, what-an-old-fool-you-are]
+lineage:
+  - source: primary
+    text: cushing-mitsina-offers-the-body-bet-victim-mistakes-it-for-folly
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Hermit Mitsina.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'Then old Mitsina, with a jolly, devil-may-care manner, would say: Bet your left thigh. I'll put all you have lost and more, too, on that. The young man would say to himself, with a sigh of relief: What an old fool you are! and reply: All right! I will take your bet. Alas! the one thigh he bet is lost; then the other goes the same way.'"
+canonical-instances:
+  - "A trader who has been steadily losing to a counterparty is offered a wildly favorable-looking derivative contract and thinks the counterparty must not understand the market, taking the trade eagerly, when the counterparty's apparent generosity actually reflects insider knowledge of a coming move the trader doesn't have."
+  - "A poker player who has been losing all night is finally dealt what looks like an unbeatable hand and reads their opponent's continued aggressive betting as a sign the opponent has misjudged the situation, going all-in with contempt for the opponent's apparent foolishness, only to discover the opponent has been reading the table correctly the entire time."
+critical-questions:
+  - "Is there ever a legitimate case where an opponent who has been winning genuinely does become careless or overconfident, making an apparently favorable offer that really is a mistake on their part -- how would the young man have told a real error apart from bait designed to look like one?"
+  - "Does the young man's contempt for Mitsina function as a form of denial about his own losing streak, letting him feel back in control of the game at the exact moment he has the least actual control -- is the emotional need to feel superior part of what makes the trap effective?"
+  - "Would the young man have refused the escalating bet if Mitsina had framed it neutrally rather than with a 'jolly, devil-may-care manner' that specifically invites the reading of foolishness -- how much of the trap depends on that particular performance of carelessness?"
+status: active

@@ -1,0 +1,18 @@
+id: lex-rhqmh
+name: unchecked-power-removes-the-ordinary-deterrent-against-seizing-what-cannot-be-justly-claimed
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A person who would never act on a covetous impulse under normal constraints can reason their way into acting on it the moment they recognize that no one holds enough power to stop them, treating the absence of consequence as if it settled the question of whether the act is permissible. In the Jataka''s tale of Culla-Bodhi, the king reasons his way into seizing another man''s wife purely from unchecked authority: "''Well, if I seize her by my sovereign power what will he do? I will take her, then.''"'
+related: []
+evokes: [jataka, dasanipata, culla-bodhi-jataka, impunity-effect, unchecked-power-removes-restraint]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-culla-bodhi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 443, Culla-Bodhi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Well, if I seize her by my sovereign power what will he do? I will take her, then."
+canonical-instances:
+  - "A regional executive with no local oversight redirects a subordinate's project budget to his own pet initiative, reasoning that since no one at headquarters is positioned to stop him, the redirection is effectively his to make."
+critical-questions:
+  - "Is the impunity-driven reasoning here a genuine belief that the act becomes permissible, or a known-wrong act the person simply expects to get away with, and does the atom need to distinguish the two?"
+status: active

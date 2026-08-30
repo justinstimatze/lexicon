@@ -1,0 +1,24 @@
+id: lex-mr4nb
+name: standing-refusal-to-accept-any-claim-without-a-blind-comparative-test
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "Adopt this as a standing institutional posture: treat every claim, tradition, technique, or received recipe as unproven by default, regardless of how authoritative or intuitively obvious it sounds, until it has survived a real comparative test. The procedure has three steps: (1) generate as many candidate variations as can be reasonably assembled, casting a wide net before narrowing; (2) narrow to the small handful that look most promising and run them side by side; (3) judge the results blind, so the person deciding which variation won doesn't know which is which and can't unconsciously favor the one they expected to win. Skipping step 3 while keeping 1 and 2 still lets expectation bias pick the winner; skipping 1 and 2 while keeping 3 just blind-tests a single untested guess instead of a real field of candidates. Doing this as a standing posture matters because authority, tradition, and plausibility all fail silently and often — a technique everyone agrees works can lose to blind tasting the moment it's actually run against alternatives."
+related: [lex-2cfc3, lex-9xzrt, lex-bhp6c, lex-d7p2y, lex-dvxza, lex-j5k33, lex-jmhea, lex-kzjdw, lex-ufeak, lex-zzqww]
+scaffolds-from: [lex-zzqww]
+evokes: [americas-test-kitchen, cooks-illustrated, complete-lack-of-conviction, we-make-the-mistakes-so-you-dont-have-to, blind-tasting-panel, guy-crosby]
+lineage:
+  - source: primary
+    text: americas-test-kitchen-crosby-2012-science-of-good-cooking
+    citation: "The Editors at America's Test Kitchen and Guy Crosby, The Science of Good Cooking: Master 50 Simple Concepts to Enjoy a Lifetime of Success in the Kitchen (America's Test Kitchen, 2012), 'Welcome to America's Test Kitchen,' p. 11."
+    quote: "We start the process of testing a recipe with a complete lack of conviction, which means that we accept no claim, no theory, no technique, and no recipe at face value. We simply assemble as many variations as possible, test a half-dozen of the most promising, and taste the results blind. We then construct our own hybrid recipe and continue to test it, varying ingredients, techniques, and cooking times until we reach a consensus."
+canonical-instances:
+  - "To test whether adding small pieces of frozen butter to eggs actually produced a more tender omelet, America's Test Kitchen put 2-pound fishing weights on top of the finished omelets and checked which one collapsed under the weight rather than relying on taste alone — 'the more tender omelet could not hold the weight.'"
+  - "To test whether resting cooked meat before slicing actually mattered, one roast was sliced straight out of the oven (10 tablespoons of liquid lost) and a second was rested 10 minutes before slicing (4 tablespoons lost) — a measured comparison rather than a repeated claim."
+  - "To test whether mixing method changes brownie texture, three batches were mixed to three different degrees (light streaks remaining, fully incorporated, machine-mixed) and tasted blind — the lightest-mixed batch came out perfect, the more-mixed batches unpleasantly tough."
+critical-questions:
+  - "Does narrowing to 'a half-dozen of the most promising' variations actually sample the space well, or could the genuinely best approach sit outside the initial candidate pool entirely because nobody thought to generate it?"
+  - "Blind tasting removes the tester's own expectation bias, but does a single test-day comparison control for other confounds (ingredient batch, oven calibration, the cook's fatigue) — how many independent trials happen before a result gets generalized into a rule?"
+  - "Is 'accept no claim at face value' itself ever exempted in practice — does the institution ever adopt a technique on reputation or internal consensus without a fresh comparative test, and if so, when does that shortcut get taken?"
+status: active
+severity-tier: info

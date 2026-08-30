@@ -1,0 +1,19 @@
+id: lex-bcdx7
+name: culpability-is-transferred-downstream-onto-a-non-instigating-beneficiary
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Someone who deliberately causes harm to produce a benefit for another party can attempt to relocate the moral responsibility for that harm onto the person who merely receives the benefit, even though the recipient never requested, instigated, or had any control over how the benefit was produced. In the Jataka's tale of the ascetic served meat, a host deliberately has an animal killed to feed his guest, then declares: 'This food was prepared on purpose for you, by killing living creatures. Not upon my head is this wrong, but upon yours!' The ascetic's rebuttal draws the actual line of responsibility back to where the decision was made: the wickedness of killing belongs to whoever chose to kill, not to whoever unknowingly benefited afterward — receiving something is not the same as having caused it."
+related: []
+evokes: [jataka, dukanipata, telovada-jataka, responsibility-follows-the-decision-not-the-downstream-benefit, a-non-instigating-beneficiary-cannot-inherit-the-instigators-guilt]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-telovada-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 246, Telovada-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "This food was prepared on purpose for you, by killing living creatures. Not upon my head is this wrong, but upon yours!"
+canonical-instances:
+  - "A contractor who cuts corners on a project without telling the client, producing a cheaper result the client is pleased with, later tries to shift blame for a resulting safety issue onto the client for having 'accepted' the discounted price, when the client never knew what the discount was actually built on."
+critical-questions:
+  - "Does the recipient's ignorance actually matter here — would the ascetic's rebuttal hold if he had known the meat was killed specifically for him and eaten it anyway, or does knowing participation shift some responsibility back onto the beneficiary after all?"
+  - "Is the host's move a genuine ethical confusion, or a deliberate rhetorical trap designed to make the guest feel implicated and thus less likely to object to the host's own future behavior?"
+status: active

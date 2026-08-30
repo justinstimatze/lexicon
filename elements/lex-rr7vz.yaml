@@ -1,0 +1,19 @@
+id: lex-rr7vz
+name: sustained-access-to-anothers-spoils-gets-mistaken-for-own-capability
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Years of comfortable access to resources someone else actually produced can convince the beneficiary they possess the underlying capability themselves. Eventually they attempt, on their own, the exact thing that was never actually within their power. In the Jataka's tale of the jackal and the lion, a jackal fed for years on a lion's kills after chanting a ritual phrase grows fat and reasons that having four legs like the lion means he must be equally capable, so he tries to kill an elephant using the same formula that had only ever worked because a lion, not the jackal, was doing the actual killing. He's crushed instantly. The years of proximity to real capability never transferred any of it to him; they only obscured, for as long as the arrangement lasted, that the capability was never his."
+related: []
+evokes: [jataka, ekanipata, virocana-jataka, proximity-to-capability-mistaken-for-possessing-it, borrowed-position-collapses-under-its-own-attempted-use]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-virocana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 143, Virocana-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Have not I too four legs?\" he asked himself."
+canonical-instances:
+  - "A junior partner who has spent years riding on a star rainmaker's client relationships, attending every pitch meeting alongside them, decides they're ready to close major deals solo, and loses every prospect they approach independently, having mistaken years of proximity to someone else's skill for having developed the skill themselves."
+critical-questions:
+  - "Is there a reliable way for someone in this position to tell the difference between genuinely acquired skill and mere long-term proximity to someone else's, before a costly independent attempt forces the distinction into the open?"
+  - "Does the person who granted the original access bear any responsibility for the outcome, given that sustained, unexplained provision of resources is part of what let the misjudgment about capability take root in the first place?"
+status: active

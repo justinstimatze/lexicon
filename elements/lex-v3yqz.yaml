@@ -1,0 +1,19 @@
+id: lex-v3yqz
+name: uncertainty-is-invoked-selectively-and-dropped-when-certainty-helps
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Practitioners who understand how public opinion actually works welcome genuine scientific ambiguity and amplify it whenever it serves their position, but drop the same appeal to uncertainty the moment they can instead claim certainty to their own benefit — the invocation of 'we just don't know yet' isn't a consistent epistemic stance, it's a resource deployed selectively wherever it's tactically useful. This means a party's stated position on how settled a question is should be checked against which answer that stated position happens to favor, not treated as an independent epistemic judgment — someone who insists on uncertainty here and certainty there, on the same general topic, is very likely optimizing for outcome rather than reporting their honest confidence level."
+related: []
+evokes: [jackall-moral-mazes, "welcome scientific ambiguity", strategically-selective-invocation-of-uncertainty]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch7-selective-uncertainty
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 7, The Magic Lantern."
+    quote: "practical men and women who understand the pivotal role of public opinion welcome scientific ambiguity unless they themselves can claim certainty to their own benefit."
+canonical-instances:
+  - "An industry group insists the science on a proposed regulation's harm is 'still unsettled' while simultaneously citing a single favorable study as 'conclusive proof' that an alternative practice is safe — using uncertainty and certainty as two tools pointed at the same goal rather than as consistent standards."
+critical-questions:
+  - "Is the selective invocation of uncertainty actually distinguishable from a genuinely mixed evidentiary picture where uncertainty really is higher on one question than another, or does the pattern only become visible once you already suspect motivated reasoning?"
+status: active

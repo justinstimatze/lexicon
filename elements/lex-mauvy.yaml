@@ -1,0 +1,18 @@
+id: lex-mauvy
+name: the-scope-of-entrusted-responsibility-sets-the-standard-of-accountability
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: "The standard someone is held to scales with how much responsibility they were actually given, rather than sitting at some fixed baseline applied equally to everyone — a servant entrusted with a household's provisions is judged against that entrusted scope specifically, and the rule is stated as a general one: whoever is given much has much required of them. Two people can be held to different standards for the identical action, correctly, because they were entrusted with different amounts of responsibility beforehand."
+related: []
+evokes: [kjv, the-faithful-and-wise-steward, ruler-over-his-household, to-whom-much-is-given-much-is-required, beaten-with-many-or-few-stripes]
+lineage:
+  - source: primary
+    text: kjv-1611-luke-12-faithful-steward
+    citation: "The Holy Bible, King James Version (1611; this edition Project Gutenberg #10), Luke 12:47-48. Verified verbatim against a direct extraction of the held copy."
+    quote: "And that servant, which knew his lord’s will, and prepared not himself, neither did according to his will, shall be beaten with many stripes. But he that knew not, and did commit things worthy of stripes, shall be beaten with few stripes. For unto whomsoever much is given, of him shall be much required: and to whom men have committed much, of him they will ask the more."
+canonical-instances:
+  - "A junior engineer and a staff engineer both ship the same bug, and the staff engineer's review is far harsher — not because the bug is worse coming from someone more senior, but because the staff engineer was entrusted with review authority and architectural judgment the junior never had, and is being held to the standard that scope implies."
+critical-questions:
+  - "Was the scope of responsibility actually made explicit to the person being judged beforehand, or is a higher standard being applied retroactively to someone who never knew they'd been entrusted with that much?"
+status: active

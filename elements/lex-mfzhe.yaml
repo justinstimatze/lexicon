@@ -1,0 +1,21 @@
+id: lex-mfzhe
+name: a-sacred-explanation-and-a-mundane-mechanism-can-both-be-true-at-once
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When someone announces a solemn, ritual explanation for how they'll solve a problem, that explanation doesn't have to be a lie covering a mundane mechanism -- it can simply be the framing the audience receives while the actual mechanism does its work unseen, with neither party needing to reconcile the two accounts. In Cushing's telling, Prairie-dogs beg the Burrowing-owl to stop an endless rain. He answers as a priest: 'As you all know very well, I am a priest. I will set aside four days for fasting and meditation and sacred labors. Please await the result.' What he actually does with those four days is entirely physical: he feeds a Tip-beetle bowl after bowl of beans until it's swollen with foul gas, talks it into exhaling that gas into a sealed pouch, then beats the pouch with a stick until the stench routs the rain-gods outright. The Prairie-dogs never learn any of this. They troop out into the sunlight and praise 'their great priest, the Grandfather Burrowing-owl,' crediting the ritual framing for a result that a captured bag of beetle gas actually produced. Diagnostic move: when an announced sacred or ceremonial explanation precedes a real-world result, don't assume you have to choose between 'it was ritual' and 'it was mechanism' -- the two can run in parallel, one for the audience and one for the actual causal work, without the solver ever needing to expose which one really did it."
+related: []
+evokes: [ritual-framing-and-physical-mechanism-run-in-parallel-unreconciled, cushing-prairie-dogs-and-the-burrowing-owl, four-days-of-fasting-and-meditation-and-sacred-labors, the-bag-of-beetle-gas-that-routed-the-rain-gods]
+lineage:
+  - source: primary
+    text: cushing-owl-priestly-framing-beetle-gas-mechanism
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Prairie-Dogs and Their Priest, the Burrowing-Owl.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'Ah, indeed, said the old Owl, scratching the corner of his eye with his claw. Go down home, and I will see what I can do tomorrow morning. As you all know very well, I am a priest. I will set aside four days for fasting and meditation and sacred labors. Please await the result. ... Out from their holes trooped the Prairie-dogs, and sitting up on their haunches all round about the mountain, they shouted at the tops of their shrill voices, Wek wek,--wek wek,--wek wek! in praise of their great priest, the Grandfather Burrowing-owl.'"
+canonical-instances:
+  - "A wellness practitioner tells a client their pain will be addressed through 'energy realignment,' while actually spending the session guiding the client through breathing patterns and gentle stretches that have real, well-documented physiological effects, and the client credits the energy framing for relief that the mechanical intervention actually produced."
+  - "A company announces a product delay is due to 'a period of deep design reflection,' while engineers spend the time fixing a specific, mundane database bottleneck, and the eventual improved performance gets attributed by customers to the vague reflective narrative rather than the concrete technical fix that was never disclosed."
+critical-questions:
+  - "Does it matter, ethically, whether the Owl believes his own priestly framing or is knowingly substituting a mundane trick for it -- does the story give any indication of which, and does the outcome for the Prairie-dogs depend on the answer?"
+  - "Would the Prairie-dogs' gratitude and continued alliance with the Owl survive learning the actual mechanism, or does their faith depend specifically on not knowing that beetle gas, not sacred labor, ended the rain?"
+  - "Is there a real difference between a ritual explanation that happens to run alongside a working mechanism and one that actively substitutes for understanding the mechanism -- does the Owl's silence about the beetle count as deception even though he never states anything false?"
+status: active

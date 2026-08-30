@@ -1,0 +1,19 @@
+id: lex-dtxw4
+name: collapsing-distance-to-here-and-now-defeats-an-unfalsifiable-boast
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone makes an unfalsifiable boast anchored to a distant place or a past time, check whether the strongest response is not argument but collapsing the distance and demanding immediate, local demonstration. In Aesop's 'The Boasting Traveller,' a man claims he once made a prodigious jump at Rhodes, citing witnesses who cannot be produced; a bystander cuts through it: 'Let's just imagine this is Rhodes for a minute: and now--jump!' The move works because it removes the exact feature (inaccessibility) that made the boast unfalsifiable in the first place, rather than engaging with the claim on its own terms. This fable is the origin of the phrase 'Hic Rhodus, hic saltus' ('here is Rhodes, jump here'), later used by Hegel and Marx to make the identical demand of theorizing detached from present, concrete action."
+related: []
+evokes: [aesop, the-boasting-traveller, hic-rhodus-hic-saltus, collapsing-distance-defeats-unfalsifiability]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-boasting-traveller
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Boasting Traveller.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Let's just imagine this is Rhodes for a minute: and now--jump!"
+canonical-instances:
+  - "an interviewer facing an unverifiable 'great results at my last company' claim skips trying to confirm the past and hands the candidate a live problem to solve on the spot, converting an inaccessible boast into a checkable present performance."
+critical-questions:
+  - "Does this move only work for boasts that are genuinely performable on demand — physical feats, live skills — or can it be adapted to claims about past decisions, judgments, or knowledge that can't be re-enacted in the moment?"
+  - "What happens when the person being challenged simply declines the demonstration — does refusing to jump function as an admission, or can a legitimate boast also reasonably decline an artificial staged test?"
+status: active

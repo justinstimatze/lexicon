@@ -1,0 +1,19 @@
+id: lex-6gd8g
+name: failing-to-adapt-timing-to-a-known-recurring-hazard
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Facing the same recurring hazard on two separate occasions, a leader who repeats an unchanged exposure pattern both times demonstrates that the failure is a fixed habit rather than a one-off misjudgment. In the Jataka's tale of the two deer-herds, Blackie marches his herd at dawn and dusk along the exposed edges of villages every single crossing, losing most of the herd to hunters on both the outbound and the return journey by the identical behavior. His counterpart Luckie moves only in the dead of night, never approaching village edges at all, and brings his entire herd through both times without loss. The distinguishing variable isn't information — both leaders know where the danger lies — it's whether the leader adjusts the timing of exposure to when the threat is actually active, or simply repeats the same schedule regardless of the outcome it produced last time."
+related: []
+evokes: [jataka, ekanipata, lakkhana-jataka, unchanged-exposure-despite-feedback, adapting-timing-to-threat-activity]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-lakkhana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 11, Lakkhana-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The dullard Blackie, ignorant of the times to travel and the times to halt, kept his deer on the march early and late, both at dawn and in the gloaming, approaching the very confines of the villages... Luckie... never so much as approached the confines of a village. He did not travel by day, or even in the dawn or gloaming. Only in the dead of night did he move; and the result was that he reached the forest without losing a single head of his deer."
+canonical-instances:
+  - "A logistics manager routes delivery trucks through the same intersection at rush hour every week despite repeated near-misses with pedestrians, while a colleague running an identical route shifts departure times to avoid the exact window when foot traffic peaks, and never has an incident."
+critical-questions:
+  - "How much repetition is needed to distinguish a fixed habit from an unlucky coincidence — would a single loss on the outbound leg alone have been enough to draw the same conclusion about Blackie?"
+  - "Is the fix always a timing adjustment specifically, or could an equally effective leader solve the same hazard by changing the route, the group size, or some other variable instead of when they travel?"
+status: active

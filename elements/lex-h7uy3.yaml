@@ -1,0 +1,18 @@
+id: lex-h7uy3
+name: claiming-status-risks-public-demotion-deferring-it-doesnt
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Taking the highest-status position available at an event exposes a person to public demotion if someone with a stronger claim arrives after them, while deliberately taking the lowest position exposes them to no such risk and can instead yield an unearned, visible promotion when the host moves them up. The two choices aren't symmetrical: self-promotion has a genuine downside case that self-deferral doesn't, because the host's authority to reassign seats can only embarrass someone who's already claimed a high one."
+related: []
+evokes: [kjv, chief-rooms-at-a-wedding, friend-go-up-higher, sit-not-down-in-the-highest-room, begin-with-shame-to-take-the-lowest-room]
+lineage:
+  - source: primary
+    text: kjv-1611-luke-14-chief-seats
+    citation: "The Holy Bible, King James Version (1611; this edition Project Gutenberg #10), Luke 14:8-10. Verified verbatim against a direct extraction of the held copy."
+    quote: "When thou art bidden of any man to a wedding, sit not down in the highest room; lest a more honourable man than thou be bidden of him; And he that bade thee and him come and say to thee, Give this man place; and thou begin with shame to take the lowest room. But when thou art bidden, go and sit down in the lowest room; that when he that bade thee cometh, he may say unto thee, Friend, go up higher: then shalt thou have worship in the presence of them that sit at meat with thee."
+canonical-instances:
+  - "A new hire who assumes the corner office before anyone assigns it risks a visible, humiliating relocation the day a more senior transfer arrives, while a colleague who took the smallest desk by the door gets moved up to a better one publicly, at no risk, the first time leadership notices who's actually doing the work."
+critical-questions:
+  - "Is deliberate self-deferral here a genuine act of humility, or a calculated bid for the same status through a lower-risk route — does the strategic version of this move still work once the people watching recognize it as a strategy?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-vnatb
+name: a-debt-is-paid-in-powerless-substitutes-who-cannot-decline
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than pay a debt personally, the obligated party can substitute powerless third parties who have no ability to refuse, continuing the substitution until that supply runs out. In the Jataka''s tale of Sutano, the king pays his standing debt to the yakkha this way: "taking a man from the jail every day sent him to the yakkha with a plate of rice without telling him anything."'
+related: []
+evokes: [jataka, sattanipata, sutano-jataka, powerless-substitutes-for-personal-obligation, non-refusing-population-as-payment]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sutano-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 398, Sutano-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "taking a man from the jail every,day sent him to the yakkha with a plate of rice without telling him anything."
+canonical-instances:
+  - "A company facing a costly regulatory obligation rotates temporary contractors through the most hazardous part of the job instead of assigning it to permanent staff, relying on the contractors' weaker position to keep anyone from refusing."
+critical-questions:
+  - "Does routing an obligation through people who cannot decline actually discharge it, or does it just relocate the cost onto whoever has the least power to object?"
+  - "What happens to the obligation once the supply of substitutes runs out — does the original debtor finally face it, or does the search for substitutes simply widen?"
+status: active

@@ -1,0 +1,21 @@
+id: lex-z52z4
+name: catastrophe-accumulates-from-undiscriminated-small-wrongs
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a catastrophic betrayal or breakdown occurs — a minister turning on a ruler, a son turning on a father — resist reading it as a sudden event with a single trigger. The I Ching's Wen Yan commentary on the Khwăn hexagram states the mechanism directly: 'The family that accumulates goodness is sure to have superabundant happiness, and the family that accumulates evil is sure to have superabundant misery. The murder of a ruler by his minister, or of his father by a son, is not the result of the events of one morning or one evening. The causes of it have gradually accumulated, through the absence of early discrimination.' The commentary then reaches for the hexagram's own image as the natural analogy: frost underfoot is the early, easily-dismissed sign; the hard ice that follows is what frost was always going to become if nothing intervened. The prescription is early discrimination: treating small wrongs as legible warning signs while they're still small, well before they compound past the point of reversal."
+related: [lex-869h7]
+evokes: [i-ching, legge, wen-yan, khwan-hexagram, moral-accumulation, hoar-frost]
+lineage:
+  - source: primary
+    text: i-ching-legge-1899-appendix4-wen-yan-khwan
+    citation: "The Yî King (I Ching), translated by James Legge, Sacred Books of the East vol. 16 (Oxford, 1899), Appendix IV (Wen Yen), Section II: Khwăn, Chapter II, paragraph 5. Legge's own footnote to this section calls it 'perhaps the most important portion' of the whole Khwăn commentary. Verified verbatim against a direct fetch of sacred-texts.com's own hosted page for this appendix, clean digital text, no OCR."
+    quote: "The family that accumulates goodness is sure to have superabundant happiness, and the family that accumulates evil is sure to have superabundant misery. The murder of a ruler by his minister, or of his father by a son, is not the result of the events of one morning or one evening. The causes of it have gradually accumulated,--through the absence of early discrimination. The words of the Yî, 'He treads on the hoar-frost; the strong ice will come (by and by),' show the natural (issue and growth of things)."
+canonical-instances:
+  - "The passage grounds its abstract claim in the hexagram's own textual image rather than leaving it as bare assertion — the frost-then-ice line belongs to the base Khwăn hexagram text itself, and the Wen Yan commentary is explicitly interpreting that image as the pattern behind moral catastrophe, not introducing a new metaphor of its own."
+  - "operationally distinct from lex-869h7 (Scheffer et al.'s statistical early-warning signals for an approaching tipping point in a dynamical system — critical slowing down, rising autocorrelation): that mechanism detects an approaching threshold through a system's own measurable fluctuation pattern, independent of any moral content. This atom's claim is causal and normative rather than statistical — specific small wrongs compound through a failure of discrimination, and the fix is vigilance and judgment applied to those specific instances, not a fluctuation measurement."
+critical-questions:
+  - "Is 'early discrimination' actually achievable in practice, or does the frost-to-ice pattern only become legible in hindsight, once the ice has already formed and the earlier frost can be picked out as having mattered?"
+  - "Does every catastrophic betrayal actually have this accumulation structure, or does the commentary's moralizing framing retroactively impose a gradual-buildup narrative on events that were sometimes genuinely sudden?"
+  - "Who bears the burden of the 'early discrimination' this passage calls for — is it the person who will eventually be betrayed, the person accumulating the small wrongs, or some third party positioned to notice the pattern before either of them does?"
+status: active

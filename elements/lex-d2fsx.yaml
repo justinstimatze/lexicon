@@ -1,0 +1,19 @@
+id: lex-d2fsx
+name: one-way-footprints-outweigh-testimony-as-evidence-of-danger
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When deciding whether to trust a claim of safety, check the aggregate physical evidence of what happened to others rather than relying on direct testimony alone. In Aesop's 'The Old Lion,' a lion too feeble to hunt directly invites visitors to see him as if sick, luring them close enough to kill; a fox declines to enter, explaining: 'I should have done so, if I hadn't noticed that all the footprints point towards the cave and none the other way.' The detection method is the substance of the fable — ignore the lion's claim and the social norm of visiting the sick, and reason instead from the absence of a return path, the same logic used in survivorship-bias analysis of returning aircraft."
+related: []
+evokes: [aesop, the-old-lion, survivorship-bias, aggregate-evidence-over-testimony, absence-of-a-return-path]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-old-lion
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Old Lion.' Verified verbatim against a direct extraction of the held copy."
+    quote: "I should have done so, if I hadn't noticed that all the footprints point towards the cave and none the other way."
+canonical-instances:
+  - "a review platform surfaces glowing testimonials from a handful of satisfied customers, but the real signal is the separate, larger set of accounts that engaged once and never posted again — the missing return trail, not the visible praise."
+critical-questions:
+  - "Does this reasoning require a visible, countable trace of prior visitors (footprints, reviews, records) to work at all — what happens when the evidence of who went in and never came out is not preserved anywhere?"
+  - "Could a target aware of this detection method fabricate a false trail (return footprints) to defeat it, and if so, does the fox's method just push the deception one level deeper rather than resolving it?"
+status: active

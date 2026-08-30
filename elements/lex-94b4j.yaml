@@ -1,0 +1,19 @@
+id: lex-94b4j
+name: the-protected-party-self-limits-a-blanket-policy-to-keep-it-from-being-revoked
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A blanket protection granted out of gratitude, with no boundary built in, can become unsustainable once the protected class grows large enough to cause real damage the grantor never anticipated — and the grantor may be bound by their own word not to revoke it even as the damage mounts. Rather than wait for the policy to collapse under pressure from the people it harms, the protected party can impose its own limit, addressing the harm directly without asking the grantor to break a promise. In the Jataka''s tale, the king''s decree of protection for all deer, given out of gratitude to the one who saved him, works until the herds start devouring the countryside''s crops: "The deer are eating up our crops: this let the king prevent!" The king, bound by his own vow, refuses to revoke it even as his subjects press him: "Be it the people''s wish or no, e’en if my kingdom cease, I cannot wrong the deer, to whom I promised life and peace... The boon I gave that royal deer I never will deny." It is the deer himself who resolves the standoff, not the king: "assembling all the deer, laid his bidding on them: ''From this time forward you must not devour the crops of men.''" He then arranges for farmers to mark their own land with a placard the herds will respect — narrowing the protection''s practical scope without either side breaking its word.'
+related: []
+evokes: [jataka, terasanipata, ruru-jataka, self-limiting-a-blanket-grant, protecting-a-policy-from-its-own-side-effects]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-ruru-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XIII (Terasanipata), No. 482, Ruru-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: 'The boon I gave that royal deer I never will deny.'
+canonical-instances:
+  - "A city council grants a blanket noise-complaint exemption to a beloved local venue after a public outcry over its threatened closure. Once the exemption starts drawing envious complaints from every other business on the block, the venue's own owner gets ahead of the council being forced to revoke it, voluntarily capping late-night amplified sound to the hours the original complaints were actually about."
+critical-questions:
+  - "The deer has the standing and the herd's trust to impose this limit; would the same self-correction be available to a beneficiary with less authority over the group actually causing the harm?"
+  - "The king's vow is framed as unbreakable even at the cost of his kingdom — is that framing doing real work here, or would a king willing to revoke the boon have made the deer's intervention unnecessary and this a non-story?"
+status: active

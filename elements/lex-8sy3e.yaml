@@ -1,0 +1,19 @@
+id: lex-8sy3e
+name: power-reveals-character-more-than-it-corrupts-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Testing multiple rescued parties' promised gratitude in ascending order of their power over you surfaces who's actually reliable, because the powerless keep faith unconditionally while the empowered defect once they believe they can get away with it — power reveals a pre-existing willingness to betray rather than creating it from nothing. In the Jataka's tale of the flood, a hermit rescues a snake, a rat, a parrot, and a prince, then deliberately visits each in turn afterward to test their promises of repayment. The three animals immediately and fully honor their debt. The prince, now crowned king and with real power over the hermit's fate, tries to have his rescuer executed rather than be publicly linked to the obligation. Power removed a constraint that had been hiding the prince's capacity for betrayal all along."
+related: [lex-v4d4c]
+evokes: [jataka, ekanipata, saccamkira-jataka, power-reveals-rather-than-corrupts, testing-promises-in-ascending-order-of-stakes]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-saccamkira-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 73, Saccamkira-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "They knew the world, who framed this proverb true-- 'A log pays better salvage than some men.'"
+canonical-instances:
+  - "An investor who backed several early founders before any of them had leverage over the relationship later tracks how each treats the investor once their companies succeed. The two who never gained real power still return every call; the one who became powerful enough to no longer need the investor stops responding entirely."
+critical-questions:
+  - "Is deliberately testing gratitude by visiting each rescued party in ascending order of stakes, the way the hermit does, actually necessary to learn this, or would ordinary observation over time reveal the same pattern without staging the test?"
+  - "Does this mechanism only apply to gratitude specifically, or does any obligation that becomes costly to honor once someone gains the power to refuse it follow the same shape?"
+status: active

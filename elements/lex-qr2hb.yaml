@@ -1,0 +1,21 @@
+id: lex-qr2hb
+name: task-focus-forgets-a-specific-caution-with-irreversible-cost
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "Not every broken warning is a deliberate transgression -- some of the most costly violations happen precisely because the person genuinely intends to comply, but the specific caution gets crowded out by ordinary absorption in the task at hand. In Eastman's telling, a husband warns his wife before an ordinary chore, digging wild turnips: 'When you are digging, you must not hit the ground too hard!' There's no forbidden curiosity here, no temptation to defy, nothing she wants to test -- she simply forgets, mid-task, exactly as anyone absorbed in repetitive physical work might: 'the Earth forgot, and in her haste she struck the ground so hard with the sharp-pointed stick with which she dug turnips, that the floor of the sky was broken and she fell through.' The consequence is total and permanent -- she's separated from her husband and her entire world for the rest of the story -- and it arrives with no antagonist and no moral failing to point to, just ordinary task-absorbed forgetting meeting a caution whose stakes were wildly disproportionate to how easy it was to violate by accident. Diagnostic move: when a caution attached to a routine, repeatable action carries catastrophic and irreversible stakes, don't rely on the person's intention to comply or their good character -- intention doesn't survive absorption in the task, and a warning that's easy to forget mid-motion needs a structural safeguard, a physical limiter, a built-in check, a partner watching, not just an instruction given once in advance."
+related: []
+evokes: [forgetting-under-task-absorption-not-defiance, eastman-the-girl-who-married-the-star, a-warning-given-once-doesnt-survive-repetitive-motion, structural-safeguards-beat-good-intentions-for-easy-to-forget-cautions]
+lineage:
+  - source: primary
+    text: eastman-girl-married-star-earth-forgets-caution-falls-through-sky
+    citation: "Charles A. Eastman (Ohiyesa) and Elaine Goodale Eastman, Wigwam Evenings: Sioux Folk Tales Retold (Little, Brown, 1909), 'Twenty-Third Evening: The Girl Who Married the Star.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'When you are digging, you must not hit the ground too hard!' ... However, the Earth forgot, and in her haste she struck the ground so hard with the sharp-pointed stick with which she dug turnips, that the floor of the sky was broken and she fell through."
+canonical-instances:
+  - "A surgical team is briefed once before a routine procedure that a specific step carries catastrophic risk if rushed, and a surgeon absorbed in the flow of an otherwise ordinary operation forgets that one caution under time pressure, causing irreversible harm -- the fix afterward is a mandatory checklist enforced at that exact step, not a stronger verbal warning."
+  - "A factory worker is warned during onboarding never to exceed a specific torque limit on an otherwise routine, repetitive assembly task, and months later, absorbed in the rhythm of the line, forgets that one caution during an ordinary shift and causes a catastrophic equipment failure -- not through carelessness about the job generally, but through the specific caution being crowded out by the repetition of the task it was attached to."
+critical-questions:
+  - "does calling this 'forgetting' let real negligence off the hook too easily -- at what point does 'I forgot, absorbed in the task' stop being a sympathetic account of an accident and become a polite name for insufficient care?"
+  - "how does anyone design a structural safeguard for every possible instance of task-absorbed forgetting without adding so much friction to routine tasks that the safeguards themselves become the thing people start working around?"
+  - "is this pattern meaningfully different from a deliberate, curiosity-driven violation of a prohibition (Pandora's box, Bluebeard's key) in any way that should change how we judge the person who broke the rule, or does the story simply feel more sympathetic because the intent was innocent while the outcome was identical?"
+status: active

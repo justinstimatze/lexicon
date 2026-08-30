@@ -1,0 +1,19 @@
+id: lex-p4qsb
+name: compartmentalization-manufactures-plausible-deniability
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Bureaucratic compartmentalization — organizing information and consciousness in separate walled-off levels — often prevents knowledge of a troublesome issue from ever reaching the level where it would need to be acted on, and this isn't just a side effect of large-scale organization, it functions as manufactured deniability. At minimum, compartmentalization gives everyone involved a fully acceptable rationale for not knowing about a problem or not trying to find out, which is functionally different from active concealment: no one has to lie about what they knew, because the structure itself ensured they genuinely didn't know. This means 'no one told me' can be simultaneously true and unhelpful as an excuse — the structure was arranged so that not being told was the reliable, engineered outcome, not an unlucky gap."
+related: []
+evokes: [jackall-moral-mazes, "acceptable rationales for not knowing about problems", compartmentalization-as-engineered-ignorance]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch8-compartmentalization-deniability
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 8, Invitations to Jeopardy, Section II."
+    quote: "bureaucratic compartmentalization, with its concomitant secrecy and fragmentation of consciousness, often prevents the passing from one level of an organization to the next [...] of the actual knowledge of troublesome issues [...] At the least, compartmentalization provides wholly acceptable rationales for not knowing about problems or for not trying to find out."
+canonical-instances:
+  - "A quality-control issue discovered on a factory floor never reaches corporate leadership because each intermediate reporting layer treats the issue as within its own authority to resolve — by the time it would matter to leadership, no single person up the chain can honestly be said to have concealed it."
+critical-questions:
+  - "Is the compartmentalization here genuinely a byproduct of scale, or was it designed and maintained specifically because someone anticipated needing this exact deniability — and does the distinction matter if the effect on accountability is identical either way?"
+status: active

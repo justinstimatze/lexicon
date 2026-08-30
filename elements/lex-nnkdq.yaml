@@ -1,0 +1,22 @@
+id: lex-nnkdq
+name: instinct-suffices-at-low-complexity-then-a-role-gets-stuck-there
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Unaided instinct is adequate for a task only up to a certain level of environmental or task complexity. Push complexity past that level and instinct becomes actively insufficient -- the task now needs trained, conscious intelligence, and no amount of additional instinct closes the gap. A role or class can remain locked into instinct-only methods even after the surrounding task has grown far more complex than instinct alone can handle, producing a systematic, largely invisible gap between what the role actually requires now and what untrained instinct can still deliver. Gilman traces the mismatch directly: 'Among animals... instinct is at its height, and works well. Among savages, still incapable of much intellectual development, instinct holds large place... As humanity advances, growing more complex and varied... instinct decreases in value. The human female, denied the enlarged activities which have developed intelligence in man... has maintained the rudimentary forces of instinct to the present day.'"
+related: []
+evokes: [women-and-economics, chapter-ix, instinct-decreases-in-value, maintained-the-rudimentary-forces-of-instinct, a-role-stuck-on-instinct-while-the-task-outgrows-it]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-ix
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter IX. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "Among animals, which have but a low degree of intelligence, instinct is at its height, and works well. Among savages, still incapable of much intellectual development, instinct holds large place. The mother beast can and does take all the care of her young by instinct; the mother savage, nearly all, supplemented by the tribal traditions, the educative influences of association, and some direct instruction. As humanity advances, growing more complex and varied, and as human intelligence advances to keep pace with new functions and new needs, instinct decreases in value. [...] The human female, denied the enlarged activities which have developed intelligence in man, denied the education of the will which only comes by freedom and power, has maintained the rudimentary forces of instinct to the present day."
+canonical-instances:
+  - "A small family workshop runs its inventory entirely on the owner's gut feel for what's selling, which works fine at a dozen products. The business grows to hundreds of SKUs across several locations, but the owner keeps relying on the same gut feel, now systematically wrong in ways nobody tracks because no one ever switched to actual data."
+  - "A community's informal, word-of-mouth system for warning people about dangerous river crossings works well when the community is small and everyone knows everyone. As the population grows and newcomers arrive faster than word can reach them, the same informal system keeps being relied on even though it's no longer covering enough of the population to prevent drownings."
+  - "A startup's early hiring, done entirely on the founder's personal read of a candidate, works well when hiring five people who all interact directly with the founder daily. The company grows to two hundred employees, but hiring stays gut-feel-only, missing the structured evaluation that the larger, more complex organization actually needs."
+critical-questions:
+  - "How would you distinguish a genuine case of instinct falling behind rising task complexity from a case where instinct was never adequate even at the earlier, simpler stage, and the earlier apparent success was actually luck or a lower bar for what counted as success?"
+  - "Is the fix necessarily to replace instinct with trained intelligence, or can instinct be retained as one input among several once complexity rises, rather than discarded entirely -- does the claim require full replacement or just supplementation?"
+  - "What keeps a role locked into instinct-only methods after the surrounding task has clearly outgrown them -- is it simply that no one has offered training, or are there active structural barriers, similar to those Gilman names elsewhere, that prevent the role from acquiring the intelligence-based methods it would otherwise develop?"
+status: active

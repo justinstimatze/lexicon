@@ -1,0 +1,43 @@
+id: lex-bpr6b
+name: polya-work-backwards-via-related-problem
+type-in: question
+type-out: process
+_tier: molecule
+agent-instruction: "When forward search stalls, surface Pólya's work-backwards-via-related-problem — start from the desired conclusion and ask what would suffice for it; chain backwards until the chain meets the givens."
+related: [lex-89rjr, lex-ftke9, lex-gx8m2, lex-th6tr, lex-g9zrz, lex-s7qxv, lex-dk7dq]
+scaffolds-from: [lex-89rjr, lex-ftke9, lex-gx8m2]
+evokes: [polya-devise-a-plan, polya-heuristics, polya-induction-and-analogy]
+decomposes-into:
+  - lex-89rjr
+  - lex-ftke9
+  - lex-gx8m2
+assembly: "choice(sequential(lex-89rjr, lex-ftke9), lex-gx8m2, selector=is-similar-known-problem-recallable)"
+premises:
+  - "you face a problem (a question) where direct forward-from-current-state attempts have stalled"
+  - "the selector asks: is a similar known problem recallable from memory?"
+  - "TRUE branch — find-related-problem (lex-gx8m2): operate on the problem-question directly, pattern-match to a structurally-analogous solved problem, output the related-problem claim for adaptation"
+  - "FALSE branch — sequential(lex-89rjr, lex-ftke9): anchor the goal-state from the question (lex-89rjr), then work backwards from the anchored goal-state to find a path (lex-ftke9)"
+  - "both branches consume the original problem-question; goal-anchoring lives inside the work-backwards branch only (find-related does not require goal-anchoring — pattern-match operates on problem-shape, not on goal-state)"
+  - "the chosen strategy yields a candidate solution (claim from find-related; process from work-backwards)"
+critical-questions:
+  - "is the goal-state actually anchored, or are you working with a fuzzy / shifting target? (work-backwards fails silently against a fuzzy goal)"
+  - "if you chose find-related-problem: is the analogy structural enough to transfer, or are you cherry-picking surface similarity? (cf. the case-similarity-mapping concept — reserved during early planning but never minted)"
+  - "if you chose work-backwards: is the goal-state actually reachable from current state, or are you about to discover infeasibility expensively?"
+  - "did the chosen strategy converge? if neither converged, the molecule itself may be the wrong tool — consider auxiliary-element-introduction (lex-b4vxq) or simplification-by-removing-constraints (lex-kkr43)"
+lineage:
+  - source: primary
+    text: polya-1945
+    citation: "George Polya, How to Solve It (Princeton UP 1945; 2nd ed. 1957) — the molecule's three component moves all appear in Polya's Stage-2 'Devise a plan' chapter as adjacent prompts, with explicit choose-between-them framing. via the front-matter chart (p.xvi) which lists all three in sequence on the Stage-2 row"
+    quote: "Second. DEVISING A PLAN. Find the connection between the data and the unknown. You may be obliged to consider auxiliary problems if an immediate connection cannot be found. You should obtain eventually a plan of the solution. Have you seen it before? Or have you seen the same problem in a slightly different form? Do you know a related problem? ... If you cannot solve the proposed problem try to solve first some related problem. Could you imagine a more accessible related problem? A more general problem? A more special problem? An analogous problem? [Front-matter chart, p.xvi — the three Stage-2 moves goal-state-anchoring (lex-89rjr), have-you-seen-it-before/find-related-problem (lex-gx8m2), and work-backwards (lex-ftke9) all appear on this single page as alternating Devise-A-Plan prompts.]"
+  - source: practitioner
+    text: polya-decomposition-pass
+    citation: "worked example: assembles 3 of the 6 atoms newly promoted in this pass; uses choice() composition operation (3rd attestation, approaching 3-occurrence-rule promotion threshold for choice as first-class entry)"
+  - source: practitioner
+    text: assembly-typecheck-pass-1
+    citation: "Substrate-meta decision (McBride-restructure for choice molecules with asymmetric branches). Original assembly was sequential(lex-89rjr, choice(lex-ftke9, lex-gx8m2, selector=...)) but the two arms operate on different inputs — find-related (lex-gx8m2) pattern-matches the original problem-question; work-backwards (lex-ftke9) operates on the anchored goal-state. The premise text always read 'work backwards from the ANCHORED goal,' implying goal-anchoring is part of the work-backwards branch only. Restructured assembly to choice(sequential(lex-89rjr, lex-ftke9), lex-gx8m2, selector=...) so both arms consume the question; lex-89rjr retyped to question→state to align. Three critiques recorded for next pass: (a) Polya: this molecule may be over-formalized — Polya's heuristics are a family deployed in alternation/recursion/parallel, not a binary choice. If future use-sites can't activate this molecule cleanly, consider demoting to 'family of co-occurring atoms.' (b) Newell: the choice construct's symmetric-arms requirement misses the key structure of *guarded alternative* — different operators on different inputs unified by a discriminator. (c) Wadler: the choice construct should support sum-type arms (each arm with its own input type, with outer dispatch). Substrate-grammar work, not pass-1 scope, but every future branching molecule will hit this wall."
+canonical-instances:
+  - "math problem on a timed exam: anchor goal (the exact form of the answer you need), then choose — recall a similar problem from study OR work backwards from the goal-form. Often deploy in alternation."
+  - "engineering bug-hunt where forward debugging stalled: anchor goal (the exact behavior you want), then either find a related bug from issue tracker OR work backwards from the desired behavior to identify what's missing in the current code"
+  - "research design: anchor the question's desired-evidence-shape, then either find a related study OR work backwards to design experiments that would produce that evidence"
+severity-tier: info
+status: active

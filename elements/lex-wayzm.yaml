@@ -1,0 +1,21 @@
+id: lex-wayzm
+name: an-indiscriminate-weapon-requires-waiting-for-target-separation
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "The earliest moment you can see a threat is often not the safest moment to act against it, if your only weapon can't distinguish between the threat and whoever it's standing next to. In Cushing's telling, two brothers spot a cannibal demon leading two captive maidens toward his lair, and the elder brother, seeing the enemy in range, immediately reaches for his bow. The younger brother stops him cold: 'You fool of a brother elder, but not wiser. No! Do you not know that your arrow is lightning and will kill the maidens as well as the monster?' The weapon's power is exactly what makes early action dangerous -- a lightning-arrow doesn't discriminate between the demon and the captives standing beside him, so the earliest clear shot is also the shot most likely to kill everyone. The brothers wait, tracking the demon through his cave and his rituals, until the maidens are physically separated from him at the critical moment before he finally deploys the shield and the arrow with no one else in the blast path. Diagnostic move: when you're holding a weapon or intervention powerful enough to hit more than its intended target, resist treating your first clear shot as your best shot -- ask specifically who else stands to be caught in it, and if the answer is anyone you're trying to protect, wait for separation rather than opportunity."
+related: []
+evokes: [the-weapons-power-is-why-the-earliest-shot-isnt-the-safest-one, cushing-atahsaia-the-cannibal-demon, your-arrow-is-lightning-and-will-kill-the-maidens-as-well, wait-for-separation-not-opportunity]
+lineage:
+  - source: primary
+    text: cushing-brothers-wait-for-separation-before-firing-the-lightning-arrow
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'Atahsaia, the Cannibal Demon.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'Again they sat and waited. As the old demon and the girls passed along below, the elder brother again started and would have shot had not Matsailema held him back. You fool of a brother elder, but not wiser. No! Do you not know that your arrow is lightning and will kill the maidens as well as the monster?'"
+canonical-instances:
+  - "A police sniper with a clear line on a hostage-taker holds fire the moment a hostage's position overlaps the round's likely path or backstop, waiting instead for the hostage-taker to move to a spot where the shot can't pass through or near the hostage, even though the earlier angle offered a technically clear line to the target himself."
+  - "A military commander with access to an airstrike capable of leveling a city block delays authorizing the strike on a high-value target until intelligence confirms civilians have moved out of the blast radius, treating the earliest confirmed sighting of the target as insufficient justification given the weapon's indiscriminate area of effect."
+critical-questions:
+  - "How long could the brothers have reasonably waited before the risk of the demon actually harming the maidens outweighed the risk of a poorly-timed shot -- does the story suggest any way to judge when patience has become its own danger?"
+  - "Would the elder brother's impulsive instinct to shoot immediately have been the right call with a more precise, non-lightning weapon, and does the story frame his impatience as a character flaw or simply an understandable failure to think through his specific weapon's limitations?"
+  - "Is there a meaningful difference between waiting for physical separation, as the brothers do, and waiting for some other condition that reduces collateral risk without full separation, such as positioning or timing -- does this tactic require complete separation or only sufficient reduction of risk?"
+status: active

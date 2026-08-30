@@ -1,0 +1,19 @@
+id: lex-svphb
+name: outrunning-a-mistake-can-grant-authority-to-blame-someone-else
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Being promoted out of a role before the consequences of a mistake fully land doesn't just let the upwardly mobile person escape blame for it — with enough luck, it can position them with the authority to later declare someone else responsible for that same error. This compounds beyond simple blame-evasion: the escape converts into structural power over the very accountability process the original mistake would otherwise have triggered. This is distinct from milking the asset (deferring maintenance because a rotation-out date is known in advance): that mechanism is about the incentive to extract value knowing the tenure window ends before consequences appear; this one is about what happens after escaping blame — the specific downstream grant of authority to redirect that same blame onto whoever inherits the mess."
+related: [lex-8c9vv]
+evokes: [jackall-moral-mazes, "outrun their mistakes, leaving others to bear the burden", outrunning-a-mistake-into-blame-assigning-authority]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-afterword-outrun-mistakes-gain-authority
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), \"Moral Mazes and the Great Recession,\" Section III."
+    quote: "Men and women who are upwardly mobile can outrun their mistakes, leaving others to bear the burden. With luck, those who succeed in outrunning their mistakes end up with the authority to declare others responsible for their own errors."
+canonical-instances:
+  - "An executive who leaves a division just before a flawed strategy's costs become visible is later promoted to a role overseeing the division's recovery, and from that new position publicly attributes the ongoing problems to the successor's poor execution of the original strategy."
+critical-questions:
+  - "How often does the 'with luck' condition actually hold — is the compounding grant of blame-assigning authority the common outcome of outrunning a mistake, or the rare, more dramatic case that happens to be the one worth telling as a story?"
+status: active

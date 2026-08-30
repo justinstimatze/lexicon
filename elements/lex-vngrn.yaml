@@ -1,0 +1,19 @@
+id: lex-vngrn
+name: a-hunter-withholds-the-strike-until-the-target-is-encumbered
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than strike at the first opportunity, when the target is fast and alert, a hunter can deliberately wait until the target is weighted down and vulnerable during retreat before attacking. In the Jataka''s tale of Manoja, the archer does exactly this to the lion: "The archer thinking ''His speed is very great when he comes,'' did not shoot him, but when he was going away after taking a horse, hampered by the heavy weight, he hit him with a sharp arrow in the hind quarters."'
+related: []
+evokes: [jataka, sattanipata, manoja-jataka, wait-for-the-vulnerable-window, strike-during-encumbered-retreat]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-manoja-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 397, Manoja-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The ... archer thinking \"His speed is very great when he comes,\" did not shoot him, but when he was going away after taking a horse, hampered by the heavy weight, he hit him with a sharp arrow in the hind quarters."
+canonical-instances:
+  - "A competitor holds off during a rival's product launch, when the rival has cash on hand and is watching for threats. It moves aggressively later, once the rival is mid-acquisition and distracted."
+critical-questions:
+  - "Does waiting for the vulnerable window require the attacker to tolerate real risk in the meantime, or does patience here cost nothing because the target was never actually threatening during the wait?"
+  - "How does an attacker distinguish a target that is merely encumbered right now from one that has genuinely weakened for good?"
+status: active

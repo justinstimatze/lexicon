@@ -1,0 +1,19 @@
+id: lex-rj8xx
+name: the-severity-of-guilt-can-impair-the-capacity-to-fully-articulate-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "The magnitude of what someone has done wrong can itself interfere with their ability to express remorse or explanation completely — the attempt to speak breaks down mid-articulation, leaving only a fragment where a full statement was intended. In the Jataka's tale of the four cries, four hell-beings nearly reaching the surface of a torment-cauldron after eons try to cry out a complete verse of remorse each, but 'through the greatness of his sin, was unable to do it' — each manages only a single syllable ('du,' 'sa,' 'na,' 'so') before sinking back down, the full four-line stanzas they intended left permanently incomplete."
+related: []
+evokes: [jataka, catukkanipata, lohakumbhi-jataka, guilts-magnitude-chokes-off-its-own-full-expression, an-intended-complete-statement-collapses-into-a-fragment]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-lohakumbhi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 314, Lohakumbhi-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"The dweller in Hell, Sire, when he wanted to utter a complete stanza, through the greatness of his sin, was unable to do it. And when he thus experienced the result of his wrong-doing he cried aloud.\""
+canonical-instances:
+  - "Called to testify about the full extent of a decision that cost coworkers their jobs, an executive who rehearsed a complete statement of accountability gets through only a single broken sentence before stopping entirely, unable to continue past the opening admission."
+critical-questions:
+  - "Is this actually about guilt impairing speech, or is it a narrative device that lets the Bodhisatta demonstrate his own insight by supplying the missing verses — does the mechanism describe something psychologically real, or just serve the story's structure?"
+  - "Does the severity of the wrongdoing correlate with less articulate remorse in general, or could the opposite also be true — that greater guilt sometimes produces more elaborate, not less, self-justifying speech?"
+status: active

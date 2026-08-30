@@ -1,0 +1,19 @@
+id: lex-sad2x
+name: public-demonstration-outweighs-private-verification-for-credibility
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A demonstration witnessed collectively produces a stronger reputational effect than the same demonstration shown to one qualified judge privately, since a crowd''s shared witness can''t later be second-guessed the way one person''s private verdict can. In the Jataka''s tale of Suci, the smith insists on proving his needle in front of everyone rather than to the head-smith alone: "Is not a thing seen in the midst of all better than one seen by each singly?" — then backs the claim with an empirical test, driving the needle into an anvil so it balances unmoving on water.'
+related: []
+evokes: [jataka, chanipata, suci-jataka, public-demonstration-beats-private-verification, collective-witness-as-credibility]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-suci-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 387, Suci-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Is not a thing seen in the midst of all better than one seen by each singly?"
+canonical-instances:
+  - "A researcher insists on demonstrating a new result live at a packed conference talk rather than sending a private preprint to a handful of reviewers first, betting that collective public witness carries more weight than any individual expert's private sign-off."
+critical-questions:
+  - "Does public demonstration actually verify quality better than private expert review, or does it just trade rigor for the harder-to-dispute force of a shared memory?"
+  - "What happens if the public demonstration goes wrong in front of everyone — does the same collective-witness effect that builds credibility also amplify failure symmetrically?"
+status: active

@@ -1,0 +1,21 @@
+id: lex-9vway
+name: sacrificing-a-lesser-asset-on-purpose-protects-a-greater-one
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When protecting your most valuable objective requires giving something up, check whether a deliberate, real sacrifice of a lesser asset is available before defaulting to defending everything at once. The 36 Stratagems' 'Sacrifice the plum tree to preserve the peach tree' states the trade directly: 'There are circumstances in which you must sacrifice short-term objectives in order to gain the desired long-term goal. This is the scapegoat stratagem whereby someone else suffers the consequences so that the rest do not.' The sacrifice here is genuine and irreversible — not a decoy or a feint that costs nothing — which is what distinguishes it from misdirection: the plum tree is actually lost. The corrective use is to identify, before any pressure forces the choice, which asset is expendable relative to the goal, so the loss is chosen deliberately rather than taken wherever the pressure happens to land first."
+related: []
+evokes: [36-stratagems, sacrifice-the-plum-tree-to-preserve-the-peach-tree, deliberate-sacrifice, forlorn-hope, rearguard-action, scapegoat-stratagem]
+lineage:
+  - source: primary
+    text: taylor-2013-36-stratagems-11-sacrifice-the-plum-tree
+    citation: "Peter Taylor, The Thirty-Six Stratagems: A Modern-Day Interpretation of a Strategy Classic (Infinite Ideas, 2013), Stratagem 11, 'Sacrifice the plum tree to preserve the peach tree.' Verified verbatim against a direct pdftotext extraction of the held copy."
+    quote: "There are circumstances in which you must sacrifice short-term objectives in order to gain the desired long-term goal. This is the scapegoat stratagem whereby someone else suffers the consequences so that the rest do not."
+canonical-instances:
+  - "the military 'forlorn hope' / rearguard action: a small unit is deliberately committed to near-certain loss (holding a position, delaying a pursuit) specifically so the main body can withdraw or regroup intact — a genuine, irreversible loss whose whole value lies in what it buys the larger force."
+  - "operationally distinct from a sunk-cost fallacy: sunk cost is continuing to spend on something already lost because of what was already spent on it; this mechanism is proactively choosing to spend a lesser asset before any pressure forces the loss, specifically to protect something else not yet at risk."
+critical-questions:
+  - "Who decides which asset is 'lesser' — the sacrifice can look clean from the strategist's chair while the sacrificed party experiences it as a pure loss with no compensating gain of their own; does the mechanism require the sacrificed party's consent, or does it work (and get used) without it?"
+  - "How do you tell, before the fact, whether an asset is genuinely expendable relative to the larger goal, versus rationalizing a loss you were going to take anyway as if it were a deliberate strategic choice?"
+  - "Does repeated use of this move against the same class of asset (the same team, the same ally, the same market) eventually make that asset unwilling to be positioned as expendable again, raising the future cost of the same trade?"
+status: active

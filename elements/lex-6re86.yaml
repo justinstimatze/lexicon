@@ -1,0 +1,19 @@
+id: lex-6re86
+name: piling-up-impossible-conditions-refuses-without-saying-no-directly
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than refuse a request outright, a person can list a string of physically impossible events that would each have to occur first, making the refusal unambiguous while avoiding a blunt confrontational ''no''. What does the persuading here is the sheer accumulation of absurd conditionals, and no individual item on the list carries the weight alone. In the Jataka''s tale of Atthana, the ascetic refuses the courtesan''s plea to return this way: "Make Ganges calm like lotus-tank, cuckoos pearl-white to see, Make apples bear the palm-trees'' fruit: perchance it then might be."'
+related: []
+evokes: [jataka, atthanipata, atthana-jataka, adynaton, impossible-conditions-as-face-saving-refusal]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-atthana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 425, Atthana-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Make Ganges calm like lotus-tank, cuckoos pearl-white to see, Make apples bear the palm-trees' fruit: perchance it then might be."
+canonical-instances:
+  - "Asked by an old business partner whether they'll ever work together again after a bitter falling-out, someone answers not with a flat no but with a string of things that would have to happen first — the partner rebuilding trust they broke twice, the market for their old idea coming back from the dead — leaving the refusal unmistakable without ever saying the word."
+critical-questions:
+  - "Does refusing this way actually spare the other person's feelings, or does the elaborate performance of impossibility just make the rejection more memorable and more pointed than a direct no would have been?"
+  - "What happens if the refused party takes the impossible conditions literally and tries, in some sense, to meet them — does the form of the refusal leave that door open even when it isn't meant to?"
+status: active

@@ -1,0 +1,22 @@
+id: lex-5n724
+name: cross-species-comparison-denaturalizes-a-sex-assigned-decorative-trait
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: "A decorative trait can be assumed within one's own culture to naturally and inherently belong to one sex -- long hair as intrinsically feminine, say -- simply because that is the local convention. A quick look across other species undoes the assumption: the same kind of trait, a mane or a crest, turns up assigned to the opposite sex in one species and to both sexes equally in another, revealing that the trait-to-sex pairing people treat as a fact about nature is actually just one culture's arbitrary convention. Gilman's narrator works through this directly, having noticed the short hair of Herland's women: 'Why we should so admire \"a woman's crown of hair\" and not admire a Chinaman's queue is hard to explain, except that we are so convinced that the long hair \"belongs\" to a woman. Whereas the \"mane\" in horses is on both, and in lions, buffalos, and such creatures only on the male.'"
+related: []
+evokes: [herland, chapter-3, a-womans-crown-of-hair, the-mane-in-horses-is-on-both, a-cross-species-glance-undoes-a-natural-law-claim]
+lineage:
+  - source: primary
+    text: gilman-1915-herland-chapter-3
+    citation: "Charlotte Perkins Gilman, Herland (1915), Chapter 3, 'A Peculiar Imprisonment.' Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "I rather liked it myself, after I got used to it. Why we should so admire \"a woman's crown of hair\" and not admire a Chinaman's queue is hard to explain, except that we are so convinced that the long hair \"belongs\" to a woman. Whereas the \"mane\" in horses is on both, and in lions, buffalos, and such creatures only on the male. But I did miss it--at first."
+canonical-instances:
+  - "A culture assumes bright plumage and elaborate courtship display are naturally a masculine trait, taking its cue from local convention around men's formal dress. Someone points out that among most bird species the display feathers belong to the male, who uses them to attract a comparatively plain female -- the reverse of what felt self-evidently natural."
+  - "A workplace assumes visible, showy competitiveness is naturally masculine and quiet cooperation naturally feminine, until someone points out that among social primates the pattern varies by species -- in some, females are the more overtly competitive and status-seeking sex -- undercutting the claim that either behavior maps onto sex by nature rather than by local custom."
+  - "A society assumes elaborate, colorful clothing is naturally a woman's domain and drab, uniform dress a man's, until someone points out that in many bird and reptile species it is the male who carries the vivid coloring while the female stays camouflaged, the reverse of the assumed pairing."
+critical-questions:
+  - "Does finding one counter-example species genuinely undo the claim that a trait-sex pairing is natural, or does it only show that nature doesn't enforce a single universal rule -- leaving open that the pairing could still be the typical or default one within humans specifically?"
+  - "Is the comparison actually apt across such different species -- humans, horses, lions -- given that the evolutionary function of a mane or long hair might differ entirely by species, making the cross-species comparison more rhetorically striking than logically rigorous?"
+  - "Once a trait-sex pairing is shown to be a convention rather than a law of nature, does that alone give any reason to change the convention, or is 'it's not natural law' compatible with 'we should keep doing it anyway, because we like it or find it useful'?"
+status: active

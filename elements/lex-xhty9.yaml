@@ -1,0 +1,24 @@
+id: lex-xhty9
+name: a-known-false-excuse-both-sides-sustain-on-purpose
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When a decision has to be reversed or a commitment broken for reasons neither party wants stated directly, an obviously false but face-saving excuse gets offered and accepted by both sides even though neither believes it — 'institutionalized falsehoods' like 'the loom broke' or 'the delivery didn't come in' substitute for the actual reason. This isn't successful deception; both parties know the excuse is false and the relationship continuing is what actually matters more than the truth of the stated reason. The diagnostic question isn't 'was this a lie' but 'did both parties know it was a lie and choose to sustain it anyway' — a shared fiction preserved by mutual agreement is a different mechanism from one party successfully fooling the other."
+related: []
+evokes: [jackall-moral-mazes, "the standard business reasons for not doing what you said you'd do", institutionalized-falsehoods]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch4-green-story-known-false-excuse
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 4, Looking Up and Looking Around."
+    quote: "when the customer was told that an unfortunate mistake had been made, Green's overeagerness and inexperience were cited as the reasons. Certainly, no one at the film company believed such a story, but this is not the point."
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch5-institutionalized-falsehoods
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 5, Drawing Lines — textile-industry vocabulary."
+    quote: "the standard business reasons for not doing what you said you'd do [...] We lie all the time, but if everyone knows that we're lying, is a lie really a lie?"
+canonical-instances:
+  - "A vendor tells a client a shipment is delayed due to 'unforeseen logistics issues' when both sides privately know the vendor simply deprioritized the order — the excuse is accepted without challenge because contesting it would cost the relationship more than the delay itself did."
+critical-questions:
+  - "If everyone genuinely knows the stated reason is false, what work is the excuse actually doing — is it purely a face-saving ritual, or does stating some reason, any reason, carry a real procedural function (closing the matter, creating a record) that silence wouldn't?"
+status: active

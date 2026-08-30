@@ -1,0 +1,22 @@
+id: lex-6gwab
+name: excess-is-drive-intensity-exceeding-functional-need
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "A drive's intensity can be judged excessive or normal by comparing it to what its underlying function actually requires, not by any absolute threshold. A healthy drive stays proportioned to genuine need; it turns excessive once it demands far more than the underlying function could ever use. Gilman uses hunger as the calibration case before applying the same diagnostic to sex-attraction: 'In a normal condition the amount of hunger we feel is exactly proportioned to the amount of food we need. It tells us when to eat and when to stop. In some diseased conditions \"an unnatural appetite\" sets in; and we are impelled to eat far beyond the capacity of the stomach to digest, of the body to assimilate. This is an excessive hunger.'"
+related: []
+evokes: [women-and-economics, chapter-ii, the-amount-of-hunger-we-feel-is-exactly-proportioned, an-unnatural-appetite-sets-in, excess-defined-by-function-not-magnitude]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-ii
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter II. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "In a normal condition the amount of hunger we feel is exactly proportioned to the amount of food we need. It tells us when to eat and when to stop. In some diseased conditions 'an unnatural appetite' sets in; and we are impelled to eat far beyond the capacity of the stomach to digest, of the body to assimilate. This is an excessive hunger."
+canonical-instances:
+  - "A financial advisor distinguishes healthy ambition from compulsive wealth-accumulation by whether a client's desire for more money still tracks any genuine use for it. A dollar amount alone tells the advisor nothing."
+  - "A doctor evaluating a patient's anxiety asks whether the intensity of that worry is proportioned to the actual risk involved. Whether the patient feels worried at all barely matters. The anxiety reads as disordered specifically when the felt alarm has detached from any real threat."
+  - "A product manager evaluating a team's request for more monitoring tools doesn't ask whether monitoring is useful in principle, but whether the requested amount corresponds to any real operational need, treating a request that's grown past what any incident could justify as excessive by that same functional test."
+critical-questions:
+  - "How would you ever measure what the function actually requires with any precision -- the amount of food a body needs varies by person, activity, and circumstance, and the same variability likely applies to whatever function sex-attraction or any other drive is supposed to serve, making the diagnostic harder to apply than the hunger analogy suggests."
+  - "Does treating any drive whose intensity has decoupled from its function as pathological risk medicalizing desires that serve purposes beyond their most literal, original function -- pleasure, bonding, or meaning that were never reducible to the drive's minimal survival requirement in the first place."
+  - "The hunger analogy assumes a single, stable genuine need against which excess can be measured, but needs themselves can shift with circumstance -- how does the diagnostic distinguish a drive that's genuinely excessive from one that's responding, correctly, to a need that has itself changed."
+status: active

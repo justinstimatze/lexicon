@@ -1,0 +1,26 @@
+id: lex-2cfc3
+name: removing-the-driver-does-not-stop-a-system-already-in-motion
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: "When you stop actively driving a system that has been absorbing energy or force, do not assume the system stops changing at that instant — momentum already imparted continues converting until it dissipates or is actively arrested. Aim the stopping point below or before the literal target to leave room for the coming overshoot, or actively force-quench what's already in motion (rapid cooling, a hard interrupt) instead of just withdrawing the driver and hoping the system settles where you want."
+related: [lex-j5k33, lex-mr4nb]
+evokes: [carryover-cooking, americas-test-kitchen, guy-crosby, coasting-past-the-stop-sign, momentum-you-cant-just-switch-off, residual-heat-keeps-going]
+lineage:
+  - source: primary
+    text: americas-test-kitchen-crosby-2012-science-of-good-cooking
+    citation: "The Editors at America's Test Kitchen and Guy Crosby, The Science of Good Cooking: Master 50 Simple Concepts to Enjoy a Lifetime of Success in the Kitchen (America's Test Kitchen, 2012), Concept 4, 'Hot Food Keeps Cooking,' p. 162."
+    quote: "But what many cooks don't understand is that because of how heat is transferred, food can continue to cook even after it has been removed from the heat source. This effect is called carryover cooking and is an important factor in determining when meat is ready to come out of the oven or off the grill."
+  - source: primary
+    text: americas-test-kitchen-crosby-2012-science-of-good-cooking
+    citation: "The Editors at America's Test Kitchen and Guy Crosby, The Science of Good Cooking (America's Test Kitchen, 2012), Concept 24, 'Green Vegetables Like It Hot—Then Cold,' p. 897."
+    quote: "But as we learned in concept 4, cooking doesn't always stop when the food leaves the pot (or oven, or pan). According to the principles of carryover cooking, unless cooked vegetables receive an ice-water bath immediately after exiting the pot of boiling water, they will continue to cook."
+canonical-instances:
+  - "In a test kitchen comparison, a pork loin cooked to 140 degrees and sliced immediately looked underdone, while a matched loin left to rest 15 minutes climbed to 150 degrees on its own — 'those 10 degrees made a big difference.' A third loin cooked to 150 and rested the same 15 minutes climbed further, to 160, and came out gray rather than pink. The oven was switched off at the same reading each time; where the meat actually ended up depended on whether the rest of the process afterward was accounted for."
+  - "Two batches of the same broccoli were both blanched for four minutes in boiling water. One was immediately shocked in ice water; the other was left to sit in a bowl. The unshocked batch 'grew mushy and olive drab' from continued cooking by its own residual heat, while the shocked batch stayed 'firmer in texture and had a brighter green color' — pulling the broccoli out of the boiling water didn't stop the transformation; only an active heat sink did."
+critical-questions:
+  - "How much residual change should be anticipated here — is the overshoot proportional to the size or mass of whatever absorbed the driving force, meaning small or thin systems need far less compensation than large ones?"
+  - "Is withdrawing the driver actually sufficient in this case, or does the residual need to be actively arrested (an ice bath, a hard stop) because it won't dissipate fast enough on its own before it causes the damage you're trying to avoid?"
+  - "Once the system reaches its true final state, is that endpoint the one actually intended, or was the target set by watching the state only at the moment the driver was removed, before the residual had finished playing out?"
+status: active
+severity-tier: info

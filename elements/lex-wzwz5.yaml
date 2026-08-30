@@ -1,0 +1,19 @@
+id: lex-wzwz5
+name: an-unintended-retreat-is-misread-by-a-pursuer-as-a-costly-signal
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "An action taken for reasons that have nothing to do with strategy can still be read by an adversary as a deliberate, costly signal, and that misreading can produce a better outcome than any actual strategy would have. In the Jataka's tale of Sakka's retreat, the god turns his chariot around mid-flight from battle purely to avoid destroying a tree full of nestlings — an ethical reflex, not a tactic. The pursuing Asuras, unable to explain a fleeing chariot suddenly reversing course except as evidence that reinforcements must be arriving, panic and retreat themselves. The signal worked precisely because it was never designed as one; a deliberately staged reversal might have been probed or called, but a genuinely inexplicable one left the pursuers no way to distinguish real backup from a maneuver."
+related: []
+evokes: [jataka, ekanipata, kulavaka-jataka, unintended-act-misread-as-costly-signal, non-strategic-behavior-produces-strategic-effect]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kulavaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 31, Kulavaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "the moment the Asuras saw him begin to turn his chariot round, they cried out that the Sakkas of other worlds were surely coming up; 'it must be his reinforcements which make him turn his chariot back again.'"
+canonical-instances:
+  - "A negotiator abruptly leaves a meeting early because of an unrelated family emergency, and the other side, unable to explain the sudden exit any other way, assumes it signals a walkaway threat and returns the next day with a substantially improved offer."
+critical-questions:
+  - "Does this effect survive the adversary later learning the true, non-strategic cause of the retreat, or does the advantage exist only for as long as the misreading stays uncorrected?"
+  - "Is there a way to deliberately manufacture this kind of ambiguity on purpose, or does the mechanism only work when the retreat is genuinely unplanned and therefore genuinely unreadable as a bluff?"
+status: active

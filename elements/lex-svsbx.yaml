@@ -1,0 +1,25 @@
+id: lex-svsbx
+name: imperious-immediacy-of-interest-boomerangs-on-its-own-pursuit
+type-in: process
+type-out: state
+_tier: atomic
+agent-instruction: "When an actor pursues a narrow, immediate interest while treating everything outside that interest's frame as none of their proper concern — the chemist who says it isn't their business whether an explosive is used to build tunnels or blow up cathedrals — check whether the disregarded consequences are actually externalities-in-name-only: effects that ramify back and threaten the very activity the narrow focus was protecting. Merton's diagnosis is that this behavior is locally rational (it's the most direct route to the immediate goal) but globally irrational, because it defeats other values that were never suspended just because they weren't the actor's current focus. The mechanism isn't bad luck or an unrelated side-effect — it's that ignoring consequences outside a chosen frame doesn't make them go away, it just delays and often concentrates the backlash. Diagnostic move: before adopting a 'not my department' stance toward a pursuit's downstream effects, ask whether the persons or institutions who will bear those effects have any independent reason to leave your activity alone once they do land — if not, the disregard itself is what manufactures the opposition that eventually constrains the pursuit."
+related: [lex-pazxc, lex-nr3kg]
+scaffolds-from: [lex-nr3kg]
+evokes: [merton-1957, imperious-immediacy-of-interest, unanticipated-consequences-of-purposive-social-action, chemist-and-the-explosive, pure-science-prepares-its-own-epitaph]
+lineage:
+  - source: primary
+    text: merton-1957-imperious-immediacy-of-interest
+    citation: "Robert K. Merton, Social Theory and Social Structure, Revised and Enlarged Edition (Glencoe, IL: Free Press, 1957), Ch. XV 'Science and the Social Order' [orig. 1938], p.544. Verified verbatim against a University of Iowa library scan via Internet Archive OCR text (item 31858016281432)."
+    quote: "'In short, this basis for the re-valuation of science derives from what I have called elsewhere the \"imperious immediacy of interest.\" Concern with the primary goal, the furtherance of knowledge, is coupled with a disregard of those consequences which lie outside the area of immediate interest, but these social results react so as to interfere with the original pursuits.'"
+  - source: primary
+    text: merton-1957-chemist-and-the-explosive
+    citation: "Robert K. Merton, Social Theory and Social Structure (1957), same chapter, p.543-544, quoting George A. Lundberg, Trends in American Sociology (New York: Harper, 1929), 404-5."
+    quote: "'It is not the business of a chemist who invents a high explosive to be influenced in his task by considerations as to whether his product will be used to blow up cathedrals or to build tunnels through the mountains.'"
+canonical-instances:
+  - "A social platform's engagement-optimization team treats what keeps people scrolling as the only relevant metric, disclaiming responsibility for downstream effects on attention, mental health, or democratic discourse as 'not our department' — until the accumulated backlash produces the regulation, ad-boycotts, or user exodus that constrains the platform's ability to pursue engagement at all."
+  - "A firm's R&D division pursues the most publishable or patentable result with no regard for whether the finding will be weaponizable or environmentally destructive, on the theory that application is someone else's problem — until public revulsion at an application curtails funding or licenses for the entire research program, including the parts that were never the source of the harm."
+critical-questions:
+  - "Merton frames this as 'rational' in the narrow sense and 'irrational' in the broader sense — is that just relabeling a tradeoff as a contradiction? An actor might correctly judge that pursuing the immediate interest is worth the eventual backlash cost. When does the disregard genuinely count as an error versus a deliberate, informed bet that the boomerang will be smaller than the immediate gain?"
+  - "How large does an activity's externality need to be, and how identifiable must its source be, before 'imperious immediacy of interest' becomes the operative explanation rather than ordinary unintended side-effects (lex-pazxc) with no reactive boomerang at all? Is there a way to tell in advance which narrow pursuits are exposed to this dynamic and which aren't?"
+status: active

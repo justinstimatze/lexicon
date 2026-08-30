@@ -1,0 +1,21 @@
+id: lex-5uxap
+name: verified-harm-avoidance-backs-new-money-instead-of-debt
+type-in: situation
+type-out: state
+_tier: atomic
+agent-instruction: "When designing an incentive for a behavior with no existing market price — like carbon sequestration — consider having the issuing authority mint new currency directly against verified instances of that behavior, rather than funding a subsidy out of an existing budget or a taxed pool. This is a fictional proposal, narrated as a character's pitch in a novel and never enacted or empirically tested — cite it as a thought experiment in mechanism design, not a validated policy. Robinson's Ministry for the Future has central banks issue a 'carbon coin' per ton of certified sequestration, its floor value guaranteed the way a bond's is. The mechanism converts an externality into a first-class monetary asset whose supply scales with the good behavior itself, decoupled from a fixed appropriations pool that has to be re-fought every budget cycle."
+related: []
+evokes: [kim-stanley-robinson, ministry-for-the-future, carbon-coin, quantitative-easing, incentive-design, climate-finance]
+lineage:
+  - source: primary
+    text: robinson-2020-ministry-for-the-future-carbon-coin
+    citation: "Kim Stanley Robinson, The Ministry for the Future (Orbit, 2020). Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "For every ton of carbon not burned, or sequestered in a way that would be certified to be real for an agreed-upon time, one century being typical in these discussions so far, you are given one carbon coin. You can trade that coin immediately for any other currency on the currency exchanges, so one carbon coin would be worth a certain amount of other fiat currencies. The central banks would guarantee it at a certain minimum price, they would support a floor so it couldn't crash."
+canonical-instances:
+  - "The same scene supplies the money-creation half of the mechanism, distinguishing it from an ordinary subsidy: 'since this is a case of central banks issuing new money, as in quantitative easing, investors will believe in it because it's backed by long-term bonds. And this money could be created and given to people only for doing good things.' A subsidy redistributes existing money; this proposal creates new money whose supply is tied to the verified behavior."
+  - "The novel frames the design choice as solving a specific prior failure named earlier in the same discussion — 'the tragedy of the time horizon,' where the people who'd bear future climate costs have no way to bid against present actors in today's markets, since they don't exist yet to place a bid."
+critical-questions:
+  - "What stops the certification step (verifying that a claimed ton of sequestration is real and durable for the agreed timeframe) from becoming the weak link that a subsidy's simpler paper trail wouldn't have?"
+  - "Does minting new money against a real-world verified action risk the same inflationary dynamics as any other unconstrained money creation, or does tying issuance strictly to certified sequestration actually cap the risk the way the novel's characters claim?"
+  - "The novel never depicts this mechanism actually running at scale — what would the first real-world pilot need to demonstrate before treating this as more than an elegant thought experiment?"
+status: active

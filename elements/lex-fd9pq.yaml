@@ -1,0 +1,21 @@
+id: lex-fd9pq
+name: provoking-false-starts-depletes-morale-before-real-contact
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When you can choose the timing of engagement and your opponent cannot, check whether letting them expend effort on futile preliminary attempts costs them more than it costs you to wait. The 36 Stratagems' 'Wait at leisure while the enemy labours' states the asymmetry directly: 'Encourage your enemy to expend his energy in futile quests while you conserve your strength. When he is exhausted and confused, you attack with energy and purpose.' The general Cao Suei's own explanation of why he waited through two enemy drum-rolls before advancing on the third names the specific decay curve: 'After the third drumming the morale of the enemy was not as high as the first time. Instead the morale of our soldiers was just at its peak because we were beating our drums for the first time.' This goes beyond generic patience: morale and aggression decay specifically with repeated unconsummated effort by whoever moves first, while the side that never engages holds its own morale at its initial peak for the moment that actually matters. A war of attrition bleeds both sides; here only the side that keeps trying and failing spends anything at all."
+related: []
+evokes: [36-stratagems, wait-at-leisure-while-the-enemy-labours, morale-decay, provoked-exhaustion, choosing-the-moment-of-contact]
+lineage:
+  - source: primary
+    text: taylor-2013-36-stratagems-4-wait-at-leisure
+    citation: "Peter Taylor, The Thirty-Six Stratagems: A Modern-Day Interpretation of a Strategy Classic (Infinite Ideas, 2013), Stratagem 4, 'Wait at leisure while the enemy labours,' including the general Cao Suei's own account of the Battle of Changshao (684 BCE). Verified verbatim against a direct pdftotext extraction of the held copy."
+    quote: "Encourage your enemy to expend his energy in futile quests while you conserve your strength. When he is exhausted and confused, you attack with energy and purpose."
+canonical-instances:
+  - "Muhammad Ali's 'rope-a-dope' against George Foreman (1974): Ali absorbed punches against the ropes for rounds while Foreman threw himself into an exhausting volume of unlanded power shots; by the eighth round Foreman's morale and stamina were spent on effort that had cost Ali comparatively little, and Ali knocked him out."
+  - "distinct from a straightforward war of attrition, where both sides bleed resources over time: here the waiting side spends nothing and holds its initial morale intact, while the acting side alone pays for its own unconsummated attempts, so the asymmetry itself is what does the work."
+critical-questions:
+  - "How does the waiting side know when the opponent's morale has actually peaked and begun to decay, rather than simply guessing and either striking too early (before real exhaustion) or too late (after the opponent has adapted)?"
+  - "Does this require the waiting side to be materially safe from cost while the other side labors — what happens to the mechanism if delay itself carries its own decay cost (public pressure, resource drain, a ticking clock) for the side that waits?"
+  - "Cao Suei's account is his own retrospective explanation of a battle he won — does a victor's tidy account of enemy morale decay risk being an after-the-fact story imposed on a messier or partly-lucky outcome?"
+status: active

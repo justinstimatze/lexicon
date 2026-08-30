@@ -1,0 +1,22 @@
+id: lex-bgjaj
+name: pravic-recasts-ownership-as-active-use-not-static-having
+type-in: process
+type-out: frame
+_tier: atomic
+agent-instruction: "When a constructed or reformed language is designed to weaken a concept, check whether it works by deleting vocabulary or by something subtler: swapping a stative grammatical construction for a process one. Le Guin's Pravic doesn't lack a word for 'mine' — the singular possessive exists, it is just marked and rare, and ordinary idiom routes around it. The everyday phrasing recasts having as doing: not 'this is mine' but 'I use this one.' The effect is that every possession sounds provisional and tied to current activity rather than permanent and tied to identity. Look for this same swap wherever you want to soften a category people treat as a fixed state — reframe it as an ongoing action instead, and the fixedness goes with it even though nothing was struck from the dictionary."
+related: [lex-uhc3j, lex-382xa]
+evokes: [le-guin, the-dispossessed, pravic, anarres, possession-as-process, linguistic-relativity]
+lineage:
+  - source: primary
+    text: le-guin-1974-the-dispossessed-pravic-possessives
+    citation: "Ursula K. Le Guin, The Dispossessed: An Ambiguous Utopia (Harper & Row, 1974). Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "The singular forms of the possessive pronoun in Pravic were used mostly for emphasis; idiom avoided them. Little children might say “my mother,” but very soon they learned to say “the mother.” Instead of “my hand hurts,” it was “the hand hurts me,” and so on; to say “this one is mine and that’s yours” in Pravic, one said, “I use this one and you use that.”"
+canonical-instances:
+  - "The passage's own example ladder: a child's early 'my mother' gives way to 'the mother'; 'my hand hurts' gives way to 'the hand hurts me'; a dispute over 'mine' versus 'yours' resolves into 'I use this one and you use that' — three separate grammatical slots (kinship, the body, external objects) all routed through the same use-not-have substitution."
+  - "operationally distinct from lex-uhc3j (Heine's cross-linguistic typology of inalienable versus alienable possession, a descriptive fact about how natural languages already carve up possession by noun class): Pravic's move is a single fictional language's deliberate ideological departure from an ordinary stative-possessive default, not a naturally-occurring cross-linguistic pattern."
+  - "operationally distinct from lex-382xa (Newspeak's erasure of vocabulary like 'liberty' so a concept becomes unsayable): nothing is deleted from Pravic. The possessive pronoun still exists and can still be used for emphasis. The weakening works entirely through which construction ordinary idiom prefers, not through removing a word from reach."
+critical-questions:
+  - "Does a grammatical nudge like this actually change how speakers reason about ownership, or does it stay a surface habit that speakers route around whenever the stakes are real (the text itself flags that the singular form survives 'for emphasis')?"
+  - "Would the same use-not-have substitution work to soften a concept that isn't already backed by a whole society's economic structure, or does Pravic's grammar merely track an anarchist economy that has independently abolished private property?"
+  - "Is a stative-to-process swap a general-purpose technique for weakening any noun-based category, or does it depend on the target concept having a plausible action-verb paraphrase in the first place?"
+status: active

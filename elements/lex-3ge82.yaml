@@ -1,0 +1,19 @@
+id: lex-3ge82
+name: asserting-prior-knowledge-forces-a-suspects-confession
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Rather than ask an open question that leaves room for a cover story, confronting a suspect with an assertion that the crime is already known exploits their uncertainty about how much has actually been discovered, breaking down the resistance an open question would have left standing. In the Jataka's tale of Mayhaka, the elder doesn't ask what happened; he states it as already known: \"'Dead, my lord.' 'In what way?' 'At a bathing place: but I do not know the exact way.' 'Not know, thou wicked man! your deed was known to me: did you not kill him in that way?'\""
+related: []
+evokes: [jataka, chanipata, mayhaka-jataka, asserting-prior-knowledge-forces-confession, exploiting-uncertainty-about-what-is-known]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mayhaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 390, Mayhaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Dead, my lord.\" \"In what way?\" \"At a bathing place: but I do not know the exact way.\" \"Not know, thou wicked man! your deed was known to me: did you not kill him in that way?"
+canonical-instances:
+  - "An investigator tells a suspect 'we already have the security footage from that hallway' before actually reviewing it, and the suspect, unsure how much is really known, gives up details that confirm what was only a guess."
+critical-questions:
+  - "Is this technique's effectiveness contingent on the suspect actually being guilty and uncertain, and does it risk producing false confirmations from an innocent person who simply doesn't know what to say?"
+  - "Does asserting knowledge one doesn't actually have cross an ethical line that a genuinely evidence-based confrontation wouldn't, even if both produce the same confession?"
+status: active

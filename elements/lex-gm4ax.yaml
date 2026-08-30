@@ -1,0 +1,24 @@
+id: lex-gm4ax
+name: a-process-of-dying-yields-five-named-stages
+type-in: process
+type-out: typology
+_tier: atomic
+agent-instruction: "When someone is moving through a major loss (terminal diagnosis, bereavement, a life rupture), don't expect linear progress toward calm. Expect denial, anger, bargaining, depression, and acceptance to surface out of order and sometimes together. Name which stage is operating before responding to it, and don't mistake acceptance for happiness — it reads closer to the absence of struggle than to relief."
+related: [lex-663sq]
+evokes: [dabda, stages-of-grief, denial-anger-bargaining-depression-acceptance, kubler-ross-model]
+lineage:
+  - source: primary
+    text: kubler-ross-1969-on-death-and-dying
+    citation: "Elisabeth Kübler-Ross, On Death and Dying (Macmillan, 1969), Chs.III-VII. Based on over two hundred interviews with terminally ill patients, the book proposes that dying (and, by later extension, any major loss) moves through five identifiable psychological stages: denial, anger, bargaining, depression, and acceptance. The chapters are explicitly sequential — each stage is framed as a defense that, given enough time and support, gets mobilized into the next rather than resolved outright, with acceptance as the terminal state rather than a goal that erases the earlier stages."
+    quote: "[Ch.III, on the first stage's opening line and function:] 'Among the over two hundred dying patients we have interviewed, most reacted to the awareness of a terminal illness at first with the statement, \"No, not me, it cannot be true.\" ... Denial functions as a buffer after unexpected shocking news, allows the patient to collect himself and, with time, mobilize other, less radical defenses.' [Ch.VII, on the transition into the final stage:] 'If a patient has had enough time (i.e., not a sudden, unexpected death) and has been given some help in working through the previously described stages, he will reach a stage during which he is neither depressed nor angry about his \"fate.\"' [On what that final stage actually is:] 'Acceptance should not be mistaken for a happy stage. It is almost void of feelings. It is as if the pain had gone, the struggle is over, and there comes a time for \"the final rest before the long journey\" as one patient phrased it.'"
+canonical-instances:
+  - "a newly-diagnosed patient who insists the lab mixed up the results, seeks a second, third, and fourth opinion hoping for a different answer — classic denial — Kübler-Ross's own point is that it's a healthy buffer, and arguing the patient out of it does more harm than the denial itself"
+  - "a bereaved parent negotiating with a god they don't otherwise believe in — 'if I do everything right from now on' — bargaining surfacing in someone angry the week before and depressed the week after, doing its own separate work rather than resolving either"
+  - "a hospice patient who stops wanting visitors, prefers silence to conversation, and communicates through a hand-squeeze rather than words — acceptance read correctly as withdrawal-without-despair rather than as a sign something is wrong"
+  - "operationally adjacent to lex-663sq group-development-sequence-forming-storming-norming-performing: both name a fixed-order sequence of named psychological stages that a process moves through. Tuckman's sequence is about a group converging on effective collaboration; Kübler-Ross's is about an individual metabolizing an unavoidable loss — different domains, same underlying claim that a process this significant doesn't resolve in one move, it has a shape with named phases"
+critical-questions:
+  - "which stage is actually operating right now, and am I responding to that stage or to the stage I expected to see at this point in the timeline? The stages don't run on a fixed clock and can recur or coexist"
+  - "am I treating acceptance as the goal to rush someone toward, or as a state that can only be reached by moving through the earlier stages, not around them? Pushing for premature acceptance is itself a way of failing to sit with the stage that's actually present"
+  - "is this a genuine stage-transition, or has the person gotten stuck in one stage indefinitely? If stuck, look for what's holding it there: the stage may still be doing real defensive work, or something separate — unaddressed pain, lack of support — may be blocking the move forward"
+severity-tier: info
+status: active

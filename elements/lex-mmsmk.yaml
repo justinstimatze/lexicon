@@ -1,0 +1,19 @@
+id: lex-mmsmk
+name: guilt-surfaces-as-an-involuntary-verbal-tell-a-silent-witness-registers
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A perpetrator who believes himself undetected can be repeatedly triggered by an incidental environmental cue into voicing an oblique, poeticized reference to the crime; a silent observer presumed incapacitated can register and retain this recurring self-incrimination over time. In the Jataka''s tale of Parantapa, the murderer''s recurring, half-veiled admission is exactly this kind of tell: "Terror and fear fall on me even now, For then a man or beast did shake a bough."'
+related: []
+evokes: [jataka, sattanipata, parantapa-jataka, guilty-conscience-betrays-itself, involuntary-verbal-tell]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-parantapa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 416, Parantapa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Terror and fear fall on me even now, For then a man or beast did shake a bough."
+canonical-instances:
+  - "Every time a rustling sound startles the office, the one manager who quietly buried a safety report flinches and mutters the same half-joking line about 'things coming back to bite you,' a tell a junior colleague has been quietly noting for months."
+critical-questions:
+  - "Does a recurring verbal tell like this actually constitute reliable evidence of guilt, or could the same incidental trigger produce an equally superstitious reaction in someone entirely innocent?"
+  - "Why does the guilty party keep voicing the tell aloud rather than suppressing it, given how much they have to lose if it's ever recognized for what it is?"
+status: active

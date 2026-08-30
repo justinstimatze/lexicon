@@ -1,0 +1,18 @@
+id: lex-e8gma
+name: refusing-to-risk-entrusted-resources-is-judged-worse-than-modest-success
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When resources are entrusted to several people for productive use, the one who buries the resource out of fear rather than risking it is judged more harshly than the ones who achieved only modest gains — the servant who doubled five talents and the one who doubled two are both praised identically, while the one who preserved the single talent perfectly, without loss, is condemned for exactly that caution. The failure being judged isn't a shortfall in the final number; it's the decision not to risk the resource at all."
+related: []
+evokes: [kjv, the-parable-of-the-talents, buried-his-lords-money, well-done-good-and-faithful-servant, occupy-till-i-come]
+lineage:
+  - source: primary
+    text: kjv-1611-matthew-25-the-talents
+    citation: "The Holy Bible, King James Version (1611; this edition Project Gutenberg #10), Matthew 25:24-27. Verified verbatim against a direct extraction of the held copy."
+    quote: "Then he which had received the one talent came and said, Lord, I knew thee that thou art an hard man, reaping where thou hast not sown, and gathering where thou hast not strawed: And I was afraid, and went and hid thy talent in the earth: lo, there thou hast that is thine. His lord answered and said unto him, Thou wicked and slothful servant, thou knewest that I reap where I sowed not, and gather where I have not strawed: Thou oughtest therefore to have put my money to the exchangers, and then at my coming I should have received mine own with usury."
+canonical-instances:
+  - "A portfolio manager who parks an entire allocation in cash out of fear of a downturn is judged worse at review time than a colleague who took real risk and only broke even — the cash position lost nothing on paper, but it's the refusal to engage the mandate at all that draws the harsher verdict."
+critical-questions:
+  - "Was the caution here actually unreasonable given what was known at the time, or is a bad outcome from risk-taking being excused in hindsight while a reasonable risk-aversion gets penalized purely because it produced a flat result?"
+status: active

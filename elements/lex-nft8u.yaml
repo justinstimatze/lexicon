@@ -1,0 +1,18 @@
+id: lex-nft8u
+name: receiving-disproportionate-mercy-doesnt-transfer-to-granting-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Being forgiven a massive debt doesn't reliably make a person forgiving toward the much smaller debts owed to them — a servant forgiven ten thousand talents immediately has a fellow servant imprisoned over a hundred pence. When this happens, the judgment that follows isn't about the second debt's size at all; it's specifically about the inconsistency between the mercy received and the mercy withheld, measured against each other rather than against any absolute standard."
+related: []
+evokes: [kjv, the-unforgiving-servant, forgiven-ten-thousand-talents, took-him-by-the-throat, forgiven-much-forgives-little]
+lineage:
+  - source: primary
+    text: kjv-1611-matthew-18-the-unmerciful-servant
+    citation: "The Holy Bible, King James Version (1611; this edition Project Gutenberg #10), Matthew 18:27-33. Verified verbatim against a direct extraction of the held copy."
+    quote: "Then the lord of that servant was moved with compassion, and loosed him, and forgave him the debt. But the same servant went out, and found one of his fellowservants, which owed him an hundred pence: and he laid hands on him, and took him by the throat, saying, Pay me that thou owest. [...] Then his lord, after that he had called him, said unto him, O thou wicked servant, I forgave thee all that debt, because thou desiredst me: Shouldest not thou also have had compassion on thy fellowservant, even as I had pity on thee?"
+canonical-instances:
+  - "A manager whose own missed deadline was quietly absorbed by their boss without consequence turns around and formally writes up a direct report for a smaller delay the very same week — the write-up isn't wrong on its own terms, but the manager's own recent debt makes the inconsistency the actual story."
+critical-questions:
+  - "Is the disproportion here real and measurable, or is this pattern being invoked to guilt someone out of a legitimate boundary they're entitled to hold regardless of what mercy they've personally received?"
+status: active

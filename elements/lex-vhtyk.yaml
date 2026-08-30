@@ -1,0 +1,19 @@
+id: lex-vhtyk
+name: one-betrayal-for-your-benefit-predicts-a-future-betrayal-against-you
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Having just benefited from a partner's betrayal of a prior ally, the beneficiary can reason that the same disposition that produced betrayal-for-their-sake will eventually produce betrayal-against-them — treating one observed act of disloyalty as diagnostic of a stable trait rather than as a one-off, situational event favoring them specifically. In the Jataka's tale of Culladhanuggaha, a robber chief reasons from what his new accomplice just did to her former partner: 'this woman now has killed her lawful husband. As soon as she sees some other man, she will treat me too after the same sort. I must get rid of her.'"
+related: []
+evokes: [jataka, pancanipata, culladhanuggaha-jataka, one-instance-of-betrayal-predicts-a-future-one, disposition-inferred-from-a-single-observed-act]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-culladhanuggaha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 374, Culladhanuggaha-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Thought the robber chief, \"This woman now has killed her lawful husband. As soon as she sees some other man, she will treat me too after the same sort. I must get rid of her.\""
+canonical-instances:
+  - "A new business partner who just helped a colleague defraud their previous partner reads that willingness to defraud a trusted associate as a stable trait rather than a one-time favor, and quietly moves to cut the colleague out before becoming the next target of the same move."
+critical-questions:
+  - "Is a single observed act of betrayal actually a reliable predictor of future behavior toward a new party, or does the inference wrongly generalize a situation-specific choice into a fixed character trait?"
+  - "Does the beneficiary's own complicity in soliciting the first betrayal undermine the moral standing of the inference — is it consistent to profit from someone's disloyalty and then punish them preemptively for having exactly the disposition that made them useful?"
+status: active

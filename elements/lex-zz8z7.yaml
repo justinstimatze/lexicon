@@ -1,0 +1,18 @@
+id: lex-zz8z7
+name: a-defender-must-be-neutralized-before-their-holdings-can-be-taken
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: "Taking possession of something actively guarded requires disabling the guardian first, in that order — no one can enter a strong man's house and carry off his goods without first binding the strong man himself. Attempting to extract the goods while the defender is still capable of resisting wastes the attempt regardless of how much force is eventually available — the sequencing itself is the binding constraint."
+related: []
+evokes: [kjv, binding-the-strong-man, spoiling-his-goods, no-man-can-enter-a-strong-mans-house, disable-the-guardian-first]
+lineage:
+  - source: primary
+    text: kjv-1611-mark-3-strong-mans-house
+    citation: "The Holy Bible, King James Version (1611; this edition Project Gutenberg #10), Mark 3:27. Verified verbatim against a direct extraction of the held copy."
+    quote: "No man can enter into a strong man’s house, and spoil his goods, except he will first bind the strong man; and then he will spoil his house."
+canonical-instances:
+  - "An acquirer trying to poach a rival's key clients finds every attempt blocked until they first hire away the account manager who personally holds those relationships — only after that specific person is neutralized do the client relationships actually become available to take."
+critical-questions:
+  - "Has the actual defender been correctly identified — is the thing standing between the attacker and the goods really this specific guardian, or is there a different, less obvious obstacle actually doing the defending?"
+status: active

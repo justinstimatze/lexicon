@@ -1,0 +1,20 @@
+id: lex-2z45k
+name: a-neutral-confidant-may-be-working-for-your-enemy
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A confidant who appears to have no stake in the conflict — a neutral third party, respected and trusted by both sides — can be specifically recruited by one side to extract from you the exact vulnerability the other side needs, using the very neutrality that makes you trust them as the tool of the extraction. This is a sharper risk than generic loose-lipped gossip: it's not that a secret might leak by accident, it's that the person you're confiding in may have already been approached and asked to get it out of you. In the Jataka's tale of the snake-king Pandara, a garuda (the snakes' natural predator) can't safely attack snakes because it doesn't know their one weakness, so it goes to a hermit both sides independently trust and asks him directly to obtain it: \"our people, when they attack snakes, many of them perish. We do not know the right way to seize snakes. There is said to be some mystery in the matter. You could, perhaps, wheedle them out of the secret.\" The hermit does exactly that, and hands the answer straight to the predator."
+related: []
+evokes: [jataka, timsanipata, pandara-jataka, recruited-neutral-party-extracts-your-vulnerability, weaponized-trusted-intermediary]
+lineage:
+  - source: primary
+    text: jataka-francis1905-pandara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XVI (Timsanipata), No. 518, Pandara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "our people, when they attack snakes, many of them perish. We do not know the right way to seize snakes. There is said to be some mystery in the matter. You could, perhaps, wheedle them out of the secret."
+canonical-instances:
+  - "A management consultant hired for 'independent culture assessment' interviews are told confidentially by staff exactly which team is underperforming and why — information leadership then uses to justify layoffs the consultant was quietly engaged to help build the case for."
+  - "A mutual friend both sides of a divorcing couple still confide in, believing them neutral, is actually feeding one spouse's lawyer details about the other's finances and state of mind, gathered under the guise of ordinary sympathetic conversation."
+critical-questions:
+  - "How would the snake-king have been able to tell, before confiding, that the hermit's neutrality was compromised — is there any signal available in the moment, or is this risk only ever visible in hindsight?"
+  - "Does refusing to confide in anyone who could conceivably be recruited by an adversary leave a person isolated from the real support a genuine confidant provides — and if so, what's the actual tradeoff between that isolation and this specific risk?"
+status: active

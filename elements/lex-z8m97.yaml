@@ -1,0 +1,44 @@
+id: lex-z8m97
+name: gof-decorator
+type-in: composition
+type-out: frame
+_tier: molecule
+agent-instruction: "When a class needs behavior augmented without modifying its definition, wrap it in a decorator that delegates while adding pre/post hooks. The decorator pattern preserves the original interface and stacks composably."
+related: [lex-a9wpd, lex-9nj6a, lex-gfxw3, lex-hnfrw, lex-4dsbe, lex-2habe, lex-ccbdh, lex-gbmev, lex-dwycr, lex-p25q4, lex-sjsae, lex-etfhv]
+scaffolds-from: [lex-9nj6a, lex-gfxw3, lex-hnfrw]
+evokes: [stackable-wrappers, dynamic-responsibility-addition, alternative-to-subclassing]
+decomposes-into:
+  - lex-9nj6a
+  - lex-gfxw3
+  - lex-hnfrw
+assembly: "parallel(lex-hnfrw, lex-gfxw3)"
+premises:
+  - "you have a Component with a base interface I"
+  - "composition-over-inheritance (lex-9nj6a) is the motivating stance — the design preference that makes you reach for Decorator over subclassing. Named in decomposes-into and related; not in the typed assembly because it's the why-you-do-it, not the how-it's-built (mirrors lex-2rsad's decomposes-into vs assembly distinction)"
+  - "you want to add responsibilities to instances of Component dynamically (without statically subclassing for every combination)"
+  - "you create a Decorator class that implements I AND holds a reference to a Component (polymorphism-as-extension-mechanism + recursive-composition)"
+  - "the Decorator forwards calls to the wrapped Component AND adds its own behavior before/after the forward"
+  - "Decorators can be stacked: Decorator1 wraps Decorator2 wraps ... wraps base Component"
+critical-questions:
+  - "is the responsibility you're adding actually orthogonal to the Component's core behavior, or are you smuggling unrelated behavior into a wrapper for convenience?"
+  - "are you decorating because you genuinely need runtime composition, or because subclassing felt wrong (and you should reconsider the type hierarchy instead)?"
+  - "does the recursive stacking remain comprehensible? long Decorator chains can become hard to debug"
+  - "does the wrapped Component's identity get lost? downstream code that compares object identity will break"
+  - "if order matters across Decorators (e.g., decompress-then-decrypt vs decrypt-then-decompress), is that order discoverable / enforced?"
+lineage:
+  - source: primary
+    tradition: gof
+    text: gamma-helm-johnson-vlissides-1994
+    citation: "Design Patterns, ch.4 (Decorator)"
+  - source: practitioner
+    text: gof-decomposition-pass
+    citation: "worked example: Decorator decomposes cleanly into the 3 atoms newly promoted in this pass (composition-over-inheritance + recursive-composition + polymorphism-as-extension-mechanism)"
+  - source: practitioner
+    text: assembly-typecheck-pass-1
+    citation: "Substrate-meta decision (decomposes-into vs assembly distinction, applied to gof-decorator). Original assembly was sequential(lex-9nj6a, parallel(lex-hnfrw, lex-gfxw3)) but lex-9nj6a composition-over-inheritance is a posture (stance toward composition), not a constructive step. Reduced assembly to parallel(lex-hnfrw, lex-gfxw3); lex-9nj6a retained in decomposes-into and related as the motivating stance (mirrors lex-2rsad). Host type-out also changed from composition to frame to match the parallel's actual output. Two unresolved questions logged for next pass: (1) Pierce-vocabulary: composition vs frame — what's their formal relationship? Both are first-class types (22 + 15 uses) but the substrate doesn't document parent/projection/sibling structure; resolving this may invert the host-type decision. (2) Alexander-missing-atom: the forward-with-augmentation move (forward call to wrapped + add before/after behavior) is the foundational piece of Decorator and isn't directly captured by the three constituent atoms. The canonical-instances (Java I/O, GUI windows, HTTP middleware) all share this move; promoting it to an atom would let lex-z8m97 re-decompose more accurately."
+canonical-instances:
+  - "Java I/O streams: BufferedInputStream wraps FileInputStream wraps... — stackable streams adding buffering, decompression, decryption etc."
+  - "GUI scrollable-bordered-shadowed window: each visual responsibility added by a Decorator wrapping the previous"
+  - "logging/metrics/tracing middleware in HTTP server frameworks — each middleware decorates the next handler"
+severity-tier: info
+status: active

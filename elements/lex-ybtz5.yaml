@@ -1,0 +1,18 @@
+id: lex-ybtz5
+name: testing-a-claimed-debt-before-honoring-it-in-full
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'Before granting a large request from someone claiming an old, unprovable relationship, an agent can interrogate the grounds of the claim to screen for fraud, and once the claim is confirmed as a genuine remembered debt — however trivial the original incident — discharge it in full, on the explicit principle that only fools forget small debts while trustworthy people honor them regardless of triviality or elapsed time. In the Jataka''s tale of the Moonlight Prince, the king first questions what standing the brahmin has to claim anything ("Hast thou a penance, brahmin, dread to tell, Or hast thou many a charm and many a spell, Or goblins, ready your behests to do, Or any claim for having served me well?"), and once the brahmin''s account of their long-ago meeting checks out, the king pays the debt as a matter of character rather than obligation: "''Tis fools deny the thing once done, and let Old friendships fail of those they once have met. Many a deed of fools to nothing comes, They are ungrateful, and they can forget."'
+related: []
+evokes: [jataka, ekadasanipata, junha-jataka, due-diligence, honoring-old-debts]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-junha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 456, Junha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "'Tis fools deny the thing once done, and let Old friendships fail of those they once have met. Many a deed of fools to nothing comes, They are ungrateful, and they can forget."
+canonical-instances:
+  - "A now-wealthy alum first asks a former classmate claiming an old favor to describe exactly what happened and when, and on confirming the account, writes a check well beyond what the trivial original favor would seem to warrant."
+critical-questions:
+  - "How does a claimant's account get verified when, as here, no other witness or record exists — is the king's questioning a real screen against fraud, or does a sufficiently detailed false story pass it just as easily?"
+status: active

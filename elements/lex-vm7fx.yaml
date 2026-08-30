@@ -1,0 +1,19 @@
+id: lex-vm7fx
+name: swapping-the-trigger-word-while-keeping-the-payload-defeats-signature-detection
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a countermeasure has learned to react to a specific signal word rather than to the underlying intent behind it, check whether simply substituting a different word for the same action defeats the detection entirely. Aesop's 'The Farmer, His Boy, and the Rooks' has rooks learn to scatter at the word 'sling,' so the farmer's boy switches to a harmless-sounding word while still using the sling; the rooks, now unable to connect any trigger to the danger, conclude only after losses: 'They have a way of saying one thing and meaning another which has just been the death of several of our poor friends.' The detection was keyed to the literal codeword rather than to the actual threat, so decoupling the word from the action defeats a pattern-matched countermeasure without changing what actually happens."
+related: []
+evokes: [aesop, the-farmer-his-boy-and-the-rooks, signature-based-detection-defeated, decoupling-trigger-from-payload]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-farmer-his-boy-and-the-rooks
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Farmer, His Boy, and the Rooks.' Verified verbatim against a direct extraction of the held copy."
+    quote: "They have a way of saying one thing and meaning another which has just been the death of several of our poor friends."
+canonical-instances:
+  - "malware or spam evading a keyword-based filter by substituting synonyms once the filter starts blocking the literal term, while the underlying payload it delivers stays exactly the same."
+critical-questions:
+  - "The danger itself — being sighted and aimed at — may carry no single reliable verbal signal at all. What would a detection system look like that tracks that directly instead of keying on some word?"
+  - "Once a target learns that any word can precede the same action, vigilance presumably has to shift to behavioral cues instead. Would that shift hold up, or does it just relocate the same substitution problem one level down?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-n8w7y
+name: incomplete-resolution-leaves-residue-that-produces-a-relapse
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a problem appears to have resolved, check whether the resolution was complete or whether some residual portion of the original cause is still present and capable of reactivating the same problem. Hippocrates' Aphorisms: 'What remains in diseases after the crisis is apt to produce relapses.' An apparent recovery and a genuine one look identical from the outside at the moment of the crisis passing — the difference only shows up later, when the version with leftover material produces a second episode that traces back to material never actually cleared, not to a new cause. Distinguishing the two requires checking for residue directly rather than reading the absence of current symptoms as proof that nothing remains."
+related: []
+evokes: [hippocrates, aphorisms, incomplete-resolution-produces-relapse, residue-reactivates-the-same-problem]
+lineage:
+  - source: primary
+    text: hippocrates-aphorisms-adams1849-sectionII-12
+    citation: "Hippocrates, Aphorisms, trans. Francis Adams (Sydenham Society, 1849), Section II, §12. Verified verbatim against a direct extraction of the held copy."
+    quote: "What remains in diseases after the crisis is apt to pro- duce relapses."
+canonical-instances:
+  - "a company declares a data breach contained after patching the exploited vulnerability, but an attacker's leftover backdoor account survives the cleanup and is used months later for a second breach that gets misread as an unrelated new incident rather than the unfinished remainder of the first."
+critical-questions:
+  - "What kind of check would actually distinguish complete resolution from incomplete resolution at the moment recovery appears to have happened, given that both states look identical until the relapse itself provides the evidence?"
+  - "Does every apparent recovery need to be treated with this suspicion, or does the aphorism only apply to problems of a specific kind — ones where the underlying cause is known to be capable of persisting below the threshold of detection?"
+status: active

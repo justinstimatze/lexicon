@@ -1,0 +1,19 @@
+id: lex-px42b
+name: physical-comfort-quietly-undoes-a-vowed-discipline
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: 'A person committed to an austere practice can be pulled back not by any dramatic crisis but by the cumulative pull of ordinary physical comfort — good food replacing poor food, ease replacing hardship — a relapse through incremental hedonic reward rather than any single decisive event. In the Jataka''s tale of Indriya, the ascetic Brother is undone this way by his estranged wife''s cooking: "The Brother was captivated by the love of such flavours and could not leave his wife."'
+related: []
+evokes: [jataka, atthanipata, indriya-jataka, hedonic-reward-hijacks-a-vow, relapse-through-comfort-not-crisis]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-indriya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 423, Indriya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The Brother was captivated by the love of such flavours and could not leave his wife."
+canonical-instances:
+  - "A recovering addict who has stayed clean through every major life crisis quietly relapses not during a hardship but during a comfortable stretch of good meals, easy money, and old friends who never ask hard questions."
+critical-questions:
+  - "Would the Brother's discipline have survived a dramatic crisis better than it survived ordinary comfort, and if so, what does that say about which threats a vow is actually built to withstand?"
+  - "Is there a way to notice incremental hedonic pull eroding a commitment before it's already won, given that no single meal or comfort feels like the moment of failure?"
+status: active

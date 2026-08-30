@@ -1,0 +1,19 @@
+id: lex-jbdz5
+name: attachment-overrides-threat-assessment-despite-explicit-warning
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Explicit, repeated warnings about a known danger don't reliably stop someone from walking into it, when the pull toward what they're attached to is stronger than the fear of the consequence. In the Jataka's tale of the stag Kandina, the animal is warned against following a doe into hunter territory, but goes anyway, and is killed. The tree-fairy narrating the tale states the diagnosis directly: it wasn't ignorance of the danger, and it wasn't even the doe's own influence, that destroyed him — passion alone did. The mechanism is a reminder that the presence of a correct warning inside someone's own awareness is not the same thing as that warning actually governing their next action."
+related: []
+evokes: [jataka, ekanipata, kandina-jataka, attachment-overrides-warned-risk, awareness-of-danger-is-not-governance-of-action]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kandina-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 13, Kandina-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Twas not father or mother, but passion alone that destroyed this foolish deer."
+canonical-instances:
+  - "A trader whose own risk rules flag a position as overexposed, and who has said so out loud to colleagues that morning, adds to the position anyway because a rally makes walking away from further gains feel unbearable."
+critical-questions:
+  - "Is naming the attachment out loud, the way the tree-fairy names passion after the fact, of any use beforehand — does articulating the mechanism in advance actually change how it plays out, or only how it gets explained afterward?"
+  - "Does this pattern require the danger to be somewhat abstract or delayed, and would the same pull survive if the threat were immediate and visible rather than merely warned-of?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-uq4aw
+name: feigned-weakness-draws-a-pursuer-away-to-free-a-captured-ally
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A free party can rescue a captured ally by deliberately presenting themselves as an easy, weak target, drawing the captor's attention and effort away long enough to double back and free the ally while the captor is occupied elsewhere. In the Jataka's tale of the antelope and the tortoise, the tortoise is caught in a bag. The antelope doesn't attack the hunter or flee for good. He exposes himself and performs weakness: 'So he let the hunter see him, and made as though he were weak. The hunter saw him, and thinking him to be weak, seized his knife and set out in pursuit.' The antelope leads the hunter deep into the forest, then slips away and circles back by another route to free the tortoise while the hunter is still chasing a decoy that was never actually vulnerable."
+related: []
+evokes: [jataka, dukanipata, kurunga-miga-jataka, self-exposure-as-a-decoy-to-rescue-a-captured-ally, feigned-vulnerability-redirects-a-captors-attention]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kurunga-miga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 206, Kurunga-miga-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "So he let the hunter see him, and made as though he were weak. The hunter saw him, and thinking him to be weak, seized his knife and set out in pursuit."
+canonical-instances:
+  - "When security guards detain one member of a group of protesters, another member deliberately makes a visible, easily-interceptable dash in the opposite direction, drawing several guards away in pursuit while a third person quietly helps the detained protester slip free from the remaining, thinned-out watch."
+critical-questions:
+  - "How much does this depend on the antelope's actual speed advantage over the hunter — would the decoy strategy work at all for a slower or less mobile ally who couldn't reliably outrun a committed pursuit long enough to double back safely?"
+  - "Is there a meaningful risk the antelope underestimates here, given that presenting yourself as weak to a hunter with a knife could go wrong in ways the story's clean outcome doesn't examine?"
+status: active

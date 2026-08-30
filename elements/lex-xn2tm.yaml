@@ -1,0 +1,19 @@
+id: lex-xn2tm
+name: presumed-rapport-substituted-for-confirmed-permission
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Feeling confident that a relationship is close enough to permit an action is not the same as having actually confirmed that permission. Treating the feeling as sufficient risks exposing a real gap between the closeness assumed and the closeness that actually existed. In the Jataka's tale of the monk and the borrowed cloth, a disciple takes his teacher's deposited cloth and turns it into a shoe-bag, entirely on the strength of feeling confident his teacher wouldn't mind. His teacher is furious: 'What confidence is there between you and me?' The disciple wasn't wrong that some relationships would tolerate this — he was wrong that his particular relationship was one of them, and the only way to have found out safely was to ask first rather than act on the assumption."
+related: []
+evokes: [jataka, dukanipata, mittamitta-jataka, felt-confidence-is-not-confirmed-permission, acting-on-an-assumed-bond-exposes-its-actual-limits]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mittamitta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 197, Mittamitta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "What confidence is there between you and me?"
+canonical-instances:
+  - "An employee who feels close enough to a manager to skip the usual approval process and commit the team to a client promise on their own finds out, only when the manager reacts with anger, that the closeness was entirely one-sided."
+critical-questions:
+  - "Is there a way to distinguish a relationship that would actually tolerate this kind of presumption from one that wouldn't, before testing it — or is confirming permission in advance the only reliable way to find out, precisely because the feeling of closeness is the same in both cases?"
+  - "Does the teacher's anger suggest the disciple's assumption was foolish, or could the same act have gone unremarked in a slightly closer relationship — is the story really about a categorical error or just a narrow miscalibration?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-4msvg
+name: reinterpreting-a-near-exposure-as-coincidence-sustains-a-failing-commitment
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "After a plot nearly surfaces and its participants panic, co-conspirators can talk the panicking party back in by reframing the evidence of detection as mere coincidence. No new information supports the reframing; what supports it is the sunk investment already made in the plan, and the reframing lets that investment keep escalating past the point a clearer read of the evidence would have ended it. In the Jataka's tale of Musika: 'my lord, if the king knew he would not be silent. What he said must have been a mere guess. Put him to death.'"
+related: []
+evokes: [jataka, pancanipata, musika-jataka, near-exposure-reframed-as-coincidence, motivated-reinterpretation-sustains-commitment]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-musika-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 373, Musika-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "My lord, if the king knew he would not be silent. What he said must have been a mere guess. Put him to death."
+canonical-instances:
+  - "A team already deep into a doomed product launch dismisses a leaked internal memo suggesting leadership knows about the delays as probably nothing more than routine speculation, and pushes the launch date forward anyway rather than treat the leak as the warning it actually was."
+critical-questions:
+  - "How can a party distinguish, in the moment, between a genuinely reasonable alternative explanation and a motivated reinterpretation serving only to protect a sunk investment — is there a reliable signal that separates the two?"
+  - "Does the amount already invested in the plan predict how aggressively the near-exposure gets reinterpreted, meaning the more committed the conspirators already are, the less objectively they can read the same evidence?"
+status: active

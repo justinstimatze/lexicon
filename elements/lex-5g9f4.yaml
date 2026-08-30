@@ -1,0 +1,18 @@
+id: lex-5g9f4
+name: factions-each-locally-validated-form-around-incompatible-views-and-cannot-convince-one-another
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'Multiple groups can each propose a different definition of the same contested term, with each proposal receiving genuine approval from its own bystanders, yet no group is able to persuade the others — demonstrating how local social validation can sustain mutually incompatible positions indefinitely with no built-in mechanism for resolving between them. In the Jataka''s tale of Maha-Mangala, partisans of sight-omens, sound-omens, and touch-omens each form their own approving faction and reach permanent deadlock: "And then the partisans of omens of sight, omens of sound, omens of touch formed into three groups, and were unable to convince one another."'
+related: []
+evokes: [jataka, dasanipata, maha-mangala-jataka, factional-epistemic-deadlock, blind-men-and-the-elephant]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-maha-mangala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 453, Maha-Mangala-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "And then the partisans of omens of sight, omens of sound, omens of touch formed into three groups, and were unable to convince one another."
+canonical-instances:
+  - "Three engineering teams each convinced their own root-cause theory for a production outage is correct, each backed by their own manager's approval, spend a week unable to persuade the other two teams despite everyone examining the same incident logs."
+critical-questions:
+  - "What, if anything, could break a factional deadlock like this from within, given that each faction already has its own internally sufficient social validation and no external authority is available to arbitrate?"
+status: active

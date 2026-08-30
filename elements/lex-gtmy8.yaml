@@ -1,0 +1,19 @@
+id: lex-gtmy8
+name: speaking-up-first-does-not-establish-standing-to-arbitrate
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a dispute between two substantial parties draws in a third party who positions themselves as peacemaker, check whether that party has any actual standing to arbitrate, or is claiming it purely by being the one who spoke. In Aesop's 'The Pomegranate, the Apple-Tree, and the Bramble,' a pomegranate and an apple-tree argue over which produces the finer fruit; a bramble inserts itself: 'There, that's enough, my friends; don't let us quarrel.' The joke is entirely in the contrast — a thorny weed with no fruit of its own presumes equal footing to referee two genuinely fruit-bearing trees, purely on the strength of having volunteered an opinion, not on any relevant qualification."
+related: []
+evokes: [aesop, the-pomegranate-the-apple-tree-and-the-bramble, unqualified-arbiter, standing-vs-volunteering]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-pomegranate-the-apple-tree-and-the-bramble
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Pomegranate, the Apple-Tree, and the Bramble.' Verified verbatim against a direct extraction of the held copy."
+    quote: "There, that's enough, my friends; don't let us quarrel."
+canonical-instances:
+  - "an internet commenter with no relevant expertise positions themselves as the reasonable 'can't we all just get along' voice between two domain experts in a substantive technical dispute, claiming equal footing purely by having spoken up."
+critical-questions:
+  - "Does the bramble's intervention actually cause any harm, or is a low-stakes call for peace harmless regardless of who makes it, even without real standing to arbitrate the substance of the dispute?"
+  - "How would the pomegranate and apple-tree recognize the bramble's lack of standing in the moment, given that a call to stop quarreling can sound reasonable on its face regardless of who says it?"
+status: active

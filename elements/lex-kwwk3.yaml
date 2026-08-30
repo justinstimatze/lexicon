@@ -1,0 +1,18 @@
+id: lex-kwwk3
+name: a-fabricated-scandal-is-staged-incrementally-across-months-to-earn-belief
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'A lie built to survive scrutiny gets staged in installments across an extended timeline rather than delivered all at once. Each stage stays individually small, ambiguous, and hard to challenge on its own, so that by the time the full claim is finally made, the audience has already been primed through a slow accumulation of half-evidence to find it plausible rather than encountering it cold. The staging escalates the physical evidence deliberately, with each new stage adding a harder-to-fake prop than the last, rather than simply repeating the same claim louder. In the Maha-Paduma-Jataka, a scorned queen builds a false claim of an affair across nine months — first vague evasive answers about her whereabouts, then after six weeks a specific claim of a night spent with the ascetic, then at three or four months bandages simulating pregnancy, and finally at eight or nine months a bundle of wood strapped beneath her robe to simulate a birth — each stage laying groundwork the next stage would exploit.'
+related: []
+evokes: [jataka, dvadasanipata, maha-paduma-jataka, deception-staged-across-a-timeline, incremental-fabrication-primes-belief]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-maha-paduma-jataka
+    citation: 'The Jataka, or Stories of the Buddha''s Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XII (Dvadasanipata), No. 472, Maha-paduma-jataka. Verified verbatim against a direct extraction of the held copy.'
+    quote: 'But after some six weeks, she replied, "I spent the night in Jetavana, with Gotama the ascetic, in one fragrant cell." Then the unconverted began to wonder, could this be true, or not. After three or four months, she bound bandages about her belly, and made it appear as though she were with child, and wrapt a red robe around her.'
+canonical-instances:
+  - 'A disgruntled former employee spends months dropping vague, unverifiable comments about his old boss''s ''questionable ethics'' on industry forums before finally publishing a detailed, specific misconduct allegation — timed so that the specific claim lands on an audience already primed by months of ambient suspicion rather than hearing it cold.'
+critical-questions:
+  - 'The fabrication is ultimately exposed by its own physical prop failing publicly (the bundle of wood falling loose) — does staging a deception incrementally across months actually make it more durable than a single bold claim would have been, or does it just create more individual points where the fabrication could have been caught earlier had anyone checked?'
+status: active

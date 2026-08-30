@@ -1,0 +1,19 @@
+id: lex-q7nv2
+name: surviving-one-exploitation-attempt-does-not-prevent-a-second
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "After escaping a trap through luck rather than by recognizing it as a trap, expect a persistent operator to talk you back into an identical exposure by simply reframing what happened. The Panchatantra's donkey walks into a lion's ambush, survives only because the lion springs too early, and flees — but the same jackal who set the trap tracks him down, invents a new story explaining away the near-death experience, and leads him back into the identical ambush a second time, where he is killed. Ryder's translation names the mechanism plainly: the donkey, 'deceived by a hundred arguments of the rascal, came again into the presence, and was straightway killed by the lion, who had prepared his spring beforehand.' Direct prior experience of the exact danger was not sufficient protection against a persuasive enough re-framing of that same danger."
+related: []
+evokes: [panchatantra, loss-of-gains, surviving-once-doesnt-prevent-a-second-exploit, reframing-defeats-learned-caution]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-flop-ear-and-dusty
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book IV, 'Flop-Ear and Dusty.' Verified verbatim against a direct extraction of the held copy; a running head falling mid-word ('pre-pared') in the scan's pagination is rejoined and excised as printer's furniture."
+    quote: "Thereupon the donkey, deceived by a hundred arguments of the rascal, came again into the presence, and was straightway killed by the lion, who had prepared his spring beforehand."
+canonical-instances:
+  - "a phishing-attack target who narrowly avoided wiring money to a fraudulent request receives a second, more elaborate message directly addressing why the first request looked suspicious, and — having been given a satisfying explanation for the near-miss rather than treated the near-miss itself as the disqualifying fact — completes the transfer on the second attempt."
+critical-questions:
+  - "What made the donkey's own direct, recent memory of danger insufficient, when direct experience is usually treated as the strongest possible teacher — is persuasive reframing genuinely capable of overriding lived memory, or did the donkey never actually understand what had almost happened to him?"
+  - "Is there a defense against this pattern short of refusing all further contact with the source of the original trap, given that the jackal's approach works precisely by supplying a plausible alternative explanation each time suspicion arises?"
+status: active

@@ -1,0 +1,33 @@
+id: lex-ypecd
+name: inversion-as-meaning-modifier
+type-in: state
+type-out: state
+_tier: atomic
+agent-instruction: "When you flip a thing into its opposite, you modify its meaning — but the modification isn't symmetric across instances. Inversion can negate (true vs false), reverse (give vs take), or transmute (sacred vs profane). The inversion-type determines what the inverted thing actually is."
+related: [lex-ftke9, lex-rupk9, lex-tf6br, lex-v6kay, lex-ndkkb, lex-9spu2, lex-73m95, lex-3ajns]
+scaffolds-from: [lex-rupk9]
+evokes: [reverse-it-and-it-means-the-opposite, the-shadow, dual-problem, melodic-inversion, antonym-by-prefix]
+lineage:
+  - source: practitioner
+    text: tarot-reversed-cards-tradition
+    citation: "Tarot reading tradition (post-occultist-revival, ~late 18th century onward): a card drawn upside-down means approximately its inverse — the upright meaning's shadow, blockage, or unrealized form. The orientation IS the meaning-modifier"
+  - source: primary
+    text: jung-shadow-archetype
+    citation: "C.G. Jung, Aion: Researches into the Phenomenology of the Self, Collected Works vol. 9ii (1951, tr. R.F.C. Hull), ch.2 'The Shadow.' The Shadow is the inverted aspect of the conscious self; the relation between conscious-self and shadow is structurally an inversion. Used clinically as 'what's the unintegrated opposite?' interrogation"
+    quote: "'The shadow is a moral problem that challenges the whole ego-personality, for no one can become conscious of the shadow without considerable moral effort. To become conscious of it involves recognizing the dark aspects of the personality as present and real.'"
+  - source: practitioner
+    text: tarot-decomposition-pass
+    citation: "promoted from cross-attestation: Tarot (reversed cards), Jung (Shadow archetype), math (inverse functions, additive/multiplicative inverses, dual problems in linear programming and optimization), linguistics (antonyms via un-/dis-/anti-/non- prefixes; semantic inversion as productive morphology), music (melodic inversion in counterpoint; retrograde inversion in fugue; inversion of chord voicings), software (undo operations as the canonical operation-inverse; reverse-engineering as inversion-of-construction), yin/yang (Daoist complementary inversion)"
+canonical-instances:
+  - "Tarot: The Tower upright (sudden disruptive change clarifying truth) reversed (avoiding necessary change; clinging to a structure that's already crumbling) — same archetype, inverted orientation indicates unrealized or shadow form"
+  - "linear programming duality: every primal problem (minimize-cost-subject-to-constraints) has a dual problem (maximize-shadow-prices-of-resources); the dual's solution gives information the primal doesn't surface directly. The inversion IS a different angle on the same problem"
+  - "music: in fugue, the answer enters as melodic inversion of the subject (every interval flipped) — the same melody, inverted, sounds related-but-distinct, providing thematic development without new material"
+  - "software undo: every constructive operation (insert / write / create) has an inverse (delete / clear / destroy) that returns the system to its prior state; the inverse is what makes editing reversible"
+  - "operationally distinct from lex-ftke9 work-backwards-from-goal: backward-induction is temporal inversion (future → present); meaning-inversion is orientation/value inversion (positive → negative or shadow). Both are non-frontal traversals but on different axes"
+  - "operationally bears on lex-rupk9 conservation-as-invariant-tracking through symmetry-breaking: an inversion operation that preserves some structure (the inverse function preserves f(f^-1(x))=x) is structurally a kind of invariant; an inversion that DOESN'T preserve structure (Tarot reversed cards' shadow meaning) is information-bearing in a different way"
+critical-questions:
+  - "is the inverted form preserving the original's structure (real inversion) or just reusing the name?"
+  - "does the audience need shared awareness of the original for the inversion to land? if not, what work is 'inversion' doing?"
+  - "can the inversion be misread as the original by someone outside the frame — and what's the cost of that misread?"
+  - "what's the proposed signal that the inversion has stopped being legible and started being the new default?"
+status: active

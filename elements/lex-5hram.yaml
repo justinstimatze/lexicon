@@ -1,0 +1,19 @@
+id: lex-5hram
+name: opposed-parties-editing-one-irreversible-asset-cancel-out-destructively
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When two stakeholders with opposing preferences each get to unilaterally adjust a shared, irreversible asset, check whether the result converges on a compromise or simply cancels out to less than either wanted. Aesop's 'The Man and His Two Sweethearts' has an older woman pluck a man's dark hairs to make him look her age, while a younger one plucks his gray hairs to make him look hers, until: 'Between them, they left not a hair in his head, and he became perfectly bald.' Neither party is negotiating with the other or aware of a middle ground to aim for — each edits the asset independently and irreversibly toward their own extreme, and the destructive result is neither's preferred outcome."
+related: []
+evokes: [aesop, the-man-and-his-two-sweethearts, bidirectional-sabotage, irreversible-shared-asset]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-man-and-his-two-sweethearts
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Man and His Two Sweethearts.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Between them, they left not a hair in his head, and he became perfectly bald."
+canonical-instances:
+  - "co-parents or joint product-owners each reversing the other's edits or rules between cycles, with no revert mechanism, netting out to a shared asset that pleases neither and functions for no one."
+critical-questions:
+  - "Would coordination between the two parties have prevented this outcome, or does the fable assume they have no way to negotiate directly, making the destructive result inevitable once both have independent unilateral access?"
+  - "Is there a version of this dynamic where the asset survives being edited by two opposed parties — does the irreversibility of each edit specifically drive the destructive outcome, or would a reversible asset produce the same cancellation over enough cycles?"
+status: active

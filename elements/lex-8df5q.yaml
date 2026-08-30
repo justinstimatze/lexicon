@@ -1,0 +1,18 @@
+id: lex-8df5q
+name: exploiting-envy-via-a-false-secret-that-invites-fatal-imitation
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Having survived by an unrelated means and acquired something enviable as a result, a person gives an envious observer a false general rule for how the outcome was obtained. The envier, driven by greed and unwilling to ask deeper questions or verify the mechanism, follows the fabricated instructions literally and destroys themselves trying to replicate the result. In the Jataka''s tale of Padakusalamanava, the old woman tells her covetous daughter-in-law that burning on the same funeral pile produced her treasure: "My dear, all that are burned on a wooden pile in this cemetery receive... the same." "My dear mother, can I too get this?" "If you become like me, you will."'
+related: []
+evokes: [jataka, navanipata, padakusalamanava-jataka, false-secret-invites-fatal-imitation, envy-driven-uncritical-copying]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-padakusalamanava-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 432, Padakusalamanava-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"My dear, all that are burned on a wooden pile in this cemetery receive... the same.\" \"My dear mother, can I too get this?\" \"If you become like me, you will.\""
+canonical-instances:
+  - "A mediocre trader, envious of a colleague's sudden windfall, hears her vaguely credit \"just doubling down when it felt right\" and bets his entire savings on the next dip without asking what she actually did differently, and loses everything."
+critical-questions:
+  - "The old woman never explicitly lies — she states a true fact about her own situation (received on the same pile) that the daughter-in-law over-generalizes into a false causal rule. Does that distinction matter for how much blame belongs to the false secret's teller versus the uncritical imitator?"
+status: active

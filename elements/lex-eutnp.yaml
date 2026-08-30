@@ -1,0 +1,19 @@
+id: lex-eutnp
+name: competent-hostility-is-often-safer-than-incompetent-loyalty
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A devoted agent with real authority but no judgment can do more damage to the person they're protecting than a rational adversary who knows when to stop. The Panchatantra's monkey, given a sword and a mandate to guard the sleeping king, sees a bee land on the king's face and — in a panic to protect him — swings the sword at the insect, splitting the king's head open. The verse contrasts this directly against a sensible opponent from an adjoining tale: 'To foes of sense, not foolish friends, 'tis wiser far to cling: the robber for his victims died; the monkey killed the king.' A rational enemy calculates costs and recognizes limits; a loyal but witless agent, given real capability and a protective mandate, has no such governor on the force it's willing to apply to a trivial threat."
+related: []
+evokes: [panchatantra, loss-of-friends, competent-hostility-safer-than-incompetent-loyalty, unskilled-agent-with-real-authority]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-the-sensible-enemy-the-foolish-friend
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book I, 'The Sensible Enemy / The Foolish Friend' (the monkey and the sword). Verified verbatim against a direct extraction of the held copy."
+    quote: "To foes of sense, not foolish friends, Tis wiser far to cling: The robber for his victims died; The monkey killed the king."
+canonical-instances:
+  - "a company gives an eager but inexperienced new hire full production access to fix a minor cosmetic bug, and the hire's overcorrection to a trivial issue takes down the entire system — while a rational competitor probing the same system for a real vulnerability would have recognized the cosmetic bug wasn't worth the exposure of a full attack."
+critical-questions:
+  - "Is the real danger the monkey's lack of skill, or the mandate itself — would giving the monkey a lesser tool, rather than a sword, have prevented the outcome while preserving the loyalty that motivated the response?"
+  - "Does this claim risk being used to justify distrust of well-meaning but inexperienced help in general, when the actual lesson may be narrower — about the specific danger of pairing genuine devotion with disproportionate authority and no judgment?"
+status: active

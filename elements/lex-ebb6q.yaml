@@ -1,0 +1,20 @@
+id: lex-ebb6q
+name: unpersuaded-a-friend-exits-rather-than-collude-or-intervene
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When someone close to you commits to a wrong you can't talk them out of, there's a third option beyond going along with it or forcibly stopping them: remove yourself from the situation entirely, so their choice proceeds without your complicity but also without your intervention. In the Jataka's tale of Samkicca, the viceroy proposes killing his own father to seize the throne sooner; the Bodhisatta objects three times — \"Friend, the murder of a father is a serious matter. That way lies the road to hell. You must not do this deed. Pray do not kill him\" — and when the prince persists and recruits other conspirators instead, the Bodhisatta doesn't report the plot or try to physically stop it: \"I will not consort with people like these,\" and without taking leave of his father and mother he escaped by a house-door."
+related: [lex-6sax2]
+evokes: [jataka, satthinipata, samkicca-jataka, exit-as-alternative-to-complicity-or-coercion, moral-disengagement-by-departure]
+lineage:
+  - source: primary
+    text: jataka-francis1905-samkicca-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XIX (Satthinipata), No. 530, Samkicca-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The Bodhisatta rejected the idea, saying, \"Friend, the murder of a father is a serious matter. That way lies the road to hell. You must not do this deed. Pray do not kill him.\" But he spoke of it again and again and was opposed by his friend for the third time. Then he consulted with his attendants and they fell in with the idea and devised a plot to kill the king. But the Bodhisatta hearing of it thought, \"I will not consort with people like these,\" and without taking leave of his father and mother he escaped by a house-door."
+canonical-instances:
+  - "A founder tells a co-founder they're going to falsify the next investor update. The co-founder argues against it twice, and when the founder proceeds anyway, resigns and walks away from their equity rather than either signing off on the deck or reporting it to the board."
+  - "A member of a friend group learns that two friends are planning to prank someone in a way that will clearly humiliate them, argues against it, and when they proceed regardless, simply doesn't show up to the event rather than either helping or trying to physically stop it."
+critical-questions:
+  - "The Bodhisatta's exit removes him from complicity but does nothing to prevent the murder itself — is this move actually a form of tacit permission dressed up as principled distance, or is the refusal to intervene coercively a defensible line on its own terms regardless of the outcome it allows?"
+  - "He leaves without even telling his own parents where he's going — does the totality of the exit, cutting off everyone and not just the wrongdoer, matter to the move working, or would a less drastic withdrawal, staying in contact but refusing to participate, have served the same function?"
+status: active

@@ -1,0 +1,18 @@
+id: lex-j5kq2
+name: monitoring-an-adversarys-grief-as-political-threat-assessment
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A ruler or powerful actor who has wronged someone dangerous doesn''t wait to see if retaliation materializes — they treat the wronged party''s emotional state itself as intelligence, deploying observers specifically to report whether the aggrieved are still angry. Grief-management becomes a security variable: calm reported back functions as an all-clear, and continued anger would function as a warning to act preemptively. In the Bhadda-sala-Jataka, after King Pasenadi orders the murder of his own general Bandhula and Bandhula''s thirty-two sons, his spies are sent specifically to monitor the widow''s household, and it''s their report that she and her daughters-in-law ''were not angry'' that lets the king approach her at all.'
+related: []
+evokes: [jataka, dvadasanipata, bhadda-sala-jataka, emotional-state-as-threat-intelligence, grief-monitored-as-political-data]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-bhadda-sala-jataka
+    citation: 'The Jataka, or Stories of the Buddha''s Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XII (Dvadasanipata), No. 465, Bhadda-sala-jataka. Verified verbatim against a direct extraction of the held copy.'
+    quote: 'The king''s spies hearing this speech brought word to him that they were not angry.'
+canonical-instances:
+  - 'After laying off a well-connected executive under a pretextual reorg, a CEO has an assistant quietly check whether the executive is still posting angrily on LinkedIn or has gone quiet, before deciding whether it''s safe to reach out and offer a consulting contract.'
+critical-questions:
+  - 'The widow''s calm was engineered by her own prior-cause reframing to her daughters-in-law — does spying on emotional state as threat intelligence actually work when the emotional state being observed can itself be a deliberate performance staged for exactly this kind of surveillance?'
+status: active

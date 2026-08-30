@@ -1,0 +1,19 @@
+id: lex-pzu4k
+name: passed-over-experts-withhold-help-out-of-registered-resentment
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Experts sidelined in favor of a less experienced inner circle don't just lose influence quietly — they can actively decline to intervene once the system that excluded them starts failing, since stepping in to help would validate the disrespect shown to them without correcting it. In the Jataka's dream of the unyoked draught-oxen, this is depicted as aged, capable lords who were passed over in favor of an inner circle's favorites, and who deliberately withhold aid when things go wrong, reasoning aloud that it isn't their business since they were treated as outsiders. Their competence hasn't gone anywhere; what's gone is any incentive to spend it on a system that already told them their judgment doesn't count."
+related: []
+evokes: [jataka, ekanipata, mahasupina-jataka, sidelined-experts-withhold-help, exclusion-removes-the-incentive-to-help]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahasupina-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 77, Mahasupina-jataka, fourth of sixteen dream-interpretations. Verified verbatim against a direct extraction of the held copy."
+    quote: "the aged and wise lords, albeit right able to cope with all difficulties, shall keep in mind how they were passed over, and shall decline to aid, saying:--'It is no business of ours; we are outsiders; let the boys of the inner circle see to it.'"
+canonical-instances:
+  - "A company that quietly stopped consulting its most experienced engineer on architecture decisions in favor of a younger team's preferences later suffers a major outage in exactly the system that engineer used to own, and the engineer, still on staff and fully capable of diagnosing it in minutes, says nothing and lets the newer team work it out themselves."
+critical-questions:
+  - "Is withholding help in this situation a legitimate response to real disrespect, or does it cross into letting an organization suffer for a grievance that has nothing to do with the people who now depend on the excluded expert's silence?"
+  - "Would the sidelined lords intervene if the stakes were high enough — a catastrophic failure rather than an ordinary one — or does the resentment hold regardless of how much is actually at risk?"
+status: active

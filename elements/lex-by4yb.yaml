@@ -1,0 +1,18 @@
+id: lex-by4yb
+name: an-idealized-standard-search-abroad-resolved-by-someone-already-close
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A person can refuse to commit to a role until an idealized standard is matched, search for that standard across the widest possible field, find it nowhere, and then discover that someone already within their own household surpasses the standard entirely — the search-far-find-near structure where the resolution was available from the start but only becomes visible after the wide search fails. In the Jataka''s tale of the chaste king, the prince commissions a golden image of an ideal woman and sends it across all India before his own half-sister, brought forward as a last resort, is found to exceed it: "his reply was to have made a woman''s image of red gold, which he sent to his parents, with the message, ''When I find such a woman as this, I will accept the kingdom.'' This golden image they dispatched over all India, but found no woman like to it."'
+related: []
+evokes: [jataka, ekadasanipata, udaya-jataka, search-far-find-near, bride-test-motif]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-udaya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 458, Udaya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "his reply was to have made a woman's image of red gold, which he sent to his parents, with the message, \"When I find such a woman as this, I will accept the kingdom.\" This golden image they dispatched over all India, but found no woman like to it."
+canonical-instances:
+  - "A company runs a months-long external search for a VP of Engineering against an exacting spec, finds no external candidate who clears the bar, and eventually promotes the internal engineer who was quietly exceeding every criterion the whole time."
+critical-questions:
+  - "Does the wide search actually serve a purpose here — does it validate the eventual candidate by contrast, or was it simply wasted effort that a closer look from the start would have made unnecessary?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-sh3ap
+name: a-predator-caught-vulnerable-is-mobbed-by-its-usual-prey
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A predator's dominance over a category of prey holds only as long as its usual advantages remain in force; the instant those advantages are suspended by circumstance, the same prey can turn and destroy it, since nothing about the underlying power relationship was ever fixed — it was contingent on conditions that can flip. In the Jataka's tale of the trapped water-snake, a snake that normally preys on fish gets caught in a fish-cage itself; the very fish it usually eats mob and bite it while it's confined and unable to strike back. The narrating stanza names the general pattern the specific incident illustrates: 'Men rob as long as they can compass it; And when they cannot--why, the biter's bit!' The reversal is telling us something: the original dominance was always a matter of circumstance, never a fixed feature of what the snake and the fish actually are."
+related: []
+evokes: [jataka, dukanipata, harita-mata-jataka, dominance-is-conditional-on-circumstances-not-essential, suspended-advantage-flips-predator-into-prey]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-harita-mata-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 239, Harita-mata-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Men rob as long as they can compass it; And when they cannot--why, the biter's bit!"
+canonical-instances:
+  - "A landlord known for exploiting the power imbalance with tenants over minor lease violations gets caught in a genuine building code violation of their own, and the same tenants who once had no leverage band together to report it, exploiting the sudden reversal of who has something to lose."
+critical-questions:
+  - "Is the mobbing fish's behavior actually justice, or is it simply exploitation running in the other direction now that the balance of power has flipped — does the story frame this as a correction, or as the same underlying dynamic just pointed at a new victim?"
+  - "How often does this kind of circumstantial dominance actually get tested — is the snake's vulnerability here a rare accident, or does the story suggest predators in general are more exposed to this reversal than their usual behavior would lead observers to expect?"
+status: active

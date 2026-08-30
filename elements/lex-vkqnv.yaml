@@ -1,0 +1,19 @@
+id: lex-vkqnv
+name: compulsive-response-to-mockery-overrides-a-survival-critical-silence
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A commitment to stay silent for survival can be overridden by the compulsion to respond to mockery, even when the person knows exactly what breaking silence will cost and has every reason to let the insult pass unanswered. In the Jataka's tale of the talkative tortoise, two geese carry him aloft by a stick gripped in his teeth, on the explicit condition that he stays silent no matter what. Jeered at by village children below, he opens his mouth to retort: 'Well, and if my friends do carry me, what is that to you, you caitiffs?' and falls to his death. The tortoise didn't forget the stakes or misjudge the risk — the pull to answer an insult overrode a commitment he understood perfectly well, in the exact moment that commitment mattered most."
+related: []
+evokes: [jataka, dukanipata, kacchapa-jataka-215, compulsion-to-answer-mockery-overrides-known-stakes, breaking-silence-at-the-worst-possible-moment]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kacchapa-jataka-215
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 215, Kacchapa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Well, and if my friends do carry me, what is that to you, you caitiffs?"
+canonical-instances:
+  - "An employee who has been explicitly warned to stay silent during a tense legal deposition, for reasons they fully understand, blurts out a defensive retort the moment opposing counsel makes a sarcastic remark, undoing weeks of careful preparation in a single reflexive sentence."
+critical-questions:
+  - "Is there any way to prepare someone against this specific failure mode in advance, given that the tortoise's mistake wasn't a lack of understanding but a failure of impulse control at the exact moment understanding was tested hardest?"
+  - "Does the specific trigger matter here — would the tortoise have held his silence against a genuine threat but broken it only for mockery specifically, suggesting the vulnerability is narrower than 'any provocation' and more about status and pride being challenged?"
+status: active

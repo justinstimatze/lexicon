@@ -1,0 +1,19 @@
+id: lex-qvn7j
+name: a-worthless-decoy-substitution-delays-discovery-of-a-theft
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Removing valuable contents from a container and refilling it with something visually or texturally similar but worthless buys time before the theft is noticed, since a casual check of the container's presence and shape won't reveal that what's inside has changed. In the Jataka's tale of Prince Chatta, before fleeing with the buried treasure, he takes care that a glance at the emptied pots won't give the theft away: 'and at night digging a hole in the ground he pulled out the treasure-pots, and putting the money into the sacks he had the pots filled with grass.' The king discovers the theft only much later, when he actually opens the pots himself."
+related: []
+evokes: [jataka, catukkanipata, brahachatta-jataka, a-worthless-substitute-preserves-the-containers-outward-appearance, discovery-is-delayed-until-someone-actually-checks-the-contents]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-brahachatta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 336, Brahachatta-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "and at night digging a hole in the ground he pulled out the treasure-pots, [117] and putting the money into the sacks he had the pots filled with grass."
+canonical-instances:
+  - "An employee who has been quietly diverting cash from a locked register replaces the missing bills with counterfeit bundles wrapped to match the bank's exact strapping, so the register still passes a quick weight-and-shape check during routine counts, and the shortfall surfaces only at the next full audit."
+critical-questions:
+  - "Does the substitution actually buy meaningful time, or does it only work against a specific, predictable kind of casual inspection — would a more thorough check have caught it immediately regardless?"
+  - "Once discovered, does the presence of a deliberate decoy make the theft look more calculated and therefore worse in the eyes of whoever investigates it, compared to a theft with no attempt at concealment?"
+status: active

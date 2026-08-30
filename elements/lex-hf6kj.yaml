@@ -1,0 +1,18 @@
+id: lex-hf6kj
+name: a-single-missing-unit-draws-disproportionate-search-and-celebration
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A single missing unit out of a large, secure collection can receive search effort and celebration wildly disproportionate to its fractional share of the whole — a shepherd with a hundred sheep leaves the ninety-nine to search for the one that's lost, and a woman with ten silver coins lights a candle and sweeps the whole house for the one she's missing. The disproportion isn't irrational: the value being reacted to is specifically its status as the one currently unaccounted for, apart from whatever share of the total worth it actually represents."
+related: []
+evokes: [kjv, the-lost-sheep, the-lost-coin, ninety-and-nine-in-the-wilderness, rejoice-with-me-for-i-have-found]
+lineage:
+  - source: primary
+    text: kjv-1611-luke-15-lost-sheep-lost-coin
+    citation: "The Holy Bible, King James Version (1611; this edition Project Gutenberg #10), Luke 15:4, 15:8-9. Verified verbatim against a direct extraction of the held copy."
+    quote: "What man of you, having an hundred sheep, if he lose one of them, doth not leave the ninety and nine in the wilderness, and go after that which is lost, until he find it? [...] Either what woman having ten pieces of silver, if she lose one piece, doth not light a candle, and sweep the house, and seek diligently till she find it? And when she hath found it, she calleth her friends and her neighbours together, saying, Rejoice with me; for I have found the piece which I had lost."
+canonical-instances:
+  - "A support team with a 99.9% uptime record spends an entire day war-rooming a single customer's degraded experience, pulling in three senior engineers — not because that customer represents 0.1% of revenue, but because that customer is specifically the one currently unaccounted for in an otherwise clean picture."
+critical-questions:
+  - "Is the disproportionate attention here actually well-calibrated to the situation, or is a single squeaky-wheel case pulling resources away from the ninety-nine that are fine but could still be improved?"
+status: active

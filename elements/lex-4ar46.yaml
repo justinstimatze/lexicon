@@ -1,0 +1,18 @@
+id: lex-4ar46
+name: an-iou-backed-only-by-a-future-not-yet-realized-authority
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: 'Someone who has wronged another but cannot presently compensate them can offer a deferred promise contingent on an anticipated change in their own status, asking the wronged party to trust a standing the debtor does not hold yet, since no present means exists to pay. In the Jataka''s tale of the Moonlight Prince, a prince who has broken a brahmin''s alms-bowl and cannot pay defers the debt to his own future kingship: "''Now, my son, you have broken my alms-bowl, so give me the price of a meal.'' Said the Prince, ''I cannot now give you the price of a meal, brahmin; but I am Prince Junha, son of the king of Kasi, and when I come to my kingdom, you may come to me and ask for the money.''"'
+related: []
+evokes: [jataka, ekadasanipata, junha-jataka, deferred-debt, promissory-claim]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-junha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 456, Junha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Now, my son, you have broken my alms-bowl, so give me the price of a meal.\" Said the Prince, \"I cannot now give you the price of a meal, brahmin; but I am Prince Junha, son of the king of Kasi, and when I come to my kingdom, you may come to me and ask for the money.\""
+canonical-instances:
+  - "A cash-strapped founder who's damaged a contractor's equipment tells them to invoice the company once the funding round closes, asking the contractor to trust a status the founder doesn't hold yet."
+critical-questions:
+  - "What actually backs this IOU if the promised future never arrives — is it the claimed identity itself, or something the wronged party can independently verify before extending the trust?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-xudc6
+name: destroying-a-suppliers-capability-to-guarantee-exclusive-possession
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A patron who fears a uniquely skilled provider might someday serve a rival can eliminate that risk permanently by destroying the provider's capability itself, sacrificing all of the provider's future value in exchange for guaranteed exclusivity of what has already been delivered. This differs from extracting a single lump payoff and discarding the source; the motive here is blocking a competitor's future access, which the provider's continued existence would always leave open. In the Jataka's frame story of Prince Bodhi, a king has the architect of his palace blinded specifically so no rival king could ever commission the same design: 'this artisan may build a similar palace for some other king.' And from a feeling of envy he plucked out his eyes."
+related: []
+evokes: [jataka, pancanipata, dhonasakha-jataka, exclusivity-preservation-by-destroying-the-source, denying-a-competitor-future-access]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dhonasakha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 353, Dhonasakha-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "And afterwards he thought, \"This artisan may build a similar palace for some other king.\" And from a feeling of envy he plucked out his eyes."
+canonical-instances:
+  - "A firm that just had a landmark building designed makes sure the architect signs away every working drawing and forbids any similar future commission. The firm has no further need for the architect at all; the contract exists solely to keep the design's signature elements from ever appearing anywhere else."
+critical-questions:
+  - "Does this strategy actually protect the exclusivity it aims for, or does the harmed party simply find another way to replicate or leak the design, meaning the destruction bought nothing but reputational cost and a wasted capability?"
+  - "Is the calculation even rational on its own terms — how much is one guaranteed exclusive asset actually worth compared to the ongoing value the same skilled provider could have generated across many future projects, for this patron or others?"
+status: active

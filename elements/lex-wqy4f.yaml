@@ -1,0 +1,19 @@
+id: lex-wqy4f
+name: consuming-a-shelter-from-the-inside-can-seal-its-own-exit
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Something that serves simultaneously as both a resource being consumed and the shelter housing the consumer can change its physical properties over time in ways that trap the very creature benefiting from it, with no external actor involved at all. In the Jataka's tale of the jackal in the elephant, a jackal eats his way into a dead elephant's carcass and decides to simply live inside it rather than leave, treating it as both meat and house at once. As the weather dries the hide, it shrinks around the opening he entered through, nearly sealing him inside the very shelter his own continued feeding had helped hollow out — he escapes only by losing all his fur squeezing back through a gap that used to be an easy entrance."
+related: []
+evokes: [jataka, ekanipata, sigala-jataka-148, a-shelter-and-its-resource-are-the-same-consumed-object, environmental-change-seals-a-self-made-trap]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sigala-jataka-148
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 148, Sigala-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"This carcass is both meat and house to me, and wherefore should I leave it?\""
+canonical-instances:
+  - "A small business keeps drawing down a fixed pool of grant funding to cover both its operating costs and the very compliance reporting required to keep receiving that funding, not noticing that the shrinking balance is closing off its ability to exit the arrangement gracefully once the fund is nearly spent."
+critical-questions:
+  - "Does the jackal have any way to notice the hide is shrinking before the exit becomes dangerously narrow, or is the change slow enough that no single moment provides a clear warning to leave?"
+  - "Is the underlying mistake treating a temporary resource as a permanent home, or is it failing to anticipate that consuming a resource can change its physical properties in ways that matter for continued access?"
+status: active

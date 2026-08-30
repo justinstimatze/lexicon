@@ -1,0 +1,21 @@
+id: lex-j3zmx
+name: a-status-display-outrunning-ones-position-invites-predation
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A visible marker of status or security that outruns someone's actual standing doesn't just look presumptuous — it actively signals a mismatch that predators specifically watch for. The I Ching's Great Appendix reads a divination line this way: 'He is a burden-bearer, and yet rides in a carriage, thereby exciting robbers to attack him. Burden-bearing is the business of a small man. A carriage is the vehicle of a gentleman. When a small man rides in the vehicle of a gentleman, robbers will think of taking it from him.' The vulnerability sits in the visible gap between the display and the position that's supposed to back it up, more than in the display itself. The same passage names the pattern twice more in one breath: 'careless laying up of things excites to robbery, as a woman's adorning of herself excites to lust.'"
+related: [lex-h68rm]
+evokes: [i-ching, yi-jing, legge, ten-wings, xi-ci, great-appendix, status-mismatch, predation]
+lineage:
+  - source: primary
+    text: legge-1899-i-ching-appendix-iii-i-burden-bearer
+    citation: "James Legge, translator, The Yî King (I Ching), Sacred Books of the East vol. 16 (Oxford University Press, 1899), Appendix III ('The Great Appendix'), Section I, Chapter VIII, paragraph 48. Verified verbatim against a direct extraction of the text hosted at sacred-texts.com, clean digital text, no OCR."
+    quote: "The Master said:--'The makers of the Yî may be said to have known (the philosophy of) robbery. The Yî says, \"He is a burden-bearer, and yet rides in a carriage, thereby exciting robbers to attack him.\" Burden-bearing is the business of a small man. A carriage is the vehicle of a gentleman. When a small man rides in the vehicle of a gentleman, robbers will think of taking it from him. (When one is) insolent to those above him, and oppressive to those below, robbers will wish to attack him. Careless laying up of things excites to robbery, (as a woman's) adorning of herself excites to lust.'"
+canonical-instances:
+  - "The text opens by crediting 'the makers of the Yî' with having deliberately encoded 'the philosophy of robbery' into the line itself — the passage presents the mismatch-as-invitation reading as its own original intent, dating the interpretation to the line's composition rather than to a later reader's gloss."
+  - "operationally distinct from this session's earlier Ferengi Rules of Acquisition atom (lex-h68rm) on overspending as an observer's warning sign: that atom is about how a third party should read someone else's display when evaluating trust. This atom is about the display making the displayer an active target, independent of whether any particular observer draws a trust inference from it at all."
+critical-questions:
+  - "Is the mismatch itself the trigger, or does the passage assume the small man's display is also accompanied by other provocations ('insolent to those above him, and oppressive to those below') that are doing real work alongside the display?"
+  - "Does closing the visible gap between display and position eliminate the risk, or does any sufficiently valuable display attract predation regardless of whether it accurately reflects the holder's status?"
+  - "Is this a claim about human predators specifically responding to social mismatch signals, or does the passage intend it as a broader metaphor for any resource attracting seizure once it's made conspicuous?"
+status: active

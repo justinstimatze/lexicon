@@ -1,0 +1,19 @@
+id: lex-nwyru
+name: recast-the-same-request-into-a-claim-category-that-compels-action
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "The same underlying want can be voiced through different social categories of claim, and some categories compel a response that others don't — independent of the claim's truth. Recognizing which category the audience is obligated to act on, and recasting the request into that category rather than its literal, true form, gets the want taken seriously where the honest framing would have been dismissed. In the Jataka's tale, the queen has an ordinary dream of a golden peacock and knows exactly how it will land if she reports it accurately: \"if I tell the king it was a dream, he will take no notice of it; but if I say it is the longing of a woman with child, then he will take notice.\" She reports a pregnancy-craving instead, and the king mobilizes hunters across his kingdom for years in response — a claim category that overrides ordinary discretion because it implicates a life at stake."
+related: []
+evokes: [jataka, pakinnakanipata, maha-mora-jataka, claim-category-determines-obligatory-response, reframing-a-want-as-an-unignorable-need]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-maha-mora-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XIV (Pakinnaka-Nipata), No. 491, Maha-Mora-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "if I tell the king it was a dream, he will take no notice of it; but if I say it is the longing of a woman with child, then he will take notice."
+canonical-instances:
+  - "An employee who simply wants a quieter desk knows a preference request will sit in a queue indefinitely, so they frame the same request through a workplace-accommodation process instead — a category HR is obligated to act on within a fixed timeline, regardless of how strong the underlying medical case actually is."
+critical-questions:
+  - "The story's whole subsequent tragedy — six kings and hunters dying trying to catch an uncatchable bird — flows directly from the queen's initial recast. Does the moral weight of choosing the compelling-but-false category shift once you can foresee it will trigger a costly, possibly futile response, or is the deception judged only at the moment it's told?"
+  - "What determines which claim categories a given audience is structurally obligated to act on, versus which ones just happen to be persuasive? Is 'pregnancy craving' compelling here because of a real social obligation to a woman with child, or because it makes refusal look uniquely callous — and does that distinction matter for whether the tactic is exploiting a duty or exploiting an image?"
+status: active

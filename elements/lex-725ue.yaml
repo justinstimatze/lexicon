@@ -1,0 +1,21 @@
+id: lex-725ue
+name: diagnosing-whether-power-is-positional-or-personal-before-attacking-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When an opponent's strength looks positional rather than innate, check whether that position traces to a specific individual or to a repeatable process before deciding how to remove it. The 36 Stratagems' 'Entice the tiger to leave its mountain lair' first counsels separating the opponent from their source of strength rather than attacking it directly, then gives an explicit branch on how: 'Examine your opponent's source of power, and if the source is an individual, remove that individual in some way (ideally to join you) and if the source of power is a process then make that process your own.' The diagnostic fork itself carries the mechanism, beyond the generic advice to attack indirectly. Absorb the person and you neutralize power that was concentrated in them; a repeatable process outlives anyone's removal, so it has to be copied instead. Treating process-sourced power as if it were person-sourced (or the reverse) wastes the move: removing an individual changes nothing if the process continues without them, and trying to copy a process that was really carried by one irreplaceable person fails once they are gone."
+related: []
+evokes: [36-stratagems, entice-the-tiger-to-leave-its-mountain-lair, positional-power, individual-vs-process-power, absorb-the-source]
+lineage:
+  - source: primary
+    text: taylor-2013-36-stratagems-15-entice-the-tiger
+    citation: "Peter Taylor, The Thirty-Six Stratagems: A Modern-Day Interpretation of a Strategy Classic (Infinite Ideas, 2013), Stratagem 15, 'Entice the tiger to leave its mountain lair.' Verified verbatim against a direct pdftotext extraction of the held copy."
+    quote: "Examine your opponent's source of power, and if the source is an individual, remove that individual in some way (ideally to join you) and if the source of power is a process then make that process your own."
+canonical-instances:
+  - "Operation Paperclip (1945 onward): rather than trying to replicate Germany's rocketry program as a process, the United States recruited its key individual scientists (Wernher von Braun and others) directly, correctly diagnosing that the program's power was concentrated in specific people rather than in an institutional method that would survive their departure."
+  - "operationally distinct from stratagem 2's 'attack what the enemy values instead of their strong point': this mechanism does not redirect the attack to a different target at all — it stays focused on the actual source of strength, but forks the METHOD of neutralizing it depending on whether that source is a person or a process."
+critical-questions:
+  - "What happens when power is genuinely distributed across both an individual AND a process — a founder whose judgment the system still depends on daily — does the diagnostic fork just fail, or does it require doing both moves at once?"
+  - "Removing an individual 'ideally to join you' assumes the person can be co-opted rather than simply eliminated as a rival — what changes about the mechanism when the individual cannot be absorbed and can only be neutralized outright?"
+  - "How would an outside observer verify, before acting, which diagnosis is correct — is there a reliable test for distinguishing person-sourced from process-sourced power short of removing the person and finding out the hard way?"
+status: active

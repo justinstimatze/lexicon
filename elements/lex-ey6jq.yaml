@@ -1,0 +1,18 @@
+id: lex-ey6jq
+name: de-escalating-a-coalition-of-rivals-through-generous-concession
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Facing a coalition of armed rivals, a threatened party can avoid battle entirely by voluntarily surrendering the overwhelming majority of a contested resource and stating plainly that they will not fight, converting potential enemies through concession made from a position of strength rather than through negotiation or force. In the Jataka''s tale of Prince Samvara, besieged by his ninety-nine brothers, the king sends nearly all of his father''s treasure to them with an explicit refusal to fight: "Divide the treasure belonging to your father into a hundred portions, and to your brothers send ninety-nine of them, with this message, ''Accept this share of your father''s treasure, for fight with you I will not.''"'
+related: []
+evokes: [jataka, ekadasanipata, samvara-jataka, de-escalation-via-concession, costly-signal-of-non-aggression]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-samvara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 462, Samvara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Divide the treasure belonging to your father into a hundred portions, and to your brothers send ninety-nine of them, with this message, \"Accept this share of your father's treasure, for fight with you I will not.\""
+canonical-instances:
+  - "Facing a hostile takeover attempt by a coalition of minority shareholders, a CEO offers to buy out their stakes at a generous premium and states publicly he won't contest their board seats, defusing the fight by giving away far more than the standoff would have cost him to lose."
+critical-questions:
+  - "The king can afford to give away ninety-nine shares of a hundred because he still holds sole kingship — does this concession-based de-escalation actually work when the party under siege has less overwhelming a position to concede from?"
+status: active

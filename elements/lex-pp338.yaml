@@ -1,0 +1,20 @@
+id: lex-pp338
+name: a-failed-soft-push-becomes-evidence-for-the-harder-one
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A scheme to quietly force someone out without direct confrontation sometimes fails to produce its intended effect: the target doesn't take the hint and leave. When that happens, the failure itself can get repurposed as fresh evidence for the original suspicion, licensing a harsher move rather than prompting any reconsideration of whether the suspicion was right to begin with. In the Jataka's tale of Mahabodhi, five bribe-taking councillors can't prove any offense against the honest sage Bodhi, so they arrange for the king to gradually strip his honors, reasoning that 'being a wise mendicant, he will without saying a word to anyone run away of his own accord.' When Bodhi doesn't leave — he's deliberately waiting for certainty before acting — the councillors don't question their read of him. They declare, 'it is not for alms he comes here; but he is seeking sovereignty. If he were coming merely for the alms, he would have run away the very first day he was slighted,' and recommend his execution."
+related: []
+evokes: [jataka, pannasanipata, mahabodhi-jataka, failed-manipulation-reinterpreted-as-confirmation, escalation-from-a-rigged-test]
+lineage:
+  - source: primary
+    text: jataka-francis1905-mahabodhi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XVIII (Pannasanipata), No. 528, Mahabodhi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Well then diminish the honour that is usually paid to him, and when he sees this falling off of respect, being a wise mendicant, he will without saying a word to anyone run away of his own accord. ... it is not for alms he comes here; but he is seeking sovereignty. If he were coming merely for the alms, he would have run away the very first day he was slighted."
+canonical-instances:
+  - "A manager wants a tenured employee gone without documented cause, so she quietly reassigns them to worse projects and excludes them from meetings, expecting them to take the hint and quit. When the employee stays and keeps performing well anyway, she tells HR this proves they're entrenched and difficult, and pushes for a formal termination."
+  - "A landlord wants a rent-controlled tenant out, so he lets basic repairs lapse and stops returning calls, expecting the tenant to give up and move. When the tenant persists and files a habitability complaint instead, the landlord cites the complaint itself as proof the tenant is litigious in his eviction filing."
+critical-questions:
+  - "The king later runs a genuinely diagnostic version of the same idea, reasoning that an enemy would gather forces while an innocent man would simply pack to leave, and actually updating on what he finds. What separates that honest test from the councillors' rigged one, where only a single outcome was ever going to count as evidence?"
+  - "The councillors' theory that Bodhi is after sovereignty is never tested against any prediction beyond 'he won't leave.' What would a genuinely falsifiable version of their suspicion have required, and does the story suggest anyone besides Bodhi himself was in a position to demand one?"
+status: active

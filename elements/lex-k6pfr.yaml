@@ -1,0 +1,20 @@
+id: lex-k6pfr
+name: an-unwitting-courier-and-a-standing-exemption-smuggle-a-warning-past-surveillance
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When you need to move sensitive information past scrutiny you can''t openly defy, hide it inside something innocuous, hand it to a courier who has no idea what they''re carrying, and route the whole delivery through a pre-existing privilege that lets that courier move without being questioned. If the courier is caught, they genuinely know nothing; the privilege does the work a disguise couldn''t. In the Maha-Ummagga-Jataka, Queen Udumbara needs to warn Mahosadha of a death sentence without her husband the king noticing. She writes the warning, then: "put the letter within a sweetmeat, and tied it up with a thread, and put it in a new jar, perfumed it, sealed it up, and gave it to a handmaid, saying, ''Take this sweetmeat and give it to my brother.''" The text notes why no one stops the handmaid at night: "the king had erewhiles given this boon to the queen, and therefore no one hindered her" — a standing exemption doing the concealment, not stealth.'
+related: []
+evokes: [jataka, mahanipata, maha-ummagga-jataka, unwitting-courier, standing-exemption, smuggled-message]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-maha-ummagga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 546, Maha-Ummagga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: 'put the letter within a sweetmeat, and tied it up with a thread, and put it in a new jar, perfumed it, sealed it up, and gave it to a handmaid, saying, "Take this sweetmeat and give it to my brother."... You must not wonder how she got out in the night; for the king had erewhiles given this boon to the queen, and therefore no one hindered her.'
+canonical-instances:
+  - "A whistleblower worried about mail screening at a hostile employer mails a USB drive hidden inside a returned promotional item, using the company's own no-questions-asked returns-processing exemption to move it past the mailroom's usual scrutiny, and the clerk who processes it never knows what it contains."
+  - "During a mid-century political crackdown, an activist smuggles a warning inside a child's schoolbook carried by a courier too young to be searched, exploiting the standing social exemption that protects children from the same scrutiny adults face."
+critical-questions:
+  - "The method's safety for the courier depends entirely on them genuinely not knowing what they carry — if suspicion falls on the exemption itself rather than the courier, does their innocence protect them, or does the standing privilege become the very thing that gets shut down?"
+  - "Relying on a standing exemption assumes it stays standing — what happens to a plan built entirely around one predictable loophole once the person granting the exemption revokes or narrows it?"
+status: active

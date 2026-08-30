@@ -1,0 +1,18 @@
+id: lex-bzm8z
+name: escalating-from-generic-incentive-to-target-specific-lever
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When a first bribe pitched at a generic value fails to move a resistant target, a manipulator does not repeat or increase the same offer — they diagnose which specific desire the target actually has and switch levers entirely. Abstract incentives like status or wealth can be refused on principle, but a lever matched to an individual, embodied desire bypasses the principle rather than overwhelming it. In the Jataka''s tale of Lomasakassapa, having failed to move the ascetic with land and power, Sakka switches to the king''s own daughter: "Sire, adorn your daughter, princess Candavati, and send her by the hand of Sayha and bid him say, ''If you will come and offer sacrifice, the king will give you this maiden to wife.'' Clearly he will be struck with love of the maiden and will come."'
+related: []
+evokes: [jataka, navanipata, lomasakassapa-jataka, samson-and-delilah, target-specific-corruption-lever]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-lomasakassapa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 433, Lomasakassapa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Sire, adorn your daughter, princess Candavati, and send her by the hand of Sayha and bid him say, \"If you will come and offer sacrifice, the king will give you this maiden to wife.\" Clearly he will be struck with love of the maiden and will come."
+canonical-instances:
+  - "A vendor whose generic discount offer fails to move a stubborn procurement officer learns the officer's daughter needs a rare medical referral, and switches the entire pitch to offering help with exactly that."
+critical-questions:
+  - "Once a manipulator has diagnosed the individual, embodied desire a principle-based refusal can't withstand, is there any category of resistance immune to this switch, or does every held principle have some specific lever behind it?"
+status: active

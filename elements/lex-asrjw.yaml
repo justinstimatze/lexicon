@@ -1,0 +1,26 @@
+id: lex-asrjw
+name: loyalty-under-attack-tracks-perceived-justice-not-military-strength
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When predicting whether a leader's followers will stand by them under external attack or pressure, don't estimate it from the leader's current power or strength — estimate it from whether the followers perceive the leader's rule as just, because Kautilya states the two variables move independently and the weaker-but-just leader wins the loyalty test that the stronger-but-unjust one loses: 'Only a just king commands the loyalty of the people. The subjects of a just king attacked by another will follow him until death, even if he is weak. On the other hand, when a strong but unjust king is attacked, his people will either topple him or go over to the enemy.' The claim is not that justice makes a leader win — a weak, just king can still be defeated — it is specifically about what determines whether the leader's OWN PEOPLE stay loyal during the attack, independent of the eventual military outcome: 'follow him until death' describes behavior under a losing position, not a guarantee of victory. Strength without perceived justice does not purchase this loyalty at all; it only appears to, until the moment of real pressure reveals that the followers were never actually bound to the leader, merely temporarily aligned with a stronger position. Diagnostic move: when assessing how much a leader, company, or coalition can rely on its base holding firm under real pressure (an attack, a scandal, a downturn), don't extrapolate from the base's current apparent solidity or the leader's current strength — check specifically whether the base perceives the arrangement as just, since that is the variable Kautilya's claim says actually predicts what happens when things get hard, not raw power, popularity, or the absence of a visible challenger."
+related: [lex-4wz22, lex-b95eb, lex-dvv9g]
+evokes: [only-a-just-king-commands-loyalty, follow-him-until-death-even-if-weak, strong-but-unjust-king-abandoned, justice-versus-strength-as-independent-variables, kautilya-rajadharma]
+lineage:
+  - source: primary
+    text: kautilya-arthashastra-just-king-commands-loyalty
+    citation: "Kautilya, The Arthashastra, ed./trans. L.N. Rangarajan (Penguin Books, 1992), Part III 'The King,' section 'Self Control,' editorial note at {7.5.9,10}."
+    quote: "'Only a just king commands the loyalty of the people. The subjects of a just king attacked by another will follow him until death, even if he is weak. On the other hand, when a strong but unjust king is attacked, his people will either topple him or go over to the enemy.'"
+  - source: primary
+    text: kautilya-arthashastra-just-king-goes-to-heaven
+    citation: "Kautilya, The Arthashastra (Rangarajan, 1992), Part III epigraph, {3.1.41} and {8.2.12}."
+    quote: "'A king who observes his duty of protecting his people justly, according to law, goes to heaven, unlike one who does not protect his people, or inflicts unjust punishment.' 'A king who flouts the teachings of the Dharmashastras and the Arthashastra, ruins the kingdom by his own injustice.'"
+canonical-instances:
+  - "A once-dominant company facing its first serious competitive threat discovers that employees it assumed were loyal quietly start job-hunting the moment the company's position weakens, because the prior loyalty was actually alignment with a winning position rather than a belief that the company treated them justly — the strong-but-unjust pattern, revealed only under pressure."
+  - "A struggling local union facing a hostile employer nonetheless holds its members through a long, costly strike because members perceive the union's internal conduct and cause as just, even though the union is clearly the weaker party in the fight — the just-but-weak pattern, where loyalty under pressure doesn't require being the stronger side."
+  - "operationally distinct from lex-4wz22 just-enforcement-lets-the-weak-resist-the-powerful: that atom is about what a THIRD-PARTY enforcer supplies to a weaker party in a dispute with a stronger one; this atom is about what determines whether a leader's OWN followers stay loyal to that leader specifically under attack, independent of any third-party enforcer."
+critical-questions:
+  - "how would someone measure 'perceived justice' among followers before the crisis arrives, rather than only being able to confirm it retrospectively once loyalty has already been tested by an actual attack — is there a leading indicator, or is this claim only verifiable after the fact?"
+  - "does 'follow him until death, even if he is weak' risk romanticizing a loyalty that is actually just as coerced or habitual as the loyalty to a strong-but-unjust king, dressed up in the language of justice after the fact by the surviving side's own account?"
+  - "is justice really independent of strength here, or does a leader's DEMONSTRATED strength over time function as one of the main ways followers come to perceive the leader's rule as just in the first place, making the two variables less separable than the claim assumes?"
+status: active

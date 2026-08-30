@@ -1,0 +1,19 @@
+id: lex-ffcmg
+name: an-arbiter-deflects-rivalry-by-claiming-superior-status-for-themselves
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Asked to rank two rivals against each other, a third party can decline to legitimize the comparison at all by inserting a claim of their own superiority into the answer, refusing to hand either rival the validation they were seeking. In the Jataka's tale of the vain fish, two fish ask a tortoise to judge which of them is more beautiful; he answers, 'The Ganges fish is beautiful, and the Jumna fish is beautiful: but Iam more beautiful than you both.' The fish's own complaint captures exactly what happened: 'We ask him this, he answers that: indeed a strange reply!' The tortoise doesn't resolve the rivalry — he undercuts the premise that the question was worth answering on its own terms, and does so in a way that leaves both fish equally unsatisfied rather than favoring either."
+related: []
+evokes: [jataka, dukanipata, gangeyya-jataka, refusing-to-legitimize-a-rivalry-by-reframing-the-contest, an-arbiters-non-answer-denies-validation-to-both-sides]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-gangeyya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 205, Gangeyya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The Ganges fish is beautiful, and the Jumna fish is beautiful: but Iam more beautiful than you both."
+canonical-instances:
+  - "Two team members ask their manager to settle an ongoing argument over whose project contributed more to a shared win, and the manager answers that both contributed real value, but that the win actually came from decisions made a level above either of them, refusing to rank the two against each other at all."
+critical-questions:
+  - "Does the tortoise's answer actually resolve anything, or does it just replace one unresolved rivalry (fish versus fish) with a new grievance (both fish versus the tortoise), leaving the underlying insecurity that prompted the question untouched?"
+  - "Would this move work if the tortoise's claim to superior beauty weren't at least somewhat plausible — does the deflection depend on the arbiter having a genuine, defensible alternative claim, or would an obviously absurd self-claim undercut the whole maneuver?"
+status: active

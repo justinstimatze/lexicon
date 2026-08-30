@@ -1,0 +1,26 @@
+id: lex-pqqhr
+name: a-superseding-standard-usually-just-adds-one-more-competing-standard
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When proposing a unified standard to supersede the existing N, surface xkcd's standards law — the unified one usually ends up as N+1; supersession claims need to extinguish the predecessors, not just add to them."
+related: [lex-prwfm, lex-mwgep]
+scaffolds-from: [lex-mwgep]
+evokes: [xkcd-927-standards, fourteen-competing-standards, lets-make-one-universal-standard, now-there-are-fifteen, not-invented-here, usb-connector-wars]
+lineage:
+  - source: primary
+    text: xkcd-927-standards
+    citation: "Randall Munroe, xkcd #927 'Standards' (2011-07-20), with the explainxkcd.com community explanation. Refs-grounded froml 2026-05-28. The three-panel structure: a field has 14 competing standards; someone proposes a single universal standard to cover everyone's use cases; the result is 15 competing standards. The substrate-claim: an attempt to consolidate a fragmented field by introducing a superseding option rarely displaces the incumbents — it typically becomes one more rival, because the incumbents are entrenched (network effects, switching costs, Not-Invented-Here) and the newcomer only penetrates far enough to survive. Internal double-quotes rendered as single-quotes for YAML"
+    quote: "Situation: there are 14 competing standards. '14?! Ridiculous! We need to develop one universal standard that covers everyone's use cases.' Soon: there are 15 competing standards. [The comic's three-panel text — the canonical statement of the dynamic.] Title text: 'Fortunately, the charging one has been solved now that we've all standardized on mini-USB. Or is it micro-USB? Shit.' [The ironic undercut: even the example the author reaches for is itself unsettled.] [explainxkcd, paraphrased: a new 'universal' standard almost never displaces the incumbents; it usually only penetrates far enough to survive, ironically adding to the proliferation it meant to end.]"
+canonical-instances:
+  - "the USB-connector lineage the title-text jokes about: mini-USB, micro-USB, USB-C, plus proprietary connectors (Apple Lightning) — each 'this is the one' coexisted with the others for years. Notably USB-C eventually DID consolidate, but per explainxkcd not because someone shipped a better standard — it took an EU regulatory mandate to force displacement. That is the boundary condition: consolidation needs a coercive forcing-function, not merely a superior design"
+  - "software framework / build-tool / JS-bundler churn: each new framework pitched as the one to end the fragmentation (the 'one framework to rule them all') becomes another entry in the list while incumbents persist via existing codebases and ecosystem lock-in"
+  - "messaging apps / chat protocols: every 'universal messenger' that will replace the fragmented set (SMS, WhatsApp, Signal, iMessage, ...) becomes one more app the user must also install alongside the others"
+  - "operationally distinct from lex-prwfm cobra-effect: cobra-effect is a perverse INCENTIVE response (a reward for X produces more of the bad thing, via gaming). Here there is no gaming and no perverse incentive — the unification effort is sincere and well-designed; it fails for a STRUCTURAL reason (incumbents are locked in and the newcomer cannot dislodge them, so it merely adds itself). Both are interventions that worsen the thing they target, but the mechanism differs: incentive-gaming vs lock-in-plus-additive-entry"
+  - "operationally downstream of lex-mwgep positive-feedback-amplifies-early-events-into-locked-in-trajectories: the reason the incumbents cannot be displaced is path-dependence — early adoption produced network effects and switching costs that lock each incumbent in. lex-mwgep explains WHY the superseding standard fails to consolidate; lex-pqqhr is the recurring surface-pattern that results (the +1 outcome)"
+critical-questions:
+  - "the forcing-function check: does the proposed unifier have a coercive mechanism to actually retire the incumbents (regulation, platform monopoly, a hard cutoff), or only the merit of being better-designed? Absent a forcing-function, predict the +1 outcome — the new standard adds itself rather than replacing. USB-C consolidated only under EU mandate"
+  - "the incumbents'-lock-in inventory: what holds each existing standard in place — installed base, switching costs, royalties, Not-Invented-Here, ecosystem tooling? The stronger the lock-in, the more certain that a superseding standard becomes an addition rather than a replacement"
+  - "the am-I-adding-a-15th test: before launching a consolidating standard/tool/format/process, ask honestly whether you have the leverage to retire the others or are merely contributing one more. If the latter, the honest move may be to adopt-and-extend an incumbent rather than launch a rival"
+  - "the legitimate-exception: sometimes a genuinely superior standard DOES win (USB-C eventually; or one that arrives before the field fragments). The discriminator is timing and forcing-function — early enough that incumbents have not locked in, or backed by enough coercive/market power to displace them"
+status: active

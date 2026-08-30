@@ -1,0 +1,18 @@
+id: lex-3474p
+name: recognizing-the-point-where-intervention-can-no-longer-alter-a-fixed-outcome
+type-in: situation
+type-out: posture
+_tier: atomic
+agent-instruction: 'An intervening party who has successfully deterred a bad outcome several times through their own repeated effort has to independently judge, each time, whether the underlying cause is still open to change or has already become fixed. Continuing to intervene past that point wastes effort and can obscure the moment withdrawal would actually have been the more useful move. This judgment is diagnostic rather than emotional — the intervener''s care for the outcome hasn''t weakened, they''ve concluded there''s nothing left for further action to work on. In the Bhadda-sala-Jataka, the Buddha deters Vidudabha''s assault on the Sakyans three times by sitting in his path, but on the fourth attempt, having ''scanned the former deeds of the Sakyas'' and concluded that nothing could undo the effect of their earlier poisoning of a river, he does not go a fourth time — recognizing that the causal chain was already locked before he ever intervened.'
+related: []
+evokes: [jataka, dvadasanipata, bhadda-sala-jataka, knowing-when-further-intervention-is-futile, withdrawal-as-diagnosis-not-abandonment]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-bhadda-sala-jataka
+    citation: 'The Jataka, or Stories of the Buddha''s Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XII (Dvadasanipata), No. 465, Bhadda-sala-jataka. Verified verbatim against a direct extraction of the held copy.'
+    quote: 'the Master, scanning the former deeds of the Sakyas, perceived that nothing could do away with the effect of their evildoing, in casting poison into the river; so he did not go thither the fourth time.'
+canonical-instances:
+  - 'A mediator who has successfully talked two feuding business partners out of dissolving their partnership three separate times declines to intervene a fourth time once she learns one partner has already quietly signed a competing deal, judging that the split is now a fact rather than a decision still open to being talked out of.'
+critical-questions:
+  - 'Is the Buddha''s judgment that the outcome was already fixed itself correct, or is ''the effect of their evildoing could not be undone'' doing the work of justifying withdrawal from a fight that was simply no longer winnable, dressed as a claim about causal necessity rather than a claim about odds?'
+status: active

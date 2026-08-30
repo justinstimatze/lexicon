@@ -1,0 +1,20 @@
+id: lex-3rjdf
+name: a-warning-repeated-past-twice-reads-as-servility
+type-in: situation
+type-out: posture
+_tier: atomic
+agent-instruction: "Advice given once, or even twice, can still land as counsel offered freely between equals; the same advice repeated past that point starts to communicate something else — that the advisor is more invested in being heard than the advisee is in the outcome, which reads as a status move rather than as care. In the Jataka's tale of Sonaka, the paccekabuddha closes his admonition to king Arindama with an explicit rule about the etiquette of warning itself: \"In pity once, nay even twice, utter the warning word, / But keep not on repeating it, like slave before his lord.\""
+related: []
+evokes: [jataka, satthinipata, sonaka-jataka, repetition-degrades-a-warnings-standing, etiquette-of-counsel]
+lineage:
+  - source: primary
+    text: jataka-francis1905-sonaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XIX (Satthinipata), No. 529, Sonaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "In pity once, nay even twice, utter the warning word, / But keep not on repeating it, like slave before his lord."
+canonical-instances:
+  - "A friend raises a concern about a partner once at the wedding, again gently a year later when things worsen, and then stops, even as things keep worsening, because a third and fourth repetition would cost the friendship more than the warning is likely to change the outcome."
+  - "A staff engineer flags a scaling risk in a design review and again in the postmortem after a smaller incident foreshadows it. When it's ignored a second time, they document the concern in writing once and let it go, rather than raising it at every subsequent meeting."
+critical-questions:
+  - "Is the two-warning ceiling really about protecting the advisor's standing, or about respecting the advisee's autonomy to make their own mistake once they've genuinely heard the concern, and does the right number change based on how severe the consequence of ignoring the warning would be?"
+  - "This is delivered as a closing rule after Sonaka has already made his case at length in the same conversation — does once, nay even twice mean two separate occasions, or does a single sufficiently thorough occasion count as having used up both?"
+status: active

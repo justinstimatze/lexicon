@@ -1,0 +1,19 @@
+id: lex-ccpgc
+name: a-visible-surface-can-disclaim-harm-by-blaming-an-invisible-upstream-force
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a visible, interactable system is blamed for harm, check whether it is deflecting responsibility onto an invisible upstream force it claims actually drives the outcome. In Aesop's 'The Shipwrecked Man and the Sea,' a sailor blames the ocean for drowning his companions, and the sea answers: 'Lay not the blame on me, O sailor, but on the Winds. By nature I am as calm and safe as the land itself: but the Winds fall upon me with their gusts and gales, and lash me into a fury that is not natural to me.' The sea is the surface everyone actually interacts with, but it points past itself to a structural driver that stays out of view — a specific move for separating what can be blamed from what is actually driving the outcome, distinct from ordinary excuse-making about one's own conduct."
+related: []
+evokes: [aesop, the-shipwrecked-man-and-the-sea, agency-displacement, blaming-an-upstream-driver]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-shipwrecked-man-and-the-sea
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Shipwrecked Man and the Sea.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Lay not the blame on me, O sailor, but on the Winds. By nature I am as calm and safe as the land itself: but the Winds fall upon me with their gusts and gales, and lash me into a fury that is not natural to me."
+canonical-instances:
+  - "a platform disclaiming responsibility for harmful outcomes by pointing to 'the algorithm' or advertiser incentives as the true upstream force, casting itself as merely the calm surface those forces act upon."
+critical-questions:
+  - "Is the sea's claim actually true — does it have no independent role in the harm beyond transmitting the wind's force, or does its own scale and depth shape how destructive a given wind becomes, making the disclaimer only partially honest?"
+  - "Does naming an upstream driver ever help fix the actual problem, or does it mainly function to redirect blame away from the visible surface without changing anyone's incentive to address the underlying force?"
+status: active

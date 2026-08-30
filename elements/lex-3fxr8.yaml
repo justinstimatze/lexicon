@@ -1,0 +1,21 @@
+id: lex-3fxr8
+name: unfamiliarity-itself-can-be-the-risk-not-any-specific-red-flag
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When evaluating a new relationship, customer, or partner with no track record, check whether the actual risk is some specific warning sign or simply the absence of history to evaluate against. The Ferengi Rules of Acquisition frame new customers through exactly this lens: 'New customers are like razor-toothed gree-worms. They can be succulent, but sometimes they bite back.' The metaphor doesn't point at any particular tell — grooming, hesitation, a bad reference — it names newness itself as the risk factor, since an established relationship carries a track record to weigh and a new one carries none. Looking for a specific red flag in a brand-new relationship can miss the point entirely: the hazard is the missing track record itself, and no particular symptom needs to be present for it to apply."
+related: []
+evokes: [ferengi, rules-of-acquisition, star-trek, unfamiliarity-risk, track-record]
+lineage:
+  - source: primary
+    text: star-trek-ds9-rules-of-acquisition-203
+    citation: "Star Trek: Deep Space Nine, Rule of Acquisition #203, spoken dialogue from 'Little Green Men' (season 4, episode 8, 1995). Verified against Memory Alpha's sourced compilation of on-screen Rules of Acquisition dialogue (a wiki page functioning as a transcript aggregator with per-rule episode citations, not quoted for its own editorial framing)."
+    quote: "New customers are like razor-toothed gree-worms. They can be succulent, but sometimes they bite back."
+canonical-instances:
+  - "A bank extending a first-time small-business loan prices in a higher default-risk premium purely because the borrower has no repayment history, independent of anything specific in the application that looks suspicious — the newness itself is what the pricing model is charging for."
+  - "operationally distinct from ordinary due-diligence red-flag checking (look for specific warning signs before trusting someone new): this rule's claim is that risk exists even when no specific red flag is found, purely as a function of the relationship's youth."
+critical-questions:
+  - "Does treating unfamiliarity itself as a risk factor create a self-fulfilling coldness toward every new relationship that never lets a track record start accumulating in the first place?"
+  - "Is there a way to distinguish 'succulent' new relationships from 'bites back' ones faster than simply waiting for a track record to form, or does the rule imply that no such shortcut exists?"
+  - "Does this generalize to any first encounter with no prior information, or is something specific to commercial/transactional relationships (where the other party has an incentive to misrepresent themselves) doing the real work here?"
+status: active

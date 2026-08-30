@@ -1,0 +1,19 @@
+id: lex-bzchp
+name: an-authority-predicts-a-whole-future-from-one-small-revealing-act
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'An authority figure can infer a person''s entire future trajectory from a single small, revealing behavior, and state the prediction aloud before it is fulfilled — using a small sample of conduct as a totalizing signal of destiny or character. In the Jataka''s tale of Kummasapinda, the Buddha does exactly this over a girl''s gift of gruel: "Ananda, this girl will be to-day the chief queen of the Kosala king through the fruit of these portions of gruel."'
+related: []
+evokes: [jataka, sattanipata, kummasapinda-jataka, predict-the-future-from-a-minor-act, small-sample-as-totalizing-signal]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kummasapinda-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 415, Kummasapinda-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Ananda, this girl will be to-day the chief queen of the, Kosala king through the fruit of these portions of gruel."
+canonical-instances:
+  - "Watching a job candidate calmly and thoroughly help a stranger who'd spilled coffee in the lobby, before the interview even started, a hiring partner tells her team the candidate will be running the department within five years."
+critical-questions:
+  - "Does a single observed act actually predict a whole trajectory, or does the prediction only look prescient in hindsight once the outcome happens to occur?"
+  - "How many predictions of this kind quietly fail to come true and go unmentioned, compared to the rare hits that get remembered and retold?"
+status: active

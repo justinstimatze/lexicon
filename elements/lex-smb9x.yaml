@@ -1,0 +1,19 @@
+id: lex-smb9x
+name: a-flattering-accomplice-steadies-resolve-at-the-moment-of-doubt
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: 'A person wavering at a decision, visibly afraid and looking for guidance, can be met first by whoever has the most to lose from the wavering. That person supplies reassurance instead of honest counsel, and the moment of doubt closes back into resolve before any more disinterested voice gets a turn to speak. In the Jataka''s tale of Cetiya, Korakalambaka does this the moment the king looks to him in fear: "Hearing this, the king in fear looked to Korakalambaka. He said, "Be not afraid, O king; did I not tell you so from the first?""'
+related: []
+evokes: [jataka, atthanipata, cetiya-jataka, sycophantic-advisor, reinforcing-doubt-into-resolve]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-cetiya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 422, Cetiya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Hearing this, the king in fear looked to Korakalambaka. He said, \"Be not afraid, O king; did I not tell you so from the first?\""
+canonical-instances:
+  - "The moment a founder starts to hesitate about a fundraising number that's clearly inflated, the co-founder with the most equity at stake jumps in first with 'we already committed to this, we can't look weak now' — before the room's more skeptical voice gets a word in."
+critical-questions:
+  - "Would the wavering person have reversed course if the reassurance had arrived a beat later, after the honest counter-voice spoke first?"
+  - "How would a bystander tell the difference, in the moment, between genuine encouragement and reassurance offered specifically because the reassurer has something to lose if the wavering person changes course?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-xkuqt
+name: an-ambiguous-message-serves-as-a-zero-cost-competence-filter
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "An ambiguous message that only a sufficiently sharp recipient will correctly decode can recall someone without the sender risking face on a direct summons. A wrong reading costs the sender nothing. A correct one achieves exactly what a direct request would have. In the Jataka's tale of the exiled chaplain, a king wants to recall him without the loss of face a direct summons would carry, so he sends a sealed riddle-verse wrapped with cooked crow's meat, reasoning explicitly: 'If he is wise, when he has read the letter and seen that it is crow's-meat, he will come; if not, then he will not come.' If the chaplain fails to decode it, the message reads as nothing more than an odd gift — no invitation was ever visibly extended, and no rejection was ever visibly risked."
+related: []
+evokes: [jataka, dukanipata, punna-nadi-jataka, plausible-deniability-through-deliberate-ambiguity, a-message-that-costs-nothing-if-misread-and-everything-if-decoded]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-punna-nadi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 214, Punna-nadi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "If he is wise, when he has read the letter and seen that it is crow's-meat, he will come; if not, then he will not come."
+canonical-instances:
+  - "A company that laid off a valued former employee under pressure it now regrets sends them a vague, informal note mentioning an open role without directly inviting them back, reasoning that a former employee sharp enough to read between the lines will apply, while anyone who doesn't will never even realize an invitation was extended."
+critical-questions:
+  - "How much does this rely on the recipient actually being as sharp as the sender assumes — what happens to the relationship if a genuinely capable chaplain simply doesn't happen to catch the specific riddle, and the recall silently fails despite his real competence?"
+  - "Is there a cost to using ambiguity here that the immediate plan overlooks — does training a valued subordinate to expect indirect, decodable signals instead of direct requests create ongoing friction the one-time face-saving benefit doesn't offset?"
+status: active

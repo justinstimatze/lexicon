@@ -1,0 +1,19 @@
+id: lex-3drmp
+name: attackers-sharing-a-target-but-not-a-priority-expose-each-other
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Two threats converging on the same target from different motives are not automatically a compounded danger — if they disagree about the order or division of the outcome, that disagreement can surface loudly enough to alert and save the target. In the Panchatantra, a thief and a ghost both intend to exploit the same sleeping Brahman for their own separate purposes, and instead of coordinating, argue over who goes first: 'so they disputed, each crying, Me first! Me first! And when they became heated, the hubbub waked the Brahman.' The verse draws the general lesson: 'from enemies expect relief, if discord pierce their host; thus, life was given by the thief and cattle by the ghost.' The Brahman's safety came entirely from the attackers' shared target masking a lack of shared priority — a coalition that looks unified from outside can be running on completely uncoordinated internal motives."
+related: []
+evokes: [panchatantra, crows-and-owls, misaligned-attackers-expose-each-other, discord-among-enemies-protects-the-target]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-the-brahman-the-thief-and-the-ghost
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book III, 'The Brahman, the Thief, and the Ghost.' Verified verbatim against a direct extraction of the held copy."
+    quote: "So they disputed, each crying “Me first! Me first!” And when they became heated, the hubbub waked the Brahman."
+canonical-instances:
+  - "a company under simultaneous attack from a hostile takeover bid and an activist short-seller campaign survives both, not because either threat was individually weak, but because the acquirer and the short-seller have completely incompatible timelines and their public disagreement over how to proceed tips off the board in time to respond to each separately."
+critical-questions:
+  - "Is this outcome something the Brahman could have relied on in advance, or was it pure luck that his two attackers happened to have conflicting priorities rather than a shared, coordinated plan that would have overwhelmed him?"
+  - "Does discord among enemies reliably reveal itself loudly enough to be noticed, or does the fable's dramatic shouting match understate how often such disagreements stay quiet and never actually surface to warn the target?"
+status: active

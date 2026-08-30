@@ -1,0 +1,22 @@
+id: lex-tgh64
+name: the-assumed-threat-direction-turns-out-reversed
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A visitor to a vulnerable-seeming host population can assume the natural direction of danger runs from the powerful outsider toward the host, and ask why the host would fear them. The host can invert the framing entirely: the actual risk runs the other way, toward the visitor, because the host population is bound together by a shared, absolute collective stake the visitor hadn't accounted for, and any harm to one member would draw a response from the whole group the visitor could not survive. Gilman stages the inversion exactly: Terry asks why the women fear letting three men roam freely. 'Oh no,' she said quickly, in real surprise. 'The danger is quite the other way. They might hurt you. If, by any accident, you did harm any one of us, you would have to face a million mothers.'"
+related: []
+evokes: [herland, chapter-6, the-danger-is-quite-the-other-way, you-would-have-to-face-a-million-mothers, the-visitor-mistakes-who-holds-the-real-threat]
+lineage:
+  - source: primary
+    text: gilman-1915-herland-chapter-6
+    citation: "Charlotte Perkins Gilman, Herland (1915), Chapter 6, 'Comparisons Are Odious.' Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "\"You surely do not think that any of us,\" he said it with a good deal of emphasis on the \"us,\" \"would hurt your young girls?\" \"Oh no,\" she said quickly, in real surprise. \"The danger is quite the other way. They might hurt you. If, by any accident, you did harm any one of us, you would have to face a million mothers.\""
+canonical-instances:
+  - "A new hire assumes their manager should worry about a junior employee overstepping bounds, and asks why they're being so closely supervised, only to learn that the real risk runs the other way: if they mishandle a client relationship the whole company has spent years building trust with, they'll face consequences from every department that depends on that account, not the other way around."
+  - "A foreign investor assumes a small local cooperative should be nervous about a large corporation entering their market, and asks why the cooperative seems so unconcerned, only to learn that the cooperative's members are bound by decades of mutual obligation that would mobilize instantly and expensively against any outsider who threatened one of their own."
+  - "A substitute teacher assumes a tight-knit classroom of students should be wary of an unfamiliar adult in charge. The regular teacher surprises them: the actual risk runs the other way. Every parent in this close local community would respond as one if the substitute mishandled a single child."
+critical-questions:
+  - "Is the host's confidence in this inverted threat assessment actually well-founded, or could it be an overestimate of collective solidarity that would not, in practice, materialize the way the host describes if something actually went wrong?"
+  - "Does naming this inversion out loud change the visitor's behavior going forward, or does the visitor's prior assumption about who holds the power remain operative in practice even after being told otherwise?"
+  - "Is the collective stake the host describes -- a shared identity so total that any individual harm becomes everyone's business -- something that could exist without the specific bond (motherhood, kinship, tight community) this case relies on, or does the mechanism require that kind of total shared stake to work at all?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-gj5aj
+name: non-conformity-to-a-grief-ritual-is-read-as-a-hidden-motive
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Failing to perform the emotional display a community expects after a loss doesn't read as equanimity or a different way of coping — onlookers default to inferring a hidden, self-interested motive for the absence of the expected performance. In the Jataka's tale of the composed heir, when the Bodhisatta doesn't weep at his brother's death, the community doesn't credit him with calm; they suspect calculation: 'See now, though his brother is dead, he does not so much as pull a wry face: he is a very hard-hearted fellow. Methinks he desired his brother's death, hoping to enjoy a double portion.'"
+related: []
+evokes: [jataka, catukkanipata, matarodana-jataka, absent-grief-display-defaults-to-a-suspected-motive, equanimity-is-not-the-communitys-first-hypothesis]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-matarodana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 317, Matarodana-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"See now, though his brother is dead, he does not so much as pull a wry face: he is a very hard-hearted fellow. Methinks he desired his brother's death, hoping to enjoy a double portion.\""
+canonical-instances:
+  - "A co-worker who doesn't cry or take bereavement leave after a parent's death, having already processed the grief privately months earlier during a long illness, finds colleagues quietly speculating that they must not have been close to the parent at all, or worse, that the death was somehow convenient."
+critical-questions:
+  - "Is the community's suspicion actually unreasonable here, given that people genuinely do sometimes fake composure to hide guilt or ulterior motives — how would an outside observer distinguish real equanimity from calculated indifference without more information?"
+  - "Does this pattern place unfair pressure on people to perform grief they don't feel, purely to avoid being read as suspicious, regardless of what's actually going on inside them?"
+status: active

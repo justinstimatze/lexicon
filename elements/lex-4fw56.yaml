@@ -1,0 +1,19 @@
+id: lex-4fw56
+name: a-fixed-narrative-can-reframe-any-new-evidence-as-confirming-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone interprets every new piece of evidence as confirming their existing conclusion, check whether their framework is actually flexible enough to absorb contradictory data just as easily as supporting data. Aesop's 'The Sick Man and the Doctor' has a patient reframe each worsening symptom — sweats, then chills, then fever — as further proof of recovery, right up until his death: 'My dear friend, I'm dying of good signs.' This is not simple denial or false hope; the diagnostic schema is unfalsifiable by construction, flexible enough that no incoming evidence, however it points, can ever disconfirm it."
+related: [lex-ccaxt, lex-h8qaf]
+evokes: [aesop, the-sick-man-and-the-doctor, unfalsifiable-by-construction, reframing-contradictory-evidence-as-confirmation]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-sick-man-and-the-doctor
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Sick Man and the Doctor.' Verified verbatim against a direct extraction of the held copy."
+    quote: "My dear friend, I'm dying of good signs."
+canonical-instances:
+  - "a leadership team reframes every worsening metric — rising churn, slipping deadlines — in stand-ups as 'actually a good sign,' each new data point absorbed into the same unfalsifiable narrative right up until the company folds."
+critical-questions:
+  - "Is there a diagnostic test for catching a schema like this before the outcome resolves it — some pattern in how contradictory evidence gets reframed that would flag the unfalsifiability in advance, rather than only in hindsight?"
+  - "Does the sick man believe his own reframing, or is there an element of performance for the people around him — does the mechanism require genuine self-deception, or does it work the same way as a deliberate front?"
+status: active

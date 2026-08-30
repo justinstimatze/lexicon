@@ -1,0 +1,18 @@
+id: lex-h9c8e
+name: an-open-invitation-doesnt-waive-minimum-participation-standards
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Being let into an event through an unusually open or generous invitation doesn't exempt a guest from the minimum standard of participation everyone else is expected to meet — a guest gathered in off the street through an open call is still expelled for showing up without a wedding garment. The openness of the door and the requirements once inside are two separate policies, and satisfying the first doesn't retire the second."
+related: []
+evokes: [kjv, not-having-a-wedding-garment, bind-him-hand-and-foot, friend-how-camest-thou-in-hither, many-are-called-but-few-are-chosen]
+lineage:
+  - source: primary
+    text: kjv-1611-matthew-22-wedding-garment
+    citation: "The Holy Bible, King James Version (1611; this edition Project Gutenberg #10), Matthew 22:11-13. Verified verbatim against a direct extraction of the held copy."
+    quote: "And when the king came in to see the guests, he saw there a man which had not on a wedding garment: And he saith unto him, Friend, how camest thou in hither not having a wedding garment? And he was speechless. Then said the king to the servants, Bind him hand and foot, and take him away, and cast him into outer darkness, there shall be weeping and gnashing of teeth."
+canonical-instances:
+  - "A bootcamp with an unusually open admissions policy still holds every admitted student to the same graduation bar as a selective program — getting in through the wide door was never the same promise as getting through, and a student who assumed otherwise is caught off guard by a standard that was never actually relaxed."
+critical-questions:
+  - "Was the minimum standard actually communicated at the point of entry, or is it being applied after the fact to someone who had no way of knowing an open invitation still carried it?"
+status: active

@@ -1,0 +1,21 @@
+id: lex-ut93q
+name: focused-attention-on-a-threat-gives-it-purchase-over-you
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "Locking your attention onto a threat's most salient feature -- the eyes in a confrontation, the headline number in a bad report, the loudest voice in a hostile meeting -- doesn't make you more prepared for it; it opens a channel the threat can act through. A fixed stare can be held and used against you (mesmerized, intimidated, drawn off-balance) precisely because it's fixed and therefore predictable and exploitable. The defense is diffuse, whole-field awareness -- registering the threat without ever locking onto any single point of it -- rather than trying to out-focus the danger. What you concentrate your attention on becomes, briefly, a two-way channel: information flows in, but so does whatever the threat can do with the fact that it now knows exactly where your attention is."
+related: []
+evokes: [ueshiba-art-of-peace, aikido, soft-eyes, peripheral-vision, thousand-yard-stare, dont-stare-down-a-dog]
+lineage:
+  - source: primary
+    text: ueshiba-2011-art-of-peace
+    citation: "Morihei Ueshiba, The Art of Peace, trans. and ed. John Stevens (Shambhala Publications, Shambhala Classics edition, 2011; text originally published 2002), Part Three, The Art of Peace."
+    quote: "'Do not stare into the eyes of your opponent: he may mesmerize you. Do not fix your gaze on his sword: he may intimidate you. Do not focus on your opponent at all: he may absorb your energy.'"
+canonical-instances:
+  - "A driver taught to steer away from a hazard is warned not to stare at it, because fixed visual attention pulls the wheel toward whatever the eyes are locked on -- target fixation is a documented failure mode in motorcycling and flying, not a metaphor. A negotiator who fixes on one aggressive counterpart's face gives that counterpart a visible readout of exactly when their pressure is landing, which is information the counterpart can use to calibrate the next push."
+  - "A public figure being heckled who stares directly at the loudest heckler visibly loses composure on camera because the fixation is legible to the heckler and the audience alike, while a figure who keeps a wide, unfocused awareness of the room -- registering the heckler without locking onto them -- gives nothing back for the heckler to escalate against."
+  - "Operationally distinct from lex-8ennw harm-as-resource-via-redirection and lex-ab5zk strength-has-a-bounded-zone-relocate-past-its-edge: those atoms are about what to DO with an opponent's force or position once engaged. This atom is about a precondition upstream of any technique -- where your own attention sits -- and names a channel of vulnerability that exists independent of whether you ever redirect or relocate anything."
+critical-questions:
+  - "Is diffuse awareness actually achievable under real acute threat, or is fixation an involuntary attentional capture (the startle response, the orienting reflex) that can't be trained away by an instruction to not focus?"
+  - "Does this generalize past interpersonal threat to information environments -- fixating on one alarming metric or headline while a diffuse read of the whole dashboard would catch more -- or does the mechanism specifically require a threat capable of PERCEIVING your fixation and acting on it, which a dashboard cannot do?"
+status: active

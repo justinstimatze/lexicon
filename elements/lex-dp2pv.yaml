@@ -1,0 +1,18 @@
+id: lex-dp2pv
+name: post-failure-blame-lands-on-execution-not-the-plan-itself
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'After a scheme fails, the partners'' mutual recrimination targets a specific lapse in discipline rather than questioning whether the underlying plan was sound to begin with, protecting the plan''s designer from having to reconsider the strategy. In the Jataka''s tale of Putimansa, the jackal''s wife blames his open eyes for the plot''s collapse, not the plot itself: "You too, my lord, were hardly wise, / And, foolish creature, raised your head, / Staring about with open eyes, / Though feigning to be dead."'
+related: []
+evokes: [jataka, navanipata, putimansa-jataka, blaming-execution-not-the-plan, post-mortem-deflection]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-putimansa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 437, Putimansa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "You too, my lord, were hardly wise, / And, foolish creature, raised your head, / Staring about with open eyes, / Though feigning to be dead."
+canonical-instances:
+  - "After a product launch flops, the team's retro fixates on a marketing email that went out a day late, never questioning whether the underlying product was something customers wanted at all."
+critical-questions:
+  - "Whose interest does it serve to locate the failure in execution rather than in the plan — and is that always the wrong place to look, or sometimes the actually correct diagnosis?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-kcjey
+name: check-exit-cost-under-the-recurring-failure-not-just-present-appeal
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When choosing between two options that share the same failure mode, check whether one traps you under that failure while the other lets you simply walk away, rather than judging the options only by their present appeal. Aesop's 'The Frogs and the Well' has one frog propose moving from a drying marsh into a well; the other stops it by naming the hidden asymmetry: 'Not so fast, my friend: supposing this well dried up like the marsh, how should we get out again?' Both the marsh and the well can dry up identically, but the marsh is a two-way door and the well is a one-way one — the decisive variable is the reversibility of each option under the shared failure condition, not which one looks more appealing right now."
+related: []
+evokes: [aesop, the-frogs-and-the-well, reversibility-under-shared-failure, one-way-vs-two-way-door]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-frogs-and-the-well
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Frogs and the Well.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Not so fast, my friend: supposing this well dried up like the marsh, how should we get out again?"
+canonical-instances:
+  - "choosing between a reversible crisis response, like a temporary furlough, and an irreversible one, like permanent closure, by explicitly checking whether the situation can still be undone if conditions get worse before committing to either."
+critical-questions:
+  - "Does this reasoning generalize to any pair of options sharing a failure mode, or does it specifically require one option to be a physical trap the way a well is, versus a more abstract or gradual form of irreversibility?"
+  - "Is checking exit cost always worth the delay it costs to consider — could excessive caution about reversibility sometimes lead frogs to reject a genuinely better option purely because it happens to be harder to escape?"
+status: active

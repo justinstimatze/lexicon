@@ -1,0 +1,19 @@
+id: lex-fqtcc
+name: winning-a-disputation-by-posing-the-one-question-they-cant-answer
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Defending against every challenge a rival puts to you only ties the contest; going on offense with a single question of your own, chosen because you know they cannot answer it, is what actually forces submission. In the Jataka's tale of the Licchavi disputants, Sariputta solves every one of a thousand theses the four female ascetics propound, then reverses the exchange: 'Then I,' said he, 'will ask you something.' 'So the priest propounded just one question to them, and when they had to give it up, the priest told them the answer.' Only then do they concede: 'We are beaten, the victory rests with you.'"
+related: []
+evokes: [jataka, catukkanipata, cullakalinga-jataka, defense-alone-only-ties-a-contest, one-chosen-question-forces-concession]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-cullakalinga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 301, Cullakalinga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "So the priest propounded just one question to them, and when they had to give it up, the priest told them the answer. Then said they, \"We are beaten, the victory rests with you.\""
+canonical-instances:
+  - "A candidate in a policy debate spends the whole exchange rebutting every point the opponent raises, then near the end asks one question the opponent's own platform has no answer for. The rebuttals only kept the debate even; that one question is what the room remembers as the loss."
+critical-questions:
+  - "Does the closing question actually settle the substantive dispute, or does it just win the optics of the exchange while leaving the underlying disagreement unresolved?"
+  - "What happens when the challenger has no unanswerable question in reserve — does the tactic collapse into an ordinary tie, or does bluffing one still work on an audience that can't verify it?"
+status: active

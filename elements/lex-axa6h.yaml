@@ -1,0 +1,31 @@
+id: lex-axa6h
+name: order-of-magnitude-approximation
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: "When a calculation is dominated by uncertainty, an order-of-magnitude approximation is more honest than a precise number. Fermi-style: round to the nearest power of 10, propagate, see if the answer is plausible. Precision-theater hides ignorance."
+related: [lex-4yhqs, lex-chp44, lex-ds73b, lex-3ydmv, lex-yg484, lex-n6t4u, lex-cpgyd, lex-g9zrz, lex-7wxxd, lex-tgqrf, lex-agefm, lex-w7fxz, lex-sgd2s, lex-7aqqb, lex-4697f, lex-875gz, lex-qfwuf]
+scaffolds-from: [lex-ds73b, lex-yg484, lex-n6t4u]
+evokes: [back-of-envelope, fermi-flavor, log-space-thinking, ignore-the-prefactor, powers-of-ten]
+lineage:
+  - source: primary
+    text: fermi-tradition
+    citation: "Enrico Fermi's pedagogical insistence on order-of-magnitude estimation as a physicist's first tool — culminating in the 'Fermi problems' tradition (e.g., 'How many piano tuners in Chicago?'). The discipline: bound the answer to within one or two orders of magnitude before any precise calculation"
+  - source: practitioner
+    text: bignum-asymptotic-analysis
+    citation: "CS asymptotic analysis (Knuth's TAOCP, throughout) discards constant factors precisely because they're below the order-of-magnitude resolution that asymptotic comparison cares about; big-O is order-of-magnitude approximation as a methodological commitment"
+  - source: practitioner
+    text: physics-decomposition-pass
+    citation: "promoted from cross-attestation: physics (Fermi estimates), CS (big-O analysis, performance budgeting), engineering (rough sizing of beams, currents, tolerances before precision design), finance (TAM estimation, valuation napkin math, scenario sizing), product management (rough effort estimation when precise estimation is impossible or wasteful)"
+canonical-instances:
+  - "estimating the number of cells in a human body: ~10^14 (37 trillion is the often-cited refined estimate, but the order is the vital piece — knowing it's ~10^14 vs ~10^9 vs ~10^20 changes which biology problems are tractable)"
+  - "performance budget: 'this needs to handle ~10^4 requests/sec' — the order-of-magnitude is what determines architecture (single server vs distributed); the precise number determines tuning"
+  - "Sagan's 'billions and billions' tic was order-of-magnitude pedagogy: the precise count of stars in a galaxy doesn't matter; the order-of-magnitude (~10^11) is what carries cosmological intuition"
+  - "explicit pairing with lex-chp44 meta-pointer: an order-of-magnitude claim KNOWS more precision exists than is being represented (that's the whole point of bounding to ±1 log unit); the meta-pointer makes the represented-vs-actual gap inspectable rather than hidden"
+critical-questions:
+  - "is the decision being made one where order-of-magnitude resolution actually resolves the question? Atom fires for feasibility checks, architecture sizing, regulatory-threshold tests. Atom misfires when the question hinges on close-call optimization, A/B differences, or any case where 1.2× vs 0.8× changes the answer. Discriminator: does flipping the result by a factor of 3 change the next action?"
+  - "are the relevant quantities log-normally distributed (or close enough) for log-space thinking to make sense? Counts, sizes, rates, durations across many orders are good fits; ratios, percentages, probabilities already bounded to [0,1] are not — 'order of magnitude of 0.3' is conceptually strange. Multiplicative-error has to be the dominant error mode for OOM-care to pay off."
+  - "how many OOM-approximated factors compound in the answer? Fermi sequences of 5-7 multiplicative factors can accumulate ±2-3 orders of total uncertainty. The bound on each factor must be tighter than the question's tolerance divided by sqrt(N) for the product to land within useful range."
+  - "is the dominant error random (averages cancel across factors) or systematic (biased the same direction in every factor)? Fermi estimation banks on independence; if every estimator under-counts in correlated ways (motivated reasoning, shared blind spot, shared reference class), OOM-discipline doesn't help. Discriminator: list the factors and check whether the biases are independent."
+  - "would the next action change with one more decimal place of precision? If yes, OOM is the wrong abstraction layer — go measure or model. If no, more precision is wasted work and may produce false confidence."
+status: active

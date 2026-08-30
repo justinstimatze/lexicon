@@ -1,0 +1,19 @@
+id: lex-jhfrx
+name: a-captured-leader-delays-its-own-distress-cry-until-dependents-are-fed
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a leader responsible for a dependent group is caught or endangered in a way that would normally trigger an immediate alarm, the leader can deliberately suppress that signal — accepting personal risk from the delay — specifically until the dependents have finished a vulnerable activity (feeding, in the Jataka's tale) that the alarm would otherwise interrupt. The suppression is not concealment of the danger itself, only a timed withholding of the SIGNAL, released the moment it can no longer harm the group. In the Jataka's tale, the parrot king, caught by the foot in a snare, reasons through the tradeoff explicitly before staying silent: \"Now if I cry out the cry of the captured, my kinsfolk will be so terrified, they will fly away foodless. I must endure until they have finished their food.\" Only once he judges them fed does he act: \"When at last he perceived that they had taken their fill, being in fear of his life, he thrice cried the cry of the captured.\""
+related: []
+evokes: [jataka, pakinnakanipata, salikedara-jataka, timed-withholding-of-an-alarm-signal, personal-risk-absorbed-to-protect-a-groups-activity]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-salikedara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XIV (Pakinnaka-Nipata), No. 484, Salikedara-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Now if I cry out the cry of the captured, my kinsfolk will be so terrified, they will fly away foodless. I must endure until they have finished their food."
+canonical-instances:
+  - "A team lead notices during a live client call that a critical deployment has just failed, but waits until the call's remaining agenda items are finished rather than derailing the meeting immediately, judging the extra minutes of exposure worth protecting the rest of the team's presentation."
+critical-questions:
+  - "The parrot's judgment about when it's safe to signal turns out to be correct in the story — the flock has genuinely finished eating. What does this pattern look like when the leader's timing judgment is wrong, and the group needed the earlier warning more than the extra minutes of uninterrupted activity?"
+  - "Does the leader's own willingness to absorb the cost of delay change if the danger is expected to worsen with time (as it plausibly could for a creature caught in a snare), versus a danger that stays constant while the delay is absorbed?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-ax5e6
+name: legitimate-exchange-tolerates-visibility-extraction-requires-concealment
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When comparing two relationships that both draw on the same resource, check whether the one offering nothing in return is the one that specifically depends on staying hidden. Aesop's 'The Flea and the Ox' has an ox tolerate being patted and worked in exchange for care, while a flea admits it survives only by avoiding exactly that same attention: 'They'd pat me, too, if I let them: but I take good care they don't, or there would be nothing left of me.' Reciprocal exchange is stable under observation because both sides get something from it; extraction with nothing offered in return can only continue as long as it stays unnoticed, which the flea itself names as the actual condition of its survival."
+related: []
+evokes: [aesop, the-flea-and-the-ox, visibility-as-the-load-bearing-variable, extraction-requires-concealment]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-flea-and-the-ox
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Flea and the Ox.' Verified verbatim against a direct extraction of the held copy."
+    quote: "They'd pat me, too, if I let them: but I take good care they don't, or there would be nothing left of me."
+canonical-instances:
+  - "a hidden fee or skimmed margin survives only as long as it's unitemized — made legible on a statement or audit, it gets eliminated, unlike a transparent fee that survives disclosure precisely because it offers something visible in return."
+critical-questions:
+  - "Is visibility alone a reliable test for distinguishing legitimate exchange from extraction, or can a genuinely reciprocal relationship also prefer to stay unnoticed for reasons unrelated to hiding a one-sided arrangement?"
+  - "Once an extraction relationship like the flea's is exposed, does the exposure alone end it, or does the extracting party simply need to find a new way to stay hidden rather than actually offering something in return?"
+status: active

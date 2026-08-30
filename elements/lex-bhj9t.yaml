@@ -1,0 +1,19 @@
+id: lex-bhj9t
+name: the-pace-of-consuming-a-windfall-matters-as-much-as-having-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Possessing a valuable windfall and extracting value from it safely are two separate problems, and greedily rushing the second can destroy what the first already secured. The Panchatantra's jackal stumbles onto a dead warrior's bow, its taut sinew string still under tension, and tries to devour the whole thing at once rather than working through it carefully; the string snaps back and kills him. The verse states the general principle the jackal ignored: 'consumption of a treasure earned should very slowly follow, as wise men sip elixir down, not bolt it at a swallow.' The windfall itself was not the danger — the jackal had already safely acquired it — the danger was entirely in the rate at which he tried to convert it into consumed value."
+related: []
+evokes: [panchatantra, winning-of-friends, pace-of-extraction-matters-not-just-possession, overhasty-consumption-of-a-windfall]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-self-defeating-forethought
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book II, 'Self-Defeating Forethought.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Consumption of a treasure earned Should very slowly follow, As wise men sip elixir down, Not bolt it at a swallow."
+canonical-instances:
+  - "a startup that has just closed a large funding round spends it at the same aggressive burn rate the round was meant to sustain for two years, running out of runway in six months — the windfall itself was real and safely secured, but the pace of drawing it down is what actually determined the outcome."
+critical-questions:
+  - "Is slow consumption always the safer choice, or are there windfalls that genuinely need to be converted quickly — a limited-time opportunity, a perishable resource — where the jackal's caution would itself be the wrong strategy?"
+  - "Did the jackal actually have a way to recognize the string's tension as a specific, identifiable danger in advance, or does the fable only make the warning look obvious in hindsight, after the mechanism of the death is already known?"
+status: active

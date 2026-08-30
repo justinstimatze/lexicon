@@ -1,0 +1,19 @@
+id: lex-sjg73
+name: visible-rank-insignia-becomes-a-liability-exactly-when-speed-matters-most
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a status marker confers advantage during normal operation, check whether that same marker becomes a physical liability precisely at the moment things go wrong and escape or inconspicuousness matters most. In Aesop's 'The Mice and the Weasels,' mouse-leaders wearing horns as badges of command are the only ones destroyed in a rout: 'All made their way to safety without difficulty except the leaders, who were so hampered by the badges of their rank that they could not get into their holes, and fell easy victims to their pursuers.' This is a structural design trade-off — visibility bought at the cost of escape capacity — closer to why real officers historically removed rank insignia before combat than to any lesson about pride."
+related: []
+evokes: [aesop, the-mice-and-the-weasels, rank-insignia-as-liability, visibility-vs-escape-capacity]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-mice-and-the-weasels
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Mice and the Weasels.' Verified verbatim against a direct extraction of the held copy."
+    quote: "All made their way to safety without difficulty except the leaders, who were so hampered by the badges of their rank that they could not get into their holes, and fell easy victims to their pursuers."
+canonical-instances:
+  - "an executive's visible perks — reserved parking, a corner office, a title — become the first and most publicly humiliating things stripped in a layoff or demotion, while a low-profile employee absorbs the same cut quietly and moves on unremarked."
+critical-questions:
+  - "Is there a way to retain the benefits of visible rank during normal operation while shedding the marker quickly enough when a crisis begins, or does the trade-off require choosing one posture and living with its cost in the other regime?"
+  - "Does this liability apply to any visible status marker, or specifically to markers that are physically cumbersome, like the mice's horns — would a purely symbolic marker with no physical bulk carry the same risk?"
+status: active

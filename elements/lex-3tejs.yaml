@@ -1,0 +1,19 @@
+id: lex-3tejs
+name: reading-an-ordinal-depletion-sequence-lets-a-bystander-preempt-their-turn
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When observing a sequence of resources being depleted one category at a time, check whether the ordinal pattern itself — who's being taken next — is actionable evidence for predicting your own turn, rather than waiting for direct evidence before acting. Aesop's 'The Farmer and His Dogs' has farm dogs watch their master sell off sheep, then goats, then oxen during a hard winter, and conclude from the trend alone, before any dog has actually been taken: 'We had better get out of this or we shall be the next to go!' The dogs act on a correctly extrapolated sequence rather than on direct evidence of their own impending fate, which is a sharper move than simply reacting once trouble finally arrives at their own category."
+related: []
+evokes: [aesop, the-farmer-and-his-dogs, trend-extrapolation-under-threat, preemptive-defection-from-a-sequence]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-farmer-and-his-dogs
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Farmer and His Dogs.' Verified verbatim against a direct extraction of the held copy."
+    quote: "We had better get out of this or we shall be the next to go!"
+canonical-instances:
+  - "employees watch a company lay off contractors, then juniors, then a whole department, and quit preemptively rather than waiting to be told it's their own turn — reading the ordinal sequence as sufficient evidence on its own."
+critical-questions:
+  - "How reliable is this kind of extrapolation in general — could the dogs have been wrong about the sequence continuing, and if so, what would distinguish a genuine ordinal trend from a coincidental run of unrelated events?"
+  - "Does acting preemptively on a predicted sequence ever backfire by abandoning a position too early, before the trend was actually confirmed to include the observer's own category at all?"
+status: active

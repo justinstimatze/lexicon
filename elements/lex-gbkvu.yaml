@@ -1,0 +1,19 @@
+id: lex-gbkvu
+name: delayed-cosmic-retribution-strikes-the-aggressor-after-the-victims-death-not-during
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Some retribution against a wrongdoer isn't triggered by the victim's feelings or actions at all — it can arrive only after the victim has already died forgiving them, disconnected from any curse, any conscious act of revenge, or even any window for the wrongdoer to repent in response. In the Jataka's tale of the Preacher of Patience, the ascetic dies still wishing the king well — 'Long live the king, whose cruel hand my body thus has marred, Pure souls like mine such deeds as these with anger ne'er regard' — and only afterward, the instant the king passes out of the dying ascetic's sight, does the earth split and hellfire seize him, entirely independent of anything the ascetic did or felt in that moment."
+related: []
+evokes: [jataka, catukkanipata, khantivadi-jataka, retribution-disconnected-from-the-victims-own-action-or-feeling, punishment-arrives-after-not-during-the-victims-forgiveness]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-khantivadi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 313, Khantivadi-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "And just as the king was leaving the garden and at the very moment when be passed out of the range of the Bodhisatta's vision, the mighty earth that is two hundred and forty thousand leagues in thickness split in two, like unto a strong stout cloth garment, and a flame issuing forth from Avici seized upon the king."
+canonical-instances:
+  - "A whistleblower dies of natural causes years after being blacklisted from their industry, having never sought revenge against the executive who ruined their career — and it's only after the funeral, unconnected to anything the whistleblower did, that an unrelated audit finally exposes and destroys that executive's reputation."
+critical-questions:
+  - "Does framing consequences as automatic and delayed like this discourage anyone from actually intervening in real time, on the assumption that some disconnected justice will eventually arrive on its own?"
+  - "What distinguishes this from ordinary coincidence — is the retribution here meaningfully 'triggered' by anything at all, or is the story imposing a moral pattern onto events that would otherwise just be two unrelated facts in sequence?"
+status: active

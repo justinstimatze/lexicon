@@ -1,0 +1,19 @@
+id: lex-r3ypz
+name: category-membership-invites-a-fatal-imitation-of-specialized-skill
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Sharing every visible trait of a category with a genuine specialist doesn't confer the specialist's actual capability, and acting as though it does, against an explicit warning, can be fatal. In the Jataka's tale of the crow and the diving crow, a weaker crow fed for a time by a stronger, fish-diving crow decides membership alone qualifies him for the skill: 'This crow,' said he, 'is black, and so am I: in eyes and beak and feet, too, there is no difference between us. I don't want his fish; I will catch my own!' He drowns attempting it. The same structure recurs with a woodpecker who decides that sharing his friend's species qualifies him to peck at hard acacia wood rather than the soft, pithless trees his own kind is actually built for — he shatters his own skull. In both cases, the visible category membership was real; the capability it was mistaken for was never actually shared."
+related: []
+evokes: [jataka, dukanipata, viraka-jataka, kandagalaka-jataka, category-membership-mistaken-for-shared-capability, imitating-a-specialist-against-an-explicit-warning]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-viraka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 204, Viraka-jataka (paired in this same chunk with the structurally identical No. 210, Kandagalaka-jataka). Verified verbatim against a direct extraction of the held copy."
+    quote: "This crow, said he, is black, and so am I: in eyes and beak and feet, too, there is no difference between us. I don't want his fish; I will catch my own!"
+canonical-instances:
+  - "A junior developer who has watched a senior colleague confidently rewrite production database migrations decides that since they're both engineers with the same job title, they're equally qualified to do the same, and takes down a live system attempting a migration the senior colleague had years of specific, hard-won experience to handle safely."
+critical-questions:
+  - "What made the visible traits (blackness, beak, feet; being a woodpecker) feel like sufficient evidence of shared capability, when the actual skill in question (diving without drowning, pecking hard wood without injury) was never demonstrated or tested before the fatal attempt?"
+  - "Is there a way the friend's explicit warning could have landed better? Or does category-based overconfidence resist correction by warning specifically, because the warned party reads any pushback as gatekeeping a skill they feel entitled to by membership alone?"
+status: active

@@ -1,0 +1,21 @@
+id: lex-vbbfb
+name: excess-is-framed-as-a-retained-toxin
+type-in: claim
+type-out: frame
+_tier: atomic
+agent-instruction: "When an ethical or political tradition argues against accumulation, check whether it grounds the argument in fairness, efficiency, or — a distinct and more powerful rhetorical move — bodily health. Le Guin's Odonian anarchism (voiced through the fictional philosopher Odo) doesn't argue that hoarding is unfair to others or wasteful of resources; it recasts retained excess as a literal physiological poison, using the human body's own need to excrete waste as the operative metaphor. This reframing does real argumentative work: it converts a debatable value judgment (how much is too much) into what reads as a health fact (a poison must be expelled), and it naturalizes minimalism as organismic hygiene rather than sacrifice, virtue, or ideology. Watch for this move wherever an argument borrows the authority of a biological necessity to settle what is actually a contested distributive or ethical question."
+related: [lex-kdt2v, lex-z3efa, lex-5kjya]
+evokes: [le-guin, the-dispossessed, odonianism, anti-accumulation-ethics, body-metaphor]
+lineage:
+  - source: primary
+    text: le-guin-1974-the-dispossessed-abbenay-excess-is-excrement
+    citation: "Ursula K. Le Guin, The Dispossessed (Harper and Row, 1974), the passage describing Shevek's walk through Abbenay explaining the city's spare, unheated, dim-lit architecture. No page number recoverable from the ebook-convert extraction; cited by passage. Verified verbatim, clean ebook text, no OCR."
+    quote: "No heat was furnished when the outside temperature went above 55 degrees Fahrenheit. It was not that Abbenay was short of power ... but the principle of organic economy was too essential to the functioning of the society not to affect ethics and aesthetics profoundly. 'Excess is excrement,' Odo wrote in the Analogy. 'Excrement retained in the body is a poison.'"
+canonical-instances:
+  - "Abbenay's built environment (small windows, unheated rooms above 55°F, no artificial light outside daylight hours) is presented in the text as the direct architectural consequence of this ethic — a chosen consequence, since retained excess is understood as toxic to the social body."
+  - "operationally distinct from lex-kdt2v/lex-z3efa (Sahlins, need-reduction as a path to affluence — a resource-ratio argument about wants versus supply) and lex-5kjya (costly conspicuous waste as a status signal — an argument about signaling): this atom's mechanism is neither resource-ratio nor signaling but a naturalized-biology frame applied to a social/ethical claim, doing different persuasive work than either."
+critical-questions:
+  - "Does the excrement metaphor actually establish anything about how much is 'excess,' or does it only make whatever threshold is already assumed feel more urgent and less negotiable? The metaphor supplies rhetorical force, not a criterion."
+  - "Is Le Guin representing this as Odonian society's actual functioning belief, or critically examining it — The Dispossessed is largely sympathetic to Odonianism but not uncritical, and the novel elsewhere shows Anarres's austerity producing real costs (scarcity, conformity pressure) that complicate a simple endorsement of the excrement framing."
+  - "Where else does a biological-necessity metaphor get used to foreclose debate on a genuinely contested distributive question — public-health framings of consumption, immune-system metaphors for social purity, hygiene language in political rhetoric? The pattern is worth checking for outside fiction."
+status: active

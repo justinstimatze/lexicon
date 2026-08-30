@@ -1,0 +1,20 @@
+id: lex-v8kzr
+name: enjoying-a-persuaders-words-does-not-transfer-to-accepting-their-conclusion
+type-in: situation
+type-out: state
+_tier: atomic
+agent-instruction: 'Someone can listen to an argument with real pleasure, praise the eloquence of the person making it, and still walk away holding the exact belief they held before — because being moved by how something is said is a different event from being convinced of what it claims. In the Mahanaradakassapa-Jataka, Princess Ruja spends an entire night reasoning with her father the king against his nihilist doctrine, using logic, parable, and an account of her own past lives, and the text is explicit about the result: "she was not able to deliver her father from his false doctrine: he was only pleased when he heard her sweet words, for all parents naturally love their dear children''s speech, but they do not give up their old opinions." His pleasure in her was real and his belief was untouched, and the story treats these as simply two separate facts rather than a puzzle to explain.'
+related: []
+evokes: [jataka, mahanipata, mahanaradakassapa-jataka, persuasion-failure, charm-versus-belief, entrenched-opinion]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-mahanaradakassapa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 544, Mahanaradakassapa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Still she was not able to deliver her father from his false doctrine: he was only pleased when he heard her sweet words, for all parents naturally love their dear children's speech, but they do not give up their old opinions."
+canonical-instances:
+  - "A father listens with genuine delight to his daughter's well-argued case for changing careers, tells her how proud he is of her thinking, and then continues advising her to stay exactly where she is, unmoved on the substance."
+  - "An audience gives a TED speaker a standing ovation for a moving talk on climate action and files out to their cars, having enjoyed the performance of being persuaded without adopting a single one of the speaker's actual proposals."
+critical-questions:
+  - "If enjoying an argument and being convinced by it are genuinely separate events, what would a persuasion attempt aimed at the second one, rather than the first, actually look like — is it possible to design for conviction rather than for charm at all?"
+  - "The king's affection for his daughter is what let her get the audience in the first place — does the same closeness that earns someone a hearing also cushion them from ever being taken as a real threat to the listener's settled beliefs?"
+status: active

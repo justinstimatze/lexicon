@@ -1,0 +1,19 @@
+id: lex-htrba
+name: a-self-inflicted-injury-is-falsely-attributed-to-another-party
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "An injury caused entirely by your own action — a thrown object rebounding onto yourself — can be reported as an assault by whoever happened to be nearby, manufacturing a grievance and a target for redress out of an accident with no other party actually involved. In the Jataka's tale of the goad-stick, a priest throws his own weapon at a cart driver in anger; it rebounds and wounds his own forehead, and he reports to the king that the carters assaulted him: 'The stick struck against the yoke of the chariot, and rebounding hit him on the forehead and raised a bump on his head.' The narrator draws the general lesson directly: 'Wounding another, his own wound he shows, Himself the smiter, he complains of blows.'"
+related: []
+evokes: [jataka, catukkanipata, rathalatthi-jataka, a-self-inflicted-wound-is-blamed-on-a-nearby-bystander, an-accident-manufactured-into-a-grievance-against-someone-else]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-rathalatthi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 332, Rathalatthi-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The stick struck against the yoke of the chariot, and rebounding hit him on the forehead and raised a bump on his head."
+canonical-instances:
+  - "A customer who slams a car door on their own hand in frustration at a dealership tells management the salesperson shoved the door shut on them, converting a self-inflicted accident into a formal complaint against an employee who never touched the door."
+critical-questions:
+  - "Does the accuser actually believe their own account, or is this a conscious fabrication — does the mechanism require deliberate dishonesty, or can genuine confusion about the sequence of events produce the same false attribution?"
+  - "What structural feature made the priest's false claim initially credible to the king — is there something about authority figures accusing lower-status parties that gets accepted without scrutiny by default?"
+status: active

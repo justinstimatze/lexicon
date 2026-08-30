@@ -1,0 +1,19 @@
+id: lex-ua3cf
+name: never-cede-control-over-an-asset-even-a-costly-one
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A fundamental rule of institutional politics is that control over an asset is retained regardless of whether that asset is currently a net burden, because control itself is leverage independent of the asset's balance-sheet value. Giving up authority over a headache-generating budget, team, or process looks like rational cost-cutting from an efficiency standpoint, but it also permanently forfeits a bargaining chip — the ability to trade, threaten, or negotiate around that control in future disputes. This explains behavior that looks irrational under a pure cost-benefit frame: someone fighting hard to keep a resource everyone agrees is currently a drain is very often protecting the leverage the control itself confers, not the asset's intrinsic value."
+related: []
+evokes: [jackall-moral-mazes, "one never cedes control over assets", control-as-leverage-independent-of-asset-value]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch2-never-cede-control
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 2, Section II."
+    quote: "A fundamental rule of corporate politics is that one never cedes control over assets, even if the assets are administrative headaches."
+canonical-instances:
+  - "A department head resists transferring an underperforming, resource-draining project to another team even after acknowledging it's a net loss, because giving it up would also mean giving up a seat at meetings where related decisions get made."
+critical-questions:
+  - "Is the resistance to ceding control actually about future leverage, or is it sunk-cost attachment to a project the person built — and would distinguishing the two change whether the resistance should be honored or overridden?"
+status: active

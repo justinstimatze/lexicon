@@ -1,0 +1,19 @@
+id: lex-ya76m
+name: citing-the-last-admitted-petitioner-as-grounds-for-ones-own-entry
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'A target who has grudgingly conceded a small request can be worn down further as each new petitioner cites the target''s own prior concession as evidence of an established norm, leveraging the target''s earlier compliance to ratchet a hard refusal down through a series of smaller concessions. In the Jataka''s tale of Bilari-Kosiya, each of the disguised gods in turn cites the one already let in as their own grounds for entry: "''Great Sir, there is one brahmin seated within; there must be a free meal for a brahmin, I suppose, so I will enter too.''"'
+related: []
+evokes: [jataka, dasanipata, bilari-kosiya-jataka, foot-in-the-door, social-proof-escalation]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-bilari-kosiya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 450, Bilari-Kosiya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Great Sir, there is one brahmin seated within; there must be a free meal for a brahmin, I suppose, so I will enter too."
+canonical-instances:
+  - "A landlord who reluctantly lets one tenant's guest stay an extra week finds a second tenant citing that exact precedent to justify her own guest's overstay, and then a third, each new request leaning on the last concession as the new established norm."
+  - "In a companion telling of the same miser-cycle (Book XXI, Asitinipata, No. 535, Sudhabhojana-jataka), disguised as brahmins, Sakka and three companions gain seats one at a time at the miser Kosiya's cooking-fire, each drawing on the concession Kosiya already made to the one seated before him, until all four are seated and sharing his porridge."
+critical-questions:
+  - "At what point does citing a prior concession as precedent become a legitimate appeal to consistency rather than an exploitative escalation of a target's reluctant compliance?"
+status: active

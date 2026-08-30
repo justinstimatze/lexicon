@@ -1,0 +1,19 @@
+id: lex-b7a25
+name: a-break-in-an-environmental-baseline-betrays-a-concealed-adversary
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A concealed adversary can be detected by noticing a deviation from an established environmental baseline, without ever needing to see the adversary itself. In the Jataka's tale of the antelope, the animal has watched a particular tree drop fruit the same way for a long time; when the pattern of falling changes, it infers a hunter is hiding overhead disturbing the branches, and withdraws — all before spotting any person at all. It also conceals its own detection, addressing its exit line to the tree rather than to the hunter, so the adversary doesn't learn that the anomaly was noticed. The technique requires having watched the baseline long enough to know what normal looks like; a deviation is only informative to someone who could recognize it as one."
+related: []
+evokes: [jataka, ekanipata, kuruga-jataka, baseline-deviation-detects-concealed-threat, concealing-your-own-detection]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kuruga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 21, Kuruga-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "hitherto you have been in the habit of letting your fruit fall straight to the ground like a pendant creeper; but to-day you have ceased to act like a tree."
+canonical-instances:
+  - "A system administrator who has watched a server's normal CPU pattern for months notices a subtle change in its idle-hour load, infers an intruder is running something in the background, and quietly begins gathering logs rather than immediately shutting the process down and revealing that the anomaly was spotted."
+critical-questions:
+  - "How subtle can the deviation be before it stops being reliably distinguishable from ordinary noise in the baseline — is there a floor below which this technique just produces false alarms?"
+  - "Does concealing your own detection cost you anything if the threat turns out to be more dangerous than a single withdrawal can neutralize, or is quiet withdrawal always at least as good as an open confrontation once the adversary is confirmed?"
+status: active

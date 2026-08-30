@@ -1,0 +1,19 @@
+id: lex-bfduy
+name: a-targeted-counter-strike-is-keyed-to-the-exploiters-own-routine
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A beneficial system that a predator has started exploiting doesn't have to be dismantled. A targeted counter-strike keyed to the predator's own routine within that system neutralizes the threat at the exact moment it exposes itself, leaving the system's original benefit intact for everyone else. In the Jataka's tale of the crocodile in the fish pond, a king's drum-signaled feeding ritual for his fish gets exploited by a crocodile that shows up to prey on the gathered fish; rather than ending the feeding, the king orders: 'When the crocodile is eating the fish, pierce him with a harpoon, and capture him.' The feeding continues for every other creature exactly as before — the fix targets the crocodile's specific, predictable moment of vulnerability rather than the shared system that vulnerability happened to attach itself to."
+related: []
+evokes: [jataka, dukanipata, vikannaka-jataka, target-the-exploiters-routine-not-the-exploited-system, a-predators-predictable-moment-becomes-its-own-vulnerability]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-vikannaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 233, Vikannaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "When the crocodile is eating the fish, said he, pierce him with a harpoon, and capture him."
+canonical-instances:
+  - "A community food pantry discovers one person has been repeatedly taking far more than their allotted share by exploiting the honor-system pickup process, and instead of shutting down the honor system for everyone, volunteers simply station someone to check IDs at the exact time that individual has been showing up, leaving the process untouched for all the honest recipients."
+critical-questions:
+  - "Does keying the counter-strike to a specific predictable routine work if the exploiter can vary their timing once they sense they've been targeted, or does the method only work once, against a predator too consistent or too greedy to adapt?"
+  - "Is there a version of this problem where the exploiter's presence is different enough that a targeted strike genuinely can't work without damaging the shared system anyway — does this solution generalize, or does it depend on the crocodile's exploitation being cleanly separable from the fish's normal feeding?"
+status: active

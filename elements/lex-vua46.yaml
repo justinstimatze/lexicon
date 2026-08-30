@@ -1,0 +1,19 @@
+id: lex-vua46
+name: chronic-dissatisfaction-is-a-disposition-that-a-granted-wish-cannot-fix
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone attributes their unhappiness to a specific, nameable lack, check whether the dissatisfaction is actually a stable disposition that will simply find a new object once the current one is granted. In Aesop's 'The Peacock and Juno,' a peacock complains it lacks the nightingale's voice; Juno refuses to grant the wish, naming the real diagnosis: 'if your present wish were granted, you would quickly find cause for fresh discontent.' Juno's answer is a specific causal claim rather than a moralizing plea for gratitude: the complainer's own temperament is generating the unhappiness, independent of whatever it currently blames. Satisfying the stated wish leaves that disposition fully intact, ready to attach itself to whatever is missing next."
+related: []
+evokes: [aesop, the-peacock-and-juno, dispositional-vs-situational-dissatisfaction, hedonic-treadmill]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-peacock-and-juno
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Peacock and Juno.' Verified verbatim against a direct extraction of the held copy."
+    quote: "For, if your present wish were granted, you would quickly find cause for fresh discontent."
+canonical-instances:
+  - "someone convinced a raise or a promotion will finally make them satisfied at work finds a new complaint within months of getting it, confirming that the dissatisfaction was tracking their own disposition rather than the specific thing they thought they lacked."
+critical-questions:
+  - "How would an outside observer distinguish genuine situational lack (a real, fixable deficiency) from a stable disposition toward discontent, before granting the wish and finding out which one it was?"
+  - "Does Juno's diagnosis let a ruler or authority off the hook too easily — could dismissing every complaint as dispositional dissatisfaction become a convenient excuse for never addressing a legitimate grievance?"
+status: active

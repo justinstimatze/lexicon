@@ -1,0 +1,19 @@
+id: lex-xv5er
+name: a-staged-graceful-exit-tests-an-unasked-question-about-love
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than directly asking whether someone still loves them, a person can manufacture a scenario in which they appear to be gracefully releasing that person — a packed cart, a staged farewell, absolution offered in advance — forcing a genuine, unrehearsed reaction rather than a scripted answer, because the stakes are made to feel real and final. In the Jataka''s tale of Indriya, the wife stages exactly this test on her ascetic husband: "Sir, you are a saint now: we have been staying in this house all this time; but there can be no proper householder''s life without a master, so we will take another house and go far into the country: be zealous in your good works, and forgive me if Iam doing wrong."'
+related: []
+evokes: [jataka, atthanipata, indriya-jataka, staged-loyalty-test, manufactured-final-scenario]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-indriya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 423, Indriya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Sir, you are a saint now: we have been staying in this house all this time; but there can be no proper householder's life without a master, so we will take another house and go far into the country: be zealous in your good works, and forgive me if Iam doing wrong."
+canonical-instances:
+  - "Instead of asking her business partner outright whether he still wants to keep working together, a founder announces she's accepted an offer to relocate and hand him full control, watching for his genuine, unscripted reaction before the plan is ever made real."
+critical-questions:
+  - "Does staging a false final scenario to get an honest reaction risk producing a distorted answer, given that a person under sudden, manufactured pressure may not react the way they would to a genuine, gradual parting?"
+  - "What happens to the relationship afterward once the tested party learns, if they ever do, that the final scenario was staged rather than real?"
+status: active

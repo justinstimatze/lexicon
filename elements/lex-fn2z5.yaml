@@ -1,0 +1,19 @@
+id: lex-fn2z5
+name: parallel-categorical-maxims-let-a-listener-self-indict
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A direct accusation can be replaced with a set of parallel maxims, each pairing a different social role with its own characteristic failure, leaving the actual target to supply the self-application no one stated aloud. The critique lands by structural analogy rather than by naming a name. In the Jataka's tale of the imprisoned king, the wronged ruler answers his aggressor not with a direct charge but with a string of role-and-failure pairs: 'The idle sensual layman I detest, the false ascetic is a rogue confest. A bad king will a case unheard decide; wrath in the sage can ne'er be justified.'"
+related: []
+evokes: [jataka, pancanipata, manikundala-jataka, indirect-rebuke-via-parallel-maxims, listener-supplies-the-self-application]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-manikundala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 351, Manikundala-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The idle sensual layman I detest, The false ascetic is a rogue confest. A bad king will a case unheard decide; Wrath in the sage can ne'er be justified."
+canonical-instances:
+  - "A board member responding to a CEO's overreach doesn't name the CEO directly, but lists in sequence what a founder who forgets they work for shareholders looks like, what a board that rubber-stamps looks like, and what an auditor who stops asking questions looks like — leaving everyone in the room to place themselves in the list."
+critical-questions:
+  - "Does the indirection actually protect anyone, or does everyone in the room already know exactly who each maxim is aimed at, making the indirection a matter of form rather than substance?"
+  - "Is there a risk the listener simply declines to supply the self-application — hearing the maxims as general wisdom rather than a rebuke — so the technique only works on someone already primed to feel guilty?"
+status: active

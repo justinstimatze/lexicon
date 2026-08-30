@@ -1,0 +1,36 @@
+id: lex-yg484
+name: multiplicative-decomposition
+type-in: question
+type-out: claim
+_tier: atomic
+agent-instruction: "When decomposing a process, check whether the parts multiply rather than add. Multiplicative decomposition: if any factor is zero, the whole is zero. Pipelines with this shape have a CHAIN structure; one weak link dominates the total."
+related: [lex-ds73b, lex-axa6h, lex-3ydmv, lex-spk4s, lex-mnxhs, lex-jue9r, lex-kxbm2, lex-g9zrz]
+scaffolds-from: [lex-ds73b]
+evokes: [factor-the-unknown, express-Q-as-product, log-additive-decomposition, multiplicative-structure, fermi-step-one]
+lineage:
+  - source: practitioner
+    text: mahajan-2010-street-fighting-mathematics
+    citation: "Sanjoy Mahajan, Street-Fighting Mathematics: The Art of Educated Guessing and Opportunistic Problem Solving (MIT Press 2010, open-access via MIT). The book systematizes the multiplicative-decomposition move as a discrete cognitive step preceding the actual estimation; Ch.1 ('Dimensions') and Ch.5 ('Lossless compression') treat the move as a first-class teachable skill rather than implicit in 'estimation.' Mahajan's framing distinguishes the structure-finding move (multiplicative-decomposition) from the magnitude-finding move (order-of-magnitude-approximation, lex-axa6h) — the two are sequentially composed in Fermi estimation but separable in other contexts (e.g., dimensional analysis applies multiplicative-decomposition without needing order-of-magnitude precision). No verbatim quote is claimed here — the text is open-access at mitpress.mit.edu/9780262514293/street-fighting-mathematics."
+  - source: practitioner
+    text: fermi-1940s-pedagogical-tradition
+    citation: "Enrico Fermi's pedagogical method (transmitted through generations of physics graduate students) explicitly separates the factor-finding step from the estimation step. Students who skip the factor-finding step and jump straight to estimation typically produce worse answers because the implicit factorization is poor. The discipline of WRITING OUT the multiplicative-decomposition before estimating is the essential technique; verbalizing the structure forces honesty about the chosen factors. No verbatim quote is claimed here — this is a transmitted pedagogical tradition rather than a single citable text; Weinstein & Adam 2008 Guesstimation (Princeton UP) attests the discipline in collected form."
+  - source: practitioner
+    text: physics-decomposition-pass
+    citation: "promoted from forcing-function in lex-3ydmv fermi-estimation assembly (ass-3): the lead step of fermi was a bare-name 'decompose-into-multiplicative-factors' for 12+ sessions before being minted as a first-class atom. Cross-domain attestation present beyond physics: queueing theory (Little's Law: L = λ·W decomposes queue length into arrival rate times wait time), finance (NPV = Σ CF/(1+r)^t — multiplicative-then-additive decomposition of value), epidemiology (R₀ = β·c·D — basic reproduction number as transmissibility-times-contact-rate-times-duration), business (TAM = market-size × penetration × ARPU)"
+canonical-instances:
+  - "the canonical Fermi step-one: piano-tuners-in-Chicago — express Q (tuners) as (Chicago population) × (households per person) × (fraction with piano) × (tunings per piano per year) ÷ (tunings per tuner per year). The factorization itself is the distinctive cognitive move; magnitude estimates come next (lex-axa6h)"
+  - "Little's Law in queueing theory: L = λ · W. The factorization expresses an apparently-monolithic quantity (mean number in system) as the product of two independently-measurable quantities (mean arrival rate × mean residence time). The decomposition is what makes the variables tractable; you measure each factor separately"
+  - "basic reproduction number in epidemiology: R₀ = β · c · D (transmission probability × contact rate × infectious-period duration). Same shape: an emergent quantity (epidemic-doubling-tendency) factored into independently-estimable mechanisms. Public-health interventions target individual factors (vaccines reduce β, distancing reduces c, antivirals reduce D)"
+  - "TAM (total addressable market) sizing in business: market-size × adoption-fraction × ARPU. The factor list shapes the strategic conversation; each factor maps to a different go-to-market lever, so the decomposition isn't decorative — it determines which intervention space you're operating in"
+  - "operationally distinct from lex-mnxhs contradiction-resolution-via-parameter-decomposition: lex-mnxhs decomposes a CONFLICTED parameter (e.g., wall must be thin AND thick) into separable contexts in which the conflict resolves. lex-yg484 decomposes an UNKNOWN quantity into independently-estimable factors. Different goals (resolve conflict vs estimate magnitude); different output shapes (parameter splits vs factor product)"
+  - "operationally distinct from lex-jue9r categorical-axis-decomposition: lex-jue9r names dimensions of CATEGORIZATION (axes along which entities differ); lex-yg484 expresses a quantity as a PRODUCT of factors. Categorical-axis is for classifying, multiplicative-decomposition is for quantifying"
+  - "operationally distinct from lex-spk4s isolate-component-for-separate-treatment: isolate names extracting ONE component for separate handling; multiplicative-decomposition expresses the WHOLE as a product of multiple factors all of which are kept and acted on jointly"
+  - "foundational critical question: are the factors actually independent? Multiplicative decomposition's error-canceling property (errors in log-space sum, but over- and under-estimates tend to balance) relies on independence. Correlated factors compound errors. If you suspect correlation, either re-factor to remove the correlation OR widen your uncertainty bands by the suspected correlation"
+  - "decisive critical question: is the multiplicative shape RIGHT, or is the answer fundamentally additive? Some quantities decompose additively (total-revenue = subscription-revenue + transaction-revenue + ad-revenue) and forcing a multiplicative factorization produces a wrong shape (you can't meaningfully multiply revenue-streams). The factor-finding step requires honesty about whether the underlying structure is multiplicative"
+  - "indispensable critical question: are the factors chosen to be ESTIMABLE FROM COMMON KNOWLEDGE? A factorization into terms that are themselves unknown (Q = α·β·γ where you have no priors on α, β, or γ) is useless. The chosen factors must be quantities the estimator has plausible priors on"
+critical-questions:
+  - "is the decomposition into independent factors — or are the factors correlated, in which case multiplying double-counts?"
+  - "is the product capturing the structure, or is the structure additive (sum) at the relevant scale?"
+  - "what's the cost of the wrong decomposition — does it inflate or deflate the answer systematically?"
+  - "could the multiplicative form be hiding a sensitivity to one factor (vanishing or exploding) that an additive form wouldn't?"
+status: under-review

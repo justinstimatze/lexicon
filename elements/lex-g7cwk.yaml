@@ -1,0 +1,19 @@
+id: lex-g7cwk
+name: one-withheld-payment-exposes-what-a-relationship-actually-ran-on
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A relationship maintained for years by continuous payment can be severed instantly and completely the one time payment is absent, with the withheld party reasoning explicitly that leniency now would erode future payment discipline — the single missed instance functioning as an unplanned natural experiment exposing what the relationship''s stability actually depended on. In the Jataka''s tale of Atthana, the courtesan reasons this way the one time her patron arrives empty-handed: "She thought, "If I admit him to-day, he will come empty-handed on other days, and so my wealth will be lost: won''t admit him this time." So she said, "Sir, 1am buta courtesan: I do not give my favours without a thousand pieces: you must bring the sum.""'
+related: []
+evokes: [jataka, atthanipata, atthana-jataka, unplanned-natural-experiment, single-lapse-reveals-transactional-basis]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-atthana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 425, Atthana-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "She thought, \"If I admit him to-day, he will come empty-handed on other days, and so my wealth will be lost: won't admit him this time.\" So she said, \"Sir, 1am buta courtesan: I do not give my favours without a thousand pieces: you must bring the sum.\""
+canonical-instances:
+  - "A landlord who has waived nothing across eight years of on-time rent evicts a tenant over one payment that arrives a week late, telling himself leniency now would set a precedent he can't afford. The eviction is the tenant's first real evidence of what the relationship was actually built on."
+critical-questions:
+  - "What would the relationship have needed to include, beyond the payment itself, for a single lapse not to be treated as sufficient grounds for total severance?"
+  - "Does the withheld party's stated reasoning (protecting future payment discipline) hold up, or is it a retroactive justification for a decision already made on other grounds?"
+status: active

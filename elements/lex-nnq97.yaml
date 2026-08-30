@@ -1,0 +1,21 @@
+id: lex-nnq97
+name: decapitation-only-works-when-loyalty-is-transactional-not-emotional
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Before targeting a group's leader to break the group's resistance, check what actually holds the group to that leader — the 36 Stratagems' 'Defeat the enemy by capturing their chief' states the contingency explicitly rather than treating leader-removal as a universal move: 'If the enemy's army is strong but is allied to the commander only by money, superstition or threats, then take aim at the leader. If the commander falls the rest of the army will disperse or come over to your side. If, however, they are allied to the leader through loyalty then beware, the army can continue to fight on after his death out of vengeance.' The mechanism only fires under transactional cohesion (payment, fear, superstition); under loyalty-based cohesion the same move can produce a martyrdom effect that stiffens resistance instead of dissolving it. The diagnostic step — determining which kind of bond actually holds the group together — has to happen before the leader is targeted, because the two conditions produce opposite outcomes from the identical action."
+related: []
+evokes: [36-stratagems, defeat-the-enemy-by-capturing-their-chief, decapitation-strike, transactional-vs-loyalty-cohesion, martyrdom-effect]
+lineage:
+  - source: primary
+    text: taylor-2013-36-stratagems-18-defeat-the-enemy-by-capturing-their-chief
+    citation: "Peter Taylor, The Thirty-Six Stratagems: A Modern-Day Interpretation of a Strategy Classic (Infinite Ideas, 2013), Stratagem 18, 'Defeat the enemy by capturing their chief.' Verified verbatim against a direct pdftotext extraction of the held copy."
+    quote: "If the enemy's army is strong but is allied to the commander only by money, superstition or threats, then take aim at the leader. If the commander falls the rest of the army will disperse or come over to your side. If, however, they are allied to the leader through loyalty then beware, the army can continue to fight on after his death out of vengeance."
+canonical-instances:
+  - "corporate talent poaching as a labor-market analogue: Yahoo hiring Marissa Mayer away from Google in 2012 (and Apple's earlier attempt to poach Dennis Woodside from Motorola) treats a rival's key figure as removable and re-alignable — closer to the transactional condition, where the person can be extracted and redirected rather than triggering a loyalty-driven backlash from the team left behind."
+  - "the academic and policy debate over decapitation-strike efficacy in counter-terrorism (targeting a militant group's leadership) turns on exactly this same contingency: research finds mixed results precisely because some groups are leader-dependent networks that fragment on decapitation, while others are ideologically or emotionally bonded movements that a leader's death can radicalize further."
+critical-questions:
+  - "How would an outside actor reliably diagnose which kind of bond holds a group together before acting? Groups rarely announce their cohesion type, and a leader gains by overstating loyalty precisely to deter this move in the first place."
+  - "Can a group's cohesion type shift over time — a purely transactional army developing loyalty to a commander who has led it through real hardship — such that a strategy correct at one point becomes the wrong move later without any external signal that the shift occurred?"
+  - "Does the martyrdom effect require genuine belief in the cause, or can manufactured loyalty (propaganda, cult-of-personality) produce the same vengeance-driven stiffening even where the underlying bond was originally transactional?"
+status: active

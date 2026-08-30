@@ -1,0 +1,31 @@
+id: lex-xwbjd
+name: operationalized-comprehension-enables-use-uncomprehended-behavior-still-binds
+type-in: process
+type-out: frame
+_tier: molecule
+agent-instruction: "Translating a description into an operational rule ('I will check X before committing' rather than 'I just felt confident') is what comprehensibility-of-mechanism actually consists of in practice — operational metacognition (lex-wtkuz) is precisely the precondition lex-xr5f5 names for using something instrumentally without arbitrariness. Without a comprehended mechanism, instrumental use degrades into ritual: doing what worked before without knowing why (lex-xr5f5). But comprehension isn't required for a de-facto contract to form — Hyrum's law names the exception case: even an undocumented, uncomprehended observable behavior becomes an implicit contract, because consumers form dependencies on what they can observe regardless of whether anyone documented or understood it (lex-br4uk). Comprehension governs whether use is deliberate; it does not govern whether dependency forms."
+related: [lex-wtkuz, lex-xr5f5, lex-br4uk]
+scaffolds-from: [lex-wtkuz, lex-xr5f5, lex-br4uk]
+evokes: [operational-metacognition, comprehensible-mechanism, hyrums-law, de-facto-contract]
+decomposes-into:
+  - lex-wtkuz
+  - lex-xr5f5
+  - lex-br4uk
+assembly: "classification(lex-wtkuz, lex-xr5f5, lex-br4uk)"
+premises:
+  - "translating a descriptive-level account of an internal process ('I just felt confident') into an operational rule ('I will check X before committing') is what makes the process bind rather than merely describe (lex-wtkuz)"
+  - "using something instrumentally without arbitrariness requires a comprehensible mechanism — without understanding why something worked, instrumental use degrades into ritual, doing what worked before without knowing why, and the understanding is specifically what makes the NEXT case derivable rather than requiring its own trial-and-error (lex-xr5f5)"
+  - "even when a mechanism is NOT comprehended or documented, an observable behavior still becomes a de-facto contract — consumers who depend on the observed behavior cannot avoid forming dependencies on it, whether or not anyone (including the system's own maintainers) understood or intended it (lex-br4uk)"
+  - "lex-br4uk is the down-side/exception case to lex-xr5f5's positive claim: comprehension determines whether USE is deliberate and non-arbitrary, but it does not determine whether a de-facto BINDING forms — binding happens from observed behavior regardless of comprehension"
+critical-questions:
+  - "does grouping 397 alongside 017/414 as a 'same abstract theme' understate how different the mechanisms actually are — 414 is about an ACTOR's use of a mechanism, while 397 is about OBSERVERS' dependency-formation on a system regardless of the system-owner's understanding — is this really one shared signature or two adjacent-but-distinct claims?"
+  - "is operational metacognition (017) actually necessary for comprehensibility-enables-use (414), or could a mechanism be genuinely comprehended (understood causally) without ever being operationalized into a checkable rule — does 017 conflate 'comprehended' with 'operationalized', which aren't strictly the same thing?"
+  - "for lex-br4uk, is there a threshold of observability below which a de-facto contract doesn't form (a rarely-exercised code path, an edge case few consumers ever hit) — does the claim as stated (EVERY observable behavior) overclaim relative to what's actually defensible?"
+lineage:
+  - source: practitioner
+    text: assembled-from-lex-wtkuz-lex-xr5f5-lex-br4uk
+    citation: "Molecule assembled from lex-xr5f5 (comprehensibility-of-mechanism-enables-non-arbitrary-instrumental-use) and two atoms it explicitly composes with. lex-xr5f5's own text: 'Composes with lex-br4uk Hyrum's law (which is the down-side of the same mechanism: even undocumented observable behaviour becomes implicit contract because consumers cannot avoid forming dependencies). Composes with lex-wtkuz descriptive-vs-operational-metacognition (operational metacognition is precisely the comprehensibility-of-own-mechanism lex-xr5f5 names as the precondition for non-arbitrary use).' Types don't chain (017: process→frame, 414: state→claim, 397: situation→claim), so `classification` rather than `sequential`/`parallel`."
+canonical-instances:
+  - "An engineer who can only say 'this config just works, don't touch it' (descriptive) is using the system ritualistically; once they operationalize their understanding into 'this works because X guarantees Y, so change Z requires re-verifying Y' (lex-wtkuz), their use of the system becomes non-arbitrary and derivable to new cases (lex-xr5f5) — but regardless of whether anyone on the team ever reaches that operational understanding, downstream consumers who built automation against the config's undocumented current behavior have already formed a de-facto dependency on it, and changing it breaks them whether or not the change 'affects the spec' (lex-br4uk)."
+  - "A new hire is told a manager's approval process 'just depends on how they're feeling' (descriptive); once a colleague operationalizes it into 'they approve anything with a cost estimate and a rollback plan attached' (lex-wtkuz), the new hire can use the rule deliberately and derive how to handle novel requests (lex-xr5f5) — but even before anyone articulated that rule, other employees had already learned to always attach a rollback plan because that's what observably got approved, meaning the undocumented pattern was already functioning as a de-facto contract on the manager's behavior (lex-br4uk)."
+status: under-review

@@ -1,0 +1,19 @@
+id: lex-bhu4s
+name: volunteering-as-buffer-for-a-groups-anxiety-buys-leadership
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "A group anxious about facing scrutiny they feel unprepared for will hand real authority to whoever offers to personally absorb and manage that exposure on their behalf — the offer to shield everyone else from a feared encounter is what converts an outsider into the accepted leader. In the Jataka's tale of Prince Chatta, a band of ascetics dreads traveling to the capital, certain that sharp questioners there will expose their ignorance — until the disguised prince offers to shield them from exactly that: '\"Fear not,\" he said, \"I will manage all this for you.\" \"Then we will go,\" they said.'"
+related: []
+evokes: [jataka, catukkanipata, brahachatta-jataka, offering-to-absorb-a-groups-feared-exposure-buys-authority, an-outsider-becomes-leader-by-managing-collective-anxiety]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-brahachatta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 336, Brahachatta-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Fear not,\" he said, \"I will manage all this for you.\" \"Then we will go,\" they said."
+canonical-instances:
+  - "A newly joined board member who senses the rest of the board dreads a hostile shareholder meeting offers to personally field every hard question from the floor — by the end of the meeting, the rest of the board is deferring to them on matters well beyond what was originally offered."
+critical-questions:
+  - "Does the group ever revisit whether the buffer actually deserves the ongoing authority granted in that moment, or does the initial relief from anxiety calcify into permanent deference regardless of later performance?"
+  - "What happens to the group's own capacity to handle scrutiny directly, having outsourced it once — does relying on a buffer make the underlying fear worse over time rather than resolving it?"
+status: active

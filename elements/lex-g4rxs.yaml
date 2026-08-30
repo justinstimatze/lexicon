@@ -1,0 +1,20 @@
+id: lex-g4rxs
+name: a-small-deniable-provocation-derails-an-enemys-ceremony-without-combat
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When an enemy has planned an event whose success depends on a specific order and atmosphere being maintained — a coronation, a ceremony, a staged celebration — a small, disposable squad can wreck the plan by staging a loud, socially disruptive intrusion timed to the event itself, without ever engaging the enemy''s actual forces. Claim disproportionate status, provoke outrage, cause chaos, then withdraw before anyone can retaliate — the ceremony''s order is the target, not the people in it. In the Maha-Ummagga-Jataka, Mahosadha learns a rival king plans to poison a hundred and one princes at a victory feast. Rather than warn them or attack the army, he sends ten thousand men to gatecrash: "take possession of the seat of honour... shouting and jumping about, terrify them with the noise, break all the pots with your great clubs, scatter the food, and make it unfit to eat... calling aloud, We are the wise Mahosadha''s men of Mithila city: catch us if you can!" They vanish before capture, and "Brahmadatta was angry, that such a fine plan to poison the princes had failed" — the entire scheme collapses without a single blow being struck against his army.'
+related: []
+evokes: [jataka, mahanipata, maha-ummagga-jataka, disrupt-not-engage, staged-provocation, deniable-sabotage]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-maha-ummagga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 546, Maha-Ummagga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: 'take possession of the seat of honour next to Culani-Brahmadatta, saying, This is for our king... shouting and jumping about, terrify them with the noise, break all the pots with your great clubs, scatter the food, and make it unfit to eat, rush amongst the crowd at the top of your speed, and make a din like titans invading the city of the gods, calling aloud, We are the wise Mahosadha''s men of Mithila city: catch us if you can!'
+canonical-instances:
+  - "Rather than trying to block a hostile takeover vote outright, a small group of dissenting shareholders sends representatives to physically disrupt the shareholder meeting itself — demanding recognition, shouting procedural objections, and walking out before security arrives — collapsing the orderly vote the acquirer needed without ever contesting the underlying numbers."
+  - "A protest group learns a controversial ribbon-cutting ceremony is scheduled for a specific hour; rather than petitioning against the project, a small team infiltrates the event claiming to be honored guests, disrupts the speeches with loud objections, and leaves before being identified, ruining the ceremony's optics without engaging security."
+critical-questions:
+  - "This works because the target values the ceremony's order and appearance as much as its substance — does the tactic have any effect on an adversary who doesn't care about disruption to their pageantry and would just proceed with the underlying plan regardless?"
+  - "The squad here escapes cleanly by design — what changes about the calculus when the disrupting group can be identified and retaliated against after the fact, rather than melting away unpunished?"
+status: active

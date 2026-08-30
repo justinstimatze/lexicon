@@ -1,0 +1,19 @@
+id: lex-hzr46
+name: a-benefactor-disguises-as-a-skeptic-to-test-sincerity-before-revealing-itself
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Before granting a reward, a hidden benefactor can adopt the voice of a doubter — openly mocking the very devotion it intends to reward — to see whether the devotee's faith survives direct challenge, revealing its true identity and granting the reward only after the test is passed. In the Jataka's tale of the tree-spirit, curious why a poor man tends and worships it so faithfully, the spirit takes the form of an elder and mocks his devotion outright: 'Why, brahmin, though thyself with reason blest, Hast thou this dull insensate tree addressed?' Only after the man's faith holds firm under the challenge does the spirit reveal itself and grant buried treasure."
+related: []
+evokes: [jataka, catukkanipata, palasa-jataka, disguised-skepticism-tests-sincerity-before-reward, identity-and-reward-withheld-until-the-test-is-passed]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-palasa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 307, Palasa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Now one day it occurred to the tree-sprite, \"This brahmin is very attentive to me. I will test him and find out why he thus worships me, and grant him his desire.\" So when the brahmin came and was sweeping about the root of the tree, the Spirit stood near him disguised as an aged brahmin and repeated the first stanza:— [24] Why, brahmin, though thyself with reason blest, Hast thou this dull insensate tree addressed?"
+canonical-instances:
+  - "A wealthy alumnus considering a large anonymous gift to a struggling community program poses as a skeptical volunteer for a month, openly questioning the program's value to its staff, before revealing themselves and funding it once convinced the staff's commitment wasn't performed for a potential donor's benefit."
+critical-questions:
+  - "Does deliberately provoking doubt in someone to test their sincerity risk genuinely damaging their conviction, even if the disguise is eventually revealed and the reward granted?"
+  - "Is the test actually measuring sincerity, or could a devotee who simply enjoys arguing pass the test for reasons unrelated to the depth of their actual faith?"
+status: active

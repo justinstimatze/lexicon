@@ -1,0 +1,19 @@
+id: lex-g33wg
+name: withholding-already-rendered-value-as-leverage-for-a-reneged-bargain
+type-in: situation
+type-out: posture
+_tier: atomic
+agent-instruction: "A party who has already delivered most of an agreed service, and is then shortchanged on the payment, can regain leverage by blocking further progress on the remaining portion rather than accepting the loss or delivering the rest on faith. In the Jataka's tale of the ox Kanha, the animal pulls five hundred waggons across a ford for an agreed fee, but the merchant pays only half. Rather than finish the crossing and absorb the loss, the ox plants himself across the path of the lead waggon and refuses to move until paid in full, converting the portion of the job not yet done into the only remaining source of pressure. The leverage exists specifically because part of the bargain is still outstanding; once the entire service has been rendered, this option disappears."
+related: []
+evokes: [jataka, ekanipata, kanha-jataka, holdout-leverage-on-unrendered-portion, blocking-progress-to-enforce-a-reneged-deal]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kanha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 29, Kanha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Thought the Bodhisatta to himself, 'This fellow is not paying we according to contract! I won't let him move on!' So he stood across the path of the foremost waggon and blocked the way."
+canonical-instances:
+  - "A contractor who has finished the framing on a house but not yet the interior work, and is paid only half the agreed installment, stops all further work on-site until the outstanding balance clears, rather than completing the interior and then pursuing the unpaid amount separately."
+critical-questions:
+  - "What happens once the job actually is complete and the client still hasn't paid in full — does the same party have any comparably strong leverage left, or did the holdout option only exist because part of the work remained undone?"
+  - "Is there a risk that blocking progress publicly damages the withholder's own reputation for reliability, even when the underlying grievance is fully justified?"
+status: active

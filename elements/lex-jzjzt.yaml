@@ -1,0 +1,20 @@
+id: lex-jzjzt
+name: an-outsider-experiences-a-decentralized-org-as-one-undifferentiated-actor
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "An organization's internal boundaries -- separate business units, separate budgets, separate management chains -- are real to the people inside it, and decide who gets credit or blame for a given outcome, but they are invisible to the party on the outside, who has no way to perceive the org except as a single undifferentiated actor with one name. This creates a specific failure: a unit can perform well while a sibling unit performs badly, and internally that reads as normal, expected variance across a decentralized structure, nothing that any single party is accountable for fixing. The outside party has no access to that internal accounting. What they experience is one entity behaving inconsistently, and their opinion of the whole organization settles on whichever of the two experiences was worse. Freeman gives the case directly: 'A customer who buys a great computer from IBM and a lousy photocopy machine may not understand what IBM is trying to accomplish with their customers.' The org's decentralization doesn't reach the customer; only its output does, under one name."
+related: []
+evokes: [freeman-1984-strategic-management, chapter-8, stakeholder-structure, sbu, ibm]
+lineage:
+  - source: primary
+    text: freeman-1984-strategic-management-ch8
+    citation: "R. Edward Freeman, Strategic Management: A Stakeholder Approach (Pitman, 1984), Chapter 8 'The Functional Disciplines of Management,' section 'A Stakeholder Structure for Organizations.'"
+    quote: "In the modern complex corporate structure that encompasses multiple SBUs, groups, sectors, divisions, corporate staffs, matrix configurations and the like, it is too easy for the responsibility for stakeholders to become diffused. No one has a handle on the effects of the corporation on a particular category of stakeholders... If particular stakeholders have integrative processes of their own, then the possibility for misunderstanding increases. A customer who buys a great computer from IBM and a lousy photocopy machine may not understand what IBM is trying to accomplish with their customers. Likewise, a customer who buys superb local and private network service from AT&T and a lousy PBX may not understand the differences in the organization which result in such product differences."
+canonical-instances:
+  - "A university's chemistry department runs a superb undergraduate program while its physics department is chronically understaffed and poorly taught. Internally these are two separate budget lines with two separate chairs and no shared accountability; a student who has a bad physics experience updates their opinion of 'the university,' not of physics specifically."
+  - "A government agency's passport office is fast and courteous while its unemployment-benefits office is slow and hostile, run under entirely separate directorates with no shared management above the cabinet level. A citizen who deals with both in the same year experiences one government being inconsistent, not two unrelated offices with unrelated problems."
+critical-questions:
+  - "Is centralizing the inconsistent units under shared accountability actually the fix, or does that just trade the coordination cost of decentralization for a different failure mode, since Freeman's own stakeholder-manager proposal deliberately keeps the units decentralized and adds a cross-cutting role instead?"
+  - "Does the outside party's single-actor perception ever work in an org's favor -- does a strong unit's reputation ever cover for a weak sibling the same way a weak unit's failures bleed onto a strong one -- or is the effect asymmetric toward the negative case?"
+status: active

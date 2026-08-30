@@ -1,0 +1,19 @@
+id: lex-rghyp
+name: a-specific-warning-ignored-once-licenses-ignoring-a-sharper-one
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A figure who receives an explicit, specific warning about a course of action, ignores it, and survives once, treats that survival as license to disregard an even sharper follow-up warning about the same behavior — the escalating disregard compounding until it proves fatal. In the Jataka''s tale of Manoja, the lion hears his father spell out the exact danger a second time and dismisses it just as easily as the first: "Dear, horses are kings'' property, kings have many stratagems, they have skilful archers to shoot; lions who eat horseflesh don''t live long, henceforward don''t take horses." The lion not following his father''s advice went on taking them.'
+related: []
+evokes: [jataka, sattanipata, manoja-jataka, escalating-disregard-of-warnings, survival-as-false-license]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-manoja-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 397, Manoja-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Dear, horses are kings' property, kings have many stratagems, they have skilful archers to shoot; lions who eat horseflesh don't live long, henceforward don't take horses.\" The lion not following his father's advice went on taking them."
+canonical-instances:
+  - "A trader who ignored a risk-limit warning once and came out ahead treats that one lucky outcome as proof the limit doesn't apply to them, and takes an even larger position against a sharper warning the next time."
+critical-questions:
+  - "Is the person actually learning from surviving the first warning, or just updating on the outcome instead of the odds that produced it?"
+  - "A warning that goes unpunished loses force each time it's ignored — how many free passes can a warning-giver's credibility survive before even a sharper warning stops landing?"
+status: active

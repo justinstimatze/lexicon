@@ -1,0 +1,19 @@
+id: lex-ez3pw
+name: a-stronger-competing-signal-suppresses-perception-of-a-weaker-one
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When two problems demand attention at once, expect the more intense one to crowd the weaker one out of awareness entirely, rather than expecting both to register in proportion to their actual severity. Hippocrates' Aphorisms: 'Of two pains occurring together, not in the same part of the body, the stronger weakens the other.' The weaker pain has not resolved and has not gotten smaller — it has simply stopped being perceived, because attention is a limited, gated resource that a stronger competing signal claims first. This has a direct diagnostic risk: treating the loud, currently-perceived problem can appear to have addressed everything, right up until the moment the louder signal resolves and the quieter, previously-masked one becomes perceptible again, unchanged the whole time."
+related: []
+evokes: [hippocrates, aphorisms, stronger-signal-masks-weaker-one, attention-is-gated-not-additive]
+lineage:
+  - source: primary
+    text: hippocrates-aphorisms-adams1849-sectionII-46
+    citation: "Hippocrates, Aphorisms, trans. Francis Adams (Sydenham Society, 1849), Section II, §46. Verified verbatim against a direct extraction of the held copy."
+    quote: "Of two pains occurring together, not in the same part of the body, the stronger weakens the other."
+canonical-instances:
+  - "an on-call engineer paged for a loud, high-severity outage never notices a quieter, unrelated data-corruption bug happening in parallel, and only discovers it days later once the outage is resolved and attention frees up — the corruption had been running the entire time, simply outcompeted for attention."
+critical-questions:
+  - "Does masking require the two signals to compete for the same finite attentional channel, or can a sufficiently intense signal suppress perception of an unrelated one through some other mechanism entirely?"
+  - "Is there a reliable way to check for a masked weaker signal while the stronger one is still active? Masking, by definition, means the weaker signal isn't available to notice — so any check would have to work through some channel other than direct perception."
+status: active

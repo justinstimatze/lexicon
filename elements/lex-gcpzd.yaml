@@ -1,0 +1,19 @@
+id: lex-gcpzd
+name: acting-on-a-leading-indicator-gets-dismissed-as-chronic-paranoia
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Someone who acts on an early, ambiguous precursor of danger rather than waiting for its unambiguous final form gets read as chronically over-cautious, right up until the disaster their caution predicted actually arrives. In the Jataka's tale of the wise bird, a bird notices two boughs grinding together, producing dust then smoke — a slow precursor to fire — and tells the flock to evacuate immediately. The wiser birds leave; the rest mock him as someone who is 'always seeing crocodiles in a drop of water' and stay behind, and are burned when the tree catches fire exactly as he predicted. The dismissal isn't a response to being wrong before; it's a structural response to acting on a leading signal instead of the lagging one everyone else is implicitly waiting for."
+related: []
+evokes: [jataka, ekanipata, sakuna-jataka, leading-indicator-dismissed-as-paranoia, waiting-for-the-lagging-signal-costs-the-warning]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sakuna-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 36, Sakuna-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"It is always like this with him; he's always seeing crocodiles in a drop of water.\""
+canonical-instances:
+  - "An engineer who flags a gradual rise in error-log noise as evidence of an approaching outage is told they always sound alarms over nothing, and the team keeps working as usual right up until the service actually goes down exactly when the trend predicted."
+critical-questions:
+  - "How does an observer distinguish someone who correctly reads leading indicators from someone who is simply anxious and occasionally right by chance — is there any way to tell in advance, before the disaster either arrives or doesn't?"
+  - "Does repeatedly being right about early signals eventually change how the group responds the next time, or does the same 'always seeing crocodiles' framing reset with each new warning regardless of track record?"
+status: active

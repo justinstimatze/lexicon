@@ -1,0 +1,21 @@
+id: lex-sq6dt
+name: a-hard-defense-turns-a-crowds-own-volley-into-friendly-fire
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "A defense hard enough to deflect rather than absorb an attack can do something a defense that merely blocks can't -- it can send the attack back out sideways into the attacker's own crowd, so that a group's numbers become the thing that hurts them. In Cushing's telling, a Turtle rides on a fleeing boy's back while a whole pursuing town fires arrows at them: 'Duck your head down and never mind them. Now, you'll see what I can do!' said he, pulling into his shell. The arrows don't stick or stop, they glance: 'their arrows glanced from old Turtle's shell and struck themselves, so that they dropped in every direction.' The pursuers, packed close together and all shooting at the same fixed target, become each other's casualties the moment their own arrows start bouncing off a curved, unyielding surface at the front of the crowd. They even name what's happening to them in real time: 'We're only shooting ourselves against that black shield of theirs.' Diagnostic move: when facing a crowd converging fire or attention on a single point, a surface that deflects rather than absorbs can turn the crowd's own density and volume against itself -- the more of them shooting, the more of their own shots come back through their own ranks."
+related: []
+evokes: [deflection-not-absorption-turns-a-crowds-own-volume-against-it, cushing-the-revenge-of-the-two-brothers-on-the-hawikuhkwe, we-are-only-shooting-ourselves-against-that-black-shield, glanced-from-old-turtles-shell-and-struck-themselves]
+lineage:
+  - source: primary
+    text: cushing-turtles-shell-ricochets-arrows-into-the-pursuing-crowd
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Revenge of the Two Brothers on the Hawikuhkwe.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'Duck your head down and never mind them. Now, you'll see what I can do! said he, pulling into his shell. Thle-e-e, thle-thle-thle-e-e, rattled the arrows against old Etawa's shell, and the warriors were already shouting, Ho-o-o-awiyeishikia!--which was their cry of victory,--when they began to cry out in other tones, for tsuiya! their arrows glanced from old Turtle's shell and struck themselves, so that they dropped in every direction. Terror and blood! but those beings can shoot fast and hard! shouted they to one another, but they kept pelting away harder and faster, only to hit one another with the glancing arrows. Hold! cried one in advance of the others. Head them off! Head them off! We're only shooting ourselves against that black shield of theirs.'"
+canonical-instances:
+  - "A riot control unit's curved plexiglass shields deflect thrown projectiles back at angles into the crowd behind the original thrower, so that a dense crowd throwing objects at the line ends up hitting its own members more often than the shielded officers it was aimed at."
+  - "A company facing a coordinated smear campaign responds not by absorbing or rebutting every individual claim but by publishing a single hard, verifiable fact that each new attacker's exaggeration visibly bounces off of, and the pile-on's own volume starts producing contradictions between attackers that damage their credibility with each other more than with the target."
+critical-questions:
+  - "Would the deflection tactic work as well against a single, more careful attacker taking aimed shots one at a time, rather than a dense, hurried crowd firing rapidly, or does the friendly-fire effect specifically require the crowd's own density and lack of coordination?"
+  - "Is the harm here purely a matter of physics, arrows bouncing at random angles into a packed group, or does the pursuers' own panic and disorganization, shooting faster and more carelessly as they realize something is wrong, make the effect worse than a calmer crowd would produce?"
+  - "Does this tactic require the defended party to be moving or exposed at the front, drawing continuous fire, or would a stationary hard surface positioned between an attacking crowd and nothing in particular produce the same self-inflicted effect just by being there?"
+status: active

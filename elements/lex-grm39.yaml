@@ -1,0 +1,19 @@
+id: lex-grm39
+name: a-modest-authority-request-from-a-warned-infiltrator-still-gets-granted
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A credible warning that someone poses a lethal threat doesn't reliably prevent them from being granted incremental authority. Once the request is scaled down to something modest-sounding, it tends to get judged on its own terms, disconnected from the warning that still applies to the person making it. In the Jataka's tale of the man-eating ogress, a king is warned directly that a beautiful stranger has already killed five people, and takes her in anyway. Refused authority over the whole kingdom, she doesn't withdraw. She asks only for authority within the palace household — a request that sounds reasonable in isolation — and is granted it, then uses that access to open the gates to the other ogres and devour him. The warning never stopped being true. It simply stopped getting weighed once the request in front of everyone shrank."
+related: []
+evokes: [jataka, ekanipata, telapatta-jataka, scaled-down-request-evades-a-standing-warning, incremental-authority-judged-in-isolation-from-the-warning]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-telapatta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 96, Telapatta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Then, sire, if you cannot give me authority over the kingdom or over the city, at least give me authority within the palace, that I may have rule here over those that dwell in the palace.\""
+canonical-instances:
+  - "A board explicitly warned that a new vendor has a documented history of stealing client data refuses to give that vendor company-wide system access. Weeks later the same board approves a narrower request: limited rights on the internal file-sharing tool. That's all the vendor ever needed."
+critical-questions:
+  - "Should a credible warning disqualify every future request from that person, at any scale, or is there a legitimate version of scaling a request down that carries none of this risk?"
+  - "Did the smaller request actually get evaluated as low-risk on its own merits, or did the standing warning simply fade from attention once the conversation had moved past the initial refusal?"
+status: active

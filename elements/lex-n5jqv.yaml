@@ -1,0 +1,20 @@
+id: lex-n5jqv
+name: retracing-an-informants-physical-vantage-point-locates-their-unstated-source
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When someone poses a question or claim that implies specific knowledge they could not plausibly have generated on their own, don''t attack the claim directly — instead reconstruct where they physically were when they most likely encountered its source, and go look from that same vantage point. In the Maha-Ummagga-Jataka, King Vedeha poses a riddle about a goat and dog behaving as friends, threatening to banish any sage who cannot answer by noon. Mahosadha reasons the king "is too slow of wit to have thought out this question by himself, he must have seen something," then asks Queen Udumbara, "where was the king most of to-day and yesterday?" She answers, "Walking up and down the long walk, good sir, and looking out of the window." He goes to that exact spot, looks out, and sees the goat and dog trading grass and meat below — the literal source of the king''s riddle.'
+related: []
+evokes: [jataka, mahanipata, maha-ummagga-jataka, vantage-point, abductive-reasoning, reconstructing-the-source]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-maha-ummagga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 546, Maha-Ummagga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: '"O queen, where was the king most of to-day and yesterday?" "Walking up and down the long walk, good sir, and looking out of the window." "Ah," thought the Bodhisat, "he must have seen something there." So he went to the place and looked out and saw the doings of the goat and the dog.'
+canonical-instances:
+  - "A detective, puzzled by how a suspect knew a precise interior detail of a crime scene the press never reported, doesn't interrogate the suspect further but instead checks which nearby buildings had a sightline into that room, and finds the suspect's own apartment window looks directly in."
+  - "A product manager is baffled that an executive suddenly wants a minor feature prioritized with unusual specificity; rather than ask why, she checks the executive's recent calendar and travel log and finds they sat next to a major customer on a flight the week before."
+critical-questions:
+  - "This move assumes the informant's claim came from a real, locatable observation rather than invention, rumor, or a source with no fixed physical location — how do you tell in advance whether the knowledge in question is even the kind that has a traceable vantage point?"
+  - "Reconstructing the vantage point told Mahosadha what the king saw, but not necessarily how the king interpreted it — does locating the source of a claim guarantee you've also recovered its correct meaning?"
+status: active

@@ -1,0 +1,20 @@
+id: lex-vx2ht
+name: a-second-coincidental-success-reads-as-replication-not-luck
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A single lucky outcome after a superstitious or unfounded act is easy to write off as coincidence. A second person independently performing the same act and also getting a good outcome reads differently — it looks like replication, evidence the mechanism works, even when both outcomes actually came from the same unrelated cause and the ritual did nothing. That apparent two-for-two track record is what lets a private superstition scale into institutional, then mass, action. In the Jataka's tale of Dandaki, a deposed courtesan wipes her spit and tooth-stick on an innocent ascetic to rid herself of 'Ill Luck,' then happens to be restored to favor for unrelated reasons and concludes the ritual worked: 'she came to the conclusion that she had recovered this honour because she had got rid of her sin on the person of Ill Luck.' A deposed priest hears her story, copies the ritual, and is also independently reinstated — a second confirmation, not a second coincidence, as far as anyone watching can tell. On the strength of that record, the same priest persuades the king to have his entire army perform the ritual on the same ascetic before battle: 'Ill Luck dwells in the royal park; go and convey your Sin to his person.' The ascetic later warns that catastrophe is coming; the king doesn't believe him, and the kingdom is destroyed."
+related: [lex-3djhh]
+evokes: [jataka, cattalisanipata, sarabhanga-jataka, apparent-replication-drives-scaling, unfounded-belief-scales-through-imitation]
+lineage:
+  - source: primary
+    text: jataka-francis1905-sarabhanga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XVII (Cattalisanipata), No. 522, Sarabhanga-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "she came to the conclusion that she had recovered this honour because she had got rid of her sin on the person of Ill Luck. ... The priest went and got rid of his sin in the same way, and him too the king reinstated in his office. ... Ill Luck dwells in the royal park; go and convey your Sin to his person."
+canonical-instances:
+  - "A trading desk's junior analyst tries an untested signal on a single position and it happens to pay off during a broad market rally. A second analyst, hearing about the win, tries the same signal independently and also profits, during the same rally. The desk rolls the signal out across the whole book on the strength of the two-for-two record, with the rally itself never entering the reasoning."
+  - "A sales rep starts opening every cold call with a specific unscripted line and closes an unusually large deal that quarter, in a market that happens to be surging for everyone. A second rep adopts the same opener, also closes big, in the same surge. Management mandates the opener company-wide, crediting the line for results the market was already producing."
+critical-questions:
+  - "What would have made the second reinstatement read as coincidence rather than confirmation — is there any number of independent-seeming successes short of a controlled comparison that should actually update someone away from a false causal belief, or does apparent replication always beat the absence of a control group?"
+  - "The commander-in-chief, unlike the king, checks directly with the ascetic and takes his warning seriously — what did he have access to that the king and the priest didn't, or did he simply not need the ritual's apparent track record to already doubt it?"
+status: active

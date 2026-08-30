@@ -1,0 +1,19 @@
+id: lex-cjpma
+name: feigned-incapacity-excludes-a-companion-from-a-shared-resource
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A party can fabricate illness specifically to get a companion to leave, in order to seize a desired shared resource alone without splitting it. The deception targets a rightful co-claimant's exclusion specifically, rather than serving as an escape from unwanted work. Its timing gives this away: the fabrication lands exactly when the companion's absence turns useful, well past any point a general wish for solitude would explain. In the Jataka's tale of Kapota, once the companion is gone: 'I feel quite well and at my ease, since Mr. Pigeon off is gone.'"
+related: []
+evokes: [jataka, pancanipata, kapota-jataka, feigned-incapacity-excludes-a-co-claimant, deception-aimed-at-a-shared-resource-not-avoiding-work]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kapota-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 375, Kapota-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "I feel quite well and at my ease, Since Mr. Pigeon off is gone."
+canonical-instances:
+  - "One of two co-founders splitting a rare piece of used equipment they jointly bought claims a sudden migraine to get the other to leave for the day, then quietly uses the equipment alone for hours, feeling perfectly fine the moment the other one is out the door."
+critical-questions:
+  - "Does the feigned incapacity actually work reliably, or does it require the deceived companion to have no easy way to check back in and discover the sudden recovery?"
+  - "Is there a meaningful difference between this and other forms of deception used to gain sole access to a resource, or is the specific mechanism of feigned illness just one instance of a broader category of exclusion tactics?"
+status: active

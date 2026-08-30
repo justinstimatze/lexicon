@@ -1,0 +1,19 @@
+id: lex-94b5z
+name: a-self-sustaining-false-signal-buys-time-before-a-withdrawal-is-noticed
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When you need to withdraw or disengage without immediate detection, check whether a self-sustaining signal of your continued presence can keep running after you have actually left, buying time before the withdrawal itself is discovered. The 36 Stratagems' 'Slough off the cicada's golden shell' names the mechanism through its own natural image: 'When a cricket has grown to a certain stage it sheds its outer shell and leaves the empty shell behind. This empty shell is often mistaken for a real cricket.' The hinge is specifically a gap between signal and substance — not a decoy pointing attention elsewhere, but a lag between the moment the real thing leaves and the moment its absence is detected, because the signal keeps running on its own."
+related: []
+evokes: [36-stratagems, slough-off-the-cicadas-golden-shell, signal-substance-gap, detection-lag]
+lineage:
+  - source: primary
+    text: taylor-2013-36-stratagems-21-slough-off-the-cicadas-shell
+    citation: "Peter Taylor, The Thirty-Six Stratagems: A Modern-Day Interpretation of a Strategy Classic (Infinite Ideas, 2013), Stratagem 21, 'Slough off the cicada's golden shell.' Verified verbatim against a direct pdftotext extraction of the held copy."
+    quote: "When a cricket has grown to a certain stage it sheds its outer shell and leaves the empty shell behind. This empty shell is often mistaken for a real cricket."
+canonical-instances:
+  - "Operation Fortitude South (1944): the Allies maintained fake radio traffic and a phantom army group appearing to threaten Calais for weeks after the real invasion force had already moved to Normandy, exploiting exactly this gap between an ongoing signal of presence and the substance having already left."
+critical-questions:
+  - "How long can a self-sustaining signal realistically run before its own internal inconsistencies (no fresh activity, no response to new events) give away that the substance behind it is gone?"
+  - "Does this mechanism require the signal to be genuinely self-sustaining with no further input, or does it also work with periodic minimal maintenance from the departed party, and if so, does that maintenance itself create a detectable trace?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-yykhg
+name: judge-an-authoritys-own-track-record-on-a-directly-comparable-case
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When deciding whether to trust an authority's claimed powers, check its performance on a case that directly affects itself before relying on it for your own situation. Aesop's 'The Man Who Lost His Spade' has a man about to pray to the temple gods for help finding his stolen tool. He overhears that the temple's own donation boxes get robbed with no thief ever caught, and abandons the plan on the spot: 'it's scarcely likely they can tell me who stole my Spade.' This is inductive evidence from a parallel, self-affecting case used to make a live decision, not a rhetorical jab at hypocrisy — the man changes his actual plan based on the authority's demonstrated track record on its own comparable problem."
+related: []
+evokes: [aesop, the-man-who-lost-his-spade, self-affecting-track-record, calibrating-trust-from-a-comparable-case]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-man-who-lost-his-spade
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Man Who Lost His Spade.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Well, said the Man to himself, it strikes me I had better go back home again. If these town gods can't detect the thieves who steal from their own temples, it's scarcely likely they can tell me who stole my Spade."
+canonical-instances:
+  - "before trusting a certification body or rating agency's claims about your own risk, checking whether they have protected their own house from the same kind of failure they claim to guard others against."
+critical-questions:
+  - "How comparable does a self-affecting case need to be before it's fair evidence for a different situation — does temple theft really predict competence at finding a stolen spade, or is the man overgeneralizing from a single data point?"
+  - "Would a positive track record on the self-affecting case have been equally strong evidence in the other direction, or does this kind of inference only carry weight when it reveals a failure rather than a success?"
+status: active

@@ -1,0 +1,21 @@
+id: lex-na38h
+name: breaking-the-first-rule-escalates-into-a-harder-mandatory-test
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "When you break an explicit warning and nothing bad happens right away, don't conclude you got away with it -- the consequence of a first violation is often not direct punishment but a forced, harder, second test that you can no longer decline, and it's that second test, not the original act, that actually determines the outcome. In Cushing's telling, a youth ignores repeated warnings from both his wife and his adoptive grandparents and flies into forbidden territory, and the immediate result isn't disaster -- he simply sees a city and returns home unharmed. The real consequence arrives indirectly: 'you were observed,' and the city sends an invitation to a festival 'which invitation we cannot refuse, and you must go with us.' His wife names exactly what's happened: the original curiosity has been converted into a mandatory trial with a new, specific, higher-stakes condition -- 'do not laugh or even smile once.' He now has to pass a test he never would have faced if he hadn't broken the first rule, and this second test, not the original trespass, is what he ultimately fails. Diagnostic move: when you've broken a rule and the immediate outcome seems fine, check whether the violation has actually been converted into an unavoidable future obligation rather than closed out -- 'nothing happened' after breaking a warning is frequently a delay, not an acquittal, and the real cost shows up later as a harder, compulsory test you now have no way to refuse."
+related: [lex-ujqxm]
+evokes: [nothing-happened-yet-is-not-the-same-as-nothing-happened, cushing-the-youth-and-his-eagle, the-first-violation-buys-you-a-harder-second-test-not-a-pass, an-invitation-you-cannot-refuse-is-the-delayed-cost-of-the-first-rule-broken]
+lineage:
+  - source: primary
+    text: cushing-youth-and-eagle-forbidden-flight-forces-the-second-test
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Youth and His Eagle.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'And so, regarding more your own curiosity than the love of your wife, you have been into that fearful country, and as might have been expected, you were observed. We are now invited to visit the city you saw... which invitation we cannot refuse, and you must go with us. It remains to be seen, oh my youth, whom I trusted, if your love for me be so great that you may stand the test of this which you have brought upon yourself... do not laugh or even smile once.'"
+canonical-instances:
+  - "An employee ignores a compliance warning and accesses data they weren't authorized to view, and nothing happens immediately -- but the access is logged, and months later they're required to sit for a mandatory audit interview under far more scrutiny than if they'd simply followed the original rule, with a much smaller margin for any further mistake."
+  - "A hiker ignores trail warnings and ventures into a closed area, gets seen by a ranger, and faces no immediate injury -- but is now required to complete a supervised safety course and pass a stricter certification before being allowed back on any trail in the park system, a much harder bar than simply staying on the marked path would have required."
+critical-questions:
+  - "does this pattern assume someone else is always watching and will convert the violation into a forced consequence -- what happens when a first violation genuinely goes fully unnoticed, with no observer to escalate it into a second test at all?"
+  - "is it fair to treat the second, harder test as caused by the first violation, when the wife frames it as unavoidable ('we cannot refuse') rather than as something she or the community chose to impose as a consequence -- how much of the escalation was a natural result versus a punitive choice dressed up as inevitability?"
+  - "how would the youth have known, at the moment of his first violation, that 'nothing bad happened' should be read as a warning sign rather than genuine reassurance -- what actually distinguishes a delayed consequence from a true non-consequence in the moment?"
+status: active

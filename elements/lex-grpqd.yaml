@@ -1,0 +1,18 @@
+id: lex-grpqd
+name: reverse-inferring-deliberate-intent-from-an-asymmetric-outcome
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'Observing an asymmetric outcome — one party received nothing while all others received something — an excluded party can infer, after the fact, that the asymmetry must have been deliberate and prescient on the distributor''s part, rather than an oversight, error, or coincidence. In the Jataka''s tale of Prince Samvara, the eldest brother sees Samvara''s kingship and concludes their late father must have foreseen it all along: "''Our father, methinks, knew that Prince Samvara would be king after his decease, and therefore gave us provinces and gave him none.''"'
+related: []
+evokes: [jataka, ekadasanipata, samvara-jataka, retrospective-sense-making, inferring-intent-from-outcome]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-samvara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 462, Samvara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Our father, methinks, knew that Prince Samvara would be king after his decease, and therefore gave us provinces and gave him none."
+canonical-instances:
+  - "A shareholder notices, only after a founder's death, that one heir was never given equity like the others, and concludes the founder must have secretly planned for that heir to inherit sole control all along — rather than considering it might simply have been an unresolved oversight."
+critical-questions:
+  - "This particular inference happens to align with how events unfold — but does asymmetric treatment ever reliably indicate deliberate foresight, or is reading intent into an outcome after the fact indistinguishable from simply making up a story that fits?"
+status: active

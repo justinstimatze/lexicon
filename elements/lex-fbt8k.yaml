@@ -1,0 +1,19 @@
+id: lex-fbt8k
+name: punishing-by-category-rather-than-by-harm-is-a-deliberate-stance
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone justifies a harsh response to a minor offense, check whether they are actually applying a considered category-based policy rather than an overreaction to the harm's size. In Aesop's 'The Flea and the Man,' a man about to kill a flea for a single bite states his reasoning as a general policy, not a judgment about this bite's severity: 'I am going to kill you now, at once: whatever is bad has got to be destroyed, no matter how slight the harm it does.' This is a specific, arguable normative stance — that enforcement should key on category of transgression rather than magnitude of harm caused — distinct from simple cruelty or disproportionate anger, and it deserves to be evaluated as a policy choice rather than dismissed as an emotional overreaction."
+related: []
+evokes: [aesop, the-flea-and-the-man, category-based-enforcement, zero-tolerance-policy, magnitude-vs-category]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-flea-and-the-man
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Flea and the Man.' Verified verbatim against a direct extraction of the held copy."
+    quote: "I am going to kill you now, at once: whatever is bad has got to be destroyed, no matter how slight the harm it does."
+canonical-instances:
+  - "a 'broken windows' or zero-tolerance policy that treats a minor infraction with full severity, justified explicitly by the category of behavior rather than the harm any single instance caused — the same reasoning structure as the man's stated policy toward the flea."
+critical-questions:
+  - "What is the actual case for category-based enforcement over magnitude-based enforcement — does it deter future harm more effectively, or does it just satisfy a preference for consistency at the cost of proportionality?"
+  - "Does a policy applied this uniformly eventually consume more resources punishing trivial cases than it saves by deterring serious ones, given that most instances of any category are likely to be minor?"
+status: active

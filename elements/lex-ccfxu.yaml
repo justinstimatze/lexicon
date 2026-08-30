@@ -1,0 +1,20 @@
+id: lex-ccfxu
+name: a-free-choice-after-coerced-compliance-reveals-the-real-preference
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Someone who carries out a distasteful order under compulsion, then successfully completes it, tells you what they actually wanted the whole time in the first request they make once they're finally offered a genuine free choice — and it's usually release from ever having to do it again, rather than any reward for the act itself. The compliance under orders was never consent; the request made under no compulsion at all is the real signal. In the Jataka's tale of Alambusa, the heavenly nymph is ordered by Sakka to seduce and break the vow of a virtuous young ascetic whose growing spiritual power threatens his throne. Before she even sets out, she voices real fear and moral qualms — \"I will not fail, O angel-king, to go at thy behest, / But still with fear this sage austere I venture to molest. / For many a one, poor fool, has gone (I shudder at the thought) / In hell to rue the suffering due to wrongs on saints he wrought\" — and goes anyway, and succeeds. Afterward, delighted with her success, Sakka tells her he can deny her nothing. Given a completely free choice for the first time in the whole episode, she doesn't ask for a reward: \"If Sakka, lord of sprites, thou wouldst my heart's desire allow, / Let me ne'er tempt a saint again to violate his vow.\""
+related: []
+evokes: [jataka, cattalisanipata, alambusa-jataka, coerced-compliance-is-not-consent, free-choice-reveals-suppressed-preference]
+lineage:
+  - source: primary
+    text: jataka-francis1905-alambusa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XVII (Cattalisanipata), No. 523, Alambusa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "I will not fail, O angel-king, to go at thy behest, / But still with fear this sage austere I venture to molest. / For many a one, poor fool, has gone (I shudder at the thought) / In hell to rue the suffering due to wrongs on saints he wrought. ... If Sakka, lord of sprites, thou wouldst my heart's desire allow, / Let me ne'er tempt a saint again to violate his vow."
+canonical-instances:
+  - "An analyst is ordered to write a report justifying a decision they privately disagree with, and does it well enough that leadership praises the work and offers them their pick of the next high-visibility project. They ask instead to be reassigned off the account entirely, revealing that the praised performance was never buy-in."
+  - "A junior employee is pressured into being the one who delivers a round of layoffs their manager doesn't want to deliver personally, and does it professionally. When later offered a bonus for handling it well, they ask only never to be put in that position again — the professionalism during the task and the actual preference underneath it were never the same thing."
+critical-questions:
+  - "Does the free request reliably reveal the suppressed preference, or could someone who's internalized the coercion — or who fears retaliation for asking honestly — still shape even their 'free' request around what they think is safe or expected to ask for?"
+  - "Sakka grants the request instantly and without argument here — what happens to this signal when the person with power over the free choice pushes back, negotiates, or simply doesn't grant it, and the person never gets to reveal what they actually wanted at all?"
+status: active

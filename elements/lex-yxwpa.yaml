@@ -1,0 +1,19 @@
+id: lex-yxwpa
+name: manufacturing-a-bigger-emergency-draws-a-besieging-threat-away
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When a group is surrounded by a threat waiting for a specific triggering moment, manufacturing an unrelated, bigger emergency for the threat to respond to can end the siege entirely, without any direct confrontation between the trapped group and their besiegers. In the Jataka's tale of the monkeys trapped in a tree, one absent monkey named Senaka wakes to find his troop under siege by armed villagers waiting for dawn. Rather than trying to fight or negotiate, he manufactures a separate crisis the villagers can't ignore: 'Senaka seized a firebrand, and standing well to windward, set light to the village. Then did every man leave the monkeys, and hurried up to quench the fire.' The siege doesn't get resolved — it gets outcompeted by a more urgent problem the besiegers can't afford to leave unattended."
+related: []
+evokes: [jataka, dukanipata, tinduka-jataka, an-unrelated-bigger-emergency-outcompetes-a-siege, redirecting-a-threats-attention-rather-than-confronting-it]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-tinduka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 177, Tinduka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Then did every man leave the monkeys, and hurried up to quench the fire."
+canonical-instances:
+  - "A small business facing an aggressive, well-resourced competitor trying to poach its entire client list doesn't fight the poaching campaign directly — it launches a much louder public dispute over a separate issue that pulls the competitor's PR and legal teams away from the poaching effort entirely."
+critical-questions:
+  - "Is this move fundamentally different from a distraction or diversion tactic in general, or is 'manufacture a bigger emergency' just a specific, higher-stakes flavor of the same broader family of attention-redirection moves?"
+  - "What are the actual costs Senaka's village pays for this rescue — a burned home, presumably significant collateral damage — and does the story's framing as a clean win obscure a real tradeoff the monkeys never had to account for?"
+status: active

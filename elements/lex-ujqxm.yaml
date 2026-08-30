@@ -1,0 +1,19 @@
+id: lex-ujqxm
+name: repeated-safe-defiance-of-a-warning-normalizes-risk-until-capacity-is-exceeded
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Each time a warned risk is defied without consequence, the warning itself loses force, not because the underlying danger changed, but because the accumulating record of safe outcomes reads as evidence the warning was wrong. The danger was never conditional on how many times it had been survived before. In the Jataka's tale of the greedy parrot, a father warns his son plainly against a particular island: 'Parrots that go thither, my son, have not length of life,' he said. 'Go not to that island again!' The son ignores him and keeps returning. Nothing goes wrong on any of the early trips. The danger the warning named was never about frequency. It was waiting on a specific combination of conditions the son's growing confidence made him less likely to notice."
+related: [lex-na38h]
+evokes: [jataka, tikanipata, suka-jataka, repeated-safe-outcomes-erode-a-warnings-perceived-validity, normalization-of-deviance-from-an-unheeded-warning]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-suka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 255, Suka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Parrots that go thither, my son, have not length of life,\" he said. \"Go not to that island again!\"--But the son obeyed him not, and went yet again."
+canonical-instances:
+  - "A field team keeps skipping a mandated safety check before a specific maneuver because dozens of prior skips produced no incident, until the one combination of load, weather, and fatigue the check existed to catch finally occurs together."
+critical-questions:
+  - "Is repeated safe defiance actually evidence the warning was overcautious, or is it simply evidence that the specific dangerous conditions haven't occurred yet — how would anyone tell the difference in advance?"
+  - "Does the son's growing confidence make the eventual failure more his fault, or does normalized risk-taking place the real responsibility on whoever issued a warning vague enough to survive repeated violation without updating it?"
+status: active

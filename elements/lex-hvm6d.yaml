@@ -1,0 +1,19 @@
+id: lex-hvm6d
+name: an-opportunistic-ally-recalculates-loyalty-the-moment-the-patron-becomes-a-liability
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A companion who only stayed for what the association provided immediately runs a fresh cost-benefit calculation the instant the patron becomes a liability, stating the abandonment as an explicit principle rather than dressing it up, then leaves. In the Jataka''s tale of Manoja, the jackal does exactly this the moment the lion is shot: "My comrade is shot and must be killed, there is no friendship with the dead, I will now go to my old home in the wood."'
+related: []
+evokes: [jataka, sattanipata, manoja-jataka, fair-weather-ally, loyalty-as-cost-benefit-calculation]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-manoja-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 397, Manoja-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "My comrade is shot and must be killed, there is no friendship with the dead, I will now go to my old home in the wood,"
+canonical-instances:
+  - "A hanger-on who's ridden a rising executive's coattails for years stops returning calls the same week a demotion is announced, and is candid with other colleagues that there's no upside left in staying close."
+critical-questions:
+  - "Is stating the calculation out loud, rather than hiding it behind a polite excuse, more or less honest than the usual quiet disappearance — and does it change how the abandoned party should have read the relationship all along?"
+  - "Was there ever a point where the signs of a purely transactional bond were visible before the crisis that exposed it?"
+status: active

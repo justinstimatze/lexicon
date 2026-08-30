@@ -1,0 +1,19 @@
+id: lex-j3vgx
+name: acquisition-cost-can-be-cheaper-than-the-upkeep-it-commits-you-to
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When evaluating whether to acquire an asset, price the recurring cost of maintaining it separately from the one-time cost of getting it, since the two can diverge sharply and the smaller number is not always the acquisition. Franklin's Poor Richard: 'It is easier to build two chimneys, than to keep one in fuel.' Building a second chimney is a bounded, one-time expense. Fueling even one chimney has no such bound — it recurs every winter for as long as the chimney stands, and the total climbs with each passing year. The comparison flips the intuition that more of a thing costs more than less of it. Here the fixed asset can be doubled for less than a single instance of its variable cost, because acquisition draws on one budget and upkeep draws on another with a completely different time horizon."
+related: []
+evokes: [franklin, way-to-wealth, fixed-cost-versus-recurring-cost-asymmetry, upkeep-cost-exceeds-acquisition-cost]
+lineage:
+  - source: primary
+    text: franklin-1758-way-to-wealth
+    citation: "Benjamin Franklin, Father Abraham's Speech ('The Way to Wealth' / 'Poor Richard Improved'), 1758 (Gutenberg #43855). Verified verbatim against a direct extraction of the held copy."
+    quote: "It is easier to build two chimneys, than to keep one in fuel"
+canonical-instances:
+  - "a household buys a larger house at a manageable mortgage rate, then discovers the recurring costs of heating, insuring, and maintaining the extra square footage exceed what the purchase price itself ever suggested — the sticker price was the easy number."
+critical-questions:
+  - "Does this comparison hold generally, or only for assets whose maintenance cost scales with time rather than with use — would a tool used rarely but requiring the same fixed upkeep regardless of use flip the ratio back?"
+  - "Is 'easier to build two chimneys' actually a fair comparison, given that acquisition costs are usually visible and budgeted for up front while upkeep costs are diffuse and easy to underestimate at the moment of purchase — or does the aphorism only feel true because of that visibility bias?"
+status: active

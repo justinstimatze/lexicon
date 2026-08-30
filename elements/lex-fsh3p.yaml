@@ -1,0 +1,24 @@
+id: lex-fsh3p
+name: an-item-can-be-both-functional-and-dysfunctional-at-once
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Resist the pull to render a single yes/no verdict on whether a persisting practice is 'good' or 'bad' for a given unit — a practice can carry both functional and dysfunctional consequences for the very same unit at the very same time, and the real analytic task is weighing the net balance rather than picking a side. Merton's own directive for research is the provisional assumption that persisting cultural forms have a net balance of functional consequences, either for the society as a whole or for the subgroups powerful enough to keep them intact by coercion or persuasion — not that they are purely functional. He flags this as most consequential exactly where it's hardest: 'this is, of course, most important in the use of functional analysis for guiding the formation and enactment of policy.' A policy debate that treats an institution as simply working or simply broken has usually skipped the harder step of weighing genuine costs against genuine benefits to the same population."
+related: [lex-46mbg]
+evokes: [net-balance-of-consequences, merton-1957, not-a-binary-verdict, functional-and-dysfunctional-simultaneously, policy-relevance]
+lineage:
+  - source: primary
+    text: merton-1957-net-balance-directive-for-research
+    citation: "Robert K. Merton, Social Theory and Social Structure, Revised and Enlarged Edition (Glencoe, IL: Free Press, 1957), Ch. I 'Manifest and Latent Functions,' p.32, closing the critique of the 'postulate of indispensability.' Verified verbatim against a University of Iowa library scan via Internet Archive OCR text (item 31858016281432)."
+    quote: "'Far more useful as a directive for research would seem the provisional assumption that persisting cultural forms have a net balance of functional consequences either for the society considered as a unit or for subgroups sufficiently powerful to retain these forms intact, by means of direct coercion or indirect persuasion.'"
+  - source: primary
+    text: merton-1957-net-balance-most-important-for-policy
+    citation: "Robert K. Merton, Social Theory and Social Structure (1957), same chapter, p.51, 'A Paradigm for Functional Analysis in Sociology.'"
+    quote: "'In any given instance, an item may have both functional and dysfunctional consequences, giving rise to the difficult and important problem of evolving canons for assessing the net balance of the aggregate of consequences. (This is, of course, most important in the use of functional analysis for guiding the formation and enactment of policy.)'"
+canonical-instances:
+  - "A mandatory minimum sentencing law is simultaneously functional (deters some crime, gives victims a sense that the system takes their harm seriously) and dysfunctional (removes judicial discretion for genuinely mitigating circumstances, contributes to prison overcrowding) for the same criminal-justice system at the same time — a debate that asks only 'does it work' has skipped the actual analytic task."
+  - "Remote work is simultaneously functional for a company (lower office overhead, wider talent pool) and dysfunctional for it (weaker informal mentorship, slower onboarding of junior staff) at the same time; the net-balance question — does the first set of gains outweigh the second set of losses, for this specific company, right now — is different from and harder than either 'remote work is good' or 'remote work is bad.'"
+critical-questions:
+  - "Who gets to weigh the net balance, and on what common scale, when the functional and dysfunctional consequences fall on different values entirely (efficiency vs. fairness, cost vs. morale) that don't share a unit of comparison?"
+  - "Does 'net balance' risk becoming a way to rationalize keeping something that is mostly harmful, by pointing to a small genuine benefit and calling the question unresolved? Merton's framing assumes good-faith weighing; a bad-faith user could invoke 'it's not simple' indefinitely to avoid ever reaching a verdict."
+status: active

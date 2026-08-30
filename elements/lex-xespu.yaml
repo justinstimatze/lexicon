@@ -1,0 +1,19 @@
+id: lex-xespu
+name: only-a-categorical-jump-not-a-bigger-offer-breaks-a-fixation
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'Trying to buy off someone''s fixation on a specific small object by offering successively larger amounts of the same currency can fail entirely, because the fixation isn''t actually about magnitude — it takes crossing into a categorically different order of offer, not merely a bigger one, to break it. In the Jataka''s tale of Gangamala, the king discovers that scaling coin offers upward fails against the water-carrier''s fixed determination to fetch his half-penny, until the offer changes category entirely: "My good man, stay here: I''ll give you a penny, two pence:" then offering more and more he went on to a crore, a hundred crores, boundless wealth, if the man would stay. But he always answered, "O king, I''ll take it, but I''ll fetch the other too."'
+related: []
+evokes: [jataka, atthanipata, gangamala-jataka, anchoring-resistant-to-scale, categorical-jump-breaks-fixation]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-gangamala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 421, Gangamala-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "My good man, stay here: I'll give you a penny, two pence:\" then offering more and more he went on to a crore, a hundred crores, boundless wealth, if the man would stay. But he always answered, \"O king, I'll take it, but I'll fetch the other too.\""
+canonical-instances:
+  - "A landlord tries to talk a tenant out of moving for a rent-controlled unit elsewhere by offering successively larger discounts on the current lease, none of which work, until offering an entirely different kind of concession — a full buyout of the tenant's moving costs — finally does."
+critical-questions:
+  - "Why does scaling the same kind of offer fail here when a smaller version of the same currency was already accepted as a starting point — what exactly is the fixation actually about?"
+  - "How would the offering party know in advance that a categorical jump, rather than one more increment, is what's required, before wasting the smaller escalating offers?"
+status: active

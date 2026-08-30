@@ -1,0 +1,21 @@
+id: lex-zzy34
+name: unbundle-a-domains-doesnt-work-verdict-into-separate-claims
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "When domain insiders give you a multi-reason verdict for why an established, well-understood material or method isn't used for your purpose ('it's too expensive, it degrades, it can't be dyed'), don't accept the verdict as one fused judgment. Split it into its separate factual claims and test each independently against your specific use case. Insiders often repeat a bundled objection as received wisdom without checking whether every clause still applies: one clause may be flatly false as a general claim (true only of a narrow specialty variant), another may be true but irrelevant to your specific application's constraints, and only one may be a genuine, binding limitation. The genuine limitation doesn't disqualify the option if your application doesn't actually need the property it violates -- it just narrows which uses remain viable."
+related: [lex-7wcue]
+evokes: [boriskina-polyethylene, bundled-objection, received-wisdom-unpacked, cooling-fabric, textile-industry-folklore]
+lineage:
+  - source: primary
+    text: postrel-2020-fabric-of-civilization-ch7-innovators
+    citation: "Virginia Postrel, The Fabric of Civilization: How Textiles Made the World (Basic Books, 2020), Chapter Seven: Innovators, on MIT researcher Svetlana Boriskina's investigation of polyethylene as a passive-cooling textile, and the textile industry's standard three-part objection to using it."
+    quote: "When I ask, textile industry veterans tell me it's too expensive, it degrades at high temperatures, and it can't be dyed. As a general statement, the first objection isn't accurate. It refers specifically to an extremely strong, high-density polyethylene used for specialty applications... Most polyethylene is incredibly cheap. That's why it's used for throwaway packaging. The second criticism is true but might not matter, at least for some applications... The dye problem, however, is absolutely true... A fabric that can't be boiled and that is hard to dye isn't likely to take over the world. But a cooling fabric that can't be boiled and that is hard to dye still has some big potential markets, from abayas to underwear."
+canonical-instances:
+  - "Boriskina, an optical-materials scientist with no prior textile background, discovered by unbundling the textile industry's standard three-clause veto on polyethylene fabric that the cost objection was false as a general claim (true only of a specialty high-density variant used for marine chains), the heat-degradation objection was true but irrelevant to many end uses (a low-heat-tolerant cooling fabric still has real markets, from hot-climate underwear to medical settings), and only the dye objection was a genuine, non-fatal limitation -- yielding a passive-cooling fabric that, by her account, outperforms both cotton and polyester on thermal comfort at no higher cost."
+critical-questions:
+  - "For each individual clause in the bundled objection, is it true as a general claim about the material or method, or only true of one specific variant, formulation, or historical use case that isn't actually what you'd be using?"
+  - "Of the clauses that are genuinely true, does your specific application actually require the property being violated? A material that can't survive boiling water is disqualified for a use that requires boiling and irrelevant for one that doesn't."
+  - "Why did this bundled objection persist unexamined -- is there a switching cost, an existing supply chain, or an incumbent's interest that made re-testing each individual clause not worth anyone's time until now?"
+severity-tier: info
+status: active

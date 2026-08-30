@@ -1,0 +1,20 @@
+id: lex-r8vtg
+name: embedding-a-targeted-kill-inside-a-mass-action-hides-its-personal-motive
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Someone who wants a specific person dead, but knows that killing only that person will read as exactly what it is — a personal vendetta — folds the killing into a much larger, ostensibly impartial action, so scale itself launders the motive. In the Khandahala-Jataka, the corrupt priest Khandahala wants Prince Candakumara dead for stripping him of his judgeship, but reasons explicitly: "If I take Candakumara alone they will think that I have done it through enmity to him; so he put him in with a number of people" — inventing a religious mass-sacrifice of the king''s sons, daughters, wives, merchants, and animals, with the prince as one victim among dozens, so the killing arrives dressed as impartial doctrine rather than personal revenge.'
+related: []
+evokes: [jataka, mahanipata, khandahala-jataka, motive-laundering, mass-action-as-cover, targeted-killing]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-khandahala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 542, Khandahala-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "He said to himself, \"If I take Candakumara alone they will think that I have done it through enmity to him\"; so he put him in with a number of people."
+canonical-instances:
+  - "A manager who wants one specific employee fired for personal reasons pushes for a department-wide layoff round rather than a single termination, so the target's departure reads as headcount policy rather than retaliation."
+  - "A regime that wants to eliminate one dissident journalist rounds up dozens of unrelated critics in the same sweep, so international coverage frames it as a general crackdown rather than the targeted assassination it actually is."
+critical-questions:
+  - "The tactic multiplies harm to conceal a single motive — does the cover succeed only if observers never ask why this particular scale of action was chosen at this particular moment?"
+  - "Candakumara himself later reasons that Khandahala's stated principle, if true, should apply to the priest's own family too — does exposing the doctrine's non-universality unravel the cover even when the killer is never personally named?"
+status: active

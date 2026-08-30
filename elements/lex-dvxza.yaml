@@ -1,0 +1,26 @@
+id: lex-dvxza
+name: a-component-embedded-in-the-true-cause-gets-blamed-for-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A widely-blamed component that merely sits inside or touches the real causal agent can look guilty purely by that contact. Confirm this by physically separating the suspect component from its surroundings and measuring each piece on its own. Pulled apart and tested independently, the true source registers a concentration or effect far higher than the blamed component ever did. If a control strategy targets the blamed component alone, check that it isn't leaving most of the real cause untouched."
+related: [lex-mr4nb]
+scaffolds-from: [lex-mr4nb]
+evokes: [americas-test-kitchen, guy-crosby, capsaicin, guilty-by-association, blame-the-neighbor-not-the-culprit, its-not-the-seeds]
+lineage:
+  - source: primary
+    text: americas-test-kitchen-crosby-2012-science-of-good-cooking
+    citation: "The Editors at America's Test Kitchen and Guy Crosby, The Science of Good Cooking: Master 50 Simple Concepts to Enjoy a Lifetime of Success in the Kitchen (America's Test Kitchen, 2012), Concept 32, 'Chile Heat Resides in Pith and Seeds,' p. 1157."
+    quote: "The pith is the hot spot. The reason the seeds registered more heat than the flesh is simply that they are embedded in the pith; they are essentially guilty—or hot—by association. If you want to carefully mete out the fire in salsa or chili, do it by means of the pith. The seeds will just be along for the ride."
+  - source: primary
+    text: americas-test-kitchen-crosby-2012-science-of-good-cooking
+    citation: "The Editors at America's Test Kitchen and Guy Crosby, The Science of Good Cooking (America's Test Kitchen, 2012), Concept 32, 'Chile Heat Resides in Pith and Seeds,' p. 1156."
+    quote: "As it turned out, there were just 5 milligrams of capsaicin per kilogram of green jalapeño flesh (not enough to really make much impact on the human tongue), 73 mg per kg in the seeds, and an impressive 512 mg per kg in the pith."
+canonical-instances:
+  - "Cooks who deseed chiles to control spiciness remove a component that measures 73 mg of capsaicin per kilogram — real heat, but a fraction of the 512 mg per kg measured in the pith the seeds sit against. Separating and lab-testing the flesh, seeds, and pith independently, rather than trusting which part cooks have always blamed, showed the seeds are hot mostly because of what they're touching, not what they contain natively."
+critical-questions:
+  - "Has the blamed component actually been measured in isolation, or has its association with the real source simply never been tested apart from it because the two are hard to physically separate?"
+  - "Even if the blamed component carries some genuine share of the effect (the seeds did register 73 mg, not zero), does treating it as the primary source lead to a control strategy less effective than targeting the actual concentrated source directly?"
+  - "What made the visible or blamed component the default suspect in the first place — is it more salient, easier to remove, or simply the part people have historically pointed to without checking?"
+status: active
+severity-tier: info

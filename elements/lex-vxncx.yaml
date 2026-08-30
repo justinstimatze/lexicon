@@ -1,0 +1,19 @@
+id: lex-vxncx
+name: encountered-counter-examples-falsify-a-names-supposed-power-over-fate
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A superstition that a name governs its bearer's fate can be dissolved not by argument but by encountering enough real counter-examples on a single journey to make the correlation obviously false. In the Jataka's tale of the student named Base, a young man ashamed of his unflattering name travels in search of a luckier one, and along the way meets a man named Quick who has died, a woman named Rich who is destitute, and a guide named Guide who is lost — each encounter directly falsifying the premise that a name determines what happens to the person carrying it. The student doesn't need to be persuaded by an argument; the pattern of mismatches he personally witnesses does the work."
+related: []
+evokes: [jataka, ekanipata, namasiddhi-jataka, encountered-counter-examples-falsify-nominal-determinism, direct-observation-replaces-argument]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-namasiddhi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 97, Namasiddhi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Seeing Quick dead, Guide lost, Rich poor, Base learned content nor travelled more."
+canonical-instances:
+  - "A junior developer convinced that only graduates of a specific prestigious program can write good code spends a year working alongside self-taught colleagues who consistently ship better work than program graduates, and simply stops believing the credential predicts anything, without ever having the assumption directly argued against."
+critical-questions:
+  - "How many counter-examples does it actually take to break a belief like this — would encountering just one mismatched case have been enough, or did the accumulation of three separate instances do work that one alone couldn't?"
+  - "Does this method only work when the counter-examples are encountered directly and personally, or would hearing about equivalent mismatches secondhand have the same persuasive force?"
+status: active

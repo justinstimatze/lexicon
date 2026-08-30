@@ -1,0 +1,18 @@
+id: lex-gbrv7
+name: covertly-redirecting-a-plotters-trap-onto-their-own-kin
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A plotter marks an intended victim''s bed so accomplices can identify the target in the dark; a reluctant co-conspirator, unwilling to harm the intended victim but unable to refuse outright, secretly moves the identifying mark onto the plotter''s own kin''s bed instead. The plot proceeds exactly as designed mechanically but destroys the plotter''s own interest rather than the intended target''s — a counter-sabotage that alters the marker a plot depends on rather than confronting the plot directly. In the Jataka''s tale of Padakusalamanava, the husband silently relocates his wife''s murder-marker from his mother''s bed to his mother-in-law''s: "Then go and set a mark on the bed on which she lies, by fastening a rope on it." She did so, and said, "I have put a mark on it." The husband said, "Excuse me a moment; let the people go to bed first." And he lay down pretending to go to sleep, and then went and fastened the rope on his mother-in-law''s bed.'
+related: []
+evokes: [jataka, navanipata, padakusalamanava-jataka, redirecting-a-marker-not-refusing-the-plot, substituted-victim-motif]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-padakusalamanava-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 432, Padakusalamanava-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Then go and set a mark on the bed on which she lies, by fastening a rope on it.\" She did so, and said, \"I have put a mark on it.\" The husband said, \"Excuse me a moment; let the people go to bed first.\" And he lay down pretending to go to sleep, and then went and fastened the rope on his mother-in-law's bed."
+canonical-instances:
+  - "An employee ordered by a boss to quietly leak a rival team's project files to a competitor instead swaps the folder labels at the last moment, so the leak goes out mechanically as instructed but hands over the boss's own team's files instead."
+critical-questions:
+  - "Silently redirecting the marker avoids an open confrontation, but it also means the plotter never learns the co-conspirator refused. Is that concealment itself a cost, or is the outcome all that matters here?"
+status: active

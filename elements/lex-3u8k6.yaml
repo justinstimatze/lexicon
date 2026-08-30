@@ -1,0 +1,19 @@
+id: lex-3u8k6
+name: resources-keep-flowing-to-an-already-full-recipient-while-need-goes-unseen
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Contributors will keep directing resources toward whichever recipient is already receiving them, purely because that recipient is the visible, established destination, even as the resource overflows and unmet need sits nearby entirely unaddressed. The Jataka's dream of the pitchers depicts this directly: a constant stream of people keep pouring water into an already-overflowing pitcher, watching the excess run away and get wasted, without a single one of them glancing at the empty pitchers standing right beside it. No one intends the waste. Each contributor is simply following an already-visible flow, and none of them stops to check whether the need has moved."
+related: []
+evokes: [jataka, ekanipata, mahasupina-jataka, resources-follow-visibility-not-need, established-destination-outlasts-its-usefulness]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahasupina-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 77, Mahasupina-jataka, eighth of sixteen dream-interpretations. Verified verbatim against a direct extraction of the held copy."
+    quote: "there kept coming a constant stream of people... pouring it into the full pitcher. And the water overflowed and ran away. But none the less they still kept on pouring more and more water into the over-flowing vessel, without a single man giving so much as a glance at the empty pitchers."
+canonical-instances:
+  - "A company's charitable-giving budget keeps renewing its donation to the one well-known nonprofit that made an early ask years ago, while several newer, more effective organizations serving the same population go completely unfunded, simply because no one on the giving committee has revisited where the money is actually going."
+critical-questions:
+  - "Does redirecting a contributor's attention to the empty pitchers actually change their behavior, or is the established flow itself, independent of anyone's awareness, what determines where the next contribution goes?"
+  - "Is there a point at which the overflowing pitcher's waste becomes visible enough that contributors notice on their own, without anyone having to point out the empty ones beside it?"
+status: active

@@ -1,0 +1,20 @@
+id: lex-xjnjd
+name: a-marginal-utility-argument-cures-grief-over-a-phantom-gain
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Grief over a lost windfall can be dissolved not by consoling the griever, but by walking them through what the windfall would have actually added on top of what they already have, exposing that the marginal benefit was smaller than the emotional weight assigned to it. In the Jataka's tale of the king made sick by a broken promise of three cities, the disguised healer doesn't dispute the loss or offer sympathy. He asks a pointed question: 'O king...could you wear four pairs of robes at once, eat out of four golden dishes, lie on four state beds?' The king recovers immediately, not because the cities stop being lost, but because the question forces him to notice that his existing wealth already exceeds what he could physically use, making the marginal three cities worth far less than the grief he'd assigned them."
+related: [lex-n93j7]
+scaffolds-from: [lex-n93j7]
+evokes: [jataka, dukanipata, kamanita-jataka, marginal-utility-reasoning-dissolves-grief-over-a-lost-gain, existing-abundance-exposes-a-phantom-losss-true-scale]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kamanita-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 228, Kamanita-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "O king, what if you were to get those three cities, then while you reigned over these four cities, could you wear four pairs of robes at once, eat out of four golden dishes, lie on four state beds?"
+canonical-instances:
+  - "A founder devastated over losing a funding round that would have tripled their valuation is talked down not with sympathy but with a blunt question from a mentor: given the company already has eighteen months of runway and can't spend what it has fast enough to grow faster, what would the extra money have actually let them do differently this year?"
+critical-questions:
+  - "Does this argument work on every kind of lost gain, or only on ones where the person already has enough that the marginal utility genuinely is low — would it fail entirely on someone whose existing resources are actually insufficient, where the phantom gain wasn't excess but a real unmet need?"
+  - "Is the cure here really about marginal utility, or is it about redirecting attention away from the loss itself toward a concrete, satisfying inventory of what's already held — would any sufficiently vivid reminder of existing abundance have worked, not just this specific line of reasoning?"
+status: active

@@ -1,0 +1,18 @@
+id: lex-5252x
+name: refusing-food-as-wordless-persuasion-under-captivity
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'A captive who cannot speak freely or compel a captor by force can refuse sustenance as a demonstration of an unstated grievance''s depth, letting the refusal itself carry the communication the captive has no other channel to deliver, and forcing the power-holder to investigate rather than simply command compliance. In the Jataka''s tale of the elephant who supported his mother, captured and offered the king''s own fine food, the elephant refuses to eat until his reason is understood: "But not a bit would he eat: ''Without my mother, I will eat nothing,'' said he."'
+related: []
+evokes: [jataka, ekadasanipata, mati-posaka-jataka, hunger-strike, wordless-leverage]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mati-posaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 455, Mati-posaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "But not a bit would he eat: \"Without my mother, I will eat nothing,\" said he."
+canonical-instances:
+  - "A new hire, unable to get management to take a safety complaint seriously through the normal channel, stops performing the one task only he can do until someone with authority actually asks him why."
+critical-questions:
+  - "This tactic depends on the captor caring enough to investigate rather than simply letting the captive starve — what does it predict about outcomes when the power-holder has no such investment?"
+status: active

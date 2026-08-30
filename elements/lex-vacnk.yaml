@@ -1,0 +1,21 @@
+id: lex-vacnk
+name: a-stated-completeness-condition-violated-under-pressure-yields-the-exact-predicted-defect
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "When you're told in advance exactly what will be missing if a delicate process isn't completed in full, and real-time pressure then forces you to cut it short, don't expect a different or lesser failure than the one you were warned about -- expect precisely that one. In Cushing's telling, a divine father gives two brothers explicit instructions for recovering their dead mother's remains: 'mind, ye must not leave a single bone nor any part, for if ye do, your mother will lack that when she comes to life again.' The recovery goes almost perfectly, until a creaking ladder rung wakes the sleeping guards mid-escape and forces a panicked run. In that exact moment of pressure, 'he dropped one of his mother's eyes out of the blanket.' When she revives at the spring, the deficit is precisely what was foretold, nothing more dramatic, nothing different: 'one of her eyes was shrunken in.' The warning wasn't a vague caution about danger in general; it was a specific prediction of exactly this kind of partial, permanent loss, and that is exactly what happened when the plan met real-world pressure. Diagnostic move: when someone has told you in advance precisely what incompleteness will cost you, and you're now under pressure that makes full completion harder, don't treat the completeness requirement as a nice-to-have you can shortcut safely -- the specific defect you were warned about is the specific defect a rushed shortcut is most likely to produce."
+related: []
+evokes: [the-warned-defect-is-the-defect-pressure-actually-produces, cushing-the-maiden-the-sun-made-love-to-origin-of-anger, your-mother-will-lack-that-when-she-comes-to-life, one-of-her-eyes-was-shrunken-in]
+lineage:
+  - source: primary
+    text: cushing-dropped-eye-under-pressure-produces-the-exact-warned-defect
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Maiden the Sun Made Love To, and Her Boys: or the Origin of Anger.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'Now, mind, ye must not leave a single bone nor any part, for if ye do, your mother will lack that when she comes to life again. ... but when his foot touched the fourth rung it creaked, and the sleeping dancers awoke and started. ... Then the young man ran up as fast as ever he could, but alas! he dropped one of his mother's eyes out of the blanket. ... Ahwa! uttered the mother, I'm tired and I don't know what is the matter with my eyes, for things don't look straight.'"
+canonical-instances:
+  - "A lab is told in advance that any sample container left even briefly at room temperature during a transfer will develop exactly a specific measurable degradation in one analyte, and when a fire alarm forces a rushed transfer under pressure, that exact analyte, and no other, comes back degraded in the results."
+  - "A software team is warned that skipping the final verification step of a data migration under deadline pressure will specifically cause a known category of records to lose their historical timestamps, and when the deadline forces exactly that shortcut, the resulting dataset is missing precisely those timestamps and nothing else."
+critical-questions:
+  - "Could the young man have prevented the drop despite the sudden pressure, for instance by securing the bundle more carefully in advance, or does the story present the loss as effectively inevitable once the alarm was raised, regardless of how well-prepared he had been?"
+  - "Does the specificity of the warning, 'your mother will lack that,' actually help anyone in the moment of crisis, given that panic under pressure isn't something a prior warning obviously counteracts -- or does the value of such a warning lie only in correctly predicting outcomes after the fact?"
+  - "Is there a meaningful difference between a partial, survivable defect, as here, one shrunken eye, and a threshold failure where any incompleteness at all would have been fatal -- does the story's forgiveness of this smaller lapse ('never mind, you can comb your hair down over it') suggest the completeness requirement had more tolerance than stated?"
+status: active

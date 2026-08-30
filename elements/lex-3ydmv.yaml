@@ -1,0 +1,40 @@
+id: lex-3ydmv
+name: fermi-estimation
+type-in: question
+type-out: claim
+_tier: molecule
+agent-instruction: "When a quantitative question feels unanswerable, surface Fermi estimation — decompose into 3–5 factors you can each order-of-magnitude estimate; the product often lands within a factor of three."
+related: [lex-axa6h, lex-ds73b, lex-eg9zm, lex-yg484, lex-cpgyd]
+scaffolds-from: [lex-yg484, lex-axa6h, lex-ds73b, lex-eg9zm]
+evokes: [back-of-envelope-method, multiplicative-decomposition, log-space-arithmetic, piano-tuners-in-chicago]
+decomposes-into:
+  - lex-yg484
+  - lex-axa6h
+  - lex-ds73b
+assembly: "sequential(lex-yg484, parallel(lex-axa6h, lex-axa6h, ...; aggregator=multiplicative-product), lex-ds73b)"
+premises:
+  - "you face an unknown quantity Q where direct measurement is impractical or unavailable"
+  - "you decompose Q into multiplicative factors Q ≈ f1 · f2 · ... · fn where each fi is independently estimable from common-knowledge priors"
+  - "you estimate each fi to within an order of magnitude (lex-axa6h) — independently, in parallel, since the factors are chosen to be independent"
+  - "you aggregate multiplicatively; the resulting estimate carries an uncertainty band roughly equal to the sum of individual factor uncertainties in log-space (errors partially cancel because over- and under-estimates tend to balance)"
+  - "you sanity-check via dimensional analysis (lex-ds73b): the units of the product should match the units expected for Q"
+critical-questions:
+  - "are the factors actually independent? (correlated factors don't have errors that cancel — in the worst case, errors compound)"
+  - "is the multiplicative decomposition the right shape, or does the answer involve additive terms whose magnitudes differ by orders (in which case the smaller term is fine to drop, but you should know which terms you're dropping)?"
+  - "have you sanity-checked the units? a Fermi estimate that produces the wrong units is wrong before its magnitude even matters"
+  - "is your prior calibration on each factor honest, or are you anchoring on the answer you want? (the discipline only works if each factor estimate is independent of the target answer)"
+  - "have you cross-checked via a second decomposition? if Q can be reached two ways and the two estimates agree to within ~1 order of magnitude, the answer is more trustworthy than either alone"
+lineage:
+  - source: practitioner
+    text: fermi-1940s-pedagogical-tradition
+    citation: "Enrico Fermi's pedagogical method, transmitted through generations of physics graduate students; canonized in collected 'Fermi problems' (e.g., the Chicago piano tuners question). The methodological commitment is: arrive at an order-of-magnitude answer fast, then decide whether precision is needed"
+  - source: practitioner
+    text: physics-decomposition-pass
+    citation: "worked example assembling 2 of the 6 atoms newly promoted in this pass; uses parallel() composition operation as 3rd attestation, triggering parallel's promotion to first-class entry (lex-eg9zm)"
+canonical-instances:
+  - "How many piano tuners in Chicago? Decompose: (Chicago population ~3·10^6) × (households per person ~1/3) × (fraction with piano ~1/30) × (tunings per piano per year ~1) ÷ (tunings per tuner per year ~10^3) ≈ 100. Each factor estimable from common knowledge in parallel"
+  - "performance estimation: how long will this query take? (rows scanned ~10^6) × (work per row ~10^-6 sec) ≈ 1 sec. Each factor independently estimable from schema and basic CPU intuition"
+  - "TAM sizing in business: (total population ~10^9) × (target-segment fraction ~10^-2) × (annual willingness-to-pay ~10^2) ≈ $10^9 TAM. Each factor estimable from public sources in parallel"
+  - "central distinction from a precise calculation: fermi-estimation deliberately commits to ±1 order of magnitude resolution because precision-beyond-that is wasted effort relative to the question 'is this answer in the ballpark of what I'm planning around?'"
+severity-tier: info
+status: active

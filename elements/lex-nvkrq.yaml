@@ -1,0 +1,18 @@
+id: lex-nvkrq
+name: gratitude-scales-with-the-size-of-what-was-forgiven
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: "The magnitude of gratitude or affection someone shows toward a person who forgave them can be read backward as an estimate of how much they believe was forgiven — two debtors owe wildly different amounts, both are forgiven outright, and the one who owed more is inferred to love the creditor more — the size of the forgiven debt is doing the driving, however arbitrary love's scaling might otherwise seem. This lets an observer work backward from an observed display of gratitude to a claim about how much wrongdoing or debt must have existed."
+related: []
+evokes: [kjv, the-two-debtors, one-owed-five-hundred-pence-the-other-fifty, which-of-them-will-love-him-most, he-to-whom-he-forgave-most]
+lineage:
+  - source: primary
+    text: kjv-1611-luke-7-the-two-debtors
+    citation: "The Holy Bible, King James Version (1611; this edition Project Gutenberg #10), Luke 7:41-43. Verified verbatim against a direct extraction of the held copy."
+    quote: "There was a certain creditor which had two debtors: the one owed five hundred pence, and the other fifty. And when they had nothing to pay, he frankly forgave them both. Tell me therefore, which of them will love him most? Simon answered and said, I suppose that he, to whom he forgave most. And he said unto him, Thou hast rightly judged."
+canonical-instances:
+  - "A colleague who was quietly saved from a career-ending mistake by a manager's cover-up becomes noticeably more loyal and deferential to that manager than anyone else on the team — the disproportionate loyalty is itself evidence, to anyone watching, of just how large the covered-up mistake must have been."
+critical-questions:
+  - "Is the observed gratitude actually proportional to the debt, or does it track something else entirely — status, dependency, fear of the relationship ending — that only looks like debt-proportional love from the outside?"
+status: active

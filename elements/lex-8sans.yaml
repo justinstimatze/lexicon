@@ -1,0 +1,19 @@
+id: lex-8sans
+name: reframe-restraint-as-the-aggressors-own-rational-self-interest
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than beg or threaten, a target of a more powerful aggressor can persuade the aggressor that killing him now forfeits a much larger steady future benefit, converting a win-lose confrontation into a cost-benefit argument aimed at the aggressor''s own advantage. In the Jataka''s tale of Sutano, the hero puts it to the yakkha directly: "Yakkha, you''ll lose a great thing for a small, Men fearing death will bring no food at all."'
+related: []
+evokes: [jataka, sattanipata, sutano-jataka, reframe-restraint-as-self-interest, one-time-gain-versus-ongoing-benefit]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sutano-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 398, Sutano-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Yakkha, you'll lose a great thing for a small, Men fearing death will bring no food at all."
+canonical-instances:
+  - "A supplier facing a client threatening to walk over a single dispute points out that terminating the relationship costs the client far more in switching and re-negotiation than resolving this one issue would, turning a confrontation into the client's own math problem."
+critical-questions:
+  - "Does this argument only work on an aggressor who is already capable of calculating long-term self-interest, leaving it useless against one acting purely on immediate impulse or rage?"
+  - "Is the target actually safer after making this argument, or only safer for as long as the aggressor continues to believe the future benefit outweighs the immediate one?"
+status: active

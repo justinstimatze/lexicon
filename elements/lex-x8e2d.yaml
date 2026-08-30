@@ -1,0 +1,18 @@
+id: lex-x8e2d
+name: leaders-withdrawal-as-corrective-pressure
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'After repeated direct appeals to end a dispute are ignored, an authority figure can disengage entirely, physically leaving the community for an extended period, rather than continuing to argue or escalate enforcement. The absence itself, and the group''s resulting loss of guidance, becomes the corrective force that direct argument could not achieve — the leader lets the natural consequence of departure do the persuading. In the Jataka''s tale of Kosambi, having failed three times to reconcile the quarreling monks, the Master simply leaves: he journeyed to the Parileyyaka forest, and after dwelling there three months, without returning to Kosambi, he went straight to Savatthi.'
+related: []
+evokes: [jataka, navanipata, kosambi-jataka, strategic-withdrawal, silent-corrective-absence]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kosambi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 428, Kosambi-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Thence he journeyed to the Parileyyaka forest, [490] and after dwelling there three months, without returning to Kosambi, he went straight to Savatthi."
+canonical-instances:
+  - "After a founder's third attempt to mediate between two warring department heads goes nowhere, she stops scheduling any more mediation sessions and simply lets both departments run without her intervention for a quarter, letting the resulting dysfunction make her earlier point for her."
+critical-questions:
+  - "What distinguishes a leader's corrective withdrawal from simple abandonment of the problem — is it the leader's intent, the group's reading of the absence, or something else?"
+status: active

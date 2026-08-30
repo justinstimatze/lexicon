@@ -1,0 +1,19 @@
+id: lex-7h7fz
+name: a-same-status-confidante-extracts-what-the-most-invested-party-cannot
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A person concealing a shameful secret out of pride will disclose it to a same-status intermediary of the same social category when they will not disclose it to the person most invested in the outcome. In the Jataka''s tale of Susima, the king sends his own queen to learn what ails his mother, and the text states the mechanism as a general rule, not just a plot event: "He sat on the royal throne, and sent his own chief queen to find what ailed her. She went and asked, stroking the queen-mother''s back. Women do not hide secrets from women: and the secret was told."'
+related: []
+evokes: [jataka, sattanipata, susima-jataka, same-status-confidante-extracts-secrets, trusted-intermediary-elicits-confession]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-susima-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 411, Susima-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "He sat on the royal throne, and sent his own chief queen to find what ailed his mother. She went and asked, stroking the queen-mother's back. Women do not hide secrets from women: and the secret was told."
+canonical-instances:
+  - "Unable to get a struggling new hire to admit what's actually wrong, a manager asks a peer at the same level to check in informally instead, and the peer learns in ten minutes what months of one-on-ones with the manager never surfaced."
+critical-questions:
+  - "Is the mechanism here really about shared social category, or simply about the lower stakes of confiding in someone with no direct power over the outcome?"
+  - "Does routing disclosure through an intermediary risk distorting the secret in translation before it reaches the person who actually needs to act on it?"
+status: active

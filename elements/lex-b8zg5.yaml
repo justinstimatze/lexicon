@@ -1,0 +1,21 @@
+id: lex-b8zg5
+name: pricing-sacred-knowledge-filters-out-idle-curiosity-before-access
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "Treating the right to tell a sacred story as purchasable property, sold only to people who take on real cost or commitment to acquire it, filters out casual curiosity-seekers before they ever get access, since no one spends real value acquiring something they only want to poke at. Among the Winnebago, the right to narrate a waikan, a sacred myth, 'belongs... either to a particular family or to a particular individual. In a certain sense it is his 'property', and as such often possesses a high pecuniary value.' For the most sacred or longest myths, payment wasn't a single transaction either: 'it had to be purchased in instalments.' The restriction wasn't really about the price -- it was about who the price selected for: 'The number of individuals... to whom it would be sold was strictly limited, because no one would care to acquire the right to tell a myth out of idle curiosity nor would it be told by its owner to such a one.' The purchase requirement and the seller's own discretion work together as a two-sided filter: cost screens out the idly curious, and the owner's judgment screens out anyone cost alone wouldn't deter. Diagnostic move: when you want to protect a body of knowledge or practice from being trivialized by casual access, consider whether requiring a real cost, financial, effortful, or otherwise, to acquire it does more filtering work than a stated eligibility requirement would, since people willing to pay a real cost have already screened themselves for seriousness before you have to judge them."
+related: []
+evokes: [radin-winnebago-mythology-and-literary-tradition, waikan-as-property, purchased-in-instalments, not-out-of-idle-curiosity]
+lineage:
+  - source: primary
+    text: radin-the-right-to-narrate-a-waikan-is-purchased-property-sold-only-to-serious-buyers
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'Winnebago Mythology and Literary Tradition.' Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "Among the Winnebago the right to narrate a given myth, that is, a waikan, belongs, as I have already indicated, either to a particular family or to a particular individual. In a certain sense it is his 'property', and as such often possesses a high pecuniary value. Where the myth was very sacred or very long; it had to be purchased in instalments. The number of individuals, however, to whom it would be sold was strictly limited, because no one would care to acquire the right to tell a myth out of idle curiosity nor would it be told by its owner to such a one."
+canonical-instances:
+  - "A martial arts school requires new students to complete a lengthy, expensive apprenticeship before teaching its most advanced techniques, not primarily to fund the school but to ensure no one learns them who wasn't serious enough to commit years to getting there."
+  - "A specialized professional community requires a costly, multi-year certification before granting access to its internal case archive, filtering out casual browsers who would otherwise treat sensitive material as curiosities rather than working knowledge."
+critical-questions:
+  - "Does the pecuniary cost actually measure seriousness, or does it simply measure wealth, systematically excluding people who might be genuinely serious but unable to pay, while admitting wealthy people who are merely curious?"
+  - "Is the owner's personal discretion doing more of the actual filtering than the price itself, given that Radin notes the owner would refuse to sell even to someone able and willing to pay, if their motive seemed like idle curiosity?"
+  - "Would this filtering mechanism survive a would-be buyer who is genuinely serious but poor, or a would-be buyer who is superficially serious but ultimately just as curious as anyone the system was meant to exclude?"
+status: active

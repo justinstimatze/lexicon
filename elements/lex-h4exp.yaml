@@ -1,0 +1,19 @@
+id: lex-h4exp
+name: fixing-responsibility-can-threaten-a-groups-cooperative-nonaccountability
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Within a group whose functioning depends on a tacit, mutual agreement not to formally track who did what, someone's attempt to fix and assign responsibility — even in good faith, even explicitly for safety's sake — can read as a threat to be neutralized, because it breaks the group's ability to survive collectively without anyone being individually pinned down. The comparison to a man on a crowded, storm-tossed rowboat declaring he alone will guard the provisions and life preservers captures the mechanism precisely: the declaration sounds responsible, but it shatters the diffuse, unspoken trust the group actually depends on, which is a trust built on no one having sole custody of anything that could later be blamed on them. This is the structural sibling of naming an unspoken norm aloud — both punish making implicit, distributed practice explicit and singular, whether the practice is a rule being followed or a resource being held."
+related: [lex-7dypc]
+evokes: [jackall-moral-mazes, "a tactic certain to shatter the trust required to maintain a kind of cooperative nonaccountability", the-rowboat-provisions-guard]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch5-crowded-rowboat
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 5, Drawing Lines."
+    quote: "One manager compared Wilson to a man on a crowded rowboat on choppy stormy waters who declares that he will guard the provisions and the life preservers. He tried to fix responsibility for action, a tactic certain to shatter the trust required to maintain a kind of cooperative nonaccountability."
+canonical-instances:
+  - "A committee member proposes formally logging who signs off on each shared decision, intending to improve safety, and finds the rest of the committee quietly resistant — not because anyone objects to safety, but because the log would end the group's long-standing practice of no one individually owning any single call."
+critical-questions:
+  - "Is the group's cooperative nonaccountability actually serving a legitimate function — distributing risk so no one is unfairly singled out — or is it mainly protecting the group from consequences it should individually bear, with 'trust' as the flattering name for what's really diffusion of blame?"
+status: active

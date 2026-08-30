@@ -1,0 +1,19 @@
+id: lex-x8hq5
+name: sustained-availability-outcompetes-distinguished-but-absent-merit
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "In a group vote over a reward or resource, consistent local presence can beat greater but intermittent distinction, because the value of availability is felt directly and continuously by the voters while the value of distinction elsewhere is abstract and unfelt by them. In the Jataka's tale of the donated robe, citizens vote on whether a more virtuous but often-traveling monk or a less distinguished but always-present one should receive a fine robe. The reasoning that wins the vote names the mechanism exactly: 'Elder Sariputta will stay here a few days, and then go travelling at his own sweet will; but Devadatta always lives near our city; he is our refuge in good fortune or ill.' The vote isn't a failure to recognize which candidate has more merit in the abstract — it's a correct calculation of which one actually delivers value to the specific voters doing the choosing."
+related: []
+evokes: [jataka, dukanipata, kasava-jataka, availability-to-the-chooser-outweighs-distinction-elsewhere, a-group-rationally-rewards-proximity-over-abstract-merit]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kasava-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 221, Kasava-jataka (frame story). Verified verbatim against a direct extraction of the held copy."
+    quote: "Elder Sariputta will stay here a few days, and then go travelling at his own sweet will; but Devadatta always lives near our city; he is our refuge in good fortune or ill."
+canonical-instances:
+  - "A neighborhood association votes to give its volunteer-of-the-year award to the resident who's always available for small, unglamorous tasks rather than to the one who organized one spectacular event before moving out of town months ago, correctly weighing who has actually been useful to the people casting the vote."
+critical-questions:
+  - "Is this vote actually a mistake dressed up as pragmatism, given that the frame story presents Devadatta as a genuinely poor moral choice — does the story intend the vote as a cautionary example of a crowd choosing wrong, or as a neutral description of how such votes tend to go?"
+  - "Would the calculation change if the distinguished-but-absent candidate's contributions, though occasional, were individually far larger in value than anything the consistently-present candidate provides — does availability only win when the stakes per interaction are roughly comparable?"
+status: active

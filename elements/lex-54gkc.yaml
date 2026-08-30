@@ -1,0 +1,19 @@
+id: lex-54gkc
+name: separate-positional-confidence-from-personal-power-before-engaging
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone taunts you from a position of obvious safety, check whether their boldness comes from real strength or from the protection of their position, and decline to treat situational bravado as a genuine provocation. In Aesop's 'The Kid on the Housetop,' a young goat safely perched on a roof mocks a passing wolf below; the wolf refuses to be provoked, correctly diagnosing the source of the goat's courage: 'I hear you, my young friend; but it is not you who mock me, but the roof on which you are standing.' No one falls or is punished here — the interesting move is the wolf's diagnostic act of separating positional confidence from personal power and refusing to engage on the taunter's terms."
+related: []
+evokes: [aesop, the-kid-on-the-housetop, positional-vs-personal-confidence, declining-a-safe-provocation]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-kid-on-the-housetop
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Kid on the Housetop.' Verified verbatim against a direct extraction of the held copy."
+    quote: "I hear you, my young friend; but it is not you who mock me, but the roof on which you are standing."
+canonical-instances:
+  - "dismissing anonymous online hostility as a function of the anonymity and distance the platform provides, rather than treating it as a real threat or a genuine argument that needs a response."
+critical-questions:
+  - "Does correctly diagnosing the source of someone's boldness actually change anything about how to respond, or does it just help manage one's own reaction without altering the underlying situation?"
+  - "What happens once the protected position is removed — does the wolf's restraint depend on the goat staying safely out of reach, and would the same taunt provoke a genuine response the moment the roof is gone?"
+status: active

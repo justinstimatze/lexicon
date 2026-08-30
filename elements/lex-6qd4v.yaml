@@ -1,0 +1,18 @@
+id: lex-6qd4v
+name: withholding-true-information-to-prevent-a-groups-self-destructive-greed
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'An expert can deliberately conceal accurate, valuable information from the group they serve, reasoning that full disclosure would trigger a collectively harmful reaction, protecting the group through deception rather than transparency. In the Jataka''s tale of Supparaka, the navigator withholds the fact that a sea is full of diamonds specifically because he predicts the crew''s greed would sink the ship: "The Great Being reflected, that if he told them this was a diamond sea, they would sink the ship in their greed by collecting the diamonds. So he told them nothing; but having brought the ship to, he got a rope, and lowered a net as if to catch fish."'
+related: []
+evokes: [jataka, ekadasanipata, supparaka-jataka, paternalistic-deception, noble-lie-for-collective-safety]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-supparaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 463, Supparaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The Great Being reflected, that if he told them this was a diamond sea, they would sink the ship in their greed by collecting the diamonds. So he told them nothing; but having brought the ship to, he got a rope, and lowered a net as if to catch fish."
+canonical-instances:
+  - "A tour guide leading a group past an unstable but valuable mineral outcrop tells them only that it's unsafe to approach, withholding exactly what makes it valuable, correctly predicting that naming it would trigger a rush no safety warning could contain."
+critical-questions:
+  - "The navigator's prediction of the crew's greed is never actually tested since he never tells them — does withholding the information protect them, or does it just prevent the group from ever having the chance to prove him wrong about themselves?"
+status: active

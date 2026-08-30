@@ -1,0 +1,18 @@
+id: lex-j54y7
+name: fear-of-reputational-report-is-the-concealed-true-motive-beneath-outwardly-virtuous-behavior
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: 'An outwardly virtuous, consistent behavior can turn out, on honest confession, to be motivated not by the value it appears to express but by fear of what others would say if it stopped — a motive the agent only admits once directly pressed to explain the discrepancy between the behavior and their private feelings about it. In the Jataka''s tale of Kanhadipayana, the man who kept giving unwillingly confesses reputation was always the real driver: "Lest degenerate I should be I gave gifts unwillingly," and the wife who stayed in an unloving marriage gives the identical confession: "T''was fear of such report that bade me stay And live with thee in this unloving way."'
+related: []
+evokes: [jataka, dasanipata, kanhadipayana-jataka, reputation-management-as-concealed-motive, extrinsic-motivation-behind-virtue]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kanhadipayana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 444, Kanhadipayana-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Lest degenerate I should be I gave gifts unwillingly."
+canonical-instances:
+  - "A donor who has given to the same charity gala every year for a decade admits, when finally asked in confidence, that she has hated the cause for years and keeps donating solely because her social circle would notice and gossip if she stopped."
+critical-questions:
+  - "Does discovering that reputation was the real motive retroactively devalue the years of consistent virtuous behavior, or does the behavior's external benefit stand independent of why it was performed?"
+status: active

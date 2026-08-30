@@ -1,0 +1,19 @@
+id: lex-62mg7
+name: team-play-rhetoric-escalates-exactly-when-the-dissenter-is-right
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Appeals to consensus and 'team play' aren't deployed uniformly against dissent — they intensify specifically when the dissenting position is correct, not when it's wrong. A group can afford to be condescending toward a dissenter who's mistaken, since the error will surface on its own; a dissenter who's right poses an actual threat to the group's chosen course, and that's when team-play language gets invoked most forcefully to shut the disagreement down. This inverts the naive assumption that being correct protects a dissenter from social pressure — correctness is what triggers the suppression, not what prevents it, which makes 'let's focus on being a team' a warning sign worth checking against the substance of what's being suppressed rather than treating it as neutral process language."
+related: []
+evokes: [jackall-moral-mazes, "that's when we really get mad, when the other guy is right", consensus-language-as-dissent-suppression]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch3-team-play-squashes-correct-dissent
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 3, Section II."
+    quote: "That's when we really get mad—when the other guy is right. If he's wrong, we can be condescending [...] Someone who is talking about team play is out to squash dissent. It's the most effective way to tell people who have different perspectives to shut up."
+canonical-instances:
+  - "A project lead who calmly tolerates a team member's wrong technical objection becomes visibly irritated and invokes 'let's stay aligned as a team' only when a different team member raises a correct objection that would require reworking the plan."
+critical-questions:
+  - "Is the intensified team-play rhetoric actually tracking the dissent's correctness, or could it just as easily be tracking how disruptive the proposed change would be to implement, independent of whether the dissenter turns out to be right?"
+status: active

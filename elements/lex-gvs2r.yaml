@@ -1,0 +1,22 @@
+id: lex-gvs2r
+name: misdiagnosing-the-pain-sends-the-group-back-for-more
+type-in: process
+type-out: warning
+_tier: atomic
+agent-instruction: "When a trusted authority inside your own group offers a plausible explanation for pain everyone just felt, that explanation can do more harm than the pain itself, if it's wrong and it stops anyone from identifying the real hazard. In Cushing's telling, a Turtle takes revenge on a Coyote family by packing a stolen deer-stomach with fire ants disguised as a blood pudding. When the young Coyotes tear into it and the ants bite their mouths, the father doesn't investigate -- he supplies an authoritative, wrong, and completely plausible cause: 'There, now, didn't I tell you, little fools, to be careful? It was the grease that burnt you. Now I hope you know enough to eat a little more moderately. There's plenty of time to satisfy yourselves, I say.' Reassured by an explanation that fit their expectations (hot food, careless eating) far better than the true one (a predator's revenge hidden inside the food), 'the little cubs and the old woman attacked the delicacy again' and were bitten a second time. The father's authority is exactly why nobody questioned the diagnosis; a stranger offering the same wrong explanation would have been challenged. Diagnostic move: when someone whose word carries weight explains away a painful surprise with a cause that happens to require no further caution, check whether the explanation was actually verified or whether it was simply the most comfortable story available -- an authoritative wrong diagnosis sends people back into the exact same hazard with their guard back down."
+related: [lex-kfj6a]
+scaffolds-from: [lex-kfj6a]
+evokes: [an-authoritative-wrong-diagnosis-lowers-the-guard-that-would-have-caught-it, cushing-turtle-out-hunting-duped-the-coyote, it-was-the-grease-that-burnt-you, atu-tu-tu-tu-tu]
+lineage:
+  - source: primary
+    text: cushing-turtle-fire-ant-pudding-father-blames-the-grease
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'How the Turtle Out Hunting Duped the Coyote.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'There, now, didn't I tell you, little fools, to be careful? It was the grease that burnt you. Now I hope you know enough to eat a little more moderately. There's plenty of time to satisfy yourselves, I say, cried the old Coyote, sitting down on his haunches. Then the little cubs and the old woman attacked the delicacy again. Atu-tu-tu-tu-tu-tu-tu! they exclaimed, shaking their heads and flapping their ears.'"
+canonical-instances:
+  - "A shift supervisor tells workers that a recurring skin irritation from a chemical is just from the water being too hot and to rinse more carefully, and because the supervisor is trusted and the explanation sounds reasonable, workers keep using the chemical without the protective gear that would have actually prevented the exposure."
+  - "A senior developer tells a junior teammate that a recurring crash is just a flaky test environment and to rerun the suite, and the team keeps merging code against the same untested edge case because the senior's confident, plausible explanation closed off the investigation that would have found the real bug."
+critical-questions:
+  - "Does the father Coyote actually believe his own explanation, or is he improvising a face-saving story to avoid admitting he doesn't know what's happening -- does it matter, for the outcome, whether the wrong diagnosis is sincere or performed?"
+  - "What would it have taken for one of the cubs to question the grease explanation given that the pain came in distinct bites rather than a uniform burn -- was the true cause actually detectable from the sensation itself, or did the ants' bites genuinely feel enough like heat to support the cover story?"
+  - "Is the father's authority the operative cause of the second bite, or would the cubs' own hunger have overridden a correct diagnosis just as easily -- how much of this is about trusting the wrong explanation versus simply wanting the food regardless?"
+status: active

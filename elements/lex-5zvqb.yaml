@@ -1,0 +1,19 @@
+id: lex-5zvqb
+name: public-enthusiasm-and-private-mockery-of-the-same-program-coexist
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Managers can privately characterize an institutional initiative as an 'elaborate ritual with no practical effect' or 'waving a magic wand to make things wonderful again,' while publicly adopting it with visible enthusiasm, running it effectively, and then quietly dropping it once it's safe to do so — with no felt tension between the private mockery and the public performance. This isn't hypocrisy in the sense of a hidden belief contradicting a stated one; it's fully decoupled participation, where enthusiastic public performance is purely positional and doesn't require, or even correlate with, any private endorsement. Reading someone's public enthusiasm for an initiative as evidence of genuine belief is therefore unreliable in exactly this kind of environment — check for private commentary separately rather than inferring it from public behavior."
+related: []
+evokes: [jackall-moral-mazes, "the CEO's incantations over the assembled multitude", decoupled-public-performance-and-private-mockery]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch6-public-enthusiasm-private-mockery
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 6, Dexterity with Symbols."
+    quote: "Managers privately characterize such programs as the \"CEO's incantations over the assembled multitude,\" as \"elaborate rituals with no practical effect,\" or as \"waving a magic wand to make things wonderful again.\""
+canonical-instances:
+  - "A team leads a mandatory culture-change initiative with visible energy in every all-hands meeting, then jokes privately with colleagues about how meaningless the initiative is, and drops all reference to it within a year once leadership attention has moved elsewhere."
+critical-questions:
+  - "If enthusiastic public participation and private mockery genuinely coexist without felt contradiction, what would it even look like for someone in this environment to actually believe in an initiative — is there any observable behavior that would distinguish real belief from perfect positional performance?"
+status: active

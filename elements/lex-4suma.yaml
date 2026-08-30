@@ -1,0 +1,18 @@
+id: lex-4suma
+name: a-past-lucky-spot-does-not-reliably-hold-the-same-luck-twice
+type-in: claim
+type-out: state
+_tier: atomic
+agent-instruction: "A single past success at a particular spot or under a particular recipe is not evidence that returning to the same conditions will reproduce it — the fish that was once under the willow is not always under the willow. Mechanically repeating the surface conditions of a one-off win, rather than the underlying cause that actually produced it, mistakes coincidence for a reliable method."
+related: []
+evokes: [galef, kotowaza, japanese-proverbs, one-off-success-does-not-repeat-on-command, mistaking-coincidence-for-a-recipe]
+lineage:
+  - source: primary
+    text: galef-1987-even-monkeys-fall-from-trees
+    citation: "David Galef (compiler and translator), *Even Monkeys Fall From Trees: And Other Japanese Proverbs*, illustrations by Jun Hashimoto, foreword by Edward G. Seidensticker (Tuttle Publishing, copyright 1987; ebook ISBN 978-1-4629-0318-4), Proverb No. 70. Verified verbatim against a direct extraction of the held copy."
+    quote: "Yanagi no shita ni itsu-mo dojō wa inai. One cannot always find a fish under a willow."
+canonical-instances:
+  - "A startup's second product copies the exact feature set, pricing, and launch timing of its first hit, on the theory that repeating the formula will repeat the result — and finds the market that made the formula work the first time is no longer the market it's launching into."
+critical-questions:
+  - "Has the actual mechanism behind the past success been identified, or is the recipe being repeated only because it's the most visible surface feature of a win that hasn't actually been explained?"
+status: active

@@ -1,0 +1,22 @@
+id: lex-hgdkj
+name: redundant-living-copies-outlast-a-single-central-repository
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When deciding how to protect knowledge against catastrophic loss, a single comprehensive central repository is one option. Many redundant, imperfect copies distributed across living people is another. Yunkaporta's example is the Library of Alexandria: an enormous amount of knowledge sat concentrated in one place, and it was permanently lost when that place burned. Oral tradition takes the opposite design — the same class of knowledge spread across a 'biological peer-to-peer network' of living memory, something no single fire, or dictator, can destroy in one act. The tradeoff is real. A central repository can be more complete and easier to search. Distributed living copies degrade individually — a person forgets, dies, misremembers — even as the network as a whole survives what would have destroyed the repository outright."
+related: [lex-2bhh9, lex-977gg, lex-u6sw3]
+scaffolds-from: [lex-977gg]
+evokes: [yunkaporta, sand-talk, library-of-alexandria, oral-tradition-redundancy, distributed-storage]
+lineage:
+  - source: primary
+    text: yunkaporta-2019-sand-talk-library-of-alexandria
+    citation: "Tyson Yunkaporta, Sand Talk: How Indigenous Thinking Can Save the World (Text Publishing, 2019 / HarperOne 2020). Same late 'ways of thinking' section as this atom's sibling, lex-2bhh9's kinship-mind material — the redundancy argument is what Yunkaporta uses to introduce kinship-mind, so the two atoms draw on adjacent passages of one continuous argument. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "There were probably a lot more details about this ancient cognitive coup written down over the millennia, but all of that knowledge was lost with the demise of the Library of Alexandria. The moral of the story is always back up your data if you are committing memory to modes outside of an oral tradition. ... The only sustainable way to store data long-term is within relationships ... Oral traditions grounded in profound relationships represent a way of thinking that backs up your knowledge in biological peer-to-peer networks and provides a firewall against dictators who might decide to burn down your libraries."
+canonical-instances:
+  - "Yunkaporta's explicit moral drawn from the story — 'always back up your data if you are committing memory to modes outside of an oral tradition' — treats the Library of Alexandria's loss as a design lesson about single-point failure, not just a historical tragedy."
+  - "operationally distinct from lex-977gg (the general failure-mode diagnosis this design choice defends against — critical systems resting on an unmaintained single-point dependency) and lex-u6sw3 (high-fidelity copying enabling cumulative cultural evolution across generations, about accumulation and improvement rather than redundancy as a defense against catastrophic loss)."
+critical-questions:
+  - "What's actually lost in the tradeoff — does distributing knowledge across living memory sacrifice completeness, precision, or searchability that a central repository preserves, and is that cost worth the resilience gained?"
+  - "Does this generalize cleanly to modern distributed-systems design, or does the biological substrate — people who die, forget, and misremember — introduce failure modes a technical redundant system doesn't share?"
+  - "Is oral tradition doing unique work here, or is the underlying claim simply that redundant distributed storage beats single-point storage, with orality being one historically available implementation rather than a necessary feature?"
+status: active

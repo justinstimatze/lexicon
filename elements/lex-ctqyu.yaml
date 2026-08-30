@@ -1,0 +1,20 @@
+id: lex-ctqyu
+name: performing-hostility-to-prevent-tolerance-from-reading-as-consent
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "If you stay quiet in the presence of someone whose attention you don't want, your silence itself becomes evidence of encouragement, so the only way to keep 'I said nothing' from being read as 'I allowed it' is to actively perform rejection, even at a cost to your own comfort. In the Jataka's tale of Kusa, Pabhavati reasons through exactly this calculation as her unwanted husband climbs toward her chamber: \"He is doing the work of slaves and hirelings, work quite unsuitable for him. But if I hold my peace, he will think I approve of him and going nowhere else he will remain here, gazing at me. I will straightway abuse and revile him and drive him away, not allowing him to remain a moment here.\""
+related: []
+evokes: [jataka, sattatinipata, kusa-jataka, silence-as-inferred-consent, performative-rejection]
+lineage:
+  - source: primary
+    text: jataka-francis1905-kusa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XX (Sattatinipata), No. 531, Kusa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "He is doing the work of slaves and hirelings, work quite unsuitable for him. But if I hold my peace, he will think I approve of him and going nowhere else he will remain here, gazing at me. I will straightway abuse and revile him and drive him away, not allowing him to remain a moment here."
+canonical-instances:
+  - "A manager keeps assigning a report tasks outside their role because the report never objects out loud. The report starts pushing back explicitly in meetings, not because the tasks became more unreasonable, but because staying quiet had started to read as agreement to keep taking them on."
+  - "Someone lets an acquaintance's flirting go unremarked at a few gatherings, worried about seeming rude, then realizes the acquaintance now assumes mutual interest — and has to actively and visibly rebuff the next overture rather than simply not reciprocating, because passive non-reciprocation was already being read as encouragement."
+critical-questions:
+  - "Pabhavati's performed hostility works only because Kusa can't tell it's performance — does the tactic depend on the target being unable to distinguish strategic rejection from genuine feeling, and what happens once he suspects (as he eventually does test for) that her coldness might not be sincere?"
+  - "Is there a real alternative to either silent tolerance or active hostility — some clear, low-cost refusal that neither concedes ground through ambiguity nor requires manufacturing an emotional performance to be believed?"
+status: active

@@ -1,0 +1,47 @@
+id: lex-8c35v
+name: cialdini-three-lever-influence
+type-in: state
+type-out: posture
+_tier: molecule
+agent-instruction: "When you observe rapid yielding to a request, suspect Cialdini-stack: reciprocity (they gave first), commitment (they got a small yes first), social-proof (they showed others doing it). Disentangle the levers; resistance to each is different."
+related: [lex-33w6z, lex-we98d, lex-u8u7y, lex-3hefg, lex-z9s5d, lex-n8smn, lex-5nk9h, lex-h2ehw, lex-hbgcb, lex-5bpee, lex-e98pd, lex-r3w25, lex-fmgeg]
+scaffolds-from: [lex-hbgcb, lex-5bpee, lex-e98pd, lex-n8smn]
+evokes: [cialdini-six-principles-subset, the-influence-toolkit, the-three-fork-pressure, the-practitioner-picks-the-operative-lever, hare-krishna-airport]
+decomposes-into:
+  - lex-hbgcb
+  - lex-5bpee
+  - lex-e98pd
+assembly: "parallel(lex-hbgcb, lex-5bpee, lex-e98pd) → choice(selector=context_dependent)"
+premises:
+  - target T is positioned to make decision D in context C
+  - social-proof (lex-hbgcb) provides 'others-are-doing-X' signal that biases T toward conformity-with-others
+  - commitment-consistency (lex-5bpee) provides 'you-committed-to-Y-prior' signal that biases T toward consistency-with-prior-self
+  - reciprocity (lex-e98pd) provides 'I-gave-you-Z-first' signal that biases T toward felt-obligation-to-return
+  - each lever can independently shift T's posture toward D; in composition the levers compose additively or super-additively, depending on which sub-mechanisms are operative for T's specific identity-and-history in context C
+  - therefore practitioner picks the most operative lever (or combination) for the deployment
+critical-questions:
+  - which lever is most operative in this context? deploying the wrong one wastes the move and risks reactance
+  - is the target meta-aware of the influence operation? meta-awareness can produce reactance reversal (Brehm 1966)
+  - is the influence operation symmetric — does the target also have leverage back? asymmetric deployment is manipulation; symmetric deployment is mutual-influence
+  - is the influence operation reversible if the target objects mid-stream? non-reversible deployments are coercive
+  - is the practitioner's underlying intent prosocial (helping target achieve target's goal) or extractive (helping practitioner extract value from target)? the molecule itself is mechanism-neutral; ethics depend on intent
+lineage:
+  - source: primary
+    text: cialdini-1984-influence
+    citation: "Robert Cialdini, Influence: The Psychology of Persuasion (Harper 1984; revised eds 2007, 2021) — the canonical popular treatment + scientific synthesis. The six principles (consistency, reciprocation, social proof, authority, liking, scarcity) are explicitly enumerated as the practitioner-deployed toolkit; this molecule names the 3-principle subset that score's corpus exercises most heavily (social-proof, commitment-consistency, reciprocity — minus authority/liking/scarcity). Cialdini's framing of compliance-professionals 'deftly incorporating' the principles into requests is the assembly-level deployment claim; the specific 3-subset carve is substrate-internal, justified by co-occurrence data in score-mechanism-vocabulary. (Introduction six-principles enumeration + Epilogue 'Instant Influence' shortcut-deployment framing)."
+    quote: "Of the thousands of different tactics that compliance practitioners employ to produce yes, the majority fall within six basic categories. Each of these categories is governed by a fundamental psychological principle that directs human behavior and, in so doing, gives the tactics their power. The book is organized around these six principles, one to a chapter. The principles—consistency, reciprocation, social proof, authority, liking, and scarcity—are each discussed in terms of their function in the society and in terms of how their enormous force can be commissioned by a compliance professional who deftly incorporates them into requests for purchases, donations, concessions, votes, assent, etc. [Introduction — six-principle enumeration AND the deployment-together framing in one breath; 'deftly incorporates' is the assembly-level claim.] Very often in making a decision about someone or something, we don't use all the relevant available information; we use, instead, only a single, highly representative piece of the total. And an isolated piece of information, even though it normally counsels us correctly, can lead us to clearly stupid mistakes. [Epilogue 'Instant Influence' — the shortcut framing: each principle is a click-whirr trigger, and the practitioner who composes multiple triggers (the assembly) achieves super-additive compliance over single-trigger baselines.] According to the principle of social proof, we often decide to do what other people like us are doing. [Epilogue — Cialdini reiterates the single-lever shortcut form for social-proof specifically, which the molecule generalizes to the multi-lever stack.]"
+  - source: practitioner
+    text: gouldner-1960-norm-of-reciprocity
+    citation: "Alvin Gouldner, The Norm of Reciprocity: A Preliminary Statement, American Sociological Review 25(2):161-178 (1960) — already in lex-e98pd lineage; here named as the upstream sociological foundation for the reciprocity lever in the assembly. No verbatim quote is claimed in this entry — Gouldner's substantive claim is quoted in lex-e98pd's lineage."
+  - source: discovery-loop
+    text: periodic-table-distillation-pass-
+    citation: "Substrate edge 3-clique 0130 ↔ 0131 ↔ 0138 (all three pairs present in active substrate). Score corpus uses social-proof in 44 plays, commitment-consistency in 61, reciprocity in 27 — the three are the most-used Cialdini-lineage atoms. M2 candidate"
+canonical-instances:
+  - "Cialdini's Hare Krishna airport example (Influence Ch.2): airport recipients are given a flower (reciprocity primer), then asked for a donation. Compliance jumped substantially over no-flower control. The molecule fires on the reciprocity lever; the request is the harvest"
+  - "sales-funnel design (modern e-commerce): testimonial wall + reviews (social-proof lever) + 'you started this checkout' email (commitment-consistency lever) + free trial period (reciprocity lever). Most modern conversion-optimization deploys all three together"
+  - "alumni-association fundraising appeal: 'X% of your class has already given' (social-proof) + 'you've supported us for N years' (commitment-consistency) + free address-labels-and-calendar in the envelope (reciprocity)"
+  - "political door-knocking GOTV scripts: 'your neighbors are voting' (social-proof) + 'you said you'd vote when we last spoke' (commitment-consistency) + 'we drove you to register last month' (reciprocity)"
+  - "operationally distinct from lex-2rsad identity-protective-belief-maintenance: this molecule operates on TARGET decision-direction; that molecule operates on TARGET belief-defense. Both are influence-mechanisms but different behavioral surfaces"
+  - "operationally compositional with lex-u8u7y social-identity-as-self-concept-determinant: social-identity supplies WHICH others count as social-proof for T (the in-group whose behavior matters), WHICH prior commitments are identity-load-bearing, and WHICH gift-givers count as obligation-creating. Social-identity scoping makes each lever's operativeness predictable"
+  - "foundational critical question: does the molecule predict which lever is operative ex-ante? Empirically: only roughly. Cialdini's work suggests context-dependence (high-uncertainty → social-proof dominates; relationship-history → commitment-consistency dominates; gift-recently-received → reciprocity dominates). The 'choice' operation in the assembly reflects this — the practitioner / observer picks based on context-cues; the substrate doesn't auto-select"
+status: active

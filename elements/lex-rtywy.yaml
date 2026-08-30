@@ -1,0 +1,21 @@
+id: lex-rtywy
+name: concealment-effort-leaves-a-more-detectable-residue-behind
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When assessing whether an attempt to erase or hide a signal actually succeeded, check whether the erasure method itself left a new, more legible signal behind — because a mechanical, repeated concealment action often has a more uniform, more detectable signature than the natural disorder it replaced. Scott-Donelan's tracking-manual example: guerrillas dragging a branch behind them to brush out footprints left a MORE visible trail than no countermeasure at all, because natural ground disturbance is heterogeneous while a dragged branch imposes a fixed, repeated, artificially regular pattern — worn-down branch tips scoring parallel lines 'like following a railway line.' The general form: erasing a signal in one channel can create a new signal in a different channel, and that channel is often more legible precisely because the concealment action has its own consistent physical or procedural signature that untouched ground, an untouched document, or an untouched transaction never would have had."
+related: [lex-ws2gv]
+evokes: [scott-donelan, tactical-tracking, concealment-signature, antitracking, forensic-residue]
+lineage:
+  - source: primary
+    text: scott-donelan-1998-tactical-tracking-operations-ch7-countering-the-tracker
+    citation: "David Scott-Donelan, Tactical Tracking Operations: The Essential Guide for Military and Police Trackers (Paladin Press, 1998), Ch.7 'Countering the Tracker,' 'Antitracking' section, 'Brushing Out the Tracks' subsection, pp.85-86. Verified verbatim against a direct pdftotext -layout extraction, clean text, no OCR."
+    quote: "I have seen a hunted band of guerrillas drag a large branch behind them in an attempt to brush out their tracks and throw off the trackers. This inefficient technique merely left a very visible trail that was more obvious and thus easier to follow than if they had not bothered to use any antitracking at all. Eventually, the soft pliable ends of the branches were worn down to stumpy twigs, which left clear lines scored into the sandy ground. It was like following a railway line."
+canonical-instances:
+  - "Wipe marks that smear rather than remove a fingerprint: the smear pattern itself becomes forensic evidence that something was deliberately cleaned, information an untouched (or naturally dirty) surface would never have provided."
+  - "operationally distinct from lex-ws2gv (the Streisand effect — suppression amplifies visibility by triggering observer curiosity about WHY something was hidden): the Streisand effect operates through social inference about motive, requiring an observer who notices the suppression attempt and wonders about it. This atom requires no observer inference at all — it's a purely mechanical/forensic fact that the concealment tool leaves its own fixed physical signature, detectable by anyone who knows to look, independent of any reasoning about intent."
+critical-questions:
+  - "Does the same concealment method always produce a more detectable residue than no concealment, or only when applied repeatedly/mechanically in a way that imposes artificial regularity? A single, careful, non-repeated concealment action might genuinely reduce detectability where a repeated mechanical one backfires — the branch-dragging case involved sustained, uniform reapplication over distance."
+  - "How does a tracker (or analyst, auditor, forensic examiner) distinguish a genuine concealment-residue signature from ordinary natural pattern regularity that has an innocent cause? Over-applying this heuristic risks reading intentional concealment into naturally occurring uniform patterns."
+  - "Does this generalize cleanly to digital/procedural domains (deleted-file slack space, structured transactions evading a reporting threshold, edited-document metadata) where the 'residue' is a different kind of artifact than a physical mark, or does the physical/forensic version rely on properties (wear patterns, material degradation) that don't have clean digital analogues?"
+status: active

@@ -1,0 +1,21 @@
+id: lex-dxenz
+name: victory-relaxes-vigilance-and-that-relaxation-is-the-real-opening
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "When you've been completely defeated and your only remaining asset is patience, don't treat the moment of conquest as the end of the contest -- the victor's guard is at its lowest precisely after they've won, because winning is when a threat believes it has stopped needing to watch for one. Kautilya's instruction for a king hidden inside a captured fort: 'He shall lie low until the victorious occupier forgets him [and becomes careless]. Then the victor shall be killed while sleeping... while he is enjoying himself carelessly in a park or a leisure area... or by secret women agents killing him with snakes, poison, fire or smoke while he is asleep in a secluded place.' Every method listed targets the same window -- sleep, leisure, careless enjoyment -- not because these are convenient logistically, but because they're the only times the mechanism (forgetting, becoming careless) has actually occurred. The insight generalizes past this specific scene: the moment a threat is neutralized in someone's mind is not the moment it's actually neutralized, and the gap between those two moments is exactly the resource a defeated party has left to work with, since a victor's own success is what disarms them. Diagnostic move: after a total loss where direct confrontation is no longer possible, don't calculate your odds against the victor's current, alert state -- calculate them against the state they'll be in once they've stopped considering you a threat, since that eventual complacency, not your own strength, is the actual opening you're waiting for."
+related: []
+evokes: [the-victors-guard-drops-exactly-when-they-stop-needing-it, kautilya-if-unable-to-escape-revenge-after-defeat, winning-is-when-a-threat-stops-watching-for-one, patience-as-the-only-remaining-resource-after-total-defeat]
+lineage:
+  - source: primary
+    text: kautilya-arthashastra-lie-low-until-the-victor-grows-careless
+    citation: "Kautilya, The Arthashastra, ed./trans. L.N. Rangarajan (Penguin Books, 1992), Part X 'Foreign Policy,' section 'The Weak King,' 'If Unable to Escape / Revenge After Defeat,' {12.5.43 ff.}."
+    quote: "'He shall lie low until the victorious occupier forgets him [and becomes careless]. Then the victor shall be killed while sleeping by entering his bedchamber at night through a tunnel... while he is enjoying himself carelessly in a park or a leisure area... or by secret women agents killing him with snakes, poison, fire or smoke while he is asleep in a secluded place.'"
+canonical-instances:
+  - "A founder forced out of the company they built doesn't try to compete immediately against the acquirer's full attention and resources -- they wait until the acquirer has declared victory publicly, folded the founder's old product into a larger portfolio, and moved its best people and focus elsewhere, then re-enters the same market space the acquirer has quietly stopped watching."
+  - "A political figure who loses an election decisively doesn't contest the outcome or attempt an immediate comeback while the winning side is fully mobilized and alert to any challenge -- they wait for the winning administration's attention to shift entirely to governing and its own internal disputes, then rebuild in the space that inattention opens up."
+critical-questions:
+  - "how does a defeated party reliably detect that the victor has actually become careless, versus mistaking ordinary caution or a deliberate trap for genuine complacency, given that acting on a false read could be fatal where waiting longer would not have been?"
+  - "does this tactic assume the victor's complacency is inevitable, when some victors institutionalize permanent vigilance (standing security, succession planning, active monitoring) specifically because they know this exact tactic exists -- does the pattern only work against victors who haven't read the same playbook?"
+  - "what is the actual cost, in years or in irreversible changes to the situation, of waiting for a window that may never open, and does the framework account for a defeated party's position continuing to erode the whole time they wait, making the eventual opening arrive too late to matter?"
+status: active

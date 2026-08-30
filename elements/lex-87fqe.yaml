@@ -1,0 +1,21 @@
+id: lex-87fqe
+name: a-sacrifice-costing-nothing-yet-is-not-real-virtue
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A gift given at no real cost to the giver hasn't yet demonstrated its own sincerity, and the genuine test arrives later, when circumstances change and keeping the gift would actually cost something. In the Dakota tale of Iktomi's Blanket, Iktomi gives his blanket to a stone deity while warm in the sun, an act that costs him nothing at that moment, and reclaims it the same night once the cold makes him actually need it. The tale states the diagnosis directly: his later tears over losing the blanket a second time are 'selfish tears,' because the original gift was never tested against real cost, and reclaiming it retroactively exposes what it always was."
+related: [lex-5kjya]
+evokes: [zitkala-sa, old-indian-legends, iktomi, untested-generosity, sacrifice-timing]
+lineage:
+  - source: primary
+    text: zitkala-sa-1901-old-indian-legends-iktomis-blanket
+    citation: "Zitkála-Šá, Old Indian Legends (Ginn & Company, 1901), 'Iktomi's Blanket.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "Iktomi, in the warm sunshine, had no need of his blanket, and it had been very easy to part with a thing which he could not miss. But the chilly night wind quite froze his ardent thank-offering. ... 'Give my blanket back, old grandfather! You do not need it. I do!' This was very wrong, yet Iktomi did it, for his wit was not wisdom. ... Those tears no longer moved the hand of the Generous Giver. They were selfish tears. The Great Spirit does not heed them ever."
+canonical-instances:
+  - "The narrator's timing detail — Iktomi 'had no need of his blanket, and it had been very easy to part with a thing which he could not miss' — names the absence of cost as the reason the gift wasn't yet virtue, stated before any reclaiming happens."
+  - "operationally distinct from lex-5kjya (costly conspicuous waste as a status signal, where the cost is the point of the display and is paid up front): this atom's mechanism is a gift whose apparent virtue was never actually tested by cost, exposed only later when reclaiming it becomes the diagnostic act. lex-5kjya's signal really does cost something the moment it's sent. Here the cost was zero from the start, and what gets caught later is the reneging."
+critical-questions:
+  - "Is timing the only variable that matters, or does the tale's judgment also depend on the giver's own awareness at the time — would a gift given in genuine ignorance of future cost be judged differently from one given in unconscious bad faith?"
+  - "Does this generalize to any pledge made in comfortable circumstances and revisited once circumstances turn costly, or is something specific to sacred giving doing extra work in this tale?"
+  - "What would count as evidence a gift was genuine at the time, short of the counterfactual test of actually enduring the cost?"
+status: active

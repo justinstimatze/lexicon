@@ -1,0 +1,19 @@
+id: lex-tdvtf
+name: one-accounting-frame-covers-obligations-owed-in-three-different-time-directions
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Support given to dependents who cannot yet reciprocate, support given to elders who can no longer reciprocate, and support given to strangers who will never reciprocate are three structurally different obligations — owed forward in time, owed backward in time, and owed to no one in particular. Naming all three with a single financial vocabulary (loan, debt, treasure) makes them mutually legible as instances of one coherent practice rather than three unrelated acts of generosity, without collapsing the real difference in who is owed and when. In the Jataka's tale, the parrot king, asked what he does with the food he doesn't eat, answers with exactly this three-part accounting: \"My callow chicks, my tender brood, whose wings are still ungrown, / Who shall support me by and bye: to them I grant the loan. / Then my old ancient parents, who far from youth's bounds are set, / With that within my beak I bring, to them I pay my debt. / And other birds of helpless wing, and weak full many more, / To these I give in charity: this sages call my store. / This is that loan the which I grant, this is the debt I pay, / And this the treasure I store up: now I have said my say.\""
+related: []
+evokes: [jataka, pakinnakanipata, salikedara-jataka, temporal-direction-of-an-obligation, financial-vocabulary-as-a-unifying-frame]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-salikedara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XIV (Pakinnaka-Nipata), No. 484, Salikedara-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "My callow chicks, my tender brood, whose wings are still ungrown, / Who shall support me by and bye: to them I grant the loan. / Then my old ancient parents, who far from youth's bounds are set, / With that within my beak I bring, to them I pay my debt. / And other birds of helpless wing, and weak full many more, / To these I give in charity: this sages call my store. / This is that loan the which I grant, this is the debt I pay, / And this the treasure I store up: now I have said my say."
+canonical-instances:
+  - "A mid-career employee describes mentoring juniors as an investment in the team's future, covering their own aging parents' costs as a debt owed for their upbringing, and donating anonymously to a scholarship fund as neither — and can explain the difference between the three the moment someone asks who they expect to pay them back."
+critical-questions:
+  - "The parrot's three categories map cleanly onto forward, backward, and directionless obligation. Is there a fourth kind of obligation this frame can't place — one that's neither a loan, a debt, nor undirected charity — or does the frame just not have a slot for something like a mutual, present-tense exchange between equals?"
+  - "Calling undirected generosity toward strangers a 'store' or 'treasure' rather than a loan or debt implies it's accumulating for the giver's own future benefit. Does that framing quietly turn charity into self-interest, or is it an honest acknowledgment that even open-ended generosity is expected to come back around eventually?"
+status: active

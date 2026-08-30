@@ -1,0 +1,38 @@
+id: lex-w5qfe
+name: iterative-refinement-of-a-provisional-target-against-feedback
+type-in: situation
+type-out: process
+_tier: molecule
+agent-instruction: "When iterating on something, treat the current target as provisional and refine it against feedback — don't lock the spec before the loops have run."
+related: [lex-89rjr, lex-da3g3, lex-p34bd, lex-exrwy, lex-druv9, lex-fxtuq, lex-ubyz3, lex-n42kg, lex-6pd48, lex-j2tgc, lex-k6p4z, lex-h94k5, lex-5qv7q, lex-urwym]
+scaffolds-from: [lex-druv9, lex-exrwy, lex-da3g3, lex-j2tgc, lex-h94k5]
+evokes: [scientific-method-loop, pdca, agile-discovery, ooda-refinement, hold-the-goal-loosely-and-revise, a-failing-test-sharpens-the-spec, conjecture-act-refine-repeat, the-target-co-evolves-with-the-doing, dont-discard-the-goal-on-first-failure]
+decomposes-into:
+  - lex-druv9
+  - lex-exrwy
+assembly: "iteration(lex-exrwy; until=corrections-small)"
+premises:
+  - "you hold a target under uncertainty — a claim, spec, design, hypothesis, or goal — and have a feedback channel that can talk back (tests, experiments, critics, users, reality). (type-in: situation)"
+  - "lex-druv9 ends-in-view: hold the target as a PROVISIONAL, revisable end-in-view rather than a rigid externally-fixed end, so that what the doing reveals is allowed to revise it. A rigid target that 'can only be insisted upon' (Dewey) cannot benefit from the loop and short-circuits it"
+  - "act toward the target; feedback arrives, often as a counterexample, failure, or anomaly that the target did not anticipate"
+  - "lex-exrwy counterexamples-refine: treat each counterexample not as a terminal refutation but as information about a HIDDEN assumption; fold it in (lemma-incorporation) to produce a sharper target — rather than surrendering the target (discard) or defining the failure away (monster-barring)"
+  - "lex-da3g3 iteration: repeat (act → surface-counterexample → refine) until corrections become small relative to the current target — i.e., until the target stabilizes against the available feedback"
+  - "output: a refined, feedback-tested target that no single up-front specification could have reached. This is the shared skeleton of the scientific method, PDCA/Deming, agile product-discovery, and OODA-style refinement (process)"
+critical-questions:
+  - "what distinguishes this from aimless tinkering or from goal-drift? Two guards from its components: lex-druv9 requires the target to 'set a mark in advance' and to grow from existing conditions (not caprice), and lex-exrwy requires revision to be driven by what the feedback REVEALS (a violated hidden assumption), not by mood. Refinement is evidence-driven; if revisions are untethered to feedback, the loop has degenerated into drift."
+  - "when does the loop fail to apply? When the target is genuinely fixed and knowable up front (lex-89rjr goal-state-anchoring is the right move instead — pre-commit and execute), or when the feedback channel is absent/too slow/too noisy to carry information (then you are guessing, not refining). The loop earns its keep only under genuine uncertainty WITH usable feedback."
+  - "how is the molecule more than its parts? lex-druv9 alone says hold goals loosely; lex-exrwy alone says a counterexample refines a claim; lex-da3g3 alone is bare repetition. The molecule is the closed LOOP that chains them: provisional-target → act → counterexample-driven-refinement → repeat-to-stability. The loop structure — and the stopping condition (corrections-small) — is the generative contribution no single atom carries."
+  - "what is the stopping condition, and what's the failure mode of getting it wrong? until=corrections-small: stop when further feedback stops moving the target materially. Stopping too early ships an under-refined target; never stopping is over-fitting to noise / bikeshedding (each marginal cycle chasing diminishing, possibly-spurious feedback). The skill is reading when the corrections have gone from signal to noise."
+  - "operationally distinct from lex-e9z2y causal-inference-method-selection: lex-e9z2y SELECTS a method for a one-shot causal question; lex-w5qfe is the REPEATED refinement loop over a target. They compose — one cycle of lex-w5qfe may use lex-e9z2y to choose how to read the feedback — but one is a selector, the other a loop."
+lineage:
+  - source: discovery-loop
+    text: v70-molecule-discovery-empirical-refinement-loop
+    citation: "molecule-discovery pass, 2026-05-28 (strengthen-mode). Principle 9: Test 1(a) generative — the closed feedback-loop structure (and its stopping condition) lives in none of the component atoms; lex-druv9 is the enabling stance, lex-exrwy the per-cycle refine-step, lex-da3g3 the repetition operator, but the LOOP that binds them is the molecule's contribution. Test 1(b) anti-pattern-clear — one named procedure (the scientific-method/PDCA/agile-discovery skeleton), not a typology. Test 2 type-check — the core is iteration(lex-exrwy; until=corrections-small); lex-druv9 enters as the enabling end-in-view posture (decomposes-into) rather than as a sequential stage, because its type-out (posture) does not chain into lex-exrwy's type-in (claim) — a deliberate premises-level rather than strict-sequential composition. Components individually grounded: lex-druv9 (Dewey 1916), lex-exrwy (Lakatos 1976), lex-da3g3 (seed operator, promoted via lex-y6pqz). The loop itself is a cross-domain invariant (Popper conjecture-and-refutation, Deming PDCA, Boyd OODA, Beck/agile) — a discovery-loop synthesis, not a single-source claim."
+canonical-instances:
+  - "Scientific method: a provisional hypothesis (ends-in-view), tested against experiment; an anomalous result (counterexample) refines the hypothesis (often by surfacing a hidden auxiliary assumption — Lakatos's lemma-incorporation); iterate until the theory stabilizes against available evidence. The textbook instance of the loop."
+  - "Agile / lean product discovery: ship a thin slice toward a provisional spec; user feedback reveals what the spec missed; fold it in (refine the spec, not just patch the code); iterate. Contrast the waterfall failure mode — a rigid up-front spec (rigid external end) that the building cannot revise, which short-circuits the loop (lex-druv9's indictment)."
+  - "Debugging a hard bug: a hypothesis about the cause (provisional target); a test that fails to reproduce or surfaces a contradiction (counterexample) refines the hypothesis toward the real mechanism; iterate until the fix stabilizes. The 'corrections-small' stop = the bug stops recurring under the tests."
+  - "PDCA / Deming continuous improvement and Boyd's OODA loop: both are this molecule under different names — a provisional plan/orientation, action, observation of the gap (counterexample), revision, repeat. Cross-domain attestation that the loop is a substrate-level invariant, not a single-field technique."
+  - "operationally distinct from lex-89rjr goal-state-anchoring: lex-89rjr pre-commits to a fixed done-state up front (right when criteria are knowable and drift is the risk); lex-w5qfe is the loop you run when the target itself must be discovered through feedback. The pair partitions by whether the goal is knowable in advance — the same fork lex-druv9 names at the atom level, here realized as a full procedure."
+severity-tier: info
+status: active

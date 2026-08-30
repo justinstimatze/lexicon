@@ -1,0 +1,19 @@
+id: lex-25b4n
+name: a-parasite-fabricates-mutual-slander-to-exploit-a-bonds-destruction
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "A third party who stands to profit from two trusting allies turning on each other, but can't touch that profit while the alliance holds, can invent what each supposedly said about the other — neither has any way to check the claim against the actual source — and let the manufactured suspicion do what neither of them would ever have done to the bond on their own. In the Jataka's tale of the lion and the bull, a jackal wants the flesh of both but can't get it while they're friends: 'There is no meat that I have not eaten except the flesh of lions and bulls. By setting these two at variance, I will get their flesh to eat.' 'And he said, \"This is the way he speaks of you,\" and thus dividing them one from another, he soon brought about a quarrel and reduced them to a dying condition.'"
+related: []
+evokes: [jataka, catukkanipata, sandhibheda-jataka, fabricated-mutual-slander-destroys-a-bond-neither-side-would-break-alone, a-parasite-profits-only-from-the-allys-destruction]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sandhibheda-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 349, Sandhibheda-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Now the jackal thought, \"There is no meat that I have not eaten except the flesh of lions and bulls. By setting these two at variance, I will get their flesh to eat.\" And he said, \"This is the way he speaks of you,\" and thus dividing them one from another, he soon brought about a quarrel and reduced them to a dying condition."
+canonical-instances:
+  - "A consultant who profits from a prolonged, unresolved dispute between two co-founders privately tells each one, separately, a fabricated version of what the other supposedly said in confidence — neither founder can verify it against the other directly, and the fabricated mutual distrust destroys a partnership that had survived every real disagreement before."
+critical-questions:
+  - "Why do the lion and bull never simply ask each other directly whether the reported words are true, before their trust collapses — is there something about the specific structure of the slander that prevents the obvious cross-check?"
+  - "Does the king's response here — collecting trophies from the dead lion rather than intervening earlier — suggest a failure to act on his own explicit prediction that a third party would cause exactly this outcome?"
+status: active

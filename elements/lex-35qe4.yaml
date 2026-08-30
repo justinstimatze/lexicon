@@ -1,0 +1,19 @@
+id: lex-35qe4
+name: mutual-anticipation-lets-a-defender-outlast-a-committed-pursuer
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When both a threatened party and their pursuer separately model each other's next move from what just happened, a defender can repeatedly delay a pursuer's action by anticipating the pursuer's own anticipation, buying time without any direct confrontation. In the Jataka's tale of the antelope and the hunter, a woodpecker strikes the hunter as an ill omen each time he tries to leave to kill the antelope's friend, and both parties reason from the same precedent: the bird thinks, 'The first time he went out by the front door, so now he will leave by the back,' while the hunter separately concludes, 'When I went out by the front door, Isaw a bad omen, now will I...go out by the back!' Neither party knows what the other is thinking, but both are drawing on the identical piece of shared history to predict the other's next move, and the bird's prediction happens to win each round."
+related: []
+evokes: [jataka, dukanipata, kurunga-miga-jataka, mirrored-anticipation-from-a-shared-precedent, delay-without-confrontation-via-repeated-prediction]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kurunga-miga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 206, Kurunga-miga-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The first time he went out by the front door, so now he will leave by the back... When I went out by the front door, Isaw a bad omen, now will I...go out by the back!"
+canonical-instances:
+  - "A customer support rep repeatedly stalling an angry caller predicts the caller will demand escalation to a manager next, based on how the last call ended; the caller, remembering that the previous escalation request got them nowhere, decides to try a different complaint channel instead, and both parties keep circling the same shared history without either landing a decisive move."
+critical-questions:
+  - "Is the woodpecker's success here mostly skill, or is it partly luck that the hunter happens to reason from the exact same precedent rather than trying something the bird hasn't anticipated — what happens the first time the hunter breaks the pattern?"
+  - "Does this kind of mutual anticipation actually favor the defender in general, or does it only work because the woodpecker has an active countermeasure (striking the hunter) each time, rather than passively hoping the hunter picks the wrong door?"
+status: active

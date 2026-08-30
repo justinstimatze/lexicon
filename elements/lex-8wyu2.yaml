@@ -1,0 +1,19 @@
+id: lex-8wyu2
+name: a-wounded-specialist-forces-their-own-reinstatement-over-a-lesser-substitute
+type-in: situation
+type-out: posture
+_tier: atomic
+agent-instruction: "A specialist who recognizes that a principal is about to substitute them mid-task with someone less capable, purely because they appear temporarily unable to continue, can intervene at high personal cost to correct the substitution before the task fails. In the Jataka's tale of the war-horse, an animal pierced with darts and lying prostrate insists on being re-harnessed rather than let a fresh but inferior horse finish the battle, stating plainly that no lesser horse matches what he can still do even wounded. The intervention only works because the specialist is still capable of asserting the correction themselves; a principal who has already decided a visibly damaged asset is finished has no independent way to learn otherwise unless the asset objects."
+related: []
+evokes: [jataka, ekanipata, bhojajaniya-jataka, ajanna-jataka, specialist-corrects-a-bad-substitution, wounded-capability-still-outperforms-inferior-replacement]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-bhojajaniya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 23, Bhojajaniya-jataka (restated nearly verbatim as No. 24, Ajanna-jataka). Verified verbatim against a direct extraction of the held copy."
+    quote: "Though prostrate now, and pierced with darts, I lie, Yet still no hack can match the destrier. So harness none but me, O charioteer."
+canonical-instances:
+  - "A senior surgeon recovering from a minor injury mid-shift insists on finishing a delicate procedure themselves rather than handing it to a less experienced colleague, on the grounds that even at reduced capacity their judgment on this specific case still outperforms the alternative."
+critical-questions:
+  - "How does a principal tell the difference between a specialist who is right that they're still the better option and one whose pride is overriding an accurate assessment of their own diminished capacity?"
+  - "What happens when the specialist can't speak up in time, or is overruled despite objecting — does the story's outcome depend on the charioteer being willing to listen, and what's the fallback when they aren't?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-gx48v
+name: partial-release-of-hostages-compels-a-bargains-completion
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Holding two captives whose cooperation is needed to complete a bargain, a captor can release the more capable one while explicitly retaining the weaker one as a hostage, only freeing the second once the bargained-for performance is verified. In the Jataka's tale of Suvannakakkata, the crab frees the snake to remove the poison but keeps the crow as security until the cure is confirmed: \"I'll free the snake, but not the crow; The crow shall be a hostage bound: Never shall I let him go Till my friend be safe and sound.\""
+related: []
+evokes: [jataka, chanipata, suvannakakkata-jataka, partial-release-hostage-leverage, verify-performance-before-full-release]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-suvannakakkata-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 389, Suvannakakkata-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "I'll free the snake, but not the crow; The crow shall be a hostage bound: Never shall I let him go Till my friend be safe and sound."
+canonical-instances:
+  - "A supplier withholding payment on a botched order releases half the disputed funds once the vendor sends a replacement shipment, but keeps the rest in escrow until the replacement is confirmed to actually work."
+critical-questions:
+  - "Does partial release actually secure better performance than either releasing both parties or holding both, or does it just split the risk without changing anyone's incentive to comply?"
+  - "What happens if the released party has no real stake in whether the hostage is eventually freed — does the leverage only work when the two conspirators actually care about each other?"
+status: active

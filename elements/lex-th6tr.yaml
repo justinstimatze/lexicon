@@ -1,0 +1,37 @@
+id: lex-th6tr
+name: keep-options-open-under-radical-uncertainty
+type-in: state
+type-out: posture
+_tier: atomic
+agent-instruction: "When uncertainty about the underlying state is radical (you don't know which world you're in), prefer actions that preserve flexibility over actions that commit to a hypothesis. Robustness-under-uncertainty beats expected-value when you don't yet trust the value estimate."
+related: [lex-89rjr, lex-ftke9, lex-bpr6b, lex-k6d7u, lex-t28ya, lex-jy4aq, lex-prwfm, lex-j5kxw, lex-v6kmc, lex-v39j4, lex-9t2ux, lex-dme3d, lex-pbdbb, lex-39muf, lex-cedkm, lex-a5dmb, lex-rax8z, lex-mmety, lex-2rpxq, lex-yv8ag, lex-7q3ph, lex-ct5ux, lex-6c5un, lex-zpfv9, lex-nb82m, lex-tcgej, lex-n5jed, lex-jxaht, lex-vgfgh, lex-kdj8h, lex-5qv7q, lex-dwey5, lex-2sr4y, lex-4u8bh]
+scaffolds-from: [lex-39muf, lex-j5kxw]
+evokes: [robustness-not-optimization, option-preservation-as-rationality, reversibility-as-design-criterion, commit-only-when-necessary, anti-premature-optimization, radical-uncertainty-not-merely-probabilistic, the-restaurant-with-the-broad-menu]
+lineage:
+  - source: primary
+    text: rosenhead-2001-robustness-analysis-keeping-your-options-open
+    citation: "Jonathan Rosenhead, 'Robustness Analysis: Keeping Your Options Open,' Ch.8 in Rosenhead & Mingers (eds.) Rational Analysis for a Problematic World Revisited (2nd ed. 2001), pp.181-207."
+    quote: "Robustness provides a way of supporting decision-making when there is radical uncertainty about the future, and where decisions can or must be staged sequentially. It addresses the seeming paradox: how can we be rational in taking decisions today if the most important fact that we know about future conditions is that they are unknowable? It resolves the paradox by assessing initial decisions in terms of the attractive future options that they keep open."
+  - source: practitioner
+    text: gupta-rosenhead-1968-robustness-in-sequential-investment-decisions
+    citation: "Sushil K. Gupta and Jonathan Rosenhead, 'Robustness in Sequential Investment Decisions,' Management Science 15(2):B-18 — original formal treatment of robustness as a decision-criterion. Tier-3 deepening source — 1968 Management Science paper; Rosenhead's own Ch.8 (verified verbatim above) explicitly cites and builds on this paper, supplying the canonical formal-treatment lineage. The primary would deepen but not change the operational decision-rule."
+    quote: "[Tier-3 deepening source — Gupta; the verified Rosenhead Ch.8 verbatim above is the same author's three-decade-later restatement, citing the 1968 paper as origin. The robustness-criterion formalization survives intact in the Ch.8 statement.]"
+  - source: practitioner
+    text: rosenhead-mingers-mining-pass-1
+    citation: "Surfaced as soft-OR mining candidate C2; passed combinatorial-explosion-avoidance and principle-3 relative-pattern tests vs current substrate. Distinct from lex-89rjr (anchors goal; this preserves options around an unknown future-goal-set), lex-k6d7u (quantifies belief in graded form; this is the decision-rule operating on that uncertainty)."
+canonical-instances:
+  - "the restaurant choice (Rosenhead's opening example): rather than computing expected utility over each diner's predicted tomorrow's preferences (which can't be known today), pick a venue whose menu-spread keeps everyone's option-set wide. The optimum-against-imagined-tomorrow is spurious; the option-preserving choice is rationally defensible despite using less information."
+  - "architectural decision: choosing a database for an early-stage product where the data-shape and query-patterns are unknown. The robustness-rational choice is whichever option leaves the most future-options open (e.g., PostgreSQL over a specialized store, or an abstraction layer over direct calls) — NOT the one that's locally-optimal for guessed-future workloads. Commit-to-the-specialized-store when (and only when) the data-shape is known and the lock-in is worth the option-loss."
+  - "library / framework selection where the future-state-of-the-ecosystem is unknown: choose the one whose ecosystem keeps the most other-options open (interop-friendly, well-documented, easy to migrate FROM). Locally-optimal frameworks with weak ecosystems trade option-preservation for short-term feature wins."
+  - "schema design when the use-cases are partially-known: design for the cases you know AND preserve options for the ones you don't (add-only schemas, optional columns rather than required, indexes added later, etc.). Robustness as design-criterion."
+  - "career / life decisions under radical uncertainty: 'which job offer maximizes my five-year option-set?' is a robustness question; 'which job has highest expected salary' is an optimization question. The two can recommend different choices because they're asking different things."
+  - "operationally distinct from lex-ftke9 work-backwards-from-goal: work-backwards assumes a known target-state and chains backward to derive moves; this atom operates BEFORE a target is fixed, and resists fixing it prematurely. The two can compose: robustness keeps the target-set wide until enough information arrives to fix it, THEN work-backwards becomes applicable."
+  - "operationally distinct from lex-k6d7u credence-as-graded-belief: lex-k6d7u is about quantifying belief over an outcome-space; this atom is about decision-rules given that quantification. They compose — graded credence over future states + robustness criterion that picks the decision keeping the most attractive options open under that distribution."
+  - "operationally distinct from lex-89rjr goal-state-anchoring: lex-89rjr fixes the goal-state and reasons from it; this atom resists fixing the goal-state when the future doesn't yet warrant it. Composability: when robustness can resolve to a single goal (uncertainty has been reduced enough), hand off to lex-89rjr."
+  - "vital critical question: when does keeping-options-open become indecision? Robustness as a decision-rule REQUIRES committing — to the decisions that preserve options. Failure mode: 'don't commit yet' deferred indefinitely, which is itself a commitment (to whatever default-state holds). Rosenhead-Mingers calls this out: 'staged sequential decisions' = commit at each stage to what's necessary now, defer the rest. Defer-everything is not robustness; it's avoidance."
+critical-questions:
+  - "is the uncertainty radical (Knightian, distribution unknowable), or merely high-variance probabilistic? if probabilistic, expected-utility applies and robustness is the wrong frame"
+  - "will deferring close more options than committing would? robustness fails when 'don't decide' is itself a commitment (Rosenhead's avoidance failure-mode)"
+  - "what is the cost of preserving optionality, and have you priced it consciously? options have carrying-cost; unpriced optionality is not free"
+  - "will information actually arrive to make later decisions better? if not, deferring just delays the same epistemic position with elapsed-time burned"
+status: active

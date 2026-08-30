@@ -1,0 +1,19 @@
+id: lex-8fvdk
+name: a-staged-near-sacrifice-tests-and-hardens-resolve-before-the-real-trial
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Before a real battle, take the group up to the edge of an actual, drastic sacrifice — then halt it at the last moment and redirect the demonstrated willingness into the fight itself. The near-completion of the act is what converts a verbal promise into tested, hardened resolve. In the Jataka's tale of Nandisena, he leads the king's thousand allies to a mountain precipice and asks, 'Would you sacrifice your lives for our king?' 'Yes, Sir, we would,' they answered. 'Then throw yourselves from this precipice,' he said. 'They essayed to do so, when he stopped them, saying, \"No more of this. Show yourselves staunch friends of our king and make a gallant fight for him.\"'"
+related: []
+evokes: [jataka, catukkanipata, cullakalinga-jataka, near-completion-converts-a-vow-into-tested-resolve, halted-sacrifice-redirected-into-real-action]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-cullakalinga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 301, Cullakalinga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Would you sacrifice your lives for our king?\" \"Yes, Sir, we would,\" they answered. \"Then throw yourselves from this precipice,\" he said. They essayed to do so, when he stopped them, saying, \"No more of this. Show yourselves staunch friends of our king and make a gallant fight for him.\""
+canonical-instances:
+  - "Before a dangerous expedition, a team leader has each climber actually clip into the fixed rope and lean their full weight onto it over the exposed drop, rather than just asking if they trust the gear — the demonstrated willingness to commit is what settles everyone's nerve for the traverse itself."
+critical-questions:
+  - "Is there a meaningful difference between this and a coercive loyalty test that risks real harm if the halt comes even slightly too late — how close to completion can the near-sacrifice go before the risk outweighs the resolve it builds?"
+  - "Does the hardened resolve actually transfer to the real trial, or does it only prove willingness under the leader's controlled conditions rather than under the chaos of genuine combat?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-xgyur
+name: forced-rating-curves-decouple-reward-from-effort
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A forced distribution of performance ratings — where only a fixed proportion of people can receive each grade regardless of the actual spread of effort or output — systematically compresses outcomes toward the middle and severs the link between individual effort and individual reward. Underperformers end up satisfied because they land in the same middle band as genuinely hard workers who were merely unlucky in ranking, while high performers become demoralized because their above-average output gets flattened to a rating indistinguishable from average. The mechanism isn't a measurement error correctable with better scoring; it's a structural property of forcing a curve onto a distribution that may not actually be curve-shaped, and the demoralization of top performers is a predictable, not incidental, consequence."
+related: [lex-meufj]
+evokes: [jackall-moral-mazes, "the overachievers get bent out of shape", forced-curve-compression]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch3-forced-curve-compresses
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 3, Section III."
+    quote: "So the under-achievers get satisfaction because they are rated the same as hard workers, even though they are coasting. And the overachievers get bent out of shape because they see that their work is not recognized."
+canonical-instances:
+  - "A company's mandated bell-curve review process rates a team of uniformly strong performers such that a third of them still receive below-average scores, purely because the curve requires a bottom tier to exist regardless of the team's actual spread."
+critical-questions:
+  - "Would abandoning the forced curve actually restore the reward-effort link, or would raters simply reintroduce compression through other means — leniency bias, social pressure to avoid conflict — that a forced curve was originally adopted to counteract?"
+status: active

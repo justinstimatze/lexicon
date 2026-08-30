@@ -1,0 +1,19 @@
+id: lex-3djhh
+name: repeating-a-rewarded-action-while-its-actual-cause-is-absent
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a reward follows an action once, the action itself can get treated as the mechanism, even when the actual cause was something specific and unrepeatable that had nothing to do with the action's surface form. In the Jataka's tale of Mitta-vindaka, a man is once flung across the ocean when he grabs the leg of what turns out to be a shape-shifting ogress disguised as a goat. Later, on dry land, he sees an ordinary goat, reasons purely from the surface action that preceded his earlier windfall, and grabs it by the leg hoping to be hurled back to the divine palaces he left — and is instead caught and beaten as a thief. The goat-leg grab was never the mechanism; the ogress's specific magical nature was, and no amount of repeating the visible action reproduces a cause that was never actually present."
+related: [lex-vx2ht]
+evokes: [jataka, ekanipata, losaka-jataka, mistaking-the-surface-action-for-the-real-cause, superstitious-repetition-of-an-absent-mechanism]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-losaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 41, Losaka-jataka, embedded past-story (part two, Mitta-vindaka). Verified verbatim against a direct extraction of the held copy."
+    quote: "Thought he to himself, 'Well, it was a goat in an island in the ocean that, being seized by the leg, hurled me here over seas. Perhaps, if I do the same by one of these goats, I may get hurled back again to where the daughters of the gods dwell in their ocean palaces.' So, without thinking, he seized one of the goats by the leg."
+canonical-instances:
+  - "A trader who once made an unusually large profit while wearing a particular jacket starts wearing it every trading day afterward. The jacket becomes part of the winning formula in their own mind, even though the real cause was a market event that never happened again."
+critical-questions:
+  - "How does a person tell, at the time of the original success, which parts of what they did were the real cause and which were incidental — is this kind of misattribution avoidable in principle, or only visible after the fact?"
+  - "Does repeating the surface action ever carry some small residual value, such as maintaining a useful habit or ritual, even once its original causal story turns out to be false?"
+status: active

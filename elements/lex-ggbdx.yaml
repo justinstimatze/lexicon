@@ -1,0 +1,19 @@
+id: lex-ggbdx
+name: a-one-sided-report-that-omits-the-offense-nearly-triggers-retaliation
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A party caught in their own misconduct and mildly disciplined for it can report only the discipline to a powerful patron while omitting what provoked it, framing themselves as a victim — and the patron, hearing only one side, can come dangerously close to acting on it. In the Jataka''s tale of Kharaputta, the naga-girl reports being struck without mentioning her own offense, and her patron nearly orders a killing on the strength of that account alone: ''She went in anger to the naga-world, and when she was asked, "Why are you come?" she said, "Your friend struck me on the back because I did not do his bidding," shewing the mark of the blow. The naga-king, not knowing the truth, called four naga youths and sent them with orders to enter Senaka''s bed chamber and destroy him.'''
+related: []
+evokes: [jataka, chanipata, kharaputta-jataka, one-sided-report-omits-the-offense, acting-on-unverified-single-account]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kharaputta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 386, Kharaputta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "She went in anger to the naga-world, and when she was asked, \"Why are you come?\" she said, \"Your friend struck me on the back because I did not do his bidding,\" shewing the mark of the blow. The naga-king, not knowing the truth, called four naga youths and sent them with orders to enter Senaka's bed chamber and destroy him like chaff by the breath of their nostrils."
+canonical-instances:
+  - "An employee tells their mentor only that a colleague 'yelled at them in front of everyone,' leaving out that they'd just been caught falsifying a timesheet, and the mentor nearly escalates to HR before hearing the rest of the story."
+critical-questions:
+  - "The reporting party has every incentive to omit exactly the detail that would change the response — what would it actually take for the patron to routinely go look for it before acting?"
+  - "Does the near-miss here depend on lucky timing, or is there a structural safeguard that would have caught the omission even without the coincidental overheard conversation that actually stopped it?"
+status: active

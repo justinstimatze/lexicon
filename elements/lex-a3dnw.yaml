@@ -1,0 +1,19 @@
+id: lex-a3dnw
+name: flattering-a-specialist-into-their-non-core-role-creates-the-opening
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a specialist can be induced to perform outside their core competence in pursuit of a peripheral reward, check whether that exact departure, not any inherent weakness, is what creates the opening against them. Aesop's 'The Kid and the Wolf' has a young goat, cornered but safe on a rooftop, flatter a wolf below into playing music instead of attacking; the sound draws hunting dogs, and the wolf recognizes his own error rather than the goat's cleverness: 'It's what I thoroughly deserve: my trade is the butcher's, and I had no business to turn piper to please you.' The kid's cleverness lies specifically in exploiting the wolf's vanity to pull it away from its actual function, and it is that departure, self-inflicted for the sake of an unrelated reward, that creates the vulnerability."
+related: []
+evokes: [aesop, the-kid-and-the-wolf, inducing-departure-from-core-role, vanity-exploited-for-distraction]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-kid-and-the-wolf
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Kid and the Wolf.' Verified verbatim against a direct extraction of the held copy."
+    quote: "It's what I thoroughly deserve: my trade is the butcher's, and I had no business to turn piper to please you."
+canonical-instances:
+  - "a hostage flatters a captor into demonstrating an unrelated skill, and the resulting distraction from their actual role as guard gives law enforcement the opening it needed."
+critical-questions:
+  - "Would a specialist immune to flattery still be vulnerable to some other lure pulling them from their core function, or does this specific mechanism require vanity as the exploited weakness rather than working through any incentive at all?"
+  - "Does the wolf bear full responsibility for the lapse, given that the goat's flattery was deliberately engineered to produce exactly this departure — how much should the manipulation itself factor into judging the wolf's own self-blame?"
+status: active

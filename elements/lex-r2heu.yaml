@@ -1,0 +1,20 @@
+id: lex-r2heu
+name: a-correctly-calculated-outcome-can-still-miss-a-process-grievance
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "An organization can get the substance of a decision right for a stakeholder -- correctly calculate that the outcome serves their economic interest -- and still trigger their opposition, because the stakeholder's actual grievance was never about the outcome at all. A utility proposes a rate change genuinely in a consumer group's economic interest and expects no problem, since the numbers check out. The group opposes it anyway, and the reason has nothing to do with the numbers: the utility filed the case without informing or consulting the group first. The stake the group actually cared about was a right to be consulted, a process claim sitting entirely outside the outcome question, and an economic-interest calculation, however correct, never touches that claim at all. Checking 'does this serve their interest' answers a different question than 'were they consulted,' and getting the first answer right creates no credit toward the second."
+related: []
+evokes: [freeman-1984-strategic-management, chapter-3, def-utility, process-versus-outcome-stake, voice-not-consulted]
+lineage:
+  - source: primary
+    text: freeman-1984-strategic-management-ch3
+    citation: "R. Edward Freeman, Strategic Management: A Stakeholder Approach (Pitman, 1984), Chapter 3 'Stakeholder Management: Framework and Philosophy,' section on congruent perceptions. A short span of the extracted text here is badly garbled and is skipped rather than guessed; the quoted portion is a confident reconstruction of clearly-recoverable character-level noise (e.g., '\\' misread for 'v', ')' misread for 'y')."
+    quote: "[...] the only reason that the group was opposing them was that they had not informed the group of the proposed rate change before the case was filed. In short the consumer group perceived that they had a different stake than that perceived by the management of DEF. DEF managers naturally believed that so long as the proposed rate change was in the economic interest of the consumer group and its constituency there would be no problem. The consumer group perceived things differently, that they had a vital role to play [...]"
+canonical-instances:
+  - "A company redesigns a product feature specifically to address a disability-advocacy group's stated concerns, confirms the redesign genuinely improves accessibility, and is caught off guard when the group protests the launch anyway -- the group's objection was that the redesign happened without inviting them into the design process, not that the result fell short."
+  - "A university administration calculates that closing an underused campus building saves money that will fund student services the affected department actually wants, and is surprised when the department's faculty organize against the closure -- the objection turns entirely on never having been asked, and says nothing about whether the funding trade-off itself is favorable."
+critical-questions:
+  - "How can an organization tell in advance whether a given stakeholder's stake is process-shaped or outcome-shaped, before committing to a plan built around only one of the two?"
+  - "Once an organization has already miscategorized a stake as economic and acted on that basis, does after-the-fact consultation repair the process grievance, or has the sequence itself -- decide first, consult after -- already confirmed the group's original complaint?"
+status: active

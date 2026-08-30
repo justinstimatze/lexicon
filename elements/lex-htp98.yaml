@@ -1,0 +1,18 @@
+id: lex-htp98
+name: betrayal-timed-to-a-principals-voluntary-ritual-vulnerability
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A subordinate waiting for the moment to seize power from a principal doesn''t need to create an opportunity by force — a principal who periodically sets aside the instruments of authority for a voluntary act of devotion or humility creates the opening themselves, on a predictable schedule, and does so trustingly rather than defensively. The betrayal exploits exactly the moment the principal is least suspicious: mid-devotion, having handed over the symbols of power as a matter of routine religious practice rather than genuine risk assessment. In the Bhadda-sala-Jataka, King Pasenadi hands the five symbols of royalty to his commander Karayana before entering the Buddha''s chamber alone to pay respects, as he has apparently done before; Karayana uses that exact window to crown Vidudabha king and abandon Pasenadi with nothing but a horse and a servant.'
+related: []
+evokes: [jataka, dvadasanipata, bhadda-sala-jataka, trust-exploited-during-voluntary-vulnerability, coup-timed-to-devotional-window]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-bhadda-sala-jataka
+    citation: 'The Jataka, or Stories of the Buddha''s Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XII (Dvadasanipata), No. 465, Bhadda-sala-jataka. Verified verbatim against a direct extraction of the held copy.'
+    quote: 'The five symbols of royalty he handed to Karayana, and alone entered the Perfumed Chamber. All that followed must be described as in the Dhammacetiya Sutta. When he entered the Perfumed Chamber, Karayana took those symbols of royalty, and made VidUdabha king; and leaving behind for the king one horse and a serving woman, he went to Savatthi.'
+canonical-instances:
+  - 'A company founder who hands day-to-day signing authority to his COO every year during a week-long meditation retreat, trusting the arrangement because it''s routine, returns from this year''s retreat to find the board has already ratified a leadership change the COO pushed through while he was unreachable.'
+critical-questions:
+  - 'Did the routine nature of the ritual handover — repeated enough times to become predictable rather than a one-off risk — actually create the vulnerability, or would a less trusting principal have simply been betrayed some other way once Karayana had already decided to act?'
+status: active

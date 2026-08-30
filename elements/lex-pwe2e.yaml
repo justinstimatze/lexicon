@@ -1,0 +1,22 @@
+id: lex-pwe2e
+name: true-respect-for-predecessors-means-surpassing-not-preserving-them
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: "A culture can treat continued deference to a predecessor's specific beliefs and conclusions, held static and unquestioned long after better understanding is available, as itself a form of disrespect rather than honor. Genuine respect for those who came before requires actively surpassing what they achieved, since they themselves were building toward something beyond their own current knowledge. Freezing their conclusions in place, rather than continuing to improve on them, betrays what they were actually trying to accomplish. Gilman states this directly: '\"Have you no respect for the past? For what was thought and believed by your foremothers?\" \"Why, no,\" she said. \"Why should we? They are all gone. They knew less than we do. If we are not beyond them, we are unworthy of them--and unworthy of the children who must go beyond us.\"'"
+related: []
+evokes: [herland, chapter-10, if-we-are-not-beyond-them-we-are-unworthy-of-them, they-knew-less-than-we-do, surpassing-a-predecessor-is-the-actual-honor]
+lineage:
+  - source: primary
+    text: gilman-1915-herland-chapter-10
+    citation: "Charlotte Perkins Gilman, Herland (1915), Chapter 10, 'Their Religions and Our Marriages.' Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "\"Have you no respect for the past? For what was thought and believed by your foremothers?\" \"Why, no,\" she said. \"Why should we? They are all gone. They knew less than we do. If we are not beyond them, we are unworthy of them--and unworthy of the children who must go beyond us.\""
+canonical-instances:
+  - "A medical school teaches students to treat a founding physician's outdated diagnostic techniques not as sacred inheritance to be preserved unchanged, but as a foundation the field is obligated to surpass, understanding that continuing to use disproven methods out of reverence would actually dishonor a founder who was himself trying to advance medicine beyond what he'd inherited."
+  - "A software company's engineering culture treats its original founding architecture not as untouchable heritage but as a stage to be surpassed, reasoning that the founders themselves built the system to be improved upon, and clinging to their original design choices out of misplaced loyalty would betray the founders' own commitment to iteration."
+  - "A martial arts school teaches that continuing to practice a master's techniques exactly as taught, without incorporating better understanding gained since, is not respect but stagnation -- true honor to the master lies in students becoming better than the master was, since that was always the master's own goal for them."
+critical-questions:
+  - "Is there a meaningful difference between surpassing a predecessor's specific conclusions and surpassing their underlying values or goals -- could a culture honor a predecessor's deeper aims while still discarding their outdated specific beliefs, without needing to frame every act of improvement as a verdict on the predecessor's worth?"
+  - "Does this framework risk becoming a rationalization for discarding genuinely valuable inherited wisdom that a later generation mistakenly believes it has surpassed, when in fact the earlier understanding was right and the later confidence is simply wrong?"
+  - "Does 'unworthy of them' actually motivate improvement more effectively than a framework of grateful preservation would, or does treating ancestors as a bar to clear rather than a foundation to build on risk producing contempt for the past rather than genuine progress?"
+status: active

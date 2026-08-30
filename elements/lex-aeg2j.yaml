@@ -1,0 +1,25 @@
+id: lex-aeg2j
+name: removing-a-structure-without-replacing-its-function-tends-to-fail
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Before eliminating a structure you've correctly diagnosed as corrupt, inefficient, or otherwise condemnable, check whether you're also supplying something that meets the real need it was quietly serving — if not, expect the reform to fail and the old structure, or something functionally like it, to return. Merton states this as a general theorem, not limited to his own political-machine case: 'any attempt to eliminate an existing social structure without providing adequate alternative structures for fulfilling the functions previously fulfilled by the abolished organization is doomed to failure.' A reform that only removes the offending structure — 'turning the rascals out' — without a 're-forming' that satisfies the same underlying needs through a sanctioned alternative is, in his phrase, 'little more than sociological magic': it may parade new faces and reassure the public that virtue has triumphed, but the vacated need re-opens the space for the same structure, or its functional equivalent, to return."
+related: [lex-3zfwb, lex-4bgdr, lex-su2sk]
+scaffolds-from: [lex-3zfwb, lex-4bgdr]
+evokes: [doomed-to-failure, sociological-magic, re-forming-not-just-reform, merton-1957, political-reform-short-lived]
+lineage:
+  - source: primary
+    text: merton-1957-doomed-to-failure-theorem
+    citation: "Robert K. Merton, Social Theory and Social Structure, Revised and Enlarged Edition (Glencoe, IL: Free Press, 1957), Ch. I 'Manifest and Latent Functions,' p.81, drawing the 'social engineering' implication from the political-machine analysis. Verified verbatim against a University of Iowa library scan via Internet Archive OCR text (item 31858016281432)."
+    quote: "'It helps explain why the periodic efforts at \"political reform,\" \"turning the rascals out\" and \"cleaning political house\" are typically (though not necessarily) short-lived and ineffectual. It exemplifies a basic theorem: any attempt to eliminate an existing social structure without providing adequate alternative structures for fulfilling the functions previously fulfilled by the abolished organization is doomed to failure.'"
+  - source: primary
+    text: merton-1957-sociological-magic-not-engineering
+    citation: "Robert K. Merton, Social Theory and Social Structure (1957), same chapter and page, continuing directly."
+    quote: "'When \"political reform\" confines itself to the manifest task of \"turning the rascals out,\" it is engaging in little more than sociological magic. ... unless the reform also involves a \"re-forming\" of the social and political structure such that the existing needs are satisfied by alternative structures or unless it involves a change which eliminates these needs altogether, the political machine will return to its integral place in the social scheme of things. To seek social change, without due recognition of the manifest and latent functions performed by the social organization undergoing change, is to indulge in social ritual rather than social engineering.'"
+canonical-instances:
+  - "Prohibition eliminated the legal alcohol trade without eliminating or otherwise meeting the demand for alcohol, and organized bootlegging returned to fill exactly the space the legal trade had vacated — a structure was abolished, but the underlying need it served was never addressed, so a functional equivalent (illegal and far more violent) took its place."
+  - "A company that fires a manager known for cutting corners but doesn't fix the understaffing and impossible deadlines that made corner-cutting the only way to hit targets will likely see the next manager in that role adopt the same shortcuts — the person changed, the structural need that produced the behavior didn't."
+critical-questions:
+  - "Merton's own hedge is 'typically (though not necessarily)' — under what conditions does elimination-without-replacement actually succeed? Is it specifically when the underlying need itself has independently disappeared (his other named exception), and how would you tell that apart from a need merely going temporarily quiet?"
+  - "operationally distinct from lex-su2sk afterlife-of-dismantled-arrangement-persists-as-ongoing-distributional-condition: that atom is about a formally-abolished arrangement's DISTRIBUTIONAL EFFECTS (who ends up with what) persisting through other channels even after the rule is gone, typically in the context of an unjust arrangement whose harm continues by other means. This atom is about the STRUCTURE ITSELF, or a functional equivalent of it, actually returning because a real underlying need was never met — a claim about institutional recurrence, not specifically about the continuity of an oppressive outcome. The two can co-occur (an unjust structure's replacement can both fail to meet the need AND preserve the old distributional harm) but name different mechanisms."
+status: active

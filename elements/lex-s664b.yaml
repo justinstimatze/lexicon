@@ -1,0 +1,19 @@
+id: lex-s664b
+name: a-small-parasitic-seed-compounds-until-it-overtakes-its-host
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A portable causal model explains how something small and seemingly harmless in isolation becomes existentially destructive over time by taking root, growing, and eventually overtaking or destroying its host, supported by historical precedent from other visible cases. In the Jataka''s tale of Kotisimbali, the tree-spirit lays out the mechanism in full: "Flesh is thy food, O king: the bird''s is fruit: Seeds of the banyan and the fig he''ll shoot And bo-tree too, and all my trunk pollute; They will grow trees in shelter of my stem, And I shall be no tree, thus hid by them. Other trees, once strong of root and rich in branches, plainly show How the seeds that birds do carry in destruction lay them low."'
+related: [lex-mkpcw]
+evokes: [jataka, sattanipata, kotisimbali-jataka, parasitic-seed-compounds-into-ruin, small-cause-large-eventual-effect]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kotisimbali-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 412, Kotisimbali-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Flesh is thy food, O king: the bird's is fruit: Seeds of the banyan and the fig he'll shoot And bo-tree too, and all my trunk pollute; They will grow trees in shelter of my stem, And I shall be no tree, thus hid by them."
+canonical-instances:
+  - "A platform team blocks a seemingly trivial third-party plugin from being installed, reasoning from the visible history of other platforms that a small, useful-looking dependency like this one is exactly the kind of thing that quietly grows its own ecosystem and ends up controlling the host platform's roadmap."
+critical-questions:
+  - "How does an observer reliably distinguish a genuinely parasitic seed from an ordinary small addition that never compounds into anything threatening?"
+  - "This Jataka pairs directly with the Palasa-jataka's naive tree-spirit, who welcomes the identical banyan sapling sentimentally as a future protector rather than a threat — what actually determines which read of the same small seed turns out to be right?"
+status: active

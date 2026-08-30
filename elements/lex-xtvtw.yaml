@@ -1,0 +1,19 @@
+id: lex-xtvtw
+name: defecting-to-a-recruiter-strips-the-protection-your-old-position-provided
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a rival recruits you away from your current position with a kinship or liberation pitch, check whether the vulnerability that follows comes from the defection itself, not from any betrayal of loyalty. Aesop's 'The Wolves and the Dogs' has wolves persuade dogs to abandon their masters and join them as equals; the dogs accept and enter the wolves' den, where 'no sooner were they well inside than the Wolves set upon them and tore them to pieces.' The dogs are not punished for disloyalty in some moral sense — they are destroyed because the act of entering the recruiter's territory stripped away the specific protection their old position had provided, and that loss of protection, not any judgment on their character, is what created the opening."
+related: []
+evokes: [aesop, the-wolves-and-the-dogs, defection-strips-protection, vulnerability-created-by-the-move-itself]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-wolves-and-the-dogs
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Wolves and the Dogs.' Verified verbatim against a direct extraction of the held copy."
+    quote: "The Dogs allowed themselves to be persuaded by these words, and accompanied the Wolves into their den. But no sooner were they well inside than the Wolves set upon them and tore them to pieces."
+canonical-instances:
+  - "a company poaches a rival's disgruntled staff with promises of equity and freedom; the new hires discover they have no leverage once they've already resigned their old post and joined, having traded away the specific protections that position carried."
+critical-questions:
+  - "Could the dogs have negotiated some form of protection before entering the wolves' territory, or does accepting this kind of offer inherently require surrendering the old protection before any new one is established?"
+  - "Does this mechanism depend on the recruiter's stated kinship being insincere from the start, or could a genuinely well-intentioned recruiter's territory still strip a defector's old protections through no deliberate design at all?"
+status: active

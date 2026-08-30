@@ -1,0 +1,19 @@
+id: lex-ny5ez
+name: a-rhetorical-loss-can-be-reframed-as-the-safer-downside-position
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When you lose an argument about which side has the more powerful patron, check whether conceding the patron's superiority while reframing exposure to that patron's displeasure as the real risk converts a status loss into a risk-adjusted win. Aesop's 'The Athenian and the Theban' has a Theban lose a debate over whether Hercules or Theseus is the greater hero, then reframe the outcome entirely: 'All right, have your way; I only hope that, when our heroes are angry with us, Athens may suffer from the anger of Hercules, and Thebes only from that of Theseus.' This is not sour grapes, since the superiority itself is conceded outright — the move is a distinct, explicit argument that alignment with the more powerful patron carries a proportionally worse downside when that patron turns hostile."
+related: []
+evokes: [aesop, the-athenian-and-the-theban, asymmetric-downside-reframe, conceding-status-while-reversing-risk]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-athenian-and-the-theban
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Athenian and the Theban.' Verified verbatim against a direct extraction of the held copy."
+    quote: "All right, have your way; I only hope that, when our heroes are angry with us, Athens may suffer from the anger of Hercules, and Thebes only from that of Theseus."
+canonical-instances:
+  - "a smaller company deliberately chooses a less dominant strategic partner or investor over the flashiest one available, reasoning that the powerful partner's occasional displeasure carries a far costlier blast radius."
+critical-questions:
+  - "Does this reframe genuinely change the expected outcome, or is it purely a face-saving rhetorical move that feels satisfying without altering any actual risk calculation the Theban would act on?"
+  - "Is the asymmetric-downside argument actually sound here — does a more powerful patron's anger really scale with their overall power, or could a weaker patron's anger be just as dangerous to those closest to it?"
+status: active

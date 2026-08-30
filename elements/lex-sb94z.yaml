@@ -1,0 +1,19 @@
+id: lex-sb94z
+name: fitness-for-power-is-judged-by-extrapolating-worst-case-from-best-behavior
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "A candidate's suitability for power can be judged not by how they behave under ideal, flattering conditions, but by extrapolating from that best-case behavior to what they'll likely do under provocation, since the flattering moment is the one where they have every incentive to look good. If the best case is already troubling, the worst case is disqualifying before it ever happens. In the Jataka's tale of the owl's coronation, birds are about to crown an owl king when a crow objects to the owl's expression during the ceremony itself: 'Stay now! If that is what he looks like when he is being consecrated king, what will he look like when he is angry? If he only looks at us in anger, we shall be scattered like sesame seeds thrown on a hot plate. I don't want to make this fellow king!' Nobody had to wait for the owl to actually get angry. The ceremony already showed enough."
+related: []
+evokes: [jataka, tikanipata, uluka-jataka, extrapolating-worst-case-temperament-from-a-best-case-data-point, a-flattering-moment-still-reveals-a-disqualifying-baseline]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-uluka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 270, Uluka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Stay now! If that is what he looks like when he is being consecrated king, what will he look like when he is angry? If he only looks at us in anger, we shall be scattered like sesame seeds thrown on a hot ... plate. I don't want to make this fellow king!"
+canonical-instances:
+  - "A board declines to promote a candidate to CEO after noticing how curtly they treat support staff even during their own celebratory interview process, reasoning that if this is the candidate's demeanor while being courted for the job, ordinary workplace friction would likely be far worse."
+critical-questions:
+  - "Is this extrapolation actually reliable, or does it risk disqualifying someone whose baseline expression or manner has nothing to do with temperament at all, simply because it doesn't read as warm?"
+  - "Does the crow's objection generalize beyond appearance to any best-case behavior, or is judging someone by involuntary expression meaningfully different from judging them by a choice they actually made under favorable conditions?"
+status: active

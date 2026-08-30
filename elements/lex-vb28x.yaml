@@ -1,0 +1,19 @@
+id: lex-vb28x
+name: advisory-genre-rules-converge-regardless-of-content
+type-in: situation
+type-out: frame
+_tier: atomic
+agent-instruction: "Advisory and consulting writing converges on the same five structural moves regardless of its actual subject matter: suppress irony, ambiguity, and complexity in favor of the most literal reading of any phenomenon; ignore theoretical issues unless they compress into a memorable, diagrammable schema; always foreground the bright side; provide a step-by-step program tied to the author's own research; and close with a vision of the future that makes the author's book, program, or services indispensable. This is a genre convention, not a coincidence of good advice — recognizing the five-move shape lets you evaluate a piece of advisory writing by whether it does anything besides execute the genre's formula, since the formula itself carries no information about whether the specific content is any good."
+related: []
+evokes: [jackall-moral-mazes, "makes one's book, program, or consulting services indispensable", the-advisory-genres-five-move-formula]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch6-genre-rules-consulting
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 6, Dexterity with Symbols."
+    quote: "(1) suppress all irony, ambiguity, and complexity and assert only the most obvious and literal meanings of any phenomenon; (2) ignore all theoretical issues unless they can be encapsulated into a neat schematic form easily remembered, 'operationalized,' and preferably diagrammed; (3) always stress the bright side of things"
+canonical-instances:
+  - "A popular self-help book on productivity opens by dismissing academic nuance about motivation, compresses its argument into a memorable four-quadrant diagram, promises transformation through a numbered daily routine tied to the author's own program, and closes by suggesting that lasting change requires the author's premium course — matching the same five-move shape regardless of the topic being productivity rather than management."
+critical-questions:
+  - "Does executing the genre formula well actually correlate with useful advice, or is the formula purely a marketing convention that's orthogonal to the content's actual quality — and how would you tell the difference from outside the genre?"
+status: active

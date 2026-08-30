@@ -1,0 +1,19 @@
+id: lex-kabhr
+name: a-break-in-an-invariant-routine-is-read-as-a-danger-signal
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'Inferring imminent danger doesn''t always require direct evidence of harm — a break in an otherwise invariant, reliable pattern is itself information worth acting on. In the Jataka''s tale of Tundila, the elder pig senses danger the moment his mother deviates from a routine she has never once broken before: "Mahatundila, hearing this, thought, ''All this time mother has never given the call to Cullatundila, she always calls me first; certainly some danger must have arisen for us to-day.''"'
+related: []
+evokes: [jataka, chanipata, tundila-jataka, deviation-from-routine-as-danger-signal, anomaly-in-invariant-pattern-is-informative]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-tundila-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 388, Tundila-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Mahatundila, hearing this, thought, \"All this time mother has never given the call to Cullatundila, she always Calls me first; certainly some danger must have arisen for us to-day.\""
+canonical-instances:
+  - "A server admin who's had the same deploy script run flawlessly at 2 a.m. every night for two years notices it silently skip its usual completion email one night and immediately checks the logs, before anything else looks wrong."
+critical-questions:
+  - "How long does a pattern need to hold before a single deviation counts as strong evidence rather than ordinary noise?"
+  - "Does treating a routine break as a danger signal risk false alarms whenever the routine changes for an entirely benign reason no one bothered to announce?"
+status: active

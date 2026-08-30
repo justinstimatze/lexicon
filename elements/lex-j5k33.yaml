@@ -1,0 +1,25 @@
+id: lex-j5k33
+name: identical-final-readings-can-hide-very-different-processing-histories
+type-in: state
+type-out: claim
+_tier: atomic
+agent-instruction: "Don't treat two processes as equivalent just because they reach the same final measured value. Check how long each was actually held at or near that value, since a rate-limited transformation (an enzyme reaction, a chemical conversion) can still be far from complete at the moment the target reading is first reached. Where a process is known to be time-dependent as well as level-dependent, hold the intermediate condition longer rather than stopping the instant the target number first appears, and test outcomes with a discriminating measure that a shared final reading would otherwise conceal."
+related: [lex-mr4nb, lex-2cfc3]
+evokes: [americas-test-kitchen, guy-crosby, sous-vide-time-matters-too, reaching-a-number-isnt-finishing-the-job, same-reading-different-steak]
+lineage:
+  - source: primary
+    text: americas-test-kitchen-crosby-2012-science-of-good-cooking
+    citation: "The Editors at America's Test Kitchen and Guy Crosby, The Science of Good Cooking: Master 50 Simple Concepts to Enjoy a Lifetime of Success in the Kitchen (America's Test Kitchen, 2012), Concept 6, 'Slow Heating Makes Meat Tender,' p. 235."
+    quote: "To test the effects of enzymes active below 122 degrees, we cut one two-rib standing beef rib roast into two equal steaks. We cooked one in a sous vide water bath held at 120 degrees for two whole days (48 hours). We cooked the second in the same water bath—but just until its internal temperature hit 120 degrees, which took about two hours."
+  - source: primary
+    text: americas-test-kitchen-crosby-2012-science-of-good-cooking
+    citation: "The Editors at America's Test Kitchen and Guy Crosby, The Science of Good Cooking (America's Test Kitchen, 2012), Concept 6, 'Slow Heating Makes Meat Tender,' p. 237."
+    quote: "This experiment made it glaringly clear that internal temperature isn't the only factor in determining tenderness in meat. We cooked both samples of meat to the same temperature; the only difference was the length of time we held them there."
+canonical-instances:
+  - "Two steaks cut from the same roast were both cooked to exactly 120 degrees in a sous vide bath — one reached that temperature in about two hours, the other was held at it for a full 48 hours. Hung with a 2-pound weight attached, the two-hour steak supported the weight for about 15 seconds before tearing; the 48-hour steak, per the book's account, 'tore in half quickly and easily—as soon as we let go of the weight.' Same final temperature reading, opposite structural outcome, because the enzymes doing the tenderizing needed dwell time at that temperature, not just arrival at it."
+critical-questions:
+  - "Is the transformation actually time-dependent at the held level, or does reaching the target value genuinely complete it — has this been tested by holding two samples at the same final reading for different durations and comparing them directly?"
+  - "If dwell time matters, is there a practical ceiling past which additional time stops producing further change, so that 'longer is better' doesn't get treated as unbounded when the process actually plateaus?"
+  - "When two processes are called 'equivalent' because they share a final reading, what would show up on a more sensitive, structural test that the shared reading alone conceals?"
+status: active
+severity-tier: info

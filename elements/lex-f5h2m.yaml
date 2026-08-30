@@ -1,0 +1,19 @@
+id: lex-f5h2m
+name: testing-a-concessions-width-by-widening-the-ask-incrementally
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Once a party has granted one concession, asking for a slightly larger version of the same concession tests whether they'll defend a principled boundary or simply keep conceding rather than seem inconsistent. In the Jataka's Banyan Deer tale, after the king spares two deer from slaughter, Banyan Deer doesn't stop there — he asks what will become of the rest of the deer, then all four-footed creatures, then birds, then fish, and the king grants every extension in turn rather than explain why the earlier logic stops applying to the new case. Each successful widening becomes the platform the next request is made from, so the final scope of the concession is set by how far the asker is willing to push, past whatever line the granter thought they'd actually decided to hold."
+related: []
+evokes: [jataka, ekanipata, nigrodhamiga-jataka, incremental-concession-widening, testing-a-principle-by-extending-it]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-nigrodhamiga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 12, Nigrodhamiga-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Though two be spared, what shall the rest do, O king of men?\""
+canonical-instances:
+  - "A landlord agrees to let one tenant keep a small dog after the tenant argues it's quiet and well-behaved. The tenant later asks about a second dog using the same argument, then a cat, then a rabbit, and the landlord keeps approving each request rather than state what the actual pet policy is."
+critical-questions:
+  - "At what point does the granter's continued agreement stop being genuine persuasion and start being simple inertia — is there a way to tell the difference from outside?"
+  - "Would the outcome differ if the asker had stated the full final request up front, rather than reaching it through a sequence of smaller steps — does the incremental framing do real work here, or would the granter have conceded the whole thing regardless?"
+status: active

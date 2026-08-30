@@ -1,0 +1,19 @@
+id: lex-zzzmw
+name: an-escalating-competence-test-disguises-a-decision-already-made-to-kill
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A decision to destroy a valuable asset can be disguised as an incremental, escalating competence test, each step framed as reasonable given the last, so the final impossible demand looks like the logical continuation of a training evaluation rather than what it actually is. In the Jataka's tale of the jealous king, public praise of his elephant makes the king feel outshone, and he resolves to have the animal killed. Rather than admit this, he stages the killing as a training demonstration, asking the mahout to prove the elephant's obedience through progressively more extreme feats — climbing a mountain, then standing in mid-air — until the final demand is impossible to survive. Every step before the last looked like ordinary training; only the mahout, who understood the plan wasn't really about training at all, saw where it was always headed."
+related: []
+evokes: [jataka, ekanipata, dummedha-jataka, escalating-test-disguises-a-decision-already-made, incremental-framing-hides-the-real-endpoint]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dummedha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 122, Dummedha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "All this praise of his elephant awoke the king's jealousy and he resolved to have it cast over a precipice and killed."
+canonical-instances:
+  - "A manager who has already decided to push out a high-performing employee they feel threatened by assigns a series of escalating stretch projects framed as growth opportunities, each one plausible on its own, until the final assignment is designed to be impossible to complete without visible failure."
+critical-questions:
+  - "At what point in the escalation could an outside observer have distinguished this from a genuine, well-intentioned training sequence, before the final impossible demand made the real intent unmistakable?"
+  - "Does framing the destruction as a test rather than announcing it outright serve any purpose beyond protecting the king's reputation, or does the staging also make it harder for anyone to intervene before the final step?"
+status: active

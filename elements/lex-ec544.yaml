@@ -1,0 +1,19 @@
+id: lex-ec544
+name: feigned-hospitality-lulls-a-rivals-own-trust-protocol-into-an-ambush
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Retaliation against a rival can exploit the rival's own standard trust protocol as the delivery mechanism for an ambush, offering exactly the hospitality a legitimate host would provide so the target relaxes precisely the vigilance that would have protected them. In the Jataka's tale of the ungrateful merchant, Anathapindika retaliates against a rival caravan by welcoming them with promises of lodging and provisions from his own house, inducing them to unyoke their carts and relax outside the city walls in the belief that a benefactor's supplies are on the way. In the middle of the night, while they wait in that false security, the caravan is looted. The victims' guard was never down because they were careless — it was down because the offer looked exactly like the ordinary hospitality that would normally warrant relaxing it."
+related: []
+evokes: [jataka, ekanipata, akatannu-jataka, feigned-hospitality-exploits-a-trust-protocol, ambush-delivered-through-the-victims-own-expectations]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-akatannu-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 90, Akatannu-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "they took the strangers outside the city and bade them unyoke their carts at a suitable spot, adding that rice and a douceur would come from Anatha-pindika's house."
+canonical-instances:
+  - "A company retaliating against a rival's overly aggressive recruiter invites the recruiter's whole team to what's presented as a routine industry mixer with catering and open bar, encouraging them to relax and talk freely, then uses everything overheard that night as leverage in an ongoing contract dispute."
+critical-questions:
+  - "Does this technique require a genuine prior relationship or reputation for real hospitality to be credible, or would a first-time offer from a total stranger work just as well if the framing were convincing enough?"
+  - "What would the caravan have needed to do differently to protect itself without simply refusing all offers of hospitality outright, given that treating every kindness as a potential trap has its own real costs?"
+status: active

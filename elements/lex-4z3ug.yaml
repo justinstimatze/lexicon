@@ -1,0 +1,19 @@
+id: lex-4z3ug
+name: authority-compels-the-offender-to-personally-repair-the-harm
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When a harm becomes public and reflects on a ruler''s own household, the ruler can respond not merely by punishing the offender but by conscripting her into personally fixing the damage she caused, with her own life staked as collateral for success — accountability enforced as restorative labor rather than pure retribution. In the Jataka''s tale of Atthana, the king does exactly this to the courtesan who drove his friend away: "Wicked, vile woman, go quickly to where my friend is and fetch him: if you fail, your life is forfeit."'
+related: [lex-y2wbn]
+evokes: [jataka, atthanipata, atthana-jataka, restorative-accountability, offender-conscripted-to-repair-harm]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-atthana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 425, Atthana-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Wicked, vile woman, go quickly to where my friend is and fetch him: if you fail, your life is forfeit."
+canonical-instances:
+  - "The manager's outburst drove away the company's best engineer. Instead of firing her, the CEO gives her one month to personally win the engineer back — and makes her own job depend on it."
+critical-questions:
+  - "Does forcing the offender to personally repair the harm actually undo any of the original damage, or does it just add a second, separate ordeal on top of the first?"
+  - "What happens if the offender genuinely cannot succeed at the repair through no further fault of her own — does staking her life or livelihood on the outcome still count as fair accountability?"
+status: active

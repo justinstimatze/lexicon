@@ -1,0 +1,32 @@
+id: lex-7wvdb
+name: revealed-vs-reflective-preference-divergence
+type-in: claim
+type-out: frame
+_tier: atomic
+agent-instruction: "When a stated preference is being acted on, surface the revealed-vs-reflective gap — what someone says they want, what they reach for, and what they'd want on reflection often diverge; name which is being measured."
+related: [lex-4277u, lex-5y7zb, lex-63e4c, lex-cpq3s, lex-d6g2h, lex-ewafs, lex-fjzum, lex-gma7u, lex-kwec5, lex-qb3zf, lex-ry4x3, lex-uvcqt]
+evokes: [first-vs-second-order-desire, market-transmits-revealed-strips-reflective, what-you-click-vs-what-you-endorse, frankfurt-wantons, the-channel-only-carries-first-order]
+lineage:
+  - source: primary
+    text: frankfurt-1971-freedom-of-the-will-and-the-concept-of-a-person
+    citation: "Harry G. Frankfurt, 'Freedom of the Will and the Concept of a Person,' Journal of Philosophy 68(1):5-20 (1971). The foundational first-order vs second-order desire distinction. First-order desires (p.7): 'simply desires to do or not to do one thing or another.' Second-order desires (p.6): the 'reflective self-evaluation that is manifested in the formation of second-order desires' — wanting to want X, or wanting a certain desire to be one's will. The 'wanton' (p.11) has first-order desires but no second-order volitions: 'he does not care about his will.' The narcotic-addict illustration (pp.12-13) gives the two cases: the unwilling addict (who has a second-order volition against the drug-desire — hence a person whose will the addiction overrides) vs. the wanton addict (no second-order volition either way — moved by whichever first-order desire is strongest). This is the canonical substrate for the atom's general form: a transmission channel (market, recommender, metric) that reads only revealed first-order desire treats every agent as a wanton — it cannot see whether the desire being acted on is the one the agent reflectively endorses."
+    quote: "I shall use the term 'wanton' to refer to agents who have first-order desires but who are not persons because, whether or not they have desires of the second order, they have no second-order volitions. … The essential characteristic of a wanton is that he does not care about his will. [Frankfurt 1971, J.Phil 68(1):11 —]"
+  - source: practitioner
+    text: prospect-essay-post-copyright-reward-2026-05-25
+    citation: "prospect essay 'Post-copyright reward and the missing middle' §4 (the-three-axes / valence), 2026-05-25. The valence axis distinguishes monetizing a CAPACITY (taste, curiosity, mastery — reflective/second-order) from a VULNERABILITY (loneliness, compulsion, fear — first-order/revealed). The market channel transmits revealed first-order preference and strips reflective endorsement; this is the general form of 'vice vs art.'"
+    quote: "what human drive do they monetize (a capacity like taste, or a vulnerability like loneliness)? ... a difficult novel is maximal reflective-endorsement [prospect essay §4, 2026-05-25 — re-readable practitioner source]"
+  - source: discovery-loop
+    text: prospect-session-2026-05-25
+    citation: "named in the prospect session 2026-05-25 as `revealed-vs-reflective-preference-divergence`, grounding the valence axis in Frankfurt's 1st/2nd-order desire. Closely related to lex-ewafs wish-with-loophole (you get the first-order thing you literally asked for, not the second-order thing you reflectively wanted)."
+    quote: "the market channel transmits only first-order revealed preference, strips reflective endorsement (where art lives) [prospect session 2026-05-25]"
+canonical-instances:
+  - "Frankfurt 1971: a person has second-order volitions (wanting which desires move them to act); a wanton has only first-order desires. The market/recommender channel treats every consumer as a wanton — it reads clicks/purchases (first-order) and cannot read 'but I wish I wanted better things' (second-order)."
+  - "Recommender systems optimizing engagement: they maximize revealed first-order preference (what you click) and are structurally blind to reflective preference (what you'd endorse having watched). The divergence is why engagement-maximization feels misaligned with the user's considered interests."
+  - "Addiction / compulsion: the clearest divergence — the first-order desire (use) is exactly the one the person reflectively disavows. A channel that monetizes the first-order desire monetizes against the person's second-order will."
+  - "prospect valence axis: 'vice' products monetize first-order revealed preference (loneliness, compulsion); 'art' (a difficult novel) is bought partly out of second-order reflective endorsement ('I want to be the kind of person who reads this'). The market channel privileges the former."
+  - "relation to lex-ewafs wish-with-loophole: the genie grants the literal (first-order, revealed) wish, not the reflective (second-order, intended) one. lex-7wvdb is the general economic/cognitive form: any channel that transmits only revealed preference produces a wish-with-loophole at population scale."
+  - "relation to lex-kwec5 vice-is-disruption-proof: vice's disruption-proofness comes precisely from its grounding in first-order revealed demand (inelastic, compulsive), which the market transmits perfectly; reflective-endorsement goods (art) depend on the second-order signal the channel strips."
+critical-questions:
+  - "how do you OBSERVE reflective preference if the only channel carries revealed preference? You generally can't from market data alone — which is why metrics-driven optimization systematically drifts toward first-order capture. Detecting the divergence requires an out-of-band signal (stated values, deliberation, post-hoc endorsement), not more behavioral data."
+severity-tier: info
+status: active

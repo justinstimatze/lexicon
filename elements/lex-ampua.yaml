@@ -1,0 +1,21 @@
+id: lex-ampua
+name: success-and-its-burden-can-be-the-same-fact-read-twice
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a situation reads as both a burden and an achievement, check whether these are actually two separate facts to weigh against each other, or the identical fact under two descriptions. Waite's Ten of Wands shows a man oppressed by the weight of ten staves he carries, and his gloss states plainly that the card's two readings aren't in tension: 'The chief meaning is oppression simply, but it is also fortune, gain, any kind of success, and then it is the oppression of these things.' The weight isn't a cost incurred alongside the success — the weight is the success, felt from the inside by the person carrying it."
+related: [lex-vuzwz]
+evokes: [waite, pictorial-key-to-the-tarot, ten-of-wands, success-as-burden, dual-description]
+lineage:
+  - source: primary
+    text: waite-1910-pictorial-key-ten-of-wands
+    citation: "Arthur Edward Waite, The Pictorial Key to the Tarot (Rider, 1910), Part III Section 2, 'The Lesser Arcana,' Suit of Wands, Ten. The primary text behind the Rider-Waite-Smith deck's card meanings, illustrated by Pamela Colman Smith; not to be confused with L. W. De Laurence's 1918 plagiarized republication of this same book under his own name. Verified verbatim against a direct extraction of the full text hosted at sacred-texts.com, clean digital text, no OCR."
+    quote: "A man oppressed by the weight of the ten staves which he is carrying. Divinatory Meanings: A card of many significances, and some of the readings cannot be harmonized. I set aside that which connects it with honour and good faith. The chief meaning is oppression simply, but it is also fortune, gain, any kind of success, and then it is the oppression of these things."
+canonical-instances:
+  - "A promotion that brings a larger team, more accountability, and less personal time isn't a success with an unrelated cost attached — the added weight simply is what the larger scope consists of, felt as burden from inside the same role that reads as achievement from outside it."
+  - "operationally distinct from its suit-mate lex-vuzwz (positional advantage overriding numerical inferiority, a claim about which of two factors determines an outcome): this atom is not about weighing competing factors at all. It's about one fact that stops looking like two once the observer's vantage point is accounted for."
+critical-questions:
+  - "Is every case of 'success feels heavy' actually this same-fact-twice structure, or are there cases where the burden really is a separate cost genuinely subtracted from the success, making the two facts genuinely additive rather than identical?"
+  - "Does naming the weight and the success as one fact risk talking someone out of legitimate complaint about a genuinely excessive cost, by reframing every burden as just success felt from the inside?"
+  - "Waite explicitly declines to harmonize all the card's readings. Does that admission undercut the oppression-equals-success claim, or does it just mean the mechanism described here doesn't have to account for every other meaning the card has picked up over time?"
+status: active

@@ -1,0 +1,22 @@
+id: lex-wq7vp
+name: refusing-to-reuse-even-a-liked-chance-find-keeps-preference-from-reforming
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "A single chance-generated result that happens to please you doesn't threaten a discipline of non-preference -- what threatens it is repeating that result, because repetition, not the initial liking, is the mechanism by which taste re-accumulates into a fixed self. John Cage's piano-preparation practice makes the distinction concrete: 'I placed objects on the strings, deciding their position according to the sounds that resulted. So, it was as though I was walking along the beach finding shells … . I found melodies and combinations of sounds that worked with the given structure.' Finding a melody he liked looked, on its face, like taste guiding him after all. But Hyde notes what Cage never did next: 'when Cage happened upon a melody he liked he didn't then go on to build with it, repeat it, weave it into a climax, and so forth. To do so would be to promulgate his \"likes and dislikes,\" and by that begin again to shape and solidify the ego.' The liking itself was allowed to happen and pass; what Cage refused was the second step, using the liked result as a seed for further work, which is how a momentary preference would otherwise calcify into a compositional style, a signature, an identifiable 'Cage sound' built from his own accumulated likes. Diagnostic move: when trying to keep a process, a hiring pipeline, a research method, a creative practice genuinely open rather than quietly reverting to an operator's preferences, don't police the individual moments where the process happens to produce something someone likes -- that's unavoidable and not yet a problem. Police whether liked results get selected for reuse, repetition, or amplification, since that second step, not the initial reaction, is where preference actually reconstitutes itself as a governing pattern."
+related: [lex-78zx7, lex-qd63r]
+scaffolds-from: [lex-qd63r, lex-78zx7]
+evokes: [hyde-trickster-makes-this-world-a-net-to-catch-contingency, cage-prepared-piano, walking-along-the-beach-finding-shells, likes-and-dislikes-solidify-the-ego]
+lineage:
+  - source: primary
+    text: hyde-cage-never-reused-a-liked-chance-melody-to-avoid-reforming-the-ego
+    citation: "Lewis Hyde, Trickster Makes This World: Mischief, Myth, and Art (Farrar, Straus and Giroux, 1998; Canongate Books 2008 edition), Chapter 6, '\"The Lucky Find,\"' on John Cage's prepared-piano practice. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "when Cage happened upon a melody he liked he didn’t then go on to build with it, repeat it, weave it into a climax, and so forth. To do so would be to promulgate his “likes and dislikes,” and by that begin again to shape and solidify the ego."
+canonical-instances:
+  - "A hiring committee running structured, randomized resume review doesn't worry when one reviewer happens to personally like a particular candidate's background more than another's -- what they actively guard against is that reviewer subtly weighting future randomized batches, or informally referencing that candidate as a template, since the reaction itself is harmless and only the reuse would bias the process."
+  - "A generative-art practice built on randomized parameters doesn't ban the artist from noticing that one random seed produced something beautiful -- it bans saving that seed as a new default or a favorite starting point, since noticing is inert and saving is exactly how an ostensibly random process quietly becomes a personal style."
+critical-questions:
+  - "Is this distinction sustainable in practice, or does refusing to build on liked results just push preference into a subtler channel -- which chance operations get run again, which get abandoned, which experiments get set up in the first place -- so that the ego reforms one level up instead of being genuinely avoided?"
+  - "Does never building on a liked chance find sacrifice real value, since deliberately developing a promising accidental discovery is how craft and mastery normally accumulate, and Cage's refusal might be closer to an ideological commitment than a generally advisable practice?"
+  - "How would an outside observer ever verify that a artist's or process's results are genuinely un-reused rather than reused so subtly that the pattern is undetectable, given that Cage's own claim to have refused reuse rests entirely on his own self-report?"
+status: active

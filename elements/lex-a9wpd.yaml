@@ -1,0 +1,39 @@
+id: lex-a9wpd
+name: gof-composite
+type-in: composition
+type-out: frame
+_tier: molecule
+agent-instruction: "When tree-like / part-whole structures recur, surface the Composite pattern — treat singular and composite uniformly via the same interface; clients can work with a leaf or a tree without branching on which."
+related: [lex-z8m97, lex-gfxw3, lex-hnfrw]
+scaffolds-from: [lex-gfxw3, lex-hnfrw]
+evokes: [tree-of-uniformly-treated-nodes, leaf-and-aggregate-share-interface, recursive-uniform-structure]
+decomposes-into:
+  - lex-gfxw3
+  - lex-hnfrw
+assembly: "parallel(lex-gfxw3, lex-hnfrw)"
+premises:
+  - "you have a primitive (Leaf) type and a composite (Composite) type"
+  - "the Composite contains a collection of Components, where each Component is either a Leaf or another Composite"
+  - "both Leaf and Composite implement the same interface I"
+  - "client code receives an I and treats Leaf and Composite uniformly via I"
+  - "operations that fan out (e.g., 'render this whole tree') recurse through Composites and bottom out at Leaves"
+critical-questions:
+  - "does the shared interface meaningfully apply to both Leaf AND Composite, or are you forcing operations onto one that don't make semantic sense (e.g., 'add child' on a Leaf)?"
+  - "do operations sensible on a Leaf remain sensible when scaled to a Composite (e.g., 'rotate' is fine; 'set unique-id' would conflict at the Composite level)?"
+  - "is the recursion bounded in practice, or can pathological compositions cause stack overflow / O(n²) behavior on traversal?"
+  - "are you using Composite because you genuinely have a part-whole hierarchy, or because you're forcing a tree shape on what's actually a graph (where Composite would create surprising aliasing)?"
+lineage:
+  - source: primary
+    tradition: gof
+    text: gamma-helm-johnson-vlissides-1994
+    citation: "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides, Design Patterns: Elements of Reusable Object-Oriented Software (Addison-Wesley, 1994), ch.4 'Composite,' p.163, Intent section."
+    quote: "'Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.'"
+  - source: practitioner
+    text: gof-decomposition-pass
+    citation: "worked example: Composite decomposes into recursive-composition + polymorphism-as-extension-mechanism — the 2 atoms in parallel arrangement"
+canonical-instances:
+  - "GUI widget trees: a Window is a Composite of Panels which are Composites of Widgets; all implement Drawable so 'render this Window' recursively renders everything inside"
+  - "filesystem: a Directory contains Files and Directories, both implementing a 'name' / 'size' / 'list' interface (with size on a Directory recursively summing contents)"
+  - "abstract syntax trees: an Expression is either a Literal (Leaf) or an Operation (Composite of sub-Expressions)"
+severity-tier: info
+status: active

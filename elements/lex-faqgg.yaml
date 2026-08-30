@@ -1,0 +1,19 @@
+id: lex-faqgg
+name: a-cynical-alternative-motive-forces-a-claimed-virtue-to-answer-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Rather than taking a party's composure as proof of virtue, an interrogator can propose an unflattering alternative motive and force the party to explicitly rule it out — a falsification test built into dialogue rather than a leading question. If the composure survives having its cynical explanation named and rejected, it stands on firmer ground than if it were simply assumed. In the Jataka's tale of Uraga, the widow's calm is challenged with a specific alternative: 'No doubt you must have been abused and beaten and oppressed by him and therefore, thinking he is happily dead, you weep not.'"
+related: []
+evokes: [jataka, pancanipata, uraga-jataka, cynical-alternative-motive-as-falsification-test, forcing-a-claimed-virtue-to-rule-out-its-opposite]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-uraga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 354, Uraga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "No doubt you must have been abused and beaten and oppressed by him and therefore, thinking he is happily dead, you weep not."
+canonical-instances:
+  - "A hiring panel doesn't just take a candidate's claimed calm under pressure at face value; someone on the panel directly proposes the less flattering explanation — that the candidate simply doesn't care about the outcome — and asks the candidate to address that possibility head-on before the panel accepts the composure as a genuine strength."
+critical-questions:
+  - "Does naming the cynical alternative out loud actually test anything, or does it just give a well-prepared person the exact prompt they need to perform a convincing rebuttal regardless of which motive is true?"
+  - "Is there a risk that repeatedly demanding a virtue defend itself against a cynical reading erodes trust even when the virtue is genuine, teaching people that sincerity always needs to be argued for?"
+status: active

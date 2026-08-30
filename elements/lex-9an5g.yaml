@@ -1,0 +1,28 @@
+id: lex-9an5g
+name: sudden-carbon-cycle-perturbation-common-driver-of-mass-extinctions
+type-in: claim
+type-out: frame
+_tier: atomic
+agent-instruction: "When evaluating planetary-scale risk arguments, weight Brannen's 2017 finding: the five worst episodes in earth history — End-Ordovician (~444 Ma), Late Devonian (~372 Ma), End-Permian (~252 Ma; 'the Great Dying,' >95% marine species lost), End-Triassic (~201 Ma), and End-Cretaceous (~66 Ma, the famous K-Pg dinosaur event) — were ALL associated with violent, sudden changes to the planet's carbon cycle. The mechanism varies (massive flood-basalt volcanism at four of the five; an asteroid impact at K-Pg that THEN triggered carbon perturbation via secondary effects) but the carbon-cycle disruption signature is shared. The transferable claim is a strong empirical regularity about WHAT BREAKS BIOSPHERES: not predators, not competition, not radiation, not isolation — sudden carbon-cycle perturbation is the crucial variable across the five biggest disasters in earth history. Operational consequence for current planetary policy: anthropogenic carbon release is occurring at a rate that geologists describe as faster than any prior carbon-cycle perturbation in earth's history; humans are not running a 'new kind of risk,' we are running the EXACT SAME risk that produced the five worst episodes earth has on record, only faster. Transferable diagnostic for any high-stakes domain: if every prior catastrophic failure in a domain shares a common mechanism, you do not need to debate whether the next high-input-on-that-variable event will produce catastrophic failure — the empirical record is the prior probability, and the structural-cause is identified. Use it. Inverse failure mode: ignoring or under-weighting the deep-time prior in favor of recent-instrument-record statistics, which sample only the calm periods between perturbations."
+related: [lex-spm8x, lex-uz24q, lex-vacza, lex-z7dbd, lex-3fzvf, lex-wx2ma, lex-f5pns, lex-z2fkk, lex-5y7zb, lex-g9b38, lex-3hw32, lex-n5jed, lex-ybjru, lex-bg3ad, lex-pn7cf, lex-s2rtb]
+evokes: [brannen-2017-ends-of-the-world, the-big-five-mass-extinctions, carbon-cycle-perturbation, end-permian-great-dying, end-cretaceous-k-pg, flood-basalt-volcanism, deep-time-priors, anthropogenic-climate-as-mass-extinction-class, palisades-as-mass-extinction-monument, the-common-mechanism-across-disasters, sample-the-prior-not-just-the-instrument-record]
+lineage:
+  - source: primary
+    tradition: brannen-mass-extinction
+    text: brannen-2017-ends-of-the-world
+    citation: "Peter Brannen, The Ends of the World: Volcanic Apocalypses, Lethal Oceans, and Our Quest to Understand Earth's Past Mass Extinctions (Ecco, 2017), Introduction."
+    quote: "The five worst episodes in earth history have all been associated with violent changes to the planet's carbon cycle. Over time, this fundamental element moves back and forth between the reservoirs of biology and geology: volcanic carbon dioxide in the air is captured by carbon-based life in the sea, which dies and becomes carbonate limestone on the seafloor. When that limestone is thrust down into the earth, it's cooked and the carbon dioxide is spit out by volcanoes into the air once more. And on and on. This is why it's a cycle. But events like sudden, extraordinarily huge injections of carbon […]"
+  - source: primary
+    tradition: brannen-mass-extinction
+    text: brannen-2017-ends-of-the-world
+    citation: "Peter Brannen, The Ends of the World: Volcanic Apocalypses, Lethal Oceans, and Our Quest to Understand Earth's Past Mass Extinctions (Ecco, 2017), Introduction — End-Triassic Palisades flood basalts."
+    quote: "The eruptions flooded the atmosphere with carbon dioxide at the end of the Triassic period, roasting the planet and acidifying the oceans for thousands of years. Brief blasts of volcanic smog punctuated this super-greenhouse with cold. The runaway volcanism covered more than 4 million square miles of the planet and killed off more than three-quarters of animal life on earth in a geological instant."
+canonical-instances:
+  - End-Ordovician (~444 Ma) — 86% of marine species lost; associated with rapid CO2 drawdown and glaciation followed by warming, both carbon-cycle perturbations.
+  - Late Devonian (~372 Ma) — ~75% of species lost; oceanic anoxia driven by carbon-cycle changes from plant colonization of continents (a sudden new carbon-sink that destabilized the ocean-atmosphere balance).
+  - End-Permian (~252 Ma) — 'the Great Dying' — >95% of marine species and ~70% of terrestrial species lost; Siberian Traps flood basalts released CO2 and methane over ~1 million years.
+  - End-Triassic (~201 Ma) — Central Atlantic Magmatic Province (Palisades-forming) flood basalts; >75% of species lost.
+  - End-Cretaceous (~66 Ma) — Chicxulub impactor triggered the famous dinosaur extinction but the long-term-deadly mechanism was the impact-induced injection of carbon and sulfur into the atmosphere; Deccan Traps volcanism simultaneously perturbed carbon cycle.
+  - Anthropogenic carbon emissions 1750-present — current rate of carbon-cycle perturbation is geologically extraordinary; the transferable lesson is that humans are running the mass-extinction mechanism deliberately, even if the magnitude has not yet reached big-five levels.
+severity-tier: critical
+status: active

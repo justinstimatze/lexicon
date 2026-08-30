@@ -1,0 +1,19 @@
+id: lex-q2278
+name: an-argument-from-future-utility-loses-to-immediate-necessity
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a decision-maker faces competing claims for their attention, check whether an argument based on ongoing general usefulness can actually withstand a rival claim rooted in urgent, immediate need, even when the usefulness argument is fully conceded as true. Aesop's 'The Fowler, the Partridge, and the Cock' has a fowler spare a partridge who pleads its usefulness as a decoy, then kill a cock who makes the identical case for its usefulness in telling the time: 'You are useful for telling the time, I know; but, for all that, I can't send my friend supperless to bed.' Both arguments were equally valid on their own terms — what actually decided each outcome was whether the fowler had a competing, more urgent pressure at that specific moment, not the relative strength of the usefulness claim itself."
+related: []
+evokes: [aesop, the-fowler-the-partridge-and-the-cock, urgency-beats-validity, competing-pressure-decides-the-outcome]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-fowler-the-partridge-and-the-cock
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Fowler, the Partridge, and the Cock.' Verified verbatim against a direct extraction of the held copy."
+    quote: "You are useful for telling the time, I know; but, for all that, I can't send my friend supperless to bed."
+canonical-instances:
+  - "a manager cuts a legacy tool or role that everyone agrees is 'useful long-term' because of an unrelated deadline crisis this week — the tool's value was never in question, only whether it could compete with the immediate pressure."
+critical-questions:
+  - "Urgency reflects a real, time-bound cost that general usefulness doesn't carry — does that make prioritizing immediate necessity the correct call by default, or does it deserve active guarding against instead?"
+  - "Does the partridge's survival reveal anything generalizable about which kinds of usefulness tend to survive competing pressures, or was it simply a matter of timing that could have gone the other way just as easily?"
+status: active

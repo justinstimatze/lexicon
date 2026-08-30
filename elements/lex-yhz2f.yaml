@@ -1,0 +1,19 @@
+id: lex-yhz2f
+name: skilled-extraction-removes-only-the-harmful-part-and-leaves-the-value-intact
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A model for exploitative-but-sustainable extraction: remove only the excess or harmful portion of a resource while leaving the valuable substance intact, rather than stripping the whole thing down to nothing. In the Jataka''s tale of Kukku, this is offered as the difference between righteous and oppressive taxation, using a citron as the image: "O king, people who know not how to eat this make it bitter or acid: but wise men who know take away the bitter, and without removing the acid or spoiling the citron-flavour they eat it."'
+related: []
+evokes: [jataka, sattanipata, kukku-jataka, extraction-that-preserves-value, righteous-versus-oppressive-taxation]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kukku-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 396, Kukku-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "O king, people who know not how to eat this make it bitter or acid: but wise men who know take away the bitter, and without removing the acid or spoiling the citron-flavour they eat it,"
+canonical-instances:
+  - "A manager trims a struggling team's scope back to what it can actually deliver well, rather than dissolving the team entirely, preserving the one thing it was genuinely good at while cutting the parts that were dragging it down."
+critical-questions:
+  - "How does the extractor reliably tell the bitter part from the valuable part in advance, rather than discovering the difference only after damage is already done?"
+  - "Does calling extraction 'skilled' when the harmful part is removed just make an underlying power imbalance more palatable, without changing who benefits from it?"
+status: active

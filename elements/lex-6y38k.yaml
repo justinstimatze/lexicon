@@ -1,0 +1,20 @@
+id: lex-6y38k
+name: preventive-labor-is-undervalued-because-its-success-stays-invisible
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone's ongoing protective effort produces no visible incident, check whether the absence of trouble is being read as evidence the effort was unnecessary, rather than as the effort's actual success. Aesop's 'The Sheep and the Dog' has a sheep complain that a guard dog contributes nothing while it grazes peacefully; the dog names exactly what the sheep's peace depends on: 'where would you be if it wasn't for me? Thieves would steal you! Wolves would eat you! Indeed, if I didn't keep constant watch over you, you would be too terrified even to graze!' Preventive labor's whole output is an absence — nothing bad happening — so its value only becomes visible once someone states the counterfactual explicitly, and until then it reads as producing nothing at all."
+related: []
+evokes: [aesop, the-sheep-and-the-dog, invisible-preventive-labor, counterfactual-makes-value-legible]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-sheep-and-the-dog
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Sheep and the Dog.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Yes, and quite right, too: where would you be if it wasn't for me? Thieves would steal you! Wolves would eat you! Indeed, if I didn't keep constant watch over you, you would be too terrified even to graze!"
+canonical-instances:
+  - "security or IT-operations budgets get cut because 'nothing bad has happened lately' — the absence of an incident is read as evidence the spending was unnecessary, rather than as the direct product of the spending itself."
+  - "One of Merton's paired physician values states this as a fact about medical reward structure: society 'more largely rewards medical men for the therapy they effect as practitioners' than those doing prevention, 'since prevention is not as readily visible to patients who do not know that they remain healthy because of preventive measures.' (Robert K. Merton, 'Some Preliminaries to a Sociology of Medical Education,' in Merton, Reader, and Kendall, eds., The Student-Physician, Cambridge: Harvard University Press for The Commonwealth Fund, 1957, p.75.) A healthy patient has no direct evidence prevention was the cause, since they cannot observe the illness that didn't happen to them."
+critical-questions:
+  - "How would the sheep ever verify the dog's claim without actually removing the protection and observing the outcome — is there a way to make preventive value legible short of a costly, risky experiment?"
+  - "A near-miss, or a single incident, would make the counterfactual visible eventually. Absent that, does the undervaluation just persist for as long as the protection keeps quietly working?"
+status: active

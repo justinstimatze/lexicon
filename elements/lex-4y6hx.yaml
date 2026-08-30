@@ -1,0 +1,22 @@
+id: lex-4y6hx
+name: naming-in-hindsight-where-trust-shifted-to-a-lesser-vision
+type-in: state
+type-out: claim
+_tier: atomic
+agent-instruction: "Looking back, a person can identify the precise point where things went wrong -- not a vague drift but the specific moment they set aside a foundational, long-vetted guiding commitment in favor of a newer, smaller, more immediately compelling signal -- and generalize that lapse into a claim about how people in general lose their way. Black Elk locates his mistake exactly: 'I had had a very great vision, and I should have depended only upon that to guide me to the good. But I followed the lesser visions that had come to me while dancing.' He extends the diagnosis past his own case: 'It is hard to follow one great vision in this world of darkness and of many changing shadows. Among those shadows men get lost.'"
+related: []
+evokes: [black-elk-speaks, bad-trouble-coming, this-was-where-i-made-my-great-mistake, the-lesser-visions, among-those-shadows-men-get-lost]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch23-bad-trouble-coming
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 23, 'Bad Trouble Coming.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "I have thought much about this since, and I have thought that this was where I made my great mistake. I had had a very great vision, and I should have depended only upon that to guide me to the good. But I followed the lesser visions that had come to me while dancing on Wounded Knee Creek. [...] It is hard to follow one great vision in this world of darkness and of many changing shadows. Among those shadows men get lost."
+canonical-instances:
+  - "A founder looks back at a company's failed pivot and locates the exact meeting where the team set aside its original five-year thesis in favor of a smaller, more urgent competitor signal that turned out to be a distraction."
+  - "A long-married person identifies the specific season when they stopped consulting their marriage's foundational agreements about money and started making decisions based on whichever recent conversation felt most pressing."
+  - "A researcher reviewing a failed multi-year study traces the exact point where the team abandoned its original hypothesis-driven design in favor of chasing a smaller, more recently observed anomaly that never replicated."
+critical-questions:
+  - "Is locating one exact moment of departure more accurate than acknowledging a gradual drift, or does naming a single hindsight turning point create a tidier story than the actual, messier accumulation of small choices that led there?"
+  - "Black Elk frames the great vision as something he 'should have depended only upon' -- but the great vision itself was ambiguous enough to require years of interpretation; is treating it as the one reliable anchor, in contrast to the lesser visions, a hindsight simplification of how uncertain even the great vision actually was at the time?"
+  - "Does generalizing from 'I made this mistake' to 'men get lost among shadows' overstate what a single personal case can support, or does the specific failure genuinely illustrate a pattern common enough to generalize from?"
+status: active

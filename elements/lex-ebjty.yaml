@@ -1,0 +1,19 @@
+id: lex-ebjty
+name: a-diagnostic-step-can-destroy-the-very-thing-it-measures
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A well-intentioned check meant to guide careful resource use can itself be the destructive act, when the method of measurement damages the thing being measured. In the Jataka's tale of the gardener's monkeys, a troop left to water young trees is told by their king to first pull up each sapling and inspect its root size, so as not to waste water on trees that don't need it. Every tree dies from the inspection itself — killed by exactly the diligence meant to conserve resources for them. The flaw is never in the monkeys' effort or their intent to avoid waste; it's in a diagnostic procedure that consumes the object it was supposed to protect."
+related: []
+evokes: [jataka, ekanipata, aramadusaka-jataka, destructive-diagnostic-step, measurement-consumes-what-it-measures]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-aramadusaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 46, Aramadusaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"But we must mind not to waste the water,\" observed their king; \"as you water, first pull each young tree up and look at the size of its roots."
+canonical-instances:
+  - "A team lead worried about wasting server capacity on underused features has engineers manually spin down and inspect each service's dependencies before deciding whether to keep it running, and the inspection process itself corrupts the state of three services that would have been fine left alone."
+critical-questions:
+  - "How does a team distinguish a genuinely destructive diagnostic from one that merely feels risky but is actually safe, before committing to run it on something valuable?"
+  - "Is there always a non-destructive way to get the same information the monkeys wanted, or do some questions genuinely require damaging or disturbing the thing you're trying to learn about?"
+status: active

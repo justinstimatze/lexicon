@@ -1,0 +1,19 @@
+id: lex-cwj3n
+name: a-sellers-own-abstention-exposes-a-product-they-praise-but-wont-consume
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A seller's verbal praise for their own product can be checked against a cheap, hard-to-fake tell: whether they're willing to consume it themselves. In the Jataka's tale of the drugged tavern, con men set up a stall of poisoned liquor to rob passers-by, praising the drink lavishly to attract a mark, but never drinking any of it themselves. A wary target reasons that genuine liquor sellers sample their own stock as a matter of course, and treats their abstention as sufficient proof the drink isn't what they claim, without needing any other evidence at all."
+related: []
+evokes: [jataka, ekanipata, punnapati-jataka, sellers-own-abstention-as-a-tell, verbal-endorsement-checked-against-behavior]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-punnapati-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 53, Punnapati-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "What? Leave untasted drink you vaunt so rare? Nay, this is proof no honest liquor's there."
+canonical-instances:
+  - "A stock promoter urges retail investors to buy heavily into a thinly traded company while quietly disclosing in a regulatory filing that they sold their own entire position the week before, and a diligent investor treats that mismatch alone as sufficient grounds to walk away."
+critical-questions:
+  - "Does this diagnostic generalize to sellers who have a legitimate reason not to consume their own product, such as a health condition or a religious restriction, or does it only work when abstention has no plausible innocent explanation?"
+  - "How easily could a sophisticated con artist defeat this specific tell simply by forcing themselves to sample the product, and would that single adjustment restore the mark's trust entirely?"
+status: active

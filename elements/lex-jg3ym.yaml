@@ -1,0 +1,20 @@
+id: lex-jg3ym
+name: finishing-anothers-open-refrain-smuggles-in-a-new-message
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When you need to deliver a message to someone who has broadcast an open, unanswered call — a standing offer, a running question nobody has resolved — completing that call through a proxy timed to their own re-performance of it lets your message ride in on an action they choose to take themselves, rather than arriving as an intrusion they have to be persuaded to accept. In the Jataka's tale of Sonaka, the paccekabuddha finds a boy singing king Arindama's fifty-year-old reward-song for news of his vanished friend, and notices the song has a gap: \"Has any one been found to sing a refrain to this song?\" \"No, Sir.\" \"I will teach you one and then you can go and sing the refrain before the king.\" At the performance, the boy has the king sing the familiar opening first — \"Sire,\" he said, \"you sing first and then I will sing a refrain to it\" — before delivering the completion the king has spent decades waiting to hear."
+related: []
+evokes: [jataka, satthinipata, sonaka-jataka, completing-an-unresolved-public-call, proxy-delivered-message]
+lineage:
+  - source: primary
+    text: jataka-francis1905-sonaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XIX (Satthinipata), No. 529, Sonaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Has any one been found to sing a refrain to this song?\" \"No, Sir.\" \"I will teach you one and then you can go and sing the refrain before the king.\" ... \"Sire,\" he said, \"you sing first and then I will sing a refrain to it.\""
+canonical-instances:
+  - "A support team's public status page has run an unresolved outage banner for months with no follow-up post. Rather than file a new ticket that might get triaged away, an engineer who has the fix drafts it as the missing resolution update to that exact banner, routed through the on-call channel everyone already watches for it."
+  - "An open-source maintainer's pinned issue asks why a feature regressed in 2.1 and has sat unanswered for a year, quietly accruing subscribers. A contributor who tracks down the cause posts the answer as a reply to that exact thread rather than a new PR description, so it reaches everyone still watching the original question."
+critical-questions:
+  - "The boy delivers the completion only after prompting the king to sing the opening himself — does the message's reception depend on that specific staging, or would simply announcing the answer directly have worked just as well once fifty years of unresolved waiting had built up its own pull?"
+  - "Sonaka teaches a stranger's child to carry his message rather than appearing himself — what does routing through a proxy cost in terms of the message being trusted or understood correctly, versus the access it buys past whatever would have blocked Sonaka from reaching the king directly?"
+status: active

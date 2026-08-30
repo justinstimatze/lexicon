@@ -1,0 +1,19 @@
+id: lex-6xzgb
+name: coercive-pressure-triggers-the-resistance-that-defeats-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When trying to change someone's behavior, check whether the method itself (pressure, force, mandate) is manufacturing the resistance you're fighting against. In Aesop's contest between the North Wind and the Sun over who can make a traveller remove his cloak, the wind's every gust makes the man clutch the cloak tighter, while the sun simply shines until he takes it off on his own. The stated moral, 'Persuasion is better than force,' undersells the mechanism: the man is not resisting the goal (getting warm), he is reacting to the coerciveness of the method itself — remove the pressure and the resistance it provoked disappears with it, leaving the underlying goal free to be pursued voluntarily."
+related: []
+evokes: [aesop, the-north-wind-and-the-sun, psychological-reactance, coercion-provokes-resistance, voluntary-compliance]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-north-wind-and-the-sun
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The North Wind and the Sun.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Persuasion is better than force."
+canonical-instances:
+  - "a 'no-pressure' product-adoption approach that removes mandates and friction and lets users opt in voluntarily, contrasted with a mandated rollout that reliably produces workarounds and quiet non-compliance ('shadow IT') from the exact same population."
+critical-questions:
+  - "Does removing the pressure always reveal an underlying willingness, or can a target simply have no actual interest in the goal at all, meaning the sun's approach only works when the resistance really was reactive rather than substantive?"
+  - "How long does it take for a target to reliably distinguish an approach as genuinely pressure-free rather than a subtler form of the same coercion, and does that recognition delay limit how quickly this method can work compared to force?"
+status: active

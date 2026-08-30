@@ -1,0 +1,22 @@
+id: lex-bsz3m
+name: inheritance-quietly-undermines-an-enforced-differentiation
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A system can be built to maintain a rigid split between two groups, treating each parent's traits as if they belonged only to their own group's line. Ordinary inheritance quietly undermines that split anyway: a trait doesn't stay confined to one lineage just because the culture wants it to, and each generation ends up partially recombining what the system tried to keep separate. Gilman names the mechanism directly: 'Heredity has no Salic law. Each girl child inherits from her father a certain increasing percentage of human development, human power, human tendency; and each boy as well inherits from his mother the increasing percentage of sex-development, sex-power, sex-tendency. The action of heredity has been to equalize what every tendency of environment and education made to differ... It has held up the woman, and held down the man.'"
+related: []
+evokes: [women-and-economics, chapter-iv, heredity-has-no-salic-law, held-up-the-woman-and-held-down-the-man, cross-lineage-transmission-erodes-enforced-difference]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-iv
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter IV. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "Heredity has no Salic law. Each girl child inherits from her father a certain increasing percentage of human development, human power, human tendency; and each boy as well inherits from his mother the increasing percentage of sex-development, sex-power, sex-tendency. The action of heredity has been to equalize what every tendency of environment and education made to differ. This has saved us from such a female as the gypsy moth. It has held up the woman, and held down the man. It has set iron bounds to our absurd effort to make a race with one sex a million years behind the other."
+canonical-instances:
+  - "A rigidly caste-divided profession that tries to keep skilled trade-knowledge confined to one lineage of families finds that daughters who marry outside the trade carry fragments of that knowledge with them anyway, and sons born into other trades absorb some of their mother's family's expertise regardless of what the guild intended."
+  - "A company culture that tries to keep technical and people skills strictly separated between two career tracks finds that employees moving between teams, mentoring across tracks, or simply working alongside each other for years end up carrying capabilities from one track into the other, eroding the intended separation over time."
+  - "A society that tries to raise children according to two rigidly separate templates finds that any child who spends real time with a parent from the other template absorbs some of it anyway, since the transmission of habits and outlook crosses freely regardless of which template it's supposed to respect."
+critical-questions:
+  - "Gilman is using heredity in an 1898 pre-Mendelian sense that doesn't match how biological inheritance actually works -- does the equalizing mechanism she describes require literal genetic transmission of a human development percentage, or is the real claim actually about cultural transmission within families, a different mechanism entirely?"
+  - "If the culturally-transmitted counter-tendency is real, why would it only push toward equalization rather than toward some other blend -- couldn't cross-lineage transmission just as easily reinforce whichever trait is dominant in a given family, rather than reliably moving things toward the middle?"
+  - "Does treating this equalizing tendency as good news risk complacency -- if inheritance is already quietly correcting the imbalance a system enforces, does that reduce the perceived urgency of actually dismantling the enforced split itself?"
+status: active

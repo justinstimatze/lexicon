@@ -1,0 +1,20 @@
+id: lex-cmqw5
+name: exponential-capability-decline-makes-restriction-self-defeating
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a capability's cost or access barrier is falling exponentially, don't default to restriction (regulation, censorship of methods, licensing gates) as the security strategy. Falling cost means the capability will keep diffusing regardless of the restriction; the restriction's actual effect is to push the activity into an unmonitored black market where it's harder to detect and police, not to prevent it from happening. A more effective strategy in this regime is deliberate openness — an expansive, participatory community around the capability keeps activity visible and gives the community the tools to detect misuse early, trading the comfort of formal control for the substance of actual awareness."
+evokes: [carlson-curve, biosecurity, dna-synthesis-cost, dual-use-technology, open-community-as-security]
+lineage:
+  - source: primary
+    text: carlson-2003-pace-and-proliferation-biological-technologies
+    citation: "Robert Carlson, 'The Pace and Proliferation of Biological Technologies,' Biosecurity and Bioterrorism: Biodefense Strategy, Practice, and Science 1(3) (2003), section 'The Pace of Technological Change through the Prism of Moore's Law.' No page numbers recovered from the extraction; cite by section. Verified verbatim against a direct pdftotext extraction, no OCR involved. This paper introduced the 'Carlson Curve' tracking DNA synthesis and sequencing costs falling exponentially, Moore's-Law-style."
+    quote: "It is questionable, however, whether such efforts will increase security or benefit the public good. Proscription of information and artifacts generally leads directly to a black market that is difficult to monitor and therefore difficult to police. A superior alternative is the deliberate creation of an open and expansive research community, which may be better able to respond to crises and better able to keep track of research whether in the university or in the garage."
+canonical-instances:
+  - "Encryption software export controls in the 1990s: restricting strong cryptography as a controlled munition didn't prevent its spread once the underlying mathematics and falling computing costs made it implementable by any competent programmer — the restriction mainly disadvantaged legitimate domestic users while foreign and black-market implementations proceeded regardless."
+  - "operationally distinct from ordinary cost-benefit arguments for open science: this atom's mechanism is specifically about the SECURITY consequence of restriction under an exponential-decline cost curve, not a general claim that openness accelerates progress. The security case rests on visibility (an open community can detect misuse) rather than on speed of discovery."
+critical-questions:
+  - "Does the capability in question actually follow an exponentially falling cost curve, or is restriction being resisted on Carlson's argument without checking whether the specific technology's access barrier is actually declining that fast? The argument's force depends on the empirical decline rate, not on the general shape of the claim."
+  - "Is the proposed openness actually structured to detect misuse (shared monitoring, transparency norms, rapid-response capacity), or is 'open community' being invoked as a slogan without the detection infrastructure that makes it a real security strategy rather than just unrestricted access?"
+  - "Are there capabilities where the black-market cost of restriction is still lower than the cost of full openness — for instance, where the harm from a single successful bad actor is catastrophic and irreversible, making even imperfect restriction worth the diffusion it doesn't fully stop? Carlson's argument describes a general tendency; it leaves room for cases where restriction is still the right call despite its cost."
+status: active

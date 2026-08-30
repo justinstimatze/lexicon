@@ -1,0 +1,19 @@
+id: lex-e5ae3
+name: a-claim-is-resolved-by-returning-to-the-scene-with-the-source
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Rather than dismiss a widely-believed claim by asserting a counter-theory, or accept it on the strength of how many people repeat it, taking the original source physically back to the exact location and re-deriving what actually happened settles the question empirically instead of rhetorically. In the Jataka's tale of the panicking animals, rather than simply reassure the herd, the lion carries the origin-hare back to the precise spot the sound came from: '\"I will take the hare and go and find out exactly whether the earth is coming to an end or not, in the place pointed out by him. Until I return, do you stay here.\"'"
+related: []
+evokes: [jataka, catukkanipata, daddabha-jataka, empirical-re-derivation-beats-asserting-a-counter-theory, returning-to-the-scene-with-the-original-source]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-daddabha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 322, Daddabha-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"I will take the hare and go and find out exactly whether the earth is coming to an end or not, in the place pointed out by him. Until I return, do you stay here.\""
+canonical-instances:
+  - "A safety officer, hearing that a whole shift believes a machine is haunted because of a strange recurring noise, doesn't argue that ghosts aren't real — they bring the worker who first reported it back to the machine floor and have them point to exactly where and when the noise happens, then trace it to a loose panel."
+critical-questions:
+  - "Does this only work because the original source (the hare) is still cooperative and available to return to the scene — what happens when the source of a rumor has moved on, is unreachable, or refuses to participate in the re-derivation?"
+  - "Is there a risk that returning to the scene doesn't actually resolve the ambiguity if the original evidence (the fallen fruit) has since disappeared or changed, leaving the investigator no better off than before?"
+status: active

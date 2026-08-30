@@ -1,0 +1,21 @@
+id: lex-zmj24
+name: a-perceptual-tracking-demand-recruits-unrelated-effectors
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: "When a fast-timing coordination task seems to call for tighter conscious visual tracking, consider that the eyes cannot sense their own movement rate. Precise timing against a moving target often ends up supplied by other body parts — head, torso, feet — syncing to the object's rhythm, which frees the eyes to loosen their grip and regain peripheral range. Sudnow discovered this by deliberately holding his head still while tracking a moving finger with his eyeballs alone: the tracking felt strained and inaccurate, the finger blurred. Letting his head move naturally to follow it, eyeball movement dropped and the finger stayed sharp. Playing Breakout, he later caught his feet tapping the ball's tempo and his waist picking up a slight pivot, unbidden, and his peripheral vision improved as a direct result. The felt need to fixate harder on a target can point exactly the wrong direction for solving its timing problem."
+related: []
+evokes: [sudnow, pilgrim-in-the-microworld, breakout, effector-recruitment, embodied-timing, peripheral-vision]
+lineage:
+  - source: primary
+    text: sudnow-1983-pilgrim-in-the-microworld-eyeball-chapter
+    citation: "David Sudnow, Pilgrim in the Microworld (originally 1983; this citation drawn from the Boss Fight Books 2019 reissue), ch. 'Eyeball.' Verified verbatim against a direct ebook-convert extraction, clean text, no OCR. Distinct from Sudnow's earlier 1967 sociology book Passing On, already cited elsewhere in this corpus under a different atom."
+    quote: "I look at my index finger held a foot and a half in front of my eyes, my head perfectly still, no sideway movement at all. Quickly tracing the finger a couple of feet back and forth from left to right to left to right, I track with only my eyeballs. First, it's strainful. Second, it feels inaccurate. The finger goes by in a blur at times, is hard to hold on to, and at various places the eyes fall out of phase and move in spurts. Now I move my head to track the finger in the natural way, finely synchronizing the scan. Eyeball movement proportionately lessens, the finger is seen clearly throughout, and even appears to move slower. Eyes don't sense their movements' pace, so to coordinate motions in tight alignment with a visible object's rate, we must follow with other moving parts."
+canonical-instances:
+  - "Sudnow's own follow-up example from the same passage: watching racehorses cross a finish line, the whole upper torso synchronizes a pan to keep the lead horse's head in sharp focus through the line — the same offload pattern outside any game context."
+  - "The in-game confirmation, from the same chapter: 'After a few sessions gluing my gaze on the ball, the eyes were bringing the feet into play. I caught myself tapping tempos along with the bleeps [...] A slight waist pivot had been joining in too [...] Gluing my eyes to the ball had brought the rest of me along, and my look then gained some freedom.'"
+critical-questions:
+  - "Is this genuinely distinct from ordinary motor automaticity through repeated practice, or is the effector-recruitment Sudnow describes just what automaticity looks like from the inside for this specific class of fast-timing task?"
+  - "Does the mechanism generalize past visual tracking to other perceptual channels whose own movement or state can't be self-sensed, or is the whole effect specific to vision's particular blindness to its own saccade rate?"
+  - "Sudnow's evidence is a single practitioner's close self-observation — what would a controlled study need to show to confirm the recruited-effector explanation over a simpler account (that head movement itself, not the eyes' inability to self-sense, is what does the timing work)?"
+status: active

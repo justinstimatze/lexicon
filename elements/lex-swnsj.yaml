@@ -1,0 +1,19 @@
+id: lex-swnsj
+name: a-counterpartys-own-bad-faith-can-become-evidence-for-your-defense
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a conditional-payment arrangement is being contested, check whether the party seeking to avoid payment is redefining the success criterion using evidence their own bad-faith conduct generated. In Aesop's 'The Old Woman and the Doctor,' a doctor secretly steals furniture during each visit while treating a blind woman's eyes on a pay-only-if-cured contract; once her eyes are actually restored and she sees her house stripped bare, she refuses to pay, naming the doctor's own theft as her defense: 'When my eyes were bad I could at any rate see... but now, when according to him I am cured, I am entirely unable to see anything there at all.' The move is specific: rather than simply expose the theft, she uses it to argue the contracted outcome itself was never delivered, turning the doctor's own fraud into the proof that defeats his claim."
+related: []
+evokes: [aesop, the-old-woman-and-the-doctor, opponents-bad-faith-as-evidence, conditional-contract-exploitation]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-old-woman-and-the-doctor
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Old Woman and the Doctor.' Verified verbatim against a direct extraction of the held copy."
+    quote: "When my eyes were bad I could at any rate see well enough to be aware that my house contained a certain amount of furniture and other things; but now, when according to him I am cured, I am entirely unable to see anything there at all."
+canonical-instances:
+  - "a client refusing to pay a vendor's success-fee by arguing that the vendor's own undisclosed changes are what produced the metric the fee was conditioned on, so the contracted outcome was never genuinely achieved."
+critical-questions:
+  - "Does this move require the wronged party to already have independent proof of the bad-faith conduct, or can the argument work on the strength of the redefined criterion alone, without ever formally proving the theft occurred?"
+  - "Is there a risk that this rhetorical move, generalized, lets any dissatisfied party manufacture a 'the outcome wasn't real' argument against a counterparty whose conduct was merely imperfect rather than actually fraudulent?"
+status: active

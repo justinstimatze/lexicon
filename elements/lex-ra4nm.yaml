@@ -1,0 +1,23 @@
+id: lex-ra4nm
+name: a-sanctioned-ritual-mimics-the-form-of-a-crime
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A culturally prescribed courtship convention can require behavior formally indistinguishable from abduction -- sneaking up in the dark, ambushing someone alone, forcibly restraining them, cutting them free from restraints and carrying them off -- with legitimacy resting entirely on the participants' shared understanding of the convention rather than on anything different about the acts themselves. Black Elk describes the expected form plainly: a suitor 'hides in the brush,' 'jumps out and holds her,' and if a girl's parents are protective enough, they tie her to a rawhide bed at night specifically 'so that nobody could steal her when they were asleep' -- while also admitting they 'were not sure but that their girl might really want to be stolen.' The parents' own precaution belongs to the same shared game as the theft it's built to resist. Nothing in the physical description of High Horse cutting the thongs and dragging the girl out separates the sanctioned version from a real kidnapping except that everyone involved already knows which one it is."
+related: [lex-dzqje]
+scaffolds-from: [lex-dzqje]
+evokes: [black-elk-speaks, high-horses-courting, hides-in-the-brush, tied-in-bed-at-night, form-identical-to-abduction]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch6-high-horses-courting
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 6, 'High Horse's Courting.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "I hide in the brush by a spring where she sometimes goes to get water, and when she comes by, if nobody is looking, then I jump out and hold her and just make her listen to me. [...] They thought so much of her that they had made a rawhide bed for her to sleep in, and after they knew that High Horse was sneaking around after her, they took rawhide thongs and tied the girl in bed at night so that nobody could steal her when they were asleep, for they were not sure but that their girl might really want to be stolen."
+canonical-instances:
+  - "A fraternity hazing ritual requires pledges to be blindfolded, disoriented, and driven to an unfamiliar location and abandoned -- physically identical to an act that would be prosecuted as kidnapping and abandonment if performed on a stranger, distinguished only by the pledge's prior, if pressured, consent to the tradition."
+  - "A staged wedding-day 'capture' custom in some cultures has the groom's party physically seize the bride from her family home over token resistance, indistinguishable in its physical description from a hostile abduction except that both families arranged it in advance."
+  - "A martial-arts dojo's initiation sparring session permits strikes that would be assault outside the ring, legitimate only because both fighters and the surrounding community share an understanding of the ritual's rules and stakes."
+critical-questions:
+  - "Distinct from lex-dzqje's licensed transgression within a trusted frame, which names contrary or backwards conduct that a container holds and ends on schedule: this pattern names something more specific -- the sanctioned act takes the exact physical form of a named, serious crime, with nothing about the acts themselves marking the difference."
+  - "What actually happens when one party to the convention, the girl, or her parents, genuinely does not consent in a given instance, given that resistance and refusal are also part of the expected script and can't be distinguished from real refusal by an outside observer?"
+  - "Does a convention like this depend on a small, stable community where everyone already knows the shared rules, and does it break down, or turn genuinely dangerous, the moment it's attempted across communities that don't share the same understanding of what the acts mean?"
+status: active

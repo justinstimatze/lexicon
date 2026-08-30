@@ -1,0 +1,19 @@
+id: lex-heuug
+name: fifty-years-of-undetected-disguise-collapses-instantly-on-one-detected-tell
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A disguise that has held perfectly for decades offers no protection once a single genuine tell is detected, and a belated charm offensive delivered right after that detection cannot undo the alarm the tell already triggered. The years of accumulated trust were never a buffer against a fresh, specific warning sign. In the Jataka's tale of the false ascetic, a hermit lives among a flock of pigeons for over fifty years, entirely undetected, until he decides to eat one and prepares the meal in advance. The pigeon-chief scents the preparation and immediately flees with his flock. The ascetic then tries flattery to lure them back, calling their old bond into question, and the chief's answer names exactly why it fails: 'We are no fools, and we know you; We are the same, and you are too: You have designs against our weal, So, heretic, this fear we feel.' Fifty years of trust bought him nothing once the scent was on him."
+related: []
+evokes: [jataka, tikanipata, romaka-jataka, a-detected-tell-erases-decades-of-accumulated-trust-instantly, belated-flattery-after-detection-cannot-undo-a-triggered-alarm]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-romaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 277, Romaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "We are no fools, and we know you; We are the same, and you are too: You have designs against our weal, So, heretic, this fear we feel."
+canonical-instances:
+  - "A vendor who has supplied a company reliably for fifteen years is caught once quietly substituting a cheaper material without disclosure, and no amount of the vendor's subsequent reassurance or discount offers restores the account, because the single detected substitution outweighs the entire prior track record."
+critical-questions:
+  - "Is the pigeon-chief's total distrust proportionate here, given that the ascetic never actually harmed a single pigeon in fifty years — does one detected intention deserve the same response as one completed betrayal?"
+  - "Would a differently-timed flattery attempt, offered before rather than after the detection, have had any better chance of working, or does the sequence itself make no difference once genuine suspicion exists?"
+status: active

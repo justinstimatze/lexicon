@@ -1,0 +1,19 @@
+id: lex-pgqpp
+name: denying-your-teachers-identity-severs-the-skill-they-gave-you
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A person who has received a valuable skill from a low-status or embarrassing source can lose the skill itself the instant they publicly deny where it came from, even though the denial changes nothing about the technique they actually learned. The loss is not a punishment applied from outside; it is bound to the act of disowning the source. In the Jataka''s tale of the mango charm, a young brahmin spends years as a servant to a Candala (low-caste) teacher to learn a charm that makes mango trees fruit out of season, and is warned explicitly before being taught it: "if you are ashamed that a low-caste man taught you the charm, and say your teacher was a great magnate of the brahmins, you will have no fruit of the charm." Asked by the king, before a crowd, who taught him, he lies: "I learnt it at Takkasila, from a teacher renowned the wide world over." "As he said the words, denying his teacher, that very instant the charm was gone."'
+related: []
+evokes: [jataka, terasanipata, amba-jataka, credit-erasure-as-self-sabotage, capability-bound-to-acknowledged-source]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-amba-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XIII (Terasanipata), No. 474, Amba-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: 'As he said the words, denying his teacher, that very instant the charm was gone.'
+canonical-instances:
+  - "A self-taught engineer whose real fluency came from months of close, credited pairing with a junior contractor tells a conference audience he built the whole system alone, and in the Q&A that follows can no longer walk through his own design decisions coherently, because the parts he understood best were the parts he learned in conversation with someone he has just erased from the account."
+critical-questions:
+  - "Is the loss really caused by the denial itself, or is the denial just the first visible symptom of a fluency that was already thinner than it looked — does testing this distinction even make sense inside a story where the mechanism is explicitly magical?"
+  - "The teacher had already warned him the charm would vanish on denial — does foreknowledge of the exact failure condition make the eventual lie more culpable, or does it make the story less about an organic consequence and more about an arbitrary rule he chose to break anyway?"
+status: active

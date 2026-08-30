@@ -1,0 +1,18 @@
+id: lex-cbwd8
+name: reframing-a-failed-effort-as-revealing-an-essential-unsuitability
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'After failing at a hard task within a self-imposed timeframe, an agent can reframe the failure as revealing an essential unsuitability for the whole endeavor, which conveniently licenses quitting without further effort rather than treating the failure as a normal setback within a harder-than-expected but still viable path. In the Jataka''s tale of the monk who ceased to strive, a monk who spent three months failing to attain trance concludes he simply isn''t the kind of person for the forest life: "Verily I am the most devoted to worldly conditions among the four classes of men taught by the Master! What have I to do with living in the forest?"'
+related: []
+evokes: [jataka, ekadasanipata, samvara-jataka, self-handicapping, rationalized-quitting]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-samvara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 462, Samvara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Verily I am the most devoted to worldly conditions among the four classes of men taught by the Master! What have I to do with living in the forest?"
+canonical-instances:
+  - "After three failed attempts to pass a certification exam, a career-changer decides the results mean he's 'just not an analytical person' and quits the field entirely, without ever framing the failures as an ordinary, harder-than-expected learning curve."
+critical-questions:
+  - "How would this monk, or anyone in his position, actually distinguish a genuine essential unsuitability from an ordinary difficult stretch before it's been given enough time to resolve either way?"
+status: active

@@ -1,0 +1,22 @@
+id: lex-cnvcr
+name: aggregate-privacy-actively-prevents-individual-privacy
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A group can maintain a form of collective privacy against the outside world -- a boundary that excludes outsiders -- while that very boundary structurally prevents any individual member inside the group from having privacy from the other members. These are not the same value at two different scales. The aggregate form directly forecloses the individual form, so a group praised for its privacy from outsiders can simultaneously be the one place where no single member ever gets privacy at all. Gilman states this precisely about the family: 'Such privacy as we do have in our homes is family privacy, an aggregate privacy; and this does not insure--indeed, it prevents--individual privacy... The home is the one place on earth where no one of the component individuals can have any privacy.'"
+related: []
+evokes: [women-and-economics, chapter-xii, family-privacy-an-aggregate-privacy, does-not-insure-indeed-it-prevents, aggregate-boundary-that-blocks-the-individual-form]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-xii
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter XII. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "Such privacy as we do have in our homes is family privacy, an aggregate privacy; and this does not insure--indeed, it prevents--individual privacy. [...] The progressive individuation of human beings requires a personal home, one room at least for each person. [...] The home is the one place on earth where no one of the component individuals can have any privacy. A family is a crude aggregate of persons of different ages, sizes, sexes, and temperaments, held together by sex-ties and economic necessity."
+canonical-instances:
+  - "A tight-knit startup prides itself on being a closed, trusted circle that outsiders can't penetrate, while inside that same circle no employee ever has a private conversation, a confidential complaint, or an unmonitored moment, because the closeness that keeps outsiders out is the same closeness that keeps everyone constantly visible to everyone else."
+  - "A monastery's cloistered walls give the whole community real privacy from the outside world, while inside those walls individual monks have almost no personal space, private correspondence, or solitary time, because the aggregate seclusion and the individual seclusion turn out to be opposed rather than aligned."
+  - "A close immigrant community protects its members from outside surveillance and prejudice through tight mutual reliance. Inside that same reliance, individual members have little privacy from each other's gossip, judgment, or knowledge of their affairs."
+critical-questions:
+  - "Is the opposition between aggregate and individual privacy truly structural, or can a group design its internal norms -- private rooms, confidentiality rules, respected boundaries -- to preserve both forms at once, making the tradeoff a matter of design rather than an inescapable law?"
+  - "Does the size of the group change the relationship between the two kinds of privacy -- does aggregate privacy become more compatible with individual privacy as the group grows large enough that no single member can monitor everyone else?"
+  - "If aggregate privacy and individual privacy are genuinely in tension, which one should take priority when a group has to choose? Does the right answer depend on the group's purpose, or is one form of privacy simply more fundamental across the board?"
+status: active

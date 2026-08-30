@@ -1,0 +1,37 @@
+id: lex-8cbn9
+name: narrative-gap-filling
+type-in: state
+type-out: claim
+_tier: atomic
+agent-instruction: "When a narrative has gaps, the audience fills them — and the fillings stick. Authors leverage this; propagandists leverage this. Notice your own gap-fillings; they're constructions, not given. The narrative looks complete because YOU completed it."
+related: [lex-znaau, lex-uz7g4, lex-tjwfn, lex-e8wv6, lex-2kwkh, lex-nzj6u, lex-8n237, lex-smney, lex-d234k]
+scaffolds-from: [lex-tjwfn]
+evokes: [iser-leerstellen, the-blank-was-the-message, beholders-share, the-camera-cuts-just-before, kuleshov-effect, what-the-audience-fills-in-binds-them, mind-the-gap]
+lineage:
+  - source: primary
+    text: iser-1978-the-act-of-reading
+    citation: "Wolfgang Iser, The Act of Reading: A Theory of Aesthetic Response (Johns Hopkins UP 1978; German original *Der Akt des Lesens* 1976), ch.7 'Interaction between Text and Reader,' §'The Blank as a Basic Structure,' p.203 — the canonical reader-response theory text on Leerstellen ('blanks' or 'gaps') as cardinal structural features of literary texts. Iser's claim: the meaning of a literary work is constituted in the reader's act of filling the gaps the text leaves; the text's craft IS the structuring of which gaps to leave. Iser is the textbook anchor; Wolfgang Iser is also founding-figure of Konstanz school of reception aesthetics"
+    quote: "'To sum up, then, the blank in the fictional text induces and guides the reader's constitutive activity.'"
+  - source: primary
+    text: gombrich-1960-art-and-illusion
+    citation: "E.H. Gombrich, Art and Illusion: A Study in the Psychology of Pictorial Representation (Pantheon 1960), Chapter VI 'The Image in the Clouds,' p.183 — the canonical art-historical statement of 'the beholder's share' as constitutive contribution to artwork meaning. Predates Iser's reader-response by ~16 years and provides the visual-art parallel."
+    quote: "[Preceded by Philostratus's dialogue on cloud-shapes read as centaurs and horses, quoted at length:] 'I have quoted this long extract because it sums up the problem to which we now turn — our, the beholder's, share in the reading of the artist's image.'"
+canonical-instances:
+  - "horror-film off-screen monster: the camera cuts away just before showing the creature. The viewer's imagination fills the gap, and the imagined version is universally more frightening than any practical effect. Jaws (1975), Alien (1979), The Blair Witch Project (1999) lean on this to vital degree. The gap IS the design"
+  - "mystery-novel withheld-clue structure: Agatha Christie's novels engineer specific gaps the reader is invited to fill incorrectly, then revealed in the denouement. The pleasure depends on the gap being well-engineered enough that the reader's filling FELT like reasoning, then on the reveal showing where the filling went wrong"
+  - "Kuleshov effect (1910s-20s film montage experiment): same shot of an actor's neutral face is intercut with shots of (a) a bowl of soup, (b) a child in a coffin, (c) a beautiful woman. Audiences read the actor's expression as (a) hungry, (b) grieving, (c) lustful. The face is identical; the audience constructs the emotion from the gap. Foundational to film theory of editing"
+  - "Joyce's Ulysses 'gaps': the Wandering Rocks chapter, the Sirens chapter — Joyce engineers structural blanks the reader must work through. The labor of reading IS the meaning-making. The text without the reader's filling is a fragment"
+  - "minimalist visual design (Apple, Helvetica): leaving white space invites the viewer to project completeness. Apple's marketing photographs of products against pure white backgrounds invite the viewer to imagine the product in their own life-context. The gap IS the canvas the viewer paints on"
+  - "operationally distinct from lex-znaau premature-closure: premature-closure is the cognitive move (collapse to single hypothesis); narrative-gap-filling is the DESIGN MOVE that engineers the conditions inviting collapse. Premature-closure is what fires when narrative-gap-filling is well-designed. The gap is upstream; the closure is downstream"
+  - "operationally distinct from lex-uz7g4 archetype-as-projective-shorthand: archetype gives a CONTENT projection (a recognized figure imported into the gap); narrative-gap-filling gives a STRUCTURAL projection (the participant's own meaning-construction). They often co-fire (the gap invites archetype-projection to fill it) but are separately specifiable design moves"
+  - "operationally compositional with lex-tjwfn recursive-mind-simulation-shapes-self: the reader's gap-filling is performed BY the recursive-self machinery — the reader simulates what the gap might contain, simulates how the simulated content would feel, then commits to the simulation. The gap-filling exercises the machinery"
+  - "operationally compositional with lex-e8wv6 apophenia-induction: gap-filling is the narrative-shaped completion; apophenia is the pattern-shaped completion. Both rely on participant active-construction; they're sibling design-moves. A well-designed mystery uses both — pattern in the connections (apophenia), narrative in the events (gap-filling)"
+  - "operationally compositional with lex-nzj6u ambient-information-seeding: ambient-seeding distributes artifacts; gap-filling specifies the gaps between artifacts the participant must construct across. Ambient-seeding without gaps is exposition; gaps without artifacts is incoherence. The combination is the meaning-engine"
+  - "central critical question: what makes a gap inviting vs frustrating? Empirically (per Iser): gaps are inviting when the surrounding structure constrains plausible fillings to a small set the reader can navigate; frustrating when the structure leaves the gap underconstrained or when the constrained set is uniformly unappealing. Mystery design lives or dies on this calibration"
+  - "critical critical question: when does gap-filling become the participant's belief? In horror, the imagined monster fades when lights come on. In conspiracy theory, the participant-constructed pattern persists and shapes ongoing belief. The persistence depends on (a) emotional investment in the construction, (b) social reinforcement, (c) reversibility provisions in the design (lex-2kwkh-adjacent). The design-ethics question maps to lex-e8wv6 apophenia's ethics question — same root issue"
+critical-questions:
+  - "what gap is the audience being asked to fill — name it, so you know whether the gap is sized right"
+  - "is the gap too large (audience lost) or too small (audience patronized)?"
+  - "what assumption does the audience need for their fill-in to converge on the intended meaning — is that assumption robust across the actual audience?"
+  - "are you using gap-filling to avoid stating something you don't want to commit to on the record?"
+status: active

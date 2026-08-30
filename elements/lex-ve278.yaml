@@ -1,0 +1,21 @@
+id: lex-ve278
+name: an-unchanging-repeated-stimulus-lets-fear-escalate-on-its-own
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "You don't have to make a threat bigger each time to make a frightened target believe it's getting worse -- repeat the exact same action and let their own dread supply the escalation. In Cushing's telling, an ugly boy scares off a Bear that's been hoarding a mountain's food supply by doing one single thing four times: whacking a hollow piñon tree with a magic axe that shakes the earth and roars like thunder. The trick never changes. The Bear's interpretation of it does. After the first blow he recovers and mocks himself -- 'What a fool I am, to be scared by that little wretch of a boy!' -- but by the second identical blow he's decided 'the Death Demon is after me, surely!' and by the third, 'surely the Corpse Demon was coming this time.' The boy struck the same kind of tree with the same axe every time; the Bear is the one who moved the threat from a boy, to a lesser demon, to the worst demon he knows, purely by repeated exposure to something he couldn't explain. Diagnostic move: when you notice your own estimate of a threat climbing with each repetition of an unchanging event, check whether the event itself has actually changed, or whether repetition alone, combined with your own inability to explain it, is doing the escalating for you."
+related: []
+evokes: [repetition-of-an-unexplained-event-escalates-fear-without-the-event-changing, cushing-the-ugly-wild-boy-who-drove-the-bear-away, what-a-fool-i-am-to-be-scared-by-that-little-wretch, surely-the-corpse-demon-was-coming-this-time]
+lineage:
+  - source: primary
+    text: cushing-bear-escalates-fear-of-boys-repeated-identical-trick
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Ugly Wild Boy Who Drove the Bear Away from Southeastern Mesa.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'What a fool I am, to be scared by that little wretch of a boy! But presently, seeing the boy's face, he was startled again, and exclaimed: By my eyes, the Death Demon is after me, surely! Again the boy, as he came near, whacked with his magic axe the body of another tree, calling out in a still louder voice. ... And again, as the boy came still nearer, once more he struck a tree a tremendous blow, and again the earth thundered and trembled more violently than ever, and the Bear almost lost his senses with fright and thought surely the Corpse Demon was coming this time.'"
+canonical-instances:
+  - "A homeowner hears the same unexplained creak in an old house on three separate nights and, unable to identify its source, moves from assuming it's the settling structure, to suspecting an intruder, to genuinely fearing something supernatural, though the creak itself never changed in volume or character across any of the three nights."
+  - "An employee receives the same brief, terse one-line email from a manager three times over a difficult quarter and reads escalating hostility into each one, though the manager's tone and wording are identical each time -- the employee's own anxiety about their job security is what supplies the sense that things are getting worse."
+critical-questions:
+  - "Would the Bear's fear have escalated the same way if the boy's blows had come with any visible variation, such as being progressively louder or accompanied by new threats, or does the trick specifically depend on the stimulus staying identical while only the Bear's interpretation changes?"
+  - "Is there a point at which the Bear could have tested his escalating theory, such as by getting a clear look at the source of the noise, that would have interrupted the pattern -- does the story suggest fear of this kind resists exactly the kind of investigation that would dispel it?"
+  - "Does this pattern require the target to already believe in the kind of escalating threats being imagined, as the Bear evidently believes in Death Demons and Corpse Demons, or would it work just as well on someone with no prior framework for what an unexplained event might mean?"
+status: active

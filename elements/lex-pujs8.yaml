@@ -1,0 +1,19 @@
+id: lex-pujs8
+name: an-engineered-mirror-confrontation-exposes-hypocrisy
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Someone can be made to confront their own hypocrisy by privately coaching another person to voice, in their presence, the identical self-serving excuse they themselves rely on — forcing them to hear their own logic applied to someone else before an audience, rather than being told directly that they are being unfair. In the Jataka's tale of the neglected queen, a counselor wanting to shame a king into honoring his neglected wife coaches her to answer a question with the king's own excuse: 'Madam, you are very cruel. Ought you not to give the Fathers a piece of cloth or a dish of food?' And she made answer, 'Good sir, I myself receive nothing from the king: what can I give to you?' The king recognizes the excuse instantly, because it's word-for-word his own — the confrontation works precisely because it removes the option of hearing the accusation as someone else's complaint about him rather than as his own reasoning played back."
+related: []
+evokes: [jataka, dukanipata, puta-bhatta-jataka, coaching-a-mirrored-excuse-forces-self-recognition, hearing-your-own-logic-from-another-mouth]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-puta-bhatta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 223, Puta-bhatta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Madam, you are very cruel. Ought you not to give the Fathers a piece of cloth or a dish of food? And she made answer, Good sir, I myself receive nothing from the king: what can I give to you?"
+canonical-instances:
+  - "A director who always tells struggling employees to 'just figure it out themselves' finally sees the problem when a peer, privately briefed in advance, asks the director for help on a project and gets told the exact same dismissive line back."
+critical-questions:
+  - "Does the confrontation actually change the king's behavior because he recognizes the hypocrisy, or simply because he's embarrassed in front of an audience — would the same words in a private conversation with the counselor alone have landed at all?"
+  - "Is there a risk that engineering this kind of mirror confrontation reads as manipulation once discovered, potentially undermining the very trust the counselor needs to keep advising the king afterward?"
+status: active

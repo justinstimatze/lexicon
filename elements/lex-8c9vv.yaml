@@ -1,0 +1,24 @@
+id: lex-8c9vv
+name: reforming-under-continued-short-term-judgment-is-highest-risk
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Trying to fix a genuine underlying problem while still being evaluated on the short-term metrics that the fix temporarily worsens is riskier than either pure short-term extraction, which is rewarded, or fully latitude-protected long-term investment, which is shielded from the usual scrutiny — the reformer gets punished by both standards at once, since the short-term numbers look worse during the fix and there's no protected status yet earning credit for the eventual payoff. The failure mode isn't lack of foresight; a manager can correctly plan for the future and still be destroyed by pausing in the middle of the race to build it, because outrunning your mistakes only works if you keep moving — stopping to think, however wisely, lets the mistakes catch up."
+related: [lex-svphb, lex-xekvf]
+evokes: [jackall-moral-mazes, "instead of outrunning his mistakes, they overran him", the-trap-of-the-middle-position]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch4-young-outrun-mistakes
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 4, Looking Up and Looking Around."
+    quote: "Young tried to position his business for the future while continuing to meet short-run profit pressures. This is a difficult task since the institutional logic that the pressure for short-run results sets in motion, while lucrative for a time, undercuts the possibilities of lasting achievement, however reasonably planned"
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch4-fatal-error-pausing
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 4, Looking Up and Looking Around."
+    quote: "Young's fatal error was pausing on the track, in the middle of the race, and thinking about the future. Instead of outrunning his mistakes, they overran him."
+canonical-instances:
+  - "A plant manager begins a multi-year equipment overhaul while still meeting quarterly output targets; the overhaul's temporary disruption tanks this quarter's numbers before the eventual efficiency gains materialize, and the manager is replaced before the payoff arrives."
+critical-questions:
+  - "Is there ever a way to buy the necessary protection from short-term judgment before starting a genuine reform, rather than discovering only in hindsight that the reformer needed cover they never had?"
+status: active

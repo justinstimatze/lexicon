@@ -1,0 +1,21 @@
+id: lex-8d5gt
+name: a-warning-gets-dismissed-because-it-contradicts-how-things-look
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "People already inside a bad situation can warn you directly, in plain language, and still fail to stop you from joining them, if their warning contradicts what the situation visibly looks like from outside. In Radin's Winnebago Hare Cycle, Hare sees an object carrying many people who are crying as they ride, and instead of reading the crying as information, he reads the motion as appealing: 'I wonder what they are doing?' He climbs aboard, and the people already there tell him directly to leave: 'You had better get off for we are not having any fun here.' Hare doesn't weigh this against what he's observing; he answers it with his own interpretation of the visible facts instead: ''Why,' answered Hare'i t is fun to sit still and yet be moving.' The warning was specific, first-person, and entirely accurate -- moments later he is swallowed whole. It failed not because it was unclear but because it lost to a more immediate, more visible impression that pointed the opposite way. Diagnostic move: when you're drawn toward something that looks appealing from outside, and the people already experiencing it tell you directly that it isn't what it looks like, treat their report as better evidence than your own outside impression, precisely because they have information, what it's actually like from in there, that you structurally cannot get by looking."
+related: []
+evokes: [radin-winnebago-hare-cycle, hare-and-the-swallowing-being, we-are-not-having-any-fun-here, it-is-fun-to-sit-still-and-yet-be-moving]
+lineage:
+  - source: primary
+    text: radin-hare-ignores-a-direct-warning-because-it-contradicts-appearances
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'The Winnebago Hare Cycle,' episode 14. Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "One day as he was walking along in his accustomed way, he saw an object on which there appeared many people. They were riding on top of it and crying as they rode along. 'I wonder what they are doing?' he mused. So he got on and rode with them but they said to him, 'You had better get off for we are not having any fun here.''Why,' answered Hare'i t is fun to sit still and yet be moving.' Just then he was engulfed by something and found himself in an enclosure from which he could not get out."
+canonical-instances:
+  - "A new hire watches senior colleagues at a fast-growing startup and, seeing only the energy and long hours, wants in; when a colleague tells them directly, 'don't do this to yourself, we're all burning out,' the new hire dismisses it, reasoning that the visible pace of the place looks exciting, not exhausting."
+  - "A tourist boards a crowded, uncomfortable-looking overnight bus and, seeing the current passengers wincing and telling him plainly that the ride is miserable, decides they must be exaggerating, since from where he's standing it looks like an efficient, adventurous way to travel."
+critical-questions:
+  - "Is Hare's mistake specifically about trusting appearance over testimony, or is it that he interprets an ambiguous behavior, crying, as compatible with fun rather than as itself a second, independent warning he simply failed to register as one?"
+  - "Would a more detailed warning, one that explained why it wasn't fun rather than simply asserting it, have changed Hare's response, or does the story suggest that no amount of detail overcomes a sufficiently appealing first impression?"
+  - "Does this pattern only apply to warnings from strangers in an unfamiliar situation, or does it also describe cases where someone dismisses a warning from people they already know and trust, and does the source of the warning change how much weight it should carry?"
+status: active

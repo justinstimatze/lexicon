@@ -1,0 +1,32 @@
+id: lex-gng22
+name: perspective-shift-via-imagined-other
+type-in: question
+type-out: state
+_tier: atomic
+agent-instruction: "When stuck reading a situation, try the imagined-other perspective. What would X think? The shift surfaces frames your default perspective excludes. The point isn't to adopt the other view — it's to make your own contingencies visible."
+related: [lex-nahg9, lex-chp44, lex-uz7g4, lex-hng49, lex-w9yzj, lex-2unt7, lex-exczm, lex-a5dmb, lex-ctnnx]
+scaffolds-from: [lex-exczm]
+evokes: [step-into-their-shoes, what-would-X-do, switch-the-camera-angle, simulate-the-other, the-rubber-duck-the-naive-user-the-hostile-critic]
+lineage:
+  - source: practitioner
+    text: oblique-strategies-eno-schmidt-1975
+    citation: "Brian Eno + Peter Schmidt, Oblique Strategies (1975-1996 editions). Multiple cards instantiate this move: 'What would your closest friend do?', 'Use unqualified people', 'Question the heroic approach', 'How would you have done it?', 'Ask people to work against their better judgment'"
+  - source: practitioner
+    text: negotiation-pedagogy
+    citation: "Fisher & Ury 'Getting to Yes' (1981) and the Harvard Negotiation Project tradition: explicit perspective-taking ('step into their shoes') as the decisive move for principled negotiation. Used as an instrumental cognitive move regardless of empathy-as-virtue concerns"
+  - source: practitioner
+    text: tumbler-remixer-meta-pattern-artifact
+    citation: "promoted from cross-attestation: Oblique Strategies (5+ cards), negotiation pedagogy (Fisher & Ury et seq.), software design (rubber-duck debugging; the 'naive user' / 'hostile critic' simulation), psychotherapy (chairwork / Gestalt empty-chair technique; CBT alternative-perspective generation), game design (designer-vs-player perspective-switching; asymmetric multiplayer requires this constantly), academic peer review (the 'devil's advocate' role); cross-domain attestation strong"
+canonical-instances:
+  - "adopt a different VANTAGE temporarily: 'what would your closest friend do?' (Eno) or 'what does the other side need to walk away saying YES?' (Fisher-Ury) — the imagined other is the projective surface, not a literal interlocutor"
+  - "rubber-duck debugging: explain your problem to a rubber duck or imaginary naive listener — the perspective-shift forces you to surface assumptions you'd previously left implicit. The duck doesn't HAVE to be intelligent; the perspective-shift IS the unblock"
+  - "operationally distinct from lex-nahg9 upaya: upaya is the stance toward views (vehicles to be discarded); perspective-shift is an active move TO take on a different view temporarily for its instrumental yield"
+  - "operationally distinct from lex-uz7g4 archetype-as-projective-shorthand: archetype uses a NAMED ARCHETYPAL figure (the Trickster, the Hermit) as the projective surface; perspective-shift uses ANY imagined other (your closest friend, a naive user, the opposing negotiator). Archetype is a specific subclass."
+  - "operationally adjacent to lex-ftke9 work-backwards-from-goal: backward-induction is from a future-state to current; perspective-shift is from your-vantage to other's-vantage. Both are non-frontal traversals of the problem space"
+  - "the move's universality across domains makes it a candidate for high-leverage cross-tier reciprocation: it's used in negotiation, debugging, design review, therapy, and creative-block-breaking with the same structural shape"
+critical-questions:
+  - "the choice-of-imagined-other test: WHICH imagined other yields the leverage? Closest-friend gives empathy-warmth; opposing-negotiator gives blind-spot detection; rubber-duck gives forcing-articulation; younger-self gives complexity-reduction. The selection is itself a design choice. Practitioner-discipline: name the specific imagined other before the move; default-other ('what would a smart person do?') yields generic outputs"
+  - "the projection-vs-projection-collapse failure-mode: the move requires you to genuinely simulate the other's perspective rather than projecting your own preferences onto the imagined other. A common failure is 'what would my best friend say?' → answers that match your own internal preferences. Practitioner-question: would the actual person (if available) endorse the answer the imagined-other produced? Mismatch is diagnostic"
+  - "the loop-back discipline: after perspective-shifting, the leverage requires returning to your own vantage with the perspective-yield integrated. Some failure-modes get stuck in the other's perspective (overruling your own judgment with imagined-other's). Practitioner-discipline: explicitly return-and-integrate, don't replace your view with the imagined-other's"
+  - "the static-vs-dynamic distinction: a single perspective-shift gives one snapshot; iterated perspective-shift across multiple imagined others gives a richer multi-vantage view. For high-stakes decisions, the iterative variant is leveraged. Practitioner-question: would one more imagined-other change the answer? If yes, iterate"
+status: active

@@ -1,0 +1,20 @@
+id: lex-k4zph
+name: the-symbol-of-trustworthiness-protects-whoever-wears-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A recognized marker of sanctity, office, or trustworthiness — a robe, a uniform, a badge, a credential — commands the deference owed to what it signals, regardless of whether the person wearing it has actually earned that standing. The signal is what gets read and acted on in the moment; the wearer's real character is only knowable afterward, if at all, and by then the deference has already been extended. In the Jataka's tale of Chaddanta, a hunter disguises himself in the yellow robe of a Buddhist ascetic specifically to get close enough to kill the elephant king undetected. After he wounds him, the dying elephant is enraged enough to kill his attacker on the spot — until he sees the robe, and stops: \"Their lord had well nigh slain his foe, / So mad with pain was he, when lo! / A robe of yellow met his eyes, / Emblem of sainthood, priestly guise / And deemed inviolate by the wise.\" The tale states the gap explicitly, immediately after: \"Whoso is marred with sinful taint / And void of truth and self-restraint, / Though robed in yellow he may be, / No claim to sanctity has he.\""
+related: [lex-32m7f, lex-zukp4]
+evokes: [jataka, timsanipata, chaddanta-jataka, unearned-authority-of-a-trusted-symbol, disguise-exploits-institutional-deference]
+lineage:
+  - source: primary
+    text: jataka-francis1905-chaddanta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XVI (Timsanipata), No. 514, Chaddanta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Their lord had well nigh slain his foe, / So mad with pain was he, when lo! / A robe of yellow met his eyes, / Emblem of sainthood, priestly guise / And deemed inviolate by the wise. ... Whoso is marred with sinful taint / And void of truth and self-restraint, / Though robed in yellow he may be, / No claim to sanctity has he."
+canonical-instances:
+  - "A person in a hi-vis vest and hard hat walks past a building's security desk unchallenged and straight into a restricted server room — the uniform itself did the work no ID check was asked to do."
+  - "An impostor wearing scrubs and a hospital badge moves through a maternity ward for hours before anyone questions them, because staff and visitors alike read the costume as proof of the role rather than checking the credential behind it."
+critical-questions:
+  - "If the symbol itself is what earns the deference, what would actually close the gap — verifying the wearer some other way before extending trust, or accepting that any sufficiently convincing symbol will always be exploitable by whoever is willing to wear it dishonestly?"
+  - "The elephant's restraint here reads as virtue (he spares a life he's entitled to take), but the same mechanism is what let the hunter get close enough to wound him in the first place — is deference to the symbol a net protection or a net vulnerability, and does that depend on who's more often exploiting it versus earning it?"
+status: active

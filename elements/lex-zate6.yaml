@@ -1,0 +1,19 @@
+id: lex-zate6
+name: expecting-one-thing-shapes-what-is-actually-perceived
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A person primed to expect a specific object can perceive something else entirely as that object, with the prior expectation shaping what is actually seen rather than the reverse. This is the general mechanism behind mistaken-identity accidents: perception filters through what the observer already believes is there. In the Jataka''s tale of Sumangala, the park-keeper, hunting for a deer, mistakes a returning ascetic for one and shoots him: "he was there looking for a deer when he saw the paccekabuddha and thinking he was a great deer, he aimed an arrow and shot him."'
+related: []
+evokes: [jataka, atthanipata, sumangala-jataka, expectation-shapes-perception, mistaken-identity-accident]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sumangala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 420, Sumangala-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "he was there looking for a deer when he saw the paccekabuddha and thinking he was a great deer, he aimed an arrow and shot him."
+canonical-instances:
+  - "A security guard scanning for a specific make of car reported stolen waves through a similar-looking vehicle without a second look, because the expectation of finding that exact car has already primed what counts as a match."
+critical-questions:
+  - "What would have broken the expectation before the fatal action — a longer look, a different vantage point, or nothing short of not expecting a deer there at all?"
+  - "How much of an observer's honest report of what they 'saw' is actually a report of what they expected, and can the two be told apart after the fact?"
+status: active

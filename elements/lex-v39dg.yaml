@@ -1,0 +1,19 @@
+id: lex-v39dg
+name: an-environment-that-honors-everyone-equally-erases-real-merit
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "An environment so uniformly favorable that it fails to distinguish quality from mediocrity strips the good of the recognition they've actually earned, and the good have reason to leave rather than stay in a setting that flattens them to the level of everyone else. In the Jataka's tale of Neru, a golden mountain's ambient light makes ravens indistinguishable from noble birds and jackals from lions, and the younger goose argues the good should abandon any place that fails to discriminate worth: 'Dull and clever, brave and coward, all are honoured equally: Undiscriminating Mountain, good men will not stay on thee!'"
+related: []
+evokes: [jataka, chanipata, neru-jataka, undiscriminating-environment-erases-merit, leveling-effect-drives-out-the-good]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-neru-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 379, Neru-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Dull and clever, brave and coward, all are honoured equally: Undiscriminating Mountain, good men will not stay on thee!"
+canonical-instances:
+  - "A high performer leaves a company where everyone gets the same rating and the same raise regardless of output, not because the pay is bad, but because staying means being indistinguishable from people doing a fraction of the work."
+critical-questions:
+  - "Is uniform treatment always a leveling failure, or can it sometimes be the fairer choice when the basis for distinguishing merit is itself unreliable or biased?"
+  - "Who actually loses when the good leave an undiscriminating environment — the individuals who depart, or the environment itself, now selected even more heavily for those who don't mind being leveled?"
+status: active

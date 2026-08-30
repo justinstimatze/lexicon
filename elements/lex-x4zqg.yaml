@@ -1,0 +1,23 @@
+id: lex-x4zqg
+name: a-norms-rightness-can-be-openly-conditional-on-its-advantage
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "A social practice's moral standing can be grounded entirely in its demonstrated advantage to the people and group involved. This explicitly rejects the claim that it's the sole 'natural' or inherently correct option among alternatives, and makes the practice's rightness conditional and revisable, holding only for as long as it remains the most advantageous arrangement available. This is the sincere, stated-openly version of what [[lex-58v7p]] diagnoses as bad faith -- there, a principle's contingency is hidden and exposed only when it's abandoned the instant it stops serving; here, the contingency is the argument's own explicit premise from the start. Gilman states it directly: 'Monogamy is found among birds and mammals: it is just as natural a condition as polygamy or promiscuity or any other form of sex-union... Our moral concepts rest primarily on facts. The moral quality of monogamous marriage depends on its true advantage to the individual and to society. If it were not the best form of marriage for our racial good, it would not be right.'"
+related: [lex-58v7p]
+scaffolds-from: [lex-58v7p]
+evokes: [women-and-economics, chapter-ii, our-moral-concepts-rest-primarily-on-facts, if-it-were-not-the-best-form-of-marriage-it-would-not-be-right, contingent-not-essentialist-grounding-of-a-norm]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-ii
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter II. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "It should be clearly understood that this is a natural development, inevitable in the course of social progress; not an artificial condition, enforced by laws of our making. Monogamy is found among birds and mammals: it is just as natural a condition as polygamy or promiscuity or any other form of sex-union; and its permanence and integrity are introduced and increased by the needs of the young and the advantage to the race, just as any other form of reproduction was introduced. Our moral concepts rest primarily on facts. The moral quality of monogamous marriage depends on its true advantage to the individual and to society. If it were not the best form of marriage for our racial good, it would not be right."
+canonical-instances:
+  - "A company explicitly tells new hires that its current org structure is right only because it's currently the most effective way to coordinate the team's actual work, not because hierarchy is inherently correct, and commits in the same breath to changing it the moment a better structure is demonstrated."
+  - "A city planner defends car-centric infrastructure not by claiming cars are the natural or inevitable form of transportation, but purely by its current measurable advantages in this specific city, explicitly conceding the arrangement should change if a genuinely better alternative is shown to work."
+  - "A community explicitly frames its consensus-based decision-making process as justified only by its track record of good outcomes so far, not as an inherently superior form of governance, committing openly to reconsidering it if it stops producing good decisions."
+critical-questions:
+  - "Grounding a practice's rightness purely in demonstrated advantage risks making every social norm perpetually unstable and contestable. Demonstrated advantage is itself open to endless dispute about what counts as advantageous, and for whom."
+  - "If the practice's rightness depends entirely on its advantage to the individual and society, what happens when the advantage to the individual and the advantage to society diverge -- does Gilman's framework have any resources for resolving that conflict, or does it simply assume the two align?"
+  - "This kind of explicit, publicly-stated contingency is rare in practice -- most defenders of a norm prefer to claim it's simply natural or inherently right, since that framing is much harder to challenge than an openly conditional claim -- does the sincerity itself carry any risk of making the norm easier to attack than a dishonest essentialist defense would?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-tmfrk
+name: ambiguous-expertise-draws-an-outside-expert-into-client-politics
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a client already possesses the experiential version of the knowledge an outside expert claims formally — as with management consultants advising managers who've lived the work themselves — the expert's authority is never simply granted on technical merit; it's subject to continual negotiation. This forces the expert into the client's political world, because settling contested claims about what the expertise actually says requires the expert to operate inside the client's power structure rather than above it. Genuine, unambiguous expertise (a discipline the client has no direct experience of) doesn't create this dynamic — the mechanism is specific to domains where the client's own lived knowledge competes with the expert's credentialed claim."
+related: []
+evokes: [jackall-moral-mazes, "their expertise is therefore subject to continual negotiation", ambiguous-expertise]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch6-ambiguous-expertise
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 6, Dexterity with Symbols."
+    quote: "management consultants are perfect examples of what might be called ambiguous expertise-that is, their clients possess at least experientially the basic knowledge that management consultants claim."
+canonical-instances:
+  - "A leadership coach hired to advise a founder who has run the company for a decade finds every recommendation treated as a negotiable opinion rather than expert guidance, because the founder's own lived experience competes directly with the coach's credentialed claim to know how leadership should work."
+critical-questions:
+  - "Is the negotiation dynamic here actually a cost, undermining the expert's ability to help, or does it function as a useful check that prevents credentialed authority from overriding genuinely relevant lived experience the client actually has?"
+status: active

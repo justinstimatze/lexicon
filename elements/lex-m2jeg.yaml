@@ -1,0 +1,20 @@
+id: lex-m2jeg
+name: an-internal-party-can-be-the-only-channel-to-an-external-one
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A goal aimed at an external party routes, in practice, through whichever internal party controls the channel to them -- and that internal party's cooperation has to be separately won as a second target, before the first one becomes reachable at all. Freeman names this directly for the corporate functions: 'internal stakeholders must be seen as the conduit through which managers can reach other external stakeholders. (They may also be an impediment, but even so, they remain the major available channel open to a stakeholder.)' The same internal party can be both the thing standing between you and the goal and the only available way to reach it -- which means treating the internal party as a mere obstacle to route around, rather than a party whose own cooperation must be separately secured, quietly kills the plan before it ever reaches its actual external target."
+related: []
+evokes: [freeman-1984-strategic-management, chapter-8, internal-stakeholders, conduit, functional-disciplines]
+lineage:
+  - source: primary
+    text: freeman-1984-strategic-management-ch8
+    citation: "R. Edward Freeman, Strategic Management: A Stakeholder Approach (Pitman, 1984), Chapter 8 'The Functional Disciplines of Management,' section '\"Internal Stakeholders.\"'"
+    quote: "There is a sense of 'stakeholder' in which groups and individuals that affect a particular manager can be said to be 'stakeholders' of that manager, even though these groups and individuals are internal members of the corporation... internal stakeholders must be seen as the conduit through which managers can reach other external stakeholders. (They may also be an impediment, but even so, they remain the major available channel open to a stakeholder.) In Job A the 27 internal stakeholders were important to satisfying a smaller number of external stakeholders. Public relations managers use marketing as a conduit to the customer and the public."
+canonical-instances:
+  - "A nonprofit's development director wants a major donor to fund a new program. The actual work is convincing the program staff to write a budget the donor will find credible -- the program staff never asked to be part of the fundraising pitch, but without their buy-in the donor is unreachable on the terms that would land."
+  - "An engineer wants a customer-facing bug fixed before a client renewal. The fix depends on getting a backlog slot from a product manager who has never talked to that client and has no stake in the renewal -- the product manager is not an obstacle to be escalated past, but the actual gate the customer request has to clear."
+critical-questions:
+  - "When the internal party's cooperation can't be won, is escalating past them (to their manager, to policy, to a mandate) a real substitute for winning it, or does it just convert a cooperation problem into a compliance problem with its own new costs?"
+  - "How does a manager tell, in the moment, whether a given internal party is functioning as the channel or as the impediment -- given Freeman's own point that the same party can be doing both at once?"
+status: active

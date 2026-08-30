@@ -1,0 +1,19 @@
+id: lex-ww4bm
+name: eliminate-a-resolved-threat-preemptively-to-prevent-its-recurrence
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "After a crisis is resolved and the parties responsible have made good on a coerced bargain, treating the danger as merely postponed rather than solved can justify eliminating them anyway, on the reasoning that a motivated, capable enemy left alive will simply recur. In the Jataka's tale of Suvannakakkata, the crab kills both conspirators immediately after they cure his poisoned friend, rather than let them go free: \"The crab thinking, 'If these two be well there will be no prosperity for my friend, I will kill them,' crushed both their heads like lotus-buds with his claws and took the life from them.\""
+related: []
+evokes: [jataka, chanipata, suvannakakkata-jataka, preemptive-elimination-of-resolved-threat, problem-solved-once-is-not-security]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-suvannakakkata-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 389, Suvannakakkata-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The crab thinking, \"If these two be well there will be no prosperity for my friend, I will kill them,\" crushed both their heads like lotus-buds with his claws and took the life from them."
+canonical-instances:
+  - "A company that just settled a lawsuit with a former partner who tried to steal its trade secrets cuts off all remaining business ties immediately afterward, reasoning that the settlement fixed this one incident but not the partner's underlying willingness to try again."
+critical-questions:
+  - "Does preemptively eliminating a resolved threat protect against a real future danger, or does it punish for a capability to harm rather than any actual continuing intent?"
+  - "Is there a point where treating every past aggressor as a permanent future threat becomes indistinguishable from simple vengeance dressed up as security?"
+status: active

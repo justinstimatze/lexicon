@@ -1,0 +1,20 @@
+id: lex-3wgpz
+name: the-more-motivated-partys-catalog-of-costs-outlasts-the-others
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When two people argue a decision by trading itemized lists of what it will cost, the list backed by the stronger underlying motivation tends to keep growing after the other side''s list has run out of material — and the length of the surviving catalog reads, unfairly but effectively, as the strength of the case. Match enumeration with enumeration rather than trying to counter a list with a single rebuttal. In the Vessantara-Jataka, King Sivi tries to talk Maddi out of following her banished husband into the forest with a long inventory of concrete dangers — insects, boa constrictors, bears, buffalo, monkeys, the terror of the jackal''s howl. Maddi does not rebut any single item; she answers with her own longer catalog, of every specific indignity of widowhood (being harried, having her sons pulled about, being treated as "a naked thing" without a husband), repeating "terrible is widowhood: great monarch, go I will" as a refrain after each. Her list simply outlasts his, and the argument ends because his has nothing left to add, not because his items were refuted.'
+related: []
+evokes: [jataka, mahanipata, vessantara-jataka, persuasion-by-enumeration, dueling-catalogs, motivation-outlasts-argument]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-vessantara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 547, Vessantara-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: '"O terrible is widowhood! great monarch, go I will."'
+canonical-instances:
+  - "A manager lists every operational risk of a proposed remote-work policy — security, coordination overhead, onboarding difficulty; an employee counters not with a rebuttal of each item but with their own longer list of the costs of commuting, childcare, and burnout, and the policy passes once the manager's list of objections is exhausted first."
+  - "In a custody negotiation, one parent enumerates every practical disruption a move would cause the child's routine; the other matches it point for point with the costs of staying, and the negotiation resolves toward whichever parent still has items left to raise."
+critical-questions:
+  - "Neither list here was actually refuted — Maddi's dangers are real and unaddressed by her winning the exchange. When does 'my catalog outlasted yours' substitute for 'my case was stronger,' and how would you tell the difference from outside the argument?"
+  - "This works because both sides had genuine material to draw on — what happens when one side simply has more practice generating plausible-sounding items, independent of whether their underlying position is actually better?"
+status: active

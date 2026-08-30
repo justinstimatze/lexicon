@@ -1,0 +1,23 @@
+id: lex-btujf
+name: displayed-calm-passes-onto-and-disarms-a-tense-opponent
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "States are contagious at close range, and Musashi treats this as a deliberate weapon rather than an incidental fact: sleepiness passes on, yawning passes on, and so does calm. If an opponent is agitated and rushing, don't match their energy — perform complete, unhurried calm, and that state transmits to them, causing them to slacken. The technique has two failure modes on either side of the same instant: attacking before the transmission actually completes, and hesitating after it does. The moment you register that the state has landed on them — not just that you've displayed it — is the window."
+related: [lex-exczm, lex-rg9cp]
+scaffolds-from: [lex-exczm]
+evokes: [to-pass-on, musashi-five-rings, getting-someone-drunk, emotional-entrainment, contagious-calm]
+lineage:
+  - source: primary
+    text: musashi-1645-to-pass-on
+    citation: "Miyamoto Musashi, The Book of Five Rings (Go Rin no Sho, 1645), trans. Victor Harris (Allison & Busby, 1974) — Feedbooks edition, Chapter 3, 'The Fire Book,' section 'To Pass On.' Translator confirmed as Harris via the Wikipedia 'The Book of Five Rings' article's own footnoted citation, cross-checked against the local Wikipedia ZIM archive (see lex-y53nq's lineage for the full verification note). 'What is know as' reproduced as printed in this edition — evidently a typo for 'known as,' not silently corrected."
+    quote: "'Many things are said to be passed on. Sleepiness can be passed on, and yawning can be passed on. Time can be passed on also. [...] when the enemy is agitated and shows an inclination to rush, do not mind in the least. Make a show of complete calmness, and the enemy will be taken by this and will become relaxed. When you see that this spirit has been passed on, you can bring about the enemy's defeat by attacking strongly with a Void spirit. [...] What is know as \"getting someone drunk\" is similar to this. You can also infect the enemy with a bored, careless, or weak spirit.'"
+canonical-instances:
+  - "A hostage negotiator lowers their own vocal pace and pitch not to communicate calm as information but because a slowed, steady voice measurably draws a panicked caller's own arousal down toward it — the negotiator waits for the caller's actual pace to shift before making the ask that requires a calm decision."
+  - "A poker player who performs visible boredom during a hand to induce a looser, less-guarded state in an opponent who is reading the display as a tell about the player's own hand, rather than as a deliberate induction aimed at the opponent's state."
+  - "operationally distinct from lex-exczm (Hume's sympathy as affective transmission via lively idea to impression): lex-exczm describes sympathy as a general, largely involuntary mechanism explaining why people catch each other's feelings at all. This atom is the tactical instrumentalization of that same channel — manufacturing a display specifically to induce a state in an adversary, then timing an attack to the moment the state has visibly landed — which Hume's account doesn't address, since it isn't framed as something to be wielded against someone."
+critical-questions:
+  - "How do you actually verify the state 'has been passed on' rather than assuming your display worked? Musashi says 'when you see that this spirit has been passed on' — what's the observable tell, and what happens if you attack on a false read?"
+  - "Does this only work because you and the opponent share a channel — proximity, shared visual and auditory cues, physiological entrainment — and fail entirely over channels that strip affect (text, asynchronous negotiation)?"
+  - "Is there an ethical line between using this to de-escalate (the negotiator case) and using it purely to set up exploitation (Musashi's explicit use) — does the technique itself care which side of that line you're on?"
+status: active

@@ -1,0 +1,29 @@
+id: lex-c8jus
+name: selection-regime-is-the-narrowing-mechanism-over-a-combinatorial-search-space
+type-in: structure
+type-out: frame
+_tier: molecule
+agent-instruction: "When explaining how a vast combinatorial space (genotype-space, hypothesis-space, design-space) produces coherent, non-random outcomes, don't stop at 'mutation/variation generates the raw material' — name the specific selection regime doing the narrowing. Undirected variation over a combinatorial space produces only cacophony without a narrowing mechanism; identify whether the operative regime is survival-selection, mate-selection, or some other distinct filter, because different regimes narrow toward different outcomes."
+related: [lex-ymvt4, lex-dwey5]
+scaffolds-from: [lex-dwey5, lex-ymvt4]
+evokes: [babel-substrate, selection-narrows-combinatorial-space, sexual-selection-distinct-regime, mutation-without-selection-is-noise]
+decomposes-into:
+  - lex-dwey5
+  - lex-ymvt4
+assembly: "sequential(lex-dwey5, lex-ymvt4)"
+premises:
+  - "complete enumeration of a combinatorial space (all possible genotypes, all possible variants) reframes the problem from existence ('does a solution exist?') to search ('which region of the space gets found?') — the space itself is a Babel-substrate of undirected possibility (lex-dwey5)"
+  - "without a selection pressure operating on that space, variation alone produces only cacophony — no coherent trajectory, no accumulated adaptation, just noise across the combinatorial substrate"
+  - "differential mating success is one specific, structurally distinct selection regime — distinct from survival-selection — that does real narrowing work over that space (lex-ymvt4), and naming which regime is operative matters because different regimes select for different, sometimes opposing, traits"
+critical-questions:
+  - "for a given trait, is the selection regime actually sexual/mate-selection, or is it survival-selection being misattributed? The two can point in opposite directions (a trait that reduces survival odds while increasing mating success, e.g. costly ornamentation), so misidentifying the regime produces the wrong prediction about the trait's trajectory."
+  - "is the combinatorial space actually as unconstrained as lex-dwey5's framing suggests, or are there developmental/structural constraints that limit which regions are reachable regardless of selection? Selection narrows within the reachable space, not the full theoretical space."
+  - "outside biology, what's the analogous 'combinatorial space' and 'selection regime' when applying this composition metaphorically (e.g., idea-space and citation-selection in academia, design-space and market-selection in engineering)? The transfer requires naming both halves explicitly, not just gesturing at 'evolution-like' dynamics."
+lineage:
+  - source: practitioner
+    text: assembled-from-lex-dwey5-lex-ymvt4
+    citation: "Molecule assembled from lex-dwey5 (complete-enumeration-shifts-the-problem-from-existence-to-search) and lex-ymvt4 (differential-mating-success-is-a-selection-regime-distinct-from-survival). lex-dwey5's own canonical-instances state the link: 'Without selection-pressure, mutation produces only cacophony (Eigen 1971; Eigen-Schuster 1979 *The Hypercycle*). Composes with lex-ymvt4 sexual-selection...: selection-narrowing IS the substantive mechanism of evolution; the underlying genotype space is the Babel-substrate.'"
+canonical-instances:
+  - "Peacock tail evolution: the space of possible tail-genotypes is vast and undirected (lex-dwey5's Babel-substrate); survival-selection alone would narrow toward minimal, cheap, camouflaged tails. What actually narrowed the space toward the extravagant, survival-costly peacock tail was a distinct regime — differential mating success (lex-ymvt4) — operating on the same combinatorial substrate in a different direction than survival-selection would have."
+  - "Antibiotic resistance emergence: bacterial mutation explores a combinatorial genotype-space largely at random (lex-dwey5); in the absence of antibiotic exposure this produces cacophony (mostly-neutral or harmful variants). Antibiotic exposure introduces a specific, powerful survival-selection regime that rapidly narrows the population toward resistant genotypes — the same two-part structure (undirected space + specific narrowing regime), with survival rather than mating as the operative filter."
+status: under-review

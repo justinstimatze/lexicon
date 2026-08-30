@@ -1,0 +1,21 @@
+id: lex-dqu25
+name: a-break-from-your-usual-reaction-signals-this-time-is-different
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "When someone has a well-established, repeated reaction to their own transgressions, and that reaction suddenly breaks on one specific occasion, the break itself is diagnostic evidence that this instance crossed a threshold the earlier ones didn't, even before you know exactly what that threshold was. Radin flags exactly this kind of break in the Wakdjunkaga cycle: 'Ordinarily on such an occasion in the Wakdjunkaga cycle he is represented as laughing at the discomfiture of those on whom he has played a trick. But here he runs away.' The trickster's established pattern, delighted amusement at the chaos he causes, is his signature; its absence here is conspicuous precisely because it's absent. Radin reads the deviation as evidence of accumulated severity rather than random plot variation: 'the situation is fraught with too many difficulties. Too many taboos have been broken, the sensibilities of too many people have been outraged, too many individuals have been humiliated.' The behavior that changed isn't the diagnostic tool by itself -- the contrast with the established baseline is what makes the change legible as a signal at all. Diagnostic move: when tracking someone's reactions to a repeated category of event, don't just read each individual reaction in isolation -- watch for the one time their usual reaction breaks, since a deviation from an established personal pattern is often a more reliable signal that something is genuinely different than the reaction itself would be without the baseline to compare it to."
+related: []
+evokes: [radin-the-winnebago-trickster-figure, wakdjunkaga-runs-away, ordinarily-he-is-represented-as-laughing, too-many-taboos-have-been-broken]
+lineage:
+  - source: primary
+    text: radin-wakdjunkaga-breaks-his-usual-pattern-of-laughing-by-running-away
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'The Winnebago Trickster Figure.' Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "Ordinarily on such an occasion in the Wakdjunkaga cycle he is represented as laughing at the discomfiture of those on whom he has played a trick. But here he runs away. The reason is clear; the situation is fraught with too many difficulties. Too many taboos have been broken, the sensibilities of too many people have been outraged, too many individuals have been humiliated."
+canonical-instances:
+  - "A manager who always jokes about missed deadlines goes uncharacteristically quiet and formal after one particular miss, and a team member who knows the manager's usual pattern reads the silence itself, more than anything said, as the real signal that this deadline mattered differently."
+  - "A friend who normally laughs off being stood up abruptly stops responding to texts after one specific instance, and the people who know the friend's usual pattern treat that break in character as more informative than anything the friend says about why."
+critical-questions:
+  - "Does Radin's inference from the break in pattern to the specific cause, accumulated taboo violations, rely on independently confirming what actually changed, or is there a risk of working backward from the observed deviation to whatever explanation seems most narratively satisfying?"
+  - "How would an observer distinguish a genuine threshold-crossing deviation from ordinary variability in behavior that doesn't actually signal anything, especially in a case where the baseline pattern wasn't as ironclad as 'ordinarily... he is represented as laughing' suggests?"
+  - "Does this diagnostic require a long enough observed baseline to be reliable, and how many repetitions of the usual reaction would be needed before a single deviation could be trusted as meaningful rather than dismissed as noise?"
+status: active

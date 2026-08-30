@@ -1,0 +1,19 @@
+id: lex-rzrc5
+name: staged-public-folly-relays-a-message-through-gossip-to-a-closed-target
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a target has closed off direct suasion, a message can still reach them by a route that doesn't require their cooperation: perform a deliberately absurd public act, refuse to explain it to bystanders, and let the resulting rumor travel through the social network until it specifically reaches the intended recipient. The strangeness of the act is what makes it travel — bystanders repeat what they can't make sense of. In the Jataka's tale of Sujata, a son trying to reach his grief-closed father offers food to a dead ox in public, and when passersby demand to know if he's gone mad, he says nothing, letting their confusion carry the story home: 'seeing a dead ox lying outside the city, he brought grass and water and placing them before it said, \"Eat and drink, eat and drink.\"'"
+related: []
+evokes: [jataka, pancanipata, sujata-jataka, engineered-gossip-cascade, absurd-public-act-as-message-relay]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sujata-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 352, Sujata-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "So seeing a dead ox lying outside the city, he brought grass and water and placing them before it said, \"Eat and drink, eat and drink.\" All that passed by on seeing this said, \"Friend Sujata, are you mad? Do you offer grass and water to a dead ox?\" But he answered not a word. So they went to his father and said, \"Your son has become mad. He is giving grass and water to a dead ox.\""
+canonical-instances:
+  - "An employee who can't get a withdrawn manager to respond to direct feedback instead starts loudly, publicly following an obviously pointless process to the letter in front of the team, refusing to explain why — until enough confused coworkers ask the manager about it that the manager finally investigates and confronts the underlying complaint themselves."
+critical-questions:
+  - "Does this actually work reliably, or does it depend on luck — the specific bystanders who happen to walk by, and whether they bother repeating what they saw to the right person at all?"
+  - "Is there a cost to the sender's own reputation for staging something that reads as genuine madness, and would that cost ever outweigh the value of the message actually arriving?"
+status: active

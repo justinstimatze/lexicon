@@ -1,0 +1,19 @@
+id: lex-wcey4
+name: voluntarily-disarming-further-after-sparing-a-life-invites-reciprocal-restraint
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Having already spared an enemy's life, a party can voluntarily disarm further — handing over a weapon, offering their own life in exchange — as a costly, unilateral signal of good faith that invites and often receives reciprocal restraint. The extra vulnerability isn't required by the initial mercy; it's a second, separate move that converts an asymmetric power situation into a stable, mutually pledged peace. In the Jataka's tale of Dighitikosala: 'I will not do thee a wrong, Sire. But do thou slay me.' And he placed his sword in the king's hand. The king too said, 'Neither will I wrong thee.'"
+related: []
+evokes: [jataka, pancanipata, dighitikosala-jataka, voluntary-disarmament-invites-reciprocal-restraint, converting-asymmetric-power-into-mutual-pledge]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dighitikosala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 371, Dighitikosala-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "After these words the Bodhisatta said, \"I will not do thee a wrong, Sire. But do thou slay me.\" And he placed his sword in the king's hand. The king too said, \"Neither will I wrong thee.\""
+canonical-instances:
+  - "A faction that just won a hostile boardroom vote ousting a rival director could keep every advantage the win handed them. Instead they voluntarily hand back a contested veto right nobody required them to give up, and the rival faction drops its campaign to relitigate the vote."
+critical-questions:
+  - "Does the additional disarmament actually add trust beyond what sparing the life alone already signaled, or is it a redundant, purely symbolic gesture that doesn't change the other party's actual behavior?"
+  - "What happens when the gesture isn't reciprocated — does the extra vulnerability just leave the disarming party worse off than if they had stopped at the first act of mercy?"
+status: active

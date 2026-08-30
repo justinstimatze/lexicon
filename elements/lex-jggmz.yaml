@@ -1,0 +1,19 @@
+id: lex-jggmz
+name: unchecked-anger-compounds-through-disproportionate-retaliation-steps
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A single flash of anger can spiral into catastrophe not through one large act but through a chain of retaliatory steps, each disproportionate to the one before it. In the Jataka's tale of Avariya, a spilled bowl of rice leads to a struck wife, a miscarriage, a mob, and finally the man's own ruin — no single step looks like it was aimed at that outcome, but the chain gets there anyway. 'The rice was spilt, his wife was struck, child killed before its birth, To him, like fine gold to a beast, counsel was nothing worth.'"
+related: []
+evokes: [jataka, chanipata, avariya-jataka, retaliation-cascade, unchecked-anger-compounds]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-avariya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 376, Avariya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The rice was spilt, his wife was struck, child killed before its birth, To him, like fine gold to a beast, counsel was nothing worth."
+canonical-instances:
+  - "A driver cut off in traffic honks, gets tailgated in response, brakes-checks the tailgater, and the exchange ends in a collision — nobody involved set out to cause a crash, but each retaliation was slightly worse than what provoked it."
+critical-questions:
+  - "At which link in the chain was intervention cheapest — and does the answer suggest the fix belongs earlier than where the damage becomes visible?"
+  - "Is the escalation driven by anger alone, or does each party's retaliation also serve to save face after their own last move, making it harder to simply stop?"
+status: active

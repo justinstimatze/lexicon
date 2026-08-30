@@ -1,0 +1,19 @@
+id: lex-yzbqh
+name: a-repeated-con-fails-once-the-mark-recognizes-the-pattern
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A con that worked once by exploiting a mark's specific hope or naivety often fails the second time, not because the mark has grown more cautious in general, but because they now recognize this exact pattern from direct experience of it. The trick doesn't need new countermeasures. It just needs to run against someone it's already run against before. In the Jataka's tale of the twice-tricked monkey, a big monkey lures a small monkey out of his cave with a promise of abundant fruit, then occupies the cave himself. When he tries the identical lure a second time, the small monkey isn't fooled: 'When Greek meets Greek, then comes the tug of war; A monkey scents a monkey's tricks afar. Even a young one were too sharp by half; But old birds never can be caught with chaff.'"
+related: []
+evokes: [jataka, tikanipata, udumbara-jataka, an-identical-con-fails-against-a-mark-who-recognizes-it-from-experience, one-exposure-is-enough-to-defeat-a-repeated-pattern]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-udumbara-jataka-2
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 298, Udumbara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "When Greek meets Greek, then comes the tug of war; A monkey scents a monkey's tricks afar. Even a young one were too sharp by half; But old birds never can be caught with chaff."
+canonical-instances:
+  - "A scammer who successfully convinces an elderly relative to wire money using a fake emergency call tries the identical script again six months later, and the relative, recognizing the exact same story and tone from the first attempt, hangs up immediately without a second thought."
+critical-questions:
+  - "Does recognition from a single prior exposure actually generalize, or does the small monkey's success here depend on the con being tried in an unusually identical way, leaving room for a sufficiently varied repeat attempt to still succeed?"
+  - "Is there a cost to the con artist beyond this single failed attempt, or does a recognized pattern only cost them this one mark while remaining fully effective against anyone who hasn't yet been through it?"
+status: active

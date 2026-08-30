@@ -1,0 +1,745 @@
+# Curated benchmark for gate evaluation
+#
+# Purpose: replace the V6 18-prompt threshold-test with a larger,
+# labeled benchmark that supports precision/recall/F1 measurement of
+# gate behavior. Hand-curated to span elements/'s 7+ mining-source
+# domains plus the explicit "should be silent" categories (vague-noise
+# and concrete-coding-without-elements-coverage).
+#
+# Labeling rubric:
+#   expected_fires: list of elements entry IDs that SHOULD reasonably
+#     appear in top-3 results. ANY match counts as a hit (we don't
+#     require all listed entries to fire — just at least one).
+#   expected_silent: if true, no entry should clear threshold. Any
+#     fire is a precision miss.
+#   notes: optional commentary on borderline calls.
+#
+# Categories:
+#   polya-likely         — problem-solving heuristics, work-backwards
+#   fermi-likely         — order-of-magnitude estimation
+#   gof-likely           — design patterns (decorator, composite)
+#   argumentation        — Walton schemes, Bayesian reasoning,
+#                          premature-closure, expert opinion
+#   physics-scale        — scale separation, regime selection,
+#                          perturbation theory
+#   mythology-narrative  — mentor, archetypes, hero's journey
+#   triz-contradiction   — engineering contradictions, parameter
+#                          decomposition
+#   composition-ops      — sequential, parallel, choice, iteration
+#   concrete-coding      — should be silent (real coding tasks
+#                          elements/ doesn't cover)
+#   vague-noise          — should be silent (greetings, tiny utterances)
+#   ambiguous-borderline — judgment calls; reveal scoring sensitivity
+
+version: 1
+created: 2026-05-03
+
+prompts:
+
+# ============================================================
+# Category 1: polya-likely (12 prompts)
+# ============================================================
+
+- text: "how do I work backwards from this bug to find the root cause"
+  category: polya-likely
+  expected_fires: [lex-ftke9, lex-bpr6b]
+  expected_silent: false
+
+- text: "I'm stuck on this algorithm problem can you help me think through it"
+  category: polya-likely
+  expected_fires: [lex-bpr6b, lex-89rjr]
+  expected_silent: false
+  notes: "generic Polya-domain; could match lex-ftke9 or lex-gx8m2 too"
+
+- text: "find related problems to this graph traversal puzzle"
+  category: polya-likely
+  expected_fires: [lex-gx8m2, lex-bpr6b]
+  expected_silent: false
+
+- text: "I've solved a similar problem before but can't quite remember how"
+  category: polya-likely
+  expected_fires: [lex-gx8m2]
+  expected_silent: false
+
+- text: "what's the canonical recurrence relation that this maps to"
+  category: polya-likely
+  expected_fires: [lex-gx8m2]
+  expected_silent: false
+  notes: "borderline — recurrence-recall is Polya analogous-recall"
+
+- text: "I need to figure out where this calculation goes wrong by working from the answer"
+  category: polya-likely
+  expected_fires: [lex-ftke9, lex-89rjr]
+  expected_silent: false
+
+- text: "anchor the goal state explicitly: I want function f to return X for input Y"
+  category: polya-likely
+  expected_fires: [lex-89rjr]
+  expected_silent: false
+
+- text: "this isn't working forward, let me try working backward from the desired output"
+  category: polya-likely
+  expected_fires: [lex-ftke9]
+  expected_silent: false
+
+- text: "is there an analogous problem in number theory I can borrow from"
+  category: polya-likely
+  expected_fires: [lex-gx8m2]
+  expected_silent: false
+
+- text: "decompose this proof by recalling a similar lemma we proved last week"
+  category: polya-likely
+  expected_fires: [lex-gx8m2]
+  expected_silent: false
+
+- text: "the inductive step is what I'm missing — find a related induction we've done"
+  category: polya-likely
+  expected_fires: [lex-gx8m2]
+  expected_silent: false
+
+- text: "I'm spinning my wheels on this combinatorics question, what heuristic applies"
+  category: polya-likely
+  expected_fires: [lex-bpr6b]
+  expected_silent: false
+
+# ============================================================
+# Category 2: fermi-likely (12 prompts)
+# ============================================================
+
+- text: "how many lines of go code does this monorepo have, roughly"
+  category: fermi-likely
+  expected_fires: [lex-3ydmv]
+  expected_silent: false
+
+- text: "estimate the throughput of our pipeline given these factors"
+  category: fermi-likely
+  expected_fires: [lex-3ydmv]
+  expected_silent: false
+
+- text: "back of envelope calculation: how much memory does this data structure need at scale"
+  category: fermi-likely
+  expected_fires: [lex-hm8yx, lex-3ydmv]
+  expected_silent: false
+
+- text: "if I have N users each generating M events per day, what's the storage cost"
+  category: fermi-likely
+  expected_fires: [lex-3ydmv]
+  expected_silent: false
+
+- text: "fermi estimate of how long this batch job will take"
+  category: fermi-likely
+  expected_fires: [lex-3ydmv]
+  expected_silent: false
+
+- text: "ballpark the bandwidth requirement assuming 50% of users are concurrent"
+  category: fermi-likely
+  expected_fires: [lex-3ydmv]
+  expected_silent: false
+
+- text: "decompose this query latency into network, disk, cpu components"
+  category: fermi-likely
+  expected_fires: [lex-3ydmv, lex-hm8yx]
+  expected_silent: false
+  notes: "decompose-then-estimate is Fermi shape"
+
+- text: "what's the multiplicative factor I'm missing in this throughput calc"
+  category: fermi-likely
+  expected_fires: [lex-3ydmv]
+  expected_silent: false
+
+- text: "rough order of magnitude — are we talking GB or TB of data per month"
+  category: fermi-likely
+  expected_fires: [lex-hm8yx, lex-3ydmv]
+  expected_silent: false
+
+- text: "estimate cost: requests per second times cost per request times seconds per month"
+  category: fermi-likely
+  expected_fires: [lex-3ydmv]
+  expected_silent: false
+
+- text: "how many engineers does it take to maintain a service of this complexity"
+  category: fermi-likely
+  expected_fires: [lex-3ydmv]
+  expected_silent: false
+
+- text: "back of napkin: what's our error rate budget for five nines"
+  category: fermi-likely
+  expected_fires: [lex-3ydmv]
+  expected_silent: false
+
+# ============================================================
+# Category 3: gof-likely (12 prompts)
+# ============================================================
+
+- text: "how should I structure this decorator wrapping I/O streams"
+  category: gof-likely
+  expected_fires: [lex-z8m97]
+  expected_silent: false
+
+- text: "this looks like a composite pattern with widgets containing widgets"
+  category: gof-likely
+  expected_fires: [lex-a9wpd]
+  expected_silent: false
+
+- text: "I want a chain of middleware that wraps my handler"
+  category: gof-likely
+  expected_fires: [lex-z8m97]
+  expected_silent: false
+
+- text: "BufferedReader wrapping FileReader is a decorator right"
+  category: gof-likely
+  expected_fires: [lex-z8m97]
+  expected_silent: false
+
+- text: "tree of UI components where each node renders its children"
+  category: gof-likely
+  expected_fires: [lex-a9wpd]
+  expected_silent: false
+
+- text: "build a stackable filter pipeline for image processing"
+  category: gof-likely
+  expected_fires: [lex-z8m97]
+  expected_silent: false
+
+- text: "what's the right way to add behavior without modifying the base class"
+  category: gof-likely
+  expected_fires: [lex-z8m97]
+  expected_silent: false
+
+- text: "expression tree where leaves and branches both implement Evaluate"
+  category: gof-likely
+  expected_fires: [lex-a9wpd]
+  expected_silent: false
+
+- text: "extend this class without subclassing — wrap it instead"
+  category: gof-likely
+  expected_fires: [lex-z8m97]
+  expected_silent: false
+
+- text: "all my Stream classes should implement the same Read interface"
+  category: gof-likely
+  expected_fires: [lex-z8m97]
+  expected_silent: false
+  notes: "borderline — interface uniformity is preconditional to decorator"
+
+- text: "design the AST so visitors can walk it polymorphically"
+  category: gof-likely
+  expected_fires: [lex-a9wpd]
+  expected_silent: false
+
+- text: "the windowing system has containers that contain containers"
+  category: gof-likely
+  expected_fires: [lex-a9wpd]
+  expected_silent: false
+
+# ============================================================
+# Category 4: argumentation (12 prompts)
+# ============================================================
+
+- text: "this expert says X but they're outside their domain — should I trust it"
+  category: argumentation
+  expected_fires: [lex-kebfa, lex-dm5te]
+  expected_silent: false
+
+- text: "the witness account is consistent but I don't know if they were positioned to see"
+  category: argumentation
+  expected_fires: [lex-0045]
+  expected_silent: false
+
+- text: "what's my actual credence on this claim, not just my gut feel"
+  category: argumentation
+  expected_fires: [lex-k6d7u]
+  expected_silent: false
+
+- text: "the evidence is mixed; I want to update probabilistically not flip a binary"
+  category: argumentation
+  expected_fires: [lex-k6d7u, lex-znaau]
+  expected_silent: false
+
+- text: "stop yourself from concluding this prematurely without checking the alternatives"
+  category: argumentation
+  expected_fires: [lex-znaau]
+  expected_silent: false
+
+- text: "argument from authority: the only support is that a famous person said it"
+  category: argumentation
+  expected_fires: [lex-kebfa]
+  expected_silent: false
+
+- text: "construct the critical questions for this expert opinion claim"
+  category: argumentation
+  expected_fires: [lex-kebfa, lex-th68b]
+  expected_silent: false
+
+- text: "I think this is 70 percent likely but I haven't checked my calibration"
+  category: argumentation
+  expected_fires: [lex-k6d7u]
+  expected_silent: false
+
+- text: "Bayesian update: how should this new evidence shift my prior"
+  category: argumentation
+  expected_fires: [lex-k6d7u, lex-hfcae]
+  expected_silent: false
+
+- text: "the slippery slope here projects 4 steps ahead — examine each link"
+  category: argumentation
+  expected_fires: [lex-0046]
+  expected_silent: false
+
+- text: "is this a defeasible presumption or a confirmed claim"
+  category: argumentation
+  expected_fires: [lex-af9ax, lex-hesjt]
+  expected_silent: false
+
+- text: "the analogy here transfers structural features not just surface ones"
+  category: argumentation
+  expected_fires: [lex-0048, lex-0054]
+  expected_silent: false
+  notes: "analogy argument scheme + case-similarity-mapping critical Q"
+
+# ============================================================
+# Category 5: physics-scale (12 prompts)
+# ============================================================
+
+- text: "do I need quantum mechanics here or is classical physics enough"
+  category: physics-scale
+  expected_fires: [lex-sjsxx]
+  expected_silent: false
+
+- text: "the relevant scales are millimeters and meters — what's the regime"
+  category: physics-scale
+  expected_fires: [lex-hm8yx, lex-sjsxx]
+  expected_silent: false
+
+- text: "perturb this toy model to add the realistic complexity back"
+  category: physics-scale
+  expected_fires: [lex-y6pqz]
+  expected_silent: false
+
+- text: "small parameter expansion: keep terms up to second order in epsilon"
+  category: physics-scale
+  expected_fires: [lex-y6pqz]
+  expected_silent: false
+
+- text: "coarse-grain the molecular dynamics into continuum equations"
+  category: physics-scale
+  expected_fires: [lex-hm8yx, lex-sjsxx]
+  expected_silent: false
+
+- text: "newtonian or relativistic? what's the velocity range we are operating in"
+  category: physics-scale
+  expected_fires: [lex-sjsxx]
+  expected_silent: false
+
+- text: "decouple the fast and slow timescales using perturbation theory"
+  category: physics-scale
+  expected_fires: [lex-y6pqz, lex-hm8yx]
+  expected_silent: false
+
+- text: "what physics regime applies for an object this size at this speed"
+  category: physics-scale
+  expected_fires: [lex-sjsxx]
+  expected_silent: false
+
+- text: "the toy model: 2 bodies. Add the third as a perturbation"
+  category: physics-scale
+  expected_fires: [lex-y6pqz]
+  expected_silent: false
+
+- text: "scale analysis suggests the gradient term dominates here"
+  category: physics-scale
+  expected_fires: [lex-hm8yx]
+  expected_silent: false
+
+- text: "asymptotic expansion in 1/N for large-N systems"
+  category: physics-scale
+  expected_fires: [lex-y6pqz]
+  expected_silent: false
+
+- text: "regime check: is this in the linear or nonlinear response domain"
+  category: physics-scale
+  expected_fires: [lex-sjsxx]
+  expected_silent: false
+
+# ============================================================
+# Category 6: mythology-narrative (12 prompts)
+# ============================================================
+
+- text: "the protagonist needs a mentor figure to guide her early on"
+  category: mythology-narrative
+  expected_fires: [lex-hng49]
+  expected_silent: false
+
+- text: "what archetypal role does this character play"
+  category: mythology-narrative
+  expected_fires: [lex-uz7g4]
+  expected_silent: false
+
+- text: "this fits the depart-trial-return arc of the hero's journey"
+  category: mythology-narrative
+  expected_fires: [lex-h7vet]
+  expected_silent: false
+
+- text: "the mentor figure operates as a Vygotskyan zone-of-proximal-development scaffold"
+  category: mythology-narrative
+  expected_fires: [lex-hng49]
+  expected_silent: false
+
+- text: "structurally this is a bildungsroman — extended trial sequence"
+  category: mythology-narrative
+  expected_fires: [lex-h7vet]
+  expected_silent: false
+
+- text: "the antagonist is an archetypal shadow figure"
+  category: mythology-narrative
+  expected_fires: [lex-uz7g4]
+  expected_silent: false
+
+- text: "Campbell's monomyth: he's about to cross the threshold"
+  category: mythology-narrative
+  expected_fires: [lex-h7vet]
+  expected_silent: false
+
+- text: "the protagonist's beginner's mind is what lets her see the answer"
+  category: mythology-narrative
+  expected_fires: [lex-jvr5p]
+  expected_silent: false
+
+- text: "shoshin in zazen: the mentor instructs first-time framing"
+  category: mythology-narrative
+  expected_fires: [lex-jvr5p, lex-hng49]
+  expected_silent: false
+
+- text: "this trial sequence parallels the hero's iterative testing phase"
+  category: mythology-narrative
+  expected_fires: [lex-h7vet, lex-da3g3]
+  expected_silent: false
+
+- text: "Jung calls this an archetype: a form not a content"
+  category: mythology-narrative
+  expected_fires: [lex-uz7g4]
+  expected_silent: false
+
+- text: "the trickster archetype subverts the hero's first attempt"
+  category: mythology-narrative
+  expected_fires: [lex-uz7g4, lex-h7vet]
+  expected_silent: false
+
+# ============================================================
+# Category 7: triz-contradiction (12 prompts)
+# ============================================================
+
+- text: "we want this thin for thermal conductivity AND thick for strength"
+  category: triz-contradiction
+  expected_fires: [lex-spk4s, lex-mnxhs]
+  expected_silent: false
+
+- text: "TRIZ contradiction matrix lookup for weight vs strength"
+  category: triz-contradiction
+  expected_fires: [lex-mnxhs]
+  expected_silent: false
+
+- text: "the parameters are in conflict — variable thickness lets us split them"
+  category: triz-contradiction
+  expected_fires: [lex-spk4s, lex-wdeje, lex-mnxhs]
+  expected_silent: false
+
+- text: "apply principle 15 dynamics: vary the property in space"
+  category: triz-contradiction
+  expected_fires: [lex-mnxhs]
+  expected_silent: false
+
+- text: "engineering contradiction: fast AND accurate"
+  category: triz-contradiction
+  expected_fires: [lex-spk4s]
+  expected_silent: false
+
+- text: "decompose the conflicting parameter into components that don't conflict"
+  category: triz-contradiction
+  expected_fires: [lex-wdeje, lex-mnxhs]
+  expected_silent: false
+
+- text: "Altshuller's furnace wall: thin where flow matters, thick where strength matters"
+  category: triz-contradiction
+  expected_fires: [lex-mnxhs]
+  expected_silent: false
+
+- text: "what TRIZ inventive principle applies to time-vs-quality"
+  category: triz-contradiction
+  expected_fires: [lex-mnxhs]
+  expected_silent: false
+
+- text: "the trade-off is fake — separate by phase or by region"
+  category: triz-contradiction
+  expected_fires: [lex-wdeje, lex-spk4s]
+  expected_silent: false
+
+- text: "40 inventive principles: which one resolves cost vs reliability"
+  category: triz-contradiction
+  expected_fires: [lex-mnxhs]
+  expected_silent: false
+
+- text: "introduce a third element to remove the contradiction"
+  category: triz-contradiction
+  expected_fires: [lex-b4vxq, lex-mnxhs]
+  expected_silent: false
+
+- text: "this is a physical contradiction, not a technical one"
+  category: triz-contradiction
+  expected_fires: [lex-spk4s]
+  expected_silent: false
+
+# ============================================================
+# Category 8: composition-ops (12 prompts)
+# ============================================================
+
+- text: "compose A then B where B's input is A's output"
+  category: composition-ops
+  expected_fires: [lex-2sx7q]
+  expected_silent: false
+
+- text: "fan out to N workers and aggregate the results"
+  category: composition-ops
+  expected_fires: [lex-eg9zm]
+  expected_silent: false
+
+- text: "branch on the input type — different handler per case"
+  category: composition-ops
+  expected_fires: [lex-ucrqj]
+  expected_silent: false
+
+- text: "iterate until convergence — what's the termination condition"
+  category: composition-ops
+  expected_fires: [lex-da3g3]
+  expected_silent: false
+
+- text: "MapReduce: parallel map then reduce aggregator"
+  category: composition-ops
+  expected_fires: [lex-eg9zm, lex-2sx7q]
+  expected_silent: false
+
+- text: "switch statement dispatching to one of N functions"
+  category: composition-ops
+  expected_fires: [lex-ucrqj]
+  expected_silent: false
+
+- text: "while-loop: keep applying the transformation until done"
+  category: composition-ops
+  expected_fires: [lex-da3g3]
+  expected_silent: false
+
+- text: "compose these functions in a sequential pipeline"
+  category: composition-ops
+  expected_fires: [lex-2sx7q]
+  expected_silent: false
+
+- text: "broadcast to all subscribers in parallel"
+  category: composition-ops
+  expected_fires: [lex-eg9zm]
+  expected_silent: false
+
+- text: "the assembly is sequential then defeasibility-attach"
+  category: composition-ops
+  expected_fires: [lex-2sx7q, lex-hesjt]
+  expected_silent: false
+
+- text: "fixed-point iteration with epsilon termination"
+  category: composition-ops
+  expected_fires: [lex-da3g3]
+  expected_silent: false
+
+- text: "ensemble vote: parallel models then majority aggregator"
+  category: composition-ops
+  expected_fires: [lex-eg9zm]
+  expected_silent: false
+
+# ============================================================
+# Category 9: concrete-coding (should be silent — 14 prompts)
+# ============================================================
+
+- text: "help me debug this go test failure in the loader package"
+  category: concrete-coding
+  expected_fires: []
+  expected_silent: true
+
+- text: "refactor this function to be more readable"
+  category: concrete-coding
+  expected_fires: []
+  expected_silent: true
+
+- text: "write a sql query to join these three tables on user_id"
+  category: concrete-coding
+  expected_fires: []
+  expected_silent: true
+
+- text: "set up a ci pipeline for this repo with go test and golangci-lint"
+  category: concrete-coding
+  expected_fires: []
+  expected_silent: true
+
+- text: "compare react vs vue for our internal tooling use case"
+  category: concrete-coding
+  expected_fires: []
+  expected_silent: true
+
+- text: "convert this snake_case identifier to camelCase"
+  category: concrete-coding
+  expected_fires: []
+  expected_silent: true
+
+- text: "add JWT authentication to my express server"
+  category: concrete-coding
+  expected_fires: []
+  expected_silent: true
+
+- text: "fix the race condition in this goroutine"
+  category: concrete-coding
+  expected_fires: []
+  expected_silent: true
+
+- text: "what's the syntax for a list comprehension in python"
+  category: concrete-coding
+  expected_fires: []
+  expected_silent: true
+
+- text: "explain why my docker container won't start"
+  category: concrete-coding
+  expected_fires: []
+  expected_silent: true
+
+- text: "configure nginx as a reverse proxy"
+  category: concrete-coding
+  expected_fires: []
+  expected_silent: true
+
+- text: "set up GitHub Actions to run tests on push"
+  category: concrete-coding
+  expected_fires: []
+  expected_silent: true
+
+- text: "what does this error message about nil pointer dereference mean"
+  category: concrete-coding
+  expected_fires: []
+  expected_silent: true
+  notes: "borderline — could match meta-pointer lex-chp44 but error-message-explanation isn't really elements territory"
+
+- text: "format this json file with jq"
+  category: concrete-coding
+  expected_fires: []
+  expected_silent: true
+
+# ============================================================
+# Category 10: vague-noise (should be silent — 12 prompts)
+# ============================================================
+
+- text: "hi"
+  category: vague-noise
+  expected_fires: []
+  expected_silent: true
+
+- text: "thanks"
+  category: vague-noise
+  expected_fires: []
+  expected_silent: true
+
+- text: "can you help"
+  category: vague-noise
+  expected_fires: []
+  expected_silent: true
+
+- text: "yes please continue"
+  category: vague-noise
+  expected_fires: []
+  expected_silent: true
+
+- text: "ok"
+  category: vague-noise
+  expected_fires: []
+  expected_silent: true
+
+- text: "sounds good"
+  category: vague-noise
+  expected_fires: []
+  expected_silent: true
+
+- text: "got it"
+  category: vague-noise
+  expected_fires: []
+  expected_silent: true
+
+- text: "what about it"
+  category: vague-noise
+  expected_fires: []
+  expected_silent: true
+
+- text: "huh"
+  category: vague-noise
+  expected_fires: []
+  expected_silent: true
+
+- text: "wait"
+  category: vague-noise
+  expected_fires: []
+  expected_silent: true
+
+- text: "yes"
+  category: vague-noise
+  expected_fires: []
+  expected_silent: true
+
+- text: "no go ahead"
+  category: vague-noise
+  expected_fires: []
+  expected_silent: true
+
+# ============================================================
+# Category 11: ambiguous-borderline (8 prompts — judgment calls)
+# ============================================================
+
+- text: "this is a really hard problem"
+  category: ambiguous-borderline
+  expected_fires: []
+  expected_silent: true
+  notes: "contains stopworded 'problem'; should NOT fire (elements/ doesn't match generic problem-talk)"
+
+- text: "I work backwards on this kind of thing usually"
+  category: ambiguous-borderline
+  expected_fires: [lex-ftke9]
+  expected_silent: false
+  notes: "borderline — vague but does invoke work-backwards method"
+
+- text: "find the related issue in our tracker"
+  category: ambiguous-borderline
+  expected_fires: []
+  expected_silent: true
+  notes: "contains 'related' (stopworded) and 'find' (stopworded); generic-tech use; elements/ should not fire"
+
+- text: "what pattern should I use here"
+  category: ambiguous-borderline
+  expected_fires: []
+  expected_silent: true
+  notes: "'pattern' stopworded; 'use' stopworded; generic design question without GoF specificity"
+
+- text: "explain the pattern matching in rust"
+  category: ambiguous-borderline
+  expected_fires: []
+  expected_silent: true
+  notes: "rust-pattern-matching is unrelated to GoF design patterns; elements/ should not surface lex-z8m97/0071"
+
+- text: "decompose this into smaller subproblems and solve each"
+  category: ambiguous-borderline
+  expected_fires: [lex-bpr6b, lex-3ydmv]
+  expected_silent: false
+  notes: "decomposition is Polya AND Fermi — both reasonable surfaces"
+
+- text: "what's the canonical way to handle this in our codebase"
+  category: ambiguous-borderline
+  expected_fires: []
+  expected_silent: true
+  notes: "asking about codebase convention; elements/ doesn't have a primitive for that"
+
+- text: "iterate over the list and accumulate the sum"
+  category: ambiguous-borderline
+  expected_fires: []
+  expected_silent: true
+  notes: "iteration here is data-processing not the cognitive iteration() composition operation. Borderline — gate may fire lex-da3g3 spuriously."

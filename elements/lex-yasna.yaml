@@ -1,0 +1,19 @@
+id: lex-yasna
+name: removing-a-competent-antagonist-does-not-remove-the-role-they-filled
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When you consider retaliating against a skilled, fungible antagonist, check whether their underlying role will simply be filled by a replacement, and whether that replacement might be worse. Aesop's 'The Oxen and the Butchers' has oxen conspire to kill all butchers, until an old ox stops them with a structural argument: 'if we kill them, others, who have no experience, will be set to slaughter us, and will by their bungling inflict great sufferings upon us.' The demand generating the role persists as long as the underlying condition does, so removing the current, experienced occupant targets an interchangeable individual rather than the cause, and an inexperienced replacement can cause more harm through incompetence than a skilled incumbent ever did through mere doing their job."
+related: []
+evokes: [aesop, the-oxen-and-the-butchers, removing-the-occupant-not-the-role, competence-of-the-replacement]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-oxen-and-the-butchers
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Oxen and the Butchers.' Verified verbatim against a direct extraction of the held copy."
+    quote: "But if we kill them, others, who have no experience, will be set to slaughter us, and will by their bungling inflict great sufferings upon us."
+canonical-instances:
+  - "pushing out an experienced but imperfect safety or compliance officer under pressure, only to get a less-skilled replacement who causes more harm through incompetence than the original ever did through routine enforcement of an unwelcome role."
+critical-questions:
+  - "Does this argument counsel permanent tolerance of an unwelcome role, or is there a way to address the underlying demand that creates the role in the first place, rather than simply accepting whoever fills it?"
+  - "Is the old ox's reasoning always correct — could a sufficiently well-prepared succession plan avoid the bungling-replacement problem, making removal of the incumbent safe after all?"
+status: active

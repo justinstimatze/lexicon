@@ -1,0 +1,20 @@
+id: lex-dz7h2
+name: arm-a-proxy-messenger-with-proof-and-the-exact-words
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When you can't deliver a message yourself but need it believed by a skeptical, powerful audience, you can send someone else in your place equipped with two things at once: unforgeable physical evidence of who sent them, and the precise words to say — so the messenger's own credibility never has to carry the claim alone. In the Jataka's tale of Rohanta, the freed stag can't safely go to the king's court himself, so he sends the huntsman who caught him: \"So he said, 'Friend, chafe my back with your hand.' He did so; his hand became covered with golden hairs. ... 'Take them, my friend, show them to the king and queen, tell them here are hairs from that golden stag; take my place, and discourse to them in the words of these verses I shall repeat: when she hears you, that will alone be sufficient to satisfy her craving.'\" The hairs authenticate the encounter; the memorized verses do the actual persuading — the huntsman only has to deliver both faithfully."
+related: []
+evokes: [jataka, visatinipata, rohanta-miga-jataka, hamsa-jataka, proxy-messenger, unforgeable-physical-evidence]
+lineage:
+  - source: primary
+    text: jataka-rouse1901-rohanta-miga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XV (Visati-Nipata), No. 501, Rohanta-Miga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "So he said, 'Friend, chafe my back with your hand.' He did so; his hand became covered with golden hairs. 'What shall I do with these hairs, my lord?'—'Take them, my friend, show them to the king and queen, tell them here are hairs from that golden stag; take my place, and discourse to them in the words of these verses I shall repeat: when she hears you, that will alone be sufficient to satisfy her craving.'"
+canonical-instances:
+  - "A whistleblower who can't safely go public themselves gives a journalist an internal document with a traceable watermark and a written statement to quote verbatim, so the story stands on the document's authenticity and the exact wording rather than on the journalist's own credibility being tested by the subject."
+  - "A retiring founder, unable to attend a critical investor meeting, sends a trusted lieutenant with a signed term sheet and a scripted set of talking points to deliver verbatim, rather than trusting the lieutenant to improvise the pitch from memory of the founder's general intent."
+critical-questions:
+  - "The huntsman delivers both the proof and the exact words faithfully with nothing to gain by distorting either. What happens to this pattern when the proxy has their own incentive to alter the message, and the physical evidence alone isn't enough to keep them honest?"
+  - "The stag's plan works because the evidence and the words both reach the audience in the same encounter. Does the pattern still hold if the proof and the message reach the recipient through different channels, at different times?"
+status: active

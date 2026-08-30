@@ -1,0 +1,24 @@
+id: lex-anu75
+name: occupational-doublethink-produces-a-predictable-idealist-to-cynic-arc
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Certain occupations reliably transform idealistic entrants into cynics over the course of a career, and the transformation is a structural output of what the job actually requires, not a personal failing or a sign the entrant chose the wrong field. The skill the job demands — a highly self-conscious, reflexive ability to 'doublethink,' holding and voicing completely contradictory versions of reality on request — is incompatible with sustained idealism, since idealism requires believing one particular version of reality matters more than the others being simultaneously argued. Predict the idealist-to-cynic arc from the job's structural demand for doublethink, not from anything about who enters the field, since the demand will produce the same arc in almost anyone who stays long enough to become good at it."
+related: [lex-9du33]
+evokes: [jackall-moral-mazes, "you come into this business an idealist, you leave a cynic", doublethink-as-a-required-occupational-skill]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch7-idealist-to-cynic
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 7, The Magic Lantern."
+    quote: "You come into this business an idealist; you leave a cynic."
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch7-doublethink
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 7, The Magic Lantern."
+    quote: "a highly self-conscious, reflexive ability to \"doublethink,\" to borrow Orwell's term, to hold in one's mind and be able to voice if necessary completely contradictory versions of reality."
+canonical-instances:
+  - "A public defender who enters the profession believing deeply in the presumption of innocence becomes, after a decade of arguing contradictory positions to serve different clients' interests, someone who describes 'truth' in a courtroom as whatever framing best serves the argument being made that day."
+critical-questions:
+  - "Is the resulting cynicism actually a loss, or is it better understood as a form of professional expertise that simply looks like cynicism from outside the profession — does the practitioner experience it as a decline, or as mastery?"
+status: active

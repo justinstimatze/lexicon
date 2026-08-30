@@ -1,0 +1,19 @@
+id: lex-54ex7
+name: letting-a-first-mover-absorb-the-cost-of-an-unproven-path
+type-in: situation
+type-out: posture
+_tier: atomic
+agent-instruction: "When a path's costs are unknown, deliberately traveling it second lets someone else pay the discovery costs for you, at the price of the delay. Facing an unmarked wilderness crossing, the Jataka's prudent merchant sends a rival caravan ahead rather than compete for lead position, walking through the reasoning category by category: the first party will wear down the rough road, graze off the coarse first growth of grass, and dig any needed wells, leaving the second party a smoother road, sweeter grazing, and already-dug water. The move only pays when the delay itself is affordable and the first mover's costs are genuinely non-repeatable (a road stays worn, a well stays dug) rather than a one-time head start that evaporates."
+related: []
+evokes: [jataka, ekanipata, apannaka-jataka, second-mover-cost-absorption, deliberate-delay-as-strategy]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-apannaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 1, Apannaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Those who go first will level the road where it is rough, whilst I shall travel along the road they have already travelled; their oxen will have grazed off the coarse old grass, whilst mine will pasture on the sweet young growth."
+canonical-instances:
+  - "A software team watches a competitor ship first into an unregulated product category. Once regulators flag which features they object to, the team enters the market later with a design that never has to be redone."
+critical-questions:
+  - "Does the delay cost more than the avoided discovery costs would have — is this actually cheaper, or does it just feel safer because someone else's losses are more visible than your own foregone time?"
+  - "What happens when the first mover's path-clearing creates a durable advantage of its own, like a customer base or a claimed niche, that the second mover can no longer catch up on no matter how much cost they avoided?"
+status: active

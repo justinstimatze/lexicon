@@ -1,0 +1,23 @@
+id: lex-4235t
+name: truths-two-faces-are-chosen-by-the-audiences-current-state
+type-in: state
+type-out: claim
+_tier: atomic
+agent-instruction: "Authentic truth or a genuine vision can be expressed through two opposite emotional registers, laughter or weeping, understood as one underlying face rather than two different things, with the choice of register set bidirectionally by the audience's current state. Black Elk states the general principle before applying it: 'You have noticed that the truth comes into this world with two faces. One is sad with suffering, and the other laughs; but it is the same face, laughing or weeping.' He then names both directions explicitly: 'When people are already in despair, maybe the laughing face is better for them; and when they feel too good and are too sure of being safe, maybe the weeping face is better for them to see.' The heyoka ceremony only ever exercises the first direction. The principle he states covers both."
+related: [lex-mdn2b]
+scaffolds-from: [lex-mdn2b]
+evokes: [black-elk-speaks, heyoka-ceremony, the-truth-comes-into-this-world-with-two-faces, laughing-or-weeping, the-same-face]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch16-heyoka-ceremony
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 16, 'Heyoka Ceremony.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "You have noticed that the truth comes into this world with two faces. One is sad with suffering, and the other laughs; but it is the same face, laughing or weeping. When people are already in despair, maybe the laughing face is better for them; and when they feel too good and are too sure of being safe, maybe the weeping face is better for them to see."
+canonical-instances:
+  - "A grief counselor leads a support group toward dark, cathartic humor about death when the room has grown too heavy to function, but reaches for solemn, unflinching honesty instead when a different group has grown complacent and stopped taking their own losses seriously."
+  - "A satirical news show delivers hard political truths through comedy specifically to audiences already exhausted by grim, straight reporting, while a documentary delivers the same underlying facts with full gravity to an audience that has grown too comfortable to notice the stakes."
+  - "A hospice chaplain jokes gently with a family paralyzed by dread, but turns unusually serious and direct with a family that has been treating a terminal diagnosis with denial-fueled cheerfulness."
+critical-questions:
+  - "Is 'truth' actually indifferent to which face delivers it, or does the comic register inevitably soften or distort some kinds of content, and the grave register inevitably harden others, such that the choice of face changes what gets communicated, not just how?"
+  - "Who is positioned to correctly diagnose which face a given audience currently needs -- does a misdiagnosis, choosing the weeping face for people already in despair -- risk making things measurably worse rather than simply less effective?"
+  - "Black Elk's own dog vision content is genuinely frightening, dogs and predation and violence -- does delivering that specific content through comedy risk losing something the terror itself was meant to communicate, or does the reframing carry the full warning intact?"
+status: active

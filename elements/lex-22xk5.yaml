@@ -1,0 +1,20 @@
+id: lex-22xk5
+name: a-deniable-small-gesture-tests-a-patrons-real-welcome
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When you depend entirely on someone powerful and can't tell whether your position is actually secure, asking directly invites a diplomatic answer that tells you nothing real. A small, deniable gesture that quietly tests a boundary gets an honest reaction instead, one the other party doesn't even realize is being read. In the Jataka's tale of Mahabodhi, the sage Bodhi has lived on the king's favor and food for years, but privately fears the hostility he senses in the court around him. Rather than ask the king outright whether he's still welcome, he picks up a piece of his own royal meal and makes a show of offering it to the king's favorite dog, a gesture trivial enough to mean nothing if it's rebuffed. The king not only permits it but has the dog's own dish brought so it can be fed properly, and the Great Being reads his real standing in that response, not in any words."
+related: []
+evokes: [jataka, pannasanipata, mahabodhi-jataka, deniable-probe-of-true-standing, small-test-over-direct-question]
+lineage:
+  - source: primary
+    text: jataka-francis1905-mahabodhi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XVIII (Pannasanipata), No. 528, Mahabodhi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Who, I wonder, will rid me of a fear that has sprung up in my mind?\" And observing a tawny hound, a favourite of the king's, standing near him, he took a lump of food and made a show of wishing to give it to the dog. The king being aware of this had the dog's dish brought and bade him take the food and give it to the dog."
+canonical-instances:
+  - "A new hire, uncertain whether a skeptical manager has actually come around, doesn't ask directly — that invites a scripted reassurance — but instead makes a small, unauthorized call on a minor decision and watches whether the manager backs it publicly or quietly overrides it."
+  - "Someone unsure whether they're still welcome in a friend group after a falling-out skips asking 'are we okay?' and instead casually shows up to a low-stakes gathering, reading the group's actual greeting rather than whatever answer they'd give if asked point-blank."
+critical-questions:
+  - "The gesture only tells Bodhi anything because the king responds visibly and specifically, fetching the dog's own dish. What happens when the powerful party's reaction to a small test is ambiguous or absent, and the probe returns no signal at all rather than a false one?"
+  - "Bodhi risks nothing real if the king objects to feeding the dog — but does that understate what's at stake in versions of this move where the 'small' test isn't actually low-cost, and a wrong read costs the tester more than they bargained for?"
+status: active

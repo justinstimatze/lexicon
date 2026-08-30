@@ -1,0 +1,19 @@
+id: lex-bcsjn
+name: flattery-can-induce-a-target-to-voluntarily-dismantle-their-own-defense
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When an adversary praises a specific defensive feature you maintain, check whether the praise is a calculated move to get you to discard it voluntarily, since flattery can achieve what direct force cannot. Aesop's 'The Wily Lion' has a lion, unable to overpower a well-defended target directly, instead persuade it that its own guarded posture is unnecessary and unbecoming: 'Believe me, you would do much better without them.' The mechanism is told from the predator's calculated point of view — the target is never attacked while defended, only talked into removing the defense itself, which is a more specific, actionable lesson than a generic warning about vanity."
+related: []
+evokes: [aesop, the-wily-lion, flattery-induces-voluntary-disarmament, attackers-technique]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-wily-lion
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Wily Lion.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Believe me, you would do much better without them."
+canonical-instances:
+  - "a competitor or acquirer praises a company's 'unnecessary' defensive feature — a moat, a legal protection, a costly safeguard — until the company itself dismantles it, having been talked out of the very thing that kept it safe."
+critical-questions:
+  - "How would a target distinguish genuine, disinterested feedback about an outdated defense from this exact manipulation, given that both can sound identical in the moment they're delivered?"
+  - "Could flattery alone manufacture doubt in a target who started out fully confident, with no private doubt already present to work from?"
+status: active

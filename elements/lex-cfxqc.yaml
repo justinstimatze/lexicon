@@ -1,0 +1,19 @@
+id: lex-cfxqc
+name: a-counterfactual-trajectory-argument-defuses-retaliation-for-past-harm
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: "Someone facing punishment for past harsh treatment can defuse the retaliation not by apologizing or minimizing the harm, but by arguing that the harm itself is the reason the victim now has anything worth protecting. In the Jataka's tale of the caned student, the teacher facing execution doesn't plead for mercy. He asks the king to trace the counterfactual: 'Whence could have come all this prosperity which you now enjoy? Is it not through me that you have attained to such magnificence?' The argument reframes the punishment as the origin of the king's present position rather than a wrong to be avenged, and it works — rage converts to gratitude. The harm isn't denied. Its consequences are simply relocated from injury to cause."
+related: []
+evokes: [jataka, tikanipata, tila-muttha-jataka, tracing-a-counterfactual-trajectory-reframes-harm-as-cause, retaliation-defused-by-relocating-harm-to-origin-of-present-good]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-tila-muttha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 252, Tila-muttha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Whence could have come all this prosperity which you now enjoy? Is it not through me that you have attained to such magnificence?"
+canonical-instances:
+  - "A former coach facing a lawsuit from a now-successful athlete for a grueling training regimen argues, and gets the case dropped, by walking the athlete through the specific competitive results that regimen produced and that no gentler alternative would have."
+critical-questions:
+  - "Does this argument only work when the counterfactual trajectory is actually plausible, or can a sufficiently confident retelling manufacture the same effect even when a milder path would have led to the same outcome?"
+  - "Is the king's abrupt reversal from rage to gratitude a sign the argument is genuinely sound, or does it show how easily a threatened party can be talked out of a legitimate grievance by a story that flatters their own present success?"
+status: active

@@ -1,0 +1,48 @@
+id: lex-mnxhs
+name: contradiction-resolution-via-parameter-decomposition
+type-in: question
+type-out: process
+_tier: molecule
+agent-instruction: "When two desired properties are in contradiction, decompose the parameter that's actually in tension. The contradiction often reduces to a single parameter that needs to be split in time, in space, or in context. Find the parameter; the split follows."
+related: [lex-3d2he, lex-4xcqa, lex-63agu, lex-73m95, lex-75nw3, lex-94nsz, lex-975pa, lex-9hapj, lex-aj89z, lex-cpjma, lex-dk7dq, lex-ds73b, lex-duz8k, lex-et8q2, lex-hkn3v, lex-jbegr, lex-kfzr2, lex-krh3b, lex-pbdbb, lex-spk4s, lex-stppu, lex-tghq5, lex-ts7f6, lex-uq4xw, lex-wdeje, lex-xr5f5, lex-yg484]
+scaffolds-from: [lex-ds73b, lex-spk4s, lex-wdeje, lex-hkn3v]
+evokes: [find-the-conflict-then-dissolve-it, look-up-the-pattern-in-the-matrix, triz-method, what-two-things-cant-coexist]
+decomposes-into:
+  - lex-ds73b
+  - lex-spk4s
+  - lex-wdeje
+assembly: "sequential(lex-ds73b, identify-conflicting-parameters, lex-spk4s, choice(apply-40-principles; selector=contradiction-matrix-lookup))"
+premises:
+  - "you face an engineering or design problem where improving one parameter (e.g., strength) negatively affects another (e.g., weight)"
+  - "you apply lex-ds73b dimensional-analysis to characterize each conflicting parameter clearly (units, scaling behavior, dependence relations)"
+  - "you decompose the contradiction: which is the 'good' parameter to improve, which is the 'bad' parameter being worsened?"
+  - "you apply lex-spk4s isolate-component-for-separate-treatment OR lex-wdeje asymmetry-as-function-enabler to break the apparent constraint that the two parameters MUST trade off"
+  - "you look up the contradiction-matrix cell (good-parameter × bad-parameter) for which of the 40 inventive principles have historically resolved similar contradictions; choice() picks one to attempt"
+  - "you verify the resolution: does the chosen principle actually dissolve the contradiction in YOUR problem context, or does it just shift it elsewhere?"
+critical-questions:
+  - "is the contradiction REAL (a fundamental conflict) or APPARENT (an artifact of your current framing)? — many engineering 'contradictions' dissolve once the parameters are decomposed correctly"
+  - "are you applying the 40-principles lookup mechanically, or are you using it as a prompt for cross-domain analogy generation? (the deep TRIZ move is the latter; mechanical lookup is the shallow version)"
+  - "does the chosen principle's resolution preserve other system invariants (cf. lex-rupk9 conservation-as-invariant-tracking), or does it just shift the contradiction onto a different parameter pair?"
+  - "is the contradiction matrix's recommendation actually relevant to your domain, or are you applying engineering-domain principles to a non-engineering problem inappropriately? (TRIZ in management contexts often does this — see Liberating Structures' note that their 'TRIZ' is a partial inspiration only)"
+lineage:
+  - source: primary
+    text: altshuller-1984-physical-contradiction-separation-methods
+    citation: "G. S. Altshuller, Creativity as an Exact Science: The Theory of the Solution of Inventive Problems, trans. Anthony Williams (Gordon and Breach, 1984), Ch.1, 'Contradictions, Administrative, Technical and Physical.' This is the primary source for the molecule's own core instruction — 'split in time, in space, or in context' quotes Altshuller's own three separation methods directly."
+    quote: "'Since one and the same substance cannot be in two different states it only remains to take apart, to disunite the contradictory properties by simple physical transformations. One can, for instance, divide them spatially: let the object consist of two parts, possessing different properties. One can divide the contradictory qualities in time: let the object take it in turns to have first one property then the other. One can utilize transitory states of the substance in which something akin to co-existence of the contradictory properties obtains temporarily.'"
+  - source: primary
+    text: altshuller-1984-principle-15-dynamism
+    citation: "G. S. Altshuller, Creativity as an Exact Science: The Theory of the Solution of Inventive Problems, trans. Anthony Williams (Gordon and Breach, 1984), Ch.5 'Forty Basic Methods,' Principle 15 'The Principle of Dynamism.' Confirms the furnace-wall canonical-instance below was folklore, not Altshuller's own worked example: his own Principle 15 example is a welding electrode, not a wall of any kind."
+    quote: "'15. The Principle of Dynamism. a. The characteristics of an object (or outward environment) should be changed in such a way as to be optimal at each stage of work. b. Divide an object up into parts which can be repositioned in relation to each other. c. If an object in its entirety is immovable make it movable, interchangeable. Example: A method of automatic arc welding with a strip electrode by which in order to obtain broad control of the shape and dimensions of the weld bath the electrode is bent along its length, lending it a bent shape which changes in the process of welding.'"
+  - source: practitioner
+    text: altshuller-1984-creativity-as-exact-science
+    citation: "Genrich Altshuller, Creativity as an Exact Science (1984) — the canonical TRIZ text introducing the contradiction-matrix and the 40 inventive principles together as a unified problem-solving method."
+  - source: practitioner
+    text: triz-decomposition-pass
+    citation: "worked example assembling 3 of the 4 atoms newly promoted in this pass (lex-spk4s, lex-wdeje directly; lex-ds73b from physics pass); names the TRIZ meta-method as a coherent molecule. Uses sequential() and choice() composition operations — choice now at 3 attestations (lex-bpr6b, lex-sjsxx, this), triggering choice's promotion to first-class entry in a follow-up pass"
+canonical-instances:
+  - "widely-taught TRIZ-pedagogy example, not sourced to Altshuller's own text: a furnace wall must be thin (for thermal efficiency) AND thick (for strength); a variable-thickness wall, thin where thermal flow matters and thick where structural load is, dissolves the apparent contradiction because the parameters were assumed to apply uniformly across the wall. Altshuller's own Principle 15 example (a welding electrode bent along its length so its shape changes optimally at each stage of the weld) makes the same move — repositioning parts so the object is optimal locally rather than uniformly — with a different object."
+  - "software analogue: an API must be expressive (for power) AND minimal (for ease-of-use). Apply Principle #1 Segmentation (layered API: minimal core + expressive optional layers) — the contradiction was assumed-uniform"
+  - "operationally distinct from lex-ftke9 work-backwards-from-goal: working backwards starts from the desired end-state; contradiction-resolution starts from a NAMED conflict between two desired properties. Both can be combined sequentially (work-backwards to the goal, identify the contradiction, apply principle)"
+  - "the LEFT-OUT step: TRIZ's contradiction matrix encodes empirical findings about which principles work for which contradictions; this molecule's choice() arm is named as 'contradiction-matrix-lookup' but the matrix itself is content not yet in the substrate. A future pass could mine the matrix's 39×39 cells as content-data, but it would be lookup-table material rather than atomic-cognitive-move material"
+severity-tier: info
+status: active

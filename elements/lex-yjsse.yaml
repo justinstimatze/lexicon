@@ -1,0 +1,22 @@
+id: lex-yjsse
+name: action-modifies-more-than-mere-exposure-does
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "An organism is shaped far more by what it actively does than by what merely happens to it or is done to it. Gilman states the principle, then grounds it in a physical case: ordinary weather exposure thickens skin slowly. Direct friction against an oar handle or a broom does the same job much faster. 'A living organism is modified far less through the action of external circumstances upon it and its reaction thereto, than through the effect of its own exertions... What we do modifies us more than what is done to us.'"
+related: []
+evokes: [women-and-economics, chapter-iv, what-we-do-modifies-us-more-than-what-is-done-to-us, thickened-far-more-quickly-by-being-rubbed-against-something, action-over-exposure]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-iv
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter IV. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "A living organism is modified far less through the action of external circumstances upon it and its reaction thereto, than through the effect of its own exertions. Skin may be thickened gradually by exposure to the weather; but it is thickened far more quickly by being rubbed against something, as the handle of an oar or of a broom. [...] What we do modifies us more than what is done to us."
+canonical-instances:
+  - "A student who passively attends lectures for a year retains far less than one who actively works through problem sets for a fraction of that time, because solving problems is exertion while attending lectures is mere exposure."
+  - "Two employees work in the same open office for years; the one who actively leads projects and makes decisions develops sharper judgment than the one who simply absorbs the same meetings and conversations without acting on them."
+  - "A traveler who spends a year living in a new country while working a local job and navigating its systems firsthand changes far more than a tourist who spends the same year simply being present and observing."
+critical-questions:
+  - "Does this principle risk undervaluing genuinely formative experiences that happen to a person without their active participation, like surviving a serious illness or living through a historic event, which can shape character deeply despite involving no exertion at all?"
+  - "The skin-thickening analogy is a purely physical, mechanical process -- does the same logic actually transfer to psychological or intellectual development, where absorbing ideas passively, through reading or listening, is often exactly how deep understanding begins before any active exertion is even possible?"
+  - "If action modifies more than exposure, does that imply someone denied the opportunity to act, regardless of how rich their exposure to the world is, will always end up less developed than someone with far less exposure but more freedom to act, and is that trade-off actually borne out in practice?"
+status: active

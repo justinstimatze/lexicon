@@ -1,0 +1,22 @@
+id: lex-feqmf
+name: eagerness-for-a-promised-reward-assembles-the-kill-formation
+type-in: process
+type-out: warning
+_tier: atomic
+agent-instruction: "You don't always have to herd a group of victims into position -- if they want the reward badly enough, telling them how to stand to receive it will do the arranging for you. In Cushing's telling, a Turtle takes revenge on the Coyote family that stole his kill and tried to kill him by offering them a share of meat from high in a tree: 'I will throw as fine a pair of ribs down to you as ever you saw. There, now, spread yourselves out and get close together. Ready?' The Coyotes, wanting nothing but the meat, comply exactly: they 'lay down on their backs side by side and stretched their paws as high as they could eagerly and tremblingly toward the meat.' That posture -- prone, clustered, faces turned up and immobile -- is not a trap the Turtle built; it's the position anyone would naturally take to catch a falling gift. He drops the ribs 'as hard as he could,' and they 'came down like a pair of stones across the bodies of the Coyotes, crushing the wind out of them, so that they had no breath left with which to cry out, and most of them were instantly killed.' Diagnostic move: when you're asked to arrange yourselves a particular way to receive something you want badly, notice that the instruction and the vulnerability it creates are the same instruction -- the eagerness to receive is what makes compliance with an arranging request feel natural rather than suspicious."
+related: [lex-kfj6a]
+scaffolds-from: [lex-kfj6a]
+evokes: [receiving-instructions-are-also-targeting-instructions, cushing-turtle-out-hunting-duped-the-coyote, spread-yourselves-out-and-get-close-together, a-pair-of-ribs-like-a-pair-of-stones]
+lineage:
+  - source: primary
+    text: cushing-turtle-drops-ribs-on-clustered-coyotes
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'How the Turtle Out Hunting Duped the Coyote.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'I will throw as fine a pair of ribs down to you as ever you saw. There, now, spread yourselves out and get close together. Ready? he called, as the Coyotes lay down on their backs side by side and stretched their paws as high as they could eagerly and tremblingly toward the meat. ... The old Turtle took up the pair of ribs, and, catching them in his beak, crawled out to the end of the branch immediately over the Coyotes, and, giving them a good fling, dropped them as hard as he could. Over and over they fell, and then came down like a pair of stones across the bodies of the Coyotes, crushing the wind out of them, so that they had no breath left with which to cry out, and most of them were instantly killed.'"
+canonical-instances:
+  - "A scam promising a cash giveaway asks everyone who wants to claim it to gather in a single line and enter their bank details on the same page at the same time, and the eagerness to not miss out gets a crowd of people to hand over exactly the information a fraudster needs, in exactly the batch that's easiest to harvest at once."
+  - "A predator luring prey with food tells them to bunch together under a specific spot so everyone gets a share, and their hunger for the reward gets them to cluster in the one location where a single strike can hit them all, something the predator could never have achieved by chasing them individually."
+critical-questions:
+  - "Would the Coyotes have survived if even one of them had questioned why the reward required a specific formation rather than simply catching what fell wherever they happened to be standing -- does the arranging instruction only work because nobody thinks to ask why it's needed?"
+  - "Is the vulnerability created by the eagerness itself, or by the trust the Coyotes place in the Turtle as the source of a legitimate reward -- would a source they distrusted have gotten the same compliance with the same instruction?"
+  - "Does this pattern require the victims to want the reward enough to override caution, or could the same arranging instruction work on a group that's merely obedient to whoever is perceived as being in charge, independent of desire for the payoff?"
+status: active

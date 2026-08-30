@@ -1,0 +1,19 @@
+id: lex-w39jh
+name: judge-a-principal-by-the-company-they-arrive-with
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Trust in a person's own past conduct toward you does not transfer to the associates they bring with them — evaluate the company someone keeps as its own, separate variable. The Panchatantra's carpenter has good history with a particular lion and no complaint against him personally, but refuses to come down from a tree the moment that lion arrives accompanied by a jackal and a crow: 'Your jackal does not reassure; your crow's sharp bill offends: you therefore see me up a tree — I do not like your friends.' The carpenter's withheld trust targets the retinue specifically. The lion's own behavior toward the carpenter has given no reason for suspicion at all, and stays entirely beside the point."
+related: []
+evokes: [panchatantra, loss-of-friends, judge-a-principal-by-their-associates, trust-in-a-person-does-not-transfer-to-their-retinue]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-the-lion-and-the-carpenter
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book I, 'The Lion and the Carpenter.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Your jackal does not reassure; Your crow’s sharp bill offends: You therefore see me up a tree— I do not like your friends."
+canonical-instances:
+  - "a job candidate has a spotless personal reputation with a hiring manager from a previous role, but the manager withholds an offer once the candidate's proposed hires — people with their own documented pattern of workplace complaints — become part of the package, judging the associates independently of the candidate's own clean record."
+critical-questions:
+  - "Is it fair to hold a principal responsible for the company they keep, or does this unfairly transfer someone else's bad conduct onto a person whose own behavior has given no cause for concern?"
+  - "How does the carpenter actually know his read on the jackal and crow's character is accurate, given his suspicion is based on reputation and appearance rather than any direct experience of them specifically?"
+status: active

@@ -1,0 +1,18 @@
+id: lex-crwuy
+name: apparent-excellence-can-be-only-the-absence-of-real-competition
+type-in: state
+type-out: claim
+_tier: atomic
+agent-instruction: "Something that looks impressive relative to its surroundings may be impressive only because nothing better is present to compare it against — a bat looks remarkable in a village with no birds, not because it has become a better flier. Before crediting a standout performance to genuine excellence, check whether the standard it's being measured against has quietly dropped, because the same actor can look ordinary again the moment real competition returns."
+related: []
+evokes: [galef, kotowaza, japanese-proverbs, standout-status-from-absent-rivals, apparent-excellence-vs-real-excellence]
+lineage:
+  - source: primary
+    text: galef-1987-even-monkeys-fall-from-trees
+    citation: "David Galef (compiler and translator), *Even Monkeys Fall From Trees: And Other Japanese Proverbs*, illustrations by Jun Hashimoto, foreword by Edward G. Seidensticker (Tuttle Publishing, copyright 1987; ebook ISBN 978-1-4629-0318-4), Proverb No. 85. Verified verbatim against a direct extraction of the held copy."
+    quote: "Tori naki sato no kōmori. Like a bat in a birdless village."
+canonical-instances:
+  - "A regional sales rep looks like the company's rising star for two quarters, until the top performer returns from parental leave and the rep's numbers settle back to ordinary — the standout status tracked an absence, not a change in the rep's own ability."
+critical-questions:
+  - "What would have to be true of the comparison field for this performance to look ordinary instead of exceptional, and has that field actually been checked, or only assumed to be stable?"
+status: active

@@ -1,0 +1,18 @@
+id: lex-5kr99
+name: each-additional-round-of-a-substance-inverts-who-controls-whom
+type-in: process
+type-out: state
+_tier: atomic
+agent-instruction: "Some substances or habits reverse the direction of control across successive doses: the first unit is a choice the person makes, a middle unit is a choice the substance's craving makes for them, and by a further unit the substance is directing the person entirely. The proverb's escalation in three steps names the specific point worth watching for — not whether a substance is present, but which party is doing the choosing at each successive round."
+related: []
+evokes: [galef, kotowaza, japanese-proverbs, agency-inversion-through-escalating-consumption, who-is-choosing-now]
+lineage:
+  - source: primary
+    text: galef-1987-even-monkeys-fall-from-trees
+    citation: "David Galef (compiler and translator), *Even Monkeys Fall From Trees: And Other Japanese Proverbs*, illustrations by Jun Hashimoto, foreword by Edward G. Seidensticker (Tuttle Publishing, copyright 1987; ebook ISBN 978-1-4629-0318-4), Proverb No. 23. Verified verbatim against a direct extraction of the held copy."
+    quote: "Ippai wa hito sake o nomi, ni-hai wa sake sake o nomi, sam-bai wa sake hito o nomu. First the man take a drink, then the drink takes a drink, then the drink takes the man."
+canonical-instances:
+  - "The first hour on a slot machine is a decision to play; a later hour is chasing a loss the machine's design manufactured; by the small hours it's the machine, not the person, dictating when the session ends."
+critical-questions:
+  - "Is there a reliable signal, available to the person in the moment rather than only in hindsight, that marks the crossover from the first round to the second?"
+status: active

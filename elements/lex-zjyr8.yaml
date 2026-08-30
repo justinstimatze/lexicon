@@ -1,0 +1,26 @@
+id: lex-zjyr8
+name: adding-people-to-a-late-project-makes-it-later
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a project is late and someone proposes adding people, surface that this usually makes it later — onboarding cost + communication overhead dominate the supposed parallel speedup."
+related: [lex-u2kzt, lex-7xbt6, lex-mnjrw, lex-4e6ur, lex-agefm, lex-4snxu, lex-fapwm]
+scaffolds-from: [lex-u2kzt, lex-7xbt6]
+evokes: [brookss-law, the-mythical-man-month, fred-brooks-1975, nine-women-cant-make-a-baby-in-one-month, ramp-up-time, communication-overhead-grows-superlinearly]
+lineage:
+  - source: practitioner
+    text: wikipedia-brookss-law
+    citation: "Wikipedia 'Brooks's law' (en-wp; local ZIM dump -> local Wikipedia archive, 2026-05-29). Primary: Fred Brooks, The Mythical Man-Month (Addison-Wesley 1975). The substrate-claim: beyond a point, adding workers to a late project DELAYS it further, for two compounding reasons Brooks names — (1) RAMP-UP: new people are unproductive at first and consume the time of existing workers who must train them (and may inject defects); (2) COMMUNICATION OVERHEAD: pairwise coordination links grow ~n(n-1)/2, so each added person raises coordination cost super-linearly while adding only linear labour. Cleanly partitionable work escapes the law; tightly mutually-dependent work (the 'nine women cannot make a baby in one month' case) does not. Brooks 1975 in-copyright; logged to wanted-materials."
+    quote: "[Wikipedia / Brooks 1975, via ZIM:] 'Adding manpower to a late software project makes it later.' Brooks calls it an 'outrageous oversimplification' [that nonetheless captures the rule; the two named factors are] 'ramp up' time [new workers are unproductive and divert existing workers to train them, sometimes making negative contributions via new bugs — this gloss is the atom's, not the article's] and communication overhead that 'increases as the number of people increases' [the article's reason is combinatorial explosion in the number of communication channels; 'pairwise links' is this atom's phrasing, not the article's]."
+canonical-instances:
+  - "the classic case: a project is slipping, so management adds engineers; the existing team now spends its time onboarding newcomers instead of shipping, pairwise coordination multiplies, and the delivery date moves further out, not closer in"
+  - "'nine women can't make a baby in one month': partitionable work scales with added labour; sequential or mutually-dependent work does not. Brooks's law bites hardest on tightly-coupled tasks where everyone must coordinate, and barely at all on embarrassingly-parallel work"
+  - "the late-stage crunch hire that arrives too late: by the time a project is visibly late, the remaining work is usually the tightly-coupled integration work that resists partitioning — exactly where new hands cost more (training + coordination) than they add"
+  - "operationally a time-dynamics consequence of lex-7xbt6 Conway's law and the lex-u2kzt diffusion substrate: the coordination cost Brooks names is the cost of the communication structure Conway says the system mirrors — more people means a denser comms graph (Conway) and more diffusion of who-owns-what (lex-u2kzt). Brooks is the claim that adding to that graph under deadline slows the project"
+  - "operationally adjacent to lex-mnjrw Parkinson's law: Parkinson says staff multiply and make work for each other independent of workload; Brooks says adding staff to a specific late project actively delays it. Both deny the naive headcount-equals-output model — people are not fungible units of 'manpower', and adding them carries coordination and ramp-up costs that can dominate"
+critical-questions:
+  - "is the remaining work PARTITIONABLE, or tightly coupled? Adding people helps only to the degree the work splits into near-independent pieces. If the late work is integration/coordination-heavy, new hands will slow it — find the partition or don't add people"
+  - "what is the ramp-up cost, and who pays it? New workers consume the time of your most productive existing people. If the project is days from a deadline, ramp-up alone may exceed the time saved — the addition is net-negative"
+  - "are you treating people as fungible 'man-months'? The man-month is a myth precisely because people and months are not interchangeable when tasks have dependencies. Re-plan scope or timeline rather than assuming headcount converts linearly to speed"
+  - "is the real fix de-scoping, not staffing? When a project is late, cutting or deferring scope (and protecting the existing team's focus) usually beats adding people. Brooks's law reframes 'add resources' as often the wrong lever"
+status: active

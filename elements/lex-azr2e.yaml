@@ -1,0 +1,18 @@
+id: lex-azr2e
+name: the-current-antagonist-is-identified-as-the-same-recurring-threat-across-past-encounters
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: 'A present grievance against an antagonist can be reframed not as a new, isolated event but as merely the latest instance of a long-standing pattern, with the antagonist''s identity across separate encounters explicitly named as continuous rather than coincidental. In the Jataka''s tale of Kukkuta, the Falcon''s plot against the Fowl is identified as the same recurring threat Devadatta has always posed: "''Tis not now the first time that he has tried to murder me, but it was the same before."'
+related: []
+evokes: [jataka, dasanipata, kukkuta-jataka, recidivist-antagonist, recurring-threat-across-encounters]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kukkuta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 448, Kukkuta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "'Tis not now the first time that he has tried to murder me, but it was the same before."
+canonical-instances:
+  - "A city council member, hearing a familiar lobbyist propose a zoning change that would quietly benefit the same developer as three prior proposals, tells colleagues plainly that this is not a new issue but the same recurring play they have seen from this exact source before."
+critical-questions:
+  - "Does naming a present conflict as a continuation of a recurring pattern change how it should be handled compared to treating it strictly on its own isolated merits?"
+status: active

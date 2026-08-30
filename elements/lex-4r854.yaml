@@ -1,0 +1,24 @@
+id: lex-4r854
+name: public-outrage-locks-onto-whoever-is-visible-not-responsible
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a scandal breaks, public outrage and punitive attention lock onto whoever is visible at the moment of exposure, which frequently isn't the same group who actually made the decisions that caused the harm — employees who happened to be in a targeted role when a bonus scandal broke were not the same people who had written the toxic financial instruments, yet absorbed a 'carefully stage-managed drama of retribution' meant for someone else. Meanwhile the person who actually approved the underlying decisions can escape accountability entirely by denying responsibility persuasively before the body with power to assign it, precisely because that person, unlike the visible scapegoats, retains the standing and composure to perform a credible denial. Visibility at the moment of exposure, not proximity to the actual decision, predicts who absorbs the consequences."
+related: []
+evokes: [jackall-moral-mazes, "a carefully stage-managed drama of retribution", visibility-not-responsibility-predicts-who-absorbs-outrage]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-afterword-aig-caught-in-wrong-place
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), \"Moral Mazes and the Great Recession,\" Section III."
+    quote: "they were financial managers who ended up in the wrong place at the wrong time and got caught in a carefully stage-managed drama of retribution"
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-afterword-aig-chairman-rejected-responsibility
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), \"Moral Mazes and the Great Recession,\" Section III."
+    quote: "the former AIG chairman rejected any responsibility for his former company's difficulties in a virtuoso performance before a congressional committee"
+canonical-instances:
+  - "After a data breach becomes public, the customer-facing support team fields the bulk of public anger and press scrutiny, while the engineering leadership decisions that left the vulnerability unpatched for months draw comparatively little sustained attention."
+critical-questions:
+  - "Is this mismatch between visibility and actual responsibility a failure of the accountability process, or does the visible party's proximity to the harm's discovery sometimes correctly track a real (if lesser) failure of their own, even when the larger architect escapes with a bigger share of the blame?"
+status: active

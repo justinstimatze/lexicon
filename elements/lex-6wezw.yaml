@@ -1,0 +1,19 @@
+id: lex-6wezw
+name: an-insider-colludes-with-a-threat-then-performs-diligent-return
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A guardian responsible for protecting a group from a specific threat can secretly arrange to profit from that exact threat, then perform diligent vigilance on return to mask the complicity. In the Jataka's tale of the border-headman, a headman secretly arranges with robbers to loot his own village while he conveniently marches his men elsewhere, splits the resulting booty with them, then marches back at evening with drums beating — the visible performance of a guardian returning from patrol, not a co-conspirator returning from a payoff. The theatrical return isn't incidental; it's the second half of the crime, engineered specifically to prevent anyone from connecting the headman's absence to the timing of the raid."
+related: []
+evokes: [jataka, ekanipata, kharassara-jataka, guardian-colludes-with-the-threat-they-guard-against, performed-vigilance-masks-complicity]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kharassara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 79, Kharassara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "He gave the robbers time to drive and slay The cattle, burn the houses, capture folk; And then with drums a-beating, home he marched"
+canonical-instances:
+  - "A warehouse security supervisor tips off a theft ring about the shift schedule and takes a cut of the stolen inventory, then personally leads the incident-response walkthrough afterward, visibly thorough and outraged, specifically to be seen as the person least likely to be involved."
+critical-questions:
+  - "What would have exposed this scheme even without direct evidence — is there a way to check a guardian's absence against a threat's timing systematically, rather than relying on the theatrical return itself eventually slipping?"
+  - "Does the performed diligence actually need to be elaborate to work, or does simply not being obviously absent do most of the protective work regardless of how convincing the specific display is?"
+status: active

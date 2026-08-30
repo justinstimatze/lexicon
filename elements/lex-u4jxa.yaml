@@ -1,0 +1,19 @@
+id: lex-u4jxa
+name: detection-risk-tracks-who-has-a-real-stake-not-just-time-exposed
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When something risky has gone unnoticed for a while under casual observation, check who is actually doing the watching before concluding it is safe. In Aesop's 'The Stag in the Ox-Stall,' a stag hiding among cattle passes unnoticed by the hired herdsmen, but the ox warns him this proves nothing: 'If the master comes, you will certainly be found out, for nothing ever escapes his keen eyes.' Vigilance is not uniform across an organization — indifferent hired hands and an owner with genuine stake in the outcome apply structurally different levels of attention, so surviving scrutiny from the former is no evidence at all about surviving scrutiny from the latter."
+related: []
+evokes: [aesop, the-stag-in-the-ox-stall, stake-dependent-vigilance, false-safety-from-indifferent-scrutiny]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-stag-in-the-ox-stall
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Stag in the Ox-Stall.' Verified verbatim against a direct extraction of the held copy."
+    quote: "If the master comes, you will certainly be found out, for nothing ever escapes his keen eyes."
+canonical-instances:
+  - "an expense-report irregularity that sails past a junior or rotating auditor for months, then gets caught the one time the founder personally reviews the books — the risk was never actually low, only untested against the party who mattered."
+critical-questions:
+  - "How would the stag have assessed, in advance, whether his hiding place would ever come under the master's direct attention, rather than discovering the answer only when it was too late to act on it?"
+  - "Does this generalize to any hierarchy with variable stakeholder attention, or does it depend specifically on the owner's attention being reliably sharper than the hired hands' — what happens when the reverse is true?"
+status: active

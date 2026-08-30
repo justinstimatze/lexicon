@@ -1,0 +1,22 @@
+id: lex-8nj2z
+name: a-report-earns-belief-only-where-it-matches-private-experience
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A person can cross-check a circulating report of someone else's revelation against their own private vision point by point, willing to treat specifically matching details as possible confirmation of a shared underlying truth, while explicitly declining to accept or reinterpret the parts of the report that don't resemble their own experience at all -- rather than either dismissing the whole report or accepting it wholesale. Black Elk hears that the Wanekia's power let Good Thunder visit a dead son living on in a tepee: 'This was not like my great vision, and I just went on working in the store. I was puzzled and did not know what to think.' The specific mismatch is neither absorbed into his framework nor treated as grounds to reject everything else he'd heard."
+related: []
+evokes: [black-elk-speaks, the-messiah, this-was-not-like-my-great-vision, i-was-puzzled, did-not-know-what-to-think]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch21-the-messiah
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 21, 'The Messiah.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "Good Thunder himself told me that, with the power of the Wanekia, he had gone to a bison skin tepee; and there his son, who had been dead a long time, was living with his wife, and they had a long talk together. This was not like my great vision, and I just went on working in the store. I was puzzled and did not know what to think."
+canonical-instances:
+  - "A physicist reviewing a rival lab's preprint accepts the parts of the reported result that match predictions from their own unpublished model, while explicitly setting aside the parts that don't fit, rather than either endorsing or rejecting the paper as a whole."
+  - "A detective hearing a witness's account credits whichever details line up with physical evidence already gathered at the scene, then flags everything else as unexplained instead of bending the emerging theory to absorb it."
+  - "A translator comparing a newly discovered manuscript fragment against a known text accepts the passages that align word for word as likely from the same source, while treating the divergent passages as an open question rather than assuming either a shared or a separate origin."
+critical-questions:
+  - "Does crediting only the matching parts risk cherry-picking -- selectively counting the hits and discounting the misses in a way that would make almost any two accounts look like partial confirmation of each other?"
+  - "Is Black Elk's puzzlement over the mismatched dead-son story a genuine open question, or a quiet way of preserving his own vision's authority by treating anything that doesn't fit as simply unaccounted for rather than as evidence against the whole framework?"
+  - "How many matching details would it take before the mismatched ones stopped mattering at all -- and does the account ever specify a threshold, or does the selective crediting just continue indefinitely as new reports arrive?"
+status: active

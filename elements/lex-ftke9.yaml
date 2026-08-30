@@ -1,0 +1,33 @@
+id: lex-ftke9
+name: work-backwards-from-goal
+type-in: state
+type-out: process
+_tier: atomic
+agent-instruction: "When facing a complex goal, work backwards from the desired end-state to the necessary precursors. Reverse-engineering surfaces dependencies that forward planning misses because we instinctively start from what we can do."
+related: [lex-89rjr, lex-bpr6b, lex-ypecd, lex-ppq72, lex-w9yzj, lex-p6p82, lex-qhrpv, lex-th6tr, lex-eb3wf, lex-8j5ms, lex-6bycb, lex-8f8jk, lex-9exaw, lex-xgyv7, lex-eehjz, lex-4ww6k, lex-2jn8d, lex-emmw2]
+scaffolds-from: [lex-89rjr]
+evokes: [retrocausal-traversal, backward-induction, what-must-have-been-true, reverse-engineering-the-path]
+lineage:
+  - source: primary
+    text: polya-1945
+    citation: "George Polya, How to Solve It (Princeton UP 1945; 2nd ed. 1957) — 'Working backwards' chapter (p.225-229) as a named devise-a-plan move. Polya credits Pappus (4th-century Alexandria) with the 'method of analysis': start from what is required, assume what is sought as already found, inquire from what antecedent the desired result could be derived"
+    quote: "But exceptionally able people, or people who had the chance to learn in their mathematics classes something more than mere routine operations, do not spend too much time in such trials but turn around, and start working backwards. What are we required to do? (What is the unknown?) Let us visualize the final situation we aim at as clearly as possible. ... (Let us start from what is required and assume what is sought as already found, says Pappus.) From what foregoing situation could we obtain the desired final situation shown in Fig. 25? (Let us inquire from what antecedent the desired result could be derived, says Pappus.) [p.227 — the canonical work-backwards procedure.] We came eventually upon something already known (these are Pappus's words) and following the method of analysis, working backwards, we have discovered the appropriate sequence of operations. [p.229 — completion of the work-backwards arc.]"
+  - source: practitioner
+    text: corey-1957-retrosynthesis
+    citation: "E.J. Corey, retrosynthetic analysis in organic chemistry — work-backwards-from-goal applied to molecular synthesis (Nobel Prize 1990)"
+  - source: practitioner
+    text: bellman-dynamic-programming
+    citation: "Bellman 1957 — backward induction as the canonical solution method for sequential-decision problems"
+  - source: practitioner
+    text: polya-decomposition-pass
+    citation: "promoted from cross-domain attestation: math (Polya), chemistry (retrosynthesis), CS (dynamic programming), planning (chess endgame), game AI (GOAP)"
+canonical-instances:
+  - "chess endgame study: start from checkmate position, work backwards through forced moves to find the winning sequence"
+  - "retrosynthesis: target molecule → identify last bond formed → identify precursor → recurse until commercially-available starting materials"
+  - "API design: design the call-site you want clients to write, work backwards to the implementation that supports it"
+critical-questions:
+  - "is the goal-state sharp enough to work backwards FROM? a fuzzy goal produces fuzzy precursors and the method silently fails (cf. lex-89rjr)"
+  - "is the goal-state actually reachable from the current state, or are you about to discover infeasibility expensively by working backwards into a dead-end?"
+  - "are you working-backwards because forward attempts stalled, or to avoid the discomfort of trying forward at all? backwards-as-avoidance is a failure-mode"
+  - "can you check the candidate-precursor against the current-state at each step? without this check the chain is wishful — every link sound, no contact with reality"
+status: active

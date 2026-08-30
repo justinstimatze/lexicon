@@ -1,0 +1,19 @@
+id: lex-9uv4r
+name: a-rescuers-secrecy-condition-holds-until-a-third-party-makes-it-profitable-to-break
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A rescuer can extract an explicit promise of secrecy as the one condition of the rescue, and the promise can survive as long as nothing outside the relationship gives it a price — the moment an unrelated third party puts a reward on the very information being protected, the promise breaks, not because the rescued party ever intended to betray it, but because betraying it has become separately profitable in a transaction that has nothing to do with the original rescue. In the Jataka''s tale of the golden deer, the deer saves a drowning man on the explicit condition: "I pray you, be not led away by greed of gain to tell the king or some great man, that in such a place is a golden deer to be found." The man promises. He keeps that promise until, entering Benares, he hears the king''s own crier offering a fortune for exactly this information — and volunteers it unprompted: "I bring you tidings of that deer, choicest of all the breed: Fair women and a village choice then give me for my meed."'
+related: [lex-d5t5h]
+evokes: [jataka, terasanipata, ruru-jataka, secrecy-promise-monetized-by-a-third-party, rescue-conditioned-on-silence]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-ruru-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XIII (Terasanipata), No. 482, Ruru-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: 'I bring you tidings of that deer, choicest of all the breed: / Fair women and a village choice then give me for my meed.'
+canonical-instances:
+  - "An engineer who quietly covers for a struggling teammate on the explicit condition that no one else finds out keeps that promise for a year, until a competing team starts paying a finder's fee for evidence of underperformance on rival projects — at which point the teammate's failure becomes something with a market price attached, and the engineer reports it unprompted to collect."
+critical-questions:
+  - "Operationally distinct from lex-d5t5h (compassion toward a rescued stranger imports a future betrayer, where the danger is the proximity and dependency the rescue itself creates): here the man never gets close to the deer again, and the betrayal has nothing to do with intimacy — it's a promise breaking the instant an unrelated party puts a price on the information. Does the absence of proximity make this a cleaner test of whether gratitude alone can hold, without intimacy either helping or hurting it?"
+  - "The man never sought out a way to profit from the secret — he encountered the king's offer by chance. Would the promise have held indefinitely if he had never happened to walk past that particular proclamation?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-mz49n
+name: when-one-persuasion-lever-fails-switch-levers-not-force
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When your first persuasion attempt fails because the target has become wary, check whether switching to a completely different kind of lever, rather than repeating or intensifying the same one, can reopen the door. Aesop's 'The Lion, the Fox, and the Stag' has a fox fail to lure a stag with promises of reward and status; once that lever is exhausted and the stag flees in fear, the fox switches from reward to shame: 'What a coward you were; surely you didn't think the Lion meant any harm? Why, he was only going to whisper some royal secrets into your ear when you went off like a scared rabbit.' The tactic is told from the manipulator's own side, and the specific move is the lever-switch itself — from appealing to gain, to attacking identity — which a simple 'try again harder' framing does not capture."
+related: []
+evokes: [aesop, the-lion-the-fox-and-the-stag, switching-persuasion-levers, shame-after-reward-fails]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-lion-the-fox-and-the-stag
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Lion, the Fox, and the Stag.' Verified verbatim against a direct extraction of the held copy."
+    quote: "What a coward you were, said he; surely you didn't think the Lion meant any harm? Why, he was only going to whisper some royal secrets into your ear when you went off like a scared rabbit."
+canonical-instances:
+  - "a scammer whose financial-upside pitch fails re-approaches the same target with a status or ego challenge instead, switching levers entirely rather than repeating the failed pitch with more insistence."
+critical-questions:
+  - "Does switching levers this way rely on the target having no memory of the fox's earlier failed attempt, or would recognizing the fox as the same manipulator undercut the second lever regardless of which one is tried?"
+  - "Are there only two levers here — reward and shame — or does the underlying mechanism generalize to any number of distinct persuasion angles a manipulator could rotate through after each failure?"
+status: active

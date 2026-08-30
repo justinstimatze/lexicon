@@ -1,0 +1,19 @@
+id: lex-xwrm3
+name: publicly-airing-an-old-private-grievance-forces-its-redress
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "A private grievance held silently for years can be resolved not by confronting the offender privately again, but by revealing it in front of the very audience whose opinion the offender values — public exposure accomplishes what private complaint never did. In the Jataka's tale of the two lizards, years after being neglected, the queen reveals the king's old private offense directly in open court, prompted by a minister's question: 'Then wert thou first known to me, When in forest-depths, O king, Roasted lizard broke its string And from Bo-tree branch got free.'"
+related: []
+evokes: [jataka, catukkanipata, godha-jataka, public-exposure-forces-redress-that-private-complaint-never-achieved, an-old-grievance-surfaces-in-front-of-an-audience-that-matters]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-godha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 333, Godha-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Then wert thou first known to me, When in forest-depths, O king, Roasted lizard broke its string And from Bo-tree branch got free."
+canonical-instances:
+  - "A co-founder who's privately raised the same unequal-workload complaint to their partner for years with no change finally brings it up in front of the whole investor board during a routine update — the issue gets addressed within the week, something years of private conversation never accomplished."
+critical-questions:
+  - "Does public exposure work here because it genuinely shames the offender into change, or because it puts pressure on them from the audience, meaning the fix is performative rather than a real change of heart?"
+  - "Is there a risk that airing the grievance publicly damages the relationship or the grievant's own standing in ways that private confrontation, however unsuccessful, would not have?"
+status: active

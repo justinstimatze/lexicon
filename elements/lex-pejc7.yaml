@@ -1,0 +1,24 @@
+id: lex-pejc7
+name: technology-can-be-deployed-as-a-coercive-threat-in-labor-conflict
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When new production technology is introduced or announced during a labor dispute or a period of wage pressure, check whether its deployment is functioning as a tactical weapon in the underlying power struggle rather than, or in addition to, a genuine efficiency upgrade — the two are not mutually exclusive, and the coercive function can operate whether or not the technology actually delivers its claimed efficiency gains. Merton names both the mechanism and its history. The mechanism: 'Technology has been employed not only for the production of goods but also for the management of workmen. It has, in fact, been repeatedly defined as a weapon for subduing the worker by promising to displace him unless he accepts proffered terms of employment.' The historical instance he gives states the political function without euphemism: 'Andrew Ure, for example, could then describe the self-acting mule as a \"creation destined to restore order among the industrious classes. . . . The invention confirms the great doctrine already propounded that when capital enlists science into her service the refractory hand of labor will always be taught docility.\"' Diagnostic use: when management announces automation specifically in response to a wage demand, a strike threat, or 'labor intransigence,' and frames the technology's chief virtue in terms of the workforce's compliance rather than its output, treat the efficiency framing as potentially secondary to the disciplinary framing — ask what the announcement does to the workforce's bargaining position independent of whatever the technology, if built, would actually do to output per worker-hour."
+related: [lex-rk87u]
+evokes: [merton-1957, andrew-ure, self-acting-mule, refractory-hand-of-labor, teaching-docility, philosophy-of-manufactures]
+lineage:
+  - source: primary
+    text: merton-1957-technology-as-weapon-for-management-of-workmen
+    citation: "Robert K. Merton, Social Theory and Social Structure, Revised and Enlarged Edition (Glencoe, IL: Free Press, 1957), Ch. XVII 'The Machine, the Worker, and the Engineer,' p.565. Verified verbatim against a University of Iowa library scan via Internet Archive OCR text (item 31858016281432)."
+    quote: "'Technology has been employed not only for the production of goods but also for the management of workmen. It has, in fact, been repeatedly defined as a weapon for subduing the worker by promising to displace him unless he accepts proffered terms of employment.'"
+  - source: primary
+    text: merton-1957-andrew-ure-self-acting-mule-docility
+    citation: "Robert K. Merton, Social Theory and Social Structure (1957), same chapter, p.565."
+    quote: "'A hundred years ago, these political implications of technology (and of the role assigned to engineers) were somewhat more plainly drawn by enterprisers and their representatives. Andrew Ure, for example, could then describe the self-acting mule as a \"creation destined to restore order among the industrious classes. . . . The invention confirms the great doctrine already propounded that when capital enlists science into her service the refractory hand of labor will always be taught docility.\"'"
+canonical-instances:
+  - "A company announces it is exploring automation specifically to 'reduce headcount dependency' during active contract negotiations — the announcement's effect on the negotiation is separable from, and may matter more than, whatever the automation would actually deliver if built."
+  - "Andrew Ure's own words about the self-acting spinning mule, quoted by Merton, describe the machine's political function — teaching the 'refractory hand of labor' docility — as explicitly as its productive one, from an era when enterprisers stated the disciplinary purpose openly rather than folding it into efficiency language."
+critical-questions:
+  - "How would you distinguish a technology genuinely introduced for efficiency that happens to also shift bargaining power, from one introduced primarily as a threat? Does the distinction matter operationally if the effect on the workforce is the same either way?"
+  - "Does naming this dynamic risk implying that most automation is deployed in bad faith, when the large majority is not introduced anywhere near an active labor dispute?"
+status: active

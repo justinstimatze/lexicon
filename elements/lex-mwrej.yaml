@@ -1,0 +1,21 @@
+id: lex-mwrej
+name: gathering-information-and-crediting-it-are-separate-operations
+type-in: process
+type-out: state
+_tier: atomic
+agent-instruction: "Treat information intake and information belief as two independently-set dials, not one coupled setting. The Ferengi Rules of Acquisition state the split as a single directive: 'Hear all, trust nothing.' Maximize what you take in — every report, rumor, and claim reaches you — while defaulting every single one to unverified until it earns credence on its own. One common failure filters intake by presumed content, refusing to even hear something because it's already been judged unworthy of trust. The opposite failure credits something automatically the moment it arrives through a channel that felt authoritative. The rule's whole force is in refusing to let intake and belief move together by default, in either direction."
+related: []
+evokes: [ferengi, rules-of-acquisition, star-trek, epistemic-hygiene, credence-vs-intake]
+lineage:
+  - source: primary
+    text: star-trek-ds9-rules-of-acquisition-190
+    citation: "Star Trek: Deep Space Nine, Rule of Acquisition #190, spoken dialogue from 'Call to Arms' (season 5, episode 26, 1997). Verified against Memory Alpha's sourced compilation of on-screen Rules of Acquisition dialogue (a wiki page functioning as a transcript aggregator with per-rule episode citations, not quoted for its own editorial framing)."
+    quote: "Hear all, trust nothing."
+canonical-instances:
+  - "An intelligence analyst reads every raw source report available, including ones from unreliable assets, and assigns each an independent confidence rating before acting on any of them — that's the two-dial discipline running correctly. A colleague who screens reports for presumed reliability before ever reading them has already coupled the dials, restricting intake on the strength of an unearned trust judgment."
+  - "A juror instructed to consider all admitted testimony while weighing each witness's credibility separately is the same structure applied to a courtroom: everything gets heard, nothing gets automatic belief."
+critical-questions:
+  - "Is 'hear all' actually achievable at scale, or does finite attention force some filtering before intake even happens, making the rule's first half aspirational rather than operational?"
+  - "Does defaulting every single input to zero trust have a real cost — does it slow decisions down past the point where the discipline is worth it, especially when some sources really have earned durable credibility?"
+  - "How does someone actually update trust for a given source over time under this rule, if every individual report resets to untrusted rather than accumulating a track record?"
+status: active

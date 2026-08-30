@@ -1,0 +1,21 @@
+id: lex-z4mtg
+name: passing-one-ordeal-doesnt-clear-a-suspected-deception-so-testers-escalate
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When someone suspects a claimed incapacity is fabricated but a physical exam can''t prove it, they don''t rely on one test — they build a sequence, each trial targeting a channel of fear or desire the claim hasn''t yet been checked against, because passing a pain test proves nothing about a fear test, and passing both proves nothing about a desire test. In the Jataka''s tale of Temiya, the prince''s nurses reason from anatomical mismatch straight to suspicion of concealment, then escalate through fire, a charging elephant, defanged serpents, an armed threat, seductive courtesans, and forced squalor across sixteen years, because ruling out one channel at a time never rules out the whole claim: "Then his nurses reflected, ''The hands and feet of cripples are not like his, the formation of the jaws of the dumb is not like his, the structure of the ears of the deaf is not like his; there must be some reason for all this, let us examine into it.''"'
+related: [lex-4xfwn, lex-vv7bz]
+scaffolds-from: [lex-4xfwn]
+evokes: [jataka, mahanipata, muga-pakkha-jataka, temiya-jataka, escalating-verification, adversarial-testing]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-muga-pakkha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 538, Muga-Pakkha-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Then his nurses reflected, \"The hands and feet of cripples are not like his, the formation of the jaws of the dumb is not like his, the structure of the ears of the deaf is not like his; there must be some reason for all this, let us examine into it.\""
+canonical-instances:
+  - "A hiring committee suspicious that a candidate's disclosed disability might be exaggerated for accommodation doesn't administer one medical exam — over months they vary the task, the observer, and the setting, because clearing a test along one axis says nothing about the others."
+  - "A fraud investigator who can't prove an insurance claimant's injury is staged doesn't stop after one surveillance day catches nothing — they vary the trigger, a delivery at the door, a grandchild visiting, a fire alarm, across weeks, since a claimant coached to pass one scenario may not anticipate the next."
+critical-questions:
+  - "At what point does an escalating test regime designed to expose a lie become indistinguishable from cruelty regardless of whether the underlying claim turns out to be true or false?"
+  - "Sixteen years of genuinely enduring fire, a threatened beheading, and starvation without flinching is itself extraordinary — does surviving the battery prove the original claim, or does it just prove the subject's tolerance for self-inflicted harm exceeded what the testers imagined?"
+status: active

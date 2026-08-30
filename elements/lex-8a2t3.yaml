@@ -1,0 +1,19 @@
+id: lex-8a2t3
+name: a-messages-fate-turns-on-the-messengers-reputation-rather-than-its-content
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A message can be trusted or dismissed based entirely on the messenger's culturally-coded reputation for luck, without the content of the message itself ever entering the evaluation. A sincere warning delivered by a bad-omen creature gets ignored. The same fate, wished by something read as lucky, gets a bow of thanks. In the Jataka's tale of the two animals, a man's reborn mother tries to warn him away from robbers ahead, and a crane calling out to the robbers to kill him is mistaken for a lucky sign. The narrator names the inversion directly: 'the man does not know what is happening, and drives off his mother, who wishes his welfare, while the crane, who wishes him ill, he worships, under the belief that it is a well-wisher. The man is a fool.' The content of each message was never checked. Only the reputation of whichever creature delivered it."
+related: []
+evokes: [jataka, tikanipata, satapatta-jataka, cultural-omen-status-determines-trust-independent-of-content, a-sincere-warning-from-a-bad-omen-source-goes-unheard]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-satapatta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 279, Satapatta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "the man does not know what is happening, [389] and drives off his mother, who wishes his welfare, while the crane, who wishes him ill, he worships, under the belief that it is a well-wisher. The man is a fool."
+canonical-instances:
+  - "A team dismisses a blunt bug report from a contractor known for being difficult to work with while eagerly acting on a vague, upbeat status update from a well-liked colleague, even though the contractor's report was the one that accurately identified the actual problem."
+critical-questions:
+  - "Is the man's error really about ignoring content in favor of reputation, or is relying on a messenger's track record actually a reasonable shortcut most of the time, one that simply failed in this specific case?"
+  - "How would the man have been expected to evaluate the jackal's and crane's messages on their content alone, given that neither species can be reasoned with the way a human informant could?"
+status: active

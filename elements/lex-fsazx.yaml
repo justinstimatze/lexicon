@@ -1,0 +1,29 @@
+id: lex-fsazx
+name: limit-taking
+type-in: state
+type-out: state
+_tier: atomic
+agent-instruction: "When a sequence approaches but never reaches a value, surface the limit operation — the value the sequence converges to is mathematically real even if no element equals it."
+related: [lex-ds73b, lex-x9pxs, lex-hm8yx, lex-rupk9, lex-sjsxx, lex-stppu]
+evokes: [push-the-parameter, what-happens-at-the-edge, recover-known-from-general, asymptotic-thinking, boundary-of-the-regime]
+lineage:
+  - source: primary
+    text: physics-methodological-core
+    citation: "standard methodology across mechanics / EM / QM / GR / stat-mech: take v→c (relativistic limit), ℏ→0 (classical limit), N→∞ (thermodynamic limit), T→0 (ground state limit) to recover known regimes from a more general formulation"
+  - source: practitioner
+    text: cauchy-weierstrass-limit-definitions
+    citation: "the ε-δ definition of limit (Cauchy 1821, Weierstrass formalization) is the math-foundational form; CS asymptotic analysis (big-O, big-Θ) is essentially limit-taking on resource-usage functions as input-size→∞"
+  - source: practitioner
+    text: physics-decomposition-pass
+    citation: "promoted from cross-attestation: physics (regime limits), math (calculus, asymptotics), CS (algorithmic complexity), philosophy (reductio ad absurdum is limit-taking pushed to contradiction), engineering (worst-case design)"
+canonical-instances:
+  - "special relativity reduces to Newtonian mechanics in the v/c → 0 limit; quantum mechanics reduces to classical mechanics in the ℏ → 0 limit (both are sanity-checks AND ways of seeing why the more-general formulation is the right generalization)"
+  - "big-O notation: f(n) = O(g(n)) means lim sup |f(n)/g(n)| < ∞ as n → ∞; 'is this algorithm scalable?' is fundamentally a limit-taking question about resource usage"
+  - "reductio ad absurdum: assume the negation, push the consequences to a logical extreme (the 'limit' of the assumption's scope), observe contradiction, conclude the original"
+  - "engineering: 'what if usage is 100x current?' — designing-for-the-limit forces clarity about which assumptions are foundational under stress"
+critical-questions:
+  - "does the limit ACTUALLY exist? formally well-posed limit-taking requires the limit to exist (in the relevant sense). Naive limit-pushing on divergent expressions produces nonsense (0/0, ∞-∞, ∞/∞). Cauchy/Weierstrass exist for a reason — name the convergence first"
+  - "what does the limit RECOVER, and is it the right sanity-check? v→c in relativity recovers Newtonian; ℏ→0 recovers classical. The limit should recover something KNOWN (a verified regime) — if you don't recognize what you got, the limit may not be in the regime you expected"
+  - "is the regime where you're computing well inside the boundary, or near it? limit-taking is sharpest near the parameter's extremum. Using a 'small' parameter for first-order approximation when the parameter isn't actually small (v=0.9c, not v«c) breaks the perturbation hierarchy"
+  - "is this distinct from lex-x9pxs perturbation-around-known-solution? limit-taking probes the EXTREMUM (the edge); perturbation expands AROUND a known interior point. Both deal with parameters but at different points along the parameter axis"
+status: active

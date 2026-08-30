@@ -1,0 +1,19 @@
+id: lex-qnr4x
+name: a-victims-own-trusted-attachment-is-weaponized-as-the-delivery-vector
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A target's genuine affection for someone or something they trust completely can be turned into the exact channel used to deliver harm, since the behavior that trust permits — closeness, unguarded proximity — is precisely what an attack needs to reach its target. In the Jataka's tale of the lion and his doe, a lion terrorizing cattle is killed by poisoning the doe he loves and releasing her back to him; his affectionate licking, a behavior he'd never direct at anything he perceived as a threat, is what delivers the poison. The lion's trust wasn't a vulnerability separate from the attack — it was the attack's only viable path in, since no direct assault could have gotten as close as the thing he already let close by choice."
+related: []
+evokes: [jataka, ekanipata, vissasabhojana-jataka, trusted-attachment-weaponized-as-delivery-vector, trust-grants-the-proximity-an-attack-needs]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-vissasabhojana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 93, Vissasabhojana-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Trust not the trusted, nor th' untrusted trust; Trust kills; through trust the lion bit the dust."
+canonical-instances:
+  - "A finance director who fully trusts a longtime personal assistant to handle wire transfers without a second review is defrauded not by a stranger but by that same assistant, who could only move the money because the years of earned trust had already removed every check a less-trusted employee would have faced."
+critical-questions:
+  - "Does this mean trust itself is the vulnerability, or is the real failure the absence of any check that survives trust — a verification step that doesn't depend on suspicion to trigger it?"
+  - "How would the lion have protected himself without simply refusing all affection, given that some minimum of trusted closeness seems necessary for any relationship to function at all?"
+status: active

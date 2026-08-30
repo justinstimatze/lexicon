@@ -1,0 +1,18 @@
+id: lex-e2a2q
+name: an-answer-technically-satisfies-the-question-while-denying-the-questions-category-any-truth
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: 'After thoroughly answering a question in the exact terms the audience wants, a respondent can close by explicitly denying that the category the question belongs to has any truth-value at all, technically satisfying the request while undercutting its own premise in the same breath. In the Jataka''s tale of Maha-Mangala, having spent twelve stanzas enumerating specific omens as requested, the sage''s final line withdraws the entire premise: "For in the omens is no truth at all."'
+related: []
+evokes: [jataka, dasanipata, maha-mangala-jataka, premise-dissolving-answer, socratic-subversion-of-a-questions-foundation]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-maha-mangala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 453, Maha-Mangala-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "For in the omens is no truth at all."
+canonical-instances:
+  - "A financial advisor spends an hour walking a client through every technical indicator the client asked about, then closes by telling him plainly that none of the indicators actually predict anything reliable, having answered the literal question in full only to dismiss the entire framework behind it."
+critical-questions:
+  - "Does answering a question fully before dissolving its premise land more persuasively than dismissing the premise up front, or does the thorough answer risk being taken as endorsement despite the closing disclaimer?"
+status: active

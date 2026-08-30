@@ -1,0 +1,22 @@
+id: lex-axsxh
+name: patient-nonjudgmental-questioning-extracts-self-incriminating-admissions
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "An interrogator never states an accusation or objection, and instead asks a sequence of calm, specific, genuinely curious follow-up questions about a practice the other party takes for granted. The accumulating specificity of the answers gradually surrounds the answerer and forces admissions they never intended to make. The questioner's tone stays neutral throughout, betraying no judgment. The exposure comes entirely from the answerer's own words, produced in response to simple factual questions rather than any stated critique. Gilman's narrator names the mechanism directly: 'they weren't a bit more curious about us than we were about them... But they were bent on understanding our kind of civilization, and their lines of interrogation would gradually surround us and drive us in till we found ourselves up against some admissions we did not want to make.'"
+related: []
+evokes: [herland, chapter-5, their-lines-of-interrogation-would-gradually-surround-us, admissions-we-did-not-want-to-make, neutral-questions-drive-an-answerer-into-a-corner]
+lineage:
+  - source: primary
+    text: gilman-1915-herland-chapter-5
+    citation: "Charlotte Perkins Gilman, Herland (1915), Chapter 5, 'A Unique History.' Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "I wish I could represent the kind, quiet, steady, ingenious way they questioned us. It was not just curiosity--they weren't a bit more curious about us than we were about them, if as much. But they were bent on understanding our kind of civilization, and their lines of interrogation would gradually surround us and drive us in till we found ourselves up against some admissions we did not want to make. [...] They did not scold or fuss about it. Calm as judges, those women were. But they made notes."
+canonical-instances:
+  - "A regulator investigating a company's safety record never accuses anyone of wrongdoing, and instead asks a careful sequence of specific questions about maintenance schedules and staffing ratios, until the company's own witnesses have stated, in their own words, the exact facts the regulator needed to establish negligence."
+  - "A therapist never tells a client their justification for a decision is flawed, and instead keeps asking calm, specific questions about what happened next and how it felt, until the client arrives, unprompted, at the same conclusion the therapist could have stated directly but chose to let emerge from the client's own answers."
+  - "A journalist interviewing an executive about a product recall never states that the company knew about the defect in advance, and instead asks a careful sequence of dated, specific questions about when reports first arrived and what was done with them, until the executive's own timeline makes the prior knowledge undeniable."
+critical-questions:
+  - "Does this technique require the questioner to already suspect a specific admission is coming, or can it work as genuine open-ended curiosity that happens to surface uncomfortable facts as a byproduct, with no predetermined target in mind?"
+  - "How would an answerer actually defend against this kind of questioning in real time -- is refusing to answer specific questions the only real countermeasure, and does that refusal itself read as suspicious in a way that answering honestly would not?"
+  - "Is the technique's power really in the neutral tone, or could the same sequence of questions asked with visible skepticism or hostility extract the same admissions just as effectively, meaning the calm demeanor is a comfort for the questioner rather than a functional requirement of the method?"
+status: active

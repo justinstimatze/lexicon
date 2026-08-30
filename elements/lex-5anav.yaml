@@ -1,0 +1,22 @@
+id: lex-5anav
+name: an-indivisible-whole-cannot-be-partially-acquired
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "When several named goods turn out to be strictly identical in substance -- different labels for one indivisible thing rather than separate components of it -- pursuing just one of the labels while ignoring the others doesn't even secure that one, because there were never separate portions to divide up in the first place. Philosophy states the principle, then shows it failing in practice: 'This, then, which is one, and simple by nature, human perversity separates, and, in trying to win a part of that which has no parts, fails to attain not only that portion (since there are no portions), but also the whole, to which it does not dream of aspiring. [...] He who, to escape want, seeks riches, gives himself no concern about power... But at this rate he does not even attain to independence -- a weakling void of strength, vexed by distresses, mean and despised, and buried in obscurity.'"
+related: []
+evokes: [consolation-of-philosophy, book-iii-prose-ix, that-which-has-no-parts, since-there-are-no-portions, five-false-goods-are-one-true-good]
+lineage:
+  - source: primary
+    text: boethius-c524-consolation-of-philosophy-book-iii-prose-ix
+    citation: "Boethius, The Consolation of Philosophy (c. 524 AD), trans. H. R. James (London: George Bell & Sons, 1897), Book III, Prose IX. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "This, then, which is one, and simple by nature, human perversity separates, and, in trying to win a part of that which has no parts, fails to attain not only that portion (since there are no portions), but also the whole, to which it does not dream of aspiring. [...] He who, to escape want, seeks riches, gives himself no concern about power; he prefers a mean and low estate, and also denies himself many pleasures dear to nature to avoid losing the money which he has gained. But at this rate he does not even attain to independence--a weakling void of strength, vexed by distresses, mean and despised, and buried in obscurity."
+canonical-instances:
+  - "A founder who chases valuation alone, treating it as separable from genuine product-market fit, ends up with neither -- the paper wealth evaporates in the next down round precisely because the underlying fit it was supposed to reflect was never actually there."
+  - "A student who studies purely for grades, treating understanding the material and getting an A as two different things pursued in tandem, often ends up with neither real understanding nor durable academic success, because the grade was only ever a proxy for the understanding it's being chased instead of."
+  - "A team that optimizes for the appearance of productivity -- busy calendars, fast responses, visible activity -- while treating actually finishing valuable work as a separate, secondary goal, typically achieves neither, because the appearance was only ever supposed to track the substance it's now being pursued apart from."
+critical-questions:
+  - "Is Philosophy's claim that independence, power, renown, reverence, and joy are 'in substance no wise different from each other' actually true, or is this a metaphysical assertion doing a lot of argumentative work that a skeptic could simply reject, collapsing the whole proof?"
+  - "Even granting the five are identical in the case of true, complete happiness, does that license treating every apparently unified goal this way? Some goals really do decompose into separable, independently pursuable parts, and treating those as indivisible would be the opposite error."
+  - "If pursuing a part of an indivisible whole guarantees failure even at getting the part, how would anyone ever bootstrap their way toward the whole -- doesn't a strict indivisibility claim make the whole permanently unreachable rather than merely hard to reach by the wrong method?"
+status: active

@@ -1,0 +1,26 @@
+id: lex-d7p2y
+name: insufficient-and-excessive-intensity-fail-through-different-mechanisms
+type-in: state
+type-out: claim
+_tier: atomic
+agent-instruction: "When tuning a single intensity parameter toward a goal, don't assume the failure you're seeing generalizes in one direction. Check whether the failure mode changes character as you cross from too-little to too-much: insufficient intensity often fails because the transformation never gets a chance to start, while excessive intensity fails because part of the system runs away before the rest catches up. The fix requires locating the zone between two distinct failure regimes, rather than simply dialing the parameter up or down from wherever it currently sits, and diagnosing which regime is active from the shape of the failure itself."
+related: [lex-9xzrt, lex-jmhea, lex-mr4nb]
+evokes: [americas-test-kitchen, guy-crosby, goldilocks-zone-with-a-mechanism, the-magic-temperature, opposite-failures-not-opposite-amounts]
+lineage:
+  - source: primary
+    text: americas-test-kitchen-crosby-2012-science-of-good-cooking
+    citation: "The Editors at America's Test Kitchen and Guy Crosby, The Science of Good Cooking: Master 50 Simple Concepts to Enjoy a Lifetime of Success in the Kitchen (America's Test Kitchen, 2012), Concept 17, 'Good Frying Is All About Oil Temperature,' p. 629."
+    quote: "The temperature of the oil makes a big difference. Our French fries cooked at 400 degrees browned far too quickly, verging on burnt before the inside of the potato could cook at all. Our French fries cooked at 275 degrees, on the other hand, cooked through completely, but a crust was never able to form, and they grew limp and floppy. The magic temperature is 325 degrees: The heat is high enough to turn the water in the potato immediately to steam, to dry out the outer edge, and to form a brown, crispy crust, all the while cooking the potato for a moist and creamy center, too."
+  - source: primary
+    text: americas-test-kitchen-crosby-2012-science-of-good-cooking
+    citation: "The Editors at America's Test Kitchen and Guy Crosby, The Science of Good Cooking (America's Test Kitchen, 2012), Concept 38, 'More Water Makes Chewier Bread,' p. 1316."
+    quote: "Too little water, and a strong gluten network cannot form. Without a strong gluten network, the gas bubbles created within the dough cannot hold and rise, making the finished product a dense loaf with too tight a crumb, as we saw in our bread with 50 percent hydration. Too much water, on the other hand, can dilute and weaken the gluten, likewise hindering a bread's ability to rise, as in the loaf with 80 percent hydration."
+canonical-instances:
+  - "Fries cooked at 275 degrees stayed 'blond' after ten full minutes — never hot enough to turn surface moisture into steam fast enough to form a crust — and came out soggy inside a limp exterior. Fries at 400 degrees browned, and nearly burned, in a few minutes while the centers stayed raw. Only 325 degrees produced both a crisp crust and a fully cooked, fluffy center; the two failures looked opposite (soggy versus charred) because they came from opposite mechanisms — a crust that never forms versus a crust that forms before the inside is done."
+  - "Bread dough hydrated to 50 percent baked into a small, dense loaf with a tight crumb because too little water meant too little gluten formed to trap the rising gas. Dough hydrated to 80 percent baked flat and wide because the extra water diluted the gluten network it did form. The 68 percent loaf in between had 'good volume and height' — not a compromise between the two failures, but a zone neither mechanism could reach."
+critical-questions:
+  - "Have both directions actually been tested, or has only the failure at the current setting been observed, leaving the opposite-direction failure mode unconfirmed and the 'correct zone' merely assumed to sit toward 'more' or 'less' from here?"
+  - "What is the actual mechanism failing at each extreme — are the two failures truly caused by different processes, or is this really a single monotonic relationship being misread as two-sided because of how the outcome happens to be measured?"
+  - "Is the acceptable zone narrow, like the oil-temperature range, or wide, like the middle hydration levels — and does that width change how tightly the parameter needs to be controlled in practice?"
+status: active
+severity-tier: info

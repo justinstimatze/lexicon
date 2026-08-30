@@ -1,0 +1,24 @@
+id: lex-pckf9
+name: a-group-label-predicts-nothing-only-the-adopted-tenets-do
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When trying to predict or explain a person's behavior from their membership in a broad social, religious, or ideological category, stop at the label and you'll be wrong as often as right — the category itself carries almost no predictive weight until you know which specific sub-doctrine, tenet, or interpretation within that broad tradition the person has actually internalized. Merton's case makes this vivid with a single life: Blaise Pascal was nominally Catholic his entire adult life, and was an active, productive scientist for much of it — the bare label 'Catholic' predicted nothing about his relationship to science. What changed his behavior was his conversion to one specific doctrine within Catholicism, Jansenism, which explicitly taught that scientific curiosity is a spiritually dangerous vanity distracting from eternal truths; only after adopting that specific content did Pascal abandon science entirely. The same broad label covered both the scientist and the man who renounced science, because the label was never the operative variable. Diagnostic move: when a group-identity label is being used to explain or predict someone's behavior, ask what the broad tradition actually contains — if it contains genuinely conflicting sub-doctrines on the question at hand, the label alone tells you nothing, and the real predictive work has to be done by identifying which specific strand the person has adopted."
+related: []
+evokes: [merton-1957, pascal-and-jansenius, nominal-affiliation-vs-adopted-tenets, vanity-of-science]
+lineage:
+  - source: primary
+    text: merton-1957-nominal-affiliation-has-no-bearing
+    citation: "Robert K. Merton, Social Theory and Social Structure, Revised and Enlarged Edition (Glencoe, IL: Free Press, 1957), Ch. XVIII 'Puritanism, Pietism and Science,' p.588. Verified verbatim against a University of Iowa library scan via Internet Archive OCR text (item 31858016281432)."
+    quote: "'Of course, the mere fact that an individual is nominally a Catholic or a Protestant has no bearing upon his attitudes toward science. It is only as he adopts the tenets and implications of the teachings that his religious affiliation becomes significant.'"
+  - source: primary
+    text: merton-1957-pascal-converted-to-jansenius
+    citation: "Robert K. Merton, Social Theory and Social Structure (1957), same chapter and page, immediately following."
+    quote: "'For example, it was only when Pascal became thoroughly converted to the teachings of Jansenius that he perceived the \"vanity of science.\" For Jansenius characteristically maintained that above all we must beware of that vain love of science, which though seemingly innocent, is actually a snare \"leading men away from the contemplation of eternal truths to rest in the satisfaction of the finite intelligence.\" Once Pascal was converted to such beliefs, he resolved \"to make an end of all those scientific researches to which he had hitherto applied himself.\"'"
+canonical-instances:
+  - "Two people who both identify as 'libertarian' can hold opposite views on a specific policy question (open borders, for instance) because the broad label bundles genuinely conflicting sub-traditions (thick natural-rights libertarianism vs. thin consequentialist libertarianism) — knowing someone is 'a libertarian' predicts almost nothing about that specific question without knowing which sub-tradition they've actually adopted."
+  - "A company culture survey finds 'agile methodology adopters' show wildly different actual practices — some ship faster with less process, others have simply renamed their old waterfall process 'sprints' — because 'agile' as a label covers genuinely incompatible interpretations, and only knowing which specific practices a team actually adopted (not whether they call themselves agile) predicts their delivery behavior."
+critical-questions:
+  - "If broad labels predict so little, why do they persist as explanatory shorthand in casual reasoning and even in social science — is the label doing real predictive work in aggregate across large populations (where sub-doctrine adoption rates might be stable enough to make the label a decent proxy) even though it fails for any given individual case like Pascal's?"
+  - "How does someone identify which sub-doctrine a person has actually adopted before observing the behavior it's supposed to predict — is there a way to detect this in advance, or is adopted-tenet only ever legible retrospectively, after the behavior it explains has already occurred, which would make the diagnostic useful for explanation but not prediction?"
+status: active

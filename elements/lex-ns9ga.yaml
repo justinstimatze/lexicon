@@ -1,0 +1,19 @@
+id: lex-ns9ga
+name: force-the-concealed-danger-to-reveal-itself-in-public-view
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than merely assert a hidden truth and ask others to trust the inference, a low-risk procedure can be staged that forces the concealed danger to reveal itself openly, converting private deduction into publicly witnessed proof. In the Jataka''s tale of Sattubhasta, Senaka prescribes exactly this test: "taking a stick beat the sack with it: then when you see a black snake coming out with its hood spread and hissing, you will have no doubt."'
+related: []
+evokes: [jataka, sattanipata, sattubhasta-jataka, forced-public-disclosure, convert-inference-into-witnessed-proof]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sattubhasta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 402, Sattubhasta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "taking a stick beat the sack with it: then when you see a black snake coming out with its hood spread and hissing, you will have no doubt:"
+canonical-instances:
+  - "Rather than tell the board she suspects a vendor is padding invoices, an auditor arranges a routine spot-check that will make the padding show up in the numbers themselves, so no one has to simply take her word for it."
+critical-questions:
+  - "Does staging the reveal risk the very danger it's meant to expose, the way beating the sack could provoke the snake to strike before anyone is ready?"
+  - "Is public proof always worth the delay and exposure it requires, compared to acting on the inference immediately and accepting the risk of being wrong?"
+status: active

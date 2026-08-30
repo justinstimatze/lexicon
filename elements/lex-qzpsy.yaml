@@ -1,0 +1,19 @@
+id: lex-qzpsy
+name: state-a-principle-in-its-negative-and-positive-form-back-to-back
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A persuasive technique states the same causal principle twice in immediate succession — once in its negative form, showing what forgetting brings, and once in its positive mirror form, showing what remembering brings — completing the demonstration by covering both directions of the same conditional rather than asserting only one. In the Jataka''s tale of Dalhadhamma, this shows up as two matched stanzas: "Good deeds and services received whenever men forget, Ruin pursues the business still on which their hearts are set." followed by "Good deeds and services received if men do not forget, Success attends the business still on which their hearts are set."'
+related: []
+evokes: [jataka, sattanipata, dalhadhamma-jataka, matched-contrastive-stanzas, state-both-directions-of-a-conditional]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dalhadhamma-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 409, Dalhadhamma-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Good deeds and services received whenever men forget, Ruin pursues the business still on which their hearts are set."
+canonical-instances:
+  - "A safety trainer closes every session by stating the rule twice: first what happens to crews that skip the checklist, then immediately what happens to crews that follow it, so the same principle lands from both directions instead of just as a warning."
+critical-questions:
+  - "Does stating both directions actually add persuasive force beyond stating one, or is the second half just decorative repetition dressed up as completeness?"
+  - "Could presenting the negative and positive as mirror-symmetric make the underlying causal claim seem more certain and universal than the evidence for it actually supports?"
+status: active

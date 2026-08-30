@@ -1,0 +1,19 @@
+id: lex-mc8wd
+name: a-world-with-no-concept-of-lying-cannot-picture-one
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A society that has never experienced deception can be staged as literally unable to imagine what a lie would look or feel like, reaching for unrelated sensory categories to try to grasp it — demonstrating how a concept''s total absence from lived experience makes it inconceivable rather than merely rare. In the Jataka''s tale of Cetiya, the multitude tries to picture the coming lie in these terms: "The king is going by a lie to make the senior the junior, and will give the post to the junior: what kind of a thing is a lie? is it blue or yellow or some other colour?" The multitude thought greatly about it. It was a time, they say, when the world told the truth: men did not know what the word "lie" might mean.'
+related: []
+evokes: [jataka, atthanipata, cetiya-jataka, absent-concept-is-inconceivable, reaching-for-the-wrong-category]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-cetiya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 422, Cetiya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The king is going by a lie to make the senior the junior, and will give the post to the junior: what kind of a thing is a lie? is it blue or yellow or some other colour?\" The multitude thought greatly about it. It was a time, they say, when the world told the truth: men did not know what the word \"lie\" might mean."
+canonical-instances:
+  - "A team that has only ever shipped in-house software cannot picture what a supply-chain attack would even look like when a security consultant first warns them, and the questions they ask about it reach for the wrong categories entirely, the way you'd ask what color a sound is."
+critical-questions:
+  - "Is the multitude's confusion here a claim about language shaping what's conceivable, or simply a storytelling device meant to dramatize how novel the coming betrayal is?"
+  - "Once a society does experience the thing it previously had no concept for, does the concept arrive gradually or all at once, and does that change how the society responds to the next instance of it?"
+status: active

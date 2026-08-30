@@ -1,0 +1,41 @@
+id: lex-kebfa
+name: argument-from-expert-opinion
+type-in: claim
+type-out: posture
+_tier: molecule
+agent-instruction: "When citing or weighing an expert's claim, run the four checks: is E really an expert in D? Is A actually in D? Are other experts agreeing? Is there evidence E is biased? Expert appeal is a useful default, not a settled answer."
+related: [lex-af9ax, lex-q9asc, lex-dm5te, lex-th68b, lex-z9s5d, lex-5nk9h, lex-h2ehw, lex-zxrtf, lex-fpvsu, lex-nn3u9, lex-xhwqt, lex-utn22, lex-aut4h, lex-hhx7u, lex-rnwph, lex-38ygs, lex-7t3wr, lex-y7p3z, lex-xqamc, lex-xm754, lex-9n7bg, lex-8y3ch, lex-36cbh, lex-ftu47, lex-vx867, lex-653ng, lex-r3aug, lex-g9b38, lex-ry4x3, lex-bkaum]
+scaffolds-from: [lex-q9asc, lex-dm5te, lex-af9ax, lex-th68b, lex-zxrtf, lex-utn22]
+evokes: [appeal-to-authority, expert-testimony, authority-deference, source-credibility-inference]
+premises:
+  - source E is an expert in domain D containing proposition A
+  - E asserts A
+  - therefore, presumptively, A is true
+decomposes-into:
+  - lex-q9asc
+  - lex-dm5te
+  - lex-af9ax
+  - lex-th68b
+assembly: "sequential(lex-q9asc, lex-dm5te) → defeasibility-attach(lex-af9ax, defeaters=lex-th68b)"
+critical-questions:
+  - is E really an expert in D?
+  - is A in D?
+  - did E actually assert A?
+  - is E reliable?
+  - is A consistent with what other experts say?
+  - is A backed by evidence?
+  - is E free of bias?
+lineage:
+  - source: primary
+    tradition: walton
+    text: walton-reed-macagno-2008
+    citation: "Douglas Walton, Chris Reed, and Fabrizio Macagno, Argumentation Schemes (Cambridge University Press 2008), Ch.1 §2 'Argument from Position to Know and Expert Opinion,' pp.14-15 (scheme statement + six critical questions, citing Walton 1997 p.210, p.223). Compendium restatement at Ch.9 #2 p.310. PDF on shelf (isbn13 9780521723749), verbatim 2026-05-21."
+    quote: "Argument from Expert Opinion. Major Premise. Source E is an expert in subject domain S containing proposition A. Minor Premise: E asserts that proposition A (in domain S) is true (false). Conclusion: A may plausibly be taken to be true (false). [...] Here are the six basic critical questions matching the appeal to expert opinion, as indicated by Walton (1997, p. 223): 1. Expertise Question: How credible is E as an expert source? 2. Field Question: Is E an expert in the field that A is in? 3. Opinion Question: What did E assert that implies A? 4. Trustworthiness Question: Is E personally reliable as a source? 5. Consistency Question: Is A consistent with what other experts assert? 6. Backup Evidence Question: Is E's assertion based on evidence?"
+  - source: discovery-loop
+    text: assemblies-pass-1 promotion exercise
+    citation: "asm-001 promoted to first-class molecule. The lexicon's 7-CQ form adds 'is E free of bias?' as a 7th question — bias has its own scheme in Walton Ch.4 §7 'Argument from Bias' (book pp.147ff); the 7th CQ here is a lexicon-side elaboration carrying the bias-defeater into the expert-opinion molecule directly rather than via a separate scheme-composition."
+canonical-instances:
+  - "Dr. X (oncology) says treatment T is effective for cancer C → presumption T helps C, retractable on conflicting expert testimony or methodological challenge"
+  - "RFC author asserts protocol P; presumption P spec is correct unless reading shows internal contradiction"
+severity-tier: info
+status: active

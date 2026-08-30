@@ -1,0 +1,19 @@
+id: lex-hznfb
+name: persona-and-alliance-substitute-for-substance-in-evaluation
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "In a bureaucratic evaluation system, what matters isn't a person's actual character, actions, or judgment — it's how closely their presented persona fits the organizational ideal, how skillfully they avoid blame rather than how honestly they own their actions, how well they protect others rather than how accurately they spot real errors, and who they're allied with rather than what they actually stand for. Each pairing names a specific substitution: appearance replaces substance, agility replaces accountability, loyalty-protection replaces honest error-detection, and alliance replaces conviction. Treat someone's formal standing in such a system as evidence about their political fit and protective skill, not as evidence about their character or judgment, since the system is explicitly measuring the former and not the latter."
+related: []
+evokes: [jackall-moral-mazes, "whom he stands with in the labyrinths of his organization", persona-and-alliance-replace-substance]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch8-persona-substitutes-for-substance
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 8, Invitations to Jeopardy, Section I."
+    quote: "What matters in the bureaucratic world is not what a person is but how closely his many personae mesh with the organizational ideal; not his willingness to stand by his actions but his agility in avoiding blame; not his acuity in perceiving falsity or errors but his adeptness at protecting others; [...] not what he stands for but whom he stands with in the labyrinths of his organization."
+canonical-instances:
+  - "A promotion committee rates a candidate highly for being 'easy to work with across factions' and for having 'weathered the reorg without incident,' neither of which speaks to whether the candidate makes sound judgments or takes real responsibility for outcomes."
+critical-questions:
+  - "Does this substitution actually predict poor organizational outcomes over time, or can persona-and-alliance fit function as a legitimate, if narrow, proxy for the specific kind of competence a bureaucracy actually needs to function smoothly?"
+status: active

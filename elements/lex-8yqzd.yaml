@@ -1,0 +1,21 @@
+id: lex-8yqzd
+name: when-forced-to-pay-anchor-low-and-escalate-only-as-far-as-required
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When you're forced to buy off a threat and don't know the actual minimum that will satisfy them, don't open with a generous offer to seem reasonable or to end the negotiation quickly -- open low and raise the offer only as much as is needed to get it accepted, since any gap between what you offered and what they'd have taken is pure loss. Kautilya's instruction for a weak king suing for peace: 'In negotiating for peace the weak king shall [successively] offer a quarter more of money and arms each day [until the offer is accepted].' Rangarajan's editorial gloss makes the logic explicit: 'Since the intention is to avert the attack at the lowest possible cost, the weak king shall first make a low offer, wait for a day to see whether it is accepted, increase the offer by a quarter and so on. The specification of a quarter or delay of a day need not be taken literally.' The mechanism is that the other party's actual floor is unknown and unknowable in advance, so the only way to discover it without overpaying is to test successively higher offers and stop at the first one that lands -- a single high opening offer forecloses ever finding out that a lower one would have worked, while a single low offer that's rejected outright at least reveals information (this floor is higher than X) that a fixed generous offer never would. Diagnostic move: when you must concede something to end a threat and don't know their true minimum, don't guess generous to save time or appear cooperative -- make a genuinely low opening offer, treat rejection as information rather than failure, and escalate incrementally only until acceptance, since every dollar or unit above their actual floor was money you didn't have to spend."
+related: []
+evokes: [anchor-low-and-let-rejection-reveal-the-floor, kautilya-suing-for-peace, escalate-only-as-far-as-acceptance-requires, rejection-is-information-not-failure]
+lineage:
+  - source: primary
+    text: kautilya-arthashastra-negotiating-for-peace-anchor-low
+    citation: "Kautilya, The Arthashastra, ed./trans. L.N. Rangarajan (Penguin Books, 1992), Part X 'Foreign Policy,' section 'The Weak King,' 'Suing for Peace,' {12.1.24}."
+    quote: "'In negotiating for peace the weak king shall [successively] offer a quarter more of money and arms each day [until the offer is accepted].' [Since the intention is to avert the attack at the lowest possible cost, the weak king shall first make a low offer, wait for a day to see whether it is accepted, increase the offer by a quarter and so on.]"
+canonical-instances:
+  - "A company facing a hostile activist investor's demand for a board seat opens negotiations by offering a much smaller concession -- an advisory role with no vote -- and only escalates toward an actual seat in stages if each smaller offer is rejected, rather than immediately offering the full board seat to end the standoff quickly."
+  - "A freelancer being pressured by a client to discount a project doesn't jump straight to their real bottom-line rate to seem accommodating -- they offer a small discount first, and only increase it in increments if the client keeps pushing, discovering the client's actual threshold rather than assuming it's as low as their own worst-case number."
+critical-questions:
+  - "does incremental escalation risk signaling weakness or bad faith to the other party, making them dig in harder or become suspicious of stalling, in a way that a single credible, final offer would not?"
+  - "how much time does this approach actually cost, and is that cost always affordable -- if the threat has its own deadline pressure or patience limit, does testing successively higher offers risk missing the window entirely and ending up paying the maximum anyway, or worse, facing the attack outright?"
+  - "does the weak king's information asymmetry actually favor this tactic, or does the aggressor also learn from each rejected offer -- specifically, that the weak king is willing to keep raising the price, which could itself invite the aggressor to hold out longer than they otherwise would have?"
+status: active

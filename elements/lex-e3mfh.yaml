@@ -1,0 +1,19 @@
+id: lex-e3mfh
+name: decline-an-open-favor-because-asking-and-refusing-both-cost-something
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'Given a benefactor''s standing offer to grant anything asked, a party can decline to ask at all, reasoning that both positions — being a suitor and being the one who must grant or refuse — carry unavoidable social discomfort, so silence is the only comfortable position absent genuine need. In the Jataka''s tale of Atthisena, the ascetic explains his silence this way: "Neither suitor, nor rejector of a suit, can pleasant be: That''s the reason, be not angry, why I have no suit to thee."'
+related: []
+evokes: [jataka, sattanipata, atthisena-jataka, avoid-the-asymmetric-cost-of-asking, silence-over-an-unneeded-favor]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-atthisena-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 403, Atthisena-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Neither suitor, nor rejector of a suit, can pleasant be: That's the reason, be not angry, why I have no suit to thee."
+canonical-instances:
+  - "A junior partner told to ask for anything they need still doesn't request a bigger office. Raising it would corner the senior partner into either granting an unequal favor or refusing outright, and neither outcome seems worth what the office is actually worth."
+critical-questions:
+  - "Does avoiding the discomfort of asking end up costing the asker more than the discomfort itself would have, if a real need goes unaddressed as a result?"
+  - "Is declining to ask actually generous toward the benefactor, or does it also protect the asker from the vulnerability of being refused?"
+status: active

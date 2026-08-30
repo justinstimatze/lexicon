@@ -1,0 +1,21 @@
+id: lex-yecsx
+name: a-gift-that-requires-closed-eyes-delivers-the-attack-instead
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "When someone offering you a benefit asks you to first close your eyes and open your mouth, or otherwise fold your body into a posture that removes your ability to see or defend yourself, the request for that posture is often the actual point of the offer, not an incidental condition attached to it. In Radin's comparative Assiniboine trickster summary, Fisher has stolen meat from Sitconski, and when Sitconski corners him, Fisher doesn't run or fight -- he makes a generous-sounding offer instead: 'Fisher offers to give him some meat if he shuts his eyes and opens his mouth, then drops a knife and kills him.' The gift was never going to be delivered; the posture required to receive it was the entire mechanism, engineered to look like a condition of generosity rather than what it actually was, a request for total exposure. Diagnostic move: when an offer of benefit comes with a physical or informational precondition that would leave you unable to perceive or react -- close your eyes, turn your back, hand over your only copy, step outside your normal channel of verification -- treat the precondition itself as the thing to evaluate, separately from how generous the offer sounds, since the precondition is where the actual risk lives."
+related: []
+evokes: [radin-assiniboine-trickster-summary, sitconski-and-fisher, fisher-offers-him-some-meat, shuts-his-eyes-and-opens-his-mouth]
+lineage:
+  - source: primary
+    text: radin-fisher-kills-sitconski-via-a-closed-eyes-gift
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'Summary of the Assiniboine Trickster Myth' (after R. H. Lowie, The Assiniboine, Anthropological Papers of the American Museum of Natural History, Vol. IV, 1909), episode 12. Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "Fisher offers to give him some meat if he shuts his eyes and opens his mouth, then drops a knife and kills him."
+canonical-instances:
+  - "A stranger offers to show someone a magic trick if they close their eyes and hold out their wallet, and the trick is that the wallet is gone when they open them."
+  - "A coworker asks someone to step away from their computer 'just for a second' to grab a surprise gift from the supply closet, and returns before they're back, having used the unlocked, unattended screen for something the surprise was never actually for."
+critical-questions:
+  - "Does the mechanism depend on the victim trusting the specific person making the offer, or would the same closed-eyes precondition raise suspicion regardless of who asked, and does the story suggest Sitconski had reason to trust Fisher going in?"
+  - "Is there a meaningful difference between a precondition that merely creates opportunity for harm and one that is explicitly designed as the delivery mechanism for it, and does Fisher's specific instructions, eyes closed and mouth open, read as accidental convenience or deliberate engineering?"
+  - "Would a target who has been burned by this exact move before still fall for it, or does the mechanism specifically require a fresh victim who has no reason yet to distrust an offer of food after a theft?"
+status: active

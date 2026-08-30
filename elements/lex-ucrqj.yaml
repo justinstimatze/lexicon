@@ -1,0 +1,34 @@
+id: lex-ucrqj
+name: choice
+type-in: composition
+type-out: composition
+_tier: atomic
+agent-instruction: "When deciding feels mechanical or forced, surface that choice itself is the structural primitive — the moment where alternatives are weighable and one is selected; do not collapse choice into its inputs."
+related: [lex-2sx7q, lex-hesjt, lex-eg9zm, lex-da3g3, lex-jy4aq]
+evokes: [composition-operation, branching, mutual-exclusion-then-pick, switch-statement, dispatch-by-selector]
+formal-if-any: "choice(A, B, ...; selector=S) where S(input) picks one arm to fire; arms are mutually exclusive — exactly one fires per input. Distinct from parallel (all fire) and sequential (chain)"
+lineage:
+  - source: practitioner
+    text: composition-operations-design-note
+    citation: "v0 composition-operations vocabulary (lexicon, 2026-05-02); defined as the bond that picks one of multiple arms based on a selector function"
+  - source: primary
+    text: hoare-1978-communicating-sequential-processes
+    citation: "C.A.R. Hoare, 'Communicating Sequential Processes,' Communications of the ACM 21(8):666-677 (August 1978), p.669 — the alternative-command construct, built on Dijkstra's guarded commands. (Earlier lineage cited the □/⊓ operator notation from Hoare's 1985 CSP monograph; the 1978 CACM paper actually on disk uses the guarded-command formulation instead, so the citation is corrected to match the source that was actually read.)"
+    quote: "'An alternative command specifies execution of exactly one of its constituent guarded commands. Consequently, if all guards fail, the alternative command fails. Otherwise an arbitrary one with successfully executable guard is selected and executed.'"
+  - source: practitioner
+    text: substrate-attestation
+    citation: "promoted to first-class entry from substrate use: appears as the bond in 3 lexicon molecules — lex-bpr6b polya-work-backwards-via-related-problem (choose between work-backwards and find-related-problem based on recall), lex-sjsxx physics-model-regime-selection (choose framework based on identified regime), lex-mnxhs contradiction-resolution-via-parameter-decomposition (choose principle from 40 inventive principles via contradiction-matrix lookup)"
+canonical-instances:
+  - "in lex-sjsxx physics-model-regime-selection: choice(newtonian-framework, relativistic-framework, quantum-framework, quantum-field-theory-framework; selector=identified-scale-regime) — exactly one framework is selected based on scale analysis; using two frameworks together is a different (multi-physics) molecule"
+  - "switch / case statement in any programming language: choice over a finite set of branches selected by a discriminator value; the canonical computational instance"
+  - "tumblers/remixers (Tarot, Oblique Strategies, I Ching) are choice() operations with random selectors; the random-selection is the distinctive feature, not the choice-shape itself"
+  - "operationally distinct from lex-2sx7q sequential: sequential CHAINS arms (each takes the previous output); choice PICKS ONE arm to fire"
+  - "operationally distinct from lex-eg9zm parallel: parallel FIRES ALL arms in parallel and aggregates; choice fires exactly one"
+  - "operationally adjacent to (but distinct from) Walton's defeasibility-attach (lex-hesjt): defeasibility-attach can be modeled as choice(retract, hold; selector=any-defeater-fires?) but the named operation captures the asymmetric default-vs-defeater structure that pure choice loses"
+critical-questions:
+  - "do the arms ACTUALLY mutually exclude on the input distribution? Choice() presupposes the selector partitions input space cleanly. Soft-exclusion (probabilistic, fuzzy match, multi-label) isn't choice — it's weighted aggregation. Discriminator: can two arms ever both have a legitimate claim on the same input? If yes, you have a different composition."
+  - "is the selector decidable in bounded time on every input? Ambiguous inputs that hit two cases reveal an under-specified selector, not a working choice() operation. Test: pick three pathological inputs (edge values, missing fields, type-mismatches) and trace which arm the selector picks. Tie-breaking rules are part of the composition, not an afterthought."
+  - "is there a default arm, and is its absence informative? Choice without a default returns no-output for unmatched inputs. In some contexts (switch-statements with explicit fall-through) that's a bug; in others (regime-detection with explicit no-match-found) the silence IS the signal. Decide which before deploying — silent unmatched-input is a foot-gun in the wrong context."
+  - "is this choice() or choice()-with-fallback? Pure choice commits to its first pick. If the system retries the next arm on first-arm-failure, that's choice+defeasibility (lex-hesjt), not pure choice. The retry-on-failure pattern is so common it's easy to mistake for the primitive — but the type-signature is different and the failure semantics matter for reasoning about the whole molecule."
+  - "what does the selector itself cost? Choice presupposes free access to selector-relevant input. When selector-evaluation is itself expensive (regime identification in physics requires substantial measurement; routing in a microservices mesh requires service-discovery), the cost-of-selection must be counted against the operation's total cost. A choice-composition where selecting which arm to fire takes longer than firing any arm is structurally wrong."
+status: active

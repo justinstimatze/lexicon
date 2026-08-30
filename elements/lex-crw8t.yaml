@@ -1,0 +1,23 @@
+id: lex-crw8t
+name: demeanor-under-threat-is-read-as-proof-of-unheard-content
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Someone facing death with total composure is making an implicit claim you haven't heard yet — and a threatener watching that composure often infers the claim's truth from the fact of the composure itself, rather than waiting to evaluate the claim on its own terms. The inference isn't valid, but it's persuasive: unshakeable calm under mortal threat looks like evidence of possessing something powerful, which makes the threatener want to acquire it too. In the Jataka's tale of Sutasoma, the man-eater watches his captive return, unafraid, to be eaten as promised, and reasons backward from the fear he doesn't see: \"I wonder from whence comes this power. It can be nothing else. He says, 'I have heard the verses that the Kassapa Buddha taught.' This supernatural power must come from them. I will make him utter these verses in my hearing, and so will I too be free from all fear.\""
+related: []
+evokes: [jataka, asitinipata, maha-sutasoma-jataka, composure-as-evidence, backward-inference-to-content, sword-of-adamant, i-have-no-fear]
+lineage:
+  - source: primary
+    text: jataka-francis1905-maha-sutasoma-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XXI (Asitinipata), No. 537, Maha-Sutasoma-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "I wonder from whence comes this power. It can be nothing else. He says, \"I have heard the verses that the Kassapa Buddha taught.\" This supernatural power must come from them. I will make him utter these verses in my hearing, and so will I too be free from all fear."
+canonical-instances:
+  - "In a poker hand, a player who has just been re-raised goes all-in without hesitation or any tell of anxiety; the opponent, unable to see the cards, reads the calm itself as proof of a strong hand and folds a hand that would have won."
+  - "A defendant's total calm on the witness stand, even under an aggressive cross-examination, reads to some jurors as evidence of innocence, even though a confident liar and an innocent person can display exactly the same demeanor."
+  - "The same inference also runs toward a threat rather than a teaching: in the Jataka's tale of Prince Five-Weapons, every weapon he throws at the ogre Hairy-Grip sticks harmlessly to its fur, leaving him disarmed. He claims a hidden 'sword of adamant' inside his own body will kill the ogre from within if it eats him, delivered with total composure: 'Moreover, within my body is a sword of adamant, which you will never digest, if you eat me. It will chop your inwards into mincemeat, and my death will involve yours too. Therefore it is that I have no fear.' The ogre cannot test the unverifiable claim without risking its own destruction, and is unnerved less by the words than by the fact that a person in the prince's position shows no fear at all (The Jataka, Vol. I, trans. Robert Chalmers, ed. E. B. Cowell, Cambridge University Press, 1895, Book I (Ekanipata), No. 55, Pancavudha-jataka)."
+  - "A negotiator, informed their company is about to be acquired on hostile terms, tells the acquiring side they have an undisclosed strategic partner ready to counter-bid, and delivers the claim with such unshaken calm that the acquirer delays rather than call what might be a bluff."
+critical-questions:
+  - "Sutasoma's fearlessness came from moral conviction, a kept oath, an accepted death, not from the content of the four verses themselves, which he hadn't even taught the man-eater yet when the inference was drawn — is the man-eater's inference simply wrong, attributing to the doctrine a courage that actually came from somewhere else?"
+  - "If demeanor under threat can be faked, or can arise from causes unrelated to the content someone claims to hold, what happens to a threatener who reasons this way against someone who is calm for the wrong reasons, or lying about why?"
+  - "Is there a limit to how many times a single party can rely on composure to sell an unverifiable claim before an adversary decides the risk of testing it is worth taking regardless of how calm the claimant looks?"
+status: active

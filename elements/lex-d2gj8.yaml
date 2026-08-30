@@ -1,0 +1,20 @@
+id: lex-d2gj8
+name: an-allys-acceptance-of-the-label-silences-your-doubt
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When someone close to you is wavering over whether to harm a person they still privately respect, accepting whatever label has already been attached to that person, 'enemy,' 'threat,' 'traitor,' and reasoning forward from the label as though it were already established fact can end the hesitation faster than any argument about what actually happened. In the Jataka's tale of Mahabodhi, king Sivi has ordered the sage Bodhi's execution on his councillors' unproven word, and lying awake in genuine anguish he tells his queen, \"But for twelve years he has taught us many a truth\" — real, specific doubt about whether the charge is even true. She doesn't examine it. She answers, \"If, Sire, he is your enemy, why do you grieve at killing him? Your own safety must be attended to, even if the enemy you slay is your own son.\" Reassured, he falls asleep."
+related: []
+evokes: [jataka, pannasanipata, mahabodhi-jataka, ratifying-a-label-instead-of-the-facts, an-intimates-reassurance-closes-doubt]
+lineage:
+  - source: primary
+    text: jataka-francis1905-mahabodhi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XVIII (Pannasanipata), No. 528, Mahabodhi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "But for twelve years he has taught us many a truth. ... If, Sire, he is your enemy, why do you grieve at killing him? Your own safety must be attended to, even if the enemy you slay is your own son."
+canonical-instances:
+  - "A CEO privately doubts whether a long-time VP truly leaked confidential information, since the evidence is circumstantial and the VP has been loyal for a decade. His co-founder doesn't examine the leak allegation at all — she just says, 'he's compromised now, and you can't afford to keep someone compromised around,' and the CEO signs the termination."
+  - "A general is reluctant to order an airstrike on a village his own intelligence report calls only a 'possible' insurgent stronghold. An aide skips the question of what the report actually shows and says, 'sir, these are enemy positions, and hesitating costs our own men,' and the order goes through."
+critical-questions:
+  - "The queen never claims independent knowledge that Bodhi is actually guilty — her argument works even if he's completely innocent, since it never depends on the truth of the accusation at all. Does this mean the move is available to anyone willing to accept a label regardless of whether they believe it, or does it require the speaker to at least appear to share the underlying belief?"
+  - "The king's own doubt, twelve years of good conduct and no offense he's personally witnessed, is substantive and specific. What does it say about the dynamic between them that a few words from the queen override it so completely, and would this move work against a doubt the doubter had voiced to someone with less standing to reassure him?"
+status: active

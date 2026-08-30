@@ -1,0 +1,19 @@
+id: lex-mb4ee
+name: a-new-leaders-first-act-is-reorganization
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A newly installed leader's first move is almost always some form of organizational restructuring, and the reasoning is dual rather than singular: reorganizing prevents the new leader from inheriting blame for problems that predate them, since responsibility resets along with the org chart, and it simultaneously projects an image of decisive, aggressive competence to whoever is watching from above or outside — a board, investors, a parent organization. Neither motive requires the reorganization to actually improve anything operationally; both are satisfied by the act of visible change itself. Treat an early reorganization as a signal to check for these two motives specifically before assuming it reflects a genuine operational diagnosis."
+related: []
+evokes: [jackall-moral-mazes, "prevents the inheritance of blame for past mistakes", new-broom-sweeps-clean]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch2-new-ceo-reorganizes-first
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 2, Section II."
+    quote: "The first action of most new CEOs is some form of organizational change. On the one hand, this prevents the inheritance of blame for past mistakes; on the other, it projects an image of bare-knuckled aggressiveness much appreciated on Wall Street."
+canonical-instances:
+  - "A newly hired school principal reshuffles department-head assignments in the first month, before observing a single full semester of the existing structure's actual performance."
+critical-questions:
+  - "Did the reorganization follow any diagnosis of what was actually broken, or would the same restructuring have happened regardless of what the incoming leader found, simply because arriving without one is read as a sign of weak leadership?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-j3wdy
+name: pre-scripted-occasion-keyed-utterances-create-an-illusion-of-surveillance
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Giving someone generic-sounding statements to recite at fixed future occasions, timed to specific milestones you can predict in advance, can produce the illusion of active, ongoing surveillance years later — a coincidence of timing convinces the listener they've been personally watched, even though the content was written and memorized long before the moment it lands. In the Jataka's tale of the four stanzas, a teacher gives a soon-to-be king four verses to recite at fixed future occasions; years later, each verse — recited at exactly the moment his own son is attempting a different assassination method — convinces the son he's been found out, and he aborts each time: 'With sense so nice, the husks from rice Rats keen are to discriminate: They cared not much the husks to touch, But grain by grain the rice they ate.' 'I am discovered,' thought the prince, and not daring to administer the poison in the bowl of rice, he rose up and bowing to the king went away."
+related: []
+evokes: [jataka, catukkanipata, thusa-jataka, scripted-timing-mimics-active-surveillance-it-never-performed, generic-content-lands-as-personal-detection-through-coincidence]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-thusa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 338, Thusa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "With sense so nice, the husks from rice Rats keen are to discriminate: They cared not much the husks to touch, But grain by grain the rice they ate."
+canonical-instances:
+  - "A retiring security chief leaves a series of pre-written, occasion-triggered emails scheduled to fire at predictable future dates — a new hire's first week, a budget review, a system upgrade — each vaguely warning about a specific kind of internal risk, so that anyone tempted to exploit that exact window later reads the timing as proof they're being actively monitored."
+critical-questions:
+  - "Does this only work because the recipient already has guilty intent primed to interpret any ambiguous signal as detection — would an innocent person hearing the same verses at the same moments simply find them irrelevant rather than threatening?"
+  - "What happens once the coincidence is understood for what it is — does the deterrent effect collapse entirely the moment someone realizes the timing was scripted rather than genuinely observed?"
+status: active

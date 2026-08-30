@@ -1,0 +1,20 @@
+id: lex-pb3vp
+name: prearrange-a-signal-that-distinguishes-among-possible-fates
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Before deliberately entering a recurring situation where you'll be alone and unable to report your own status, you can arrange in advance a passive indicator — visible to someone who stays behind — that distinguishes between different specific things that could go wrong, not just a generic 'something happened' signal. A signal that only says yes-or-no to danger tells the watcher far less than one that tells them which danger, and therefore what kind of help to bring. In the Jataka's tale of Campeyya, the serpent king insists on keeping a vow that repeatedly takes him alone into the world of men, and prearranges exactly this with his consort before the risk, not after: \"Then the Great Being led her to the side of a lucky pond, and said, 'If any one strike me or do me hurt, the water in this pond will become turbid. If a roc bird carry me off, the water will disappear. If a snake-charmer seize me, the water will turn to the colour of blood.'\" When he doesn't return on schedule, she reads the pond and already knows which kind of danger to go looking for."
+related: []
+evokes: [jataka, visatinipata, campeyya-jataka, prearranged-signal, distinguish-among-possible-fates]
+lineage:
+  - source: primary
+    text: jataka-rouse1901-campeyya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XV (Visati-Nipata), No. 506, Campeyya-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Then the Great Being led her to the side of a lucky pond, and said, 'If any one strike me or do me hurt, the water in this pond will become turbid. If a roc bird carry me off, the water will disappear. If a snake-charmer seize me, the water will turn to the colour of blood.'"
+canonical-instances:
+  - "A solo backcountry hiker leaves a written plan specifying that a missed check-in by noon means search the northern trail first, but a missed check-in by evening means call the ranger station directly — instead of a single generic 'if I don't check in, worry.'"
+  - "An investigative journalist meeting a confidential source alone in a hostile country arranges beforehand that a text saying 'lunch was good' means the meeting went fine, 'lunch was okay' means leave the country immediately, and silence past a set time means contact the embassy — three distinct signals mapped to three distinct responses."
+critical-questions:
+  - "The three-signal system only works because each of the three specific dangers has a distinguishable, reliable physical marker available. What happens to this pattern when the possible dangers don't sort into cleanly separable signals, and any two would look the same to the watcher?"
+  - "Sumana has to correctly interpret the signal and then act on it without panicking or freezing. Does prearranging the signal itself do anything to prepare the watcher for what to actually do once they read it?"
+status: active

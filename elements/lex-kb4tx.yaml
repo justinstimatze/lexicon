@@ -1,0 +1,19 @@
+id: lex-kb4tx
+name: physical-evidence-of-finality-counters-a-trauma-based-dread-of-return
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Fear that a destroyed threat will somehow come back can be calmed not by reassurance about the threat's character, but by citing concrete, irreversible physical facts that make literal return impossible, addressing the mechanics of the fear rather than the story behind it. In the Jataka's tale of the terrorized porter, he doesn't celebrate his cruel king's death — he dreads that the tyrant will be too much even for the afterlife's gatekeeper and get sent back: 'What if he beat the king of Death, and then The king 'of Death should send him back again?' The Bodhisatta's response isn't moral reassurance about the king being gone for good; it's a physical inventory: 'That king has been burnt with a thousand cartloads of wood; the place of his burning has been soaked with water from thousands of pitchers, and the ground has been dug up all round; beings that have gone to the other world, except by force of fate, do not return to the same bodily Shape as they had before; do not be afraid!' The fear is trauma-shaped, so the cure has to answer it in kind: evidence, delivered plainly, rather than comfort."
+related: []
+evokes: [jataka, dukanipata, mahapingala-jataka, trauma-shaped-fear-requires-evidentiary-not-emotional-reassurance, citing-physical-finality-to-counter-dread-of-return]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahapingala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 240, Mahapingala-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "What if he beat the king of Death, and then The king 'of Death should send him back again?... That king has been burnt with a thousand cartloads of wood; the place of his burning has been soaked with water from thousands of pitchers, and the ground has been dug up all round; beings that have gone to the other world, except by force of fate, do not return to the same bodily Shape as they had before; do not be afraid!"
+canonical-instances:
+  - "An employee who suffered years under an abusive manager doesn't calm down when told 'don't worry, they're gone for good' after the manager is fired — the fear finally eases only when HR confirms in writing that the manager signed a permanent separation agreement and has no path to rehire, giving the dread a concrete fact to rest against instead of a reassurance to doubt."
+critical-questions:
+  - "Does citing physical or procedural finality actually address the underlying trauma, or does it just give the porter a specific fact to hold onto while the deeper fear of the tyrant's cruelty itself goes unaddressed?"
+  - "What happens when no such concrete, irreversible evidence is available — is there a version of this reassurance that works for fears where nothing as decisive as cremation and dug-up ground exists to point to?"
+status: active

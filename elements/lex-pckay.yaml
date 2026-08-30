@@ -1,0 +1,18 @@
+id: lex-pckay
+name: incompatible-old-and-new-systems-damage-each-other-if-forced-together
+type-in: state
+type-out: claim
+_tier: atomic
+agent-instruction: "Combining an old system with a new one on the assumption that the old can simply absorb the new causes damage to both — new wine poured into old, brittle wineskins bursts the skins and spills the wine, ruining the container and the contents together. The new thing needs a container built for its own properties, not the old container patched to make room for it; and a preference for the old, once established, resists the new on grounds of familiarity rather than merit."
+related: []
+evokes: [kjv, new-wine-in-old-bottles, a-piece-of-new-cloth-on-an-old-garment, the-old-is-better, forcing-a-new-approach-into-an-old-container]
+lineage:
+  - source: primary
+    text: kjv-1611-luke-5-new-cloth-new-wine
+    citation: "The Holy Bible, King James Version (1611; this edition Project Gutenberg #10), Luke 5:37-39. Verified verbatim against a direct extraction of the held copy."
+    quote: "And no man putteth new wine into old bottles; else the new wine will burst the bottles, and be spilled, and the bottles shall perish. But new wine must be put into new bottles; and both are preserved. No man also having drunk old wine straightway desireth new: for he saith, The old is better."
+canonical-instances:
+  - "A company tries to run an agile, fast-iteration product team inside a quarterly-budget, sign-off-heavy approval process built for a different kind of work, and the result is neither genuine agility nor reliable governance — the old process wasn't built to hold the new way of working, and forcing them together degrades both."
+critical-questions:
+  - "Is a genuinely new container actually needed here, or is the old system more adaptable than assumed, and the incompatibility is really about who's unwilling to change it rather than a structural mismatch?"
+status: active

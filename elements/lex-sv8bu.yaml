@@ -1,0 +1,22 @@
+id: lex-sv8bu
+name: targeting-consumers-signals-a-failed-producer-side-crackdown
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: "When an enforcement or prohibition campaign that originally targeted producers, traffickers, or suppliers shifts to targeting end-users or mere possessors instead -- especially by lowering the evidentiary bar (detention without trial, possession alone as sufficient offense) -- read that shift as evidence that the supply-side effort already failed, not that the campaign is intensifying successfully. Enforcers escalate toward the demand side because it's the easier target left once the harder, more diffuse, higher-value supply chain has proven too costly or too well-adapted to stop. Treat a demand-side crackdown as a lagging admission of defeat, and expect it to fail for the same underlying reason the supply-side effort did: demand for the thing hasn't actually gone away."
+related: []
+evokes: [calico-prohibition-france, criminalizing-possession, gillian-crosby, supply-side-enforcement-failure, prohibition-escalation]
+lineage:
+  - source: primary
+    text: postrel-2020-fabric-of-civilization-ch6-consumers
+    citation: "Virginia Postrel, The Fabric of Civilization: How Textiles Made the World (Basic Books, 2020), Chapter Six: Consumers, on France's seventy-three-year (1686-1759) prohibition of printed cotton fabrics (toiles peintes, indiennes) and its 1726 escalation to arresting individual wearers."
+    quote: "Frustrated by rampant smuggling and ubiquitous scofflaws, in 1726 the government increased penalties for traffickers and anyone helping them... Local authorities were given the power to detain without trial anyone who merely wore the forbidden fabrics or decorated their homes with them. 'The exasperation of the lawmakers, after forty years of successive edicts and ordinances which had been largely ignored, flouted or circumvented on a wholesale basis, can be sensed in this law,' writes fashion historian Gillian Crosby. Its main effect was a crackdown on consumers, with a spike in arrests for simple possession. 'Impotent at stopping the cross-border trade, printing or the peddling of goods,' Crosby writes, 'government officials concentrated on making an example of individual wearers, in an attempt to halt the fashion.' They failed."
+canonical-instances:
+  - "France's 1726 escalation of its calico ban -- forty years into a prohibition that had already failed to stop importers, printers, and smugglers -- shifted enforcement to arresting individual women for simply wearing a floral cotton jacket, with detention without trial authorized for mere possession; the crackdown on consumers produced a documented spike in arrests but never dented the underlying demand, and the ban itself was lifted in 1759."
+  - "Hypothetical: A streaming-piracy campaign that begins by suing hosting sites and, years later, shifts to suing individual downloaders is exhibiting the same diagnostic pattern -- not stronger enforcement, but an admission that the supply side (the hosting infrastructure) proved too resilient or too distributed to stop directly."
+critical-questions:
+  - "How long had supply-side (producer or trafficker) enforcement been running before the shift to targeting consumers? A shift after decades of stated frustration, as with France's forty 'largely ignored' years, is a far stronger tell than a shift adopted from day one."
+  - "Did the evidentiary standard for the newly-targeted group get lowered relative to what was required for the original target (mere possession vs. proven trafficking, detention without trial vs. a full proceeding)? A lowered bar signals an enforcement apparatus reaching for whatever is easiest to prosecute, not what would actually work."
+  - "Is underlying demand actually falling, or merely being pushed into smaller, more distributed transactions that are harder to detect but no less frequent? Distinguish a genuine decline in the restricted behavior from that behavior surviving in a form less visible to the specific enforcement being measured."
+severity-tier: info
+status: active

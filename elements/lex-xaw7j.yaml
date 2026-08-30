@@ -1,0 +1,18 @@
+id: lex-xaw7j
+name: sour-grapes-dismissal-when-confronted-with-an-unwelcome-diagnosis
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Told the real reason they lack a quality they once sought, an agent can simply disclaim ever wanting it and walk away — self-image stays intact, but the actual lesson on offer never gets integrated. In the Jataka''s tale of Cakkavaka, the crow''s response to the goose''s diagnosis is flat denial and flight: Thus did the ruddy goose in many ways reproach the crow. And the crow having brought this reproach upon himself said, "I want not your beauty." And with a cry of "Caw, Caw," he flew away.'
+related: []
+evokes: [jataka, navanipata, cakkavaka-jataka, fox-and-the-grapes, sour-grapes-dismissal]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-cakkavaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 434, Cakkavaka-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Thus did the ruddy goose in many ways reproach the crow. And the crow having brought this reproach upon himself said, \"I want not your beauty.\" And with a cry of \"Caw, Caw,\" he flew away."
+canonical-instances:
+  - "A manager tells an underperforming salesman exactly why his numbers lag his peers'; he responds that he never cared about being a top performer anyway, and stops attending the team's sales-strategy meetings."
+critical-questions:
+  - "Does denying the desired quality after an unwelcome diagnosis ever function as genuine reprioritization rather than defensive dismissal, and how would an outside observer tell which one is happening?"
+status: active

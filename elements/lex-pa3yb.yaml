@@ -1,0 +1,21 @@
+id: lex-pa3yb
+name: pay-a-specialist-in-the-byproduct-thats-worthless-to-you
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When you're facing a task that's genuinely impossible in the time you have, look for someone whose specialty happens to need exactly the byproduct your task produces as waste -- what costs you nothing to give away can be precisely what makes a specialist willing to do the entire job for you, and do it better than you could have. In Cushing's telling, two gods are set an impossible task: scrape and soften a mountain of buckskins by sunset the next day, 'more here than we can clean in a year.' They stumble on a village of Field-mice, who need wool for their nests and offer a trade with no real cost to the brothers at all: 'we will help you if you will promise us something... that you will give us all the hair.' The hair is pure waste to the brothers -- 'we will be glad to get rid of it' -- but it's exactly the resource the mice's whole economy runs on. The mice don't just complete the task; they do it better than the brothers could have: 'they did it better than the men.' The trade only works because the two parties wanted completely different parts of the same material -- neither side had to give up anything they actually valued. Diagnostic move: when you're stuck on a task at a scale you can't manage alone, don't look only for someone who can do the whole job for money or favor -- look for whoever's specialty depends on the exact leftover, waste, or byproduct your task would otherwise generate, since that mismatch in what each side values is what makes a trade that costs you nothing possible in the first place."
+related: []
+evokes: [your-waste-is-a-specialists-raw-material, cushing-the-maiden-of-the-yellow-rocks, we-will-be-glad-to-get-rid-of-it, they-did-it-better-than-the-men]
+lineage:
+  - source: primary
+    text: cushing-maiden-yellow-rocks-mice-trade-labor-for-hair
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Maiden of the Yellow Rocks.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'Now, then, we will help you if you will promise us something,' said they; 'but we want your solemn promise.' 'What is that?' asked the brothers. 'That you will give us all the hair.' 'Oh, yes,' said the brothers; 'we will be glad to get rid of it.' ... The Field-mice had carefully dressed all the others (they did it better than the men), and there they lay spread out on the sands like a great field of something growing, only white."
+canonical-instances:
+  - "A manufacturer facing an overwhelming volume of scrap material from a rush order discovers a nearby recycling or crafts business that specifically needs that exact scrap as raw input, and rather than paying to dispose of the waste, trades it directly for the processing labor the manufacturer can't complete alone in time."
+  - "A software team overwhelmed by a backlog of low-priority bug reports partners with a bootcamp or training program that needs exactly this kind of real, low-stakes codebase experience for its students, trading access to the backlog, worthless to the team as a priority, valuable as practice material, for the reports getting resolved."
+critical-questions:
+  - "how does someone reliably discover a specialist whose needs happen to align this precisely with their own waste -- the brothers found the mice purely by chance, overhearing them; does this pattern depend on lucky discovery, or is there a way to actively search for this kind of value mismatch?"
+  - "does the trade actually cost the brothers nothing, or does it cost them control -- once the mice have the hair and are doing the work unsupervised, the brothers have no way to verify quality until it's done, and they do have to negotiate over how many skins to hold back; is 'no real cost' an oversimplification of a trade that carries its own dependency risk?"
+  - "what happens when the byproduct isn't actually worthless to you but you only think it is -- does this pattern require confidently and correctly knowing you have no use for what you're giving away, and what's the failure mode if that assumption turns out to be wrong later?"
+status: active

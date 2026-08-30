@@ -1,0 +1,19 @@
+id: lex-dseyy
+name: discovering-something-fears-you-recalibrates-felt-vulnerability
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When despair is driven by a sense of absolute, unqualified vulnerability, check whether discovering your relative position — something else finds you frightening — can recalibrate that despair even though nothing about your actual circumstances has changed. In Aesop's 'The Hares and the Frogs,' a group of hares, convinced their situation is hopeless, are about to destroy themselves when the sight of frogs fleeing into a pond at their approach stops them: 'here are creatures who are afraid of us, and who must, therefore, be still more timid than ourselves.' Nothing in the hares' objective danger has changed; what changes is their read of their own status, purely from learning that something else occupies a position of fear relative to them."
+related: []
+evokes: [aesop, the-hares-and-the-frogs, relative-position-recalibrates-felt-status, absolute-vs-relative-vulnerability]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-hares-and-the-frogs
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Hares and the Frogs.' Verified verbatim against a direct extraction of the held copy."
+    quote: "here are creatures who are afraid of us, and who must, therefore, be still more timid than ourselves."
+canonical-instances:
+  - "a struggling small business owner regains resolve on realizing an even newer, smaller competitor treats them as the intimidating incumbent — their actual financial position hasn't improved at all, only their felt place in the local hierarchy."
+critical-questions:
+  - "Is this recalibration rational, or is it a cognitive shortcut that happens to help — does discovering a lower rung on the ladder actually bear on whether the hares' original danger was real, or does it just change how the danger feels?"
+  - "Could this same discovery push the opposite way in a different framing — does finding something that fears you sometimes just confirm how dangerous the world really is, rather than offering reassurance?"
+status: active

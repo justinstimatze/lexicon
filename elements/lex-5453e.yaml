@@ -1,0 +1,19 @@
+id: lex-5453e
+name: reliability-is-diagnosed-by-the-ratio-of-deeds-to-words
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A friend's reliability can be diagnosed not by professed affection or outward deference but by the ratio of demonstrated action to rhetoric — a party who is verbally lavish yet behaviorally unproductive is flagged as untrustworthy regardless of how convincing the flattery sounds. The words aren't the evidence; the mismatch between the words and the record is. In the Jataka's tale of Hiri: 'who spite of honour, while he plays the part of humble servant, loathes thee in his heart, poor in good works and rich in words alone — ah! such a friend thou surely wouldst not own.'"
+related: []
+evokes: [jataka, pancanipata, hiri-jataka, deeds-to-words-ratio-diagnoses-reliability, verbal-flattery-without-behavioral-substance]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-hiri-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 363, Hiri-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Who spite of honour, while he plays the part Of humble servant, loathes thee in his heart, Poor in good works and rich in words alone— Ah! such a friend thou surely wouldst not own."
+canonical-instances:
+  - "A founder stops trusting a business partner not because of anything the partner says — the partner is unfailingly deferential and complimentary — but because a review of the last year shows the partner has delivered almost nothing they've repeatedly promised, and the gap between the talk and the record is what actually settles the question."
+critical-questions:
+  - "How much of a track record is needed before the deeds-to-words ratio becomes a reliable signal? Someone genuinely reliable could still be misjudged early on, before they've had any real opportunity to demonstrate it."
+  - "Does this diagnostic risk undervaluing sincere verbal support that isn't accompanied by concrete deeds simply because it can't yet be, as in a friendship that hasn't faced a situation calling for action?"
+status: active

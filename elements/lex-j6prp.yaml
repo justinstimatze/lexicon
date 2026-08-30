@@ -1,0 +1,19 @@
+id: lex-j6prp
+name: a-low-stakes-physical-probe-triggers-an-involuntary-reflex-that-exposes-deception
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A small, seemingly low-stakes physical test can trigger an involuntary reflex that no amount of composure or verbal denial can suppress, exposing a deception that direct questioning would never have cracked. In the Jataka's tale of the feigned corpse, a man fakes his own death to lure and kill a jackal for meat. Suspicious, the jackal tugs at the man's club with its teeth — a minor, almost incidental test — and the man reflexively tightens his grip to keep hold of it. That single involuntary muscle response, impossible to fake or suppress on command, reveals he's alive far more reliably than any claim he could have made under direct interrogation."
+related: []
+evokes: [jataka, ekanipata, sigala-jataka, involuntary-reflex-exposes-deception, low-stakes-probe-beats-direct-interrogation]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sigala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 142, Sigala-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"My good man, if you had been dead, you would not have tightened your grip on your club when I was tugging at it, and so have betrayed yourself.\""
+canonical-instances:
+  - "Suspecting a colleague of secretly still working for a competitor despite denials, a manager casually mentions a fabricated minor detail about the competitor's internal project and watches for an involuntary flicker of recognition or correction that a rehearsed verbal denial would never let slip."
+critical-questions:
+  - "Does this kind of test only work on reflexes tied to physical possession or protection, the way gripping a club is, or is there an equally reliable involuntary tell for purely informational or verbal deceptions?"
+  - "What happens once a deceiver anticipates this specific kind of probe and consciously suppresses the reflex — does the technique have a natural countermeasure once it's known, or is the reflex genuinely involuntary enough to resist suppression?"
+status: active

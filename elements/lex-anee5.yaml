@@ -1,0 +1,21 @@
+id: lex-anee5
+name: performed-compliance-with-a-captor-can-be-a-stalling-tactic
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Acting as though you believe a captor means you no harm isn't necessarily naivety -- it can be a deliberate calculation that any delay of the worst outcome is worth taking, even while you privately doubt every word. In Cushing's telling, a demon has just threatened to kill two sisters with his knife unless they stop crying, and the elder sister, still afraid but thinking fast, urges her sister to comply: 'Surely he will not cut us off just now, if we obey him; and is it not well that even for a little time the light of life shine, though it shine through fear and sadness, than be cut off altogether? For who knows where the trails tend that lead through the darkness of the night of death?' This isn't trust in the demon's claim that he means them no harm. It's an explicit bet that compliance buys time, that a life shadowed by fear is still worth more than a life ended now, and that the alternative to performing belief is confirming the worst case immediately. Diagnostic move: when you find yourself outwardly accepting a captor's or aggressor's claimed benign intent, notice whether you're doing it because you believe it or because compliance defers the worst outcome without costing you anything you weren't already going to lose -- the two look identical from outside but call for very different exit plans once an opening appears."
+related: []
+evokes: [compliance-as-a-deferral-bet-not-a-belief, cushing-atahsaia-the-cannibal-demon, is-it-not-well-that-the-light-of-life-shine, though-it-shine-through-fear-and-sadness]
+lineage:
+  - source: primary
+    text: cushing-elder-sister-performs-compliance-to-defer-atahsaias-knife
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'Atahsaia, the Cannibal Demon.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'Get up, oh, do get up, hani! whispered the elder sister, now again frightened herself. Surely he will not cut us off just now, if we obey him; and is it not well that even for a little time the light of life shine--though it shine through fear and sadness--than be cut off altogether? For who knows where the trails tend that lead through the darkness of the night of death?'"
+canonical-instances:
+  - "A hostage negotiator coaches a captive to outwardly agree with a hostage-taker's demands and grievances, not because the captive believes any of it, but because visible agreement measurably reduces the odds of immediate violence and buys time for a rescue to be organized."
+  - "An employee facing a threatening, volatile manager during a one-on-one performs agreement with an unreasonable accusation rather than arguing the facts in the moment, calculating that defusing the immediate confrontation matters more than winning a point that could be revisited later through HR once the manager has calmed down."
+critical-questions:
+  - "Is there a meaningful difference between the elder sister's calculated performance of belief and a captive who genuinely does come to believe their captor's claims, given how similar the outward behavior looks in both cases -- does the story give the reader, or the sisters themselves, any way to tell which one is happening?"
+  - "Does this strategy actually improve the sisters' odds here, given that the demon is eventually killed by outside intervention rather than by anything the compliance itself achieved -- or does the deferral only matter because it kept them alive long enough for rescue to arrive?"
+  - "At what point does continued performed compliance stop being a rational deferral and become simply prolonging a captivity with no realistic exit, and how would someone in the moment distinguish between those two situations?"
+status: active

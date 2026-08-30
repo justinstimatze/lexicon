@@ -1,0 +1,22 @@
+id: lex-9n4ut
+name: removing-an-opposing-check-lets-selection-run-away-unchecked
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "A trait normally kept from growing unbounded by an opposing selection pressure runs away without limit once that opposing pressure is disabled by an external subsidy removing the individual's need to survive by their own effort. Gilman states the check, then the removal of the check: 'If the peacock's tail were to increase in size and splendor till it shone like the sun and covered an acre... such excessive sex-distinction would be so inimical to the personal prosperity of that peacock that he would die, and his tail-tendency would perish with him... The force of natural selection, demanding and producing identical race-qualities, acts as a check on sexual selection, with its production of different sex-qualities.' Then, of the human case specifically: 'By the economic dependence of the human female upon the male, the balance of forces is altered. Natural selection no longer checks the action of sexual selection, but co-operates with it.'"
+related: []
+evokes: [women-and-economics, chapter-ii, such-excessive-sex-distinction-would-be-so-inimical, natural-selection-no-longer-checks-the-action-of-sexual-selection, runaway-selection-when-the-check-is-removed]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-ii
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter II. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "If the peacock's tail were to increase in size and splendor till it shone like the sun and covered an acre,—if it tended so to increase, we will say,—such excessive sex-distinction would be so inimical to the personal prosperity of that peacock that he would die, and his tail-tendency would perish with him. [...] The force of natural selection, demanding and producing identical race-qualities, acts as a check on sexual selection, with its production of different sex-qualities. [...] By the economic dependence of the human female upon the male, the balance of forces is altered. Natural selection no longer checks the action of sexual selection, but co-operates with it."
+canonical-instances:
+  - "A startup founder's most extravagant, attention-grabbing habits normally get pruned by the need to keep the business solvent; once outside investors fund the company regardless of results, that check disappears, and the founder's showiest, least functional tendencies can expand without any natural limit."
+  - "A courtier's flattery and self-display would normally be checked by the need to actually perform useful work to survive; once a monarch's unconditional patronage removes that requirement, courtly ornamentation and performative devotion can escalate without any counterbalancing pressure to be substantively useful."
+  - "A social-media creator's most exaggerated persona traits would normally be tempered by needing a broad, sustainable audience; once a single wealthy patron subsidizes them regardless of broader appeal, those traits can amplify unchecked, since the patron's taste, not general viability, now sets the only real limit."
+critical-questions:
+  - "Does the peacock's-tail case actually generalize to human economic dependence, given that sexual selection in birds operates over many generations through genetic inheritance, while Gilman's claim is about a single generation's environmentally-shaped behavior and character -- are these truly the same mechanism, or only analogous in shape?"
+  - "If natural selection normally checks excessive traits by killing off individuals who develop them too far, and the human case removes that check via economic support rather than removing mortality itself, does the runaway proceed at the same pace and by the same mechanism, or does economic support introduce a different kind of unchecked growth?"
+  - "Gilman's argument requires that economic dependence specifically has disabled the check -- could other factors, like cultural norms, religious doctrine, or legal structures, independently explain the same excess without economic dependence needing to be the operative cause at all?"
+status: active

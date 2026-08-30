@@ -1,0 +1,19 @@
+id: lex-snkgb
+name: without-fixed-quality-criteria-standards-read-as-a-flaw
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Mediocrity as an organizational outcome emerges specifically from the absence of fixed, external criteria for measuring the quality of products or performance — without such an anchor, insisting on standards of excellence stops reading as competence and starts reading as a personal flaw, quickly earning the person who insists on them the feared label of being 'inflexible.' The causal chain runs from missing external quality criteria to social punishment of anyone who supplies an internal one, since a self-imposed standard has no independent backing and can always be framed as one person's arbitrary preference rather than a legitimate bar. This is diagnostic: an organization where insisting on quality reliably draws social cost, rather than respect, is very likely one that has no fixed external measure of quality to appeal to."
+related: []
+evokes: [jackall-moral-mazes, "the feared label of being inflexible", missing-quality-criteria-punishes-the-standard-setter]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch8-no-fixed-criteria-standards-punished
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 8, Invitations to Jeopardy, Section II."
+    quote: "mediocrity emerges out of the lack of fixed criteria within an organization to measure quality, whether of products or performance. [...] such insistence on standards of excellence can quickly earn one enemies and the feared label of being \"inflexible.\""
+canonical-instances:
+  - "A software team with no agreed external code-quality benchmark treats the one engineer who consistently pushes back on shipping rushed work as difficult and uncooperative, rather than as upholding a standard the rest of the team has simply never articulated."
+critical-questions:
+  - "If a fixed external quality criterion were introduced, would the person currently labeled inflexible turn out to be enforcing the same standard the criterion would set, or does the absence of criteria also mean no one actually knows whether the insisted-on standard was reasonable in the first place?"
+status: active

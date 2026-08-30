@@ -1,0 +1,22 @@
+id: lex-2qgu8
+name: a-real-ongoing-danger-recruited-as-routine-discipline
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When adults discipline a child by invoking a real, currently-ongoing societal danger rather than an invented bogeyman, the child's resulting fear differs in kind from ordinary childhood monster-fear, because a fictional threat is eventually discovered not to exist and the fear resolves, while a real, unresolved threat never gets that resolution. Black Elk's mother used exactly this device during the height of the U.S. Army's campaign against the Lakota: 'my mother would say, \"If you are not good the Wasichus will get you.\"' Unlike a warning about a monster under the bed, this wasn't a fiction invoked for its scariness and later corrected -- the Wasichus were a real, mortal, and at that moment unresolved danger to his entire people. Recruiting an actually-true threat for routine behavioral discipline means the child's baseline fear of it gets continuously reinforced by the discipline itself, on top of whatever fear the surrounding adult world's genuine anxiety was already transmitting."
+related: [lex-kgphf]
+evokes: [black-elk-speaks, if-you-are-not-good-the-wasichus-will-get-you, real-threat-as-discipline, chronic-childhood-fear, unresolved-danger]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch2-early-boyhood
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 2, 'Early Boyhood.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "I am quite sure that I remember the time when my father came home with a broken leg that he got from killing so many Wasichus, and it seems that I can remember all about the battle too, but I think I could not. It must be the fear that I remember most. All this time I was not allowed to play very far away from our tepee, and my mother would say, 'If you are not good the Wasichus will get you.'"
+canonical-instances:
+  - "A parent living through a violent conflict or occupation tells a misbehaving child 'the soldiers will take you' -- distinct from 'the boogeyman will get you' specifically because the child, unlike with a fictional threat, has no future moment of relief in discovering the danger was never real."
+  - "A parent in a neighborhood with a real, documented pattern of child abductions tells a wandering child 'a stranger will grab you.' The warning is true. Using it as routine behavioral leverage still blurs the line between giving protective information and disciplining by fear."
+  - "Distinct from ordinary fear-generalization after a single painful event, like a burnt child fearing all fire (lex-kgphf): this pattern isn't about a fear spreading past its original, resolved trigger -- it's about a fear that has no resolution available at all, because the triggering danger is real and ongoing rather than a single past incident."
+critical-questions:
+  - "Is there a meaningful difference between a parent using a real danger as protective information ('stay close, it's not safe out there') versus using the same danger specifically as leverage for ordinary behavioral compliance ('be good or else') -- does the discipline framing add something harmful beyond the warning itself?"
+  - "Does a child growing up under this kind of chronic, reality-grounded fear develop differently than a child whose fears were mostly fictional and eventually resolved, and is there any way to give a child accurate information about real danger without also making that danger into the currency of everyday discipline?"
+  - "Black Elk reports this fear decades later as a formative, specific memory. Is that vividness evidence the device worked as intended, or evidence of a cost that outlived whatever short-term compliance it bought?"
+status: active

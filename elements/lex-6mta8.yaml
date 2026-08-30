@@ -1,0 +1,18 @@
+id: lex-6mta8
+name: cargo-cult-imitation-of-a-successful-others-surface-trait
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'An agent observes a desirable outcome in another and assumes the visible correlate is the cause, without testing the actual causal mechanism, producing failed imitation: adopting the copied surface behavior while the real generative factor goes unaddressed. In the Jataka''s tale of Cakkavaka, a crow assumes the geese''s diet must explain their golden beauty rather than their harmless way of life: He thought, "These birds are very beautiful and well-favoured: their food must be delightful. I will ask them what it is, and by eating the same I too shall become golden-coloured."'
+related: []
+evokes: [jataka, navanipata, cakkavaka-jataka, cargo-cult-causal-misattribution, surface-trait-vs-real-mechanism]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-cakkavaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 434, Cakkavaka-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "He thought, \"These birds are very beautiful and well-favoured: their food must be delightful. I will ask them what it is, and by eating the same I too shall become golden-coloured.\""
+canonical-instances:
+  - "A startup founder notices a famous competitor's engineers all skip morning standups, assumes that's the source of their velocity, and cancels his own team's standups, without ever examining what the competitor's actual process discipline looked like underneath."
+critical-questions:
+  - "How would an observer distinguish a genuine causal correlate worth imitating from a mere surface trait, before actually testing whether adopting it produces the desired outcome?"
+status: active

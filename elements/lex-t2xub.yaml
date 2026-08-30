@@ -1,0 +1,19 @@
+id: lex-t2xub
+name: an-indirect-behavioral-instruction-lets-the-recipient-privately-infer-bad-news
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Devastating news can be relayed as an indirect behavioral instruction rather than a direct statement, letting the intended recipient privately decode and absorb the fact before any public confirmation or display of grief is required. Changing a food order or a garment color communicates what a blunt announcement would force into the open. In the Jataka's tale of Uraga, word of a son's death is sent home not as a statement but as an instruction: 'go to our house and say to the mistress, \"You are not to-day as formerly to bring food for two, but to bring it for one only.\" And hitherto the female slave alone has brought the food, but to-day all four of you are to put on clean garments.' She understood then that her son was dead. But she did not so much as tremble."
+related: []
+evokes: [jataka, pancanipata, uraga-jataka, coded-instruction-enables-private-inference, face-preserving-disclosure-of-bad-news]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-uraga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 354, Uraga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Please then to go to our house and say to the mistress, \"You are not to-day as formerly to bring food for two, but to bring it for one only. And hitherto the female slave alone has brought the food, but to-day all four of you are to put on clean garments, and to come with perfumes and flowers in your hands.\""
+canonical-instances:
+  - "A hospital doesn't call a patient's family to announce a death directly; instead, a nurse asks them to come in 'to discuss the patient's condition' and to bring a change of clothes for themselves rather than for the patient — the family arrives already having inferred and partly absorbed the news the actual conversation will only confirm."
+critical-questions:
+  - "Does the indirect route actually protect the recipient, or does it just delay the moment of full acknowledgment while extending a period of dread built on inference rather than fact?"
+  - "What happens when the recipient misreads the coded instruction — infers the wrong thing, or fails to infer anything at all — and the sender never learns the message didn't land as intended?"
+status: active

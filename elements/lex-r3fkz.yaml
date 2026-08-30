@@ -1,0 +1,20 @@
+id: lex-r3fkz
+name: build-the-extraction-route-before-executing-the-plan-that-needs-it
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Before executing a plan that will provoke a powerful adversary once they realize what you''ve done, secretly build the physical means to extract everyone at risk from the danger zone — completed and tested — so the escape is already solved before the confrontation even starts, rather than being improvised under pressure afterward. In the Maha-Ummagga-Jataka, Mahosadha needs to rescue his own king from inside a rival''s heavily guarded capital after springing a trap on that rival. Months before he needs it, under cover of ordinary construction work, he has his men dig "a great tunnel of half a league" connecting a guest-palace straight back across the river, completely disguised, tested, and ready: "So great tunnel and little tunnel, and all the city, were finished in four months." Only once the extraction route exists does he trigger the confrontation that will require it.'
+related: []
+evokes: [jataka, mahanipata, maha-ummagga-jataka, pre-built-extraction, contingency-before-provocation, escape-infrastructure]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-maha-ummagga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 546, Maha-Ummagga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: 'So great tunnel and little tunnel, and all the city, were finished in four months.'
+canonical-instances:
+  - "Before publishing a story that will expose a powerful government official, an investigative outlet quietly arranges secure travel documents and a safe address abroad for its key source, so if the official retaliates the day the story runs, the source already has a tested way out rather than scrambling to arrange one under threat."
+  - "A company preparing to blow the whistle on a major client's fraud first spends months migrating its own systems off any infrastructure the client could pull funding for, so that when the relationship inevitably ends the day the fraud is reported, the company's own survival was never in the client's hands."
+critical-questions:
+  - "Building the extraction route in secret takes real time and resources committed before the payoff is certain — how do you decide the provoking plan is worth the up-front cost of an escape route you might never need?"
+  - "A sufficiently well-resourced adversary might discover the extraction infrastructure before it's needed — does the whole strategy collapse if the secrecy of the escape route itself can't be guaranteed for as long as it takes to build?"
+status: active

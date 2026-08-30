@@ -1,0 +1,19 @@
+id: lex-dfe4g
+name: insulting-address-withholds-effort-that-respect-freely-grants
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "The willingness to apply full effort can be gated by how a request is addressed rather than by physical capacity at all, so that the identical task gets refused when framed as an insult and completed instantly when framed with respect. In the Jataka's tale of the ox Nandivisala, the animal can pull a hundred loaded carts, but plants his feet and refuses to budge when his owner calls him a rascal in a wager with another brahmin, then pulls the full load without hesitation once addressed as 'my fine fellow.' Nothing about the ox's strength changed between the two attempts — only the framing of the address did, and that alone decided whether the effort was available at all. Treating a withheld effort as evidence of incapacity, without checking how the request was actually made, risks misdiagnosing a dignity response as a competence limit."
+related: []
+evokes: [jataka, ekanipata, nandivisala-jataka, dignity-gates-effort-not-capacity, insult-withholds-what-respect-grants]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-nandivisala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 28, Nandivisala-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "'I'm not the rascal he calls me,' thought the Bodhisatta to himself; and so he planted his four feet like so many posts, and budged not an inch"
+canonical-instances:
+  - "A veteran technician refuses to touch a malfunctioning machine after a new manager calls the team careless in front of a client. Minutes after a colleague apologizes and asks for their help by name, the same machine is fixed."
+critical-questions:
+  - "How is this distinguished, in practice, from someone using a claimed insult as a pretext to withhold effort they simply didn't want to give in the first place?"
+  - "Is the mechanism specifically about the address, the way the story frames it, or would any sufficiently public loss of face — regardless of the words used — produce the same withholding?"
+status: active

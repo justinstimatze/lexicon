@@ -1,0 +1,19 @@
+id: lex-6t5qu
+name: feign-an-unlanded-wound-to-lure-the-attacker-close
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Prey that has not actually been hit can fall as if wounded to convince the attacker of an easy kill, luring him into overconfident approach, then flee the instant his guard drops. In the Jataka''s tale of Sutano, the deer does exactly this: "The animal, who knew a trick, saw that the arrow was coming to his broadside, and wheeling round fell as if wounded by the arrow. The king thought, ''I have hit him,'' and rushed to seize him. The deer rose and fled like the wind."'
+related: []
+evokes: [jataka, sattanipata, sutano-jataka, feigned-injury-escape, false-victory-lures-overconfidence]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sutano-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 398, Sutano-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The animal, who knew a trick, saw that the arrow was coming to his broadside, and wheeling round fell as if wounded by the arrow. The king thought, \"I have hit him,\" and rushed to seize him. The deer rose and fled like the wind."
+canonical-instances:
+  - "A startup facing a hostile acquisition attempt lets word leak that its core product is already failing, prompting the acquirer to drop its guard and delay a more aggressive move, buying the startup time to secure a better deal elsewhere."
+critical-questions:
+  - "Does the trick only work once per relationship, since a fooled attacker who survives is likely to verify a kill before approaching again?"
+  - "What does the feigning party risk if the attacker doesn't drop his guard on approach and finishes the job before the trick can pay off?"
+status: active

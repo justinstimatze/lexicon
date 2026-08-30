@@ -1,0 +1,19 @@
+id: lex-2ehyz
+name: one-members-disobedience-can-doom-the-whole-trusting-collective
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'When others rely on a shared plan or a single member''s word, that one member''s foolish, independent choice can bring destruction on the whole group, even though everyone else complied fully. In the Jataka''s tale of Kapi, the moral names this directly: "A fool''s a foe to all who trust his word: One monkey brought distress on all the herd."'
+related: []
+evokes: [jataka, sattanipata, kapi-jataka, one-member-dooms-the-collective, individual-disobedience-with-group-consequences]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kapi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 404, Kapi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "A fool's a foe to all who trust his word: One monkey brought distress on all the herd."
+canonical-instances:
+  - "A hospital's infection-control policy is followed by every staff member except one who skips hand hygiene during a shift, and the resulting outbreak affects patients who had no way of knowing which individual's compliance actually mattered."
+critical-questions:
+  - "If the system depended on every individual's perfect compliance, with no redundancy anywhere to catch a single failure, does blaming that one disobedient member let the group's own design off the hook?"
+  - "How much collective vulnerability to one person's choice is an acceptable cost of operating as a group at all, versus a design flaw worth fixing?"
+status: active

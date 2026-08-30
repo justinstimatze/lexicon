@@ -1,0 +1,20 @@
+id: lex-edqyd
+name: one-overlooked-exception-defeats-an-otherwise-complete-safeguard
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'Despite a comprehensive preventive scheme applied by an entire group, a single instance can slip through undetected, hidden by an unrelated obstruction, and that one instance alone is sufficient to trigger the exact danger the scheme was built to prevent. In the Jataka''s tale of Mahakapi, this is exactly what breaks the monkeys'' fruit-elimination scheme: "one ripe fruit, unseen by the eighty thousand monkeys, hidden by an ant''s nest, fell into the river, and stuck in the net above the king of Benares, who was bathing for amusement with a net above him and another below."'
+related: [lex-msxcg]
+scaffolds-from: [lex-msxcg]
+evokes: [jataka, sattanipata, mahakapi-jataka, single-exception-defeats-safeguard, hidden-obstruction-causes-oversight]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahakapi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 407, Mahakapi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "one ripe fruit, unseen by the eighty thousand monkeys, hidden by an ant's nest, fell into the river, and stuck in the net above the king of Benares, who was bathing for amusement with a net above him and another below."
+canonical-instances:
+  - "A hospital's rigorous sterilization protocol, followed correctly on every tracked instrument, is defeated when one instrument gets misfiled behind a supply cart and skips the tracking system entirely, and that single instrument is the one that causes an infection."
+critical-questions:
+  - "Is a scheme that fails from one hidden exception out of eighty thousand instances actually a design flaw, or is some irreducible failure rate the unavoidable cost of operating at that scale?"
+  - "Would a redundant, independent check have caught what the primary scheme's own blind spot could not, or does any obstruction capable of hiding one instance also defeat a second layer built the same way?"
+status: active

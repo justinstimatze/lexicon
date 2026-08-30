@@ -1,0 +1,29 @@
+id: lex-z3efa
+name: choosing-supply-augmentation-over-need-reduction-converts-environment-into-threat
+type-in: claim
+type-out: claim
+_tier: molecule
+agent-instruction: "When a person or society chooses the storage/supply-augmentation path to affluence over the need-reduction path, recognize that the choice isn't just about which path is more comfortable — it forecloses the other path and imposes an ongoing defensive cost. Stored value must be defended, and defending it converts the surrounding environment from a giver into a threat. Name this cost explicitly rather than treating the storage choice as a free upgrade."
+related: [lex-5y7zb, lex-kdt2v, lex-vbbfb]
+scaffolds-from: [lex-kdt2v, lex-5y7zb]
+evokes: [sahlins-affluent-society, zen-path-foreclosed, need-reduction-vs-supply-augmentation, storage-requires-defense, giver-to-threat]
+decomposes-into:
+  - lex-kdt2v
+  - lex-5y7zb
+assembly: "sequential(lex-kdt2v, lex-5y7zb)"
+premises:
+  - "need-reduction and supply-augmentation are equivalent paths to affluence — a person or society can achieve the same felt-sufficiency either by wanting less or by producing/storing more; neither is objectively the 'real' or 'primitive' path (lex-kdt2v)"
+  - "choosing the supply-augmentation path — accumulating stored value — is not a free choice among equivalents; it forecloses the need-reduction path once the commitment to defending stored value is made (the 'Zen path' is no longer available once you have something worth guarding)"
+  - "stored value must be defended, and defending it structurally converts the surrounding environment from something that gives (in a need-reduced, low-storage relationship to it) into something that threatens (in a storage-defending relationship, every potential taker becomes a risk) (lex-5y7zb)"
+critical-questions:
+  - "is the foreclosure actually irreversible, or can a society/individual move back toward the need-reduction path after having accumulated storage? Historical and individual cases of voluntary simplicity suggest partial reversal is possible, which would qualify the strength of the 'foreclosed' claim."
+  - "does the environment-as-threat conversion apply uniformly, or does it scale with the amount and visibility of stored value — is a small buffer categorically different from large, defended surplus?"
+  - "is this composition making a normative claim (storage is worse) or a purely structural one (storage has this specific, nameable cost that should be priced honestly)? lex-5y7zb's own text is explicit that it 'does not advise against committing' — the critical question is whether that discipline holds when the composition is applied rhetorically."
+lineage:
+  - source: practitioner
+    text: assembled-from-lex-kdt2v-lex-5y7zb
+    citation: "Molecule assembled from lex-kdt2v (need-reduction-and-supply-augmentation-are-equivalent-paths-to-affluence, Sahlins) and lex-5y7zb (stored-value-must-be-defended-which-converts-environment-from-giver-into-threat, Lent citing Sahlins). lex-5y7zb's own lineage states the link directly: 'Composes with lex-kdt2v (the Zen path is foreclosed once you have committed to defending stored value)... Lent's claim that \"storage expresses a distrust of nature\" is the agrarian-era specialization of the same structural primitive.'"
+canonical-instances:
+  - "Hunter-gatherer vs. agrarian transition (Sahlins' 'original affluent society' thesis): hunter-gatherer societies achieving affluence via need-reduction (low material wants, no storage) relate to their environment as a giver; the agrarian transition to stored-surplus affluence requires walls, granaries, and armed defense of the stored value — converting the same environment, and often the same neighboring peoples, into a source of threat that must be actively managed."
+  - "Personal savings and anxiety: an individual who has accumulated significant savings reports different baseline anxiety about theft, market crashes, and inflation than one living need-reduced and paycheck-to-paycheck with little to defend — the anxiety isn't irrational, it's the structural cost lex-5y7zb names, correctly priced rather than pathologized."
+status: under-review

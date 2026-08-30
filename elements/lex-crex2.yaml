@@ -1,0 +1,19 @@
+id: lex-crex2
+name: visible-loss-of-composure-is-the-real-disqualifying-offense
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a bureaucratic hierarchy publicly condemns someone's private conduct, the actual rule being enforced is often composure under observation, not the ostensible moral content of the act. In a documented case, colleagues had no real objection to an affair itself — what disqualified the person involved was that the affair became visible and 'out of control' in a way others could use against them. This differs from ordinary hypocrisy, where the stated rule is genuine but selectively applied: here the stated moral rule is a stand-in for a different, unstated rule about maintaining public self-management, and mistaking the two means misdiagnosing exactly what behavior would actually have avoided the sanction — discretion, not virtue, was the missing ingredient."
+related: [lex-3d4s8]
+evokes: [jackall-moral-mazes, "a relentlessly methodical subjection of one's impulses, at least in public", composure-as-the-actual-tested-trait]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch3-visible-loss-of-control-disqualifies
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 3, Section II."
+    quote: "The price of bureaucratic power is a relentlessly methodical subjection of one's impulses, at least in public. To yield to one's desires in a public setting in a way that others can use against one [...] is seen as irrational."
+canonical-instances:
+  - "A manager's colleagues express no private disapproval of a risky personal financial decision, but the manager's standing takes a real hit only after the decision becomes office knowledge and visibly rattles their day-to-day composure."
+critical-questions:
+  - "If the same act had been handled with total discretion and no visible loss of composure, would it have drawn any sanction at all — and if not, is the organization's stated ethical language doing any real work here, or only labeling a purely reputational-control failure?"
+status: active

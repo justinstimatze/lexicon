@@ -1,0 +1,19 @@
+id: lex-adyvq
+name: facing-death-the-mind-goes-to-your-dependents-not-to-yourself
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'At the moment of mortal peril, a person''s entire distress can be directed at the downstream caretaking failure their death will cause, rather than at their own fate. In the Jataka''s tale of Gijjha, this is stated plainly of the captured vulture: "He did not think of himself, but remembered his old parents."'
+related: []
+evokes: [jataka, sattanipata, gijjha-jataka, self-erasure-for-dependents, crisis-attention-redirected-to-caretaking]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-gijjha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 399, Gijjha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "He did not think of himself, but remembered his old parents."
+canonical-instances:
+  - "A single parent diagnosed with a serious illness spends the appointment asking the doctor almost nothing about their own prognosis, and everything about who will pick their kids up from school next week."
+critical-questions:
+  - "Is this redirection of attention a genuine escape from fear of one's own death, or a way of not looking at it directly that leaves the fear unprocessed?"
+  - "Does this pattern hold up equally for someone whose dependents could actually survive without them, or does it specifically track how irreplaceable the caretaker believes themselves to be?"
+status: active

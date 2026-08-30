@@ -1,0 +1,19 @@
+id: lex-eu7jg
+name: voluntary-confession-of-a-hidden-wrong-is-rewarded-not-punished
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'Rather than being punished for confessing a serious wrongdoing that was never detected, a person can be met with elevated trust instead of retribution — voluntary disclosure, made when concealment was still fully available, generates a different social response than concealment would have. In the Jataka''s tale of Gangamala, King Half-penny''s confession of an attempted regicide is answered with an offer of the whole kingdom: "Pardon me, O king," he said and fell at his feet. "Friend, you have done me no wrong." "I have, O great king: I did such and such a thing." "Then, friend, I pardon you: if you desire it, be sole king, and I will serve under you as viceroy."'
+related: []
+evokes: [jataka, atthanipata, gangamala-jataka, confession-rewarded, asymmetric-value-of-voluntary-disclosure]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-gangamala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 421, Gangamala-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Pardon me, O king,\" he said and fell at his feet. \"Friend, you have done me no wrong.\" \"I have, O great king: I did such and such a thing.\" \"Then, friend, I pardon you: if you desire it, be sole king, and I will serve under you as viceroy.\""
+canonical-instances:
+  - "An employee who nearly shipped a change that would have leaked customer data, catches it herself before anyone notices, and reports it to her manager anyway, ends up more trusted with sensitive projects afterward than colleagues who never had anything to confess."
+critical-questions:
+  - "Would the response have been the same if the wrongdoing had been discovered rather than voluntarily confessed, and how much of the reward here is specifically for the choice to disclose?"
+  - "Does rewarding disclosed near-misses this generously create any risk of encouraging people to take the risk in the first place, trusting that confession will smooth it over?"
+status: active

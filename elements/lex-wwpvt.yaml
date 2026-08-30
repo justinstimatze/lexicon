@@ -1,0 +1,19 @@
+id: lex-wwpvt
+name: assuming-complete-responsibility-can-shield-a-favored-subordinate
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "An authority figure publicly announcing they take 'complete responsibility' for a subordinate's error can function as a protective maneuver rather than genuine accountability — the public statement and the actual allocation of consequences are decoupled. The authority absorbs the appearance of blame precisely because they have the standing to survive it, while the substance of any real consequence still lands elsewhere or nowhere, and the subordinate is shielded from exposure they'd otherwise face. Don't read a public 'I take full responsibility' as necessarily meaning any cost was actually paid by the speaker — check separately whether a real consequence followed the statement, since the statement itself can be the entire intervention."
+related: []
+evokes: [jackall-moral-mazes, "assuming complete responsibility even when they did not have a direct hand", performative-responsibility-as-shield]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch4-assuming-responsibility-without-blame
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 4, Looking Up and Looking Around."
+    quote: "Authorities can, of course, also deflect, mitigate, or preempt altogether blame otherwise attributable to favored subordinates by assuming \"complete responsibility\" even when they did not have a direct hand in what went wrong."
+canonical-instances:
+  - "A department head tells the board 'this failure is on me' after a favored deputy's project collapses; the deputy keeps their role and title, and no visible consequence follows for either person beyond the public statement itself."
+critical-questions:
+  - "Is the shielding effect specifically reserved for favored subordinates, or would the same authority make the identical public statement to protect someone they had no particular investment in — is favoritism actually the operative variable, or just visible in the cases that get told as stories?"
+status: active

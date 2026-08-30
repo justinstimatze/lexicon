@@ -1,0 +1,22 @@
+id: lex-774er
+name: two-things-sharing-one-name-can-be-moving-in-opposite-directions
+type-in: situation
+type-out: claim
+_tier: molecule
+agent-instruction: "Two genuinely distinct institutions can get treated as a single thing because they share one common name, while one component is historically declining and the other is historically rising. Because the pair is perceived as a bundle, defending the bundle actually protects the declining component and retards the rising one, and a critic attacking the bundle's real flaws gets misread as attacking the rising component that was never the problem. Gilman insists on separating the two directly: 'Marriage and \"the family\" are two institutions... The family is a decreasing survival of the earliest grouping known to man. Marriage is an increasing development of high social life... Marriage has risen and developed in social importance as the family has sunk and decreased.'"
+related: []
+evokes: [women-and-economics, chapter-x, two-institutions-not-one-as-is-commonly-supposed, marriage-has-risen-as-the-family-has-sunk, one-name-hides-two-opposite-trajectories]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-x
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter X. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "Marriage and 'the family' are two institutions, not one, as is commonly supposed. We confuse the natural result of marriage in children, common to all forms of sex-union, with the family,--a purely social phenomenon. [...] The family is a decreasing survival of the earliest grouping known to man. Marriage is an increasing development of high social life, not fully evolved. So far from being identical with the family, it improves and strengthens in inverse ratio to the family... Marriage has risen and developed in social importance as the family has sunk and decreased."
+canonical-instances:
+  - "A profession's 'apprenticeship system' gets defended as a single tradition, when it actually bundles two separate things: hands-on skill transfer, which is genuinely improving as mentorship practices modernize, and unpaid exploitative labor, which is a declining relic that the same defenders are unknowingly protecting alongside the mentorship."
+  - "A country's 'traditional neighborhood' gets defended as one thing, when it bundles a rising, genuinely valuable component -- walkable, socially dense local life -- with a declining component -- exclusionary zoning that originally built the neighborhood that way. Critics of the exclusionary zoning get misread as attacking the walkability everyone actually wants to keep."
+  - "A company's 'founder culture' gets defended as a single legacy, when it bundles a rising component -- a genuine shared sense of mission that scales well as the company grows -- with a declining component -- centralized, unaccountable decision-making that worked only when the company was five people. Critics of the centralization get read as attacking the mission."
+critical-questions:
+  - "How would you actually verify that two components sharing one name are moving in opposite directions, rather than simply assuming a bundle must be splittable this way whenever someone wants to defend part of it and criticize another part?"
+  - "Once the bundle is correctly split into its rising and declining components, does giving each a separate name actually change how people defend or attack the whole, or does the shared name persist in public discourse regardless of the more accurate internal distinction?"
+  - "Is it possible for the declining component to actually be propping up the rising one, such that removing it would also damage the rising component, making the 'split cleanly' prescription harder to execute in practice than the diagnosis suggests?"
+status: active

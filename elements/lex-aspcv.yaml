@@ -1,0 +1,18 @@
+id: lex-aspcv
+name: accumulation-plans-dont-price-in-the-planners-own-mortality
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A plan to accumulate resources for future comfort can be entirely rational on its own terms and still be undone by a variable the planner has no control over and didn't build into the plan — a rich man plans bigger barns to store years of surplus and dies that same night, before any of it is used. The plan wasn't foolish about markets, storage, or timing; it was silent about the one risk that made all the other planning moot."
+related: []
+evokes: [kjv, the-rich-fool, i-will-pull-down-my-barns-and-build-greater, take-thine-ease-eat-drink-and-be-merry, thou-fool-this-night-thy-soul-shall-be-required-of-thee]
+lineage:
+  - source: primary
+    text: kjv-1611-luke-12-the-rich-fool
+    citation: "The Holy Bible, King James Version (1611; this edition Project Gutenberg #10), Luke 12:18-20. Verified verbatim against a direct extraction of the held copy."
+    quote: "And he said, This will I do: I will pull down my barns, and build greater; and there will I bestow all my fruits and my goods. And I will say to my soul, Soul, thou hast much goods laid up for many years; take thine ease, eat, drink, and be merry. But God said unto him, Thou fool, this night thy soul shall be required of thee: then whose shall those things be, which thou hast provided?"
+canonical-instances:
+  - "A founder spends a decade deferring every personal expense to reinvest in growing the company toward a planned exit at fifty-five, and dies of a sudden illness at forty-nine — the business plan was sound on every assumption it modeled; it simply never modeled the founder not living to see it pay out."
+critical-questions:
+  - "Is mortality risk actually the uncontrolled variable being ignored here, or is this pattern being invoked to argue against any long-horizon planning at all, when the real lesson is narrower — plan for the thing you can't control, don't abandon planning because of it?"
+status: active

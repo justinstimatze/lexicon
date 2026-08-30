@@ -1,0 +1,26 @@
+id: lex-68abd
+name: map-not-territory
+common-name: "Trusting the model too much"
+type-in: frame
+type-out: posture
+_tier: atomic
+agent-instruction: "When operating on a model, never forget the model is not the territory. Korzybski: the map omits, distorts, and accents. Useful models are useful BECAUSE they omit; the question is whether the omissions are decision-relevant for the move at hand."
+related: [lex-nahg9, lex-chp44, lex-uz7g4, lex-99f5w, lex-jtw66, lex-5yufs, lex-zxrtf, lex-9m3vy, lex-w6zhq, lex-n365w, lex-72yj6, lex-e6mj8]
+evokes: [representation-vs-represented, non-identification, the-name-is-not-the-thing]
+lineage:
+  - source: practitioner
+    text: korzybski-1933
+    citation: "Science and Sanity: An Introduction to Non-Aristotelian Systems and General Semantics (1933; 5th ed. 1994, Institute of General Semantics), Book II, Part IV"
+    quote: "A map is not the territory it represents, but, if correct, it has a similar structure to the territory, which accounts for its usefulness."
+  - source: practitioner
+    text: bootstrap originating-conversation
+    citation: "Founding seed-primitive #12"
+canonical-instances:
+  - "noting that the word 'tree' is not a tree, and refusing to confuse claims about the word with claims about the referent"
+  - "the move that defuses 'is consciousness real?' by separating the conceptual handle from the referent it points to"
+critical-questions:
+  - "the map-quality check: Korzybski's full formula adds 'but, if correct, it has a similar structure to the territory.' Many uses of map-not-territory invoke only the first half (the map is not the territory) and skip the structural-similarity claim. Practitioner-discipline: when invoking lex-68abd, also evaluate whether THIS map has the structural-similarity that makes it useful. A wholly-wrong map and a useful-but-incomplete map are different problems"
+  - "the territory-access question: how do you check the map against the territory if all you have access to is OTHER maps? Korzybski's formula assumes you can compare; many domains (history, deep neuroscience, metaphysics) offer only maps-against-maps. Practitioner-question: what's your access-mode to the territory in this case? If it's only through other maps, the lex-68abd move requires care to avoid map-vs-map disputes posing as map-vs-territory checks"
+  - "the conflation-failure-mode: this atom catches cases where claims about the word/concept are confused with claims about the referent (e.g., debating 'is X really X' when the underlying question is empirical). Practitioner-discipline: when stuck on definitional dispute, ask 'what observation would change my answer?' If no empirical answer maps to the dispute, the dispute is about maps, not territory"
+  - "the abstinence-from-the-territory failure-mode: chronic invocation of map-not-territory can become a permanent refusal to commit to ANY map. Maps are required for action; the discipline is to hold maps lightly, not to refuse them. Practitioner-question: am I using lex-68abd as a clarification-tool or as a refusal-to-decide?"
+status: active

@@ -1,0 +1,24 @@
+id: lex-ddawa
+name: universalism-norm-makes-validity-independent-of-the-claimant
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When evaluating a truth-claim, science's universalism norm says the claimant's race, nationality, religion, class, or any other personal or social attribute is strictly irrelevant to whether the claim holds — acceptance or rejection turns only on consonance with observation and with previously confirmed knowledge, evaluated by preestablished impersonal criteria. This isn't a claim about how scientists actually behave (the same essay documents them violating it constantly under nationalist pressure); it's a claim about what the institution's own standard requires, which is exactly why violations of it get labeled as violations rather than treated as the norm's absence. Diagnostic move: when someone tries to invalidate a factual or technical claim by discrediting the claimant's identity or affiliation rather than the claim's actual consonance with evidence, name what's happening as a category error against this specific norm — a law of nature or a verified technical process doesn't answer to who is asserting it, or to what political authority wants to be true."
+related: []
+evokes: [merton-1957, the-normative-structure-of-science, cudos-norms, haber-process-nuremberg-decree, anglophobe-and-the-law-of-gravitation]
+lineage:
+  - source: primary
+    text: merton-1957-universalism-impersonal-criteria
+    citation: "Robert K. Merton, Social Theory and Social Structure, Revised and Enlarged Edition (Glencoe, IL: Free Press, 1957), Ch. XVI 'Science and Democratic Social Structure' [orig. 1942, 'Science and Technology in a Democratic Order'], p.553. Verified verbatim against a University of Iowa library scan via Internet Archive OCR text (item 31858016281432)."
+    quote: "'Universalism finds immediate expression in the canon that truth claims, whatever their source, are to be subjected to preestablished impersonal criteria; consonant with observation and with previously confirmed knowledge. The acceptance or rejection of claims entering the lists of science is not to depend on the personal or social attributes of their protagonist; his race, nationality, religion, class and personal qualities are as such irrelevant.'"
+  - source: primary
+    text: merton-1957-haber-process-nuremberg-decree
+    citation: "Robert K. Merton, Social Theory and Social Structure (1957), same chapter and page, immediately following."
+    quote: "'The Haber process cannot be invalidated by a Nuremberg decree nor can an Anglophobe repeal the law of gravitation.'"
+canonical-instances:
+  - "A court dismisses forensic DNA evidence not by disputing the lab's methodology or results but by pointing out the analyst's foreign nationality or political affiliation — a universalism violation dressed as scrutiny, since the DNA match's validity has nothing to do with who ran the assay."
+  - "A national government declares that a foreign-developed vaccine's efficacy data cannot be trusted 'because it comes from a rival power,' while continuing to use technologies developed by the same rival when the identity-based objection isn't politically convenient — exposing that the identity-based dismissal was selective rather than a real epistemic standard."
+critical-questions:
+  - "Merton's own examples are almost all violations under nationalist pressure — does the frequency of violation under stress mean universalism is better understood as an aspirational ideal invoked mainly in its breach, rather than a norm that actually governs day-to-day scientific practice? What would distinguish 'a norm real enough to be violated meaningfully' from 'a norm too weak to constrain anyone under real pressure'?"
+  - "Does universalism about validity-criteria coexist cleanly with the fact that a scientist's track record, institutional affiliation, or reputation legitimately affects how much initial credence a new claim gets from peers — or does that practical heuristic quietly reintroduce exactly the personal-attribute-dependence the norm forbids, just laundered through 'credibility' instead of race or nationality?"
+status: active

@@ -1,0 +1,18 @@
+id: lex-zxqy8
+name: giving-up-status-to-personally-care-for-a-neglected-dependent
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'An agent with high standing and resources can voluntarily forfeit that standing to provide direct, individual care for a dependent whom the surrounding collective neglects or exploits, treating the duty-bond as overriding self-interest rather than weighing it against status lost. In the Jataka''s tale of the elephant who supported his mother, the herd gives the blind mother''s portion of fruit to itself instead of carrying it to her, so her son abandons herd leadership entirely to feed her by hand: "He would give his elephants the sweet wild fruit, so sweet, to convey to her; yet to her they gave none, but themselves ate all of it. When he made enquiry, and heard news of this, said he, ''I will leave the herd, and cherish my mother.''"'
+related: []
+evokes: [jataka, ekadasanipata, mati-posaka-jataka, filial-duty, voluntary-status-forfeiture]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mati-posaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 455, Mati-posaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "He would give his elephants the sweet wild fruit, so sweet, to convey to her; yet to her they gave none, but themselves ate all of it. When he made enquiry, and heard news of this, said he, \"I will leave the herd, and cherish my mother.\""
+canonical-instances:
+  - "A senior partner steps down from the firm's most visible leadership committee to personally manage the care schedule for a parent the rest of the family keeps deprioritizing behind other obligations."
+critical-questions:
+  - "Would the same forfeiture read as virtuous if the herd's neglect were an oversight rather than an exploitation — does the mechanism require the collective to be at fault, or only for the dependent's need to be going unmet?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-hpqs2
+name: blame-for-a-mismatched-assignment-belongs-to-whoever-made-the-assignment
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a task fails because it was handed to someone structurally unsuited to it, the failure isn't evidence of that agent's incompetence. It's evidence of a bad decision made by whoever assigned the task in the first place. In the Jataka's tale of the destructive monkeys, a park-keeper leaves monkeys in charge of watering young trees, and they kill every sapling by pulling each one up to inspect its roots. The Bodhisatta places the fault exactly where it belongs: 'Monkeys, I have no blame for you, Nor those who range the woodland through. The monarch is a fool, to say \"Please tend my trees while I'm away.\"' The monkeys did exactly what monkeys do. The failure was choosing them for a job that required something else entirely."
+related: []
+evokes: [jataka, tikanipata, arama-dusaka-jataka, a-mismatched-assignments-failure-indicts-the-delegator-not-the-agent, blame-follows-the-decision-to-assign-not-the-execution]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-arama-dusaka-jataka-2
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 268, Arama-dusaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Monkeys, I have no blame for you, Nor those who range the woodland through. The monarch is a fool, to say \"Please tend my trees while I'm away.\""
+canonical-instances:
+  - "A new intern given full ownership of a mission-critical production system with no relevant training breaks it within a week. The postmortem correctly lands on the manager who made that call, not on an intern who was never checked for the skills the role required."
+critical-questions:
+  - "Does this reasoning hold even when the agent assigned to the task claimed to be capable of it, or does a false claim of competence shift some of the blame back onto the agent regardless of who made the final assignment?"
+  - "Is there a point at which repeated failures from the same kind of mismatch should shift blame toward whoever keeps accepting assignments they aren't suited for, rather than solely toward whoever keeps making them?"
+status: active

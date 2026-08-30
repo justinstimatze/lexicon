@@ -1,0 +1,31 @@
+id: lex-x9pxs
+name: perturbation-around-known-solution
+type-in: state
+type-out: state
+_tier: atomic
+agent-instruction: "When solving a problem near a known solution, surface perturbation analysis — treat the new case as small deviation from the known, expand around it; the perturbation series converges where the problem is small, fails where it isn't."
+related: [lex-kkr43, lex-fsazx, lex-rupk9, lex-y6pqz]
+scaffolds-from: [lex-kkr43]
+evokes: [start-from-what-works, expand-around-the-baseline, small-delta-from-known, taylor-expand-the-perturbed-thing, status-quo-plus-epsilon]
+lineage:
+  - source: primary
+    text: rayleigh-schrodinger-perturbation-theory
+    citation: "Rayleigh-Schrödinger perturbation theory in QM: H = H_0 + λV where H_0 is exactly solvable; expand eigenvalues and eigenstates as power series in λ. Standard tool across atomic physics, QFT, condensed matter; one of the most-used methodological techniques in 20th-century physics"
+  - source: practitioner
+    text: taylor-series-1715
+    citation: "Brook Taylor's expansion (Methodus Incrementorum Directa et Inversa, 1715): f(x+h) = f(x) + hf'(x) + (h²/2)f''(x) + ... The general mathematical form of perturbation-around-a-known-point"
+  - source: practitioner
+    text: physics-decomposition-pass
+    citation: "promoted from cross-attestation: physics (perturbation theory in QM/GR/celestial mechanics), math (Taylor series; implicit function theorem; bifurcation theory near known solutions), CS (refactor working code by small steps; hot-patches preserve working baseline; rolling deployments are temporal perturbations), engineering (incremental design from validated reference design), policy (marginal-change heuristics; Lindblom's incrementalism)"
+canonical-instances:
+  - "celestial mechanics: Mercury's orbit is a Newtonian ellipse plus a small relativistic perturbation accounting for the perihelion precession (43 arcseconds/century, the historic GR test)"
+  - "refactoring discipline: don't rewrite from scratch; identify the working baseline, take small invariant-preserving steps (cf. lex-rupk9), each provably-equivalent to the prior — the cumulative perturbation arrives at the new architecture without ever leaving working state"
+  - "u-substitution in calculus is a perturbation move at the symbolic level: re-express around a more tractable form, do the work there, transform back"
+  - "Lindblom's 'science of muddling through' (1959): in policy, we make decisions by perturbing the status quo with small adjustments and observing effects, rather than re-deriving optimal policy from first principles"
+  - "cardinal pairing with lex-kkr43 simplification-by-removing-constraints: the canonical 'toy-model-then-perturb' workflow drops constraints to make a problem tractable, solves the toy version, then reintroduces constraints as perturbations (see lex-y6pqz for the molecule)"
+critical-questions:
+  - "is the baseline ACTUALLY known/solvable, or is the practitioner pretending? perturbation requires a known-solution as the zeroth-order term. If the baseline is itself approximate or unverified, the perturbation series accumulates the baseline's errors"
+  - "is the perturbation parameter small? Rayleigh-Schrödinger requires λ « 1 for the series to converge. Pretending a 30% effect is a perturbation by writing it as λ when λ=0.3 is large produces unreliable series — name the parameter and verify smallness"
+  - "is convergence assumed or proven? perturbation series can diverge (asymptotic series in QFT) yet still produce useful low-order estimates. Distinguish 'this converges' (rare) from 'this is asymptotically useful at low order' (common); don't trust higher-order corrections without verification"
+  - "is this distinct from lex-kkr43 simplification-by-removing-constraints? simplification produces the TOY model; perturbation adds back the dropped structure as small corrections. The canonical workflow is toy-then-perturb (lex-y6pqz molecule); the operations are different halves of the same move"
+status: active

@@ -1,0 +1,36 @@
+id: lex-yexax
+name: method-domain-transferability
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: "When importing a method from another domain, check the transferability conditions: which assumptions of the source domain hold here? Methods don't transfer; methods-plus-their-assumption-set transfer. The assumption-set is what makes or breaks the import."
+related: [lex-dm5te, lex-sjsxx, lex-jy4aq, lex-j5kxw, lex-cpjma, lex-8n237, lex-kh9cr, lex-xgt9j, lex-e6mj8]
+evokes: [moon-ghetto-failure, what-worked-for-X-may-not-work-for-Y, domain-transfer-failure, success-conditions-must-transfer-too, method-as-conditional-on-context, naive-method-borrowing]
+lineage:
+  - source: primary
+    text: rosenhead-mingers-2001-rational-analysis-for-a-problematic-world
+    citation: "Jonathan Rosenhead & John Mingers (eds.), Rational Analysis for a Problematic World Revisited, 2nd ed. (John Wiley & Sons 2001), Ch.1 'A New Paradigm of Analysis' p.4."
+    quote: "Traditional methods worked well to the extent that the relevant city agency was structured as a quasi-military hierarchy; few of its staff were analytically sophisticated; the agency performed a well-defined task whose repetition generated reliable data suitable for quantitative manipulation; and priorities between alternative objectives commanded almost universal consensus. All these features were in place for RAND's extensive work with the fire service. Diametrically opposite conditions held for the city's public health administration, and there RAND encountered comprehensive failure."
+  - source: practitioner
+    text: greenberger-crenson-crissey-1976-models-in-the-policy-process
+    citation: "Martin Greenberger, Matthew A. Crenson, and Brian L. Crissey, Models in the Policy Process: Public Decision Making in the Computer Era (Russell Sage Foundation 1976). The original RAND-in-NYC case study cited by Rosenhead-Mingers. Tier-3 deepening source — 1976 case-study volume; the verified Rosenhead-Mingers Ch.1 verbatim above ('All these features were in place for RAND's extensive work with the fire service. Diametrically opposite conditions held for the city's public health administration, and there RAND encountered comprehensive failure') supplies the canonical articulation of the RAND-in-NYC pattern this atom names."
+    quote: "[Tier-3 deepening source — Greenberger-Crenson; the RAND-in-NYC case study is recapitulated by Rosenhead-Mingers Ch.1 (verified verbatim above) in the form central for this atom — method success-conditions named as transferring (or not transferring) across domains.]"
+  - source: practitioner
+    text: nelson-1974-moon-ghetto-metaphor
+    citation: "Richard R. Nelson's 'moon-ghetto metaphor' — the false assumption that methods successful in aerospace (Apollo program) would transfer to social problems (inner-city ghettos). The metaphor is widely cited in the policy-analysis literature as the canonical name for naive method-borrowing failure. Tier-3 deepening source — Nelson's original article; the metaphor itself is part of standard policy-analysis vocabulary and cited as the rhetorical anchor by Rosenhead-Mingers Ch.1. The verified Rosenhead-Mingers verbatim above carries the operational claim; the moon-ghetto framing is the memorable handle, not the critical primary."
+    quote: "[Tier-3 deepening source — Nelson 1974 article; the moon-ghetto metaphor is widely cross-attested in the policy-analysis literature as the canonical name for this failure pattern. The atom's pivotal claim rests on the Rosenhead-Mingers RAND case-study verbatim above, not on Nelson's framing.]"
+canonical-instances:
+  - "applying agile methodology to government IT: the method's success-conditions (small autonomous teams, rapid feedback loops, low coordination overhead, deferrable specifications) don't transfer cleanly to environments with mandatory specification documents, multi-year procurement cycles, and political-accountability hierarchies. The method may technically run; it fails at the conditions-of-success level."
+  - "applying microservices architecture to a small team: the method's success-conditions (independent deployment, team autonomy, multiple sub-organizations) don't transfer to a 5-person team with no organizational fragmentation. The method's overhead exceeds its benefit because the success-conditions aren't present."
+  - "applying ML/optimization techniques in domains where the objective function is contested (medical diagnosis, hiring, criminal-sentencing): the techniques' success-conditions (single agreed objective, abundant labeled data, low cost of error) often don't transfer. The technique runs but optimizes the wrong thing."
+  - "applying customer-discovery / lean-startup methodology to internal-tool development: success-conditions include 'customer can be talked to', 'market signal can be measured by purchase', 'product can pivot quickly'. None of these may transfer to internal tooling where customer = colleague, market signal = adoption-mandate, pivot speed limited by integration constraints."
+  - "the discriminator move: when proposing to apply method M from domain X to domain Y, enumerate M's success-conditions in X (often unstated; the method's literature usually assumes them implicitly). For each, ask: does it hold in Y? Where it doesn't hold, expect failure proportional to the condition's load-bearingness in M's mechanism."
+  - "operationally distinct from lex-dm5te domain-credibility: lex-dm5te is about whether a SOURCE is credible-within-a-domain (Dr. Y is an oncologist; trust their cancer claims more than cosmology claims). This atom is about whether a METHOD transfers across domains (lean-startup works in startups; does it work in internal IT?). Source-credibility and method-transferability are independent questions."
+  - "operationally distinct from lex-sjsxx physics-model-regime-selection: lex-sjsxx picks a model regime within an agreed paradigm (Newtonian vs relativistic for THIS physical regime). This atom is about cross-paradigm method-borrowing (will hard-OR work here at all? Will the regression model trained on aerospace data work for traffic flow?). The two operate at different levels of abstraction."
+  - "key critical question: are method success-conditions usually identifiable BEFORE the transfer attempt? Empirically: the method's literature often hides them in assumptions and motivating examples; identifying them requires reading the original-context's failure modes carefully. The naive transferer skips this step and discovers the conditions retroactively via failure (the moon-ghetto pattern by inspection)."
+critical-questions:
+  - "is the method's success domain-specific or substrate-general? methods often work because of the domain, not despite it"
+  - "what specifically would have to be true of the new domain for the method to transfer — and is it?"
+  - "have you tested on a calibration case in the new domain before betting on the method, or are you transferring on faith?"
+  - "what's the cost of a wrong transfer — symmetric failure or catastrophic (e.g. financial-engineering methods to biology)?"
+status: active

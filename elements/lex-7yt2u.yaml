@@ -1,0 +1,19 @@
+id: lex-7yt2u
+name: a-predator-times-betrayal-to-a-cultivated-lapse-not-the-first-chance
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone entrusted with power behaves impeccably far longer than immediate opportunity would require, check whether they are cultivating a future lapse in oversight rather than simply proving trustworthy. Aesop's 'The Wolf and the Shepherd' has a wolf guard a flock faithfully for so long that the shepherd begins to see it 'more as a protector than as an enemy' and eventually leaves it unsupervised — at which point 'as soon as his back was turned the Wolf attacked them.' This is distinct from a predator who betrays the instant a chance appears; the wolf's extended patience is calibrated specifically to erode vigilance over time, closer to an insider-threat pattern than to any single opportunistic strike."
+related: []
+evokes: [aesop, the-wolf-and-the-shepherd, cultivated-lapse-in-oversight, insider-threat-patience]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-wolf-and-the-shepherd
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Wolf and the Shepherd.' Verified verbatim against a direct extraction of the held copy."
+    quote: "as time went by and the Wolf showed no inclination to meddle with the flock, he began to look upon him more as a protector than as an enemy... But as soon as his back was turned the Wolf attacked them."
+canonical-instances:
+  - "an embezzling employee behaves impeccably for years specifically to earn reduced scrutiny, then strikes during an audit gap or a manager's leave. Read backward, the years of good behavior turn out to have been the setup itself."
+critical-questions:
+  - "How would an observer distinguish genuine reformed or trustworthy behavior from a long-game cultivated lapse, given that both look identical for however many years the patience holds?"
+  - "Is there a point at which sustained good behavior should reasonably be taken at face value? This fable's implicit answer — oversight of real access should never fully relax — is a strong claim worth pressure-testing on its own."
+status: active

@@ -1,0 +1,19 @@
+id: lex-56xmg
+name: decoy-bait-exploits-vanity-to-force-the-real-thiefs-self-incrimination
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A hidden thief who could otherwise never be identified directly can be forced to expose themselves by placing a decoy near them that specifically triggers vanity or status comparison, since the urge to be seen as superior can override the caution that has protected the theft until then. In the Jataka's tale of the necklace-thief monkey, the investigating minister can't determine which monkey stole a real pearl necklace, so he has decoy monkeys dressed in ordinary bead necklaces released nearby. The actual thief, unable to resist showing off her genuine pearls as superior to the mere beads on display, blurts out the comparison and exposes herself — a weakness that no amount of investigation could have found without giving her something to feel superior about."
+related: []
+evokes: [jataka, ekanipata, mahasara-jataka, vanity-baited-decoy-forces-self-exposure, status-comparison-overrides-caution]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahasara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 92, Mahasara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Jealousy overcoming her prudence, she exclaimed, \"They're only beads!\" and put on her own necklace of real pearls."
+canonical-instances:
+  - "Unable to determine which of several employees leaked a confidential product detail, a company plants a fabricated, unimpressive-sounding rumor about the same feature and watches for whoever can't resist correcting it with the real, more impressive specifics they weren't supposed to know."
+critical-questions:
+  - "Does this technique depend on the thief specifically valuing being seen as superior, or would a different trigger — fear, guilt, competitiveness — work just as reliably against someone whose vanity isn't the dominant motive?"
+  - "What happens if multiple suspects share the same vulnerability to the bait — does the decoy risk exposing an innocent party's unrelated secret instead of, or alongside, the actual thief's?"
+status: active

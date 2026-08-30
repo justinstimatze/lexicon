@@ -1,0 +1,18 @@
+id: lex-z787q
+name: peripheral-listeners-incidental-absorption-preserves-institutional-knowledge
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Someone with no formal role or teaching status, but constant proximity to instruction, absorbs the full content simply through repeated exposure; when the formal authority dies, this incidental listener becomes the institution''s only surviving memory and can carry the enterprise forward. In the Jataka''s tale of Tittira, a partridge who merely overheard the lessons ends up teaching them himself: "A partridge too constantly resided there, and from hearing their master teach sacred texts to his pupils, the partridge got to know three Vedas." ... "How do you know it?" "I used to listen to your master, while he was teaching you, and got up three Vedas by heart."'
+related: []
+evokes: [jataka, navanipata, tittira-jataka, eavesdropper-becomes-the-expert, incidental-absorption-preserves-knowledge]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-tittira-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 438, Tittira-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "A partridge too constantly resided there, and from hearing their master teach sacred texts to his pupils, the partridge got to know three Vedas. ... \"How do you know it?\" \"I used to listen to your master, while he was teaching you, and got up three Vedas by heart.\""
+canonical-instances:
+  - "When the only engineer who understood a critical legacy system dies unexpectedly, it's the office manager who sat near his desk for a decade absorbing hallway conversations, not any of his official trainees, who turns out to be the one who can still explain how it works."
+critical-questions:
+  - "Is incidental absorption a reliable substitute for formal training, or does it just happen to work in this case because the partridge's memory and comprehension were unusually good?"
+status: active

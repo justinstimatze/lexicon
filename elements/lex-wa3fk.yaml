@@ -1,0 +1,31 @@
+id: lex-wa3fk
+name: three-independent-routes-produce-three-distinct-cosmological-resolutions
+type-in: claim
+type-out: claim
+_tier: molecule
+agent-instruction: "When comparing civilizational cosmologies, don't treat 'dualism vs. monism vs. process-thought' as arbitrary cultural preference — each names a distinct EPISTEMIC ROUTE that independently arrives at its metaphysics. The Greek route reasons its way there: abstracting an entity ('the Good') from its instances creates an independent domain of reasoning, which underwrites a transcendent, dualist cosmology (lex-jyzng). The Indian route observes its way there: sustained contemplative discipline yields a distinct, reproducible class of evidence about mind and reality, which converges on a transcendent monism (lex-vs2t5). The Chinese route reads correlative complementarity directly off lived and natural cycles, arriving at an immanent, organismic cosmology where opposites are cyclical partners rather than antagonists (lex-5a87w). Three different methods, three different resulting metaphysics — the method is doing real work, not just decorating a shared underlying intuition."
+related: [lex-jyzng, lex-vs2t5, lex-5a87w, lex-7yemm]
+scaffolds-from: [lex-jyzng, lex-vs2t5, lex-5a87w]
+evokes: [comparative-cosmology, one-and-many, dualism-vs-monism-vs-organicism, epistemic-route-to-metaphysics]
+decomposes-into:
+  - lex-jyzng
+  - lex-vs2t5
+  - lex-5a87w
+assembly: "classification(lex-jyzng, lex-vs2t5, lex-5a87w)"
+premises:
+  - "the Greek route abstracts an entity from its instances (positing 'the Good' as ontologically prior to and independent of any specific good thing), which creates a new domain of reasoning and underwrites a dualist, transcendent cosmology (lex-jyzng)"
+  - "the Indian route treats sustained interior attention under contemplative discipline as yielding a distinct, structureful class of evidence about mind and reality, which converges on a transcendent monism rather than dualism (lex-vs2t5)"
+  - "the Chinese route reads opposing forces as complementary and cyclical rather than antagonistic and mutually exclusive, arriving at an immanent, organismic cosmology instead of either the Greek transcendent-dualist or Indian transcendent-monist resolution (lex-5a87w)"
+  - "the three are unordered, mutually distinct instances of the same underlying problem — the one-and-many, how unity and multiplicity relate — resolved via three independent epistemic methods rather than one method producing three cultural variants"
+critical-questions:
+  - "is 'independent route' accurate, or did these three traditions influence each other enough (Silk Road contact, Buddhist transmission into China, Hellenistic-Indian contact post-Alexander) that treating them as methodologically independent overstates the case?"
+  - "does each tradition actually stay pure to its named route, or do all three traditions ALSO contain contemplative practice, abstract reasoning, and correlative thinking internally, making the route-to-tradition mapping a simplification?"
+  - "if a fourth tradition arrived at, say, dualism via correlative/immanent reasoning rather than Greek-style abstraction, would that break the claim that route determines resolution, or would it just be a fourth cell in a route-by-resolution table that doesn't currently have data?"
+lineage:
+  - source: practitioner
+    text: assembled-from-lex-jyzng-lex-vs2t5-lex-5a87w
+    citation: "Molecule assembled from lex-jyzng (abstracting-an-entity-from-its-instances-creates-an-independent-domain-of-reasoning, Greek Good-move), lex-vs2t5 (contemplative-discipline-yields-a-distinct-class-of-evidence-about-mind-and-reality, Indian route), and lex-5a87w (opposites-can-be-complementary-and-cyclical-rather-than-antagonistic-and-exclusive, Chinese route). lex-5a87w's own canonical-instances state the composition directly: 'Composes with lex-jyzng (the Greek Good-move via abstraction, which underwrites antagonistic-dualism) and lex-vs2t5 (the Indian contemplative-route, which arrives at transcendent monism) — together the three name distinct cosmological resolutions: Greek dualist-transcendent (lex-jyzng), Indian monist-transcendent (lex-vs2t5), Chinese immanent-organismic (lex-5a87w).' All three share type-in=claim, type-out=claim — same abstract signature (a route to a cosmological resolution), different domain (which civilization, which resolution) — the textbook case for `classification` rather than `sequential`/`parallel`."
+canonical-instances:
+  - "A philosophy survey comparing Plato's Form of the Good, the Upanishadic Brahman-Atman identity reached through meditative absorption, and the Daoist yin-yang complementarity of the Yijing: each is presented as reaching a distinct metaphysical resolution not because the cultures 'believed different things' arbitrarily, but because each culture's characteristic epistemic method (abstraction-by-reasoning, contemplative-observation, correlative-reading-of-cycles) structurally predisposes it toward that resolution."
+  - "A cross-cultural ethics course notices that a culture's dominant cosmology (transcendent-dualist vs. transcendent-monist vs. immanent-organismic) predicts which arguments land as intuitive in that tradition — mind-body dualism argues persuasively in Greek-descended traditions, non-dual awareness practices argue persuasively in Indian-descended traditions, and yin-yang-style both/and framing argues persuasively in Chinese-descended traditions — because the underlying cosmological resolution, not just surface belief-content, differs by route."
+status: under-review

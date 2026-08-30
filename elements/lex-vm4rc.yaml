@@ -1,0 +1,18 @@
+id: lex-vm4rc
+name: escalating-familial-appeals-fail-against-a-resolved-decision
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'A firm decision to leave a role or life can be tested by successive appeals from progressively more intimate relations: a more distant relation offers concessions first, and when that fails the closest relation is sent in to plead directly, yet genuine resolve holds against both. In the Jataka''s tale of the Great Renunciation prefigured, the father first offers to grant anything the prince craves ("If aught thou crave, Yuvafijana, I will fulfil it quite: If any hurt thee, I protect: be thou no eremite."), and when that fails the mother is brought in for a more emotionally direct appeal, and both fail against the prince''s resolve.'
+related: []
+evokes: [jataka, ekadasanipata, yuvanjaya-jataka, escalating-family-entreaty, resolve-tested-by-intimacy]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-yuvanjaya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 460, Yuvanjaya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "If aught thou crave, Yuvafijana, I will fulfil it quite: If any hurt thee, I protect: be thou no eremite."
+canonical-instances:
+  - "A young man announcing he's leaving the family business first hears his father offer him any title or raise he wants, and when that fails, his mother is sent in to make the personal appeal his father's offer couldn't — and neither moves him."
+critical-questions:
+  - "Does the escalation from concession to emotional appeal actually test the decision's firmness, or does the story simply need to show every avenue exhausted before it can credibly call the resolve unshakeable?"
+status: active

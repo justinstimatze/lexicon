@@ -1,0 +1,21 @@
+id: lex-5jur7
+name: imitating-a-leaders-visible-success-without-verifying-shared-capability
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "Watching someone else successfully clear an obstacle tells you the obstacle is clearable; it tells you nothing about whether you personally have what it took them to clear it, and a group that treats the first fact as proof of the second can be destroyed in a single moment together. In Radin's Winnebago Hare Cycle, a pack of pursuing heads chases Hare to a creek. He jumps it and clears it. The pursuers don't pause to consider whether they, being bodiless heads rather than a whole leaping animal, share whatever let Hare make that jump; they treat his success as a demonstrated instruction: 'Then the pursuers yelled, 'He has jumped across!' and the last one exclaimed, 'Jump across too!' So all tried. But they failed and fell into the creek and were drowned.' Every one of them made the same inference from the same single data point, and every one of them paid the same price for it, together, in the same instant. Diagnostic move: before following someone across a gap they just cleared, whether that gap is a physical risk, a financial bet, or a career move, ask what specifically let them clear it, and check whether you actually have that thing too, rather than treating their visible success as evidence that the attempt itself is what mattered."
+related: []
+evokes: [radin-winnebago-hare-cycle, hare-and-the-bodiless-heads, he-has-jumped-across, jump-across-too]
+lineage:
+  - source: primary
+    text: radin-the-pursuing-heads-imitate-hares-jump-and-drown
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'The Winnebago Hare Cycle,' episode 11. Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "Hare kept running until he came to a creek over which he jumped. Then the pursuers yelled, 'He has jumped across!' and the last one exclaimed, 'Jump across too!' So all tried. But they failed and fell into the creek and were drowned."
+canonical-instances:
+  - "A group of retail investors sees a well-known trader publicly post huge gains from a highly leveraged options bet and each independently puts a large share of their own savings into the identical trade, without checking whether they have anything like the trader's risk tolerance, timing, or capital cushion, and most of them are wiped out when the position moves against them."
+  - "Several employees at a company watch a colleague successfully quit without notice to freelance full-time and each resign the same week to do the same thing, without checking whether they have anything like that colleague's existing client base or savings, and most of them run out of money within months."
+critical-questions:
+  - "Does the story suggest the heads had any way to know in advance whether they could make the same jump, or was the outcome unknowable to them until they tried, making this less a failure of judgment than an unavoidable risk of pursuit itself?"
+  - "Is there a meaningful difference between the heads imitating Hare's jump and a human crowd imitating a leader's risky decision, given that the heads are explicitly bodiless and might be assumed by the story's own logic to lack whatever physical capability the jump required?"
+  - "Would even one head pausing to question the inference, 'he made it, but can I' have been enough to prevent the whole group's death, or does the story frame the drowning as inevitable once the chase had gone on this long, regardless of any one member's caution?"
+status: active

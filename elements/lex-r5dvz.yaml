@@ -1,0 +1,20 @@
+id: lex-r5dvz
+name: a-silent-pre-agreed-plan-executes-without-discussion-when-danger-hits
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A contingency plan agreed on in advance, even between people too young or too rushed to have discussed it formally, can activate wordlessly the instant danger arrives — each party simply does their part without needing to confer, because the plan was already settled before the moment that would have made discussing it impossible. In the Vessantara-Jataka, when the children realize a stranger has come to claim them, they scatter in different directions and hide separately without a word passing between them. Their father, searching for them, asks his son where his sister is; the boy answers only, "Father, all creatures take care of themselves in time of danger" — revealing, after the fact, that the two of them had an understanding for exactly this circumstance, one that needed no negotiation once the danger was actually there.'
+related: []
+evokes: [jataka, mahanipata, vessantara-jataka, pre-agreed-contingency, wordless-coordination, crisis-protocol]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-vessantara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 547, Vessantara-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Father, all creatures take care of themselves in time of danger."
+canonical-instances:
+  - "Two coworkers who once joked about what they'd do if the building's fire alarm ever turned out to be real find themselves, months later, automatically taking opposite stairwells during an actual evacuation without exchanging a word — the half-serious plan from months earlier is what's actually running."
+  - "Siblings who agreed years ago that if their parents' fighting ever turned physical one of them would go get a neighbor while the other stayed with the younger kids execute the split instantly and silently the one time it happens, each already knowing their role."
+critical-questions:
+  - "The plan here worked because both parties understood and trusted it — what happens when only one side believes a contingency was agreed on, and the other acts alone assuming coordination that was never actually settled?"
+  - "Executing a pre-agreed plan without discussion saves precious time in a real emergency — does that speed advantage still hold when the situation on the ground has changed enough that the old plan no longer fits, and there's no time to notice?"
+status: active

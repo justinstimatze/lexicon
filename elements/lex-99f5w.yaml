@@ -1,0 +1,39 @@
+id: lex-99f5w
+name: naming-as-regulation
+type-in: state
+type-out: state
+_tier: atomic
+agent-instruction: "When a phenomenon is being controlled by giving it a name (a category, a diagnosis, an ism), surface that naming is itself a regulatory act — the name brings the thing into the rule-system and changes what becomes possible."
+related: [lex-chp44, lex-68abd, lex-uz7g4, lex-wkcck, lex-9uac6, lex-cqvnu]
+scaffolds-from: [lex-68abd, lex-uz7g4, lex-wkcck]
+evokes: [affect-labeling, name-it-to-tame-it, the-noting-practice, expressive-writing-effect, granularity-as-control, the-named-thing-shifts-once-named]
+lineage:
+  - source: practitioner
+    text: lieberman-2007-affect-labeling
+    citation: "Matthew Lieberman, Naomi Eisenberger, Molly Crockett, Sabrina Tom, Jennifer Pfeifer, Baldwin Way, 'Putting Feelings into Words: Affect Labeling Disrupts Amygdala Activity in Response to Affective Stimuli,' Psychological Science 18(5):421-428 (2007). The canonical neuroscience finding: when subjects label emotional stimuli (rather than match faces or other control conditions), amygdala activity decreases and right ventrolateral prefrontal cortex activity increases. The verbal-labeling act IS regulatory at the neural level"
+  - source: practitioner
+    text: pennebaker-1986-expressive-writing
+    citation: "James Pennebaker, Sandra Beall, 'Confronting a traumatic event: Toward an understanding of inhibition and disease,' Journal of Abnormal Psychology 95(3):274-281 (1986). The original expressive-writing paradigm finding: 15-20 minutes of writing about emotional events on consecutive days produces measurable physical-health benefits months later. Smyth 1998 meta-analysis (Journal of Consulting and Clinical Psychology) computed effect size d=0.47 across 13 studies; subsequent Frattaroli 2006 meta-analysis confirmed across 146 studies (Psychological Bulletin)"
+  - source: practitioner
+    text: nyanaponika-1962-heart-of-buddhist-meditation
+    citation: "Nyanaponika Thera, The Heart of Buddhist Meditation (1962, Rider). The canonical Western-language exposition of the Mahasi Sayadaw / Burmese Vipassana 'noting' practice: silently labeling experience as it arises ('thinking,' 'planning,' 'sensation,' 'anger') as the operational regulatory move. The naming itself constitutes the contemplative work; absent naming, awareness can fuse with the named object and lose its regulatory effect"
+  - source: practitioner
+    text: essay-informed-mining-pass
+    citation: "promoted from cross-attestation: cognitive neuroscience (Lieberman 2007 fMRI affect-labeling study + subsequent replications; Torre & Lieberman 2018 review in Emotion Review), clinical psychology (Pennebaker 1986 expressive writing paradigm with 30+ years of follow-up; Niles et al. 2014 matching-hypothesis qualifications), Buddhist contemplative practice (Mahasi noting practice canonical in modern Vipassana; Nyanaponika 1962 Western exposition; Goldstein Mindfulness 2013 contemporary teaching), nonviolent communication (Marshall Rosenberg, Nonviolent Communication: A Language of Life 1999 — the 'feelings' step in observation/feeling/need/request structure is naming-as-regulation embedded in interpersonal practice), affective science (Lisa Feldman Barrett, How Emotions Are Made 2017 — the emotional-granularity literature: Kalokerinos et al. 2019 in Emotion; Hoemann, Khan et al. 2021 in Emotion — finer-grained emotional vocabulary correlates with better psychological outcomes including lower depression, better emotion regulation, less binge-drinking). Cross-domain attestation across neuroscience, clinical psychology, contemplative traditions, communication training, and affective science"
+canonical-instances:
+  - "Lieberman fMRI experiment: subjects view fearful faces while in fMRI scanner; in the labeling condition, they choose between two affect labels ('angry' or 'fearful') for each face; in the control condition, they match faces or label gender. Amygdala activity is significantly reduced in the labeling condition. The neural-level effect operationalizes 'name it to tame it' as a measurable mechanism, not folk wisdom"
+  - "Mahasi noting practice in Vipassana: when anger arises during meditation, the practitioner silently labels 'anger, anger, anger' rather than getting absorbed into the anger or pushing it away. The labeling creates a small gap between awareness and the named object; the gap is the regulatory mechanism. Functionally identical to Lieberman's labeling condition but in contemplative-practice rather than experimental-stimuli context"
+  - "expressive writing: subjects write about traumatic events for 15-20 minutes per day on 3-4 consecutive days; control subjects write about superficial topics. Months later, the experimental subjects show measurably better physical health outcomes (immune function, fewer doctor visits) than controls. The naming-via-writing has effects far beyond the writing session itself"
+  - "NVC observation/feeling/need/request structure: rather than 'you're being a jerk' (judgment), the speaker says 'when X happened (observation), I felt Y (feeling), because I need Z (need), would you be willing to W (request)?' The explicit naming of the feeling-component is indispensable; skipping it (going straight from observation to request) loses the relational-regulatory effect"
+  - "emotional granularity literature: subjects asked to track daily emotions with high-granularity vocabulary (anger / annoyance / contempt / disgust as distinct rather than 'bad mood') show better emotion-regulation outcomes; the finer differentiation enables differentiated response. The naming-as-regulation effect operates at the vocabulary-richness level, not just the per-instance level"
+  - "operationally distinct from lex-chp44 meta-pointer: meta-pointer marks 'more detail than represented' (the AND clause acknowledging approximation); naming-as-regulation is the move where the act of naming CHANGES the named state. Different operations though both involve verbal-pointing"
+  - "operationally distinct from lex-68abd map-not-territory: map-not-territory is the FRAME that the representation isn't the represented; naming-as-regulation is the OPERATIONAL EFFECT where representing-something nevertheless impacts what's represented (the map's existence changes the territory). Distinct concerns"
+  - "operationally a specific instance of lex-uz7g4 archetype-as-projective-shorthand applied to internal states: the named-feeling-as-handle is an archetype-as-projective-shorthand at the introspective layer (the named feeling carries its associated regulatory structure)"
+  - "crucial critical question: does the naming actually engage with the named state, or does it bypass? Pennebaker work shows that superficial-naming (without engagement) doesn't produce the effect; naming WITH attentional engagement does. Mechanical labeling without contact is verbal exercise, not regulation"
+  - "cardinal critical question: is the granularity matched to the regulatory need? The emotional-granularity literature shows that finer differentiation helps regulation up to a point; pathological hyper-granularity (parsing every micro-state) can be its own dysfunction. The optimal granularity tracks the operational decisions the namer needs to make"
+critical-questions:
+  - "what work is the name doing that 'pointing at the thing' couldn't do — name the rule-system you're entering"
+  - "does naming aid the named (legibility) or aid the namer (control) — these are often confused"
+  - "what becomes invisible once this name is operative? naming often hides as much as it reveals"
+  - "could the act of naming itself change the named (lex-z3qjg self-fulfilling) — and is that change wanted?"
+status: under-review

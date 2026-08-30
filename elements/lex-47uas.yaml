@@ -1,0 +1,19 @@
+id: lex-47uas
+name: a-reserve-capability-outside-the-curriculum-repunctures-claimed-parity
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A pupil who has mastered everything a teacher formally taught can come to believe that mastery means parity with the teacher — a belief the teacher can puncture not by disputing it, but by demonstrating a capability that was never part of the curriculum in the first place. This exact structural beat recurs three times across this section of the Jataka: an elephant trainer teaches a rebellious elephant tricks in a single night his pupil never learned; a musician answers a rival pupil's challenge with playing techniques beyond anything taught; and a teacher poses a riddle explicitly outside the material, telling his prideful pupils: 'Do not imagine that this question is in the Three Vedas. You imagine that you know all that I know, and so you act like the jujube tree. You don't know that I know a great deal which is unknown to you.' In each case, the pupil's claim to equality was accurate about the formal syllabus and false about the teacher's total capability — the reserve was never covered by the comparison the pupil thought was complete."
+related: []
+evokes: [jataka, dukanipata, upahana-jataka, guttila-jataka, mula-pariyaya-jataka, mastering-the-syllabus-is-mistaken-for-matching-the-teacher, an-undisclosed-reserve-capability-punctures-claimed-parity]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mula-pariyaya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 245, Mula-pariyaya-jataka (the same structural mechanism recurs at No. 231, Upahana-jataka, and No. 243, Guttila-jataka, in this same chunk). Verified verbatim against a direct extraction of the held copy."
+    quote: "Do not imagine that this question is in the Three Vedas. You imagine that you know all that I know, and so you act like the jujube tree. You don't know that I know a great deal which is unknown to you."
+canonical-instances:
+  - "A junior engineer who has completed every module of a company's internal training and starts pushing for equal say in architecture decisions is quietly humbled when a senior engineer walks through a production incident from fifteen years earlier that no training module ever covered, revealing a whole layer of judgment the formal curriculum never touched."
+critical-questions:
+  - "Is this actually a fair test of relative skill, or does it just prove that teachers accumulate experience outside any curriculum by definition — does demonstrating an off-syllabus reserve prove genuine superior mastery, or only that teaching happened to stop short of covering everything the teacher happens to know?"
+  - "What happens once a pupil eventually does close the gap and matches even the reserve capability? A sufficiently deep teacher might keep producing new undisclosed reserves indefinitely, preserving the hierarchy no matter how much the pupil actually learns."
+status: active

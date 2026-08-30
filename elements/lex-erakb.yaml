@@ -1,0 +1,19 @@
+id: lex-erakb
+name: a-lowball-bid-to-exploit-ignorance-forfeits-the-prize-to-a-rival
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Trying to acquire an undervalued asset for nothing, rather than paying its owner a fair-but-still-low price, risks losing it entirely to a second buyer who values it correctly. In the Jataka's golden-bowl tale, a hawker recognizes a grimy pot as solid gold but declares it worthless and walks away rather than pay anything for it — hoping the desperate owners will chase him down and give it away. They don't; a second, honest hawker arrives, appraises it truthfully, and buys it at a fair price. The first hawker's own greed is what hands the asset to a competitor: by refusing to pay even a small real price, he leaves the resource on the table for whoever is willing to pay one."
+related: []
+evokes: [jataka, ekanipata, serivanija-jataka, lowball-exploitation-backfire, greed-forfeits-the-prize]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-serivanija-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 3, Serivanija-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "he cried, \"What's the value of this, pray? Why it isn't worth half a farthing!\" And therewithal he threw the bowl on the ground, rose up from his seat, and left the house."
+canonical-instances:
+  - "A scout for one collectibles dealer inspects a stranger's attic find, calls it worthless costume jewelry to avoid paying anything for it, and leaves empty-handed. A second dealer, called in later, correctly identifies the piece as antique and buys it at a fair price."
+critical-questions:
+  - "Would the first hawker have done better bidding a genuinely low but real price rather than zero — is the failure specifically about refusing to pay anything, or just about how low the number was?"
+  - "Does this mechanism depend on the seller having any way to get a second opinion at all — what happens to the pattern when the first appraiser's word is effectively the only price signal the seller will ever see?"
+status: active

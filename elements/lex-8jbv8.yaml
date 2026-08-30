@@ -1,0 +1,22 @@
+id: lex-8jbv8
+name: invisible-service-value-makes-its-cost-look-like-exploitation
+type-in: state
+type-out: claim
+_tier: atomic
+agent-instruction: "When a party in an economic chain performs work that is intangible and continuous -- information-gathering, credit provision, quality vetting, risk-bearing -- rather than physical and visible, expect their compensation to be resented and their function to be misread as parasitic. The COST of paying them (a visible commission, fee, or interest charge) is easy to see; the BENEFIT they provide (working capital that arrived on time, fraud that didn't happen, a buyer who was actually found) is a counterfactual that never gets observed. Before concluding an intermediary is extracting unearned rent, enumerate the concrete alternative -- who would provide the credit, gather the information, and bear the risk instead -- and price that alternative before comparing it to the intermediary's visible fee."
+related: [lex-xqvcf]
+evokes: [blackwell-hall-factors, useless-drones-in-the-human-hive, dark-side-of-social-technologies, seen-cost-unseen-benefit, clothier-resentment, middleman-scapegoating]
+lineage:
+  - source: primary
+    text: postrel-2020-fabric-of-civilization-ch5-traders
+    citation: "Virginia Postrel, The Fabric of Civilization: How Textiles Made the World (Basic Books, 2020), Chapter Five: Traders, on English clothiers' resentment of the London factors who sold their cloth at Blackwell Hall on commission."
+    quote: "Here we see the dark side of social technologies. Intangible and routine, they lack physical indications of value and are often dismissed as insignificant or condemned as malign... Disgruntled clothiers imagined that factors were settling for excessively low prices, rejecting fabric without reason, and making money without effort. They felt the pinch of their loan payments and resented the factors for buying wool to sell them at a profit. They forgot the services that had led them to rely on factors in the first place: the convenience, working capital, market intelligence, quality control, and customer connections. Especially in hard times, it was easy to perceive the cost of the middlemen's work, in commissions and interest, but not its benefits."
+canonical-instances:
+  - "A pamphleteer writing as 'Trowbridge' accused London's Blackwell Hall cloth factors -- who provided clothiers with working capital, market intelligence on what colors and weights would sell, quality-control rejection of flawed goods, and access to buyers otherwise barred from the London market -- of being 'useless Drones in the human Hive' who grew 'rich without any Risque and with very little Trouble,' while clothiers who resented their commissions rarely priced what it would cost to replace those five services themselves."
+  - "Hypothetical: A seller who resents a gig-economy marketplace's 30 percent commission as pure extraction, without pricing what it would cost to independently build customer discovery, payment processing, dispute resolution, and trust-signaling (reviews) from scratch, is making the same category of error the Blackwell Hall clothiers made against their factors."
+critical-questions:
+  - "Can you name a concrete alternative mechanism -- who else would perform the service, and at what cost -- or is the criticism only comparing the intermediary's fee to zero, an option that isn't actually available?"
+  - "Is the resentment strongest during hard times specifically (a recession, a bad harvest, a cash crunch), when a continuously-paid service feels most burdensome precisely because everyone is stretched, independent of whether the service's actual price changed at all?"
+  - "Does the intermediary have a repeated relationship with the same customers, which would make cheating them costly to the intermediary's own long-term reputation, or is this a one-shot transaction where an accusation of malfeasance is more plausible on its face?"
+severity-tier: info
+status: active

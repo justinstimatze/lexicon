@@ -1,0 +1,24 @@
+id: lex-yqe6n
+name: absence-of-a-tracking-system-is-a-designed-feature
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "The complete absence of any system to trace who actually caused a problem inside a large organization isn't administrative sloppiness — it's what allows blame to attach to whoever currently occupies a position regardless of who actually made the decisions that produced the failure, since a current occupant can inherit and absorb blame for a predecessor's mistakes with no record to contest it. The reason this absence persists rather than getting fixed is structural: an explicit accountability-tracking system would have to apply at the top as well as the bottom, and would therefore restrict the freedom of those who currently benefit most from its absence. Read a missing tracking system as a distributional choice with clear winners, not a neutral gap waiting to be filled."
+related: [lex-phq84, lex-puap2]
+evokes: [jackall-moral-mazes, "bureaucracy expands the freedom of those on top", untracked-accountability-as-a-feature]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch4-no-tracking-system
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 4, Looking Up and Looking Around."
+    quote: "Big corporations implicitly encourage scapegoating by their complete lack of any tracking system to trace responsibility. Whoever is currently and directly in charge of an area is responsible—that is, potentially blamable—for whatever goes wrong there, even if he has inherited others' mistakes."
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch4-tracking-would-restrict-freedom
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 4, Looking Up and Looking Around."
+    quote: "An explicit system of tracking accountability would presumably have to apply, at least in the public forum, to top executives as well and would restrict their freedom. Bureaucracy expands the freedom of those on top precisely by giving them the power to restrict the freedom of those beneath."
+canonical-instances:
+  - "A new plant manager inherits equipment failures caused by a predecessor's deferred maintenance and is held accountable for them in performance reviews, because no system exists that could distinguish decisions made under the current manager from decisions made years earlier."
+critical-questions:
+  - "Would building the tracking system this atom describes as missing actually get proposed and adopted by the people who currently benefit from its absence, or does naming the incentive against building it also explain why it never gets built even when everyone agrees it would be fairer?"
+status: active

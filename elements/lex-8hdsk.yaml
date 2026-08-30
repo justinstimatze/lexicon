@@ -1,0 +1,20 @@
+id: lex-8hdsk
+name: repeating-an-identical-persuasion-tactic-against-mounting-disconfirming-evidence
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A tactic that has already failed the exact same way, on the exact same kind of target, in living memory, can still be repeated verbatim on the next candidate rather than revised — because the failure is read as specific to the individual rather than as evidence about the tactic itself. In the Jataka's tale of Hatthipala, a king and his chaplain disguise themselves as ascetics to test each of four sons in turn before crowning one of them, and every son responds by renouncing the kingdom outright. Rather than updating their approach after the first refusal, they simply move to the next son with the identical plan: \"Next day the king and his chaplain thought, 'And so Prince Hatthipala has really renounced his claim on the kingdom... But let us try Assapala, and sprinkle him to be king.' So as before in the dress of ascetics they went to his door.\" This repeats twice more, with the same outcome each time, before the king and chaplain themselves finally renounce the world too."
+related: []
+evokes: [jataka, visatinipata, hatthi-pala-jataka, repeated-failed-tactic, attributing-failure-to-the-individual-not-the-method]
+lineage:
+  - source: primary
+    text: jataka-rouse1901-hatthi-pala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XV (Visati-Nipata), No. 509, Hatthi-pala-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Next day the king and his chaplain thought, 'And so Prince Hatthipala has really renounced his claim on the kingdom, and is sitting on the Ganges bank... But let us try Assapala, and sprinkle him to be king.' So as before in the dress of ascetics they went to his door."
+canonical-instances:
+  - "A sales team keeps running the exact same cold-outreach script on every new segment after it fails to convert three segments in a row, treating each failure as 'that particular list was wrong' rather than evidence the script itself doesn't work."
+  - "A company runs the same performance-improvement-plan template on a fourth employee in a row who ends up quitting, never revising the template even though the pattern of outcome has been identical every time."
+critical-questions:
+  - "The king and chaplain eventually renounce the world themselves, so in this telling the failing tactic in fact succeeds at something — just not at what they intended. Does noticing that the outcome you're getting is itself valuable count as evidence the tactic should be kept, even though it never achieves its stated goal?"
+  - "Each son responds identically for the same underlying reason (they were conceived specifically to renounce the world), which the king and chaplain don't know. How would you distinguish, from inside the pattern, between a tactic that's genuinely broken and one that's failing for a hidden reason specific to this set of targets?"
+status: active

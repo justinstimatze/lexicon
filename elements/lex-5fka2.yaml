@@ -1,0 +1,19 @@
+id: lex-5fka2
+name: culpability-is-defended-by-scaling-it-to-degree-of-appropriation
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A party accused of wrongdoing can defend themselves by distinguishing passive, non-removing engagement from active appropriation or destruction, arguing that blame should scale with how much was actually taken rather than with mere proximity to the thing in question. In the Jataka's tale of Bhisapuppha, the ascetic defends himself this way against the charge of stealing scent: \"I neither take nor break the flower: from afar I smell the bloom. I cannot tell on what pretence you say I steal perfume ... A man who digs the lotus-roots and breaks the stalks I see: Why don't you call the conduct of that man disorderly?\""
+related: []
+evokes: [jataka, chanipata, bhisapuppha-jataka, culpability-scaled-to-appropriation, passive-engagement-versus-active-taking]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-bhisapuppha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 392, Bhisapuppha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "I neither take nor break the flower: from afar I smell the bloom. I cannot tell on what pretence you say I steal perfume. ... Aman who digs the lotus-roots and breaks the stalks I see: Why don't you call the conduct of that man disorderly?"
+canonical-instances:
+  - "An employee accused of misusing a shared research database defends themselves by pointing out they only read published summaries and never downloaded raw records, arguing that culpability should track the amount actually taken rather than mere access to the system."
+critical-questions:
+  - "Is scaling culpability to degree of appropriation a legitimate defense, or does it let someone who benefits from proximity to wrongdoing escape blame just because they didn't personally do the most damaging part?"
+  - "Does pointing at someone who did worse actually excuse the lesser act, or does it only establish a comparison that leaves the original question of the lesser act's own wrongness unanswered?"
+status: active

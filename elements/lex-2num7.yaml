@@ -1,0 +1,18 @@
+id: lex-2num7
+name: legitimacy-defended-by-enumerated-virtuous-conduct-not-birthright
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: 'When challenged on the right to hold power despite lacking the usual claim to it, a ruler can respond not by invoking birthright or status but by enumerating specific, concrete administrative virtues actually performed, grounding legitimacy in demonstrated good governance rather than in position or descent. In the Jataka''s tale of Prince Samvara, challenged by his eldest brother on what entitles the youngest son to rule, Samvara answers with a list of what he has actually done: "Elephant troops and chariotmen, guard royal, infantry— I took no toll of daily dole, but paid them all their fee."'
+related: []
+evokes: [jataka, ekadasanipata, samvara-jataka, performance-based-legitimacy, earned-versus-status-based-authority]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-samvara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 462, Samvara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Elephant troops and chariotmen, guard royal, infantry— I took no toll of daily dole, but paid them all their fee."
+canonical-instances:
+  - "Challenged by a longer-tenured colleague on what qualifies her to lead the newly formed team, a young manager answers not by citing her title but by listing the specific decisions she's already made well and the people she's already delivered for."
+critical-questions:
+  - "Samvara answers the challenge to his legitimacy with a list of good conduct — but does enumerated virtue actually settle a legitimacy dispute, or does it only work here because his brothers have already independently decided not to fight him?"
+status: active

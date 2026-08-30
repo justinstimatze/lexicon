@@ -1,0 +1,19 @@
+id: lex-74qxx
+name: stage-a-private-answer-as-a-maximal-witness-public-event
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than answer a private question privately, a powerful party can insist on staging the disclosure as a public ceremony with the widest possible audience, turning a personal answer into a legitimizing public performance. In the Jataka''s tale of Kummasapinda, the king does exactly this rather than simply tell the queen the meaning of his song: "I will tell it, but not as a secret to you alone: I will send a drum round the whole twelve leagues of Benares, I will make a jewelled pavilion at my palace-door and arrange there a jewelled throne: on it I will sit amidst ministers, brahmins and other people of the city, and the sixteen thousand women, and there tell the tale."'
+related: []
+evokes: [jataka, sattanipata, kummasapinda-jataka, private-answer-as-public-ceremony, disclosure-as-legitimizing-performance]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kummasapinda-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 415, Kummasapinda-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "I will tell it, but not as a secret to you alone: I will send a drum round the whole twelve leagues of Benares, I will make a jewelled pavilion at my palace-door and arrange there a jewelled throne: on it I will sit amidst ministers, brahmins and other people of the city, and the sixteen thousand women, and there tell the tale."
+canonical-instances:
+  - "Rather than quietly confirm a rumor to one anxious board member, a CEO calls a full company all-hands to explain the decision publicly, turning what could have been a private answer into a legitimizing moment for the whole organization."
+critical-questions:
+  - "Does staging the answer publicly serve the asker's actual interest, or does it primarily serve the answerer's need to control how the disclosure lands?"
+  - "What does the asker lose by having their private question turned into a public event they didn't choose?"
+status: active

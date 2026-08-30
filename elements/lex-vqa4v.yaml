@@ -1,0 +1,18 @@
+id: lex-vqa4v
+name: a-characters-meaningful-name-is-read-as-proof-that-a-foretold-fate-has-arrived
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A minor character''s proper name can coincide with the literal word for the abstract force that received wisdom says will end the protagonist''s life, and the protagonist can treat the coincidence of hearing that name as proof the foretold fate has arrived, rather than as mere chance. In the Jataka''s tale of Ghata, the dying king learns his wounder''s name is Jara, the word for Old Age, and reads the name itself as confirmation of his fate: "''My name is Jara, my lord.'' ''Ah,'' thought the king, ''whom Old Age wounds will die, so the ancients used to say.''"'
+related: []
+evokes: [jataka, dasanipata, ghata-jataka, meaningful-naming-as-foreshadowing, nomen-est-omen]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-ghata-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 454, Ghata-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "My name is Jara, my lord. Ah, thought the king, whom Old Age wounds will die, so the ancients used to say."
+canonical-instances:
+  - "A terminally ill patient, told her attending physician's surname literally translates to \"the ferryman,\" takes it as confirmation her death is imminent, treating a coincidental name as more meaningful evidence than the actual medical prognosis she has already been given."
+critical-questions:
+  - "Is reading significance into a coincidental name ever more than a psychological coping mechanism for accepting an outcome the person already suspects, dressed up as an external sign?"
+status: active

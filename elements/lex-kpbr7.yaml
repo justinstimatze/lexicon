@@ -1,0 +1,22 @@
+id: lex-kpbr7
+name: an-insider-marks-a-leaked-warning-as-personal-not-official
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A member of an institution can tip off the very people that institution intends to act against, prefacing the warning by explicitly disclosing they were not sent or authorized to deliver it -- framing the disclosure as a personal act of goodwill undertaken on their own initiative rather than as an official communication. A policeman comes to Black Elk and Good Thunder and says plainly: 'I was not sent here, but I came for your good to tell you what I have heard—that they are going to arrest you two.' The disclaimer does two things at once: it protects the messenger from the appearance of institutional betrayal, and it tells the recipients exactly how much institutional weight the warning does and doesn't carry."
+related: []
+evokes: [black-elk-speaks, bad-trouble-coming, i-was-not-sent-here, i-came-for-your-good, they-are-going-to-arrest-you-two]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch23-bad-trouble-coming
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 23, 'Bad Trouble Coming.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "The next day, while I was sitting in a tepee with Good Thunder, a policeman came to us and said: 'I was not sent here, but I came for your good to tell you what I have heard—that they are going to arrest you two.'"
+canonical-instances:
+  - "A compliance officer at a company under internal investigation quietly tells a targeted employee, 'I wasn't asked to tell you this, but you should know an audit is coming,' before the official notice goes out."
+  - "A border guard warns a group of travelers that a checkpoint ahead has been ordered to detain them, explicitly noting he's speaking as a private citizen and not on behalf of his post."
+  - "A hospital administrator tips off a physician under quiet review that a formal complaint has been filed, stating clearly that she's telling him this on her own time and not in her official capacity."
+critical-questions:
+  - "Does explicitly marking the warning as unauthorized actually protect the messenger, or does the act of delivering it at all already carry the same institutional risk regardless of the disclaimer attached to it?"
+  - "Is Black Elk and Good Thunder's decision to flee based on a single, unverified tip from one policeman a sound response, or does treating one insider's unofficial word as reliable enough to act on immediately skip a step a more cautious response might have taken?"
+  - "Would the warning have carried the same credibility if the messenger hadn't specified that he wasn't sent, or does that specific framing do real persuasive work beyond just the content of what he says he heard?"
+status: active

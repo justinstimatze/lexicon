@@ -1,0 +1,23 @@
+id: lex-54msp
+name: traveling-incognito-to-elicit-honest-criticism-your-status-suppresses
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When your own position makes people unwilling to voice real criticism of you, going out disguised — stripped of the visible markers of your authority — can surface the honest feedback that status otherwise filters out at every level. In the Jataka's tale of the ascetic and the fig, a king who cannot find anyone willing to name his faults at court or in the city disguises himself and wanders further out: 'And not finding any one to speak to his dispraise, either within doors or without, either within the city or outside it, he wandered about the country side in disguise, thinking, \"How will it be in the country?\"'"
+related: []
+evokes: [jataka, catukkanipata, rajovada-jataka, timsanipata, gandatindu-jataka, status-filters-out-honest-criticism-at-every-visible-level, disguise-strips-the-markers-that-suppress-candor]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-rajovada-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 334, Rajovada-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "And not finding any one to speak to his dispraise, either within doors or without, either within the city or outside it, he wandered about the country side in disguise, thinking, \"How will it be in the country?\""
+  - source: primary
+    text: jataka-francis1905-gandatindu-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XVI (Timsanipata), No. 520, Gandatindu-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Now at this juncture the king and his chaplain stood before him in disguise. ... By night to thieves a prey are we, to publicans by day, / Lewd folks abound within the realm, when evil kings bear sway. ... Hearing this the king addressing his chaplain said, \"Master, the old man speaks truly: it is our fault. Come, let us return and rule the kingdom righteously.\""
+canonical-instances:
+  - "A CEO who suspects their all-hands feedback sessions only ever surface polished praise creates an anonymous, unbranded customer-support account and spends a week reading raw complaints about the company with no idea it's the CEO reading them."
+critical-questions:
+  - "Does the king actually get more honest feedback in disguise, or does the story understate how far this particular search has to go — he tries the court, the city, and the countryside before finally getting real criticism from the ascetic, suggesting disguise alone isn't sufficient without also finding the right source."
+  - "What happens once the disguised person reveals their identity — does the honest feedback dry up again immediately, meaning the access this method buys is inherently temporary and one-time?"
+status: active

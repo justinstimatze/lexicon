@@ -1,0 +1,25 @@
+id: lex-chp44
+name: meta-pointer
+common-name: "Acting on the wrong level"
+type-in: claim
+type-out: frame
+_tier: atomic
+agent-instruction: "When a name refers to something that itself refers (a pointer to a pointer), be explicit about which level you're operating on. Meta-pointer confusion is silent — you act on level N when you meant level N+1 and the error doesn't surface for a long time."
+related: [lex-4yhqs, lex-68abd, lex-xcaqj, lex-hm8yx, lex-axa6h, lex-gng22, lex-uz7g4, lex-jvr5p, lex-99f5w, lex-k6d7u, lex-jtw66, lex-xrg6e, lex-9ty22, lex-bra5e, lex-gbru2, lex-e3yhv, lex-7tvr6, lex-s7jjg, lex-4697f, lex-875gz, lex-qfwuf, lex-r5fy3, lex-bg3ad, lex-pn7cf, lex-dwey5, lex-p77e7]
+scaffolds-from: [lex-bra5e]
+evokes: [explicit-marginalization-marker, scope-annotation, hedged-completeness, what-this-claim-does-not-cover]
+lineage:
+  - source: practitioner
+    text: uncited
+    citation: "No external primary or secondary source identified yet; the pattern is named and instantiated below but not yet grounded against literature on scope-annotation, hedging, or metadiscourse markers."
+canonical-instances:
+  - "a pull-request description that says 'this handles cases A and B, NOT case C, which is left for a follow-up' — the explicit negative-pointer about what is NOT covered is the meta-pointer; the positive description is just the change"
+  - "a spec saying 'the public API is X; internal implementation may diverge and the docs do not contract on internal shape' — marking the layer-boundary in the language of the spec itself"
+  - "an analysis that ends with 'note: this model assumes uncorrelated errors, which the production data probably violates' — the AND-clause carrying the unrepresented-but-known constraint, distinct from the analysis itself"
+  - "the move 'I'll treat this as X for now, but Y might matter later' — fires on prompts where someone explicitly annotates a temporary simplification with a forward-pointer to the marginalized detail"
+critical-questions:
+  - "the actual-annotation test: is there a SPECIFIC linguistic marker pointing at what's omitted, or is the meta-pointer claim post-hoc reading-in? Meta-pointer requires an EXPLICIT scope-annotation in the language ('not X', 'except Y', 'this assumes Z'). Without the explicit marker, you have unmarked simplification, not a meta-pointer. Practitioner-discipline: locate the marker before treating the move as a meta-pointer"
+  - "the load-bearing-of-the-pointer check: would the recipient ACT differently because of the meta-pointer? A pull-request description that flags 'this doesn't handle case C' should produce a follow-up ticket; an analysis that flags 'this assumes uncorrelated errors' should produce sensitivity analysis. If the meta-pointer is decorative — surfaced but not acted on — it has failed its function. Practitioner-question: what downstream behavior was the meta-pointer trying to trigger, and did it?"
+  - "the omission-as-deception failure-mode: meta-pointer can be co-opted by speakers as paltering-cover (lex-d7h2y) — '*technically* I noted the limitation' becomes a defense against accountability for not addressing it. The marker becomes defensive padding rather than honest scope-annotation. Practitioner-discipline: meta-pointers that systematically bury limitations in dense surrounding language are paltering-shaped, not genuinely informative"
+  - "the contrast with coarse-graining: lex-4yhqs coarse-graining ENACTS the lossy abstraction; meta-pointer ANNOTATES the lossy-ness. Same underlying tier-shift, different speech-acts. Practitioner-question: am I producing the abstraction (coarse-graining), or annotating its lossy-ness in language (meta-pointer)? They co-fire but the operational moves differ"
+status: active

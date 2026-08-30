@@ -1,0 +1,18 @@
+id: lex-meps8
+name: engineering-a-merit-opportunity-for-someone-else-instead-of-simply-helping-directly
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'Someone with foresight who wants to help a stranger survive a future danger can, instead of intervening directly at the moment of crisis, deliberately stage an earlier encounter designed to let the stranger perform a generous act, banking that the merit or goodwill generated will itself produce the needed rescue later. In the Jataka''s tale of Sankha, a Pacceka Buddha foresees a shipwreck and arranges to be given shoes and a sunshade specifically so that gift will be the mechanism of the giver''s later rescue: "If he sees me he will present me with shoes and sunshade; and in consequence of this gift of shoes, he will find refuge when his vessel is wrecked upon the sea. I will help him."'
+related: []
+evokes: [jataka, dasanipata, sankha-jataka, anticipatory-strategic-beneficence, engineered-merit-opportunity]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sankha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 442, Sankha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "If he sees me he will present me with shoes and sunshade; and in consequence of this gift of shoes, he will find refuge when his vessel is wrecked upon the sea. I will help him."
+canonical-instances:
+  - "A mentor who knows a junior colleague is about to face a hostile client call deliberately asks that colleague for help on an unrelated small task first, engineering a moment where the colleague builds confidence and goodwill that turns out to matter when the hostile call goes badly."
+critical-questions:
+  - "Is engineering an indirect opportunity for someone to earn their own rescue meaningfully different from simply rescuing them, or does the difference matter mainly to the helper's own account of what happened?"
+status: active

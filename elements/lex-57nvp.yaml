@@ -1,0 +1,19 @@
+id: lex-57nvp
+name: graduated-probes-test-forbearance-before-committing-to-a-costly-attack
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Before committing to a costly attack on a target whose non-retaliation might be a trap rather than genuine weakness, a skeptic can demand escalating proof through small, low-cost probes rather than accepting a single claim about the target's character. In the Jataka's tale of King Goodness, a defector tells a rival king that Benares is weak and its ruler won't retaliate. The rival, doubting this, demands proof in stages: raid a border village first, then a village in the heartland, then rob the streets of the capital itself — each successive probe testing whether restraint holds under greater provocation before he'll risk his own forces on a full invasion."
+related: []
+evokes: [jataka, ekanipata, mahasilava-jataka, escalating-probes-before-a-costly-commitment, testing-forbearance-in-graduated-stages]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahasilava-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 51, Mahasilava-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "...If you doubt me, send men to massacre a village over his border, and see whether, when they are caught and brought before him, the king does not let them off scot-free and even load them with gifts."
+canonical-instances:
+  - "Before committing significant ad spend against a competitor rumored to never respond to price cuts, a company first tests a small, localized discount in one minor market, then a larger one in a secondary region, escalating only once each successive test confirms the competitor still hasn't reacted."
+critical-questions:
+  - "Does the graduated approach actually reduce risk compared to a single decisive test, or does it just give the target more warning and more chances to adapt before the real attack arrives?"
+  - "What made King Goodness's restraint genuine rather than a trap in this particular case, and is there any way to distinguish real forbearance from a deliberately engineered appearance of it using probes of this kind?"
+status: active

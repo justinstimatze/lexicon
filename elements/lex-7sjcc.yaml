@@ -1,0 +1,19 @@
+id: lex-7sjcc
+name: insistence-and-reward-can-pressure-an-expert-past-their-own-accurate-no
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone without the relevant capability pressures an expert into attempting something the expert has correctly judged impossible, check who bears the cost when the expert's judgment turns out to have been right all along. In Aesop's 'The Tortoise and the Eagle,' an eagle protests that flight is impossible for a creature born without wings, and gives in anyway once the tortoise piles on 'entreaties and promises of treasure.' The eagle's capitulation to persistent pressure and incentive overrides its own correct diagnosis. When the fall comes, it lands entirely on the tortoise who demanded the impossible."
+related: []
+evokes: [aesop, the-tortoise-and-the-eagle, pressuring-an-expert-past-a-correct-no, entreaty-overrides-expertise]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-tortoise-and-the-eagle
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Tortoise and the Eagle.' Verified verbatim against a direct extraction of the held copy."
+    quote: "The Eagle protested that it was idle for him to try, as nature had not provided him with wings; but the Tortoise pressed him with entreaties and promises of treasure, insisting that it could only be a question of learning the craft of the air."
+canonical-instances:
+  - "a financial advisor or doctor who knows a client's plan is unworkable but, worn down by insistence and a large fee, executes it anyway — and the client bears the resulting loss, not the professional who was pressured into overriding their own correct judgment."
+critical-questions:
+  - "Should the eagle bear any responsibility for capitulating, given that it held the accurate diagnosis the whole time — does yielding to pressure against your own correct judgment carry blame even when the ultimate harm lands on the person who demanded it?"
+  - "Could the pressuring party's insistence ever be revealing genuine new information the expert hadn't considered, instead of just wearing down a correct assessment? How would the expert tell which one is happening in the moment?"
+status: active

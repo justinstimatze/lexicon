@@ -1,0 +1,19 @@
+id: lex-ruj22
+name: aid-to-an-unidentified-stranger-is-a-hard-to-fake-character-test
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone helps a stranger who carries no visible status or promise of reward, the aid can't be explained as currying favor, which makes it unusually strong evidence of their actual character — evidence that only surfaces later, once the recipient's identity is revealed. In the Jataka's tale of the Great Horseman, a defeated king flees in disguise to a village; while everyone else flees in terror, one villager approaches, learns only that he claims to be for the king, and takes him in: '\"I am for the king, Sir,\" he said. \"Then come with me,\" he answered, and led the king to his home and made him sit down on his own seat.' The reward — half the kingdom — comes only after the king's identity is disclosed, confirming the kindness was never a calculated bet."
+related: []
+evokes: [jataka, catukkanipata, mahaassaroha-jataka, kindness-with-no-visible-payoff-as-proof-of-character, reward-revealed-only-after-the-fact-confirms-the-motive-was-clean]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahaassaroha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 302, Mahaassaroha-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "But there was one man who without going to his own house, came to welcome the king. And telling the stranger that the king, he heard, had come to the frontier, he inquired who he was and whether he was a royalist or a rebel. \"I am for the king, Sir,\" he said. \"Then come with me,\" he answered, and led the king to his home and made him sit down on his own seat."
+canonical-instances:
+  - "A stranded traveler with no ID, no money, and a plausible cover story gets taken in by a family who has no way of knowing he is actually the region's wealthiest landowner testing his own tenants — his gratitude afterward, and their total lack of prior knowledge, is what makes their hospitality unimpeachable evidence of genuine character."
+critical-questions:
+  - "Does the test actually isolate character, or does it just measure this particular villager's baseline generosity toward strangers in general, which may or may not extend to costlier or riskier situations?"
+  - "If word ever spread that unidentified strangers sometimes turn out to be powerful figures in disguise, would the test stop working — does its validity depend on the aid-giver having no reason to suspect a hidden payoff?"
+status: active

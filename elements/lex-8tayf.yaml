@@ -1,0 +1,18 @@
+id: lex-8tayf
+name: repeated-uninstructed-proximity-to-a-practice-transfers-its-skill
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A skill can be absorbed by mere sustained proximity to its practice, with no one ever deliberately teaching it — a boy who grows up beside a temple can recite sutras no one taught him, because he has heard them chanted every day of his life. When accounting for how someone acquired a competence, check for this channel before assuming either innate ability or formal instruction: unstructured repeated exposure to the real practice is itself a teaching mechanism, just an unaddressed one."
+related: []
+evokes: [galef, kotowaza, japanese-proverbs, ambient-skill-acquisition, learning-by-proximity-without-instruction]
+lineage:
+  - source: primary
+    text: galef-1987-even-monkeys-fall-from-trees
+    citation: "David Galef (compiler and translator), *Even Monkeys Fall From Trees: And Other Japanese Proverbs*, illustrations by Jun Hashimoto, foreword by Edward G. Seidensticker (Tuttle Publishing, copyright 1987; ebook ISBN 978-1-4629-0318-4), Proverb No. 55. Verified verbatim against a direct extraction of the held copy."
+    quote: "Monzen no kozō narawanu kyō o yomu. A boy living near a Buddhist temple can learn an untaught sutra by heart."
+canonical-instances:
+  - "A junior hire who spent a year sitting in on every one of a senior negotiator's calls without being formally mentored can run the same negotiation script fluently, having absorbed it by sheer repeated exposure rather than by any lesson."
+critical-questions:
+  - "Does proximity-acquired skill transfer the surface pattern only, or the underlying judgment that made the pattern work — and is there a way to tell which was absorbed before the skill is tested under novel conditions?"
+status: active

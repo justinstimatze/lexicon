@@ -1,0 +1,21 @@
+id: lex-2sb3s
+name: naming-a-real-offsetting-value-reverses-an-initial-rejection
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "Being rejected for lacking a specific qualifying trait doesn't have to be the end of the negotiation -- pointing to a different, genuine value you actually provide can reopen a decision that looked closed, but only if that value is real and specific, not a repetition of the same claim that just failed. In Radin's Winnebago Hare Cycle, two animals volunteer uninvited for the same role and get identical initial treatment. The mink jumps in and is rejected on the spot: 'they said he was not fit to be eaten so they fished him out and wrung him dry.' The skunk jumps in the same uninvited way and receives the same initial rejection, for the same reason: 'they said that he was not fit to be eaten because he smelled so badly.' There the mink's story ends. The skunk's doesn't, because he answers the rejection with a specific, checkable, different benefit rather than disputing the smell: 'if anyone ate him when he was ill he would drive away his illness.' That claim gets tested and accepted: 'Hare told the people to let him alone if he kept his promise to prolong their life. They all agreed.' Both animals were rejected identically; only the one who named a real, distinct offsetting value got the decision reopened. Diagnostic move: when you're rejected for lacking a specific quality, don't respond by re-arguing that quality -- identify a genuinely different, verifiable value you actually offer, and lead with that instead, since a rejection based on one dimension can be overridden by a real strength on another, but never by repeating the disputed claim."
+related: []
+evokes: [radin-winnebago-hare-cycle, hare-and-the-mink-and-the-skunk, not-fit-to-be-eaten, he-would-drive-away-his-illness]
+lineage:
+  - source: primary
+    text: radin-the-skunk-reverses-rejection-where-the-mink-cannot
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'The Winnebago Hare Cycle,' episode 22. Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "Then Hare said to the other animals, 'All of you who said you were willing to be eaten by the people may take a bath in this oil. You will be fattened thereby.' So the bear went in first and rolled himself in the oil, and that is why he is so fat. Then the mink jumped in. But they said he was not fit to be eaten so they fished him out and wrung him dry and that is why he is so thin and lean. Then the skunk jumped in without being asked and they said that he was not fit to be eaten because he smelled so badly. But the skunk said that if anyone ate him when he was ill he would drive away his illness. So Hare told the people to let him alone if he kept his promise to prolong their life. They all agreed to let. him go."
+canonical-instances:
+  - "A candidate is rejected for a sales role because they lack industry-specific experience, and rather than re-arguing that they can learn the industry, they point to a proven, verifiable track record of retaining difficult clients in an unrelated field, which gets the hiring decision reopened."
+  - "A supplier is dropped from a bid for having the highest per-unit cost, and instead of disputing the price comparison, they point to a specific, checkable guarantee of same-week delivery that none of the cheaper competitors can match, which reopens the buyer's decision."
+critical-questions:
+  - "Is the difference between the mink and the skunk really about the value each offered, or could it be about persistence, timing, or simple luck, and does the story give enough detail to rule out those alternative explanations for why one reversal succeeded and the other didn't?"
+  - "Would the skunk's claim have worked if it had been vague or unverifiable rather than specific and checkable, and does the mechanism depend on Hare and the people actually being able to test whether the promise holds?"
+  - "Does the mink's failure suggest there was no possible offsetting value it could have named, given what a mink actually offers, or does the story simply not show the mink trying, leaving open whether persistence with a different claim might have worked for it too?"
+status: active

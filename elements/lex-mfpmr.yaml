@@ -1,0 +1,19 @@
+id: lex-mfpmr
+name: uneven-enforcement-across-a-risk-class-exposes-a-pretextual-cause
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a policy punishes an entire named category for a stated risk, checking whether every member of that category is actually treated the same way reveals whether the stated risk is the real reason. In the Jataka's tale of the dog and the king's harness, the king orders all dogs killed for gnawing leather, but exempts his own pedigree animals from the purge. The Bodhisatta dog argues from this single asymmetry that the policy can't really be about the stated risk category at all — if it were, the king's own dogs would be included — and that what's actually happening is the slaughter of poor people's dogs specifically. The diagnostic doesn't require knowing the real motive in advance; it only requires checking whether the stated justification is applied uniformly across everyone it claims to cover."
+related: []
+evokes: [jataka, ekanipata, kukkura-jataka, selective-enforcement-exposes-pretext, uneven-application-reveals-the-real-cause]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kukkura-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 22, Kukkura-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "since the royal dogs go scot-free, whilst poor dogs are killed, this is not the impartial doom of all dogs alike, but only the slaughter of poor dogs"
+canonical-instances:
+  - "A company announces a hiring freeze citing budget constraints, then a recruiter notices the freeze only ever blocks external candidates while internal referrals for the same roles keep getting approved, and concludes the real policy is about headcount optics rather than any actual budget shortfall."
+critical-questions:
+  - "How many exceptions does it take before uneven enforcement counts as evidence of pretext, rather than a single defensible carve-out within an otherwise genuine policy?"
+  - "Does naming the pretext actually change the outcome here, the way it does in the story once the king investigates, or does exposing the real motive sometimes just make the powerful party more careful about hiding it next time?"
+status: active

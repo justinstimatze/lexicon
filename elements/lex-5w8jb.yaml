@@ -1,0 +1,19 @@
+id: lex-5w8jb
+name: an-impostor-is-tested-against-invariant-traits-not-costume-or-backstory
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When someone dresses an unqualified party in the trappings of expertise and supplies a plausible backstory to see if the deception holds, don't evaluate the costume or the story at all. Ask instead what the underlying party actually is and can do. Being told a convincing story about a role is not evidence of fitness for that role. In the Jataka's tale of the disguised monkey, courtiers repeatedly present a monkey dressed as an expert to a child-king, complete with an elaborate false backstory, to see if he can be fooled. Each time, he answers from the animal's fixed nature rather than the presentation: 'It is not a clever builder, but an ape with a wrinkled face; He can destroy what others make; that is the way of his race.' The test target was never the costume. It was whether the observer would check the substrate underneath it."
+related: []
+evokes: [jataka, tikanipata, gamani-canda-jataka, testing-the-underlying-substrate-defeats-costume-and-narrative, a-plausible-backstory-is-not-evidence-of-role-fitness]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-gamani-canda-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 257, Gamani-canda-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"It is not a clever builder, but an ape with a wrinkled face; He can destroy what others make; that is the way of his race.\""
+canonical-instances:
+  - "A hiring panel meets a candidate whose polished resume and rehearsed backstory claim years of relevant experience. The interviewer who catches the mismatch sets that story aside and simply asks the candidate to perform the core task live."
+critical-questions:
+  - "How does an observer learn which properties of a role are actually fixed and testable versus which ones a genuinely qualified newcomer might simply not have developed yet?"
+  - "Is the child-king's method scalable, or does it depend on the deception being crude enough that a direct capability check is even available to run?"
+status: active

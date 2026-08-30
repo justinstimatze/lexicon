@@ -1,0 +1,19 @@
+id: lex-sv9d6
+name: truth-redefined-as-the-aggregate-of-paying-clients-narratives
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A public relations professional can define truth not as correspondence to independently verifiable fact but as the aggregate sum of all paying clients' preferred viewpoints, fitted together into a composite — 'that would be what we are as a firm.' This isn't cynicism about truth exactly; it's a genuine operational redefinition where the firm's actual epistemic commitment is to representing and reconciling client viewpoints rather than to any external standard the viewpoints could be checked against. Recognizing this as a redefinition rather than a lapse matters: someone operating under this definition isn't failing to pursue truth by an ordinary standard, they're pursuing a coherent but entirely different standard that happens to share the same word."
+related: []
+evokes: [jackall-moral-mazes, "that would be what we are as a firm", truth-as-composite-of-client-viewpoints]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch7-truth-as-aggregate-of-clients
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 7, The Magic Lantern."
+    quote: "I sometimes sit back and think that if we could make up a list of all the viewpoints of all our clients and somehow fit them together, then that would be truth. That would be what we are as a firm."
+canonical-instances:
+  - "A crisis-communications consultant privately describes their job as finding the version of events that every paying party can accept, and genuinely experiences this reconciled composite as the closest available approximation to truth, rather than as a compromise away from it."
+critical-questions:
+  - "Does this redefinition of truth actually function coherently as a standard the firm can be held to, or does it collapse the moment two paying clients hold genuinely incompatible views of the same underlying fact, at which point some external standard has to break the tie anyway?"
+status: active

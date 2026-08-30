@@ -1,0 +1,19 @@
+id: lex-a6muv
+name: honor-paid-in-proportion-to-current-usefulness-ends-when-usefulness-does
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A recurring failure pattern: a powerful party extends honor, provision, and status to a subordinate only in proportion to current usefulness, and withdraws all of it the moment age or infirmity ends that usefulness — treating gratitude as a live transaction rather than a standing obligation accrued from past service. In the Jataka''s tale of Dalhadhamma, this is stated as the tale''s own maxim: "By selfish hopes men regulate the honours that they pay: As you the elephant, they throw the outworn slave away."'
+related: []
+evokes: [jataka, sattanipata, dalhadhamma-jataka, utility-contingent-honor, discarding-the-used-up-servant]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dalhadhamma-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 409, Dalhadhamma-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "By selfish hopes men regulate the honours that they pay: As you the elephant, they throw the outworn slave away."
+canonical-instances:
+  - "A company that publicly celebrated a star salesperson every year she hit her numbers quietly stops inviting her to leadership meetings the first quarter an injury keeps her off the phones, without anyone framing it as a change in how much she's valued."
+critical-questions:
+  - "Is honor that scales strictly with current usefulness actually a corruption of gratitude, or is it simply what gratitude always was, stripped of its polite language?"
+  - "What would it cost an organization to honor accrued past service independent of present usefulness, and is that cost the real reason the pattern persists?"
+status: active

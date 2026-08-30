@@ -1,0 +1,19 @@
+id: lex-q64h8
+name: a-category-violation-in-how-a-plea-arrives-outweighs-the-plea-itself
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A target can grant mercy not primarily because of an appeal's logical content, but because the very fact that the appeal was delivered at all violates their categorical model of what the pleading party is capable of — forcing a re-evaluation of the whole situation. The medium of the communication does more persuasive work than its explicit argument. In the Jataka's tale of Suvannamiga, a hunter about to kill a doe spares her not for the content of her plea but because she speaks at all: 'Even human beings give not up their lives for their king; much less the beasts. What can this mean? This creature speaks with a sweet voice in the language of men.'"
+related: []
+evokes: [jataka, pancanipata, suvannamiga-jataka, category-violation-outweighs-argument-content, the-medium-of-a-plea-persuades-more-than-its-content]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-suvannamiga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 359, Suvannamiga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The hunter, on hearing this, was struck with amazement and said, \"Even human beings give not up their lives for their king; much less the beasts. What can this mean? This creature speaks with a sweet voice in the language of men."
+canonical-instances:
+  - "A landlord about to evict a long-silent tenant reverses course not because of the specifics of the tenant's appeal, but because the tenant, who has never once spoken up in three years, suddenly writes a detailed, articulate letter — the sheer fact that this particular tenant is capable of that letter is what makes the landlord stop and reconsider everything."
+critical-questions:
+  - "Does relief granted this way actually generalize — if the deer's plea worked because it broke a category, does that mean the next ordinary, unremarkable plea from the same category gets no hearing at all?"
+  - "Is there something troubling about mercy being contingent on a category violation rather than on the actual merits of the request — does this mean pleas from parties who fit their expected category are structurally disadvantaged regardless of what they say?"
+status: active

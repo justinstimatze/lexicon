@@ -1,0 +1,21 @@
+id: lex-bz3s8
+name: ease-of-understanding-drives-adoption-ahead-of-correctness
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: "When choosing between a more sophisticated approach and a simpler, more legible one, weigh the simpler one's effect on adoption and durability, not just its immediate elegance against the sophisticated alternative. The I Ching's Great Appendix states the causal chain directly, ahead of any claim about which approach is more correct: 'He who is easily understood will have adherents, and he who is easily followed will achieve success. He who has adherents can continue long, and he who achieves success can become great.' Legibility and imitability aren't secondary virtues here — the text names them as the actual mechanism that produces sustained adherents and eventual scale."
+related: []
+evokes: [i-ching, yi-jing, legge, ten-wings, xi-ci, great-appendix, legibility, adoption]
+lineage:
+  - source: primary
+    text: legge-1899-i-ching-appendix-iii-i-ease-of-understanding
+    citation: "James Legge, translator, The Yî King (I Ching), Sacred Books of the East vol. 16 (Oxford University Press, 1899), Appendix III ('The Great Appendix'), Section I, Chapter I, paragraph 7. Verified verbatim against a direct extraction of the text hosted at sacred-texts.com, clean digital text, no OCR."
+    quote: "(He who attains to this) ease (of Heaven) will be easily understood, and (he who attains to this) freedom from laborious effort (of the Earth) will be easily followed. He who is easily understood will have adherents, and he who is easily followed will achieve success. He who has adherents can continue long, and he who achieves success can become great. To be able to continue long shows the virtue of the wise and able man; to be able to become great is the heritage he will acquire."
+canonical-instances:
+  - "The passage builds the chain in a fixed order — ease produces adherents, adherents produce durability, durability compounds into scale — and names each link explicitly rather than asserting the endpoint (greatness) directly, which makes every step of the mechanism independently checkable."
+  - "An open standard adopted widely because it's simple to implement often ends up more durable and influential than a technically superior but harder-to-adopt alternative, purely because ease of understanding recruited a larger base of maintainers and users to keep it alive."
+critical-questions:
+  - "Does ease of understanding ever produce a large following around something that's actually wrong, and if so, does the text's chain (adherents → durability → greatness) still hold even when the underlying content doesn't deserve to scale?"
+  - "Is there a point of diminishing returns where an approach simplified past a certain threshold loses the substance that made it worth following in the first place, undercutting the very durability the simplicity was supposed to buy?"
+  - "Does this generalize past philosophical or technical approaches to any domain where adoption compounds (a habit, a policy, a cultural practice), or is something specific to how ideas spread doing the work here?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-exdu6
+name: home-ground-advantage-is-specific-terrain-knowledge-not-morale
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Home-ground advantage is often treated as a vague morale effect — comfort, familiarity, crowd support — but it can be a specific, exploitable piece of tactical knowledge available only within a bounded physical zone, which is why it evaporates the instant either party leaves that zone. The Jataka's tale of the quail and the falcon opens with the quail caught while feeding outside his own territory. The falcon releases him, and he turns around and challenges it to a rematch on his home ground, a field of large clods of earth he knows intimately. When the falcon dives at full speed, the quail ducks behind a clod at the last instant; the falcon can't stop, smashes into it, and dies. The quail's own verdict names the mechanism precisely: 'Now I rejoice at my success: a clever plan I found To rid me of my enemy by keeping my own ground.' Nothing about the quail's speed, strength, or courage changed between the two encounters — only his access to a piece of terrain whose exact hazards he'd already mapped and the falcon hadn't."
+related: []
+evokes: [jataka, dukanipata, sakunagghi-jataka, terrain-specific-knowledge-not-generic-morale, an-attacker-cannot-stop-committed-momentum-in-time]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sakunagghi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 168, Sakunagghi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Now I rejoice at my success: a clever plan I found To rid me of my enemy by keeping my own ground."
+canonical-instances:
+  - "A regional retailer that loses market share to a national chain everywhere except its original neighborhood location holds that one store specifically because the staff know exactly which regular customers need a side-door delivery, which shelf gets restocked slowest, and a dozen other operational specifics the national chain's standardized playbook doesn't account for."
+critical-questions:
+  - "Is the falcon's death actually about terrain, or about momentum and commitment — would a falcon that dove more cautiously, or one that had scouted the same field in advance, have avoided the clod regardless of whose 'ground' it technically was?"
+  - "How much of what gets called home-field advantage in other domains (sports, incumbency in negotiations, a founder's advantage in their own company) is actually this same specific, learnable terrain-knowledge, versus genuinely being about morale or comfort with no exploitable content?"
+status: active

@@ -1,0 +1,20 @@
+id: lex-3vz9u
+name: withhold-a-true-statement-if-speaking-it-would-only-cause-offense
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'The opposing position in the same debate holds that a wise person should withhold even a correct, important statement if speaking it would cause offense, regardless of the statement''s truth or significance. In the Jataka''s tale of Gandhara, this counter-principle is voiced directly: "Whatsoever words, if spoken, would to others cause offence, Wise men leave those words unspoken, though of mighty consequence."'
+related: [lex-mwtzg]
+scaffolds-from: [lex-mwtzg]
+evokes: [jataka, sattanipata, gandhara-jataka, withhold-truth-to-avoid-offense, tact-over-candor]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-gandhara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 406, Gandhara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Whatsoever words, if spoken, would to others cause offence, Wise men leave those words unspoken, though of mighty consequence."
+canonical-instances:
+  - "A board advisor who suspects a founder's pet project is doomed says nothing at the meeting, judging that the founder's morale going into a critical fundraising push matters more right now than airing an accurate but demoralizing assessment."
+critical-questions:
+  - "Does withholding a consequential truth to avoid offense ever cost the listener more than the offense itself would have, by letting them act on incomplete information?"
+  - "Who decides what counts as offensive enough to justify silence — the speaker's judgment, or the listener's, and what happens when those two disagree?"
+status: active

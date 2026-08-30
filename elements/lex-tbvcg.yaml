@@ -1,0 +1,20 @@
+id: lex-tbvcg
+name: embedding-a-private-likeness-in-ordinary-work-so-only-one-viewer-reads-it
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When you're barred from addressing someone directly, ordinary output meant for public or third-party consumption can carry a message legible only to its intended recipient — everyone else sees an unremarkable pot, fan, or garland, while the one person who recognizes the likeness worked into it knows exactly who made it and why. In the Jataka's tale of Kusa, forbidden from approaching Pabhavati, the disguised king works as a potter's apprentice and makes her a vessel worked with private figures: \"Taking it she at once recognised her own likeness and that of the humpbacked nurse and knew it could be the handiwork of no one but king Kusa\" — while her sisters, seeing the same object, dismiss it as ordinary potter's work."
+related: []
+evokes: [jataka, sattatinipata, kusa-jataka, covert-communication, plausible-public-cover]
+lineage:
+  - source: primary
+    text: jataka-francis1905-kusa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XX (Sattatinipata), No. 531, Kusa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Taking it she at once recognised her own likeness and that of the humpbacked nurse and knew it could be the handiwork of no one but king Kusa, and being angry she said, \"I do not want it: give it to those that wish for it.\""
+canonical-instances:
+  - "An employee under an NDA that bars them from naming a client publicly writes a portfolio case study using generic placeholder details, but structures the specific numbers and timeline so the one person who was actually in the room — the client — immediately recognizes exactly whose story it is."
+  - "A songwriter, unable to reference an ex by name in a public release, encodes a private joke or a phrase only the two of them ever used into an otherwise generic love song; strangers hear a standard lyric, the one intended listener hears a signed message."
+critical-questions:
+  - "The device only works if the intended recipient is paying close enough attention to notice details everyone else overlooks — does it fail silently, with the message simply never landing, whenever the recipient isn't looking that closely?"
+  - "Pabhavati recognizes the likeness and reacts with anger each time, not acceptance — is the technique actually succeeding at anything beyond proving persistence, or does encoding a message someone doesn't want to receive just guarantee it lands as unwelcome regardless of the craft put into it?"
+status: active

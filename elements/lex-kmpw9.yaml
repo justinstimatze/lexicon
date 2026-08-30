@@ -1,0 +1,18 @@
+id: lex-kmpw9
+name: truth-telling-as-inviolable-even-when-a-lie-would-be-safer
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Confronted by a chance to deny wrongdoing that would likely be believed, an agent chooses confession because honesty is treated as a rule that cannot be traded off against situational consequences, ranked as uniquely disqualifying even relative to graver acts. Consistency of speech is treated as foundational to everything else the agent claims to be. In the Jataka''s tale of Harita, the ascetic reasons his way to confession rather than denial: "in this world there is no sure ground like speaking the truth. They who forsake the truth, though they sit in the sacred enclosure of the Bo tree, cannot attain to Buddhahood. I must needs just speak the truth." In certain cases a Bodhisatta may destroy life, take what is not given him, commit adultery, drink strong drink, but he may not tell a lie, attended by deception that violates the reality of things.'
+related: []
+evokes: [jataka, navanipata, harita-jataka, truth-telling-absolutism, kantian-precursor]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-harita-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 431, Harita-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "in this world there is no sure ground like speaking the truth. They who forsake the truth, though they sit in the sacred enclosure of the Bo tree, cannot attain to Buddhahood. I must needs just speak the truth."
+canonical-instances:
+  - "A surgeon who made an error during an operation could plausibly attribute the complication to bad luck, but tells the family exactly what happened, reasoning that once a doctor is willing to shade the truth for a good outcome, nothing else they say can be fully trusted again."
+critical-questions:
+  - "Harita ranks lying as worse than several acts that plainly harm others more directly. What is the argument for that ranking, and does it hold outside a specifically religious frame?"
+status: active

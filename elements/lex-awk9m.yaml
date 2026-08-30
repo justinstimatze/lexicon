@@ -1,0 +1,19 @@
+id: lex-awk9m
+name: reconciliation-driven-by-self-interested-recalculation-not-remorse
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A person can reform their behavior not from any change of heart but because they run the numbers on their own alternatives and find that persisting in cruelty costs them more than reconciling does. The outward result is indistinguishable from genuine growth, but the mechanism generating it is pure self-interest. In the Jataka''s tale of Kaccani, the daughter-in-law''s reconciliation with her mother-in-law is stated explicitly as this kind of calculation: "He cannot break with his mother who is so very dear to him: but if I go to my old home, I shall have a miserable life of separation: I will conciliate my mother-in-law and tend her as of old"'
+related: []
+evokes: [jataka, atthanipata, kaccani-jataka, instrumental-reconciliation, compliance-without-internalization]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kaccani-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 417, Kaccani-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "He cannot break with his mother who is so very dear to him: but if I go to my old home, I shall have a miserable life of separation: I will conciliate my mother-in-law and tend her as of old"
+canonical-instances:
+  - "An employee who spent months undermining a coworker suddenly becomes warmly collaborative the moment that coworker is named to head the committee that decides raises — the shift in behavior tracks the shift in leverage exactly."
+critical-questions:
+  - "Does it matter, for the relationship going forward, whether reconciliation was earned by remorse or by a cost calculation, if the resulting behavior is the same either way?"
+  - "What would reveal the difference between the two — is there any test that distinguishes recalculated self-interest from genuine change before the next incentive shift?"
+status: active

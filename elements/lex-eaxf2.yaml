@@ -1,0 +1,19 @@
+id: lex-eaxf2
+name: misreading-disgust-driven-avoidance-as-fear-invites-a-fatal-challenge
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a stronger party avoids contact out of disgust rather than fear, a weaker party who misreads the avoidance as intimidation can be provoked into a challenge the stronger party was never actually declining out of weakness. In the Jataka's tale of the dung-beetle and the elephant, a maddened elephant smells dung and recoils. The intoxicated beetle draws exactly the wrong conclusion from the retreat: 'Yon creature,' he thought, 'is afraid of me, and see how he runs away!--I must fight with him!' The elephant's retreat was never about the beetle's power — once challenged directly, the same elephant kills him instantly. The beetle mistook the specific reason for an avoidance (disgust) for a general concession of weakness, and escalated on the strength of that misreading alone."
+related: []
+evokes: [jataka, dukanipata, gutha-pana-jataka, disgust-driven-avoidance-mistaken-for-a-concession-of-weakness, escalation-on-a-misread-retreat-invites-destruction]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-gutha-pana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 227, Gutha-pana-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Yon creature, he thought, is afraid of me, and see how he runs away!--I must fight with him!"
+canonical-instances:
+  - "A small vendor notices a major client's negotiator visibly recoil and end a call early during an aggressive pricing demand, and mistakes the recoil for capitulation rather than distaste for the vendor's tactics, escalating the demand further and losing the account entirely."
+critical-questions:
+  - "Is there any reliable way for the beetle to have distinguished disgust-driven avoidance from fear-driven avoidance before escalating, or does the ambiguity of a retreat's cause make this kind of misreading essentially unavoidable in the moment?"
+  - "Does the beetle's intoxication matter here, or would a sober beetle have made the same misjudgment — is impaired judgment the actual cause, or just a detail that makes an otherwise ordinary overconfidence more vivid?"
+status: active

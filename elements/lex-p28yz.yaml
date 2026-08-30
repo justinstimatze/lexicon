@@ -1,0 +1,19 @@
+id: lex-p28yz
+name: escalating-a-collective-cost-pressures-an-unresponsive-individual-to-act
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When a single person's inaction is blocking a resolution but you can't compel them directly, raising a cost that falls on their entire surrounding group converts your problem into the group's problem — and the group applies the pressure you couldn't. In the Jataka's tale of the Great Horseman, when the villager fails to come claim his reward, the king repeatedly raises taxes on the man's whole village rather than summoning him directly: 'But when the man failed to come, the king increased the tax on the village where he dwelt... So the king increased the tax for the second and third time.' It's the villagers themselves, weighed down by the tax, who finally force him to go: 'Go and see the Great Horseman and persuade him to lighten our burden.'"
+related: []
+evokes: [jataka, catukkanipata, mahaassaroha-jataka, collective-cost-recruits-peer-pressure-you-cannot-apply-directly, an-individuals-inaction-converted-into-a-shared-problem]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahaassaroha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 302, Mahaassaroha-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "But when the man failed to come, the king increased the tax on the village where he dwelt. But though the tax was raised, still he did not come. So the king increased the tax for the second and third time, and still he came not. Then the inhabitants of the village gathered together and said to the man: \"Sir, from the time the Horseman came to you, [10] we have been so weighed down by the tax that we cannot lift up our head. Go and see the Great Horseman and persuade him to lighten our burden.\""
+canonical-instances:
+  - "A landlord can't get a single tenant to respond about a shared repair, so instead of chasing that tenant individually, they raise the building's common-area fee across every unit — and the other tenants, now feeling the cost, are the ones who finally corner the holdout to sort it out."
+critical-questions:
+  - "Is it fair or proportionate to make an entire group bear a cost for one member's unresponsiveness, especially when — as with the villagers here — they have no way of knowing the actual reason behind the escalation?"
+  - "Does this reliably work, or does it depend on the group having enough social leverage over the individual to actually change their behavior, which a village community has but an anonymous group might not?"
+status: active

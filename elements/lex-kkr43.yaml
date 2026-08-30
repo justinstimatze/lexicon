@@ -1,0 +1,32 @@
+id: lex-kkr43
+name: simplification-by-removing-constraints
+type-in: question
+type-out: question
+_tier: atomic
+agent-instruction: "When stuck, remove constraints. Solving an easier problem (one where some constraint is dropped) often illuminates the harder one. The simplified solution constrains what the full solution must look like; iterate by adding constraints back."
+related: [lex-4yhqs, lex-b4vxq, lex-h959m, lex-hfqw7, lex-juc5s, lex-m43kg, lex-t9xgv, lex-x9pxs, lex-xcaqj, lex-y6pqz]
+scaffolds-from: [lex-4yhqs, lex-b4vxq, lex-h959m, lex-hfqw7, lex-juc5s, lex-m43kg, lex-t9xgv, lex-x9pxs, lex-xcaqj, lex-y6pqz]
+evokes: [drop-the-hard-part, toy-version-first, mvp-then-scale, relax-then-strengthen]
+lineage:
+  - source: primary
+    text: polya-1945
+    citation: "George Polya, How to Solve It (Princeton UP 1945; 2nd ed. 1957). Front-matter 'How to Solve It' chart p.xvii names the simplification-by-removing-constraints move under DEVISING A PLAN ('If you cannot solve the proposed problem try to solve first some related problem'). The dictionary entry 'Auxiliary problem' (pp.50-51) supplies the canonical metaphor: the insect tries the same windowpane repeatedly and fails; human intelligence consists of going around an obstacle that cannot be overcome directly by devising a suitable auxiliary problem. (OCR'd via scripts/ocr-pdf.py — the scanned PDF has no native text layer)"
+    quote: "If you cannot solve the proposed problem try to solve first some related problem. Could you imagine a more accessible related problem? A more general problem? A more special problem? An analogous problem? Could you solve a part of the problem? Keep only a part of the condition, drop the other part; how far is the unknown then determined, how can it vary? [p.xvii chart, DEVISING A PLAN — the canonical Polya question sequence naming the simplification-by-removing-constraints move; 'keep only a part of the condition, drop the other part' is the precise mechanism this atom names.] An insect tries to escape through the windowpane, tries the same again and again, and does not try the next window which is open and through which it came into the room. A man is able, or at least should be able, to act more intelligently. Human superiority consists in going around an obstacle that cannot be overcome directly, in devising a suitable auxiliary problem when the original problem appears insoluble. [p.50 'Auxiliary Problem' dictionary entry — the metaphor names why this move matters: persisting on the original problem when you should be solving an accessible related one is the insect-vs-human distinction.]"
+  - source: practitioner
+    text: physics-toy-models
+    citation: "Standard methodology in theoretical physics: drop dimensions, drop interactions, drop boundary conditions until tractable; solve; carefully reintroduce constraints (cf. Feynman's lectures throughout)"
+    quote: "[cross-attestation — Polya primary verbatim above carries the atom; physics-toy-models is supplementary lineage]"
+  - source: practitioner
+    text: polya-decomposition-pass
+    citation: "promoted from cross-attestation: Polya (math), theoretical physics (toy models), engineering (MVP-first), software (write the happy path then handle edges)"
+canonical-instances:
+  - "modeling 3-body orbital mechanics: drop one body, solve restricted 2-body case in closed form, perturb back to 3-body"
+  - "MVP discipline in product: ship the simplest version that captures the core mechanism; reintroduce features only after the core is validated"
+  - "writing a parser: handle simple expressions first; defer operator precedence, error recovery, and edge cases"
+  - "the dual move (re-strengthening) is ALSO cardinal: a simplification that's never re-strengthened produces a model that misleads about the actual problem"
+critical-questions:
+  - "is the dropped constraint vital on the result you actually care about? dropping a non-load-bearing constraint is fine; dropping a central one changes the problem qualitatively"
+  - "can you perturb back from the simplified case, or does the simplified problem live in a different regime? if perturbation back is impossible, you're solving a different problem, not a simpler version"
+  - "are you simplifying to learn, or to avoid the hard part? Polya's insect tries the same windowpane; the dual failure-mode is dropping the constraint that names the actual difficulty"
+  - "does the simplification predict anything testable on the full problem? a simplification that doesn't transfer back is a parallel universe, not an MVP"
+status: active

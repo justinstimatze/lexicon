@@ -1,0 +1,19 @@
+id: lex-kvkgr
+name: rebut-an-accusation-by-naming-the-accusers-own-worse-conduct
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When accused of wrongdoing, a person can rebut not merely by denying it, but by pointing out that the accuser''s own earlier conduct was the more culpable instance of the same charge. In the Jataka''s tale of Kumbhakara, the Bodhisatta answers the charge of abandoning his children this way: "I don''t kill children: when they could understand for themselves I became ordained: you were careless of them and pleased yourself by being ordained."'
+related: []
+evokes: [jataka, sattanipata, kumbhakara-jataka, rebut-by-naming-accusers-worse-conduct, turnabout-defense]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kumbhakara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 408, Kumbhakara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "I don't kill children: when they could understand for themselves I became ordained: you were careless of them and pleased yourself by being ordained"
+canonical-instances:
+  - "Accused by a former business partner of abandoning the company at a critical moment, a founder skips the timing question entirely and points to him leaving first, earlier and at a far worse moment, without leaving anything behind."
+critical-questions:
+  - "Does pointing to the accuser's worse conduct actually answer the substance of the charge against you, or does it just establish that both parties did something wrong without resolving either?"
+  - "Is this move persuasive because it's true, or because shifting the frame to comparison makes any single act look better by contrast regardless of its own merits?"
+status: active

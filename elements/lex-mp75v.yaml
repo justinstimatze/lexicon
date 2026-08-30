@@ -1,0 +1,19 @@
+id: lex-mp75v
+name: an-engineered-false-report-baits-out-habitual-false-credit-taking
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "To catch someone who habitually claims credit for work they didn't verify, you can deliberately leave a fabricated, obviously-false setup in place of the real result and wait — their pattern of reporting success without checking is what walks them into exposing themselves. In the Jataka's tale of the two novices, the diligent one secretly hides the real hot water and leaves an empty, steaming-looking boiler as bait; the other, following his usual pattern, announces the bath is ready without checking, and is caught when the elder finds it empty: 'The lad went hastily to the heating chamber and let down a ladle into the empty boiler. The ladle struck against the bottom of the empty vessel, and gave forth a rattling sound.'"
+related: []
+evokes: [jataka, catukkanipata, kutidusaka-jataka, a-fabricated-setup-exposes-a-habit-of-unverified-claiming, the-liars-own-pattern-walks-them-into-the-trap]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kutidusaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 321, Kutidusaka-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The lad went hastily to the heating chamber and let down a ladle into the empty boiler. The ladle struck against the bottom of the empty vessel, and gave forth a rattling sound."
+canonical-instances:
+  - "A manager who suspects a report is rubber-stamping other people's code reviews without reading them plants an obviously broken function in a low-stakes pull request — the report approves it without comment, exposing that the review never actually happened."
+critical-questions:
+  - "Is deliberately setting someone up to fail, even to expose a real pattern of dishonesty, itself a form of dishonesty — does catching a liar this way require a small deception of your own?"
+  - "Does exposing the habit this once actually change anything going forward, or does it just embarrass the offender for one incident without addressing why they default to unverified claiming in the first place?"
+status: active

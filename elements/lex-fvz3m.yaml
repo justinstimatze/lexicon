@@ -1,0 +1,19 @@
+id: lex-fvz3m
+name: rebuke-a-fault-the-instant-it-appears-before-it-compounds
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A guardian figure can watch for a fault at the very instant it begins and intervene immediately, on the principle that letting it run unchecked is how something small turns into ruin, and catching it now costs almost nothing. In the Jataka''s tale of Kumbhakara, the frame story states this directly: "it is not right to live in the power of sinful thoughts; a sin if it grows brings great ruin like an enemy: a Brother ought to rebuke even a little sin: wise men of old seeing even a very slight cause, rebuked a sinful thought that had begun."'
+related: []
+evokes: [jataka, sattanipata, kumbhakara-jataka, rebuke-at-first-appearance, small-faults-compound-into-ruin]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kumbhakara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 408, Kumbhakara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "it is not right to live in the power of sinful thoughts; a sin if it grows brings great ruin like an enemy: a Brother ought to rebuke even a little sin: wise men of old seeing even avery slight cause, rebuked a sinful thought that had begun and so brought about paccekabuddha-hood"
+canonical-instances:
+  - "A senior engineer flags a single careless commit message the first time it happens, on the reasoning that letting sloppy commit hygiene pass unremarked even once makes it the team's new normal within a month."
+critical-questions:
+  - "How does a guardian distinguish a fault genuinely worth catching at inception from ordinary human imperfection that doesn't need correcting every single time it appears?"
+  - "Does constant early intervention on small faults risk making the corrected party feel surveilled rather than guided, undermining the very trust the correction is meant to protect?"
+status: active

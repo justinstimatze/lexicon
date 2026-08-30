@@ -1,0 +1,24 @@
+id: lex-u98dw
+name: value-congruence-with-a-dominant-system-recruits-talent-to-an-activity
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When an activity gains an unusual surge of recruits, prestige, and social sanction, check whether the growth is being driven by the activity proving its own merits, or by the activity happening to fit — independently of anything it has itself demonstrated — the values a dominant, already-legitimate belief system already prizes. Merton's case: seventeenth-century English science did not have to establish its own worth before Puritan society; the Puritan ethic's own core commitments (utilitarian focus on this-worldly betterment, empirical trust in the senses over scholastic authority, active mastery of nature as duty) happened to line up point-for-point with what science already was and did. That congruence, not any independent proof, is what redirected talented young Englishmen who might otherwise have entered more traditionally esteemed professions (the ministry, law) into science instead, and what let scientists justify their calling in explicitly religious terms Sprat, Boyle, and Ray all use. Diagnostic move: before crediting an activity's own track record for a surge in status, participation, or resources, check whether a currently-dominant value system's criteria happen to overlap with that activity's methods and goals — the overlap alone, borrowing the dominant system's legitimacy, can do most of the recruiting work."
+related: []
+evokes: [merton-1957, merton-thesis, puritan-ethic-canalized-interests, science-embodies-utilitarianism-and-empiricism, glory-of-god-and-good-of-man]
+lineage:
+  - source: primary
+    text: merton-1957-puritan-ethic-canalized-interests
+    citation: "Robert K. Merton, Social Theory and Social Structure, Revised and Enlarged Edition (Glencoe, IL: Free Press, 1957), Ch. XVIII 'Puritanism, Pietism and Science' [orig. essay 1936, retitled from 'Puritanism, Pietism, and Science'], p.574. Verified verbatim against a University of Iowa library scan via Internet Archive OCR text (item 31858016281432)."
+    quote: "'It is the thesis of this study that the Puritan ethic, as an ideal-typical expression of the value-attitudes basic to ascetic Protestantism generally, so canalized the interests of seventeenth-century Englishmen as to constitute one important element in the enhanced cultivation of science.'"
+  - source: primary
+    text: merton-1957-science-embodies-utilitarianism-and-empiricism
+    citation: "Robert K. Merton, Social Theory and Social Structure (1957), same chapter, p.578."
+    quote: "'In short, science embodies two highly prized values: utilitarianism and empiricism.'"
+canonical-instances:
+  - "A charity's fundraising surges not because it demonstrates unusually effective outcomes but because its mission happens to align with a currently ascendant cultural value (environmental urgency, a nation's founding-myth virtues) — donors and volunteers are recruited by the congruence, and the charity's actual effectiveness is a separate, often unexamined, question."
+  - "A management fashion or software framework spreads rapidly through an industry not because it has been shown to outperform alternatives, but because its stated values (agility, transparency, flatness) happen to match values a dominant management ideology already prizes, so adopting it reads as virtuous independent of results."
+critical-questions:
+  - "How would you distinguish value-congruence doing the recruiting work from the activity's own genuine merit doing it, when both would produce the identical surge in participation and prestige — is there any observable signature (recruits who can't articulate the activity's actual technical content, prestige that outpaces measurable output) that would tell them apart?"
+  - "Does the mechanism predict that an activity recruited this way is fragile once the dominant value system that sanctioned it changes or secularizes — and if science's own methodological prestige eventually became self-sustaining and independent of any religious sanction, what does that transition (from borrowed to self-standing legitimacy) actually require?"
+status: active

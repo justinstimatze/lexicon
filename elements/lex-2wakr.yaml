@@ -1,0 +1,18 @@
+id: lex-2wakr
+name: ruler-virtue-is-treated-as-sufficient-to-reform-the-hierarchy
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: 'A didactic claim about power holds that moral tone doesn''t diffuse evenly through a hierarchy or get separately cultivated at each level — it originates at the top and is treated as propagating downward automatically, so that reforming the single person at the apex is offered as both necessary and sufficient to reform everyone who surrounds them. The claim is stated as a general law rather than hedged as a tendency, which is what makes it a distinct, checkable assertion rather than a vague truism about leadership setting an example. In the Janasandha-Jataka, the Bodhisatta instructs the king that he must be ''vigilant in all kingly duties, to his subjects like mother or father, forsaking all evil courses,'' and states the mechanism explicitly: ''when a king is righteous, those who surround him are righteous also.'''
+related: []
+evokes: [jataka, dvadasanipata, janasandha-jataka, top-down-moral-propagation-claim, leadership-virtue-as-sufficient-for-organizational-reform]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-janasandha-jataka
+    citation: 'The Jataka, or Stories of the Buddha''s Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XII (Dvadasanipata), No. 468, Janasandha-jataka. Verified verbatim against a direct extraction of the held copy.'
+    quote: 'A king ought to rule vigilant in all kingly duties, to his subjects like mother or father, forsaking all evil courses, never omitting the ten virtues of a king. When a king is righteous, those who surround him are righteous also.'
+canonical-instances:
+  - 'A new CEO is told by the board that fixing the company''s toxic sales culture starts and ends with her own conduct — that if she personally models integrity in every deal, the sales floor''s behavior will follow automatically, with no separate policy, training, or accountability structure proposed as necessary alongside it.'
+critical-questions:
+  - 'Is a righteous king actually sufficient to produce a righteous court, or does the claim quietly assume that everyone beneath the king lacks independent incentives (corruption, self-interest, competing loyalties) strong enough to resist whatever tone the top sets — and what happens to the claim in a court where those incentives are strong?'
+status: active

@@ -1,0 +1,21 @@
+id: lex-s6m6n
+name: a-friendly-signals-magnitude-can-track-threat-not-warmth
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a display of friendliness or warmth is unusually large, check whether its size is tracking genuine goodwill or the stakes of what's being concealed. The Ferengi Rules of Acquisition state the inversion as a flat proportional claim: 'The bigger the smile, the sharper the knife.' This is a different mechanism from spotting a fake smile through its duration or imperfection — the claim here isn't that intensity reveals a performance is managed, it's that intensity itself correlates with danger, treated as a folk heuristic about proportional overcompensation rather than a leakage cue. Use it as a prompt to ask what the display's size would need to be covering, rather than reading it as a literal measurement of anything."
+related: []
+evokes: [ferengi, rules-of-acquisition, star-trek, overcompensation, threat-signaling]
+lineage:
+  - source: primary
+    text: star-trek-ds9-rules-of-acquisition-48
+    citation: "Star Trek: Deep Space Nine, Rule of Acquisition #48, spoken dialogue (season/episode not separately identified in the sourced compilation beyond the general Rules of Acquisition dialogue set). Verified against Memory Alpha's sourced compilation of on-screen Rules of Acquisition dialogue (a wiki page functioning as a transcript aggregator with per-rule episode citations, not quoted for its own editorial framing)."
+    quote: "The bigger the smile, the sharper the knife."
+canonical-instances:
+  - "operationally distinct from Ekman and Friesen's imperfectly-performed-simulation deception clue (a smile lasting too long or blended wrong signals that a display is managed, without revealing what's being managed away): that mechanism flags concealment through a quality defect in the performance. This rule claims something stronger and cruder — that raw magnitude of warmth-display correlates with the severity of what follows, a folk proportionality rule rather than a leakage signal."
+  - "A salesperson whose enthusiasm scales up sharply right before the highest-margin add-on is pitched fits the same proportional-overcompensation pattern this rule names, independent of whether their smile is technically well-performed."
+critical-questions:
+  - "Is the proportionality genuine, or does this rule just describe confirmation bias after the fact — people notice big smiles before bad outcomes and forget the big smiles that preceded nothing?"
+  - "Does a culture or context where large friendly displays are simply the local norm (not overcompensation) break this heuristic entirely, making it useful only against people the observer already has a baseline for?"
+  - "Could this rule and the Ekman-style leakage mechanism actually be operating together in the same encounter — an oversized smile that is also imperfectly performed — and if so, which cue should get more weight?"
+status: active

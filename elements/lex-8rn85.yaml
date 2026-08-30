@@ -1,0 +1,20 @@
+id: lex-8rn85
+name: a-decisions-all-or-nothing-format-does-not-mandate-refusing-to-negotiate
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "A binary decision procedure's format gets mistaken for a mandate about the right posture to hold while the outcome is still contested. Corporate shareholder voting is conducted all-or-nothing: the winning slate takes the board, the losing slate gets nothing. Freeman observes this structure has misled managers into treating a proxy fight as something to win outright through sustained refusal to negotiate, since the eventual vote will be winner-take-all regardless of what happens beforehand. The actual logic runs the other way: the very existence of a proxy fight substantial enough to threaten the vote is itself evidence that the dissident group cannot simply be outlasted, and a willingness to negotiate before the vote is what protects the interests a stonewall refusal claims to defend. Freeman states it directly: 'This all-or-nothing structure seems to have misled managers into thinking that the correct method to conduct a proxy battle is a sustained refusal to negotiate. Just the opposite is true.' The format of how a conflict eventually resolves doesn't dictate the posture that makes sense while it's still open."
+related: []
+evokes: [freeman-1984-strategic-management, chapter-7, proxy-fight, all-or-nothing-voting, refusal-to-negotiate]
+lineage:
+  - source: primary
+    text: freeman-1984-strategic-management-ch7
+    citation: "R. Edward Freeman, Strategic Management: A Stakeholder Approach (Pitman, 1984), Chapter 7 'Conflict at the Board Level,' section 'Conflicts Within the Ownership Group.'"
+    quote: "It seems correct that shareholder voting be conducted, for the most part, on an all-or-nothing basis in which very few individual decisions are left to shareholders and management is given relatively free reign to carry out its policies. There is little reason or hope to expect deeper shareholder involvement in corporate policy issues. This all-or-nothing structure seems to have misled managers into thinking that the correct method to conduct a proxy battle is a sustained refusal to negotiate. Just the opposite is true. The very existence of a substantial proxy battle should demonstrate to managers that there is some need to broaden its horizons and seek to encompass the dissident group within the corporate organization once again."
+canonical-instances:
+  - "A company facing a hostile takeover bid refuses all contact with the bidder because the eventual shareholder vote will be a simple yes-or-no on the deal anyway, treating engagement as a concession -- when the bid's mere existence already signals a real vulnerability that stonewalling does nothing to address and negotiation might."
+  - "A school board declines to meet with the organizers of a well-organized recall campaign, on the reasoning that the recall election will just be a simple up-or-down vote no matter what happens beforehand. The scale of the organizing was the actual signal to act on, and by the time the vote arrives the board has burned the months it could have spent addressing the grievance underneath the recall."
+critical-questions:
+  - "Is there a point at which negotiating actually does concede legitimacy the refusing side would rather withhold, meaning the all-or-nothing-format reasoning has some real cases where it's correct after all?"
+  - "How large does a challenge have to be before its mere existence counts as the kind of evidence Freeman describes -- is there a size below which ignoring it really is the right call, and above which negotiating becomes necessary?"
+status: active

@@ -1,0 +1,36 @@
+---
+id: lex-qb3zf
+name: rotation-makes-extracting-now-rational-because-the-successor-inherits-the-degraded-asset
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When an agent is rotated through a position before the long-run consequences of their decisions become visible, the incentive structure inverts: extracting now and leaving later is dominant over maintaining. Jackall calls this 'milking the asset' — defer maintenance, defer capital expenditure, skip what only pays off after your tenure ends, ride the short-term metric. The asset degrades; the metric looks great; the next person inherits both the degradation and the blame ('plant ran great under X; now Y can't keep it running'). The diagnostic question is NOT 'is the agent ethical?' but 'over what time-window will the consequences of this decision become visible, and over what time-window does the agent expect to be in the role?' If the consequence-window exceeds the tenure-window, milking is the rational strategy and you cannot fix it by exhortation — only by aligning the windows (longer tenure, deferred compensation, attached-to-asset reputation, or successor-protected accounting). Watch for: aggressive cost-cutting paired with personal mobility upward; 'great manager' careers built on serial 2-year extractions; the predecessor-looked-great-until-I-took-over pattern. The successor effect is not a coincidence — it is the key signature of milking having occurred. Inverse: when consequence-window fits inside tenure-window (e.g. founders, long-tenure plant managers, equity-locked partners), maintenance returns as a positive-NPV move and milking stops being rational."
+related: [lex-spm8x, lex-uz24q, lex-7wvdb, lex-3fzvf, lex-f5pns, lex-5y7zb, lex-hbknh, lex-n5cf6, lex-fa9nq, lex-f2vjy]
+scaffolds-from: [lex-3fzvf, lex-5y7zb, lex-f2vjy]
+evokes: [milking-the-asset, blame-forward-shift, cya-cover-your-ass, successor-inherits-the-bill, looking-up-and-looking-around, short-term-extraction-rotation, predecessor-looked-great-now-i-cant-keep-it-running, time-window-misalignment-between-consequence-and-tenure, defect-then-exit, jackall-moral-mazes, accountability-evaporation-at-rotation, principal-agent-time-decoupling]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 4 ('Looking Up and Looking Around'), Section II."
+    quote: "Done over a short period, this is called 'starving a plant'; done over a longer period, it is called 'milking a plant.' […] We're judged on the short-term because everybody changes their jobs so frequently. As long as we have a system where I'm told that I am not going to be in a job for the long term, you're going to have this pressure. And you're not tracked from one job to the next, so you can milk your present situation. […] The guy who comes into that mess is the one who gets blamed, not the guy who milked it."
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 4, Section II — interview with chemical-company manager."
+    quote: "I don't think there is anything wrong with milking a plant. As long as you know you're milking it. As long as you know you're going to run it for three or four years and then sell it to some unsuspecting fool. […] But, one thing you don't do. You don't spend millions of dollars on new equipment if you're milking a plant."
+canonical-instances:
+  - A two-year-rotation chemical-plant manager defers all maintenance capex; the metrics look stellar; he is promoted; his successor faces unexplained breakdowns and absorbs the blame for the now-visible decay (Jackall's canonical example, Alchemy's specialty-chemicals division 1979).
+  - A startup CEO with a 4-year vesting cliff lays off the engineering team that would have shipped a v2 product, books the cost savings, exits the IPO window, hands the company a missing-product-pipeline problem to the next CEO.
+  - A presidential administration that cuts the science-agency budget in year four — the published-paper drop appears in years 6-10, blamed on the next administration's lack of leadership.
+  - A landlord milking a building — defer roof and HVAC capex, ride rental income, sell before the cap-ex-deferred bill comes due; the buyer inherits and the buyer's inspection-quality determines whether they were the 'unsuspecting fool' Jackall's interviewee names.
+  - An open-source maintainer who is 'temporarily' the only one with merge rights, rejects new contributors on subjective-fit grounds during their tenure, then leaves; the next maintainer faces a contributor-drought attributed to *their* personality rather than the prior milking-of-discretion.
+severity-tier: warning
+status: active
+---
+
+Jackall's *Moral Mazes* (1988/2014) field-studied corporate managers and surfaced "milking" as a specific operational pattern: managers extract short-term performance from physical or organizational assets by deferring maintenance, capital expenditure, and any investment whose payoff lands after their expected tenure. The mechanism is procedural, not ethical: the system rewards short-term metrics, doesn't track managers across jobs, and rotates them out before degradation becomes visible. Under these conditions, milking is the dominant strategy and is "institutionalized and sanctioned" — not a violation of the system but its rational expression.
+
+The transferable form generalizes beyond corporate management: any role where (1) the agent is rotated faster than the consequence-window, (2) the agent's metrics ignore the rate of asset-degradation, and (3) the next occupant inherits the now-visible decay — produces the milking pattern. The blame attaches to the successor ('great manager X, now poor Y can't keep the plant running') because the visible signal of degradation appears under their tenure. This signature — the "predecessor-looked-great" pattern — is itself diagnostic: when you see it, the ex-incumbent's stellar record was probably extraction, not stewardship.
+
+Distinct from Goodhart-style metric-manipulation (lex-hbknh/0615): in milking, the metric is correctly measuring short-term profit; the failure is that consequence-windows are decoupled from tenure-windows so the agent's expected utility function differs from the principal's. Inverse condition — tenure ≥ consequence-window — restores alignment: founders defending the long-run value of what they built, long-tenure tradesmen whose name is on the work, equity-locked partners. Fix is not exhortation but window-alignment: longer tenure, deferred compensation paid out over the consequence-window, successor-protected accounting that surfaces deferred maintenance, attached-to-asset reputation systems.

@@ -1,0 +1,19 @@
+id: lex-bkk9e
+name: a-leaders-conduct-is-imitated-downstream-without-independent-correction
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A group tends to follow whatever path its leader takes without independently checking that path first, so a leader's error propagates through the whole group unchecked, since trust in the leader has replaced everyone's own judgment. In the Jataka's tale of the ascetic and the fig, the ascetic explains the sweetness-of-fruit phenomenon using an image of a herd blindly trailing its lead bull: 'The bull through floods a devious course will take, The herd of kine all straggling in his wake: So if a leader tortuous paths pursue, To base ends will he guide the vulgar crew, And the whole realm an age of license rue.'"
+related: []
+evokes: [jataka, catukkanipata, rajovada-jataka, followers-trust-in-a-leader-substitutes-for-their-own-verification, a-leaders-error-propagates-uncorrected-through-the-group]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-rajovada-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 334, Rajovada-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The bull through floods a devious course will take, The herd of kine all straggling in his wake: So if a leader tortuous paths pursue, To base ends will he guide the vulgar crew, And the whole realm an age of license rue."
+canonical-instances:
+  - "A team lead adopts a sloppy shortcut under deadline pressure without flagging it as an exception. Within a month every engineer on the team has quietly picked up the same shortcut, having taken the lead's example as the real standard instead of a one-off compromise."
+critical-questions:
+  - "Does this describe a failure of the followers as much as the leader — should individual members bear some responsibility for verifying a path rather than trailing it purely on trust?"
+  - "Is there a size or structure of group where this dynamic breaks down — does a small team with easy peer feedback resist this pattern better than a large, hierarchical one where questioning the leader carries real risk?"
+status: active

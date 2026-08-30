@@ -1,0 +1,19 @@
+id: lex-pnsm4
+name: relational-warmth-beats-material-value-with-no-personal-connection
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Recipients will preferentially seek out sources offering genuine personal warmth over sources offering greater material value delivered without any relationship attached — richness of provisions doesn't compensate for the absence of the person who cares about you giving it. In the Jataka's tale of Kesava, monks given a permanent, lavish royal alms endowment abandon it daily to eat lesser food with personal friends instead, because it's given with love; the Buddha names the principle directly: 'There is no flavour, Sire, equal to that of love.'"
+related: []
+evokes: [jataka, catukkanipata, kesava-jataka, relational-warmth-outweighs-unattached-material-value, richness-without-a-relationship-attached-is-worth-less]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kesava-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 346, Kesava-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "There is no flavour, Sire, equal to that of love. That which is given without love, though it be composed of the four sweet things, is not worth so much as wild rice given with love."
+canonical-instances:
+  - "Employees with access to a company's lavish, impersonally catered cafeteria still walk fifteen minutes each day to eat simple food at the small deli run by an owner who knows all their names and orders — the cafeteria's variety and quality never compete with being known."
+critical-questions:
+  - "Is this really about love specifically, or about any signal of personal attention and relationship — would a stranger's warm, individualized care produce the same preference even without genuine affection behind it?"
+  - "Does this preference hold up under real scarcity, or is 'wild rice given with love over rich food given without it' a choice only available to people whose material needs are already otherwise secure?"
+status: active

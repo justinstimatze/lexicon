@@ -1,0 +1,18 @@
+id: lex-p7g7n
+name: readiness-for-an-uncertain-deadline-cannot-be-borrowed-at-the-last-moment
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When an event's timing is genuinely unknown in advance, the preparation needed to meet it can't be transferred from a prepared party to an unprepared one at the moment the event finally arrives — five virgins who brought no extra oil ask the five who did to share, and are refused — splitting the oil would leave neither group with enough to actually last through the wait, which is the real reason, whatever stinginess it might also look like. Preparedness for an uncertain deadline has to be built in advance by each party individually; it doesn't pool at the last minute."
+related: []
+evokes: [kjv, the-ten-virgins, wise-and-foolish-with-their-lamps, lest-there-be-not-enough-for-us-and-you, the-door-was-shut]
+lineage:
+  - source: primary
+    text: kjv-1611-matthew-25-the-ten-virgins
+    citation: "The Holy Bible, King James Version (1611; this edition Project Gutenberg #10), Matthew 25:6-10. Verified verbatim against a direct extraction of the held copy."
+    quote: "And at midnight there was a cry made, Behold, the bridegroom cometh; go ye out to meet him. Then all those virgins arose, and trimmed their lamps. And the foolish said unto the wise, Give us of your oil; for our lamps are gone out. But the wise answered, saying, Not so; lest there be not enough for us and you: but go ye rather to them that sell, and buy for yourselves. And while they went to buy, the bridegroom came; and they that were ready went in with him to the marriage: and the door was shut."
+canonical-instances:
+  - "A team that skipped disaster-recovery drills asks the team that ran them monthly to walk them through the runbook the moment a real outage starts — the prepared team can share the document, but the muscle memory of having actually run the drill isn't something that transfers in the middle of the incident."
+critical-questions:
+  - "Is the refusal to share here actually necessary — would splitting the resource genuinely leave both parties short — or is this being used to justify withholding help that could, in fact, be spared?"
+status: active

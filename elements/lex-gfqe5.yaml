@@ -1,0 +1,19 @@
+id: lex-gfqe5
+name: unverifiable-devotion-generates-more-sympathy-the-more-costly-it-looks
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A fabricated narrative of devotion generates more public sympathy and material support precisely in proportion to how visibly costly and self-sacrificing it appears to be, because the apparent cost is exactly what makes observers assume it must be genuine — nobody would perform this much suffering for a lie. In the Jataka's tale of the treacherous wife, after failing to murder her husband she takes up her new lover, now disabled from her own earlier crime, and carries him publicly through the streets, begging for his upkeep and performing exaggerated wifely devotion. The community's response confirms the mechanism exactly: 'What a devoted wife! said all the people. And thenceforward they gave her more food than ever.' The performance is unverifiable by any bystander — none of them can check her account against what actually happened — and its very extremity is what makes it convincing rather than suspicious."
+related: []
+evokes: [jataka, dukanipata, culla-paduma-jataka, apparent-cost-substitutes-for-verification-of-a-claim, an-unfalsifiable-narrative-earns-sympathy-in-proportion-to-its-visible-sacrifice]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-culla-paduma-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 193, Culla-paduma-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"What a devoted wife!\" said all the people. And thenceforward they gave her more food than ever."
+canonical-instances:
+  - "A person soliciting donations online for a relative's medical treatment, whose story is entirely fabricated, receives more contributions the more graphic and exhausting the daily updates about the supposed illness become, since the emotional and narrative cost of maintaining the story reads to strangers as proof it must be true."
+critical-questions:
+  - "Is there any bystander-accessible signal that could distinguish this performance from genuine devotion without requiring the kind of private knowledge only the real husband, King Lotus, actually had?"
+  - "Does the mechanism depend specifically on the audience having no way to verify, or would the same sympathy-scaling-with-apparent-cost effect persist even among people who could check but simply don't bother to?"
+status: active

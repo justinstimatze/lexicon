@@ -1,0 +1,21 @@
+id: lex-zpcey
+name: become-unrecognizable-to-preserve-options-when-defeat-is-total
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When your position has been overrun and open resistance or a stand-and-fight ending is no longer viable, don't treat capture or death as the only remaining outcomes -- shedding the identity that made you a target is itself a live option, and it converts a closed situation back into an open one. Kautilya's instruction for a besieged king whose resources are exhausted and whose escape attempts have failed: 'he shall escape using one of the following disguises: an ascetic with a small retinue; a corpse carried by clandestine agents; or a woman following a funeral cortege.' Each disguise works by the same mechanism -- it doesn't hide the king better, it removes the category of person anyone is looking for, substituting an identity (a holy man, the already-dead, a mourner) that carries no value to capture and therefore draws no scrutiny. This is categorically different from hiding, which keeps the pursued identity intact and merely conceals its location; disguise discards the identity itself, so the search for 'the king' can walk directly past what is now, functionally, someone else. The move only works because the pursuers' attention is allocated by category (searching for a king, a soldier, a fugitive) rather than by exhaustive inspection of every individual, and stepping outside the searched category is cheaper than out-hiding or out-running people actively looking for you. Diagnostic move: when a situation has collapsed to the point that your usual identity is what's being hunted, ask what identity exists that would draw zero attention from the same search, and consider adopting it entirely rather than trying to conceal your real one more cleverly -- the categories pursuers don't bother checking are often the safest place to be, precisely because no one expects the person they're looking for to have stopped being that person."
+related: []
+evokes: [discard-the-hunted-identity-rather-than-hide-it-better, kautilya-leaving-the-fort-without-surrendering, disguise-as-category-substitution-not-concealment, the-safest-place-is-the-category-no-one-is-searching]
+lineage:
+  - source: primary
+    text: kautilya-arthashastra-escape-in-disguise-when-facing-defeat
+    citation: "Kautilya, The Arthashastra, ed./trans. L.N. Rangarajan (Penguin Books, 1992), Part X 'Foreign Policy,' section 'The Weak King,' 'When Facing Defeat,' {12.5.35-42}."
+    quote: "'...he shall escape using one of the following disguises: an ascetic with a small retinue; a corpse carried by clandestine agents; or a woman following a funeral cortege.'"
+canonical-instances:
+  - "An executive whose division has been publicly and irreversibly discredited doesn't try to defend their old title or position -- they quietly step into an unglamorous, low-visibility operational role at a different company under a changed professional identity, becoming someone no one associated with the failed venture is looking for."
+  - "A whistleblower facing retaliation from a powerful former employer doesn't try to keep operating under their known professional identity while hiding their location -- they change industries and professional identity entirely, becoming a category of person (a freelancer in an unrelated field) that the search for 'the whistleblower' was never built to check."
+critical-questions:
+  - "how available is a truly safe alternate category in practice -- does this tactic assume a level of social mobility and anonymity (the ability to convincingly become a different kind of person) that isn't actually available to everyone facing this kind of total defeat?"
+  - "what happens when pursuers anticipate the tactic itself -- if disguise-as-category-substitution becomes expected, do searches simply widen to check the exact categories (ascetics, funeral processions) that used to be safe, collapsing the advantage the moment it becomes a known pattern?"
+  - "does discarding the old identity to survive foreclose the very goals (reclaiming the throne, restoring the position) that made survival worth pursuing in the first place, if the new identity can never credibly be shed again without re-exposing the original vulnerability?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-j5qgq
+name: removing-the-secondary-gain-of-a-complaint-instantly-cures-it
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A persistent complaint that's secretly maintained for the side benefits it extracts, rather than any genuine underlying problem, can be resolved almost instantly by removing the specific benefit rather than by treating the complaint itself. In the Jataka's tale of the malingering wife, a woman fakes chronic illness to avoid work and extract special treatment from her obedient husband while carrying on affairs. A teacher, suspecting fraud, presents her with a binary choice — take an aversive but genuine cure, or go back to ordinary work and lose the sick-role's benefits entirely — and the illness disappears the moment the secondary gain is no longer available either way. The speed of the cure is itself the evidence: a genuine illness doesn't resolve just because its benefits were withdrawn."
+related: []
+evokes: [jataka, ekanipata, kosiya-jataka, removing-secondary-gain-exposes-and-cures-feigned-need, speed-of-resolution-as-evidence-of-malingering]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kosiya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 130, Kosiya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"So you won't have it, eh?\" said the young brahmin, taking up the rope-end; \"well then, you've either got to swallow down that safe cure or else to work for honest fare.\""
+canonical-instances:
+  - "An employee who has been chronically 'too overwhelmed' to take on any new tasks, while quietly enjoying the reduced workload that framing has earned them, suddenly finds new capacity the moment a manager announces that the same accommodation now comes with a formal performance review instead of quiet exemption."
+critical-questions:
+  - "Does this technique risk punishing someone with a genuine problem by removing support they actually need, given that a real illness or hardship wouldn't resolve just because the stakes changed?"
+  - "Is presenting a binary, somewhat coercive choice the only way to test this, or is there a gentler diagnostic that achieves the same clarity without risking harm to a genuine case?"
+status: active

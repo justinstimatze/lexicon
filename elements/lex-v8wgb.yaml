@@ -1,0 +1,19 @@
+id: lex-v8wgb
+name: a-group-splits-on-heeding-a-corroborated-warning
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a group enjoying an arrangement that seems too good to be true receives a credible warning that it's a trap, the group can split along a predictable line: those who act on the warning immediately, at the cost of abandoning present comfort, and those who refuse to abandon what they've already invested in, even when the warning is specific and corroborated rather than vague suspicion. In the Jataka's tale of the she-goblins, a shipwrecked trader discovers his 'wife' is a goblin that has been secretly killing and eating captives, and warns the rest of the group. The split is immediate and total: 'We cannot leave them: go ye, if ye will, but we will not flee away.' Those who leave are rescued by a passing flying horse; those who stay are all eventually killed and eaten. The warning wasn't ambiguous, and everyone heard the same evidence — what differed was how much each person had already committed to the arrangement they'd have to give up to act on it."
+related: []
+evokes: [jataka, dukanipata, valahassa-jataka, sunk-investment-in-an-arrangement-resists-a-corroborated-warning, a-group-splits-on-identical-evidence-by-what-each-member-stands-to-lose]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-valahassa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 196, Valahassa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "We cannot leave them: go ye, if ye will, but we will not flee away."
+canonical-instances:
+  - "When an early employee at a fast-growing startup discovers and shares clear evidence the company's core financials are fabricated, roughly half the staff resign within days while the rest, having already turned down other job offers and moved their families for the role, choose to stay and hope the warning is overblown."
+critical-questions:
+  - "Is the split really about sunk cost, or could it instead reflect a genuine and reasonable difference in how much each person trusted the specific warning itself, independent of how much they'd already invested?"
+  - "What made the two hundred and fifty who stayed unable to act even after seeing the same evidence as those who left — was the warning genuinely ambiguous enough to make staying a defensible bet, or does the story frame their choice as simple denial?"
+status: active

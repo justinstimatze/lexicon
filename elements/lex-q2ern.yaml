@@ -1,0 +1,22 @@
+id: lex-q2ern
+name: a-claimed-universal-preference-narrows-to-one-subgroups-under-questioning
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Someone can defend a practice by asserting that everyone loves or wants it, universally and equally. Gentle, specific follow-up questions from a listener who takes the universal claim seriously can force an admission that the preference is actually concentrated in one subgroup and much weaker in another -- the claimed universal turns out, under simple factual pressure, to have been one group's specific taste generalized to the whole population, with the generalization never actually checked before it was asserted. Gilman stages this exactly: Terry insists dogs are loved by everyone. 'Zava interrupted here. \"Is it the men or the women who love this animal so much?\" \"Both!\" insisted Terry. \"Equally?\" she inquired. And Jeff said, \"Nonsense, Terry--you know men like dogs better than women do--as a whole.\"'"
+related: []
+evokes: [herland, chapter-5, is-it-the-men-or-the-women-who-love-this-animal, equally-she-inquired, a-universal-claim-narrows-under-a-simple-follow-up]
+lineage:
+  - source: primary
+    text: gilman-1915-herland-chapter-5
+    citation: "Charlotte Perkins Gilman, Herland (1915), Chapter 5, 'A Unique History.' Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "\"Because of the love which people bear to this animal.\" Zava interrupted here. \"Is it the men or the women who love this animal so much?\" \"Both!\" insisted Terry. \"Equally?\" she inquired. And Jeff said, \"Nonsense, Terry--you know men like dogs better than women do--as a whole.\""
+canonical-instances:
+  - "A city council member defends a proposed stadium subsidy by saying the whole town loves the team, but a colleague's simple question -- attendance figures broken down by neighborhood -- reveals the claimed citywide enthusiasm is concentrated almost entirely in one district."
+  - "A company executive insists that everyone at the firm loves the new open-office layout, but a survey question splitting responses by role reveals engineers overwhelmingly dislike it while sales staff, who spend little time at their desks, mostly don't mind."
+  - "A festival organizer claims the whole community treasures a controversial annual tradition, but a reporter's simple question about who actually attends reveals it's popular with one specific age group and largely ignored or resented by everyone else."
+critical-questions:
+  - "How much of a preference gap does it take before a claim of universality counts as genuinely false rather than just imprecise -- is there a meaningful threshold, or does any measurable subgroup difference technically falsify a stated universal?"
+  - "Does the person making the original universal claim usually know, at some level, that the preference is concentrated, and state it as universal anyway for rhetorical convenience, or is the overgeneralization often genuinely unexamined until someone asks?"
+  - "Once the universal claim narrows to a subgroup preference under questioning, does that change the original argument's force at all, or can the practice still be defended on the narrower, now-honest grounds that one subgroup's preference is reason enough?"
+status: active

@@ -1,0 +1,20 @@
+id: lex-xyehs
+name: separate-deeds-draw-separate-full-consequences
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone's conduct mixes real virtue and real vice within the same stretch of their life, don't expect the two to net out into one blended verdict — each deed can draw its own full, separate consequence, running in parallel rather than averaging together. In the Jataka's tale of a corrupt-yet-devout chaplain, a brahmin who fasts faithfully every night while taking bribes and issuing false judgments every day is reborn as a spirit who lives out both consequences in full, each on its own schedule: \"in consequence of receiving bribes and giving false judgments, he tears and eats the flesh from off his own back, whilst, owing to the fact of his having kept half the fast, he enjoys glory every night, surrounded by an escort of sixteen thousand dancing nymphs.\""
+related: [lex-r8bg5]
+evokes: [jataka, timsanipata, kimchanda-jataka, separate-moral-accounting, no-netting-good-against-evil]
+lineage:
+  - source: primary
+    text: jataka-francis1905-kimchanda-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XVI (Timsanipata), No. 511, Kimchanda-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "in consequence of receiving bribes and giving false judgments, he tears and eats the flesh from off his own back, whilst, owing to the fact of his having kept half the fast, he enjoys glory every night, surrounded by an escort of sixteen thousand dancing nymphs."
+canonical-instances:
+  - "An executive who donates generously to the community foundation every quarter while quietly falsifying safety-inspection reports at the plant doesn't get to average the two into a net-positive reputation — the donations build real goodwill in the town, and the falsified reports independently draw the eventual investigation and liability, on their own separate timeline."
+  - "A manager who mentors junior engineers with real generosity while padding expense reports finds that neither habit buys down the other at review time or in the eventual audit — the mentorship earns a strong reputation, the padding earns a termination, and the two are never merged into one score."
+critical-questions:
+  - "Is it actually true in most real institutions that good and bad conduct get tracked this separately — or does reputation usually blend into one impression, where a strong enough virtue partly buys down real wrongdoing in other people's eyes?"
+  - "If virtue and vice really do draw fully separate consequences that never offset each other, does that remove any incentive to weigh the two against each other before acting, since neither one buys down the other?"
+status: active

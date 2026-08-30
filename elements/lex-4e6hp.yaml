@@ -1,0 +1,32 @@
+id: lex-4e6hp
+name: surprise-minimization-explains-metaphor-attention-training-and-antilibrary
+type-in: claim
+type-out: claim
+_tier: molecule
+agent-instruction: "When a domain-specific phenomenon looks like it needs its own bespoke explanation, check whether Friston's free-energy framing already covers it as one instance of a general mechanism: an adaptive system maintains a generative model of the world and acts (or updates beliefs) to minimize the long-run average surprise of its sensory input (lex-2kjmb). Under that framing, abstract concepts inheriting bodily orientation (happy is UP, future is FORWARD) are the priors the organism's generative model already brings to sensory input (lex-zwnfz); shamatha's staged attentional development is trainable precision-weighting within that same generative-model machinery (lex-73wdz); and maintaining an antilibrary of deliberately-unread material is maintaining a stock of priors you could update on but haven't yet, pre-positioning the system to integrate higher-information signals later (lex-k4ent). Three disparate-looking phenomena, one shared generative-model mechanism underneath."
+related: [lex-2kjmb, lex-zwnfz, lex-73wdz, lex-k4ent]
+scaffolds-from: [lex-2kjmb, lex-zwnfz, lex-73wdz, lex-k4ent]
+evokes: [free-energy-principle, generative-model, orientational-metaphor, precision-weighting, antilibrary]
+decomposes-into:
+  - lex-2kjmb
+  - lex-zwnfz
+  - lex-73wdz
+  - lex-k4ent
+assembly: "classification(lex-2kjmb, lex-zwnfz, lex-73wdz, lex-k4ent)"
+premises:
+  - "an adaptive system stays adaptive by minimizing the long-term average of surprise — the negative log-probability of its sensory inputs given its generative model of the world — whether the system is a biological organism, a learning algorithm, or an organization (lex-2kjmb)"
+  - "abstract concepts that feel intuitive in some directions and not others (happy is UP, future is FORWARD, control is OVER) have inherited their structural intuitions from the body's spatial experience — orientational schemas are priors the organism brings to sensory input, which ARE the generative model abstract domains inherit structure from (lex-zwnfz)"
+  - "shamatha, sustained-attention contemplative practice, is a staged skill-development path with measurable intermediate competencies rather than passive relaxation — it can be cast as deliberate training of the attentional precision-weighting the free-energy framework names, though the practice long predates the theoretical frame (lex-73wdz)"
+  - "an antilibrary — deliberately-unread material kept as a visible research resource rather than ego-decoration — is a set of priors-you-could-update-on-but-haven't; maintaining it pre-positions the system to encounter and integrate higher-information signals than its current generative model contains (lex-k4ent)"
+critical-questions:
+  - "is the free-energy principle doing genuine explanatory work across all three domain-instances, or is it a sufficiently general framework (surprise-minimization via generative models) that it can be retrofitted onto almost any adaptive-seeming phenomenon post-hoc, which would make the 'explains' claim weaker than it sounds?"
+  - "for lex-73wdz specifically, the atom's own text flags that shamatha long predates the free-energy theoretical frame — does casting an older, independently-developed practice IN TERMS OF a newer theory risk over-claiming that the theory explains the practice, versus merely being compatible with redescribing it?"
+  - "does treating lex-k4ent (antilibrary) as 'priors you could update on' collapse an important distinction — an antilibrary is material you haven't yet ENCODED into any prior at all, versus lex-zwnfz's orientational schemas which are already-encoded, active priors — is 'priors-not-yet-updated-on' the right free-energy vocabulary for material you haven't engaged with yet?"
+lineage:
+  - source: practitioner
+    text: assembled-from-lex-2kjmb-lex-zwnfz-lex-73wdz-lex-k4ent
+    citation: "Molecule assembled from lex-2kjmb (organisms-minimize-surprise-by-acting-or-by-updating-beliefs, Friston free-energy principle) and three atoms whose own text explicitly composes with it. lex-zwnfz: 'Composes with lex-2kjmb free-energy-principle: orientational schemas are priors the organism brings to its sensory input — they ARE the generative model from which abstract domains inherit structure.' lex-73wdz: 'Composes with lex-2kjmb free-energy-principle: shamatha can be cast as a deliberate training of the attentional precision-weighting that the free-energy framework names — but the empirical practice is much older than the theoretical frame.' lex-k4ent: 'Composes with lex-2kjmb free-energy-principle: the antilibrary is a set of priors-you-could-update-on but haven't; maintaining it pre-positions the organism to encounter and integrate higher-information signals than its current generative model contains.' All four are claim→claim; used as `classification` (general principle plus three domain-instances) rather than forcing a `sequential` chain."
+canonical-instances:
+  - "A cognitive-science course explaining why 'more is up' feels intuitive to English speakers (lex-zwnfz), why advanced meditators show measurably different attentional-blink and precision-weighting profiles (lex-73wdz), and why maintaining a stack of unread but flagged papers changes what a researcher notices during literature review (lex-k4ent), can present all three as domain-instances of one mechanism: adaptive systems minimizing surprise by acting and updating within a generative model (lex-2kjmb), rather than three unrelated cognitive-science curiosities."
+  - "A meditation teacher explains shamatha training as deliberately reshaping attentional precision-weighting (lex-73wdz), in the same conceptual register a linguist would use to explain why spatial metaphors structure abstract reasoning (lex-zwnfz) and a research methodologist would use to explain why deliberately maintained unread material improves a scholar's ability to recognize a relevant new finding (lex-k4ent) — three different practices, one shared free-energy-principle vocabulary (lex-2kjmb)."
+status: under-review

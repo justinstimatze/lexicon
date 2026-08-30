@@ -1,0 +1,19 @@
+id: lex-y2ctv
+name: a-strategy-optimal-in-one-regime-gets-punished-hardest-once-it-shifts
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a strategy that worked well during a period of conflict stops working once the conflict resolves, check whether the regime itself has shifted the rules for what counts as good behavior. Aesop's 'The Birds, the Beasts, and the Bat,' during a war between birds and beasts, backs whichever side is currently winning at any given moment — a locally optimal tactic during active conflict — but once peace returns and stable identity is what's valued: 'neither the Birds nor the Beasts would have anything to do with so double-faced a traitor, and so he remains to this day a solitary outcast from both.' The same trait that was rewarded under one regime becomes maximally punished under the next, with no change in the trait itself, only in which regime is currently in force."
+related: []
+evokes: [aesop, the-birds-the-beasts-and-the-bat, regime-mismatch, locally-optimal-strategy-punished-under-shift]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-birds-the-beasts-and-the-bat
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Birds, the Beasts, and the Bat.' Verified verbatim against a direct extraction of the held copy."
+    quote: "when it was over, and peace was restored, neither the Birds nor the Beasts would have anything to do with so double-faced a traitor, and so he remains to this day a solitary outcast from both."
+canonical-instances:
+  - "an executive who nimbly backs whichever internal faction is winning during a corporate reorg gets frozen out by both sides once the merger settles and stable loyalty, not tactical flexibility, is what the new regime values."
+critical-questions:
+  - "Could the bat have anticipated the regime shift and adjusted its strategy before peace arrived, or is the transition from conflict to stability inherently unpredictable enough that this trap is nearly impossible to see coming?"
+  - "Does this mechanism apply symmetrically to strategies optimized for stability that then get punished once conflict resumes, or is the switch from flexibility to loyalty a one-directional trap specific to how conflicts end?"
+status: active

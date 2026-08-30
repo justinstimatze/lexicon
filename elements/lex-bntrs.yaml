@@ -1,0 +1,18 @@
+id: lex-bntrs
+name: distinguishing-a-hard-truth-delivered-from-care-from-actual-unkindness
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: 'Someone who has just said something painful to a person they care about can explicitly separate the pain of the message from any unkindness of intent, insisting the harshness lies in the situation being named, not in the manner or motive of the naming. In the Jataka''s tale of Takkala, the boy, having just accused his father of planning a sin, immediately clarifies his own motive: "''I am not harsh, my father, nor unkind, Nay, I regard thee with a friendly mind: But this thou dost, this act of sin, thy son Will have no strength to undo again, once done.''"'
+related: []
+evokes: [jataka, dasanipata, takkala-jataka, hard-truth-from-love, distinguishing-content-from-intent]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-takkala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 446, Takkala-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "I am not harsh, my father, nor unkind, Nay, I regard thee with a friendly mind: But this thou dost, this act of sin, thy son Will have no strength to undo again, once done."
+canonical-instances:
+  - "A friend who just told someone bluntly that their business is about to fail immediately adds that she is saying it because she wants to see them succeed, not because she enjoys delivering bad news, separating the harshness of the content from any harshness of intent."
+critical-questions:
+  - "Does explicitly disclaiming unkind intent actually change how a hard truth lands for the recipient, or does the disclaimer mainly serve to protect the speaker's own self-image as caring?"
+status: active

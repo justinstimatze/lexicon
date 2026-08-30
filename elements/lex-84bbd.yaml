@@ -1,0 +1,18 @@
+id: lex-84bbd
+name: actual-action-defines-the-role-not-the-expected-obligation-to-act
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "The role of 'neighbour' or helper goes to whoever actually acted, regardless of who was supposed to. A priest and a Levite, both with a clear expected duty, pass by a wounded man on the road; a Samaritan, from a group with no obligation and even active hostility toward the victim's people, stops and helps instead. The question 'who is my neighbour' gets answered by pointing at the one who showed mercy, not at the ones whose role should have made them the obvious answer."
+related: []
+evokes: [kjv, the-good-samaritan, fell-among-thieves, passed-by-on-the-other-side, go-and-do-thou-likewise]
+lineage:
+  - source: primary
+    text: kjv-1611-luke-10-the-good-samaritan
+    citation: "The Holy Bible, King James Version (1611; this edition Project Gutenberg #10), Luke 10:31-33, 10:36-37. Verified verbatim against a direct extraction of the held copy."
+    quote: "And by chance there came down a certain priest that way: and when he saw him, he passed by on the other side. And likewise a Levite, when he was at the place, came and looked on him, and passed by on the other side. But a certain Samaritan, as he journeyed, came where he was: and when he saw him, he had compassion on him, [...] Which now of these three, thinkest thou, was neighbour unto him that fell among the thieves? And he said, He that shewed mercy on him."
+canonical-instances:
+  - "When a colleague collapses at a conference, it's not the medical staff on the official safety team who reach them first — it's an attendee with no assigned role at all who happens to know CPR. Afterward, nobody credits the safety team's title; they credit the person who actually acted."
+critical-questions:
+  - "Does defining the role by who acted let the ones with clear expected duty off the hook too easily — does the outsider's heroism quietly excuse a real, ongoing failure by the people whose job it actually was?"
+status: active

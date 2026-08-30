@@ -1,0 +1,21 @@
+id: lex-8thm7
+name: the-end-of-the-world-already-happened-to-someone-else
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: "When a discourse frames civilizational collapse or an unprecedented catastrophe as a looming future event, check whether some population has already lived through the structural equivalent as completed history. Danowski and Viveiros de Castro's argument dates the apocalypse for the Indigenous peoples of the Americas precisely: it began October 12, 1492, and cost something on the order of 95 percent of the pre-Conquest population over the following century and a half. A claim like 'we've never faced anything like this' quietly assumes a 'we' for whom that happens to be true. Treating catastrophe as a universally prospective event erases whoever already crossed that threshold, along with whatever they learned about persisting on its far side."
+related: [lex-n9qfv]
+evokes: [viveiros-de-castro, danowski, amerindian-perspectivism, anthropocene, settler-colonialism, apocalypse-framing]
+lineage:
+  - source: primary
+    text: danowski-viveiros-de-castro-2016-ends-of-the-world
+    citation: "Déborah Danowski and Eduardo Viveiros de Castro, The Ends of the World, translated by Rodrigo Nunes (Polity Press, 2016; originally Há Mundo por Vir?, Cultura e Barbárie/Instituto Socioambiental, 2014). Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "Be as it may, what we hinted above, that indigenous people have something to teach us when it comes to apocalypses, losses of world, demographic catastrophes, and ends of History, means simply this: for the native people of the Americas, the end of the world already happened – five centuries ago. To be exact, it began on October 12, 1492."
+canonical-instances:
+  - "The book's supporting figure: the indigenous population of the Americas, larger than Europe's at the time, lost on the order of 95 percent of its people over the first century and a half of the Conquest through the combined action of disease, iron, gunpowder, and treaty paper — a scale the authors call, deliberately provocatively, the First Great Modern Extinction."
+  - "operationally distinct from lex-n9qfv (Tsing's method of learning survival-technique from those already living inside a damaged/collapsed system): Tsing's move is methodological — go learn from the survivors' practice. This atom's move is a positional claim about the framing itself — that 'the end of the world' has an already-fixed date and location for some populations, which is a precondition for Tsing's method to even make sense as advice rather than as a hypothetical."
+critical-questions:
+  - "Does dating the apocalypse to a specific historical event risk flattening enormous variation across hundreds of distinct Indigenous nations and centuries of differently-timed contact into one symbolic date?"
+  - "Does the claim generalize past this specific case — to any population that already lived through what a currently-anxious group treats as unprecedented — or does the argument's force come specifically from the scale of colonial genocide?"
+  - "Who gets to say a catastrophe has already happened and been survived, versus is still unfolding — and does the distinction serve the survivors' own framing or someone else's need for closure?"
+status: active

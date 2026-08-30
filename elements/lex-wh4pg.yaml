@@ -1,0 +1,19 @@
+id: lex-wh4pg
+name: support-has-value-only-inside-the-risk-window-it-was-needed-in
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone offers support after a dangerous moment has already passed, check whether the timing of the gesture, not its sincerity or size, is what determines its worth. In Aesop's 'The Two Soldiers and the Robber,' a soldier who fled a confrontation approaches afterward with drawn sword, and the one who fought alone tells him plainly: 'You are a little late, my friend: I only wish you had backed me up just now, even if you had done no more than speak, for I should have been encouraged, believing your words to be true.' Even the smallest gesture — a single word of encouragement — would have counted for something inside the risk window; the identical gesture offered after the danger has passed counts for nothing, no matter how genuine."
+related: []
+evokes: [aesop, the-two-soldiers-and-the-robber, timing-of-support, value-inside-the-risk-window]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-two-soldiers-and-the-robber
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Two Soldiers and the Robber.' Verified verbatim against a direct extraction of the held copy."
+    quote: "You are a little late, my friend: I only wish you had backed me up just now, even if you had done no more than speak, for I should have been encouraged, believing your words to be true."
+canonical-instances:
+  - "a colleague who stays silent during a tense client confrontation, then afterward loudly narrates what they 'would have said' — the same words, offered after the risk has passed, carry none of the value they would have had in the moment."
+critical-questions:
+  - "Is there ever a meaningful way to make amends for support withheld inside the risk window, or does the value genuinely disappear once the window closes, leaving only reputational repair rather than restored trust?"
+  - "Does the size of the gesture matter at all within the window — would a larger, later intervention ever fully substitute for a small, well-timed one, or is timing categorically more important than magnitude?"
+status: active

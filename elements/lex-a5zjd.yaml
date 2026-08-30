@@ -1,0 +1,19 @@
+id: lex-a5zjd
+name: dissolve-a-die-either-way-dilemma-by-disarming-its-shared-hidden-cause
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A "die if you go, die if you stay" dilemma does not need to be resolved by choosing a horn — it can be dissolved by discovering the single hidden variable generating both outcomes and disarming it directly. In the Jataka''s tale of Sattubhasta, the brahmin''s dilemma is stated as "If I go home my wife it is must die, If I go not, the yakkha said, ''tis I;" and dissolved not by choosing but by exposing the shared cause: "Take a stick and beat the sack, Dumb and double-tongued is he; Cease your mind with doubts to rack; Ope the sack, the snake you''ll see."'
+related: []
+evokes: [jataka, sattanipata, sattubhasta-jataka, dissolve-the-dilemma-not-choose-a-horn, shared-hidden-cause]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sattubhasta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 402, Sattubhasta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "If Igo home my wife it is must die, If I go not, the yakkha said, 'tis I;"
+canonical-instances:
+  - "A team lead is told that shipping now will burn out the engineers and shipping late will lose the client, and instead of picking a horn, discovers both timelines are driven by one bloated feature nobody actually needs and cuts it, dissolving the dilemma."
+critical-questions:
+  - "Is a shared hidden cause always there to be found, or does treating every dilemma as dissolvable risk wasting time looking for an exit that doesn't exist in cases where a real trade-off must be chosen?"
+  - "What made the shared cause invisible until someone went looking for it — was it hidden by design, or simply never questioned?"
+status: active

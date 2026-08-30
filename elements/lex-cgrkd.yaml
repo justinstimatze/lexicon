@@ -1,0 +1,30 @@
+id: lex-cgrkd
+name: progressive-difficulty-targeting-is-one-mechanism-across-skill-and-behavior
+type-in: situation
+type-out: process
+_tier: molecule
+agent-instruction: "When you see a training regime that pushes just past current ability with immediate, specific, corrective feedback — whether it's a coach shaping an animal's behavior through successive approximations or a deliberate-practice program building a musician's mental representations — recognize both as the same abstract mechanism instantiated in different domains. Diagnose any 'more practice' or 'more hours' claim by checking for this shape (targeted difficulty, full attention, immediate feedback), not by counting time."
+related: [lex-555ug, lex-kcgcw]
+scaffolds-from: [lex-kcgcw, lex-555ug]
+evokes: [successive-approximation, deliberate-practice, progressive-difficulty-targeting, shaping-and-representation-building, more-hours-is-not-enough]
+decomposes-into:
+  - lex-kcgcw
+  - lex-555ug
+assembly: "classification(lex-kcgcw, lex-555ug)"
+premises:
+  - "shaping builds a target behavior by reinforcing successive approximations — each step targets a difficulty just past the current capability, reinforced immediately (lex-555ug)"
+  - "deliberate practice builds mental representations, not mere hours of repetition — it requires goal-specificity, full attention, and immediate corrective feedback (lex-kcgcw)"
+  - "both are the same structural mechanism — progressive-difficulty-targeting with tight feedback loops — applied to two different substrates: shaping applies it to trainable behavior via external reinforcement, deliberate practice applies it to skill via effortful attention and internal representation-building"
+  - "the two atoms are not causally sequential or type-chained; they are independent, unordered instances of the same underlying structural signature, which is why they're classified together rather than composed as a pipeline"
+critical-questions:
+  - "when someone claims 'ten years of experience,' does that tenure actually exhibit this shape (targeted difficulty, full attention, immediate feedback), or is it routine repetition of an already-mastered function? The quantity claim isn't wrong so much as incomplete without checking the shape."
+  - "for a given training design (coaching program, curriculum, corporate training), can you name the specific difficulty-target, the attention-demand, and the feedback-latency? If any of the three is missing, the design likely produces a comfortable plateau rather than continued improvement, regardless of how much time is invested."
+  - "does the shaping/deliberate-practice classification hold for domains where feedback is inherently slow or ambiguous (e.g., long-horizon strategic decisions, creative work with no clear 'correct' target)? The mechanism may need modification — proxy feedback, expert critique — rather than applying unchanged."
+lineage:
+  - source: practitioner
+    text: assembled-from-lex-kcgcw-lex-555ug
+    citation: "Molecule assembled from lex-kcgcw (deliberate-practice-builds-mental-representations-not-mere-hours, Ericsson) and lex-555ug (shaping-builds-a-target-behavior-by-reinforcing-successive-approximations, Pryor/Skinner). lex-kcgcw's own canonical-instances state the link directly: 'Composes with lex-555ug (Pryor, shaping-builds-behavior-through-reinforced-successive-approximations): lex-555ug itself names deliberate practice's \"rest-set\" — the progressively-harder task sequence a coach or teacher assigns — as a skill-acquisition analogue of behavioral shaping; both are progressive-difficulty-targeting methods.' Types don't chain (lex-kcgcw situation→claim, lex-555ug question→process), so this uses `classification` rather than `sequential`/`parallel` — the two are independent instances of a shared structural signature, not a type-checked pipeline."
+canonical-instances:
+  - "Dog-training clicker method vs. music-conservatory practice regimen: a clicker trainer reinforces a dog for successive approximations toward a target behavior (sit → stay-briefly → stay-while-distracted); a conservatory teacher assigns a piece just past the student's current technical ability with immediate correction on specific errors. Structurally identical shape — targeted difficulty, tight feedback — applied to an animal's trainable behavior versus a human's skill-representation."
+  - "AI/ML curriculum learning, as a loose structural analogy (per lex-kcgcw's own caveat): a training regime with targeted difficulty (curriculum ordering), immediate corrective signal (loss gradient), and iterative refinement toward a capability gap mirrors the shape of both shaping and deliberate practice — though the underlying mechanism (gradient descent vs. representation-building via attention) is not literally the same process; the analogy explains the structure, not the substrate."
+status: under-review

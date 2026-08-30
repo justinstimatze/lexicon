@@ -1,0 +1,19 @@
+id: lex-kseav
+name: an-offer-to-betray-your-own-side-reads-as-evidence-against-you
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When bargaining for your life or position by offering to betray your own group to your captor, check whether that offer is read as proof you'd betray the captor too, rather than as a mark of trustworthy cooperation. Aesop's 'The Partridge and the Fowler' has a captured partridge offer to lure other partridges into the fowler's nets in exchange for its life; the fowler refuses on exactly that basis: 'I was going to kill you anyhow, and after that treacherous speech you thoroughly deserve your fate.' A demonstrated willingness to betray one's own side is not a credential of usefulness to a new master — it is direct evidence of what the offeror would eventually do to anyone, including the very party currently benefiting from the offer."
+related: []
+evokes: [aesop, the-partridge-and-the-fowler, betrayal-offer-as-disqualifying-evidence, no-honor-among-thieves]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-partridge-and-the-fowler
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Partridge and the Fowler.' Verified verbatim against a direct extraction of the held copy."
+    quote: "No, said the Fowler, I will not spare you. I was going to kill you anyhow, and after that treacherous speech you thoroughly deserve your fate."
+canonical-instances:
+  - "a cornered employee offers to inform on colleagues to save their own job, and gets fired anyway, because the offer itself proves they cannot be trusted by whoever they're currently trying to please either."
+critical-questions:
+  - "Is this fowler's reaction the typical response to such an offer, or would a captor with a genuine, ongoing use for informants accept the same offer that got the partridge condemned here?"
+  - "Does the timing matter — would the partridge have fared differently offering the same bargain before being caught, rather than as a desperate bid for mercy after capture?"
+status: active

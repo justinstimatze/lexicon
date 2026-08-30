@@ -1,0 +1,19 @@
+id: lex-esp5v
+name: mutual-insincere-flattery-lets-both-parties-extract-a-shared-resource
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Two parties who each want something from the other can trade insincere flattery back and forth, with each fully aware the praise is manufactured, because the exchange itself produces the material benefit both are actually after regardless of whether either believes a word of it. In the Jataka's tale of the mutual flatterers, a jackal praises a crow perched in a fruit tree, hoping for scraps, and the crow praises the jackal right back: 'Who is it sits in a rose-apple tree-- Sweet singer! whose voice trickles gently to me? Like a young peacock she coos with soft grace, And ever sits still in her place.' The crow shakes down fruit in response. Neither animal's praise was ever about the other's actual qualities. It was the price of admission to a shared meal."
+related: []
+evokes: [jataka, tikanipata, jambu-khadaka-jataka, reciprocal-insincere-flattery-functions-as-a-transaction, both-parties-benefit-from-praise-neither-believes]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-jambu-khadaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 294, Jambu-khadaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Who is it sits in a rose-apple tree-- Sweet singer! whose voice trickles gently to me? Like a young peacock she coos with soft grace, And ever sits still in her place."
+canonical-instances:
+  - "Two colleagues who privately think little of each other's work exchange effusive praise in every performance review meeting, because each review's outcome depends on the other's endorsement, and both understand the compliments are currency rather than assessment."
+critical-questions:
+  - "Does mutual awareness that the flattery is insincere actually change its function, or does the exchange still shape how each party feels about the other over time regardless of the shared understanding that it's transactional?"
+  - "What happens when the shared resource runs out — does the flattery stop immediately, revealing it was never about the relationship at all, or does the habit of mutual praise persist past its original purpose?"
+status: active

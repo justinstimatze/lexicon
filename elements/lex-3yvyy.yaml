@@ -1,0 +1,19 @@
+id: lex-3yvyy
+name: a-pre-committed-stake-guarantees-a-consequence-either-way
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Binding parties in advance to an outcome-contingent rule that fires whichever way a future contest goes closes off the possibility that a decisive event produces no consequence at all. In the Jataka's tale of the Licchavi disputants, the parents commit their daughters ahead of any actual disputation: 'If any layman refutes your thesis, you are to become his wives, but if a priest refutes you, you must take orders at his hands.' Whichever kind of opponent eventually wins, the rule was already written to convert that specific win into a specific, predetermined next step."
+related: []
+evokes: [jataka, catukkanipata, cullakalinga-jataka, either-way-outcome-rule-set-before-the-contest, no-scenario-left-without-a-consequence]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-cullakalinga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 301, Cullakalinga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "And the parents schooled their daughters after this manner: \"If any layman refutes your thesis, you are to become his wives, but if a priest refutes you, you must take orders at his hands.\""
+canonical-instances:
+  - "A founding team agrees before any offer arrives that a valuation above a set number means selling and a valuation below it means declining and continuing to build — so when an actual offer lands, there's no meeting where anyone has to improvise a position from scratch."
+critical-questions:
+  - "Does locking in the rule before the outcome is known actually improve the decision, or does it just remove the option to update on information that only becomes available once the contest is underway?"
+  - "Who bears the cost if the pre-committed rule turns out to map poorly onto the actual contest that occurs — can the bound parties ever contest the rule itself, or only the outcome it produced?"
+status: active

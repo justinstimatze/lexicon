@@ -1,0 +1,19 @@
+id: lex-nqwq5
+name: a-favorable-forecast-taken-without-its-details-leaves-you-unprepared
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Receiving a prediction that things will go your way and stopping there, without asking what specific signs or conditions will accompany that outcome, leaves you with confidence but no operational information to act on. In the Jataka's tale of the two kings, Sakka tells the hermit both who will win and what omens will precede it, but when Kalinga hears only the headline — 'Kalinga will conquer, Assaka will be defeated' — 'Kalinga, without inquiring what the omens would be, thought to himself: \"They tell me I shall conquer,\" and went away quite satisfied.' Assaka's minister, by contrast, extracts the concrete detail (a tutelary-bull duel) and uses it to actually win the battle."
+related: []
+evokes: [jataka, catukkanipata, cullakalinga-jataka, confidence-without-operational-detail-is-useless, extracting-the-mechanism-behind-a-forecast]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-cullakalinga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 301, Cullakalinga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "And Kalinga, without inquiring what the omens would be, thought to himself: \"They tell me I shall conquer,\" and went away quite satisfied."
+canonical-instances:
+  - "An executive hears an analyst forecast that the company will beat earnings and stops asking questions, satisfied by the headline — while a rival executive, told the same forecast, presses for which specific line items are driving it and repositions inventory accordingly before the quarter closes."
+critical-questions:
+  - "Is the detail actually available to be extracted, or does the forecaster in this case, like Sakka with Kalinga, only volunteer it to whoever asks — meaning the listener bears the blame, since nothing was ever actually withheld?"
+  - "Does having the operational detail always translate into an advantage, or only when, as with Assaka's tutelary bull, there's something concrete the listener can actually act on before the outcome is fixed?"
+status: active

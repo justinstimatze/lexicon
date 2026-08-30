@@ -1,0 +1,19 @@
+id: lex-3n4j3
+name: state-the-commitment-to-act-as-comfort-before-the-action-itself
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Before actually resolving a grievance, an advocate can first stabilize the petitioner emotionally by explicitly stating the intention to act — the promise of future action delivered as its own act of comfort, separate from and prior to the practical intervention itself. In the Jataka''s tale of Dalhadhamma, the Bodhisatta reassures the elephant this way before doing anything: "Grieve not, I will tell the king and restore thy honour."'
+related: []
+evokes: [jataka, sattanipata, dalhadhamma-jataka, commit-before-completion, reassurance-as-a-distinct-act-from-resolution]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dalhadhamma-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 409, Dalhadhamma-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Grieve not, I will tell the king and restore thy honour"
+canonical-instances:
+  - "Before actually escalating a client's outage to engineering, a support lead first tells the panicked client plainly that they will personally see it through to a fix, letting that stated commitment calm the client well before any technical work has started."
+critical-questions:
+  - "Does stating the commitment before delivering on it risk creating false comfort if the follow-through fails or takes longer than expected?"
+  - "What actually separates this from an empty promise, if not whatever happens afterward once the speaker either follows through or doesn't?"
+status: active

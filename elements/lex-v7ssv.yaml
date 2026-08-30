@@ -1,0 +1,19 @@
+id: lex-v7ssv
+name: reframing-a-caught-transgression-as-clever-insight-converts-punishment-into-reward
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Someone caught in a punishable offense can escape the punishment entirely, and even be rewarded, by reframing the act itself as a piece of clever, universally-relatable observation rather than defending or denying it. The powerful figure judging the case responds to the wit of the framing rather than the substance of the offense. In the Jataka's tale of the belly's messenger, a man caught stealing food from the king's own dish casts himself as a literal messenger of Lust and the Belly, delivering a charming little sermon on how appetite compels everyone equally, even kings: 'When this the king heard, he said, \"That is true; Belly- messengers are these; urged by lust they go to and fro, and lust makes them go. How prettily this man has put it!\" he was pleased with him.' Nothing about the theft is disputed or excused. The framing simply makes the offense entertaining enough that punishing it stops being the king's priority."
+related: []
+evokes: [jataka, tikanipata, duta-jataka, reframing-an-offense-as-clever-insight-defeats-the-punishment-response, wit-substitutes-for-defense-in-front-of-a-charmed-judge]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-duta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 260, Duta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "he said, \"That is true; Belly- messengers are these; urged by lust they go to and fro, and lust makes them go. How prettily this man has put it!\" he was pleased with him"
+canonical-instances:
+  - "An employee caught padding an expense report avoids disciplinary action by turning the incident into a self-deprecating, widely-shared observation about how everyone in the office quietly does the same thing, and their manager, charmed by the honesty of the bit, drops the matter entirely instead of enforcing the policy."
+critical-questions:
+  - "Does this tactic actually work on any offense, or only on ones minor enough that the judge was never strongly motivated to punish in the first place?"
+  - "Is the king's charmed reaction a failure of judgment on his part, or a reasonable response to genuinely valuable insight that happens to have been delivered by a thief?"
+status: active

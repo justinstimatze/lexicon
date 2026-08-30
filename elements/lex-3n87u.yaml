@@ -1,0 +1,19 @@
+id: lex-3n87u
+name: tribute-disguised-as-a-trap-exploits-the-marks-own-status
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a rival wants to undermine someone newly elevated to power, check whether the attack arrives disguised as ceremonial deference keyed to the target's new rank — the target's own investment in that status is what carries them the rest of the way in. In Aesop's 'The Monkey as King,' a fox leads a newly-crowned monkey-king to a baited trap, framing the bait as tribute befitting royalty: 'Here is a dainty morsel I have found, sire; I did not take it myself, because I thought it ought to be reserved for you, our King.' The monkey is not attacked directly — the trap is presented as a due owed to the crown, and it is specifically the target's expectation of deference in the new role that carries them into it."
+related: []
+evokes: [aesop, the-monkey-as-king, poisoned-chalice, tribute-disguised-as-trap, exploiting-status-investment]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-monkey-as-king
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Monkey as King.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Here is a dainty morsel I have found, sire; I did not take it myself, because I thought it ought to be reserved for you, our King."
+canonical-instances:
+  - "a corporate rival 'generously' hands a newly-promoted vice president the 'opportunity' to lead a doomed, underfunded flagship project, framed as an honor befitting the new title rather than as the trap it is."
+critical-questions:
+  - "Does this attack only work on someone new enough to a role that they haven't yet learned to distrust unearned deference, or can a seasoned leader remain vulnerable to the same flattery indefinitely?"
+  - "How would a newly elevated target distinguish genuine tribute from a disguised trap without becoming so suspicious of every deferential gesture that it undermines their ability to actually lead?"
+status: active

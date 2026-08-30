@@ -1,0 +1,18 @@
+id: lex-qwux2
+name: a-lifelong-hidden-fact-is-disclosed-only-because-a-childs-life-is-at-stake
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A secret an agent has kept for an entire lifetime, one they would never have volunteered under ordinary pressure, can be disclosed the moment withholding it would cost a child''s life, revealing that the secret''s concealment was always conditional on the stakes staying below some threshold. In the Jataka''s tale of Kanhadipayana, the wife discloses, only now, a lifelong indifference to her own husband exactly matching her indifference to the snake that bit their son: "The serpent that bit thee to-day In yonder hole, my son, And this thy father, are, I say, In my indifference, one," immediately followed by her plea, "''Now I have spoken what should be unsaid: For our son''s sake may it be pardoned.''"'
+related: []
+evokes: [jataka, dasanipata, kanhadipayana-jataka, disclosure-under-extremity, conditional-concealment]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kanhadipayana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 444, Kanhadipayana-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The serpent that bit thee to-day In yonder hole, my son, And this thy father, are, I say, In my indifference, one"
+canonical-instances:
+  - "A woman who has never told her adult son that his biological father is not her husband finally reveals it only when a doctor says the son needs a genetic match no one in the family can provide unless the truth comes out."
+critical-questions:
+  - "Does the fact that disclosure required a child's life at stake reveal that the concealment was a deliberate ongoing choice, or could it just as easily reflect that the moment never arose before to force the issue?"
+status: active

@@ -1,0 +1,26 @@
+id: lex-br4uk
+name: every-observable-behavior-becomes-a-de-facto-contract
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a behavior is observable and people start depending on it, surface Hyrum's law — every observable behavior becomes a de-facto contract; planned-changes that 'don't affect the spec' often break dependents who took the observable as the spec."
+related: [lex-u5869, lex-22etp, lex-xr5f5, lex-krmj3, lex-qjsgk, lex-xwbjd]
+scaffolds-from: [lex-u5869, lex-22etp]
+evokes: [hyrums-law, the-law-of-implicit-interfaces, hyrum-wright, all-observable-behaviors-will-be-depended-on, the-spec-is-not-the-contract, xkcd-1172-workflow]
+lineage:
+  - source: primary
+    text: hyrums-law-wright-winters-2020
+    citation: "Hyrum's law, stated by Hyrum Wright at hyrumslaw.com and formalised in Titus Winters, Tom Manshreck & Hyrum Wright, Software Engineering at Google (O'Reilly 2020); Wright's own author-anchored statement page is the law's primary public statement. The substrate-claim: the DOCUMENTED interface (the spec, the contract) is not the real interface — at scale, any observable property of a system (timing, ordering, error text, memory layout, an undocumented side-effect, even a bug) becomes a de-facto dependency for someone, so you cannot change it without breaking a consumer, regardless of what you promised. Observability, not specification, defines the true contract. Per Wright's site: he is a Principal Scientist at Adobe (formerly Google) who developed the observation through large-scale code-change tooling; Titus Winters named it 'Hyrum's law'."
+    quote: "[Hyrum Wright, hyrumslaw.com / Winters-Manshreck-Wright 2020:] 'With a sufficient number of users of an API, it does not matter what you promise in the contract: all observable behaviors of your system will be depended on by somebody.'"
+canonical-instances:
+  - "the undocumented behavior someone shipped on: a library never promised a particular iteration order, error-message string, or timing — but at scale some user discovered and depended on it, so 'fixing' it to match the spec breaks them. The bug-fix becomes a breaking change because the bug was observable"
+  - "the xkcd-1172 'Workflow' case: every change to a system, however correct, breaks SOME user's workflow that depended on the old behavior (the spacebar-heating comic) — folk-wisdom Hyrum's law; when the 'fix' ships as a new versioned behavior it can also trigger the lex-pqqhr competing-standards trap"
+  - "Google's experience (the law's origin): with billions of lines depending on shared APIs, even provably-spec-conformant changes broke consumers relying on observable-but-unspecified behavior, forcing behavior-preserving large-scale-change tooling built on the premise that the spec is not the contract"
+  - "operationally the dependency-side mate of lex-22etp Postel's law: Postel says be liberal in what you ACCEPT (tolerate others' quirks); Hyrum says everything you EMIT becomes a quirk someone tolerates and then depends on. Being liberal in what you accept is partly what locks in others' observable behaviors as contracts — the two laws describe the consumer and producer sides of interface-rigidity at scale"
+  - "operationally a special case of lex-u5869 Chesterton's fence at the interface: an observable behavior you are tempted to 'clean up' may be pivotal for an unseen consumer. Hyrum's law says that at scale it almost certainly is — so the burden is to find who depends on it before changing it, exactly the Chesterton's-fence discipline applied to API surface"
+critical-questions:
+  - "what is OBSERVABLE here that is not in the spec — timing, ordering, error text, side-effects, resource use? Those are your real contract at scale, whether you documented them or not. Before changing any of them, assume someone depends on it"
+  - "can you make incidental behavior un-observable EARLY, before users lock it in? The defence is to deliberately vary or conceal incidental behaviors from the start (randomised iteration order, jittered timing, opaque error tokens) so no implicit contract forms"
+  - "how will you discover who depends on a behavior before you change it? At scale you cannot ask; you need telemetry, canarying, or large-scale-change tooling. 'Tests pass and it matches the spec' is not evidence a change is safe — observable-behavior dependence is invisible to the spec"
+  - "is a 'bug fix' actually a breaking change? If the buggy behavior was observable and long-lived, fixing it can break more than it helps. Weigh the correctness gain against the de-facto contract you are voiding, and consider versioning rather than silently shipping it"
+status: active

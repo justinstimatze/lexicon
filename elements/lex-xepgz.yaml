@@ -1,0 +1,22 @@
+id: lex-xepgz
+name: a-wary-target-takes-the-bait-while-staying-outside-capture-range
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Someone dangles a valuable lure to draw a wary target close enough to seize, holding the bait at the very limit of their own reach so the target must come dangerously near to take it. A target who is more practiced or careful than the baiter expects can seize the lure with precise, split-second timing -- grabbing it with one hand while using the position to immediately retreat -- collecting the reward without ever entering the range where the capture attempt could actually succeed. Gilman stages this exactly: Terry dangles a necklace at the fork of a tree, reaching it 'not quite to his full stretch' toward Alima. 'She made a timid reach with her right hand for the gay swinging thing--he held it a little nearer--then, swift as light, she seized it from him with her left, and dropped on the instant to the bough below... He made his snatch, quite vainly, almost losing his position as his hand clutched only air.'"
+related: []
+evokes: [herland, chapter-2, swift-as-light-she-seized-it-with-her-left, his-hand-clutched-only-air, taking-the-bait-without-entering-the-trap]
+lineage:
+  - source: primary
+    text: gilman-1915-herland-chapter-2
+    citation: "Charlotte Perkins Gilman, Herland (1915), Chapter 2, 'Rash Advances.' Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "He stood braced in the fork, held firmly by one hand--the other, swinging his bright temptation, reached far out along the bough, but not quite to his full stretch. [...] She made a timid reach with her right hand for the gay swinging thing--he held it a little nearer--then, swift as light, she seized it from him with her left, and dropped on the instant to the bough below. He made his snatch, quite vainly, almost losing his position as his hand clutched only air."
+canonical-instances:
+  - "A recruiter dangles a generous signing bonus in a phone call to draw a passive candidate into a full interview process, expecting the promise alone to secure commitment -- but the candidate negotiates the bonus into their current offer at their existing employer without ever entering the recruiter's actual hiring pipeline."
+  - "A predatory lender advertises an unusually low introductory rate to draw borrowers into signing a loan with harsh long-term terms, but a financially literate borrower locks in the low rate through a formal rate-match request at their current bank, capturing the same benefit without ever entering the predatory contract."
+  - "A negotiator opens with an unusually generous concession to draw the other side into a long, exploitable back-and-forth, but the other side simply accepts the opening offer and ends the negotiation immediately, taking the value without ever entering the extended exchange the opener was counting on."
+critical-questions:
+  - "Does the target's escape depend on genuine skill and quick reflexes, or could the same outcome happen through sheer luck -- a lucky grab and a lucky retreat -- meaning the pattern doesn't reliably predict who beats the trap and who gets caught by it?"
+  - "Once a baiter has been outmaneuvered this way, do they typically adjust their approach to close the gap between the bait's position and their own reach, or does the same reach-and-lose pattern tend to repeat because the baiter misreads the failure as bad luck rather than a fixable design flaw?"
+  - "Is there a version of this trap that can't be beaten this way -- where taking the bait necessarily brings the target within capture range, with no way to grab and retreat in one motion -- and if so, what design feature closes off the escape this specific trap left open?"
+status: active

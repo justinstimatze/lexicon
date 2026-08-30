@@ -1,0 +1,19 @@
+id: lex-w3n6t
+name: ambush-a-group-at-the-resource-site-it-predictably-returns-to
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Knowing that a group habitually returns to the same food source, an attacker can wait concealed at that site and, once the group arrives, order them surrounded on all sides before striking, to prevent escape. In the Jataka''s tale of Mahakapi, the king does exactly this to the monkey troop: "Surround these monkeys that eat the mangoes so that they may not escape, and shoot them: tomorrow we will eat mangoes with monkey''s flesh." The archers obeyed, saying, "Very well," and surrounding the tree stood with arrows ready.'
+related: []
+evokes: [jataka, sattanipata, mahakapi-jataka, ambush-at-a-predictable-resource-site, encirclement-before-the-strike]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahakapi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 407, Mahakapi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Surround these monkeys that eat the mangoes so that they may not escape, and shoot them: tomorrow we will eat mangoes with monkey's flesh.\" The archers obeyed, saying, \"Very well,\" and surrounding the tree stood with arrows ready."
+canonical-instances:
+  - "Knowing a group of scalpers always returns to the same resale platform the moment tickets drop, a venue's fraud team waits until the exact window the scalpers habitually strike and locks every account touching that inventory simultaneously, rather than banning them piecemeal earlier."
+critical-questions:
+  - "Does waiting for the predictable return window risk letting real harm continue in the meantime, when an earlier, less complete intervention might have stopped some of it sooner?"
+  - "What happens once the targeted group learns the site is watched — does the predictability that made the ambush possible also make it a one-time tactic?"
+status: active

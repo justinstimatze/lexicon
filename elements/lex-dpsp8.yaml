@@ -1,0 +1,19 @@
+id: lex-dpsp8
+name: undetected-small-theft-escalates-then-manufactures-corroborating-evidence
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A dishonest partner's theft rarely stays at its original scale once early instances go unnoticed — it escalates in stages, and when the target grows suspicious, the same dishonesty extends into staging seemingly independent evidence to cover the escalation. In the Panchatantra, an embezzling partner reasons his way to a larger theft precisely because the smaller one worked: 'suppose I divide another two hundred with him, then what is the good of the remainder, a paltry four hundred, even if I steal it? I think I prefer to steal a round six hundred.' To survive the resulting accusation, he plants his own father, hidden in a tree, to 'independently' corroborate his innocence. The countermove that exposes it is not arguing with the corroboration but applying real pressure — fire beneath the tree — that forces a fabricated, unbiased-seeming witness to reveal itself as anything but."
+related: []
+evokes: [panchatantra, loss-of-friends, undetected-theft-escalates-then-fabricates-corroboration, pressure-test-suspicious-corroboration]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-right-mind-and-wrong-mind
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book I, 'Right-Mind and Wrong-Mind.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Suppose I divide another two hundred with him, then what is the good of the remainder, a paltry four hundred, even if I steal it? I think I prefer to steal a round six hundred."
+canonical-instances:
+  - "a business partner who skims a small, undetected amount from shared revenue for a year escalates to a much larger theft once confident no one is checking, and when finally confronted, produces a conveniently 'independent' accountant's testimony backing their version of events — testimony that collapses the moment the accountant is questioned separately under real scrutiny rather than accepted at face value."
+critical-questions:
+  - "Does escalation actually follow from undetected theft as a general pattern, or does the fable's specific case — where the partner explicitly reasons about marginal gains from a bigger theft — overstate how often small-scale dishonesty predictably grows rather than staying stable?"
+  - "Is applying literal pressure (fire) to test suspicious corroboration a tactic with any real modern analogue, or does the fable's resolution only work because its stakes and methods are pre-modern in a way that doesn't transfer?"
+status: active

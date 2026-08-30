@@ -1,0 +1,19 @@
+id: lex-ef53z
+name: an-innocent-overheard-remark-averts-a-punishment-in-progress
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Truth can surface incidentally, through an unguarded remark overheard by the very agents sent to carry out a punishment, rather than through any deliberate defense mounted by the accused. In the Jataka's tale of Kharaputta, the assassins sent to kill the king arrive just as he is explaining the incident honestly to the queen, and the account contradicts the accusation enough to make them abort on their own: 'The young nagas hearing this turned back at once to the naga-world and told their king.'"
+related: []
+evokes: [jataka, chanipata, kharaputta-jataka, truth-surfaces-incidentally, overheard-remark-averts-punishment]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kharaputta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 386, Kharaputta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "They entered the chamber at the royal bed-time. As they came in, the king was saying to the queen: \"Lady, do you know where the naga-girl has gone?\" \"King, I do not.\" \"To-day when we were bathing in the tank, she quitted her shape and misconducted herself with a water-snake: I said, \"Don't do that,\" and struck her with a piece of bamboo to give her a lesson: and now I fear she may have gone to the naga-world and told some lie to my friend, destroying his good-will to me.\" The young nagas hearing this turned back at once to the naga-world and told their king."
+canonical-instances:
+  - "A team lead sent to fire a contractor over a client complaint overhears the contractor, unaware they're listening, explaining the incident honestly to a colleague in a way that clears them entirely, and calls off the termination on the spot."
+critical-questions:
+  - "Was the truth here saved by luck alone — the accidental timing of the assassins' arrival — or is there something structural that made the true account likely to surface before the punishment could be carried out?"
+  - "What happens in the much more common case where the falsely accused party never gets an unwitnessed moment to state their side before the punishment lands?"
+status: active

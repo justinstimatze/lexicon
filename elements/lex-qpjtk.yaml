@@ -1,0 +1,18 @@
+id: lex-qpjtk
+name: summary-punishment-issued-without-inquiry-is-later-retracted-with-an-explicit-remedial-maxim
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: 'A ruler or authority who orders punishment on accusation alone, without investigating the facts, can later discover the error and retract it, articulating in that moment an explicit general principle about the duty to investigate before acting that the original decision violated. In the Jataka''s tale of Kanhadipayana, the king orders impalement with no inquiry at all: "The king made no enquiry, but only said, ''Off with him, impale him upon a stake!''" and only afterward admits, "''I have acted rashly,''" receiving the corrective maxim "''a king ought to act with circumspection.''"'
+related: []
+evokes: [jataka, dasanipata, kanhadipayana-jataka, punishment-without-inquiry, due-process-failure, remedial-maxim]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kanhadipayana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 444, Kanhadipayana-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The king made no enquiry, but only said, \"Off with him, impale him upon a stake!\""
+canonical-instances:
+  - "A company fires an employee the same hour a single anonymous complaint arrives, without interviewing anyone else. An investigation clears her a week later, she is reinstated, and the CEO's one lasting change is a new board rule requiring an investigation before any future complaint triggers action."
+critical-questions:
+  - "Does articulating the corrective principle after the fact meaningfully change future behavior, or does it function mainly to absolve the authority of responsibility for the specific harm already done?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-f674d
+name: repeated-forgiveness-converts-discretely-into-permanent-categorical-refusal
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Repeated forgiveness of the same abuse can convert, at a threshold rather than gradually, into a permanent, blanket refusal to re-engage — a switch from tolerance to categorical rejection that is immune to further solicitation once crossed. The pattern isn't a slow fade; it's a discrete flip after the same offense recurs one time too many. In the Jataka's tale of Ahigundika, after a third betrayal and return: 'the youth, after he had for the third time returned to the world, on being again solicited to come back, would not so much as look the old man in the face.'"
+related: []
+evokes: [jataka, pancanipata, ahigundika-jataka, discrete-threshold-flip-from-tolerance-to-refusal, forgiveness-exhausted-after-a-fixed-count]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-ahigundika-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 365, Ahigundika-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The youth, after he had for the third time returned to the world, on being again solicited to come back, would not so much as look the old man in the face."
+canonical-instances:
+  - "A landlord who has re-rented to the same tenant twice after two evictions for unpaid rent doesn't gradually lose patience on a third late payment — they refuse outright the moment the tenant asks for one more chance, with no negotiation or partial concession offered at all."
+critical-questions:
+  - "Why does the threshold sit at exactly three repetitions here rather than two or five — is there something principled about that count, or is it just a narrative convention that happens to recur across the collection?"
+  - "Does the permanence of the refusal ever get revisited if circumstances genuinely change, or does crossing this threshold foreclose reconsideration even when new evidence later emerges?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-yc8jv
+name: non-retaliatory-pity-can-inflict-real-torment-on-an-aggressor
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A defeated party who feels genuine pity for their aggressor, rather than rage or despair, can destabilize that aggressor directly, without any deliberate action beyond feeling it. The disarming force here isn't strategy. It's the aggressor's own conscience reacting to being pitied by someone they've just wronged. In the Jataka's tale of the imprisoned king, a conquering king throws his defeated rival into prison, and the captive feels only pity for his captor: 'The king, as he sat in prison, pitied the marauder, and an ecstasy of pity was stirred in him. By reason of this pity, the other king felt great torment in his body; he burnt all through as though with a twofold flame; and smitten with great pain, he asked what the matter was.' The aggressor is forced to seek pardon and restore the kingdom, undone by nothing but the fact of being pitied."
+related: [lex-55bdt]
+evokes: [jataka, tikanipata, seyya-jataka, a-victims-genuine-pity-destabilizes-an-aggressors-own-conscience, non-retaliation-that-actively-disarms-rather-than-merely-endures]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-seyya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 282, Seyya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The king, as he sat in prison, pitied the marauder, and an ecstasy of pity was stirred in him, By reason of this pity, the other king felt great torment in his body; he burnt all through as though with a twofold flame; and smitten with great pain, he asked what the matter was."
+canonical-instances:
+  - "An executive who orchestrates a hostile takeover and personally humiliates the founder they displaced finds themselves unable to sleep after the founder responds to the loss with visible, sincere concern for the executive's own reputation rather than anger, and eventually reverses the deal."
+critical-questions:
+  - "Is this mechanism actually plausible as a direct psychological effect, or does the story dramatize what's really a slower, more ordinary process of guilt building over time from witnessing an undeserved kindness?"
+  - "Does this only work on an aggressor who retains some functioning conscience to begin with, leaving it powerless against someone who feels no guilt regardless of how their victim responds?"
+status: active

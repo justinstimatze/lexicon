@@ -1,0 +1,33 @@
+id: lex-eg9zm
+name: parallel
+type-in: composition
+type-out: composition
+_tier: atomic
+agent-instruction: "When subtasks don't depend on each other, run them in parallel. Sequential execution costs the sum of times; parallel execution costs the max. Identify the actual dependency structure before defaulting to serial."
+related: [lex-2sx7q, lex-hesjt, lex-3ydmv, lex-ucrqj, lex-da3g3, lex-brcgz, lex-3fzvf, lex-mmety, lex-4e6ur, lex-c646m, lex-g9b38, lex-gu8st, lex-cat29, lex-uxqdz, lex-s7qxv, lex-wgd7u, lex-2kjmb, lex-46n25, lex-m9hc3, lex-ggpqt, lex-2vpet, lex-urwym, lex-dwey5, lex-p77e7, lex-y5jm9]
+scaffolds-from: [lex-2kjmb]
+evokes: [composition-operation, simultaneous-application, independent-fire-then-aggregate, fan-out-then-merge, no-shared-state-between-arms]
+formal-if-any: "parallel(A, B, ..., aggregator=φ) where each arm A, B, ... operates independently on the shared input; outputs combined via aggregator φ. Distinct from sequential(A, B): parallel arms do not consume each other's output"
+lineage:
+  - source: practitioner
+    text: composition-operations-design-note
+    citation: "v0 composition-operations vocabulary (lexicon, 2026-05-02); defined as the bond between atoms whose outputs are aggregated rather than chained"
+  - source: practitioner
+    text: hoare-csp-1978
+    citation: "Communicating Sequential Processes — parallel composition (P || Q) as primitive, alongside sequential composition; the canonical CS formalization of independent-then-aggregated processes"
+  - source: practitioner
+    text: substrate-attestation
+    citation: "promoted to first-class entry from substrate use: appears as the bond in 3 lexicon molecules — lex-z8m97 gof-decorator (parallel responsibility-addition arms), lex-a9wpd gof-composite (parallel children of a composite node), lex-3ydmv fermi-estimation (parallel order-of-magnitude estimates of multiplicative factors)"
+canonical-instances:
+  - "in lex-3ydmv fermi-estimation: parallel(estimate-factor-1, estimate-factor-2, ..., estimate-factor-n; aggregator=multiplicative-product) — each factor estimate is independent of the others (that's the whole point of choosing factors to be uncorrelated); they are then multiplied"
+  - "MapReduce: the map step is parallel() over input partitions; the reduce step is the aggregator. The single most-deployed instance of this composition operation in modern computing"
+  - "ensemble methods in ML: parallel(model-1, model-2, ..., model-k; aggregator=majority-vote-or-mean) — each base model is trained independently; predictions aggregated"
+  - "operationally distinct from lex-2sx7q sequential: sequential(A, B) requires type-out(A) ≡ type-in(B) and B depends on A's output; parallel(A, B) requires both to consume the same input type, with no information flowing between arms — the aggregator is where the arms reunite"
+  - "operationally distinct from lex-bpr6b's choice() composition: choice picks ONE arm to fire based on a selector; parallel fires ALL arms regardless and aggregates"
+critical-questions:
+  - "do the arms actually share no state? Apparent parallelism with hidden coupling — cache contention, shared lock, network rate-limit, single-writer database, GIL — reduces to sequential plus contention overhead. Discriminator: if you ran each arm alone with the same input, would total wall-time scale linearly? If not, parallel() is mis-named for what's happening."
+  - "is the aggregator function well-defined on the union of arm output types? majority-vote presupposes outputs in the same category space; mean presupposes numeric; max presupposes ordered; concatenation presupposes serializability. An incompatible aggregator is a type error that the parallel-composition vocabulary alone won't catch."
+  - "does the orchestration cost (fork, sync, network round-trip, serialization) exceed the serial baseline for the given N? Below some N or above some setup-cost, parallel costs more than it saves. The MapReduce-canonical-instance only pays off when data-volume × per-record-cost dominates fan-out overhead by a wide margin."
+  - "are arm errors statistically independent? For ensemble methods (parallel(model-1, ..., model-k; majority-vote)), correlated errors don't average out — k highly-correlated estimates ≈ 1 estimate. The variance-reduction benefit assumes independence; without it, parallel is theater. Test: train arms on disjoint data subsets and measure inter-arm error correlation."
+  - "is early-termination acceptable once one arm produces a sufficient answer? If yes, you may want speculative-execution / first-acceptable patterns rather than pure parallel — both fire all arms but only consume the first complete one. Pure parallel(...) commits to waiting for and aggregating ALL arms, which is sometimes the costly mistake."
+status: active

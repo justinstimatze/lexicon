@@ -1,0 +1,24 @@
+id: lex-qwnem
+name: denial-and-projection-are-the-two-ways-to-dodge-a-stakeholder-demand
+type-in: situation
+type-out: posture
+_tier: atomic
+agent-instruction: "When an organization can't or won't meet a demand from a group with a real stake in it, there are two distinct ways to dodge accountability rather than one. Denial refuses to admit the group's stake is legitimate at all -- treating their claim on the organization as illegitimate noise rather than a real interest to weigh. Projection accepts the group is owed something, but relocates the cause of the failure onto the group itself, recasting their demand as 'unreasonable' or 'irrational' rather than examining the organization's own shortfall. Both dodge the same question -- did we fail to meet a legitimate need -- by attacking a different premise: denial attacks whether the need is legitimate, projection attacks whether the failure is really the organization's own. The alternative is ownership: accepting that the organization's own failure caused the outcome, not the other party's unreasonableness."
+related: []
+evokes: [freeman-1984-strategic-management, chapter-1, blame-the-stakeholder, freud-denial-and-projection, we-have-met-the-enemy-and-he-is-us, pogo]
+lineage:
+  - source: primary
+    text: freeman-1984-strategic-management-ch1
+    citation: "R. Edward Freeman, Strategic Management: A Stakeholder Approach (Pitman, 1984), Chapter 1 'Managing in Turbulent Times,' section 'The Need for a Framework.'"
+    quote: "Freud (1933) has cautioned us about the false comforts of denial and projection. Denial occurs when we refuse to admit that the external world is the way that it is. In our case, it is a refusal to admit that external groups really do have a stake in the firm, and that they can affect the firm. [...] Projection occurs when we blame someone else, or some external event for our own shortcomings. It is easy to project our inability to satisfy stakeholders' concerns and demands on the group itself, and to call it \"unreasonable\" or \"irrational.\""
+  - source: primary
+    text: freeman-1984-strategic-management-ch1
+    citation: "R. Edward Freeman, Strategic Management: A Stakeholder Approach (Pitman, 1984), Chapter 1 'Managing in Turbulent Times,' section 'The Need for a Framework.'"
+    quote: "Another response pattern is available and it was summarized best in the comic strip \"Pogo\": we have met the enemy and he is us. It is the role of the manager to accept and own the problems which result from the failure of the organization to meet stakeholder needs."
+canonical-instances:
+  - "A company facing a wave of return requests over a defective product first insists customers are misusing it (denial), then when returns keep climbing, tells the sales team the complaining customers are opportunists chasing a free refund (projection) -- neither response leads anyone to check the product itself."
+  - "A city agency facing repeated complaints about a permitting delay first says the complainers don't understand how permitting works (denial), then when a councilmember raises it publicly, characterizes the complaints as coming from a few chronically difficult constituents (projection) -- the actual backlog goes unexamined either way."
+critical-questions:
+  - "Can an organization tell, from the inside, whether it is genuinely disputing a demand's legitimacy on the merits versus reaching for denial as a dodge -- since both look identical from the inside as 'we don't think they have a real claim here'?"
+  - "Is ownership always the correct response, or are there cases where a stakeholder's demand really is illegitimate or genuinely unreasonable, and treating every pushback as denial-or-projection risks over-correcting into capitulation?"
+status: active

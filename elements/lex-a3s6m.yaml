@@ -1,0 +1,22 @@
+id: lex-a3s6m
+name: a-non-verbal-animal-message-is-experienced-as-clearer-than-words
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A person can hear an animal's call during a moment of need and experience it as conveying specific, comprehensible information -- describing the communication as plainer and clearer than actual words would have been, even while insisting the animal wasn't speaking any language at all. Sheltering through a blizzard, Black Elk hears a coyote howling nearby: 'suddenly I knew it was saying something. It was not making words, but it said something plainer than words, and this was it: \"Two-legged one, on the big ridge west of you there are bison; but first you shall see two more two-leggeds over there.\"' The claim isn't that the howl was decoded like a foreign language -- it's that the howl, exactly as heard, carried more immediate certainty than a spoken sentence would have. Both details prove out: they find the two starving Lakotas first, then the bison."
+related: []
+evokes: [black-elk-speaks, grandmothers-land, a-coyote-began-to-howl, plainer-than-words, two-legged-one]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch12-grandmothers-land
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 12, 'Grandmother's Land.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "While I was lying there in a bison robe, a coyote began to howl not far off, and suddenly I knew it was saying something. It was not making words, but it said something plainer than words, and this was it: 'Two-legged one, on the big ridge west of you there are bison; but first you shall see two more two-leggeds over there.'"
+canonical-instances:
+  - "A hiker lost in the wilderness reports that a bird's alarm call, though objectively just a sound, conveyed the specific fact of an approaching predator with more immediate certainty than a shouted warning from another person would have."
+  - "A farmer describes reading a specific, urgent meaning in the distinct sound their dog makes right before a storm hits, distinguishing it clearly from every other bark the dog makes, and trusting the meaning over the actual weather forecast."
+  - "A sailor describes the specific pitch and rhythm of seabirds circling before a squall as communicating the coming danger more unambiguously than any radio report received that morning."
+critical-questions:
+  - "Both details in the coyote's supposed message turn out to be accurate -- does that confirm the howl really carried the specific information Black Elk heard in it, or does memory retroactively fit an ambiguous animal sound to whatever happened afterward?"
+  - "What makes a non-verbal sound feel 'plainer than words' specifically -- is it the absence of the translation step language normally requires, or something about the emotional intensity of hearing it under real danger and hunger?"
+  - "If the coyote's howl had meant nothing, no bison, no lost travelers, would Black Elk have reported hearing a message at all, or does a message only surface in memory once later events give it something worth having predicted?"
+status: active

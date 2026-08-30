@@ -1,0 +1,23 @@
+id: lex-nrtg9
+name: training-tied-to-target-context-beats-a-decontextualized-proxy
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When designing how to learn a skill, make the practice activity resemble the context where the skill will actually be used, rather than substituting an easier or more available proxy activity. Studying vocabulary flashcards is a proxy for holding a conversation. Reading design theory instead of producing work a hiring firm will actually judge is the same substitution. Memorizing a formula without ever solving the problem it was built for is a third case of it. A proxy can be comfortable and measurably improve at the proxy task while transferring poorly to the real one, because the skill you've built ends up fitted to the proxy's own structure. Before choosing a training method, name the exact situation the skill will be deployed in, and ask whether the practice activity reproduces that situation's actual demands or only resembles it from a distance."
+related: [lex-kcgcw]
+scaffolds-from: [lex-kcgcw]
+evokes: [ultralearning, directness-principle, scott-young, proxy-task-transfer-failure, jaiswal-portfolio-case]
+lineage:
+  - source: primary
+    text: young-2019-ultralearning-ch6-directness
+    citation: "Scott H. Young, Ultralearning: Master Hard Skills, Outsmart the Competition, and Accelerate Your Career (Harper Business, 2019), Chapter VI 'Principle 3 — Directness: Go Straight Ahead.' No printed page numbers survive this ebook extraction; cited by chapter. Verified verbatim against a clean pdftotext extraction, no OCR involved."
+    quote: "Directness is the idea of learning being tied closely to the situation or context you want to use it in. ... Directness is the hallmark of most ultralearning projects. Roger Craig did his Jeopardy! testing on the actual questions from past shows. Eric Barone learned video game art by making art for his video game. Benny Lewis learns to speak languages quickly by following a policy of attempting some back-and-forth dialog from the very first day. What these approaches share is that the learning activities are always done with a connection to the context in which the skills learned will eventually be used."
+canonical-instances:
+  - "Vatsal Jaiswal, the architecture student in Young's opening case: rejected repeatedly with a theory-heavy academic portfolio, gets hired only after rebuilding his portfolio using the actual software and drawing conventions the hiring firms use — the same underlying architectural knowledge, aimed at the target context instead of the academic-proxy context."
+  - "Language learning by app versus by conversation: fluency-app drills can produce strong scores on the app's own tests while transferring poorly to real conversational speed and context-reading — the proxy task (matching words on a screen) and the target task (following a live conversational thread) reward different sub-skills."
+  - "operationally distinct from lex-kcgcw deliberate-practice-builds-mental-representations-not-mere-hours: deliberate practice is about a session's internal structure — working at the edge of ability, with focus and corrective feedback — regardless of what material is being practiced. Directness is about which material gets practiced in the first place. You can apply full deliberate-practice discipline to a decontextualized proxy and still fail to transfer — that specific failure mode is what this atom names, sitting outside what deliberate practice by itself can catch."
+critical-questions:
+  - "Is the proxy activity actually easier to access than the direct one, or is 'directness is harder to arrange' being used to justify staying with a comfortable proxy indefinitely? Young's own examples (dialogue from day one, building real work product) are often more available than they first appear."
+  - "How much of the target skill does the direct-practice activity actually cover? Full directness is rarely achievable at the very beginning of learning something hard — the atom is a design pressure toward the target context, not a requirement that early practice be indistinguishable from expert performance."
+  - "Is the observed transfer failure actually a directness problem, or a different failure (insufficient practice volume, poor feedback quality)? Before diagnosing a proxy-task mismatch, rule out the more mundane explanations for weak transfer."
+status: active

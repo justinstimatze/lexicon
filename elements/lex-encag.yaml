@@ -1,0 +1,19 @@
+id: lex-encag
+name: conversion-to-a-new-status-does-not-erase-original-nature
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone changes categories — a defector switching sides, a convert to a new belief, an outsider granted insider status — check whether the underlying loyalty or disposition the change was supposed to erase is actually still present underneath the new label. In the nested Panchatantra tale, a mouse asks to be turned into a mouse specifically so she can 'keep house as my kind of people ought to do,' revealing that her original nature persisted even through a prior transformation into a different species. The owl-counselor Red-Eye applies this directly as a heuristic for distrusting a crow defector's claimed new allegiance: 'you are wily and plausible. Even if reborn as an owl, you would highly esteem your corvine provenience.' The formal category had changed in the fable's own precedent case, and the disposition tied to the original identity had not — which is exactly what made the heuristic worth applying to the present, unproven defector."
+related: []
+evokes: [panchatantra, crows-and-owls, conversion-does-not-erase-original-nature, distrust-a-defectors-claimed-new-allegiance]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-mouse-maid-made-mouse
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book III, 'Mouse-Maid Made Mouse' (nested inside the owl-council debate). Verified verbatim against a direct extraction of the held copy."
+    quote: "Father dear, turn me into a mouse, and give me to him. Then I can keep house as my kind of people ought to do."
+canonical-instances:
+  - "a company hires a sales director poached from a direct competitor, assuming the title change settles the question of loyalty. Months later, the director is still reflexively defending their former employer's product philosophy in every internal debate."
+critical-questions:
+  - "Is this heuristic actually reliable, or does it risk becoming a permanent excuse never to trust any defector's sincerity, regardless of how much time or evidence accumulates in favor of a genuine change?"
+  - "Does the mouse-maid's specific case — where her wish to keep house reflects an ingrained species-based instinct — actually generalize to human category changes like ideological conversion or organizational switching, where original disposition may be far more mutable than a mouse's nature?"
+status: active

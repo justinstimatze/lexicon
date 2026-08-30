@@ -1,0 +1,18 @@
+id: lex-mj8xv
+name: misidentification-as-a-monster-is-averted-by-asserting-shared-humanity
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'An entity whose appearance deviates sharply enough from social norms — through prolonged isolation, injury, or circumstance — can be nearly destroyed by observers who default to the most threatening available classification for anything unfamiliar-looking, and the only thing that reliably interrupts the threat response in time is the entity explicitly, verbally claiming in-group membership before violence is carried out. Appearance alone doesn''t get corrected by better observation; it takes the misclassified party actively asserting the category the observers failed to infer. In the Bhadda-sala-Jataka''s companion tale, shipwrecked scouts who hear a marooned carpenter singing track the sound, but on seeing him — his ''aspect horrified them'' after years of isolation — they cry ''Tis a goblin!'' and draw their bows, and he only survives by calling out immediately that he is ''no goblin, sirs, but a man.'''
+related: []
+evokes: [jataka, dvadasanipata, samudda-vanijja-jataka, threat-misclassification-corrected-by-self-assertion, appearance-deviation-triggers-default-threat-response]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-samudda-vanijja-jataka
+    citation: 'The Jataka, or Stories of the Buddha''s Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XII (Dvadasanipata), No. 466, Samudda-vanijja-jataka. Verified verbatim against a direct extraction of the held copy.'
+    quote: 'they came upon the man, but his aspect horrified them. "Tis a goblin!" they cried, and put arrow to bow. When the man saw them, he was in fear of being wounded, so he called out—"I am no goblin, sirs, but a man: spare my life!"'
+canonical-instances:
+  - 'Search-and-rescue volunteers who spot a disheveled, feral-looking hiker deep in the backcountry after weeks of exposure nearly report a possible wild-animal sighting to keep their distance, until he shouts that he''s a lost hiker and needs help, at which point their whole read of him changes instantly.'
+critical-questions:
+  - 'Does the near-miss reveal a flaw in the scouts'' judgment, or is defaulting to the most threatening classification for an unfamiliar, horrifying-looking figure — with a low-cost verbal check before acting — actually a reasonable policy that happened to almost fail here rather than one that failed on its own terms?'
+status: active

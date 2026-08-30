@@ -1,0 +1,19 @@
+id: lex-k43vj
+name: booby-trapping-a-cheaters-own-predictable-routine-punishes-it-automatically
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A cheater's habitual, predictable method of cheating can be turned into the instrument of their own punishment by contaminating the specific object the routine always relies on, requiring no confrontation and no proof at the moment of use. In the Jataka's tale of the dice-sharper, a gambler who always swallows the die whenever he's losing, to void the game and avoid paying out, faces an opponent who knows this tell and poisons the dice in advance. The sharper's own well-practiced routine — the exact same move that always worked before — becomes the mechanism that punishes him, since he has no way to cheat differently once the die he specifically relies on has been altered."
+related: []
+evokes: [jataka, ekanipata, litta-jataka, contaminating-a-predictable-routine-to-self-punish, exploiting-a-known-tell-in-advance]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-litta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 91, Litta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "He bolts the die quite boldly,--knowing not What burning poison thereon lurks unseen. --Aye, bolt it, sharper! Soon you'll burn within."
+canonical-instances:
+  - "A retail employee known for pocketing cash and covering the shortfall by voiding the same specific transaction type every time is caught when a manager, aware of the pattern, flags that exact transaction type for automatic review, so the employee's usual cover move is what triggers the audit."
+critical-questions:
+  - "Does this technique require the cheater's method to be genuinely fixed and predictable, or does it also work against someone who varies their approach but still relies on a small, identifiable set of tools each time?"
+  - "Is there a meaningful difference between letting a known cheat's own routine punish them automatically and directly confronting the cheating — does the indirect method change anything about the fairness of the outcome?"
+status: active

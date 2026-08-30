@@ -1,0 +1,20 @@
+id: lex-gynv7
+name: staging-an-oracle-to-authorize-a-suspect-offer
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "An offer that would look like currying favor, coercion, or self-abasement coming directly from you can read as something else entirely once it appears to come from a higher authority instead — so before making it, plant that authority rather than wait for it to arrive on its own. In the Jataka's tale of Ummadanti, the general Ahiparaka learns his king is dying of unspoken desire for Ahiparaka's own wife. Before he ever proposes handing her over, he sends a servant to hide inside a tree shrine, then publicly prays there for the king's health — and the hidden servant answers as a yakkha, instructing him: \"While kneeling at a sacred shrine, O king, / A yakkha came and told me a strange thing, / How Ummadanti had enslaved thy will: / Take her and so thy heart's desire fulfil.\" Only after reporting this apparent divine command does Ahiparaka make the offer himself."
+related: []
+evokes: [jataka, pannasanipata, ummadanti-jataka, fabricated-divine-sanction, manufactured-authority-precedes-the-ask]
+lineage:
+  - source: primary
+    text: jataka-francis1905-ummadanti-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XVIII (Pannasanipata), No. 527, Ummadanti-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "While kneeling at a sacred shrine, O king, / A yakkha came and told me a strange thing, / How Ummadanti had enslaved thy will: / Take her and so thy heart's desire fulfil."
+canonical-instances:
+  - "A company president wants to reverse a popular but failing product decision his own team championed. Rather than issue the reversal himself, he commissions a 'customer research study' timed to surface the exact conclusion he already holds, then cites the study as the reason for the change."
+  - "A board member wants to push out a well-liked founder without seeming to have engineered it personally. He commissions an outside consultant, quietly steers the engagement toward a leadership-change conclusion, and presents the finished report to the rest of the board as independent, external validation."
+critical-questions:
+  - "Ahiparaka's fabrication happens to align with what turns out to be the right outcome for everyone involved (the king ultimately refuses anyway) — does the ethics of staging false authority depend on how the deception turns out, or is manufacturing a fake oracle wrong on its own terms regardless of the result?"
+  - "The scheme only works because the king already believes the shrine houses a real yakkha — what happens to this move once the audience it targets doesn't share that background credulity, and manufactured authority has nothing real to imitate?"
+status: active

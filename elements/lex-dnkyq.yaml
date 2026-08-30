@@ -1,0 +1,19 @@
+id: lex-dnkyq
+name: anticipating-a-superiors-wishes-spares-them-from-deciding
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A subordinate's real function in a hierarchical relationship goes beyond obedience to explicit orders — it includes anticipating what a superior wants closely enough that the superior is never forced into an explicit, attributable position on ambiguous or risky matters. Being 'sensitive to your boss's wishes so that you anticipate what he wants' means resolving ambiguity before it ever reaches the boss as a decision they have to own on the record. This is a distinct skill from compliance: a purely obedient subordinate waits for instructions and executes them, while this subordinate prevents the instruction from ever needing to be given explicitly, which also means the superior's fingerprints never appear on the specific choice made."
+related: []
+evokes: [jackall-moral-mazes, "you don't force him to act as boss", pre-resolving-ambiguity-to-protect-a-superiors-record]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch5-anticipate-so-superior-doesnt-decide
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 5, Drawing Lines."
+    quote: "You are sensitive to your boss's wishes so that you anticipate what he wants; you don't force him, in other words, to act as boss."
+canonical-instances:
+  - "A chief of staff quietly resolves a scheduling conflict between two competing priorities before it reaches the executive's desk, choosing the option they're confident the executive would have picked, so no explicit decision — and no explicit record of one — is ever required."
+critical-questions:
+  - "When the anticipating subordinate guesses wrong about what the superior actually wanted, who bears the cost of that misjudgment — and does the superior's insulation from ever having to decide also insulate them from ever having to correct a pattern of bad guesses?"
+status: active

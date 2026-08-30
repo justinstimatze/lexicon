@@ -1,0 +1,19 @@
+id: lex-myxsq
+name: unfulfilled-promises-are-named-as-a-decay-of-friendship
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Supplying only verbal reassurance without concrete delivery over time reads as a specific kind of relational failure, distinct from an honest 'no' — a mismatch between speaking and acting that erodes trust precisely because it looks like continued goodwill. The Jataka's tale of Asanka states this as a general rule through the king's complaint: 'Promise fair without performance on his friends one throws away, Never giving, ever hoarding: such is friendship's sure decay. Men should speak when they will act, not promise what they cannot do: If they talk without performing, wise men see them through and through.'"
+related: []
+evokes: [jataka, chanipata, asanka-jataka, unfulfilled-promises-as-decay, speaking-without-acting-erodes-trust]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-asanka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 380, Asanka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Promise fair without performance on his friends one throws away, Never giving, ever hoarding: such is friendship's sure decay. Men should speak when they will act, not promise what they cannot do: If they talk without performing, wise men see them through and through."
+canonical-instances:
+  - "A vendor who keeps saying 'the fix is coming next sprint' for six months straight isn't lying about any single sprint, but the client stops believing the words themselves, because the pattern of promise-without-delivery has become the actual message."
+critical-questions:
+  - "Is repeated unfulfilled promising worse than an honest refusal upfront, or does the honest refusal simply arrive with less accumulated damage because it happens once instead of many times?"
+  - "How many unfulfilled promises does it take before 'wise men see them through and through' — is there a threshold, or does trust erode continuously from the first one?"
+status: active

@@ -1,0 +1,22 @@
+id: lex-3gr6f
+name: a-contest-keeps-its-prestige-after-its-criterion-shifts-from-doing-to-getting
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A competitive contest can keep its full social intensity and prestige even after what it actually rewards quietly shifts from demonstrated capability to acquired possession -- from what a competitor can DO to what a competitor can GET, with no requirement that the getting trace back to any doing at all. Because the contest still looks and feels like the same high-stakes competition it always was, the shift in criterion goes unnoticed, and society keeps treating the winners as though they'd won on the original terms. Gilman draws the line precisely: 'there is a radical distinction between sex-competition and marriage by purchase. In the first the male succeeds by virtue of what he can do; in the second, by virtue of what he can get... mere possessions, with no question as to the method of their acquisition, are not necessarily of advantage to the individual.'"
+related: []
+evokes: [women-and-economics, chapter-vi, by-virtue-of-what-he-can-do-by-virtue-of-what-he-can-get, no-question-as-to-the-method-of-their-acquisition, a-contests-criterion-drifts-while-its-prestige-holds]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-vi
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter VI. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "Competition among males, with selection by the female of the superior male, is the process of sexual selection, and works to racial improvement. So far as the human male competes freely with his peers in higher and higher activities, and the female chooses the winner, so far we are directly benefited. But there is a radical distinction between sex-competition and marriage by purchase. In the first the male succeeds by virtue of what he can do; in the second, by virtue of what he can get. The increased power to do, transmitted to the young, is of racial advantage. But mere possessions, with no question as to the method of their acquisition, are not necessarily of advantage to the individual as a father."
+canonical-instances:
+  - "A prestigious art prize once rewarded technical mastery and originality, and continues to carry the same weight in the field's esteem, even after winning has quietly become a matter of which artist's dealer can mount the best-funded campaign, with no one in the field re-examining whether the prize still measures what it always claimed to."
+  - "A university's most competitive admission track keeps its reputation for selecting the most capable students, even as the deciding edge shifts from demonstrated academic performance to which applicants' families can afford the most extensive coaching, consulting, and extracurricular packaging."
+  - "An industry award for 'innovation' keeps its prestige and media coverage after the actual deciding factor becomes which company spent the most on submission production values and industry-conference lobbying, rather than which product was most genuinely novel."
+critical-questions:
+  - "How would you detect that a contest's criterion has drifted from doing to getting while it's happening, rather than only being able to name the drift retrospectively once the gap between prestige and substance has become obvious?"
+  - "Is 'getting' ever itself a legitimate proxy for 'doing' -- for instance, if acquiring resources reliably required prior capability in a given domain, would the drift Gilman describes actually be a problem, or only when the connection between getting and any underlying capability has been severed entirely?"
+  - "Gilman frames the racial/individual advantage of 'doing' as self-evident, but who decides which capabilities a given contest ought to be selecting for in the first place, and could a contest's shift toward rewarding 'getting' sometimes reflect a legitimate change in what the surrounding society actually needs selected for, rather than a corruption of a fixed original purpose?"
+status: active

@@ -1,0 +1,22 @@
+id: lex-sruep
+name: a-buildings-shape-is-a-real-cause-of-vitality
+type-in: state
+type-out: claim
+_tier: atomic
+agent-instruction: "A person can explain their community's observed biological and developmental decline by pointing to a change in the geometric shape of their dwellings, treating the shape itself as a genuine causal mechanism for the transmission of vital power, distinct from symbolism and distinct from coincidence. Black Elk names the specific, checkable symptom before naming the cause: 'When we were living by the power of the circle in the way we should, boys were men at twelve or thirteen years of age. But now it takes them very much longer to mature.' The cause he gives isn't diet, disease, or displacement generally -- it's the geometry itself: 'the Wasichus have put us in these square boxes... It is a bad way to live, for there can be no power in a square.'"
+related: []
+evokes: [black-elk-speaks, the-first-cure, no-power-in-a-square, boys-were-men-at-twelve-or-thirteen, shape-as-cause-not-symbol]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch17-first-cure
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 17, 'The First Cure.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "After the heyoka ceremony, I came to live here where I am now between Wounded Knee Creek and Grass Creek. Others came too, and we made these little gray houses of logs that you see, and they are square. It is a bad way to live, for there can be no power in a square. [...] But the Wasichus have put us in these square boxes. Our power is gone and we are dying, for the power is not in us any more. You can look at our boys and see how it is with us. When we were living by the power of the circle in the way we should, boys were men at twelve or thirteen years of age. But now it takes them very much longer to mature."
+canonical-instances:
+  - "A traditional healer attributes a community's rising rates of a specific illness not to diet or sanitation but to residents having moved from communal round houses into individually walled rectangular apartments, treating the architectural change itself as the operative cause."
+  - "An architect convinced that open, flowing floor plans produce healthier families attributes a client's household conflict directly to the sharp-cornered, compartmentalized layout of their previous home, treating the geometry as a real contributing cause rather than mere ambiance."
+  - "A farmer attributes declining crop yields to switching from traditional circular planting beds to rectangular rows, insisting the shape itself disrupts something in how the land's vitality moves, independent of any change in soil treatment or seed stock."
+critical-questions:
+  - "Is there a plausible confounding explanation for slower maturation, changed diet, reduced physical labor, chronic stress, disease introduced by contact, that the shape-of-housing explanation might be obscuring by offering a single, cosmologically coherent cause?"
+  - "If Black Elk's people had kept round houses but suffered the same confinement, disarmament, and loss of open land, would the maturation pattern likely have been any different, or is the circle-versus-square framing doing less causal work than the surrounding loss of an entire way of life?"
+  - "A symbolic claim asks to be understood; a causal claim asks to be checked against evidence. Does treating geometric shape as a literal, physical cause of vitality make it harder to defend than a purely symbolic reading would?"
+status: active

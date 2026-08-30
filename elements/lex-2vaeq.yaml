@@ -1,0 +1,19 @@
+id: lex-2vaeq
+name: a-refusal-can-signal-wounded-status-not-incapacity
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A sudden, otherwise inexplicable refusal to do something routine can signal wounded status instead of physical inability. In the Jataka's tale of the king's horse, the animal balks at bathing in water an inferior horse has just used. The Bodhisatta, ruling out illness, infers that the horse's pride has been offended by the perceived contamination of status, and simply has him bathed elsewhere instead of hunting for a physical cause that isn't there. This diagnosis costs almost nothing to test: if the behavior resolves once the specific trigger is removed, the trigger was very likely the real cause all along."
+related: []
+evokes: [jataka, ekanipata, tittha-jataka, status-slight-misread-as-physical-cause, remove-the-trigger-not-the-symptom]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-tittha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 25, Tittha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "it's his self-love that has been offended so deeply that he will not go into the water"
+canonical-instances:
+  - "A senior contributor who has never missed a stand-up starts skipping it right after a junior teammate is asked to run the meeting instead. A manager, ruling out any scheduling conflict, quietly moves the senior contributor back into a visible facilitation role, and the attendance problem disappears."
+critical-questions:
+  - "How does someone distinguish a genuine status slight from a coincidental physical cause that just happens to resolve once the environment changes for unrelated reasons?"
+  - "Does removing the trigger address the underlying sensitivity at all, or does it just relocate the same fragility to the next situation that happens to touch it?"
+status: active

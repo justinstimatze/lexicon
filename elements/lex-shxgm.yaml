@@ -1,0 +1,20 @@
+id: lex-shxgm
+name: the-overwhelmed-defame-what-overwhelmed-them
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When someone loses composure in front of others because of a person's beauty, skill, or presence, the humiliation can turn into retaliation against whoever exposed it, dressed up as a warning about them. In the Jataka's tale of Ummadanti, king Sivi sends brahmin fortune-tellers to test whether the merchant's daughter Ummadanti is a fit match; on catching sight of her, the brahmins are so overcome they forget the meal in front of them, spilling food and gaping, until she has them thrown out for gawking rather than testing her. Furious and humiliated, they return to the king and declare, \"this woman is no mate for you: she is a witch\" — the false charge reassigns the danger to her, and it costs her the marriage."
+related: []
+evokes: [jataka, pannasanipata, ummadanti-jataka, projecting-blame-onto-what-exposed-you, false-accusation-as-face-saving]
+lineage:
+  - source: primary
+    text: jataka-francis1905-ummadanti-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XVIII (Pannasanipata), No. 527, Ummadanti-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "On catching sight of her they completely lost their self-control ... and ordered them to be taken by the scruff of their neck and thrust out. And they were sorely annoyed and returned to the palace in a great rage with Ummadanti, and they said, \"Sire, this woman is no mate for you: she is a witch.\""
+canonical-instances:
+  - "A hiring-panel member is so flustered by a candidate's confident, articulate answers that he loses his train of thought mid-interview. Rather than name what happened, he tells the panel afterward that the candidate was 'slick' and 'probably hiding something,' and the candidate is passed over."
+  - "A senior researcher, caught visibly nodding along and losing his composed skepticism during a junior colleague's compelling presentation, later tells others privately that the results 'feel too good to be true' and the colleague is 'overselling,' without ever specifying what's wrong with the data."
+critical-questions:
+  - "Ummadanti's accusers had real institutional standing (the king's ear) to make the defamation stick — does this move work as reliably against someone overwhelming without that kind of standing to defame from, or does it only succeed when the overwhelmed party already outranks the person they're blaming?"
+  - "The text never lets the brahmins face consequences for the false charge — what does it cost the overwhelmed party when the target has a way to expose that the 'warning' was retaliation for their own embarrassment rather than a genuine observation?"
+status: active

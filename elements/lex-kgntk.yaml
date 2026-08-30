@@ -1,0 +1,19 @@
+id: lex-kgntk
+name: reframe-a-request-as-a-favor-to-the-one-being-asked
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'Rather than treat asking as an imposition to be avoided, a counter-position holds that timely solicitation should not be avoided at all, because it gives the potential giver the opportunity to earn merit — recasting the ethical valence of asking from burden to enabling. In the Jataka''s tale of Atthisena, the king argues exactly this back: "He who lives by sueing, and has aye at proper season sued, Makes another man win merit, gains himself a livelihood."'
+related: []
+evokes: [jataka, sattanipata, atthisena-jataka, asking-as-a-favor-to-the-giver, reframe-solicitation-as-enabling]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-atthisena-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 403, Atthisena-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "He who lives by sueing, and has aye at proper season sued, Makes another man win merit, gains himself a livelihood."
+canonical-instances:
+  - "A fundraiser reassures a hesitant colleague that reaching out to a wealthy donor hands them a real chance to put idle money toward something that actually matters."
+critical-questions:
+  - "Does this reframe hold up regardless of the asker's actual need, or does it only work as a justification when the request is proportionate to begin with?"
+  - "Who benefits more from this framing being widely believed — the asker who wants permission to ask more freely, or the giver who wants to feel virtuous rather than imposed upon?"
+status: active

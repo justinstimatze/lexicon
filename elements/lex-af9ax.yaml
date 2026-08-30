@@ -1,0 +1,33 @@
+id: lex-af9ax
+name: defeasible-presumption
+type-in: claim
+type-out: posture
+_tier: atomic
+agent-instruction: "When invoking a presumption ('innocent until proven guilty', 'expert until disqualified'), name what would BURDEN-SHIFT it. Presumptions are defeasible defaults; without naming the shifters you've made a default into a fixed point."
+related: [lex-kebfa, lex-q9asc, lex-dm5te, lex-th68b, lex-hesjt, lex-xhwqt, lex-utn22, lex-aut4h, lex-zd7vh, lex-kh9cr, lex-hhx7u, lex-rnwph, lex-38ygs, lex-7t3wr, lex-y7p3z, lex-tpv83, lex-chtk9, lex-9uac6, lex-xqamc, lex-jafkg, lex-zfgj2, lex-dkztq, lex-ht9ud]
+scaffolds-from: [lex-q9asc, lex-dm5te, lex-ht9ud]
+evokes: [presumption-with-defeaters, prima-facie, retractable-conclusion, default-inference]
+lineage:
+  - source: discovery-loop
+    text: assemblies-pass-1 decomposition exercise
+    citation: surfaced as shared atomic in asm-001 / asm-002 / asm-004
+  - source: primary
+    tradition: walton
+    text: walton-reed-macagno-2008
+    citation: "Douglas Walton, Chris Reed, and Fabrizio Macagno, Argumentation Schemes (Cambridge University Press 2008), Ch.1 §1 'Introduction,' pp.2-3 (defeasible-presumptive argument as a third category beyond deductive/inductive); Ch.1 §3 'Critical Questions,' pp.15-16 (defeasible-attach via CQ-list); cross-link Anderson-Schum-Twining 2005 p.262 'necessary but dangerous' phrase. PDF on shelf (isbn13 9780521723749), verbatim 2026-05-21. Prior citation 'ch.1 (defeasibility framework, generic)' was vague — corrected at graduation to the specific introduction-section verbatim (itation-fix discipline applies)."
+    quote: "Argumentation schemes are forms of argument (structures of inference) that represent structures of common types of arguments used in everyday discourse [...] They include the deductive and inductive forms of argument [...] However, they also represent forms of argument that are neither deductive nor inductive, but that fall into a third category, sometimes called defeasible, presumptive, or abductive. Such an argument may not be very strong by itself, but may be strong enough to provide evidence to warrant rational acceptance of its conclusion, given that its premises are acceptable [...] To use a phrase from Anderson, Schum, and Twining (2005, p. 262), such presumptive arguments are necessary but dangerous. We need to use them as heuristics that provide rational grounds for accepting a conclusion tentatively even if it has not been conclusively proved, but we have to remain open-minded when we use such arguments, because they are fallible and inherently subject to default. A defeasible argument is one in which the conclusion can be accepted tentatively in relation to the evidence known so far in a case, but may need to be retracted as new evidence comes in. A typical case of a defeasible argument is one based on a generalization that is subject to qualifications. Should it come to be known that the present case is an exception to the generalization, the argument defaults, and its conclusion must be retracted."
+  - source: primary
+    text: pollock-1987-defeasible-reasoning
+    citation: "John Pollock, 'Defeasible Reasoning,' Cognitive Science 11(4):481-518 (1987), pp.484-485 — the originating formal logic of defeasible reasoning: a prima facie reason P for Q is one where P justifies Q by default but some logically-consistent R can destroy the reason-connection without denying P itself; Pollock's contribution is splitting the R's that do this into two structurally distinct kinds, rebutting defeaters (reasons for denying the conclusion Q directly) and undercutting defeaters (reasons for denying that P wouldn't be true unless Q were, i.e. attacks on the reason-conclusion LINK rather than on the conclusion). ASPIC+ and Carneades are downstream computational implementations of this taxonomy. 1 primary anchor, with Pollock as the deepening formal-logic layer beneath the operational posture."
+    quote: "There are two kinds of defeaters for prima facie reasons. 'Rebutting defeaters' are reasons for denying the conclusion... Rebutting defeaters are reasonably familiar, and they form the basis for most current AI work on nonmonotonic reasoning. But equally important are undercutting defeaters, which attack the connection between the reason and the conclusion rather than attacking the conclusion itself. For instance, 'X looks red to me' is a prima facie reason for me to believe that X is red. Suppose I discover that X is illuminated by red lights and illumination by red lights often makes things look red when they are not. This is a defeater, but it is not a reason for denying that X is red (red things look red in red light too). Instead, this is a reason for denying that X wouldn't look red to me unless it were red... Undercutting defeaters have generally been overlooked both in philosophy and in AI."
+canonical-instances:
+  - "p, presumed true unless one of {defeater-1...defeater-N} obtains"
+  - any inference that's strong by default but retractable on counter-evidence
+  - "the 'yes by default, unless X-or-Y-or-Z' answer-shape: when a user asks 'is X true?' and the vital structure of the answer is a yes-with-explicit-defeaters rather than an unqualified yes, this atom is the move being made. Surfacing the defeaters explicitly (rather than burying them) is what makes the inference robust to context-shift"
+critical-questions:
+  - "what are the named defeaters? a presumption with no enumerated defeaters is just an unqualified claim wearing a hedge — if you can't list 2-3 specific things that would force retraction, you don't yet have a defeasible-presumption"
+  - "is the presumption strong enough by default to be worth holding, or so heavily qualified that everything actually rides on the defeaters? if every plausible case is a defeater-case, the presumption is decoration"
+  - "is retraction actually possible in practice? if new evidence comes in and the presumption is still treated as holding (because investment, status, or sunk-cost), the defeasibility is theatrical — Walton's 'necessary but dangerous' requires real open-mindedness to retract"
+  - "is the defeater rebutting (contests the conclusion) or undercutting (contests the warrant)? Pollock's distinction matters — undercutters can fire without producing a counter-claim, rebutters require one. Conflating them obscures which kind of evidence is needed"
+severity-tier: info
+status: active

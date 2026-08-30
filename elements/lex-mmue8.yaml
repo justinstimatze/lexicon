@@ -1,0 +1,18 @@
+id: lex-mmue8
+name: preemptively-disclaiming-a-relationship-to-defeat-a-captors-targeting-logic
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'Two parties who know that captors specifically exploit close relationships — holding the more valuable party for ransom while releasing the other to fetch payment — can agree in advance to publicly deny the relationship, defeating the captors'' targeting logic before it can be applied, at the cost of telling a deliberate lie. In the Jataka''s tale of the five Pacceka-Buddhas, a father and son who spot robbers lying in wait agree beforehand to deny kinship: "Now when this father and son saw the robbers lying in wait, the father said, ''Don''t you call me \"father,\" and I will not call you \"son\".'' And so they agreed."'
+related: []
+evokes: [jataka, ekadasanipata, paniya-jataka, preemptive-relationship-concealment, defeating-a-captors-targeting-logic]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-paniya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 459, Paniya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Now when this father and son saw the robbers lying in wait, the father said, \"Don't you call me 'father,' and I will not call you 'son'.\" And so they agreed."
+canonical-instances:
+  - "Two colleagues traveling with a company laptop containing sensitive data agree, on spotting a checkpoint known to target visible business travelers, to claim they're tourists who don't know each other rather than let their actual working relationship be identified."
+critical-questions:
+  - "The tale treats the lie as morally acceptable because it protects both parties from exploitation — does that justification hold if only one of the two actually benefits from the concealment and the other bears the risk of being caught in it?"
+status: active

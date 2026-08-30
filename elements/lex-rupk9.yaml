@@ -1,0 +1,30 @@
+id: lex-rupk9
+name: conservation-as-invariant-tracking
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: "When analyzing a process, look for the conservation laws — what stays invariant across transformations. Conservation laws are the physics-level cheat: they constrain outcomes without requiring you to track the dynamics. Find the invariant; reasoning collapses."
+related: [lex-fsazx, lex-x9pxs, lex-y6pqz, lex-wdeje, lex-spm8x, lex-ypecd, lex-2n84d, lex-7wxxd]
+evokes: [what-doesnt-change, find-the-invariant, noether-shape, loop-invariant, double-entry-discipline]
+lineage:
+  - source: practitioner
+    text: noether-1918
+    citation: "Emmy Noether 'Invariante Variationsprobleme' Math.-Phys. Klasse (1918) — every continuous symmetry of the action corresponds to a conservation law; the bidirectional inference is the methodological core of identifying conserved quantities in physics"
+  - source: practitioner
+    text: hoare-1969-axiomatic-basis
+    citation: "C.A.R. Hoare 'An Axiomatic Basis for Computer Programming' CACM 12(10):576 (1969) — loop invariants are the CS analogue: properties preserved by each iteration that constrain reasoning about the loop's behavior independent of execution count"
+  - source: practitioner
+    text: physics-decomposition-pass
+    citation: "promoted from cross-attestation: physics (energy/momentum/angular-momentum/charge conservation; entropy non-decrease), CS (loop invariants in Hoare logic; algebraic-data-structure invariants), accounting (double-entry: total-debits ≡ total-credits is the decisive invariant), software architecture (refactoring discipline: behavior-preserving transformations are invariant-preserving moves on the program semantics), abstract algebra (group/ring invariants under their operations)"
+canonical-instances:
+  - "rolling-ball-down-incline: identify that energy is conserved (ignoring friction), so (1/2)mv² + mgh is constant — yields v at the bottom without solving the trajectory ODE"
+  - "double-entry bookkeeping: every transaction must preserve the invariant 'total debits = total credits'; this single invariant catches the vast majority of recording errors as soon as they happen"
+  - "binary search loop invariant: 'if the target is in the array, it's in the range [lo, hi]' — preserved by each iteration; combined with the loop's termination condition, proves correctness"
+  - "Noether-direction (physics-specific): translation-invariance → momentum conservation; time-translation-invariance → energy conservation; rotational-invariance → angular-momentum conservation. The methodological move that recovers conservation laws from symmetries"
+  - "operationally distinct from lex-fsazx limit-taking: limit-taking probes behavior at a parameter's extremum; invariant-tracking identifies what doesn't change under the system's natural dynamics"
+critical-questions:
+  - "what is the invariant, exactly? loose 'something is conserved' isn't enough — name the quantity, the operation under which it's invariant, and the scope (which transformations preserve it). A vague invariant is bookkeeping; a precise invariant is a tool"
+  - "is the invariant exact or approximate? energy is exactly conserved in closed systems; approximately conserved when friction is small. The discipline: name what would BREAK the invariant, and verify the system stays inside that boundary"
+  - "is the invariant indispensable in your reasoning, or decorative? double-entry uses 'debits=credits' as the crucial error-detector. If the invariant doesn't catch any failures (because you never check it), it's not actually a tool"
+  - "is this distinct from lex-fsazx limit-taking? limit-taking probes parameter EXTREMA; invariant-tracking identifies what STAYS THE SAME under the system's natural dynamics. Limit-taking is about edges; conservation is about the interior"
+status: active

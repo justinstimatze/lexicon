@@ -1,0 +1,19 @@
+id: lex-zahaa
+name: an-unwitting-rival-is-induced-to-deliver-himself-into-anothers-trap
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "A romantic or professional rival can be maneuvered into personally walking into a trap meant for someone else, out of genuine devotion to the very person orchestrating the substitution, with no awareness that the 'favor' he's volunteering for is his own destruction. In the Jataka's tale of Sama and the robber, her actual lover — unaware he is the needed substitute — is talked into carrying the ransom money to the governor's house purely out of love for her: 'The governor hid the young merchant in a secret place, and had the robber conveyed in a close carriage to Sama.'"
+related: []
+evokes: [jataka, catukkanipata, kanavera-jataka, devotion-is-used-to-walk-a-rival-into-his-own-trap, the-favor-volunteered-for-is-the-victims-own-death-sentence]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kanavera-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 318, Kanavera-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The governor hid the young merchant in a secret place, and had the robber conveyed in a close carriage to Sama."
+canonical-instances:
+  - "A devoted employee, hoping to impress an executive romantically, volunteers to personally deliver a document the executive knows is forged, walking straight into the fraud investigation the executive orchestrated to have someone else take the fall for."
+critical-questions:
+  - "Does the rival's genuine devotion make him more culpable for walking into the trap, or does it make him purely a victim of the deception, since his motive was never anything but loyalty?"
+  - "Was there any point at which the rival could plausibly have detected what was happening, or does the mechanism only work because his emotional investment specifically blinds him to a risk a more detached observer would have noticed?"
+status: active

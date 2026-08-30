@@ -1,0 +1,19 @@
+id: lex-y72nk
+name: repeated-optimization-on-a-shallow-metric-produces-a-one-way-ratchet
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When repeatedly switching to a better-seeming option based on the same shallow, proximate metric, check whether each move is silently ignoring a decisive terminal cost that only compounds with each switch. Aesop's 'The Ass and His Masters' has a donkey change owners three times chasing better daily treatment, ending up worse off each time, until it recognizes the irreversible pattern too late: 'for they would have buried me decently, but now I shall come in the end to the tanning-vat.' Each switch optimized against the same narrow variable — how hard the work was — while never checking the one variable that mattered most at the end, and the sequence is a one-way ratchet precisely because there's no path back to a prior, better master once the pattern plays out."
+related: []
+evokes: [aesop, the-ass-and-his-masters, myopic-optimization-ratchet, wrong-objective-function]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-ass-and-his-masters
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Ass and His Masters.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Why wasn't I content to serve either of my former masters, hard as I had to work and badly as I was treated? for they would have buried me decently, but now I shall come in the end to the tanning-vat."
+canonical-instances:
+  - "an employee job-hops to whichever manager seems easiest right now, without checking each employer's trajectory, and ends up at a company about to fold — the terminal outcome, not the daily treatment, was the variable that mattered."
+critical-questions:
+  - "How would the ass have known, at any single switching point, which variable it should have been optimizing for instead of daily treatment, given that the terminal cost only became visible at the very end?"
+  - "Does this ratchet require genuine irreversibility to produce harm, or would the same myopic pattern of optimization eventually correct itself if the ass could freely return to any prior master once the mistake became clear?"
+status: active

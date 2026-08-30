@@ -1,0 +1,22 @@
+id: lex-3gb9b
+name: two-frameworks-judge-the-same-act-by-different-harm-metrics
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "The same act can be judged permissible under one framework and gravely wrong under another, not because the two frameworks disagree about what happened, but because they measure harm against different things entirely -- one against an individual's rights or autonomy, the other against a collective good the act endangers. A person defending themselves by their own framework's harm-metric can end up talking past a tribunal applying a wholly different one, arguing a case that was never in dispute (what happened) while missing the one that decides the outcome (what it damaged, by whose measure). Gilman stages this exactly: Terry is tried in Herland for forcing himself on his wife, an act he insists he was 'within his rights' to commit by his own country's standard. The tribunal does not dispute the facts and does not engage his framework at all: 'They seemed to measure the enormity of the offense by its effect upon a possible fatherhood, and he scorned even to reply to this way of putting it... In a court in our country he would have been held quite \"within his rights,\" of course. But this was not our country; it was theirs.'"
+related: [lex-yeqx7, lex-zrujr]
+evokes: [herland, chapter-11, this-was-not-our-country-it-was-theirs, they-measured-the-enormity-of-the-offense-by-its-effect-upon-a-possible-fatherhood, two-tribunals-measuring-different-things]
+lineage:
+  - source: primary
+    text: gilman-1915-herland-chapter-11
+    citation: "Charlotte Perkins Gilman, Herland (1915), Chapter 11, 'Our Difficulties.' Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "There was a trial before the local Over Mother, and this woman, who did not enjoy being mastered, stated her case. In a court in our country he would have been held quite \"within his rights,\" of course. But this was not our country; it was theirs. They seemed to measure the enormity of the offense by its effect upon a possible fatherhood, and he scorned even to reply to this way of putting it."
+canonical-instances:
+  - "An employee disciplined for publicly contradicting a manager's decision defends the action as protected free expression, the individual-rights metric they were raised on; the review board isn't disputing what was said or whether it was true -- it's weighing the act against team cohesion and the manager's ability to lead, a harm-metric the employee's defense never addresses."
+  - "A researcher who published a colleague's unpublished data without permission defends the act as advancing the field's shared knowledge faster, an outcome-for-the-collective metric; the ethics panel accepts that the data was useful and weighs the act against a different question entirely -- the colleague's right to control their own unpublished work -- a harm-metric orthogonal to the researcher's defense."
+  - "A trader who executed a large order ahead of a client's own trade defends it as ordinary risk management within the rules they were trained under. The regulator has no quarrel with the mechanics of the trade. What the regulator weighs instead is the client relationship's fiduciary duty, a harm-metric the trader's defense never engages at all."
+critical-questions:
+  - "Is the disagreement always genuinely about differing harm-metrics, or does one side sometimes invoke 'we measure harm differently' as cover for a result they wanted on other grounds, making the framework-clash explanation a rationalization rather than the real cause?"
+  - "When two tribunals apply genuinely different harm-metrics to the same act, is there any principled way to say one metric is more correct than the other, or does the outcome simply depend on which framework holds the power to adjudicate in that setting?"
+  - "Suppose the defendant is told plainly, in advance, that a different framework governs this tribunal. Does that actually soften how the verdict lands, or is conviction in one's own framework strong enough that any outcome outside it just reads as unjust, explanation or no?"
+status: active

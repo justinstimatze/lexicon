@@ -1,0 +1,19 @@
+id: lex-4nxg8
+name: an-appeal-to-inherited-custom-collapses-once-it-erases-law-from-lawlessness
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Someone caught in ongoing harm can defend it by calling it ancestral custom rather than wrongdoing, but this defense is answered by showing that if the harmful act itself counts as 'law,' the word has lost any power to distinguish law from lawlessness at all. In the Jataka's tale of the fouled well, a jackal caught repeatedly dirtying ascetics' drinking water defends himself: 'This is the law of all the Jackal race, To foul when they have drunk in any place: My sires and grandsires always did the same; So there is no just reason for your blame.' The rebuttal doesn't dispute the tradition. It points out what calling this tradition 'law' would actually cost the word: 'If this is \"law\" in jackal polity I wonder what their \"lawlessness\" can be!'"
+related: []
+evokes: [jataka, tikanipata, udapana-dusaka-jataka, an-appeal-to-tradition-collapses-when-it-erases-a-necessary-distinction, calling-harm-custom-empties-the-word-law-of-meaning]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-udapana-dusaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 271, Udapana-dusaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "This is the law of all the Jackal race, To foul when they have drunk in any place: My sires and grandsires always did the same; So there is no just reason for your blame.\" ... \"If this is 'law' in jackal polity I wonder what their 'lawlessness' can be!"
+canonical-instances:
+  - "A department that has always padded its budget estimates defends the practice as 'how things have always been done here,' and a new finance director ends the defense by asking what the department would even call it if a rival team started doing the exact same thing to steal resources from them."
+critical-questions:
+  - "Does this rebuttal actually work against every appeal to tradition, or only against cases where the tradition in question is itself clearly harmful — does it fail against customs that are merely unusual rather than damaging?"
+  - "Is there a meaningful difference between the jackal's specific appeal to inherited custom and a more general claim that the behavior is simply natural to his kind, or do both defenses collapse under the same rebuttal?"
+status: active

@@ -1,0 +1,18 @@
+id: lex-5x3a4
+name: unchecked-force-crowds-reasoned-argument-out-of-the-room
+type-in: situation
+type-out: state
+_tier: atomic
+agent-instruction: "When illegitimate pressure — a threat, a superior's temper, a mob's momentum — is allowed to prevail in a dispute, reasoned argument doesn't lose the exchange, it withdraws from it entirely: people stop making the better argument once they've learned the room rewards force instead. The damage compounds past the single decision, because the next dispute in that room starts from a smaller pool of people still willing to reason it out loud."
+related: []
+evokes: [galef, kotowaza, japanese-proverbs, might-makes-right, reason-withdraws-rather-than-loses]
+lineage:
+  - source: primary
+    text: galef-1987-even-monkeys-fall-from-trees
+    citation: "David Galef (compiler and translator), *Even Monkeys Fall From Trees: And Other Japanese Proverbs*, illustrations by Jun Hashimoto, foreword by Edward G. Seidensticker (Tuttle Publishing, copyright 1987; ebook ISBN 978-1-4629-0318-4), Proverb No. 34. Verified verbatim against a direct extraction of the held copy."
+    quote: "Muri go tōreba dōri hikkomu. When illogic prevails, reason gives way."
+canonical-instances:
+  - "After a meeting where the loudest, most senior voice overrides a well-supported technical objection without engaging it, the objection's author stops raising technical objections in that meeting — not because they changed their mind, but because reason has learned it isn't what wins there."
+critical-questions:
+  - "Is the withdrawal of reasoned argument visible in real time, or does it only show up later as a room that has gotten quieter and worse at catching its own mistakes?"
+status: active

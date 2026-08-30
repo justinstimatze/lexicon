@@ -1,0 +1,19 @@
+id: lex-85mhp
+name: scope-a-precommitment-vow-to-the-exact-vice-that-just-cost-you
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "After a vice causes a specific, vivid catastrophe, the useful response isn't a general resolution to be better — it's a precommitment scoped narrowly to the exact vice that was operating in that specific failure, leaving every other appetite untouched. The scoping itself is diagnostic: naming precisely which impulse caused the harm forces you to identify the mechanism rather than react to the harm's severity alone. In the Jataka's tale, four different animals each suffer a catastrophe from a different vice and each responds with the identical formula, substituting only the named vice: the snake, having killed a bull out of anger, resolves \"Through anger I have deprived this creature of life, and I have caused sorrow to the hearts of many. Never again will I go out to get food until I have learnt to subdue it,\" while the jackal, trapped and nearly killed by his own greed for an elephant's carcass, resolves in the same words with greed substituted: \"it is my greed has brought all this trouble upon me. Never again will I go out to feed, until I have learnt how to subdue my greed.\""
+related: []
+evokes: [jataka, pakinnakanipata, panc-uposatha-jataka, vice-specific-precommitment, catastrophe-triggers-a-scoped-not-general-vow]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-panc-uposatha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XIV (Pakinnaka-Nipata), No. 490, Panc-uposatha-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Through anger I have deprived this creature of life, and I have caused sorrow to the hearts of many. Never again will I go out to get food until I have learnt to subdue it."
+canonical-instances:
+  - "A manager who loses a key hire because they interrupted the candidate's counter-offer negotiation out of impatience doesn't resolve to 'communicate better' in general — they specifically commit to a 48-hour silent period before responding to any counter-offer, leaving every other part of their negotiating style unchanged."
+critical-questions:
+  - "The story runs the same formula across four different vices (lust, anger, greed twice) without ever showing a case where the animal misdiagnosed which vice actually caused the harm. What happens when the vow-maker scopes the precommitment to the wrong vice — punishing the wrong impulse while the real cause goes unaddressed?"
+  - "A fifth character in the same tale, the ascetic himself, takes an identical vow against pride after a purely social humiliation with no physical catastrophe at all. Does the same scoped-precommitment mechanism transfer cleanly from a visceral, near-fatal event to a private moment of embarrassment, or does the vow's grip weaken without a vivid physical cost to anchor it?"
+status: active

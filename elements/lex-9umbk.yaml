@@ -1,0 +1,22 @@
+id: lex-9umbk
+name: mutual-necessity-between-claims-does-not-establish-causal-priority
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "Two claims can be jointly necessary -- each true only if the other is -- without either one causing the other. A man's being seated and the statement 'he is seated' being true stand or fall together, but the man is not seated because the statement is true; the statement is true because he is seated. Confusing this two-way logical necessity with one-way causal priority is a common and consequential mistake. Philosophy works the case through directly: a man's being seated makes 'the supposition of his being seated... necessarily true,' and, conversely, if that supposition is true, he 'must necessarily be sitting' -- so a real necessity holds on both sides at once. But she is careful about where the actual dependency runs: the man's sitting isn't caused by the belief being accurate; the belief is accurate because, beforehand, he was already sitting as a matter of fact."
+related: []
+evokes: [consolation-of-philosophy, book-v-prose-iii, the-sitter-is-not-therefore-seated-because-the-opinion-is-true, a-necessity-on-both-sides-alike, necessitas-consequentiae-vs-consequentis]
+lineage:
+  - source: primary
+    text: boethius-c524-consolation-of-philosophy-book-v-prose-iii
+    citation: "Boethius, The Consolation of Philosophy (c. 524 AD), trans. H. R. James (London: George Bell & Sons, 1897), Book V, Prose III. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "if a man be seated, the supposition of his being seated is necessarily true; and, conversely, if the supposition of his being seated is true, because he is really seated, he must necessarily be sitting. So, in either case, there is some necessity involved--in this latter case, the necessity of the fact; in the former, of the truth of the statement. But in both cases the sitter is not therefore seated because the opinion is true, but rather the opinion is true because antecedently he was sitting as a matter of fact. Thus, though the cause of the truth of the opinion comes from the other side, yet there is a necessity on both sides alike."
+canonical-instances:
+  - "A thermometer reading 100 degrees and the room actually being 100 degrees are jointly necessary -- each true only if the other is -- but the room isn't hot because the thermometer says so; the thermometer says so because the room is hot, and treating the reading as the cause of the heat would reverse the actual dependency."
+  - "A test result correctly diagnosing a disease and the patient actually having the disease are mutually necessary given a reliable test, but a doctor who concludes the disease exists because the test is positive, while forgetting the test is positive because the disease exists, risks over-trusting the test in edge cases where the two come apart."
+  - "A stock price accurately reflecting a company's true value and the company actually having that value are bound together under efficient-market assumptions, but analysts who treat the price itself as the cause of the value, rather than a signal of a pre-existing value, can be blindsided when the price and the underlying reality decouple."
+critical-questions:
+  - "Does resolving this distinction actually settle the foreknowledge-and-free-will problem it was introduced to solve, or does it only clear away one confusion while leaving the harder question -- whether God's foreknowledge itself constrains future events -- exactly where it was?"
+  - "Is the sitting-man case actually representative of God's foreknowledge, given that a human observer's statement about someone sitting is made after the fact and has no causal contact with the future at all, whereas foreknowledge is specifically about a claim made before the event occurs?"
+  - "If the necessity really does run both ways alike, in what sense is one side genuinely prior to the other at all -- does the argument's own admission that a real dependency exists undercut its claim that no causal priority is present?"
+status: active

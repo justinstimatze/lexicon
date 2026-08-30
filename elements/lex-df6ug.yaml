@@ -1,0 +1,21 @@
+id: lex-df6ug
+name: unassigned-coordination-turns-correct-compliance-into-collective-failure
+type-in: process
+type-out: warning
+_tier: atomic
+agent-instruction: "When you ask a group of independent contributors to each supply a piece of a shared structure, and every one of them does exactly what you asked, the result can still fail catastrophically if you never specified how their individual contributions needed to relate to each other. In Cushing's telling, an old Blackbird wants to fit a Coyote with wings and tells his children: 'Contribute each one of you a feather to our friend.' Thereupon the Blackbirds, each one of them, plucked a feather from his wing. Unfortunately they all plucked feathers from the wings on the same side. Every single Blackbird followed the instruction correctly -- nobody shirked, nobody made an individual mistake -- and the aggregate result was still lopsided and useless the moment it was tested, because 'contribute a feather' never specified which side. The fix, when it comes, is explicit about the axis that was missing the first time: 'Get feathers from your other sides also.' Diagnostic move: when a task is distributed across many independent contributors with an instruction that describes the individual contribution but not how contributions must be balanced or aligned against each other, expect a defect that shows up only in the assembled whole, and that no single contributor's compliance record will reveal."
+related: [lex-susgz]
+evokes: [correct-individual-compliance-collective-defect, cushing-coyote-and-the-blackbirds, plucked-feathers-all-from-the-same-side, contribute-each-one-of-you-a-feather]
+lineage:
+  - source: primary
+    text: cushing-blackbirds-feathers-same-side-lopsided-wings
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'How the Coyote Danced with the Blackbirds.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'My children, said he, you are many, and many are your wing-feathers. Contribute each one of you a feather to our friend. Thereupon the Blackbirds, each one of them, plucked a feather from his wing. Unfortunately they all plucked feathers from the wings on the same side. ... Get feathers from your other sides also, and be careful to select a few strong feathers from the tips of the wings, for by means of these we cleave the air, guide our movements, and sustain our flight.'"
+canonical-instances:
+  - "A department asks every team to contribute one representative to a new cross-functional working group without specifying seniority or role, and the group convenes with nine junior contributors and no one empowered to make a decision, each team having technically satisfied the request."
+  - "A distributed team asks every engineer to add logging to their own service ahead of a migration, with no shared convention for field names or timestamp format, and the aggregated logs are unreadable together even though every individual service's logging change was correct on its own."
+critical-questions:
+  - "Whose responsibility was the missing coordination -- the old Blackbird's, for giving an instruction that didn't specify which side, or the children's, for not noticing on their own that an unstated choice needed making?"
+  - "Would the defect have been caught before the failed flight if any single Blackbird had checked another's contribution, or does the story suggest that individual compliance checks wouldn't have surfaced a problem that only exists in the aggregate?"
+  - "Is this failure mode specific to instructions given to many contributors at once, or can it also happen with a single contributor working across multiple sittings, unaware that an earlier choice constrains a later one?"
+status: active

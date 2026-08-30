@@ -1,0 +1,18 @@
+id: lex-5htx6
+name: quench-the-rising-feeling-while-it-is-still-small-declared-as-a-standing-policy
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: 'An agent can state, in advance of any specific provocation, a general policy of suppressing a strong feeling at the earliest possible moment, treating the size of the feeling at the moment of intervention as the single variable that determines whether suppression is even possible. In the Jataka''s tale of Culla-Bodhi, the ascetic states this as an explicit standing rule before it is ever tested: "Once risen, it never would leave me my life long, no, never at all: As a storm of rain lays the dust again, quench it while yet it be small."'
+related: []
+evokes: [jataka, dasanipata, culla-bodhi-jataka, preemptive-suppression-policy, quench-it-while-small]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-culla-bodhi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 443, Culla-Bodhi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Once risen, it never would leave me my life long, no, never at all: As a storm of rain lays the dust again, quench it while yet it be small."
+canonical-instances:
+  - "A therapist teaches a client to name the very first physical sign of rising panic and act on it immediately. Her stated reasoning: intervention gets exponentially harder once the panic response is fully underway."
+critical-questions:
+  - "Is the claim that a feeling becomes unmanageable past some early threshold actually true of most people's experience, or is it a rule of thumb that works only for some temperaments?"
+status: active

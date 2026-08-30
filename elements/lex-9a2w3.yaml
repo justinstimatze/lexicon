@@ -1,0 +1,19 @@
+id: lex-9a2w3
+name: planting-physical-traces-manufactures-evidence-against-an-innocent-party
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'An accuser can manufacture ambient physical traces — a mess, a stray mark, a plausible sign — attributable to the person they want removed, then use the resulting confrontation to force an ultimatum the accusation alone couldn''t have won. In the Jataka''s tale of Kaccani, the daughter-in-law scatters phlegm, mucus, and grey hairs around the house and blames her mother-in-law for the mess: "To set the old woman''s son against her, she would scatter phlegm and mucus and grey hairs here and there, and when he asked who was making the whole house so dirty, she would say, "Your mother does it; but if she is told not to do so, she makes an outcry: I can''t stay in the same house with such an old witch: you must decide whether she stays or I.""'
+related: []
+evokes: [jataka, atthanipata, kaccani-jataka, planted-evidence, manufactured-frame-up]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kaccani-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 417, Kaccani-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "To set the old woman's son against her, she would scatter phlegm and mucus and grey hairs here and there, and when he asked who was making the whole house so dirty, she would say, \"Your mother does it; but if she is told not to do so, she makes an outcry: I can't stay in the same house with such an old witch: you must decide whether she stays or I.\""
+canonical-instances:
+  - "A coworker leaves stray typos and formatting errors in a shared document right before pointing out to the team lead that a colleague's work has gotten sloppy, using the planted mess as the visible proof."
+critical-questions:
+  - "What would it take for the accused party to prove the traces were planted rather than genuinely theirs, given that the traces themselves are the only evidence in play?"
+  - "Why does the person receiving the accusation default to believing the physical trace over the accused party's denial?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-9paqt
+name: a-failed-attempt-to-pass-can-leave-you-exiled-from-both-groups
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone disguises themselves to join a more desirable group for material gain, check whether an involuntary tell that exposes the disguise reaches all the way back to their original group. In Aesop's 'The Jackdaw and the Pigeons,' a jackdaw whitens its feathers to feed among well-fed pigeons; once its natural voice gives it away, 'the other jackdaws did not recognise him in his white dress, and would not let him feed with them, but drove him away: and so he became a homeless wanderer for his pains.' The failed attempt to pass leaves a residue — the disguise itself — that marks the impostor as foreign to their own kind as well, producing a double exile worse than either the starting position or the target position alone."
+related: []
+evokes: [aesop, the-jackdaw-and-the-pigeons, failed-passing, double-exile, disguise-residue]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-jackdaw-and-the-pigeons
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Jackdaw and the Pigeons.' Verified verbatim against a direct extraction of the held copy."
+    quote: "But the other jackdaws did not recognise him in his white dress, and would not let him feed with them, but drove him away: and so he became a homeless wanderer for his pains."
+canonical-instances:
+  - "someone who defects to a rival professional or social clique, is exposed as not genuinely belonging there, and finds their original circle no longer trusts them either — the attempted departure itself is what marks them as foreign to where they started."
+critical-questions:
+  - "Is double exile an inevitable cost of any failed attempt to pass, or does it depend on how visibly the disguise marked a break from the original group — could a more subtle or reversible attempt avoid burning the return path?"
+  - "Does the origin group's rejection track the disguise itself, or does it track the demonstrated willingness to abandon them for something better, which would persist even if the disguise had never been detected?"
+status: active

@@ -1,0 +1,29 @@
+id: lex-9akfh
+name: decoupling-via-indirection
+type-in: composition
+type-out: composition
+_tier: atomic
+agent-instruction: "When two components are tightly coupled, introduce an indirection layer (interface, protocol, mediator). Decoupling-via-indirection lets each side evolve independently; the indirection itself becomes the contract that holds the system together."
+related: [lex-hnfrw, lex-9nj6a, lex-c3rr5, lex-b4vxq, lex-spk4s, lex-22etp, lex-q9znq, lex-gbmev, lex-dwycr, lex-p25q4, lex-sjsae, lex-ew7zx, lex-etfhv, lex-z2s4d, lex-qa6hc]
+evokes: [add-a-layer, mediation, butler-pattern, decouple-sender-from-receiver]
+lineage:
+  - source: primary
+    tradition: gof
+    text: gamma-helm-johnson-vlissides-1994
+    citation: "Design Patterns, recurring across Adapter, Chain of Responsibility, Command, Iterator, Mediator, Observer, Bridge, Strategy"
+  - source: practitioner
+    text: wheeler-fundamental-theorem-of-software
+    citation: "'Any problem in computer science can be solved by another level of indirection' (attributed to Butler Lampson via David Wheeler)"
+  - source: practitioner
+    text: gof-decomposition-pass
+    citation: "promoted from frequency analysis: appears in 8 of 23 GoF patterns"
+canonical-instances:
+  - "introducing a mediating layer between two components so they can vary independently — Adapter inserts itself between a client and an incompatible class; Mediator inserts itself between many-to-many interacting peers"
+  - "the move that converts 'A directly knows about B' into 'A knows about an indirection-layer; the layer knows about B' — buys flexibility at the cost of one extra hop"
+  - "operationally distinct from polymorphism (lex-hnfrw): polymorphism enables substitutability via shared interface; indirection adds a hop that may or may not involve polymorphism"
+critical-questions:
+  - "what was the direct coupling that motivated the indirection? indirection-without-named-coupling is premature abstraction — the layer should absorb a specific kind of variability, not act as a generic safety-measure. The discipline: name the direct dependency the indirection eliminates"
+  - "does the indirection earn its cost? every layer adds debugging surface, cognitive load, and runtime overhead. Wheeler's 'any problem can be solved by another level of indirection' has the corollary 'except the problem of too many levels of indirection' — count the hops, verify each one's justification"
+  - "is the indirection opaque, or does it leak? a well-designed layer hides the underlying complexity (Adapter, Mediator). A leaky indirection forces both sides to know about the layer, gaining nothing — verify whether the abstraction is opaque or transparent"
+  - "is this distinct from lex-hnfrw polymorphism-as-extension-mechanism? indirection adds a HOP (mediation layer); polymorphism enables SUBSTITUTABILITY (interface dispatch). They commonly compose but the operations differ — Adapter is indirection-without-polymorphism; Strategy is polymorphism-via-indirection"
+status: active

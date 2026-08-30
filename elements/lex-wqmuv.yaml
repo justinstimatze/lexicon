@@ -1,0 +1,19 @@
+id: lex-wqmuv
+name: oral-communication-is-chosen-for-the-deniability-its-impermanence-provides
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Talk is preferred over documentation in politically sensitive matters not despite its impermanence but specifically because of it — impermanence preserves the option to deny a statement was made, reinterpret what was meant, or simply 'recall differently' later, and this flexibility is exactly the property being selected for rather than an unfortunate side effect of informality. The properties that make speech unreliable as a record — its capacity for 'backtracking, filling in, evasion, subterfuge, and secrecy' — are named as virtues in this context, not flaws, because maintaining certain relationships and protecting oneself requires exactly the room to maneuver that a durable written record would foreclose. Treat a preference for verbal-only communication on a sensitive matter as a signal about what kind of flexibility someone wants preserved, not as mere informality."
+related: []
+evokes: [jackall-moral-mazes, "backtracking, filling in, evasion, subterfuge, and secrecy", impermanence-as-a-selected-feature]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch5-talk-chosen-for-deniability
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 5, Drawing Lines."
+    quote: "Talk, of course, lends itself more readily than documents to backtracking, filling in, evasion, subterfuge, and secrecy, all important virtues if one is to do what has to be done while establishing and maintaining the kinds of relationships that alone can protect oneself."
+canonical-instances:
+  - "A manager insists on discussing a risky pricing decision only in an unrecorded phone call rather than over email, specifically because the decision might need to be walked back or reframed later without a fixed record of exactly what was said."
+critical-questions:
+  - "Is the preference for oral communication here always adversarial self-protection, or does genuine collaborative work also legitimately need the same flexibility to revise and reframe positions that a written record would lock in prematurely?"
+status: active

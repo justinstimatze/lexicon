@@ -1,0 +1,22 @@
+id: lex-pjfk5
+name: a-part-that-hoards-from-the-whole-destroys-the-whole-and-itself
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A component of a larger system can extract extra value for itself by weakening what it contributes back to the system -- giving less while keeping more, growing individually fat on the difference. This looks locally rational to the component, but the component's own survival is downstream of the system's health, so the extraction that enriches it in the short run degrades the system it depends on, and the component perishes along with it. Gilman states the mechanism through a bodily analogy: 'This is as though one of the organs of the body -- the liver, for instance -- should deliberately weaken or poison its quota of secretion, in order that by giving less it might retain more, and become large and fat individually. An organ can do so, does do so; but such action is morbid action, and constitutes disease. The body is injured, weakened, destroyed, and so ultimately the organ perishes also.'"
+related: []
+evokes: [women-and-economics, chapter-vi, the-liver-should-deliberately-weaken-or-poison-its-quota-of-secretion, an-organ-can-do-so-does-do-so, self-enriching-extraction-that-kills-its-own-host]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-vi
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter VI. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "An illustration of this may be seen in the manufacture of prepared foods. This is a process impossible to the individual singly, and of great advantage to the individual in collective relation,--a perfectly natural economic process, advantageous in proportion to the amount and quality of the food manufactured. This we constantly find accompanied by a morbid process of dilution and adulteration, by which society is injured, in order that the individual concerned in the manufacture may be benefited. This is as though one of the organs of the body--the liver, for instance--should deliberately weaken or poison its quota of secretion, in order that by giving less it might retain more, and become large and fat individually. An organ can do so, does do so; but such action is morbid action, and constitutes disease. The body is injured, weakened, destroyed, and so ultimately the organ perishes also."
+canonical-instances:
+  - "A subsidiary quietly cuts the quality of a component it supplies to the rest of the company, pocketing the savings as its own reported profit, until the finished product it depends on for its own continued existence fails badly enough in the market that the whole division, including the subsidiary, is shut down."
+  - "A single fishing fleet in a shared coastal fishery overfishes its quota to inflate its own season's catch, and profits from it for several years, before the collapsed fish population takes the fleet's own future catches down with it."
+  - "A regional franchise cuts corners on the shared brand's food-safety standards to save on costs, boosting its own margins, until a widely reported illness outbreak damages the brand everywhere, including the sales of the franchise that caused it."
+critical-questions:
+  - "Is the organ genuinely acting against its own long-run interest, or is it more accurate to say the organ is acting rationally on a short time-horizon while the harm to itself only arrives later -- does the mechanism describe irrationality, or a mismatched time-horizon that a longer-lived actor would avoid?"
+  - "The bodily analogy assumes the organ's fate is fully bound to the body's fate, with no possibility of detaching and surviving the body's decline -- how much of the mechanism's force depends on that inescapable coupling, and does it weaken wherever the extracting party has a genuine exit option the body doesn't?"
+  - "Gilman calls the extracting organ's behavior 'morbid,' implying it is a deviation from the organ's proper function -- but what distinguishes a system where self-interested extraction is a pathology from one where the same extraction is simply how the parts are supposed to compete, with the whole's health an emergent side effect rather than a design goal?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-cxprt
+name: some-crises-are-bounded-by-a-fixed-survival-window
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When facing an acute crisis, check whether the danger has a fixed duration rather than treating it as an open-ended threat that could strike at any time indefinitely. Hippocrates' Aphorisms: 'Such persons as are seized with tetantis die within four days, or if they pass these they recover.' The claim gives the crisis a hard boundary. Survive the specific window and the risk itself has ended, at a stroke, rather than merely tapering off. Someone who mistakes a bounded danger for an indefinite one keeps paying the cost of vigilance long after the actual threat has lapsed. The harder failure runs the other way: mistaking a genuinely open-ended danger for one with a known endpoint means standing down exactly when the real risk comes back. Figuring out which kind of danger is actually in front of you comes before any decision about how long to hold the emergency posture."
+related: []
+evokes: [hippocrates, aphorisms, bounded-crisis-window, survive-the-window-not-the-indefinite-threat]
+lineage:
+  - source: primary
+    text: hippocrates-aphorisms-adams1849-sectionV-6
+    citation: "Hippocrates, Aphorisms, trans. Francis Adams (Sydenham Society, 1849), Section V, §6. Verified verbatim against a direct extraction of the held copy."
+    quote: "Such persons as are seized with tetantis die within four days, or if they pass these they recover."
+canonical-instances:
+  - "a startup burning cash toward a specific, identifiable funding-gap date treats that date as the entire crisis window; once past it with a signed term sheet, the acute risk has ended outright, even though the company's underlying fragility hasn't changed at all."
+critical-questions:
+  - "How would a decision-maker actually know, in real time and without hindsight, whether they are inside a bounded window that will end on its own or inside an open-ended risk that only looks bounded because no one has yet seen it recur?"
+  - "Does surviving the named window ever create false confidence — treating the crisis as fully resolved when the underlying condition that caused it is still present and could produce a second, different acute episode later?"
+status: active

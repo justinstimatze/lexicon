@@ -1,0 +1,18 @@
+id: lex-4j5fg
+name: a-self-correcting-signal-flags-a-wrong-decision-without-a-human-overseer
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: 'Absent any human authority available to check a judgment''s correctness, a system can incorporate an automatic, external validity-check mechanism that signals when a verdict is wrong, forcing re-examination without requiring an overseer to catch the error personally. In the Jataka''s tale of Dasaratha, the straw slippers left ruling in Rama''s absence physically signal a wrong verdict during a case: "The courtiers placed these straw slippers upon the royal throne, when they judged a cause. If the cause were decided wrongly, the Slippers beat upon each other, and at that sign it was examined again; when the decision was right, the slippers lay quiet."'
+related: []
+evokes: [jataka, ekadasanipata, dasaratha-jataka, built-in-error-detection, self-correcting-decision-system]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dasaratha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 461, Dasaratha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The courtiers placed these straw slippers upon the royal throne, when they judged a cause. If the cause were decided wrongly, the Slippers beat upon each other, and at that sign it was examined again; when the decision was right, the slippers lay quiet."
+canonical-instances:
+  - "A hospital builds an automated alert that flags a prescribed drug dosage as anomalous against the patient's chart, forcing a second look, without requiring a second physician to independently review every single order."
+critical-questions:
+  - "What actually calibrates the slippers to know a wrong verdict from a right one — the tale treats the signal as reliable by fiat, but any real version of this mechanism needs its own account of how it distinguishes correct from incorrect in the first place."
+status: active

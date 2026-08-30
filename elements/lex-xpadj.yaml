@@ -1,0 +1,19 @@
+id: lex-xpadj
+name: rank-of-company-kept-determines-whether-you-rise-or-fall
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A closing maxim generalizes a fatal choice of company into a rule: associating downward degrades and endangers you, associating with equals is safe, and deferring to your betters lifts you up — an explicit hierarchy for choosing counsel and companions by rank rather than convenience. In the Jataka''s tale of Manoja, the moral is stated directly: "Who follows outcasts is himself out cast, Who courts his equals ne''er will be betrayed, Who bows before the noblest rises fast; Look therefore to thy betters for thine aid."'
+related: []
+evokes: [jataka, sattanipata, manoja-jataka, company-determines-status, hierarchy-of-association]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-manoja-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 397, Manoja-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Who follows outcasts is himself out cast, Who courts his equals ne'er will be betrayed, Who bows before the noblest rises fast; Look therefore to thy betters for thine aid."
+canonical-instances:
+  - "A junior employee who spends their time learning from the most respected engineers on the team advances faster than a peer who instead befriends the office's chronic underperformers, not because of talent but because of whose habits and standards rub off."
+critical-questions:
+  - "Does this maxim just restate an existing status hierarchy as though it were a law of nature, making it self-fulfilling for anyone who believes it?"
+  - "Is there a cost to always courting betters and never associating downward — does it foreclose forming genuine solidarity with people in a worse position, even when that solidarity would be valuable?"
+status: active

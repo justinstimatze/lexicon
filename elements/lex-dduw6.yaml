@@ -1,0 +1,19 @@
+id: lex-dduw6
+name: habituation-to-a-static-nuisance-erodes-your-own-resolve-not-the-condition
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a persistent, unchanging aversive condition keeps failing to improve, check whether what is actually changing over time is your own threshold for tolerating it rather than the condition itself. In Aesop's 'The Rich Man and the Tanner,' a rich man who moves next to a foul-smelling tannery keeps threatening to leave, and instead simply adapts: 'at last the Rich Man got so used to the smell that he ceased to mind it, and troubled the Tanner with his objections no more.' The smell itself never improved. What gave way was the complainant's own resolve to enforce a stated boundary, a different mechanism from failing to notice a slowly escalating danger — the condition here is static throughout, and only the will to act on it fades."
+related: []
+evokes: [aesop, the-rich-man-and-the-tanner, habituation-erodes-resolve, static-nuisance-vs-boiling-frog]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-rich-man-and-the-tanner
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Rich Man and the Tanner.' Verified verbatim against a direct extraction of the held copy."
+    quote: "till at last the Rich Man got so used to the smell that he ceased to mind it, and troubled the Tanner with his objections no more."
+canonical-instances:
+  - "employees who initially object to a chronic office irritant simply stop mentioning it over time, even though nothing about the underlying problem was ever fixed — the objection fades while the condition stays exactly as it was."
+critical-questions:
+  - "Is habituation to a static nuisance always a loss — does the rich man's fading resolve represent a real cost, or can adapting to an unchangeable condition instead be a genuinely useful form of resilience rather than a failure?"
+  - "Would the outcome differ if the rich man had a way to actually force the tannery to move, rather than only being able to complain — does this mechanism specifically require the complainer to lack real enforcement power?"
+status: active

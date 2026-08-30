@@ -1,0 +1,19 @@
+id: lex-uhjs3
+name: favoring-the-novel-and-temporary-destroys-the-steady-asset-you-had
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A person can redirect care and resources from a reliable, permanent asset toward a novel, temporary one with no lasting stake in the relationship; when the novel attraction inevitably departs, having never depended on the caretaker, the neglected reliable asset has already been destroyed by the neglect, leaving nothing. In the Jataka''s tale of Dhumakari, the goatherd parable states this exactly: "Seeing some deer of golden hue who had come, he felt a love for them, and disregarding his goats he paid the honour due to them to the deer. In the autumn the deer moved away to the Himalaya: his goats were dead and the deer gone from his sight: so for sorrow he took jaundice and died."'
+related: []
+evokes: [jataka, sattanipata, dhumakari-jataka, novelty-favoritism-destroys-the-steady-asset, neglect-of-the-reliable-for-the-exotic]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dhumakari-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 413, Dhumakari-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Seeing some deer of golden hue who had come, he felt a love for them, and disregarding his goats he paid the honour due to them to the deer. In the autumn the deer moved away to the Himalaya: his goats were dead and the deer gone from his sight: so for sorrow he took jaundice and died."
+canonical-instances:
+  - "A studio pours its attention and budget into courting a flashy new talent it can't actually retain, letting the long-running franchise that has sustained it for a decade wither from neglect, and loses both the moment the new talent's contract elsewhere comes calling."
+critical-questions:
+  - "Was the reliable asset's decline actually caused by the redirected attention, or was it going to fade anyway and the novelty just happened to coincide with its decline?"
+  - "Is there a way to pursue a genuinely promising new opportunity without abandoning the steady one that's already proven itself?"
+status: active

@@ -1,0 +1,42 @@
+id: lex-ppm3j
+name: greene-style-power-tactic-substrate-instance
+type-in: claim
+type-out: posture
+_tier: molecule
+agent-instruction: "When you spot one of Greene's 48 Laws operating, treat it as a power tactic — a substrate-instance of leverage being applied. The tactic's force depends on context; surface what makes it work HERE before generalizing."
+related: [lex-jvr5p, lex-9ty22, lex-xe76g, lex-s2pjj, lex-qhydj, lex-rptqb, lex-rnwph, lex-jafkg, lex-33p2a, lex-zrhqq, lex-c34na, lex-n8888, lex-rnftn, lex-cyhjd, lex-9pubz, lex-xj7s3, lex-efv3v, lex-xm754, lex-9n7bg, lex-bkaum]
+scaffolds-from: [lex-jafkg, lex-qhydj]
+evokes: [greene-1998-48-laws, machiavelli-prince, the-prince-and-the-courtier, power-tactics-as-pattern-family, pragmatic-tactics-substrate-instance, third-label-molecule]
+premises:
+  - "a substrate atom names a domain-general power-tactic — an operational rule for shifting outcomes in evaluative relationships (status, persuasion, influence, alliance) where the actor's standing is at stake"
+  - "the atom describes the tactic at a substrate-mechanism layer that is applicable across courts, markets, organizations, romantic-pursuits, and political alliances rather than being domain-specific"
+  - "the tactic is documented in at least one canonical power-tactics-catalog (Greene 1998, Carnegie 1936, Strauss 2005, Machiavelli 1532, La Rochefoucauld 1665, Castiglione 1528, and similar) OR is attested as a power-mechanism in the broader political-philosophy or social-psychology corpus"
+  - "the substrate atom is THUS a greene-style-power-tactic-substrate-instance"
+decomposes-into: []
+assembly: "classification(members)"
+critical-questions:
+  - "is the candidate atom domain-GENERAL across the courts/markets/organizations/personal-life axes, or is it actually domain-specific to one of them and being over-generalized? The label-molecule's coherence depends on the generality criterion. Diagnostic: 'can I produce a substantial example in at least three of the four domains?'"
+  - "is the candidate atom describing a TACTIC (an operational rule for shifting outcomes) rather than a STRUCTURE (a fact about how systems work) or a CONSEQUENCE (an effect that follows from other dynamics)? Walton-cluster shows the distinction matters — the label-molecule narrows on actor-deployable rules. Diagnostic: 'can the atom be phrased as advice an actor could follow?'"
+  - "is the candidate atom morally-coherent enough to be deployed without immediate self-defeating consequence, or is it the kind of tactic that works once and then permanently degrades the actor's position? Greene-style tactics include both kinds. Diagnostic: 'what is the second-order effect of being known to have deployed this tactic?'"
+  - "does the candidate atom belong to BOTH this label-molecule AND another label-molecule (e.g. lex-jafkg cognitive-bias)? Atoms can be members of multiple labels simultaneously — the classification operator does not require partition. Diagnostic: 'is the atom EXCLUSIVELY a power-tactic, or also a cognitive-bias / argumentation-scheme / etc?'"
+  - "is the candidate atom Greene-style amoralist or Carnegie-style relationship-preserving? Both registers produce members of the label-molecule, but the prescriptive valence differs. The label-molecule is about pattern-membership, not about the actor's normative posture toward the pattern. Diagnostic: 'have I conflated naming the pattern with endorsing its deployment?'"
+lineage:
+  - source: primary
+    text: greene-1998-48-laws-of-power
+    citation: "Robert Greene, *The 48 Laws of Power* (Penguin Group 1998). Greene's catalog of 48 named-power-tactics-with-historical-case-studies is the substrate-canonical pattern-library for the power-tactics domain, structurally parallel to Walton 2008 *Argumentation Schemes* in the argumentation domain. Each of Greene's 48 laws presents a name, an operational rule, a historical case-study confirming the rule, a counter-case-study or boundary-condition, and a 'reversal' showing when the rule fails. Substrate-meta value: the 48-tactic catalog provides a third independent attestation of the metapattern-label-as-operator validity (after lex-rnwph walton-style-defeasible-scheme and lex-jafkg cognitive-bias-as-systematic-judgment-distortion-mechanism). Three independent substrate-veins (argumentation, cognition, power-tactics) all yield to the same compositional operator — classification(members) where the operator names a kind without claiming members compose into a single resulting entity. This is the third validation of ROADMAP #15 and the strongest evidence to date that label-molecule is a generic substrate-organizing primitive, not a Walton-cluster artifact."
+    quote: "(Greene's introduction frames the work as a power-tactics-catalog modeled on Renaissance courtier-manuals and Machiavellian-state-craft compendia.)"
+  - source: practitioner
+    text: substrate-attestation-v109-third-label-molecule-validates-metapattern-operator
+    citation: "substrate-attestation: lex-ppm3j is the third label-molecule successfully minted in lexicon, following lex-rnwph walton-style-defeasible-scheme (17 members across the Walton argumentation-schemes cluster) and lex-jafkg cognitive-bias-as-systematic-judgment-distortion-mechanism (9 members across the cognitive-biases cluster). Three substrate-veins covered by the same classification(members) operator. ROADMAP #15 metapattern-label-operator is no longer hypothesis-validated-once but corroborated-across-three-unrelated-veins. The atoms newly minted in (lex-33p2a, lex-zrhqq, lex-c34na) plus a backwards-classifying set of already-minted power-tactic atoms (lex-jvr5p, lex-9ty22, lex-xe76g, lex-s2pjj, lex-qhydj, lex-rptqb) give nine initial members. The cross-vein-coverage is the substrate-meta significance: the label-molecule operator is generic, not Walton-specific."
+canonical-instances:
+  - "lex-33p2a demonstration-over-argument-as-conviction-vector (Greene Law 9 + Carnegie Part-3 Ch.1)"
+  - "lex-zrhqq frame-request-in-target-self-interest-currency (Greene Law 13 + Carnegie 'Talk in terms of...')"
+  - "lex-c34na scarcity-of-presence-creates-perceived-value-and-pull (Greene Law 16 + Strauss push-pull)"
+  - "lex-jvr5p beginner-stance-as-power (Greene Law 21 'play a sucker to catch a sucker' — appear-less-than-you-are as concealment-tactic)"
+  - "lex-9ty22 strategic-ambiguity (Greene Law 3 'conceal your intentions' — opacity as power-tactic)"
+  - "lex-xe76g ring-of-gyges-morality-under-unobservability (Plato's Republic II challenge; structurally a power-tactic test of whether amoralist principles like Greene's would dominate when visibility constraints are removed)"
+  - "lex-s2pjj self-definition-by-disavowing-a-caricatured-predecessor (Greene Law 41 'avoid stepping into a great man's shoes' — re-create-yourself by repudiating the predecessor)"
+  - "lex-qhydj elites-continuously-turn-over-cycling-between-force-and-cunning (Pareto's lions-vs-foxes typology — the underlying historical-sociological framework Greene's case-studies sit within)"
+  - "lex-rptqb cult-cluster forcing-the-end (Greene Law 27 'play on people's need to believe to create a cultlike following' — the cult-formation mechanism as power-tactic)"
+severity-tier: info
+status: active

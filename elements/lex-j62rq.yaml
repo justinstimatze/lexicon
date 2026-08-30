@@ -1,0 +1,19 @@
+id: lex-j62rq
+name: one-status-purchase-forces-a-matching-set-of-further-purchases
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Before making a single purchase meant to upgrade your visible standing, check what it commits you to buying next, since the item rarely stays isolated once it sits next to everything else you own. Franklin's Poor Richard: 'It is easier to suppress the first desire, than to satisfy all that follow it.' The mechanism runs through visual coherence rather than through the object's own function — a new coat that looks wrong beside worn shoes creates pressure to replace the shoes, which then creates pressure on whatever sits next to the shoes, because the standard the first item set becomes the standard the rest of the wardrobe is now being judged against. A desire with no reference point to be measured against is the easiest one to decline. Once that reference point exists, every subsequent purchase is measured against it, and stopping gets progressively more expensive."
+related: []
+evokes: [franklin, way-to-wealth, one-purchase-forces-matching-purchases, coherence-pressure-escalates-consumption]
+lineage:
+  - source: primary
+    text: franklin-1758-way-to-wealth
+    citation: "Benjamin Franklin, Father Abraham's Speech ('The Way to Wealth' / 'Poor Richard Improved'), 1758 (Gutenberg #43855). Verified verbatim against a direct extraction of the held copy."
+    quote: "It is easier to suppress the first desire, than to satisfy all that follow it."
+canonical-instances:
+  - "a homeowner replaces one worn-out appliance with a premium model, then feels compelled to replace the adjacent appliances that now look shabby by comparison, ending a renovation that started as a single repair."
+critical-questions:
+  - "Is the chain actually driven by the purchaser's own perception, or by anticipated judgment from other people — and would the pressure to match still exist for someone who never expected anyone else to see the full set together?"
+  - "Does stopping before the first purchase actually save money, or does it just defer the same coherence pressure to whichever item eventually does get replaced first?"
+status: active

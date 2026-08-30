@@ -1,0 +1,20 @@
+id: lex-j9ft2
+name: gorging-on-a-drifting-windfall-hides-the-return-point
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A resource that keeps you fed while a larger force carries you steadily away from safety can hide its own cost for as long as the resource lasts — the movement is happening regardless of whether you're paying attention to it, and by the time the resource runs out and forces you to check your position, the distance may already be unrecoverable. In the Jataka's tale of Sonaka, the paccekabuddha teaches king Arindama a parable of a crow that finds a dead elephant floating down the Ganges: \"Oh what a carriage I have found and goodly store of food, / Here will I stay both night and day, enjoying blissful mood.\" So eats he flesh of elephant and drinks from Ganges' stream, / And budging not sees grove and shrine pass by him in a dream. / Thus heedless and on carrion vile so all intent was he, / The Ganges swept him headlong to the perils of the sea. / But when with food exhausted he, poor bird, essayed a flight, / Nor east nor west nor south nor north was any land in sight."
+related: []
+evokes: [jataka, satthinipata, sonaka-jataka, drift-past-the-point-of-return, absorption-in-a-windfall-masks-displacement]
+lineage:
+  - source: primary
+    text: jataka-francis1905-sonaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XIX (Satthinipata), No. 529, Sonaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "See! borne along on Ganges' flooded tide a carcase vast, / A foolish crow thought to himself as it was floating past, / \"Oh what a carriage I have found and goodly store of food, / Here will I stay both night and day, enjoying blissful mood.\" / So eats he flesh of elephant and drinks from Ganges' stream, / And budging not sees grove and shrine pass by him in a dream. / Thus heedless and on carrion vile so all intent was he, / The Ganges swept him headlong to the perils of the sea. / But when with food exhausted he, poor bird, essayed a flight, / Nor east nor west nor south nor north was any land in sight."
+canonical-instances:
+  - "A team stays heads-down shipping features on a client contract that keeps extending itself month to month, not noticing the client's market has been shrinking the whole time; when the contract finally ends, there's no runway left to find the next client and no muscle memory for how to look."
+  - "A trader holds a position that keeps paying a steady premium while the underlying asset's liquidity dries up week by week; by the time the premium stops and it's finally time to check the exit, the position can't be unwound at anything close to the price it would have fetched earlier."
+critical-questions:
+  - "Was there ever a moment during the drift when the crow could have noticed the danger and chosen to fly for shore early, or does the parable's structure — heedless absorption in the food — mean the failure to notice was itself caused by the very abundance that was carrying it to ruin, making early exit structurally unlikely rather than just a missed opportunity?"
+  - "The parable blames the crow's heedlessness, being so all intent on the carrion, but the river current is doing the actual displacing regardless of attention — how much of this failure is really about inattention versus about underestimating how far a slow, steady force can carry you before it matters?"
+status: active

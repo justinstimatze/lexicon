@@ -1,0 +1,19 @@
+id: lex-8te8q
+name: offering-to-mind-something-in-an-owners-absence-covers-a-smear-campaign
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Volunteering to look after someone's property, position, or reputation while they're away creates exactly the access and cover needed to undermine them behind their back. The absence that makes the offer look helpful is the same absence that keeps it unverifiable while it's happening. In the Jataka's tale of the usurping guest, a visitor befriends a hermitage's owner just before the owner sets out to see the Buddha, and volunteers on the spot: 'Oh, I'll look after it while you are gone to visit the Buddha,' said the new-comer. The owner leaves, having asked the villagers to look after his guest. The new-comer proceeded to backbite his host, and hinted to the villagers all sorts of faults in him.' By the time the owner returns, the villagers have already been turned against him."
+related: []
+evokes: [jataka, tikanipata, udumbara-jataka, an-offer-to-caretake-in-absence-provides-cover-for-a-smear-campaign, absence-makes-the-caretakers-conduct-unverifiable-while-it-happens]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-udumbara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 298, Udumbara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Oh, I'll look after it while you are gone to visit the Buddha,\" said the new-comer; and so the owner went, after laying injunctions upon the villagers to take care of the holy Brother until his return. The new-comer proceeded to backbite his host, and hinted to the villagers all sorts of faults in him."
+canonical-instances:
+  - "A colleague volunteers to cover a manager's responsibilities during their parental leave, then spends the absence quietly telling the manager's own direct reports that decisions are being made without proper oversight, leaving the manager to return and find their team's trust already eroded."
+critical-questions:
+  - "Would a more skeptical owner have been able to prevent this by choosing a different caretaker, or does the mechanism work regardless of who's chosen, since the absence itself is what creates the unverifiable window?"
+  - "Is there any way for the returning owner to reliably distinguish genuine faults the villagers noticed on their own from ones planted by the caretaker's whispering, once both have had time to blend together?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-m5jm3
+name: strangers-attach-their-own-requests-to-someone-elses-compelled-journey
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Once it's known that someone is being forced to travel to a powerful figure regardless of their own wishes, unrelated parties along the way can attach their own requests to that journey for free, since the trip is happening either way. Nobody needs to make the trip themselves when someone else has already been compelled to make it for them. In the Jataka's tale of the accused headman, as Gamani is dragged toward the king's court as a defendant, one village after another stops him with the same opening: 'To see the king,' says Gamani. 'Oh indeed, to see the king. I want to send him a message; will you take it?' 'Ves, that I will.' Each questioner risks nothing and loses nothing if he refuses. They are simply riding a journey he never chose to take."
+related: []
+evokes: [jataka, tikanipata, gamani-canda-jataka, free-riding-on-anothers-already-compelled-journey, a-forced-trip-becomes-a-shared-resource-for-bystanders]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-gamani-canda-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 257, Gamani-canda-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"To see the king,\" says Gamani. \"Oh indeed, to see the king. I want to send him a message; will you take it?\" \"Ves, that I will.\""
+canonical-instances:
+  - "Once word spreads that a colleague is being forced into an uncomfortable one-on-one with an executive over an unrelated complaint, several other employees quietly ask them to also raise their own separate grievances while they're already in the room, since the meeting is happening regardless of what any of them want."
+critical-questions:
+  - "Does Gamani have any real ability to refuse these requests given his own precarious position, or does his compelled situation make him unable to say no even though complying costs him nothing extra either way?"
+  - "Is this free-riding actually costless for the requesters, or does piling multiple unrelated messages onto one compelled traveler risk diluting or discrediting whichever message the king cares about most?"
+status: active

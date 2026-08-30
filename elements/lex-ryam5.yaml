@@ -1,0 +1,19 @@
+id: lex-ryam5
+name: a-length-calculation-that-forgets-its-own-overhead-falls-short
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'When measuring how much of something is needed to span a gap, a planner can account for every external span required and still forget to include the portion that will be consumed by or attached to himself, causing the total to fall short. In the Jataka''s tale of Mahakapi, the monkey-king''s bridge-length calculation fails exactly this way: "and so reckoned the two lengths, forgetting the part fastened on his own waist."'
+related: [lex-8js7x]
+evokes: [jataka, sattanipata, mahakapi-jataka, forgot-to-count-your-own-overhead, planning-error-from-self-omission]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahakapi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 407, Mahakapi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "and so reckoned the two lengths, forgetting the part fastened on his own waist."
+canonical-instances:
+  - "A project manager calculates exactly how many hours a migration will take by summing every team's estimated work, forgetting to budget any of their own time for the coordination and review that the plan itself requires."
+critical-questions:
+  - "Is forgetting to count your own contribution a predictable blind spot of planning from the inside, or does it only happen to planners who haven't been burned by it before?"
+  - "Would a habit of deliberately double-checking self-inclusion catch this reliably, or does the omission tend to hide precisely because the planner's own role feels too obvious to need counting?"
+status: active

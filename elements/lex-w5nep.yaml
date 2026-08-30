@@ -1,0 +1,20 @@
+id: lex-w5nep
+name: vague-delegation-preserves-the-delegators-right-to-blame
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Withholding specific instructions when delegating a task is often a deliberate incentive move, not an oversight or a hands-off management style. A manager who states only the objective and not the method retains the standing to criticize failure freely, because they never claimed a stake in the specific approach taken; a manager who spells out exact steps has implicitly co-authored the outcome and loses the moral standing to 'chew someone out' if it fails. The granularity of an instruction is therefore a blame-allocation lever independent of the task's actual difficulty or the subordinate's competence — vaguer delegation is safer for the delegator precisely because it's harder for anyone to trace failure back to a specific instruction they gave."
+related: [lex-cz6y2]
+scaffolds-from: [lex-cz6y2]
+evokes: [jackall-moral-mazes, "I lose any right I have to chew his ass out", instruction-granularity-as-blame-shield]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch2-vague-delegation
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 2, Section I."
+    quote: "If I tell someone what to do—like do A, B, or C—the inference and implication is that he will succeed in accomplishing the objective. Now, if he doesn't succeed, that means that I have invested part of myself in his work and I lose any right I have to chew his ass out if he doesn't succeed. If I tell you what to do, I can't bawl you out if things don't work."
+canonical-instances:
+  - "An executive tells a director only to 'grow the region' rather than specifying a market-entry strategy; when the chosen strategy underperforms, the executive can criticize the director's judgment freely, since no specific method was ever theirs to defend."
+critical-questions:
+  - "Is the vagueness genuinely about preserving the subordinate's autonomy, or is it calibrated specifically to keep the delegator's own hands clean regardless of which method gets chosen?"
+status: active

@@ -1,0 +1,20 @@
+id: lex-8kzrn
+name: cross-referencing-private-signals-exposes-a-hidden-recipient
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When someone sends a private signal to each of several people, no single recipient can tell whether the same message went to anyone else — the concealment relies on each channel staying separate. Comparing notes across recipients breaks it: a pattern invisible in any one signal becomes obvious once the signals are laid side by side, because a genuine hidden extra recipient is the only thing that explains why one person's signal doesn't match the shape of everyone else's. In the Jataka's tale of Kunala, five brothers each receive a private, seemingly matching signal from their shared wife; only Ajjuna thinks to ask the others what they were told, and infers a sixth, hidden recipient purely from the shape of the answers: \"As in my case, so also with the others, by this sign some token must be given, and there must be some intimacy with this hump-backed fellow. [...] Do you know the meaning of the sign given to the humpback by a motion of her tongue? [...] With him too she has sinned.\""
+related: []
+evokes: [jataka, asitinipata, kunala-jataka, signal-comparison, hidden-party-detection]
+lineage:
+  - source: primary
+    text: jataka-francis1905-kunala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XXI (Asitinipata), No. 536, Kunala-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "As in my case, so also with the others, by this sign some token must be given, and there must be some intimacy with this hump-backed fellow. [...] Do you know the meaning of the sign given to the humpback by a motion of her tongue? [...] With him too she has sinned."
+canonical-instances:
+  - "Several sales reps each believe they've been personally promised the same exclusive territory by the same regional director — the deception holds until two reps compare emails at a conference and realize the identical wording couldn't have been meant individually for both of them."
+  - "A group suspects a shared vendor is quietly briefing every competing client with the same 'proprietary insight' — no one client can prove it from their own briefing alone, but a group chat where three of them compare notes on suspiciously identical phrasing confirms it in minutes."
+critical-questions:
+  - "Ajjuna cracks the pattern only because he happens to think to ask — nothing about the other four brothers' behavior suggested anything was wrong until he raised the question. Does this kind of detection depend on one person's specific suspicion, or would the pattern have surfaced eventually through some other route even without it?"
+  - "The queen's other four signals were apparently genuine tokens of real, if divided, affection, while the fifth was categorically different in kind. Does cross-referencing distinguish 'this recipient is different' from 'this recipient is the true one,' or does it only ever establish the former?"
+status: active

@@ -1,0 +1,18 @@
+id: lex-hezrg
+name: stopping-at-sufficiency-rather-than-risking-further-for-more
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Having secured enormous, sudden gain, an agent can explicitly instruct the beneficiaries to stop taking the risk that produced it rather than press their luck further, treating sufficiency as the terminal condition rather than accumulation without limit. In the Jataka''s tale of Supparaka, having saved the ship and divided a fortune in gold, silver, and gems among the merchants, the navigator tells them plainly to stop voyaging: "This treasure is enough for you: voyage on the sea no more."'
+related: []
+evokes: [jataka, ekadasanipata, supparaka-jataka, sufficiency-over-accumulation, quit-while-ahead]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-supparaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 463, Supparaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "This treasure is enough for you: voyage on the sea no more."
+canonical-instances:
+  - "After one spectacular exit funds a founder's whole family for life, her mentor tells her plainly to stop chasing a second unicorn and treat what she already has as sufficient, rather than re-risking it all on the next venture."
+critical-questions:
+  - "This instruction directly corrects the very greed that nearly sank the ship earlier in this tale — does 'stopping at sufficiency' work as general advice outside a story that has just demonstrated, in the same breath, exactly what happens when a group doesn't stop?"
+status: active

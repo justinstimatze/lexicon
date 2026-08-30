@@ -1,0 +1,18 @@
+id: lex-mwhh7
+name: a-feigned-naive-question-safely-surfaces-and-interrupts-a-forbidden-plan-in-progress
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'Someone who suspects a plan underway is wrong, but lacks the standing or safety to accuse the planner directly, can instead ask an apparently innocent question that forces the planner to articulate the plan''s absurdity or wrongness out loud, using feigned ignorance as a safer route to interruption than direct confrontation. In the Jataka''s tale of Takkala, the boy, following his father to the digging site as though merely curious, asks a question in verse that forces the plan into the open: "''No bulbs are here, no herbs for cooking meet, No catmint, nor no other plant to eat. Then father, why this pit, if need be none, Delve in Death''s acre mid the woods alone?''"'
+related: []
+evokes: [jataka, dasanipata, takkala-jataka, feigned-ignorance, socratic-interruption-of-a-plan]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-takkala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 446, Takkala-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "No bulbs are here, no herbs for cooking meet, No catmint, nor no other plant to eat. Then father, why this pit, if need be none, Delve in Death's acre mid the woods alone?"
+canonical-instances:
+  - "A junior analyst who suspects her boss is about to falsify a report doesn't accuse him directly but asks, seemingly out of confusion, why the numbers in the draft don't match the source spreadsheet, forcing him to either explain the discrepancy honestly or admit it out loud."
+critical-questions:
+  - "Does feigned naivety actually interrupt a plan more reliably than direct confrontation would, or does it only work when the confronted party still retains enough conscience to be stopped by having the plan named?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-wj6yn
+name: envy-of-an-unattainable-trait-is-redirected-into-destroying-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Told that you lack a specific capacity someone else has, rather than attempting to develop that capacity, the resentment can redirect entirely into resenting and destroying the other party's demonstration of it — treating their advantage as condescension rather than as something to learn from. In the Jataka's tale of the monkey and the bird, told by the singila bird that it could build shelter if it only had the wisdom to, the monkey doesn't attempt to develop that wisdom; it concludes the bird is condescending to it and destroys the bird's nest: 'Thought the monkey, \"This creature, through dwelling in a place that is sheltered from the rain, despises me. I will not suffer him to rest quietly in this nest.\"'"
+related: []
+evokes: [jataka, catukkanipata, kutidusaka-jataka, an-advantage-is-read-as-condescension-rather-than-a-lesson, envy-destroys-what-it-cannot-replicate]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kutidusaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 321, Kutidusaka-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Thought the monkey, \"This creature, through dwelling in a place that is sheltered from the rain, despises me. I will not suffer him to rest quietly in this nest.\""
+canonical-instances:
+  - "A colleague who never learned to properly document their code hears a peer suggest, with no ill intent, that better documentation would save everyone time; rather than pick up the habit, the colleague quietly deletes the peer's template from the shared drive."
+critical-questions:
+  - "Was the bird's comment actually neutral advice, or did it carry a genuine note of condescension that makes the monkey's reaction more understandable than the story credits it for?"
+  - "Does destroying the advantaged party's achievement provide any real relief from the envy, or does it just remove the visible reminder while leaving the underlying gap in capacity completely unaddressed?"
+status: active

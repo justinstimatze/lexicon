@@ -1,0 +1,19 @@
+id: lex-mdamm
+name: concede-the-rule-but-exempt-this-one-by-a-higher-standard
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A softened correction does not deny the legitimacy of a reaction for people in general, but carves out an exception specifically for the target based on the higher standard they have claimed for themselves, making the correction land as an appeal to aspiration rather than a blanket condemnation. In the Jataka''s tale of Somadatta, Sakka corrects the ascetic this way: "Such as to weep are fain may still lament the dead, Weep not, O sage, ''tis vain to weep, the wise have said."'
+related: [lex-yeqx7]
+evokes: [jataka, sattanipata, somadatta-jataka, concede-the-general-rule-except-for-you, correction-as-appeal-to-aspiration]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-somadatta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 410, Somadatta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Such as to weep are fain may still lament the dead, Weep not, O sage, 'tis vain to weep, the wise have said."
+canonical-instances:
+  - "A mentor doesn't tell a promising junior lawyer that panicking before a hearing is wrong in general — she says most people are entitled to that panic, but someone with the judgment this junior has already shown owes herself better preparation instead."
+critical-questions:
+  - "Does invoking someone's higher aspiration to correct them risk becoming a subtle form of pressure, using their own self-image against them rather than addressing the behavior on its own terms?"
+  - "Is the exception genuinely earned by the target's demonstrated standard, or is it just a flattering frame applied to make an ordinary rebuke easier to accept?"
+status: active

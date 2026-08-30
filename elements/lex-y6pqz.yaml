@@ -1,0 +1,38 @@
+id: lex-y6pqz
+name: toy-model-then-perturb
+type-in: question
+type-out: state
+_tier: molecule
+agent-instruction: "When tackling a hard problem, build the simplest TOY MODEL that exhibits the phenomenon, then PERTURB. The toy is wrong but tractable; perturbations reveal which simplifications were critical. Real-system understanding builds from toy-plus-corrections."
+related: [lex-4yhqs, lex-a5dmb, lex-da3g3, lex-h959m, lex-kkr43, lex-rupk9, lex-v6kay, lex-w9yzj, lex-x9pxs, lex-xz9br]
+scaffolds-from: [lex-kkr43, lex-x9pxs, lex-da3g3, lex-rupk9]
+evokes: [solve-the-easy-version-first, perturb-around-the-tractable, drop-then-restore, restricted-then-full]
+decomposes-into:
+  - lex-kkr43
+  - lex-x9pxs
+assembly: "sequential(lex-kkr43, solve-toy-version, iteration(lex-x9pxs; until=corrections-small))"
+premises:
+  - "you face a problem whose full version resists direct solution (too many coupled variables, too many interactions, too many boundary conditions)"
+  - "you apply lex-kkr43 simplification-by-removing-constraints to drop the hardest constraints, producing a toy version that you CAN solve"
+  - "you solve the toy version exactly (or as exactly as possible)"
+  - "you apply lex-x9pxs perturbation-around-known-solution to restore the dropped constraints as small perturbations around the toy-model solution"
+  - "you check that the perturbative corrections are small (otherwise the toy model wasn't close enough to the true problem and a different toy model is needed)"
+critical-questions:
+  - "is the toy model actually close enough to the true problem that perturbation theory converges? (if the dropped constraints are O(1) rather than O(small parameter), you're not perturbing — you're approximating in a way that gives the wrong answer with confidence)"
+  - "does the toy-model solution actually exist in closed form, or are you about to do all the work over again on the toy version too? (if so, consider a still-simpler toy)"
+  - "are the perturbative corrections invariant-preserving (cf. lex-rupk9)? if the perturbation breaks a symmetry that the toy model had, the perturbation theory may need different machinery (degenerate perturbation theory in QM is the canonical case)"
+  - "have you re-strengthened, or have you stopped at the toy-model solution and started believing it describes the real problem? (this is the pivotal failure mode flagged in lex-kkr43 canonical-instances)"
+lineage:
+  - source: practitioner
+    text: physics-methodological-tradition
+    citation: "the canonical physics workflow throughout 20th-century theoretical physics: solve the harmonic oscillator (toy), perturb to anharmonic; solve the hydrogen atom (toy), perturb to multi-electron atoms; solve restricted 2-body (toy), perturb to 3-body. Feynman's lectures and Landau-Lifshitz both treat this as the methodological default"
+  - source: practitioner
+    text: physics-decomposition-pass
+    citation: "worked example composing lex-kkr43 (already in substrate from Polya pass) with lex-x9pxs (newly promoted in this pass); makes the canonical pairing explicit as a named molecule. Uses sequential() composition operation (lex-2sx7q); now at 8 attestations across the substrate"
+canonical-instances:
+  - "celestial mechanics 3-body problem: drop one body (toy = restricted 3-body, solvable), solve, perturb back to full 3-body via small mass-ratio expansion. Same methodology recurs throughout planetary dynamics"
+  - "quantum chemistry: solve the H atom exactly (toy), then treat multi-electron atoms via perturbation (Hartree-Fock baseline + correlation corrections). Modern computational chemistry is essentially industrial-scale toy-model-then-perturb"
+  - "software architecture: ship the MVP (toy = simplest version that captures the core mechanism), then incrementally restore the dropped features as perturbations around the working baseline. Each feature-addition is a small perturbation (cf. lex-x9pxs canonical-instances)"
+  - "operationally: the molecule's value is naming the COUPLED move — neither lex-kkr43 alone nor lex-x9pxs alone captures the discipline of solving-then-restoring as a unified workflow with critical-question discipline about whether the restoration converges"
+severity-tier: info
+status: active

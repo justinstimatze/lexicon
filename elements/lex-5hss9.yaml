@@ -1,0 +1,19 @@
+id: lex-5hss9
+name: chain-indirect-physical-signs-into-a-hidden-fact-no-one-observed-directly
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'An unobserved, dangerous fact can be reconstructed entirely through a chain of inference from secondary physical signs, without ever directly observing the fact itself. In the Jataka''s tale of Sattubhasta, Senaka deduces the hidden snake''s nature this way: "the snake must be a black snake, brave and fearless; when the sack strikes against the brahmin''s broadside, he shows no motion or quivering; he shows no sign of his being there amidst such an assembly: therefore he must be a black snake, brave and fearless."'
+related: []
+evokes: [jataka, sattanipata, sattubhasta-jataka, deduction-from-indirect-signs, inference-chain-to-a-hidden-fact]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sattubhasta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 402, Sattubhasta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The snake must be a black snake, brave and fearless; when the sack strikes against the brahmin's broadside, he shows no motion or quivering; he shows no sign of his being there amidst such an assembly: therefore he must be a black snake, brave and fearless:"
+canonical-instances:
+  - "A mechanic who never sees the actual crack in an engine block concludes it must be there anyway, reasoning backward from the specific pattern of overheating, the metallic smell, and the exact rattle at idle that only that failure produces."
+critical-questions:
+  - "How does the reasoner distinguish a chain of signs that genuinely narrows to one explanation from a chain that merely feels conclusive because no alternative was actively sought?"
+  - "What is the cost of acting on this inference if it turns out to be wrong, and does that cost justify skipping direct verification when it's available?"
+status: active

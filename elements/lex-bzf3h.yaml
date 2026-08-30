@@ -1,0 +1,22 @@
+id: lex-bzf3h
+name: marking-confirmed-fact-apart-from-folklore-within-one-narrative
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Within a single otherwise-confident account, a narrator can explicitly flag which specific claims are personally verified and which are secondhand folk belief, marking degrees of confidence claim by claim rather than treating an entire narrative as uniformly certain or uniformly uncertain. Recounting Crazy Horse's legendary invulnerability, Black Elk moves through several claims at the same register -- the sacred vision, the protective stone -- until he reaches one he won't personally vouch for: 'they used to say too that he carried a sacred stone with him... I do not know about this; maybe people only thought it.' He then immediately shifts registers again for the very next clause: 'but it is a fact that he never kept one horse long. They wore out.' The hedge and the certainty sit one sentence apart, applied to two different claims within the same paragraph about the same man."
+related: []
+evokes: [black-elk-speaks, wasichus-in-the-hills, i-do-not-know-about-this, but-it-is-a-fact, claim-by-claim-confidence-marking]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch7-wasichus-in-the-hills
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 7, 'Wasichus in the Hills.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "They used to say too that he carried a sacred stone with him, like one he had seen in some vision, and that when he was in danger, the stone always got very heavy and protected him somehow. That, they used to say, was the reason no horse he ever rode lasted very long. I do not know about this; maybe people only thought it; but it is a fact that he never kept one horse long. They wore out."
+canonical-instances:
+  - "A biographer writes that a scientist's colleagues describe her as having predicted a discovery years in advance, flagging that claim as secondhand legend, while stating flatly, on documentary record, the exact date her lab notebook first records the same result."
+  - "A grandparent telling family history says 'people always claimed your great-grandfather could smell rain coming a day early -- I can't vouch for that, but it's true he never once got caught in a storm without his coat.'"
+  - "A journalist reporting on a folk healer notes that patients credit specific herbs with curing illnesses no doctor could name, flagged as unverified belief, while separately confirming, from clinic records, that patient visits to actual doctors dropped sharply in the healer's area."
+critical-questions:
+  - "Does explicitly flagging one claim as uncertain lend unearned credibility to the claims left unflagged in the same account, since a reader may reasonably assume anything not marked as doubtful has been checked with the same rigor?"
+  - "Black Elk hedges the stone but states the fast-wearing-horses claim as fact -- is the second claim actually independently verifiable by him, or is it just as reliant on communal memory as the first, only felt as more solid because it's more mundane?"
+  - "Why single out the stone specifically for a disclaimer, when the surrounding claims, the vision, the invulnerability, the near-thirty-year survival unwounded by any enemy, are at least as extraordinary and equally unverifiable by Black Elk's own direct observation?"
+status: active

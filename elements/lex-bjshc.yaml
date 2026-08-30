@@ -1,0 +1,19 @@
+id: lex-bjshc
+name: disuse-decays-a-capacity-faster-than-active-use-wears-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Before protecting a skill, relationship, or piece of equipment by minimizing its use, check whether the thing in question actually decays faster from disuse than it wears from being exercised. Franklin's Poor Richard states the comparison directly: 'Sloth, like rust, consumes faster than labour wears, while the used key is always bright.' A key left in a drawer to spare it wear tarnishes; the same key worked daily in a lock stays bright, because the friction that would count as wear is the same friction that scours off the corrosion disuse would otherwise leave unchecked. The claim depends on the decay mechanism being oxidation-like: continuous, background, and running whether or not the object gets used at all. A capacity whose decay is instead mechanical fatigue, accumulating strictly in proportion to use, works the opposite way. Check which regime applies before deciding that guarding something by not using it protects it."
+related: []
+evokes: [franklin, way-to-wealth, disuse-decays-faster-than-use-wears, protective-idleness-backfires]
+lineage:
+  - source: primary
+    text: franklin-1758-way-to-wealth
+    citation: "Benjamin Franklin, Father Abraham's Speech ('The Way to Wealth' / 'Poor Richard Improved'), 1758 (Gutenberg #43855). Verified verbatim against a direct extraction of the held copy."
+    quote: "Sloth, like rust, consumes faster than labour wears, while the used key is always bright"
+canonical-instances:
+  - "a professional skill (a language, a surgical technique, a muscle-memory craft) atrophies faster from years of disuse than it would have degraded from the ordinary strain of continued practice, so 'resting' the skill to preserve it is the opposite of protective."
+critical-questions:
+  - "How does someone distinguish, in advance, a decay-by-disuse mechanism from a wear-by-use mechanism before choosing whether to protect a valuable thing by using it or by sparing it?"
+  - "Does the analogy hold for a capacity with a genuinely consumable component, where each use also spends down something finite like a body's total lifetime cartilage, or does it only work for capacities that regenerate under exercise?"
+status: active

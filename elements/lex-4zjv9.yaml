@@ -1,0 +1,21 @@
+id: lex-4zjv9
+name: diving-repeatedly-for-a-reflection-instead-of-the-real-thing
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "When you see something desirable and dive straight for it, check whether you're looking at the thing itself or its reflection -- repeated failed attempts to grab it are a strong signal you're chasing an image, and the real object may be sitting in plain sight in the opposite direction from where you're looking. In Radin's Winnebago Trickster cycle, Trickster looks into a stream and sees plums: 'much to his surprise he saw many plums there.' He dives for them, and dives again, hard enough to knock himself unconscious against a rock at the bottom, before he finally understands what happened: 'as he opened his eyes, there on the top of the bank he saw many plums. What he had seen in the water was only the reflection.' The actual plums were on the bank the entire time, visible if he had simply looked up instead of down. His own verdict is blunt: 'Oh, my, what a stupid fellow I must be! I should have recognized this. Here I have caused myself a great deal of pain.' The failure wasn't a lack of effort -- he dove twice, the second time at real physical cost -- it was directing all of that effort at an image instead of checking where the image was coming from. Diagnostic move: when repeated direct attempts to obtain something keep failing in the same way, stop and ask whether what you're pursuing is the source or a reflection of it -- the real thing is often oriented oppositely from where its image appears."
+related: []
+evokes: [radin-winnebago-trickster-cycle, wakdjunkaga, what-he-had-seen-in-the-water-was-only-the-reflection, i-have-caused-myself-a-great-deal-of-pain]
+lineage:
+  - source: primary
+    text: radin-trickster-dives-for-plums-that-are-only-a-reflection-on-the-water
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'The Winnebago Trickster Cycle,' episode 26. Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "As he was engaged in this cleansing he happened to look in the water and much to his surprise he saw many plums there. He surveyed them very carefully and then he dived down into the water to get some. But only small stones did he bring back in his hands. Again he dived into the water. But this time he knocked himself unconscious against a rock at the bottom. After a while he floated up and gradually came to. He was lying on the water, flat on his back, when he came to and, as he opened his eyes, there on the top of the bank he saw many plums. What he had seen in the water was only the reflection. Then he realized what he had done. 'Oh, my, what a stupid fellow I must be! I should have recognized this. Here I have caused myself a great deal of pain.'"
+canonical-instances:
+  - "An analyst spends weeks trying to replicate a competitor's viral marketing result by copying the exact visible tactics reported in press coverage, failing repeatedly, before realizing the press coverage itself was describing an effect of a private internal process, the actual cause, that was never visible in what was being copied."
+  - "A hiker keeps trying to reach a beautiful lake shown reflected in a puddle on the trail, assuming the lake must be just ahead in that direction, and only after backtracking in frustration looks behind them to see the real lake on the opposite side of the trail entirely."
+critical-questions:
+  - "Would Trickster have recognized the reflection on the first attempt if he had not been so eager, or does the story suggest that desire itself, wanting the plums badly, is what prevents the simple check of looking around before diving?"
+  - "Is there a meaningful difference between a reflection, which points toward the real thing being in the opposite direction, and a more general illusion with no reliable relationship to where the real thing actually is -- does this diagnostic generalize past specifically reflective mistakes?"
+  - "Does physical cost, Trickster knocking himself unconscious, function as a forcing event that finally makes him look up and around, and would a less costly first failure have let the error continue longer rather than being corrected on the second attempt?"
+status: active

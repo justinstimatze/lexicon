@@ -1,0 +1,19 @@
+id: lex-5yq5j
+name: how-someone-treats-their-current-benefactor-predicts-your-own-fate
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Someone's willingness to betray the very person who rescued or sustained them is a track record that predicts how they'll eventually treat any new party they depend on, including you. In the Jataka's tale of the sage and the rescued woman, a sage saves a drowning woman, is drawn from his ascetic life to support her, and is later betrayed by her when she lures him to a robber chief hoping he'll be killed. On hearing the full history, the robber chief doesn't kill the sage — he kills the woman instead, reasoning that anyone capable of that thorough a betrayal of her actual savior would eventually do the same to him. The inference doesn't require the robber to trust the sage directly; it only requires reading her documented behavior toward one benefactor as a forecast of her behavior toward the next."
+related: []
+evokes: [jataka, ekanipata, takka-jataka, track-record-with-a-prior-party-predicts-your-own-fate, betrayal-of-a-benefactor-forecasts-future-betrayal]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-takka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 63, Takka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"If she can feel so little for one who is so good and has done so much for her, what injury would she not do to me? She must die.\""
+canonical-instances:
+  - "A new business partner learns that a prospective hire quietly diverted clients away from the mentor who trained and vouched for them at their last job, and turns down the hire on the reasoning that the same willingness to betray a benefactor will eventually be turned on the new partnership too."
+critical-questions:
+  - "Does this inference hold up when the original betrayal had a specific, non-generalizable cause — genuine coercion, a one-time desperate circumstance — that wouldn't recur in a new relationship?"
+  - "Is there a point at which acting on this prediction preemptively, the way the robber chief does, becomes its own injustice against someone who hasn't yet done anything to the party judging them?"
+status: active

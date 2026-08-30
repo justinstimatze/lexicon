@@ -1,0 +1,19 @@
+id: lex-64tcu
+name: an-advisor-whose-status-is-derivative-pushes-the-ruler-toward-conquest
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A subordinate advisor whose own power depends entirely on the ruler's rank has no path to greater status except by pushing the ruler toward greater conquest, and will frame that self-interest as loyal strategic counsel. The advisor's stake in the plan is exactly what makes the plan worth distrusting: he wants the derivative title conquest would hand him, and the ruler's actual interests are a secondary consideration at best. In the Jataka's tale of Prince Bodhi, a royal priest gets his king to hearken by dangling a matched promotion of his own: '...India to be seized by this king, and if he should thus become sole monarch and I become sole priest?'"
+related: []
+evokes: [jataka, pancanipata, dhonasakha-jataka, derivative-status-drives-parasitic-counsel, advisors-self-interest-disguised-as-loyal-strategy]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dhonasakha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 353, Dhonasakha-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "...India to be seized by this king, and if he should thus become sole monarch and I become sole priest?"
+canonical-instances:
+  - "A chief of staff whose entire influence depends on the CEO's title keeps pushing an aggressive acquisition strategy, framing every pitch as pure strategic necessity. The company growing bigger is the only route to the chief of staff's own influence growing with it, and that dependency is never mentioned in the pitch."
+critical-questions:
+  - "Does noticing that an advisor benefits from their own advice automatically make the advice wrong, or can self-interest and genuinely sound strategy simply coincide, leaving the motive irrelevant to whether the plan should be followed?"
+  - "Is the ruler actually deceived here, or does the ruler already know the advisor's motive and accept the counsel anyway because it happens to align with what the ruler independently wants?"
+status: active

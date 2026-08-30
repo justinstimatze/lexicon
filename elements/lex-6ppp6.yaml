@@ -1,0 +1,20 @@
+id: lex-6ppp6
+name: coalition-ease-of-formation-trades-off-against-its-flexibility
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "A coalition's ease of forming and its capacity to actually produce change trade off against each other, in a way that perversely starves the issues most needing a coalition's help. A coalition of like-minded people forms easily and holds together well, precisely because there's no internal disagreement to manage and no felt need for anyone in it to adapt -- but that same homogeneity is what makes it inflexible once change is actually required. A coalition spanning genuinely broad, conflicting interests could in principle negotiate its way to real change, but is hard to hold together in the first place, since the interests pulling on it are so widespread. Freeman names the resulting irony directly: 'Hardly anyone can disagree with the aims of the United Way, hence, a coalition that supports its activities is quite easy to form and hold together. An issue such as \"women's rights in the corporation\" is a different story, and is viewed as so \"controversial\" that few will try to form a coalition committed to equal opportunity for women.' The issues most contested, and therefore most in need of a broad coalition's flexibility, are exactly the ones too controversial to draw anyone willing to attempt building one."
+related: []
+evokes: [freeman-1984-strategic-management, chapter-9, coalition-building, the-united-way, leadership-tasks]
+lineage:
+  - source: primary
+    text: freeman-1984-strategic-management-ch9
+    citation: "R. Edward Freeman, Strategic Management: A Stakeholder Approach (Pitman, 1984), Chapter 9 'The Role of the Executive,' section 'Leadership Tasks.'"
+    quote: "CEOs often believe that their way is the only way. 'What the boss says, goes' is still the rule internally, but when the decision-making arena is the external environment it no longer holds. Coalitions formed strictly of like-thinking individuals tend to be inflexible. There is no room, and initially no need, for change. On the other hand, coalitions of a broad range of interests are difficult to hold together, since the interests are so widespread. CEOs must see their role as taking a leadership position in forging coalitions on a host of difficult issues. Hardly anyone can disagree with the aims of the United Way, hence, a coalition that supports its activities is quite easy to form and hold together. An issue such as 'women's rights in the corporation' is a different story, and is viewed as so 'controversial' that few will try to form a coalition committed to equal opportunity for women."
+canonical-instances:
+  - "A tech industry association effortlessly rallies members around opposing a proposed data-privacy law everyone dislikes. The one time it tries to form a joint position on AI safety standards, where member companies genuinely disagree, the same mechanics that made the first issue trivial make this one nearly impossible to organize around."
+  - "A neighborhood association unites instantly to oppose a new highway everyone agrees would hurt property values, but has never once formed a working group on affordable-housing zoning, the one local issue where residents' actual interests diverge sharply enough that a coalition would need real internal negotiation to hold together."
+critical-questions:
+  - "Is there a way to deliberately build a broad, flexible coalition on a contested issue despite this tradeoff, or does the difficulty of holding such a coalition together mean leadership effort is better spent lowering the controversy first, before attempting to organize around it?"
+  - "Does an easy, homogeneous coalition's inflexibility only become a liability once change is actually required, meaning the tradeoff is invisible and costless right up until the moment it matters most?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-jmg2g
+name: agreed-upon-risk-deferred-into-catastrophe
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A danger that's been explicitly identified and named, with a clear recommended action already available, can still be fatal if acting on it keeps getting deferred out of simple inertia rather than any disagreement about the risk itself. In the Jataka's tale of the three fish, one companion warns the other two directly that their neighborhood is dangerous, fishermen actively work the waters, and they should relocate to safety — and they agree with the warning completely while doing nothing about it for three months, simply putting off the move each day until fishermen finally net them both. The failure wasn't disbelief; it was that agreement with a warning was never converted into the action the warning actually called for."
+related: []
+evokes: [jataka, ekanipata, mitacinti-jataka, agreed-upon-risk-deferred-into-catastrophe, inertia-not-disagreement-defeats-a-warning]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mitacinti-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 114, Mitacinti-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"This is a dangerous and perilous neighbourhood, where fishermen catch fish with nets, basket-traps, and such like tackle. Let us be off to the wild country again.\""
+canonical-instances:
+  - "A team agrees unanimously in a postmortem that a specific unpatched dependency poses a serious security risk and commits to upgrading it, then lets the upgrade slip for three consecutive sprints in favor of other priorities, until an exploit targeting that exact dependency takes the service down."
+critical-questions:
+  - "What actually converts agreement into action in cases where it does happen — is there something specific that would have moved these two fish to leave sooner, or is deferral simply the default outcome of any risk that hasn't yet materialized?"
+  - "Does assigning blame to inertia let the fish off too easily, given that repeatedly choosing not to act, day after day, is itself a decision rather than a passive failure to decide?"
+status: active

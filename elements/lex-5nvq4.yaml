@@ -1,0 +1,21 @@
+id: lex-5nvq4
+name: a-stated-obligation-can-be-scoped-to-in-group-membership
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone states an absolute-sounding rule of fair dealing — a deal's a deal, we keep our word — check who the rule is actually scoped to before treating it as a general ethical commitment. The Ferengi Rules of Acquisition state this pattern directly rather than leaving it implicit: 'A contract is a contract is a contract... but only between Ferengi.' The same actor can hold a rule that reads as universal while treating it as void by default toward anyone outside a specific membership boundary. The tell is in the qualifier most people skip past — find it before assuming a stated principle applies to you."
+related: []
+evokes: [ferengi, rules-of-acquisition, star-trek, in-group-scoping, contractual-obligation]
+lineage:
+  - source: primary
+    text: star-trek-ds9-rules-of-acquisition-17
+    citation: "Star Trek: Deep Space Nine, Rule of Acquisition #17, spoken dialogue from 'Body Parts' (season 4, episode 25, 1996). Verified against Memory Alpha's sourced compilation of on-screen Rules of Acquisition dialogue (a wiki page functioning as a transcript aggregator with per-rule episode citations, not quoted for its own editorial framing)."
+    quote: "A contract is a contract is a contract... but only between Ferengi."
+canonical-instances:
+  - "The rule's own drafting history, per the same source material, shows the scoping clause was a later addition — an earlier draft of the same line reportedly ended after the third repetition, with no species qualifier at all — which means the boundary was added deliberately rather than being an original, unexamined feature of the rule."
+  - "A company's stated code of ethics binding toward shareholders and named business partners while explicitly excluding contractors, gig workers, or 'non-employees' from the same protections runs the identical structure: an absolute-sounding commitment with a membership boundary doing the real work."
+critical-questions:
+  - "Is stating the scope boundary explicitly (as this rule does) actually better or worse than leaving it unstated — does naming the boundary make the exclusion harder to challenge by making it look deliberate and settled rather than an oversight?"
+  - "Does an in-group-scoped rule ever function as a genuine ethical commitment within the group, or does knowing the boundary exists corrode trust in the rule even among those it covers?"
+  - "How would an outsider detect that a stated rule carries an unstated membership boundary before relying on it, in a case where the boundary isn't spelled out the way this one is?"
+status: active

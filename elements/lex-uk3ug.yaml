@@ -1,0 +1,19 @@
+id: lex-uk3ug
+name: a-leader-draws-the-enemys-blow-as-cover-for-the-group
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "A leader facing a mission with unavoidable risk can deliberately draw the enemy's response onto themselves, so the rest of the group can finish the objective no matter what happens to them. The plan doesn't try to protect the leader too. It's built around treating the leader's capture or loss as an acceptable cost the mission was designed to survive. In the Jataka's tale of the crow captain, a crow tasked with fetching the king's food plans to provoke the food-carrier into dropping the dishes by attacking his face, sacrificing himself to capture while the flock secures the food regardless: 'When the food is taken up, I'll make the man drop the dishes. Once that is done there's an end of me. So four of you must fill your mouths with the rice, and four with the fish, and feed our royal pair with them; and if they ask where I am, say I'm coming.'"
+related: []
+evokes: [jataka, tikanipata, supatta-jataka, a-leader-deliberately-absorbs-the-response-so-the-mission-survives-without-them, a-plan-built-around-the-leaders-expected-loss-not-their-protection]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-supatta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 292, Supatta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "While waiting for the king's food to be served, he gave his directions to these: \"When the food is taken up, I'll make the man drop the dishes. Once that is done there's an end of me. So four of you must fill your mouths with the rice, and four with the fish, and feed our royal pair with them; and if they ask where I am, say I'm coming.\""
+canonical-instances:
+  - "A whistleblower who knows going public will end their own career times the disclosure deliberately, so the company's entire legal response lands on them alone. Colleagues are briefed in advance on preserving the evidence, so the investigation continues no matter what happens to the whistleblower's own position."
+critical-questions:
+  - "Does this plan actually require the leader's sacrifice to succeed, or could the same outcome have been achieved with a less costly diversion that the crow simply didn't consider?"
+  - "How does a group decide when this kind of leader-absorbs-the-blow plan is a legitimate strategic choice versus an avoidable risk the leader took on without adequately weighing safer alternatives?"
+status: active

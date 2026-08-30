@@ -1,0 +1,29 @@
+id: lex-8p56v
+name: assignment-without-choice-converts-preference-into-lost-satisfaction
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone in a service role develops preferences among the people they serve, but the role's structure denies them any power to select whom they actually work with — patients assigned rather than chosen, cases randomly distributed, callers routed by queue rather than by agent choice — do not expect the preference to manifest as reduced CONTACT with the disfavored type. It cannot: the assignment mechanism guarantees exposure regardless of preference. What it manifests as instead is reduced SATISFACTION from the contacts that do occur. Martin states this directly: 'Preference for particular types of patients, we have suggested, in part reflects motivated avoidance of patients who make the performance of role-tasks difficult and stressful. However, fourth-year students are assigned to patients, and therefore have no opportunity to choose those who actually conform to their preferences. Under these circumstances, the level of gratification from patient contacts attained by students with preferences should be less than that attained by those who are equally willing to work with all types of patients, as Table 25 shows to be the case.' The data bore this out sharply: students reporting 4 or 5 preferences reported 'great satisfaction' from patient contacts at markedly lower rates than students reporting none or one. Martin's explanation for why having some satisfying matches doesn't offset this: 'Although students may find it satisfying to work with patients who accord with their preferences, this seems to be outweighed by the necessity of dealing with others who do not.' Diagnostic move: in any role where the person cannot select their caseload, a strong stated preference is not a behavior-shaping lever — it won't change who they end up serving — it is a satisfaction-shaping cost, borne every time an assignment falls on the disfavored side, with no compensating discount available on the days it doesn't. This reframes 'help them not have preferences' not as a favor to the people being served, but as a direct route to the preference-holder's own well-being under a no-choice structure."
+related: [lex-edvrb]
+scaffolds-from: [lex-edvrb]
+evokes: [martin-1957, table-25-satisfaction-and-number-of-preferences, assigned-not-chosen-patients, no-opportunity-to-choose, osiers-precept-of-equanimity]
+lineage:
+  - source: primary
+    text: martin-1957-assigned-patients-no-opportunity-to-choose
+    citation: "William Martin, \"Preferences for Types of Patients,\" in Merton, Reader, and Kendall, eds., The Student-Physician (Cambridge: Harvard University Press for The Commonwealth Fund, 1957), p.198."
+    quote: 'Preference for particular types of patients, we have suggested, in part reflects motivated avoidance of patients who make the performance of role-tasks difficult and stressful. However, fourth-year students are assigned to patients, and therefore have no opportunity to choose those who actually conform to their preferences. Under these circumstances, the level of gratification from patient contacts attained by students with preferences should be less than that attained by those who are equally willing to work with all types of patients, as Table 25 shows to be the case.'
+  - source: primary
+    text: martin-1957-outweighed-by-necessity-of-dealing-with-others
+    citation: "William Martin, \"Preferences for Types of Patients\" (1957), p.198."
+    quote: 'Although students may find it satisfying to work with patients who accord with their preferences, this seems to be outweighed by the necessity of dealing with others who do not.'
+  - source: primary
+    text: martin-1957-satisfaction-question-footnote
+    citation: "William Martin, \"Preferences for Types of Patients\" (1957), p.199, Table 25 footnote."
+    quote: 'The question was: "How much satisfaction have you derived from the physician-patient relationships you have had during the current semester—a great deal, a fair amount, only a little, or none at all?"'
+canonical-instances:
+  - "A public defender assigned cases by docket rotation, with no ability to decline, develops a strong preference against a certain category of client; because the rotation guarantees exposure regardless of preference, the preference shows up only in the defender's own burnout and case-satisfaction scores, not in a reduced share of that client type on their docket."
+  - "A ride-share driver working through an app's automatic dispatch, unable to decline a match without a penalty, develops a preference for short, high-tip rides; the preference cannot change the mix of rides dispatched to them, so it surfaces purely as lower self-reported job satisfaction on days the mix skews toward the disfavored ride type, with no behavioral escape valve available."
+critical-questions:
+  - "Martin's data is cross-sectional: students with more preferences report less satisfaction, but the essay does not rule out the reverse causal direction — that generally dissatisfied students are simply more prone to expressing preferences of all kinds, rather than the preferences themselves lowering satisfaction. Which direction does the causal arrow actually run, and could an independently-timed prior measure of satisfaction (compare lex-s3c3x's method) separate the two?"
+  - "Does the 'no escape valve' framing hold up if assignment is only PARTIALLY random — for instance, if senior staff can informally trade or decline the worst-fitting cases while junior staff cannot? At what threshold of actual selection-power does the preference stop being a pure satisfaction cost and start becoming, once again, a behavior-shaping lever?"
+status: active

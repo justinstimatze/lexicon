@@ -1,0 +1,19 @@
+id: lex-sncvk
+name: verify-a-claim-by-checking-its-necessary-physical-consequences
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A claim about the world implies a set of physical consequences that would necessarily have occurred if it were true, and those consequences can be checked independently of the claimant's confidence or appearance. In the Jataka's caravan tale, a disguised goblin tells a party of merchants it is raining ahead and urges them to dump their water. Rather than weigh the traveler's plausibility, the wise leader interrogates the physical chain rain would have to leave behind: wind-carry range, cloud-crest visibility, lightning visibility, thunder audibility, each with a known perceptible distance. None of his men experienced any of it, so the claim fails before anyone has to guess whether the traveler is lying. The diagnostic generalizes past weather: name what a claim would necessarily produce if true, then check whether that specific trace is present, rather than adjudicating the claimant's sincerity or credentials."
+related: []
+evokes: [jataka, ekanipata, apannaka-jataka, verify-necessary-corroborates, derivable-physical-consequences-of-a-claim]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-apannaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 1, Apannaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"We have just been told by some people that it is raining just on ahead, in the belt of forest; now how far does a rain-wind carry?\" \"A league, sir.\" \"And has this rain-wind reached any one man here?\" \"No, sir.\" \"How far off can you see the crest of a storm-cloud?\" \"A league, sir.\" \"And has any one man here seen the top of even a single storm-cloud?\" \"No, sir.\" \"How far off can you see a flash of lightning?\" \"Four or five leagues, sir.\" \"And has any one man here seen a flash of lightning?\" \"No, sir.\" \"How far off can a man hear a peal of thunder?\" \"Two or three leagues, sir.\" \"And has any man here heard a peal of thunder?\" \"No, sir.\""
+canonical-instances:
+  - "A vendor claims a used industrial compressor was 'barely run,' and a buyer checks this against what light use would necessarily leave behind — hour-meter reading, bearing wear, oil-change intervals on the maintenance log — rather than judging it by how clean the vendor kept the paint."
+critical-questions:
+  - "What happens when a claim's necessary consequences are themselves unobservable or already decayed by the time anyone checks — does the diagnostic just fail silently, or does its absence become evidence in the other direction?"
+  - "Could a sophisticated deceiver stage the corroborating traces deliberately, and if so, does checking for them still add real protection or just raise the cost of a lie that was already worth telling?"
+status: active

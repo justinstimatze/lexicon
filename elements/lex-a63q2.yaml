@@ -1,0 +1,19 @@
+id: lex-a63q2
+name: execute-revenge-by-exactly-reenacting-the-original-crimes-method
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'An avenger can execute retribution by deliberately replicating the original crime''s method, location, and physical posture — the same act, the same grip, the same spot — and explicitly announce the parallel to the victim before striking. In the Jataka''s tale of Parantapa, the prince does exactly this to his father''s killer: "the prince took his top-knot in the left hand and the sword in the right, and said, ''At this spot you took my father by the top-knot and killed him as he cried out: even so will I do to you.''"'
+related: []
+evokes: [jataka, sattanipata, parantapa-jataka, revenge-by-exact-reenactment, lex-talionis-mirrored-punishment]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-parantapa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 416, Parantapa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "When he went down into the water, the prince took his top-knot in the left hand and the sword in the right, and said, \"At this spot you took my father by the top-knot and killed him as he cried out: even so will I do to you.\""
+canonical-instances:
+  - "Ousted from the company by a boardroom maneuver he never saw coming, a founder returns years later and removes his successor using the exact same procedural loophole and the same closed-door meeting format, naming the parallel out loud before the vote."
+critical-questions:
+  - "Does announcing the parallel before striking serve the avenger's sense of justice, or does it risk giving the target one last chance to escape or defend against the exact method being used?"
+  - "Does exact reenactment actually deliver proportionate justice, or does naming and repeating the original act's cruelty just add a second wrong to the first?"
+status: active

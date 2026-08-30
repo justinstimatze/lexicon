@@ -1,0 +1,19 @@
+id: lex-z8e7t
+name: concealing-a-want-preempts-the-sharing-norm-disclosing-it-would-trigger
+type-in: situation
+type-out: posture
+_tier: atomic
+agent-instruction: "Suppressing disclosure of a want can be a deliberate move to preempt the redistribution norm that admitting it would activate, accepting a real personal cost as the price of avoiding a claim on your resources. In the Jataka's tale of the miser Illisa, a wealthy man craves a stuffed cake but won't say so out loud, reasoning explicitly that voicing the want would obligate him to share it with a host of others who'd expect a portion — costing him far more rice, ghee, and sugar than the cake itself is worth. He suffers visibly, wasting away with unspoken longing, rather than let the want become known and trigger a social claim he has no way to refuse once it's out in the open."
+related: []
+evokes: [jataka, ekanipata, illisa-jataka, concealing-a-want-preempts-a-sharing-claim, self-inflicted-cost-to-avoid-social-obligation]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-illisa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 78, Illisa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"If I say I should like a stuffed cake, a whole host of people will want to share my meal; and that means getting through ever so much of my rice and ghee and sugar. I mustn't say a word to a soul.\""
+canonical-instances:
+  - "A manager who wants a specific piece of equipment upgraded avoids mentioning it in a team meeting, aware that voicing the request would trigger a norm where every other team member's equipment complaints get raised and funded at the same time, and settles for the outdated equipment instead."
+critical-questions:
+  - "Is the sharing norm being avoided here a real, binding social expectation, or does Illisa's fear of it reflect a distorted, self-serving read of an obligation that might not actually apply the way he assumes?"
+  - "Does concealment actually cost less than sharing would have, once the visible suffering and the eventual exposure of the concealment itself are counted as part of the price?"
+status: active

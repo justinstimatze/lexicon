@@ -1,0 +1,21 @@
+id: lex-qp3df
+name: the-fire-that-saves-you-from-cold-can-be-what-finds-you
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "The same signal that keeps you alive against one threat can be exactly what exposes you to another, and there's no way to have the benefit without also broadcasting the risk. In Cushing's telling, a lost maiden finds a cave and rebuilds a dying fire to survive a night of falling snow -- an unambiguously correct decision that saves her from freezing. But a Cannibal Demon roaming the same dark valley sees precisely what the fire was built to be seen as: warmth and shelter. 'One of the Cannibal Demons of those days ... had seen the light of her fire through the cave entrance, with his terrible staring eyes, and assuming it to be a lost wanderer, had cried out, and so led her to guide him to her place of concealment.' The fire didn't fail her -- it did exactly what fires do, warm the person who lit it and announce their location to anything else in the dark that's looking for warmth. Both effects come from the identical light; there was no version of the fire that kept her warm without also being visible. Diagnostic move: when a resource is protecting you against one danger by making your position obvious, unmistakable, or attractive, recognize that you haven't solved your exposure problem by solving your survival problem -- the same signal serves both audiences, and only one of them wishes you well."
+related: []
+evokes: [the-same-signal-serves-both-the-friendly-and-the-hostile-audience, cushing-the-rabbit-huntress-and-her-adventures, saw-the-light-of-her-fire-through-the-cave-entrance, a-lost-wanderer-led-him-to-her-place-of-concealment]
+lineage:
+  - source: primary
+    text: cushing-maidens-fire-both-saves-and-betrays-her
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Rabbit Huntress and Her Adventures.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'She got up, and went nearer to the entrance of the cavern. ... In dismay and terror she threw her hands into the air, and, crouching down, rushed into the cave and retreated to its farthest limits, where she sat shuddering with fear, for she knew that one of the Cannibal Demons of those days, perhaps the renowned Atahsaia of the east, had seen the light of her fire through the cave entrance, with his terrible staring eyes, and assuming it to be a lost wanderer, had cried out, and so led her to guide him to her place of concealment.'"
+canonical-instances:
+  - "A hiker lost overnight in cold terrain lights a signal fire that keeps them from hypothermia and is also spotted, from much farther away than any searcher, by whatever else in the area is drawn to firelight, with no way to get the warmth without also broadcasting the exact same signal to both audiences."
+  - "A small business builds a strong public brand and visible storefront to attract customers, and that same visibility is what draws a well-funded competitor's attention to an underserved niche the business had been quietly profitable in, the marketing that built the customer base being indistinguishable, from the outside, from the marketing that invited the competition."
+critical-questions:
+  - "Was there any way for the maiden to have kept herself warm that night without producing a signal visible from outside the cave, or does surviving a cold night in that terrain necessarily require a light source that also announces her position?"
+  - "Does the story suggest the maiden could have detected the risk in advance and taken some precaution, such as shielding the fire's light from the entrance, or does it present the exposure as an unavoidable cost of the only viable survival option available to her?"
+  - "Is this pattern specific to literal fire and light, or does it generalize to any signal that serves a protective function for its intended audience while remaining equally legible to an audience it was never meant for?"
+status: active

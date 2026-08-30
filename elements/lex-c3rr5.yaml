@@ -1,0 +1,29 @@
+id: lex-c3rr5
+name: lazy-initialization
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When initialization is expensive and may not be needed, surface lazy initialization — defer the cost until first actual use; the saving is real when the use is rare, the cost is a slight first-call latency."
+related: [lex-9akfh]
+evokes: [defer-until-needed, on-demand-construction, pay-cost-when-incurred-not-when-declared]
+lineage:
+  - source: primary
+    tradition: gof
+    text: gamma-helm-johnson-vlissides-1994
+    citation: "Design Patterns, recurring across Singleton (lazy single-instance), Proxy (deferred real-subject creation), Flyweight (interned-on-first-use)"
+  - source: practitioner
+    text: fowler-poeaa
+    citation: "Patterns of Enterprise Application Architecture — Lazy Load pattern (deferred loading of object data)"
+  - source: practitioner
+    text: gof-decomposition-pass
+    citation: "promoted from cross-family attestation: appears in Creational (Singleton) and Structural (Proxy, Flyweight)"
+canonical-instances:
+  - "deferring construction of an expensive resource until its first actual use — pay the construction cost only if and when the resource is actually accessed"
+  - "the Proxy pattern's defining move: hold a reference but don't materialize the real subject until a method is called"
+  - "broader than software: the cognitive analog is 'don't think through this branch of the decision tree until you know it actually matters' — premature optimization's antidote at the planning level"
+critical-questions:
+  - "does the lazy-init actually save cost, or only defer it? deferral has value only if the resource may never be used at all (or used much later than declaration). If always used eventually, lazy-init only moves the cost — and adds null-check overhead at every access"
+  - "is the deferred construction thread-safe? lazy-init under concurrency requires synchronization (double-checked locking, sync.Once, lazy_static) — naive lazy-init in multithreaded code is a textbook race-condition source"
+  - "does deferral hide failures? eager construction fails at startup (loud, fixable); lazy construction fails at first-use (silent until the right code path runs). If the resource MIGHT fail to construct, lazy-init defers the failure into production"
+  - "is this distinct from lex-9akfh decoupling-via-indirection? lazy-init defers construction in TIME (when); indirection inserts a layer in SPACE (who talks to whom). Proxy combines them: an indirection layer that performs lazy-init. They co-fire but operations are orthogonal"
+status: active

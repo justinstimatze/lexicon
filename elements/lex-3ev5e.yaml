@@ -1,0 +1,19 @@
+id: lex-3ev5e
+name: probing-reception-in-small-steps-before-full-recommitment
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'After fleeing in fear of punishment, a person can avoid returning outright and instead probe the authority''s likely reaction first through an intermediary, then return alone, then bring dependents — escalating exposure only as each test comes back safe. This names the general risk-management pattern of testing a hostile environment in small increments before committing fully. In the Jataka''s tale of Sumangala, the fugitive park-keeper does exactly this over three years: "After a year, Sumangala determined to find out what the king thought: he came and asked a minister whom he saw to find out what the king thought of him. The minister praised Sumangala before the king: but he was as if he heard not. The minister said no more, but told Sumangala that the king was not pleased with him. After another year he came, and again in the third year he brought his wife and children."'
+related: []
+evokes: [jataka, atthanipata, sumangala-jataka, trial-balloon, incremental-risk-testing]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sumangala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 420, Sumangala-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "After a year, Sumangala determined to find out what the king thought: he came and asked a minister whom he saw to find out what the king thought of him. The minister praised Sumangala before the king: but he was as if he heard not. The minister said no more, but told Sumangala that the king was not pleased with him. After another year he came, and again in the third year he brought his wife and children."
+canonical-instances:
+  - "An employee who left a company on bad terms tests the waters before reapplying by first asking a former colleague, still on staff, to casually mention his name to the new manager and gauge the reaction before he ever submits an application himself."
+critical-questions:
+  - "What does the intermediary's report actually reveal about the authority's true reaction, given that the intermediary might misjudge silence, or the authority might mask their real feelings from a third party?"
+  - "How many safe tests are enough before full recommitment is justified, and what happens if the environment changes between the last test and the final step?"
+status: active

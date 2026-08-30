@@ -1,0 +1,19 @@
+id: lex-tegsv
+name: a-self-directed-conditional-curse-signals-truthfulness-when-nothing-else-can
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When no external evidence exists to verify innocence, offering an oath that invokes severe personal misfortune on yourself if you're lying functions as a costly signal precisely because a genuinely guilty person has a strong incentive not to invoke it — the willingness to accept the risk becomes the evidence. In the Jataka's tale of the mango orchard, four merchants' daughters accused of theft each swear an oath calling down specific curses on themselves if guilty, and the accuser accepts this as proof: 'She that did thy mangoes eat, As her lord shall own some churl, That with dye grey hairs would cheat And his locks with tongs would curl.'"
+related: []
+evokes: [jataka, catukkanipata, ambacora-jataka, a-self-directed-curse-signals-truth-through-its-own-cost, willingness-to-accept-risk-substitutes-for-missing-evidence]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-ambacora-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 344, Ambacora-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "She that did thy mangoes eat, As her lord shall own some churl, That with dye grey hairs would cheat And his locks with tongs would curl."
+canonical-instances:
+  - "With no camera footage and no witnesses, a business partner accused of skimming funds offers to sign a binding agreement forfeiting their entire share of the company if an audit ever finds even a dollar out of place — the specific, self-imposed cost of the offer is what convinces the other partners more than any denial could."
+critical-questions:
+  - "Does this only work on people who genuinely believe the curse or consequence carries weight — would a skeptic willing to lie also be willing to accept a consequence they don't actually believe will materialize?"
+  - "Is there a risk that an innocent person, terrified of the invoked consequence regardless of its unlikelihood, would refuse the oath out of superstition alone, making refusal look like guilt when it isn't?"
+status: active

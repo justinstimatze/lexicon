@@ -1,0 +1,19 @@
+id: lex-yx6bf
+name: impending-ruin-blinds-an-expert-to-danger-in-their-own-specialty
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A general principle explains an expert''s failure at the very thing they are expert in: impending doom itself impairs the faculty that would normally detect danger, rather than the expert simply lacking skill. In the Jataka''s tale of Gijjha, this is stated of a vulture who can spot carrion at vast range yet misses a snare at his own feet: "Carrion a vulture sights across a hundred leagues of land; Why do you fail to see a snare and net so close at hand?" ... "When ruin comes upon a man, and fate his death demand, He fails to see a snare or net although so close at hand."'
+related: []
+evokes: [jataka, sattanipata, gijjha-jataka, catastrophe-induced-blindness, expertise-fails-at-the-critical-moment]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-gijjha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 399, Gijjha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Carrion a vulture sights across a hundred leagues of land; Why do you fail to see a snare and net so close at hand?"
+canonical-instances:
+  - "A veteran risk manager who has flagged a hundred smaller frauds fails to notice the one unfolding inside his own department, in the weeks before it costs him his job."
+critical-questions:
+  - "Is this genuinely a perceptual failure caused by approaching ruin, or a comforting after-the-fact story that makes an ordinary lapse feel like fate rather than negligence?"
+  - "If impending ruin really does impair an expert's detection faculty, is there any external check capable of catching a danger the expert's own vigilance has stopped registering?"
+status: active

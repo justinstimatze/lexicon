@@ -1,0 +1,22 @@
+id: lex-vtmtg
+name: a-covert-conspirator-performs-matching-public-astonishment
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A person who secretly helped cause a public commotion can join the surrounding crowd in performing surprise and fear that matches everyone else's, so their own reaction gives away no more, and no less, than an innocent bystander's would. When the girl screams and the whole camp erupts, chasing the painted apparition through the village, Red Deer -- the man who painted High Horse and staked the getaway ponies -- has already slipped back to watch 'from his own tepee and trying to look as though he were as much surprised and scared as all the others.' He does not hide, does not stay silent, does not leave early; he performs the exact register of alarm the situation calls for, calibrated to be indistinguishable from anyone who had no idea what was coming."
+related: []
+evokes: [black-elk-speaks, high-horses-courting, watching-from-his-own-tepee, as-surprised-and-scared-as-all-the-others, matching-the-crowds-reaction]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch6-high-horses-courting
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 6, 'High Horse's Courting.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "Now Red Deer had been watching all this from his own tepee and trying to look as though he were as much surprised and scared as all the others."
+canonical-instances:
+  - "An employee who secretly tipped off a journalist to an internal scandal reacts to the story breaking with the same shock and concern voiced by every other colleague in the office, careful not to seem either too calm or too distressed."
+  - "A prankster who rigged a jump-scare joins the crowd's laughter and startled exclamations at the exact volume everyone else is using, neither over-laughing to sell the joke nor staying too composed to give it away."
+  - "A getaway driver who has already parked two blocks from a robbery watches the responding sirens from a nearby cafe, wearing the same mild, unbothered curiosity as every other patron glancing up from their table."
+critical-questions:
+  - "Is there a specific tell, laughing a beat too early, watching too intently, that separates a well-performed matching reaction from a genuinely surprised one, or is the performance in practice indistinguishable from the real thing?"
+  - "Red Deer had already left the scene once by the time the girl screamed, then returned to watch and perform astonishment -- does re-entering the scene to perform a reaction carry more risk of exposure than simply staying away entirely, and why might it be worth that risk?"
+  - "Does successfully performing matching astonishment require the conspirator to genuinely feel some real anxiety of their own, given how much is riding on the plan, or is the performance purely technical, independent of whatever they actually feel?"
+status: active

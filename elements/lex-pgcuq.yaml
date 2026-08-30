@@ -1,0 +1,19 @@
+id: lex-pgcuq
+name: seeking-guidance-via-an-abstracted-question-rather-than-confession
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Facing a strong temptation you're not ready to disclose directly, asking for guidance in general, principled terms — how does one judge a good companion from a bad one? — rather than confessing the specific situation lets you get real help without exposing the particular thing you're tempted by. In the Jataka's tale of the tempted ascetic, a seductive stranger urges a young ascetic to run away with her, and rather than disclose the proposal itself, he brings his father a general question about judging companions: 'This doubt, my father, solve for me, I pray; If to some village from this wood I stray, Men of what school of morals, or what sect Shall I most wisely for my friends affect?'"
+related: []
+evokes: [jataka, catukkanipata, aranna-jataka, an-abstracted-question-gets-guidance-without-a-confession, generalizing-a-temptation-into-a-principled-question]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-aranna-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 348, Aranna-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "This doubt, my father, solve for me, I pray; If to some village from this wood I stray, Men of what school of morals, or what sect Shall I most wisely for my friends affect?"
+canonical-instances:
+  - "Tempted to take a risky, ethically dubious shortcut a colleague has offered, someone asks a trusted mentor a general question about how to evaluate whether a proposed business arrangement is trustworthy, rather than describing the specific offer currently sitting in their inbox."
+critical-questions:
+  - "Can the advice-giver even tailor a useful answer without the real, undisclosed specifics — is there a real risk the guidance comes back too generic to resolve an actual, concrete temptation?"
+  - "Is withholding the specific situation itself a form of avoidance — does the son's indirection here delay him actually confronting the temptation honestly, even though it produces the right outcome this time?"
+status: active

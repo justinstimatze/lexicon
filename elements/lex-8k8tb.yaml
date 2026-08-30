@@ -1,0 +1,19 @@
+id: lex-8k8tb
+name: a-lesser-recurring-disturbance-can-displace-a-worse-one
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a system has settled into a pattern of severe, dangerous episodes, consider whether introducing or tolerating a milder, more manageable disturbance could occupy the same failure mode and keep the worse version from taking hold. Hippocrates' Aphorisms: 'Persons attacked with quartans are not readily attacked with convulsions, or if previously attacked with convulsions, they cease if a quartan supervene.' A quartan fever is an illness in its own right; the claim doesn't say it heals anything, only that its presence occupies ground the more dangerous convulsions would otherwise claim. This is a controlled-release mechanism: a bounded, recurring, survivable disturbance can pre-empt an unbounded, catastrophic one by getting there first, even though introducing any disturbance at all looks like the wrong move if you only compare it against having no disturbance whatsoever."
+related: []
+evokes: [hippocrates, aphorisms, minor-disturbance-preempts-major-failure, controlled-release-valve-mechanism]
+lineage:
+  - source: primary
+    text: hippocrates-aphorisms-adams1849-sectionV-70
+    citation: "Hippocrates, Aphorisms, trans. Francis Adams (Sydenham Society, 1849), Section V, §70. Verified verbatim against a direct extraction of the held copy."
+    quote: "Persons attacked with quartans are not readily attacked Avith convulsions, or if previously attacked with convulsions, they cease if a quartan supervene."
+canonical-instances:
+  - "a manufacturing line scheduled for small, regular maintenance shutdowns experiences far fewer catastrophic unplanned failures than a line run continuously at full output, because the recurring interruption occupies the same slot a major breakdown would otherwise fill."
+critical-questions:
+  - "How would anyone distinguish, before the fact, a genuinely displacing minor disturbance from one that merely coexists alongside the major danger without actually preventing it — is there a way to tell these apart other than watching whether the major event occurs?"
+  - "Deliberately introducing a lesser disturbance to preempt a worse one is still choosing to impose a real cost on the system. Does picking the lower of two harms this way carry its own ethical weight, separate from the question of whether it works?"
+status: active

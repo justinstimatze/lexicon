@@ -1,0 +1,19 @@
+id: lex-nfjzz
+name: honoring-a-request-while-attaching-a-self-cost-defangs-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When you must grant a request you privately oppose without breaking your word, check whether attaching a built-in cost to its exercise can neutralize the power without denying the grant. In Aesop's 'The Bee and Jupiter,' a bee asks Jupiter for a sting lethal enough to kill anyone who robs her hive; Jupiter, unwilling to let mankind be harmed but bound to answer the prayer, grants a sting that works but destroys its user: 'The stings he gave them, however, were of such a kind that whenever a bee stings a man the sting is left in the wound and the bee dies.' The request is honored to the letter; the power itself is engineered to cost the wielder something close to what it costs the target, which is what actually protects the third party the petitioner wanted to harm."
+related: []
+evokes: [aesop, the-bee-and-jupiter, self-costing-grant, defanging-a-power-without-refusing-it]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-bee-and-jupiter
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Bee and Jupiter.' Verified verbatim against a direct extraction of the held copy."
+    quote: "The stings he gave them, however, were of such a kind that whenever a bee stings a man the sting is left in the wound and the bee dies."
+canonical-instances:
+  - "a legal right to strike that is technically granted in full, but paired with such steep liability or cost to the striking party that exercising it becomes close to self-defeating — the right exists on paper while its use is deliberately made ruinous."
+critical-questions:
+  - "Does attaching a self-cost genuinely protect the third party, or does it just shift who bears the harm — from the target to the petitioner — without reducing how often the power actually gets used out of desperation or anger?"
+  - "Is there a point at which a self-costing grant is so degraded that it no longer counts as honoring the original request at all, and if so, who gets to judge where that line sits?"
+status: active

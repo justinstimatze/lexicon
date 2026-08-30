@@ -1,0 +1,19 @@
+id: lex-r7vh4
+name: dual-payment-removes-an-arbiters-incentive-to-resolve
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A judge or arbiter who accepts payment from both parties to a dispute has removed their own incentive to resolve it in either direction, since prolonging or muddying the case keeps both income streams flowing. The Jataka's dream of the two-mouthed horse depicts this directly: corrupt judges who take bribes from both sides while sitting in judgment are pictured as a horse eating fodder from mouths on either side at once, filled with a corruption that has no single direction because it's being fed from both. The image names the specific failure: being paid by both sides removes any incentive to favor either, which is a different defect from ordinary bias toward one party."
+related: []
+evokes: [jataka, ekanipata, mahasupina-jataka, dual-payment-removes-an-arbiters-incentive-to-resolve, corruption-without-a-favored-side]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahasupina-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 77, Mahasupina-jataka, fifth of sixteen dream-interpretations. Verified verbatim against a direct extraction of the held copy."
+    quote: "shall take bribes from both sides as they sit in the seat of judgment, and shall be filled with this two-fold corruption, even as the horse that ate fodder with two mouths at once."
+canonical-instances:
+  - "A mediator hired to resolve a contract dispute quietly accepts a retainer from both companies involved, and the case drags on for months longer than a mediator paid by only one side would have any reason to allow."
+critical-questions:
+  - "Is the corrupting incentive really about being paid by both sides specifically, or does any arrangement where prolonging a dispute benefits the arbiter financially produce the same effect, regardless of who's actually paying?"
+  - "How would the parties to a dispute detect this kind of corruption in practice, given that a judge who never resolves anything might just as easily be read as diligent or overly cautious rather than compromised?"
+status: active

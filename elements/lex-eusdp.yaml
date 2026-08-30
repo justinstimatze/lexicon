@@ -1,0 +1,23 @@
+id: lex-eusdp
+name: identical-effects-across-all-workings-imply-one-shared-essence
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "When two properties or entities produce exactly the same effects under all the same natural workings, with no observable difference in how they operate, treat their underlying essence as one and the same thing rather than as two coincidentally identical-behaving things. This is a stronger claim than Turing's operational substitution (see [[lex-29fvm]], which sidesteps a contested definition with a practical test without claiming the test proves sameness of nature) -- Philosophy argues the identical-effects observation establishes genuine metaphysical identity, not just a usable proxy. She reaches 'unity and goodness are the same' this way: 'dost not thou allow that all which is good is good by participation in goodness?' 'It is.' 'Then, thou must on similar grounds admit that unity and goodness are the same; for when the effects of things in their natural working differ not, their essence is one and the same.'"
+related: [lex-29fvm]
+scaffolds-from: [lex-29fvm]
+evokes: [consolation-of-philosophy, book-iii-prose-xi, when-the-effects-of-things-in-their-natural-working-differ-not, participation-in-goodness, indiscernibility-of-identicals]
+lineage:
+  - source: primary
+    text: boethius-c524-consolation-of-philosophy-book-iii-prose-xi
+    citation: "Boethius, The Consolation of Philosophy (c. 524 AD), trans. H. R. James (London: George Bell & Sons, 1897), Book III, Prose XI. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "'But dost not thou allow that all which is good is good by participation in goodness?' 'It is.' 'Then, thou must on similar grounds admit that unity and goodness are the same; for when the effects of things in their natural working differ not, their essence is one and the same.'"
+canonical-instances:
+  - "A physicist argues that two particles behaving identically under every possible experiment -- same mass, same charge, same interactions -- are instances of one particle type. Two genuinely different types would not coincide in literally every observable respect."
+  - "A linguist argues that two words considered true synonyms -- interchangeable in every sentence with no shift in meaning, connotation, or register detectable by any speaker -- express the very same underlying concept through two spellings, rather than merely resembling each other."
+  - "A software architect argues that two modules with byte-for-byte identical behavior across every possible input and output should be treated as one component wearing two names, rather than as two components that happen to compute the same function."
+critical-questions:
+  - "Is 'no observable difference in effects' the same as 'no difference at all,' or could two things produce identical effects for entirely different underlying reasons that a purely effects-based test could never distinguish -- multiple realizability, where the same output is compatible with genuinely different causal essences?"
+  - "Does this principle prove too much? Pushed far enough, it would collapse distinctions worth keeping separate, like convergent evolution producing similar traits from unrelated ancestry, where sameness of effect is exactly what needs explaining, rather than evidence that settles the question on its own."
+  - "Philosophy applies this to derive a metaphysical claim -- unity is goodness -- from an empirical-sounding premise, that their effects don't differ. Is that premise actually checkable in this case, or is it itself already assumed rather than observed?"
+status: active

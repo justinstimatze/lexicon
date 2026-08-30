@@ -1,0 +1,19 @@
+id: lex-me6ap
+name: unearned-ease-should-trigger-suspicion-of-a-worse-fate-not-envy
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When another party in your group enjoys conspicuously easier treatment with no apparent effort, check whether the ease itself is evidence they are being reserved for something worse, rather than simply favored. Aesop's 'The Heifer and the Ox' has a heifer envy an ox's hard labor-free existence, only to watch it dragged off for sacrifice while the ox explains: 'I see now why you were allowed to have such an idle time: it was because you were always intended for the altar.' This inverts the normal envy calculus. Absence of investment or labor in someone's treatment functions here as the actual tell, and reading it as favoritism buries the real signal until it's too late to act on it."
+related: []
+evokes: [aesop, the-heifer-and-the-ox, absence-of-investment-as-a-warning-sign, inverted-envy-calculus]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-heifer-and-the-ox
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Heifer and the Ox.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Ah, said the Ox, with a grim smile, I see now why you were allowed to have such an idle time: it was because you were always intended for the altar."
+canonical-instances:
+  - "an employee handed no new assignments should suspect a pending layoff or performance plan, not favoritism. The same read applies to a business unit starved of capital investment: quietly slated for divestiture, not being protected."
+critical-questions:
+  - "How would the heifer have distinguished genuine favoritism from being reserved for a worse fate before the outcome revealed which one it was — is there any earlier signal beyond the ease itself?"
+  - "Does this heuristic risk becoming paranoid overreach if applied indiscriminately — is unearned ease always suspicious, or does the fable's lesson only hold within specific institutional contexts where sacrifice or disposal is a live possibility?"
+status: active

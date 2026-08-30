@@ -1,0 +1,19 @@
+id: lex-f3uzu
+name: engineered-contagion-by-proximity-degrades-a-rivals-asset
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When direct sabotage of a valuable asset isn't possible, deliberately placing a corrupting influence in sustained physical proximity to it can degrade the asset through contagion alone, with no direct action taken against the asset itself. In the Jataka's tale of the poisoned mango tree, a rival king's gardener can't steal or directly harm a prized mango tree, so he plants bitter nimb trees and creepers beside it until their roots and branches entangle with the mango's. The tree's own owner names the mechanism once he tastes the ruined fruit: 'Round about the trunk entwining, branch with branch, and root with root, See the bitter creeper climbing; that is what has spoilt your fruit; And so you see bad company will make the better follow suit.' Nobody ever touched the mango tree directly — its own continued healthy growth is what carried the corruption into itself."
+related: []
+evokes: [jataka, dukanipata, dadhi-vahana-jataka, deliberate-proximity-as-a-sabotage-vector, corruption-through-entanglement-rather-than-direct-attack]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dadhi-vahana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 186, Dadhi-vahana-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Round about the trunk entwining, branch with branch, and root with root, See the bitter creeper climbing; that is what has spoilt your fruit; And so you see bad company will make the better follow suit."
+canonical-instances:
+  - "A competitor unable to poach a rival firm's star performer directly instead gets a disruptive, politically toxic hire placed on the same small team, knowing the ongoing friction and distraction will degrade the star performer's output over months without any single traceable act of sabotage."
+status: active
+critical-questions:
+  - "How would the tree's owner or gardener have caught this before the fruit was already ruined — is there an early-warning sign of encroaching entanglement that a vigilant caretaker could have acted on before the corruption completed?"
+  - "Is 'bad company' really the right frame, given that the mango tree had no capacity to choose or resist its neighbors — does the moral of avoiding bad company even apply to a case where the affected party is entirely passive?"

@@ -1,0 +1,22 @@
+id: lex-nmm7u
+name: a-claimed-sacred-duty-is-tested-by-what-preparation-it-actually-gets
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When a society claims some role is its most sacred, most important function, check whether the actual resources, training, and deliberate preparation devoted to it match that claim. A role genuinely regarded as supremely important gets studied, taught, and credentialed the way every other high-stakes role does. A role that receives no such preparation, despite loud rhetorical reverence, reveals that the reverence isn't the operative belief actually driving the society's investment. Gilman runs the test on motherhood directly: 'If the position of woman is to be justified by the doctrine of maternal sacrifice, surely society, or the individual, or both, would make some preparation for it. No such preparation is made... This is as though all men were to be soldiers with the fate of nations in their hands; and no man told or taught a word of war or military service until he entered the battlefield!'"
+related: []
+evokes: [women-and-economics, chapter-ix, no-such-preparation-is-made, told-or-taught-a-word-of-war, sacred-rhetoric-unmatched-by-actual-investment]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-ix
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter IX. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "If the position of woman is to be justified by the doctrine of maternal sacrifice, surely society, or the individual, or both, would make some preparation for it. No such preparation is made. Society recognizes no such function. [...] This is as though all men were to be soldiers with the fate of nations in their hands; and no man told or taught a word of war or military service until he entered the battlefield! [...] Before a man enters a trade, art, or profession, he studies it. He qualifies himself for the duties he is to undertake."
+canonical-instances:
+  - "A company calls customer trust its most important asset in every public statement, yet has no formal training, certification, or dedicated budget for the employees who directly handle customer complaints -- the gap between the rhetoric and the actual preparation reveals which value the company is genuinely organized around."
+  - "A country describes teaching as the profession that shapes its future, yet offers new teachers a fraction of the training, mentorship, and certification rigor required of professions it treats as merely important rather than sacred, like law or medicine."
+  - "A hospital calls patient safety its highest priority in every mission statement, yet allocates far less structured training time to it than to billing compliance, whose actual budget and staffing reveal which priority the institution is organized to protect."
+critical-questions:
+  - "Could a society genuinely value a role as sacred while still failing to prepare people for it, if the preparation itself is culturally taboo or logistically difficult for reasons separate from how much the role is actually valued?"
+  - "Is the absence of formal preparation always evidence the stated value is insincere, or can informal, unstructured preparation -- observation, apprenticeship, oral tradition -- sometimes deliver real competence without looking like preparation to an observer expecting formal credentials?"
+  - "If applying this test reveals a mismatch between a society's stated sacred values and its actual investment across many roles at once, does that indicate widespread insincerity, or does it suggest the test itself is measuring something other than genuine valuation -- like which roles happen to be easiest to formally credential?"
+status: active

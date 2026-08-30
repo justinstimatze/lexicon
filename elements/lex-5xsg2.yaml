@@ -1,0 +1,22 @@
+id: lex-5xsg2
+name: habituation-numbs-harm-and-makes-its-removal-feel-like-loss
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "Sustained exposure to an uncomfortable condition numbs perception of it almost completely. The first time a stimulus registers, it registers vividly. By the hundredth time, even if the stimulus has actually gotten worse, the nerve has stopped reporting it as news. Removing the harmful condition can then itself feel like a loss, because the organism has adapted to the harm as its new baseline. Gilman grounds this in a concrete case: 'A nerve touched for the first time with a certain impression feels this first impression far more than the hundredth or thousandth, though the thousandth be far more violent than the first... Put a corset, even a loose one, on a vigorous man or woman who never wore one, and there is intense discomfort... But the person habitually wearing a corset does not feel these evils... the wearer becomes so used to the sensations that, when they are removed,—with the corset,—there is a distinct sense of loss and discomfort.'"
+related: []
+evokes: [women-and-economics, chapter-v, a-nerve-touched-for-the-first-time, when-they-are-removed-there-is-a-distinct-sense-of-loss, habituation-inverts-the-felt-value-of-removal]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-v
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter V. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "A nerve touched for the first time with a certain impression feels this first impression far more than the hundredth or thousandth, though the thousandth be far more violent than the first. [...] Put a corset, even a loose one, on a vigorous man or woman who never wore one, and there is intense discomfort, and a vivid consciousness thereof. [...] But the person habitually wearing a corset does not feel these evils. They exist, assuredly, the facts are there, the body is not deceived; but the nerves have become accustomed to these disagreeable sensations, and no longer respond to them. The person 'does not feel it.' In fact, the wearer becomes so used to the sensations that, when they are removed,—with the corset,—there is a distinct sense of loss and discomfort."
+canonical-instances:
+  - "Someone who has worked eighty-hour weeks for a decade stops noticing the exhaustion as unusual, and when a new job finally gives them normal hours, they feel restless and oddly empty rather than relieved, because the depletion had become their baseline for what work feels like."
+  - "A person who grew up in a chronically critical household stops registering ordinary criticism as painful, and finds a genuinely warm, low-criticism relationship unsettling at first, since the absence of the familiar friction reads as something being wrong rather than something being right."
+  - "A city resident who has lived for years next to constant traffic noise stops hearing it entirely, and reports feeling strangely unsettled by the silence during their first night in a quiet rural house, even though the silence is objectively the better condition."
+critical-questions:
+  - "Does the corset example actually generalize to psychological and social harms, or is there something specific to physical, mechanical sensation-adaptation that doesn't transfer cleanly to how people register longer-term social or emotional conditions?"
+  - "If removing a harmful condition reliably produces a felt sense of loss, does that create a genuine practical obstacle to reform -- people might resist a change that would objectively benefit them precisely because the adaptation-produced discomfort of removal outweighs, in the short term, their felt experience of the harm being gone?"
+  - "How would you distinguish this specific mechanism from ordinary resistance to any change, familiar or not, which might explain the same discomfort without needing to invoke sensory numbing to a harmful baseline specifically?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-wwguu
+name: a-mere-threat-of-institutional-power-extracts-surrender-with-no-force-used
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A credible threat of institutional retaliation can make a target surrender their own property or position voluntarily, with the threatened force never actually needing to be applied — the anticipation does all the work. The Jataka's dream of the goats and wolves depicts this as goats devouring panthers and wolves fleeing at the mere sight of goats: nobles, threatened only with the king's displeasure and a vague warning of harsh punishment, preemptively affirm that their own property really belongs to overbearing court favorites and hand it over, purely to avoid a punishment that was never actually carried out. The favorites never had to seize anything by force; naming the threat was sufficient."
+related: []
+evokes: [jataka, ekanipata, mahasupina-jataka, threatened-power-extracts-surrender-unused, anticipation-of-force-substitutes-for-force]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahasupina-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 77, Mahasupina-jataka, sixteenth of sixteen dream-interpretations. Verified verbatim against a direct extraction of the held copy."
+    quote: "Hereupon the terrified nobles shall affirm that their own belongings really belong to the overbearing upstarts, and will tell the favourites to accept them."
+canonical-instances:
+  - "A well-connected employee tells a colleague, without any formal authority to back it up, that upper management will not be pleased if the colleague keeps credit for a shared project. Management was never actually asked about it, but the colleague cedes the credit anyway, before anyone up the chain says a single word."
+critical-questions:
+  - "Does surrendering preemptively actually protect the noble from the threatened retaliation, or does it just confirm to the favourites that the threat works, inviting the identical move against the next thing they want?"
+  - "What would happen if a single noble tested the threat by refusing — is there any real force behind it, or does the whole extraction depend on nobody ever finding out?"
+status: active

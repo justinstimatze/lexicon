@@ -1,0 +1,19 @@
+id: lex-adrab
+name: disconfirming-testimony-falsifies-an-obstinate-belief-argument-cannot
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "An entrenched grief or belief that has resisted every abstract argument can be broken by producing direct testimony from the very source the belief depends on, rather than by further reasoning about impermanence in general. In the Jataka's tale of the grieving king, no argument about the transience of all things moves him after his queen's death; the ascetic instead locates her literal reincarnation, a dung-worm, and gives her a voice to testify to her own present indifference: 'But now new Sorrows and new joys have made the old ones flee, And dearer far than Assaka my Worm is now to me.' The king isn't persuaded that love is impermanent as a general philosophical claim — he's confronted with the specific, disconfirming fact that the person whose devotion he was mourning no longer holds it, from her own mouth."
+related: []
+evokes: [jataka, dukanipata, assaka-jataka, direct-testimony-from-the-source-breaks-what-argument-cannot, disconfirmation-beats-generalization-against-an-entrenched-belief]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-assaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 207, Assaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "But now new Sorrows and new joys have made the old ones flee, And dearer far than Assaka my Worm is now to me."
+canonical-instances:
+  - "A founder who refuses to accept that a former star employee has moved on, convinced their bond was unique, finally lets go only after hearing directly from that employee, now thriving elsewhere, that they haven't thought about the old job in months — no abstract argument about people changing ever landed the way that one sentence did."
+critical-questions:
+  - "Is the mechanism here really about direct testimony specifically, or would any sufficiently vivid, concrete demonstration of the same underlying fact — not necessarily testimony from the source — have worked as well on the king's grief?"
+  - "Does producing this kind of disconfirming testimony require an unusual or supernatural capability in ordinary cases, or is there a mundane equivalent available to someone trying to break an entrenched belief without the ascetic's specific powers?"
+status: active

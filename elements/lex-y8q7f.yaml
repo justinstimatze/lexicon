@@ -1,0 +1,22 @@
+id: lex-y8q7f
+name: imperfection-presupposes-the-perfection-it-falls-short-of
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "Calling something 'imperfect' logically presupposes a standard of perfection it falls short of -- the very existence of a degraded or partial version of a thing is evidence that an undegraded, complete version of that same thing is conceptually possible, because privation can only be recognized against what it's a privation of. Philosophy states the principle directly: 'everything which is called imperfect is spoken of as imperfect by reason of the privation of some perfection; so it comes to pass that, whenever imperfection is found in any particular, there must necessarily be a perfection in respect of that particular also. For were there no such perfection, it is utterly inconceivable how that so-called imperfection should come into existence. Nature does not make a beginning with things mutilated and imperfect; she starts with what is whole and perfect, and falls away later to these feeble and inferior productions.'"
+related: []
+evokes: [consolation-of-philosophy, book-iii-prose-x, privation-of-some-perfection, nature-does-not-make-a-beginning-with-things-mutilated, privatio-boni]
+lineage:
+  - source: primary
+    text: boethius-c524-consolation-of-philosophy-book-iii-prose-x
+    citation: "Boethius, The Consolation of Philosophy (c. 524 AD), trans. H. R. James (London: George Bell & Sons, 1897), Book III, Prose X. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "For everything which is called imperfect is spoken of as imperfect by reason of the privation of some perfection; so it comes to pass that, whenever imperfection is found in any particular, there must necessarily be a perfection in respect of that particular also. For were there no such perfection, it is utterly inconceivable how that so-called imperfection should come into existence. Nature does not make a beginning with things mutilated and imperfect; she starts with what is whole and perfect, and falls away later to these feeble and inferior productions."
+canonical-instances:
+  - "A code reviewer who calls a function's error handling 'incomplete' is implicitly claiming to know what complete error handling for that function would look like -- the critique only makes sense against a standard the reviewer could, if pressed, actually specify."
+  - "A translator who describes a rendering as 'a rough approximation' of the original poem's meaning is asserting, by using that word, that a fuller, truer rendering exists in principle, even if no one has produced it yet."
+  - "A musician who calls a live performance 'a pale version' of the studio recording is treating the studio version as the standard the live show falls short of, not as one more variant among equals."
+critical-questions:
+  - "Does this argument actually prove a perfect version really exists somewhere, or does it only prove that speakers implicitly reference such a standard when they use words like 'imperfect' -- a claim about language and concepts, not necessarily about what's out there in reality?"
+  - "Could 'imperfect' sometimes be used loosely, as a vague expression of dissatisfaction, without the speaker actually having any coherent standard of perfection in mind -- does the argument assume more conceptual rigor in ordinary usage than is actually present?"
+  - "Every imperfect thing implying a corresponding perfect standard generates an implausibly large population of 'perfections': a perfect hammer, a perfect Tuesday. Maybe the argument only holds for some restricted class of properties."
+status: active

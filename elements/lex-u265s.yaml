@@ -1,0 +1,21 @@
+id: lex-u265s
+name: an-ambush-predators-own-stillness-lets-a-saboteur-disable-it-unseen
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "A predator that survives by staying perfectly still and pretending to be harmless has created the one condition that makes it safe to disable at close range -- its own camouflage strategy prevents it from reacting to a threat it must pretend not to notice. In Cushing's telling, a man-eating giant lies across a mountain trail feigning sleep and frailty to lure travelers close, and his grandmother-in-myth, a tiny spider, uses exactly this stillness against him: 'The Spider stepped never so lightly, and climbed up behind his great ear, and then busily wove at her web, to and fro, up and down, and in and out of his eyelashes she busily plied at her web.' The giant feels it, 'Pesk the birds and buzz creatures!' growled the giant, twitching this way and that his eyebrows, which tickled, but he would not stir, for he heard the approaching War-gods and 'needs must feign sleepy.' His entire predatory strategy depends on not breaking character, and that exact discipline is what lets the spider finish blinding him completely, uninterrupted, while he is close enough to kill her in an instant if he simply moved. Diagnostic move: when a threat's power depends on staying undetected or appearing passive, recognize that the discipline required to maintain that disguise is itself an opening -- the more committed they are to not reacting, the longer a covert countermeasure against them can work unopposed."
+related: []
+evokes: [the-disguises-own-discipline-is-the-opening-for-sabotage, cushing-the-giant-cloud-swallower, needs-must-feign-sleepy, wove-her-web-in-and-out-of-his-eyelashes]
+lineage:
+  - source: primary
+    text: cushing-spider-blinds-haki-suto-while-he-maintains-his-disguise
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Giant Cloud-Swallower' (A Tale of Cañon de Chelly). Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'The Spider stepped never so lightly, and climbed up behind his great ear, and then busily wove at her web, to and fro, up and down, and in and out of his eyelashes she busily plied at her web. Pesk the birds and buzz creatures! growled the giant, twitching this way and that his eyebrows, which tickled; but he would not stir,--for he heard the War-gods coming, and thought them fat hunters and needs must feign sleepy.'"
+canonical-instances:
+  - "A predator fish that survives by lying motionless and camouflaged on the seafloor to ambush prey can be approached and tagged by a diver at close range specifically because moving to attack the diver, rather than waiting for actual prey, would blow the camouflage it depends on for every future hunt."
+  - "A mole hidden inside a rival organization who must maintain a convincing cover of loyalty and passivity to avoid detection is far more vulnerable to a counter-intelligence officer working close to them, precisely during the period the mole cannot risk reacting or drawing attention, than they would be if they were free to act on suspicion."
+critical-questions:
+  - "Does the giant's discipline actually cost him anything he couldn't have avoided by simply checking for the sensation before deciding not to react, or is the story suggesting his commitment to the disguise was so total that a genuine threat assessment never got the chance to occur to him?"
+  - "Would the spider's tactic have worked at all if the giant hadn't specifically been waiting for a different, larger target, the approaching War-gods, rather than simply lying in ambush with no particular prey in mind -- does the tactic require the predator to be distracted by a bigger prize?"
+  - "Is there a point at which an ambush predator's discipline should break, tickling eyebrows being treated as sufficiently anomalous to investigate, and does the giant's failure to update on that anomaly reflect a design flaw in relying on stillness as a strategy at all?"
+status: active

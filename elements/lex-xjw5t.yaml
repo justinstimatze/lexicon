@@ -1,0 +1,19 @@
+id: lex-xjw5t
+name: a-nonthreatening-third-partys-flaw-mirrors-a-superiors-own-failing
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "To help a superior recognize a personal failing without ever confronting them directly, engaging a genuinely flawed but nonthreatening third party in a rhetorical dialogue about that exact flaw lets the superior absorb the lesson vicariously — the mirror is displaced onto someone safe to discuss openly. In the Jataka's tale of the slothful king, to cure the king's own indolence without confronting him, the minister engages an actual slow-moving tortoise in dialogue about how it would survive a forest fire: '\"Ho! Sir Tortoise, yours is a Slow motion. Supposing a conflagration arose in the forest, what would you do?\"'"
+related: []
+evokes: [jataka, catukkanipata, gajakumbha-jataka, a-safe-third-partys-flaw-mirrors-a-superiors-own-failing, indirect-critique-lets-a-superior-self-diagnose]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-gajakumbha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 345, Gajakumbha-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The Bodhisatta answered, \"The creature is called a tortoise, great king; and is so lazy that though it is in motion all day, it only moves just an inch or two.\" And addressing it he said, \"Ho! Sir Tortoise, yours is a Slow motion. Supposing a conflagration arose in the forest, what would you do?\""
+canonical-instances:
+  - "Wanting to point out a CEO's habit of stalling on urgent decisions without ever calling it out directly, an advisor spends a board meeting discussing, at length, a case study of a different company whose leadership dithered its way into a crisis — letting the CEO draw their own conclusion from a target that carries no personal risk to critique."
+critical-questions:
+  - "Does the superior actually make the connection to their own behavior, or can this kind of displaced critique be absorbed as an interesting story about someone else entirely, missing the intended lesson?"
+  - "Is there something specifically effective about using a genuinely present, real example (an actual tortoise) rather than a hypothetical or a story — does concreteness matter to how well the mirroring lands?"
+status: active

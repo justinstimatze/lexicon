@@ -1,0 +1,19 @@
+id: lex-gqvxw
+name: back-a-serious-claim-with-physical-proof-before-asking-for-action
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Before asking someone to act on a serious claim, a claimant can back the assertion with physical proof, converting bare testimony into something the listener can verify directly. In the Jataka''s tale of Parantapa, the brahmin does exactly this to prove the murder to the prince: "That man is not your father: your father was king of Benares: that man is a servant of your house, he sinned with your mother and in this spot killed and buried your father"; and so saying he pulled up the bones and showed them to him.'
+related: []
+evokes: [jataka, sattanipata, parantapa-jataka, back-testimony-with-physical-proof, convert-assertion-into-verified-fact]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-parantapa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 416, Parantapa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "That man is not your father: your father was king of Benares: that man is a servant of your house, he sinned with your mother and in this spot killed and buried your father\"; and so saying he pulled up the bones and showed them to him."
+canonical-instances:
+  - "Rather than simply tell the new auditors that the prior team had been falsifying inventory counts, a whistleblower walks them to the exact warehouse bay and shows them boxes that don't match a single one of the numbers on record."
+critical-questions:
+  - "Does physical proof actually settle the matter, or can it still be explained away by someone determined not to believe the claim?"
+  - "What happens to claims just as serious as this one when no physical evidence happens to survive to back them?"
+status: active

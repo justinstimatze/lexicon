@@ -1,0 +1,19 @@
+id: lex-76uza
+name: duty-can-be-discharged-at-accurate-transmission-not-at-outcome
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When you can't control or verify what a warned party does with information you've passed along, one coherent ethical position is to transmit the plain fact accurately, without evaluation or recommendation attached, and treat your own responsibility as fully discharged at that point — not at whatever the recipient subsequently does with it. This differs from washing your hands of an outcome you're actually complicit in: the boundary is legitimate specifically because the discloser genuinely has no further leverage over what happens next, and adding an evaluation or recommendation wouldn't actually change the recipient's freedom to act on the information however they choose. The person who draws this line can afterward have no knowledge of what became of what they reported, and that isn't evasion — it's the natural consequence of duty having already been fully met upstream."
+related: [lex-46eeg]
+evokes: [jackall-moral-mazes, "described the problem without evaluation and felt his responsibility ended there", duty-ends-at-accurate-transmission]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch5-responsibility-ends-at-transmission
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 5, Drawing Lines."
+    quote: "He simply described the problem without evaluation and felt his responsibility ended there [...] He also never had any problems with the account. He has no knowledge of what became of the product."
+canonical-instances:
+  - "A supplier discloses a known defect rate to a buyer in plain factual terms, without recommending whether the buyer should still proceed with the purchase, and considers the disclosure obligation fully met regardless of what the buyer decides afterward."
+critical-questions:
+  - "Is transmission-without-evaluation actually neutral, or does the choice to omit a recommendation itself function as an implicit signal — 'not my place to say' can read as tacit endorsement to a recipient looking for permission to proceed?"
+status: active

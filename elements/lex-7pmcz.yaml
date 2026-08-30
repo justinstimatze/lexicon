@@ -1,0 +1,19 @@
+id: lex-7pmcz
+name: a-credentialed-disguise-does-not-reset-a-targets-established-threat-model
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a known threat reappears wearing a professional or credentialed guise, check whether the target's prior experience with that same actor should override the new costume rather than being reset by it. In Aesop's 'The Cat and the Birds,' a cat disguises itself as a doctor to gain access to a sick henhouse; the disguise itself is perfectly convincing, and the hens see through it anyway, because they already know the actor underneath it: 'A villain may disguise himself, but he will not deceive the wise.' The mechanism is specifically about continuity of a target's own experience with a specific actor — the credential resets nothing for someone who has already learned who is behind it."
+related: []
+evokes: [aesop, the-cat-and-the-birds, credentialed-disguise, threat-model-continuity]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-cat-and-the-birds
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Cat and the Birds.' Verified verbatim against a direct extraction of the held copy."
+    quote: "A villain may disguise himself, but he will not deceive the wise."
+canonical-instances:
+  - "a scam actor impersonating IT support or a 'security researcher' under a new name, attempting to regain access from a target who has already been burned by the same actor under a different identity."
+critical-questions:
+  - "Does this protection require the target to actually recognize the specific actor behind the new disguise, or does mere prior experience with the general category of threat (any doctor-costumed predator, not this one) provide the same defense?"
+  - "What happens the first time an actor uses a given disguise against a target with no prior history at all — does the fable's wisdom only ever protect the second victim, never the first?"
+status: active

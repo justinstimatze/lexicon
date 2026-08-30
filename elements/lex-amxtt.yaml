@@ -1,0 +1,18 @@
+id: lex-amxtt
+name: partisan-relay-escalates-a-minor-disagreement-into-schism
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A small factual disagreement between two individuals is repeated by each side''s followers to their own in-group, and each retelling strips nuance and sharpens the framing against the other side. Neither original party need act in bad faith — the escalation is produced entirely by the intermediaries'' selective relaying, which each side then treats as confirmation of the other''s dishonesty. In the Jataka''s tale of Kosambi, two monks'' students carry a minor scholastic dispute back to their own masters until it becomes mutual accusation: "Your master though falling into sin does not recognize its sinfulness." They went and told their master. He said, "This Vinaya scholar before said it was no sin, and now says it is a sin: he is a liar." They went and told the others, "Your master is a liar."'
+related: []
+evokes: [jataka, navanipata, kosambi-jataka, rumor-escalation, schism-via-messenger, telephone-game]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kosambi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 428, Kosambi-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "They on seeing the other Brother's pupils said, \"Your master though falling into sin does not recognize its sinfulness.\" They went and told their master. He said, \"This Vinaya scholar before said it was no sin, and now says it is a sin: he is a liar.\" They went and told the others, \"Your master is a liar.\""
+canonical-instances:
+  - "Two engineering leads have a minor disagreement over a code-review comment, and each one's team relays a sharpened version of it back to their own lead until the two leads are each convinced the other called them incompetent, though neither ever said any such thing directly."
+critical-questions:
+  - "Would the dispute have de-escalated if the two original parties had simply talked to each other again, or had the relay already made that conversation impossible by the time either noticed the schism?"
+status: active

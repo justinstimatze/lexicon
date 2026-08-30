@@ -1,0 +1,21 @@
+id: lex-hfze3
+name: refuse-a-powerful-tool-to-an-eager-recipient-until-briefed
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When someone eagerly reaches for a powerful resource you're about to hand over, treat that eagerness itself as a reason to pause and brief them fully before releasing it -- not as evidence they're ready, since the same urgency that makes someone want the resource immediately is what makes them most likely to misuse it. In Cushing's telling, the young man, desperate to reunite with his dead wife, reaches for the Owl's medicine of sleep before hearing any conditions on its use: 'The young man eagerly reached forth his hand for the magic medicine.' The Owl refuses outright, naming the eagerness itself as the disqualifying signal: 'Fool! were it not well, for that would I not help thee. Thou art too eager, and I will not trust thee with my medicine of sleep.' Only after this refusal does the Owl lay out the full, precise condition governing the resource's use -- don't approach or kiss her until you've reached home. The sequence matters: the Owl doesn't hand over the tool and hope the instructions land, and doesn't merely state the instructions while the recipient is still grasping for the resource -- it withholds the resource entirely until the eagerness has been named and the recipient is actually listening, rather than just wanting. Diagnostic move: before handing a powerful capability, credential, or piece of leverage to someone who is visibly eager to get their hands on it, delay the handoff specifically to make sure the conditions on its use are heard and registered, not just spoken -- a recipient's urgency to receive something is itself information about how carefully they'll be able to use it, and it's worth spending a moment of friction there rather than assuming urgency and readiness are the same thing."
+related: []
+evokes: [eagerness-for-a-resource-is-a-reason-to-delay-not-release-it, cushing-trial-of-lovers, name-the-eagerness-before-explaining-the-conditions, urgency-to-receive-isnt-evidence-of-readiness-to-use]
+lineage:
+  - source: primary
+    text: cushing-trial-of-lovers-owl-refuses-medicine-to-eager-youth
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Trial of Lovers: or the Maiden of Mátsaki and the Red Feather.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "The young man eagerly reached forth his hand for the magic medicine. 'Fool!' cried the being; 'were it not well, for that would I not help thee. Thou art too eager, and I will not trust thee with my medicine of sleep.'"
+canonical-instances:
+  - "A manager about to grant a junior employee admin access to a critical production system notices the employee is eager to get started immediately and deliberately withholds the credentials until walking through the specific conditions and failure modes out loud, rather than sending the access along with a document the employee will skim later."
+  - "A pharmacist notices a patient anxiously reaching for a prescription with serious interaction risks and pauses the handoff specifically to confirm the patient has absorbed the dosing conditions verbally, rather than assuming the printed label will be read carefully by someone who is only focused on relief."
+critical-questions:
+  - "does deliberately withholding a resource from an eager recipient risk coming across as paternalistic or insulting, and does the Owl's harsh 'Fool!' framing suggest this tactic requires a power imbalance (a mentor over a supplicant) that isn't available in more equal relationships?"
+  - "how long should the withholding last, and what actually confirms that the recipient has moved from 'eager and not listening' to 'ready and briefed' -- the Owl only pauses once, but is a single delay sufficient, or does real eagerness require the conditions to be repeated back?"
+  - "did the Owl's precaution actually work, given the young man broke the condition anyway near the end of the journey -- does this suggest that briefing an eager recipient reduces but doesn't eliminate the risk that made the eagerness concerning in the first place?"
+status: active

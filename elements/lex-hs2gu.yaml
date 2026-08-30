@@ -1,0 +1,19 @@
+id: lex-hs2gu
+name: under-investigation-redirect-the-diagnosis-rather-than-refuse
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When an outside reviewer has been mandated by higher authority to examine a group, refusing to cooperate isn't a viable option — it validates the original premise that something troublesome is going on. The only real move available to the group under scrutiny is redirection: persuade the reviewer that whatever problem exists is located elsewhere in the organization, or failing that, negotiate obliquely for a remediation program that disrupts the group's own territory as little as possible. This reframes 'defending yourself under investigation' away from denial (which reads as cooperation with the accusation) and toward diagnosis-steering, which works by relocating rather than refuting the premise that a problem exists somewhere."
+related: []
+evokes: [jackall-moral-mazes, "persuade the consultant that whatever problem might exist exists elsewhere", diagnosis-redirection-under-mandated-review]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch6-redirect-diagnosis
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 6, Dexterity with Symbols."
+    quote: "one cannot refuse to cooperate with consultants when they are mandated by higher authority without running the risk of validating the original definition of being troublesome."
+canonical-instances:
+  - "A department under a mandated efficiency review doesn't dispute that inefficiency exists somewhere in the company, but steers the reviewer's attention toward a neighboring department's overlapping process instead of its own."
+critical-questions:
+  - "Does successfully redirecting the diagnosis actually protect the group from consequences, or does it just delay the reckoning while making the eventually-identified problem harder to fix, since time and goodwill were spent on relocation rather than remediation?"
+status: active

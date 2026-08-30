@@ -1,0 +1,18 @@
+id: lex-tf6bk
+name: staging-a-fake-pregnancy-to-test-whether-a-reputed-seer-can-be-fooled
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'To check whether a person''s reputed prophetic powers are genuine, testers can fabricate a fake scenario designed to look real and present it as authentic, intending to see whether the reputed seer can be deceived by staged evidence — a test that can be run against a truth-teller with fatal consequences rather than vindicating them. In the Jataka''s tale of Ghata, the young men dress a boy to look pregnant specifically to test Kanhadipayana''s insight: "So they procured a young lad, and drest him up, and by binding a pillow about his belly, made it appear as though he were with child."'
+related: []
+evokes: [jataka, dasanipata, ghata-jataka, epistemic-test-of-a-claimed-seer, staged-deception-as-verification]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-ghata-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 454, Ghata-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "So they procured a young lad, and drest him up, and by binding a pillow about his belly, made it appear as though he were with child."
+canonical-instances:
+  - "Skeptical of a psychic's claimed abilities, a group of students plants a fabricated object with a fake backstory and asks her to divine its true history, intending the staged setup as a genuine test of whether she can be fooled by their deception."
+critical-questions:
+  - "Does staging a test of a claimed seer's powers risk punishing genuine insight when the seer correctly reads through the deception but the testers refuse to believe an answer that contradicts their staged premise?"
+status: active

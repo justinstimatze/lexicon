@@ -1,0 +1,19 @@
+id: lex-hnqwr
+name: withholding-retaliation-because-the-offenders-luck-will-run-out-elsewhere
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Someone who could easily punish a repeat offender can instead withhold retaliation entirely, on the calculation that the offender's pattern of behavior will inevitably provoke a punishment from someone else less tolerant, sparing the withholder both the immediate cost of acting and the ethical cost of being the one who acted. In the Jataka's tale of the patient buffalo, an impudent monkey repeatedly torments a buffalo who refuses to retaliate. His reasoning is explicit: 'But the monkey will do the same to any other, thinking him to be like me. And if he does it to any fierce Buffalos, they will destroy him indeed. When some other has killed him, I shall be delivered both from pain and from blood-guiltiness.' A savage buffalo eventually takes his place, and the monkey, mistaking it for the same tolerant one, is killed exactly as predicted."
+related: []
+evokes: [jataka, tikanipata, mahisa-jataka, deferring-punishment-to-a-less-tolerant-future-party, tolerating-harm-now-avoids-both-injury-and-culpability]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahisa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 278, Mahisa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "But the monkey will do the same to any other, thinking him to be like me. And if he does it to any fierce Buffalos, they will destroy him indeed. When some other has killed him, I shall be delivered both from pain and from blood-guiltiness."
+canonical-instances:
+  - "A senior engineer tolerates a junior colleague's habit of taking credit for shared work rather than confronting them directly, reasoning that the same behavior will eventually target someone far less forgiving on another team, and it does, ending the colleague's standing without the senior engineer ever having to act."
+critical-questions:
+  - "Is this calculation actually reliable, or does the buffalo simply get lucky that a less patient replacement happened to arrive — what happens to this strategy if no such replacement ever shows up?"
+  - "Does choosing not to act here genuinely avoid moral responsibility, or does foreseeing the harmful outcome and doing nothing to prevent it still implicate the buffalo in what eventually happens to the monkey?"
+status: active

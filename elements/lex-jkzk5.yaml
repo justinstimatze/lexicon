@@ -1,0 +1,18 @@
+id: lex-jkzk5
+name: securing-directional-commitment-then-departing-before-reconsideration
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A persuader leaves before a target''s guardian or authority figure can intervene, but first extracts a commitment to follow a trail already laid, banking on the target''s momentum and consistency to complete what direct confrontation might not survive. In the Jataka''s tale of Haliddiraga, the maiden secures the youth''s promise to follow her trail and departs before his father returns: She thought, [525] "He has a father, it seems; if he should find me here, he will strike me with the end of his carrying-pole and kill me: I must be off beforehand." So she said to the youth, "I will start on the road before you, and leave a trail behind me: you are to follow me."'
+related: []
+evokes: [jataka, navanipata, haliddiraga-jataka, foot-in-the-door, securing-commitment-before-guardian-returns]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-haliddiraga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 435, Haliddiraga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "She thought, [525] \"He has a father, it seems; if he should find me here, he will strike me with the end of his carrying-pole and kill me: I must be off beforehand.\" So she said to the youth, \"I will start on the road before you, and leave a trail behind me: you are to follow me.\""
+canonical-instances:
+  - "A timeshare salesman gets a wavering customer to sign a small deposit before the more skeptical spouse arrives. By the time the spouse shows up, there's already a commitment on paper, and the customer's own consistency does the rest."
+critical-questions:
+  - "Does the trick depend on the target's own consistency bias, or would it work just as well against someone who has no compunction about reversing a stated intention?"
+status: active

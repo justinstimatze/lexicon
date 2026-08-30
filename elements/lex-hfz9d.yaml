@@ -1,0 +1,22 @@
+id: lex-hfz9d
+name: a-sworn-act-precedes-escalating-call-and-response-disclosure
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A formal report of important information can be structured as ritualized call-and-response rather than delivered all at once: the reporter first performs an act that publicly commits them to truth, and only then does an authority draw out the content through a sequence of graduated prompts, with the disclosure escalating in scope at each step rather than arriving complete in the first answer. Before Black Elk's people will act on scouting news, the scouts smoke the sacred pipe -- 'the scouts smoked, meaning that they would tell the truth' -- before a single fact is reported. Only after that oath does the adviser begin questioning, and each question asks for one increment more than the last: a small herd, then 'maybe on the other side of that' a larger herd, then 'tell me all that you have seen' revealing bison 'all over the country.' The information could have been stated in one sentence; the ritual instead paces it out in matched steps of prompt and answer, with the sworn precondition making every step that follows carry the weight of an oath already given."
+related: []
+evokes: [black-elk-speaks, scouts-smoked-meaning-they-would-tell-the-truth, report-it-to-me-and-i-will-be-glad, graduated-testimony-ritual, oath-before-disclosure]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch4-the-bison-hunt
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 4, 'The Bison Hunt.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "one of the advisers filled the sacred pipe with chacun sha sha, the bark of the red willow, [...] Then he lit the pipe, offered it to the four quarters, to the Spirit above and to Mother Earth, and passing it to the scouts he said: 'The nation has depended upon you.' [...] The scouts smoked, meaning that they would tell the truth. Then the adviser said: 'At what place have you stood and seen the good? Report it to me and I will be glad.' [...] The adviser said: 'Maybe on the other side of that you have seen the good. Report it.' The scout answered: 'On the other side of that we saw a second and larger herd of bison.' Then the adviser said: 'I shall be thankful to you. Tell me all that you have seen out there.' The scout replied: 'On the other side of that there was nothing but bison all over the country.'"
+canonical-instances:
+  - "A courtroom witness is sworn in before testimony begins, and a lawyer then draws out the account through a structured sequence of increasingly specific questions rather than asking the witness to simply narrate everything at once."
+  - "A confession in a formal religious rite opens with a fixed declaration of intent to be truthful, after which a confessor prompts with graduated questions moving from general to specific."
+  - "A due-diligence interview opens with a signed truthfulness attestation, after which an investigator asks a sequence of narrowing questions rather than requesting the subject's full account up front."
+critical-questions:
+  - "Does the graduated question-and-answer structure actually produce more accurate or complete information than simply asking the scout to report everything at once, or does it mainly produce a more ceremonially weighted disclosure?"
+  - "What does the pipe-smoking oath add beyond a verbal promise to tell the truth -- does the physical, communal, ritually significant act change the scout's actual behavior, or only how the audience receives what follows?"
+  - "If a scout wanted to lie, would this structure make lying harder to sustain across several escalating answers than a single unprompted report would, or does the graduated format make it easier to shade the truth a little at each step without ever stating the full fabrication at once?"
+status: active

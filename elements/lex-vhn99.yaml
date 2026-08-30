@@ -1,0 +1,22 @@
+id: lex-vhn99
+name: loving-a-person-positioned-above-you-has-a-different-texture
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A person raised to associate love with protecting, indulging, or looking after someone weaker meets someone who instead commands genuine reverence, and discovers that the felt texture of the relationship is entirely different. It isn't more or less of the same feeling; the whole structure has changed, from care flowing down to admiration flowing up. Trying this against one's own pride and habit can feel like a loss of status at first, yet turn out more satisfying once tried: a sense of safety and freedom rather than a duty to manage or protect. The narrator states this directly of the women of Herland: 'These were women one had to love \"up,\" very high up, instead of down. They were not pets. They were not servants... I found that loving \"up\" was a very good sensation after all... It was like--coming home to mother... a love that didn't irritate and didn't smother.'"
+related: []
+evokes: [herland, chapter-12, women-one-had-to-love-up-very-high-up-instead-of-down, loving-up-was-a-very-good-sensation-after-all, love-structured-by-admiration-upward-not-care-downward]
+lineage:
+  - source: primary
+    text: gilman-1915-herland-chapter-12
+    citation: "Charlotte Perkins Gilman, Herland (1915), Chapter 12, 'Expelled.' Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "These were women one had to love \"up,\" very high up, instead of down. They were not pets. They were not servants. They were not timid, inexperienced, weak. After I got over the jar to my pride... I found that loving \"up\" was a very good sensation after all. It gave me a queer feeling, way down deep, as of the stirring of some ancient dim prehistoric consciousness, a feeling that they were right somehow--that this was the way to feel. It was like--coming home to mother... It was a sense of getting home; of being clean and rested; of safety and yet freedom; of love that was always there, warm like sunshine in May, not hot like a stove or a featherbed--a love that didn't irritate and didn't smother."
+canonical-instances:
+  - "A new manager, used to mentoring junior staff who need guidance and correction, is transferred onto a team led by a senior colleague they genuinely admire; adjusting to being led rather than leading feels like a demotion at first, but the manager finds the relationship restful in a way their old mentoring relationships never were, because there is nothing left for them to manage or fix."
+  - "A parent whose adult child has become someone they deeply respect professionally struggles at first with no longer being the one who protects and advises; once they let the relationship become one of mutual admiration rather than oversight, they find it steadier and less anxious than the caretaking years ever were."
+  - "An athlete who spent years coaching beginners joins a training group led by someone whose skill genuinely exceeds their own; the shift from correcting others to being corrected stings their pride briefly, but they find the sense of being carried by someone more capable oddly more restful than always being the one responsible for others' progress."
+critical-questions:
+  - "Is the greater satisfaction here really about the direction of the relationship (up versus down), or is it simply that this particular person turned out to be a better match -- meaning the 'up' framing could be doing more explanatory work than it's actually entitled to?"
+  - "Does loving 'up' remain satisfying over the long run, or does a relationship with no protective or managing role for one party eventually produce its own dissatisfaction -- a felt uselessness or lack of contribution -- that the initial relief masks?"
+  - "Is there a risk that 'loving up' shades into a different kind of dependency or diminishment, where deferring to someone positioned above you becomes its own quiet cost, even if it doesn't feel like a loss in the moment?"
+status: active

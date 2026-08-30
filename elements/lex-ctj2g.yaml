@@ -1,0 +1,19 @@
+id: lex-ctj2g
+name: modeling-an-adversarys-competing-priorities-calms-a-trapped-group
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A group cornered by an adversary can be genuinely calmed by a leader who models the adversary's other constraints and obligations, rather than merely reassured by a leader who promises an escape that doesn't yet exist. In the Jataka's tale of the monkeys trapped in a tree by armed villagers until dawn, the chief doesn't claim they'll be safe — he reasons aloud about the besiegers' own situation: 'Fear not; human beings have plenty to do. It is the middle watch now; there they stand, thinking--'We'll kill them!' but we will find some other business to hinder this business of theirs.' The comfort isn't manufactured optimism; it's a specific, falsifiable claim about what will pull the adversary's attention elsewhere, which the troop can actually evaluate rather than just choose to believe."
+related: []
+evokes: [jataka, dukanipata, tinduka-jataka, reasoning-about-an-adversarys-other-obligations-calms-a-group, falsifiable-comfort-beats-manufactured-reassurance]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-tinduka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 177, Tinduka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Fear not; human beings have plenty to do. It is the middle watch now; there they stand, thinking--'We'll kill them!' but we will find some other business to hinder this business of theirs."
+canonical-instances:
+  - "A manager whose team is panicking over an angry client threatening to walk calms them not with 'it'll be fine' but by pointing out the client's own contract renewal deadline is next week and they have far more to lose from switching vendors under time pressure than from one bad week."
+critical-questions:
+  - "Does this kind of comfort actually reduce risk, or does it just make the wait more bearable while the outcome depends entirely on whether the modeled prediction about the adversary turns out to be correct?"
+  - "What happens to the group's trust in the chief if the predicted distraction hadn't materialized — does reasoned, falsifiable comfort carry a higher cost when it turns out wrong than vague reassurance would have?"
+status: active

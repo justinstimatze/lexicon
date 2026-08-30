@@ -1,0 +1,19 @@
+id: lex-4eur3
+name: a-tiny-slow-threat-terrifies-more-than-the-huge-threat-just-survived
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'An observer who calmly withstood an enormous, immediately destructive event can be terrified by something tiny and non-violent instead, because the small thing carries a slow, structural, compounding danger the large thing did not. In the Jataka''s tale of Kotisimbali, the tree-spirit who survived a thousand-fathom snake being devoured above her shakes at the sight of one small bird: the roc-king names the asymmetry directly: "I bore with me the thousand fathoms length of that king-snake: His size and my huge bulk you bore and yet you did not quake. But now this tiny bird you bear, so small compared to me: You shake with fear and tremble; but wherefore, cotton-tree?"'
+related: []
+evokes: [jataka, sattanipata, kotisimbali-jataka, small-slow-threat-outweighs-large-acute-one, chronic-risk-miscalibration]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kotisimbali-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 412, Kotisimbali-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "I bore with me the thousand fathoms length of that king-snake: His size and my huge bulk you bore and yet you did not quake. But now this tiny bird you bear, so small compared to me: You shake with fear and tremble; but wherefore, cotton-tree?"
+canonical-instances:
+  - "A company that shrugged off a headline-grabbing lawsuit worth millions goes into a panic over a single disgruntled former employee quietly building a competing open-source tool, because the tool's slow, compounding erosion of their moat is the harder threat to ever fully stop."
+critical-questions:
+  - "Is this asymmetry actually rational risk assessment, correctly weighing acute cost against long-term compounding cost, or is it a failure to feel danger proportionate to scale?"
+  - "How would an outside observer, unfamiliar with the full history, distinguish well-calibrated fear of a slow threat from ordinary disproportionate anxiety?"
+status: active

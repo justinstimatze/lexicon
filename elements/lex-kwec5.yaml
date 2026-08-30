@@ -1,0 +1,33 @@
+id: lex-kwec5
+name: vice-is-disruption-proof
+type-in: claim
+type-out: frame
+_tier: atomic
+agent-instruction: "When a behavior of yours seems immune to schedule shocks, surface that vice (the persistent ones — addiction, scrolling, fight-picking) is disruption-proof; the durability is the diagnostic, distinct from habit that breaks under stress."
+related: [lex-m54nv, lex-7wvdb, lex-f74h5, lex-tcgej, lex-qe23q, lex-dtmn2]
+scaffolds-from: [lex-7wvdb, lex-qe23q]
+evokes: [sin-stocks-survive-everything, inelastic-private-compulsive-demand, dependency-product-is-disruption-immune, vice-vs-art, demand-that-needs-no-discovery]
+lineage:
+  - source: primary
+    text: prospect-essay-post-copyright-reward-2026-05-25
+    citation: "prospect essay 'Post-copyright reward and the missing middle' §4 (the-three-axes / selective-demolition), drafted 2026-05-25. The valence axis (capacity vs vulnerability) plus the selective-demolition finding: the market forces that commoditize discretionary-shareable-taste goods leave inelastic/private/compulsive goods standing, because those very properties (inelastic demand, shame-bound privacy, compulsion, per-instance uniqueness) are the properties of a dependency product. The atom is the general counter-pole to art: vice is structurally immune to the disruption that commoditizes discretionary goods."
+    quote: "[prospect essay §4, 2026-05-25 — markdown italics on 'discretionary-shareable-taste' and 'inelastic-private-compulsive' stripped, source's double quotes rendered as single:] 'GenAI's blades shred discretionary-shareable-taste goods (art) and leave inelastic-private-compulsive goods (vice) standing — because the properties that clear the blades (inelastic demand, shame-bound privacy, compulsion, per-instance uniqueness) are the properties of a dependency product. The antifragile category under GenAI isn't \"human creativity,\" it's \"products that monetize human vulnerability.\"'"
+  - source: practitioner
+    text: sin-stock-and-vice-industry-resilience
+    citation: "The 'sin stock' / vice-industry resilience pattern, widely attested across finance and economics secondary literature: alcohol, tobacco, gambling, and adult-entertainment revenues are comparatively recession-resistant and survive successive platform/technology shifts that disrupt discretionary-goods industries. The mechanism is inelastic + compulsive + private demand. No single canonical primary; reasoned generalization anchored in the dependency-product structure. Tier-3 deepening candidate — a finance text on sin-stock defensiveness would strengthen this. No verbatim quote is claimed here."
+  - source: discovery-loop
+    text: prospect-session-2026-05-25
+    citation: "articulated in the prospect working session 2026-05-25 as the counter-pole to authenticity-premium (lex-f74h5). The maximal vulnerability-exploit case discussed was the AI-companion product monetizing loneliness, which 'triple-clears' the blades but pays a platform, not a human, and monetizes a vulnerability not a capacity."
+    quote: "the antifragile category under GenAI isn't human creativity, it's products that monetize human vulnerability [prospect session 2026-05-25]; AI companions triple-clear the blades but monetize loneliness [same session]"
+canonical-instances:
+  - "Gambling / online casino / sports-betting: demand is compulsive and inelastic; the industry survives every platform shift (physical → online → mobile → crypto) that disrupts discretionary entertainment, because the demand doesn't depend on discovery or discretionary budget."
+  - "Pornography across technology shifts (VHS, DVD, web, tube-sites, OnlyFans): repeatedly survives and re-monetizes through disruptions that destroy adjacent media businesses, because shame-bound privacy + compulsion make the demand inelastic and discovery-independent."
+  - "Loot-box / gacha mobile games: monetize compulsion (variable-ratio reinforcement) per-instance; revenue concentrates in 'whales' whose demand is compulsive, not taste-driven."
+  - "'Sin stocks' (alcohol, tobacco, gambling) as classically recession-defensive equities: the defensiveness IS the inelastic-private-compulsive demand structure."
+  - "AI-companion apps (prospect §4): the 'bespoke-generative triple-clear' (analog-hole-proof + metering-natural + scarcity-natural) works — but its working incarnation monetizes loneliness and pays the platform-as-creator, not a human. The disruption-proofness comes from the vice structure, not from creativity."
+  - "counter-pole to lex-f74h5 authenticity-premium-rises-with-slop: lex-f74h5 is the ART side (verification premium on discretionary taste-goods); lex-kwec5 is the VICE side (compulsion-goods that never needed the verification because the demand was never discretionary). Together they partition GenAI's selective demolition."
+critical-questions:
+  - "is the demand truly inelastic/private/compulsive (vice-structured) or merely currently-popular (discretionary, will be commoditized)? Discriminator: would consumers pay through shame, recession, and substitute-abundance? If the demand evaporates when free substitutes flood in, it's discretionary, not vice — and the atom does not apply."
+  - "does 'disruption-proof' smuggle in moral endorsement? It does not — the atom is descriptive (vice resists commoditization), not normative. Using it to justify building vice products is a misuse; its diagnostic value is precisely to flag when a 'creative-reward' model survives only because it has quietly become a dependency product."
+severity-tier: info
+status: active

@@ -1,0 +1,19 @@
+id: lex-5bnyh
+name: traveling-performers-broadcast-a-coded-message-to-smoke-out-a-hidden-person
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Unable to locate a specific missing person directly, paying performers to carry a recognizable message to every settlement and perform it before whatever crowd happens to gather turns an impossible targeted search into a broadcast the hidden person will out themselves by reacting to — without anyone needing to know in advance where to look. In the Jataka's tale of Sama, unable to find her fled lover, she instructs actors: '\"There is no place that you do not visit. Go then to every village, town and city, and gathering a crowd around you, first of all sing this song in the midst of the people\"... \"And if,\" said she, \"when you have sung this song, my husband shall be one of the crowd, he will speak to you.\"'"
+related: []
+evokes: [jataka, catukkanipata, kanavera-jataka, a-broadcast-message-lets-a-hidden-target-out-themselves, a-targeted-search-converted-into-mass-coverage]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kanavera-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 318, Kanavera-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"There is no place that you do not visit. Go then to every village, town and city, and gathering a crowd around you, first of all sing this song in the midst of the people,\"—teaching the actors the first stanza,—\"And if,\" said she, \"when you have sung this song, my husband shall be one of the crowd, he will speak to you."
+canonical-instances:
+  - "A family searching for a missing relative who's cut off contact posts a specific, recognizable phrase across every regional community radio station instead of guessing at a location, betting on the relative hearing it and calling in rather than on anyone spotting them in person."
+critical-questions:
+  - "Does this only work because the hidden person still wants to be found in some way — the robber responds to the song specifically to reject it, which raises whether the real function here is locating someone or simply forcing a response out of them."
+  - "What's the cost of this approach compared to more targeted search methods, and does broadcasting the message risk alerting people other than the intended target that the search is happening?"
+status: active

@@ -1,0 +1,22 @@
+id: lex-zmvj5
+name: apparent-unfairness-reflects-invisible-individualized-diagnosis
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "An apparent inconsistency in how good and bad outcomes are distributed across people can dissolve once you posit an expert diagnostician who tailors treatment to each person's actual, invisible inner condition -- just as a physician's differing prescriptions for different patients look arbitrary to an untrained observer but are precisely calibrated to conditions only the physician can see. This is a population-level theodicy defense, distinct from [[lex-wszcj]]'s single-patient pacing claim, where Philosophy titrates her own treatment of Boethius over time -- here the puzzle is why outcomes differ across many people at once, a population-level question rather than a sequencing question for one person's treatment. Philosophy states the analogy directly: 'The marvel here is not unlike that which astonishes one who does not know why in health sweet things suit some constitutions, and bitter others, or why some sick men are best alleviated by mild remedies, others by severe. But the physician who distinguishes the precise conditions and characteristics of health and sickness does not marvel.'"
+related: [lex-wszcj]
+evokes: [consolation-of-philosophy, book-iv-prose-vi, some-sick-men-are-best-alleviated-by-mild-remedies-others-by-severe, the-physician-who-distinguishes-does-not-marvel, theodicy-as-hidden-diagnosis]
+lineage:
+  - source: primary
+    text: boethius-c524-consolation-of-philosophy-book-iv-prose-vi
+    citation: "Boethius, The Consolation of Philosophy (c. 524 AD), trans. H. R. James (London: George Bell & Sons, 1897), Book IV, Prose VI. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "The marvel here is not unlike that which astonishes one who does not know why in health sweet things suit some constitutions, and bitter others, or why some sick men are best alleviated by mild remedies, others by severe. But the physician who distinguishes the precise conditions and characteristics of health and sickness does not marvel. Now, the health of the soul is nothing but righteousness, and vice is its sickness. God, the guide and physician of the mind, it is who preserves the good and banishes the bad."
+canonical-instances:
+  - "A new employee is baffled that one colleague gets constant detailed feedback while another operates with minimal oversight. A manager finally explains: the two have very different track records and support needs, invisible to anyone outside that relationship."
+  - "A parent's two children seem to be disciplined by wildly different standards -- strict rules for one, notable freedom for the other -- and only years later does an outside observer learn the parent was responding to two very different temperaments and vulnerabilities invisible from outside the family."
+  - "A hospital triage system that gives some patients immediate attention and others a long wait looks arbitrary or unfair to onlookers in the waiting room, until the underlying acuity scores, invisible to anyone without medical training, are explained."
+critical-questions:
+  - "This argument is unfalsifiable by design -- any observed unfairness can always be explained away by positing an invisible, undetectable diagnosis behind it, which means no observation could ever count as evidence against the claim that outcomes are actually fair."
+  - "Does positing an all-seeing diagnostician actually resolve the original worry, or does it just relocate the demand for evidence -- we're still asked to trust that the diagnosis exists and is accurate, on no more grounds than the fairness claim itself needed in the first place."
+  - "Real physicians can be asked to show their reasoning, and their diagnoses can be checked against outcomes and second opinions -- what happens to the analogy's force once you notice that the human physician case, unlike the divine one, actually permits verification?"
+status: active

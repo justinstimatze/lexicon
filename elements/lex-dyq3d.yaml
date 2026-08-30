@@ -1,0 +1,19 @@
+id: lex-dyq3d
+name: a-grudge-holder-launders-revenge-through-a-plausible-expert-claim
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Someone nursing a personal grudge can weaponize their credentialed position to authorize harm against the person who wronged them, disguising revenge as sober technical necessity, and the disguise holds only until someone examines whether the claimed expertise actually supports the recommendation. In the Jataka's tale of the crow's fat, a royal chaplain, humiliated when a crow once defecated on him, invents a medical claim that burned elephants can only be cured with crows' fat, purely to license a mass slaughter of crows. The claim carries every appearance of specialist authority, and the king accepts it uncritically until it's examined and found false: crows have no fat at all, revealing the entire prescription as personal revenge laundered through credentialed language."
+related: []
+evokes: [jataka, ekanipata, kaka-jataka, credentialed-authority-launders-personal-revenge, unverified-expert-claim-accepted-uncritically]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 140, Kaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "...And in prescribing crows' fat, your chaplain was prompted by revenge to lie; for crows have no fat.\""
+canonical-instances:
+  - "A department head who was publicly outmaneuvered by a rival team recommends, in a formal technical review, that the rival team's entire project be shut down for a stated architectural flaw that turns out, on independent inspection, not to exist at all."
+critical-questions:
+  - "How much independent scrutiny should a specialist recommendation with major consequences receive by default, given that this fraud was only caught because someone bothered to examine a claim that could easily have gone unchecked?"
+  - "Does knowing about this failure mode make people appropriately more skeptical of expert claims generally, or does it risk producing corrosive suspicion of every legitimate recommendation from someone with a known personal history with the affected party?"
+status: active

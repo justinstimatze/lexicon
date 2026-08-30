@@ -1,0 +1,19 @@
+id: lex-ggj3z
+name: punishment-arrives-through-an-instrument-sourced-from-the-original-crime
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Retribution can be more than proportionate to an offense — it can be structurally isomorphic to it, delivered by an instrument physically derived from the original wrongdoing rather than by generic bad luck. A king who blinded a thousand captives to extract their flesh is himself blinded in two stages, the second caused specifically by a bone dropped from a vulture eating the flesh of his own victims — the punishment's mechanism traces back to the crime by a literal, physical chain, past mere thematic resemblance. In the Jataka's tale of Prince Bodhi: 'a vulture took a sharp-pointed bone, and perched on the top of the tree, in eating the flesh it let drop the bone, and the sharp point falling as with iron spikes on the king's left eye, destroyed that eye too.'"
+related: []
+evokes: [jataka, pancanipata, dhonasakha-jataka, retribution-instrument-sourced-from-the-crime-itself, punishment-isomorphic-to-the-original-wrong]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dhonasakha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 353, Dhonasakha-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "At this moment a vulture took a sharp-pointed bone, and perched on the top of the tree, in eating the flesh it let drop the bone, and the sharp point falling as with iron spikes on the king's left eye, destroyed that eye too."
+canonical-instances:
+  - "A landlord who illegally dumps evicted tenants' belongings on the street to save on storage costs is later financially ruined when one of those discarded boxes, now sitting in a public right-of-way, causes a pedestrian to trip and successfully sue — the very act of dumping is what generates the liability that undoes him."
+critical-questions:
+  - "Is the instrument's literal origin in the original crime actually doing narrative work here, or would the story feel identical if the retribution arrived through any other unrelated accident — does the specific sourcing matter to anyone but the storyteller?"
+  - "Does treating this as poetic justice risk implying that the universe reliably closes this particular loop, when in reality most wrongdoers are never touched by anything traceable back to their own victims?"
+status: active

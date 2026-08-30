@@ -1,0 +1,19 @@
+id: lex-47xqt
+name: indignation-at-indiscriminate-punishment-flips-once-you-hold-the-leverage
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone philosophically condemns indiscriminate or collective punishment, check whether that principle survives the moment they personally gain the power to punish indiscriminately themselves. Aesop's 'Mercury and the Man Bitten by an Ant' has a man criticize the gods for letting 'the good and the bad go to their deaths together' without distinction; provoked by an ant bite soon after, he retaliates by crushing the whole anthill, at which Mercury asks: 'You villain, where's your nice sense of justice now?' Generic hypocrisy undersells what's happening: abstract indignation about proportional justice evaporates on contact with the exact circumstance that would test it, the moment the indignant party is personally provoked and holds the leverage to punish without discrimination."
+related: []
+evokes: [aesop, mercury-and-the-man-bitten-by-an-ant, indignation-flips-with-leverage, unreliable-abstract-principle]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-mercury-and-the-man-bitten-by-an-ant
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'Mercury and the Man Bitten by an Ant.' Verified verbatim against a direct extraction of the held copy."
+    quote: "You villain, where's your nice sense of justice now?"
+canonical-instances:
+  - "someone who publicly decries 'collective punishment' or algorithmic overreach reacts to one bad actor by shutting down an entire group, account, or team the moment they personally have the power to do so and are personally inconvenienced."
+critical-questions:
+  - "Does this pattern reveal that the original stated principle was never genuinely held, or can a person sincerely believe a principle and still fail to apply it under the pressure of personal provocation?"
+  - "Is there a way to test in advance whether someone's stated commitment to proportionality would survive their own provocation, short of actually waiting to see how they behave once they hold the power?"
+status: active

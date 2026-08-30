@@ -1,0 +1,19 @@
+id: lex-marc9
+name: a-groups-escalating-desire-overrides-its-own-cautious-dissenter
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A group that has already secured a substantial gain can override its own most cautious member and keep pushing for more, treating a warning against greed as an obstacle to escalating desire rather than as information. The warning doesn't fail because it's wrong. It fails because the group has already decided the reward for continuing outweighs whatever the dissenter is worried about. In the Jataka's tale of the buried treasure, merchants strike gems while digging an old well and one among them urges restraint: 'Merchants, greed is the root of destruction. Ye have won a great deal of wealth; with this be ye content, and dig no more.' The group digs on anyway. A guardian serpent kills them all, and the dissenting voice was the only one who walked away."
+related: []
+evokes: [jataka, tikanipata, jarudapana-jataka, a-groups-escalating-desire-overrides-its-own-cautious-dissenter, a-secured-gain-does-not-satisfy-once-more-seems-reachable]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-jarudapana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 256, Jarudapana-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Then said the Bodhisatta to them, \"Merchants, greed is the root of destruction. Ye have won a great deal of wealth; with this be ye content, and dig no more.\""
+canonical-instances:
+  - "A trading desk that has already locked in a strong quarterly gain keeps adding to a winning position against one risk manager's explicit recommendation to close it out, and the position collapses on a move the risk manager had specifically flagged as the reason to stop."
+critical-questions:
+  - "Is the dissenter's advice actually correct in principle, or does it only look right in hindsight because this particular case happened to end badly — would 'be content and stop' have been the right call if the digging had simply produced more gems?"
+  - "Does the group's decision to keep digging reflect a shared miscalculation, or does each individual member reasonably expect someone else to bear the downside while they personally capture the upside?"
+status: active

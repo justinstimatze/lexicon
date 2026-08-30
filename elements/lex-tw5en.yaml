@@ -1,0 +1,19 @@
+id: lex-tw5en
+name: high-volatility-limits-confident-prediction-regardless-of-skill
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "In a fast-moving, high-variance situation, treat the difficulty of confident prediction as a property of the situation itself rather than as a gap in the predictor's skill or information. Hippocrates' Aphorisms: 'In acute diseases it is not quite safe to prognosticate either death or recovery.' The claim names both directions of confident forecasting as equally unsafe, not just the pessimistic one — acute, fast-changing conditions carry enough intrinsic variance that neither outcome can be called with real confidence, no matter how experienced the observer is. Demanding a confident prognosis in a genuinely volatile situation asks for a certainty the situation's own variance does not support. A wrong answer under those conditions is mostly a fact about the situation's unpredictability, not a verdict on the forecaster."
+related: []
+evokes: [hippocrates, aphorisms, volatility-limits-confident-prediction, forecasting-limits-independent-of-skill]
+lineage:
+  - source: primary
+    text: hippocrates-aphorisms-adams1849-sectionII-19
+    citation: "Hippocrates, Aphorisms, trans. Francis Adams (Sydenham Society, 1849), Section II, §19. Verified verbatim against a direct extraction of the held copy."
+    quote: "In acute diseases it is not quite safe to prognosticate eitlier death or recovery."
+canonical-instances:
+  - "an equity analyst is publicly blamed for missing a sudden market crash, when the actual lesson is that any forecast made under that level of acute volatility carried an irreducible error band no analyst, however skilled, could have closed."
+critical-questions:
+  - "How would someone tell the difference between a genuinely unpredictable acute situation and one that merely looks unpredictable because the available information hasn't been properly analyzed — is the variance always intrinsic, or sometimes just unaddressed?"
+  - "Does accepting 'this can't be safely predicted' ever become a convenient excuse that lets a forecaster avoid accountability for predictions that actually were knowable with better analysis?"
+status: active

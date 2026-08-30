@@ -1,0 +1,19 @@
+id: lex-pzbrc
+name: altruism-is-always-read-as-self-interest-regardless-of-intent
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Institutional altruism — a corporate gift, a recreational complex for employees, executives donating their time to community causes — reliably gets read by outside observers as self-interested regardless of how genuine the underlying motive actually was: a $10 million gift toward aiding a disadvantaged group draws an accusation of bolstering the very system that disadvantages them, an employee recreational complex draws a charge of corporate paternalism, community volunteering draws an accusation of headline-grabbing. The pattern holds across independent examples with no shared specifics, which is itself evidence that the accusation of self-interest is a structural response to institutional altruism as a category, not a case-by-case judgment based on the particulars of each act. Managers operating inside this pattern report that genuine altruism is a motive that outside observers will simply never grant them, no matter how the act is structured."
+related: []
+evokes: [jackall-moral-mazes, "bolstering apartheid", institutional-altruism-is-always-read-as-self-interested]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch8-altruism-always-denied
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 8, Invitations to Jeopardy, Section II."
+    quote: "a major corporation provides a gift of $10 million to establish new foundations that will materially aid South African blacks and is promptly accused by a black American leader of bolstering apartheid. Weft managers create an elaborate recreational complex for Weft employees in the corporation's southern community and are charged with perpetuating traditional textile company paternalism. Some executives at Images Inc. donate their time to bring together several institutional sectors of a local town in which they live for community betterment and are charged with trying to grab headlines and line up future business. Managers often feel that, however genuine it may be, altruism is a motive that is always denied them by others."
+canonical-instances:
+  - "A large tech company's multi-million-dollar donation to a public library system is met with commentary describing it as reputation-laundering rather than as a straightforward act of community support, regardless of the company's actual internal reasoning for the gift."
+critical-questions:
+  - "Is this skepticism toward institutional altruism actually miscalibrated, or is it a rational response to a track record where institutional 'altruism' really has served self-interest often enough that the prior on any new instance being genuine is legitimately low?"
+status: active

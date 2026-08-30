@@ -1,0 +1,29 @@
+id: lex-e9zy8
+name: faithful-replication-requires-matching-constitutive-context-not-just-protocol
+type-in: situation
+type-out: posture
+_tier: molecule
+agent-instruction: "When assessing whether a study, experiment, or result has been 'replicated,' don't stop at checking whether the written protocol was followed. The same run under different instrumentation, ambient conditions, or population is not pure replication — the original result was constituted by that context, not just produced by the protocol. Pair the context-matching check with randomization discipline: randomization controls for the confounders you can't name in advance, but it can't retroactively fix a context mismatch you didn't randomize over."
+related: [lex-b6kvs, lex-6xw55]
+scaffolds-from: [lex-6xw55, lex-b6kvs]
+evokes: [constitutive-context-of-replication, randomization-scope, replication-crisis-diagnostics, protocol-vs-context-fidelity]
+decomposes-into:
+  - lex-6xw55
+  - lex-b6kvs
+assembly: "sequential(lex-6xw55, lex-b6kvs)"
+premises:
+  - "the same text, procedure, or protocol run in a different context is not the same work or the same experiment — the run is constituted by its context (instrumentation, ambient theory, population), not merely described by its written protocol (lex-6xw55)"
+  - "randomization is what controls for unknown confounders that no other design can address — but it only controls for confounders that vary WITHIN the randomized population and conditions, not confounders introduced by a context shift outside the original randomization's scope (lex-b6kvs)"
+  - "faithful replication therefore requires both: matching the constitutive context closely enough that the original randomization's scope still applies, and then relying on randomization within that matched context to control for what remains unknown"
+critical-questions:
+  - "when a replication fails, is the failure diagnostic of a real effect being false, or of a context mismatch that moved the study outside the original randomization's scope? These require different responses — the first calls the original finding into question, the second calls the replication's fidelity into question."
+  - "how much context-matching is enough? Exact replication (same lab, same era, same instruments) is often impossible and arguably undesirable — the practitioner question is which contextual variables are load-bearing for the specific mechanism under test and which are incidental."
+  - "does treating context as constitutive risk becoming an unfalsifiable excuse — 'it didn't replicate because the context wasn't identical' as a permanent escape hatch for any failed replication? The discipline this composition requires is naming the specific load-bearing contextual variable in advance, not post-hoc after a failed replication."
+lineage:
+  - source: practitioner
+    text: assembled-from-lex-6xw55-lex-b6kvs
+    citation: "Molecule assembled from lex-6xw55 (same-text-in-different-context-is-a-different-work) and lex-b6kvs (randomization-controls-for-unknown-confounders-that-no-other-design-can-address). lex-6xw55's own canonical-instances state the link: 'different instrumentation, ambient theory, and population is not pure replication; the run is constituted by its context. Composes with lex-b6kvs randomization-controls-for-unknown-confounders...: the work of replication includes the constitutive context, not just the protocol.'"
+canonical-instances:
+  - "Psychology replication crisis, priming studies: a priming-effect study replicated with different subject populations, different research-assistant training, and a different era's cultural context produced null results — the debate over whether the original effect was 'false' versus the replication having shifted outside the original's constitutive context is exactly the diagnostic this molecule names."
+  - "Clinical-trial multi-site replication: a drug trial randomized within a single hospital population controls for that population's unknown confounders (lex-b6kvs); running the 'same' trial at a different hospital with a different patient demographic and standard-of-care baseline is testing a different constituted situation (lex-6xw55), which is why multi-site trials report site-level heterogeneity rather than treating all sites as identical replications."
+status: under-review

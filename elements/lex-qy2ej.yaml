@@ -1,0 +1,33 @@
+id: lex-qy2ej
+name: matrix-of-domination-integrates-standpoint-discourse-and-sociogenic-effect
+type-in: claim
+type-out: posture
+_tier: molecule
+agent-instruction: "When analyzing a domination structure, hold all four facets together rather than picking one: the multi-axis multi-level architecture itself (lex-3ezh8), the outsider-within standpoint uniquely positioned to see it clearly (lex-k8bsd), the discursive mechanism by which the dominant produces the Other as its ruled object and defining mirror (lex-44byg), and the sociogenic psychic-disturbance the architecture produces in the dominated population (lex-fv4a3). Each is a distinct facet the other three don't supply on their own — architecture without standpoint has no vantage point, standpoint without discourse-analysis misses the reproduction mechanism, and neither explains why the dominated population's psychological symptoms are a normal response rather than individual pathology."
+related: [lex-3ezh8, lex-k8bsd, lex-44byg, lex-fv4a3]
+scaffolds-from: [lex-3ezh8, lex-k8bsd, lex-44byg, lex-fv4a3]
+evokes: [matrix-of-domination, outsider-within, discursive-othering, sociogeny, standpoint-epistemology]
+decomposes-into:
+  - lex-3ezh8
+  - lex-k8bsd
+  - lex-44byg
+  - lex-fv4a3
+assembly: "parallel(lex-3ezh8, lex-k8bsd, lex-44byg, lex-fv4a3)"
+premises:
+  - "domination is multi-axis (race × class × gender × sexuality × religion × age, interlocking) and multi-level (personal biography × group/cultural context × social-structural institutions) — no single axis or level captures it (lex-3ezh8)"
+  - "the standpoint structurally positioned to perceive the architecture clearly is the outsider-within: inside access to the dominant group's actual operations, but structural exemption from its self-justifying conventions (lex-k8bsd)"
+  - "the architecture reproduces at the cultural level through dominant discourse, which constructs the Other as both a ruled object-of-knowledge and the contrastive mirror the dominant group's own self-identity is built against (lex-44byg)"
+  - "the psychic disturbance a dominated population exhibits (anxiety, dissociation, hyper-vigilance, identity-fracture) is sociogenic — a normal response of a healthy psyche to a pathological structure, not evidence of individual pathology (lex-fv4a3)"
+  - "all four share type-in=claim, type-out=posture and are textually cross-referenced as facets of one framework in each atom's own composition notes, rather than a chain where one produces the next"
+critical-questions:
+  - "does treating these four as parallel facets obscure a real causal order — does the architecture (558) actually have to exist before a standpoint (559) can form to see it, making this more sequential than the types allow expressing?"
+  - "is the outsider-within standpoint (559) available in every domination structure, or does the architecture (558) sometimes foreclose even a structurally-outside vantage point — is the standpoint itself sometimes part of what domination eliminates?"
+  - "can the sociogenic reading (561) be falsified in a given case, or does its framing (any psychic disturbance in a dominated population is structural, not individual) risk becoming unfalsifiable by construction?"
+lineage:
+  - source: practitioner
+    text: assembled-from-lex-3ezh8-lex-k8bsd-lex-44byg-lex-fv4a3
+    citation: "Molecule assembled from four atoms whose own canonical-instances/critical-questions prose already states the compositional claim directly and repeatedly. lex-k8bsd: 'Composes with lex-3ezh8 matrix-of-domination: lex-3ezh8 names the multi-axis multi-level structural architecture of domination; lex-k8bsd names the specific epistemic position uniquely well-suited to perceive and analyze that architecture.' lex-44byg: 'Composes with lex-k8bsd outsider-within: lex-k8bsd names the standpoint structurally positioned to SEE through lex-44byg's discourse.' lex-fv4a3: 'Composes with lex-3ezh8 matrix-of-domination: lex-3ezh8 names the multi-axis multi-level structural architecture of domination; lex-fv4a3 names how that architecture produces psychic-disturbance in the dominated-population (sociogenic etiology). Composes with lex-44byg... lex-fv4a3 names the receiving-end psychic-effect of being so constructed. Composes with lex-k8bsd... lex-fv4a3 names the psychic-disturbance pattern that can co-occur with that standpoint.' All six pairwise ties among the four atoms are independently attested in the atoms' own text, forming a complete clique — the type signature (claim→posture, shared across all four) uses `parallel` rather than `sequential`."
+canonical-instances:
+  - "A first-generation employee of color at an elite institution: the institution's culture is a matrix of domination along race, class, and educational-pedigree axes at once (lex-3ezh8); the employee's position gives inside operational access without full membership, producing an outsider-within read on how the institution actually functions versus its public self-description (lex-k8bsd); the institution's official narrative constructs 'culture fit' language that positions the employee as the Other against which the norm defines itself (lex-44byg); and the employee's chronic anxiety and hyper-vigilance in that environment is a sociogenic response to the structure, not evidence of individual maladjustment (lex-fv4a3)."
+  - "A colonized population under a settler-administrative regime: the regime's legal, economic, and religious institutions form an interlocking multi-level architecture (lex-3ezh8); colonized administrators and translators occupy an outsider-within position relative to the settler bureaucracy (lex-k8bsd); settler ethnography and law produce the colonized as a knowable, rulable object and as the primitive mirror against which settler modernity defines itself (lex-44byg); and Fanon's own clinical observations of colonized psychic disturbance are the sociogenic reading's founding case (lex-fv4a3)."
+status: under-review

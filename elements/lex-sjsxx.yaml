@@ -1,0 +1,39 @@
+id: lex-sjsxx
+name: physics-model-regime-selection
+type-in: state
+type-out: process
+_tier: molecule
+agent-instruction: "When modeling a physical system, the right model depends on the regime (length scale, energy scale, speed). Newtonian mechanics works at slow speeds, fails at relativistic; quantum at small scales, classical at large. Select the model to the regime; don't fight the regime with the wrong model."
+related: [lex-fsazx, lex-hm8yx, lex-dvydj, lex-jy4aq, lex-yexax, lex-stppu, lex-7wxxd, lex-zpfv9, lex-kh8gf, lex-2kjmb, lex-mx4q5]
+scaffolds-from: [lex-hm8yx, lex-fsazx, lex-yexax]
+evokes: [pick-the-right-framework, multi-model-fluency, what-physics-is-this, dimensionless-ratio-tells-you-the-regime]
+decomposes-into:
+  - lex-hm8yx
+  - lex-fsazx
+assembly: "sequential(lex-hm8yx, choice(newtonian-framework, relativistic-framework, quantum-framework, quantum-field-theory-framework, selector=identified-scale-regime))"
+premises:
+  - "your physical system spans some combination of length, time, energy, speed, and action scales"
+  - "there exist multiple physical model frameworks (Newtonian, Relativistic, Quantum, QFT) each empirically valid only when certain scale-ratios fall within certain bounds"
+  - "by lex-hm8yx scale-separation you identify which scales matter for your problem; by lex-fsazx limit-taking you check which framework's validity-conditions are satisfied (e.g., v/c → 0 means relativity reduces to Newtonian, so Newtonian suffices if v/c is small enough)"
+  - "you select the simplest framework whose validity-regime contains your problem's scales — using a more elaborate framework when a simpler one suffices is a precision-vs-cost waste; using a simpler framework when an elaborate one is required produces wrong predictions with confidence"
+  - "for problems that span multiple regimes (e.g., a particle accelerator: relativistic kinematics + quantum scattering), you may need multi-physics methods: separate treatment in each regime + matching at the transition"
+critical-questions:
+  - "have you actually checked the dimensionless ratios that determine regime? (v/c, ℏ/action, kT/energy-scale, λ/system-size) — selecting Newtonian when v/c is 0.3 produces wrong answers but no compiler-error to flag the mistake"
+  - "if your problem spans multiple regimes, are you handling the transition correctly, or are you applying one framework throughout and accepting hidden errors at the boundary?"
+  - "is the framework you've selected the SIMPLEST that suffices, or have you defaulted to a more elaborate one out of habit / training-data bias / status-seeking?"
+  - "in a borderline regime (e.g., v/c ≈ 0.1), have you computed the leading-order correction term to estimate the error your framework choice introduces?"
+lineage:
+  - source: primary
+    text: physics-pedagogical-tradition
+    citation: "the implicit methodology underlying physics curriculum sequencing: students learn Newtonian first, then relativistic and quantum corrections introduced when their applicable regimes are reached. The professional methodology is the same: identify regime, pick framework, solve. Cf. Landau-Lifshitz's volume sequence as exhibit A"
+  - source: practitioner
+    text: physics-decomposition-pass
+    citation: "worked example using lex-hm8yx + lex-fsazx; uses choice() composition operation (2nd attestation; one more attestation triggers choice's promotion to first-class entry). The key molecule for the noted 'physicists have physical intuition and model regimes' framing"
+canonical-instances:
+  - "designing a satellite GPS clock: the relativistic time-dilation correction is large enough (~38 microseconds/day total) that Newtonian mechanics gives wrong predictions. Choice: relativistic framework. Newtonian-only would have made GPS unworkable"
+  - "designing a bicycle: scales are slow (v/c ~ 10^-9), large (size >> atomic), no quantum effects. Choice: Newtonian framework. Using GR or QM is methodological vanity, not precision"
+  - "designing a transistor: scales are small (size ~ 10nm, single-electron tunneling is real), action scales near ℏ. Choice: quantum framework. Using only Newtonian gives qualitatively wrong predictions about tunneling current"
+  - "the DEVELOPED-PHYSICAL-INTUITION named here: an experienced physicist looks at a problem and recognizes 'this is a Newtonian problem' or 'this is a renormalization-group problem' fast — the recognition is choice() applied via fluency rather than via explicit dimensionless-ratio computation. The molecule names the move that fluency operationalizes"
+  - "sibling-shape outside physics: software engineers select among architectural frameworks (monolith vs microservices vs serverless) by similar regime-identification (scale of users / latency requirements / team size); business strategists select among market-entry frameworks by similar identification of competitive regime"
+severity-tier: info
+status: active

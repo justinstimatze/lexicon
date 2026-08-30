@@ -1,0 +1,29 @@
+id: lex-m9arm
+name: large-scale-cooperation-requires-defection-visibility-watched-people-are-nicer
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When evaluating why a group of strangers cooperates at scale, look for the mechanism that makes defection visible (or believed to be visible). Norenzayan (2013) — 'watched people are nice people' — surfaces the empirical regularity that prosocial behavior reliably increases under cues of being observed. Eye images on donation boxes raise contributions; experimental priming with watcher-related concepts increases generosity in dictator games; real-time monitoring suppresses cheating. The Big Gods hypothesis applies the regularity at civilizational scale: belief in MORALIZING PUNISHING supernatural watchers allowed cooperation to scale beyond face-to-face groups, where direct reputation tracking suffices for monitoring. The cultural-group-selection version: groups that adopted believed-in supernatural watchers outcompeted groups that didn't, because their members behaved prosocially under conditions where no human watcher was present. Transferable diagnostic: when you observe sustained large-scale cooperation among strangers, the supporting structure is some functional equivalent of supernatural surveillance — real or believed-in. Modern functional equivalents: state monitoring and law enforcement, transparent ledgers (blockchain, public-records), reputation-tracking systems (eBay seller scores, Yelp, credit reports), surveillance-by-camera, panopticon-style architectural designs, and the diffuse always-on visibility of social media as a secular Big God. Inverse failure mode: when the believed-watching mechanism weakens (loss of religious belief, breakdown of reputation systems, anonymous-enough environment) AND no replacement is installed, prosocial behavior at scale degrades fast. Operational consequence: in any design that needs strangers to cooperate, decide consciously what plays the watcher role — and recognize that 'watching' need not be real, only believed-in, to affect behavior."
+related: [lex-spm8x, lex-r3w25, lex-n8smn, lex-gma7u, lex-5d8hm, lex-qhydj, lex-nqxt9, lex-f5pns, lex-4ydm6, lex-63e4c, lex-5y7zb, lex-z7kgm, lex-nb82m, lex-gu8st, lex-cat29, lex-uxqdz, lex-jfy8w, lex-ybjru, lex-v64bg, lex-gpx2a]
+evokes: [watched-people-are-nice-people, supernatural-surveillance, norenzayan-2013-big-gods, moralizing-punishing-gods, eight-principles-of-big-gods, eye-of-horus, prosocial-religion, cultural-group-selection, panopticon-as-secular-big-god, defection-visibility-mechanism, big-gods-for-big-groups]
+lineage:
+  - source: primary
+    tradition: norenzayan-big-gods
+    text: norenzayan-2013-big-gods
+    citation: "Ara Norenzayan, Big Gods: How Religion Transformed Cooperation and Conflict (Princeton University Press, 2013), Eight Principles of Big Gods (front matter)."
+    quote: "The entire argument in this book can be summarized in eight interrelated principles. 1. Watched people are nice people. 2. Religion is more in the situation than in the person. 3. Hell is stronger than heaven. 4. Trust people who trust in God. 5. Religious actions speak louder than words. 6. Unworshipped Gods are impotent Gods. 7. Big Gods for Big Groups. 8. Religious groups cooperate in order to compete."
+  - source: primary
+    tradition: norenzayan-big-gods
+    text: norenzayan-2013-big-gods
+    citation: "Ara Norenzayan, Big Gods: How Religion Transformed Cooperation and Conflict (Princeton University Press, 2013), Chapter 1 (organization of the book)."
+    quote: "As the saying goes, 'watched people are nice people.' In chapter 2, I explore how our basic social intuitions to monitor others' reputations, and care about our own, makes people nice to each other. This lays the foundation to discuss how these social intuitions give rise to supernatural watchers. Chapters 2 and 3 explain the process by which people play nice when they think God is watching. If so, it follows that belief in supernatural watchers encourages nice behavior."
+canonical-instances:
+  - "Bateson-Nettle-Roberts (2006) honesty-box experiment — installing a picture of eyes above a workplace coffee-honesty-box tripled contributions vs a picture of flowers. The eyes themselves changed behavior even though no human was actually watching."
+  - "The Eye of Horus / Eye of Providence / Buddha Eyes / Inca Viracocha — Norenzayan's Figure 2.1 shows independently-evolved watcher-iconography across civilizations as the visual signature of the supernatural-surveillance hypothesis."
+  - "Hutterite agricultural colonies' sustained cooperation among hundreds — religious moralizing-god framework provides the visibility mechanism even where face-to-face monitoring is partial."
+  - "eBay seller reputation scores enabling stranger-to-stranger trust commerce at scale — secular functional equivalent of Big Gods, in that every defection becomes a permanent reputation score visible to all future counterparties."
+  - "State law enforcement and visible policing — the modern secular replacement for moralizing-god surveillance; works when believed-in (deterrence) regardless of actual enforcement intensity."
+  - "Social media as ambient panopticon — diffuse, always-on visibility for ordinary people; the secular Big God of late modernity, with the same behavioral consequences (people perform-as-watched, conform to imagined audience)."
+  - "Blockchain / public-ledger transparency in cryptocurrency communities — the explicit attempt to engineer a Big-Gods-equivalent watcher into a stateless context where neither religious belief nor state enforcement can be assumed."
+severity-tier: warning
+status: active

@@ -1,0 +1,24 @@
+id: lex-rudqf
+name: decisions-are-delayed-until-necessity-removes-the-choice
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A risky discretionary decision carries political exposure precisely because it was a choice — anyone can later argue it was the wrong one, even if it was reasonable at the time. Delaying the decision until external circumstance forecloses every alternative eliminates that exposure entirely, because once a decision is inevitable, no real choice remained for critics to second-guess; managers describe this outcome as 'the decision made itself.' The strategy trades earlier, cheaper action for later, more constrained action, in exchange for near-total protection from the charge of having chosen badly — waiting is not indecision here, it's a deliberate transfer of the decision's authorship from the person to the circumstances."
+related: []
+evokes: [jackall-moral-mazes, "the decision made itself", waiting-for-inevitability-to-remove-authorship]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch4-decisions-only-when-inevitable
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 4, Looking Up and Looking Around."
+    quote: "Decisions are made only when they are inevitable. To make a decision ahead of the time it has to be made risks political catastrophe. People can always interpret the decision as an unwise one even if it seems to be correct on other grounds."
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch4-decision-made-itself
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 4, Looking Up and Looking Around."
+    quote: "The decision made itself."
+canonical-instances:
+  - "An executive who suspects a product line needs to be discontinued waits until sales collapse far enough that shutting it down is undeniable, rather than making the call earlier while the outcome was still genuinely uncertain and therefore arguable."
+critical-questions:
+  - "Does waiting for inevitability actually protect against real cost, or does the delay itself compound the damage the earlier decision would have prevented — and who bears that compounded cost if it isn't the person who chose to wait?"
+status: active

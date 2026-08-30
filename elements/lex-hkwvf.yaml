@@ -1,0 +1,22 @@
+id: lex-hkwvf
+name: a-death-song-for-the-presumed-dead-is-interrupted-by-their-return
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A grieving relative can begin a formal mourning ritual for someone believed dead, based only on their prolonged absence during dangerous conditions and no actual confirmation -- and the person's own return, arriving in the middle of the ritual, can convert that anticipatory grief instantly into joy. Riding into the fleeing camp, Black Elk hears his mother mid-ritual: 'She was singing a death song for me, because she felt sure I had died over there. She was so glad to see me that she cried and cried.' The mourning had already begun in earnest when the person it mourned rode in alive."
+related: []
+evokes: [black-elk-speaks, the-end-of-the-dream, singing-a-death-song-for-me, she-felt-sure-i-had-died, she-cried-and-cried]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch25-end-of-the-dream
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 25, 'The End of the Dream.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "The people had fled down Clay Creek, and we followed their trail. [...] We rode in among them and I heard my mother's voice. She was singing a death song for me, because she felt sure I had died over there. She was so glad to see me that she cried and cried."
+canonical-instances:
+  - "A family holds a wake for a hiker overdue by three days in dangerous terrain. The hiker walks in partway through the gathering, delayed by a washed-out trail rather than hurt."
+  - "A ship's crew begins a memorial service for a sailor swept overboard during a storm, believing recovery impossible after hours of searching, only for the sailor to be spotted alive, clinging to debris, as the service is underway."
+  - "A unit holds an informal memorial for a soldier who failed to report back after a mission went dark for two days, and the soldier walks into camp midway through it, having been cut off from radio contact rather than killed."
+critical-questions:
+  - "Does beginning mourning before any confirmation of death serve a real psychological function, preparing for likely loss, or does it risk manufacturing grief for people who are actually still alive and simply delayed?"
+  - "Is the joy at the interrupted death song proportional to the grief that preceded it, or does the intensity of relief at a return partly depend on how far the mourning ritual had already progressed before it was interrupted?"
+  - "If the person had returned only after the ritual fully concluded, would the reunion carry the same emotional charge, or does the specific interruption, catching the mourning still in progress, do work that a reunion after completed mourning would not?"
+status: active

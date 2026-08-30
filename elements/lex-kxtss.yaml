@@ -1,0 +1,19 @@
+id: lex-kxtss
+name: voluntarily-disclosing-a-retaliatory-act-before-departing
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "After carrying out a retaliation that could easily go undetected, choosing to disclose it directly to the wronged party — along with the actual reasoning behind it — before leaving, rather than fleeing silently, treats honesty about the act as more important than escaping consequences for it. In the Jataka's tale of the mother heron, rather than flee unnoticed, she confronts the king directly and explains exactly why she took revenge, then leaves: 'My lord, it was through your carelessness that the boys killed my young ones, and under the influence of passion I in revenge caused their death. Now I can no longer live here.'"
+related: []
+evokes: [jataka, catukkanipata, kuntani-jataka, voluntary-disclosure-before-departure-rather-than-silent-flight, owning-a-retaliatory-act-instead-of-escaping-detection]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kuntani-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 343, Kuntani-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "My lord, it was through your carelessness that the boys killed my young ones, and under the influence of passion I in revenge caused their death. Now I can no longer live here."
+canonical-instances:
+  - "An employee who quietly torpedoed a rival's pitch out of resentment could simply resign without explanation, but instead tells their manager plainly what they did and why before leaving, refusing to let the act pass as an unexplained coincidence."
+critical-questions:
+  - "Does this disclosure serve the heron's own conscience more than it serves the king, given that she's already decided to leave regardless of how he responds to the confession?"
+  - "Is there a risk that voluntary disclosure invites a consequence that silent departure would have avoided entirely — does honesty here actually cost the discloser anything real?"
+status: active

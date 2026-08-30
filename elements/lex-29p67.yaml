@@ -1,0 +1,18 @@
+id: lex-29p67
+name: a-process-can-succeed-without-the-agents-understanding-of-its-mechanism
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: "A process can run to completion and produce its intended result even when the person who set it in motion doesn't understand, and doesn't need to understand, how it actually works — a sower scatters seed, then sleeps and rises night and day while it springs up, and the text is explicit that he doesn't know how. The outcome doesn't depend on the agent's model of the mechanism being correct, or existing at all; it depends on the mechanism itself doing what it does regardless of who's watching or what they believe about it."
+related: []
+evokes: [kjv, the-seed-grows-of-itself, first-the-blade-then-the-ear, he-knoweth-not-how, unattended-progress]
+lineage:
+  - source: primary
+    text: kjv-1611-mark-4-the-growing-seed
+    citation: "The Holy Bible, King James Version (1611; this edition Project Gutenberg #10), Mark 4:26-28. Verified verbatim against a direct extraction of the held copy."
+    quote: "So is the kingdom of God, as if a man should cast seed into the ground; And should sleep, and rise night and day, and the seed should spring and grow up, he knoweth not how. For the earth bringeth forth fruit of herself; first the blade, then the ear, after that the full corn in the ear."
+canonical-instances:
+  - "A manager who has no idea how a particular algorithm actually works still successfully ships the feature it powers, because the team that built it understands the mechanism well enough that the manager's own understanding was never load-bearing for the outcome."
+critical-questions:
+  - "Is this actually a case where understanding genuinely isn't required for success, or is the agent's ignorance quietly relying on someone else's understanding that just isn't visible from where they're standing?"
+status: active

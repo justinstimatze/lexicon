@@ -1,0 +1,21 @@
+id: lex-bxhvv
+name: shadow-boxing-an-imagined-rival-still-costs-real-effort
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "When another party seems to be matching your posture with total silence, check whether there is actually another party there at all before you invest real effort in outlasting them. In Radin's Winnebago Trickster cycle, Trickster sees a figure across a lake pointing at him and calls out, 'Say, my younger brother, what are you pointing at?' but gets no answer. Rather than walk over and look, he decides to match the behavior exactly: 'I, too, shall do that. I, too, can stand pointing just as long as he does. I, too, can put a black shirt on.' He holds the pose until his arm aches, tries to negotiate a truce -- 'Younger brother, let us stop this. My arm is very tired' -- and is met with the same silence. Only after giving up in frustration, calling the other 'heartless,' does he walk over and discover the truth: 'he saw a tree-stump from which a branch was protruding. This is what he had taken for a man pointing at him.' The entire standoff, the tired arm, the failed negotiation, cost real effort against an opponent that was never capable of opposing anything. Diagnostic move: before matching a perceived rival's posture for an extended standoff, check what would happen if you simply walked over and looked -- silence from the other side is data about the situation, not confirmation that a contest is underway."
+related: []
+evokes: [radin-winnebago-trickster-cycle, wakdjunkaga, i-too-can-stand-pointing-just-as-long-as-he-does, a-tree-stump-from-which-a-branch-was-protruding]
+lineage:
+  - source: primary
+    text: radin-trickster-mimics-a-tree-stump-mistaken-for-a-silent-rival
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'The Winnebago Trickster Cycle,' episode 11. Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "'Say, my younger brother, what are you pointing at?' But he received no answer. Then, for the second time, he called, 'Say, my younger brother, what is it you are pointing at?' Again he received no answer. ... 'Well, if that's the way it's going to be, I, too, shall do that. I, too, can stand pointing just as long as he does. I, too, can put a black shirt on.' ... 'Younger brother, let us stop this. My arm is very tired.' Again he received no answer. ... 'Well, why am I saying all this? That man has no heart at all. I am just doing what he is doing.' Then he walked away and when he looked around, to his astonishment, he saw a tree-stump from which a branch was protruding. This is what he had taken for a man pointing at him."
+canonical-instances:
+  - "A negotiator interprets a counterpart's long silence after an offer as a hardball tactic and responds by going silent in turn for days, burning goodwill and time, before learning the counterpart's email had simply gone to spam and no strategy was ever being played."
+  - "A driver assumes another car matching their speed on the highway is trying to race them and speeds up to 'win,' risking an accident, before realizing the other driver was simply going the same speed toward the same exit with no awareness of any contest."
+critical-questions:
+  - "Would Trickster have discovered the truth sooner by simply walking closer at any point, and if so, what kept him from doing that -- is there something about matching a perceived rival's behavior that makes checking the premise feel unnecessary or even weak?"
+  - "Does the story suggest Trickster is uniquely prone to this kind of misreading, given his general credulity throughout the cycle, or is mistaking silence for opposition a more universal trap that a more careful character would fall into just as easily?"
+  - "Is there a meaningful difference between this case, where the rival never existed at all, and a case of a real but passive rival who does nothing -- does the diagnostic still apply when the other party is at least present, just uninterested in the contest?"
+status: active

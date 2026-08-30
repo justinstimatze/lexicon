@@ -1,0 +1,24 @@
+id: lex-j98sj
+name: better-pre-selection-filtering-shrinks-its-own-apparent-validity
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a screening test looks like it barely predicts anything among the people who passed it, don't conclude the test is worthless before checking whether the test's OWN success at filtering is what shrank the correlation. Merton, summarizing Gottheil and Michael's review of medical-school admissions research: 'the more efficient these tests prove to be in culling out probable failures among prospective students and the more widely these tests are actually used as a basis for selecting students, the less apt they are to predict varying degrees of academic success among the selected group of students which is admitted.' The mechanism is restriction of range: using the test to reject likely failures narrows the spread of the predictor variable in the remaining, admitted population — everyone left has already cleared a similar bar — and a narrower spread mechanically shrinks the observed correlation between the predictor and the outcome, independent of whether the test is actually measuring something real. This produces a specific, ironic failure mode: a test doing exactly its intended job (excluding the people who would have failed) makes itself look statistically useless when evaluated only against the survivors, because the survivors are the population in which its predictive power has already been spent. Diagnostic move: before dismissing a selection tool as unpredictive based on outcomes within the selected group, ask what its validity looks like against the FULL applicant pool it was screening, not just the pool it let through — a test's low apparent validity post-selection can be evidence it worked, not evidence it didn't."
+related: [lex-s96em, lex-tmy67]
+evokes: [merton-1957, restriction-of-range, gottheil-and-michael, medical-school-admissions-testing, selection-shrinks-its-own-validity, psychometric-attenuation]
+lineage:
+  - source: primary
+    text: merton-1957-restriction-of-range-irony
+    citation: "Robert K. Merton, \"Some Preliminaries to a Sociology of Medical Education,\" in Merton, Reader, and Kendall, eds., The Student-Physician (Cambridge: Harvard University Press for The Commonwealth Fund, 1957), p.60-61. Verified against the pdftotext extraction of the source PDF."
+    quote: "'there is also something of historical irony if not indeed of paradox in the fact that the more efficient these tests prove to be in culling out probable failures among prospective students and the more widely these tests are actually used as a basis for selecting students, the less apt they are to predict varying degrees of academic success among the selected group of students which is admitted.'"
+  - source: primary
+    text: merton-1957-gottheil-michael-restriction-quote
+    citation: "Robert K. Merton, \"Some Preliminaries to a Sociology of Medical Education\" (1957), p.61, quoting Edward Gottheil and Carmen Miller Michael, \"Predictor Variables Employed in Research on the Selection of Medical Students,\" J. Med. Educ., 32 (February 1957), p.141."
+    quote: "'the magnitude of reported correlation coefficients [between preadmission test scores and grades in medical school] has frequently been decreased by the effect of restriction in the range of cases available for study in the school.'"
+canonical-instances:
+  - "A company's rigorous technical interview screens out most weak candidates, and among the hires who pass it, interview score barely correlates with on-the-job performance — a manager concludes the interview is useless and should be scrapped, missing that the weak lower tail it was designed to exclude is exactly the range whose absence flattened the correlation among survivors."
+  - "A university requiring a minimum standardized test score for admission finds that, among admitted students, test scores don't predict GPA very well — critics cite this as proof the test doesn't measure anything relevant, without checking whether the same test strongly predicts GPA across the full range of ALL applicants, including the ones who were rejected and never got the chance to demonstrate the correlation."
+critical-questions:
+  - "How would you actually verify the restriction-of-range explanation rather than just invoking it as a convenient excuse for a test that might genuinely be weak — what data on the excluded population would need to exist, and is it usually available in practice?"
+  - "Does restriction of range only excuse LOW correlation, or can a test-maker exploit the same logic to defend a test that never had real validity at all, by pointing to range restriction whenever confronted with weak post-selection results and never producing the full-range data that would settle the question either way?"
+status: active

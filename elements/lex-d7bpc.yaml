@@ -1,0 +1,21 @@
+id: lex-d7bpc
+name: a-vague-general-threat-lets-the-guilty-target-indict-themselves
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When you need to scare off someone you can't defeat directly, you don't need to know anything specific about them -- you only need to invent a threat general enough that anyone with a guilty conscience will supply the missing specifics themselves. In Cushing's telling, a Beetle facing a Coyote about to eat him stalls him with a fabricated overheard warning: 'I heard them saying down there that tomorrow they would chase away and thoroughly chastise everybody who defiled the public trails of this country, and they are making ready as fast as they can!' The threat names no one. The Coyote does the incriminating work himself: 'Souls of my ancestors! I have been loitering along this trail this very morning, and have defiled it repeatedly. I'll cut!' The Beetle never claimed the Coyote was the target -- the Coyote's own private knowledge of his own guilt is what turned a generic warning into a personal one, and he fled a threat that was never actually pointed at him. Diagnostic move: a vague warning about consequences for wrongdoers works precisely because it doesn't accuse anyone specifically -- it only needs to reach someone who already knows, privately, that the description fits them, and their own guilt does the rest of the persuading."
+related: []
+evokes: [self-incrimination-completes-a-threat-that-was-never-aimed, cushing-coyote-and-the-beetle, souls-of-my-ancestors-ive-defiled-it-repeatedly, hush-hush-listen]
+lineage:
+  - source: primary
+    text: cushing-coyote-beetle-fabricated-overheard-threat
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Coyote and the Beetle.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'The Good Soul save us! exclaimed the Beetle, with a shake of his head. I heard them saying down there that tomorrow they would chase away and thoroughly chastise everybody who defiled the public trails of this country, and they are making ready as fast as they can! Souls of my ancestors! cried the Coyote. I have been loitering along this trail this very morning, and have defiled it repeatedly. I'll cut! And away he ran as fast as he could go.'"
+canonical-instances:
+  - "An anonymous notice posted in an office break room warns that management is aware certain employees have been falsifying expense reports and an investigation is coming, and the one employee who has actually been doing this immediately assumes it is aimed at them and rushes to cover their tracks, though the notice named no one and may not even refer to a real investigation."
+  - "A landlord posts a general notice that unauthorized subletting will be reported to the city, intending it for no tenant in particular, and the one tenant actually subletting illegally moves out within the week, having supplied the specific accusation the notice never made."
+critical-questions:
+  - "Does this tactic only work on a target who is actually guilty of something, or could a vague enough threat also panic an innocent party who simply assumes the worst about themselves -- how much does the tactic depend on the target's guilt being real rather than merely feared?"
+  - "What happens when the target isn't guilty of anything the threat could plausibly cover -- does the vague warning simply fail to land, or does an anxious enough target still find something in their own conduct to worry the threat is about?"
+  - "Is there a meaningful difference between the Beetle's fabrication, which invents an authority and an enforcement action that don't exist, and a genuine general warning issued by a real authority that happens to work the same way on a guilty listener?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-tda47
+name: a-single-confirmed-point-unlocks-an-answer-the-full-solution-would-have-shortcut
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'A teacher who wants a student to construct an answer rather than receive it can pose a deliberately terse question. A student who stalls on it has often already grasped the general shape of the problem and is only stuck choosing among several valid approaches — so confirming a single specific point can unlock the rest, without the teacher ever supplying more of the answer. The confirmation tells the student which door they''re already standing in front of, and from there the student assembles the rest themselves. In the Jataka''s frame story, the Buddha puts a deliberately brief question to Sariputta: "Some have probations yet to pass, and some have reached the goal: / Their different deportments say, for thou dost know the whole." Sariputta is not confused about the general question, only about which of many valid framings the Buddha has in mind, and the Buddha reads the specific shape of his hesitation: "Sariputta has no doubt of the general question, but doubts what particular side of it I have in view. If I give no clue, he will never be able to answer, So a Clue I will give him." He confirms one point — not the answer — and "the hint thus given, he knew that Sariputta had taken his meaning, and would answer fully, starting from the very elements of being," so that "the question stood out clear before the Elder, as with a hundred hints, nay, a thousand."'
+related: []
+evokes: [jataka, terasanipata, sarabha-miga-jataka, minimal-hint-scaffolding, calibrated-confirmation-not-a-full-answer]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sarabha-miga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XIII (Terasanipata), No. 483, Sarabha-miga-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: 'The hint thus given, he knew that Sariputta had taken his meaning, and would answer fully, starting from the very elements of being. Then the question stood out clear before the Elder, as with a hundred hints, nay, a thousand.'
+canonical-instances:
+  - "A staff engineer, watching a junior colleague freeze on a debugging question because three plausible root causes all fit the symptoms equally well, doesn't name the bug — she confirms one detail ('the timestamps on the retry logs are what you'd expect, right?'), and the junior immediately narrows to the one cause that detail rules out the other two, then solves the rest unaided."
+critical-questions:
+  - "The Buddha diagnoses the exact SHAPE of Sariputta's hesitation before choosing what to confirm — is that diagnosis itself the hard part, and does the technique fail entirely if the teacher misreads which kind of stuck the student actually is?"
+  - "Would the same single confirming point have worked for a student with less underlying command of the material, or does this only function as a shortcut for someone who already has everything else assembled and is missing just the entry point?"
+status: active

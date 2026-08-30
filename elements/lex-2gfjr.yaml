@@ -1,0 +1,18 @@
+id: lex-2gfjr
+name: cynically-misreading-genuine-calm-as-suppressed-rage-projects-the-observers-own-anger
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'An observer who cannot imagine responding to provocation without anger can interpret another person''s actual equanimity as a mask for hidden, more dangerous rage, treating the calm itself as evidence of what the observer assumes must be seething underneath. In the Jataka''s tale of Culla-Bodhi, the king reads the ascetic''s genuine silence as proof of suppressed wrath: "This ascetic, humbug that he is, first roars out, ''I will not let anger arise at all, but if it does, I will crush it while it is small,'' and then is so obstinate in wrath that he won''t speak to me!"'
+related: []
+evokes: [jataka, dasanipata, culla-bodhi-jataka, guilty-conscience-projection, misreading-calm-as-suppressed-anger]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-culla-bodhi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 443, Culla-Bodhi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "This ascetic, humbug that he is, first roars out, 'I will not let anger arise at all, but if it does, I will crush it while it is small,' and then is so obstinate in wrath that he won't speak to me!"
+canonical-instances:
+  - "A manager who has never once responded to criticism without raising his voice assumes an employee's calm, silent response to a harsh review must be masking a plan for retaliation, since he cannot conceive of the silence as simply genuine."
+critical-questions:
+  - "Is this projection specific to people who habitually respond with anger themselves, or can anyone slip into reading calm as concealment under the right conditions?"
+status: active

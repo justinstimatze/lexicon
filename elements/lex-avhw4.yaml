@@ -1,0 +1,19 @@
+id: lex-avhw4
+name: an-apparent-double-standard-can-dissolve-once-you-find-the-real-variable
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When two parties seem to receive unequal treatment for outwardly similar behavior, check whether the real variable is something other than the surface-level similarity, such as tenure or belonging. Aesop's 'The Parrot and the Cat' has a newly-arrived, noisy parrot welcomed with delight, while a longtime resident cat gets scolded for noise of its own — a scolding the parrot itself justifies bluntly: 'My voice they delight in; but yours — yours is a perfect nuisance.' The apparent unfairness dissolves once the two behaviors are recognized as not actually the same thing at all — the real axis is the value or pleasure each delivers to the audience, not seniority or favoritism, which was only ever a decoy variable in the comparison."
+related: []
+evokes: [aesop, the-parrot-and-the-cat, apparent-double-standard-dissolves, real-variable-is-value-delivered]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-parrot-and-the-cat
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Parrot and the Cat.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Look here, mistress, said the Parrot, you just hold your tongue. My voice they delight in; but yours--yours is a perfect nuisance."
+canonical-instances:
+  - "a new hire's blunt feedback gets welcomed while a tenured employee's similarly blunt complaint gets shut down — not favoritism toward the newcomer, but because one delivery reads as useful signal and the other as noise."
+critical-questions:
+  - "How would the cat determine, before assuming favoritism, whether the actual variable really is value delivered rather than some other decoy explanation — is there a reliable way to check this from inside the comparison?"
+  - "Does the parrot's framing let real favoritism off the hook too easily — could seniority or belonging still be doing genuine work in some cases where a self-serving party claims the difference is purely about value?"
+status: active

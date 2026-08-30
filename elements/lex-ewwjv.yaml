@@ -1,0 +1,19 @@
+id: lex-ewwjv
+name: manufactured-mutual-fear-between-neighbors-who-never-compare-notes-isolates-both
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When two neighboring parties both withdraw defensively without ever directly communicating, check whether a third party has manufactured mutual, unverifiable fear between them for its own benefit. In Aesop's 'The Eagle, the Cat, and the Wild Sow,' a cat living between an eagle and a sow separately warns each that the other threatens their young; both retreat into permanent hiding rather than checking the claim against each other, until both starve to death in hiding, and 'their dead bodies supplied the Cat with ample food for her growing family.' The cat's payoff is entirely passive — never a direct attack on either family, only the starvation their own self-imposed isolation produces. None of it works if the eagle and the sow ever simply compare notes."
+related: []
+evokes: [aesop, the-eagle-the-cat-and-the-wild-sow, manufactured-mutual-fear, isolation-without-direct-attack]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-eagle-the-cat-and-the-wild-sow
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Eagle, the Cat, and the Wild Sow.' Verified verbatim against a direct extraction of the held copy."
+    quote: "The Eagle, meanwhile was afraid to stir from her nest, and the Sow dared not leave her home among the roots: so that in time both they and their families perished of hunger, and their dead bodies supplied the Cat with ample food for her growing family."
+canonical-instances:
+  - "a colleague privately tells two peers that the other is 'gunning for them,' so neither ever compares notes and both stay defensively withdrawn while the rumor-spreader quietly consolidates influence over the resulting vacuum."
+critical-questions:
+  - "Would a single direct conversation between the eagle and the sow have exposed the manipulation immediately, and if so, what specifically prevented that conversation — physical separation, established distrust, or something the cat actively maintained?"
+  - "Does this mechanism require the manipulator to actively lie to both parties, or could the same isolation and starvation result from each party's own unprompted, unfounded suspicion of the other, with no cat involved at all?"
+status: active

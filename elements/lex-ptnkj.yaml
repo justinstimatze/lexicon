@@ -1,0 +1,22 @@
+id: lex-ptnkj
+name: indispensable-to-a-systems-members-is-not-the-same-as-being-a-member
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: "Something can be strictly indispensable to producing the members of a system -- without it the system could not exist at all -- without that indispensability making the thing itself a participant in the system it produces. Being a necessary input to a system's members and being a functioning part of the system are two different relations. Treating them as the same relation is a specific logical error, distinct from merely underrating the input's importance. Gilman names the fallacy precisely, applied to women's exclusion from the organizations that constituted social life: 'they were not society. Of course, they were indispensable in this capacity; but one might as well call food a part of society because people could not exist without eating as to call women a social factor because people could not exist without being born.'"
+related: []
+evokes: [women-and-economics, chapter-viii, one-might-as-well-call-food-a-part-of-society, they-were-indispensable-in-this-capacity, necessary-input-is-not-membership]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-viii
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter VIII. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "Social life is absolutely conditioned upon organization. The military organizations which promote peace, the industrial organizations which maintain life, and all the educational, religious, and charitable organizations which serve our higher needs constitute the essential factors of that social activity in which, as individuals, we live and grow; and it is plain, therefore, that while women had no part in these organizations they had no part in social life. Their main relation to society was an individual one, an animal one, a sexual one. They produced the people of whom society was made, but they were not society. Of course, they were indispensable in this capacity; but one might as well call food a part of society because people could not exist without eating as to call women a social factor because people could not exist without being born."
+canonical-instances:
+  - "A company's overnight cleaning crew is strictly indispensable to the business functioning at all -- without them the offices would become unusable -- but that indispensability doesn't make them participants in the company's actual decision-making processes, culture, or strategic direction; those are separate relations, and conflating them lets the company claim inclusion it hasn't earned."
+  - "The power grid is indispensable to every institution in a city -- without it, none of them could operate for a day. That doesn't make the utility supplying it a member of the city's civic or political life. It keeps the city running. It has no seat at the table where the city's decisions get made."
+  - "Unpaid family caregiving is indispensable to keeping a healthcare system solvent -- without it the formal system would collapse under costs it can't absorb -- but that indispensability doesn't make family caregivers members of the healthcare system in any sense that grants them its resources, recognition, or decision-making voice."
+critical-questions:
+  - "Is there a principled line between 'merely indispensable input' and 'genuine participant,' or does the distinction quietly do political work by deciding, after the fact, which indispensable roles get to count as membership and which don't?"
+  - "If a thing is indispensable enough, and organizes its own indispensability collectively rather than individually, does it eventually cross over into being a system participant -- and if so, what does that crossing actually require beyond mere indispensability?"
+  - "Gilman uses this distinction to argue women were excluded from social membership despite being indispensable to producing society's members -- could the same logical move be used in the other direction, to justify excluding any indispensable-but-unorganized class from the benefits of membership, rather than to argue they should be included?"
+status: active

@@ -1,0 +1,29 @@
+id: lex-suwd6
+name: a-three-stage-rehearsal-produces-group-self-persuasion
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Groups preparing a public justification for a decision go through a distinct three-stage rehearsal that ends in genuine self-persuasion rather than truth-seeking. Stage one is loose and playful — managers cast around many possible framings to 'cover all the bases,' often with real levity and parody, and weaker options fall away on their own. Stage two turns adversarial: specific rationales face a kind of devil's-advocacy back-and-forth, one manager proposing a line and another countering with its weakness. Stage three is the decisive convergence, when the group settles on a rationale it collectively 'feels comfortable' with — at which point morality becomes personal comfort relative to anticipated outside reactions, not correspondence to some independent standard. The rehearsal's real function isn't refining the truth of the justification, it's producing genuine confidence in whichever rationale survived — 'convincing oneself of one's own rectitude' is the actual output, and it's described as the most subtle and effective form of hype precisely because the group isn't performing confidence, it now has it."
+related: []
+evokes: [jackall-moral-mazes, "convincing oneself of one's own rectitude", the-three-stage-legitimation-rehearsal]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch7-rehearsal-stage-1
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 7, The Magic Lantern."
+    quote: "managers cast around a variety of perspectives in order to \"cover all the bases\""
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch7-rehearsal-stage-3
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 7, The Magic Lantern."
+    quote: "one with which they \"feel comfortable.\""
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch7-convincing-oneself
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 7, The Magic Lantern."
+    quote: "rehearsals also encourage the most subtle form of hype, namely convincing oneself of one's own rectitude."
+canonical-instances:
+  - "A leadership team preparing to announce layoffs runs through several possible framings half-jokingly, then argues seriously about which framing best withstands anticipated pushback, and finally converges on a version everyone in the room genuinely feels good about — by the time it's announced publicly, no one in the room is performing confidence, they've actually arrived at it."
+critical-questions:
+  - "Does the three-stage process ever actually surface a genuine ethical problem with the underlying decision, or is its structure such that it can only ever converge on some rationale the group can live with, regardless of whether the decision itself deserves defending?"
+status: active

@@ -1,0 +1,20 @@
+id: lex-ayqj9
+name: not-immediately-lethal-gets-mistaken-for-safe
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "The test 'did anyone die from this' collapses harm into a false binary — instant death versus safe — and misses the whole space of real damage that isn't immediately fatal: intoxication, addiction, chronic disease, slow poisoning. Someone applying this test infers safety from survival alone, without asking what non-lethal harm the survivors actually suffered. In the Jataka's origin story of alcohol, a forester watches birds and animals drink fermented liquid pooled in a hollow tree, fall down intoxicated, sleep it off, and fly away — and concludes from their survival that the liquid is harmless: \"If this were poison they would die, but after a short sleep they go away as they list; it is no poison.\" He then drinks it himself and goes on to spread it through an entire kingdom, whose destructive effects the rest of the tale spends dozens of stanzas cataloguing."
+related: []
+evokes: [jataka, timsanipata, kumbha-jataka, survival-mistaken-for-safety, false-binary-of-harm]
+lineage:
+  - source: primary
+    text: jataka-francis1905-kumbha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XVI (Timsanipata), No. 512, Kumbha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "If this were poison they would die, but after a short sleep they go away as they list; it is no poison."
+canonical-instances:
+  - "A factory manager notices that workers exposed to a solvent for years haven't dropped dead on the shop floor and concludes the exposure levels must be fine, never investigating the elevated rates of respiratory disease and cancer showing up only in workers' medical records a decade later."
+  - "A new employee watches coworkers who skip sleep to hit every deadline and, seeing none of them collapse, concludes the pace must be sustainable — missing the burnout, health decline, and quiet attrition the practice is actually producing, just too slowly to read as an emergency."
+critical-questions:
+  - "If survival isn't proof of safety, what test would actually distinguish a genuinely harmless substance or practice from one that's simply slow to show its damage — and is that test available to someone facing the decision in the moment, the way 'did they die' is?"
+  - "The forester generalizes from a handful of animals falling asleep and waking up fine — how large a sample, and how long a follow-up period, would it actually take to rule out slow or cumulative harm, versus the one-off observation that satisfied him?"
+status: active

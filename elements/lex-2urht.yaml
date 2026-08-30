@@ -1,0 +1,20 @@
+id: lex-2urht
+name: destroying-a-contested-prize-rather-than-let-an-award-provoke-the-losers
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When several equally entitled, equally armed claimants each demand the same indivisible thing and awarding it to any one of them turns the rest into enemies, destroying the prize itself can look like the only allocation that doesn't create a losing faction with both motive and means for retaliation. In the Jataka's tale of Kusa, seven kings besiege the city of Madda, each demanding the same princess in marriage; her father, unable to choose one without provoking the other six, decides: \"After casting off the chief king in all India, let her receive the reward due to her return home. I will slay her and cutting her body into seven pieces send one to each of the seven kings.\""
+related: []
+evokes: [jataka, sattatinipata, kusa-jataka, no-allocation-satisfies-all-claimants, destruction-as-conflict-avoidance]
+lineage:
+  - source: primary
+    text: jataka-francis1905-kusa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XX (Sattatinipata), No. 531, Kusa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "If I should send Pabhavati to any one of them, the rest will join battle with me. It is out of the question to give her to any one of them. After casting off the chief king in all India, let her receive the reward due to her return home. I will slay her and cutting her body into seven pieces send one to each of the seven kings."
+canonical-instances:
+  - "Several board members each insist a startup's single remaining acquisition offer must go through their preferred structure or be killed entirely; unable to satisfy every faction with one deal, the CEO recommends walking away from the acquisition altogether rather than choosing a structure that leaves some board members feeling overruled."
+  - "A family estate includes one irreplaceable heirloom that three siblings each believe should be theirs; rather than award it to one and alienate the other two, the executor has it sold at auction and the proceeds split evenly, effectively destroying the heirloom as a family object to avoid naming a winner."
+critical-questions:
+  - "The king's solution treats his daughter as the contested resource rather than as a party whose own preference might matter — how much of the appeal of 'destroy it to avoid conflict' depends on the decision-maker not recognizing the thing being destroyed as having standing of its own?"
+  - "Is destruction actually less provocative than a clean choice, or does it just convert the losers' anger at being passed over into everyone's anger at the destroyer — trading one kind of blowback for a different, possibly worse one?"
+status: active

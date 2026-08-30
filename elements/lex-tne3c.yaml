@@ -1,0 +1,22 @@
+id: lex-tne3c
+name: deliberately-cultivating-matched-critic-and-inventor-roles
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "A society or organization can intentionally train two distinct, complementary cognitive specializations as a matched pair: one role dedicated to noticing flaws, discriminating fine differences, and flagging where something could be better, and a separate role dedicated to actually solving the flagged problem. This beats leaving improvement to chance or expecting the same generalist to both find faults and fix them -- each generation reliably produces new critics to detect faults, and a standing corps of inventors is kept ready to apply their specialized skill wherever a fault gets flagged. Gilman states the design directly: 'They had early observed the value of certain improvements, had easily inferred that there was room for more, and took the greatest pains to develop two kinds of minds--the critic and inventor... In each generation there was sure to arrive some new mind to detect faults and show need of alterations; and the whole corps of inventors was at hand to apply their special faculty at the point criticized.'"
+related: []
+evokes: [herland, chapter-7, two-kinds-of-minds-the-critic-and-inventor, the-whole-corps-of-inventors-was-at-hand, matched-fault-finding-and-fault-fixing-as-a-design]
+lineage:
+  - source: primary
+    text: gilman-1915-herland-chapter-7
+    citation: "Charlotte Perkins Gilman, Herland (1915), Chapter 7, 'Our Growing Modesty.' Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "They had early observed the value of certain improvements, had easily inferred that there was room for more, and took the greatest pains to develop two kinds of minds--the critic and inventor. Those who showed an early tendency to observe, to discriminate, to suggest, were given special training for that function; and some of their highest officials spent their time in the most careful study of one or another branch of work, with a view to its further improvement. In each generation there was sure to arrive some new mind to detect faults and show need of alterations; and the whole corps of inventors was at hand to apply their special faculty at the point criticized, and offer suggestions."
+canonical-instances:
+  - "A hospital system trains one track of staff specifically in identifying process failures and near-misses through structured incident review, and a separate track of staff specifically in redesigning clinical workflows, rather than expecting the same overworked clinicians to both notice systemic problems and design the fix while also delivering care."
+  - "A publishing house maintains a dedicated editorial staff trained purely to spot what isn't working in a manuscript -- pacing, structure, clarity -- and a separate team of developmental specialists trained to actually solve those problems with the author, rather than asking a single editor to both diagnose and repair every flaw alone."
+  - "A national infrastructure agency trains one corps of inspectors specifically to detect early signs of structural wear across bridges and roads, and a separate corps of engineers specifically to design remediation once a fault is flagged, rather than expecting every inspector to also be capable of designing the fix."
+critical-questions:
+  - "Does separating the critic role from the inventor role risk producing critics who flag problems without any felt responsibility for how hard or costly the fix will be, since they never have to implement their own criticism?"
+  - "How does this system prevent the critic role from becoming purely negative or demoralizing to the people whose work is being flagged, especially across many generations of sustained, systemic fault-finding?"
+  - "Is training two distinct specializations actually more effective than training generalists who can both critique and invent, or does the split sacrifice some integrative judgment that only comes from personally living with both halves of the same problem?"
+status: active

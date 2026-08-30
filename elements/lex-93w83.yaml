@@ -1,0 +1,19 @@
+id: lex-93w83
+name: demonstrated-rhetorical-skill-converts-directly-into-elevated-status
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A single sufficiently persuasive display of wisdom or rhetoric can produce an immediate, tangible reversal of fortune, illustrating how demonstrated skill itself functions as social capital that a crowd will reward on the spot. In the Jataka''s tale of Tundila, the pig''s sermon is so effective it converts him instantly from livestock destined for slaughter to an honored royal ward: "The king of Benares honoured the Bodhisatta with royal place, and giving glory to the old woman he caused both pigs to be bathed in perfumed water, and clothed with robes, and ornamented with jewels on the neck, and put them in the position of his sons in the city."'
+related: []
+evokes: [jataka, chanipata, tundila-jataka, rhetorical-skill-converts-to-status, demonstrated-wisdom-as-social-capital]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-tundila-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 388, Tundila-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The king of Benares honoured the Bodhisatta with royal place, and giving glory to the old woman he caused both pigs to be bathed in perfumed water, and clothed with robes, and ornamented with jewels on the neck, and put them in the position of his sons in the city: so he guarded them with a great retinue."
+canonical-instances:
+  - "A little-known analyst gives one unusually clear, prescient answer during a televised panel and is offered a permanent seat on the network the following week, their entire status shifting on the strength of a single performance."
+critical-questions:
+  - "Does one impressive display reliably predict sustained competence, or does the sudden elevation reward a moment of eloquence that may not generalize past the single performance that earned it?"
+  - "What happens to the newly elevated party's standing the first time they fail to repeat the performance that got them there?"
+status: active

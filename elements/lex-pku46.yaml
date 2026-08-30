@@ -1,0 +1,18 @@
+id: lex-pku46
+name: more-aggrieved-co-judge-overrides-the-detached-judges-leniency
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Given identical evidence and confession, two judges reach different sentences: the one less personally invested inclines toward mercy, while the one who lost the most unilaterally enforces the harsher penalty, overriding the other''s inclination rather than deliberating it out. In the Jataka''s tale of Tittira, the lion is ready to release the confessed killer, but the tiger, who lost the partridge as a friend, kills him on the spot: The lion asked the man, "Did you kill the learned partridge?" "Yes, my lord, I did." The lion on hearing him speak the truth, was anxious to... let him go, but king tiger said, "The villain deserves to die," and then and there rent him with his teeth.'
+related: []
+evokes: [jataka, navanipata, tittira-jataka, aggrieved-party-overrides-detached-mercy, unilateral-punishment-despite-a-co-judge]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-tittira-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 438, Tittira-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The lion asked the man, \"Did you kill the learned partridge?\" \"Yes, my lord, I did.\" The lion on hearing him speak the truth, was anxious to... let him go, but king tiger said, \"The villain deserves to die,\" and then and there rent him with his teeth."
+canonical-instances:
+  - "In a workplace dispute, the manager who wasn't personally affected leans toward a warning, but the coworker whose own project was sabotaged unilaterally escalates to HR before any joint decision is reached."
+critical-questions:
+  - "The more aggrieved judge bore the actual loss, and that same loss is what makes their judgment likelier to be distorted. Which effect wins — does bearing the loss earn their instinct more weight, or less?"
+status: active

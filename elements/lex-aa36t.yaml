@@ -1,0 +1,18 @@
+id: lex-aa36t
+name: preferring-solitude-over-companionship-with-fools
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When a wise or trustworthy companion cannot be found, the stated heuristic is withdrawal into solitude over staying entangled with quarrelsome or foolish associates: bad company is treated as an active drag on one''s own conduct, not a neutral backdrop to it. This generalizes as a decision rule for relationship investment — mere availability of a companion clears no bar; the companion has to actually improve on solitude. In the Jataka''s tale of Kosambi, the verses close the reconciliation appeal with exactly this rule: "For choice adopt the solitary life, / Companionship with fools but leads to strife; / In careless innocence pursue thy way, / Like elephant in forest wild astray."'
+related: []
+evokes: [jataka, navanipata, kosambi-jataka, better-alone-than-bad-company, khaggavisana-sutta]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kosambi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 428, Kosambi-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "For choice adopt the solitary life, / Companionship with fools but leads to strife; / In careless innocence pursue thy way, / Like elephant in forest wild astray."
+canonical-instances:
+  - "A freelancer turns down a lucrative but chronically dysfunctional client team rather than take the contract, reasoning that working alongside people who argue in bad faith would degrade her own habits faster than the income would help her."
+critical-questions:
+  - "Is \"no companion at all\" really a neutral default, or does prolonged solitude carry its own costs that this heuristic quietly ignores?"
+status: active

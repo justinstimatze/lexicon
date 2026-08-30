@@ -1,0 +1,19 @@
+id: lex-kw75z
+name: route-an-unanswered-question-up-to-the-specialists-who-would-know
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When those first asked cannot answer a question, it can be routed upward or outward to a class of people whose specialized occupation makes them the appropriate authority, rather than guessing. In the Jataka''s tale of Mahakapi, the king does exactly this to identify the fruit he''s found: "The king asked, ''What is this fruit?'' ''We do not know, sire.'' ''Who will know?'' ''The foresters, sire.'' He had the foresters called, and learning from them that it was a mango, he cut it with a knife."'
+related: []
+evokes: [jataka, sattanipata, mahakapi-jataka, escalate-to-the-specialist, dont-guess-ask-the-expert]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahakapi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 407, Mahakapi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The king asked, \"What is this fruit?\" \"We do not know, sire.\" \"Who will know?\"The foresters, sire.\" He had the foresters called, and learning from them that it was a mango, he cut it with a knife"
+canonical-instances:
+  - "When nobody on the incident-response call recognizes an unfamiliar error pattern, the on-call lead immediately pages the team that built the original subsystem instead of letting the group keep guessing."
+critical-questions:
+  - "Does knowing who to route a question to actually require a pre-existing map of specialties, and what happens when the right specialist for a genuinely novel problem doesn't exist yet?"
+  - "How much time does routing the question outward cost compared to the risk of acting on an incorrect guess, and does that trade-off change depending on how reversible the eventual action is?"
+status: active

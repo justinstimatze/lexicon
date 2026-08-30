@@ -1,0 +1,19 @@
+id: lex-rht9r
+name: an-allys-value-should-be-judged-by-situational-fit-not-rank
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a crisis strikes, the ally who actually saves the group is often not the one with the highest standing, but whoever's particular strength happens to match what the specific moment requires — meaning allies should be evaluated by fit to the situation at hand, not by rank. In the Jataka's tale of the sacred tree, the grove's larger, more prestigious tree-spirits fail to protect the tree at all, while a humble grass-sprite of low standing succeeds through a scheme suited exactly to what the moment called for. The story's own moral draws the conclusion directly: friends should be chosen for what each can actually contribute in a given hour of need, without regard to whether they rank as superior, equal, or inferior."
+related: []
+evokes: [jataka, ekanipata, kusanali-jataka, ally-value-judged-by-situational-fit-not-rank, low-status-contribution-outperforms-prestige]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kusanali-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 121, Kusanali-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Truly we should choose our friends without considering whether they are superiors, equals, or inferiors, making no distinction of rank. For each according to his strength can help a friend in the hour of need."
+canonical-instances:
+  - "During a critical outage, the fix comes not from the most senior architect on the team but from a recently hired support engineer who happens to have hands-on experience with the exact legacy system involved, while everyone with higher formal standing is still working through the problem from scratch."
+critical-questions:
+  - "Does relying on situational fit over rank risk overlooking allies whose broader experience would matter in a slower-moving or more ambiguous crisis than the specific one being handled?"
+  - "Is there a way to identify in advance which ally's particular strength will actually match a future crisis, or does this kind of fit only ever become visible once the specific need has already arrived?"
+status: active

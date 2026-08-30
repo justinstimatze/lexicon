@@ -1,0 +1,22 @@
+id: lex-xe565
+name: shame-arrives-only-with-an-external-witness-confrontation
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A person can do something that later reads as shameful and feel nothing about it while doing it, with the feeling arriving only once a specific angry witness confronts them directly. Fourteen-year-old Iron Hawk, separated from the main battle and hungry, stops to feast on bison with three men who'd made a kill nearby, eating for what he later realizes was hours: 'I must have eaten a great deal, for it was evening now.' He reports no discomfort about this while it's happening. Only when a bloodied warrior rides up furious -- 'What are you doing here? We're fighting! All you think of is to eat!' -- does the feeling land: 'I felt ashamed.' The act hadn't changed between the eating and the shame. The witness had arrived."
+related: []
+evokes: [black-elk-speaks, fight-with-three-stars, iron-hawk-speaks, i-felt-ashamed, shame-triggered-by-confrontation-not-the-act]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch8-fight-with-three-stars
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 8, 'The Fight with Three Stars,' Iron Hawk's inserted testimony. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "After we had been eating there a long time, a Lakota came upon his horse with blood and dirt all over his face, and he was angry. He said: 'What are you doing here? We're fighting! All you think of is to eat! Why don't you think about the helpless ones at home? Come, make haste! We have got to stand our ground!' I felt ashamed, so I got on my horse and we started."
+canonical-instances:
+  - "An employee spends an unhurried hour on a personal call during a chaotic office emergency, feeling nothing about it until a visibly stressed manager walks by and asks pointedly whether they plan to help at all."
+  - "A soldier eats a leisurely meal during a lull in an evacuation, unbothered, until a commanding officer arrives furious that supplies meant for wounded civilians are being consumed instead."
+  - "A student spends a study group session on unrelated gossip, feeling fine about it, until a visibly exhausted classmate who's been working alone asks why no one else seems to care about the deadline."
+critical-questions:
+  - "If the angry witness had never ridden up, would Iron Hawk's own account of that day include any note of shame at all, or would the meal have simply stayed a neutral, even pleasant memory?"
+  - "Does the shame track something the witness is right about, that Iron Hawk really should have been fighting, or would the same confrontation have produced the same shame even if Iron Hawk had a legitimate reason to be where he was?"
+  - "Iron Hawk reports feeling scared and running for his life earlier that same day -- does exhaustion and fear make the meal more understandable in hindsight, and if so, why does the shame still land the instant someone else's anger arrives, regardless of that context?"
+status: active

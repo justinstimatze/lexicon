@@ -1,0 +1,21 @@
+id: lex-mkgwc
+name: exhaustive-protection-makes-the-one-gap-it-missed-maximally-legible
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "Trying to protect something by extracting a guarantee from every conceivable source of harm doesn't spread risk thin across a broad field of remaining possibilities -- it concentrates all remaining risk onto whatever single thing got left out, and makes that one omission trivially easy to find, because 'everything except X' is a far more legible target than 'nothing in particular yet.' Baldr's mother Frigg, warned by his bad dreams, 'set about exacting an oath from everything in heaven and earth -- from men and beasts, from fire and water, from metals and stones -- not to harm Baldr.' The gods grow so confident in this coverage that they turn attacking Baldr into a game, throwing weapons that harmlessly bounce off him. Loki doesn't have to search hard for the gap; he simply asks Frigg directly what she left out, and she volunteers it without suspicion: 'grows a little bush called mistletoe. I did not exact an oath from it; I thought it too young.' The single exclusion, once spoken aloud, becomes the whole story's fatal weapon. Frigg's own thoroughness is what made the gap discoverable -- had she protected Baldr less completely, there would have been no single, nameable exception to ask about and receive an answer to. Diagnostic move: when a protective effort approaches true exhaustiveness, don't assume more coverage continuously reduces risk -- ask instead whether the coverage's very completeness is compressing all remaining vulnerability into one sharply defined, and therefore easily discoverable and easily targeted, gap."
+related: [lex-ycfen]
+evokes: [hyde-trickster-makes-this-world-an-attack-of-accidents, frigg-and-the-mistletoe-oath, i-thought-it-too-young, baldrs-death]
+lineage:
+  - source: primary
+    text: hyde-friggs-exhaustive-oath-leaves-a-single-legible-gap-loki-exploits
+    citation: "Lewis Hyde, Trickster Makes This World: Mischief, Myth, and Art (Farrar, Straus and Giroux, 1998; Canongate Books 2008 edition), Chapter 4, '\"An Attack of Accidents,\"' retelling the death of Baldr from the Prose Edda. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "His mother Frigg therefore sets about exacting an oath from everything in heaven and earth—from men and beasts, from fire and water, from metals and stones—not to harm Baldr. ... All this annoys Loki, who disguises himself as a woman and quizzes Frigg as to the details of her oath-taking. In this way he discovers that she has, in fact, omitted one item. “West of Valhalla,” she says, “grows a little bush called mistletoe. I did not exact an oath from it; I thought it too young.”"
+canonical-instances:
+  - "A security team locks down every server, port, and credential in an exhaustive audit, and the one legacy system deliberately left unpatched because it 'seemed too minor to bother with' becomes the single, precisely identifiable entry point an attacker finds simply by asking around about what got skipped."
+  - "A contract negotiated with airtight clauses covering every foreseeable dispute leaves one narrowly defined edge case unaddressed because it seemed too unlikely to matter, and that specific, nameable gap becomes exactly what the other party's lawyers target, since it's the only place left where anything is actually negotiable."
+critical-questions:
+  - "Is the vulnerability here really created by thoroughness itself, or by the fact that Frigg told someone what she'd left out -- would the same exhaustive oath have remained safe indefinitely if the one gap had simply never been asked about or disclosed?"
+  - "Does this diagnostic argue against thoroughness in general, or specifically against thoroughness that is discoverable by inquiry -- is there a way to protect exhaustively while keeping the map of what's covered, and therefore what isn't, genuinely secret?"
+  - "Could Frigg have closed the gap differently, by refusing to answer questions about her oath-taking rather than by extending the oath to cover mistletoe, suggesting the deeper vulnerability was informational (revealing the coverage map) rather than structural (having any gap at all)?"
+status: active

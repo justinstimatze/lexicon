@@ -1,0 +1,19 @@
+id: lex-arfx4
+name: one-demonstrated-capability-makes-future-threats-self-enforcing
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Once an overwhelming capability has been publicly and unambiguously demonstrated, a mere announcement of intent to use it again can end a future confrontation before it starts, without the capability needing to be exercised a second time. In the Jataka's tale of Prince Peerless, having already proven his archery in a spectacular public trick shot, he later faces a siege by seven kings. Rather than fighting, he sends a single message on an arrow: 'I, Prince Peerless, am returned. I mean to kill you all with one arrow which I will shoot at you. Let those who care for life make their escape.' The seven kings flee without a fight. The message carries force only because the earlier demonstration removed all doubt about whether the threat was credible — the same words from someone untested would have been ignored."
+related: []
+evokes: [jataka, dukanipata, asadisa-jataka, a-past-demonstration-makes-a-mere-threat-credible, deterrence-substitutes-for-repeated-force]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-asadisa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 181, Asadisa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "I, Prince Peerless, am returned. I mean to kill you all with one arrow which I will shoot at you. Let those who care for life make their escape."
+canonical-instances:
+  - "A negotiator who once walked away from a lucrative deal on principle, publicly and at real cost, finds that a simple written warning is enough to stop a counterparty from trying the same bad-faith tactic again years later, since the counterparty already knows exactly what happens if they push."
+critical-questions:
+  - "How long does a single demonstration remain credible before it needs to be refreshed — does the seven kings' fear decay over time, or does one sufficiently dramatic proof establish a reputation that persists indefinitely?"
+  - "Is there a risk that relying on a single past demonstration eventually invites someone to call the bluff, precisely because the capability hasn't been exercised again in a long time and its continued reality can no longer be directly verified?"
+status: active

@@ -1,0 +1,22 @@
+id: lex-93bff
+name: the-claimed-guardian-of-a-value-is-its-actual-hidden-violator
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "An institution or practice can be defended as protecting some cherished value, while the very same institution, examined honestly, is the largest ongoing violator of that exact value. The violation goes unnoticed because sustained habituation has made the intrusion invisible, so the defended thing keeps getting credited with protecting what it actually undermines most. Gilman applies this to the servant living inside 'the privacy of the home': 'Of all popular paradoxes, none is more nakedly absurd than to hear us prate of privacy in a place where we cheerfully admit to our table-talk and to our door service--yes, and to the making of our beds and to the handling of our clothing--a complete stranger... may we not smile a little bitterly at our fond ideal of \"the privacy of the home\"?'"
+related: []
+evokes: [women-and-economics, chapter-xii, the-privacy-of-the-home, may-we-not-smile-a-little-bitterly, the-defender-of-a-value-is-its-largest-violator]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-xii
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter XII. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "Of all popular paradoxes, none is more nakedly absurd than to hear us prate of privacy in a place where we cheerfully admit to our table-talk and to our door service--yes, and to the making of our beds and to the handling of our clothing--a complete stranger, a stranger not only by reason of new acquaintance and of the false view inevitable to new eyes let in upon our secrets, but a stranger by birth, almost always an alien in race, and, more hopeless still, a stranger by breeding, one who can never truly understand. [...] with this observing and repeating army lodged in the very bosom of the family, may we not smile a little bitterly at our fond ideal of 'the privacy of the home'?"
+canonical-instances:
+  - "A company that prides itself on protecting employee confidentiality routes every sensitive HR complaint through a small circle of managers who gossip about the details at lunch, while the company's real privacy risk -- external data breaches -- gets far less scrutiny than the internal culture that actually leaks the most."
+  - "A gated community markets itself on the security and privacy of life behind its walls, while its own homeowners' association newsletter routinely publishes residents' code violations, complaints, and personal disputes to the entire neighborhood."
+  - "A hospital's confidentiality policy is enforced strictly against outside researchers and journalists, while hallway conversations among staff, held within earshot of other patients and visitors, remain the actual primary channel through which patient information leaks."
+critical-questions:
+  - "How would you distinguish a genuine case of the guardian being the hidden violator from a case where the guardian's intrusion is real but much smaller in scope than the outside threat it's actually protecting against, making the comparison unfair?"
+  - "Once the hidden violation is named and made visible, does it typically get corrected, or does the institution simply keep the same practice while absorbing the criticism, because the underlying convenience or dependency that produced the arrangement hasn't actually changed?"
+  - "Is habituation really the whole explanation for why the violation stays invisible, or is there also a structural reason -- like the violator's low status or lack of standing to complain -- that keeps the violation from surfacing even to people who aren't habituated to it?"
+status: active

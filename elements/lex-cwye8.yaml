@@ -1,0 +1,19 @@
+id: lex-cwye8
+name: reject-every-counterfeit-claimant-to-a-label-before-granting-it-to-anyone
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When a valued label or status is being handed out and many people plausibly claim it, the discriminating move is to enumerate every occupational or behavioral category that superficially fits the label, test each one against the single trait that actually defines it, and reject every counterfeit in turn — rather than stopping at the first candidate who looks close enough. The exhaustive rejection is what makes the eventual grant meaningful: it proves the surviving category was selected against real alternatives, not merely the only one considered. In the Jataka's tale, a king seeking to give alms specifically to virtuous brahmins has his minister walk him through nine counterfeit occupational categories that all carry the brahmin name — herbalist-physicians, servant-messengers, importunate beggar-tax-collectors, laborers, merchants, farmer-traders, fortune-teller-butchers, armed caravan-guards, hunters, and hired ritual scapegoats — rejecting each one with the identical refrain: \"These have no right to such a name: lost is their brahminhood: / Vidhura, find me other men who shall be wise and good, / Men free from deeds of evil lust, that they may eat my food.\" Only after all nine are dismissed does Vidhura name the genuine category."
+related: []
+evokes: [jataka, pakinnakanipata, dasa-brahmana-jataka, exhaustive-rejection-of-counterfeit-claimants, a-label-tested-against-one-defining-trait]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dasa-brahmana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XIV (Pakinnaka-Nipata), No. 495, Dasa-brahmana-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "These have no right to such a name: lost is their brahminhood: / Vidhura, find me other men who shall be wise and good, / Men free from deeds of evil lust, that they may eat my food."
+canonical-instances:
+  - "A foundation deciding who qualifies as a genuine 'community organizer' for a grant walks through every group that uses the title — paid canvassers, political operatives, social-media influencers, event planners — testing each against the single criterion of unpaid sustained relationship-building, rejecting all of them by name before awarding the grant to the one applicant who actually fits."
+critical-questions:
+  - "The king rejects each category on the same single ground (freedom from lust and evil deeds), never revising the criterion as new categories appear. What happens when the first plausible criterion turns out to be the wrong one partway through the enumeration — does the whole exhaustive-rejection structure have to restart, or can the criterion itself be corrected mid-list?"
+  - "Nine counterfeits is a lot of ground to cover before finding one genuine case. Is the exhaustiveness itself doing real diagnostic work here, or would the same confidence in the final grant have been available after testing against just two or three of the closest-looking counterfeits?"
+status: active

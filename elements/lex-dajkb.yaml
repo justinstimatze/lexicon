@@ -1,0 +1,19 @@
+id: lex-dajkb
+name: presence-of-mind-in-a-crisis-decides-who-survives
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A narrative can close with an explicit stated moral naming crisis competence as the deciding factor: think clearly and act at the decisive moment, and you live; freeze, and you don''t. Nothing in how the moral is phrased confines it to the one story it caps. In the Jataka''s tale of Sulasa, the tale''s closing stanza states this outright: "He that to great occasion fails to rise / Falls, like that dull thief from the precipice."'
+related: []
+evokes: [jataka, atthanipata, sulasa-jataka, crisis-competence, presence-of-mind]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sulasa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 419, Sulasa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "He that to great occasion fails to rise / Falls, like that dull thief from the precipice."
+canonical-instances:
+  - "Of two pilots facing the same sudden engine failure, the one who runs the emergency checklist calmly while the other freezes is the one whose passengers walk away — the story gets told afterward as a lesson in composure, not luck."
+critical-questions:
+  - "Is presence of mind under threat a fixed trait some people simply have, or something trainable — and does the answer change how much blame or credit the losing party deserves?"
+  - "Could the outcome have gone the other way by chance regardless of who kept their composure, making the stated moral a comforting story rather than a reliable predictor?"
+status: active

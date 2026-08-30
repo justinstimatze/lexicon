@@ -1,0 +1,19 @@
+id: lex-begkb
+name: calibrate-a-self-curse-to-what-the-audience-specifically-fears
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "An oath sworn to prove innocence is more convincing when its penalty is calibrated to what the specific audience actually dreads, rather than escalated toward generic severity like death or damnation. For a community defined by having renounced ordinary desire, the most damning self-curse isn't destruction — it's success: being granted exactly the wealth, family, and pleasure they gave up. In the Jataka's tale, an ascetic accused (without evidence) of stealing food swears his innocence by invoking, as punishment if he lied, the very life his community renounced: \"May horse and kine be his, may silver, gold, / A loving wife, these may he precious hold, / May he have sons and daughters manifold, / Brahmin, who stole thy share of food away.\" The other ascetics recognize the calibration instantly and recoil — \"No, no, sir, that oath is very heavy!\" — precisely because it names their actual dread, not death."
+related: []
+evokes: [jataka, pakinnakanipata, bhisa-jataka, penalty-calibrated-to-the-specific-audiences-values, worldly-success-as-a-curse]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-bhisa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XIV (Pakinnaka-Nipata), No. 488, Bhisa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "May horse and kine be his, may silver, gold, / A loving wife, these may he precious hold, / May he have sons and daughters manifold, / Brahmin, who stole thy share of food away."
+canonical-instances:
+  - "A monk under suspicion of secretly breaking a vow of silence doesn't swear on their own death if guilty — they swear that if guilty, they'll be given a permanent private cell and never again required to sit in silent group meditation, naming the exact comfort their community would consider the deepest failure of practice."
+critical-questions:
+  - "This calibration only works because everyone present shares the same values that define the curse's severity. What happens when the accuser and the accused don't share the same value system — does the same oath read as a genuine sacrifice to one side and as no penalty at all to the other?"
+  - "Sakka himself later reveals the whole test was staged and no theft occurred. Does an oath this severe, sworn in response to a false accusation, cost the swearer something real even once they're vindicated — or does vindication erase the cost entirely?"
+status: active

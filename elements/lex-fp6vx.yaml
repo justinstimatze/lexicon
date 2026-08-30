@@ -1,0 +1,19 @@
+id: lex-fp6vx
+name: full-acceptance-of-death-removes-the-fear-that-would-otherwise-paralyze
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Resolving in advance to die if necessary, rather than hoping to survive, can remove the specific fear that would otherwise freeze someone in a genuinely lethal situation, freeing them to act effectively when everyone still hoping to live is paralyzed. The courage isn't a separate trait added on top. It's what's left once the fear of the outcome has nothing left to attach to. In the Jataka's tale of the lone fighter, a caravan is ambushed by five hundred robbers; every merchant drops flat except the hired forester-guide, who alone fights and routs them. Asked how he felt no fear, he explains: 'When many a bow the shaft at speed let fly-- Hands grasping blades of tempered steel were nigh-- When Death had marshalled all his dread array-- I felt a great and mighty joy this day. And this my joy gave me the victory; I was resolved to die, if need should be; He must contemn his life, who would fulfil Heroic deeds and be a hero still.'"
+related: []
+evokes: [jataka, tikanipata, khurappa-jataka, resolving-to-accept-death-removes-the-fear-blocking-effective-action, courage-as-the-absence-of-an-outcome-left-to-fear]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-khurappa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 265, Khurappa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "When many a bow the shaft at speed let fly-- Hands grasping blades of tempered steel were nigh-- When Death had marshalled all his dread array-- I felt a great and mighty joy this day. And this my joy gave me the victory; I was resolved to die, if need should be; He must contemn his life, who would fulfil Heroic deeds and be a hero still."
+canonical-instances:
+  - "A surgeon operating in a disaster zone with no backup or supplies performs a procedure the rest of the team is too frightened to attempt, later explaining that accepting the patient might die under any approach was what let her act decisively instead of hesitating over which outcome to avoid."
+critical-questions:
+  - "Is this actually about accepting death specifically, or would accepting any sufficiently bad outcome in advance produce the same freedom from paralysis, regardless of whether death is on the table?"
+  - "Does this resolve genuinely eliminate fear, or does it simply redirect attention away from the outcome and onto the action, leaving the underlying fear present but temporarily unfelt?"
+status: active

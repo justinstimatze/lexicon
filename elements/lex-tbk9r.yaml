@@ -1,0 +1,20 @@
+id: lex-tbk9r
+name: testimony-given-under-mortal-threat-cannot-be-judged-as-candid
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When you trap someone and then expect their words to reflect what they would freely choose to say, you're applying a standard the trap itself destroys — a threat of death doesn't just make people lie, it makes anything they say, true or false, unusable as evidence of their real disposition, because they had no path to speaking that wasn't shaped by fear. In the Jataka's tale of the great geese, King Samyama captures Sumukha specifically to hear his wisdom, then reproaches him for speaking with hostility rather than freely offering counsel. Sumukha's answer refuses the frame entirely: \"We could not speak the word of truth, awed by approaching death, nor when in death's last agony we draw our parting breath. [...] Who would a bird with bird decoy, or beast with beast pursue, or with a text a preacher trap, nought base would he eschew.\""
+related: []
+evokes: [jataka, asitinipata, mahahamsa-jataka, coerced-testimony, duress-voids-candor]
+lineage:
+  - source: primary
+    text: jataka-francis1905-mahahamsa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XXI (Asitinipata), No. 534, Mahahamsa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "We could not speak the word of truth, awed by approaching death, nor when in death's last agony we draw our parting breath. [...] Who would a bird with bird decoy, or beast with beast pursue, or with a text a preacher trap, nought base would he eschew."
+canonical-instances:
+  - "An employer fires a whistleblower, then cites her measured, cooperative tone during the termination meeting as proof she wasn't really upset by the decision — ignoring that anyone facing the loss of their livelihood in that room has every incentive to sound calm regardless of what they actually feel."
+  - "A negotiator captures a rival's only buyer to force a renegotiation, then complains when the rival's terms come back guarded and evasive rather than 'reasonable' — as if the coercion that created the negotiation hadn't also shaped every word said inside it."
+critical-questions:
+  - "Sumukha's argument would apply equally to a captive who really was lying and one who happened to be telling the truth — is there any way for a captor to distinguish a coerced falsehood from coerced honesty, or does the coercion make the distinction genuinely unrecoverable from inside the situation?"
+  - "The king's specific complaint was about tone, not content — does Sumukha's defense actually answer the charge he was accused of, or does it substitute a stronger, more sympathetic argument about truth under duress for a narrower one he can't as easily defend?"
+status: active

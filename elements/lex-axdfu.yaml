@@ -1,0 +1,19 @@
+id: lex-axdfu
+name: an-expected-ritual-gesture-doubles-as-cover-for-an-attack
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A person can perform an expected, non-threatening social or religious gesture that also happens to be the exact physical choreography needed to get behind a target undetected. The socially sanctioned ritual becomes the delivery mechanism for the attack itself, since its familiarity disarms suspicion. In the Jataka''s tale of Sulasa, her ritual circling and obeisance is what positions her to throw her captor off the cliff: "Sulasa walked round him in respectful salutation three times, kissed him, and saying, "Now, husband, I am going [438] to make obeisance to you on all four sides," she put her head on his foot, did obeisance at his sides, and went behind him as if to do obeisance there: then with the strength of an elephant she took him by the hinder parts and threw him head over heels down that place of destruction"'
+related: []
+evokes: [jataka, atthanipata, sulasa-jataka, trojan-horse-tactic, ritual-as-cover-for-access]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sulasa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 419, Sulasa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Sulasa walked round him in respectful salutation three times, kissed him, and saying, \"Now, husband, I am going [438] to make obeisance to you on all four sides,\" she put her head on his foot, did obeisance at his sides, and went behind him as if to do obeisance there: then with the strength of an elephant she took him by the hinder parts and threw him head over heels down that place of destruction"
+canonical-instances:
+  - "A person negotiating a hostage release asks to give the captor a customary parting handshake and embrace, using the expected physical closeness of the gesture to disarm the captor's weapon at the moment contact is made."
+critical-questions:
+  - "Does relying on an expected ritual for tactical access work only once, since the same gesture would be read with suspicion the next time it's attempted?"
+  - "What made the gesture read as safe rather than suspicious in the moment — was it the ritual's familiarity, or the target's own reduced vigilance by that point in the encounter?"
+status: active

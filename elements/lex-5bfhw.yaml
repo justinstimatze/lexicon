@@ -1,0 +1,19 @@
+id: lex-5bfhw
+name: suspicion-is-verified-from-a-safe-distance-before-entering-range
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Suspecting a specific threat from someone doesn't require approaching close enough to confirm it directly — an indirect sensory cue checked from a safe distance can settle the question before you're ever within striking range of whatever danger you were verifying. In the Jataka's tale of the lizard and the false ascetic, the lizard suspects his neighbor has developed a taste for lizard meat and positions himself downwind to catch a scent rather than approach for a closer look: 'So he stood to leeward of him and getting a whiff from his person he knew that he had been eating the flesh of a lizard, and without going near him he turned back and made off.'"
+related: []
+evokes: [jataka, catukkanipata, godha-jataka, an-indirect-cue-verifies-danger-without-entering-range, confirming-suspicion-from-a-safe-distance]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-godha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 325, Godha-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "So he stood to leeward of him and getting a whiff from his person he knew that he had been eating the flesh of a lizard, and without going near him he turned back and made off."
+canonical-instances:
+  - "Suspecting a new contact in an online negotiation is actually a competitor scouting pricing, a salesperson checks the metadata on a shared document from outside the conversation itself, confirming the company of origin without ever revealing the suspicion or engaging further."
+critical-questions:
+  - "Does the indirect cue actually confirm the specific suspicion beyond doubt, or could there be an innocent explanation for the same signal — could the ascetic have eaten lizard meat prepared by someone else, with no intention toward this particular lizard at all?"
+  - "Is there a cost to acting on the suspicion by fleeing rather than confronting it, given that the lizard now permanently avoids someone who may or may not have actually posed a threat to him specifically?"
+status: active

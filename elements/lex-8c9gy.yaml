@@ -1,0 +1,19 @@
+id: lex-8c9gy
+name: internal-and-external-justifications-for-one-decision-can-both-be-true
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A single decision can have two entirely different justifications — a public moral one and a private competitive one — and both can be genuinely, simultaneously true rather than one being a cover story for the other. A textile company publicly framed a $15 million equipment investment as being about eliminating dust exposure, while privately, executives explained the same decision through competitive necessity: without the investment, the company would face a desperate competitive position within fifteen years, and the dust-level improvement was a real but secondary effect of a decision made primarily for survival. Don't treat the existence of a private, self-interested justification as proof the public, moral one is false — the two can coexist as equally real reasons for the identical action, each addressed to a different audience without either party experiencing it as deception."
+related: []
+evokes: [jackall-moral-mazes, "we would be in a desperate competitive position fifteen years from now", dual-true-justifications-for-one-decision]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch6-15-million-modernization
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 6, Dexterity with Symbols."
+    quote: "Would any sane, rational man spend $15 million for a 2 percent return? … Now it does improve the dust levels, but it was that if we don't invest the money now, we would be in a desperate [competitive] position fifteen years from now."
+canonical-instances:
+  - "A company publicly frames its switch to renewable energy sources as an environmental commitment while privately citing long-term cost stability and regulatory-risk avoidance as the actual driver — both explanations are accurate descriptions of real, independently sufficient reasons for the same switch."
+critical-questions:
+  - "When a decision genuinely has both a moral and a competitive justification, does the order in which they're stated publicly versus privately reveal which one was actually decisive, or were both weighted closely enough that either alone might have driven the decision regardless of the other?"
+status: active

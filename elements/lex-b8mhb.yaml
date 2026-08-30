@@ -1,0 +1,22 @@
+id: lex-b8mhb
+name: escalating-an-offer-along-the-wrong-axis-misses-an-unstated-criterion
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A suitor can repeatedly increase a measurable offer to win approval and be rejected every time regardless of the amount, because the actual criterion being screened for is an unstated, orthogonal demonstration of character that no quantity of the offered currency could ever satisfy. High Horse offers the girl's father two horses, then four, and each time 'the old man just waved his hand' and would not even discuss it -- not a counteroffer, a refusal to engage with the currency at all. Only after High Horse and Red Deer raid a Crow camp and drive a hundred stolen horses up to the tepee does the father finally answer, naming the real criterion outright: 'It was not the horses that he wanted. What he wanted was a son who was a real man and good for something.' The number of horses was never the variable in play."
+related: []
+evokes: [black-elk-speaks, high-horses-courting, he-just-waved-his-hand, a-son-who-was-a-real-man, wrong-axis-of-escalation]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch6-high-horses-courting
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 6, 'High Horse's Courting.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "he went right to her father and said he loved the girl so much that he would give two good horses for her [...] But the old man just waved his hand, meaning for High Horse to go away and quit talking foolishness like that. [...] Then High Horse went back to the old man and said he would give four horses for the girl [...] But the old man just waved his hand and would not say anything. [...] The old man did not wave him away that time. It was not the horses that he wanted. What he wanted was a son who was a real man and good for something."
+canonical-instances:
+  - "A job applicant keeps padding their resume with more certifications after each rejection, when the hiring manager was actually screening for a specific kind of hands-on project experience the applicant never once demonstrated."
+  - "A vendor keeps sweetening the discount on a contract renewal, getting refused each time, because the client's actual objection was never price but a specific unresolved reliability failure the vendor never addressed."
+  - "A suitor sends increasingly expensive gifts to someone who has already named a specific incompatibility as the reason the relationship won't work, treating a settled decision as though it were still a negotiation over generosity."
+critical-questions:
+  - "Could High Horse have discovered the real criterion earlier by asking directly, or does a criterion like 'a son who is a real man' only become visible in retrospect, after being met, precisely because it can't be stated as a checklist in advance?"
+  - "Does the father's silence in the face of the horse offers actually communicate 'wrong axis' clearly enough that a more attentive suitor could have read it, or does 'just waved his hand' look identical whether the offer was inadequate in amount or wrong in kind?"
+  - "The successful demonstration, a raid that could easily have gotten High Horse killed, was also considerably more dangerous than any number of horses would have been to acquire -- does that mean the unstated criterion was actually 'willingness to risk death,' and if so, was that ever really unstated, or something everyone but High Horse already understood?"
+status: active

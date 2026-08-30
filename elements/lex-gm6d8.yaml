@@ -1,0 +1,19 @@
+id: lex-gm6d8
+name: feigning-elation-hides-opposition-to-a-move-that-helps-you
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "The shrewdest players in an industry can privately oppose the removal of a regulation that actually benefits them, while feigning public elation at attempts to remove it — because openly defending a regulation that constrains you would embolden a worse-positioned, more reactionary faction within your own camp who genuinely wants it gone and would treat your defense as validation of their more extreme position. The performed enthusiasm for deregulation isn't about the regulation itself; it's a move to avoid handing ammunition to allies whose position is more extreme than your own actual interest, even though your actual interest is closer to the status quo than to what you're publicly cheering for. This is a distinct mechanism from ordinary two-faced self-interest: the deception specifically targets your own coalition's internal balance, not an external opponent."
+related: []
+evokes: [jackall-moral-mazes, "encourage the traditionally reactionary elements", feigned-elation-manages-your-own-coalition]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch6-feigned-elation
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 6, Dexterity with Symbols."
+    quote: "This is one of the reasons why the shrewdest among them only feigned elation at the attempts by Reagan's OSHA appointees to remove the cotton dust regulation from the purview of the Supreme Court. If such a move were successful, it could only encourage the traditionally reactionary elements of the textile industry who refuse to recognize on principle that government regulation, within reason, can be the businessman's best friend."
+canonical-instances:
+  - "A moderate faction within an industry association publicly celebrates a proposed rollback of a regulation that actually stabilizes the market for established players, because openly opposing the rollback would strengthen a more extreme anti-regulation faction whose broader agenda the moderates don't actually want to empower."
+critical-questions:
+  - "Is feigning elation actually the best available move here, or does the performance eventually get taken at face value by allies and opponents alike, locking the feigner into a public position they never actually held and can't easily walk back?"
+status: active

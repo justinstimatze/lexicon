@@ -1,0 +1,19 @@
+id: lex-9xtxa
+name: free-a-captive-from-a-distance-so-panic-doesnt-cause-self-injury
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Once a struggling captive is finally freed to be released rather than harmed, the act of approaching them directly can be read by the captive as a continued threat, triggering exactly the panicked struggle that causes the injury the rescuer is trying to prevent. The captive can't yet see the rescuer's intent, only their proximity; the safer release method keeps distance and removes the captive's need to interpret the rescuer's approach at all. In the Jataka's tale, a hunter who has decided to free a bird he'd worked seven years to catch reasons through exactly this risk before acting: \"'Tis a monstrous mighty and strong bird, and if I go up to him he may think I have come to kill him, he will be in fear of his life, and in struggling he may break a leg or a wing. I will not go near him, but I will stand in hiding and cut the snare with an arrow.\""
+related: []
+evokes: [jataka, pakinnakanipata, maha-mora-jataka, releasing-a-captive-without-approaching-it, benevolent-intent-is-illegible-at-close-range]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-maha-mora-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XIV (Pakinnaka-Nipata), No. 491, Maha-Mora-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "'Tis a monstrous mighty and strong bird, and if I go up to him he may think I have come to kill him, he will be in fear of his life, and in struggling he may break a leg or a wing. I will not go near him, but I will stand in hiding and cut the snare with an arrow."
+canonical-instances:
+  - "A rescue diver freeing an entangled seal from netting deliberately cuts the net from behind and above rather than swimming in front of the animal's face, knowing that a frightened seal reads a close approach as a predator regardless of the diver's actual intent."
+critical-questions:
+  - "This tactic costs the hunter something real: shooting an arrow to cut a snare from hiding is a harder, riskier action than simply walking up and untying it. Is the extra difficulty always worth the reduction in the captive's panic risk, or does it depend on how much self-harm the captive is actually capable of causing while struggling?"
+  - "The peacock never learns, in this moment, that the hunter's intent was benevolent all along — he only knows he was freed. Does keeping distance to avoid a panic response also cost the rescuer any chance of the captive recognizing and trusting them, and does that tradeoff matter here?"
+status: active

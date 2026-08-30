@@ -1,0 +1,29 @@
+id: lex-smd64
+name: adaptation-to-strain-sorts-by-accepting-or-rejecting-goals-and-means
+type-in: situation
+type-out: frame
+_tier: atomic
+agent-instruction: "When a goal/means system is under strain (see lex-hzrue), don't assume everyone under it responds identically — Merton sorts the possible individual responses into a small typology by crossing acceptance/rejection of the culture's GOALS with acceptance/rejection of its INSTITUTIONALIZED MEANS. Conformity accepts both — the modal, stabilizing response in any functioning society. Innovation accepts the goal but rejects the sanctioned means, substituting an effective-but-illegitimate route (the classic pressure-point among those whose access to legitimate means is blocked — see lex-hzrue). Ritualism rejects or scales down the goal while clinging to the means (see lex-5ggxk). Retreatism rejects both and drops out of the pursuit entirely (see lex-97pru). Rebellion rejects both AND substitutes new goals and new means, seeking to change the structure itself: 'it presupposes alienation from reigning goals and standards. These come to be regarded as purely arbitrary.' Merton's explicit caveat: 'these categories refer to role behavior in specific types of situations, not to personality. They are types of more or less enduring response, not types of personality organization' — the same person can conform in one domain (their job) and innovate, ritualize, or rebel in another (their marriage, their politics). Use the frame to sort observed responses to a shared strain (an organization's impossible targets, a society's blocked mobility) into which axis is being rejected, rather than treating all non-conformists as one undifferentiated category of 'deviant.'"
+related: [lex-hzrue, lex-5ggxk, lex-97pru, lex-59rqy]
+scaffolds-from: [lex-hzrue]
+evokes: [merton-1957, typology-of-modes-of-adaptation, conformity-innovation-ritualism-retreatism-rebellion, strain-theory-typology, acceptance-and-rejection-of-goals-and-means]
+lineage:
+  - source: primary
+    text: merton-1957-five-types-definitional
+    citation: "Robert K. Merton, Social Theory and Social Structure, Revised and Enlarged Edition (Glencoe, IL: Free Press, 1957), Ch. IV 'Social Structure and Anomie,' p.140, introducing 'A Typology of Modes of Individual Adaptation.' Verified verbatim against a University of Iowa library scan via Internet Archive OCR text (item 31858016281432); the schematic table itself is not quoted here since the OCR interleaves its columns into unreadable text — the table's five row-labels (Conformity, Innovation, Ritualism, Retreatism, Rebellion) and the (+)/(−)/(±) legend are given directly in the agent-instruction instead."
+    quote: "'We here consider five types of adaptation, as these are schematically set out in the following table, where (+) signifies \"acceptance,\" (−) signifies \"rejection,\" and (±) signifies \"rejection of prevailing values and substitution of new values.\"'"
+  - source: primary
+    text: merton-1957-role-behavior-not-personality
+    citation: "Robert K. Merton, Social Theory and Social Structure (1957), same chapter and page, immediately following the typology table."
+    quote: "'These categories refer to role behavior in specific types of situations, not to personality. They are types of more or less enduring response, not types of personality organization.'"
+  - source: primary
+    text: merton-1957-rebellion-definitional
+    citation: "Robert K. Merton, Social Theory and Social Structure (1957), same chapter, p.155, opening the section on Adaptation V."
+    quote: "'This adaptation leads men outside the environing social structure to envisage and seek to bring into being a new, that is to say, a greatly modified social structure. It presupposes alienation from reigning goals and standards. These come to be regarded as purely arbitrary.'"
+canonical-instances:
+  - "A sales team under an unreachable quota sorts by this typology: most reps grind within the rules (conformity); some fabricate numbers or backdate contracts (innovation); some stop caring about rank and just avoid getting fired by following every process to the letter (ritualism); some quietly disengage and coast toward burnout or quitting (retreatism); a few organize to get the quota structure itself changed (rebellion)."
+  - "operationally distinct from lex-hzrue goal-means-malintegration-produces-a-strain-toward-anomie: lex-hzrue names the STRUCTURAL CONDITION that generates pressure (the gap between universalized goals and rationed means); this atom names the TYPOLOGY OF INDIVIDUAL RESPONSES once that pressure exists. They compose: the typology only has explanatory force because a strain is already operating — sorting responses without asking what produced the strain misses the diagnostic Merton is actually making."
+critical-questions:
+  - "The typology is exhaustive of the logical possibilities (accept/reject × accept/reject, plus the substitution case) but is it exhaustive of real behavior? Merton's own footnote admits people shift categories across life domains — a single case-study snapshot may catch someone mid-transition or straddling two modes at once."
+  - "Rebellion is 'on a plane clearly different from that of the others' by Merton's own admission (it substitutes new goals and means rather than merely accepting or rejecting the existing ones) — does folding it into the same five-way table obscure that it's a different kind of move (structure-changing) rather than a fifth way of coping within the existing structure?"
+status: active

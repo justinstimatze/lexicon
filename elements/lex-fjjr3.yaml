@@ -1,0 +1,19 @@
+id: lex-fjjr3
+name: a-self-renewing-resource-does-not-cure-recklessness-it-only-delays-ruin
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Giving someone a resource that regenerates on its own doesn't fix whatever recklessness destroyed their previous resources. Left unreformed, the same carelessness eventually reaches the new one too. The renewal only postpones the reckoning. It never addresses what caused the need for renewal in the first place. In the Jataka's tale of the wishing-cup, a spendthrift who has squandered his entire fortune is given a magic cup that provides endless wealth as long as it's cared for. He treats it exactly as carelessly as everything else: 'One day, he was drunk, and threw the cup into the air, catching it as it fell. But once he missed it. Down it fell upon the earth, and smashed! Then he got poor again, and went about in rags, begging, bowl in hand, till at last he lay down by a wall, and died.'"
+related: []
+evokes: [jataka, tikanipata, bhadra-ghata-jataka, a-renewable-resource-delays-ruin-without-fixing-the-underlying-carelessness, giving-more-resources-to-recklessness-only-postpones-the-reckoning]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-bhadra-ghata-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 291, Bhadra-ghata-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "One day, he was drunk, and threw the cup into the air, catching it as it fell. But once he missed it. Down it fell upon the earth, and smashed! Then he got poor again, and went about in rags, begging, bowl in hand, till at last he lay down by a wall, and died."
+canonical-instances:
+  - "A family repeatedly bails out a relative's failing business with fresh capital instead of addressing the relative's underlying pattern of reckless spending, and the relative eventually loses the new capital exactly as carelessly as every prior injection, arriving at the same ruin only later."
+critical-questions:
+  - "Would any amount of external intervention have prevented this outcome, or was the son's underlying character the actual variable that no resource, self-renewing or otherwise, could have compensated for?"
+  - "Is it fair to call the father's gift a failure, or did it simply buy the son additional years of comfort before the same underlying flaw caught up with him regardless?"
+status: active

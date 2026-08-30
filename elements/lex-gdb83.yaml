@@ -1,0 +1,19 @@
+id: lex-gdb83
+name: exiting-a-hierarchy-before-a-foreseeable-subordination-is-imposed
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Rather than wait to be formally handed a lesser role once an outcome becomes clear, a party can exit the hierarchy entirely on their own terms before the subordination is confirmed on someone else's schedule. In the Jataka's tale of Darimukha, on hearing the music that means his friend will be crowned king, Darimukha immediately decides to leave rather than accept the commander's post that would come with it: 'This car is coming for my friend, he will be king to-day and give me the commander's place, but why should I be a layman? I will go away and become an ascetic.'"
+related: []
+evokes: [jataka, chanipata, darimukha-jataka, preemptive-exit-before-subordination, self-timed-departure-from-hierarchy]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-darimukha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 378, Darimukha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "This car is coming for my friend, he will be king to-day and give me the commander's place, but why should I be a layman? I will go away and become an ascetic"
+canonical-instances:
+  - "A cofounder who sees the board is about to formally name the other cofounder sole CEO resigns first and starts a new venture, rather than accept the demotion once it's officially announced."
+critical-questions:
+  - "Is leaving before the subordination is confirmed a genuine act of agency, or does it just convert a passive loss of status into an active one that looks better in the telling?"
+  - "What if the anticipated demotion never would have actually happened — does exiting preemptively risk giving up a position that was never actually at risk?"
+status: active

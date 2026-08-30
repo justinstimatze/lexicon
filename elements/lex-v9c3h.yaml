@@ -1,0 +1,19 @@
+id: lex-v9c3h
+name: an-unrelated-natural-event-read-as-a-personal-omen-triggers-renunciation
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'An unrelated celestial or natural event can be spontaneously interpreted as a live metaphor for one''s own condition, and that interpretation alone can trigger a major, otherwise unmotivated life decision. In the Jataka''s tale of Gandhara, a lunar eclipse becomes exactly this trigger for the king: "That moon has lost its light, being marred by some trouble from outside; now my royal retinue is a trouble, and it is not meet that I should lose my light like the moon seized by Rahu: I will leave my kingdom like the moon''s orb shining in a clear sky and become an ascetic."'
+related: []
+evokes: [jataka, sattanipata, gandhara-jataka, natural-omen-as-personal-metaphor, event-triggers-unmotivated-life-decision]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-gandhara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 406, Gandhara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "That moon has lost its light, being marred by some trouble from outside; now my royal retinue is a trouble, and it is not meet that I should lose my light like the moon seized by Rahu: I will leave my kingdom like the moon's orb shining in a clear sky and become an ascetic:"
+canonical-instances:
+  - "Watching a routine power outage black out an entire office floor, an executive who has been quietly dissatisfied for months reads it as a sign that her own visibility depends on infrastructure she doesn't control, and resigns within the week to start on her own."
+critical-questions:
+  - "Was the underlying dissatisfaction already present and simply waiting for a trigger, or did the natural event genuinely create a new realization that wasn't there before?"
+  - "How would anyone distinguish a decision genuinely clarified by a chance metaphor from one merely rationalized by it after the fact?"
+status: active

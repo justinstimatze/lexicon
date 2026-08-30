@@ -1,0 +1,21 @@
+id: lex-vmqm7
+name: disbelieving-a-correct-messenger-costs-as-much-as-the-danger-itself
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "When people discount good news because of who's delivering it rather than what it says, they end up paying the same price as if the danger the news resolved were still real. In Cushing's telling, an ugly boy actually drives away a Bear that has been hoarding a mountain's entire food supply, then climbs a rock to announce it: 'hie ye over the mountains, and gather them to your hearts' content, for I have driven the Bear away!' The information is true and verified -- the boy really did it. But 'some, because he was ugly, would not believe it and would not go; and thus were as much hindered from gathering grass-seed and nuts for daily food as if the Bear had been really there.' Their skepticism cost them exactly what the Bear itself would have cost them, a mountain's worth of food they never gathered, and the cause wasn't a flaw in the information, it was a flaw in who was allowed to carry it. Diagnostic move: when you catch yourself discounting a report because of some irrelevant trait of the messenger, ugliness, low status, an unlikely source, calculate the cost of being wrong about your doubt, not just the cost of being wrong about the news -- disbelief that turns out to be mistaken is not free just because it feels like caution."
+related: []
+evokes: [distrust-of-the-messenger-recreates-the-cost-of-the-danger-itself, cushing-the-ugly-wild-boy-who-drove-the-bear-away, because-he-was-ugly-would-not-believe-it, as-much-hindered-as-if-the-bear-had-been-really-there]
+lineage:
+  - source: primary
+    text: cushing-people-disbelieve-the-ugly-boy-and-pay-for-it-anyway
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Ugly Wild Boy Who Drove the Bear Away from Southeastern Mesa.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'A few believed in what the boy said; and some, because he was ugly, would not believe it and would not go; and thus were as much hindered from gathering grass-seed and nuts for daily food as if the Bear had been really there. You know people nowadays are often frightened by such a kind of Bear as this.'"
+canonical-instances:
+  - "A junior employee who is often dismissed for their inexperience correctly identifies that a supplier issue has been resolved and it's safe to resume orders, and a manager who ignores the report because of the source keeps the team operating under costly emergency procedures for weeks after the actual problem ended."
+  - "A community dismisses a local eccentric's accurate report that a contaminated well has been cleaned and retested safe, and continues hauling water from a farther source for months, paying the same ongoing cost in time and effort as if the contamination had never been fixed."
+critical-questions:
+  - "Is the villagers' skepticism actually irrational given the boy's reputation and appearance, or would a reasonable person in their position have demanded some form of verification before risking a trip to a mountain that recently held a dangerous Bear -- does the story treat their doubt as foolish or merely costly?"
+  - "Would the outcome have been different if the boy had brought back some proof, a trophy from the Bear or a witness, rather than simply announcing the result from a rock -- does the story suggest any middle path between blind trust and costly disbelief?"
+  - "Is there a meaningful asymmetry here between the cost of wrongly believing a false all-clear (walking into a mountain where the Bear is still present) and the cost of wrongly disbelieving a true one (missing a season's harvest), and does that asymmetry justify caution even at real cost?"
+status: active

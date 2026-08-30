@@ -1,0 +1,19 @@
+id: lex-tfr59
+name: far-sighted-skill-fails-against-near-danger-under-strong-motivation
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A demonstrated capacity for detecting distant or general danger doesn't guarantee the same vigilance against a near, specific danger encountered while pursuing a strongly motivated goal. These are separate failure surfaces; skill at one says nothing about the other. In the Jataka's tale of the grateful vulture, a king mocks a captured vulture with its own famous reputation: 'A vulture sees a corpse that lies one hundred leagues away: When thou alightst upon a trap dost thou not see it, pray?' The vulture's own answer names the actual mechanism rather than denying the contradiction: 'When life is coming to an end, and death's hour draws anigh, Though you may come close up to it, nor trap nor snare you spy.' The vulture wasn't lying about its hundred-league eyesight, and its eyesight hadn't degraded — it walked into a snare set specifically to exploit the errand of misdirected gratitude it was on, which occupied exactly the attention its long-range vigilance depended on being free."
+related: []
+evokes: [jataka, dukanipata, gijjha-jataka, goal-pursuit-consumes-the-vigilance-general-skill-depends-on, demonstrated-far-sight-does-not-imply-near-vigilance]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-gijjha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 164, Gijjha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "A vulture sees a corpse that lies one hundred leagues away: When thou alightst upon a trap dost thou not see it, pray?"
+canonical-instances:
+  - "An analyst renowned for spotting slow-building market trends months before competitors gets personally wiped out by a fast, obvious scam targeting people eager to reciprocate a recent favor, because the trait that makes someone generous and grateful in the moment is a different cognitive channel than the one that makes them a good long-range forecaster."
+critical-questions:
+  - "Is the failure really about attention being consumed by the errand, or is it that far-sightedness and near-vigilance are simply unrelated skills that happen to share a metaphor (both are forms of 'seeing danger'), making the vulture's paradox more poetic than mechanistically real?"
+  - "Could the vulture have applied the same hundred-league vigilance to the trap if the errand hadn't been emotionally loaded — does misdirected gratitude specifically narrow attention in a way that a neutral task wouldn't?"
+status: active

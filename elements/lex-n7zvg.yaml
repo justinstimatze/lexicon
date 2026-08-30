@@ -1,0 +1,21 @@
+id: lex-n7zvg
+name: a-groups-private-doubt-is-overridden-by-anothers-insistence
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "In a group pursuing a shared goal, one member's private doubt about whether to continue can surface honestly in the moment and still get overridden by another member's insistence, with the group persisting past the point where that individual would have stopped alone. In Radin's Winnebago Hare Cycle, a pack of bodiless heads chases Hare up a series of trees, gnawing each one down in turn. By the fourth tree, the effort is visibly costing them: 'Suddenly one of them said, 'Ah, it is bitter! It is bitter!' and began to spit.' That's a real signal that this member has had enough. It doesn't end the pursuit. 'But another one spurring the others on to continue, said, 'W ait till he comes down.' So they stopped and waited till he would have to come down.' The doubt was voiced, heard, and immediately superseded by someone else's louder commitment to finishing, and the group's actual behavior tracked the insistence, not the doubt. Diagnostic move: when you're part of a group and you notice your own doubt about continuing get spoken and then instantly overridden by someone else's insistence, treat that moment as information about the group's decision process, not just about the specific goal, since the same override will likely happen again the next time doubt surfaces."
+related: []
+evokes: [radin-winnebago-hare-cycle, hare-and-the-bodiless-heads, it-is-bitter-it-is-bitter, wait-till-he-comes-down]
+lineage:
+  - source: primary
+    text: radin-one-heads-doubt-is-overridden-by-another-during-the-chase
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'The Winnebago Hare Cycle,' episode 11. Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "Finally Hare got tired so he ran up a tree. But the head behind came up and said, 'Gnaw the tree down!' So all encircled the tree and began to gnaw it down, But Haret away again. 'Oh, he has got away again!' So they spurted one another on again and shouted, 'Chase him!' They chased him and he ran up a tree again. Again they gnawed it down and again he ran away. Now, for the fourth time, he went up a tree and again they began to gnaw at it. Suddenly one of them said, 'Ah, it is bitter! It is bitter!' and began to spit. But another one spurring the others on to continue, said, 'W ait till he comes down.' So they stopped and waited till he would have to come down."
+canonical-instances:
+  - "During a grueling multi-day work sprint, one team member says out loud that the deadline isn't worth the toll it's taking, and a more senior colleague immediately responds that they've come too far to stop now, and the team keeps working the same punishing hours."
+  - "On a difficult group hike, one hiker says they think the group should turn back before the weather worsens, and another hiker insists they're close enough to the summit to push on, and the group continues climbing despite the doubt having been raised out loud."
+critical-questions:
+  - "Does the story suggest the doubting head was actually right that continuing wasn't worth it, given that the entire pursuit ends in the group's own destruction shortly after, or is the doubt simply narrative foreshadowing rather than a claim about which member had the better judgment?"
+  - "Is there a meaningful difference between one member's insistence overriding a doubt through social pressure and the group genuinely re-evaluating and choosing to continue on the merits, and how would an outside observer tell which one actually happened here?"
+  - "Would the outcome have been different if the doubting head had insisted rather than merely commented, and does the mechanism depend on the doubt being spoken passively, spitting and complaining, rather than as a direct call to stop?"
+status: active

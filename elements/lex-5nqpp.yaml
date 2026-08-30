@@ -1,0 +1,19 @@
+id: lex-5nqpp
+name: early-wins-on-borrowed-competence-breed-contempt-for-the-lender
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Success achieved through someone else's hidden competence can convince the credited party that the success was their own doing, leading them to discard the very advice that made it possible right before a test that requires the real skill. In the Jataka's tale of the figurehead archer, after two staged victories arranged entirely by the real expert working behind him, the weaver Bhimasena grows arrogant and dismisses his silent partner's advice, declaring he can manage without him — and collapses the moment he faces real combat without that hidden support. The wins never demonstrated his own capability at all; they demonstrated someone else's, and mistaking the two is what destroys him."
+related: []
+evokes: [jataka, ekanipata, bhimasena-jataka, borrowed-competence-mistaken-for-own-skill, discarding-support-right-before-the-real-test]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-bhimasena-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 80, Bhimasena-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Intoxicated by his new honours, he treated the Bodhisatta with contempt, and scorned to follow his advice, saying, \"I can get on without you. Do you think there's no man but yourself?\""
+canonical-instances:
+  - "A junior salesperson closes two large deals that a mentor quietly engineered behind the scenes, starts ignoring the mentor's coaching, and loses a major account the following quarter attempting to replicate a negotiation style that was never actually their own."
+critical-questions:
+  - "Could the silent partner have prevented this by making their contribution visible from the start, or does concealment inevitably risk this exact outcome once the credited party starts believing the false narrative of their own success?"
+  - "Is there a way for the credited party to test their own competence safely before a real crisis forces the discovery, rather than finding out the gap exists only when the stakes are highest?"
+status: active

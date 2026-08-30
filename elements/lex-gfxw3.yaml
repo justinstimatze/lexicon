@@ -1,0 +1,29 @@
+id: lex-gfxw3
+name: recursive-composition
+type-in: composition
+type-out: frame
+_tier: atomic
+agent-instruction: "When a structure has the same shape at multiple scales, surface recursive composition — the part is built from copies of the whole; describing the rule once captures all the levels at once."
+related: [lex-bwubx, lex-hnfrw, lex-9nj6a, lex-z8m97, lex-a9wpd, lex-c9xba]
+evokes: [self-similar-structure, leaves-and-composites, tree-of-units, fractal-aggregation]
+lineage:
+  - source: primary
+    tradition: gof
+    text: gamma-helm-johnson-vlissides-1994
+    citation: "Design Patterns, recurring across Composite (the canonical case), Decorator (recursive wrapping), Interpreter (grammar trees built compositionally)"
+  - source: practitioner
+    text: alexander-1977
+    citation: "A Pattern Language — patterns nest; a 'town' contains 'neighborhoods' which contain 'house clusters' etc.; the same compositional logic"
+  - source: practitioner
+    text: gof-decomposition-pass
+    citation: "promoted from cross-family attestation: appears in Structural (Composite, Decorator) and Behavioral (Interpreter)"
+canonical-instances:
+  - "building a structure where a 'unit' can be either a leaf OR an aggregate of units — and the aggregate behaves like a unit for purposes of further composition (Composite pattern's defining move)"
+  - "Decorator's stacking: each Decorator IS a Component AND wraps a Component, so stacks of Decorators compose recursively"
+  - "loosely related to lex-bwubx the-fold (self-reference by emergence) but distinct: recursive-composition is structural by design, not emergent by complexity"
+critical-questions:
+  - "does the leaf-and-composite share an interface, or are they distinguished at the call-site? recursive-composition's promise is that aggregate IS-A unit — code that operates on a unit handles both leaves and composites uniformly. If the call-site has to type-switch, the promise is broken"
+  - "is the recursion structural or just visually similar? Composite's recursion is genuine (a composite contains units which can be composites which contain units...). A tree of distinct types per level (root-vs-branch-vs-leaf, hard-coded by depth) is NOT recursive-composition — it's a layered hierarchy"
+  - "what terminates the recursion in practice? infinite-recursion is the canonical failure: a composite that contains itself produces stack overflow on any traversal. The discipline: name the leaf-condition (what stops the descent) and verify it can always be reached"
+  - "is this distinct from lex-bwubx the-fold? recursive-composition is structural by design (built that way); the-fold is emergent by complexity (arises from dynamics). Both involve self-similarity but recursive-composition is engineered; the-fold isn't"
+status: active

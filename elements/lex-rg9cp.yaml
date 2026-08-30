@@ -1,0 +1,23 @@
+id: lex-rg9cp
+name: visible-fearlessness-disarms-an-aggressor-mid-act
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Standing fully exposed with calm resolve instead of fleeing can paralyze an aggressor's will to act, converting what would have been an executioner into someone who can no longer bring themselves to finish the act. In the Jataka's tale of Nandiya, the deer doesn't run when his turn comes; his composure stops the king from loosing the arrow: 'The Bodhisatta did not run away as other animals do when scared by the fear of death, but fearless and making his charity his guide he stood firm, exposing his side with mighty ribs. The king owing to the efficacy of his love could not discharge the arrow.'"
+related: [lex-btujf]
+evokes: [jataka, chanipata, nandiyamiga-jataka, timsanipata, jayaddisa-jataka, fearlessness-disarms-aggressor, composure-paralyzes-the-executioner]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-nandiyamiga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 385, Nandiyamiga-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The Bodhisatta did not run away as other animals do when scared by the fear of death, but fearless and making his charity his guide he stood firm, exposing his side with mighty ribs. The king owing to the efficacy of his love could not discharge the arrow."
+  - source: primary
+    text: jataka-francis1905-jayaddisa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XVI (Timsanipata), No. 513, Jayaddisa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "One so truthful, kindly, just, / Surely never may be eaten, / Or his head, who eats thee, must / Be to sevenfold pieces beaten."
+canonical-instances:
+  - "A protester who stands calmly still instead of running from an advancing line of police, making eye contact rather than flinching, causes the officer directly in front of them to hesitate and lower their baton."
+critical-questions:
+  - "Does visible fearlessness actually work reliably against any aggressor, or does it only disarm one who already has some latent capacity for restraint that a purely indifferent aggressor wouldn't share?"
+  - "Is there a meaningful risk that standing firm simply fails to work on a given aggressor, making this a strategy whose failure mode is worse than fleeing would have been?"
+status: active

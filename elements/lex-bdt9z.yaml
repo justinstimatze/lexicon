@@ -1,0 +1,18 @@
+id: lex-bdt9z
+name: a-hidden-or-switched-heir-is-concealed-to-evade-a-prophecy-of-dynastic-doom
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When a prophecy names a not-yet-born or newly-born child as the future destroyer of the current power structure, the family under threat can respond not by directly killing the prophesied bearer but by isolating them and later secretly swapping successive children with another family''s children of the opposite sex, concealing their existence from those who would kill them. In the Jataka''s tale of Ghata, the prophecy against Devagabbha''s future son sets the entire concealment plot in motion: "A son born of this girl will one day destroy the country and the lineage of Kamsa."'
+related: []
+evokes: [jataka, dasanipata, ghata-jataka, hidden-heir, prophecy-of-dynastic-doom, perseus-and-danae, moses-in-the-bulrushes]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-ghata-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 454, Ghata-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "A son born of this girl will one day destroy the country and the lineage of Kamsa."
+canonical-instances:
+  - "Warned by a fortune-teller that his newborn nephew will one day seize the family business from him, an uncle doesn't harm the child directly but arranges for the boy to be quietly raised elsewhere under a different name, hoping to keep the prophecy from ever finding its target."
+critical-questions:
+  - "Does concealing a prophesied heir rather than confronting the prophecy directly actually prevent the foretold outcome, or does the concealment itself tend to set in motion the very events that fulfill it?"
+status: active

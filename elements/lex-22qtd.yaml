@@ -1,0 +1,19 @@
+id: lex-22qtd
+name: delay-judgment-until-anger-has-been-confirmed-to-pass
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A person in authority can explicitly withhold any reaction while still angry, choosing to act only once they have confirmed to themselves that the anger has genuinely passed. This names a self-imposed delay as a deliberate safeguard against decisions made in an emotionally compromised state, rather than an accident of timing. In the Jataka''s tale of Sumangala, the king states this policy directly: "Dear sir, it is wrong for a king to do anything hastily in his anger: therefore I was silent at first and the third time when I ...knew I was appeased I sent for Sumangala"'
+related: []
+evokes: [jataka, atthanipata, sumangala-jataka, anger-cooldown-heuristic, delayed-judgment-as-safeguard]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sumangala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 420, Sumangala-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Dear sir, it is wrong for a king to do anything hastily in his anger: therefore I was silent at first and the third time when I ...knew I was appeased I sent for Sumangala"
+canonical-instances:
+  - "A CEO who learns a director made a costly unilateral call refuses to respond in the meeting where it's disclosed, waits a week, checks in with herself twice more, and only then schedules the conversation that decides the director's future."
+critical-questions:
+  - "How does someone reliably confirm, from the inside, that their anger has actually passed rather than merely gone quiet for the moment?"
+  - "Does the delay itself cost anything — to the person waiting on judgment, or to whoever else is affected by the decision being held open?"
+status: active

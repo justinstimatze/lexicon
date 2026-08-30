@@ -1,0 +1,29 @@
+id: lex-3zfwb
+name: a-condemned-structures-persistence-signals-an-unmet-need
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When a structure or arrangement is widely and correctly condemned as corrupt, illegal, or against the official rules, yet keeps returning after every attempt to root it out, don't settle for 'inertia' or 'the bad actors are just clever' as the explanation — check what real, unmet need it's serving that no sanctioned alternative currently fills. Merton works this through the American urban political machine: it demonstrably violated the mores and the law, and moralizing 'explanations' for its persistence (an apathetic electorate, too many elective offices) never actually explained why reform after reform failed to kill it. His move: assume that a persistent, condemned structure is 'satisfying basic latent functions' that its official replacement doesn't. The machine's precinct captain, personally known and non-judgmental, outcompeted the credentialed but distant social worker for exactly the population that most needed help, because 'the condescending lady bountiful can hardly compete with the understanding friend in need.' Before attributing a condemned structure's stubborn survival to corruption or ignorance alone, ask what unmet need is keeping it alive."
+related: [lex-4bgdr, lex-aeg2j, lex-pazxc]
+scaffolds-from: [lex-pazxc]
+evokes: [political-machine, precinct-captain, lady-bountiful, phoenix-like-quality, latent-functions-of-corruption, merton-1957]
+lineage:
+  - source: primary
+    text: merton-1957-political-machine-phoenix-like
+    citation: "Robert K. Merton, Social Theory and Social Structure, Revised and Enlarged Edition (Glencoe, IL: Free Press, 1957), Ch. I 'Manifest and Latent Functions,' pp.71-72, 'Some Functions of the Political Machine.' Verified verbatim against a University of Iowa library scan via Internet Archive OCR text (item 31858016281432)."
+    quote: "'In view of the manifold respects in which political machines, in varying degrees, run counter to the mores and at times to the law, it becomes pertinent to inquire how they manage to continue in operation.'"
+  - source: primary
+    text: merton-1957-political-machine-satisfying-latent-functions
+    citation: "Robert K. Merton, Social Theory and Social Structure (1957), same chapter, pp.71-72, continuing directly."
+    quote: "'But it should be noted that these changes are often not introduced, that political machines have had the phoenix-like quality of arising strong and unspoiled from their ashes, that, in short, this structure has exhibited a notable vitality in many areas of American political life. ... the thought occurs that perhaps this publicly maligned organization is, under present conditions, satisfying basic latent functions.'"
+  - source: primary
+    text: merton-1957-precinct-captain-vs-lady-bountiful
+    citation: "Robert K. Merton, Social Theory and Social Structure (1957), same chapter, p.75, contrasting the political machine's personalized aid with official charity's credentialed, means-tested aid."
+    quote: "'For many, the loss of \"self-respect\" is too high a price for legalized assistance. ... the precinct worker is \"just one of us,\" who understands what it's all about. The condescending lady bountiful can hardly compete with the understanding friend in need.'"
+canonical-instances:
+  - "Informal, unlicensed street vendors persist in cities that repeatedly crack down on them, not merely because enforcement is imperfect, but because they meet real demand (affordable goods, flexible hours, no barrier-to-entry employment for the vendors themselves) that the formal retail sector and formal labor market don't currently meet for that population."
+  - "Workplace 'shadow IT' — employees using unauthorized apps and tools that repeated policy memos fail to eliminate — usually persists because the sanctioned, approved tools are slower or clumsier at a real task employees need done; banning the tool without fixing the gap just produces the next unauthorized workaround."
+critical-questions:
+  - "How do you distinguish a genuine unmet-need explanation from a just-so story invented after the fact to rationalize why a bad thing persists — what would count as evidence the persistence really is pure inertia or unchecked power, with no latent function doing real work?"
+  - "Does naming the latent function excuse or endorse the condemned structure? Merton's own answer is no — identifying why the political machine persists is a precondition for designing a reform that could actually displace it (see the related lex-aeg2j), not a defense of the machine's corruption."
+status: active

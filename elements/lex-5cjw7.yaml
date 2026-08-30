@@ -1,0 +1,22 @@
+id: lex-5cjw7
+name: burning-the-land-behind-a-retreat-denies-the-pursuer-its-resources
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A retreating group can deliberately set fire to the grazing land behind them as they flee, sacrificing their own future use of that land specifically to deprive a pursuing enemy's horses of forage, converting their own territory into a weapon against whoever follows through it. Fleeing east from Three Stars's soldiers, Black Elk's people 'set fire to the grass behind us as we went, and the smoke back there was wide as the day and the light of the fire was wide as the night. This was to make the soldiers' horses starve.' The tactic costs the fleeing band something real -- 'most of the land was black from the fire, and the bison had gone away' when they later returned -- but the immediate calculation is simple: their pursuers need that grass more urgently than they themselves do."
+related: []
+evokes: [black-elk-speaks, walking-the-black-road, set-fire-to-the-grass-behind-us, to-make-the-soldiers-horses-starve, most-of-the-land-was-black-from-the-fire]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch10-walking-the-black-road
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 10, 'Walking the Black Road.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "Our people set fire to the grass behind us as we went, and the smoke back there was wide as the day and the light of the fire was wide as the night. This was to make the soldiers' horses starve. [...] We went back deep into our country, and most of the land was black from the fire, and the bison had gone away."
+canonical-instances:
+  - "A retreating army destroys bridges, wells, and grain stores in territory it abandons, accepting that its own future campaigns through that same ground will find nothing left either."
+  - "A company facing a hostile takeover deliberately burns through its own cash reserves on obligations that would be worthless to a new owner, denying the acquirer the very asset that made the company attractive."
+  - "A departing employee wipes a shared drive of reference material they built and relied on themselves, ensuring a rival who poached them gains nothing from the transition, even though the departing employee could have used that same material at their next job."
+critical-questions:
+  - "How does a group calibrate how much of its own future resource base to destroy -- since the same fire that starves the pursuer's horses also, months later, leaves them without bison in their own recovered territory -- and is that tradeoff made deliberately or just accepted as an unavoidable cost in the moment?"
+  - "Does scorched-earth retreat actually slow a determined pursuer enough to matter, or does it mainly punish the retreating group's own later return to the same land, with the enemy simply resupplying from elsewhere?"
+  - "Is there a meaningful difference between burning land you still consider your own territory, expecting to return, versus burning land you're abandoning permanently -- does the tactic's cost-benefit calculation change based on whether you plan to come back?"
+status: active

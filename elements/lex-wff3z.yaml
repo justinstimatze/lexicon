@@ -1,0 +1,18 @@
+id: lex-wff3z
+name: casting-lots-to-select-a-sacrifice-that-saves-the-many
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When a group faces a threat that a collective decision-procedure attributes to one member, and there is no way to identify the responsible party except by chance, the group can resort to a lot-casting ritual that both selects a victim and launders the selection as impartial, even though the underlying causal claim is never independently verified. In the Jataka''s tale of Mittavindaka, the sailors cast lots three times, all landing on the same man, and use the outcome to justify sacrificing him for the ship''s survival: "Lots were cast, and thrice was the lot found in the hand of Mittavindaka... ''Let not many perish for the sole sake of this one,'' they cast him adrift upon the deep." The translator''s own footnote draws the parallel to the Book of Jonah.'
+related: []
+evokes: [jataka, dasanipata, catu-dvara-jataka, mittavindaka, casting-lots, jonah, scapegoat-selection]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-catu-dvara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 439, Catu-dvara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Lots were cast, and thrice was the lot found in the hand of Mittavindaka... \"Let not many perish for the sole sake of this one,\" they cast him adrift upon the deep."
+canonical-instances:
+  - "A ship's crew, convinced a stowaway's presence has cursed the voyage, draws straws to decide who searches the hold alone at night, and treats the draw's outcome as settling not just who searches but whether the curse is real."
+critical-questions:
+  - "Does the ritual of casting lots ever function as anything other than a way to make an arbitrary choice feel procedurally legitimate to those forced to accept it?"
+status: active

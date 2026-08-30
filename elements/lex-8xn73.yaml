@@ -1,0 +1,19 @@
+id: lex-8xn73
+name: vary-a-routine-output-across-a-range-to-test-a-dependents-discernment
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than ask directly or guess whether dependents have become capable of self-sufficiency, a caregiver can deliberately vary the quality of a routine output across a controlled range and observe whether they can correctly discriminate good from bad, using that discrimination as evidence of readiness to be left on their own. In the Jataka''s tale of Kumbhakara, the father tests his children exactly this way: "when cooking rice he would cook one day a little hard and raw, one day a little underdone, one day well-cooked, one day sodden, one day without salt, another with too much."'
+related: []
+evokes: [jataka, sattanipata, kumbhakara-jataka, graduated-quality-test, infer-readiness-from-discernment]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kumbhakara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 408, Kumbhakara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "when cooking rice he would cook one day a little hard and raw, one day a little underdone, one day well-cooked, one day sodden, one day without salt, another with too much."
+canonical-instances:
+  - "Before handing full editorial control to a junior writer, an editor deliberately sends drafts of varying quality for review over several weeks, watching whether the junior catches the weak ones and lets the strong ones through unchanged."
+critical-questions:
+  - "Does testing dependents this way without telling them risk feeling like manipulation if they ever find out, compared to simply asking them to demonstrate the judgment directly?"
+  - "How many rounds of variation are actually needed before discernment can be distinguished from a lucky guess?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-9dk2x
+name: authority-can-be-stripped-while-responsibility-stays-fixed
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Organizational restructuring can remove someone's actual authority to act within a domain while leaving their formal accountability for outcomes in that domain completely unchanged — a mismatch the person affected may describe more precisely as diminished authority alongside unchanged 'blamability.' This is a distinct axis from incentive-timing problems: it's not about when consequences become visible relative to tenure, it's a mismatch between authority and responsibility at a single point in time, where someone is held answerable for outcomes they no longer have the standing to actually control. The diagnostic question is whether a person's formal accountability was adjusted to match any reduction in their actual decision-making power, or whether the two were allowed to drift apart."
+related: [lex-wywde]
+evokes: [jackall-moral-mazes, "his blamability remained unchanged", authority-responsibility-mismatch]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch5-authority-diminished-responsibility-unchanged
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 5, Drawing Lines."
+    quote: "Wilson felt that his authority was diminished but that his responsibility-and as he defines it in retrospect, his \"blamability\"-remained unchanged."
+canonical-instances:
+  - "A site safety officer's sign-off power over contractor work is removed in a reorganization meant to speed up approvals, but the officer remains the named accountable party if a contractor-caused safety incident occurs afterward."
+critical-questions:
+  - "Did the people who redesigned the authority structure fail to notice the resulting responsibility mismatch, or was the mismatch itself a convenient byproduct — someone still answerable, with less power to prevent the thing they're answerable for?"
+status: active

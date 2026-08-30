@@ -1,0 +1,18 @@
+id: lex-4nnut
+name: containment-measure-becomes-the-vehicle-of-the-betrayal-it-guarded-against
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A security mechanism produces false confidence precisely because its owner never imagines the mechanism itself can be turned against its purpose — the would-be betrayer doesn''t need to defeat the security, only repurpose it, hiding the threat in the very container built to prevent it. In the Jataka''s tale of Samugga, the demon''s wife hides her lover inside the very box built to keep her contained: Then she placed him in the box, and sat down on it, waiting the approach of the Asura, and as soon as she saw him coming, before he had drawn near to the box, she opened it, and getting inside lay over the magician, and wrapped her garment about him.'
+related: []
+evokes: [jataka, navanipata, samugga-jataka, arabian-nights-frame-tale, security-mechanism-repurposed-against-itself]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-samugga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 436, Samugga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Then she placed him in the box, and sat down on it, waiting the approach of the Asura, and as soon as she saw him coming, before he had drawn near to the box, she opened it, and getting inside lay over the magician, and wrapped her garment about him."
+canonical-instances:
+  - "A company locks its most sensitive credentials in a hardware vault built to make single-insider leaks impossible. What nobody anticipated: an insider with legitimate vault access can just use the vault itself as the exfiltration channel."
+critical-questions:
+  - "Is there any containment design that couldn't in principle be repurposed this way, or does every sufficiently capable insider with access to the mechanism have the same option available?"
+status: active

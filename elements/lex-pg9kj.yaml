@@ -1,0 +1,29 @@
+id: lex-pg9kj
+name: cultural-learning-combines-high-fidelity-copying-with-prestige-biased-selection
+type-in: situation
+type-out: claim
+_tier: molecule
+agent-instruction: "When explaining why a cultural practice, technique, or opinion spread and stabilized, ask both questions: WHAT made the copying accurate enough to preserve the practice across transmissions (high-fidelity copying of causally-opaque steps), and WHO the copiers selected as a model to copy from (prestige cues). A practice can be faithfully copied from the wrong model, or copied loosely from the right one — cumulative cultural evolution needs both the fidelity mechanism and the selection mechanism to explain a specific outcome."
+related: [lex-u6sw3, lex-z7kgm]
+scaffolds-from: [lex-u6sw3, lex-z7kgm]
+evokes: [cumulative-cultural-evolution, high-fidelity-copying, prestige-bias, what-and-who-of-cultural-learning, spillover-prestige]
+decomposes-into:
+  - lex-u6sw3
+  - lex-z7kgm
+assembly: "parallel(lex-u6sw3, lex-z7kgm)"
+premises:
+  - "high-fidelity copying of causally-opaque steps — reproducing a technique's steps even when the copier doesn't understand why each step matters — is what enables cumulative cultural evolution to accumulate improvements across generations rather than reverting to individual-level reinvention each time (lex-u6sw3)"
+  - "prestige cues — attention convergence, deference, citation, emulation directed at a person — are the evolved heuristic that determines WHO gets copied from, operating as a bandit-optimal strategy under causal opacity: when you can't tell which of a successful person's habits caused their success, copying broadly from them beats copying nothing (lex-z7kgm)"
+  - "the two are independent, co-required halves of the same phenomenon: lex-u6sw3 is the WHAT (the copying mechanism's fidelity), lex-z7kgm is the WHO (the selection mechanism's target) — a full account of a cultural practice's spread and stabilization needs both"
+critical-questions:
+  - "in a specific case, is a technique spreading because of the copying mechanism's fidelity (the steps are being reproduced accurately) or because of the selection mechanism's strength (a highly prestigious model is being imitated, accurately or not)? These can be disentangled empirically by checking fidelity independent of the model's prestige."
+  - "is prestige-biased selection choosing a genuinely high-competence model, or a model whose prestige comes from adjacent-domain success that has spilled over via the copying mechanism into domains where the model has no actual expertise? lex-z7kgm's own critical-question about spillover applies directly here."
+  - "when a practice fails to spread despite high fidelity in the copies that DO occur, is the bottleneck the selection mechanism (nobody prestigious enough is modeling it) rather than the fidelity mechanism? Distinguishing a fidelity failure from a selection failure changes what intervention would actually help a practice spread."
+lineage:
+  - source: practitioner
+    text: assembled-from-lex-u6sw3-lex-z7kgm
+    citation: "Molecule assembled from lex-u6sw3 (high-fidelity-copying-of-causally-opaque-steps-enables-cumulative-cultural-evolution) and lex-z7kgm (prestige-cues-cause-cross-domain-copying-from-high-status-models). lex-z7kgm's own agent-instruction states the link directly: 'Composes with lex-u6sw3 (high-fidelity copying is the WHAT; prestige-bias is the WHO of cultural learning) and lex-hbgcb (social-proof-as-action-signal...).'"
+canonical-instances:
+  - "Traditional craft apprenticeship: an apprentice copies a master's exact hand-motions and sequencing even without understanding why each step matters (lex-u6sw3's fidelity mechanism), and selects which master to apprentice under based on that master's community-recognized prestige rather than a legible skill-audit (lex-z7kgm's selection mechanism) — both mechanisms operating together explain why the resulting craft technique both accumulates improvement across generations AND clusters around specific lineages of prestigious teachers."
+  - "Spillover failure case: a Nobel-winning physicist's opinions on unrelated policy questions get copied with high fidelity by followers (lex-u6sw3 working correctly) because the physicist is highly prestigious (lex-z7kgm selecting them as a model) — but the selection is misapplied, since the physicist's prestige comes from physics-domain competence that doesn't transfer to the policy domain. High-fidelity copying of a badly-selected model still produces a bad outcome; the composition names both failure points."
+status: under-review

@@ -1,0 +1,19 @@
+id: lex-h925n
+name: rationing-under-scarcity-hedges-against-a-foreseeable-sacrifice
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When a group faces a recurring, foreseeable forced sacrifice under scarcity, quietly rationing one's own share each round and banking the surplus can produce, by the time the sacrifice would otherwise fall on you, an alternative offering substantial enough to avert it. In the Jataka's tale of the seven starving brothers, they agree to kill and eat their wives one at a time as food runs out; the Bodhisatta alone rations his own daily portion and saves the rest: 'each day the Bodhisatta set one portion aside, so that he had six portions saved.' When his own wife's turn comes on the seventh day, he offers the six banked portions instead, buying the time both of them need to escape before anyone is forced to act on the agreement again. The rationing only works because it was done every day, before there was any specific threat yet to ration against."
+related: []
+evokes: [jataka, dukanipata, culla-paduma-jataka, self-rationing-as-a-hedge-against-a-known-future-sacrifice, banked-surplus-substitutes-for-a-forced-payment]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-culla-paduma-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 193, Culla-paduma-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "each day the Bodhisatta set one portion aside, so that he had six portions saved"
+canonical-instances:
+  - "A member of a household facing rolling mandatory furlough days sets aside a small amount from each paycheck before any furlough notice has their name on it, so that by the time their turn is announced, they already have enough saved to cover the gap without the crisis anyone else in the same position is scrambling through."
+critical-questions:
+  - "Does this strategy require the sacrifice schedule to be predictable and sequential the way it is in the story — would rationing still work as a hedge if the timing or order of who's affected next were genuinely random?"
+  - "Is there something troubling about a strategy that survives a rotating forced sacrifice by hoarding rather than by trying to stop the sacrifice itself from happening to anyone — does the Bodhisatta's solution implicitly accept the brothers' arrangement rather than challenge it?"
+status: active

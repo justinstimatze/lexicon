@@ -1,0 +1,18 @@
+id: lex-8h6nz
+name: testing-virtue-by-removing-the-incentive-that-would-explain-it
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'To determine whether an agent''s apparently virtuous behavior is genuine or merely a byproduct of favorable circumstances, an observer deliberately removes the favorable circumstance and watches whether the behavior persists. If it continues despite the loss of benefit, it is diagnosed as authentic character rather than opportunism. In the Jataka''s tale of Mahasuka, Sakka withers the parrot''s own fruit tree specifically to see whether the bird''s contentment was really virtue or just an easy life: Sakka reflecting on the cause saw the parrot, and to test his virtue, by his supernatural power he withered up the tree, which became a mere stump perforated with holes, and stood to be buffeted by every blast of wind, and from the holes dust came out.'
+related: []
+evokes: [jataka, navanipata, mahasuka-jataka, testing-virtue-by-removing-benefit, job-motif]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahasuka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 429, Mahasuka-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Sakka reflecting on the cause saw the parrot, and to test his virtue, by his supernatural power he withered up the tree, which became a mere stump perforated with holes, and stood to be buffeted by every blast of wind, and from the holes dust came out."
+canonical-instances:
+  - "A landlord suspects a tenant's promptness with rent is really just about avoiding late fees, so she quietly waives the fee for one month without telling him, and watches whether the payment still arrives on time."
+critical-questions:
+  - "What if the behavior does NOT survive the test — is that proof the earlier virtue was fake, or could removing the incentive have introduced a genuinely new reason to stop, unrelated to the original motive?"
+status: active

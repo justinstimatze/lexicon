@@ -1,0 +1,19 @@
+id: lex-drdxn
+name: temptation-matched-to-each-members-weakness-picks-off-a-group-singly
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A group can be dismantled one member at a time by offering each person a temptation individually calibrated to their specific weakness, rather than a single lure that would only catch some of them. In the Jataka's tale of the five travelers, a group of companions is stripped away one by one on a dangerous journey, each lured by a different attraction matched precisely to his own particular attachment — one falls behind for beauty, another for music, another for scent, another for food, another for comfort. Only the traveler with no exploitable attachment left to target survives the passage, since the group's real vulnerability was never a single shared flaw but the sum of everyone's individually different ones."
+related: []
+evokes: [jataka, ekanipata, telapatta-jataka, individually-calibrated-temptation-dismantles-a-group, no-single-shared-weakness-required]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-telapatta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 96, Telapatta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "And one of the five, the lover of beauty, looked upon the ogresses, and being ensnared by their beauty, lagged behind the rest."
+canonical-instances:
+  - "A team of five negotiators sent to close a deal gets peeled off one at a time at a lavish vendor dinner. An exclusive product preview draws one away, a flattering one-on-one with a senior executive draws off a second, a dangled side opportunity a third. Only the negotiator with no personal angle left to exploit stays focused on the actual deal."
+critical-questions:
+  - "Does defending against this require each group member to know their own specific vulnerability in advance, or is the pattern only visible in hindsight once someone has already been peeled away?"
+  - "Is the surviving traveler's immunity a virtue, or simply the absence of an exploitable attachment — would a person with no weaknesses left to target actually be the ideal group member, or just the least interesting one to target first?"
+status: active

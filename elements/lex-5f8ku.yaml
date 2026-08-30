@@ -1,0 +1,18 @@
+id: lex-5f8ku
+name: technically-complying-with-a-request-while-making-each-fulfillment-worse-and-more-insulting
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than refusing a request outright, an agent can technically comply with each restated demand while degrading what is actually delivered each time, satisfying the letter of the obligation while escalating the insult of its spirit. In the Jataka''s tale of Bilari-Kosiya, the merchant, cornered into feeding his guests, orders them served food unfit to eat rather than simply refusing: "Then cook them some cows'' food in a pot, and give them that."'
+related: [lex-dpeqe, lex-wa7s4]
+evokes: [jataka, dasanipata, bilari-kosiya-jataka, malicious-compliance, degrading-fulfillment]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-bilari-kosiya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 450, Bilari-Kosiya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Then cook them some cows' food in a pot, and give them that."
+canonical-instances:
+  - "Ordered by HR to accommodate an employee's request for a quieter workspace, a manager technically complies by moving his desk next to the loudest printer in the building, satisfying the letter of the accommodation while defeating its entire purpose."
+critical-questions:
+  - "Is malicious compliance meaningfully different, in terms of accountability, from an outright refusal, given that the compliant party can point to having technically fulfilled the request?"
+status: active

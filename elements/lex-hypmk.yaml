@@ -1,0 +1,19 @@
+id: lex-hypmk
+name: an-indistinguishable-decoy-can-fool-its-own-maker-too
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A deceptive substitute made identical enough to fool its intended target carries a real risk that the person who made it can no longer tell the two apart either, since the deception doesn't come with a label attached for its own creator. Building a perfect copy means building something that works against you as well as against the mark. In the Jataka's tale of the swapped parcels, a greedy younger brother swaps his sibling's money for an identical-looking parcel of gravel, planning to keep the cash. The disguise works too well: 'so he packed a parcel of gravel to look like the parcel of money, and put them both away. When they had got aboard, and were come to mid-river, the younger stumbled against the side of the boat, and dropt overboard the parcel of gravel, as he thought, but really the money.' He loses the real money believing it's the fake."
+related: []
+evokes: [jataka, tikanipata, maccha-uddana-jataka, a-perfect-decoy-deceives-its-own-creator-as-well-as-its-target, deception-carries-no-built-in-label-for-whoever-built-it]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-maccha-uddana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 288, Maccha-uddana-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "so he packed a parcel of gravel to look like the parcel of money, and put them both away. When they had got aboard, and were come to mid-river, the younger stumbled against the side of the boat, and dropt overboard the parcel of gravel, as he thought, but really the money."
+canonical-instances:
+  - "An employee creates a nearly identical duplicate of a sensitive file to slip a falsified version past an auditor, then accidentally hands the auditor the real file and shreds the fake one, having lost track of which copy was which somewhere in the process of making them indistinguishable."
+critical-questions:
+  - "Would a less perfect disguise, one the maker could still reliably tell apart even if a stranger couldn't, have avoided this failure entirely, or does this kind of mistake happen regardless of how carefully the deceiver tries to keep track?"
+  - "A private marker only the creator can detect would solve this. But wouldn't that same marker be exactly what a sufficiently careful target learns to look for?"
+status: active

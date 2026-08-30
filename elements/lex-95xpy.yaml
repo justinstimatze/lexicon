@@ -1,0 +1,18 @@
+id: lex-95xpy
+name: testimony-from-beyond-doesnt-persuade-those-unmoved-by-existing-evidence
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: "A request for extraordinary proof — someone returning from the dead, a witness with unimpeachable authority — often assumes the problem is a shortage of evidence, when the actual problem is that the available evidence already suffices and isn't being acted on for other reasons: a rich man in torment begs that someone be sent back from the dead to warn his living brothers, and is told plainly that if they aren't persuaded by what they already have, they won't be persuaded by a resurrection either. More dramatic evidence doesn't fix a persuasion failure that isn't actually about evidence quantity."
+related: []
+evokes: [kjv, the-rich-man-and-lazarus, if-one-went-unto-them-from-the-dead, they-have-moses-and-the-prophets-let-them-hear-them, a-great-gulf-fixed]
+lineage:
+  - source: primary
+    text: kjv-1611-luke-16-rich-man-and-lazarus
+    citation: "The Holy Bible, King James Version (1611; this edition Project Gutenberg #10), Luke 16:29-31. Verified verbatim against a direct extraction of the held copy."
+    quote: "Abraham saith unto him, They have Moses and the prophets; let them hear them. And he said, Nay, father Abraham: but if one went unto them from the dead, they will repent. And he said unto him, If they hear not Moses and the prophets, neither will they be persuaded, though one rose from the dead."
+canonical-instances:
+  - "A team keeps asking for 'just one more' large-scale study before changing a practice that a dozen smaller studies have already consistently flagged as a problem — the request for stronger evidence is doing the work of avoiding a change that would be inconvenient regardless of how strong the evidence gets."
+critical-questions:
+  - "Is the demand for stronger proof here actually a genuine, addressable evidentiary gap, or is it functioning as a moving goalpost that no amount of additional evidence would actually satisfy?"
+status: active

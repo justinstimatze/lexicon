@@ -1,0 +1,19 @@
+id: lex-8bx9b
+name: citing-value-to-your-captors-enemy-can-doom-you
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When pleading for your life or position by citing your own value, check whose interests that value actually serves — if it serves the interests of the party opposed to your captor, naming it can be self-incriminating rather than persuasive. In Aesop's 'The Thieves and the Cock,' a cock begs thieves to spare him because he wakes people for work, and they answer: 'Yes, I know you do, making it still harder for us to get a livelihood. Into the pot you go!' Value is not intrinsic; it is a function of whose interests it serves, and citing a trait that helps your captor's opponents is precisely the wrong argument to make to the captor."
+related: []
+evokes: [aesop, the-thieves-and-the-cock, value-is-relative-to-whose-interest, self-incriminating-defense]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-thieves-and-the-cock
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Thieves and the Cock.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Yes, I know you do, making it still harder for us to get a livelihood. Into the pot you go!"
+canonical-instances:
+  - "an internal auditor, caught in a corporate power struggle, pleads for their job by touting how well they catch financial irregularities — to the executives currently trying to hide one."
+critical-questions:
+  - "Is there any version of this defense that could work — a value genuinely neutral between the captor's and the opposed party's interests — or does any cited value inevitably serve one side more than the other?"
+  - "Does the cock have a better argument available at all, given that his actual function (waking people) is inherently opposed to what thieves need, or is his situation simply undefendable on the merits?"
+status: active

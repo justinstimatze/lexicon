@@ -1,0 +1,19 @@
+id: lex-hwqup
+name: shrink-the-candidate-pool-each-round-to-flush-out-a-hidden-outlier
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'To unmask one unknown individual embedded among many plausible candidates, a repeated elimination test can be designed whose invitation count shrinks each round; whoever alone persists across every round, as everyone else''s slot vanishes, is revealed as uniquely motivated to stay. In the Jataka''s tale of Sattubhasta, Senaka designs exactly this test: "Go, do you two invite and entertain the first day fourteen brahmins, seven for yourself and seven for your wife: from next day onwards take one less each day, till on the seventh day you invite one brahmin and your wife one: then if you notice that the brahmin your wife asks on the seventh day has come every time, tell me."'
+related: []
+evokes: [jataka, sattanipata, sattubhasta-jataka, shrinking-set-elimination-test, unmask-the-outlier-by-persistence]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sattubhasta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 402, Sattubhasta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Go, do you two invite and entertain the first day fourteen brahmins, seven for yourself and seven for your wife: from next day onwards take one less each day, till on the seventh day you invite one brahmin and your wife one: then if you notice that the brahmin your wife asks on the seventh day has come every time, tell me."
+canonical-instances:
+  - "To find which one of a dozen contractors is leaking bid details to a competitor, a procurement team feeds a slightly different fake project detail to a shrinking subset each round. Whichever fake detail turns up in the competitor's final bid names the leaker: the one contractor who never got dropped from the subset."
+critical-questions:
+  - "What happens if the hidden outlier notices the pool is shrinking and adjusts their behavior to avoid detection, rather than persisting obliviously to the end?"
+  - "Does this test risk falsely implicating someone who simply had an unrelated reason to keep showing up in every round?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-hm23q
+name: closing-a-release-valve-without-a-replacement-relocates-the-pressure
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Before eliminating a chronic, low-grade outlet a system has been running through, check whether the underlying pressure that outlet was releasing has actually gone away or is only waiting for a new place to surface. Hippocrates' Aphorisms: 'When a person has been cured of chronic hemorrhoids, unless one be left, there is danger of dropsy or phthisis supervening.' The advice keeps one channel open rather than sealing every outlet at once, because closing the discharge itself never touched the condition producing it. A system that has adapted around an imperfect release valve does not return to a clean baseline when the valve is removed; the pressure that valve was carrying finds the next-weakest point, which can be worse than the outlet that was closed."
+related: []
+evokes: [hippocrates, aphorisms, closing-a-release-valve-relocates-pressure, symptom-removal-without-cause-removal]
+lineage:
+  - source: primary
+    text: hippocrates-aphorisms-adams1849-sectionVI-12
+    citation: "Hippocrates, Aphorisms, trans. Francis Adams (Sydenham Society, 1849), Section VI, §12. Verified verbatim against a direct extraction of the held copy."
+    quote: "When a person has been cured of chronic hemorrhoids, unless one be left^ there is danger of dropsy or phthisis super- vening."
+canonical-instances:
+  - "an organization shuts down its unsanctioned grumbling channel on Slack, hoping for smoother operations. The same grievances resurface weeks later as formal HR complaints and resignations, because the channel was never what people were actually upset about."
+critical-questions:
+  - "How would someone distinguish, before removing an outlet, whether the underlying pressure is real and will resurface elsewhere versus whether the outlet itself was the only thing sustaining a problem that would otherwise resolve cleanly?"
+  - "Is 'leave one outlet open' actually good long-term advice, or does it just defer the real fix — addressing the underlying condition — in favor of permanently managing its symptom instead?"
+status: active

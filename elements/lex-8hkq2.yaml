@@ -1,0 +1,19 @@
+id: lex-8hkq2
+name: accepting-a-fight-while-dictating-where-it-happens
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Refusing a conflict outright isn't the only way to control it: agreeing to fight while insisting the confrontation happen on ground of your choosing denies the aggressor the home-field advantage of fighting inside your territory. In the Jataka's tale of Nandisena, rather than declining Kalinga's war or waiting for an invasion, the minister confines it to the frontier: 'Let Kalinga abide within his own marches, and not encroach upon ours, and the battle shall be fought on the frontiers of the two countries.' Kalinga halts within his own territory, and Assaka keeps to his — the fight is accepted, but only on terms that erase the aggressor's positional edge."
+related: []
+evokes: [jataka, catukkanipata, cullakalinga-jataka, accept-the-conflict-but-set-the-venue, denying-an-aggressor-home-field-advantage]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-cullakalinga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 301, Cullakalinga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Let Kalinga abide within his own marches, and not encroach upon ours, and the battle shall be fought on the frontiers of the two countries.\""
+canonical-instances:
+  - "A company facing a hostile takeover attempt doesn't refuse to negotiate — it agrees to talk, but only in front of its own board and on a timeline it sets, denying the acquirer the leverage of a rushed shareholder vote."
+critical-questions:
+  - "Does dictating the venue meaningfully change the outcome of the conflict itself, or does it just shift the logistical burden of fighting onto the aggressor?"
+  - "Can the weaker party actually enforce the venue condition, or does it depend on the aggressor's voluntary restraint — as it does here, where Kalinga simply chooses to halt rather than being forced to?"
+status: active

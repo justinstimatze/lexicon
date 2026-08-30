@@ -1,0 +1,19 @@
+id: lex-9wntx
+name: secure-payment-while-you-hold-leverage-not-after-delivering
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A service provider who waits until after delivering the service to ask for payment has already spent the only leverage that guaranteed payment — the recipient's need. The Jataka's tale of Avariya states the general rule directly through a ferryman's failure: he rows the passenger across first and only then asks for his fare, by which point the passenger's willingness to pay is no longer forced by anything. 'Ask your fare before the crossing, never on the further shore: Different minds have folk you ferry, different after and before.'"
+related: []
+evokes: [jataka, chanipata, avariya-jataka, extract-terms-at-peak-leverage, payment-before-delivery]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-avariya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 376, Avariya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Ask your fare before the crossing, never on the further shore: Different minds have folk you ferry, different after and before."
+canonical-instances:
+  - "A contractor who starts a kitchen remodel on a handshake, planning to invoice once the job is done, finds the homeowner suddenly disputing the scope and the price once the new counters are already installed."
+critical-questions:
+  - "Does insisting on payment upfront damage the working relationship or signal distrust, even when the underlying advice about leverage is sound?"
+  - "Is this really about timing, or about the absence of an enforceable agreement — would a signed contract collected after the crossing work just as well as cash collected before it?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-5jbcx
+name: an-unearned-honor-is-claimed-through-false-self-attestation
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When an honor or credential is granted on a claimed virtue with no external check behind it, simply asserting you have that virtue is enough to receive it, since the whole system runs on self-report; a confident lie passes exactly as well as the truth, at least until consequences arrive. In the Jataka's tale of the divine flowers, offered to whoever possesses specific virtues, a priest who has none of them calculates the gap between the low cost of lying and the social credit the flowers confer: '\"I own not one of these qualities, but by telling a lie I will get these flowers to wear, and thus the people will credit me with these virtues.\" Then he said, \"I am endued with these qualities,\"'"
+related: []
+evokes: [jataka, catukkanipata, kakkaru-jataka, self-attestation-with-no-external-check-passes-a-lie-as-fact, a-credential-system-that-trusts-the-claimant-invites-false-claims]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kakkaru-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 326, Kakkaru-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "On hearing this the family priest thought, \"I own not one of these qualities, but by telling a lie I will get these flowers to wear, and thus the people will credit me with these virtues.\" Then he said, \"I am endued with these qualities,\""
+canonical-instances:
+  - "A self-attested professional certification that requires no proctored exam or verification, only a signed statement of having met the criteria, gets claimed by someone who has never actually completed the required training — the credential looks identical either way to anyone who checks only the certificate itself."
+critical-questions:
+  - "Is the failure here in the priest's dishonesty, or in the system's design — a credential that can only ever be granted or denied based on unverifiable self-report is structurally inviting exactly this kind of false claim."
+  - "Does the eventual, dramatic exposure of this particular lie discourage future false claims, or does it only work because this specific credential happened to carry a self-enforcing supernatural penalty that most real-world credentials don't have?"
+status: active

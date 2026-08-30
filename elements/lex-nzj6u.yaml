@@ -1,0 +1,36 @@
+id: lex-nzj6u
+name: ambient-information-seeding
+type-in: state
+type-out: process
+_tier: atomic
+agent-instruction: "When a setting needs to feel lived-in without exposition, surface ambient information seeding — let posters, side-conversations, signage, props carry world-detail in the background; the reader assembles the world without being told."
+related: [lex-spm8x, lex-uz7g4, lex-5yufs, lex-e8wv6, lex-2kwkh, lex-8cbn9]
+scaffolds-from: [lex-8cbn9, lex-2kwkh]
+evokes: [transmedia-storytelling, the-clue-was-in-the-credits, environmental-narrative, distributed-narrative-design, the-meaning-was-in-the-margins, dark-souls-environmental-storytelling]
+lineage:
+  - source: primary
+    text: jenkins-2006-convergence-culture
+    citation: "Henry Jenkins, Convergence Culture: Where Old and New Media Collide (NYU Press, 2006), pp.95-96, ch.3 'Searching for the Origami Unicorn' — the canonical academic statement of transmedia storytelling, where narrative content is distributed across multiple platforms / artifacts / locations and participants assemble the meaning by traversing them. Jenkins's Matrix-franchise analysis (Ch.3) is the textbook example: meaning lives in the gaps between film, comics, animated shorts, video games. The participant's traversal IS the storytelling"
+    quote: "'In this chapter, I am going to describe The Matrix phenomenon as transmedia storytelling. A transmedia story unfolds across multiple media platforms, with each new text making a distinctive and valuable contribution to the whole. In the ideal form of transmedia storytelling, each medium does what it does best—so that a story might be introduced in a film, expanded through television, novels, and comics; its world might be explored through game play or experienced as an amusement park attraction.'"
+  - source: primary
+    text: stewart-mcgonigal-ARG-design-canon
+    citation: "Sean Stewart (lead writer, The Beast 2001 / I Love Bees 2004) and Jane McGonigal, 'This Might Be a Game: Ubiquitous Play and Performance at the Turn of the Twenty-First Century' (PhD diss., UC Berkeley, 2006), author-hosted at janemcgonigal.com — the practitioner-canon of ARG design. Both have written extensively on the rabbit-hole / trailhead pattern: a small ambient cue (a phone number in a credit sequence; a URL on a billboard; a website's hidden html comment) seeds the entire experience downstream. The design-stance discipline of distributing meaning across the environment is what makes ARGs work"
+    quote: "[McGonigal names the ARG players' own term for the trailhead artifact 'rabbit hole' (after Alice in Wonderland), quoting Stacey's definition of it:] 'the initial site, page or clue that brings someone into the game'"
+canonical-instances:
+  - "Dark Souls (FromSoftware 2011) item-description world-building: the entire mythology of the game is distributed across thousands of one-line item descriptions. No NPC explains the world; the player assembles it from accumulated fragments. VaatiVidya YouTube channel built a career synthesizing the assembled meaning. The seeding is so fine-grained that no single player gets it all; the meaning lives in the community of players collectively reading"
+  - "Twin Peaks: The Return (2017) — Lynch and Frost seeded artifacts (numerology, repeated objects, cross-referenced characters) so densely that the show's actual narrative could only be assembled across ~18 hours of viewing + community traversal. The show's coherence lives in the seeded structure, not in any single scene"
+  - "ARG trailhead artifacts: a movie's theatrical trailer that contains a barely-audible phone number; a printed book that contains a coded message in chapter-numbers; a Spotify playlist track-titles that spell out a URL. The artifact is engineered to reward the attentive participant who notices, then becomes the entry point for everyone else once the noticer posts the discovery"
+  - "Environmental storytelling in level design (Half-Life, Bioshock, Gone Home): the player walks through a space; the space TELLS the story through its arrangement. A ransacked apartment, a burned-out classroom, a half-eaten meal. The player constructs the story by reading the environment as a narrative artifact"
+  - "estate sales / archaeological digs as accidental ambient-information-seeding: someone's life accumulates artifacts; later traversal reconstructs the life. The original 'designer' didn't design the seeding; but the same cognitive machinery operates"
+  - "operationally distinct from lex-spm8x feedback-loop: feedback-loop is a temporal causal structure (output feeds back as input); ambient-seeding is a spatial-distributional structure (meaning distributed across artifacts in environment). They CAN compose (a transmedia work that uses both seeded artifacts AND feedback loops between participants) but operate on different dimensions"
+  - "operationally distinct from lex-uz7g4 archetype-as-projective-shorthand: archetype gives the participant a projective handle; ambient-seeding gives the participant artifacts to handle. Archetype is who-they-are-as; ambient-seeding is what-they-find. Both contribute to participant meaning-making but at different layers"
+  - "operationally compositional with lex-e8wv6 apophenia-induction: ambient-seeding distributes the artifacts; apophenia-induction is what makes the participant construct meaning-pattern from them. Without apophenia, ambient-seeding produces noise; without ambient-seeding, apophenia has nothing to construct from"
+  - "operationally compositional with lex-2kwkh reality-threshold-crossing: ambient-seeding works strongest when the participant has crossed into the experiential frame; before crossing, the artifacts read as ordinary; after crossing, they read as charged. The combination is dose-dependent"
+  - "indispensable critical question: how dense should the seeding be? Empirically (per ARG-community lore): too sparse and participants miss the trailhead; too dense and the experience feels heavy-handed / didactic. Sweet spot is approximately the noise-floor of the environment — artifacts must be distinguishable from chance to attentive participants but not from chance to non-attentive ones. This is the same parameter that governs apophenia (lex-e8wv6)"
+  - "crucial critical question: who is the audience for whom the artifacts are legible? Ambient-seeding presupposes an audience with the cultural / semiotic / linguistic literacy to recognize the artifacts as artifacts. Cross-cultural / cross-time legibility decays sharply; an ARG seeded today is mostly illegible 30 years from now (link rot, cultural-reference rot, platform rot)"
+critical-questions:
+  - "are the ambient details actually conveying world-information, or just decorative texture?"
+  - "is the seeding accumulating into a coherent world, or producing a pile of unrelated details?"
+  - "could the audience read the seeding correctly without prior shared genre conventions — and is that fair to ask of them?"
+  - "are you exposition-dumping under the cover of 'ambient' — what would a strict reader call this?"
+status: active

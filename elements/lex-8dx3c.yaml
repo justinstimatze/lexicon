@@ -1,0 +1,19 @@
+id: lex-8dx3c
+name: an-already-unsettled-system-is-most-vulnerable-mid-crisis
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "During and immediately after a critical transition, hold off on new interventions rather than treating the instability as an opening to act. Hippocrates' Aphorisms: 'When things are at the crisis, or when they have just passed it, neither move the bowels, nor make any innovation in the treatment, either as regards purgatives or any other such stimulants, but let things alone.' A system mid-crisis has already used most of its capacity to absorb disturbance on the crisis itself; adding a new intervention on top of that does not get evaluated against a calm baseline, it gets evaluated against a system with almost nothing left in reserve. The counterintuitive move is restraint at precisely the moment intervention feels most justified, because the felt urgency of the crisis is not evidence that the system can currently tolerate more disturbance — often the opposite."
+related: []
+evokes: [hippocrates, aphorisms, dont-intervene-mid-crisis, unsettled-system-has-no-reserve-for-more-disturbance]
+lineage:
+  - source: primary
+    text: hippocrates-aphorisms-adams1849-sectionI-20
+    citation: "Hippocrates, Aphorisms, trans. Francis Adams (Sydenham Society, 1849), Section I, §20. Verified verbatim against a direct extraction of the held copy."
+    quote: "When things are at the crisis, or when they have just passed it, neither move the bowels, nor make any innovation in the treatment, either as regards purgatives or any other such stimulants, but let things alone."
+canonical-instances:
+  - "a codebase in the middle of an active production incident is not the moment to also deploy an unrelated refactor, even though the pressure of the incident makes 'just fix this other thing too while we're in here' feel urgent — the system has no slack left to absorb a second source of instability."
+critical-questions:
+  - "How would a decision-maker actually distinguish 'the crisis itself requires intervention' from 'this is an unrelated intervention that happens to feel urgent because everything already feels urgent' in the heat of the moment?"
+  - "Is there a point where withholding intervention during a crisis becomes its own harm — where the crisis is worsening precisely because nothing is being done, and the aphorism's caution against acting becomes indistinguishable from paralysis?"
+status: active

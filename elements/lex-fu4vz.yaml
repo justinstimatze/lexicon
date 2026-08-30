@@ -1,0 +1,18 @@
+id: lex-fu4vz
+name: fabricating-pregnancy-symptoms-in-procedural-detail-over-an-extended-timeline
+type-in: process
+type-out: state
+_tier: atomic
+agent-instruction: 'An agent constructing a long-term fraud can build its credibility not through a single lie but through a sustained sequence of small, procedurally accurate physical details staged over the fraud''s entire expected timeline, so that no single moment offers an obvious tell and the cumulative pattern reads as authentic. In the Jataka''s tale of Nigrodha, a barren woman simulates pregnancy over nine months through a detailed regimen: she "concealed the time of her courses; Showed a fancy for sour and strange tastes; at the time when the arms and legs begin to swell, she caused them to beat hands and feet and back until they grew swollen; day by day she bandaged her body round with rags and cloths and made it appear greater; blackened the nipples of her breasts; and save that nurse alone, permitted no other to be present at her toilet."'
+related: []
+evokes: [jataka, dasanipata, nigrodha-jataka, sustained-fraud-construction, fabricated-pregnancy]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-nigrodha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 445, Nigrodha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "concealed the time of her courses; Showed a fancy for sour and strange tastes; at the time when the arms and legs begin to swell, she caused them to beat hands and feet and back until they grew swollen; day by day she bandaged her body round with rags and cloths and made it appear greater; blackened the nipples of her breasts; and save that nurse alone, permitted no other to be present at her toilet."
+canonical-instances:
+  - "A fraudster building a fake consulting career doesn't invent one impressive lie but fabricates years of small, checkable-seeming details — LinkedIn endorsements added gradually, plausible client names dropped in casual conversation, a slowly built paper trail — so no single data point looks suspicious."
+critical-questions:
+  - "Is the extended, procedurally detailed nature of a fraud what actually makes it credible to observers, or does credibility come mainly from the observers' prior trust and inattention regardless of how much staging effort went in?"
+status: active

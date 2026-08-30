@@ -1,0 +1,21 @@
+id: lex-6v89d
+name: a-dismissed-objection-returns-as-a-personal-glory-pitch
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When someone raises a real practical objection to your scheme -- we don't need this, what would we even do with it -- watch for the moment the objection gets answered not with a solution but with a personal-status upgrade for you. In Cushing's telling, the Coyote's wife objects to his plan to steal a god's children outright: 'There are children enough and to spare already. What in the world can we do with all of them, you fool?' Her own suggested workaround, recruit your relatives and divide the labor, never actually resolves her stated problem of surplus; but the Coyote seizes on it purely for what it does for him: 'Well, now, come to think of it, it is a good plan. If I get up this expedition I'll be a big chief, won't I? Hurrah! Here's for it!' The objection was never answered -- it was buried under his excitement about the title the workaround would earn him. Diagnostic move: when a group's practical objection to a plan gets absorbed into a recruitment pitch that flatters the plan's originator, check whether the original problem actually got solved or just got outshouted by somebody's shot at being a big chief."
+related: []
+evokes: [an-unanswered-objection-gets-outshouted-by-a-status-upgrade, cushing-coyotes-steal-the-sacred-dance-children, if-i-get-up-this-expedition-ill-be-a-big-chief, children-enough-and-to-spare-already]
+lineage:
+  - source: primary
+    text: cushing-coyotes-wife-objects-coyote-hears-only-the-glory
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'How the Coyotes Tried to Steal the Children of the Sacred Dance.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'Mercy on us! exclaimed the old Coyote's wife. There are children enough and to spare already. What in the world can we do with all of them, you fool? ... Well, why not divide them among our associated clans? suggested the old woman. You never can capture them alone; it is rare enough that you capture anything alone, leave out the children of the K'yamakwe. Get your relatives to help you, and divide the children amongst them. Well, now, come to think of it, it is a good plan, said the Coyote, with his nose on his neck. If I get up this expedition I'll be a big chief, won't I? Hurrah! Here's for it!'"
+canonical-instances:
+  - "A committee member objects that a proposed initiative duplicates existing work and nobody has said what problem it solves, and the conversation moves on only once someone points out that leading the initiative would look good on the proposer's record, the original duplication concern never actually addressed."
+  - "A community organizer's plan to take over a shared resource draws a practical objection about upkeep and lack of a use case, and the plan proceeds anyway once the organizer realizes leading the takeover would make them the recognized head of the coalition."
+critical-questions:
+  - "Does the wife's own suggestion, recruit relatives and divide the labor, functionally concede the plan despite her stated objection, or is her objection genuinely about surplus and separate from the question of how to execute it -- did she actually get overruled, or did she hand him the tool himself?"
+  - "Would the Coyote's excitement about becoming a big chief have survived if the scheme had offered no leadership role at all -- is the reframing-as-glory doing real recruitment work here, or is it decoration on a decision he'd already made?"
+  - "Is there a meaningful difference between an objection that gets outshouted by a status pitch and one that gets honestly weighed and rejected -- how would an observer, or the objector herself, tell which happened in the moment?"
+status: active

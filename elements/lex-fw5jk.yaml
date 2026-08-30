@@ -1,0 +1,19 @@
+id: lex-fw5jk
+name: stacking-mutually-inconsistent-denial-lines-at-once
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "An institution defending against a damaging claim can deploy several denial arguments simultaneously that directly contradict each other — an industry facing a workplace-illness claim argued at once that the disease essentially doesn't exist, that any respiratory symptoms are actually caused by smoking, and separately that any real cases are rare and limited to unusually susceptible individuals. Each line is independently plausible enough to persuade some audience, and the contradiction between them barely matters because no single audience member is likely to hold all the lines in mind simultaneously and notice they can't all be true together. This is distinct from a single coherent (even if false) denial — the strategy specifically exploits the fact that a scattered, one-line-at-a-time audience never assembles the full contradictory set."
+related: []
+evokes: [jackall-moral-mazes, "the real culprit is the government subsidized tobacco industry", stacking-contradictory-denials]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch6-byssinosis-denial
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 6, Dexterity with Symbols."
+    quote: "There is probably no such thing as byssinosis; textile workers suffering from pulmonary problems are all heavy smokers and the real culprit is the government subsidized tobacco industry."
+canonical-instances:
+  - "A manufacturer facing a product-defect claim argues in different venues that the defect doesn't actually exist, that any failures are caused by user misuse, and that the rare genuine failures only affect a small number of unusually unlucky units — three claims that can't all be true but are never presented to the same audience at the same time."
+critical-questions:
+  - "Would the strategy still work if a single audience were exposed to all the contradictory lines at once, or does its effectiveness depend entirely on the lines being distributed across separate audiences who never compare notes?"
+status: active

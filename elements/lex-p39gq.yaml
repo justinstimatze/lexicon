@@ -1,0 +1,21 @@
+id: lex-p39gq
+name: redirecting-a-defensive-instinct-turns-it-into-the-mechanism-of-harm
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "A defensive instinct that reliably protects against most threats can be turned into the exact mechanism of destruction by someone who doesn't disable the instinct but simply controls the direction it fires in. In the Crow buffalo-hunting story Hyde retells, Coyote 'traps two buffalo by stampeding them into the sun so they cannot see where they are going, then leading them over a cliff.' The buffalo's speed, their whole evolved answer to predators, works exactly as designed; nothing about their fleetness fails. What fails is the direction it's aimed in: 'The fleetness of large herbivores is part of their natural defense against predators... Coyote takes advantage of that instinctual defense by directing the beasts into the sun and toward a cliff, so that fleetness itself backfires.' The buffalo run precisely because running is the right response to a threat behind them; the threat they can't see is the cliff ahead. Diagnostic move: when someone or something has a strong, reliable defensive reflex, don't assume the only way to defeat it is to disable or outmatch it directly -- check whether you can instead control what direction the reflex fires in, since a defense that works perfectly on its own terms can still be steered into becoming the very source of harm it was built to avoid."
+related: []
+evokes: [hyde-trickster-makes-this-world-slipping-the-trap-of-appetite, coyote-and-the-buffalo, fleetness-itself-backfires, stampeding-them-into-the-sun]
+lineage:
+  - source: primary
+    text: hyde-coyote-redirects-the-buffalos-flight-instinct-into-a-cliff
+    citation: "Lewis Hyde, Trickster Makes This World: Mischief, Myth, and Art (Farrar, Straus and Giroux, 1998; Canongate Books 2008 edition), 'Slipping the Trap of Appetite,' 'The Bait Thief,' retelling a Crow buffalo-hunting story. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "in a Crow story from the Western Plains, Coyote traps two buffalo by stampeding them into the sun so they cannot see where they are going, then leading them over a cliff. The fleetness of large herbivores is part of their natural defense against predators; Coyote (or the Native Americans who slaughtered buffalo in this way) takes advantage of that instinctual defense by directing the beasts into the sun and toward a cliff, so that fleetness itself backfires."
+canonical-instances:
+  - "A competitor exploits a company's well-earned reputation for aggressively defending its market share by leaking a fabricated rumor about a rival's product launch, knowing the company's defensive instinct to move fast and match any threat will cause it to rush out an under-tested response that damages its own reputation."
+  - "A scammer exploits a person's genuine, well-founded caution about phishing emails by impersonating the person's own bank's fraud department, redirecting their instinct to protect their account directly into handing over the account information the instinct was supposed to guard."
+critical-questions:
+  - "Does this mechanism require the defender to have no way of distinguishing a real threat from a manufactured one, or does it work even against defenders capable of that distinction, simply because the redirection happens faster than discernment can occur?"
+  - "Is there a meaningful difference between redirecting an instinct that is genuinely automatic and involuntary, like a buffalo's flight response, versus one that involves some conscious choice, like a company's decision to respond aggressively, and does the diagnostic apply equally to both?"
+  - "Once a defensive instinct has been successfully redirected this way, does the entity that relied on it learn to distrust the instinct itself, potentially leaving it more vulnerable to future threats that the instinct would have handled correctly?"
+status: active

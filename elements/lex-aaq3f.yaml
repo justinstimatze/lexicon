@@ -1,0 +1,19 @@
+id: lex-aaq3f
+name: repeated-independent-precedent-compounds-persuasive-force-toward-a-decision
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'Hearing not one but several independent, parallel examples of high-status people reaching the same conclusion from different starting observations reinforces a listener''s own resolve far more than any single instance would, illustrating that repeated independent corroboration compounds persuasive weight. In the Jataka''s tale of Kumbhakara, this is stated as the closing verse naming all four kings at once: "Kalinga''s king Karandu, Gandhara''s Naggaji, Pancala''s ruler Dummukha, Videha''s great Nimi, Have left their thrones and live the life of Brothers sinlessly ... Bhaggavi, I too will go, Leaving all that men desire."'
+related: []
+evokes: [jataka, sattanipata, kumbhakara-jataka, cumulative-independent-testimony, repeated-precedent-compounds-persuasion]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kumbhakara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 408, Kumbhakara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Kalnga's king Karandu, Gandhara's Naggaji, Paficala's ruler Dummukha, Videha's great Nimi, Have left their thrones and live the life of Brothers sinlessly. Here their godlike forms they show Each one like a blazing fire: Bhaggavi, I too will go, Leaving all that men desire."
+canonical-instances:
+  - "A hesitant investor who wasn't moved by any single founder's pitch decides to fund the sector after learning four separate, unconnected industry veterans each independently walked away from stable careers to work on the same underlying problem."
+critical-questions:
+  - "Does hearing four independent examples actually provide four times the evidence, or does convergence on the same idea sometimes mean the same cultural pressure is acting on all four rather than four truly separate confirmations?"
+  - "Would knowing all four examples in detail change the force of the argument, or does the mere count of precedents do most of the persuasive work regardless of what each one actually involved?"
+status: active

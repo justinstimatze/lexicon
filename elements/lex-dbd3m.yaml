@@ -1,0 +1,19 @@
+id: lex-dbd3m
+name: panic-can-make-a-rescue-target-attack-its-own-rescuer
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When attempting to rescue someone in genuine crisis, check whether their panic makes them unable to distinguish your approach from a threat, since that confusion is a predictable feature of the rescue itself, not a sign the effort was misguided. Aesop's 'The Gardener and His Dog' has a gardener's dog, drowning, bite the hand of the man trying to pull it out; the gardener, having abandoned the rescue, concludes: 'It serves me quite right for trying to save so determined a suicide.' The dog was never actually suicidal — a panicking creature cannot tell a rescuer's grip from an attacker's, and the gardener's conclusion misreads a predictable feature of crisis behavior as evidence the victim didn't want to be saved."
+related: [lex-jrm3r]
+evokes: [aesop, the-gardener-and-his-dog, panic-misreads-rescue-as-attack, rescuer-mistakes-panic-for-refusal]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-gardener-and-his-dog
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Gardener and His Dog.' Verified verbatim against a direct extraction of the held copy."
+    quote: "It serves me quite right for trying to save so determined a suicide."
+canonical-instances:
+  - "a real, well-documented phenomenon in water rescue: a drowning victim in genuine panic often climbs onto and endangers a lifeguard rather than cooperating, not because they reject rescue but because the panic response overrides the ability to recognize help."
+critical-questions:
+  - "Should the gardener's abandonment of the rescue be read as a reasonable response to real danger to himself, or as a failure to anticipate a well-known feature of panic that a more prepared rescuer would have planned around?"
+  - "Does this mechanism generalize past physical drowning to other kinds of crisis intervention — a financial rescue, an addiction intervention — where the person being helped lashes out at the helper in ways that could be similarly misread as refusal?"
+status: active

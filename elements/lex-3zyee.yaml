@@ -1,0 +1,19 @@
+id: lex-3zyee
+name: a-lessons-cost-depends-on-its-teaching-channel
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone rejects free or cheap warnings and later pays a steep price to learn the identical lesson firsthand, locate the cost in the choice of channel rather than in the lesson itself. Franklin's Poor Richard: 'Experience keeps a dear school, but fools will learn in no other.' The same piece of information — don't overextend on credit, don't skip the inspection, don't ignore the warning sign — is available through advice, observation of others, or direct costly experience, and the price attached to it is not fixed; it varies with which of those three channels the person is willing to accept it through. Someone who takes the lesson from a cheap secondhand channel (a book, a mentor's warning, a stranger's visible mistake) pays little for it. Someone who insists on confirming everything against their own skin pays the full tuition of direct experience for information that was, at the moment they needed it, already available at a discount."
+related: []
+evokes: [franklin, way-to-wealth, cost-of-a-lesson-varies-by-channel, refusing-vicarious-learning-costs-full-price]
+lineage:
+  - source: primary
+    text: franklin-1758-way-to-wealth
+    citation: "Benjamin Franklin, Father Abraham's Speech ('The Way to Wealth' / 'Poor Richard Improved'), 1758 (Gutenberg #43855). Verified verbatim against a direct extraction of the held copy."
+    quote: "Experience keeps a dear school, but fools will learn in no other"
+canonical-instances:
+  - "a new manager dismisses a mentor's warning about a specific delegation mistake, makes the mistake personally six months later, and only then internalizes exactly what the mentor had already told them for free."
+critical-questions:
+  - "Is refusing the cheap channel always foolish, or can direct experience sometimes teach something a secondhand warning genuinely cannot convey — a felt consequence that changes behavior in a way a warning never does, making the 'dear school' tuition worth paying?"
+  - "Does access to the cheap channel actually exist equally for everyone, or do some people lack the mentors, books, or visible peer mistakes that would let them learn any other way, making 'fools will learn in no other' less a character flaw than a description of who had no cheaper option available?"
+status: active

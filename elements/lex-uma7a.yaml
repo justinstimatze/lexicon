@@ -1,0 +1,19 @@
+id: lex-uma7a
+name: animal-dialogue-lets-a-subordinate-safely-criticize-the-powerful
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Framing criticism of a powerful listener as dialogue between animals, rather than direct speech, lets a subordinate voice an accusation that no courtier could safely make in their own name. In the Jataka''s tale of Sirivaddhaka, the goat''s remark about a ''stupid'' donkey becomes a vehicle for turning the criticism back on the donkey and ultimately on the king himself: ''"When you''re loosed, you don''t escape, Sir, that''s a stupid habit too: And that Senaka you carry, he''s more stupid still than you."'''
+related: []
+evokes: [jataka, chanipata, kharaputta-jataka, animal-dialogue-as-safe-criticism, indirect-vehicle-for-critiquing-power]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kharaputta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 386, Kharaputta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "When you're loosed, you don't escape, Sir, that's a stupid habit too: And that Senaka you carry, he's more stupid still than you."
+canonical-instances:
+  - "A political cartoon has two barnyard animals arguing about who's foolish enough to keep following a failing plan, letting the cartoonist say what no columnist could print directly about the actual policymaker."
+critical-questions:
+  - "Does routing criticism through a fictional or animal frame actually protect the speaker, or does the powerful listener usually understand exactly who's being criticized and react accordingly anyway?"
+  - "Does the indirection dilute the criticism's force compared to saying it plainly, even as it makes the criticism safer to voice at all?"
+status: active

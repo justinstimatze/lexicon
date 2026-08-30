@@ -1,0 +1,19 @@
+id: lex-f57fb
+name: a-flattering-cover-story-can-override-a-witnesss-own-direct-evidence
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A sufficiently flattering, emotionally satisfying explanation can override what someone directly witnessed with their own eyes, because the false story offers something the plain truth doesn't. The Panchatantra's carpenter catches his wife with another man hidden under the bed, and instead of confronting the obvious, accepts her elaborate cover story praising his own virtue, emerging with open gratitude: 'the carpenter, fool that he was, felt his body thrill with joy on hearing her words, and he issued from under the bed, saying: Bravo, faithful wife!' The verse names the general failure being illustrated: 'it argues utter want of sense to pardon obvious offense.' The direct evidence was never actually in question — the carpenter did not fail to see what was in front of him, he chose a version of events that made him the hero of the story over one that made him a victim."
+related: []
+evokes: [panchatantra, crows-and-owls, flattering-story-overrides-direct-evidence, chosen-narrative-beats-plain-truth-when-more-gratifying]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-the-gullible-carpenter
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book III, Red-Eye's fable ('The Gullible Carpenter'). Verified verbatim against a direct extraction of the held copy."
+    quote: "Now the carpenter, fool that he was, felt his body thrill with joy on hearing her words, and he issued from under the bed, saying: “Bravo, faithful wife! Bravo, delight of the family!"
+canonical-instances:
+  - "an investor discovers a portfolio company's numbers don't match what was represented at the last board meeting, and accepts the founder's elaborate explanation crediting the investor's own guidance for an unrelated success, choosing the version of events that flatters their judgment over the version that would require confronting a possible fraud."
+critical-questions:
+  - "Is the carpenter's failure really about the flattery specifically, or is it a more general reluctance to accept an emotionally devastating truth regardless of whether a flattering alternative happens to be on offer?"
+  - "Does this pattern require active deception by the other party, or could someone construct an equally self-serving, evidence-overriding narrative entirely on their own, with no one else supplying the flattering cover story at all?"
+status: active

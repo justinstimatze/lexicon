@@ -1,0 +1,18 @@
+id: lex-tgdsm
+name: fabricating-a-false-all-clear-to-sabotage-a-true-warning
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'Once a genuine warning has been delivered and its targets are considering acting on it, a hostile party can neutralize it without ever engaging its content: fabricate a second, contradictory message, timed and framed to feel more reassuring than the first. Credibility isn''t the axis that matters here — the false message only has to feel more comfortable to believe. The saboteur''s stated motive is explicit: to prevent the escape the true warning would otherwise have caused. In the Bhadda-sala-Jataka''s companion tale, after a righteous deity warns the island''s carpenters of a coming flood, ''a cruel god'' who wants them destroyed deliberately appears afterward with a contradicting message — ''go not elsewhither, but stay even here'' — timed precisely to cancel out the true warning before the carpenters can act on it.'
+related: []
+evokes: [jataka, dvadasanipata, samudda-vanijja-jataka, deliberate-counter-messaging-against-a-true-warning, false-all-clear-sabotages-escape]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-samudda-vanijja-jataka
+    citation: 'The Jataka, or Stories of the Buddha''s Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XII (Dvadasanipata), No. 466, Samudda-vanijja-jataka. Verified verbatim against a direct extraction of the held copy.'
+    quote: 'He gone, another comrade of his, a cruel god, thought, "Perhaps they will follow his advice and escape; I will prevent their going, and bring them all to utter destruction."'
+canonical-instances:
+  - 'After a whistleblowing engineer warns colleagues that a bridge inspection found a serious crack, a manager with a financial stake in the project''s on-time completion circulates his own memo the same afternoon claiming a second, more senior inspector found the crack within normal tolerances — timed specifically to give workers a comfortable reason to disregard the first warning before the shift ends.'
+critical-questions:
+  - 'Half the carpenters believed the false all-clear and half didn''t — what made the difference between the group that trusted the comforting message and the group that hedged against uncertainty instead, and is that difference something the saboteur could predict and exploit in advance?'
+status: active

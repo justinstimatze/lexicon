@@ -1,0 +1,22 @@
+id: lex-b3gue
+name: an-animals-groomed-appearance-is-a-legible-public-marker-of-political-allegiance
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Whether a person's horse has its tail tied up or left loose can function as a visible, at-a-glance public signal of which side that person currently fights for -- changeable at will and instantly readable by the whole community without a word spoken. Black Elk marks two separate moments this way: the community's mood sours because 'so many of our people had untied their horses' tails and gone over to the Wasichus,' and later, Crazy Horse's actual surrender is dated to the moment 'Crazy Horse had untied his pony's tail and would not fight again.' No announcement, treaty, or speech does the work of marking the defection in either case -- the tail itself is the legible record, checkable by anyone at a glance, of a political fact that would otherwise require asking."
+related: []
+evokes: [black-elk-speaks, walking-the-black-road, untied-their-horses-tails, gone-over-to-the-wasichus, crazy-horse-untied-his-ponys-tail]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch10-walking-the-black-road
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 10, 'Walking the Black Road.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "After that we started west again, and we were not happy anymore, because so many of our people had untied their horses' tails and gone over to the Wasichus. [...] And then I heard that we would all go into the Soldiers' Town when the grass should appear, and that Crazy Horse had untied his pony's tail and would not fight again."
+canonical-instances:
+  - "A soldier's uniform insignia, worn or removed, publicly declares their current allegiance without a word, and defection can be read from across a battlefield the moment the insignia comes off."
+  - "A protest movement's members wear a specific colored ribbon that anyone, ally or opponent, can read at a glance to know who's still committed and who's quietly stopped wearing it."
+  - "A gang member's tattoo or removed tattoo functions as a legible public record of current membership status, readable by rivals and allies alike without any conversation needed."
+critical-questions:
+  - "Does a physical marker like a tied or untied tail actually track real political commitment, or can it lag, kept tied out of habit or fear long after the person's private loyalty has already moved on?"
+  - "What happens to someone who wants to signal ambiguity or genuine uncertainty about which side they're on -- does a binary marker like this force a declared choice that the person's actual internal state may not have reached yet?"
+  - "The marker invites scrutiny and judgment from the whole community every time it's read -- why would a warrior still actively fighting willingly leave it in a state anyone can check, rather than concealing it?"
+status: active

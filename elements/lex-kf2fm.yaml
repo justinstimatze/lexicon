@@ -1,0 +1,19 @@
+id: lex-kf2fm
+name: treat-a-powerful-partys-anger-alone-as-grounds-to-relocate-the-group
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A leader can treat a powerful party''s verbal anger or threat — not yet acted upon — as sufficient warning to relocate an entire dependent group away from danger, rather than waiting for retaliation to actually materialize. In the Jataka''s tale of Kapi, the monkey-king orders exactly this: "It is not well to dwell near the habitation of the angry; let the whole troop of monkeys flee and go elsewhere."'
+related: []
+evokes: [jataka, sattanipata, kapi-jataka, preemptive-evacuation-on-soft-signal, anger-alone-as-sufficient-warning]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kapi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 404, Kapi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "It is not well to dwell near the habitation of the angry; let the whole troop of monkeys flee and go elsewhere."
+canonical-instances:
+  - "A vendor whose main client's new CFO makes an offhand remark about 'reviewing all outside spend' immediately starts diversifying its customer base, without waiting for an actual contract cancellation to arrive."
+critical-questions:
+  - "How does a leader calibrate acting on mere anger without becoming so risk-averse that every minor irritation triggers costly, unnecessary relocation?"
+  - "Does relocating on a soft signal ever provoke the very retaliation it was meant to avoid, by signaling distrust to the angry party?"
+status: active

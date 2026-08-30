@@ -1,0 +1,19 @@
+id: lex-cbcp2
+name: a-private-identification-protocol-lets-a-hidden-benefactor-be-found-later
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Rather than reveal your identity outright to someone you intend to reward later, give them a specific, checkable procedure — a name, a location, an intermediary to approach — that lets them find you on their own initiative when they're ready, without you having to track them down yourself. In the Jataka's tale of the Great Horseman, the disguised king leaves his benefactor with exactly this before departing: 'I am called the Great Horseman. Our home is in the centre of the city. Should you come there on any business, stand at the door on the right hand and ask the porter where the Great Horseman dwells, and take him with you and come to our house.'"
+related: []
+evokes: [jataka, catukkanipata, mahaassaroha-jataka, identity-withheld-but-a-findable-protocol-given-instead, benefactor-locatable-without-immediate-disclosure]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahaassaroha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 302, Mahaassaroha-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"I am called the Great Horseman. Our home is in the centre of the city. Should you come there on any business, stand at the door on the right hand and ask the porter where the Great Horseman dwells, and take him with you and come to our house.\""
+canonical-instances:
+  - "An anonymous donor who paid a stranger's hospital bill leaves only a code name and instructions to ask for it at a specific charity's front desk, rather than a name or number — the recipient can find and thank them later, but only by following the exact protocol left behind."
+critical-questions:
+  - "Why not just give a real name and address directly — does the layer of protocol (porter, code name, specific door) serve a purpose beyond delaying disclosure, such as filtering out anyone who wouldn't bother to follow through?"
+  - "What happens if the benefactor never follows the protocol at all, as very nearly occurs here — does the mechanism depend on some additional pressure to actually complete the search, or does it fail silently otherwise?"
+status: active

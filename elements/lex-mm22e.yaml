@@ -1,0 +1,22 @@
+id: lex-mm22e
+name: felt-need-runs-ahead-of-the-organized-capacity-to-act-on-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A felt need or capacity for some function can exist and press for expression well before the institutional machinery that would fully embody that function has been built. The want runs ahead of the organized capacity to act on it, and the machinery only develops afterward, under the ongoing pressure of a function that already exists but has nowhere yet to go. Judging a society by whether its institutions have caught up to a feeling misreads the sequence. The feeling is the leading indicator; the institution lags behind it. Gilman states this directly: 'The civilized world has suffered in Armenia's agony, even though the machinery of social expression is yet unable fully to carry out the social feeling or the social will. Function comes before organ always...'"
+related: []
+evokes: [women-and-economics, chapter-viii, function-comes-before-organ-always, the-machinery-of-social-expression-is-yet-unable, felt-capacity-outruns-built-machinery]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-viii
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter VIII. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "Whereas, in more primitive societies, injuries were only felt by the individual as they affected his own body or direct personal interests, and later his own nation or church, to-day there is a growing sensitiveness to social injuries, even to other nations. The civilized world has suffered in Armenia's agony, even though the machinery of social expression is yet unable fully to carry out the social feeling or the social will. Function comes before organ always; and the human heart and mind, which are the social heart and mind, must feel and think long before the social body can act in full expression."
+canonical-instances:
+  - "Employees at a growing company begin informally covering for a colleague on parental leave months before HR builds any formal coverage policy -- the felt need to support a teammate outpaces the organizational machinery that will eventually formalize it."
+  - "A neighborhood starts pooling money and rides for elderly residents years before the city funds any official senior-transport service -- the community's sense that this need mattered ran well ahead of any budget line built to answer it."
+  - "Open-source maintainers begin coordinating security patches across projects informally, over chat, long before any formal consortium or standard-setting body exists to organize that coordination -- the practical capacity to act was there before the institution that would later systematize it."
+critical-questions:
+  - "If felt need reliably precedes organized capacity, does that mean the absence of institutional machinery is never evidence that a need isn't widely felt, or can institutions sometimes fail to develop even when a strong felt need has existed for a very long time, undercutting the claim that the organ eventually follows?"
+  - "How would you distinguish a genuine case of felt need outrunning institutional capacity from a case where the felt need is itself weaker or more marginal than it appears, and the missing institution is accurately reflecting that weakness rather than simply lagging behind it?"
+  - "Gilman treats the sequence as a near-universal law ('function comes before organ always') -- are there cases where institutional structure is built first, in anticipation of a function, and the felt need for it only develops afterward, in response to the structure's existence rather than ahead of it?"
+status: active

@@ -1,0 +1,29 @@
+id: lex-6sb52
+name: unwelcome-findings-get-revised-into-sponsor-safe-conclusions
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A research finding that provokes 'consternation at the highest levels' of the sponsoring organization can trigger a rewriting process that produces a much blander, sponsor-safe conclusion — and the people who oversaw the revision describe the outcome not as distortion but as genuine improvement: the report became 'stronger,' 'more important,' 'more constructive' through the process of reexamination, even while acknowledging in the same breath that real pressure was applied to reach a particular kind of conclusion. This is the specific mechanism worth naming: the revision gets narrated internally as rigor rather than as capitulation, which lets the people who did it maintain a genuine, not merely performed, sense of having done honest work — 'we tried to be honest but, believe me, it wasn't easy' captures the felt experience from inside the process rather than a cynical admission."
+related: []
+evokes: [jackall-moral-mazes, "we tried to be honest but, believe me, it wasn't easy", revision-narrated-as-rigor-not-capitulation]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch7-blander-document
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 7, The Magic Lantern — the container-corporation environmental-attitudes study."
+    quote: "a much blander document emerged that stressed the public's desire for a finely poised balance between growth and preservation of the environment."
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch7-final-report-was-better
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 7, The Magic Lantern."
+    quote: "[T]he final report was better than it would have been if it had not gone through [the] process of reexamination."
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch7-tried-to-be-honest
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 7, The Magic Lantern."
+    quote: "We tried to be honest but, believe me, it wasn't easy."
+canonical-instances:
+  - "A market-research firm's initial findings that a client's product underperforms competitors get revised through several rounds of client feedback into a report emphasizing the product's 'unique positioning,' with the research team describing the final version as more nuanced and better contextualized rather than as softened to please the client."
+critical-questions:
+  - "At what point does 'reexamination that produces a stronger, more nuanced report' become indistinguishable from motivated revision toward a predetermined conclusion — is there an observable line, or only a felt one from inside the process that the outside reader can't verify?"
+status: active

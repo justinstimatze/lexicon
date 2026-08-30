@@ -1,0 +1,19 @@
+id: lex-g84md
+name: a-costless-hypothetical-refusal-proves-character-more-than-a-real-one
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Refusing a purely hypothetical, fantasy-scale request costs the refuser nothing, which is exactly what makes the refusal unusually damning — a real request could plausibly be refused for practical reasons, but there's no such excuse available when the thing being asked for was never actually at stake. In the Jataka's tale of the golden mountain, a wife asks her husband whether he'd share a mountain if it turned entirely to gold; his flat refusal draws harsher judgment than an ordinary 'no' would: '\"Suppose this mountain were to become all gold, would you give me some of it?\" \"Who are you?\" he replied, \"I would not give you a jot.\"'"
+related: []
+evokes: [jataka, catukkanipata, succaja-jataka, a-hypothetical-with-nothing-at-stake-is-a-cleaner-character-test, refusing-a-costless-request-has-no-practical-excuse]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-succaja-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 320, Succaja-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Suppose this mountain were to become all gold, would you give me some of it?\" \"Who are you?\" he replied, \"I would not give you a jot.\""
+canonical-instances:
+  - "A friend asks 'if you won the lottery tomorrow, would you help me pay off my debt?' and gets an immediate, irritated no — a real windfall might come with a hundred legitimate competing claims, but refusing the pure hypothetical reveals an attitude no practical constraint can explain away."
+critical-questions:
+  - "Is refusing a hypothetical actually meaningful evidence of character, or could someone reasonably resent the premise of the question itself — being asked to pre-commit to a decision about a scenario that will never occur — without that resentment reflecting anything about their real generosity?"
+  - "Does the person being asked have any way to answer generously without it costing them social standing, given that agreeing to an absurd hypothetical might itself read as empty or performative?"
+status: active

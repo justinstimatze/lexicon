@@ -1,0 +1,19 @@
+id: lex-rauth
+name: privileged-access-reveals-ordinary-self-interest-hidden-in-plain-sight
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A special channel of access can reveal that the mundane self-interested activity a person assumed was absent had actually been continuing invisibly all along, just below the threshold of normal observation. In the Jataka''s tale of Kharaputta, the charm lets the king overhear ants discussing a spilled honey-jar — trivial business-as-usual that was happening the whole time, unnoticed: ''An ant seeing this comes crying, "The king''s honey jar is broken on the dais, his molasses-cart and cake-cart are upset; come and eat honey and molasses and cake."'''
+related: []
+evokes: [jataka, chanipata, kharaputta-jataka, privileged-access-reveals-hidden-ordinary-activity, invisible-self-interest-continues-unnoticed]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kharaputta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 386, Kharaputta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "An ant seeing this comes crying, \"The king's honey jar is broken on the dais, his molasses-cart [277] and cake-cart are upset; come and eat honey and molasses and cake.\""
+canonical-instances:
+  - "The first time a manager gets read access to a team's internal chat channel, they discover the ordinary griping and side-negotiating that had been happening constantly, invisible to them the entire time they managed the team without it."
+critical-questions:
+  - "Does gaining this kind of privileged access change the observer's relationship to the people being observed, even when what's revealed is genuinely mundane and not damning?"
+  - "Is the surprise here really about what's revealed, or about how much ordinary activity happens below the threshold of any given observer's normal visibility?"
+status: active

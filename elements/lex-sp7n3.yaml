@@ -1,0 +1,19 @@
+id: lex-sp7n3
+name: treating-hearsay-as-inert-until-checked-against-the-source-collapses-calumny
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Rather than nursing suspicion privately after hearing an unflattering secondhand report, a party can go directly to the person allegedly speaking against them and ask outright — a default-trust policy that treats hearsay as inert until checked against its source. The confrontation costs little and instantly collapses any fabrication that depended on the two friends never comparing notes. In the Jataka's tale of Vannaroha: 'No friend suspects without a cause, or carefully looks out for flaws; [193] but on his friend in trust will rest as child upon its mother's breast, and ne'er will by a stranger's word be parted from his bosom's lord.'"
+related: []
+evokes: [jataka, pancanipata, vannaroha-jataka, default-trust-resolved-by-direct-confrontation, hearsay-treated-as-inert-until-verified]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-vannaroha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 361, Vannaroha-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "No friend suspects without a cause, Or carefully looks out for flaws; [193] But on his friend in trust will rest As child upon its mother's breast, And ne'er will by a stranger's word Be parted from his bosom's lord."
+canonical-instances:
+  - "When a coworker mentions that a close colleague has apparently been criticizing someone's work in meetings they weren't in, that person doesn't quietly withdraw — they walk over and ask the colleague directly, and the fabricated rumor collapses in a single conversation."
+critical-questions:
+  - "Does this policy scale to situations where direct confrontation is costly or socially awkward, or does it only work in relationships already secure enough that asking directly carries no risk of seeming paranoid or accusatory?"
+  - "Is there a failure mode where the accused party, now confronted, simply lies convincingly, meaning the direct-confrontation policy only protects against fabrications that the liar isn't prepared to double down on?"
+status: active

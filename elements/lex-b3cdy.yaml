@@ -1,0 +1,22 @@
+id: lex-b3cdy
+name: fearing-a-well-meaning-narrator-will-garble-your-own-story
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A person can conceal a personal truth not because they fear telling it themselves, but because they fear a more socially credible figure will perceive or narrate a distorted version of it that gets believed in place of their own account. After his vision, Black Elk is specifically afraid of Whirlwind Chaser, the medicine man everyone already credits with curing him -- not because Whirlwind Chaser is hostile, but because he might 'look right into me and see my vision there and tell it wrong,' and it is the mistelling itself, delivered with someone else's authority behind it, that Black Elk fears will get him branded 'crazy.' He responds by avoiding the one person best positioned, and most trusted by the community, to narrate the experience on his behalf: 'whenever I saw Whirlwind Chaser coming, I would run away and hide for fear he might see into me and tell.'"
+related: []
+evokes: [black-elk-speaks, whirlwind-chaser, tell-it-wrong, fear-of-being-called-crazy, avoiding-the-credible-narrator]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch4-the-bison-hunt
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 4, 'The Bison Hunt.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "While he was looking hard at me, I wanted to get up and run away, for I was afraid he might look right into me and see my vision there and tell it wrong, and then maybe all the people would think that I was crazy. For a long while after that, whenever I saw Whirlwind Chaser coming, I would run away and hide for fear he might see into me and tell."
+canonical-instances:
+  - "A patient with an unusual symptom avoids a specialist known for confidently over-interpreting ambiguous cases, worried that the specialist's mistaken but authoritative diagnosis will become the official record instead of the patient's own more accurate account."
+  - "An employee who witnessed a workplace incident avoids the manager known for retelling stories with dramatic embellishment, fearing that manager's exaggerated version, delivered with more institutional authority, will replace what the employee actually saw."
+  - "A child who had an unusual private experience avoids the well-meaning relative who 'always knows what's really going on,' worried that relative's confident but wrong explanation will become the family's permanent account of what happened."
+critical-questions:
+  - "Is avoiding the credible narrator actually protective, or does the avoidance itself raise the odds of a distorted account taking hold, since the person best positioned to hear it accurately never gets the chance to?"
+  - "Whirlwind Chaser had already correctly sensed 'something special' in Black Elk without being told anything -- does that partial accuracy make him more or less likely to garble the fuller story if given the chance to hear it directly?"
+  - "What distinguishes a well-founded fear of mistelling from ordinary social anxiety about being misunderstood -- does the specific status of the feared narrator, someone whose account would carry more institutional weight than the original witness's own, matter to whether the fear is justified?"
+status: active

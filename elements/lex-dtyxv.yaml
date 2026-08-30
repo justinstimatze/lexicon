@@ -1,0 +1,19 @@
+id: lex-dtyxv
+name: staging-a-crime-to-test-and-expose-a-suspected-hypocrite
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "A powerful overseer who suspects an authority figure is quietly abusing their role can manufacture a false crime scene specifically designed to provoke that figure into revealing the hypocrisy already suspected, rather than confronting them on unproven suspicion alone. In the Jataka's tale of the mango orchard, a false ascetic neglects his real duties to guard the fruit for personal gain, and Sakka, watching, deliberately knocks it down himself to make it look stolen: 'This false ascetic, abandoning his duties as a priest, such as the process by which religious ecstasy may be induced and the like, is continually watching a mango orchard. I will frighten him soundly. So when he was gone into the village for alms, Sakka by his supernatural power knocked down the mangoes, and made as if they had been plundered by thieves.'"
+related: []
+evokes: [jataka, catukkanipata, ambacora-jataka, a-manufactured-crime-provokes-a-suspected-hypocrite-into-exposure, staged-evidence-substitutes-for-confronting-unproven-suspicion]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-ambacora-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 344, Ambacora-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "So when he was gone into the village for alms, Sakka by his supernatural power knocked down the mangoes, and made as if they had been plundered by thieves."
+canonical-instances:
+  - "A compliance officer who suspects a manager is quietly padding expense reports plants a small, deliberately ambiguous discrepancy in a routine reimbursement form to see whether the manager flags it honestly or quietly approves it for personal benefit, exposing the pattern without ever directly accusing anyone first."
+critical-questions:
+  - "Does fabricating evidence to test someone's character cross an ethical line of its own, even when the target turns out to genuinely deserve exposure — does the end here justify a deceptive means?"
+  - "What happens if the staged test is wrong — if the false ascetic had actually behaved honestly under the manufactured pressure, would Sakka's suspicion have been vindicated as caution, or exposed as unfounded harassment?"
+status: active

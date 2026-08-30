@@ -1,0 +1,19 @@
+id: lex-ggu3u
+name: admitting-unworthiness-is-used-to-excuse-disregarding-the-rule-itself
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Confronted with breaking a rule meant to enforce respect toward oneself, a person can deflect by arguing that since they don't personally meet the standard the rule is supposed to protect, the rule simply doesn't bind them — turning self-deprecation into a permission slip rather than a correction. In the Jataka's tale of the pariah in the tree, the brahmin teacher, caught letting his royal pupil seat himself improperly above him, excuses the breach by disqualifying himself from the norm it was meant to uphold: 'My food is pure rice from the hill, With a delicate flavour of meat, For why should a sinner fulfil A rule meant for saints, when they eat?'"
+related: []
+evokes: [jataka, catukkanipata, chavaka-jataka, self-deprecation-repurposed-as-an-exemption, disqualifying-yourself-from-a-norm-instead-of-upholding-it]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-chavaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 309, Chavaka-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "My food is pure rice from the hill, With a delicate flavour of meat, For why should a sinner fulfil A rule meant for saints, when they eat?"
+canonical-instances:
+  - "A supervisor who skips the safety checklist before letting a junior operator run heavy equipment justifies it by saying 'I've never been much of a stickler for procedure myself, so who am I to enforce it on you' — using an admission of personal laxity to excuse abandoning a rule that exists independently of either person's virtue."
+critical-questions:
+  - "Does the rule actually depend on the enforcer's personal virtue to be valid, or is this a category error — conflating whether someone deserves respect with whether the protocol that grants it should still apply regardless?"
+  - "Who bears the cost when this excuse is accepted — in this story, it's the social order and the pupil's respect for the teacher's role, not the teacher himself, that erodes."
+status: active

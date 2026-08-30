@@ -1,0 +1,22 @@
+id: lex-shxmh
+name: pleasing-supplants-serving-when-reward-tracks-felt-satisfaction
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When a service-provider's reward depends on the recipient's felt, subjective satisfaction rather than on an objective standard of what's actually good for the recipient, the provider's effort systematically drifts from serving the recipient's real interest toward pleasing their immediate taste. Because taste and genuine benefit can diverge sharply, this substitution compounds over time into actively indulging and reinforcing harmful preferences rather than correcting them. Gilman states the general error, then names it in her domain: 'In every field of life it is an evil to put the incident before the object, the means before the end... Since the wife-cook's main industry is to please,--that being her chief means of getting what she wants... she early learned to cater to the palate instead of faithfully studying and meeting the needs of the stomach.'"
+related: []
+evokes: [women-and-economics, chapter-xi, put-the-incident-before-the-object, cooked-from-affection-not-from-knowledge, catering-to-taste-crowds-out-genuine-benefit]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-xi
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter XI. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "Since the wife-cook's main industry is to please,--that being her chief means of getting what she wants or of expressing affection,--she early learned to cater to the palate instead of faithfully studying and meeting the needs of the stomach. For uncounted generations the grown man and the growing child have been subject to the constant efforts of her who cooked from affection, not from knowledge,--who cooked to please. This is one of the widest pathways of evil that has ever been opened. In every field of life it is an evil to put the incident before the object, the means before the end; and here it has produced that familiar result whereby we live to eat instead of eating to live."
+canonical-instances:
+  - "A personal trainer whose repeat business depends entirely on clients feeling good after every session gradually shifts from prescribing the challenging exercises clients actually need toward the comfortable ones clients enjoy, and the clients' fitness stalls even as their satisfaction scores stay high."
+  - "A financial advisor paid on client retention rather than portfolio performance starts recommending whatever investments feel reassuring and familiar to anxious clients, rather than what the data says would actually grow their savings, because pleasing the client is what keeps the advisor employed."
+  - "A therapist whose income depends on clients wanting to return each week gradually avoids raising the uncomfortable truths that would actually help clients change, favoring sessions that leave clients feeling validated instead, because validation is what keeps the appointment book full."
+critical-questions:
+  - "Is felt satisfaction always a poor proxy for genuine benefit, or does it track real quality well enough in many domains that the drift toward pleasing is actually a reasonable adaptation rather than a systematic failure?"
+  - "Could a recipient's satisfaction be trained or educated over time to track genuine benefit more closely, closing the gap between what pleases and what serves, rather than treating the divergence as permanently structural?"
+  - "If the provider genuinely believes that what pleases the recipient IS what's good for them, is this still the same failure mode, or does it require the provider to know better and choose pleasing anyway -- does the mechanism require a mismatch the provider is aware of?"
+status: active

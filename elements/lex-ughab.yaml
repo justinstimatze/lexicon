@@ -1,0 +1,19 @@
+id: lex-ughab
+name: predicting-instability-from-the-mere-fact-of-a-third-party-joining
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A stable two-party bond can be predicted to break down the instant a third party enters it, purely from the structural fact of the addition — no knowledge of that newcomer's specific nature, intent, or behavior is needed for the prediction to hold. In the Jataka's tale of the lion and the bull, on hearing merely that the pair have become inseparable friends, the king immediately predicts disaster will follow if any third animal joins them, well before any jackal has even appeared: '\"Should a third animal appear,\" said the king, \"there will certainly be mischief. Come and tell me, if you see the pair joined by a third animal.\"'"
+related: []
+evokes: [jataka, catukkanipata, sandhibheda-jataka, a-third-partys-mere-addition-predicts-instability-before-any-specifics, structural-prediction-made-with-zero-knowledge-of-the-newcomer]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sandhibheda-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 349, Sandhibheda-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Should a third animal appear,\" said the king, \"there will certainly be mischief. Come and tell me, if you see the pair joined by a third animal.\""
+canonical-instances:
+  - "An investor watching two co-founders run a company with unusually deep mutual trust warns them, before any specific hire is even proposed, that bringing on a third equal partner will destabilize the dynamic regardless of who that person turns out to be — purely from having seen the same structural shift sink other partnerships before."
+critical-questions:
+  - "Is this prediction actually reliable, or is it a self-fulfilling prophecy — does expecting instability from any third party make people more suspicious and quicker to believe manufactured slander once one does arrive?"
+  - "Does the king's foresight here actually help, given that he predicts the danger accurately but still arrives too late to prevent it — is correctly forecasting a structural risk useless without also acting on it in time?"
+status: active

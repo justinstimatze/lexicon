@@ -1,0 +1,18 @@
+id: lex-pb2bx
+name: the-first-plausible-explanation-often-has-its-own-hidden-reverse-side
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "When an explanation for someone's motive or an event's cause arrives and it fits, that fit is not proof there isn't a further layer underneath — the reverse side of the reverse side. Treat a satisfying first explanation as a stopping point chosen for comfort, not as evidence the regress has actually terminated, and keep asking what the explanation itself doesn't explain."
+related: []
+evokes: [galef, kotowaza, japanese-proverbs, interpretive-regress, motive-behind-the-motive]
+lineage:
+  - source: primary
+    text: galef-1987-even-monkeys-fall-from-trees
+    citation: "David Galef (compiler and translator), *Even Monkeys Fall From Trees: And Other Japanese Proverbs*, illustrations by Jun Hashimoto, foreword by Edward G. Seidensticker (Tuttle Publishing, copyright 1987; ebook ISBN 978-1-4629-0318-4), Proverb No. 17. Verified verbatim against a direct extraction of the held copy."
+    quote: "Ura ni wa ura ga aru. The reverse side has its reverse side."
+canonical-instances:
+  - "A colleague's public objection to a proposal is explained as budget concern; a closer look finds the budget concern is itself explained by a reorg that would eliminate their own role if the proposal succeeds — and that reorg fear may have a further layer beneath it too."
+critical-questions:
+  - "At what point does continuing to peel back further layers stop being diligence and start being an unfalsifiable habit of never accepting any explanation as final?"
+status: active

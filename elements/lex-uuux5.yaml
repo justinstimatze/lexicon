@@ -1,0 +1,18 @@
+id: lex-uuux5
+name: succession-is-decided-by-reading-an-omen-or-physical-mark-rather-than-by-birthright
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Instead of following an established line of inheritance, a selecting authority can identify a successor by reading a physical sign or portent understood to indicate great merit, treating the mark itself as sufficient legitimation independent of the candidate''s lineage or prior status. In the Jataka''s tale of Nigrodha, the royal chaplain selects an unknown foundling as king purely by examining the marks on his feet: "''Some being of great merit must be present here!'' thought the chaplain to himself. He entered the park, and espied the young man; and then removing the cloth from his feet he examined the marks upon them. ''Why,'' said he, ''he is destined to be King of all India, let alone Benares!''"'
+related: []
+evokes: [jataka, dasanipata, nigrodha-jataka, selection-by-omen, legitimacy-by-sign-not-birthright]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-nigrodha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 445, Nigrodha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Some being of great merit must be present here! thought the chaplain to himself. He entered the park, and espied the young man; and then removing the cloth from his feet he examined the marks upon them. Why, said he, he is destined to be King of all India, let alone Benares!"
+canonical-instances:
+  - "A venture capital firm's founding partners select an unknown outsider to lead a portfolio company not because of his resume but because of an intangible read on how he handled an unscripted crisis in the interview, treating that single sign as outweighing every credentialed internal candidate."
+critical-questions:
+  - "Selecting a successor by a read sign trades the arbitrariness of birthright for a different arbitrariness — whatever the selecting authority happens to interpret as significant. Is that trade actually a gain in how well the choice tracks real merit?"
+status: active

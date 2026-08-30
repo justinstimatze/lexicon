@@ -1,0 +1,20 @@
+id: lex-w2sbg
+name: refuting-a-claimed-universal-rule-with-the-claimants-own-recent-exception
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When someone criticizes your action by invoking a general rule as if it always held, look for an instance of that same rule''s failure that the critic themselves recently created or endorsed, and use their own precedent — not abstract argument — to collapse the rule. In the Maha-Ummagga-Jataka, King Vedeha mocks Mahosadha for seating himself before his own father, on the premise that elders always outrank the young. Mahosadha asks, "do you think that in all cases the sire is better than the sons?" and reminds him the king''s own message had asked for "the better horse or the more excellent horse" — leaving the choice open to whichever generation was superior. He then produces an ass the king''s men had smuggled in and asks its price, gets the king to admit a mule bred from it would be priceless by comparison, and delivers the rebuttal: "Thinkst thou that the sire is always better than the son, O excellent king? Then is yon creature better than the mule; the ass is the mule''s sire." By the king''s own recent framing, the rule he was invoking to criticize Mahosadha was one the king had already treated as false.'
+related: []
+evokes: [jataka, mahanipata, maha-ummagga-jataka, own-precedent, rebuttal, exposed-inconsistency]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-maha-ummagga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 546, Maha-Ummagga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: '"What, my lord! do you think that in all cases the sire is better than the sons?" "Yes, sir." "Did you not send word to me to bring you the better horse or the more excellent horse?" So saying he rose up... "Thinkst thou that the sire is always better than the son, O excellent king? Then is yon creature better than the mule; the ass is the mule''s sire."'
+canonical-instances:
+  - "A manager insists policy always requires two weeks' notice before any exception to a deadline, but an employee points out the manager granted themselves a same-day exception the week before — using the manager's own recent action to void the rule they're now invoking."
+  - "A city council member argues zoning rules must never bend for any single developer, and a rival council member notes the same member fast-tracked a variance for a donor's project six months earlier, using that precedent to defeat the current objection."
+critical-questions:
+  - "This tactic depends on the critic's own exception being verifiable and recent enough to be undeniable — how does it fare when the contradicting precedent is older, ambiguous, or deniable by the critic?"
+  - "Winning the specific argument by exposing inconsistency doesn't necessarily win the underlying question of which rule should actually govern going forward — does exposing hypocrisy this way settle anything beyond the immediate rebuttal?"
+status: active

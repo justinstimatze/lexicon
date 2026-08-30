@@ -1,0 +1,18 @@
+id: lex-2ddjn
+name: sharing-an-unearned-windfall-with-a-dependent-bystander-who-had-no-claim-to-it
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When a windfall is granted to one person alone by a benefactor who overlooked a dependent companion entirely, the recipient can voluntarily extend a share to the overlooked bystander even though the bystander has no standing claim on the gift and the benefactor never intended to include them. In the Jataka''s tale of Sankha, the rescuing deity does not notice the brahmin''s servant at all, yet the brahmin shares his own rescue and fortune with him regardless: "She did not notice the attendant; howbeit the brahmin gave him a share of his own good fortune; he rejoiced, the deity embraced him also, and set him in the ship."'
+related: []
+evokes: [jataka, dasanipata, sankha-jataka, sharing-unearned-windfall, extending-a-gift-beyond-its-intended-scope]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sankha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 442, Sankha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "She did not notice the attendant; howbeit the brahmin gave him a share of his own good fortune; he rejoiced, the deity embraced him also, and set him in the ship."
+canonical-instances:
+  - "A startup founder who alone is offered a seat on an acquirer's board insists her long-time assistant — overlooked entirely in the offer — also gets equity in the deal, even though the acquirer never intended to include anyone but her."
+critical-questions:
+  - "Does voluntarily extending an unearned windfall to someone overlooked by the original benefactor create any obligation on the benefactor, or does it remain entirely the recipient's own discretionary act?"
+status: active

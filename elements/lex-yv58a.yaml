@@ -1,0 +1,22 @@
+id: lex-yv58a
+name: corruption-hidden-by-an-unchanged-surface-goes-undetected
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A corruption that leaves someone's outward appearance and behavior looking completely normal, while secretly degrading what's inside them, is more dangerous than an obvious, visible transformation into something monstrous -- because the visible case at least lets the sufferer's own mind register that something has gone wrong, while the invisible case proceeds undetected precisely because nothing on the surface changed. The poem contrasts Circe's victims, whose bodies become beasts while 'the mind, unaltered, unresigned, the monstrous change bewailed' -- they know exactly what's happened to them -- with a different, worse kind of poison: 'Those poisons are more fell, more potent to expel man from his high estate, which subtly penetrate, and leave the body whole, but deep infect the soul.'"
+related: []
+evokes: [consolation-of-philosophy, book-iv-song-iii, circes-cup, leave-the-body-whole-but-deep-infect-the-soul, invisible-corruption]
+lineage:
+  - source: primary
+    text: boethius-c524-consolation-of-philosophy-book-iv-song-iii
+    citation: "Boethius, The Consolation of Philosophy (c. 524 AD), trans. H. R. James (London: George Bell & Sons, 1897), Book IV, Song III, 'Circe's Cup.' Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "But steadfast still, the mind, Unaltered, unresigned, The monstrous change bewailed. How little, then, availed The potencies of ill! These herbs, this baneful skill, May change each outward part, But cannot touch the heart. In its true home, deep-set, Man's spirit liveth yet. Those poisons are more fell, More potent to expel Man from his high estate, Which subtly penetrate, And leave the body whole, But deep infect the soul."
+canonical-instances:
+  - "A once-rigorous scientist's judgment quietly erodes through years of small, undisclosed conflicts of interest, while their public reputation, publication record, and outward manner remain exactly as respected and confident as ever, so neither colleagues nor the scientist themselves notice the erosion until a major error surfaces."
+  - "An organization's actual decision-making culture rots from genuine deliberation into rubber-stamping executive preference, while every visible artifact -- the meeting agendas, the stated values, the org chart -- stays identical to what it always was, so no single moment ever registers as the change."
+  - "A once-devoted employee's commitment to a company's mission quietly curdles into pure self-interested careerism, while their outward professionalism, punctuality, and stated enthusiasm never waver, so performance reviews keep reading exactly as they did before."
+critical-questions:
+  - "Is it actually true that Circe's obvious victims suffer less than the invisibly corrupted, or does the poem simply romanticize visible suffering as more 'honest' while underselling how genuinely miserable it is to be trapped in an animal's body, fully conscious, unable to communicate?"
+  - "How would anyone -- the corrupted person or an outside observer -- ever detect an invisible corruption in time to intervene, if the entire premise of the danger is that no observable marker exists until the damage is already done?"
+  - "Does treating hidden moral corruption as categorically worse than visible affliction risk making people suspicious of anyone who looks and acts normal, when most people who look and act normal presumably are exactly that, and only a small fraction are hiding genuine rot?"
+status: active

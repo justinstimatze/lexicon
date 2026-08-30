@@ -1,0 +1,86 @@
+id: lex-hfjhy
+name: signal-mimicry
+type-in: state
+type-out: frame
+_tier: atomic
+agent-instruction: "When a signal seems trustworthy, surface that signal mimicry (cheap fakes of expensive signals) is the predictable countermove — costly-signaling logic only holds while the cost is real; check whether the cost can be faked."
+related: [lex-q9asc, lex-xrg6e, lex-c7pga, lex-xxmeh, lex-f74h5, lex-3af99, lex-e3yhv, lex-e48nt, lex-ngas3, lex-swxmz]
+scaffolds-from: [lex-e3yhv]
+evokes: [false-type-signal, masquerade, deceptive-signaling, pretending-to-be-of-type-T, batesian-mimicry-as-cognitive-move]
+lineage:
+  - source: primary
+    text: bell-whaley-1991-cheating-and-deception
+    citation: "J. Bowyer Bell and Barton Whaley, Cheating and Deception (Transaction Publishers, 1991), ch.3 'The Structure of Deceit: A Theory of Cheating,' pp.49, 60-61 — the dissimulation/simulation taxonomy: simulation (showing the false) includes mimicking (taking on the appearance of something else), inventing (showing what's not there), and decoying (drawing attention away). Mimicking is the canonical primitive."
+    quote: "'Showing complements hiding, and, like hiding, can be divided into three distinct parts: mimicking, inventing, and decoying.' [the chapter's summary of the full six-part taxonomy:] 'Thus there are but six ways to cheat, three involving hiding the real by masking, repackaging, or dazzling and three involving showing the false by mimicking, inventing or decoying.'"
+  - source: primary
+    text: wickler-1968-mimicry-in-plants-and-animals
+    citation: "Wolfgang Wickler, Mimicry in Plants and Animals (World University Library, 1968), p.9 — the biological prior naming and defining Batesian mimicry, cited for the model/mimic terminology the cognitive primitive borrows. Batesian / Müllerian / aggressive mimicry are domain-specific instances; the cognitive primitive is signal-mimicry."
+    quote: "'An actor is a mime, and so the representation of a false warning pattern was called mimicry. Since Bates was the first to point out this phenomenon, it has received the name Batesian mimicry in his honour. [...] In general, the animal which is avoided for good reason is called the model and the imitating animal is called the mimic.'"
+canonical-instances:
+  - "The cognitive shape generalizes across mimicry's functional domains — defense, aggression, and courtship all deploy the same false-backed-signal mechanism; the domain (predator-avoidance, combat, mate-attraction) is not the primitive, the signal-type mismatch is."
+  - "A non-credentialed advisor adopts vocabulary, dress, and citation patterns characteristic of credentialed experts; observers misclassify type-via-signal."
+  - "A startup imitates the website chrome (fonts, color palette, copy register) of an established institutional player to ride the credibility halo at zero structural cost."
+  - "An LLM agent adopts the linguistic markers of confidence-without-hedging that human experts use, regardless of whether its actual epistemic state warrants confidence — observers infer expertise from the signal."
+  - "Chiang 2026 *The Atlantic* ('No, Artificial Intelligence Is Not Conscious'): the cost-collapse-defeats-content-inference generalization. 'An observation doesn't become a convincing piece of evidence because of any specific detail in what's observed; the context in which that observation takes place is also essential... Any given observation can be easily manufactured; this doesn't mean we need to give up on the idea of observation as a source of knowledge, but we need to rely on context to determine which observations deserve our trust.' Chiang's structural claim: when signal-generation cost drops to zero (LLMs producing fluent conversational text at zero marginal cost; deepfake video at zero marginal cost), the diagnostic value of the signal's content goes to zero, and trust must shift to provenance/context. Transferable: signal-mimicry's effectiveness scales inversely with signal-generation cost — when the cost of producing a type-T signal collapses (text-as-deepfake-medium), the rate of false-positive type-attribution from content-alone approaches one, and inference must move to context/provenance/independent-channel. Composes with lex-aryva Akerlof asymmetric-quality-info: when the signal-cost collapses and signals are cheap-to-produce regardless of type, the market for the underlying claim collapses unless an out-of-band verification channel exists."
+severity-tier: warning
+critical-questions:
+  - "is the signal you're reading expensive to produce, or could a mimic produce it cheaply? cheap-to-fake = weak signal"
+  - "what would you need to do to forge this signal — and could a counterparty afford that effort?"
+  - "is the signal stable, or is its cost trending down (technology, scale) — degrading signaling power over time?"
+  - "what's the cost of a missed-mimic to you — and is that cost worth a more expensive signal regime?"
+status: active
+---
+# signal-mimicry
+
+A cognitive move that produces a *frame* — an observable signal — that
+encodes type T while the signaler is of type ¬T. The recipient
+classifies the signaler by signal, not by type, extracting behavior
+the recipient reserves for type-T from a signaler who is not T.
+
+## Type-signature rationale
+
+Type-signature is `state → frame` rather than `claim → ...` because mimicry
+doesn't require an asserted claim. The signaler's actual *state* (their type)
+is the input; the *frame* (the signal-encoding observed by recipients)
+is the output. The asymmetry between input-state and output-frame is
+the deception structure.
+
+## Distinct from neighbors
+
+- **cheap-talk** (lex-c7pga) is *unbacked claim*; the assertion exists
+  but carries no commitment. Signal-mimicry is *false-backed signal*;
+  the signal encodes a (counterfeit) commitment-pattern that observers
+  read as type-evidence. Different mechanisms; cheap-talk is recognized
+  by absence of cost, mimicry by presence of misleading-cost.
+- **plausible-deniability** (lex-xrg6e) is *retractable assertion*;
+  signal-mimicry is *non-retractable counterfeit*. Mimicry-once-detected
+  doesn't retract — the deception was the signal-emission itself.
+- **lex-q9asc source-attribution** can be a vehicle for mimicry
+  (counterfeit attributions) but the orthogonal axis matters; an
+  honest attribution can be the surface of a mimicry move.
+- **lex-uz7g4 archetype-as-projective-shorthand** is the reverse
+  direction: archetypes are signal-types the recipient projects;
+  mimicry is signal-types the signaler emits to be projected onto.
+
+## Why it surfaces
+
+The cognitive primitive isn't the act of mimicking (which is mostly
+behavioral/perceptual) but the *recognition of mimicry as a signal-class*
+— observers learning to distinguish backed signals (where signal-cost
+correlates with type) from mimicked signals (where signal-cost is
+non-type-correlated, often near-zero). This recognition is what makes
+mimicry a defeasible inference, not a deductive one.
+
+In Bowyer Bell & Whaley's 2×2, signal-mimicry is the **simulation**
+half (showing what isn't there), as distinct from **dissimulation**
+(hiding what is there). Future molecule
+Future molecule `dissimulation-simulation-typology` (lex-rfxtb reserved)
+decomposes the full taxonomy.
+
+## Composition notes
+
+The probable larger shape is
+Probable shape: sequential(signal-mimicry, [MISSING: false-type-attribution-by-receiver])
+— mimicry then receiver-side type-attribution. The receiver-side atom
+isn't yet mined; surface as `[MISSING:]` flag in any composing
+molecule until then.

@@ -1,0 +1,19 @@
+id: lex-93wmu
+name: paying-off-one-extortionist-advertises-your-exploitability-to-the-next
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Buying off a single threat with a share of a protected resource doesn't end the exposure — it demonstrates to any observer that the resource-holder pays rather than resists, drawing a queue of further extortionists each demanding their own cut. In the Jataka's tale of the treasure-guarding mouse, a mouse facing a cat buys her life by offering a cut of her stored food, and three more cats arrive in succession, each extracting the identical toll, until she's reduced to a fifth of her original supply and starving. The first payment resolves nothing about the underlying vulnerability. It just broadcasts that the vulnerability pays, and gives the next threat every reason to expect the same response the last one got."
+related: []
+evokes: [jataka, ekanipata, babbu-jataka, paying-off-a-threat-advertises-exploitability, each-successful-extraction-invites-the-next]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-babbu-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 137, Babbu-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Give food to one cat, Number Two appears: A third and fourth succeed in fruitful line"
+canonical-instances:
+  - "A small business that quietly pays a one-time bribe to a local inspector to avoid a minor code violation finds itself facing a second inspector demanding a similar payment within the month, and then a third, each apparently having learned through informal channels that this particular business pays rather than pushes back."
+critical-questions:
+  - "Is there ever a genuine one-time payment that actually ends an extortion relationship, or does the visibility of any single successful extraction always eventually attract further attempts regardless of intent?"
+  - "What would resisting the very first demand have cost compared to the cumulative cost of the escalating series that followed, and is that comparison knowable in advance or only clear in hindsight?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-ft3y5
+name: sequenced-betrayal-exploits-an-allys-unrecognized-mutual-dependency
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a weaker ally grants you resources or passage to defeat a shared third party, check whether their own security actually depended on that third party's survival — a dependency they may never have recognized. The 36 Stratagems' 'Obtain safe passage to conquer the state of Guo' names this directly: 'Borrow the resources of an ally to attack a common enemy. Once the enemy is defeated, use those resources to turn on the ally that lent you them in the first place.' The classical proverb embedded in the stratagem states the exploited relationship precisely: 'Yu is to Guo, as lips are to teeth.' Trust was never the ally's actual mistake; failing to see that the jointly defeated party was itself a buffer protecting their own exposure was."
+related: []
+evokes: [36-stratagems, obtain-safe-passage-to-conquer-guo, sequenced-betrayal, unrecognized-mutual-dependency, lips-and-teeth]
+lineage:
+  - source: primary
+    text: taylor-2013-36-stratagems-24-obtain-safe-passage
+    citation: "Peter Taylor, The Thirty-Six Stratagems: A Modern-Day Interpretation of a Strategy Classic (Infinite Ideas, 2013), Stratagem 24, 'Obtain safe passage to conquer the state of Guo.' Verified verbatim against a direct pdftotext extraction of the held copy."
+    quote: "Borrow the resources of an ally to attack a common enemy. Once the enemy is defeated, use those resources to turn on the ally that lent you them in the first place. 'Yu is to Guo, as lips are to teeth. If the lips are gone, the teeth will be exposed to the cold.'"
+canonical-instances:
+  - "the 1939 Molotov-Ribbentrop Pact: Germany secured Soviet cooperation and non-aggression to enable its western offensive, then launched Operation Barbarossa against the USSR in 1941 once the shared strategic problem had been resolved on Germany's terms."
+critical-questions:
+  - "Could the ally have protected itself by keeping the third party alive as a buffer even while cooperating against it, or does defeating the shared enemy inherently require the kind of full commitment that exposes the ally regardless of foresight?"
+  - "How would a weaker party recognize, before lending resources, that a stronger ally's victory over a shared enemy removes the very buffer protecting the weaker party's own security?"
+status: active

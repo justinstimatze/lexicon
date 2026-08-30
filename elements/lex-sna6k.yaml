@@ -1,0 +1,19 @@
+id: lex-sna6k
+name: naming-the-shared-confound-dissolves-a-false-either-or-dispute
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Two disputants who each generalize correctly from their own limited observations can be reconciled by naming the third factor present in both observations that actually caused the effect, without declaring either one right at the other's expense. In the Jataka's tale of two friends arguing whether cold occurs during the light or dark half of the month, an ascetic resolves the dispute by naming wind — present in both halves whenever it blows — as the real cause, validating each man's partial observation at once. The dispute only looked like a forced choice because neither party had isolated the variable that actually explained their own data; naming it makes the either-or framing disappear rather than settling it in either direction."
+related: []
+evokes: [jataka, ekanipata, maluta-jataka, shared-confound-dissolves-false-dichotomy, resolving-a-dispute-by-naming-the-real-variable]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-maluta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 17, Maluta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "In light or dark half, whensoe'er the wind Doth blow, 'tis cold. For cold is caused by wind. And, therefore, I decide you both are right."
+canonical-instances:
+  - "Two engineers argue over whether a service's slowdowns happen more on Mondays or during deploys, until a third engineer checks the calendar and finds every recent deploy happened to land on a Monday, and the actual cause was deploy-induced cache invalidation the whole time."
+critical-questions:
+  - "How would the ascetic have proceeded if there had been no single shared confound, and the two observations really did reflect two separate, independently true causes acting on different days?"
+  - "Does naming the confound require access to data neither original disputant had? Sometimes the variable is sitting in their own evidence already, missed only because each was reading it for confirmation of their own side."
+status: active

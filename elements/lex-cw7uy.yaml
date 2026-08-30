@@ -1,0 +1,19 @@
+id: lex-cw7uy
+name: instrumental-kindness-is-misread-by-its-target-as-desire
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'Kindness offered purely as a prelude to exploiting its recipient can be misread by the target as genuine romantic or personal interest, especially when the target is primed to want it to be affection. The mechanism captures how instrumentally motivated generosity is systematically mistaken for care. In the Jataka''s tale of Sulasa, a thief plies a servant with food and drink solely to set up killing her for her ornament, and she reads it as desire: "A certain thief coveted the ornament, and with the design of killing her and taking it he began talking to her, and in the garden he gave her fish, flesh and strong drink. "He does it, I suppose, because he desires me," she thought"'
+related: []
+evokes: [jataka, atthanipata, sulasa-jataka, love-bombing, instrumental-kindness-misread-as-affection]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sulasa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 419, Sulasa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "A certain thief coveted the ornament, and with the design of killing her and taking it he began talking to her, and in the garden he gave her fish, flesh and strong drink. \"He does it, I suppose, because he desires me,\" she thought"
+canonical-instances:
+  - "A new hire showers a junior colleague with praise and favors for weeks before asking them to quietly falsify a report, and the colleague, having read the earlier attention as genuine mentorship, is caught off guard by the ask."
+critical-questions:
+  - "What distinguishes generosity offered as a prelude to exploitation from generosity that really is what it appears to be, before the exploitation is revealed?"
+  - "Why is a target primed to want the attention to be affection more vulnerable to this misreading than someone with no such wish?"
+status: active

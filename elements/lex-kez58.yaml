@@ -1,0 +1,21 @@
+id: lex-kez58
+name: self-deprecating-politeness-can-be-a-standing-ambush-lure
+type-in: process
+type-out: warning
+_tier: atomic
+agent-instruction: "An aggressor who invites you closer by apologizing for their own weakness and insisting you needn't be careful is often doing the opposite of what the words say -- the politeness is the lure, and the claimed frailty is what talks your guard down. In Cushing's telling, a man-eating giant lies across a mountain trail with his legs blocking the way, and every traveler who approaches gets the same courteous invitation: 'Good morning! I am old and rheumatic. Do not mind my rudeness, therefore; run right along under; never fear, run right along under!' The moment anyone tries to pass, 'the giant would snatch him up and cast him over the cliff.' The performance never varies and never fails on ordinary travelers precisely because it's built to be disarming: an aggressive block would provoke caution, but a self-deprecating apology for being in the way invites people to stop worrying about exactly the thing they should be most worried about. Diagnostic move: when someone blocking your path or occupying a position of leverage responds to your hesitation with elaborate reassurance about their own harmlessness or weakness, treat the reassurance itself as information -- a genuinely harmless obstacle rarely needs to talk you out of your caution."
+related: []
+evokes: [reassurance-about-harmlessness-is-itself-the-warning-sign, cushing-the-giant-cloud-swallower, i-am-old-and-rheumatic-run-right-along-under, never-fear-run-right-along-under]
+lineage:
+  - source: primary
+    text: cushing-haki-suto-lures-travelers-with-feigned-frailty
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Giant Cloud-Swallower' (A Tale of Cañon de Chelly). Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'when some one chanced to come by, the giant would call out: Good morning! and bid him pass right along under. I am old and rheumatic, he would continue, oh, so politely! Do not mind my rudeness, therefore; run right along under; never fear, run right along under! But when the hunter tried to pass, kuutsu! Haki Suto would snatch him up and cast him over the cliff.'"
+canonical-instances:
+  - "A scammer posing as a stranded motorist waves down passing drivers with apologetic self-deprecation about being a bother, insisting there's nothing to worry about and they just need a quick favor, the elaborate reassurance itself being what an alert driver should treat as the warning rather than the roadside setup."
+  - "A predatory lender's marketing insists repeatedly that the loan terms are simple and there's 'nothing to worry about, just sign right here,' the unprompted reassurance about a complicated financial product functioning the same way as the giant's insistence that travelers need not be careful passing under his legs."
+critical-questions:
+  - "Would a genuinely harmless obstacle, an actually old and frail traveler resting across a trail, produce the exact same words and posture as the giant, making this warning sign indistinguishable from an honest situation in the moment -- or does the giant's specific insistence on reassurance go beyond what genuine frailty would prompt?"
+  - "Does this pattern depend on the target having no other route around the obstacle, forcing a choice between trusting the reassurance and turning back entirely -- would travelers with an easy alternative path have been just as vulnerable to the lure?"
+  - "How many travelers would need to be devoured before word of the danger spread and the lure stopped working on anyone from the surrounding towns -- does the story address why hunters kept approaching despite, presumably, other victims having vanished before them?"
+status: active

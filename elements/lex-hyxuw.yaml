@@ -1,0 +1,18 @@
+id: lex-hyxuw
+name: collective-withdrawal-of-support-to-force-reconciliation
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When direct appeals to quarreling parties repeatedly fail, an uninvolved but materially essential third party can coordinate to withhold support from both sides until they resolve the conflict or lose their position. This changes the disputants'' incentive structure rather than trying to win the argument — conflict becomes materially costly to sustain rather than merely socially disapproved of. In the Jataka''s tale of Kosambi, the laity who provide alms to quarreling monks organize exactly this withdrawal: "We will neither offer salutation nor other marks of respect to them, nor give alms to them when they visit us. So they will depart, or return to the world, or will propitiate the Blessed One."'
+related: []
+evokes: [jataka, navanipata, kosambi-jataka, boycott-as-enforcement, material-cost-of-conflict]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kosambi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 428, Kosambi-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "We will neither offer salutation nor other marks of respect to them, nor give alms to them when they visit us. So they will depart, or return to the world, or will propitiate the Blessed One."
+canonical-instances:
+  - "A homeowners' association, unable to get two feuding board members to stop obstructing every vote, quietly agrees to stop attending any meeting either of them chairs until the two resolve their dispute, making the standoff too costly for either to sustain."
+critical-questions:
+  - "Withholding support punishes both sides equally regardless of who is more at fault. Under what conditions does that pressure land as fair, versus simply rewarding whoever has the longer runway to outlast it?"
+status: active

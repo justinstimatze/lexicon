@@ -1,0 +1,21 @@
+id: lex-946cq
+name: reversing-identical-components-can-flip-the-whole-outcome
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When comparing two situations built from the same parts, check the order and orientation of those parts before assuming the outcome should match. The I Ching's Appendix I states this through a paired hexagram: in Thâi (Peace), the reading is that 'heaven and earth [are] in communication with each other, and all things in consequence hav[e] free course... the high and the low... in communication with one another,' producing good fortune. In Phî (Standstill) — the same two trigrams, positions swapped — the identical elements now yield the opposite reading: 'heaven and earth are not in communication with each other, and all things in consequence do not have free course.' Nothing about the components changed. What changed is whether the arrangement preserves or blocks the channel between them."
+related: []
+evokes: [i-ching, yi-jing, legge, ten-wings, tuan-zhuan, structural-inversion]
+lineage:
+  - source: primary
+    text: legge-1899-i-ching-appendix-i-thai-phi
+    citation: "James Legge, translator, The Yî King (I Ching), Sacred Books of the East vol. 16 (Oxford University Press, 1899), Appendix I ('Treatise on the Thwan'), commentary on Hexagram XI (Thâi) and Hexagram XII (Phî). Verified verbatim against a direct extraction of the text hosted at sacred-texts.com, clean digital text, no OCR."
+    quote: "'The little come and the great gone in Thâi, and its indication that there will be good fortune with progress and success' show to us heaven and earth in communication with each other, and all things in consequence having free course, and (also) the high and the low, (superiors and inferiors), in communication with one another... 'The want of good understanding between the (different classes of) men in Phî, and its indication as unfavourable to the firm and correct course of the superior man; with the intimation that the great are gone and the little come:'--all this springs from the fact that in it heaven and earth are not in communication with each other, and all things in consequence do not have free course; and that the high and the low (superiors and inferiors) are not in communication with one another."
+canonical-instances:
+  - "The text goes further than just naming the reversal — it maps the same trigram-swap onto a social reading in the same breath: in Thâi 'the inner (represents) the superior man, and the outer the small man,' while in Phî the same two figures occupy the swapped positions, and 'the way of the small man appears increasing, and that of the superior man decreasing.' The structural reversal and the social reversal are presented as the same fact seen from two angles."
+  - "A supply chain with the exact same suppliers, warehouses, and transport links can run smoothly or seize up entirely depending purely on which node sits upstream of which — swap two links in the sequence and the same components produce gridlock instead of flow, with nothing physically added or removed."
+critical-questions:
+  - "Is 'communication between the parts' really the operative variable in the Thâi/Phî pair, or is it a post-hoc label applied to whichever arrangement happened to produce the good or bad outcome?"
+  - "Does this generalize past pairs that are literal structural inversions of each other, to any two situations sharing components but differing in some other respect — or does the claim specifically depend on the components being identical and only the arrangement changing?"
+  - "How would an observer detect, before an outcome plays out, whether a given arrangement of familiar components preserves the needed channel or blocks it — does the text offer any diagnostic beyond hindsight?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-du8yw
+name: a-credible-announced-threat-changes-behavior-without-ever-firing
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A threat believed to be genuinely intended can change an entire population's behavior without the threatened action ever having to occur, since the deterrent effect depends on credibility at the moment of announcement, not on eventual enforcement. In the Jataka's tale of King Dummedha, the new king proclaims he will sacrifice a thousand sinners to fulfill an old vow. Terrified subjects universally stop the behavior the vow targets, and the king never has to carry out a single sacrifice. The proclamation did all the work; enforcement was never tested because no one was willing to be the one who found out whether it was a bluff."
+related: [lex-he8wf]
+evokes: [jataka, ekanipata, dummedha-jataka, credible-threat-changes-behavior-unfired, deterrence-works-without-enforcement]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dummedha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 50, Dummedha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Such was the effect of the proclamation on the townsfolk that not a soul persisted in the old wickedness."
+canonical-instances:
+  - "A company announces that the next employee caught falsifying expense reports will be terminated and referred for prosecution, and expense fraud drops to zero for years, with the policy's actual enforcement mechanism never once put to the test."
+critical-questions:
+  - "What happens to compliance once enough time passes without anyone testing whether the threat is real — does credibility decay on its own even if the threat was genuine the whole time?"
+  - "Is there a meaningful difference, from the target population's perspective, between a threat the issuer would actually carry out and one they wouldn't, as long as neither has ever been tested?"
+status: active

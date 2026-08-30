@@ -1,0 +1,19 @@
+id: lex-jpc32
+name: a-failed-control-strategy-prompts-disengagement-not-tighter-control
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Having relied entirely on environmental control rather than on a partner's own reliability, a controller who discovers the control has failed does not necessarily double down on tighter control — recognizing instead that no amount of external containment can substitute for the object's own fidelity, and disengaging from the relationship rather than escalating the containment effort. In the Jataka's tale of Sussondi, having isolated his queen on a remote island specifically to guard her, the garuda king abandons her the moment the isolation fails: 'Though I dwelt in the abode of the Garudas, I failed to guard her safely. What is this wicked woman to me?'"
+related: []
+evokes: [jataka, pancanipata, sussondi-jataka, failed-containment-prompts-disengagement, control-cannot-substitute-for-fidelity]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sussondi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 360, Sussondi-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Though I dwelt in the abode of the Garudas, I failed to guard her safely. What is this wicked woman to me?"
+canonical-instances:
+  - "A company that isolated its trade secrets on an air-gapped server, rather than trusting the engineers who could access them, discovers the isolation was breached anyway. It doesn't respond by adding a second layer of physical containment. It concludes no isolation scheme was ever going to substitute for trusting the people who needed access, and restructures who gets access at all."
+critical-questions:
+  - "Is disengagement actually the more rational response here, or does walking away after one containment failure just mean giving up on a relationship or asset that a smarter, more targeted control might have saved?"
+  - "Does the controller's own reliance on pure environmental control, rather than on building actual trust or verification, bear any responsibility for the failure — or is the blame placed entirely on the contained party's disposition?"
+status: active

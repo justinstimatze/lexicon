@@ -1,0 +1,19 @@
+id: lex-fbmd6
+name: over-extraction-from-the-center-hollows-it-out-toward-the-edges
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Extracting value too aggressively from a population's most accessible, central location drives that population toward the periphery where enforcement is weaker, leaving the center it was meant to serve hollowed out. The Jataka's dream of the muddy pool depicts oppressive taxation this way: unable to pay, people flee village and town for the borders of the realm, so the land's heart becomes a wilderness while its edges grow crowded — a pool clear at the margins and muddy in the middle, the reverse of what looks natural. The extraction didn't just fail to raise the intended revenue; it actively reshaped where the population lives, moving everyone toward the exact places the extracting authority has the least reach."
+related: []
+evokes: [jataka, ekanipata, mahasupina-jataka, over-extraction-drives-flight-to-the-margins, center-hollowed-out-by-its-own-extraction]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahasupina-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 77, Mahasupina-jataka, ninth of sixteen dream-interpretations. Verified verbatim against a direct extraction of the held copy."
+    quote: "Unable to pay the oppressive tax, the people Shall fly from village and town... and take refuge upon the borders of the realm; the heart of the land shall be a wilderness, while the borders shall teem with people."
+canonical-instances:
+  - "A platform raises its transaction fees aggressively in its most active markets to maximize short-term revenue, and sellers relocate their activity to smaller, loosely monitored regional marketplaces the platform can barely enforce policy in, leaving the platform's own flagship market thinner than before the fee increase."
+critical-questions:
+  - "Does the extracting authority have any way to see this coming before the flight actually happens, given that each individual's decision to leave looks unrelated to the others until the aggregate pattern becomes visible?"
+  - "Is fleeing to weakly enforced margins always the rational response to over-extraction, or does it depend on the margins actually being safer or more viable than staying and absorbing the cost?"
+status: active

@@ -1,0 +1,294 @@
+#!/usr/bin/env bash
+# Pre-commit: elements health checks.
+#
+# Runs `lexicon db build` + `lexicon db lint`, `lexicon lint`, and
+# `lexicon lint-cross-refs`. Blocks the commit if db lint has errors, lint
+# has errors, or any related-array edge is unreciprocated.
+#
+# check-drift was retired 2026-08-19: it only ever compared elements YAML
+# against a docs/passes/*.md mirror that is gitignored and per-machine --
+# it never traveled through git, so it could block a commit over an atom
+# whose local mirror simply didn't exist on this machine. db lint carries
+# the real semantic checks and is SQL-backed against a freshly rebuilt
+# index, same blocking-on-error pattern lint already used.
+#
+# Skip with `git commit --no-verify` only when you have a specific reason
+# (e.g. you're actively fixing a flagged issue in this commit).
+
+set -euo pipefail
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+
+# Refs backup: refs/ is gitignored (~8GB of primary sources at this scale).
+# Incremental rsync to a sibling mirror dir — delta-only, so a typical
+# elements/-only commit is ms (rsync notices no changes); a procurement
+# drop transfers only the new bytes. Replaces the prior full-tar-on-any-
+# change scheme which blocked commits for >10min once refs/ exceeded a
+# few GB. The legacy ~/lexicon-refs-backup.tgz is left in place as
+# restoration insurance but no longer refreshed; rm it to reclaim space.
+BACKUP_MIRROR="$HOME/lexicon-refs-mirror"
+if [[ -d "$REPO_ROOT/refs" ]]; then
+    mkdir -p "$BACKUP_MIRROR"
+    rsync -a --delete --quiet "$REPO_ROOT/refs/" "$BACKUP_MIRROR/" \
+        || echo "pre-commit WARN: rsync refs mirror failed (non-blocking)"
+fi
+
+cd "$REPO_ROOT/render"
+
+# Only run elements checks if elements/ or source-mining-pass markdowns changed.
+changed_files="$(git diff --cached --name-only)"
+relevant=0
+echo "$changed_files" | grep -qE '(^elements/.*\.yaml$|^[^/]*-pass-?\d*.*\.md$|^[^/]*mining.*\.md$|^seed-primitives|^harvest-mining|^docs/working/.*\.md$|^docs/principles/.*\.md$)' && relevant=1 || true
+
+if [[ "$relevant" == "0" ]]; then
+    exit 0
+fi
+
+# Serialize the elements-gate block across concurrent commits. Multiple
+# claude sessions committing at once would otherwise each spawn their own
+# `go build` + db build + db lint + lint run, piling onto an already-oversubscribed
+# host (observed: load avg 24 on 8 cores). flock queues the sessions so only
+# one runs at a time; the others wait. The lock is released on any exit path
+# (success, gate failure, signal) by kernel fd cleanup. Use the absolute
+# path to util-linux flock — bare `flock` can resolve to an unrelated tool
+# on systems where ~/.local/bin shadows /usr/bin (observed on this host).
+# Override the flock binary via LEXICON_FLOCK for non-standard layouts.
+LOCKFILE="${LEXICON_PRECOMMIT_LOCK:-/tmp/lexicon-precommit.lock}"
+FLOCK_BIN="${LEXICON_FLOCK:-/usr/bin/flock}"
+if [[ -x "$FLOCK_BIN" ]]; then
+    exec 9>"$LOCKFILE"
+    "$FLOCK_BIN" -x 9
+fi
+
+echo "pre-commit: elements or mining-pass docs changed — running db build + db lint + lint"
+
+# Build the binary once and reuse across all four gate calls. `go run` rebuilds
+# on every invocation (~5-15s warm cache each); four sequential go-runs add up
+# to ~1-2min on the V120 c-scale elements. Building once into /tmp and calling
+# four times keeps the gates at their actual measured cost (~1-2s each).
+LEX_BIN="$(mktemp)"
+trap 'rm -f "$LEX_BIN"' EXIT
+go build -o "$LEX_BIN" ./cmd/lexicon
+
+# Refresh the SQLite index from the staged elements, then gate on it. See
+# the header comment for why this replaced check-drift.
+"$LEX_BIN" db build >/dev/null 2>&1 || echo "pre-commit WARN: db build failed (non-blocking; db lint below may run against a stale index)"
+
+dblint_out="$("$LEX_BIN" db lint --json 2>&1 || true)"
+dblint_err_n="$(echo "$dblint_out" | python3 -c "
+import json, sys
+n = 0
+for line in sys.stdin:
+    line = line.strip()
+    if not line:
+        continue
+    try:
+        d = json.loads(line)
+    except Exception:
+        continue
+    if d.get('severity') == 'error':
+        n += 1
+print(n)
+" 2>/dev/null || echo 0)"
+if [[ "${dblint_err_n:-0}" != "0" ]]; then
+    echo "pre-commit BLOCKED: db lint errors detected ($dblint_err_n)"
+    echo ""
+    echo "Run \`cd render && go run ./cmd/lexicon db lint\` to see details."
+    exit 1
+fi
+
+lint_out="$("$LEX_BIN" lint 2>&1 || true)"
+lint_summary="$(echo "$lint_out" | grep "^lint:" | tail -1)"
+if echo "$lint_summary" | grep -qE "[0-9]+ error\(s\)"; then
+    error_n="$(echo "$lint_summary" | sed -nE 's/.* ([0-9]+) error\(s\).*/\1/p')"
+    if [[ "$error_n" != "0" ]]; then
+        echo "pre-commit BLOCKED: lint errors detected"
+        echo "  $lint_summary"
+        echo ""
+        echo "Run \`cd render && go run ./cmd/lexicon lint\` to see details."
+        exit 1
+    fi
+fi
+
+# Unified cross-reference linter (replaces check-reciprocation.py + audit-stale-refs.py).
+# Default mode gates on graph-integrity (unreciprocated edges, stale related[]
+# targets) and on concept-mismatch — a cite whose slug is the canonical name of
+# a DIFFERENT atom, so ID and sentence disagree and a reader following either is
+# misled. That check used to drown in 565 shorthand cites and now sits at zero,
+# which is what makes it gateable. Stale-id in prose stays a warning; --strict
+# promotes it to an error.
+xref_out="$("$LEX_BIN" lint-cross-refs 2>&1 || true)"
+xref_summary="$(echo "$xref_out" | grep -E "^cross-refs:" | tail -1)"
+xref_err="$(echo "$xref_summary" | sed -nE 's/.* ([0-9]+) error\(s\).*/\1/p')"
+xref_warn="$(echo "$xref_summary" | sed -nE 's/.* ([0-9]+) warning\(s\).*/\1/p')"
+if [[ "$xref_err" != "0" ]] && [[ -n "$xref_err" ]]; then
+    echo "pre-commit BLOCKED: cross-reference errors"
+    echo "  $xref_summary"
+    echo ""
+    echo "Run \`cd render && go run ./cmd/lexicon lint-cross-refs\` to see details."
+    exit 1
+fi
+if [[ -n "$xref_warn" ]] && [[ "$xref_warn" != "0" ]]; then
+    echo "pre-commit WARN: cross-refs flagged $xref_warn warning(s) (stale-id in prose)"
+    echo "  Run \`cd render && go run ./cmd/lexicon lint-cross-refs\` for details."
+fi
+
+# V109 d atom-id-drop guard: catch the V109 c failure mode where a
+# block-replace helper wipes sibling atoms from a multi-atom mining-pass
+# MD. For every staged .md under docs/, diff its HEAD ids against its
+# staged ids; refuse to commit if any HEAD id has disappeared. Operates
+# on the stage tree (`git show :path`) so it catches drops introduced by
+# this commit even when the working tree is dirty with later edits.
+dropped_any=0
+dropped_report=""
+while IFS= read -r f; do
+    [[ -z "$f" ]] && continue
+    [[ "$f" != *.md ]] && continue
+    case "$f" in docs/*) ;; *) continue ;; esac
+    # New files (added in this commit) have no HEAD version — skip.
+    if ! git cat-file -e "HEAD:$f" 2>/dev/null; then
+        continue
+    fi
+    # Files being deleted in this commit — the guard is for in-place wipes,
+    # not intentional deletions. Skip; `git show ":$f"` would error on a
+    # path removed from the index and crash this `set -e` block.
+    if ! git ls-files --cached --error-unmatch -- "$f" >/dev/null 2>&1; then
+        continue
+    fi
+    head_ids="$(git show "HEAD:$f" | grep -oE '^id: lex-[0-9]{4}' | sort -u)"
+    stag_ids="$(git show ":$f" | grep -oE '^id: lex-[0-9]{4}' | sort -u)"
+    missing="$(comm -23 <(echo "$head_ids") <(echo "$stag_ids"))"
+    if [[ -n "$missing" ]]; then
+        dropped_any=1
+        dropped_report+=$'\n  '"$f loses: $(echo "$missing" | tr '\n' ' ')"
+    fi
+done <<< "$changed_files"
+if [[ "$dropped_any" == "1" ]]; then
+    echo "pre-commit BLOCKED: atom-id-drop guard tripped — staged MD(s) drop atom(s) present at HEAD$dropped_report"
+    echo ""
+    echo "This usually means a block-replace helper wiped a sibling atom in a multi-atom"
+    echo "mining-pass MD. Use \`lexicon patch-related\` for line-level edits instead, or"
+    echo "restore the dropped atoms from HEAD before recommitting."
+    echo "If the drop is intentional (mining-pass-merge, atom-renumber), commit with --no-verify."
+    exit 1
+fi
+
+# Quote-fidelity ratchet. Four fabricated verbatim spans were found in shipped
+# atoms in one session -- Caillois, Mill (twice), Woolf -- each a substituted
+# word or clause inside quotation marks, each found by accident, each reading
+# more naturally than what the author wrote. verify-quotes.py checks every
+# claimed-verbatim span against the source in refs/.
+#
+# --staged compares each staged atom against its own HEAD version and blocks
+# only when the number of unmatched spans goes UP. Blocking on any unmatched
+# span would block nearly every commit -- elements/ carries hundreds and
+# roughly half are artifacts of the scan rather than defects of the citation --
+# and a gate that always fires is a gate everyone learns to pass with
+# --no-verify. The ratchet has no false positives by construction: whatever a
+# bad scan does to a passage, it does to both versions of the atom.
+#
+# Newly added atoms have no HEAD to ratchet against, so their unmatched spans
+# are printed, not blocked. Printing is the point: every fabrication found so
+# far was invisible because nothing put the cited text and the source text in
+# front of anyone at the same time.
+if command -v python3 >/dev/null 2>&1 && [[ -f "$REPO_ROOT/scripts/verify-quotes.py" ]]; then
+    quote_rc=0
+    quote_out="$(python3 "$REPO_ROOT/scripts/verify-quotes.py" --staged 2>&1)" || quote_rc=$?
+    if [[ -n "$quote_out" ]]; then echo "$quote_out"; fi
+    if [[ "$quote_rc" != "0" ]]; then
+        echo ""
+        echo "pre-commit BLOCKED: a staged atom has MORE unmatched verbatim spans than at HEAD."
+        echo "Open the source and compare the cited text against it before committing."
+        echo "Use --no-verify only if the source scan is at fault rather than the citation."
+        exit 1
+    fi
+fi
+
+# Cope-gate style ratchet, same shape as the quote-fidelity ratchet immediately
+# above. cope-gate scores agent-instruction + canonical-instances +
+# critical-questions against the `lexicon` card (clause_symmetry, the
+# not-A-but-B flip, etc). The existing 4,242-violation backlog across ~950
+# atoms is deliberately NOT touched here -- see the cope-pass-deferred memory
+# for why a corpus-wide rewrite is a separate, unstarted decision. This gate
+# only stops the backlog from growing: block when a previously-committed
+# atom's score goes UP from its HEAD version; new atoms have no HEAD
+# baseline, so their score is printed, not blocked.
+if command -v cope-gate >/dev/null 2>&1 && [[ -f "$REPO_ROOT/scripts/cope-score.py" ]] && command -v python3 >/dev/null 2>&1; then
+    cope_regressed=0
+    cope_report=""
+    while IFS= read -r f; do
+        [[ -z "$f" ]] && continue
+        case "$f" in elements/*.yaml) ;; *) continue ;; esac
+        staged_score="$(git show ":$f" | python3 "$REPO_ROOT/scripts/cope-score.py" - 2>/dev/null)" || continue
+        [[ -z "$staged_score" ]] && continue
+        if git cat-file -e "HEAD:$f" 2>/dev/null; then
+            head_score="$(git show "HEAD:$f" | python3 "$REPO_ROOT/scripts/cope-score.py" - 2>/dev/null)" || head_score=""
+            if [[ -n "$head_score" ]] && (( staged_score > head_score )); then
+                cope_regressed=1
+                cope_report+=$'\n  '"$f: $head_score -> $staged_score violation(s)"
+            fi
+        elif (( staged_score > 0 )); then
+            echo "pre-commit NOTE: new atom $f scores $staged_score cope violation(s) (lexicon card) -- not blocking, worth a look"
+        fi
+    done <<< "$changed_files"
+    if [[ "$cope_regressed" == "1" ]]; then
+        echo "pre-commit BLOCKED: cope-gate violations increased on an atom that was lower (or clean) at HEAD$cope_report"
+        echo ""
+        echo "Run \`python3 scripts/cope-score.py elements/<id>.yaml\` to see the count, or"
+        echo "\`cope-gate -check - -card lexicon\` on the extracted prose for the flagged spans."
+        echo "--no-verify only if the regression is deliberate."
+        exit 1
+    fi
+fi
+
+echo "pre-commit OK: db lint ($dblint_err_n error(s)); $lint_summary; $xref_summary"
+
+# Content-pattern audit per .lexicon/redaction-patterns.txt. No-op if
+# patterns file absent (fresh-clone-friendly). Set
+# LEXICON_REDACTION_PATTERNS to override the default path.
+redact_block=1
+redact_out="$(cd "$REPO_ROOT/render" && "$LEX_BIN" redaction-audit --dir .. --quiet 2>&1 || true)"
+redact_summary="$(echo "$redact_out" | grep -E "^redaction-audit: " | tail -1 || true)"
+if echo "$redact_summary" | grep -qE "[0-9]+ hit\(s\)"; then
+    echo "pre-commit WARN: $redact_summary"
+    echo "  Run \`cd $REPO_ROOT/render && go run ./cmd/lexicon redaction-audit --dir ..\` for details."
+    if [[ "$redact_block" == "1" ]]; then
+        echo "pre-commit BLOCKED: redaction-audit hits"
+        exit 1
+    fi
+fi
+
+# refs/ FILENAME audit. redaction-audit above reads file *contents* under
+# elements/, docs/ and README.md; it never looks at refs/ filenames, which is
+# how seven shadow-library-named PDFs sat in refs/ unnoticed for weeks. refs/ is
+# gitignored so nothing leaks via the repo, but the names ride along in
+# ~/lexicon-refs-backup.tgz and `lexicon coverage` prints them verbatim.
+# Warn-only: a rename needs a human to supply author/year/title, and blocking an
+# unrelated commit on it would just train people to --no-verify.
+if [[ -x "$REPO_ROOT/scripts/private/clean-names.sh" ]]; then
+    refs_out="$("$REPO_ROOT/scripts/private/clean-names.sh" --check 2>&1 || true)"
+    if ! echo "$refs_out" | grep -q "0 unscrubbed refs"; then
+        echo "pre-commit WARN: $(echo "$refs_out" | head -1)"
+        echo "  Run \`scripts/private/clean-names.sh --check\` for the list."
+    fi
+fi
+
+# Off-path prototype warm. The embedgate prototype cache
+# (~/.claude/lexicon/prototypes.json) is keyed by elements content, so the
+# elements change we just validated invalidates it. Rebuilding it is a
+# minutes-long, one-embed-per-atom ollama job — it MUST NOT run on the blocking
+# UserPromptSubmit hook path (the hook is now warm-only and falls back to the
+# full-pool lens on a cold cache; doing the build there is what caused the old
+# multi-minute hook stalls). So kick the rebuild off here, fully detached and
+# non-blocking-locked: it never delays this commit, and concurrent commits don't
+# stack duplicate builds (the second one's flock -n fails and it skips). Skipped
+# silently if ollama is down (build exits non-zero, cache simply stays cold) or
+# if setsid/flock are unavailable. Disable with LEXICON_NO_WARM=1.
+WARM_LOCK="${LEXICON_WARM_LOCK:-/tmp/lexicon-warm-prototypes.lock}"
+if [[ "${LEXICON_NO_WARM:-0}" != "1" ]] && [[ -x "$FLOCK_BIN" ]] && command -v setsid >/dev/null 2>&1; then
+    setsid --fork bash -c \
+        "exec 8>\"$WARM_LOCK\"; \"$FLOCK_BIN\" -n 8 || exit 0; cd \"$REPO_ROOT/render\" && exec go run ./cmd/lexicon build-prototypes" \
+        >/dev/null 2>&1 </dev/null || true
+    echo "pre-commit: prototype cache warming in background (lexicon build-prototypes)"
+fi
+exit 0

@@ -1,0 +1,20 @@
+id: lex-t3bhw
+name: pressing-someone-to-justify-an-earlier-claim-extracts-a-real-confession
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When several people have each given a vague, self-serving answer to a question, and you want to know what''s really behind it, don''t ask the underlying question directly — press each one, among peers, to justify the specific answer they already gave. The social pressure to defend a prior claim, rather than to answer a fresh accusation, gets people to reveal the real thing they were dressing up. In the Maha-Ummagga-Jataka, four ministers had each told the king a different person deserved a secret (a friend, a brother, a son, a mother). Alone together, they press each other: "You said, friends, that a secret ought to be told to such and such a person: was it something you had done, or seen, or heard?" Reassured that "there''s no one here to betray your secret," each one, defending his earlier answer, confesses an actual crime or shameful secret he''d been dressing up as a general principle.'
+related: []
+evokes: [jataka, mahanipata, maha-ummagga-jataka, self-incrimination, peer-justification-pressure, extracting-confession]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-maha-ummagga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 546, Maha-Ummagga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: '"You said, friends, that a secret ought to be told to such and such a person: was it something you had done, or seen, or heard?"... "Pray tell us, teacher," they repeated. He said, "If the king come to know this secret, my life would be forfeit." "Do not fear, teacher, there''s no one here to betray your secret, tell us, teacher."'
+canonical-instances:
+  - "In a team retrospective, a manager notices everyone gave vague, principled-sounding reasons for missing a deadline; rather than asking directly what went wrong, a peer facilitator asks each person to explain, specifically, what led them to that particular excuse — and the pressure to justify the excuse in front of colleagues surfaces the real, more embarrassing cause."
+  - "A detective interviews four accomplices who each gave the same rehearsed alibi; instead of challenging the alibi itself, she asks each one privately to explain exactly how they came up with that specific detail, and the effort to justify a fabricated specific breaks the story faster than a direct accusation would."
+critical-questions:
+  - "This worked because the ministers trusted the room was private and safe from consequence — does the pressure to justify a claim still extract truth once people suspect they might be overheard or recorded?"
+  - "Mahosadha exploits vanity and the instinct to defend one's own cleverness — does this method generalize to people who would rather admit ignorance or say nothing at all than defend a claim under pressure?"
+status: active

@@ -1,0 +1,21 @@
+id: lex-kfj6a
+name: a-passive-defense-outlasts-force-then-enables-delayed-retaliation
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When a weaker party's only asset is a passive structural defense rather than any active capability, that defense can survive a stronger aggressor's direct assault. It can also set up a later retaliation the aggressor never sees coming. In the Zuni tale of the Turtle and the Coyote, the Turtle kills a deer through ingenuity, and the Coyote steals the kill by force, trying and failing to bite through the Turtle's shell before burying him and leaving him for dead. Teeth can't defeat the shell. The same ingenuity that won the kill then lets the Turtle dig free, recover the meat, and poison the Coyote family's stolen meal — the aggressor's own belief that the contest is settled is what opens the door for the reversal."
+related: [lex-feqmf, lex-gvs2r]
+evokes: [cushing, zuni-folk-tales, turtle-and-coyote, passive-defense, delayed-retaliation]
+lineage:
+  - source: primary
+    text: cushing-1901-zuni-folk-tales-turtle-out-hunting-duped-the-coyote
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G.P. Putnam's Sons, 1901), 'How the Turtle Out Hunting Duped the Coyote.' Cushing recorded and translated this directly from Zuni oral narrators during his years living among the Zuni — a direct transcription of Indigenous-narrated material, not an Indigenous-authored text in Cushing's own voice. Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'This is fine treatment to receive from the hands of such a sneaking cur as that,' thought the Turtle. 'I think I will keep quiet this time and let him do as he pleases. But through my ingenuity I killed the deer, and it may be that through ingenuity I can keep the deer.'"
+canonical-instances:
+  - "The Coyote's teeth failing against the shell, 'kopo, kopo!' — the concrete moment the tale marks as the limit of force, before the delayed retaliation even begins."
+  - "operationally distinct from Hyde's trickster-succeeds-via-transgression mechanism (lex-v6kay, lex-dzqje): the trickster-coded party loses this contest. What wins is enduring a structural defense until the aggressor's guard drops, then striking back — a different mechanism from a rule-violation that reveals or establishes a social code."
+critical-questions:
+  - "Does the tactic depend on the aggressor believing the contest is fully over — would the plan fail if the Coyote had stayed to guard the kill rather than leaving to build a fire elsewhere?"
+  - "Is a passive structural defense a fundamentally different kind of asset from an active defensive capability, in terms of what it can and can't survive — does this generalize to non-physical shells, a fixed cost or a legal standing an aggressor can't reduce?"
+  - "What makes delayed, indirect retaliation the right closing move here rather than simply escaping with the recovered meat — does the tale suggest anything about when retaliation is warranted versus cutting losses?"
+status: active

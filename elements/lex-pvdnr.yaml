@@ -1,0 +1,19 @@
+id: lex-pvdnr
+name: an-invited-arbiter-awards-himself-the-best-share-under-cover-of-fairness
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A neutral party invited in specifically to resolve a distribution deadlock can exploit the position of trust to award himself the most valuable share while giving the disputants worthless remainders, framing the whole division as impartial arbitration. In the Jataka''s tale of Dabbhapuppha, the jackal does exactly this: "Tail, Anuttracari; Gambhiracari, head: The middle to the arbiter will properly be paid." ... "Even so when strife arises among men, They seek an arbiter: he''s leader then: Their wealth decays, and the king''s coffers gain."'
+related: []
+evokes: [jataka, sattanipata, dabbhapuppha-jataka, arbiter-self-deals-under-cover-of-fairness, disputants-lose-to-the-mediator]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dabbhapuppha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 400, Dabbhapuppha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Tail, Anuttracart; Gambhiracari, head: The middle to the arbiter will properly be paid."
+canonical-instances:
+  - "Two departments locked in a budget dispute bring in a 'neutral' consultant to allocate the shared pool, and the consultant's recommendation quietly routes the largest portion into a new initiative the consultant's own firm will be retained to run."
+critical-questions:
+  - "The split is presented as the fix for the disputants' own inability to agree — what would have let them spot the self-dealing before accepting it?"
+  - "Does the disputants' own prior conflict make them more vulnerable to this, since accepting any resolution can feel like a relief regardless of who benefits most from it?"
+status: active

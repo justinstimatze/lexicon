@@ -1,0 +1,19 @@
+id: lex-3yrcr
+name: a-proxys-minimum-demonstrated-capability-reveals-the-unseen-principal
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When you observe a minimum capability demonstrated by a proxy or instrument, check whether it should be used to infer a much larger, unseen capability held by whoever wields it. Aesop's 'The Archer and the Lion' has a lion, wounded at a distance by an arrow, flee not from the arrow itself but from what it implies about its unseen source: 'Give a wide berth to those who can do damage at a distance.' The lion never sees the archer's full strength — a single partial signal delivered at range is enough to trigger avoidance of the whole, larger threat it points toward, rather than confrontation with only the fraction that has been shown."
+related: []
+evokes: [aesop, the-archer-and-the-lion, partial-signal-implies-full-capability, inference-from-a-proxy]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-archer-and-the-lion
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Archer and the Lion.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Give a wide berth to those who can do damage at a distance."
+canonical-instances:
+  - "declining to escalate against a rival after their subsidiary or proxy demonstrates a damaging capability — a lawsuit, a leaked exploit — and inferring the principal holds considerably more in reserve than what was actually shown."
+critical-questions:
+  - "Is this inference generally sound, or does it sometimes overestimate an unseen threat that was actually near the edge of its full capability, with nothing more held in reserve behind the demonstrated proxy?"
+  - "Does the lion's avoidance depend on never learning who the archer actually is and how much strength they truly hold, and would direct knowledge of the principal's real limits change the calculation?"
+status: active

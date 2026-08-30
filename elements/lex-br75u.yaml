@@ -1,0 +1,19 @@
+id: lex-br75u
+name: premature-exit-from-cover-before-the-danger-window-closes
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A defense that has held perfectly while it was maintained can fail entirely from being abandoned moments before its protective window naturally closes, turning a survivable wait into a fatal one. In the Jataka's tale of the owl and the crows, an owl hiding from a mobbing flock of crows breaks cover before nightfall — its actual safe window — instead of waiting the short remaining time out: 'There is a time for every thing: who forth from home will go One man or many, out of time, will surely meet some woe; As did the Owl, unlucky fowl! pecked dead by many a crow.' The owl doesn't die because hiding failed as a strategy — it dies because it stopped hiding at the one moment hiding still mattered."
+related: []
+evokes: [jataka, dukanipata, kosiya-jataka, abandoning-a-defense-just-before-its-window-closes, patience-fails-only-at-the-margin-of-its-own-success]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kosiya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 226, Kosiya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "There is a time for every thing: who forth from home will go One man or many, out of time, will surely meet some woe; As did the Owl, unlucky fowl! pecked dead by many a crow."
+canonical-instances:
+  - "A company holding steady through a hostile takeover attempt, with the board's defenses fully intact, panics and accepts a lowball settlement offer two days before the attacker's financing deadline would have expired on its own, giving up a fight it had already effectively won."
+critical-questions:
+  - "How would the owl have known exactly how close it was to the safe window, given that the actual cost of waiting a little longer was small compared to the cost of leaving early — is the lesson about patience in general, or about having enough information to know when patience is almost paid off?"
+  - "Is there a point past which continuing to wait becomes its own risk — does the story's framing assume waiting is always free until the exact moment of safety, when in reality prolonged concealment can carry its own costs?"
+status: active

@@ -1,0 +1,21 @@
+id: lex-rsfpj
+name: degrading-maintenance-dependent-gear-forces-stops-without-a-fight
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "You don't have to disable a pursuer directly if you can degrade a piece of their equipment that needs periodic maintenance to function -- forcing them to keep stopping and fixing it does the slowing for you, over and over, without you ever having to win a confrontation. In Cushing's telling, two boys fleeing a much larger armed party carry a water-shield loaded with medicine that does nothing to the pursuers' bodies at all; it targets their bowstrings instead: 'Áhaiyúta threw water like thick rain from his shield strapped over his back, so that the enemies' bow-strings loosened, and they had to stop to tighten them again and again.' A wet sinew bowstring doesn't break or disappear, it just stretches out of tension, and every pursuer who wants to keep shooting has to interrupt the chase to re-tighten it: 'whenever the Hawikuhkwe pressed them too closely, the water-shield sprinkled them so thoroughly that when they nocked an arrow the sinew bow-string stretched like gum, and all they could do was to stop and tighten their bow-strings again.' The pursuers remain just as willing and just as numerous the whole time; what's been taken from them is the ability to use their weapons continuously. Diagnostic move: when you can't outrun or overpower a pursuer, look for a piece of their capability that depends on ongoing upkeep rather than a one-time setup, and target that upkeep -- forcing repeated maintenance stops buys you the same distance a direct fight would, without ever requiring you to win one."
+related: []
+evokes: [targeting-upkeep-instead-of-the-pursuer-forces-repeated-stops, cushing-the-revenge-of-the-two-brothers-on-the-hawikuhkwe, they-had-to-stop-to-tighten-them-again-and-again, the-bow-string-stretched-like-gum]
+lineage:
+  - source: primary
+    text: cushing-water-shield-loosens-bowstrings-forcing-repeated-stops
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Revenge of the Two Brothers on the Hawikuhkwe.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'Now, the people were gaining on them faster and faster, but Ahaiyuta threw water like thick rain from his shield strapped over his back, so that the enemies' bow-strings loosened, and they had to stop to tighten them again and again. Whenever the Hawikuhkwe pressed them too closely, the water-shield sprinkled them so thoroughly that when they nocked an arrow the sinew bow-string stretched like gum, and all they could do was to stop and tighten their bow-strings again.'"
+canonical-instances:
+  - "A cyclist being chased by a rival in a race can't outpace them directly, but repeatedly rides through puddles that soak the rival's rim brakes, forcing the rival to keep slowing to let the brake pads dry out enough to grip again, achieving the same gap a faster pace would without ever having to out-sprint them."
+  - "A defender in a long-running technical dispute can't out-argue an aggressive opposing counsel directly, but keeps introducing minor procedural questions that force the other side to repeatedly pause and re-verify their own filings, degrading the pace of the opposition's case through friction rather than through a stronger substantive argument."
+critical-questions:
+  - "Would the tactic have worked against pursuers using different weapons that don't depend on a tensioned string, such as thrown weapons or spears, or is this specifically effective only against equipment with the particular maintenance vulnerability the water-shield targets?"
+  - "Is repeatedly stopping to re-tighten a bowstring actually as costly to the pursuers as a direct hit would be, or does the tactic only buy the boys marginal distance each time -- does the story suggest this alone would have been enough without the other two allies' more decisive interventions?"
+  - "Does this tactic require the target to not immediately understand what's happening to their equipment and why, or would identifying the cause, wet bowstrings, allow the pursuers to adapt, for instance by keeping spare dry strings ready?"
+status: active

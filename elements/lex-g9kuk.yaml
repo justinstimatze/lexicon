@@ -1,0 +1,19 @@
+id: lex-g9kuk
+name: public-attention-needs-melodrama-then-disengages-once-sides-are-assigned
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A public audience engages with a complex, ongoing situation only once it's been melodramatized into a legible conflict with identifiable sides, and disengages again as soon as it has assigned hero and villain roles — regardless of whether the actual matter is resolved. Described through Lippmann's theater metaphor, the public 'arrives in the middle of the third act and leaves before the last curtain,' staying only long enough to decide who's right and who's wrong before moving on. This means an institution managing public perception of an unresolved issue can often satisfy public attention simply by supplying a clear hero/villain framing early, without needing the underlying matter to actually reach resolution — the assignment of roles, not the outcome, is what ends public engagement."
+related: []
+evokes: [jackall-moral-mazes, "arrive in the middle of the third act", melodrama-as-the-condition-for-public-attention]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch7-lippmann-melodrama
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 7, The Magic Lantern — quoting Walter Lippmann."
+    quote: "The public will arrive in the middle of the third act and will leave before the last curtain, having stayed just long enough perhaps to decide who is the hero and who is the villain of the piece."
+canonical-instances:
+  - "Media coverage of a corporate scandal fades once a single executive is publicly identified as responsible and removed, even though the underlying structural problem that produced the scandal remains completely unaddressed."
+critical-questions:
+  - "Is public disengagement after role-assignment actually a failure of attention, or a rational allocation of limited attention toward whichever situations still lack a legible framing — does the public reliably re-engage if the assigned resolution later proves false?"
+status: active

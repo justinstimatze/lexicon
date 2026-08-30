@@ -1,0 +1,19 @@
+id: lex-d4cvs
+name: indulging-a-painful-state-can-increase-its-own-future-supply
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a painful state seems to feed on the attention paid to it, check whether continued indulgence is actually breeding more of the same cause for suffering rather than working through it. Aesop's 'Grief and His Due' names the mechanism as an explicit incentive structure, not vague advice: 'The more devoutly men render to him his due, the more lavish is he of that which he has to bestow. It is not well, therefore, to mourn long for the departed; else Grief, whose sole pleasure is in such mourning, will be quick to send fresh cause for tears.' The fable personifies Grief as an entity whose only pleasure is the mourning itself, making the relationship a tribute economy — feeding the thing increases the supply of reasons to keep feeding it."
+related: []
+evokes: [aesop, grief-and-his-due, feeding-a-state-breeds-more-of-it, tribute-economy-of-suffering]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-grief-and-his-due
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'Grief and His Due.' Verified verbatim against a direct extraction of the held copy."
+    quote: "The more devoutly men render to him his due, the more lavish is he of that which he has to bestow. It is not well, therefore, to mourn long for the departed; else Grief, whose sole pleasure is in such mourning, will be quick to send fresh cause for tears."
+canonical-instances:
+  - "rumination loops in grief or anxiety, where rehearsing the loss through repeated reassurance-seeking or doom-scrolling memorial content is associated with prolonging distress rather than resolving it."
+critical-questions:
+  - "Does this claim generalize past grief to other painful states — anger, jealousy — or is grief specifically singled out here because mourning has a social ritual attached to it that other states lack?"
+  - "Is there a meaningful line between healthy processing of loss and the feeding behavior this fable warns against, or does any sustained attention to grief risk crossing into the pattern it describes?"
+status: active

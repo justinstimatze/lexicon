@@ -1,0 +1,19 @@
+id: lex-k8sws
+name: isolate-a-rival-via-private-unfalsifiable-claims-to-a-shared-superior
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A displaced operator can rebuild influence over a decision-maker by isolating them from a rival for their favor purely through private claims that can never be checked, appealing simultaneously to the target's ego and their fear of betrayal. The Panchatantra's Victor, a jobless advisor, wins the confidence of the lion-king Rusty by making him feel uniquely trusted, then plants an unfalsifiable accusation against Rusty's other advisor Lively: 'he has confidentially whispered in my hearing... I plan to kill him and to seize the royal power myself.' Rusty's own doubt, once he has confided a secret to a barely-vetted new advisor, does the rest of the work: 'Perhaps this Victor will betray me... The trustful strong are caught by weaker foes with ease; the wary weak are safe from strongest enemies.' No evidence is ever produced on either side of the accusation — the entire mechanism runs on unwitnessed claims exploiting a mind already primed by isolation and self-doubt to believe them."
+related: []
+evokes: [panchatantra, loss-of-friends, isolate-a-rival-via-unfalsifiable-private-claims, ego-and-paranoia-as-the-exploited-levers]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-victors-campaign-against-lively
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book I frame story, Victor's campaign against Lively. Verified verbatim against a direct extraction of the held copy; a running head falling mid-sentence in the scan's pagination is excised as printer's furniture."
+    quote: "Ah, I made a sad mistake in trusting him to the point of revealing what is in my mind. Perhaps this Victor will betray me by taking wages from both parties, or from spite at losing his job."
+canonical-instances:
+  - "a new hire cultivates the exclusive trust of a department head by positioning themselves as the only person who tells hard truths, then privately reports fabricated disloyal remarks from a long-tenured colleague — remarks no one else ever heard — and the department head's own isolation from other sources of information makes the unverifiable claim feel more credible than the colleague's actual track record."
+critical-questions:
+  - "Why does confiding in a new, barely-vetted advisor generate suspicion of a completely different, long-trusted party rather than suspicion of the new advisor themselves — is this a predictable psychological pattern, or does the fable only work because Rusty happens to be unusually gullible?"
+  - "Is there a reliable defense against this tactic short of refusing to confide in anyone new, given that normal organizational life requires bringing in new advisors who haven't yet earned a track record?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-vntxx
+name: a-first-refusal-is-answered-with-a-deeper-layer-of-argument
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than treat a first refusal as final, an advisor can push back with a new, more visceral layer of argument in place of the original point — persuasion escalating in kind rather than in volume. In the Jataka''s tale of Darimukha, when the king declines ordination once, Darimukha reaches for a harder argument next: ''Then Darimukha though the Bodhisatta said, "I cannot be ordained," did not reject him and exhorted him yet again.'''
+related: []
+evokes: [jataka, chanipata, darimukha-jataka, escalating-argument-after-first-refusal, persuasion-by-deeper-layer]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-darimukha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 378, Darimukha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Then Darimukha though the Bodhisatta said, \"I cannot be ordained,\" did not reject him and exhorted him yet again:"
+canonical-instances:
+  - "A friend who first suggests therapy gets turned down, and instead of repeating the same pitch, comes back a week later with a much more specific and personal account of what they've noticed change, rather than just asking again."
+critical-questions:
+  - "At what point does persisting past a refusal with new arguments stop being thoughtful advocacy and become simple pressure the other person can't easily push back against?"
+  - "Does the deeper layer of argument actually address why the person refused in the first place, or does it just apply more force in a different direction?"
+status: active

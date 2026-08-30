@@ -1,0 +1,19 @@
+id: lex-3xcav
+name: going-incognito-bypasses-the-flattery-bias-in-a-direct-valuation-request
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When you want an honest valuation of your own standing, check whether asking incognito, as a disinterested outsider, is the only way to get past the flattery a known asker would receive. In Aesop's 'Mercury and the Sculptor,' the god Mercury visits a sculptor's shop disguised as an ordinary customer and asks the price of a statue of himself, last and least important in the sculptor's own pitch: 'That one? Oh, I'll throw him in for nothing if you'll buy the other two.' There is no audience and no social pressure at work here — the punchline is a rational, undistorted market price that happens to be unflattering, obtainable only because the asker's identity was hidden."
+related: []
+evokes: [aesop, mercury-and-the-sculptor, incognito-valuation, bypassing-flattery-bias]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-mercury-and-the-sculptor
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'Mercury and the Sculptor.' Verified verbatim against a direct extraction of the held copy."
+    quote: "That one? Oh, I'll throw him in for nothing if you'll buy the other two."
+canonical-instances:
+  - "a founder creating a fake customer or secret-shopper account to see how their own product is actually rated against competitors, without the deference that comes from being recognized by the person answering."
+critical-questions:
+  - "Does going incognito reliably remove flattery bias, or does it only shift the distortion elsewhere — could a disinterested party still shade an answer toward what any ordinary customer is assumed to want to hear?"
+  - "Is there a cost to discovering the truth this way, given that Mercury now knows his real standing but cannot act on that knowledge without revealing how he learned it?"
+status: active

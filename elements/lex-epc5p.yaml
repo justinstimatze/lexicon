@@ -1,0 +1,18 @@
+id: lex-epc5p
+name: denial-normalizes-each-successive-escalation-of-a-warned-danger
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'A group that has decided to disbelieve a warning doesn''t hold that disbelief fixed against mounting contrary evidence — it revises the belief-threshold downward in real time, reinterpreting each escalating sign of the very danger they were warned about as still not proof, right up until the danger is total. The mechanism is distinct from one person''s escalating personal commitment to a chosen course: this is a group''s shared reassurance ratcheting down to match reality one increment behind, so that no single moment ever feels like the moment they should have acted, even as the cumulative trend was never in doubt. In the Bhadda-sala-Jataka''s companion tale, as the flood rises, the skeptical carpenters tell each other ''a wave has arisen... but it will be no deeper'' — and repeat variations of that reassurance as the water rises waist-deep, then deep as a palm-tree, then seven palm-trees, never treating any single increment as the point past which they should follow the wise carpenter''s example and flee.'
+related: []
+evokes: [jataka, dvadasanipata, samudda-vanijja-jataka, shifting-baseline-during-a-live-escalation, collective-denial-recalibrates-each-increment]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-samudda-vanijja-jataka
+    citation: 'The Jataka, or Stories of the Buddha''s Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XII (Dvadasanipata), No. 466, Samudda-vanijja-jataka. Verified verbatim against a direct extraction of the held copy.'
+    quote: 'Those of the foolish carpenter''s party, five hundred families they were, sat still, saying to one another, "A wave has arisen, to sweep over the island, but it will be no deeper." Then the ocean-wave rose waist-deep, man-deep, deep as a palm-tree, as seven palm-trees, and over the whole island it rolled.'
+canonical-instances:
+  - 'A city council that dismissed a levee-failure warning tells itself, as the river rises past the first sandbag line, that it will crest there; when it clears that line too, they tell themselves the second line will surely hold, repeating the same reassurance at each rising increment until the water is already in the streets.'
+critical-questions:
+  - 'Is this genuinely distinct from ordinary escalating commitment, or is ''the group recalibrates its reassurance at each increment'' just escalating commitment described from the observers'' side rather than the actor''s — and if so, does that distinction carry enough weight to justify treating it as a separate mechanism?'
+status: active

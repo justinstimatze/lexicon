@@ -1,0 +1,19 @@
+id: lex-ndayz
+name: self-reporting-your-own-problem-can-convert-liability-into-integrity
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Proactively surfacing a problem that occurred under your own watch — before it can be discovered independently and framed as concealment — can convert what would read as your failure into evidence of your integrity, but only if the disclosure reaches an authority actually capable of acting on it. Having oneself and one's own staff examined by internal auditors, sending investigators to the field, and routing the findings directly to the top rather than managing them quietly is a deliberate bet that early, self-initiated exposure beats later, externally-forced exposure. The timing is what does the conversion work: the identical facts, discovered independently later, would have read entirely differently."
+related: []
+evokes: [jackall-moral-mazes, "blew the whistle on himself", self-disclosure-before-discovery-converts-meaning]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch5-brady-blew-whistle-on-himself
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 5, Drawing Lines."
+    quote: "Brady immediately had himself and his staff examined by his company's internal auditors, sent them to Mexico and Venezuela to do detailed field investigations of the bribes, and had the auditors send copies of the report to the CEO."
+canonical-instances:
+  - "A lab director discovers a data-integrity problem in a study conducted under their supervision and immediately commissions an independent audit, reported directly to the funding body, rather than quietly correcting the record — and is later credited for scientific rigor rather than blamed for the original error."
+critical-questions:
+  - "Would the same self-report have been read as integrity if the underlying problem had been severe enough to end the discloser's career regardless of timing — is this mechanism actually available at every severity level, or only below some threshold where self-disclosure is still a survivable bet?"
+status: active

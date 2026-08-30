@@ -1,0 +1,21 @@
+id: lex-travw
+name: a-reactive-defense-always-lags-one-cycle-behind-a-faster-changing-target
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "A defense that correctly identifies and responds to a threat's current form still loses continuously if the threat can change form faster than the defense's detect-and-respond cycle completes, because the defense is always solving last cycle's problem while the target has already moved on to the next one. The parasite Trypanosoma brucei demonstrates this against the human immune system: \"the victim's immune system fights back with the single weapon at its command: it produces antibodies specific to the shape of the intruder's skin, or outer protein coat. But this trypanosome can change its skin into as many as a thousand shapes, and the immune system never catches up. Each time it produces an antibody specific to any one skin, brucei drops that skin and produces another from its enormous wardrobe.\" The immune system isn't fooled or outwitted in any single exchange -- its antibody is correct for the skin it targeted. It loses because correctness arrives one step too late, every time, against an opponent whose only strategy is to keep changing faster than correctness can be produced. Diagnostic move: when a reactive defense keeps failing despite each individual response being accurate, check whether the real problem is speed rather than accuracy -- a defense tuned to identify-then-respond can be defeated purely by an opponent's rate of change, and the fix is a faster cycle or a response that doesn't depend on identifying the current form at all, not a more precise one."
+related: [lex-m3ut5]
+evokes: [hyde-trickster-makes-this-world-hallmarks-of-tricksters-mind, trypanosoma-brucei, the-immune-system-never-catches-up, an-enormous-wardrobe-of-skins]
+lineage:
+  - source: primary
+    text: hyde-the-trypanosomes-shape-shifting-outpaces-the-immune-systems-reactive-targeting
+    citation: "Lewis Hyde, Trickster Makes This World: Mischief, Myth, and Art (Farrar, Straus and Giroux, 1998; Canongate Books 2008 edition), 'Hallmarks of Trickster's Mind,' on Trypanosoma brucei, the protozoan that causes African sleeping sickness. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "Once the invader is detected, the victim’s immune system fights back with the single weapon at its command: it produces antibodies specific to the shape of the intruder’s skin, or outer protein coat. But this trypanosome can change its skin into as many as a thousand shapes, and the immune system never catches up. Each time it produces an antibody specific to any one skin, brucei drops that skin and produces another from its enormous wardrobe."
+canonical-instances:
+  - "A security team correctly blocks every malware signature its scanner identifies, but the attacker regenerates a functionally identical payload with a new hash faster than each day's scan update ships, so the defense is perpetually accurate about yesterday's version and blind to today's."
+  - "A retailer correctly bans each fake account a scalping bot uses to buy limited-release sneakers, but the bot spins up new accounts faster than the ban list can be updated, so every individual ban is correct and the scalping continues uninterrupted."
+critical-questions:
+  - "Is the trypanosome's advantage really about cycle speed, or about the sheer size of its shape repertoire (a thousand skins) -- would a pathogen with only two alternating skins but the same generation speed be defeated by a sufficiently fast immune response?"
+  - "Does a defense that abandons identify-then-respond in favor of targeting something invariant (as the human immune system does with some pathogens, or as trypanosomiasis drugs that attack metabolic pathways rather than surface antigens do) actually solve this, or does it just relocate the same race to a different property?"
+  - "At what point does an attacker's rate of change itself become detectable and exploitable, since maintaining a thousand-shape wardrobe presumably costs the trypanosome something metabolically that a defense keyed to that cost, rather than to shape, might target instead?"
+status: active

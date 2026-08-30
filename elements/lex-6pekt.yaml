@@ -1,0 +1,21 @@
+id: lex-6pekt
+name: spatially-clustered-tasks-bundle-into-a-single-caste
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When designing a division of labor, resist the assumption that maximum specialization (one role per distinct task) is always the efficient endpoint. Hölldobler and Wilson's account of ant temporal-caste evolution shows the opposite pattern winning out when tasks are spatially clustered: rather than evolving one age-caste per task (which would maximize per-task role-fit), some ant species instead evolve a small number of discrete castes, each bundling together whatever tasks physically co-occur in the same part of the nest — a worker tending the queen, the eggs, and the pupae together, say, rather than three separate specialists for each. The mechanism: once tasks cluster physically, travel cost between separated tasks outweighs the fit-benefit of narrow specialization, so bundling co-located tasks into one role keeps a worker's 'mean free path' through the colony short, even at the cost of individual task-fit."
+related: [lex-c646m, lex-vuafu]
+evokes: [holldobler-wilson, the-ants, temporal-caste, division-of-labor, behavioral-discretization]
+lineage:
+  - source: primary
+    text: holldobler-wilson-1990-the-ants-ch8-caste-division-of-labor
+    citation: "Bert Hölldobler and Edward O. Wilson, The Ants (Belknap Press/Harvard University Press, 1990), Ch.8 'Caste and Division of Labor,' section on temporal castes and behavioral discretization, discussing Wilson's 1976 study of Pheidole dentata. No page numbers recoverable from the mobi extraction (front matter has no text layer); cited by chapter/section. Verified verbatim against a direct ebook-convert extraction."
+    quote: "As a result the same statistical ensemble of workers attends to more than one task. ... Thus the species has chosen to operate with a discrete caste system — comprising relatively few, easily recognized age-group ensembles. The evolutionary process leading to such a system can be called behavioral discretization (Wilson, 1976c). ... The observed discretization in Pheidole dentata appears to represent an adaptation that increases spatial efficiency. ... The mean free path of a patrolling worker is minimized by such versatility so that the least amounts of time and energy are consumed."
+canonical-instances:
+  - "Pheidole dentata's A-ensemble of workers cares for the queen, eggs, first-instar larvae, and pupae together because these are physically clustered in the nest; a worker already tending the queen assisting a nearby pupa's eclosion costs nothing extra in travel, where a narrow single-task specialist would require separate workers making separate trips to the same location."
+  - "operationally distinct from lex-c646m (Reynolds boids, local perception rules governing spatial movement with no task-allocation content) and lex-vuafu (Physarum flow-reinforcement, about network topology rather than role assignment): this atom is specifically about how spatial task-clustering determines the optimal grain of role specialization, a question neither of those atoms addresses."
+critical-questions:
+  - "Does this generalize to human organizational design — should co-located tasks (regardless of skill-similarity) be bundled into one role rather than split by function, when travel/coordination cost between separated tasks is high? The ant case is a strong existence-proof that spatial clustering can outweigh specialization-fit, but the actual crossover point (how much travel cost justifies how much specialization loss) isn't derivable from this source alone."
+  - "Is 'mean free path minimization' actually the selective pressure Hölldobler and Wilson are claiming, or could the same discretized-caste pattern arise from a simpler developmental constraint (fewer physiological states are easier to evolve than many) with the spatial-efficiency story added afterward? The source presents spatial efficiency as an adaptive explanation, not a directly tested one."
+  - "At what point does bundling too many disparate tasks into one caste start costing more in role-competence than it saves in travel — is there an upper bound on how many co-located tasks one role can absorb before the jack-of-all-trades cost outweighs the travel savings?"
+status: active

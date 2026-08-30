@@ -1,0 +1,19 @@
+id: lex-792wb
+name: a-skeptics-doubt-about-claimed-status-is-settled-by-costly-public-demonstration
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When onlookers doubt a claim about someone's status or capability, repeating the claim louder changes nothing. What settles the doubt is a single, costly, public demonstration that would be difficult or impossible to fake. In the Jataka's tale of the sunken palace, unconverted onlookers murmur that Elder Bhaddaji's claimed sainthood is just showing off: 'The unconverted said one to the other, \"Elder Bhaddaji is showing that he is a saint!\" Then the Master bade him disperse the doubt of his fellow-students.' Bhaddaji answers by lifting an entire buried palace out of a river in front of everyone. The proof isn't an argument. It's an act nobody watching could dismiss as talk."
+related: []
+evokes: [jataka, tikanipata, maha-panada-jataka, a-costly-public-demonstration-settles-doubt-that-assertion-cannot, put-up-or-shut-up-as-a-verification-mechanism]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-maha-panada-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 264, Maha-panada-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The unconverted said one to the other, \"Elder Bhaddaji is showing that he is a saint!\" Then the Master bade him disperse the doubt of his fellow-students."
+canonical-instances:
+  - "A developer's claim of having built a working prototype is met with polite skepticism from the team until they run the demo live in front of everyone, at which point the doubt disappears in a way no amount of describing the work beforehand had managed."
+critical-questions:
+  - "Does this only work for claims that admit a clean, unambiguous demonstration, or does it fail for the many status claims that can't be settled by any single public act?"
+  - "What happens to someone whose claim is true but who cannot produce a demonstration this decisive — does the absence of proof this clean get read as the claim itself being false?"
+status: active

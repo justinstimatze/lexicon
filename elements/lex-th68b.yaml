@@ -1,0 +1,30 @@
+id: lex-th68b
+name: critical-question-checklist
+type-in: frame
+type-out: composition
+_tier: atomic
+agent-instruction: "When auditing a defeasible argument, run the critical-question checklist for its scheme. The CQs are the standard defeaters; absent the scheme-match, your audit may miss the key weakness. Use the checklist as the structured probe."
+related: [lex-af9ax, lex-kebfa, lex-hesjt, lex-xhwqt, lex-utn22, lex-aut4h, lex-zd7vh, lex-kh9cr, lex-hhx7u, lex-rnwph, lex-38ygs, lex-7t3wr, lex-y7p3z, lex-tpv83, lex-chtk9, lex-9uac6, lex-xqamc, lex-jafkg, lex-ht9ud]
+evokes: [defeater-set, retraction-checklist, scheme-questions, sufficient-conditions-for-retraction]
+lineage:
+  - source: primary
+    tradition: walton
+    text: walton-reed-macagno-2008
+    citation: "Douglas Walton, Chris Reed, and Fabrizio Macagno, Argumentation Schemes (Cambridge University Press 2008), Ch.1 §3 'Critical Questions,' pp.15-16 — the meta-claim that the LIST of CQs IS the evaluation/defeasibility device (companion to lex-hesjt defeasibility-attach, which stakes the BIND-CQ-TO-SCHEME aspect of the same passage). Ch.1 §2 pp.13-15 supplies the canonical exemplar (the six CQs of argument-from-expert-opinion listed as a bound set). Ch.7 §4 'Argumentation Schemes and Critical Questions,' p.246 supplies the operational expansion ('the asking of a critical question throws doubt on the structural link between the premises and the conclusion'). PDF edition (isbn13 9780521723749). Prior citation 'ch.1 §3' was correct in section but lacked page numbers — corrected at graduation (itation-fix discipline)."
+    quote: "Here are the six basic critical questions matching the appeal to expert opinion [...] 1. Expertise Question [...] 2. Field Question [...] 3. Opinion Question [...] 4. Trustworthiness Question [...] 5. Consistency Question [...] 6. Backup Evidence Question. Someone attempting to analyze or critically evaluate a given argument can use the two devices of the argumentation scheme and the matching critical questions. The scheme identifies the form of the argument and its premises. Once the premises have been identified, they can then be questioned to see if there is support for them. The critical questions indicate other ways in which the argument can be questioned or criticized by indicating key assumptions that the worth of the argument depends on. The asking of a critical question throws doubt on the structural link between the premises and the conclusion. [Ch.1 §3 opener:] One of the features of argumentation schemes that is key to evaluating whether an argument fitting a scheme should be judged strong or weak is the list of associated critical questions — questions that can be asked (or assumptions that are held) by which a nondeductive argument based on a scheme might be judged to be (or presented as being) good or fallacious."
+  - source: practitioner
+    text: gordon-prakken-walton-2007
+    citation: "Thomas F. Gordon, Henry Prakken, and Douglas Walton, 'The Carneades model of argument and burden of proof,' Artificial Intelligence 171(10-15):875-896 (2007) — Carneades formal model where critical questions become 'exception conditions' that, if assumed, defeat the argument's premises. The Carneades operationalization deepens the formal-AI frame around CQ-checklists but is not essential for the meta-checklist claim, which graduates on the Walton 2008 Ch.1 §3 primary anchor above. No verbatim quote is claimed here."
+  - source: discovery-loop
+    text: assemblies-pass-1 decomposition exercise
+    citation: surfaced as the meta-structure shared across all 5 schemes
+canonical-instances:
+  - "for argument-from-expert-opinion, the bound set of 7 questions Walton lists; for argument-from-sign, the bound set of 3 questions; etc."
+  - "any scheme's `critical-questions:` field IS a critical-question-checklist instance"
+critical-questions:
+  - "is the CQ-list bounded and explicit, or open-ended? a scheme without a finite enumerated CQ-list is not yet using this meta-pattern — it's just hedging. The discipline: when adopting a scheme, name the specific N questions whose answers would defeat the inference"
+  - "are the CQs scheme-specific or scheme-agnostic? generic questions ('is this true? is the source credible?') don't bind to a particular argument shape and so don't function as defeaters of THIS scheme. Walton's CQs are anchored to the scheme's premises — each CQ targets a specific link"
+  - "is asking the CQ enough, or must it be answered? Walton's claim is that 'asking throws doubt' — but in practice, an unanswered CQ leaves the inference in suspended-defeat, not confirmed-defeat. The discipline: track whether CQs are unanswered (presumption stays but flagged) or answered-affirmatively (presumption retracted)"
+  - "is this distinct from lex-hesjt defeasibility-attach? CQ-checklist is the SET of questions (the data); defeasibility-attach is the OPERATION that binds the set to a scheme (the mechanism). The checklist is what defeats the scheme; defeasibility-attach is the binding that makes it defeasible"
+severity-tier: info
+status: active

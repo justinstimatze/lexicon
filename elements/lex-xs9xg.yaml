@@ -1,0 +1,21 @@
+id: lex-xs9xg
+name: a-staged-pretext-provokes-an-involuntary-guilty-reaction
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When you suspect a specific hidden actor or hidden information but have no direct evidence and cannot simply ask or interrogate, check whether a staged, unrelated-looking pretext could provoke the actor's own guilty knowledge into producing an involuntary, self-revealing reaction. The 36 Stratagems' 'Stomp the grass to scare the snake' names this diagnostic move: 'Do something unaimed, but spectacular to provoke a response of the enemy thereby giving away his plans or position, or just taunt him... this will arouse the enemy's suspicion and disrupt his thinking.' The pretext itself does no direct harm — its purpose is diagnostic, extracting a signal rather than causing damage. Only someone who already possesses the hidden knowledge or guilt will react to it at all, so the reaction is the evidence, obtained without ever directly accusing or interrogating anyone."
+related: []
+evokes: [36-stratagems, stomp-the-grass-to-scare-the-snake, induced-tell, staged-pretext, canary-trap, indirect-elicitation]
+lineage:
+  - source: primary
+    text: taylor-2013-36-stratagems-13-stomp-the-grass
+    citation: "Peter Taylor, The Thirty-Six Stratagems: A Modern-Day Interpretation of a Strategy Classic (Infinite Ideas, 2013), Stratagem 13, 'Stomp the grass to scare the snake.' Verified verbatim against a direct pdftotext extraction of the held copy."
+    quote: "Do something unaimed, but spectacular to provoke a response of the enemy thereby giving away his plans or position, or just taunt him."
+canonical-instances:
+  - "the intelligence-tradecraft 'canary trap': an investigator gives each of several suspects a slightly different, uniquely-worded version of a document; whichever wording later leaks identifies the source, because only the person holding that specific version could have produced the leaked text — the leak itself is the involuntary tell, obtained without ever interrogating anyone directly."
+  - "operationally distinct from generic provocation or taunting an opponent to unsettle them: the goal here is not to rattle the target into a worse decision, it is specifically to extract information (their position, their guilt, their hidden knowledge) via a reaction that only someone possessing that hidden thing would produce."
+critical-questions:
+  - "What happens when an innocent party reacts anyway — out of unrelated anxiety, unrelated guilt, or simple surprise — and is misread as the guilty party the pretext was meant to expose?"
+  - "Does the pretext need to be genuinely unrelated to the suspicion in the target's eyes to work, and if the target suspects they are being tested, does the whole mechanism collapse into a game of who is better at appearing unreactive?"
+  - "Once a pretext of this kind is used and becomes known (a canary trap that leaks, a staged provocation that is recognized after the fact), does trust in future ordinary-looking events collapse for everyone, not just the guilty party?"
+status: active

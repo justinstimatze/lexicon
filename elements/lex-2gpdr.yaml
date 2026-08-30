@@ -1,0 +1,19 @@
+id: lex-2gpdr
+name: give-a-defeated-adversary-a-sanctioned-role-instead-of-discarding-him
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Instead of leaving a defeated antagonist destroyed or abandoned, a victor can give him a sanctioned ongoing role that satisfies his original underlying need without further harm, converting an enemy into a subordinate ally. In the Jataka''s tale of Sutano, the hero resettles the yakkha this way: "Why dwell in the forest? come, I will settle you by the city gate and make you get the best rice." ... "so telling the blessings of virtue and the misery of vice, he established the yakkha in the five virtues."'
+related: [lex-ecduj]
+evokes: [jataka, sattanipata, sutano-jataka, integrate-a-defeated-adversary, enemy-becomes-subordinate-ally]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sutano-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 398, Sutano-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Why dwell in the forest? come, I will settle you by the city gate and make you get the best rice."
+canonical-instances:
+  - "After winning a bruising proxy fight, a CEO offers the activist investor a board seat with real oversight responsibilities rather than shutting them out entirely, channeling their scrutiny into the company's own governance instead of leaving them outside looking for the next fight."
+critical-questions:
+  - "Does integrating a defeated adversary genuinely change their underlying incentives, or does it just relocate the same appetite into a position with more legitimate cover?"
+  - "What ongoing risk does the victor accept by keeping a former threat close and resourced, rather than simply removing them from the picture?"
+status: active

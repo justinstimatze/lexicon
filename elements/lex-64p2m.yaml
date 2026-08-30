@@ -1,0 +1,19 @@
+id: lex-64p2m
+name: pattern-knowledge-reads-a-backward-step-as-attack-preparation
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "The same physical movement — stepping backward — can be correctly read as either retreat or attack-preparation depending entirely on whether the observer has specific behavioral knowledge of the pattern involved; without that knowledge, the two are indistinguishable and easy to misread in the more flattering direction. In the Jataka's tale of the mendicant and the ram, a wise merchant reads the same movement correctly and calls out the danger before the charge lands: 'Brahmin, be not so rash this beast to trust, Else will he haste to lay thee in the dust, For this the ram falls back, To gain an impetus for his attack.'"
+related: []
+evokes: [jataka, catukkanipata, cammasataka-jataka, behavioral-pattern-knowledge-disambiguates-retreat-from-preparation, the-same-movement-reads-oppositely-with-and-without-expertise]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-cammasataka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 324, Cammasataka-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Brahmin, be not so rash this beast to trust, Else will he haste to lay thee in the dust, For this the ram falls back, To gain an impetus for his attack."
+canonical-instances:
+  - "A new hiker sees a moose take a few steps back and relaxes, thinking it's giving them space, while an experienced ranger nearby recognizes the same movement as the animal winding up to charge and immediately shouts a warning to move away."
+critical-questions:
+  - "Is the merchant's specific expertise about rams common knowledge that the mendicant simply ignored, or genuinely specialized knowledge most people lack — put differently, is the mendicant's failure vanity, plain ignorance, or some mix of the two?"
+  - "How does someone without the relevant behavioral expertise protect themselves from this kind of misreading in the moment, short of always assuming the least flattering interpretation of an ambiguous animal or human signal?"
+status: active

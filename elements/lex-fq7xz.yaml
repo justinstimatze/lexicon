@@ -1,0 +1,20 @@
+id: lex-fq7xz
+name: only-the-unconditionally-restraining-virtue-earns-the-highest-reward
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When several internal motivators all claim to deserve reward, the tiebreaker isn't which one feels noblest — it's which one's effect holds steady regardless of what it's aimed at. Hope and faith both cut either way, pushing people toward ruin as often as success depending on the object; glory rewards the lucky and the foolish along with the deserving. Only a motivator whose restraining effect never flips, no matter the circumstance, earns unconditional trust. In the Jataka's tale of Sudhabhojana, the ascetic Kosiya judges four heavenly claimants this way, rejecting Faith — \"Through thee, O Faith, adultery is rife, Forsaking good thou lead'st a sinful life. No claim hast thou to seat or water-pot: Much less ambrosial food. Begone, I like thee not.\" — while granting Honour the prize precisely because her effect is invariant: \"Just as the shore will stem the rush of billows from the main, So Honour too will oft the course of wicked folk restrain.\""
+related: []
+evokes: [jataka, asitinipata, sudhabhojana-jataka, outcome-contingent-motivation, unconditional-restraint]
+lineage:
+  - source: primary
+    text: jataka-francis1905-sudhabhojana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XXI (Asitinipata), No. 535, Sudhabhojana-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Through thee, O Faith, adultery is rife, Forsaking good thou lead'st a sinful life. No claim hast thou to seat or water-pot: Much less ambrosial food. Begone, I like thee not. [...] Just as the shore will stem the rush of billows from the main, So Honour too will oft the course of wicked folk restrain."
+canonical-instances:
+  - "A hiring committee debates whether to weight for passion, enthusiasm about the mission, or integrity, doing what they said regardless of how they feel about it, and settles on integrity as the harder requirement, since passion predicts great work only while the work stays exciting, while integrity holds through the boring stretch too."
+  - "A recovery program stops telling members to 'find their motivation' and instead builds a fixed daily commitment structure, reasoning that motivation is high some days and gone on others, while a structure that doesn't ask how you feel about it holds on the bad days too, which is exactly when it's needed most."
+critical-questions:
+  - "Kosiya never tests whether Honour's restraint actually holds in every case, only asserts it in verse after verse — is 'restrains unconditionally' a claim that could ever be falsified, or is it structurally unfalsifiable by design, true by definition of whatever gets called Honour?"
+  - "Hope and Faith are judged by outcomes that depend on their object, a bad harvest, a false belief, while Honour is credited only for the restraint it provides and never blamed for any it fails to provide — is the comparison fair, or does it selectively count successes for the winner and failures for the losers?"
+status: active

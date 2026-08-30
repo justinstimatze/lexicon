@@ -1,0 +1,18 @@
+id: lex-junuh
+name: withholding-any-response-to-end-an-unwanted-solicitation
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'A target of persistent, unwanted solicitation can recognize that any reply at all, even an argumentative refusal, grants the solicitor further material to continue the exchange, and deliberately withhold response entirely, correctly predicting that silence ends the encounter faster than argument would. In the Jataka''s tale of the chaste king, the princess reasons through exactly this calculation before saying nothing to the disguised Sakka: "Then the princess began to think, ''If I allow him to talk and prate, he will come again and again. I will have nothing to say to him now.'' So she said nothing at all."'
+related: []
+evokes: [jataka, ekadasanipata, udaya-jataka, strategic-silence, non-engagement-as-refusal]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-udaya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 458, Udaya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Then the princess began to think, \"If I allow him to talk and prate, he will come again and again. I will have nothing to say to him now.\" So she said nothing at all."
+canonical-instances:
+  - "A moderator stops replying to a commenter who twists every rebuttal into a fresh argument; withdrawing the feedback of engagement, she bets, closes the thread faster than any counter-argument could."
+critical-questions:
+  - "In this tale the solicitor is testing her, and silence happens to be read as passing the test — does the same silence work against a solicitor who isn't testing anything and simply escalates when ignored?"
+status: active

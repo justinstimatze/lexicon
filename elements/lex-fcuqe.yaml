@@ -1,0 +1,22 @@
+id: lex-fcuqe
+name: which-virtues-exist-tracks-economic-conditions-not-timeless-morality
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: "The entire roster of what counts as a virtue in a given era is determined by which qualities that era's economic and social conditions actually require for survival and success, not by any fixed, eternal moral order. As economic conditions shift, the specific virtues praised and cultivated shift correspondingly, because the underlying demands that made the old virtues valuable have themselves changed. Gilman traces the shift directly: 'In the hunting and fighting period the best hunter and fighter was the best man... In the long agricultural and military periods... the virtues of industry and patience were extolled... Slowly the industrial era dawned... Physical courage has sunk: obedience, patience, faith, and the rest do not stand as they did.'"
+related: []
+evokes: [women-and-economics, chapter-xv, physical-courage-has-sunk, we-praise-and-value-to-day-as-always-the-virtues-whereby-we-live, the-virtue-roster-tracks-what-conditions-actually-require]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-xv
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter XV. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "In the hunting and fighting period the best hunter and fighter was the best man, praised and honored by his tribe. The virtues cultivated were such as enabled the possessor to hunt and kill most successfully... In the long agricultural and military periods we see the same thing. In the peasant the virtues of industry and patience were extolled... In the soldier the virtues of courage and obedience were extolled... Slowly the industrial era dawned and grew... With this change in economic conditions has changed the scale of virtues. Physical courage has sunk: obedience, patience, faith, and the rest do not stand as they did. We praise and value to-day, as always, the virtues whereby we live."
+canonical-instances:
+  - "A subsistence farming community prizes physical endurance and weather-reading above all else; a generation later, once the community shifts to wage labor in factories, punctuality and rule-following displace endurance as the qualities parents actually train their children toward, because the economic demands that made endurance valuable no longer apply."
+  - "A pre-internet sales profession prizes memorization and quick verbal recall as its defining virtue; once information becomes instantly searchable, the profession's actual scale of virtue shifts toward synthesis and judgment, because the economic value of raw recall has collapsed."
+  - "A guild-era craft trade prizes strict adherence to inherited technique as its highest virtue; once mass production makes standardized technique available to anyone, the trade's surviving virtue becomes original design, because conformity to inherited method no longer produces any economic advantage."
+critical-questions:
+  - "Are there any virtues that hold constant across every economic era regardless of conditions -- honesty, for instance -- or does Gilman's claim actually extend to cover even those, making the list of genuinely timeless virtues empty rather than merely short?"
+  - "Does the causal direction really run from economic conditions to virtue-selection, or could a society's independently-held moral commitments sometimes shape which economic conditions it's willing to adopt in the first place, reversing the arrow at least some of the time?"
+  - "If virtues really do track economic conditions this tightly, how should a person evaluate a virtue their own era praises -- is there any standpoint from which to judge whether a currently-praised virtue is actually good, or does the claim collapse into pure moral relativism with no external check?"
+status: active

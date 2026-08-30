@@ -1,0 +1,21 @@
+id: lex-sen3y
+name: warning-against-carelessness-does-nothing-against-a-planned-betrayal
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "When you ask someone to be careful with your safety, you are implicitly betting that the danger is accidental -- that carelessness, not intent, is what threatens you. That bet fails completely if the other party's harm was planned from the start, because a deliberate plan does not need a moment of carelessness to succeed. In Radin's Winnebago Trickster cycle, Trickster accepts a ride on a turkey-buzzard's back and, growing uneasy in the air, pleads, 'Be very careful, younger brother, be very careful, for you might drop me.' The bird obliges outwardly and keeps carrying him properly -- there is no carelessness at all. But the bird was never at risk of an accident: 'the turkey-buzzard, however, was busily looking for a hollow tree. He wanted to play a trick on Trickster.' It finds one, flies close, and drops Trickster in on purpose. Trickster's plea addressed the wrong threat model entirely, and no amount of the bird 'being careful' was ever going to protect him from a plan that careful execution was actually serving. Diagnostic move: when you feel unsafe with someone and your instinct is to ask them to be more careful, check whether the risk you're worried about is really an accident risk at all -- a plea for care only protects you against negligence, and does nothing at all against calculation."
+related: []
+evokes: [radin-winnebago-trickster-cycle, wakdjunkaga, he-wanted-to-play-a-trick-on-trickster, he-has-turned-the-tables-on-me]
+lineage:
+  - source: primary
+    text: radin-trickster-asks-the-turkey-buzzard-to-be-careful-while-it-plans-to-drop-him
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'The Winnebago Trickster Cycle,' episode 17. Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "'Be very careful, younger brother, be very careful, for you might drop me.' So the bird continued to carry Trickster around properly, and the latter was enjoying himself hugely. The turkey-buzzard, however, was busily looking for a hollow tree. He wanted to play a trick on Trickster. After searching for a while he saw a hollow tree, one entirely without branches. He flew rather close to it and then dropped Trickster right down into it. That is exactly what happened. 'Alas! That horrible thing! He is indeed a very wicked being. He has turned the tables on me.'"
+canonical-instances:
+  - "A homeowner tells a contractor to 'be extra careful with the foundation inspection' because they're worried about an honest oversight, not realizing the contractor is deliberately underreporting damage to justify a bigger, more profitable repair job later -- the care they asked for was never the risk they were actually facing."
+  - "An employee asks a colleague reviewing their code to 'be careful not to miss anything important' before a promotion decision, assuming the risk is an honest oversight, when the colleague is in fact deliberately searching for anything usable to make the employee look bad in a competition for the same role."
+critical-questions:
+  - "Could Trickster have detected the deliberate plan before the drop, given that the bird's outward behavior, carrying him properly, gave no visible sign of the search for a hollow tree -- what would distinguishing genuine care from a cover for a plan actually require?"
+  - "Does asking for care ever help even against a deliberate threat, for instance by making the planner's job harder or riskier to execute unnoticed, or is the plea purely symbolic once the other party's intent is already fixed?"
+  - "Is Trickster's own history of deceiving others in this same cycle relevant here -- does the story invite the reader to see this as a fitting turnabout, 'he has turned the tables on me,' rather than a pure cautionary tale about misjudging a threat?"
+status: active

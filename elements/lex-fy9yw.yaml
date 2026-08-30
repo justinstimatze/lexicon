@@ -1,0 +1,19 @@
+id: lex-fy9yw
+name: beating-an-inert-stand-in-proves-nothing-against-the-real-thing
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When you or a group easily overpowers a safe, inert facsimile of a threat, check whether that experience is being mistaken for readiness against the actual, live version of the threat. Aesop's 'The Dogs and the Fox' has a pack of dogs proudly tear apart a dead lion's mask, until a fox deflates the display: 'You think yourselves very brave, no doubt; but if that were a live lion you'd find his claws a good deal sharper than your teeth.' The dogs' confidence was earned entirely against a trophy incapable of resistance. Their bravery isn't the problem here — the specific error is trusting a safe stand-in to stand in for the real thing at all."
+related: []
+evokes: [aesop, the-dogs-and-the-fox, false-confidence-from-a-safe-stand-in, trophy-mistaken-for-readiness]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-dogs-and-the-fox
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Dogs and the Fox.' Verified verbatim against a direct extraction of the held copy."
+    quote: "You think yourselves very brave, no doubt; but if that were a live lion you'd find his claws a good deal sharper than your teeth."
+canonical-instances:
+  - "sparring only against compliant training partners and concluding you're ready for a real confrontation, or 'destroying' a strawman version of an argument and claiming victory over the actual position it stood in for."
+critical-questions:
+  - "Is there a way to build genuine confidence against a real threat using only safe stand-ins, or does any substitute inherently fail to transfer the specific readiness that only the live version can test?"
+  - "Would the dogs have recognized the substitution on their own without the fox's intervention, or does mistaking a safe trophy for proof of capability require an outside observer to name the gap?"
+status: active

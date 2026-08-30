@@ -1,0 +1,19 @@
+id: lex-b23z3
+name: a-premature-reveal-exposes-a-disguised-identity-before-its-safe
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "An identity concealed within a foster role can be exposed not by external investigation but by its own premature, unguarded display — the disguise holds right up until the disguised party acts out of character too early, at a moment when the reveal is still dangerous rather than safe. In the Jataka's tale of the crow and the cuckoo, a crow raises a cuckoo's egg as her own, but the chick cries out with a cuckoo's voice while still unfledged: 'The young bird while still unfledged uttered a cuckoo cry prematurely. The crow thought, \"This young bird even now utters a strange note. [103] What will it do, when it is older?\" And so she killed it by pecking it with her beak and threw it out of the nest.'"
+related: []
+evokes: [jataka, catukkanipata, kokalika-jataka, an-unguarded-display-exposes-a-disguise-too-early, premature-self-revelation-triggers-violent-rejection]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kokalika-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 331, Kokalika-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The young bird while still unfledged uttered a cuckoo cry prematurely. The crow thought, \"This young bird even now utters a strange note. [103] What will it do, when it is older?\" And so she killed it by pecking it with her beak and threw it out of the nest."
+canonical-instances:
+  - "An undercover operative maintaining a cover identity for months slips into their real accent under stress during a routine conversation, well before the operation reaches its planned conclusion — the tell surfaces at the worst possible moment rather than when extraction would have been safe."
+critical-questions:
+  - "Is the timing genuinely what determines the outcome, or would the crow have eventually detected and rejected the cuckoo chick regardless of when the cry happened, meaning 'prematurity' isn't actually the operative variable?"
+  - "Does this pattern only apply to identities that are inherently temporary or foster-based, or does it also describe how any performed identity — professional, social — tends to slip under stress before the performer intends?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-u8rrg
+name: locking-allies-out-of-an-unverified-windfall-doubles-the-eventual-loss
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Using deception to exclude potential allies from a share of an unconfirmed windfall creates a second point of failure on top of the original risk, since the deception itself carries its own cost regardless of whether the windfall turns out to be real. In the Jataka's tale of the phantom catch, a fisherman believing he's hooked an enormous fish has his wife stage a fake domestic quarrel specifically to keep neighbors from coming to demand a share, all before anyone has confirmed there's actually a fish on the line at all. There is no fish; the snag was never a catch, and the deception staged to protect a nonexistent windfall costs the fisherman his eyesight from fruitless effort and the wife a beating for the fabricated quarrel — a double loss layered entirely on top of a premise no one had bothered to verify."
+related: []
+evokes: [jataka, ekanipata, ubhatobhattha-jataka, excluding-allies-from-an-unverified-windfall, deception-adds-a-second-failure-point-to-unconfirmed-risk]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-ubhatobhattha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 139, Ubhatobhattha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"What a fine fish!\" thought he."
+canonical-instances:
+  - "A team lead who believes their group is about to land a massive new client tells coworkers a fabricated story to keep other departments from being looped in on the resourcing, before the deal has actually been confirmed, and the deal falls through, leaving both the fabricated story and the excluded departments' trust as separate damage on top of the lost opportunity."
+critical-questions:
+  - "Would verifying the windfall before taking any exclusionary action have been costless compared to the eventual double loss, or does urgency sometimes make waiting for confirmation genuinely impractical?"
+  - "Is the deception itself the real error here, or would locking out allies from a confirmed, real windfall using honest means carry any of the same risk this story illustrates?"
+status: active

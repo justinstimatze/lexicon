@@ -1,0 +1,20 @@
+id: lex-d5wnq
+name: a-messengers-own-posture-encodes-the-messages-classification-level
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than trusting a courier to verbally announce how sensitive a message is — which itself risks the sensitive fact leaking to the wrong ears — train the courier to signal the classification through their own physical position, something everyone present reads instantly without a word being said about what''s being classified or why. In the Maha-Ummagga-Jataka, Mahosadha''s spy parrot reports intelligence gathered across the kingdom, and where it perches tells the room how to react before it says anything: "If news from any place was for the sage''s ears alone, he would perch on his shoulder; if Queen Amara was also to hear it, he perched on his lap; if the company might hear it, upon the ground." When he returns with word of a rival''s assassination plot, "he perched on the shoulder, and at that sign the company retired, knowing it to be secret" — the room clears itself before a single word of the actual report is spoken.'
+related: []
+evokes: [jataka, mahanipata, maha-ummagga-jataka, classification-signal, courier-posture, compartmentalized-intelligence]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-maha-ummagga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 546, Maha-Ummagga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: 'Now the parrot''s custom was this: If news from any place was for the sage''s ears alone, he would perch on his shoulder; if Queen Amara was also to hear it, he perched on his lap; if the company might hear it, upon the ground. This time he perched on the shoulder, and at that sign the company retired, knowing it to be secret.'
+canonical-instances:
+  - "A newsroom trains its field stringers to file breaking copy through three differently named channels depending on sensitivity — a public wire, an editors-only queue, and a locked legal-review queue — so which channel a file arrives on tells the desk how to handle it before anyone reads a word of the content."
+  - "An executive assistant develops a habit of standing versus sitting when delivering messages to her boss during meetings — standing means 'this can wait,' sitting means 'clear the room' — so the room reads the urgency from her posture alone, without the assistant having to announce anything about the message itself in front of everyone."
+critical-questions:
+  - "The system depends entirely on the courier reliably choosing the right posture every time — what happens once, under stress or ambiguity, the courier misjudges which classification level a piece of news actually belongs to?"
+  - "A posture code that everyone in the room can read is also legible to anyone hostile watching the room — does training observers to recognize 'shoulder means secret' end up broadcasting exactly the classification information the code was meant to protect?"
+status: active

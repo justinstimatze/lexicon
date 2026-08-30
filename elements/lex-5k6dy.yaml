@@ -1,0 +1,19 @@
+id: lex-5k6dy
+name: a-status-marker-is-falsely-transferred-across-unrelated-domains
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A trait that genuinely marks status within one category can be assumed, without any actual justification, to mark the same status in a completely different category, simply because the trait happens to be physically present in both. In the Jataka's tale of the merchant's daughter, she observes that the lead bull in a herd has a hump and concludes the pattern must generalize: 'In the cow tribe, the leader has a hump. I suppose it's the same with men. That must be a right, royal man, and I must go and be his humble follower.' She elopes with a hunchback on this reasoning alone. Nothing about why a hump signals leadership among cattle (a specific correlate of size and dominance within that species) has any bearing on humans, where the same physical feature carries no such correlation — the marker was borrowed across categories with none of the reasoning that made it meaningful in its original one."
+related: []
+evokes: [jataka, dukanipata, vina-thuna-jataka, a-markers-meaning-does-not-transfer-across-unrelated-categories, superficial-pattern-matching-substitutes-for-a-missing-causal-link]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-vina-thuna-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 232, Vina-thuna-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "In the cow tribe, the leader has a hump. I suppose it's the same with men. That must be a right, royal man, and I must go and be his humble follower."
+canonical-instances:
+  - "An investor notices that several successful founders they admire dropped out of college, and concludes dropping out itself must be a marker of exceptional talent, funding a founder largely on that basis alone, mistaking a correlate that happened to be visible in a few winners for a transferable signal of quality."
+critical-questions:
+  - "Is the daughter's error really about false generalization, or is there a more specific mistake happening — she never actually verified that the bull's hump correlates with dominance among cattle either, so is she pattern-matching on two unexamined assumptions rather than one?"
+  - "How would someone in her position have caught this before acting on it — is there a general test for whether a trait that means something in one domain plausibly carries the same meaning somewhere else, or does this kind of error only get caught after the fact?"
+status: active

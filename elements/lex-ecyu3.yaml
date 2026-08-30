@@ -1,0 +1,22 @@
+id: lex-ecyu3
+name: survival-priority-reorders-by-current-failure-timescale-not-fixed-rank
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Use a generic priority ranking by time-to-death (air over water over food, roughly 3 minutes / 3 days / 3 weeks) only as a starting default, never as a fixed rule. The actual priority in a given situation has to be re-derived from which threat's timescale the current environment is compressing right now. Cold, wind, and rain can kill in minutes in icy conditions — faster than the generic water clock — which makes shelter the real first priority in that environment even though 'water' normally ranks above 'shelter' on the default list. Before acting on a memorized priority order, ask which specific threat in front of you is currently running fastest, and let that answer set the actual order, overriding whatever the textbook rank says."
+related: [lex-kwswc]
+evokes: [rule-of-threes, sas-survival-handbook, priority-reordering, environmental-compression, shelter-over-water]
+lineage:
+  - source: primary
+    text: wiseman-2014-sas-survival-handbook-priorities-water-section
+    citation: "John 'Lofty' Wiseman, SAS Survival Handbook, 3rd edition (William Collins/HarperCollins, 2014), opening of the Priorities/Water section. No page numbers survive the epub text extraction; cited by section heading. Verified verbatim against direct extraction."
+    quote: "In general the human body can survive for 3 minutes without air: 3 days without water: 3 weeks without food. There are always exceptions to this... It takes a healthy person quite a long time to die of starvation, for the body can use up its stored resources, but exposure to wind, rain and cold can be fatal even in temperate climates and death comes in only minutes in the icy waters of the poles. Food is rarely the first priority. Even in those places where it is difficult to find there are usually other problems to face first. Shelter will often be the prime necessity in extremes of climate or temperature—not just in the frozen polar regions or the baking deserts, but for walkers trapped by mist on a hillside."
+canonical-instances:
+  - "A hiker lost on a misty hillside in temperate weather: food is weeks away as a threat and water is days away, but exposure can kill in hours if the person is wet and exposed to wind — shelter jumps to first priority even though the generic rule of threes ranks it below water."
+  - "Polar and desert extremes given by Wiseman as bookend cases: the frozen-poles case compresses the exposure clock to minutes; the baking-desert case compresses the water clock instead (the opposite override, where water genuinely does need to move ahead of shelter because heat and dehydration are the fast-acting threats there). Same reordering mechanism, opposite direction, driven by which threat's timescale the specific environment compresses."
+  - "operationally distinct from lex-kwswc resuscitation-effort-tracks-perceived-worth-not-clinical-presentation: lex-kwswc names a triage bias — effort allocated by a patient's perceived social worth rather than their actual clinical need. This atom names a legitimate re-derivation — priority correctly reordered by which physical threat's timescale the environment is actually compressing, with no bias involved. Both depart from a naive fixed-priority default. lex-kwswc's departure names a bias worth catching and correcting. This atom's departure names the system doing exactly what it should when conditions genuinely change."
+critical-questions:
+  - "Which threat's timescale is the current environment actually compressing, and is that judgment based on the specific conditions in front of you or on a generic assumption about the terrain type?"
+  - "Does the generic rule of threes still function as a useful starting default even when it gets overridden constantly in practice? Wiseman states it first before every override — the default gives a fast initial anchor, and the skill is knowing when and how far to depart from it, not discarding it."
+  - "Is the override being applied correctly, or is a genuinely urgent threat (dehydration in a hot, dry environment) being deprioritized because 'shelter first' was memorized as the general rule without checking whether this environment actually compresses the shelter clock?"
+status: active

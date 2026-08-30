@@ -1,0 +1,19 @@
+id: lex-46eeg
+name: withholding-bad-news-protects-the-tellers-self-image
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When someone withholds a negative career judgment or bad news from a colleague, the usual explanation offered is kindness toward the recipient — but the actual motive can run the other direction: withholding protects the teller's own self-image as a kind, sensitive, compassionate person, and the recipient's wellbeing is a secondary consideration if it's a consideration at all. This relocates the ethical question. The person avoiding the hard conversation isn't sacrificing their comfort for the recipient's feelings; they're choosing their own comfort and calling it consideration for someone else. Naming this explicitly reframes 'I didn't want to hurt them' as a claim worth checking against 'I didn't want to feel like the kind of person who hurts people' — the two produce identical silence but very different diagnoses of whose interest was actually served."
+related: [lex-76uza, lex-vstwz]
+evokes: [jackall-moral-mazes, "people want to be thought of as kind, sensitive, and compassionate", withholding-as-self-protection-not-kindness]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch3-withholding-protects-teller
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 3, Section III."
+    quote: "Why does it happen? Because people are afraid of confrontations. People want to be thought of as kind, sensitive, and compassionate. Being compassionate has a good significance in our society. The easy way out is not to do anything, don't tell the guy."
+canonical-instances:
+  - "A manager avoids telling an employee their performance is at risk for months, framing the silence as not wanting to demoralize them, right up until the employee is terminated with no warning they'd had time to act on."
+critical-questions:
+  - "Would the withholder still avoid the conversation if no one — including themselves — would ever know they'd chosen silence, or does the behavior only make sense once their own self-image is part of the audience being managed?"
+status: active

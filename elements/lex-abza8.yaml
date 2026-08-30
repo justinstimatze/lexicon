@@ -1,0 +1,21 @@
+id: lex-abza8
+name: a-ban-on-moving-or-altering-something-protects-a-single-sanctioned-meaning
+type-in: claim
+type-out: frame
+_tier: atomic
+agent-instruction: "A rule against moving, touching, or altering something is often described as protecting the object itself, but its deeper function can be protecting a single, official meaning of that object from ever multiplying into several -- because meaning is created by context, and forbidding a thing from changing context is the most direct way to forbid it from meaning more than one thing. Hyde draws this out by contrast: Odysseus is permitted to carry an oar inland, where a whole village mistakes it for a winnowing fan, and no rule is broken -- 'there is no prohibition on carrying an oar inland, so any traveler may multiply its meanings.' Apollo's cattle are different only because a rule exists: 'there is a prohibition on moving the cattle of Apollo; only a thief can make them signify.' From this Hyde draws the general principle: 'a prohibition on theft is an attempt to constrain meaning, to stop its multiplication, to preserve an \"essence,\" the \"natural,\" the \"real.\"' The rule isn't primarily about keeping the cattle in one place; it's about keeping their meaning singular -- immortal, sacred, untouchable -- by making sure no one can put them in a new context where they'd start meaning something else. Diagnostic move: when you encounter a rule against moving, altering, or repurposing something that seems out of proportion to any practical harm the movement itself would cause, ask what fixed, singular meaning that rule is actually protecting -- the prohibition may be less about the object's location than about preventing the object from acquiring a second, competing meaning."
+related: []
+evokes: [hyde-trickster-makes-this-world-mere-bellies, odysseuss-oar-and-winnowing-fan, a-prohibition-on-theft-constrains-meaning, only-a-thief-can-make-them-signify]
+lineage:
+  - source: primary
+    text: hyde-a-ban-on-moving-apollos-cattle-protects-their-single-sanctioned-meaning
+    citation: "Lewis Hyde, Trickster Makes This World: Mischief, Myth, and Art (Farrar, Straus and Giroux, 1998; Canongate Books 2008 edition), '\"Mere Bellies,\"' contrasting Odysseus's oar-carrying task in the Odyssey with the prohibition on moving Apollo's cattle. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "To put it another way, a prohibition on theft is an attempt to constrain meaning, to stop its multiplication, to preserve an “essence,” the “natural,” the “real.” There is no prohibition on carrying an oar inland, so any traveler may multiply its meanings. There is a prohibition on moving the cattle of Apollo; only a thief can make them signify."
+canonical-instances:
+  - "A company's strict policy against employees ever describing a product using language other than the approved marketing copy isn't really about accuracy; it's about preventing the product from acquiring any competing meaning in the public's mind besides the one the company has sanctioned."
+  - "A religious tradition's prohibition on translating a sacred text into vernacular languages is defended as preserving fidelity, but its actual effect is to keep the text's meaning singular and controlled by those who read the original, since translation is exactly the kind of contextual movement that would let new meanings multiply."
+critical-questions:
+  - "Is this reading too cynical about prohibitions that have genuine practical justifications, like theft causing real material loss, when the meaning-control effect could be an incidental byproduct rather than the actual purpose of the rule?"
+  - "Does every rule against movement or alteration serve this meaning-control function, or does the pattern only apply to objects and texts whose value is primarily symbolic to begin with, making it inapplicable to prohibitions on moving purely functional, meaning-neutral property?"
+  - "If prohibitions do function to keep meaning singular, is that function always illegitimate or oppressive, or are there cases, like preserving a historical artifact's context, where constraining multiplication of meaning serves a value worth protecting?"
+status: active

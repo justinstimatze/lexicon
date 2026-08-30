@@ -1,0 +1,20 @@
+id: lex-9dkrv
+name: an-unembellished-factual-account-extracts-a-concession-no-request-could
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than asking someone directly to admit fault or make amends, state plainly and without embellishment what actually happened and what it cost — then stop. Let the listener reach the concession on their own, since a conclusion they arrive at themselves is harder to resent or retract than one extracted by a direct demand. In the Vessantara-Jataka, when King Sanjaya asks his grandson Jali to describe his mother''s life in exile, the boy doesn''t ask for anything; he simply describes her plainly: "Our mother''s thin and yellow grown by seeking for our food, exposed to heat, exposed to wind in the beast-haunted wood... Beneath her armpits clotted dirt, her hair in topknot bound." Only after laying out the bare facts does he add one flat observation — "It is the custom in the world that each man loves his son; but in one case it would seem your honour has not done" — and the king immediately volunteers the concession himself: "It was ill done of me indeed."'
+related: []
+evokes: [jataka, mahanipata, vessantara-jataka, unembellished-account, self-volunteered-concession, indirect-persuasion]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-vessantara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 547, Vessantara-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "It is the custom in the world that each man loves his son; but in one case it would seem your honour has not done."
+canonical-instances:
+  - "An adult child, asked by an estranged parent how things have been, describes plainly the missed graduations and the silence during a hospital stay, without a single request attached — the parent, unprompted, offers the apology the child never directly asked for."
+  - "A junior engineer, reporting on a production outage to leadership, states only what happened and its measured cost in downtime and lost orders, with no recommendation and no blame attached — the executive who skipped the code review volunteers the acknowledgment before anyone has to name them."
+critical-questions:
+  - "This works because the listener has enough conscience or social pressure to volunteer the concession — what happens when the listener simply absorbs the factual account and offers nothing, leaving the speaker with an accurate but unacknowledged grievance?"
+  - "A child stating hard facts to a grandfather carries a specific kind of moral authority that an adult peer making the same statement might not — how much of this mechanism's power depends on who is delivering the account rather than the account itself?"
+status: active

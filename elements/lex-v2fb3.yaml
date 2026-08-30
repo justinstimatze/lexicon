@@ -1,0 +1,19 @@
+id: lex-v2fb3
+name: object-to-being-covertly-tested-even-after-the-test-vindicates-you
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Being covertly tested by someone more powerful is a grievance in its own right, separate from whatever the test reveals — even a fully benevolent test that ends in vindication and an apology can still be refused as illegitimate, because it treated the subject as an instrument of the tester's uncertainty rather than as a party owed a direct question. In the Jataka's tale, the god Sakka secretly makes an ascetic's food vanish for three days purely to find out whether the ascetics' austerity is genuine or performed. When Sakka reveals the ruse and asks forgiveness, the ascetic doesn't simply accept the compliment embedded in having passed — he objects to having been tested at all: \"We are no tumblers, to make sport for thee, / No kinsmen nor no friends of thine are we. / Then why, O king divine, O thousand-eyed, / Thinkst thou the sages must thy sport provide?\""
+related: []
+evokes: [jataka, pakinnakanipata, bhisa-jataka, objecting-to-covert-testing-independent-of-outcome, being-treated-as-an-instrument-of-someone-elses-doubt]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-bhisa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XIV (Pakinnaka-Nipata), No. 488, Bhisa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "We are no tumblers, to make sport for thee, / No kinsmen nor no friends of thine are we. / Then why, O king divine, O thousand-eyed, / Thinkst thou the sages must thy sport provide?"
+canonical-instances:
+  - "A job candidate discovers, after being hired, that a hiring manager fabricated a scheduling conflict during the interview process specifically to see how they'd react under stress — and raises the deception as a problem in its own right at their first one-on-one, despite having handled it well and gotten the offer."
+critical-questions:
+  - "The ascetic's objection lands here because Sakka is genuinely a superior with genuine power over him — a god testing sages. Does the same objection carry the same weight between rough equals, where either party could just as easily have run the test the other way?"
+  - "Sakka's stated reason for testing was uncertainty about whether the ascetics were 'released from desire only, or sages' — a real question he had no other way to answer. Does having no less invasive way to get the answer change whether the covert test was legitimate, or is the objection to being tested unconditional regardless of the tester's alternatives?"
+status: active

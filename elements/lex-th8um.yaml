@@ -1,0 +1,19 @@
+id: lex-th8um
+name: a-single-self-exposure-decoys-a-search-into-stopping-early
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Rather than stay hidden together and risk a search discovering everyone, one member of a group can deliberately expose themselves alone, reasoning that a searcher who finds one target will assume the search is complete and stop looking. In the Jataka's tale of Nandiya, the Bodhisatta-deer exposes himself alone to protect his hidden parents, betting that the hunters will assume the thicket holds only one deer: 'these men will see us three if they enter this thicket; you can survive only in one way, and your life is best: I will give you the gift of your life, standing by the skirts of the thicket and going out as soon as they beat it: then they will think there can be only one deer in this little thicket and so will not enter.'"
+related: []
+evokes: [jataka, chanipata, nandiyamiga-jataka, single-self-exposure-as-decoy, search-terminated-by-early-find]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-nandiyamiga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 385, Nandiyamiga-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "these men will see us three if they enter this thicket; you can survive only in one way, and your life is best: I will give you the gift of your life, standing by the skirts of the thicket and going out as soon as they beat it: then they will think there can be only one deer in this little thicket and so will not enter: be heedful"
+canonical-instances:
+  - "When auditors announce a spot-check of a shared storage unit, one partner in a small side business deliberately leaves an obvious, minor discrepancy in plain sight, betting the auditors will flag it, feel satisfied they found something, and stop digging further."
+critical-questions:
+  - "Does this decoy strategy depend on the searcher having a limited budget of time or attention that a single find can exhaust, and what happens if the searcher is thorough enough to keep looking regardless?"
+  - "What does the group that stays hidden owe the one who exposed themselves, given that the strategy only works because one member absorbs 100% of the risk on behalf of the others?"
+status: active

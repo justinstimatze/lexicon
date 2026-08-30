@@ -1,0 +1,23 @@
+id: lex-64jc7
+name: a-vision-pre-narrates-its-own-later-decline-as-fulfillment
+type-in: state
+type-out: claim
+_tier: atomic
+agent-instruction: "A vision that promises ultimate flourishing can also contain, within the same telling, an explicit forecast of decline along the way -- so that when the decline later arrives, it confirms the vision's accuracy rather than raising any question of whether the vision failed. In the second through fourth ascents of Black Elk's Great Vision, the promised flourishing degrades on a schedule the vision itself lays out: leaves start falling from the holy tree on the second ascent, the nation's hoop breaks 'like a ring of smoke that spreads and scatters' on the third, and by the fourth the people are starving with 'their ponies only hide and bones' -- all narrated inside the same vision that also promises 'hundreds shall be sacred, hundreds shall be flames.' The vision had already scripted this decline as one of several stages. When his people's actual nineteenth-century collapse arrived, it matched a stage written into the account decades earlier."
+related: [lex-3vwzk]
+scaffolds-from: [lex-3vwzk]
+evokes: [black-elk-speaks, the-four-ascents, ring-of-smoke-that-spreads-and-scatters, hundreds-shall-be-sacred-hundreds-shall-be-flames, prophecy-that-narrates-its-own-decline]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch3-the-great-vision
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 3, 'The Great Vision.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "And when we reached the summit of the third ascent and camped, the nation's hoop was broken like a ring of smoke that spreads and scatters and the holy tree seemed dying and all its birds were gone. [...] the people were all changed back to human, and they were thin, their faces sharp, for they were starving. Their ponies were only hide and bones, and the holy tree was gone."
+canonical-instances:
+  - "A corporate turnaround narrative includes, from the outset, an acknowledged 'trough' phase where metrics will worsen before they improve -- so that when revenue actually declines on schedule, executives point to the decline as proof the plan is working rather than as evidence it has failed."
+  - "A twelve-step recovery program tells newcomers to expect a period of relapse or backsliding as a normal stage of recovery, so that an actual relapse gets read by the group as confirmation the person is progressing through the expected stages rather than as a sign the program isn't working."
+  - "Distinct from lex-3vwzk, where a vision stays true even after a failure it never predicted: there, the vision is silent about the possibility of failure, and its defenders separate the vision's truth from the outcome only after the fact. Here the vision itself narrates the coming decline in advance, so the later decline needs no separate defense -- it was already part of what the vision claimed would happen."
+critical-questions:
+  - "Does building an explicit decline-then-recovery arc into a prophecy or plan make it more testable (a specific bad stage is predicted and can be checked) or less testable (any bad outcome can now be absorbed as 'the expected trough'), and how would you tell the difference in a given case?"
+  - "If the promised final recovery never arrives after the predicted decline has already happened on schedule, does the same fulfillment logic protect the vision indefinitely, or does it eventually run out of remaining stages to point to?"
+  - "Was the four-ascents structure part of the vision as originally received in 1873, or does its precision look sharper in Neihardt's 1932 telling because Black Elk, recounting it decades later with Wounded Knee and reservation life already behind him, could shape the account to fit what had already happened?"
+status: active

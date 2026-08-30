@@ -1,0 +1,18 @@
+id: lex-7z9yk
+name: divination-converts-an-open-ended-threat-into-a-bounded-actionable-plan
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than live with an indefinite risk, an agent can consult a source of prediction to obtain a concrete timeline, then build an explicit plan around that number — divination functioning here as a device for converting open-ended uncertainty into a schedulable commitment rather than as mysticism for its own sake. In the Jataka''s tale of Dasaratha, the king asks soothsayers for the limit of his own life and sets his sons'' twelve-year exile-and-return plan directly against that number: "Then he summoned soothsayers, and asked them the limits of his own life. They told him he would live yet twelve years longer. Then he said, ''Now, my sons, after twelve years you must return, and uplift the umbrella of royalty.''"'
+related: []
+evokes: [jataka, ekadasanipata, dasaratha-jataka, prophecy-as-deadline, uncertainty-converted-to-a-schedule]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dasaratha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 461, Dasaratha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Then he summoned soothsayers, and asked them the limits of his own life. They told him he would live yet twelve years longer. Then he said, \"Now, my sons, after twelve years you must return, and uplift the umbrella of royalty.\""
+canonical-instances:
+  - "Rather than leave a succession plan vague and open-ended, a founder gets an actuarial estimate of his own working years left and sets a concrete handover date against that number, converting an uncomfortable uncertainty into a plan the whole company can act on."
+critical-questions:
+  - "The soothsayers get the number wrong — the king dies in year nine of a predicted twelve. What does a plan built on a confidently bounded prediction actually buy over living with the uncertainty directly, once the prediction itself turns out incorrect?"
+status: active

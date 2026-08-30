@@ -1,0 +1,19 @@
+id: lex-pgc62
+name: answer-a-literal-riddle-by-remapping-its-terms-onto-a-different-register
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A literal-sounding question can be answered by remapping its key terms onto an entirely different order of phenomena, so the same words end up true on both readings at once — which is exactly what makes the riddle dissolve. In the Jataka''s tale of Jagara, the riddle of who wakes when others sleep is answered by remapping waking and sleeping onto moral states: "Some men forget that virtue lies in stern sobriety, When such are sleeping I''m awake, O spirit of the tree. Passion and vice and ignorance in some have ceased to be: When such are waking then I sleep, O spirit of the tree."'
+related: []
+evokes: [jataka, sattanipata, jagara-jataka, answer-by-register-shift, riddle-resolved-through-double-meaning]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-jagara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 414, Jagara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Some men forget that virtue lies in stern sobriety, When such are sleeping I'm awake, O spirit of the tree. Passion and vice and ignorance in some have ceased to be: When such are waking then I sleep, O spirit of the tree."
+canonical-instances:
+  - "Asked point-blank whether the team is 'moving fast,' a lead answers by remapping 'fast' from raw commit velocity to how quickly real user problems get solved, and in that register the team turns out to be moving fastest exactly when its commit count looks slowest."
+critical-questions:
+  - "Does answering on a different register genuinely resolve the original question, or does it dodge it by substituting a related but distinct claim for the one actually being asked?"
+  - "How does a listener tell whether a register-shifted answer is a clever, deeper truth or a rhetorical sleight that avoids answering the literal question at all?"
+status: active

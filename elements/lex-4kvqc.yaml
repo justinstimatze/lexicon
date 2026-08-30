@@ -1,0 +1,19 @@
+id: lex-4kvqc
+name: a-decoy-triggering-instinct-bypasses-a-perfect-conscious-defense
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A defense that has held perfectly against every direct attempt at capture can still be bypassed by manufacturing conditions that trigger an involuntary drive the defense was never built to cover, rather than by improving the direct attempt against it. In the Jataka's tale of the golden peacock, six successive hunters fail for years to catch the bird in a snare because it recites a protective charm before feeding each morning — a conscious, deliberate defense that never once fails on its own terms. The seventh hunter changes the target entirely: he trains a captured peahen to call on command, sets his snare before the peacock has said its charm, and lets desire do what force and cunning couldn't. 'This unwonted sound--the female's note--woke desire in the peacock's breast; leaving his charm unsaid, he came towards her; and was caught in the net.' The charm was never defeated. It simply never activated, because the situation never registered to the peacock as the kind of threat the charm guards against."
+related: []
+evokes: [jataka, dukanipata, mora-jataka, instinctual-drive-bypasses-a-conscious-defenses-coverage, redirect-attack-from-the-defended-channel-to-an-undefended-one]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mora-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 159, Mora-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "This unwonted sound--the female's note--woke desire in the peacock's breast; leaving his charm unsaid, he came towards her; and was caught in the net."
+canonical-instances:
+  - "A security team that has hardened every technical entry point against direct attack still gets breached when an attacker sends a fake internal job posting that triggers an employee's desire for a promotion, prompting them to enter credentials into a convincing but fraudulent site the technical defenses were never designed to flag."
+critical-questions:
+  - "Is there any way to extend a defense to cover this class of bypass without the defense becoming a blanket suspicion of every unexpected stimulus, which would make ordinary functioning impossible — or does robustness against instinct-triggering attacks require a fundamentally different kind of vigilance than robustness against direct force?"
+  - "Did the peacock's seven years of successful defense against direct capture leave him more vulnerable to this indirect method? The charm's success may have built confidence that it covered danger in general. It only ever covered the one threat-shape it was designed against."
+status: active

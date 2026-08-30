@@ -1,0 +1,34 @@
+id: lex-jue9r
+name: categorical-axis-decomposition
+type-in: state
+type-out: composition
+_tier: atomic
+agent-instruction: "When analysis stalls under coupled variables, surface categorical-axis decomposition — partition into orthogonal categorical axes and analyze independently; the cross-product captures the full space, the marginals are tractable."
+related: [lex-9hapj, lex-9nj6a, lex-ay4et, lex-gnve5, lex-hm8yx, lex-pm93k, lex-yg484]
+evokes: [the-N-axes, four-elements, color-pie, n-by-m-matrix, typology-as-decomposition, divide-the-space-into-regions]
+lineage:
+  - source: primary
+    text: empedocles-classical-elements
+    citation: "Empedocles (c.494-434 BCE), fragment 33 (Stein numbering), tr. Arthur Fairbanks in The First Philosophers of Greece (K. Paul, Trench, Trubner, 1898), Hanover Historical Texts Project — survives only as a fragment quoted by later doxographers, as is standard for pre-Socratic texts. All matter composed of four roots — earth, water, air, fire (personified as Zeus, Hera, Aidoneus, Nestis). The decomposition is into 4 mutually-exclusive categorical axes; everything in the system is a combination of those axes. The CANONICAL ancient instance"
+    quote: "'Hear first the four roots of all things: bright Zeus, life-giving Hera (air), and Aidoneus (earth), and Nestis who moistens the springs of men with her tears.'"
+  - source: practitioner
+    text: tarot-four-suits
+    citation: "Tarot Minor Arcana: four suits (Wands/fire, Cups/water, Swords/air, Pentacles/earth) inheriting Empedoclean elemental decomposition; each suit's 14 cards develop one categorical axis. The axes are the structure"
+  - source: practitioner
+    text: tarot-decomposition-pass
+    citation: "promoted from cross-attestation: classical Greek philosophy (Empedocles 4 elements), Tarot (4 suits), alchemy (4 elements + ether), medieval medicine (4 humors: blood/phlegm/black bile/yellow bile), Magic the Gathering color pie (5 colors as categorical axes — gold-standard primitive-explanation), DISC personality (4 axes), Big Five personality (5 axes), Eisenhower matrix (urgent × important = 2×2 grid), BCG matrix (market growth × market share = 4 cells), Likert scales (single axis discretized to N categories), period table groups (chemical families as categorical axes orthogonal to atomic number)"
+canonical-instances:
+  - "MTG color pie: each color has a defined philosophy (white = order, black = self-interest, red = passion, blue = knowledge, green = nature) that determines what mechanics it has. Cards are placed in colors based on which axes they activate; multi-color cards combine axes. The pie IS the design space"
+  - "Eisenhower matrix: every task is classified by (urgent, not-urgent) × (important, not-important) → 4 quadrants with different action-recommendations. The 2×2 categorical decomposition IS what makes it a usable framework"
+  - "DISC personality typology: every person classified by (Dominance, Influence, Steadiness, Conscientiousness) — the 4 categorical axes form the working space; individual personality is a profile of high/low on each axis"
+  - "operationally distinct from lex-9nj6a composition-over-inheritance: composition-over-inheritance is about HOW different parts of an object encode different roles; categorical-axis-decomposition is about HOW THE TOTAL DESIGN SPACE is partitioned into axes that any object inhabits"
+  - "operationally distinct from lex-hm8yx scale-separation: scale-separation organizes phenomena by SIZE/TIME scale; categorical-axis-decomposition organizes phenomena by KIND/TYPE axes (often orthogonal to scale)"
+  - "Bartle's player-interest graph (Designing Virtual Worlds: Volume I, CRC Press 2025, building on Bartle 1996): players who play virtual worlds for fun are crossed on two axes — acting/interacting and players/world — to generate four types (Achiever, Explorer, Socialiser, Killer). Bartle himself treats the type LABELS as a mnemonic convenience layered on top of the real claim, which lives entirely in the two crossed axes."
+  - "Bartle's own counter-example for critical-question #2 above: he notes that classifying all virtual-world players by whether the first letter of their name is a vowel is equally exhaustive (every player falls in exactly one cell) but carries no design information — exhaustiveness alone doesn't validate an axis; it has to split real cases along a difference that matters. See lex-gnve5 for the companion claim that a typology can pass this practical-fit test while still failing formal scientific testability."
+critical-questions:
+  - "are the chosen axes ORTHOGONAL (independent — knowing X tells you nothing about Y) or DEPENDENT (correlated)? Orthogonal axes give clean decomposition; dependent axes fold into fewer real dimensions. Big Five was reduced from larger personality vocabularies via factor analysis precisely on orthogonality grounds; MBTI's 4 axes have measurable inter-correlations that make some of the 16 cells nearly empty in practice."
+  - "how many axes is right for this domain? Empedocles 4, Pythagoras 10 (tetractys), Big Five 5, MBTI 4 (yielding 16 types), DISC 4, MTG 5, Aristotle's 10 categories. The 'right' number is empirical; over-fitting axes produces meaningless typologies (the Forer effect — vague trait-descriptions feel personally true to anyone). Discriminator: do additional axes split observed cases meaningfully or just multiply the cell-count?"
+  - "are the axis values truly categorical or just discretized continuous? Likert-on-personality is discretized continuous (the underlying axis is continuous and ordered); Tarot's four suits are genuinely categorical (no ordering, no in-between). The decomposition's mathematical behavior differs: discretized-continuous supports interpolation and gradient-based reasoning, genuinely-categorical does not."
+  - "do all N×M cells correspond to real phenomena, or only some? Empty cells are an empirical finding (the decomposition over-specifies the joint space), not a flaw. The MBTI INFJ-prevalence problem (~1-3% of population in some samples) doesn't invalidate the decomposition — it tells you the joint distribution is sparse along that diagonal."
+  - "were the axes derived from data (factor analysis, clustering) or imposed a priori (Empedocles' 4 elements)? Imposed axes risk projecting structure that isn't in the data — the typology may be a cultural artifact. Emergent axes risk overfitting the specific sample. The strongest decompositions are imposed-a-priori then validated empirically (Aristotle's categories survived because cross-cultural samples kept rediscovering them)."
+status: active

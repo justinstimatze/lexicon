@@ -1,0 +1,19 @@
+id: lex-hf2x5
+name: escalating-hard-cases-test-whether-a-claim-survives-its-strongest-instance
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Rather than accepting a claim of equanimity at face value, an interrogator can test it against a deliberately escalating sequence of relationships that should each produce more grief than the last, explicitly conceding the weaker case before pressing the stronger one. This is a devil's-advocate technique for checking whether a general claim survives its hardest instances rather than only its easiest. In the Jataka's tale of Uraga, a family shows no grief at a son's death, and the interrogator moves from father to mother to sister to wife to slave, granting each concession before pushing further: 'Granted, lady, that a father from the nature of a man may not weep, a mother's heart surely is tender. Why then do you not weep?'"
+related: []
+evokes: [jataka, pancanipata, uraga-jataka, escalating-hard-cases-test-a-general-claim, devils-advocate-cross-examination]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-uraga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 354, Uraga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Granted, lady, that a father from the nature of a man may not weep, a mother's heart surely is tender. Why then do you not weep?"
+canonical-instances:
+  - "A reviewer testing a proposed pricing model starts by granting the easy part: it probably holds for a low-volume customer. From there the test moves up through a mid-volume account and finally the single largest account on the books, checking at each step whether the logic still produces a sane number."
+critical-questions:
+  - "Does conceding the weaker cases actually strengthen the eventual test, or does it just spend goodwill and time that could have gone straight to the hardest case that matters?"
+  - "Is there a risk that failing at the hardest case gets explained away as a special exception rather than treated as a genuine refutation of the general claim being tested?"
+status: active

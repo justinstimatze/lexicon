@@ -1,0 +1,19 @@
+id: lex-nxn2g
+name: personal-vouching-not-the-written-case-grants-access
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When gaining entry to a closed institution or network, the formal document — a proposal, application, or pitch — is often theater; the actual currency of admission is a trusted insider staking their own name on you. Once two executives arrange access on their personal say-so, the written proposal can go unread by everyone involved and it doesn't matter, because the vouching already did the work the document was nominally there to do. This generalizes past any single gatekeeping scene: wherever trust is scarce and hard to verify directly, it moves through chains of known intermediaries, and the written case exists mainly to give the vouching party something to point at, not to be independently evaluated on its own merits."
+related: []
+evokes: [jackall-moral-mazes, "the proposal itself became meaningless", trust-transfer-through-a-known-intermediary]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-introduction-personal-vouching
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Introduction: Business as a Social and Moral Terrain."
+    quote: "At that point, the proposal itself became meaningless since, to my knowledge, no one except the two executives who arranged access ever saw it. The personal vouching, however, was crucial."
+canonical-instances:
+  - "A startup gets a meeting with a wary investor not because the pitch deck is unusually strong but because a mutual contact the investor already trusts made the introduction personally — the deck is read afterward, if at all, mostly to confirm the vouching wasn't reckless."
+critical-questions:
+  - "If the vouching party's judgment is later shown to be wrong, does the underlying case get re-evaluated on its own terms, or does the failure just get attributed to a bad vouch and the document is never actually read?"
+status: active

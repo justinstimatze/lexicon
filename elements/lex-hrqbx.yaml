@@ -1,0 +1,22 @@
+id: lex-hrqbx
+name: x-ray-vision-would-strip-beauty-of-its-apparent-power
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "Imagining a viewer whose sight could pierce straight through a surface to what lies beneath it can strip a quality like beauty of its apparent power, by showing the quality was never a property of the object itself, only an effect of the limited eye that can't see past the surface. Philosophy runs the thought experiment directly: 'if, as Aristotle says, men should see with the eyes of Lynceus, so that their sight might pierce through obstructions, would not that body of Alcibiades, so gloriously fair in outward seeming, appear altogether loathsome when all its inward parts lay open to the view? Therefore, it is not thy own nature that makes thee seem beautiful, but the weakness of the eyes that see thee.'"
+related: []
+evokes: [consolation-of-philosophy, book-iii-prose-viii, the-eyes-of-lynceus, the-weakness-of-the-eyes-that-see-thee, x-ray-vision-thought-experiment]
+lineage:
+  - source: primary
+    text: boethius-c524-consolation-of-philosophy-book-iii-prose-viii
+    citation: "Boethius, The Consolation of Philosophy (c. 524 AD), trans. H. R. James (London: George Bell & Sons, 1897), Book III, Prose VIII. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "And yet if, as Aristotle says, men should see with the eyes of Lynceus, so that their sight might pierce through obstructions, would not that body of Alcibiades, so gloriously fair in outward seeming, appear altogether loathsome when all its inward parts lay open to the view? Therefore, it is not thy own nature that makes thee seem beautiful, but the weakness of the eyes that see thee."
+canonical-instances:
+  - "A financial analyst pitches a transparency thought experiment to eager investors: imagine you could see every line of the company's actual books instead of just the polished quarterly summary -- would the valuation you're excited about survive that view?"
+  - "A skeptic deflates a celebrity's glamorous public image by asking an audience to imagine watching an unedited feed of the celebrity's entire day instead of the curated highlights. The glamour, they argue, was a property of the curation all along."
+  - "A building inspector's imagined X-ray view through a newly renovated house's drywall -- shoddy wiring, rotted joists, corner-cut plumbing -- is offered as proof that the renovation's visible polish was never a property of the underlying structure."
+critical-questions:
+  - "Does the thought experiment prove beauty is entirely illusory, or does it just prove that surface appearance and internal structure are different things that happen not to correlate in this particular case -- Alcibiades' interior ugliness doesn't logically follow from anyone's exterior beauty in general?"
+  - "If literally every physical body would look loathsome under X-ray-level scrutiny, the argument overshoots its target. It debunks the beauty of anything with an inside at all, which suggests the thought experiment exposes a trivial fact about biology more than it says anything specific about beauty."
+  - "Does stripping away the weakness of the eyes actually get you closer to a thing's true nature, or does it just substitute one arbitrary standard of perception, unaided surface-level sight, for another equally arbitrary one, hypothetical X-ray sight, without establishing that the second is more truthful than the first?"
+status: active

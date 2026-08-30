@@ -1,0 +1,18 @@
+id: lex-962d4
+name: concealing-the-obvious-part-leaves-an-equally-obvious-part-exposed
+type-in: situation
+type-out: state
+_tier: atomic
+agent-instruction: "A concealment effort aimed at the most obvious exposed point can leave an equally obvious point uncovered elsewhere, because the person hiding is working from their own sense of what's exposed rather than a full external view — like an animal that hides its head and leaves its rear end in plain sight. Before trusting that a cover-up or a defensive move is complete, check specifically for the part it wasn't designed to protect, not just whether the part it was aimed at is now hidden."
+related: []
+evokes: [galef, kotowaza, japanese-proverbs, incomplete-concealment, the-part-you-forgot-to-hide]
+lineage:
+  - source: primary
+    text: galef-1987-even-monkeys-fall-from-trees
+    citation: "David Galef (compiler and translator), *Even Monkeys Fall From Trees: And Other Japanese Proverbs*, illustrations by Jun Hashimoto, foreword by Edward G. Seidensticker (Tuttle Publishing, copyright 1987; ebook ISBN 978-1-4629-0318-4), Proverb No. 60. Verified verbatim against a direct extraction of the held copy."
+    quote: "Atama kakushite shiri kakusazu. One hides the head and leaves the rear end uncovered."
+canonical-instances:
+  - "A company scrubs the offending line from a leaked internal memo before reposting it, but leaves the document's metadata showing who edited it and when — the redaction addressed the part that embarrassed them, not the part that would actually incriminate them."
+critical-questions:
+  - "Whose view of 'what's exposed' was this concealment designed around — the concealer's own anxiety about the part they noticed, or an actual audit of every angle an outside observer might check?"
+status: active

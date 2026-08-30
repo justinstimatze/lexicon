@@ -1,0 +1,19 @@
+id: lex-jrdjn
+name: publicly-revealing-hidden-merit-converts-envious-criticism-to-approval
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When courtiers or onlookers resent an apparently excessive reward given to someone unimpressive-looking, the person who granted it can silence the criticism not by defending the decision but by simply narrating the hidden merit that justified it in the first place — and the retelling enhances the granter's own reputation along with the recipient's. In the Jataka's tale of the rescued king, courtiers resent the lavish honor shown a ragged hermit until the king simply tells the full story of how the hermit saved his life: 'So spake the king, as though he were causing the moon to rise up in the sky; and as the virtue of the Bodhisatta was declared, so was declared his own virtue everywhere; and his takings increased, and the honour shown to him.' The reward was never actually unjustified. It only looked that way to anyone who hadn't yet heard the reason for it."
+related: []
+evokes: [jataka, tikanipata, tirita-vaccha-jataka, narrating-hidden-merit-converts-envy-into-approval, revealing-a-rewards-justification-also-enhances-the-granters-own-standing]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-tirita-vaccha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 259, Tirita-vaccha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "So spake the king, as though he were causing the moon to rise up in the sky; and as the virtue of the Bodhisatta was declared, so was declared his own virtue everywhere; and his takings increased, and the honour shown to him."
+canonical-instances:
+  - "A CEO who promotes an unglamorous back-office employee over more visible candidates faces grumbling from the rest of the team until they simply explain, in a company-wide meeting, the specific crisis that employee quietly resolved months earlier — and the grumbling turns into respect for both the employee and the CEO's judgment."
+critical-questions:
+  - "Does this only work when the hidden merit is genuinely strong enough to justify the reward, or can a sufficiently compelling narration convert envy into approval even when the underlying justification is thin?"
+  - "Why did the king wait for pressure before revealing the reason, rather than explaining it at the time of the original reward — is there a cost to disclosing merit immediately rather than letting resentment build first?"
+status: active

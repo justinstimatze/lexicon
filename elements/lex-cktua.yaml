@@ -1,0 +1,19 @@
+id: lex-cktua
+name: a-deceptive-signal-is-credible-only-within-a-plausible-envelope
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A signal meant to imitate a legitimate pattern only stays credible if it's produced the way the real thing would actually be produced, and oversignaling past that envelope exposes the deception even when the initial impression worked. In the Jataka's twin tales of the drum and the conch, a father tells his son to sound the instrument only intermittently while passing through robber territory, since a genuine lord's escort would sound that way. The son ignores him and sounds it continuously instead; the robbers, who first fled assuming a lord approached, notice the sustained, unbroken pattern doesn't match how a real escort actually behaves, and return to rob the travelers. The signal wasn't wrong in kind — only in how much of it there was."
+related: []
+evokes: [jataka, ekanipata, bherivada-jataka, samkhadhamana-jataka, oversignaling-breaks-a-plausible-imitation, credibility-bounded-by-a-realistic-envelope]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-bherivada-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 59, Bherivada-jataka (restated with a conch in No. 60, Samkhadhamana-jataka). Verified verbatim against a direct extraction of the held copy."
+    quote: "Go not too far, but learn excess to shun; For over-drumming lost what drumming won."
+canonical-instances:
+  - "A phishing email that convincingly imitates a company's IT department gets flagged the moment it sends five identical urgent password-reset reminders within an hour, since the real IT department, judging by its own past behavior, never follows up that aggressively."
+critical-questions:
+  - "Is there a general way to estimate the plausible envelope for a given signal in advance, or is it only ever discoverable after someone has already oversignaled and gotten caught?"
+  - "Does the same oversignaling failure apply to signals that are hard to produce at all, where doing it 'too much' isn't really an option, or is this specifically a risk for cheap, freely repeatable signals like sound?"
+status: active

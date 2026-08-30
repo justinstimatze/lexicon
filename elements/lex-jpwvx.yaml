@@ -1,0 +1,19 @@
+id: lex-jpwvx
+name: a-cheap-symbolic-signal-replaces-costly-enforcement-once-trust-exists
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Once mutual restraint has been established between two parties, a cheap symbolic marker can substitute for the expensive physical enforcement that would otherwise be needed to protect a shared boundary. In the Jataka's Banyan Deer tale, once the king spares the deer, they start raiding farmers' crops; rather than re-fence every field against them, Banyan Deer institutes a norm where a farmer ties leaves around the boundary of a field to mark it as off-limits, and the deer honor the marker without any physical barrier at all. The signal only works because the relationship has already shifted from adversarial to cooperative — the same tied leaves would mean nothing to deer who had no reason to respect the boundary in the first place."
+related: []
+evokes: [jataka, ekanipata, nigrodhamiga-jataka, cheap-signal-replaces-costly-enforcement, symbolic-marker-requires-prior-trust]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-nigrodhamiga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 12, Nigrodhamiga-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "let no husbandman fence his field, but merely indicate it with leaves tied up round it... never was a deer known to trespass on a field so marked."
+canonical-instances:
+  - "After years of a landscaping crew reliably respecting a homeowner's garden boundary, the homeowner swaps the chain-link fence for a single row of low stakes. The crew keeps clear of the bed exactly as before."
+critical-questions:
+  - "How much prior cooperative history is actually required before a symbolic marker starts working on its own — is there a threshold, or does it degrade continuously as trust erodes?"
+  - "What happens the first time an outsider with no history of restraint encounters the same marker — does the system have any way to signal that the symbolic substitute doesn't apply to them?"
+status: active

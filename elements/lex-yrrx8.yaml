@@ -1,0 +1,19 @@
+id: lex-yrrx8
+name: a-threatened-incumbent-covertly-destroys-a-rivals-resource-base
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "An incumbent power who senses a rising rival's growing generosity or influence threatening their own position can intervene covertly at the resource level, destroying the material base the rival's rise depends on, rather than confronting the rival or their activity directly. In the Jataka's tale of Visayha, Sakka fears a merchant's extreme almsgiving is generating enough merit to dethrone him, and secretly annihilates the merchant's entire fortune to stop the giving: 'This Visayha gives alms and by scattering his gifts everywhere is stirring up all India. By means of his almsgiving, methinks, he will dethrone me and himself become Sakka. I will destroy his wealth and make him a poor man, and so bring it about that he Shall no longer give alms.'"
+related: []
+evokes: [jataka, catukkanipata, visayha-jataka, an-incumbent-attacks-a-rivals-resource-base-not-the-rival-directly, covert-intervention-preempts-a-perceived-status-threat]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-visayha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 340, Visayha-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "This Visayha gives alms and by scattering his gifts everywhere is stirring up all India. By means of his almsgiving, methinks, he will dethrone me and himself become Sakka. I will destroy his wealth and make him a poor man, and so bring it about that he Shall no longer give alms."
+canonical-instances:
+  - "A dominant incumbent firm, threatened by a smaller competitor's growing reputation for generous customer terms, quietly pressures shared suppliers to cut off the competitor's credit lines rather than competing on service — attacking the resource base that made the generosity possible instead of confronting the competitor's offer directly."
+critical-questions:
+  - "Is Sakka's fear actually justified here, or is it a paranoid overreaction — was the merchant's generosity ever really a bid for Sakka's position, or only mistaken for one?"
+  - "Does covertly destroying a resource base actually eliminate the threat, or does it only delay it, given that the merchant in this story finds a way to keep giving even after losing everything?"
+status: active

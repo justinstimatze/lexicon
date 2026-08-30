@@ -1,0 +1,19 @@
+id: lex-pywsc
+name: sustained-self-suppression-produces-narcissism-and-guilt-together
+type-in: situation
+type-out: state
+_tier: atomic
+agent-instruction: "Sustained institutional self-suppression — the 'psychic asceticism' of methodically subjecting one's impulses to organizational demands over years — produces narcissism and guilt as a joined pair rather than as alternatives, contrary to the intuition that self-denial should either build character (reducing narcissism) or feel virtuous (reducing guilt). The mechanism runs both ways: the narcissism seen in high-ranking executives connects directly to the psychic asceticism that got them there, and over time the same asceticism generates a curious, otherwise unexplained sense of guilt that gets amplified by, not opposed to, that narcissistic self-preoccupation. Don't expect self-denial and status-seeking self-focus to trade off against each other in an executive's psychology — this mechanism predicts they intensify together."
+related: []
+evokes: [jackall-moral-mazes, "a curious sense of guilt, heightened as it happens by narcissistic self-preoccupation", asceticism-produces-narcissism-and-guilt-jointly]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch8-psychic-asceticism-narcissism
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 8, Invitations to Jeopardy, Section III."
+    quote: "such psychic asceticism is connected to the narcissism that one sees in executives of high rank. [...] over a period of time, psychic asceticism creates a curious sense of guilt, heightened as it happens by narcissistic self-preoccupation."
+canonical-instances:
+  - "A senior executive who has spent decades subordinating personal preferences to organizational demands displays both an outsized need for personal recognition and a persistent, hard-to-articulate guilt that colleagues find surprising given the executive's outward record of self-sacrifice for the institution."
+critical-questions:
+  - "Is the causal direction actually asceticism producing both narcissism and guilt, or could a pre-existing narcissistic disposition be what draws certain people toward roles requiring sustained self-suppression in the first place, with the guilt following from a different source entirely?"
+status: active

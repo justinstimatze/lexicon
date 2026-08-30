@@ -1,0 +1,21 @@
+id: lex-cpeee
+name: exploit-greed-by-offering-an-unverified-substitute-at-the-moment-of-pursuit
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When facing an opponent driven by appetite and actively pursuing something, don't try to block the pursuit directly -- offer a plausible-looking substitute for what they're chasing, timed to arrive exactly when their eagerness is highest and their willingness to pause and verify is lowest. In Eastman's telling, Unktomee intercepts Eya, a monstrous glutton actively hunting a fleeing village, and doesn't fight or outrun him. Instead he redirects the pursuit's own hunger: 'Why not rest a little now, and refresh yourself with the delicacy that I have prepared for you? See, these are human ears, nicely dried for your meal!' The offering is a heap of mussel shells, nothing like the food it's presented as -- but Eya, mid-chase and ravenous, doesn't inspect it: 'The greedy monster was deceived, and hastily swallowed the shells, which caused him such distress that he was helpless.' The trick depends entirely on timing, not cleverness of disguise -- mussel shells wouldn't survive calm scrutiny as human ears for a moment, but offered to a hungry pursuer at the exact instant he expects to be rewarded for the chase, verification is the one thing he has no patience left for. Diagnostic move: when trying to stop someone driven by appetite or urgency from reaching their actual target, look for the moment their eagerness peaks -- right as they expect to finally get what they're chasing -- and offer a substitute then, since a decoy that would never survive calm inspection can still work perfectly against someone whose hunger has already decided the outcome before they've looked closely."
+related: []
+evokes: [the-decoy-doesnt-need-to-survive-scrutiny-only-avoid-it, eastman-eya-the-devourer, offer-the-substitute-at-peak-eagerness-not-before, greed-suspends-verification-at-the-moment-of-expected-reward]
+lineage:
+  - source: primary
+    text: eastman-eya-devourer-unktomee-feeds-him-mussel-shells
+    citation: "Charles A. Eastman (Ohiyesa) and Elaine Goodale Eastman, Wigwam Evenings: Sioux Folk Tales Retold (Little, Brown, 1909), 'Twelfth Evening: Eya the Devourer.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'Why not rest a little now, and refresh yourself with the delicacy that I have prepared for you? See, these are human ears, nicely dried for your meal!' So saying, Unktomee pointed to a great heap of mussel shells that lay upon the hill-top. The greedy monster was deceived, and hastily swallowed the shells, which caused him such distress that he was helpless."
+canonical-instances:
+  - "A negotiator facing a counterpart desperate to close a deal before a deadline offers a hastily drafted, superficially complete contract exactly at the moment the counterpart is most eager to finalize, knowing that under deadline pressure they'll sign without the careful review they'd normally insist on, catching terms that wouldn't survive scrutiny at any calmer moment."
+  - "A cybersecurity attacker times a fake urgent password-reset prompt to appear right after a target has been anxiously waiting for a real system notification, knowing that the anticipation itself, not any special sophistication in the fake prompt, is what suppresses the target's normal instinct to verify the sender before clicking."
+critical-questions:
+  - "does this tactic only work once per target -- once someone has been fooled by an unverified substitute at a moment of peak eagerness, do they become permanently more cautious in that exact situation, making the trick fundamentally non-repeatable against the same party?"
+  - "how does the deceiver reliably judge the precise moment of peak eagerness in advance, given that misjudging the timing (offering the decoy too early or too late) likely restores the target's normal scrutiny and exposes the trick before it can work?"
+  - "is there a meaningful ethical distinction between using this tactic against a genuinely destructive threat (Eya, devouring villages) versus using the identical mechanism against an ordinary, non-malicious party whose only fault is wanting something badly -- does the framework need a separate account of when this manipulation is justified?"
+status: active

@@ -1,0 +1,29 @@
+id: lex-4uuxy
+name: paid-labor-requires-unpriced-reproductive-substrate-shifted-onto-least-refusable-class
+type-in: situation
+type-out: frame
+_tier: atomic
+agent-instruction: "When evaluating a paid-labor or wage-based system, ask what unpaid work is presupposed for the system to function and who is structurally allocated that work. Federici's essential argument in Caliban and the Witch (2004/2021): capitalism's wage relation is not just labor-for-money, it is labor-for-money on top of an extracted-but-unpriced substrate of reproductive labor — childbearing, child-rearing, household maintenance, care of the sick and elderly, emotional and bodily upkeep of the wage-earner — without which the wage-earner could not show up to be waged. The wage equation balances only because that substrate work is performed for free, and the system has a structural interest in keeping it socially invisible (it cannot be priced without collapsing the accounting). The substrate is allocated onto the class least able to refuse — historically women, with race-and-colony-mediated further allocations (slave women carrying both reproductive labor for the slaver class and bodily reproduction of slave labor, indigenous women's land-and-body enclosure, contemporary unpaid migrant care workers). The witch-hunt (1450-1700) is read as the violent enforcement mechanism that destroyed women's prior control over reproduction and consolidated the new sexual division of labor. Diagnostic question: who does the unpriced support work this paid system depends on, and what happens if they stop? If the answer reveals a captive class doing structurally invisible work, the system is in Federici's pattern. Operational consequence: visibility-attacks (counting, naming, valuing, surfacing-as-time-data) are themselves political; pricing-attacks (wages-for-housework, universal basic income, care infrastructure) realign the equation differently. Inverse: when reproductive labor is broadly distributed, refusable, and visible (some kibbutz models, public-care welfare states, distributed-care commons), the wage equation has to balance honestly."
+related: [lex-et8q2, lex-cmkdq, lex-ewjec, lex-4nunt, lex-9uac6, lex-z2fkk, lex-njj99, lex-44byg, lex-5y7zb, lex-pn8qn, lex-d73nj, lex-24vtm, lex-hkrn7, lex-5yjnx, lex-pepe5, lex-nua9u]
+scaffolds-from: [lex-d73nj]
+evokes: [primitive-accumulation, reproductive-labor, witch-hunt-as-labor-enforcement, separation-of-production-from-reproduction, wages-for-housework, federici-caliban, the-invisibilized-substrate, capitalism-presupposes-an-unwaged-class, unpriced-care-as-the-balanced-budget, who-does-the-dishes-question, social-reproduction, the-housewife-as-historical-construction]
+lineage:
+  - source: primary
+    tradition: federici-reproductive-labor
+    text: federici-2004-caliban-and-the-witch
+    citation: "Silvia Federici, Caliban and the Witch: Women, the Body and Primitive Accumulation (Autonomedia, 2004), Chapter 2 (Accumulation of Labor and the Degradation of Women), Section II."
+    quote: "The separation of commodity production from the reproduction of labor-power also made possible the development of a specifically capitalist use of the wage and of the markets as means for the accumulation of unpaid labor. Most importantly, the separation of production from reproduction created a class of proletarian women who were as dispossessed as men but, unlike their male relatives, in a society that was becoming increasingly monetarized, had almost no access to wages, thus being forced into a condition of chronic poverty, economic dependence, and invisibility as workers."
+  - source: primary
+    tradition: federici-reproductive-labor
+    text: federici-2004-caliban-and-the-witch
+    citation: "Silvia Federici, Caliban and the Witch: Women, the Body and Primitive Accumulation (Autonomedia, 2004), Introduction."
+    quote: "It is generally agreed that the witch-hunt aimed at destroying the control that women had exercised over their reproductive function and served to pave the way for the development of a more oppressive patriarchal regime. It is also argued that the witch-hunt was rooted in the social transformations that accompanied the rise of capitalism. […] the persecution of witches (like the slave trade and the enclosures) was a central aspect of the accumulation and formation of the modern proletariat, in Europe as well as in the 'New World.'"
+canonical-instances:
+  - "A two-earner household where the lower-earner ALSO does most of the laundry, school pickup, and elder-call arrangement — the wage of the higher earner balances only because the lower earner is the captive substrate."
+  - "Hospital nurses (often female, often migrant) doing dignity-and-bodily-care work that is uncounted in the patient-billing line but is essential for outcomes — when their union strikes the system reveals the substrate was foundational."
+  - "Big Tech 'platform' economy worker (Uber driver, DoorDash deliverer) whose wage equation balances because their car maintenance and health insurance are off-balance-sheet — the platform pattern is Federici's pattern in a new gendered/raced configuration."
+  - "University adjunct teaching whose office-hours-grading-mentoring labor is unpriced and presupposed for the institution's reputation; new tenure-track women being asked to do disproportionate service work, an institutional re-enactment of the pattern."
+  - "Open-source maintainer ecosystem where a small number of unpaid maintainers carry the substrate that paid commercial software depends on; the wage-equation in the commercial layer balances because the maintainer layer doesn't get paid."
+  - "Care-of-elderly-parents that falls disproportionately on daughters; the daughter's wage-earning capacity drops to make the substrate work; the parents' 'estate plan' never accounts for it."
+severity-tier: warning
+status: active

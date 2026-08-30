@@ -1,0 +1,18 @@
+id: lex-r7y3e
+name: building-trust-via-an-intermediary-before-attempting-the-con
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than approach a wary target directly, a predator sends a companion to first establish an independent friendship and earn credibility, so that when the actual lure is made, it arrives through an already-trusted channel rather than a stranger. In the Jataka''s tale of Putimansa, the jackal''s wife befriends the goat before either jackal makes any request: She readily agreed and after making friends with the goat, when confidence was established, she addressed her in the words suggested by her husband.'
+related: []
+evokes: [jataka, navanipata, putimansa-jataka, trust-laundering-via-intermediary, wolf-in-sheeps-clothing]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-putimansa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 437, Putimansa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "She readily agreed and after making friends with the goat, when confidence was established, she addressed her in the words suggested by her husband."
+canonical-instances:
+  - "A romance scammer has an accomplice pose as a mutual friend and build a genuine-seeming rapport with the target for weeks before the actual scammer ever makes contact, so the eventual approach arrives already vouched for."
+critical-questions:
+  - "Does building trust through a genuinely warm intermediary relationship make the eventual betrayal worse than if the con artist had approached coldly themselves, since real trust was actually formed along the way?"
+status: active

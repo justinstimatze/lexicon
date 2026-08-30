@@ -1,0 +1,19 @@
+id: lex-wahvu
+name: identical-counsel-helps-or-provokes-depending-on-the-recipient
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "The same piece of advice can land as a gift or an insult depending entirely on who receives it, so dispensing counsel well requires reading the recipient's disposition first, not just getting the content of the advice right. In the Jataka's tale of Avariya, one man's counsel to rule without anger earns a wise king's gratitude and a village grant, while the identical advice earns an ignorant ferryman's blow: 'For counsel good the king bestowed the revenue of a town: The boatman for the same advice has knocked the giver down.'"
+related: []
+evokes: [jataka, chanipata, avariya-jataka, advice-calibrated-to-recipient-disposition, same-input-opposite-outcome]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-avariya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 376, Avariya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "For counsel good the king bestowed the revenue of a town: The boatman for the same advice has knocked the giver down."
+canonical-instances:
+  - "A manager gives identical blunt feedback to two reports on the same afternoon — one thanks her for the clarity and fixes the issue by Friday, the other files a complaint, because the manager judged the message but not the audience."
+critical-questions:
+  - "If the same counsel can help one person and provoke another, does that argue for tailoring the message to the recipient, or for accepting that some counsel is simply not owed to people who will only react badly to it?"
+  - "Short of testing the water with a smaller piece of advice first, how would the advice-giver even know in advance what kind of recipient they're dealing with?"
+status: active

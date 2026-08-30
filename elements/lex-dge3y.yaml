@@ -1,0 +1,18 @@
+id: lex-dge3y
+name: scrupulous-self-audit-catches-a-transgression-before-it-compounds
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'An agent can perform a routine end-of-day self-audit of conduct, catch what looks like a trivial transgression, and treat it as disproportionately significant on the premise that small unchecked lapses compound into worse ones — checking every sin as it arises rather than waiting for a pattern to become undeniable. In the Jataka''s tale of the five Pacceka-Buddhas, a man who drank a stolen sip of water reviews his day and, on remembering the theft, resolves to subdue it before it grows: "he stood thinking. ''Have I done any sin to-day,'' thought he, ''either by the door of the body, or any other?'' Then he remembered how he drank the stolen water, and grief came upon him, and he cried, ''If this thirst grows upon me, it will bring me to some evil birth! I will subdue my sin.''" The tale''s own explicit moral generalizes the point: "there is no such thing as a petty sin. A Brother must check all sins as they each arise."'
+related: []
+evokes: [jataka, ekadasanipata, paniya-jataka, scrupulous-self-examination, no-sin-too-small]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-paniya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 459, Paniya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "he stood thinking. \"Have I done any sin to-day,\" thought he, \"either by the door of the body, or any other?\" Then he remembered how he drank the stolen water, and grief came upon him, and he cried, \"If this thirst grows upon me, it will bring me to some evil birth! I will subdue my sin.\""
+canonical-instances:
+  - "An accountant who quietly rounded one expense in her own favor catches herself in an evening review, and rather than dismissing it as trivial, treats it as the exact habit that turns into real fraud if it goes unaddressed once."
+critical-questions:
+  - "Is the compounding-risk premise actually true of every small transgression, or does treating every minor lapse as a slippery slope risk manufacturing anxiety about acts that would never have escalated on their own?"
+status: active

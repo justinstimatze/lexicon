@@ -1,0 +1,29 @@
+id: lex-znaau
+name: premature-closure
+common-name: "Deciding before you've checked"
+type-in: process
+type-out: state
+_tier: atomic
+agent-instruction: "When you have a working hypothesis but haven't tested it against an obvious alternative, surface the alternative explicitly and name what observation would distinguish them before committing."
+related: [lex-jv983, lex-cwcj9, lex-k6d7u, lex-we98d, lex-t9fs7, lex-rcj6y, lex-e8wv6, lex-8cbn9, lex-2rsad, lex-dvydj, lex-rn9ht, lex-quu4s, lex-gc6ek, lex-betym, lex-nadsx, lex-x6sbv, lex-rfxtb, lex-m2cwp, lex-mmq8x, lex-prwfm, lex-mjav2, lex-bra5e, lex-fpvsu, lex-v39j4, lex-ett3j, lex-mf8w6, lex-eb3wf, lex-fecdf, lex-exrwy, lex-xgyv7, lex-gg87u, lex-xm754, lex-npyes, lex-qjkvn, lex-kxk99, lex-2vpet, lex-bg3ad, lex-tqa55, lex-jcmm3]
+scaffolds-from: [lex-we98d, lex-quu4s, lex-e8wv6]
+evokes: [thought-terminating-cliche, forced-resolution, false-closure]
+lineage:
+  - source: practitioner
+    text: lifton-1961
+    citation: "Thought Reform and the Psychology of Totalism (1961, repr. UNC Press 1989), ch.22 'Ideological Totalism', section 'Loading the Language'. [Correction 2026-08-30: the prior citation-status flag here (2026-08-19) said this quote was unverified. That was wrong -- the quote below has been verified byte-for-byte against the source text.]"
+    quote: "The language of the totalist environment is characterized by the thought-terminating cliché. The most far-reaching and complex of human problems are compressed into brief, highly reductive, definitive-sounding phrases, easily memorized and easily expressed. These become the start and finish of any ideological analysis."
+  - source: primary
+    tradition: cbt
+    text: cbt-cognitive-distortions-literature
+    citation: "premature-closure as a reasoning failure mode (verbatim quote not committed; CBT canon uses 'jumping to conclusions' / 'all-or-nothing thinking' rather than 'premature closure' verbatim)"
+canonical-instances:
+  - "'it is what it is' deployed as resolution to a question that hasn't actually been answered — closes inquiry without resolving content"
+  - "rhetorical resolution-by-assertion that ends discussion without addressing the substantive disagreement"
+critical-questions:
+  - "the resolution-condition test: what would have to be true for the question to actually be resolved? If you cannot name the resolution-condition, the closure is premature. Practitioner-discipline: before accepting a closure, write down what evidence-or-argument would constitute genuine resolution. Closures that cannot specify this are thought-terminating clichés (Lifton's term)"
+  - "the re-open-cost discriminator: is the closure cheap to re-open, or has it foreclosed future inquiry? Some premature closures are recoverable (you can revisit the question later); others are foreclosed because the closure was acted on irreversibly (the decision was made, the partner was left, the bridge was burned). The reversibility shapes how much closure-discipline is needed — irreversible closures demand more rigorous resolution-conditions than reversible ones"
+  - "the observational-vs-regulatory distinction: is the closure-statement doing OBSERVATIONAL work ('I notice the situation hasn't changed and won't') or REGULATORY work ('stop inquiring, this conversation is over')? The same phrase 'it is what it is' does either job depending on speaker-intent. Practitioner-question: which work is being done here? Regulatory closure is the premature-closure failure-mode; observational closure is legitimate when the observation is accurate"
+  - "the re-opening trigger: does the closure include conditions under which it reverts to provisional? Mature closure has the form 'this is settled UNLESS X happens, in which case re-open.' Premature closure typically lacks the conditional. Practitioner-discipline: when accepting a closure, write down at least one signal that would re-open the question. If none can be named, the closure is bypassing inquiry rather than resolving it"
+  - "the social-cost-of-NOT-closing check: some contexts demand closure for coordination (the surgeon must decide; the team needs the deadline call). Other contexts penalize closure (the analyst must remain provisional; the scientist must keep the question open). The premature-closure failure-mode is most damaging when an inquiry-context masquerades as a coordination-context. Practitioner-question: does this situation actually require closure right now, or is the closure-demand artifact rather than legitimate?"
+status: active

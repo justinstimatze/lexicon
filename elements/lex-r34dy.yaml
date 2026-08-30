@@ -1,0 +1,21 @@
+id: lex-r34dy
+name: a-careless-third-party-promise-binds-the-uninvolved-person
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "Be careful what you offer as a reward when the thing being offered is a person who wasn't consulted -- once the offer is made and someone claims it, the social system built around honoring such promises can bind the uninvolved party regardless of what she actually wants. In Cushing's telling, the Prey-gods offhandedly promise their sister as a wife to 'whoever would kill the speckled Demon,' with no indication she agreed to this or was even present when it was said. When a Coyote arrives claiming the reward, her outrage at being claimed at all -- 'Impertinent scoundrel!... I have never been married!' -- gets no traction whatsoever once he produces the proof: 'the poor girl said not a word, but sat there' and 'had to submit.' The brothers who made the promise never intended to consult her about who would collect it; the reward's whole value to them was that it cost them nothing to offer, since it was never theirs to give in the first place. Diagnostic move: when you're tempted to offer someone else, their time, their loyalty, their hand in marriage, as an incentive to motivate a third party, recognize that you're not actually paying the cost of your own offer -- the person you've offered is the one who bears it, often without ever having agreed to be part of the transaction at all, and the more binding your community treats such promises, the less recourse they have once someone comes to collect."
+related: []
+evokes: [the-reward-costs-the-promiser-nothing-because-its-not-theirs-to-give, cushing-coyote-and-siuiuki, the-poor-girl-said-not-a-word-but-sat-there, an-offhand-promise-becomes-a-binding-claim]
+lineage:
+  - source: primary
+    text: cushing-coyote-siuiuki-sister-promised-as-reward-without-consent
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Coyote Who Killed the Demon Síuiuki: or Why Coyotes Run Their Noses Into Deadfalls.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'Whoever would kill the speckled Demon, they declared, should have you for his wife.' ... So the poor girl said not a word, but sat there until the Coyote called out: 'I say, wife, come down and take me up; I can't climb the ladders.' So the poor girl went down the ladder, took her foul-smelling husband in her arms, and climbed up with him... So the poor girl had to submit to the ill-smelling creature's embraces."
+canonical-instances:
+  - "A department head promises a subordinate's dedicated support to whichever team wins an internal competition, without ever asking the subordinate, and once a winning team claims the reward, workplace norms around honoring commitments make it difficult for the subordinate to refuse an assignment they never agreed to and had no say in creating."
+  - "Parents in a small community jokingly promise their daughter's hand to whichever suitor accomplishes some feat, intending it as empty rhetoric, and when a suitor actually accomplishes the feat and the community treats the promise as binding, the daughter has far less power to refuse than the parents ever anticipated when they made the offhand offer."
+critical-questions:
+  - "does the family's failure to intervene on the sister's behalf once the Coyote claims her reflect genuine belief the promise was binding, or does it reflect a deeper acceptance that a woman's consent was never actually a factor in the arrangement to begin with -- is the promise's bindingness the real mechanism, or a cover for that?"
+  - "what would it have taken for the sister to have real recourse here -- does the story examine any path by which she could have refused, or is her lack of agency total and unexamined, treated as simply how such promises work rather than as an injustice needing address?"
+  - "is there a meaningful difference between a promise made carelessly, not expecting anyone to actually succeed, and one made in full awareness that success was possible -- does the brothers' apparent surprise at the Coyote's claim suggest they never seriously weighed the cost of their own offer?"
+status: active

@@ -1,0 +1,20 @@
+id: lex-d4vpk
+name: a-creatures-fixed-incentive-response-performs-a-task-you-cannot-do-directly
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When a task requires manipulating something too small, too fine, or too enclosed for human hands or tools to manage directly, find a creature whose behavior is reliably driven by a simple appetite, bait that appetite at the task''s starting point, and let its instinctive pursuit do the physical work. In the Maha-Ummagga-Jataka, a jeweled bead has a broken thread through a narrow, curved channel no human fingers or tool can rethread. Mahosadha "asked for a lump of honey. With this he smeared the two holes in the gem, and twisting a thread of wool, he smeared the end of this also with honey, he pushed it a little way into the hole, and put it in a place where ants were passing. The ants smelling the honey came out of their hole, and eating away the old thread bit hold of the end of the woollen thread and pulled it out at the other end."'
+related: []
+evokes: [jataka, mahanipata, maha-ummagga-jataka, outsourcing-to-instinct, bait-and-incentive, tool-substitute]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-maha-ummagga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 546, Maha-Ummagga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: 'He bade them fear nothing, and asked for a lump of honey. With this he smeared the two holes in the gem, and twisting a thread of wool, he smeared the end of this also with honey, he pushed it a little way into the hole, and put it in a place where ants were passing. The ants smelling the honey came out of their hole, and eating away the old thread bit hold of the end of the woollen thread and pulled it out at the other end.'
+canonical-instances:
+  - "A watchmaker needs to draw a fine lubricated thread through a sealed gear housing too narrow for tweezers; she coats one end in a sugar solution and lets a trail of ants inside the workshop's wall void pull it through overnight."
+  - "Cave researchers need to run a sensor cable through a collapsed passage too tight for any robot; they attach food to a leash-length of the cable and let a colony of cave-dwelling insects drag it through toward the food source."
+critical-questions:
+  - "This depends on the creature's incentive response being reliable enough to predict the outcome in advance — how do you know a given creature's behavior is fixed enough to trust with a task you can't personally verify mid-process?"
+  - "Using a living creature as an unwitting tool raises the question of harm or waste to the creature itself — does the method still generalize once that cost is weighed against alternatives that are slower but don't instrumentalize another organism?"
+status: active

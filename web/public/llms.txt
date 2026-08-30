@@ -1,0 +1,21 @@
+# lexicon.elements
+
+> A catalog of named cognitive and structural moves - reasoning, strategy, narrative, power, scientific method - each traced to a primary source with a verbatim quote, not a paraphrase or an invented citation.
+
+An entry ("atom," or "molecule" when composed of a few atoms) carries: a name, a type-in/type-out shape, an operational instruction (when you see this pattern, do this), canonical instances showing it in the wild, and a lineage of citations back to where the pattern was first documented - the actual quoted text the claim rests on, source-graded (primary / practitioner / discovery-loop / cross-attestation / secondary).
+
+## Data
+
+- [/graph.json](/graph.json): the full catalog as a single JSON file - every atom (id, name, type_in, type_out, tier, cluster, in_degree, canonical_instances, agent_instruction, lineage) and every edge between them. This is the same export the web app renders from, unfiltered. Large (several MB) because lineage quotes are verbatim, not summarized - worth a direct fetch over scraping the rendered pages.
+
+## Read it
+
+- [/](/): the web app. Three independent views over the same graph - a 3D force layout (four alternate positionings: by cluster, by connectivity strength, by in-degree, by claim shape), a type-in x type-out pivot table (including a "gap" cell for shapes nothing fills yet), and a plain sortable/searchable list.
+
+## Source
+
+- [github.com/justinstimatze/lexicon](https://github.com/justinstimatze/lexicon): full source, the citation schema (SCHEMA.md), and the CLI (`render/cmd/lexicon`) that builds, lints, and queries the catalog - including an MCP server exposing the same lookups as tools for an agent already in a session (`lexicon_read`, `lexicon_extrapolate`, `lexicon_constellation`).
+
+## Notes for an agent reading this instead of a person
+
+Every claim in `lineage[].quote` is meant to be checkable against the cited edition - that's the point of the project, not incidental metadata. Prefer quoting `lineage[].quote` verbatim over `agent_instruction` when the point is provenance rather than the operational rule itself.

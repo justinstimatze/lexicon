@@ -1,0 +1,19 @@
+id: lex-aa87r
+name: publicly-questioning-an-authoritys-existence-provokes-intervention
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a plea addressed directly to a powerful, normally-responsive authority goes unanswered, switching from request to public taunt — loudly questioning whether the authority exists, is present, or is even alive — can provoke the response the direct plea failed to get. The taunt works by putting the authority's own standing on trial in front of an audience, rather than asking a favor of them; an authority that would ignore a request may still act to avoid appearing absent or powerless. In the Jataka's tale, the fairy Canda's wife, unable to revive her poisoned husband by any means she has, does not pray to the god Sakka — she taunts him: \"Are there none who govern the world? are they on a journey? or peradventure they are dead, and therefore save not my dear husband!\" Sakka's throne grows hot from the force of her pain, he investigates the cause, and comes to heal Canda personally. The same shape appears in the taunt Elijah directs at the silent prophets of Baal in 1 Kings 18:27, needled at length in the same spirit — mocking the god's plausible absence (busy, traveling, asleep) rather than pleading with him to appear."
+related: []
+evokes: [jataka, pakinnakanipata, canda-kinnara-jataka, shaming-a-silent-authority-into-acting, public-taunt-as-a-forcing-move]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-canda-kinnara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XIV (Pakinnaka-Nipata), No. 485, Canda-Kinnara-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Are there none who govern the world? are they on a journey? or peradventure they are dead, and therefore save not my dear husband!"
+canonical-instances:
+  - "A customer whose support tickets go unanswered for weeks stops emailing the help desk directly and instead posts publicly asking whether the company still has a support team at all — and gets a personal reply from an executive within the hour."
+critical-questions:
+  - "The taunt works here because Sakka genuinely has the power to act and was simply unaware, not unwilling. What happens when the taunted authority is actually absent, powerless, or indifferent — does the public questioning just document the absence rather than provoke a response?"
+  - "Both this tale and 1 Kings 18:27 show the taunt succeeding or being met with silence that itself becomes evidence (Baal's prophets get no answer at all, which is the point of that scene). Is the taunt's real function to provoke a response, or to produce a public, legible record of whether one comes?"
+status: active

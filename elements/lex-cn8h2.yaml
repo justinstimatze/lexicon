@@ -1,0 +1,21 @@
+id: lex-cn8h2
+name: individually-dismissed-anomalies-can-aggregate-into-a-real-signal
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "A recurring defect that gets dismissed and discarded every single time it's individually encountered can still be the exact signature of a real, undiscovered cause -- the mistake isn't in rejecting any one instance, it's in never collecting the rejections together to see whether they form a pattern. In 1978, astronomer James Christy was studying photographs of Pluto's orbit. One showed the planet's image oddly elongated; he was about to discard it as a bad plate when he found an older photo in the archive labeled exactly the same way: 'Pluto image. Elongated. Plate no good. Reject.' Instead of discarding this one too, 'Christy made a collection of such plates and in this way discovered that the elongation was not an accident: Pluto has a moon.' Every individual astronomer who had filed a plate as defective had made a locally reasonable call -- a single elongated image really does look like a flaw. The discovery only became available once someone stopped treating each occurrence as a closed, isolated case and instead asked whether the same 'flaw' kept recurring in a way that a true defect wouldn't. Diagnostic move: when you keep independently encountering and dismissing the same specific kind of anomaly as noise, defect, or bad data, pause before discarding the next instance and ask whether anyone has ever gathered the full set of them together -- a defect that only ever appears once is probably noise, but a specific defect that recurs in the same form across many independent instances may be signal wearing the disguise of noise."
+related: []
+evokes: [hyde-trickster-makes-this-world-an-attack-of-accidents, james-christy-and-plutos-moon, plate-no-good-reject, elongation-was-not-an-accident]
+lineage:
+  - source: primary
+    text: hyde-christys-rejected-pluto-plates-aggregate-into-the-discovery-of-a-moon
+    citation: "Lewis Hyde, Trickster Makes This World: Mischief, Myth, and Art (Farrar, Straus and Giroux, 1998; Canongate Books 2008 edition), Chapter 4, '\"An Attack of Accidents,\"' on James Christy's 1978 discovery of Pluto's moon Charon. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "In 1978, at the U.S. Naval Observatory, James Christy was working on describing Pluto’s orbit. One of his photographs showed an elongated image of the planet; he was about to discard it when he came upon another photo in the archives labeled: “Pluto image. Elongated. Plate no good. Reject.” Christy made a collection of such plates and in this way discovered that the elongation was not an accident: Pluto has a moon."
+canonical-instances:
+  - "Individual support agents each independently close out a specific class of customer complaint as a one-off user error, until someone finally pulls every ticket matching that exact description together and discovers they all trace to the same silent bug that had been misfiled as noise for months."
+  - "Radiologists each read a faint recurring artifact on a certain scanner model's images as a routine equipment quirk and correct for it individually, until someone compiles every flagged instance and discovers the 'quirk' correlates with an early-stage condition the equipment was inadvertently detecting the whole time."
+critical-questions:
+  - "How would anyone know in advance which recurring 'defects' are worth the effort of aggregating, given that most true noise also recurs in similar-looking forms across many instances without ever amounting to a real signal?"
+  - "Does this pattern depend on someone happening to notice the coincidence of labeling, as Christy did by chance finding the older plate, and if so, how much of the discovery was structural insight versus a lucky archival encounter?"
+  - "Once a recurring anomaly is aggregated and confirmed as signal, does the original per-instance dismissal count as a failure of the individual reviewers, or was rejecting each instance in isolation actually the correct call given the information available to them at the time?"
+status: active

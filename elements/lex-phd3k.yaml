@@ -1,0 +1,19 @@
+id: lex-phd3k
+name: a-self-organized-rotation-allocates-unavoidable-risk-fairly
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When a group faces an unavoidable, recurring lethal risk, establishing a turn-taking rotation distributes that risk equitably across the group rather than leaving exposure to chance or the strongest simply avoiding it. In the Jataka's tale of Nandiya, the captive deer arrange their own rotation for who faces the king's hunt each day: 'The deer arranged their turns, and he to whom the turn came stood on one side: and they take him when shot.'"
+related: []
+evokes: [jataka, chanipata, nandiyamiga-jataka, self-organized-risk-rotation, equitable-distribution-of-unavoidable-danger]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-nandiyamiga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 385, Nandiyamiga-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The deer arranged their turns, and he to whom the turn came stood on one side: and they take him when shot."
+canonical-instances:
+  - "A group of volunteer firefighters facing an unavoidable dangerous night shift sets up a strict rotation so the same few people don't keep drawing the worst calls, spreading the risk across everyone equally."
+critical-questions:
+  - "The total harm facing the group stays fixed either way — does a fair rotation actually shrink it, or only change whose turn it is to bear it?"
+  - "What happens to the rotation's fairness once individual members start trying to trade turns or dodge their place in line — does the system hold up under that pressure?"
+status: active

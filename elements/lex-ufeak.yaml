@@ -1,0 +1,22 @@
+id: lex-ufeak
+name: a-second-agent-can-amplify-a-signal-by-changing-the-detector
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: "When two inputs combine to produce a much larger effect than either alone, check whether they're actually reacting with each other, or whether one input is instead changing the sensitivity of whatever detects the other — altering the receiver's response curve rather than adding its own independent contribution to the signal. If it's the latter, look for the amplifying agent even in trace amounts where it produces no effect by itself, since its role is to calibrate the detector rather than to add its own contribution to the signal."
+related: [lex-mr4nb, lex-bun8e]
+evokes: [americas-test-kitchen, guy-crosby, umami-synergy, glutamate-and-nucleotides, the-handles-on-the-box, changing-the-receiver-not-the-signal]
+lineage:
+  - source: primary
+    text: americas-test-kitchen-crosby-2012-science-of-good-cooking
+    citation: "The Editors at America's Test Kitchen and Guy Crosby, The Science of Good Cooking: Master 50 Simple Concepts to Enjoy a Lifetime of Success in the Kitchen (America's Test Kitchen, 2012), Concept 35, 'Glutamates, Nucleotides Add Meaty Flavor,' pp. 1238-1239."
+    quote: "Interestingly, when nucleotides and glutamates are combined in cooking, there is no chemical reaction between the two. Instead, the nucleotides affect the taste receptors on the human tongue, altering the shape of the glutamate receptors and allowing them to send stronger signals to the brain. If tasting the umami of glutamates were like lifting a heavy box, the addition of nucleotides give us handles, making the box exponentially easier to pick up off the ground."
+canonical-instances:
+  - "In a blind taste test, 21 people rated plain water 0 for savoriness on a 0-to-10 scale, water with 0.3 percent MSG alone about 5, and water with 0.3 percent inosinate (a nucleotide) alone also about 5 — but water with both MSG and inosinate together, at half the concentration of each, was rated 10, the maximum. The nucleotide alone registers only a moderate taste of its own; its real contribution only shows up as a multiplier on the glutamate signal once both are present together."
+critical-questions:
+  - "Has the amplifying agent actually been tested alone at the same dose, to confirm it produces little effect by itself, or is the assumption that it's 'doing half the work' resting only on the combined result?"
+  - "Is the amplification specifically located at the detector — a calibration effect on the receiver — or could it instead be a genuine chemical interaction between the two agents that just hasn't been identified yet? What test would distinguish the two?"
+  - "Does the amplifying agent have a saturation point beyond which adding more stops increasing the multiplier, and has that ceiling been located, or is 'more amplifier' being assumed to keep paying off indefinitely?"
+  - "Operationally distinct from lex-bun8e lollapalooza-aligned-forces-amplify-nonlinearly-not-additively: that atom is about three or more independently-contributing forces crossing a critical-mass breakpoint together. This atom is about a single pair where one member contributes nothing of its own and instead recalibrates the detector reading the other — amplification through the receiver, not through additional independently-summed causes."
+status: active
+severity-tier: info

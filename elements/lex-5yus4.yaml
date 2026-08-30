@@ -1,0 +1,18 @@
+id: lex-5yus4
+name: a-long-kept-secrecy-pact-breaks-the-moment-the-keepers-own-life-is-credibly-threatened
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A secret the keeper has every incentive to protect, and has kept successfully for years, can be surrendered the moment the keeper''s own survival is credibly threatened, revealing that loyalty and secrecy hold only up to the point where self-preservation overrides them. In the Jataka''s tale of Ghata, Andhakavenhu discloses the Ten Brethren''s true parentage only once the king directly threatens his life: "He being in fear of his life craved the boon of safety from the king, and told the secret, that how these were no sons of his, but of Upasagara."'
+related: []
+evokes: [jataka, dasanipata, ghata-jataka, coercion-breaks-loyalty, secrecy-pact-under-threat]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-ghata-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 454, Ghata-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "He being in fear of his life craved the boon of safety from the king, and told the secret, that how these were no sons of his, but of Upasagara."
+canonical-instances:
+  - "A longtime bookkeeper who has covered for his employer's tax fraud for a decade discloses everything to investigators the moment they threaten him personally with prosecution, ending a loyalty that had survived every previous pressure short of that one."
+critical-questions:
+  - "Ordinary betrayal gets judged as a choice freely made under no threat at all. A gun to the discloser's own head complicates whether 'choice' is even the word for what happens next."
+status: active

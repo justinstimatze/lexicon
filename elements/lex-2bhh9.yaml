@@ -1,0 +1,22 @@
+id: lex-2bhh9
+name: a-relationship-itself-stores-and-retrieves-shared-knowledge
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: "When two people learn something together, consider that the knowledge may come to live in the relationship between them rather than in either person's memory alone or in an external artifact. Yunkaporta's 'kinship-mind' names this: knowledge learned with or from another person 'sits in the relationship between you,' and the retrieval cue isn't a notebook or a database but the other person themselves — proximity, picturing them, or saying their name. This needs no external object at all, which sets it apart from every other form of extended or offloaded memory that runs through an artifact standing between the knower and the knowledge."
+related: [lex-3haas, lex-hgdkj, lex-t78sc]
+scaffolds-from: [lex-hgdkj]
+evokes: [yunkaporta, sand-talk, kinship-mind, relational-memory, extended-cognition]
+lineage:
+  - source: primary
+    text: yunkaporta-2019-sand-talk-kinship-mind
+    citation: "Tyson Yunkaporta, Sand Talk: How Indigenous Thinking Can Save the World (Text Publishing, 2019 / HarperOne 2020). No chapter number recoverable from the extraction; falls in the book's later 'ways of thinking' section. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "Kinship-mind is a way of improving and preserving memory in relationships with others. If you learn something with or from another person, this knowledge now sits in the relationship between you. You can access the memory of it best if you are together, but if you are separated you can recall the knowledge by picturing the other person or calling out their name."
+canonical-instances:
+  - "Recalling a fact learned from a specific mentor, colleague, or friend more easily when picturing them or standing near them, even when the fact has nothing to do with that person — evidence the relationship itself functions as a retrieval structure."
+  - "operationally distinct from lex-t78sc (a shared external substrate like a sand drawing, extending cognition for co-present collaborative pattern-reading — both parties need a physical medium in view) and lex-3haas (external symbolic storage persisting culture across generations through an object that outlives the people): kinship-mind needs no artifact at all. The storage medium is the relationship itself."
+critical-questions:
+  - "Does kinship-mind retrieval degrade or vanish when the relationship ends, through estrangement, forgetting, or death, unlike an artifact-based memory that persists independent of any single relationship's status?"
+  - "Is this a genuinely distinct memory mechanism from ordinary context-dependent or state-dependent memory (recall improves when retrieval context matches encoding context), or a culturally-named instance of that broader phenomenon applied to a person as context?"
+  - "How does kinship-mind scale — does knowledge distributed across many relationships become harder to retrieve as a coherent whole, or does the network of relationships itself become the organizing structure?"
+status: active

@@ -1,0 +1,22 @@
+id: lex-cce26
+name: unperformed-potential-is-worth-less-than-no-potential-plus-action
+type-in: state
+type-out: claim
+_tier: atomic
+agent-instruction: "A person can state that even an extraordinary granted capacity is worthless -- worse than useless to others -- unless something forces its actual performance, such that someone with a great unrealized vision who never acts on it would help people less than an ordinary person with no vision at all who simply acts. Black Elk states the comparison explicitly, crediting his own compulsion rather than his own merit: 'if the great fear had not come upon me, as it did, and forced me to do my duty, I might have been less good to the people than some man who had never dreamed at all, even with the memory of so great a vision in me.' The vision itself isn't what made him useful. Being compelled to perform it was."
+related: []
+evokes: [black-elk-speaks, powers-of-the-bison-and-the-elk, i-might-have-been-less-good-to-the-people, than-some-man-who-had-never-dreamed-at-all, unperformed-vision-worse-than-no-vision]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch18-bison-and-elk
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 18, 'The Powers of the Bison and the Elk.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "And if the great fear had not come upon me, as it did, and forced me to do my duty, I might have been less good to the people than some man who had never dreamed at all, even with the memory of so great a vision in me. But the fear came, and if I had not obeyed it, I am sure it would have killed me in a little while."
+canonical-instances:
+  - "A gifted surgeon who never overcomes crippling stage fright to actually operate would save fewer lives than a merely competent surgeon with no exceptional talent at all who simply shows up and performs the surgery."
+  - "A brilliant unpublished writer who never finishes and releases a single manuscript has contributed less to readers than a mediocre writer who reliably publishes ordinary books people actually read."
+  - "An engineer who has designed a genuinely superior system only in private notebooks, never proposing or building it, has delivered less value to their team than a colleague executing a merely adequate but actually shipped design."
+critical-questions:
+  - "Is this claim actually about the value delivered to others, or is it really a statement about Black Elk's own moral self-assessment, framed as a comparison to make his years of silence and fear feel more justified in hindsight?"
+  - "Does the presence of unused potential carry any negative value beyond simple absence of benefit, does an unperformed vision cost the visionary something, guilt, illness, a shortened life, that a person who never had the capacity at all would never have to pay?"
+  - "Black Elk credits the fear, not his own choice, with forcing the vision into action -- does this framing understate his own agency in eventually performing it, or is external compulsion genuinely what separates people who act on their potential from those who don't?"
+status: active

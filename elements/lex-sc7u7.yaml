@@ -1,0 +1,19 @@
+id: lex-sc7u7
+name: a-precaution-for-bystanders-is-taken-mid-irreversible-self-sacrifice
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "At the exact moment of committing to an irreversible, self-destructive act, care for unrelated third parties who have nothing to do with the act can still surface as a deliberate, executed step — extending ethical consideration to bystanders precisely when self-interest would have every reason to stop mattering. In the Jataka's tale of the sacrificial hare, at the instant of committing to leap into the fire, the hare pauses to protect any insects sheltering in his fur: 'Rising from his bed of kuga grass and coming to the place, he thrice shook himself that if there were any insects within his coat, they might escape death.'"
+related: []
+evokes: [jataka, catukkanipata, sasa-jataka, bystander-care-survives-the-moment-of-maximum-self-risk, a-precaution-executed-with-nothing-left-to-gain-from-it]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sasa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 316, Sasa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Rising from his bed of kuga grass and coming to the place, he thrice shook himself that if there were any insects within his coat, they might escape death."
+canonical-instances:
+  - "A demolition worker about to detonate a controlled charge on a condemned building pauses to check the surrounding gutters and eaves for nesting birds first, even though the charge is set and there is no personal benefit left to gain from the delay."
+critical-questions:
+  - "Does this precaution actually accomplish anything meaningful in the story, given that the fire turns out to be harmless anyway — is the gesture morally significant, or only dramatically significant because of how the story resolves?"
+  - "Would this kind of care for bystanders survive if the actor knew for certain the act would be fatal and irreversible, or does its narrative placement right before a miraculous rescue make it easier to admire than to actually practice?"
+status: active

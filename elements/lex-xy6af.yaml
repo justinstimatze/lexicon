@@ -1,0 +1,19 @@
+id: lex-xy6af
+name: mobilize-collective-action-only-after-evidence-is-confirmed
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Once direct proof of wrongdoing is in hand, organizing the group''s collective response rather than acting alone or accusing prematurely builds the force needed to act while avoiding the risk of a false accusation. In the Jataka''s tale of Dhammaddhaja, only after confirming the crow''s guilt with his own eyes does the leader gather the other birds to act together: ''so getting the birds together and surrounding the crow he said, "If he flees, let us seize him."'''
+related: []
+evokes: [jataka, chanipata, dhammaddhaja-jataka, mobilize-after-evidence-confirmed, collective-action-follows-proof]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dhammaddhaja-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 384, Dhammaddhaja-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "so getting the birds together and surrounding the crow he said, \"If he flees, let us seize him,\""
+canonical-instances:
+  - "A tenant association waits until it has photographed the landlord's building-code violations before calling a floor meeting, rather than raising the alarm on suspicion alone and risking a response nobody can act on together."
+critical-questions:
+  - "Does waiting for confirmed proof before mobilizing risk giving the wrongdoer more time to cover their tracks or flee, compared to acting on strong suspicion sooner?"
+  - "Once the group is mobilized, does the confirmed evidence actually get shown to them, or is the leader's word alone what turns suspicion into collective certainty?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-4mpzn
+name: grasping-for-an-uncertain-second-gain-forfeits-the-sure-one-already-held
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Abandoning a sure, already-held gain to lunge at a second, uncertain one can result in losing both — a self-contained illustration of how greed for an additional prize forfeits the value already secured, rather than simply failing to add to it. The loss isn't neutral; letting go of the first thing is itself the cost of reaching for the second. In the Jataka's staged parable within the tale of Culladhanuggaha, a jackal already holding meat drops it to lunge at a fish and ends with neither: 'the jackal thus lost both fish and meat and sat sulkily looking towards the clump of cassia.'"
+related: []
+evokes: [jataka, pancanipata, culladhanuggaha-jataka, grasping-for-more-forfeits-what-is-already-held, greed-for-a-second-gain-loses-the-first]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-culladhanuggaha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 374, Culladhanuggaha-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The jackal thus lost both fish and meat and sat sulkily looking towards the clump of cassia. The woman seeing this said, \"Through being too covetous, he got neither flesh nor fish,\""
+canonical-instances:
+  - "A trader holding a modest but confirmed profit sees a bigger, unconfirmed opportunity flash by. Selling the confirmed position to chase it, both trades close in the red: the certain gain is gone, and so is whatever the chase was supposed to replace it with."
+critical-questions:
+  - "Is the lesson here simply about greed, or is it more specifically about a failure to compare the certain value of what's held against the actual, discounted expected value of the alternative before letting go?"
+  - "Does this pattern only apply when the second gain is genuinely uncertain, or does it also describe cases where the second gain was real but simply not worth the specific first thing given up to reach for it?"
+status: active

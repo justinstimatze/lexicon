@@ -1,0 +1,29 @@
+id: lex-g6qbp
+name: pattern-language-and-multi-lens-evaluation-compose-into-a-design-methodology
+type-in: situation
+type-out: process
+_tier: molecule
+agent-instruction: "When designing something recurring and complex, use patterns to name what context+forces+resolution recur across instances, and use lenses to routinely swap evaluative framings so no single perspective's blind spots dominate the assessment. The two are complementary, not redundant: patterns describe WHAT recurs and how it resolves; lenses describe HOW to keep checking a design against multiple evaluative questions as you apply or compose patterns."
+related: [lex-g6sp7, lex-a55ep]
+scaffolds-from: [lex-g6sp7, lex-a55ep]
+evokes: [pattern-language-alexander, multi-lens-design-evaluation, design-methodology-composition, context-forces-resolution]
+decomposes-into:
+  - lex-g6sp7
+  - lex-a55ep
+premises:
+  - "patterns resolve recurring conflicts and compose into a generative design language — each pattern names a context, the forces in tension within it, and a resolution that recurs across instances of that context (lex-g6sp7)"
+  - "lenses are a multi-perspective design-evaluation method — routinely swapping which evaluative questions you're asking mitigates any single framing's blind spots (lex-a55ep)"
+  - "the two compose rather than duplicate: patterns describe the vocabulary of context+forces+resolution; lenses describe the discipline of checking a design against multiple evaluative questions as patterns are selected, applied, or combined"
+  - "neither operator in the bounded composition-operations vocabulary (sequential, parallel) cleanly type-checks this pair — situation→process versus claim→claim — because the relationship is genuinely methodological (used jointly as a combined practice) rather than a data-flow chain or two lenses over identical input; this molecule ships without a formal `assembly` string for that reason, matching the precedent of lex-dxx5k and lex-5gg2c"
+critical-questions:
+  - "when applying both together, which comes first in practice — do you select a pattern and then evaluate it through multiple lenses, or generate lens-driven requirements and then search for a pattern that satisfies them? The composition doesn't settle an ordering, and different design contexts likely favor different orders."
+  - "can the lens-swapping discipline itself become a new pattern (a recurring context+forces+resolution for 'how do you keep a design review honest')? If so, the boundary between the two vocabularies may be less sharp than the atoms individually suggest."
+  - "does using both together actually reduce blind spots in practice, or does the combined methodology just add process overhead without a measurable quality improvement? This is an empirical claim about design practice that the composition asserts but doesn't itself verify."
+lineage:
+  - source: practitioner
+    text: assembled-from-lex-g6sp7-lex-a55ep
+    citation: "Molecule assembled from lex-g6sp7 (patterns-resolve-recurring-conflicts-and-compose-into-generative-design-language, Alexander) and lex-a55ep (lenses-as-multi-perspective-design-evaluation-method). lex-a55ep's own canonical-instances state the link: 'Composes with lex-g6sp7 pattern-language: patterns describe context+forces+resolution; lenses describe evaluative questions. The pair compose into a design methodology.'"
+canonical-instances:
+  - "Software architecture review: a team uses design patterns (Alexander-derived, per the Gang of Four tradition) to name recurring structural solutions (Observer, Composite) and separately runs the design through evaluative lenses (performance, security, maintainability, cost) at each major decision point — the patterns supply the vocabulary of solutions, the lenses supply the discipline of checking each solution from angles the pattern's own documentation doesn't automatically surface."
+  - "Game design (the lens-method's origin domain, Schell 2008 *The Art of Game Design*): a designer applies a recognized pattern (a resource-economy loop, a risk-reward mechanic) and then deliberately cycles through lenses ('the lens of fun,' 'the lens of the player,' 'the lens of flow') to catch what the pattern's default application would miss for this specific game's context."
+status: under-review

@@ -1,0 +1,19 @@
+id: lex-7y8xx
+name: appealing-to-a-captors-own-code-can-earn-release-where-pleading-cannot
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Someone caught by captors who hold a specific code of honor can secure release not by pleading for mercy, but by reframing their capture in terms that code already honors, so that releasing them becomes the action the captors' own values point toward. Sympathy is not the lever. Recognition is. In the Jataka's tale of the captured messenger, a parrot sent to steal a sacred mango is caught by goblins debating how to kill him. Rather than begging, he speaks their language directly: 'Well, you have one king for your master, and I have another for mine. The king of Benares sent me here to fetch a fruit of the middle mango tree. Then and there I gave my life to my king, and here I am. He who loses his life for parents or master is born at once in heaven. Therefore I shall pass at once from this animal form to the world of the gods!' The goblins release him, moved by exactly the value system that was about to justify killing him."
+related: []
+evokes: [jataka, tikanipata, abbhantara-jataka, reframing-capture-in-the-captors-own-honored-terms-earns-release, recognition-of-shared-values-outperforms-pleading-for-mercy]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-abbhantara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 281, Abbhantara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Well, you have one king for your master, and I have another for mine. The king of Benares sent me here to fetch a fruit of the middle mango tree. Then and there I gave my life to my king, and here Iam. He who loses his life for parents or master is born at once in heaven. Therefore I shall pass at once from this animal form to the world of the gods!"
+canonical-instances:
+  - "A soldier captured behind enemy lines avoids execution not by begging but by invoking the specific military code of honor his captors themselves follow, framing his mission as an act of duty exactly like the one they'd expect from their own soldiers, and the captors release him on those terms."
+critical-questions:
+  - "Does this only work against captors who genuinely hold the code being invoked, or can a sufficiently convincing performance of shared values work even against captors who don't actually believe what they claim to?"
+  - "Is there a risk that framing the appeal this precisely only works once, since captors who feel outmaneuvered by their own logic might refuse to be moved the same way a second time?"
+status: active

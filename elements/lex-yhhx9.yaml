@@ -1,0 +1,19 @@
+id: lex-yhhx9
+name: retaliation-through-a-shared-medium-loops-back-onto-the-punisher
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When choosing how to retaliate, check whether the instrument itself operates through terrain shared with you, rather than staying confined to the target alone. Aesop's 'The Farmer and the Fox,' after a fox raids his poultry, ties burning material to its tail and sets it loose; the fox flees through the farmer's own standing corn, burning his entire harvest along with itself, which the stated moral names directly: 'Revenge is a two-edged sword.' The blowback here is not simply that revenge can go wrong in general — it is specifically that fire, unlike a contained weapon, propagates through any terrain it touches, so choosing an uncontained medium for punishment guarantees exposure wherever punisher and target share the same ground."
+related: []
+evokes: [aesop, the-farmer-and-the-fox, uncontained-punishment-medium, retaliation-blowback]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-farmer-and-the-fox
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Farmer and the Fox.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Revenge is a two-edged sword."
+canonical-instances:
+  - "sanctions or a smear campaign that damage a shared supply chain or market the retaliator also depends on, or a cyberweapon released against a rival network that propagates back into the attacker's own infrastructure — the choice of an uncontained instrument, not the act of retaliating itself, is what creates the exposure."
+critical-questions:
+  - "Could the farmer have achieved the same punishment through a contained instrument that stayed confined to the fox, and if so, does that mean the blowback was avoidable through better tool selection rather than an inherent risk of revenge itself?"
+  - "How would someone assess in advance whether a given retaliatory instrument is genuinely contained, given that a shared terrain often stays hidden right up until the instrument is already spreading through it?"
+status: active

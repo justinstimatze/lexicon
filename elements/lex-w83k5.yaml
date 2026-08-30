@@ -1,0 +1,21 @@
+id: lex-w83k5
+name: mourning-a-death-you-caused-hides-your-own-hand-in-it
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "Visibly grieving someone whose death you personally engineered lets you occupy the social position of a fellow victim rather than a perpetrator, using the same public display that an innocent survivor would produce, with nothing in the performance itself distinguishing the two. In Radin's comparative Tlingit Raven summary, Raven builds a fake bridge specifically to kill and eat his traveling companion: 'he laid some dried celery stalks across, covered them with moss, and induced Deer to try to Walk across. Deer did so and was precipitated to the bottom, where he was devoured by Raven.' The killing is deliberate, planned, and entirely his doing. What follows erases none of that but changes how it reads to anyone watching: 'Afterward Raven began mourning for him.' There is no reconciling detail, no confession folded into the grief -- the mourning simply runs alongside the concealed fact of authorship, unchallenged by anything in the text. Diagnostic move: when someone's expressed grief over a loss is the first and only information you have about how that loss happened, treat the grief as telling you about their current social performance, not about their causal distance from the event, and look separately for evidence of what actually happened before accepting the mourning as proof of innocence."
+related: []
+evokes: [radin-tlingit-trickster-summary, raven-and-deer, induced-deer-to-try-to-walk-across, raven-began-mourning-for-him]
+lineage:
+  - source: primary
+    text: radin-raven-mourns-deer-after-killing-him-with-a-fake-bridge
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'Summary of the Tlingit Trickster Myth' (after J. R. Swanton, Tlingit Myths and Texts, Bureau of American Ethnology Bulletin 39, 1909). Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "he laid some dried celery stalks across, covered them with moss, and induced Deer to try to Walk across. Deer did so and was precipitated to the bottom, where he was devoured by Raven. Afterward Raven began mourning for him."
+canonical-instances:
+  - "A business partner who structured a deal specifically to bankrupt a smaller competitor is the most visibly sympathetic person at that competitor's closing announcement, expressing genuine-sounding regret to everyone who will listen."
+  - "A manager who set an impossible deadline specifically to force out an employee they wanted gone leads the team's condolence message when that employee resigns under the pressure, framing it as a shared loss."
+critical-questions:
+  - "Does the story present Raven's mourning as sincere in some sense he can't fully suppress despite having caused the death, or is it purely strategic performance with no genuine feeling behind it, and can the terse summary format even distinguish between those two readings?"
+  - "Would anyone else in the Tlingit cycle's world have grounds to suspect Raven given his established pattern of deception, or does the story suggest the mourning goes unquestioned specifically because grief is rarely interrogated?"
+  - "Is there a meaningful difference between mourning a death you caused accidentally versus one you engineered deliberately, and does the specific, planned nature of the bridge trap matter to how this diagnostic should be applied?"
+status: active

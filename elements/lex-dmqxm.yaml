@@ -1,0 +1,28 @@
+id: lex-dmqxm
+name: broader-perceived-task-competence-reduces-preferential-case-avoidance
+type-in: situation
+type-out: frame
+_tier: atomic
+agent-instruction: "When someone in a role develops a preference for easier cases over harder ones despite an obligation to serve all alike (a doctor preferring physically- over emotionally-ill patients, a caseworker preferring cooperative over resistant clients, a teacher preferring engaged over disruptive students), check their perceived competence across the FULL RANGE of tasks the difficult case actually requires, not just their competence at the case's most visible or nominal skill. Martin traces this concretely for physicians and emotionally-ill patients, who require tolerating the patient's distress and hostility rather than any special diagnostic skill; self-confidence at exactly that task predicted neutrality between illness types: 'Among the completely confident students, 62 per cent have no preference between a primarily physical or primarily emotional illness, in comparison with only 32 per cent of those with little confidence (Table 23).' He then generalizes past the one item to the whole battery of preferences: 'This finding may be provisionally extended to this hypothesis: the wider the range of tasks students feel competent to perform, the less marked should be their tendency to prefer certain types of patients to others.' Measuring self-rated confidence across nine distinct clinical tasks (venipuncture, dosage decisions, treating a doctor as patient, delivering bad news, emergency response, delivering a negative workup, a difficult diagnosis, preventing patient embarrassment, and handling an emotional outburst) and testing it against the breadth-of-preference count confirmed the generalized version: 'Figure 11 shows that students who feel confident in most or all respects are less given to partiality in their attitudes toward patients than their classmates. In general, the higher the degree of confidence, the smaller the average number of preferences.' The mechanism is avoidance-REDUCTION through competence, not attitude change through instruction: someone doesn't stop preferring easy cases because they were told to be impartial — they stop needing to avoid the hard case once they trust they can actually handle what it demands of them."
+related: [lex-szjjd, lex-7n2q4]
+evokes: [martin-1957, table-23-confidence-and-illness-type-preference, figure-11-confidence-and-mean-number-of-preferences, wider-range-of-tasks-hypothesis, nine-clinical-task-confidence-checklist]
+lineage:
+  - source: primary
+    text: martin-1957-62-percent-vs-32-percent-illness-preference
+    citation: "William Martin, \"Preferences for Types of Patients,\" in Merton, Reader, and Kendall, eds., The Student-Physician (Cambridge: Harvard University Press for The Commonwealth Fund, 1957), p.195."
+    quote: 'Among the completely confident students, 62 per cent have no preference between a primarily physical or primarily emotional illness, in comparison with only 32 per cent of those with little confidence (Table 23).'
+  - source: primary
+    text: martin-1957-wider-range-of-tasks-hypothesis
+    citation: "William Martin, \"Preferences for Types of Patients\" (1957), p.196."
+    quote: 'This finding may be provisionally extended to this hypothesis: the wider the range of tasks students feel competent to perform, the less marked should be their tendency to prefer certain types of patients to others.'
+  - source: primary
+    text: martin-1957-figure11-confidence-and-mean-preferences
+    citation: "William Martin, \"Preferences for Types of Patients\" (1957), p.197."
+    quote: 'Figure 11 shows that students who feel confident in most or all respects are less given to partiality in their attitudes toward patients than their classmates. In general, the higher the degree of confidence, the smaller the average number of preferences.'
+canonical-instances:
+  - "A new manager avoids giving critical feedback specifically to combative direct reports while readily engaging agreeable ones; the avoidance tracks not general management confidence but the manager's specific self-rated skill at de-escalating a defensive reaction, and training targeted at that one skill — not generic 'be fair to everyone' coaching — is what actually broadens who they'll engage with directly."
+  - "A call-center rep routes angry callers to a supervisor whenever possible while keeping straightforward calls; the avoidance correlates most tightly with the rep's confidence handling live verbal aggression specifically, not with tenure or overall call-handling competence, so training that broadens that one competence reduces routing-avoidance more than tenure alone does."
+critical-questions:
+  - "Confidence and avoidance are both self-reports collected at the same time; Martin's design cannot rule out that the causal arrow runs the other way — a student who happens not to avoid emotionally-ill patients gets more practice with them and therefore reports higher confidence, rather than confidence causing the willingness. Would an independently-timed PRIOR confidence measure (compare lex-s3c3x's method) predict LATER breadth of preference, or only correlate with it cross-sectionally?"
+  - "Is the mechanism competence itself, or the mere belief of competence regardless of accuracy — see lex-szjjd, where self-perceived competence turns out to be uncorrelated with faculty-graded actual competence? If belief alone is doing the work, an intervention that boosts confidence without boosting actual skill (a pep talk, an easy graded win) might reduce preferential avoidance just as effectively as real skill-building would — a very different, and riskier, lever to pull."
+status: active

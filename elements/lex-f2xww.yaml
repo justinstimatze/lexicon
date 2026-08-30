@@ -1,0 +1,19 @@
+id: lex-f2xww
+name: one-observed-betrayal-is-generalized-into-a-prediction-of-future-betrayal
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Watching someone arrange the destruction of a rival for your own sake can produce not gratitude but a generalized prediction: if they'll do this to someone else for you, they'll eventually do the same to you once someone new appears. In the Jataka's tale of the robber and Sama, having watched Sama engineer a substitute's death to free him, the robber reasons the same pattern will apply to him the moment she finds someone new, and uses this exact induction to justify permanently fleeing: 'Sama's fancy ever roves From tried faith to lighter loves: Me too Sama would betray, Were I not to flee away.'"
+related: []
+evokes: [jataka, catukkanipata, kanavera-jataka, a-witnessed-betrayal-becomes-a-prediction-about-oneself, benefiting-from-treachery-once-teaches-what-to-expect-next]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kanavera-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 318, Kanavera-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Sama's fancy ever roves From tried faith to lighter loves: Me too Sama would betray, Were I not to flee away."
+canonical-instances:
+  - "A new hire watches a manager throw a colleague under the bus to protect a project timeline and quietly starts documenting every one of their own decisions in writing, reasoning that the same manager will do exactly the same to them the moment it becomes convenient."
+critical-questions:
+  - "Is the generalization actually fair — does benefiting once from someone's willingness to betray a third party really predict they'd betray you too, or could the loyalty that motivated the first betrayal (love, in this case) just as easily protect the second person?"
+  - "Does the robber's own complicity in the first betrayal (accepting a substitute's death) undermine his standing to judge Sama's character, or are the two acts genuinely comparable?"
+status: active

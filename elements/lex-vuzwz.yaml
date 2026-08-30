@@ -1,0 +1,21 @@
+id: lex-vuzwz
+name: positional-advantage-can-outweigh-numerical-inferiority
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When facing an opponent or a field of opponents that outnumbers you, check whether raw numbers are actually the variable that decides the outcome, or whether ground, position, or vantage overrides the count entirely. Waite's Seven of Wands shows a man on a craggy eminence fending off six staves raised against him from below, and his gloss names the mechanism directly: 'on the surface, six are attacking one, who has, however, the vantage position... it is further a card of success, for the combatant is on the top and his enemies may be unable to reach him.' Being outnumbered six to one doesn't by itself determine who wins — holding superior ground can void the numbers as a predictor altogether."
+related: [lex-ampua]
+evokes: [waite, pictorial-key-to-the-tarot, seven-of-wands, positional-advantage, terrain]
+lineage:
+  - source: primary
+    text: waite-1910-pictorial-key-seven-of-wands
+    citation: "Arthur Edward Waite, The Pictorial Key to the Tarot (Rider, 1910), Part III Section 2, 'The Lesser Arcana,' Suit of Wands, Seven. The primary text behind the Rider-Waite-Smith deck's card meanings, illustrated by Pamela Colman Smith; not to be confused with L. W. De Laurence's 1918 plagiarized republication of this same book under his own name. Verified verbatim against a direct extraction of the full text hosted at sacred-texts.com, clean digital text, no OCR."
+    quote: "A young man on a craggy eminence brandishing a staff; six other staves are raised towards him from below. Divinatory Meanings: It is a card of valour, for, on the surface, six are attacking one, who has, however, the vantage position. On the intellectual plane, it signifies discussion, wordy strife; in business--negotiations, war of trade, barter, competition. It is further a card of success, for the combatant is on the top and his enemies may be unable to reach him."
+canonical-instances:
+  - "Waite's own phrasing marks the trap explicitly — 'on the surface, six are attacking one' — naming the surface count as a misleading first read that the actual outcome, once vantage is accounted for, doesn't confirm."
+  - "A defended mountain pass has repeatedly let a small force hold off a much larger one in military history precisely because the numerical ratio never gets to operate the way it would on open ground; the vantage point removes the larger force's numbers from the calculation almost entirely."
+critical-questions:
+  - "How much positional advantage is enough to void a given numerical disadvantage — is there a ratio at which even superior ground stops compensating, and how would you know where that line sits before testing it?"
+  - "Does the vantage point advantage decay over time (a siege eventually starves out the defender) in a way the card's single-moment image doesn't capture?"
+  - "Is 'vantage position' doing real predictive work here, or is it a post-hoc label applied whenever the numerically outnumbered side happens to win, in which case the claim risks being unfalsifiable?"
+status: active

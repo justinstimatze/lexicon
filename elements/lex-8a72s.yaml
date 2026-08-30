@@ -1,0 +1,19 @@
+id: lex-8a72s
+name: a-mirrored-fabricated-insult-turns-allies-against-each-other
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A third party who profits more from two allies' ruin than from their continued friendship can fabricate the same insulting quote and attribute it to each friend about the other, hoping the mirrored fabrication triggers mutual suspicion without requiring any actual evidence. The parasite needs no real grievance to exist — only two parties willing to believe a secondhand report about each other. In the Jataka's tale of Vannaroha, a jackal tells the lion the tiger has been running him down behind his back: 'he ever speaks in your dispraise and says, \"When I am gone, this lion will never attain to the sixteenth part of my personal beauty, nor of my stature and girth, nor of my natural strength and power.\"' Moments later, the jackal repeats the identical line to the tiger, with the names swapped."
+related: [lex-5ykp2]
+evokes: [jataka, pancanipata, vannaroha-jataka, mirrored-fabrication-turns-allies-against-each-other, third-party-profits-from-two-allies-ruin]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-vannaroha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 361, Vannaroha-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Your Reverence,\" he said, \"he ever speaks in your dispraise and says, \"When I ... am gone, this lion will never attain to the sixteenth part of my personal beauty, nor of my stature and girth, nor of my natural strength and power.\""
+canonical-instances:
+  - "A new hire tells one senior engineer that another senior engineer has been badmouthing their code reviews behind their back, using an almost identical fabricated quote, then tells the second engineer the same thing about the first — with no actual grievance existing between them until the rumors do their work."
+critical-questions:
+  - "Does the calumny actually require both targets to be somewhat predisposed to suspect each other already, or can it manufacture suspicion out of nothing even between parties with a long, well-established trust?"
+  - "Why does mirroring the same fabricated line to both sides work better than inventing two different insults — does the symmetry itself add believability, or is it just an efficiency the manipulator happens to exploit?"
+status: active

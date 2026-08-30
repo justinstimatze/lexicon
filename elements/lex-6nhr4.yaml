@@ -1,0 +1,19 @@
+id: lex-6nhr4
+name: a-test-disguised-as-an-instruction-makes-completing-it-the-failure-condition
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "An instruction that appears to reward successful completion can be constructed so that the condition for success — total undetectability — can never actually be verified as met; anyone who reports success is only reporting the absence of getting caught so far, which falls short of the stated bar. In the Jataka's tale of the tested pupils, a teacher orders his students to steal wedding gifts undetected, promising to accept only what's taken in perfect secrecy. Every pupil complies and steals. Only the Bodhisatta refuses, reasoning through the trap: 'You accept nothing,' he answered, 'unless it is taken secretly. But I find there is no such thing as secrecy in wrong-doing.' He alone is judged to have passed, precisely by refusing the literal task."
+related: []
+evokes: [jataka, catukkanipata, silavimamsana-jataka, an-instructions-hidden-condition-can-never-be-satisfied, refusing-the-literal-task-is-the-actual-pass-condition]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-silavimamsana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 305, Silavimamsana-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"You accept nothing,\" he answered, \"unless it is taken secretly. But I find there is no such thing as secrecy in wrong-doing.\""
+canonical-instances:
+  - "A manager tells the team that anyone who can get a policy exception approved 'without anyone upstairs noticing' will get the assignment they want — every report who tries to quietly game the approval fails the actual evaluation, and the one who refuses to even attempt it, on the grounds that nothing stays unnoticed forever, gets picked."
+critical-questions:
+  - "Is the tester being straightforwardly honest here, or does structuring the test this way amount to deliberately inducing wrongdoing in everyone except the one person perceptive or principled enough to see through it?"
+  - "What happens to the pupils who complied in good faith and now believe they succeeded — is punishing or excluding them after the fact for taking the instruction at face value fair?"
+status: active

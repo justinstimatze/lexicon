@@ -1,0 +1,21 @@
+id: lex-edyt8
+name: granting-a-wish-in-a-form-that-disables-it
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "When someone states a dangerous wish and you have the power to grant it, granting it in the literal, technically-compliant form they least expect can permanently remove the capability that made the wish dangerous in the first place, all while looking, in the moment, like you're simply giving them what they asked for. In Radin's Winnebago Hare Cycle, Hare asks each animal how it wants to live before assigning its place in the world. The elk answers ambitiously and threateningly: 'I wish to live by eating human beings.' Hare doesn't refuse or argue with the wish; he asks to see the teeth that would make it possible, confirms they're 'long and fearful,' and then grants the wish exactly as stated, framed as a reward rather than a trap: 'if that is your wish, take this and eat it. It is blood from the human beings.' What he actually hands over is fruit so sour it destroys the very teeth the wish depended on: 'it knocked the elk's teeth out so that only a few of his front teeth remained.' The elk immediately recants, and the recantation only happens because the capability, not just the stated intention, is now gone. Diagnostic move: when you're in a position to grant someone's stated wish and the wish itself is the dangerous part, consider whether the form of the grant can quietly remove the exact capability the wish depends on, rather than refusing the request outright and inviting continued pursuit of the same goal through other means."
+related: []
+evokes: [radin-winnebago-hare-cycle, hare-and-the-elk, i-wish-to-live-by-eating-human-beings, it-knocked-the-elks-teeth-out]
+lineage:
+  - source: primary
+    text: radin-hare-grants-the-elks-wish-in-a-form-that-destroys-its-teeth
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'The Winnebago Hare Cycle,' episode 22. Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "He asked the elk first, 'How do you wish to live?' and the elk answered, 'I wish to live by eating human beings.' So Hare asked him to show his teeth. The elk's teeth were long and fearful to look at. 'Well,' said Hare, 'if that is your wish, take this and eat it. It is blood from the human beings.' He then gave him some kind of fruit which was so sour that it knocked the elk's teeth out so that only a few of his front teeth remained. The elk wept and said, ' Hare, I take back what I said for I was wrong. Your uncles may kill me and eat me at all times.'"
+canonical-instances:
+  - "An employee repeatedly demands full, unsupervised access to a company's financial systems, and a manager grants the request exactly as stated, giving them sole, unshared responsibility for a task so tedious and closely audited that the access they wanted becomes something they no longer want to use."
+  - "A vendor insists on being the exclusive supplier for a client with punishingly slow, high-volume payment terms, and the client grants the exclusivity exactly as requested, structured so that the vendor's own cash flow constraints make fulfilling the exclusive contract more costly than the business it was meant to secure."
+critical-questions:
+  - "Is Hare's method here fundamentally different from simply lying to the elk about what the fruit was, or does presenting a disabling consequence as a literal fulfillment of the stated wish count as a form of deception regardless of the framing?"
+  - "Does the elk's immediate recantation suggest the wish itself was never fully considered, made carelessly rather than as a genuine commitment, and if so, does that change how much responsibility the elk bears for the outcome compared to Hare?"
+  - "Would this approach work against someone who anticipated exactly this kind of literal-but-disabling compliance and asked for the capability itself rather than a symbolic token of it, and what does that suggest about when this diagnostic actually applies?"
+status: active

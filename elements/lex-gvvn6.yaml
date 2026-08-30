@@ -1,0 +1,21 @@
+id: lex-gvvn6
+name: specific-know-how-succeeds-where-reputation-based-strength-already-failed
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "When a problem resists everyone whose qualification is general strength or general competence, the fix that works may not need more of that same quality -- it may need one narrow piece of specific know-how that none of the strong candidates happened to possess. In Radin's Winnebago Trickster cycle, Trickster's penis has become lodged fast inside the chief's daughter, and the people first call on exactly the group whose reputation seems most relevant: 'the men who had the reputation for being strong were called and tried it but they, too, could not move it. Finally they all gave up.' Only then does someone think of a different kind of qualification entirely: 'There is an old woman around here who knows many things. Let us go and get her.' She does not pull, wrestle, or apply force at all. She takes an awl, and while working it in, sings a specific line: ''First-born, if it is you, pull it out! Pull it out!'' Immediately, 'in the midst of her singing, the penis was jerked out.' The strong men's failure was never a matter of insufficient strength; it was a wrong-shaped tool applied by the wrong kind of expert, and the actual fix required someone whose competence had nothing to do with strength at all. Diagnostic move: when a problem defeats everyone recruited for their strength or general capability, consider that the missing ingredient may be a specific, narrow piece of knowledge rather than more of the quality already being tried and failing."
+related: []
+evokes: [radin-winnebago-trickster-cycle, wakdjunkaga, an-old-woman-around-here-who-knows-many-things, first-born-if-it-is-you-pull-it-out]
+lineage:
+  - source: primary
+    text: radin-strong-men-fail-where-an-old-womans-awl-and-song-succeed
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'The Winnebago Trickster Cycle,' episode 16. Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "Then the men who had the reputation for being strong were called and tried it but they, too, could not move it. Finally they all gave up. Then one of them said, 'There is an old woman around here who knows many things. Let us go and get her.' ... 'Why, this is First-born, Trickster. ... The chief's daughter is having intercourse and you are all just annoying her.' Thereupon she went out, got an awl and straddling the penis, worked the awl into it a number of times, singing as she did so: 'First-born, if it is you, pull it out! Pull it out!' Thus she sang. Suddenly in the midst of her singing, the penis was jerked out"
+canonical-instances:
+  - "A stuck valve on an industrial line defeats every mechanic on the crew who tries to force it open with progressively larger wrenches, until a retired technician everyone had stopped calling is brought in, taps a specific fitting with a small hammer at a precise angle, and the valve releases in seconds."
+  - "A server outage resists every senior engineer paged in to throw more processing power and failover capacity at it, until a former team member who happens to know the specific undocumented quirk of one legacy config file is consulted, and a one-line change resolves what hours of brute-force scaling could not."
+critical-questions:
+  - "Is the old woman's success actually about specific know-how, or does the song and ritual framing suggest the story is presenting this as a matter of the right ceremonial authority rather than a transferable lesson about narrow expertise beating general strength?"
+  - "Would the strong men have succeeded with a different technique, such as the awl itself, or does the story suggest the song specifically, not just any equivalent tool, was the necessary ingredient -- and if so, does that limit how far this generalizes to non-ritual problem-solving?"
+  - "Why was the old woman not consulted first, given that she is introduced as someone already known locally to know many things -- does the story suggest a pattern where the obviously relevant expert is overlooked until the obviously plausible one, brute strength, is exhausted?"
+status: active

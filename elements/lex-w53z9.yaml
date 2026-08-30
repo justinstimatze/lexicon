@@ -1,0 +1,19 @@
+id: lex-w53z9
+name: advisor-self-interest-hides-behind-a-claim-of-expertise
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: 'An advisor can recommend an extreme, costly course of action that happens to materially benefit the advisor, presenting naked self-interest as expert counsel to someone who has no independent way to check the recommendation. The mechanism names any situation where an advisor''s own stake in the outcome contaminates the advice given. In the Jataka''s tale of Atthasadda, the brahmins push a mass sacrifice partly for the meat it will yield them: "Pupil, what do you know about it? even if nothing else happens, we shall get much fish and flesh to eat."'
+related: []
+evokes: [jataka, atthanipata, atthasadda-jataka, principal-agent-problem, expertise-as-cover-for-self-interest]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-atthasadda-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 418, Atthasadda-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Pupil, what do you know about it? even if nothing else happens, we shall get much fish and flesh to eat."
+canonical-instances:
+  - "A contractor recommends the most extensive (and most expensive) renovation possible, dismissing the homeowner's questions with 'you don't understand the structural risks' — the same recommendation that happens to maximize the contractor's own invoice."
+critical-questions:
+  - "What independent check, short of becoming an expert oneself, would let a non-expert tell apart honest expert caution from self-interested overreach?"
+  - "Does the advisor's factual claim have to be false for the advice to still be corrupted — can true information be selectively deployed to serve the advisor's stake?"
+status: active

@@ -1,0 +1,18 @@
+id: lex-wx22w
+name: common-sense-argument-to-defect-when-the-resource-dries-up
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'An outside party frames abandonment of a now-unrewarding commitment as simple rationality, pointing out that everyone else has already left and there is no practical reason to stay, presenting defection as the obviously sensible choice rather than a betrayal. This functions as a temptation precisely because the advice is locally reasonable — resisting it requires a value like loyalty that isn''t visible in a narrow cost-benefit frame. In the Jataka''s tale of Mahasuka, Sakka in disguise urges the parrot to leave the depleted tree on exactly this pragmatic footing: "Haste thee, Sir Redbeak, to be gone; / Why dost thou sit and dream alone? / Come tell me, prithee, bird of spring, / To this dead stump why dost thou cling?"'
+related: []
+evokes: [jataka, navanipata, mahasuka-jataka, pragmatism-as-temptation-to-defect, narrow-cost-benefit-framing]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahasuka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 429, Mahasuka-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Haste thee, Sir Redbeak, to be gone; / Why dost thou sit and dream alone? / Come tell me, prithee, bird of spring, / To this dead stump why dost thou cling?"
+canonical-instances:
+  - "A recruiter tells a loyal ten-year employee that staying at a company mid-layoffs, with everyone else already updating their resumes, is simply irrational, framing the obvious career move as the only sensible read of the situation."
+critical-questions:
+  - "Is the pragmatic advice ever actually correct, and if it is sometimes right and sometimes a trap, what tells the listener which case they're in before they act?"
+status: active

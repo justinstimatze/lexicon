@@ -1,0 +1,19 @@
+id: lex-k2ptw
+name: a-third-party-replays-a-wrongdoers-own-words-to-force-accountability
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Wanting a powerful person to recognize their own bad conduct, a third party can arrange for that exact conduct — in the wrongdoer's own past words — to be repeated back to them directly, in front of an audience whose opinion they value, rather than accusing them of it directly. In the Jataka's tale of the golden mountain, the minister, wanting the king to recognize the queen's worth, arranges for her to repeat her husband's callous refusal directly to his face in open court: '\"Then when I Stand in the king's presence,\" he said, \"I will ask and you shall repeat it.\" \"Agreed, friend,\" she said.'"
+related: []
+evokes: [jataka, catukkanipata, succaja-jataka, a-wrongdoers-own-past-words-replayed-in-public, forcing-self-recognition-without-a-direct-accusation]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-succaja-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 320, Succaja-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Then when I Stand in the king's presence,\" he said, \"I will ask and you shall repeat it.\" \"Agreed, friend,\" she said."
+canonical-instances:
+  - "A mediator, wanting an executive to recognize how dismissive a comment sounded, doesn't accuse them of insensitivity directly — instead, in the next team meeting, they ask the employee who was insulted to simply repeat the exact phrase back, in the executive's own words, in front of the whole room."
+critical-questions:
+  - "Does hearing your own words repeated back actually force self-recognition, or can a wrongdoer simply deny the accuracy of the replay, or reframe it as taken out of context?"
+  - "Does staging the replay in a public setting risk humiliating the wrongdoer in a way that provokes defensiveness rather than genuine reflection?"
+status: active

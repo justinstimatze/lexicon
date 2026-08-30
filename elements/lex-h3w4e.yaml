@@ -1,0 +1,19 @@
+id: lex-h3w4e
+name: fortune-is-attributed-to-desert-rather-than-an-external-agent
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A claim that fortune and misfortune are self-caused rather than externally bestowed can come, paradoxically, from the very personification of luck denying her own causal power over individual outcomes. In the Jataka's tale of Sirikalakanni, Siri closes the dispute by asserting that no goddess actually controls a person's fate: 'Neither fortune nor misfortune can a man make for his brothers.'"
+related: []
+evokes: [jataka, chanipata, sirikalakanni-jataka, fortune-attributed-to-desert-not-agency, locus-of-control-claim]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sirikalakanni-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 382, Sirikalakanni-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Each man's fortune and misfortune are his own work, not another's: Neither fortune nor misfortune can a man make for his brothers."
+canonical-instances:
+  - "A motivational speaker who built a career on being introduced as 'the luck expert' tells an audience that there's no such thing as luck bestowed from outside — that outcomes trace back to the choices people made, undercutting the very premise of her own title."
+critical-questions:
+  - "The claim comes from a figure whose whole role is personifying luck — does that self-undermining source make it a rare disinterested admission, or just someone with an obvious stake in the answer speaking against apparent type?"
+  - "Does this claim hold up equally well across situations where external circumstance clearly does shape outcomes regardless of individual effort?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-kgyt9
+name: an-incidental-event-delivers-an-indirect-rebuke-a-direct-one-couldnt
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Someone who has long wanted to correct a superior's behavior but couldn't risk a direct confrontation can seize an unrelated, incidental event as the vehicle for the exact criticism they've been holding back, delivering it obliquely through the event's own apparent moral rather than as a personal accusation. In the Jataka's tale of the talkative king, his adviser has wanted to curb the king's compulsive talkativeness for years but never found a safe opening; when a talkative tortoise falls dead in the courtyard, having been killed by his own inability to keep silent, the adviser seizes the coincidence: 'Now's my time! For a long while I have been wishing to admonish the king, and I have gone about seeking my opportunity.' The rebuke lands as commentary about talkativeness in general. It was never really about the tortoise. The adviser was simply waiting for any event that could carry the criticism safely."
+related: []
+evokes: [jataka, dukanipata, kacchapa-jataka-215, an-unrelated-event-becomes-cover-for-a-held-back-criticism, waiting-for-a-safe-vehicle-rather-than-a-safe-moment]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kacchapa-jataka-215
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 215, Kacchapa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "For a long while I have been wishing to admonish the king, and I have gone about seeking my opportunity."
+canonical-instances:
+  - "A team lead who has wanted to raise concerns about a director's habit of overpromising to clients finally does so, not directly, but by using a postmortem on an unrelated failed project as the occasion to discuss the general risks of commitments made without checking feasibility first."
+critical-questions:
+  - "Does the king actually receive the criticism as intended, or is there a risk that using an incidental vehicle makes the message too indirect to register as personally applicable at all, letting him treat it as a story about a tortoise rather than about himself?"
+  - "How long is it reasonable to wait for a safe vehicle before the underlying problem does enough damage that waiting itself becomes the greater risk — does the adviser's patience here read as prudent or as having let a correctable flaw run too long?"
+status: active

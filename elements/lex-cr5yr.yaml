@@ -1,0 +1,19 @@
+id: lex-cr5yr
+name: follow-a-trusted-peers-unexplained-example-without-asking-why
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A person can change their entire life course purely because a trusted, admired peer did so — without ever being told to or given a reason — treating the peer''s unexplained example alone as sufficient justification. In the Jataka''s tale of Gandhara, the neighboring king does exactly this: "When my friend has taken the religious life, what should I do with a kingdom?" ... "I heard that you had taken the religious life and thinking, ''Surely he has seen the good of that life,'' I took you as my theme, and leaving my kingdom took the religious life."'
+related: []
+evokes: [jataka, sattanipata, gandhara-jataka, imitative-convergence-without-communication, trust-the-peers-revealed-preference]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-gandhara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 406, Gandhara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "I heard that you had taken the religious life and thinking, \"Surely he has seen the good of that life,\" I took you as my theme, and leaving my kingdom took the religious life."
+canonical-instances:
+  - "A founder quits a stable executive role the moment she learns a peer she deeply respects did the same thing to start a company, without ever asking the peer why, on the assumption that the peer must have seen something worth following."
+critical-questions:
+  - "Does inferring wisdom from a peer's unexplained choice risk copying a decision that was actually a mistake, or right only for reasons specific to the peer's own situation?"
+  - "Would asking directly for the peer's reasoning have changed the decision, or was the point precisely to trust the example over any explanation that might have been given?"
+status: active

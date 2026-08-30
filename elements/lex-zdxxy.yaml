@@ -1,0 +1,19 @@
+id: lex-zdxxy
+name: an-already-sated-exploiter-extracts-less-than-a-hungry-replacement-would
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone offers to remove an entrenched cost you're bearing, check whether replacing it would actually cost you more, because the entrenched version has already reached a lower marginal extraction rate. Aesop's 'The Fox and the Hedgehog,' bleeding from a swarm of flies, refuses a hedgehog's offer to drive them off: 'these flies have sucked their fill and are taking very little from me now; but, if you drive them off, another swarm of hungry ones will come and suck all the blood I have left, and leave me without a drop in my veins.' A satiated exploiter has already reduced its own rate of harm, and removing it resets the position to a fresh, hungry actor whose extraction rate starts high all over again."
+related: []
+evokes: [aesop, the-fox-and-the-hedgehog, satiation-lowers-marginal-harm, better-the-devil-you-know]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-fox-and-the-hedgehog
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Fox and the Hedgehog.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Oh, please, no, not on any account, for these flies have sucked their fill and are taking very little from me now; but, if you drive them off, another swarm of hungry ones will come and suck all the blood I have left, and leave me without a drop in my veins."
+canonical-instances:
+  - "tolerating a middleman or broker who already takes a stable, known cut, rather than replacing them with a new hire freshly incentivized to maximize extraction from scratch."
+critical-questions:
+  - "Is this reasoning ever a trap that entrenches a bad actor indefinitely, since removing them always looks locally worse than tolerating the current, already-reduced rate of harm?"
+  - "How would the fox verify that a fresh swarm would actually be hungrier and more extractive, rather than assuming the worst about any replacement without evidence?"
+status: active

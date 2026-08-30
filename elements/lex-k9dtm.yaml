@@ -1,0 +1,20 @@
+id: lex-k9dtm
+name: quietly-saving-failing-rivals-forgoes-sole-credit-for-the-answer
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When you alone hold the answer that will save or ruin several rivals at once, and taking sole credit would win you disproportionate reward at the cost of their ruin, consider quietly giving them the means to succeed too — without revealing that the help came from you. In the Maha-Ummagga-Jataka, four jealous rival sages face banishment for failing to solve the king''s riddle, while Mahosadha alone has solved it. He thinks: "If I do not tell them, the king will banish them, and will honour me with the seven precious things. But let not these fools perish—I will tell them." He composes four separate stanzas answering the same riddle and teaches one to each rival in a language the king cannot follow, so each appears before the king to have solved it independently. The king, "not knowing that the others had their knowledge through the Bodhisatta," rewards all five equally — Mahosadha gains nothing beyond what the others get, but no one is banished.'
+related: []
+evokes: [jataka, mahanipata, maha-ummagga-jataka, strategic-generosity, forgoing-credit, protecting-rivals]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-maha-ummagga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 546, Maha-Ummagga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: '"If I do not tell them, the king will banish them, and will honour me with the seven precious things. But let not these fools perish—I will tell them." So he made them sit down on low seats... and without telling them what the king had really seen, he composed four stanzas, and taught them one each in the Pali language, to recite when the king should ask them, and sent them away.'
+canonical-instances:
+  - "A senior engineer discovers the root cause of a production outage that several junior engineers are individually being blamed for and about to be put on performance plans; instead of presenting the fix under her own name, she anonymously shares the diagnosis with each of them so every one of them can bring the solution to their own manager."
+  - "A star student who has solved a proof the whole class is stuck on, and stands to be the only one who passes if the deadline holds, quietly explains the key step to several struggling classmates individually rather than raising her hand first, so no one fails the assignment."
+critical-questions:
+  - "Mahosadha's generosity here cost him nothing he actually wanted — status through obvious singular credit was less valuable to him than harmony with people he'd have to work alongside afterward. Does the same calculation hold when the sole-credit reward is something the helper genuinely needs, not just prefers?"
+  - "Concealing that the help came from you protects the recipients' dignity, but it also means they never learn they owe you anything — what's lost or gained by the silence versus taking credit openly and being magnanimous instead?"
+status: active

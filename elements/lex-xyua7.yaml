@@ -1,0 +1,21 @@
+id: lex-xyua7
+name: denying-a-fact-in-public-asserts-dominance-over-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Distinguish post-truth denial from ordinary lying, propaganda, or being wrong. An ordinary falsehood tries to pass as true and prefers not to be caught. Post-truth denial is performed openly, in a way that invites recognition as denial, because the point of the performance is to demonstrate that political will can override reality and get away with it in public. Look for the tell: does the denial get quieter or more elaborate when contradicted by evidence (ordinary lying, still trying to pass), or does it get louder and more brazen (post-truth, treating the visible contradiction as the display of dominance)? The second pattern puts the audience in the role of witness to a wielding of power, whether or not any single one of them actually believes the false claim."
+related: [lex-trady]
+evokes: [post-truth, mcintyre, truth-as-dominance-display, alternative-facts, political-subordination-of-reality]
+lineage:
+  - source: primary
+    text: mcintyre-2018-post-truth-preface
+    citation: "Lee McIntyre, Post-Truth (MIT Press Essential Knowledge Series, 2018), Preface. Verified verbatim against an ebook-convert extraction, clean text, no OCR involved."
+    quote: "In the past we have faced serious challenges—even to the notion of truth itself—but never before have such challenges been so openly embraced as a strategy for the political subordination of reality. Thus what is striking about the idea of post-truth is not just that truth is being challenged, but that it is being challenged as a mechanism for asserting political dominance."
+canonical-instances:
+  - "A politician denies a photographed or video-recorded event on the day the recording is public, without offering a competing account that could be checked — the denial is not trying to be believed as an alternative fact, it's demonstrating that the politician's supporters will repeat the denial regardless of the recording, which is the actual point being made."
+  - "operationally distinct from lex-trady anticipatory-obedience-teaches-power-what-it-can-take: lex-trady is about a subordinate pre-conforming to power before being asked, which teaches the powerful actor what it can get away with next. This atom runs the other direction — the powerful actor itself performing the denial, aimed at an audience, as the assertion of dominance. The two can compose: an anticipatory-obedience response to a dominance-display denial is exactly how the display gets validated."
+critical-questions:
+  - "Is a given denial actually a dominance display, or is it ordinary strategic lying that happens to be public because concealment wasn't possible? The tell is whether the denial's persuasive content matters to its author — a dominance display doesn't need anyone to actually believe the false claim, only to publicly go along with it."
+  - "Who is the audience for the denial, and what is being demonstrated to them specifically? McIntyre's claim locates the mechanism at the point of contact between the denier and their own coalition, not at the point of contact with fact-checkers or opponents, who aren't the intended audience at all."
+  - "Does this framework risk over-applying the label 'post-truth' to any confident falsehood, flattening the distinction it's meant to draw? Reserve it for cases where the visibility of the contradiction is doing real work in the denial itself. A denial that merely happens to be checkable against evidence doesn't automatically qualify."
+status: active

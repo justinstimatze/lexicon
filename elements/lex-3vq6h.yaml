@@ -1,0 +1,19 @@
+id: lex-3vq6h
+name: a-habitual-pairing-gets-mistaken-for-a-missing-ingredient
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Noticing that two things are habitually consumed together can lead to the mistaken conclusion that one belongs folded directly into the other, without understanding why they were kept separate in the first place. In the Jataka's tale of the tavern apprentice, a young worker sees customers eating salt and jaggery as a chaser after drinking spirits, infers the liquor itself must be missing salt, and mixes a full measure of it directly into the grog — ruining every batch and driving off the entire clientele. The correlation he observed was real; the inference that the paired item belonged inside the product rather than alongside it was not, and nothing in the habitual pairing itself explained why the separation mattered."
+related: []
+evokes: [jataka, ekanipata, varuni-jataka, habitual-pairing-mistaken-for-missing-ingredient, correlation-read-as-recipe]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-varuni-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 47, Varuni-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Thought he to himself; \"There can't be any salt in our liquor; I'll put some in.\""
+canonical-instances:
+  - "A junior baker notices that customers who buy the sourdough loaf almost always also buy butter, and starts mixing butter directly into the dough itself to 'save them the step,' ruining the texture that made the loaf worth buying with butter on the side in the first place."
+critical-questions:
+  - "Is there a general way to tell, from the pairing alone, whether two habitually co-occurring things belong combined or kept separate, or does that always require understanding the underlying mechanism first?"
+  - "Would a smaller, experimental change — adding a pinch rather than a full measure — have surfaced the mistake before it ruined the whole batch, or does this kind of error only become visible at full scale?"
+status: active

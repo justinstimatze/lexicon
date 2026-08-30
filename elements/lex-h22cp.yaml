@@ -1,0 +1,22 @@
+id: lex-h22cp
+name: improving-wellbeing-does-not-make-you-a-production-partner
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "Something that makes a person happier or more comfortable, and thereby indirectly makes them more productive, does not thereby become a co-producer entitled to share in that productivity -- contributing to someone's wellbeing is a different causal relationship than contributing to their actual production. Gilman states the point against the claim that marriage is an economic partnership: 'A man happy and comfortable can produce more than one unhappy and uncomfortable, but this is as true of a father or son as of a husband. To take from a man any of the conditions which make him happy and strong is to cripple his industry, generally speaking. But those relatives who make him happy are not therefore his business partners, and entitled to share his income.'"
+related: []
+evokes: [women-and-economics, chapter-i, those-relatives-who-make-him-happy-are-not-therefore-his-business-partners, a-man-happy-and-comfortable-can-produce-more, wellbeing-contribution-is-not-production-partnership]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-i
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter I. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "A man happy and comfortable can produce more than one unhappy and uncomfortable, but this is as true of a father or son as of a husband. To take from a man any of the conditions which make him happy and strong is to cripple his industry, generally speaking. But those relatives who make him happy are not therefore his business partners, and entitled to share his income."
+canonical-instances:
+  - "A therapist whose support measurably improves a client's work performance doesn't thereby earn a share of the client's salary -- the therapist contributed to the client's capacity to produce, not to the production itself, and the two forms of contribution carry different claims."
+  - "A gym that gets a busy executive into better physical shape, indirectly boosting their focus and output at work, isn't entitled to a percentage of the resulting business gains -- improving someone's condition and sharing in what that condition later produces are not the same transaction."
+  - "A supportive roommate whose steady presence reduces a founder's stress during a startup's hardest year isn't a co-founder with equity, even if the founder's own account credits that support with keeping them sane enough to keep building -- being the reason someone held together is not the same claim as being the reason the product got built."
+critical-questions:
+  - "Where exactly is the line between making someone happier, which indirectly helps their output, and directly contributing labor to the output itself, when many real-world contributions -- like managing a household so a partner has more working hours -- plausibly straddle both categories at once?"
+  - "Does this argument prove too much by implication -- if emotional support never earns a partnership claim regardless of its practical economic effect, does that also rule out compensating any purely supportive, non-production labor, even labor most people would agree deserves recognition?"
+  - "Gilman uses this to argue wives aren't business partners in their husbands' work, but doesn't the same logic cut the other way too -- if happiness-contribution never earns partnership, a husband's financial support of a wife's wellbeing wouldn't earn him any special claim over her either, an implication the chapter doesn't follow through on."
+status: active

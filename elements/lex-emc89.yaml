@@ -1,0 +1,19 @@
+id: lex-emc89
+name: irregular-fluctuation-is-noise-a-trend-needs-regularity-to-count
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When monitoring a system for improvement or decline, weight regular, sustained change over irregular, one-off fluctuation, since only the former carries real information about the system's trajectory. Hippocrates' Aphorisms: 'We should not trust ameliorations in diseases when they are not regular, nor be much afraid of bad symptoms which occur in an irregular form; for such are commonly inconstant, and do not usually continue, nor have any duration.' The claim treats regularity itself as the signal, independent of whether the fluctuation is good news or bad news — an irregular improvement deserves the same skepticism as an irregular decline, because both have the same odds of fading away as they arose."
+related: []
+evokes: [hippocrates, aphorisms, irregular-fluctuation-is-noise, regularity-not-direction-signals-a-real-trend]
+lineage:
+  - source: primary
+    text: hippocrates-aphorisms-adams1849-sectionII-27
+    citation: "Hippocrates, Aphorisms, trans. Francis Adams (Sydenham Society, 1849), Section II, §27. Verified verbatim against a direct extraction of the held copy."
+    quote: "AVe should not trust ameliorations in diseases when they are not regular, nor be much afraid of bad symptoms which occur in an irregular form ; for such are commonly inconstant, and do not usually continue, nor have any duration."
+canonical-instances:
+  - "a product team celebrates a one-day spike in signups following a random press mention and a separate team panics over a single bad day of churn, when neither event was part of a sustained pattern and both reverted to baseline within a week, exactly as the aphorism's logic would have predicted."
+critical-questions:
+  - "How many occurrences does it take before a fluctuation counts as 'regular' rather than 'irregular' — is there a principled threshold, or does the aphorism leave that judgment call entirely to the observer's discretion?"
+  - "Does this discipline risk causing someone to dismiss a genuinely new, still-irregular signal too early, before it has had the chance to establish the regularity that would make it trustworthy?"
+status: active

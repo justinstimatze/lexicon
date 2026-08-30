@@ -1,0 +1,38 @@
+id: lex-ppq72
+name: descent-and-return
+type-in: state
+type-out: state
+_tier: atomic
+agent-instruction: "When a hero/journey is being plotted as linear ascent, surface the descent-and-return arc — going down (into darkness/underworld/depth) is structurally required to bring back what the ascent alone cannot."
+related: [lex-ftke9, lex-uz7g4, lex-tf6br, lex-h7vet, lex-maq83, lex-75vrt, lex-7yemm]
+scaffolds-from: [lex-maq83, lex-uz7g4]
+evokes: [katabasis, the-underworld-journey, going-down-to-bring-something-back, the-belly-of-the-whale, dive-deep-and-resurface, the-night-sea-journey]
+lineage:
+  - source: primary
+    text: wolkstein-kramer-1983-inanna
+    citation: "Diane Wolkstein and Samuel Noah Kramer, Inanna: Queen of Heaven and Earth (Harper & Row, 1983), pp.56, 60 — the Sumerian katabasis text (~1900 BCE source material): Inanna descends to the underworld through seven gates (shedding garments at each), is killed by Ereshkigal, hangs as a corpse for three days, then is restored and returns. The canonical ancient katabasis with the structural shape preserved"
+    quote: "'Bolt the seven gates of the underworld. / Then, one by one, open each gate a crack. / Let Inanna enter. / As she enters, remove her royal garments.' [her death and three-day suspension:] 'Then Ereshkigal fastened on Inanna the eye of death. / She spoke against her the word of wrath. / She uttered against her the cry of guilt. / She struck her. / Inanna was turned into a corpse, / A piece of rotting meat. / And was hung from a hook on the wall. / When, after three days and three nights, Inanna had not returned, / Ninshubur set up a lament for her by the ruins.'"
+  - source: primary
+    text: campbell-1949-belly-of-whale
+    citation: "Joseph Campbell, The Hero with a Thousand Faces (1949), 'Belly of the Whale' chapter: the descent into a transformative space (often spatially low, dark, or enclosed) as recurring stage in monomyth. The hero's death-and-rebirth in this space IS the structural transformation that makes return-with-boon possible. Cross-cultural pattern; Campbell's specific articulation criticized for over-generalizing but the abstract pattern attested broadly"
+    quote: "'The idea that the passage of the magical threshold is a transit into a sphere of rebirth is symbolized in the worldwide womb image of the belly of the whale. The hero, instead of conquering or conciliating the power of the threshold, is swallowed into the unknown, and would appear to have died.'"
+  - source: practitioner
+    text: mythology-decomposition-pass
+    citation: "promoted from cross-attestation: narrative tradition (Orpheus to Hades — Ovid Metamorphoses X; Inanna's descent — Sumerian; Odysseus to underworld — Odyssey XI; Persephone's annual descent; Christ's harrowing of hell; Aeneas in Aeneid VI; Dante's Inferno; Luke in Dagobah cave; Frodo through the Mines of Moria); Tarot's Hanged Man (suspended descent) + Death (decay-rebirth) + Tower (collapse before reveal); Campbell 1949 (comparative mythology); therapy regression as therapeutic move (Freud / Jung — going back to early trauma to retrieve material, returning transformed); git bisect (descend into commit history to find root-cause bug, return with the fix); proof by contradiction in mathematics (assume the opposite, descend into the impossible space, derive contradiction, return with the truth); REM sleep as nightly katabasis (Walker Why We Sleep 2017 — memory consolidation requires the descent into REM dream-state; the consolidation IS the return-with-boon); shamanic journey across cultures (Eliade Shamanism: Archaic Techniques of Ecstasy 1951). Cross-domain across mythology, psychotherapy, software-debugging, mathematical proof, sleep-research, and shamanism"
+canonical-instances:
+  - "Inanna's descent (Sumerian, ~1900 BCE): seven gates, shedding garments at each (symbolic stripping of social identity); killed and hung as corpse for three days; resurrected and returns (but bringing back her sister's husband as substitute — the return ALWAYS involves something the upper world doesn't yet know how to handle). The canonical structural template"
+  - "git bisect: when a regression appears, you don't search forward through new commits; you DESCEND into commit history (binary search bisection through past commits), identify the bug-introducing commit, then RETURN to current with that knowledge. The descent IS the debugging method; the return-with-boon is the fix"
+  - "proof by contradiction (reductio ad absurdum): assume ¬P, descend into the implications, derive a contradiction (impossible space), return having proven P. The mathematical proof requires the descent into the impossible to find the truth. Aristotle's Posterior Analytics catalogues this as a fundamental proof technique"
+  - "REM sleep: every night, the brain descends from waking into NREM stages then into REM (the dream-state); during REM, memory consolidation occurs (procedural memory; emotional memory regulation); we wake with the boon (consolidated memory, regulated emotion). The descent is biological infrastructure; skipping REM (sleep deprivation) breaks the consolidation"
+  - "psychotherapy regression: in some therapeutic modalities, the client deliberately descends into early-life material (childhood scenes, traumatic memories) to retrieve content that's been buried. The therapeutic value comes from the descent + integration + return — return-without-descent is bypass; descent-without-return is decompensation"
+  - "operationally distinct from lex-ftke9 work-backwards-from-goal: backward-induction is temporal inversion (start at the goal, work to the present); descent-and-return is dimensional movement (drop into a different layer/depth, retrieve, ascend). Both are non-frontal but on different axes — backward-induction stays at one cognitive level; descent-and-return changes levels"
+  - "operationally a specific instance of lex-uz7g4 archetype-as-projective-shorthand: the descent-figure (Orpheus, Inanna, Christ, the bodhisattva) IS one of the canonical archetypes; this atom is the operational MOVE (drop-retrieve-return), not just the figure"
+  - "operationally adjacent to lex-tf6br catastrophic-clarification: catastrophic-clarification is sudden-collapse-creates-space (The Tower); descent-and-return is voluntary-or-forced-immersion-followed-by-return. They can co-occur (the descent IS the catastrophe; the return IS the clarification) but they're separable moves"
+  - "vital critical question: is the descent actually retrievable, or is it one-way? Persephone's myth captures the ambiguity (annual return suggests partial-retrievability; Eurydice's failed return is the negative case). Therapy regression risks decompensation if the descent overwhelms the return-capacity; debugging-bisect risks rabbit-holing if the bug-search goes deeper than the project's scope. The competence to RETURN is what makes the descent productive vs destructive"
+  - "central critical question: is the descent the ONLY way? Sometimes the boon is retrievable through frontal methods (read the docs; ask the expert; check the logs) — descending unnecessarily is masochism, not method. The descent is justified when frontal methods have failed and the depth is where the answer lives"
+critical-questions:
+  - "what is the descent's specific cost, and is the return contingent on having paid it — or is the descent decorative?"
+  - "is the 'return' bringing back something usable, or just a narrative of having gone down?"
+  - "could the same payload be obtained without descent — and if so, why is descent the favored path here?"
+  - "is someone (you, others) keeping the descent ongoing past its productive depth?"
+status: active

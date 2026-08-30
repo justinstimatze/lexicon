@@ -1,0 +1,20 @@
+id: lex-d9fbx
+name: a-claimed-reciprocal-threat-against-what-they-hold-deters-retaliation
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When someone with total power over you orders your death or torture, and you have no way to fight back directly, point out that the people you answer to are holding something of theirs just as vulnerable — so that whatever they do to you will be mirrored onto what they can''t afford to lose. The threat only needs to be credible enough that they daren''t test it before verifying. In the Maha-Ummagga-Jataka, King Culani orders Mahosadha flayed and skewered for helping his enemy escape. Mahosadha doesn''t defend himself — he reveals a symmetric hostage arrangement: "If you cut off my hands and feet, my ears and nose, so will Vedeha deal with Paficalacanda, so with Pafcalacandi, so with Queen Nanda, your wife and children... So it has been secretly arranged between Vedeha and me." The king, unwilling to risk that this is true, halts the execution to verify it first — by which point the moment for rash action has passed.'
+related: []
+evokes: [jataka, mahanipata, maha-ummagga-jataka, mutual-hostage-deterrence, reciprocal-threat, stalled-execution]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-maha-ummagga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 546, Maha-Ummagga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: 'If you cut off my hands and feet, my ears and nose, so will Vedeha deal with Paficalacanda, so with Pafcalacandi, so with Queen Nanda, your wife and children.'
+canonical-instances:
+  - "A kidnapped employee, threatened by captors demanding a ransom their company won't pay, tells them the company's CFO is under equally close surveillance by a rival cartel who will retaliate the moment word gets out the captors harmed a hostage — buying time for a real rescue by making violence look costlier than patience."
+  - "A whistleblower under threat from a corrupt official reveals, truthfully, that a copy of the incriminating evidence is already in the hands of a journalist with instructions to publish the moment anything happens to her — converting a one-sided threat into a standoff neither side wants to test."
+critical-questions:
+  - "The threat here happened to be true — what changes about the tactic's risk when the reciprocal threat is bluffed, and the threatener has no actual leverage to make good on it if called?"
+  - "This buys time by making the aggressor pause to verify, but doesn't resolve the underlying danger — what happens once verification is complete, in either direction, and the standoff has to actually be settled?"
+status: active

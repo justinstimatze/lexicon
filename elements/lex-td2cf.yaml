@@ -1,0 +1,19 @@
+id: lex-td2cf
+name: an-untested-vow-collapses-at-the-first-real-temptation
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A vow made under conditions where keeping it costs nothing proves nothing about whether the vow-maker would actually hold to it once a real, costly temptation appears. The vow was never tested by circumstance. It only looked like a commitment because nothing had yet asked anything of it. In the Jataka's tale of the wolf's sabbath, a wolf trapped on a flooded rock with no access to prey resolves to keep a nonviolent sabbath, a vow that costs him nothing since there's nothing to hunt anyway. The moment Sakka appears disguised as an easy target, the resolve disappears instantly: 'Even so some persons in this world of ours, That make resolves which are beyond their powers, Swerve from their purpose, as the wolf did here As soon as he beheld the goat appear.'"
+related: []
+evokes: [jataka, tikanipata, vaka-jataka, a-costless-vow-proves-nothing-about-behavior-under-real-temptation, resolve-untested-by-circumstance-is-not-yet-a-real-commitment]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-vaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 300, Vaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Even so some persons in this world of ours, That make resolves which are beyond their powers, Swerve from their purpose, as the wolf did here As soon as he beheld the goat appear."
+canonical-instances:
+  - "An executive publicly commits to strict spending discipline during a period when the company has no attractive acquisitions available, and abandons the commitment the instant a genuinely tempting deal appears, revealing the earlier restraint was never actually tested by a real opportunity."
+critical-questions:
+  - "Is there any way to distinguish a genuinely fragile, untested vow from a real commitment before circumstance actually tests it, or is the test itself the only way to know?"
+  - "Does the wolf's failure reflect something about vows made under easy conditions specifically, or would any vow, however sincerely made, eventually fail against a sufficiently well-targeted temptation?"
+status: active

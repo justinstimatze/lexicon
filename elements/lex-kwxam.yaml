@@ -1,0 +1,19 @@
+id: lex-kwxam
+name: a-self-sacrifice-offer-fails-against-a-captor-acting-in-bad-faith
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Offering your own life in exchange for sparing someone else only works if the captor's actual goal is satisfied by taking the offer instead — against a captor who simply wants what they came for, the trade is honored in no sense beyond the words, and the original target dies anyway. In the Jataka's tale of the blind mother monkey, two sons in succession offer themselves to a hunter in her place: 'O man, don't shoot my mother! I give my life for hers. Shoot me--take both us brothers, and spare our mother's life!' The hunter accepts each offer, kills the one who made it, and then simply shoots the mother too, since his actual goal was meat for his family, a goal the sons' self-sacrifice never touched."
+related: [lex-vh4tq]
+evokes: [jataka, dukanipata, cula-nandiya-jataka, self-sacrifice-fails-against-a-goal-it-never-addresses, a-captors-bad-faith-voids-the-terms-of-any-bargain]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-cula-nandiya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 222, Cula-nandiya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "O man, don't shoot my mother! I give my life for hers. Shoot me--take both us brothers, and spare our mother's life!"
+canonical-instances:
+  - "An employee offers to take the blame and resign in place of a junior colleague a client wants fired over a mistake, not realizing the client's actual goal is simply cutting costs by reducing headcount — the resignation is accepted, and the junior colleague is let go anyway in the next round of cuts."
+critical-questions:
+  - "Was there any way for the sons to test the hunter's actual goal before offering themselves, or does a genuine bad-faith captor only ever reveal their real motive through the outcome, once it's too late to withdraw the offer?"
+  - "Does this mean self-sacrifice for another is never worth attempting against an unknown captor, or only that it needs to be paired with some verification of what the captor actually wants before betting a life on the trade landing?"
+status: active

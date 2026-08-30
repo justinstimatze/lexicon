@@ -1,0 +1,19 @@
+id: lex-h5636
+name: a-monitoring-role-is-weaponized-into-the-exact-harm-it-prevents
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Volunteering for the specific oversight role meant to detect a harm gives a predator both the trust and the operational access needed to inflict that exact harm undetected, since the same headcount check that would normally catch a missing member is what lets the predator select and remove one. In the Jataka's tale of the counting jackal, a predator who had been picking off rats one at a time volunteers to serve as the colony's headcount guard, offering to count them each morning and evening specifically to confirm none go missing. Every count becomes an opportunity to identify and seize the hindmost rat, and the role that should have prevented losses is the mechanism producing them."
+related: []
+evokes: [jataka, ekanipata, aggika-jataka, oversight-role-weaponized-into-its-own-threat, monitoring-access-doubles-as-selection-mechanism]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-aggika-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 129, Aggika-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"I know how to count on my fingers, and will count your numbers both morning and evening, so as to be sure that as many came home at night, as went out in the morning. That's how I'll guard you.\""
+canonical-instances:
+  - "An employee who has been quietly stealing from petty cash volunteers to become the office's new expense-reconciliation lead, using the access and legitimacy of the auditing role itself to identify which discrepancies are least likely to be questioned and to keep covering their own tracks going forward."
+critical-questions:
+  - "Would the group have caught this faster if the oversight role had been assigned rather than volunteered for, or does eagerness to take on a monitoring task deserve suspicion regardless of who's asking to fill it?"
+  - "Is there a way to structure an oversight role so that the same access it requires can't also be used to inflict the harm it exists to catch, or does any sufficiently powerful monitoring position carry this risk inherently?"
+status: active

@@ -1,0 +1,20 @@
+id: lex-s797j
+name: skipping-a-prior-question-answers-it-by-default-not-avoidance
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "A standard planning question can quietly presuppose an answer to a more fundamental question that never gets asked. Traditional strategic direction-setting asks 'what business are we in' and treats that as the foundational question, but the answer already depends on a prior one -- what does this organization stand for, what role does it play, what values does it actually hold -- that most planning processes skip entirely. Skipping the prior question doesn't avoid answering it; it just answers it by default, without examination, through whatever values happened to be operating unexamined the whole time. Freeman's diagnostic for what this produces: a firm that optimizes purely on portfolio metrics without ever surfacing its own values accumulates unrelated, unmanageable businesses with no coherent identity, while a firm that attends only to culture and values while ignoring the bottom line paves its own way to obsolescence -- both failures trace back to the same missing layer, approached from opposite directions. This is distinct from mistaking a survival metric for an organization's purpose: the failure here sits one level upstream of any measure, in the values-question no measure, right or wrong, ever gets asked to answer."
+related: [lex-2jn8d]
+evokes: [freeman-1984-strategic-management, chapter-4, enterprise-strategy, what-do-we-stand-for, portfolio-madness]
+lineage:
+  - source: primary
+    text: freeman-1984-strategic-management-ch4
+    citation: "R. Edward Freeman, Strategic Management: A Stakeholder Approach (Pitman, 1984), Chapter 4 'Setting Strategic Direction,' section 'Enterprise Strategy: What Do We Stand For?'"
+    quote: "I propose to define enterprise level strategy as an answer to the question 'WHAT DO WE STAND FOR?' [...] Too often we take too narrow a view of strategy. For instance, viewing the direction-setting task as merely(!) plotting the businesses of a firm on a product/market grid and ignoring the corporate culture and values has led many a firm down the primrose path of portfolio madness, with many unrelated and unmanageable businesses. Conversely, by paying attention only to culture and values and ignoring the 'bottom line' implications of the culture, many firms have paved the way to their own obsolescence."
+canonical-instances:
+  - "A startup's board evaluates every acquisition purely on revenue multiples and growth rate, never articulating what kind of company they're trying to become, and ends up owning a scattershot portfolio of businesses that share no customers, no technology, and no reason to exist under one roof."
+  - "A nonprofit spends years refining its mission statement and staff culture while its funding model quietly erodes, because nobody treated financial sustainability as part of the same conversation as values -- by the time the budget crisis arrives, the values work has produced no operating discipline capable of protecting it."
+critical-questions:
+  - "How would an organization notice it has skipped this prior question, given that skipping it produces a real answer anyway -- just an unexamined, default one -- rather than an obvious gap that shows up as a missing line item?"
+  - "Is there a natural order in which the two failure modes tend to occur -- does portfolio-first thinking usually precede values-first thinking in an organization's life, or can either come first depending on who happens to hold power when the planning process is designed?"
+status: active

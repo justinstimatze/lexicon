@@ -1,0 +1,19 @@
+id: lex-frev3
+name: whoever-controls-the-means-of-representation-controls-the-proof
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When an artifact is presented as neutral proof of a dispute between two parties, ask who actually had the means to produce it. That answer matters more than the artifact's content. Aesop's 'The Man and the Lion,' arguing over which species is superior, reach a statue of a man overpowering a lion; the lion's reply names the actual problem with the evidence: 'If we Lions could make statues, you may be sure that in most of them you would see the Man underneath.' The deeper issue is not that there are two competing viewpoints to weigh evenly — it is that only one party has ever had the means of representation, so what looks like objective proof is actually a record of who got to make the record."
+related: []
+evokes: [aesop, the-man-and-the-lion, means-of-representation, authorship-of-evidence]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-man-and-the-lion
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Man and the Lion.' Verified verbatim against a direct extraction of the held copy."
+    quote: "If we Lions could make statues, you may be sure that in most of them you would see the Man underneath."
+canonical-instances:
+  - "a company's own published case studies or safety statistics are cited as objective proof of performance, when the measurement methodology was designed and entirely controlled by the company being evaluated."
+critical-questions:
+  - "Does identifying who authored a piece of evidence actually tell you whether its content is false, or only that it should be checked more carefully — can a self-interested party still produce an accurate record?"
+  - "What would count as genuinely neutral evidence in a dispute like this, given that any party capable of producing a record at all has some perspective built into what gets recorded and how?"
+status: active

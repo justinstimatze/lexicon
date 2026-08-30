@@ -1,0 +1,19 @@
+id: lex-dcg5r
+name: directional-asymmetry-in-tracks-implies-a-hidden-threat
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A one-way pattern in observable traces — many entries, no exits — is diagnostic of a hidden threat even before anything about the threat itself is directly seen, and a standing rule to consult before engaging with anything new lets that inference get acted on before the group encounters the danger firsthand. In the Jataka's tale of the monkey troop and the water-ogre, the leader notices that every footprint near a lake leads down into the water and none come back up, and concludes correctly that an ogre lurks there — pure inference from the shape of the evidence, with no ogre ever glimpsed. The troop survives because they had already adopted a policy of asking their leader before eating unfamiliar fruit or drinking from unfamiliar water, meaning the inference had a channel to act through before anyone tested the water directly."
+related: []
+evokes: [jataka, ekanipata, nalapana-jataka, directional-track-asymmetry-implies-threat, standing-policy-acts-on-inference-before-contact]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-nalapana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 20, Nalapana-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "he found that all the footsteps led down into the water and none came up again... \"this is the haunt of an ogre.\""
+canonical-instances:
+  - "A security analyst notices that outbound connection logs to a particular external server show plenty of requests going out but no corresponding responses ever logged as returning, and flags the server as likely compromised before anyone has directly inspected it."
+critical-questions:
+  - "What other explanations could produce the same one-directional pattern besides a hidden threat — does the inference hold up against an animal that entered and left by two genuinely different paths, or a predator that simply doesn't leave visible tracks on the way out?"
+  - "Does the standing ask-first policy have a cost in the ordinary case where nothing is wrong, and if so, how does a group calibrate how often to pay that cost against how rarely the hidden threat actually turns out to be real?"
+status: active

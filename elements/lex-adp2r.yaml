@@ -1,0 +1,18 @@
+id: lex-adp2r
+name: citing-a-rap-sheet-to-imply-capacity-for-a-graver-crime
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Lacking direct proof of the crime in question, an accuser recites a catalogue of the suspect''s unrelated past bad behavior as circumstantial support for the accusation, reasoning from disposition and prior record to fill an evidentiary gap the physical evidence alone doesn''t close. In the Jataka''s tale of Tittira, the tiger recites the wanderer''s entire disreputable history to the lion before naming any specific crime: "As pedlar thro'' Kalinga land / Rough roads he travelled, staff in hand; / With acrobats he has been found, / And harmless beast in toils has bound; / With dicers too has often played, / And snares for little birds has laid; / In crowds with cudgel-sticks has fought, / And gain by measuring corn has sought: / False to his vows, in midnight fray / Wounded, he washed the blood away: / His hands he burned thro'' being bold / To snatch at food too hot to hold."'
+related: []
+evokes: [jataka, navanipata, tittira-jataka, character-evidence-fills-an-evidentiary-gap, priors-as-circumstantial-support]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-tittira-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 438, Tittira-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "As pedlar thro' Kalinga land / Rough roads he travelled, staff in hand; / With acrobats he has been found, / And harmless beast in toils has bound; / With dicers too has often played, / And snares for little birds has laid; / In crowds with cudgel-sticks has fought, / And gain by measuring corn has sought: / False to his vows, in midnight fray / Wounded, he washed the blood away: / His hands he burned thro' being bold / To snatch at food too hot to hold."
+canonical-instances:
+  - "Unable to prove an employee falsified a specific expense report, an auditor instead lists every prior minor policy violation on his record — a late filing here, an unapproved purchase there — to argue he's the kind of person who would do it."
+critical-questions:
+  - "A long list of unrelated minor misdeeds makes the graver accusation feel more plausible. Does it actually raise the probability that the accusation is true, or is that feeling doing all the work the real evidence hasn't?"
+status: active

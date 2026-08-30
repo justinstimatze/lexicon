@@ -1,0 +1,29 @@
+id: lex-z6u9z
+name: revealed-structure-over-stated-intent-recurs-across-commitment-and-values
+type-in: situation
+type-out: claim
+_tier: molecule
+agent-instruction: "Whether you're assessing a commitment's credibility or a person's actual values, don't take the stated version at face value — check what the structure of foreclosed options or the ordering of the person's actual loves reveals instead. A commitment is credible because of what options it visibly closed off, not because of what was announced; a life's actual direction is set by what it's ordered toward in practice, not what it's articulated as valuing. Same diagnostic move, two different domains."
+related: [lex-rfcb7, lex-x3hgq]
+scaffolds-from: [lex-rfcb7, lex-x3hgq]
+evokes: [credibility-from-foreclosure, revealed-vs-stated-values, augustinian-ordering-of-loves, structure-over-articulation]
+decomposes-into:
+  - lex-rfcb7
+  - lex-x3hgq
+assembly: "classification(lex-rfcb7, lex-x3hgq)"
+premises:
+  - "credibility comes from visibly foreclosed options, not from stated intent — a commitment is only as credible as the options it has actually, verifiably closed off, independent of what the committing party says about their intentions (lex-rfcb7)"
+  - "life direction is set by the ordering of its loves — the diagnostic for what a person or system actually values is what it's structurally oriented toward in practice, not what it articulates as its stated values, the structural analog of the Augustinian gap between stated and revealed love-ordering (lex-x3hgq)"
+  - "the two atoms are unordered instances of the same abstract diagnostic pattern — trust the revealed structure over the stated articulation — applied in two different domains: commitment-credibility and life/system-direction; they don't chain or share a type-in, so they're classified together rather than composed as a pipeline"
+critical-questions:
+  - "in a given case, is the 'revealed structure' actually more reliable than the stated version, or could the structure itself be gamed — a foreclosure that's staged for credibility, an ordering that's temporarily distorted by a local incentive rather than reflecting genuine long-run direction? Both halves of the pattern assume the structural signal is harder to fake than words, which is usually but not always true."
+  - "how much of the structure needs to be observed before the diagnostic is reliable — one foreclosed option, or a pattern across many decisions? A single data point risks over-reading; the pattern's strength scales with how much revealed structure is actually available to observe."
+  - "does naming the gap between stated and revealed actually change behavior, or does it just supply a more cynical redescription of the same facts? The atoms individually are diagnostic, not prescriptive — this composition doesn't by itself suggest what to do once the gap is named."
+lineage:
+  - source: practitioner
+    text: assembled-from-lex-rfcb7-lex-x3hgq
+    citation: "Molecule assembled from lex-rfcb7 (credibility-comes-from-visibly-foreclosed-options-not-from-stated-intent, Schelling-tradition) and lex-x3hgq (life-direction-is-set-by-the-ordering-of-its-loves, Augustinian ordo amoris tradition). lex-x3hgq's own canonical-instances state the link directly, twice: 'the diagnostic is what the model is actually carried toward, not what it articulates as its values. Composes with lex-rfcb7 (credibility from foreclosed options, not stated intent)...' Types don't chain (lex-rfcb7 situation→claim, lex-x3hgq structure→process), so this uses `classification` rather than `sequential`/`parallel`."
+canonical-instances:
+  - "Nation-state deterrence commitment: a country's defense treaty is credible to the extent it has actually foreclosed the option of non-response (forward-deployed troops that would be automatically engaged, domestic political costs of backing down that are already locked in) rather than to the extent its officials state the commitment is firm (lex-rfcb7) — the same diagnostic logic as reading a person's actual life-ordering rather than their stated priorities (lex-x3hgq): both distrust the announcement and trust the structure."
+  - "A person who says family is their top priority but whose actual time, attention, and resource allocation is structurally ordered toward career advancement: the ordering-of-loves diagnostic (lex-x3hgq) reveals career as the operative value regardless of the stated priority — structurally the same move as an analyst discounting a company's stated commitment to a project in favor of checking whether the company has actually foreclosed the option of cancelling it (lex-rfcb7)."
+status: under-review

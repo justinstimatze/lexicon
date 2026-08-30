@@ -1,0 +1,19 @@
+id: lex-dv9mw
+name: a-trained-fear-response-generalizes-far-past-its-original-trigger
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A fear response conditioned by one specific traumatic event can generalize to a vastly broader category of harmless stimuli that merely resemble the original trigger, long after the actual threat is gone. In the Jataka's tale of the tortured elephant, an animal beaten during a harsh training process escapes captivity, but afterward panics at any ordinary breath of wind moving through the branches as though still undergoing the training that produced the fear in the first place. The wind was never the threat; the training was. But the response now fires on a signal that merely resembles the conditions under which the real harm occurred, at a cost to the animal that has nothing to do with any actual danger left in its environment."
+related: []
+evokes: [jataka, ekanipata, dubbalakattha-jataka, trauma-response-generalizes-past-its-trigger, fear-response-outlives-the-actual-threat]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dubbalakattha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 105, Dubbalakattha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Fear'st thou the wind that ceaselessly The rotten boughs doth rend alway? Such fear will waste thee quite away!"
+canonical-instances:
+  - "A former employee who survived a chaotic, blame-heavy layoff round at one company breaks into a stress response at even routine, well-run reorganization announcements at a much healthier subsequent employer, reacting to a mundane meeting invite as though the original harm were about to recur."
+critical-questions:
+  - "What actually distinguishes a proportionate, still-useful caution from an overgeneralized response that's now costing more than any residual risk justifies — is there a reliable way to tell from inside the response itself?"
+  - "Does the fear ever fully extinguish through repeated safe exposure to the resembling stimulus, or does it tend to persist indefinitely once generalized this broadly, regardless of how much evidence accumulates that the trigger is now harmless?"
+status: active

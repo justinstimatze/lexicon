@@ -1,0 +1,18 @@
+id: lex-97em7
+name: a-rewarding-power-explicitly-confirms-the-specific-deed-that-earned-the-reward
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: 'Rather than leaving a beneficiary to guess why good fortune has arrived, a granting power can name the exact past deed that caused it, converting an otherwise mysterious windfall into a confirmed cause-and-effect ledger entry. In the Jataka''s tale of Sankha, the sea-goddess who rescues the brahmin explicitly identifies his one gift of shoes as the reason: "That gift thy Cow of Plenty is this day."'
+related: []
+evokes: [jataka, dasanipata, sankha-jataka, explicit-karmic-confirmation, named-causal-ledger]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sankha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 442, Sankha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "That gift thy Cow of Plenty is this day."
+canonical-instances:
+  - "A former manager tells an employee, years after promoting her, that it was specifically her handling of one difficult client call — not her general competence — that made the decision, naming the exact deed rather than leaving her to infer the cause."
+critical-questions:
+  - "Does naming the specific cause of a reward change how the recipient behaves going forward, compared to receiving the same reward with no explanation attached?"
+status: active

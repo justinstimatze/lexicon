@@ -1,0 +1,21 @@
+id: lex-93vcj
+name: routine-maintained-long-enough-becomes-cover-for-breaking-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When you need to act without an observer noticing the moment of real change, check whether you already have a long-maintained, genuinely boring pattern of behavior you can violate once rather than trying to construct a one-off distraction. The 36 Stratagems' 'Sneak across the ocean in broad daylight' names the mechanism directly: 'what you see often you do not doubt and what is familiar becomes uninteresting and a perfect cloak for the unusual and unexpected.' This is not a single feint (pointing one direction while moving another) — it requires real time invested in a pattern the observer has stopped actively monitoring, so that the accumulated pattern itself is what hides the eventual break, without any decoy required. The corrective for the person being watched: periodically re-examine patterns you have stopped questioning specifically because you have stopped questioning them, since predictability accumulated over time is a resource an actor can spend exactly once, at a moment of their choosing."
+related: []
+evokes: [36-stratagems, sneak-across-the-ocean, fool-the-emperor-and-cross-the-sea, habituation, routine-as-cover, predictability-as-a-spendable-resource]
+lineage:
+  - source: primary
+    text: taylor-2013-36-stratagems-1-sneak-across-the-ocean
+    citation: "Peter Taylor, The Thirty-Six Stratagems: A Modern-Day Interpretation of a Strategy Classic (Infinite Ideas, 2013), Stratagem 1, 'Sneak across the ocean in broad daylight.' Verified verbatim against a direct pdftotext extraction of the held copy."
+    quote: "What you see often you do not doubt and what is familiar becomes uninteresting and a perfect cloak for the unusual and unexpected."
+canonical-instances:
+  - "Baden-Powell's defense of Mafeking during the Second Boer War: he had locals visibly carry boxes of 'mines' around the town for long enough that word of a real minefield reached the Boers and was believed, and separately built and maintained decoy fortifications well before either was needed. The deception's strength came from how long it had already been running when it mattered, an accumulated credibility no single clever trick sprung in the moment could have bought."
+  - "operationally distinct from a simple feint (Taylor's own 'open feint' example, a goalkeeper leaning one way before a penalty): a feint spends its effect in a single instant of misdirection and can be run cold; this mechanism requires an actual accumulated track record the observer has stopped monitoring, and cannot be manufactured on the spot."
+critical-questions:
+  - "How long does a pattern need to run before it stops being actively monitored and starts being taken for granted — is there a way to tell from outside that the window has opened, or only from the fact that the break succeeded?"
+  - "Does maintaining the routine itself impose a real cost (Baden-Powell had to actually build and staff decoy forts) that limits how often or how cheaply this can be used compared to a one-off feint?"
+  - "A target that starts periodically auditing its own long-standing patterns specifically to defeat this mechanism raises the cost of using it — what would a routine-breaker need to change about the approach to still succeed against that kind of vigilance?"
+status: active

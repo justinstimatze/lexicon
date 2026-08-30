@@ -1,0 +1,23 @@
+id: lex-4ph9n
+name: cold-reading-elicits-then-reflects-back-the-subjects-own-disclosure
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: "Cold reading runs as a closed feedback loop rather than landing as any single clever guess. State something vague enough to fit almost anyone ('I'm getting an impression of children'), watch the subject's verbal and nonverbal response for confirmation or correction, then narrow toward whatever the subject is visibly reacting to. The subject supplies the actual content — the ages, the names, the specific worry — while attributing the resulting accuracy to the reader's insight rather than to their own disclosure a moment earlier. Recognize this whenever a claimed insight arrives suspiciously fast on a vague opener followed by directed follow-up questions ('am I close?'); the loop, not any single statement, is what generates the appearance of specific knowledge from a source that had none."
+related: [lex-bra5e, lex-jwc53]
+scaffolds-from: [lex-bra5e]
+evokes: [cold-reading, telepsychics, fortune-teller-technique, forer-effect, elicitation-loop]
+lineage:
+  - source: primary
+    text: huston-1997-scams-from-the-great-beyond-ch2-cold-reading
+    citation: "Peter Huston, Scams from the Great Beyond: How to Make Easy Money by Exploiting Psychic Phenomena (Loompanics Unlimited, 1997), Chapter 2, approx. p.21 (running header confirms; exact page markers land near but not inside the quoted sentences in the pdftotext -layout extraction). Verified verbatim against direct extraction."
+    quote: "With cold reading, the psychic begins making predictions in a rather vague manner but focuses in on more specific statements as he watches for cues from the subject. [Later in the same passage, on the follow-up questions that drive the loop:] The simplest — and the telepsychics do this all the time — is to simply ask the test subject how they're doing. 'Am I close?' 'Does that sound right to you?' and 'What do you think?' are all common cues and blatant requests for feedback... A good fortune-teller tries to turn the client into a participant in the experience."
+canonical-instances:
+  - "The telephone psychic hotline script Huston describes: 'I'm getting a strong impression of children. You often spend time around children' (vague opener) narrows to 'I feel that maybe you have children of your own. Perhaps two or three children. All of young ages' (directed guess) once the subject's reaction confirms the general topic, ending with the subject supplying the actual specifics ('I have a little girl and a little boy who are 6 and 8 years old!') and crediting the reader with having known it."
+  - "operationally distinct from lex-bra5e maieutic-questioning-extraction: both draw content out of the other party through questions rather than depositing it, but maieutic questioning is a teaching posture aimed at surfacing knowledge the student genuinely already has, with no misattribution — the student is credited with their own answer. Cold reading runs the identical elicit-via-feedback structure toward the opposite end: the subject's disclosure is laundered back to them as the reader's independent insight."
+  - "operationally distinct from lex-jwc53 the confidence-game trust-switch: trust-switch is a role-split where one party earns trust and hands the beneficiary of that trust to a second party. Cold reading involves only one party running a real-time elicit-and-narrow loop; no trust is transferred between roles at all — the misattribution here targets the source of a piece of information, a narrower thing than a transfer of earned trust."
+critical-questions:
+  - "Was the specific detail actually supplied by the subject during the exchange, or did the reader state it first? Reviewing a transcript (or recording) is the direct test — cold reading only works because in-the-moment memory blurs who said what first, and it collapses under a literal replay."
+  - "How vague was the opening statement, really? A cold-reading claim that sounds startlingly specific in the retelling is often reconstructed from a vague opener plus the listener's own selective memory of the parts that hit — check the actual first statement, not the story told about it afterward."
+  - "Does the reader's accuracy improve when the subject is prevented from giving verbal or visible feedback (blind conditions, no eye contact)? If accuracy collapses without feedback, the loop — not the reader's insight — was doing the work."
+status: active

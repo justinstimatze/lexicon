@@ -1,0 +1,18 @@
+id: lex-46g5h
+name: physical-habit-markers-trigger-snap-back-to-abandoned-identity
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A person swept into acting against their own values is jolted back into self-awareness not by argument but by suddenly perceiving a physical marker of their former commitment. The bodily reminder does the cognitive work that reasoning failed to do. In the Jataka''s tale of Lomasakassapa, mid-sacrifice, the ascetic is stopped by noticing his own matted ascetic hair: Kassapa, on hearing these loud cries, grew excited and reflected on his matted hair. Then he became conscious of matted locks and beard, and the hair upon his body... and breast. Full of remorse he cried, "Alas! Ihave done a sinful deed, unbecoming my character,"'
+related: []
+evokes: [jataka, navanipata, lomasakassapa-jataka, physical-marker-triggers-self-recognition, anagnorisis]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-lomasakassapa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 433, Lomasakassapa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Kassapa, on hearing these loud cries, grew excited and reflected on his matted hair. Then he became conscious of matted locks and beard, and the hair upon his body... and breast. Full of remorse he cried, \"Alas! Ihave done a sinful deed, unbecoming my character,\""
+canonical-instances:
+  - "A monk who has drifted into a compromising business arrangement suddenly notices his own prayer beads still on his wrist mid-negotiation, and the sight alone breaks the momentum that no amount of internal argument had managed to."
+critical-questions:
+  - "Would the ascetic have caught himself without a physical marker to notice, or does this mechanism depend entirely on having some visible residue of the abandoned identity still attached to the body?"
+status: active

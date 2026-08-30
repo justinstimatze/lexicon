@@ -1,0 +1,19 @@
+id: lex-sdzrx
+name: deflect-personal-challenge-by-pointing-to-how-many-others-agree
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When personally challenged on a claim, a person can deflect scrutiny by citing how many others hold the same belief, treating shared consensus as though it were independent evidence rather than a headcount. In the Jataka''s tale of Baka-Brahma, the text names the move explicitly by comparing it to a caught thief spreading blame: "as a timid thief, after receiving a few blows, says, ''Am I the only thief? so and so and so and so are thieves too,'' showing his associates."'
+related: []
+evokes: [jataka, sattanipata, baka-brahma-jataka, appeal-to-number-of-adherents, consensus-as-false-evidence]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-baka-brahma-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 405, Baka-Brahma-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "as a timid thief, after receiving a few blows, says, \"Am I the only thief? so and so and so and so are thieves too,\" showing his associates"
+canonical-instances:
+  - "Challenged on a claim that turns out to be wrong, an analyst responds not by re-examining the data but by naming every other firm that published the same forecast, as though the number of people who also got it wrong were proof it was right."
+critical-questions:
+  - "Does the number of people who share a belief provide any actual evidence for its truth, or does it only measure how widely a shared error or shared incentive has spread?"
+  - "Why does the text reach for a caught thief as the comparison here — does naming the move as a guilt-diffusion tactic change how convincing it feels once it's recognized as such?"
+status: active

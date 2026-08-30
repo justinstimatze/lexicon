@@ -1,0 +1,19 @@
+id: lex-6vf3k
+name: examine-the-whole-matter-before-acting-on-a-costly-recommendation
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Before acting on a recommendation that will cause real harm if wrong, the decision-maker's obligation is to examine the whole matter first, rather than deferring to the authority of whoever delivered the recommendation. The Jataka's tale of the crow's fat states this as an explicit governing principle for kings, distinct from the specific fraud it resolves: before taking action, first examine and know the whole matter, and only then do what, being done, is genuinely salutary. The rule doesn't depend on suspecting any particular advisor of bad faith — it's framed as a standing practice, precisely because a ruler who waits for suspicion before verifying has already granted the unverified recommendation everything it needed to cause harm."
+related: []
+evokes: [jataka, ekanipata, kaka-jataka, examine-before-acting-as-a-standing-practice, verification-precedes-suspicion-not-the-reverse]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 140, Kaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "...Before taking action, it is meet first to examine and know the whole matter, and then only to do that which being done is salutary."
+canonical-instances:
+  - "A hospital administrator adopts a standing policy of independently reviewing the evidence behind any recommended change to patient protocols before approving it, regardless of how senior or trusted the recommending physician is, treating verification as routine rather than as a signal of distrust toward any specific person."
+critical-questions:
+  - "Does treating verification as a universal standing practice, rather than something triggered by suspicion, create meaningful friction or delay costs for the large majority of recommendations that are actually made in good faith?"
+  - "Is there a point at which routine verification of every recommendation becomes impractical, and if so, how should a decision-maker calibrate which recommendations warrant the full examination this principle calls for?"
+status: active

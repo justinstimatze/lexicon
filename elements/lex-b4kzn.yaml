@@ -1,0 +1,20 @@
+id: lex-b4kzn
+name: escalating-cutout-waves-erase-the-evidence-trail-behind-an-assassination
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Someone commissioning a killing they need to stay clean of does not send one agent — they send a chain of them, each wave tasked with intercepting and killing the wave that returned before it along its own route home, so that no one who could testify to the order survives to do so. In the Jataka''s Khandahala-Jataka frame story, Devadatta sends an archer to kill the Buddha, then sends two more archers along the same road with instructions to kill whoever they meet returning, then four more, then eight, then sixteen — a doubling cutout chain whose sole function is stated outright: "If you ask why he did this, he did it to conceal his own wickedness." Deniability here isn''t built by hiding the act; it''s built by making every witness disposable to the layer commissioned after them.'
+related: []
+evokes: [jataka, mahanipata, khandahala-jataka, cutout-chain, deniability, assassination, witness-elimination]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-khandahala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 542, Khandahala-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Then he sent two archers by that road, and said to them, 'You will meet a man coming by your road,—kill him and return by such a road.' Then he sent four archers by that road with the same instructions, and after that similarly eight and sixteen. If you ask why he did this, he did it to conceal his own wickedness."
+canonical-instances:
+  - "A cartel boss orders a hit through an intermediary, then has that intermediary killed by a second crew, who are in turn dealt with by a third — each layer exists only to remove the layer that could identify the one above it."
+  - "An intelligence operation runs a source through a cutout who is themselves run through a second cutout with no knowledge of the operation's origin, so that rolling up any single link never reaches the layer that ordered it."
+critical-questions:
+  - "Each wave in the chain is itself killed by the wave after it — does that make every member of the chain both perpetrator and victim, and does that split responsibility dilute Devadatta's culpability or simply multiply the number of people he has killed?"
+  - "The chain fails here because the first archer is stopped by compassion rather than force — what does a cutout chain actually protect against, if not a target capable of converting its own assassin?"
+status: active

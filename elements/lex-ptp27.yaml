@@ -1,0 +1,19 @@
+id: lex-ptp27
+name: partial-mastery-of-a-dangerous-power-destroys-its-own-user
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Learning how to activate a dangerous power without also learning how to control or deactivate it leaves the user with a capability that's more dangerous to them than having no capability at all, since the missing half of the knowledge is exactly what would have made the first half safe to use. In the Jataka's tale of the reckless student, a young man learns the spell to raise the dead but is deliberately withheld the counter-charm needed to keep what he raises under control. Showing off to impress his peers, he revives a dead tiger, which promptly kills him — the activation knowledge he did have was worthless, even actively lethal, without the deactivation knowledge he never received."
+related: []
+evokes: [jataka, ekanipata, sanjiva-jataka, partial-mastery-is-more-dangerous-than-none, activation-without-deactivation-is-worthless-knowledge]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sanjiva-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 150, Sanjiva-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "...though the young man was taught this, he was not taught the counter charm."
+canonical-instances:
+  - "A new hire learns how to trigger an automated mass-refund process to quickly resolve customer complaints but was never trained on how to halt or reverse it once started, and triggers a refund run against the wrong customer segment with no way to stop it before real financial damage is done."
+critical-questions:
+  - "Is withholding the counter-knowledge in a teacher-student relationship ever a legitimate safety measure, or does incomplete training like this always just relocate the risk from the withholding teacher onto an unprepared student?"
+  - "Would the student have been safer never learning the activation spell at all, given that the partial knowledge he did receive was strictly worse than no knowledge, since it created a capability he had every incentive to use?"
+status: active

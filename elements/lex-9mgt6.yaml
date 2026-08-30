@@ -1,0 +1,19 @@
+id: lex-9mgt6
+name: recovered-memory-of-a-past-act-explains-and-legitimizes-present-status
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A person''s current elevated position can be explained and validated by a special faculty of memory that recovers a hidden causal history, retroactively making sense of an otherwise arbitrary present. In the Jataka''s tale of Kummasapinda, the king''s memory of his own past life does exactly this: "he saw clearly by the power of recollecting all that he had done in former births, like the reflexion of his own face in a clear mirror, that he was now born in that state because he had given four portions of gruel to the paccekabuddhas when he was a servant."'
+related: []
+evokes: [jataka, sattanipata, kummasapinda-jataka, recovered-memory-legitimizes-present-status, hidden-history-explains-arbitrary-fortune]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kummasapinda-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 415, Kummasapinda-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "From the time of his being able to walk alone, he saw Clearly by the power of recollecting all that he had done in former births, like the reflexion of his own face in a clear mirror, that he was now born in that state because he had given four portions of gruel to the paccekabuddhas when he was a servant and going to work in that same city."
+canonical-instances:
+  - "A CEO who inherited a thriving company reconstructs, from old family letters, the specific unglamorous decision her grandfather made decades earlier that actually explains the company's current market position, replacing what had felt like pure luck with a legible cause."
+critical-questions:
+  - "Does recovering this kind of causal history genuinely explain the present outcome, or does it retrofit a satisfying story onto what may still be substantially arbitrary?"
+  - "Why does a person's present fortune need this kind of legitimizing origin story at all — what discomfort does an unexplained, arbitrary present create that a recovered cause resolves?"
+status: active

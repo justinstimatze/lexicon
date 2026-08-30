@@ -1,0 +1,20 @@
+id: lex-xvukc
+name: punishing-a-coerced-act-as-though-it-were-freely-chosen
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A group can be socially punished for the outward form of a transgression even when the act itself was performed under total coercion or incapacity, with no meaningful choice involved — the punishing party enforces the norm against the appearance of the violation rather than against culpable intent. In the Jataka's tale of Matanga, sixteen thousand brahmins are struck senseless and possessed by angry deities as retribution for their king's cruelty to a sage; the sage's mother heals them only by putting the leavings of the sage's own rice-gruel — food from an outcast Candala — into their mouths while they lie helpless. Once revived, they bear no responsibility for what was done to their own bodies while incapacitated, yet: \"Then these brahmins, having been made to taste the leavings of a Candala, were put out of caste by the other brahmins. In shame they departed from Benares, and went to the kingdom of Mejjha, where they lived with the king of that country.\""
+related: []
+evokes: [jataka, visatinipata, matanga-jataka, coercion, involuntary-transgression, caste-purity-enforcement]
+lineage:
+  - source: primary
+    text: jataka-rouse1901-matanga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XV (Visati-Nipata), No. 497, Matanga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Then these brahmins, having been made to taste the leavings of a Candala, were put out of caste by the other brahmins. In shame they departed from Benares, and went to the kingdom of Mejjha, where they lived with the king of that country."
+canonical-instances:
+  - "A hospital enforces a strict no-outside-food policy and disciplines a patient for having 'consumed contraband' after staff themselves fed it to them while sedated for a procedure, without checking the chart for the restriction."
+  - "An employer terminates a whistleblower's colleague for 'leaking' internal documents that were in fact stolen from their unlocked, unattended workstation and later traced back to a different employee, with no inquiry into how the documents actually left the building."
+critical-questions:
+  - "The other brahmins who exile the sixteen thousand never learn, or care, that the tasting was coerced. Does the pattern require the punishing party to know the act was involuntary and punish it anyway, or does it also cover punishment driven by genuine ignorance of the coercion?"
+  - "The sixteen thousand end up finding refuge with another king rather than fighting the exile. What does this pattern look like when the coerced party has no such alternative community to relocate to?"
+status: active

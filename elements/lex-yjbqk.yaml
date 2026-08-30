@@ -1,0 +1,19 @@
+id: lex-yjbqk
+name: decline-every-substitute-reward-until-the-one-thing-actually-wanted
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When offered a general reward, a requester can repeatedly decline every proposed substitute and hold out only for the specific thing actually wanted, converting an open-ended offer into a precise, non-negotiable demand. In the Jataka''s tale of Kummasapinda, the queen does exactly this to get the meaning of the king''s song rather than any other gift: "What shall I give you, elephants, horses or the like?" "O king, through your grace I lack nothing ... but if you wish to give me a boon, give it by telling me the meaning of your song." "Lady, what need have you of that boon? Accept something else." "O king, I have no need of anything else: it is that I will accept."'
+related: []
+evokes: [jataka, sattanipata, kummasapinda-jataka, boon-narrowing-by-declining-substitutes, hold-out-for-the-specific-thing]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kummasapinda-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 415, Kummasapinda-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "What shall I give you, elephants, horses or the like?\" \"O king, through your grace I lack nothing, I have no need of such things: but if you wish to give me a boon, give it by telling me the meaning of your song.\" \"Lady, what need have you of that boon? Accept something else.\" \"O king, I have no need of anything else: it is that I will accept.\""
+canonical-instances:
+  - "Offered a bonus, extra vacation days, or a title bump for finishing the project early, an engineer turns each one down in turn and asks instead for direct access to the roadmap discussions, refusing to settle for any consolation prize once the real request is on the table."
+critical-questions:
+  - "Does declining every substitute risk the offering party withdrawing the reward entirely, rather than granting the more specific and possibly more costly thing being asked for instead?"
+  - "Is there a point where persistent refusal of substitutes crosses from principled clarity into simply testing how much the offering party is willing to give?"
+status: active

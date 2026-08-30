@@ -1,0 +1,19 @@
+id: lex-hc543
+name: tolerance-has-a-counted-limit-then-a-real-consequence-lands
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Forgiving repeated bad behavior at the pleading of an intermediary is not the same as forgiving it indefinitely — a party can absorb the same offense twice and still enforce a genuine, undiscounted consequence the third time, regardless of who intercedes. In the Jataka's tale of the Daddara Nagas, the Naga king forgives his violent younger son's cruelty twice at his elder son's pleading, but draws a hard line on the third complaint: 'But on the third occasion the king said, \"You have prevented me from expelling this good-for-nothing fellow; now both of you get you gone from this Naga world, and live for three years at Benares on a dunghill.\"' Notably, the consequence falls on both brothers, not just the offender."
+related: []
+evokes: [jataka, catukkanipata, daddara-jataka, forgiveness-has-a-counted-limit-not-an-open-end, intercession-delays-but-does-not-cancel-the-eventual-consequence]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-daddara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 304, Daddara-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "But on the third occasion the king said, \"You have prevented me from expelling this good-for-nothing fellow; now both of you get you gone from this Naga world, and live for three years at Benares on a dunghill.\""
+canonical-instances:
+  - "A manager lets a star performer's colleague vouch for them through two serious client complaints, but tells the colleague plainly before the third one that the next incident results in termination regardless of who speaks up for them — and follows through when it happens."
+critical-questions:
+  - "Is the threshold of three actually principled, or is it arbitrary — would forgiving twice and drawing the line on the second offense, or the fourth, be equally defensible?"
+  - "Is it fair that the consequence here falls on the elder brother too, purely for having interceded on the offender's behalf — does attaching a cost to advocacy discourage future intercession even in cases that deserve it?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-wv35e
+name: publicly-humiliating-a-rival-creates-a-durable-unnecessary-enemy
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Being factually correct in a public confrontation does not offset the cost of the enemy that confrontation creates, when nothing was strategically gained by making the correction in public. The Panchatantra names this as the stated origin of an entire war between crows and owls: a crow publicly humiliates an owl who had genuine merit to be elected bird-king, over the trivial matter of the owl's appearance, and that single public humiliation generates a permanent adversary with the means and motive for sustained retaliation. The verse names the general principle: 'however wise and strong you be, beware the needless enemy: you would not swallow poison down because a doctor lives in town.' A second verse specifies exactly what could have been avoided: 'no man of sense vituperates another, while the public waits; for even truth should be concealed, if causing sorrow when revealed.'"
+related: []
+evokes: [panchatantra, crows-and-owls, public-humiliation-creates-a-durable-enemy, correctness-does-not-offset-the-cost-of-a-needless-enemy]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-cloudys-reflection-on-needless-enemies
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book III, frame story origin (Cloudy's reflection on needless enemies). Verified verbatim against a direct extraction of the held copy."
+    quote: "However wise and strong you be, Beware the needless enemy: You would not swallow poison down Because a doctor lives in town."
+canonical-instances:
+  - "a manager publicly points out a factual error in a colleague's presentation during a company-wide meeting, technically correct and easily defensible, and gains nothing strategically from the timing — while the colleague, humiliated in front of the whole company, becomes a durable internal adversary who blocks the manager's initiatives for years afterward."
+critical-questions:
+  - "Is truth-telling itself the problem here, or specifically the venue — would the same correction, delivered privately, have avoided creating the enemy while still serving whatever legitimate purpose the correction had?"
+  - "Does this advice risk enabling people to avoid accountability by making any public correction of them look like an unnecessary provocation, regardless of whether the correction was actually warranted and proportionate?"
+status: active

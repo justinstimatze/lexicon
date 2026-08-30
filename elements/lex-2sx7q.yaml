@@ -1,0 +1,30 @@
+id: lex-2sx7q
+name: sequential
+type-in: composition
+type-out: composition
+_tier: atomic
+agent-instruction: "When ordering steps, surface that some orderings are sequential-only (B requires A finished) — name the dependencies explicitly so parallelization opportunities are visible, and so the critical path is identified rather than guessed."
+related: [lex-hesjt, lex-eg9zm, lex-ucrqj, lex-da3g3, lex-qhrpv]
+evokes: [composition-operation, then, A-then-B, type-flow, pipeline, function-composition]
+formal-if-any: "sequential(A, B) where type-out(A) ≡ type-in(B); generalizes to sequential(A1, A2, ..., An) for n-ary chains"
+lineage:
+  - source: practitioner
+    text: composition-operations-design-note
+    citation: "v0 composition-operations vocabulary (lexicon, 2026-05-02); defined as the canonical sequential bond between atoms in a molecule"
+  - source: practitioner
+    text: hoare-csp-1978
+    citation: "Communicating Sequential Processes — sequential composition as primitive"
+  - source: practitioner
+    text: substrate-attestation
+    citation: "promoted to first-class entry from substrate use: one of the most frequently-used bonds across lexicon's molecule-tier assemblies (e.g. lex-kebfa argument-from-expert-opinion, lex-bpr6b polya-work-backwards-via-related-problem). Not enumerating the full membership here — it has grown well past the original handful this citation was written against, and a hardcoded list only goes stale again at the next mint. Query `assembly:.*sequential\\(` across substrate/ for the current count."
+canonical-instances:
+  - "in lex-kebfa argument-from-expert-opinion: sequential(source-attribution, domain-credibility) — domain-credibility takes the attributed-source frame as input"
+  - "the right-arrow → in functional programming's function composition: g . f means 'apply f, then apply g to f's output'"
+  - "the cognitive shape of 'first do A, then do B' where B's input semantically depends on A's output (distinct from parallel(A, B) where A and B both consume the same input)"
+  - "type-checked: type-out(A) must equal type-in(B); when types don't match, an explicit conversion atom is needed in between"
+critical-questions:
+  - "is the type-match exact, or is implicit coercion happening? sequential(A, B) requires type-out(A) ≡ type-in(B). If they almost match but require a coercion, the coercion atom should be explicit — implicit coercion hides type-violations"
+  - "is B's input semantically dependent on A's output, or are they just adjacent in time? sequential is type-flow composition, not temporal ordering. If B's input doesn't actually consume A's output (could equally well precede A), the move is parallel-then-merge, not sequential"
+  - "what happens when A fails? sequential composition propagates A's failure to B in some way — either B never runs, or B receives a failure-token, or the whole chain raises. The discipline: specify the failure-mode at attach-time"
+  - "is this distinct from lex-eg9zm parallel? sequential threads output-to-input (A's result feeds B); parallel runs A and B on the same input independently. Composition shape differs even though both produce composed-result"
+status: active

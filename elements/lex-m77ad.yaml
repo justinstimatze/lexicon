@@ -1,0 +1,19 @@
+id: lex-m77ad
+name: offloading-risk-onto-a-companion-as-an-unwitting-probe
+type-in: situation
+type-out: posture
+_tier: atomic
+agent-instruction: "Suspecting danger ahead, a party can let a companion walk point first and observe what happens to them, gathering information about the risk without ever announcing the suspicion or sharing the exposure evenly. In the Jataka's tale of the stag Kandina, the doe scents a hunter and suspects an ambush. Instead of warning her mate, she lets him walk ahead into the danger zone while she hangs back at a distance, treating whatever happens to him as her answer. Saying nothing is what makes the probe work — a warning would have changed his behavior and destroyed the test, and visibly hanging back would have given her suspicion away instead of hiding it."
+related: []
+evokes: [jataka, ekanipata, kandina-jataka, companion-as-unwitting-risk-probe, silent-suspicion-preserves-the-test]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kandina-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 13, Kandina-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Scenting a man, the young doe suspected that a hunter was in ambush, and let the stag go on first, following herself at some distance."
+canonical-instances:
+  - "A junior employee suspects a new expense-reporting tool secretly flags submissions above a certain amount for extra audit, and rather than ask HR directly, waits to see whether a colleague who files a large claim first gets pulled aside before filing their own."
+critical-questions:
+  - "Is this meaningfully different from ordinary self-interested caution, or does labeling it as using another person's exposure for information make an otherwise unremarkable choice look worse than it is?"
+  - "What obligation, if any, does the doe have to share what she learns once the stag survives or doesn't — does the probe's value end at the moment of observation, or does it create a duty to disclose?"
+status: active

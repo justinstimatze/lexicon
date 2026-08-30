@@ -1,0 +1,19 @@
+id: lex-mmarf
+name: reframe-a-promise-as-an-ordeal-to-keep-it-without-fulfilling-it
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than force a choice between breaking a promise or fulfilling one that would be ruinous, a mediator can reframe compliance as an ordeal the petitioner will abandon voluntarily — letting the promiser technically keep their word while the substance is never actually delivered. In the Jataka''s tale of Kharaputta, Sakka proposes exactly this face-saving move: ''"King of gods, I promised to give her the charm: what am I to do now?" "There is no need for the ruin of both of you: you say, ''It is the way of the craft,'' and have her beaten with some blows: by this means she will not get it."'''
+related: []
+evokes: [jataka, chanipata, kharaputta-jataka, reframe-a-promise-as-an-ordeal, technical-compliance-without-substance]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kharaputta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 386, Kharaputta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "King of gods, I promised to give her the charm: what am I to do now?\" \"There is no need for the ruin of both of you: you say, \"It is the way of the craft,\" and have her beaten with some blows: by this means she will not get it.\""
+canonical-instances:
+  - "A manager who promised a struggling employee 'a real shot' at a promotion assigns them a grueling, deliberately unappealing stretch project, reasoning that the employee will decline the shot themselves rather than the manager having to withdraw an offer already made."
+critical-questions:
+  - "Is technical compliance dressed as an ordeal a legitimate way to resolve a promise made in error, or does it just add a layer of manufactured cruelty on top of the original mistake?"
+  - "Does the petitioner ever learn that the ordeal was designed to make them quit, and if they found out, would it change how the resolution reads?"
+status: active

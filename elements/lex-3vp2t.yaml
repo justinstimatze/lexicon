@@ -1,0 +1,21 @@
+id: lex-3vp2t
+name: bait-disguised-as-a-gift-earns-a-voluntary-trade
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When you want something valuable from someone who would refuse a direct request or a recognizable trade, check whether a low-cost inducement disguised so it doesn't register as bait can provoke a voluntary exchange instead. The 36 Stratagems' 'Tossing out a brick to get a jade gem' states the move and its condition together: 'Bait someone by making him believe he gains something or just make him react to it and obtain something valuable from him in return,' with the explicit qualifier that 'the point of the tactic is to throw out bait that does not seem like bait.' The mechanism depends entirely on concealment — the moment the target recognizes the inducement as bait rather than a gift or coincidence, the voluntary quality of the exchange collapses, along with any goodwill the target might otherwise have felt. The stratagem's own further caution is symmetric: because the recognizable shape of this move is well known, the same disguise can be turned back on whoever tries it, so success requires that the disguise actually hold, not merely that it be attempted."
+related: []
+evokes: [36-stratagems, tossing-out-a-brick-to-get-a-jade-gem, disguised-inducement, voluntary-exchange, bait-that-does-not-look-like-bait]
+lineage:
+  - source: primary
+    text: taylor-2013-36-stratagems-17-tossing-out-a-brick
+    citation: "Peter Taylor, The Thirty-Six Stratagems: A Modern-Day Interpretation of a Strategy Classic (Infinite Ideas, 2013), Stratagem 17, 'Tossing out a brick to get a jade gem.' Verified verbatim against a direct pdftotext extraction of the held copy."
+    quote: "Bait someone by making him believe he gains something or just make him react to it and obtain something valuable from him in return. The point of the tactic is to throw out bait that does not seem like bait."
+canonical-instances:
+  - "the McDonald's Happy Meal toy (since 1979): a cheap, disguised-as-a-treat inducement reliably converts into recurring high-value food purchases from parents and children who experience the transaction as getting a bonus, not as being deliberately lured."
+  - "operationally distinct from a straightforward loss-leader retail discount: a loss leader is openly a price cut the customer recognizes as a deal; this mechanism specifically requires the inducement to be perceived as something other than an exchange at all — a gift, a coincidence, or an unrelated bonus — for the voluntary quality of the resulting trade to hold."
+critical-questions:
+  - "Once a specific disguised-bait tactic becomes widely recognized (as happy-meal-style tie-in marketing now is), does it stop functioning as this mechanism and become an accepted, transparent transaction instead — does the mechanism have a shelf life tied to how novel the disguise still is?"
+  - "Is there a meaningful ethical line between this mechanism and ordinary reciprocity-based generosity, given that both produce a voluntary return gift or favor — what distinguishes manipulation here from genuine goodwill that happens to be reciprocated?"
+  - "The stratagem itself warns the disguise can be turned back on its user — how would the user of this tactic know they have been served their own brick rather than genuinely receiving jade?"
+status: active

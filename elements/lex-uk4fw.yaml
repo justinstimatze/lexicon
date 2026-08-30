@@ -1,0 +1,19 @@
+id: lex-uk4fw
+name: a-rule-follower-pays-for-a-newcomers-broken-terms-by-proximity
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When admitting a newcomer into an existing arrangement on agreed terms, recognize that proximity decides who absorbs the consequence of a broken term, and proximity rarely tracks fault. The disciplined party who kept the terms is often standing closer to the fallout than the newcomer who broke them. The Panchatantra's louse Creep has lived undisturbed on a sleeping king for years by following a strict, patient feeding discipline; a flea named Leap is admitted on the condition he follow the same rule, breaks it out of impatience by biting too soon, and the resulting commotion gets the innocent, disciplined Creep killed while Leap escapes. The verse states the outcome flatly: 'With no stranger share your house; Leap, the flea, killed Creep, the louse.'"
+related: []
+evokes: [panchatantra, loss-of-friends, disciplined-party-pays-for-a-newcomers-broken-terms, proximity-not-fault-determines-cost]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-leap-and-creep
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book I, 'Leap and Creep.' Verified verbatim against a direct extraction of the held copy."
+    quote: "With no stranger share your house; Leap, the flea, killed Creep, the louse."
+canonical-instances:
+  - "a freelance contractor who has quietly worked within a client's boundaries for years vouches for a new subcontractor brought in to help on a deadline; the subcontractor oversteps in week one, the client terminates the entire engagement in response, and the original contractor loses the relationship they'd carefully built, not the newcomer who caused the actual breach."
+critical-questions:
+  - "Does this outcome reflect an unavoidable structural risk of vouching for anyone new, or could Creep have protected himself with a different enforcement mechanism — real consequences for Leap specifically — rather than simply hoping the shared terms would hold?"
+  - "Is it fair to draw a general lesson against 'sharing your house with a stranger' from one case where the newcomer happened to break the agreement, when plenty of newcomers presumably keep such terms without incident?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-6wzam
+name: naming-the-asker-as-the-true-determinant-dissolves-a-rigged-binary
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone poses a forced binary choice while secretly intending to declare failure regardless of your answer, check whether naming them as the actual determinant of the outcome defeats the trap better than picking a side. Aesop's 'The Rogue and the Oracle' has a man plan to discredit an oracle by asking whether a bird in his hand is alive or dead, ready to twist either answer against it; the oracle refuses the binary outright: 'whether the thing that you hold in your hand be alive or dead is a matter that depends entirely on your own will.' Rather than guessing which answer the rigger has already decided to falsify, the response points back at the asker's own control over the outcome, dissolving the binary instead of losing inside it."
+related: []
+evokes: [aesop, the-rogue-and-the-oracle, rigged-forced-choice, naming-the-asker-as-determinant]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-rogue-and-the-oracle
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Rogue and the Oracle.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Stranger, whether the thing that you hold in your hand be alive or dead is a matter that depends entirely on your own will."
+canonical-instances:
+  - "a stakeholder demands a binary yes-or-no commitment, having secretly already decided to declare failure regardless. The sharp reply names the condition sitting under the asker's own control, and the binary itself never gets accepted."
+critical-questions:
+  - "Does this response work against any rigged binary, or does it specifically require that the outcome genuinely does depend on the asker's own subsequent action, as it does with the bird's fate in the man's closed hand?"
+  - "What happens when the asker denies having any such control, forcing the exchange back into the original binary — does naming the trap end it, or only expose it without necessarily resolving anything?"
+status: active

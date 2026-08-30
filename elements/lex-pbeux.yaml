@@ -1,0 +1,18 @@
+id: lex-pbeux
+name: a-rescued-partys-knowledge-sold-for-a-public-bounty
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A rescuer who saves a stranger from genuine danger, expecting nothing in return, can have that exact rescue exploited afterward: the rescued party converts private knowledge gained only through being helped into cash by selling it the moment an authority publicly prices it, with the bounty proclamation supplying the incentive the original rescue never carried. In the Jataka''s tale of the elephant who supported his mother, the man he saved from being lost in the forest memorizes the route back specifically to sell it: "This wicked man determined to go into the city, and tell the king. So he marked the trees, and marked the hills, and then made his way to Benares." The betrayal only becomes profitable once the king proclaims a reward: "The king caused it to be proclaimed by beat of drum, ''If any man has in any place seen an elephant fit and proper for the king''s riding, let him declare it!''"'
+related: []
+evokes: [jataka, ekadasanipata, mati-posaka-jataka, ingratitude, bounty-incentivized-betrayal]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mati-posaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 455, Mati-posaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "This wicked man determined to go into the city, and tell the king. So he marked the trees, and marked the hills, and then made his way to Benares."
+canonical-instances:
+  - "A hiker who gets lost and is guided out by a local trapper later sells the trapper's remote cabin location to a developer's scouting team once he learns there's a standing bounty for undeveloped land tips."
+critical-questions:
+  - "Does the bounty create the betrayal, or only supply the occasion for a self-interest that was already latent — would this man have kept the secret if no reward had ever been announced?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-pxvff
+name: an-anatomical-constraint-noticed-once-becomes-a-repeatable-escape
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Once a predator's fixed physical limitation is noticed, it can be exploited reliably every time the same threat recurs, unlike a behavioral bluff that only works until the target catches on. In the Jataka's tale of the monkey and the water-ogre, the monkey first detects the ogre by noticing a rock sits higher above the water than the constant water-level should allow, and confirms it by hailing the rock — the ogre, unaware the rock normally 'answers,' gives itself away by replying. Later, ordered to jump into the ogre's open mouth, the monkey escapes because it knows crocodiles' eyes shut whenever their jaws open; it leaps onto the ogre's head at the exact moment the ogre can't see it coming. The eyes-shut-when-jaws-open fact isn't something the ogre can unlearn or correct for — it's a fixed constraint of its own body."
+related: []
+evokes: [jataka, ekanipata, vanarinda-jataka, anatomical-constraint-as-a-repeatable-exploit, anomaly-detection-plus-probing-confirms-a-hidden-threat]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-vanarinda-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 57, Vanarinda-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Oh!\" thought the crocodile; \"so the rock's in the habit of answering the monkey. I must answer for the rock to-day.\""
+canonical-instances:
+  - "A pen-tester notices that a particular firewall drops connections a fraction of a second slower whenever it's actively logging traffic. The vendor can't patch that timing tell away without rewriting how logging works at the hardware level, so it keeps working on every later engagement against the same product."
+critical-questions:
+  - "How does the monkey know, before testing it, that the rock's silence would be the tell rather than assuming any strange rock is worth investigating — is the initial detection itself replicable, or was it a one-off insight this specific monkey happened to have?"
+  - "What happens once the predator learns its own anatomical tell has been discovered — is a fixed physical constraint like the eyes-shut reflex ever something the threat can compensate for indirectly, even if it can't change the constraint itself?"
+status: active

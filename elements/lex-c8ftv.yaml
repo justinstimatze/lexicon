@@ -1,0 +1,21 @@
+id: lex-c8ftv
+name: a-private-gesture-code-asks-a-sensitive-question-in-public
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When you need to ask something socially loaded in a setting where a spoken question would be overheard or embarrassing, use a private, deniable, non-verbal signal instead — and treat a correct reply in kind as proof the other person is sharp enough to be worth pursuing further. In the Maha-Ummagga-Jataka, Mahosadha wants to know whether a woman he has just met is married, without asking aloud in the open road: "he clenched his fist. She understood that he was asking whether she had a husband, and spread out her hand." No word was spoken; the gesture carried the question, and her matching gesture carried a clear, deniable, publicly illegible answer.'
+related: []
+evokes: [jataka, mahanipata, maha-ummagga-jataka, gesture-code, deniable-signal, private-question-in-public]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-maha-ummagga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 546, Maha-Ummagga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: 'he clenched his fist. She understood that he was asking whether she had a husband, and spread out her hand.'
+canonical-instances:
+  - "A recruiter at a conference wants to know if a promising candidate is job-hunting without tipping off the candidate's own boss standing nearby; she taps her badge twice, a signal the two agreed on by text earlier, and the candidate's single nod answers without a word passing between them."
+  - "Two coworkers in an open-plan office develop a private signal — touching an earlobe — for 'can we talk privately later,' so either can ask without the whole room hearing the request and speculating about why."
+  - "The same tale's own risk realized: later, the ascetic Bheri asks Mahosadha by hand-gesture whether the king treats him well, and he answers in kind — but hostile onlookers who saw only the gestures, not the private meaning, report to the king that the exchange was a coded plot to seize his throne, exploiting the fact that a deniable signal is equally illegible to a malicious interpreter as to an innocent one."
+critical-questions:
+  - "This only works if both parties already share, or can improvise, the same code — what happens when the signal is ambiguous and the other person guesses wrong, especially on a question this sensitive?"
+  - "A private gesture code is also a tool for coercion or manipulation when the power imbalance runs the other way — does the ethical weight of this move depend entirely on whether both parties are equally free to decline to answer?"
+status: active

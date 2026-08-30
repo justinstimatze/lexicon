@@ -1,0 +1,21 @@
+id: lex-unbqm
+name: staying-out-of-a-fight-lets-both-sides-exhaust-themselves-for-you
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a conflict is breaking out between two other parties and you have no stake in either winning, check whether the strongest move is to refuse to join or shorten it, and instead wait for both sides to exhaust each other before entering at full strength. The 36 Stratagems' 'Watch the fires burning across the river' names the position directly: 'Delay entering the field of battle until all the other players have become exhausted fighting among themselves and at that point go in at full strength and pick up the pieces.' The mechanism is specifically about refusing to be a party to the conflict at all — you neither cause it, join a side, nor mediate it; you simply decline to shorten it, and the value you gain (relative strength) comes entirely from the other two parties' mutual spending, which costs you nothing. This is different from divide-and-conquer (where you actively engineer the split between two parties) and from opportunistically attacking the weaker of two combatants (where you still enter the fight) — here you do not touch the conflict at all until it has already spent itself."
+related: []
+evokes: [36-stratagems, watch-the-fires-burning-across-the-river, tertius-gaudens, bystander-profit, mutual-exhaustion, free-riding-on-others-conflict]
+lineage:
+  - source: primary
+    text: taylor-2013-36-stratagems-9-watch-the-fires
+    citation: "Peter Taylor, The Thirty-Six Stratagems: A Modern-Day Interpretation of a Strategy Classic (Infinite Ideas, 2013), Stratagem 9, 'Watch the fires burning across the river.' Verified verbatim against a direct pdftotext extraction of the held copy."
+    quote: "Delay entering the field of battle until all the other players have become exhausted fighting among themselves and at that point go in at full strength and pick up the pieces."
+canonical-instances:
+  - "Nortel Networks' 2009 bankruptcy: rather than any single rival mounting a costly acquisition fight against a functioning competitor, Nortel's own patent portfolio (~6,000 patents) was left to be split up in 2011 for $4.5 billion by a consortium (Apple, EMC, Ericsson, Microsoft, RIM, Sony) that paid a fraction of what a contested takeover of a going concern would have cost, because Nortel had already exhausted itself independently."
+  - "operationally distinct from divide-and-conquer: divide-and-conquer requires actively engineering or widening a split between two parties who would otherwise be unified; this mechanism requires no engineering at all — the conflict must already be occurring independently of the beneficiary, whose only action is the discipline to not intervene."
+critical-questions:
+  - "How does a bystander distinguish a conflict genuinely worth waiting out from one where delay just lets a single dominant party consolidate control of both former combatants' resources before the bystander can act?"
+  - "Is there a real cost to appearing conspicuously passive while others fight — reputational, relational, or in missed opportunities to shape the outcome — that this atom's framing (waiting is free) understates?"
+  - "At what point does 'waiting for exhaustion' become indistinguishable from simple neglect or cowardice in the eyes of the parties fighting, and does that perception carry a cost once the bystander does move in?"
+status: active

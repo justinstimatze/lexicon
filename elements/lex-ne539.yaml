@@ -1,0 +1,19 @@
+id: lex-ne539
+name: deflect-a-personal-claim-by-generalizing-it-into-the-nature-of-things
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than contest a factual claim about himself, a person can grant that the particular case is even fabricated and convert it into an argument about the inevitability of the underlying condition in general, making the specific accusation irrelevant to the larger point he wants to make. In the Jataka''s tale of Susima, the king does exactly this in response to the queen''s fabricated grey hair: "Lady, you tell of what must come: as age ripens, these dark hairs must turn and become pale like betel: I see the change and breaking up of body that comes in years, in the ripening of age, to royal maids and all the rest ... such, lady, is the dreary end of living beings."'
+related: []
+evokes: [jataka, sattanipata, susima-jataka, deflect-by-generalizing-to-the-nature-of-things, this-isnt-about-me-its-about-everything]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-susima-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 411, Susima-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Lady, you tell of wnat must come: as age ripens, these dark hairs must turn and become pale like betel: Isee the change and breaking up of body that comes in years, in the ripening of age, to royal maids and all the rest, though they are tender as a wreath of blue lotus-flowers, fair as gold, and drunken with the pride of their glorious youth: such, lady, is the dreary end of living beings,"
+canonical-instances:
+  - "Confronted with evidence that a specific decision she made was wrong, an executive doesn't dispute the specific case — she pivots to a meditation on how every leader eventually makes calls that don't pan out, converting a pointed criticism into an observation about leadership in general."
+critical-questions:
+  - "Does generalizing the specific claim actually refute it, or does it just relocate the conversation somewhere the original evidence no longer applies?"
+  - "Is there a point where the generalization is genuinely more true and more useful than litigating the specific instance, rather than just a convenient escape from it?"
+status: active

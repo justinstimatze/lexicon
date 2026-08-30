@@ -1,0 +1,19 @@
+id: lex-2utra
+name: a-rival-strikes-the-benefactor-at-the-exact-moment-of-self-sacrifice
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A leader deliberately incapacitated in the act of saving a group is exposed at that exact moment, and a rival among the rescued can strike then, pressing an old enmity even at the cost of a debt owed for the shared rescue. In the Jataka''s tale of Mahakapi, Devadatta does exactly this to the monkey-king mid-rescue: "Devadatta was then a Monkey and among that herd: he said, ''This is a chance for me to see the last of my enemy,'' so climbing up a branch he made a spring and fell on the Bodhisatta''s back. The Bodhisatta''s heart broke and great pain came on him."'
+related: []
+evokes: [jataka, sattanipata, mahakapi-jataka, betrayal-at-the-moment-of-sacrifice, devadatta, personal-enmity-overrides-a-rescue-debt]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahakapi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 407, Mahakapi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Devadatta was then a Monkey and among that herd: he said, \"This is a chance for me to see the last of my enemy,\" so climbing up a branch he made a spring and fell on the Bodhisatta's back. The Bocdhisatta's heart broke and great pain came on him."
+canonical-instances:
+  - "While a founder is stretched thin covering for a departed co-founder to keep the company from collapsing, a board member who has resented her for years uses that exact window of vulnerability to push through her removal, rather than waiting until the crisis has passed."
+critical-questions:
+  - "Does striking at someone's most vulnerable, self-sacrificing moment reveal that the enmity was never really about the stated grievance, since a genuine grievance could wait for a less costly opening?"
+  - "What does it cost a group when its own members know a rescue can be exploited this way — does it change who's willing to make the sacrifice next time?"
+status: active

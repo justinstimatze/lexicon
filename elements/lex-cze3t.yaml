@@ -1,0 +1,30 @@
+id: lex-cze3t
+name: universal-disgust-signature-extends-via-contagion-reasoning-to-moral-domain
+type-in: state
+type-out: process
+_tier: molecule
+agent-instruction: "When you observe moral condemnation expressed with the exact facial signature of physical disgust (the same nose-wrinkle, the same 'that's revolting' register), don't treat it as loose metaphor — check whether contagion/similarity reasoning (sympathetic magic) has extended physical-contamination logic to the moral case, treating the morally-tainted person or act as something that spreads by contact or resemblance."
+related: [lex-3yvwm, lex-xxmeh]
+scaffolds-from: [lex-xxmeh, lex-3yvwm]
+evokes: [moral-disgust-is-food-disgust, contagion-reasoning-moralized, sympathetic-magic-extends-domains, cross-cultural-disgust-face]
+decomposes-into:
+  - lex-xxmeh
+  - lex-3yvwm
+assembly: "sequential(lex-xxmeh, lex-3yvwm)"
+premises:
+  - "emotional expression carries a cross-culturally evolved signature — the disgust face specifically is the same recognizable expression regardless of culture (lex-xxmeh)"
+  - "that same facial signature, empirically, is produced not only by physical contamination (spoiled food, bodily waste) but by moral transgression — the moral-disgust face IS the food-disgust face"
+  - "sympathetic magic's contagion and similarity principles (lex-3yvwm) — that touching/resembling a tainted thing transfers its taint — are not confined to physical contamination reasoning; the same reasoning pattern operates when the tainted thing is a moral violation"
+  - "the result is that people reason about moral transgressors the way they reason about physically contaminated objects: avoid contact, avoid resemblance, treat proximity as risk of taint-transfer"
+critical-questions:
+  - "is the moral-disgust expression actually the SAME signature as physical disgust, or a related-but-distinct expression that observers are pattern-matching too loosely? The claim depends on the facial-action-unit evidence being genuinely identical, not just similar-looking."
+  - "does contagion reasoning in the moral domain track the same violation-type/severity gradient it does in the physical domain, or does it over-generalize (treating mere association with a wrongdoer as equivalent taint to committing the wrong)? Guilt-by-association is the failure mode this composition predicts and should be checked against."
+  - "is this an evolved extension (the same neural/cognitive machinery genuinely repurposed) or a purely cultural/rhetorical borrowing of disgust vocabulary for moral speech, with no shared underlying mechanism? The cross-cultural evidence bears on this but doesn't fully settle it."
+lineage:
+  - source: practitioner
+    text: assembled-from-lex-xxmeh-lex-3yvwm
+    citation: "Molecule assembled from lex-xxmeh (emotional-expression-as-cross-cultural-evolved-signature) and lex-3yvwm (sympathetic-magic-similarity-and-contagion). lex-xxmeh's own canonical-instances state the link directly: '[Ekman] demonstrated the expression extends from physical-contamination to moral-contamination contexts (the moral-disgust face is the food-disgust face). Composes with lex-3yvwm sympathetic-magic (contagion-disgust extends physical-contamination reasoning to moral domain).'"
+canonical-instances:
+  - "Moral scandal and social distancing: people who report feeling 'sickened' or needing to 'wash their hands' after learning of another's moral transgression (Zhong & Liljenquist 2006 'Washing Away Your Sins,' the Macbeth effect) are exhibiting literal contagion-reasoning applied to a moral violation, not metaphor — the disgust-and-cleansing response is measurably physical."
+  - "Guilt-by-association ostracism: a person who merely associates with (shakes hands with, is photographed near) someone morally disgraced often experiences reputational contamination disproportionate to their actual involvement — the taint transfers by contact/proximity exactly as sympathetic magic's contagion principle predicts, regardless of whether the association carries any real complicity."
+status: under-review

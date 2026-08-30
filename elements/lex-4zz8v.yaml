@@ -1,0 +1,19 @@
+id: lex-4zz8v
+name: genuine-capability-stays-concealed-until-the-moment-it-is-needed
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A truly capable actor withholds visible proof of that capability until the moment it's actually needed — the clever hawk keeps its claws sheathed rather than displaying them. Read this as a default posture of prudence rather than a deceptive bluff aimed at a specific opponent: the goal is avoiding a preemptive response to a strength no one yet needs to react to, no misjudgment by anyone required."
+related: [lex-kgdqu]
+evokes: [galef, kotowaza, japanese-proverbs, strategic-non-disclosure-of-capability, sheathed-claws]
+lineage:
+  - source: primary
+    text: galef-1987-even-monkeys-fall-from-trees
+    citation: "David Galef (compiler and translator), *Even Monkeys Fall From Trees: And Other Japanese Proverbs*, illustrations by Jun Hashimoto, foreword by Edward G. Seidensticker (Tuttle Publishing, copyright 1987; ebook ISBN 978-1-4629-0318-4), Proverb No. 72. Verified verbatim against a direct extraction of the held copy."
+    quote: "Nō aru taka wa tsume o kakusu. A clever hawk hides its claws."
+canonical-instances:
+  - "A negotiator who has already secured a strong alternative offer doesn't mention it until the other side has shown its own hand, not to trick them, but because revealing it early only invites a counter-move against a leverage point that doesn't need defending yet."
+  - "operationally distinct from lex-kgdqu displayed-weakness-can-bluff-a-sophisticated-opponent-into-overthinking-it: that atom is an active deception aimed at making a specific opponent misjudge and overthink a real weakness. This atom describes a default prudential habit of withholding a real strength until it's needed, with no particular opponent's calculation as the target. They can co-occur — the same actor can habitually conceal strength and, in a specific confrontation, actively perform weakness — but the mechanisms are distinct: withholding versus misleading."
+critical-questions:
+  - "Is withholding proof of capability actually cost-free here, or does it also withhold a deterrent effect that displaying the capability earlier would have provided?"
+status: active

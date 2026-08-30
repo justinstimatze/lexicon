@@ -1,0 +1,29 @@
+id: lex-n5jed
+name: temporal-illiteracy-systematically-blinds-to-timescales-beyond-a-human-lifetime
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When evaluating a system, problem, or decision, surface the timescales involved BEFORE jumping to assessment. Bjornerud's 2020 *Timefulness* makes the structural claim that most humans — including those in affluent technically-advanced societies — have effectively zero sense of timescale beyond a generation. Humans grew up cognitively calibrated to seasons, lifetimes, and a few generations of family memory; the systems they now design and inhabit operate on timescales ranging from microseconds (financial trading) to billions of years (climate, evolution, geological cycles). This temporal illiteracy is not a defect to scold individuals about — it is a structural cognitive limit that produces predictable categories of error. Operational diagnostic: when a decision feels confidently scoped, ask 'what's the consequence-window of this decision, and what's the cognitive-window of the deciders?' If consequence >> cognition, expect systematic underestimation of long-tail consequences (climate change denial; infrastructure decay; soil depletion; aquifer drawdown; species extinction; pension-fund mismatches; technical-debt accumulation). If cognition >> consequence (a person obsessing over a 10-second event they can't undo), expect systematic over-investment in unrecoverable detail. Inverse mode: 'timefulness' is the active practice of populating the time-window of an analysis with explicit timescale markers — half-lives, generations, geological epochs, capital-cycle lengths — so that the analysis can SEE what its naive intuition would not. Adjacent failure modes connect to lex-wx2ma (Amara: short-run overestimate / long-run underestimate is one specific signature of temporal illiteracy). Transferable to: climate policy, infrastructure planning, software-technical-debt, soil-erosion-rates, urban planning vs urban evolution, family wealth transfer, organizational memory loss when generations turn over, evolutionary medicine, palliative care."
+related: [lex-spm8x, lex-th6tr, lex-2unt7, lex-uz24q, lex-vacza, lex-z7dbd, lex-3fzvf, lex-wx2ma, lex-f5pns, lex-55dm8, lex-5y7zb, lex-g9b38, lex-9an5g, lex-jxaht, lex-ybjru]
+evokes: [timefulness, bjornerud-2020-timefulness, chronophobia, temporal-illiteracy, deep-time, geological-time, half-life-thinking, generational-window, time-denial, consequence-window-vs-cognition-window, americans-believe-death-is-optional]
+lineage:
+  - source: primary
+    tradition: bjornerud-timefulness
+    text: bjornerud-2020-timefulness
+    citation: "Marcia Bjornerud, Timefulness: How Thinking Like a Geologist Can Help Save the World (Princeton University Press, 2018), Chapter 1 (A Call for Timefulness)."
+    quote: "Antipathy toward time clouds personal and collective thinking. […] This type of time denial, rooted in a very human combination of vanity and existential dread, is perhaps the most common and forgivable form of what might be called chronophobia. But there are other, more toxic varieties that work together with the mostly benign kind to create a pervasive, stubborn, and dangerous temporal illiteracy in our society. We in the twenty-first century would be shocked if an educated adult were unable to identify the continents on a world map, yet we are quite comfortable with widespread obliviousness about anything but the most superficial highlights from the planet's long history."
+  - source: primary
+    tradition: bjornerud-timefulness
+    text: bjornerud-2020-timefulness
+    citation: "Marcia Bjornerud, Timefulness: How Thinking Like a Geologist Can Help Save the World (Princeton University Press, 2018), Prologue."
+    quote: "This impression is a glimpse not of timelessness but timefulness, an acute consciousness of how the world is made by — indeed, made of — time."
+canonical-instances:
+  - Climate change denial — the consequence-window is decades-to-millennia (sea-level rise, ocean acidification, ice-sheet melt over 100-10000 years) while the cognition-window is years-to-electoral-cycles; the structural mismatch produces consistent underweighting.
+  - Pension funds and Social-Security solvency arguments — the consequence-window is 30-80 years (demographic transitions, compounding); the cognition-window for most participants is the next 1-5 years.
+  - Soil depletion and aquifer drawdown — the consequence-window is centuries; current farming-cycle cognition is 1-3 years; the result is structurally invisible degradation.
+  - Software technical debt — the consequence-window is product-lifetime-plus, the cognition-window is sprint-by-sprint; the mismatch is the engineering version of Bjornerud's claim.
+  - Nuclear waste storage planning — explicit attempts (Onkalo, Yucca) to design for 100000-year horizons reveal how strange and counterintuitive that timescale is even to specialists trained to think about it.
+  - Family wealth across three generations — the 'shirtsleeves to shirtsleeves in three generations' pattern reflects temporal-illiteracy on the inheritance-management side; the second generation has not internalized the consequence-window the first generation built around.
+  - Organizational memory loss across staff turnover — institutions that operate on decade-or-longer timescales (universities, religious orders, infrastructure operators) routinely lose indispensable knowledge because the cognition-window of departing-staff was not transferred to incoming-staff who never knew it existed.
+severity-tier: warning
+status: active

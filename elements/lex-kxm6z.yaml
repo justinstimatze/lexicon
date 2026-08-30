@@ -1,0 +1,19 @@
+id: lex-kxm6z
+name: divesting-a-tainted-function-relocates-harm-not-resolves-it
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When a company divests from a legal but tainted business function — one that's necessary somewhere in the economy but reputationally costly to be associated with — the decision genuinely admits two incompatible readings that internal observers themselves argue about: is the divestment real social responsibility, refusing to profit from harm? Or is it maintaining a private and public sense of moral purity while offloading the actual tainted work onto whoever is willing to keep doing it, changing nothing about whether the harm gets done, only who's associated with it? The company's own managers can be privately split on which reading is true, and the divesting company's public relations exposure, not the harm itself, is frequently the real driver — divestment can relocate reputational risk while leaving total harm unchanged or even concentrated in less scrutinized hands."
+related: []
+evokes: [jackall-moral-mazes, "the willingness to get one's hands dirty", divestment-relocates-harm-rather-than-resolving-it]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch8-divestment-relocates-harm
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 8, Invitations to Jeopardy, Section II."
+    quote: "Alchemy managers, by contrast, argued privately that the CEO's real motivation was simply the avoidance of any further public relations hassles [...] Is corporate social responsibility, they asked, maintaining a private sense and public image of moral purity while someone else does necessary but tainted work? Or is real social responsibility the willingness to get one's hands dirty, to make whatever compromises have to be made to produce a product with some utility [...]?"
+canonical-instances:
+  - "A tech company sells off a controversial data-collection division to a private buyer with less public visibility and fewer regulatory obligations, framed publicly as an ethical exit from the business, while the actual data collection practices continue unchanged under the new, less scrutinized owner."
+critical-questions:
+  - "Is there a way to distinguish a divestment that genuinely reduces total harm from one that only relocates it, before the outcome is visible — or does the answer depend entirely on who the tainted function is sold to and how it operates afterward, which the divesting company may have no control over?"
+status: active

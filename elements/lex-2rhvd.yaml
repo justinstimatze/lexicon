@@ -1,0 +1,19 @@
+id: lex-2rhvd
+name: reframe-a-peer-pressured-accident-as-the-intended-plan-to-save-face
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When peer pressure causes you to lose control in front of the group that pushed you into it, check whether publicly reframing the accident as your intended plan all along can preserve status before that same audience. Aesop's 'The Foxes and the River' has a fox, pressured by others into a risky river crossing, get swept helplessly downstream, then answer their taunts with a claim of full control: 'I want to go to the seaside, and this current will take me there nicely. When I come back I'll show you with pleasure.' This is distinct from privately devaluing an unreached goal — the reframe is public, retroactive, and specifically aimed at the exact peer group whose pressure caused the loss of control, converting an embarrassing accident into an apparent choice."
+related: []
+evokes: [aesop, the-foxes-and-the-river, retroactive-agency-claiming, face-saving-under-peer-audience]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-foxes-and-the-river
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Foxes and the River.' Verified verbatim against a direct extraction of the held copy."
+    quote: "I'm afraid I can't yet: I want to go to the seaside, and this current will take me there nicely. When I come back I'll show you with pleasure."
+canonical-instances:
+  - "in a group dare or risky shared commitment, whoever leapt first and lost control publicly claims the bad outcome was the intended plan rather than admitting the peer pressure worked, specifically to the same audience that pressured them."
+critical-questions:
+  - "Does this reframe actually restore status with the peer group, or does the audience see through it immediately, making the claim itself a further source of embarrassment rather than a genuine save?"
+  - "Is there a meaningful difference between this public face-saving move and simple denial, given that both involve refusing to acknowledge what actually happened in front of others?"
+status: active

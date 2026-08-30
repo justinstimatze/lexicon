@@ -1,0 +1,19 @@
+id: lex-69hmr
+name: a-targets-own-transportation-is-used-to-breach-its-defenses
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "To reach a location sealed against outsiders, rather than fighting or tricking a way past its guardian's defenses, you can hide within the guardian's own habitual, unguarded movement — using the very transport that keeps the location secure as the vehicle that breaches it. In the Jataka's tale of the abducted queen, to reach her in the hidden Garuda realm, the minstrel doesn't confront the Garuda king directly — he simply hides in the bird's own plumage during one of its routine flights home: 'he seated himself in the midst of the royal bird's plumage ... and was in this way conveyed to the dwelling place of the Garudas.'"
+related: []
+evokes: [jataka, catukkanipata, kakati-jataka, hiding-inside-the-guardians-own-routine-movement, a-sealed-locations-access-route-is-its-own-guardians-transport]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kakati-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 327, Kakati-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "he seated himself in the midst of the royal bird's plumage ... and was in this way conveyed to the dwelling place of the Garudas."
+canonical-instances:
+  - "Unable to get past a facility's badge-controlled entrance, an auditor testing physical security simply rides in the delivery van that the facility's own staff wave through every morning without inspection, reaching the interior without ever needing to defeat the badge system directly."
+critical-questions:
+  - "Does this only work because the guardian's own movement is genuinely routine and unguarded — would the same tactic fail against a guardian who varies their route or checks their own cargo?"
+  - "Once discovered, does this breach method get patched by changing the guardian's behavior, or does the guardian, like the Garuda, simply accept the breach and choose not to retaliate?"
+status: active

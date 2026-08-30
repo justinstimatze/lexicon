@@ -1,0 +1,19 @@
+id: lex-wa7s4
+name: comply-with-the-letter-of-a-rule-to-defeat-its-intent
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When an adversary''s power is bound by a literal spatial or procedural rule, a target can comply with the rule''s letter while defeating its intent entirely — standing just outside the technical boundary the rule names, rather than breaking the rule or begging exemption from it. In the Jataka''s tale of Sutano, the hero escapes this way: "O king, that yakkha gets to eat all people standing on the ground at the foot of the tree: I will stand on slippers, not on his ground."'
+related: [lex-5f8ku, lex-dpeqe]
+evokes: [jataka, sattanipata, sutano-jataka, literal-compliance-defeats-intent, jurisdictional-technicality-loophole]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sutano-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 398, Sutano-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "O king, that yakkha gets to eat all people standing on the ground at the foot of the tree: I will stand on slippers, not on his ground."
+canonical-instances:
+  - "A contract bars an employee from 'working for a competitor' within a named list of companies. The employee takes a role at a newly-formed subsidiary that never made the list, technically clean, doing the exact work the clause was written to stop."
+critical-questions:
+  - "Is defeating a rule's intent while honoring its letter a legitimate use of precision, or does it depend entirely on whether the rule-maker had the power to close the loophole and simply failed to?"
+  - "Once a rule-maker sees the letter being exploited this way, does the rule usually get rewritten to close the gap, or does the exploit tend to persist?"
+status: active

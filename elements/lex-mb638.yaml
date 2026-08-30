@@ -1,0 +1,19 @@
+id: lex-mb638
+name: a-judges-severe-threat-functions-as-leverage-rather-than-an-executed-penalty
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "A judge or authority can announce a punishment severe enough that the threatened party pays whatever is demanded to avoid it entirely, and the threat can do its full work without ever being carried out. The severity is chosen for its effect on the target's willingness to settle, not for its likelihood of execution. In the Jataka's tale of the false witness, a man who lied about returning borrowed oxen faces the king's sentence: 'Therefore you with your own hands shall pluck his eyes out ... as the price of the oxen.' He immediately begs to overpay instead: 'O master Canda, keep those twenty-four pieces, and take these too!' Nobody's eyes are ever touched. The threat alone extracts more than the original dispute was worth."
+related: []
+evokes: [jataka, tikanipata, gamani-canda-jataka, a-threatened-penalty-extracts-settlement-without-being-carried-out, severity-of-a-threat-is-calibrated-to-leverage-not-to-execution]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-gamani-canda-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 257, Gamani-canda-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Therefore you with your own hands shall pluck his eyes out, and you shall yourself pay him twenty-four pieces of money as the price of the oxen.\" ... \"O master Canda, keep those twenty-four pieces, and take these too!\""
+canonical-instances:
+  - "A regulator announces that a company found falsifying safety records will have its operating license revoked entirely rather than fined, and the company settles for a sum far exceeding the original violation's cost specifically to avoid a penalty that was never actually going to be imposed on a first offense."
+critical-questions:
+  - "Does relying on a threat this disproportionate to actually extract settlement work only because the accused doesn't know the penalty is unlikely to be carried out — does the mechanism collapse the moment threatened parties learn to call the bluff?"
+  - "Is there a meaningful difference between this and simple extortion, or does the formal authority behind the threat (a king, a court, a regulator) change what the tactic actually is?"
+status: active

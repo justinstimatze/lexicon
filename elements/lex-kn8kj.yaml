@@ -1,0 +1,19 @@
+id: lex-kn8kj
+name: appeal-to-a-higher-standing-intermediary-when-the-wrongdoer-wont-listen
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A powerless petitioner who cannot obtain a hearing or redress from the party actually responsible can instead appeal to a third party with moral or social standing the petitioner lacks, so the intermediary carries the case forward on their behalf. In the Jataka''s tale of Dalhadhamma, the discarded elephant appeals to the Bodhisatta this way: "except thee I have no refuge: thou knowest my services to the king; restore me now the honour I have lost."'
+related: []
+evokes: [jataka, sattanipata, dalhadhamma-jataka, appeal-to-a-standing-intermediary, advocacy-by-a-third-party]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dalhadhamma-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 409, Dalhadhamma-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "except thee I have no refuge: thou knowest my services to the king; restore me now the honour I have lost"
+canonical-instances:
+  - "A junior employee who can't get HR to take a manager's retaliation seriously instead brings the pattern to a respected senior director who witnessed some of it firsthand, asking her to raise it since the employee's own word alone carries no weight."
+critical-questions:
+  - "Does routing the appeal through a more credible intermediary actually fix the underlying imbalance, or does it just prove that only certain voices are heard regardless of the merits of the case?"
+  - "What happens to petitioners who have no access to any intermediary with the standing this mechanism requires?"
+status: active

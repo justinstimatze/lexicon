@@ -1,0 +1,19 @@
+id: lex-ym2yv
+name: an-emotion-that-changes-neither-past-nor-future-is-dismissed-as-useless
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Grief can be dismissed not on moral grounds but on a pure two-pronged consequentialist test: does the reaction change the past, and does it improve the future? If it fails both, it's rejected as functionally useless regardless of how appropriate it might otherwise feel. The test generalizes well past grief, to any complaint or regret that changes nothing either way. In the Jataka's tale of Ghata, the captive answers his own potential sorrow with exactly this test: 'To change the past all sorrow is but vain, it has no blessing for a future state: why should I, Vanka, of my woes complain? Grief is no helpmeet fit with us to mate.'"
+related: []
+evokes: [jataka, pancanipata, ghata-jataka, two-pronged-consequentialist-test-for-an-emotion, grief-that-changes-nothing-is-rejected]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-ghata-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 355, Ghata-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "To change the past all sorrow is but vain, It has no blessing for a future state: Why should I, Vanka, of my woes complain? Grief is no helpmeet fit with us to mate."
+canonical-instances:
+  - "A project lead catches herself dwelling on a bad hiring decision from a year ago and applies the same test out loud in a retro: nothing about complaining now reaches back to undo the hire or forward to improve next quarter's process, so the team redirects toward what would actually change the next decision."
+critical-questions:
+  - "Is the test too narrow — does dismissing every emotion that fails a strict change-the-past-or-future filter miss the social and psychological value grief has even when it accomplishes nothing practical, like signaling loss to a community or processing an event internally?"
+  - "Does applying this test in the moment actually work, or does naming the test out loud become just another form of suppression that delays the emotion rather than genuinely resolving it?"
+status: active

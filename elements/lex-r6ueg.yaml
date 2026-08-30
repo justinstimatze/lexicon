@@ -1,0 +1,20 @@
+id: lex-r6ueg
+name: an-incumbent-neutralizes-an-unintentional-rival-at-its-known-weakness
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When someone else's growth threatens your position purely as a side effect of their own unrelated development — they never set out to challenge you at all — a direct confrontation risks looking like naked self-preservation and may not even work against a strength you can't match head-on. The quieter move is identifying the specific weakness that strength doesn't cover, and neutralizing the threat there instead. In the Jataka's tale of Alambusa, the ascetic Isisinga's mystic power grows so great through his own solitary devotion that it literally shakes Sakka's heavenly throne, though the young ascetic has no idea Sakka exists, let alone any design against him. Sakka doesn't confront him — a direct contest of that same spiritual power is exactly what Isisinga is strongest at. Instead he identifies the one vulnerability his father had explicitly warned him about and never trained him to withstand: \"This fellow will bring me down from my position as Sakka, I will send a heavenly nymph to make a breach in his virtue.\" Out of twenty-five million heavenly nymphs, he selects specifically the one equal to that exact task."
+related: []
+evokes: [jataka, cattalisanipata, alambusa-jataka, unintentional-threat-triggers-preemptive-response, neutralize-at-the-uncovered-weakness-not-the-strength]
+lineage:
+  - source: primary
+    text: jataka-francis1905-alambusa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XVII (Cattalisanipata), No. 523, Alambusa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "So by the power of his virtue the abode of Sakka was shaken. Sakka, on reflection, discovered the cause and thinking, \"This fellow will bring me down from my position as Sakka, I will send a heavenly nymph to make a breach in his virtue,\" and after examining the whole angel world, amongst twenty-five millions of handmaids, save and except the nymph Alambusa, he found no other that was equal to the task."
+canonical-instances:
+  - "A market leader notices a startup's technically superior product quietly eating into a specific customer segment, purely because the startup built it for its own reasons and never targeted the incumbent at all. The incumbent skips a head-on contest on technical merit and instead buys up the one distribution channel the startup depends on, a dependency it never thought to protect."
+  - "A tenured researcher whose whole career rests on a now-questioned framework notices a junior colleague's unrelated, more rigorous work is quietly making that framework look dated to the field, with no intent to attack it at all. Rather than engage the methodology directly, the senior researcher works to delay the junior colleague's funding renewal, aiming at institutional dependency rather than the actual argument."
+critical-questions:
+  - "Sakka never considers direct confrontation as an option at all in the tale — is that because indirect neutralization at a known weakness is genuinely more effective against a real strength, or because it's the only move available to someone who can't win a head-on contest, and the story just doesn't dwell on the latter reading?"
+  - "The tale treats Sakka's threatened position as automatically worth defending by any means available — what changes about the ethics of this move when the incumbent's position isn't obviously legitimate to begin with, and the 'unintentional rival' actually has the better claim to the contested ground?"
+status: active

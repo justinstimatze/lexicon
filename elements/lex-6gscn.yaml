@@ -1,0 +1,22 @@
+id: lex-6gscn
+name: visible-devotion-substitutes-for-checking-actual-results
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A process performed with visible sacrifice, intensity, and emotional devotion can get credited as high-quality on the strength of that devotion alone, independent of whether its actual measured results are good. The felt intensity of the people performing it stands in for the harder work of checking the process against its own stated purpose. It shields the process from ever being evaluated the way any other purpose-driven process would be. Gilman insists on the correction directly: 'Motherhood, like every other natural process, is to be measured by its results. It is good or evil as it serves its purpose... That humanity does slowly improve is not here denied; but, granting our gradual improvement, is it all that we could make? And is the gain due to a commensurate improvement in motherhood? To both we must say no.'"
+related: []
+evokes: [women-and-economics, chapter-ix, to-be-measured-by-its-results, to-both-we-must-say-no, devotion-stands-in-for-an-outcome-check]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-ix
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter IX. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "Motherhood, like every other natural process, is to be measured by its results. It is good or evil as it serves its purpose. Human motherhood must be judged as it serves its purpose to the human race. [...] That humanity does slowly improve is not here denied; but, granting our gradual improvement, is it all that we could make? And is the gain due to a commensurate improvement in motherhood? To both we must say no."
+canonical-instances:
+  - "A customer support team that stays on the phone for hours with distressed customers, visibly exhausted by how much they care, gets treated as delivering excellent service, even though resolution rates and repeat-complaint numbers show the underlying problems are rarely actually fixed."
+  - "A volunteer tutoring program run by people who show up every single week with obvious personal sacrifice gets assumed to be effective. Nobody has actually compared the tutored students' later grades against a similar group of students who got no tutoring at all."
+  - "A manager who works nights and weekends and talks constantly about how much the team means to them gets credited with strong leadership, even as team turnover and missed deadlines quietly climb every quarter."
+critical-questions:
+  - "Is devotion truly uninformative about outcomes, or does it correlate positively with quality often enough that using it as a fast, imperfect proxy is still better than no signal at all in situations where a real outcome measurement isn't available?"
+  - "Who has the standing and the information to actually check a process against its results, and could visible devotion be substituting for outcome-checking specifically because that harder measurement is difficult, expensive, or politically risky to attempt, rather than because anyone is being fooled?"
+  - "If a process's true outcomes are hard to measure or take a long time to become visible, is trusting the devotion of the people performing it in the interim a defensible stopgap, or does treating devotion as a placeholder for measurement quietly become permanent because no one ever circles back to check?"
+status: active

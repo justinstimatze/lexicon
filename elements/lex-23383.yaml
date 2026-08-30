@@ -1,0 +1,22 @@
+id: lex-23383
+name: proverb-corpus-grammar-measures-who-gets-individualized
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "Examining how a large sample of a culture's own sayings talks about two different groups can reveal, through grammar alone, whether the culture recognizes one group's individuality and generalizes the other -- sayings that qualify, specify, and individualize members of one group against sayings that speak of the other group only ever as an undifferentiated whole measure a real difference in how personhood is actually extended, independent of anyone's stated beliefs. Gilman runs exactly this test on a large proverb collection: 'the proverbs concerning women almost invariably apply to them in general,—to the sex. Those concerning men qualify, limit, describe, specialize. It is \"a lazy man,\" \"a violent man,\" \"a man in his cups.\" Qualities and actions are predicated of man individually, and not as a sex... But of woman it is always and only \"a woman,\" meaning simply a female, and recognizing no personal distinction.'"
+related: []
+evokes: [women-and-economics, chapter-iii, a-handbook-of-proverbs-of-all-nations, a-lazy-man-a-violent-man-a-man-in-his-cups, individualized-versus-generalized-in-a-sayings-corpus]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-iii
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter III. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "In a 'Handbook of Proverbs of All Nations,' a collection comprising many thousands, these facts are to be observed: first, that the proverbs concerning women are an insignificant minority compared to those concerning men; second, that the proverbs concerning women almost invariably apply to them in general,—to the sex. Those concerning men qualify, limit, describe, specialize. It is 'a lazy man,' 'a violent man,' 'a man in his cups.' Qualities and actions are predicated of man individually, and not as a sex, unless he is flatly contrasted with woman [...] But of woman it is always and only 'a woman,' meaning simply a female, and recognizing no personal distinction."
+canonical-instances:
+  - "A researcher studying a large archive of workplace performance reviews notices that feedback about senior employees consistently names specific behaviors and situations, while feedback about junior or contract employees more often generalizes to the whole role or category, revealing an implicit difference in how individually each group is actually seen."
+  - "A linguist comparing news coverage of two professions finds that one profession is almost always described through specific named individuals and their particular actions, while the other is almost always described in aggregate, as teachers or nurses having done something rather than as individuals -- a measurable asymmetry in how much individuality each profession is granted in public language."
+  - "A historian studying old trade guild records finds that disputes involving senior guild members are recorded with individual names and detailed circumstances, while disputes involving apprentices are recorded only by category, an apprentice having done something regardless of which one -- the record-keeping pattern itself reveals whose specific conduct mattered enough to individuate."
+critical-questions:
+  - "Does the sheer imbalance in raw proverb count, which Gilman notes herself, confound the individualization measure -- a smaller sample of sayings about any group might show less internal variety and specificity simply from having fewer data points, independent of any real difference in how the group is perceived?"
+  - "Proverbs are old, often centuries-old formulations that may reflect historical conditions no longer in force -- does a corpus of inherited sayings measure a culture's current implicit attitudes, or does it mostly measure a linguistic fossil record that current speakers repeat without necessarily endorsing?"
+  - "The method assumes that grammatical specificity tracks genuine individuality-recognition -- could a culture generalize about a group in its proverbs while still recognizing individuality in everyday non-proverbial speech, meaning the proverb corpus captures only one narrow register of language, not the culture's full linguistic treatment of the group?"
+status: active

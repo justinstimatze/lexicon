@@ -1,0 +1,21 @@
+id: lex-68xeh
+name: testing-a-story-with-a-fake-detail-then-quietly-withdrawing
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "When you suspect an account is fabricated but have no way to check it directly, inserting a plausible-sounding fabricated detail of your own and watching whether it gets confirmed as real tells you what you need to know without ever accusing anyone. In Radin's Winnebago Hare Cycle, Hare's grandmother returns from an unexplained absence with an elaborate cover story about losing her way and having a pack rescued by 'one of Hare's friends.' Hare tests the story by naming a friend who doesn't exist: 'Grandmother, was it my friend Gicoknuxgiga?''Yes, yes, grandson, he is the one I mean.' Her confident confirmation of an invented name proves the whole account was invented too, since a true story couldn't have produced agreement with a detail that was never in it. Having gotten his answer, Hare doesn't confront her or demand the truth. He simply withdraws the arrangement the deception had been protecting: 'Grandmother, you must cook for yourself and I will do the same.' ... So they each cooked for themselves and each had plenty of fat to eat. The confirmation was the only accusation that ever needed to happen, and the response was a quiet structural change rather than a scene. Diagnostic move: when you suspect a story is fabricated and confrontation would just produce more story, plant one specific, checkable, invented detail and let their answer tell you what you need to know -- then respond by changing the arrangement the lie was serving, not by announcing what you've learned."
+related: []
+evokes: [radin-winnebago-hare-cycle, hare-and-his-grandmother, gicoknuxgiga, you-must-cook-for-yourself-and-i-will-do-the-same]
+lineage:
+  - source: primary
+    text: radin-hare-tests-his-grandmothers-story-with-an-invented-name
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'The Winnebago Hare Cycle,' episode 9. Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "Then Hare asked, 'Grandmother, was it my friend Gicoknuxgiga?''Yes, yes, grandson, he is the one I mean.' Now there really was no such person. Hare had merely invented the name to see what she would say and to find out what she had been doing all the time. Suddenly Hare said, 'Grandmother, you must cook for yourself and I will do the same.' ... So they each cooked for themselves and each had plenty of fat to eat."
+canonical-instances:
+  - "A manager suspects an employee's account of a missed deadline is fabricated and, rather than interrogating them, casually references a nonexistent 'system outage last Tuesday' in conversation; when the employee agrees it was indeed the outage that caused the delay, the manager quietly stops assigning them time-sensitive work without ever raising the lie directly."
+  - "A parent suspects their teenager's story about where they were last night is invented and mentions a made-up detail, a friend's name who doesn't exist, in an offhand way; when the teenager agrees that friend was there too, the parent says nothing but quietly revokes an upcoming unsupervised privilege."
+critical-questions:
+  - "Does Hare's method actually prove the whole story was fabricated, or only that his grandmother is agreeable and inattentive enough to confirm any name offered to her, regardless of whether the rest of her account was true?"
+  - "Is withdrawing a shared arrangement without explanation a proportionate response to a caught lie, or does it leave the grandmother unable to ever address what actually happened, since she never learns that Hare knows?"
+  - "Would this test have worked if the grandmother had been more attentive or less eager to agree, and does the diagnostic depend on the liar's specific carelessness rather than on any general property of fabricated stories?"
+status: active

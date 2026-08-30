@@ -1,0 +1,19 @@
+id: lex-j64rx
+name: forced-triage-targets-whichever-loss-is-truly-irreplaceable
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When forced to sacrifice one relationship among several to save the others, the rational target is whichever loss can never be regenerated through future action. Sentimental or utilitarian weight is beside the point. In the Jataka's tale of the woman and the three condemned prisoners, a king lets her choose one man to save out of three condemned together: her husband, her son, and her brother. She picks the brother, reasoning that she can always find another husband and bear another son, but with her parents already dead, a brother is the one relationship she can never regenerate. The choice tracks permanence, independent of how much she loves each man."
+related: []
+evokes: [jataka, ekanipata, irreplaceable-loss-sets-triage-priority, regenerable-relationships-versus-permanent-ones]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-ucchanga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 67 (Ucchanga-jataka, inferred from context and pagination; the chunk excerpt begins mid-story past the title). Verified verbatim against a direct extraction of the held copy."
+    quote: "\"The two former I can readily replace,\" answered the woman, \"but a brother never.\""
+canonical-instances:
+  - "A startup forced to cut two of three product lines to survive keeps the one built on a partnership with an irreplaceable outside collaborator, and lets go of two lines it could rebuild from scratch later with enough time and money."
+critical-questions:
+  - "How does the decision-maker know in advance which losses are truly irreplaceable versus merely difficult to replace — does the woman's reasoning depend on unusually clean facts (her parents already dead) that most real triage decisions won't offer?"
+  - "The text's own footnote ties this tale to Herodotus's account of Intaphrenes' wife and to Sophocles's Antigone — does the mechanism hold up the same way across all three, or does each culture's version quietly change what counts as irreplaceable?"
+status: active

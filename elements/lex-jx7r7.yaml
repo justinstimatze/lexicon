@@ -1,0 +1,18 @@
+id: lex-jx7r7
+name: a-virtue-tradition-passes-faithfully-through-generations-until-one-heir-breaks-the-chain
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A practice can be handed down faithfully across several generations, each heir explicitly named as continuing it, establishing a lineage-based model of character transmission — right up until one heir defects, which the model then frames as a deviation from an established norm rather than as the norm itself. In the Jataka''s tale of Bilari-Kosiya, five generations continue an almsgiving tradition unbroken until the sixth breaks it entirely: "But the sixth of the line was without faith, hardhearted, loveless, niggardly; and he demolished the almonry, burnt it, beat the beggars and sent them about their business."'
+related: []
+evokes: [jataka, dasanipata, bilari-kosiya-jataka, generational-virtue-transmission, black-sheep-break]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-bilari-kosiya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 450, Bilari-Kosiya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "But the sixth of the line was without faith, hardhearted, loveless, niggardly; and he demolished the almonry, burnt it, beat the beggars and sent them about their business."
+canonical-instances:
+  - "A family law firm passed from founder to founder for five generations, each partner explicitly continuing the firm's pro bono commitment. When the sixth managing partner quietly ends the program, the rest of the firm reads it as betraying a standing tradition, not as one more ordinary business decision."
+critical-questions:
+  - "Does framing one heir's defection as a break in an unbroken chain place unfair pressure on that individual to continue a practice they never freely chose, purely because of the pattern set by predecessors?"
+status: active

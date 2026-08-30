@@ -1,0 +1,20 @@
+id: lex-47xfx
+name: the-textbook-cause-of-a-stuck-equilibrium-may-not-be-your-cause
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A classic Prisoner's Dilemma gets blamed on a specific structural cause: the prisoners can't communicate and can't form binding agreements, so mutual defection wins even though both would prefer to cooperate. When a real-world situation has the same payoff structure, it's tempting to reach for the same diagnosis and the same fix -- open a communication channel. But check whether the textbook cause actually applies before applying the textbook fix. Freeman's Stakeholder Dilemma has the identical payoff structure to the Prisoner's Dilemma, yet neither structural constraint is present: communication between a firm and an activist group is entirely possible, and agreements between them are fully enforceable. The trap persists anyway, because the actual cause is different -- the organizations' normal operating processes simply never include negotiation as a default activity, so the theoretically-available fix sits unused. Applying the standard remedy (enable communication) does nothing here, because communication was never what was missing."
+related: []
+evokes: [freeman-1984-strategic-management, chapter-3, stakeholder-dilemma-game, prisoners-dilemma, play-hard-ball]
+lineage:
+  - source: primary
+    text: freeman-1984-strategic-management-ch3
+    citation: "R. Edward Freeman, Strategic Management: A Stakeholder Approach (Pitman, 1984), Chapter 3 'Stakeholder Management: Framework and Philosophy,' section on the Stakeholder Dilemma game."
+    quote: "If the prisoners could communicate they would form an agreement not to confess, or agree to get revenge if the other double-crossed. The lack of communication and the ability to form binding agreements dooms the prisoners to a heavy sentence. [...] The striking fact about the Stakeholder Dilemma version of this game is that there are absolutely no such communication constraints upon ABC and AG, and there are no constraints which prevent binding agreements. The managerial processes of both groups simply do not include considering communication and responsiveness as normal managerial activities."
+canonical-instances:
+  - "Two engineering teams keep shipping conflicting changes to a shared service, a classic coordination failure usually blamed on the teams sitting in different offices with no shared channel. These two teams share a Slack channel and a weekly sync meeting -- the coordination failure persists anyway, because neither team's actual workflow includes checking the other's in-flight changes before merging, regardless of how available the channel is."
+  - "Two departments competing for the same budget line keep undercutting each other's proposals, a pattern usually blamed on a lack of a joint planning process. A joint planning committee already exists and meets monthly -- the undercutting continues anyway, because neither department head actually raises budget conflicts in that meeting, treating it as a status-update ritual rather than a forum for real negotiation."
+critical-questions:
+  - "How do you tell, before investing in the standard fix, whether your case actually shares the textbook's structural cause or only shares its payoff structure? Is there a diagnostic short of trying the fix and watching it fail?"
+  - "If institutional habit is the real cause, what actually breaks it, given that the fix has to target default behavior rather than available options -- is simply naming the habit out loud enough on its own?"
+status: active

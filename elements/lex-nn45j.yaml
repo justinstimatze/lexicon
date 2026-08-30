@@ -1,0 +1,19 @@
+id: lex-nn45j
+name: an-unexplained-signal-defaults-to-worst-case-interpretation
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: 'An indistinct, unexplained stimulus can be treated as inherently dangerous by the party experiencing it, prompting an extreme precautionary response before any investigation into what actually caused it. Fear of the unknown defaults to the worst available interpretation rather than to a neutral one. In the Jataka''s tale of Atthasadda, the king reacts this way to eight unidentified midnight sounds: "The king was terrified at hearing these eight sounds, and next day consulted the brahmins. The brahmins said, "Great king, there is danger for you: let us offer sacrifice out of the palace;""'
+related: []
+evokes: [jataka, atthanipata, atthasadda-jataka, catastrophizing, unexplained-signal-as-threat]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-atthasadda-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 418, Atthasadda-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The king was terrified at hearing these eight sounds, and next day consulted the brahmins. The brahmins said, \"Great king, there is danger for you: let us offer sacrifice out of the palace;\""
+canonical-instances:
+  - "A server logs an unfamiliar error code once overnight, and the on-call engineer, unable to explain it immediately, pages the whole team and halts deploys for the day rather than first checking whether the code has an ordinary, benign cause."
+critical-questions:
+  - "What would distinguish a signal that genuinely warrants an extreme precautionary response from one that merely feels alarming because it is unexplained?"
+  - "Who benefits from the fear staying unresolved long enough for the precautionary response to be enacted, and does that party have any reason to prefer explanation over alarm?"
+status: active

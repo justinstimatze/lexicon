@@ -1,0 +1,19 @@
+id: lex-unruq
+name: easily-met-contentment-outperforms-anxious-pursuit-under-threat
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A modest standard that's easy to satisfy under safe conditions can produce a better outcome than an anxious pursuit of richer resources obtained under constant danger, because the psychological cost of the pursuit outweighs the material advantage of the resource. In the Jataka's tale of Vattaka, the lean crow scavenges valuable food amid constant threat and competition, while the fat quail thrives on plain fare simply because his wants are easily met and his mind is untroubled: \"I dwell in midst of many foes, my heart goes pit-a-pat In terror as I seek my food: how can a crow be fat?\" ... \"I have content and easy mind, short distances to go, I live on anything I get, and so I'm fat, good crow.\""
+related: []
+evokes: [jataka, chanipata, vattaka-jataka, contentment-beats-anxious-pursuit, psychological-cost-outweighs-resource-quality]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-vattaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 394, Vattaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "I dwell in midst of many foes, my heart goes pit-a-pat In terror as I seek my food: how can a crow be fat? Crows spend their lives in fear, their wits for mischief ever keen; The bits they pick are not enough; good quail, that's why I'm lean. ... I have content and easy mind, short distances to go, I live on anything I get, and so I'm fat, good crow. Content of mind, and happiness with little care of heart, A standard easily attained: that life's the better part."
+canonical-instances:
+  - "A freelancer who takes on only as much work as covers a modest, predictable lifestyle sleeps and eats better than a peer chasing every high-paying client through constant pitching and anxious competition, even though the peer's average earnings are higher."
+critical-questions:
+  - "Does contentment with an easily-met standard actually outperform ambition, or does it just trade material upside for psychological comfort in a way that isn't obviously the better deal for everyone?"
+  - "Is the crow's fear an inherent cost of pursuing richer resources, or a separable problem that a less anxious pursuit of the same resources might avoid?"
+status: active

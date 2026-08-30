@@ -1,0 +1,19 @@
+id: lex-cq6ts
+name: refute-a-claim-of-eternality-by-restoring-the-claimants-own-forgotten-history
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than argue abstractly against a false claim of permanence, a challenger can disprove it concretely by reciting specific, verifiable details of the claimant''s own forgotten past, using the shock of recovered memory itself as proof of prior existence and hence finitude. In the Jataka''s tale of Baka-Brahma, the Bodhisatta refutes the deity''s eternalism this way: "To many a man of old thou gavest drink For thirst and parching drought ready to sink: That virtuous deed of thine so long ago Remembering, as if waked from sleep, I know."'
+related: []
+evokes: [jataka, sattanipata, baka-brahma-jataka, refute-eternality-with-recovered-memory, prove-finitude-via-forgotten-past]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-baka-brahma-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 405, Baka-Brahma-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "To many aman of old thou gavest drink For thirst and parching drought ready to sink: That virtuous deed of thine so long ago Remembering, as if waked from sleep, I know."
+canonical-instances:
+  - "When a long-standing institution insists it has always operated a certain way, a historian refutes the claim not with abstract argument but by producing the specific founding-era memo that shows the practice was deliberately adopted decades in, overturning the institution's own sense of having no beginning."
+critical-questions:
+  - "Does restoring a specific forgotten memory actually establish finitude in general, or only disprove this one instance of a claimed permanence?"
+  - "What made the claimant forget this specific history in the first place, and does that forgetting serve some function the claimant would resist giving up even after being shown the evidence?"
+status: active

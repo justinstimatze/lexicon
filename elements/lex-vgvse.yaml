@@ -1,0 +1,19 @@
+id: lex-vgvse
+name: stash-the-asset-outside-and-delay-delivery-to-test-the-recipient
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A recovered asset headed for a household under suspicion doesn''t have to arrive right away — stashing it in neutral territory first turns the delay itself into a further diagnostic, reading whatever the household does while it waits. In the Jataka''s tale of Sattubhasta, Senaka instructs the merchant this way: "you should not go home straight, but only after leaving the pieces outside the town at the root of a tree or somewhere."'
+related: []
+evokes: [jataka, sattanipata, sattubhasta-jataka, sequester-the-asset-as-a-test, delay-delivery-to-diagnose-fidelity]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sattubhasta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 402, Sattubhasta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "you should not go home straight, but only after leaving the pieces outside the town at the root of a tree or somewhere:"
+canonical-instances:
+  - "Before wiring recovered funds back to a suspected co-conspirator's account, an investigator holds the transfer in an escrow account for a few extra days, watching what the recipient does in the meantime as part of the evidence."
+critical-questions:
+  - "Does withholding a rightful asset to run a test impose a real cost or delay on someone who turns out to be innocent, and is that cost justified by what the test reveals?"
+  - "Any delay creates some anxiety on its own — what specifically about the recipient's behavior during it actually points to guilt rather than to that baseline nervousness?"
+status: active

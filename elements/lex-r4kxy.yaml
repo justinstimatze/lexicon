@@ -1,0 +1,21 @@
+id: lex-r4kxy
+name: survival-is-a-precondition-every-other-strategy-depends-on
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Before optimizing toward any other goal, check whether the current course of action risks the actor's continued existence — no downstream strategy executes from a position that no longer exists. The Ferengi Rules of Acquisition state this as flatly as it can be stated: 'You can't make a deal if you're dead.' The claim isn't that survival matters more than profit in some values ranking; it's structural. Every other objective depends on survival to even become pursuable in the first place, which puts it outside the scale that ordinary tradeoffs get weighed on."
+related: []
+evokes: [ferengi, rules-of-acquisition, star-trek, lexicographic-preference, survival-precondition]
+lineage:
+  - source: primary
+    text: star-trek-ds9-rules-of-acquisition-125
+    citation: "Star Trek: Deep Space Nine, Rule of Acquisition #125, spoken dialogue from 'The Siege of AR-558' (season 7, episode 8, 1998). Verified against Memory Alpha's sourced compilation of on-screen Rules of Acquisition dialogue (a wiki page functioning as a transcript aggregator with per-rule episode citations, not quoted for its own editorial framing)."
+    quote: "You can't make a deal if you're dead."
+canonical-instances:
+  - "A startup burning its entire runway chasing an ambitious growth target, with no cash buffer against an unexpected setback, is optimizing a downstream goal while treating a structural precondition (staying solvent long enough to keep operating) as just another line item to trade off — exactly the substitution this rule warns against."
+  - "operationally distinct from an ordinary risk-tolerance tradeoff (how much upside justifies how much downside): a lexicographic precondition isn't weighed against the other goal on a shared scale at all — it has to clear a threshold first, before the other goal's value even becomes relevant to compute."
+critical-questions:
+  - "How does an actor draw the line between a genuine survival-threatening risk and an ordinary risk dressed up as existential to justify excessive caution — is there a clean test, or does this always come down to judgment calls that can go either way?"
+  - "Does treating survival as strictly lexicographically prior to every other goal ever produce worse outcomes than a strategy willing to risk some real survival probability for a large enough expected gain?"
+  - "Is 'survival' well-defined for organizations and systems the way it is for a single person, or does the precondition blur once the actor in question is something that can be partially destroyed and rebuilt (a company, a reputation, an institution)?"
+status: active

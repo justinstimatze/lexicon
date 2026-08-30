@@ -1,0 +1,37 @@
+id: lex-jvr5p
+name: beginner-stance-as-power
+type-in: state
+type-out: posture
+_tier: atomic
+agent-instruction: "When approaching expertise from beginnerhood, the beginner-stance is power, not weakness. Beginners ask questions experts have stopped asking and notice things experts have learned not to see. Hold the stance deliberately — and don't fake it."
+related: [lex-nahg9, lex-chp44, lex-uz7g4, lex-tjwfn, lex-p6p82, lex-mf8w6, lex-xu8k9, lex-ppm3j]
+scaffolds-from: [lex-tjwfn, lex-uz7g4]
+evokes: [shoshin, beginners-mind, the-empty-cup, the-holy-fool, the-naive-question-that-cracks-the-frame, parsifal, dont-know-mind]
+lineage:
+  - source: primary
+    text: suzuki-1970-zen-mind
+    citation: "Shunryu Suzuki, Zen Mind, Beginner's Mind (Trudy Dixon ed., Weatherhill, 1970), Prologue 'Beginner's Mind' — the canonical English-language statement of shoshin. Beginner-stance is operational practice in Soto Zen; the move is cultivated, not just admired. The book has been continuously in print since 1970 and is the dominant English-language reference for shoshin"
+    quote: "In the beginner's mind there are many possibilities, but in the expert's there are few."
+  - source: practitioner
+    text: wolfram-parzival-c1210
+    citation: "Wolfram von Eschenbach, Parzival (~1210) — the canonical Western 'holy fool' narrative: Parzival's naivety enables him to retrieve the Grail where worldly-wise knights have failed. The naivety IS the operational quality; courtly sophistication blocks the move. Same pattern recurring in Buddhist Tao Te Ching empty-cup, in Christian 'unless ye become as little children,' in Tarot's Fool"
+  - source: practitioner
+    text: mythology-decomposition-pass
+    citation: "promoted from cross-attestation: narrative tradition (Parzival as the Holy Fool; Forrest Gump; Chance the gardener in Being There 1979; Luke as untrained pilot; Buddha-as-prince leaving palace knowing nothing of suffering); Tarot's Fool (number 0; walks off cliff with serene unawareness — the unmarked openness IS the power); Tao Te Ching empty-cup metaphor (Daoist canonical); Suzuki 1970 (Zen Buddhism); innovation literature (Kaggle competitions repeatedly won by 'amateurs' without target-domain expertise; Howe's wisdom-of-crowds 2008; outsiders solve problems insiders have given up on); therapy 'not-knowing' stance (Carl Rogers Client-Centered Therapy 1951 — therapist's deliberate suspension of expertise; later in Anderson & Goolishian 'not-knowing' position 1992 in family therapy); Chris Voss's tactical empathy and naive-question technique (Never Split the Difference 2016 — naive 'how am I supposed to do that?' outperforms expert assertion in negotiation); LLM zero-shot generalization (general-purpose models often outperform narrow specialists outside training distribution because they lack overspecialization). Cross-domain across Buddhism, narrative tradition, innovation theory, therapy, negotiation, and ML"
+canonical-instances:
+  - "shoshin in zazen practice: the practitioner is instructed to approach each sitting as if it were the first — not bringing accumulated technique, expectation, or self-evaluation. The instruction is operational (not aspirational): the cultivated-beginner-mind sees what the technique-mind misses. Soto Zen has 800 years of refinement of this specific move"
+  - "Kaggle outsider wins: many machine-learning competitions on specialized domains (medical imaging, materials science, etc.) are won not by domain experts but by ML practitioners with no target-domain background. The lack of domain assumptions enables exploration of model architectures the domain experts would have excluded a priori. The naivety IS the comparative advantage"
+  - "Chris Voss naive question in negotiation: 'How am I supposed to do that?' The naive form (rather than aggressive 'no' or hard counter) keeps the counterparty engaged in problem-solving FOR you while ceding no ground. The apparent helplessness is operational tactic — the beginner-stance unlocks counterparty resourcefulness"
+  - "Carl Rogers' not-knowing stance: the therapist deliberately holds back expert interpretation, mirroring instead what the client says with curiosity. The withholding-of-expertise creates space for the client's own movement; expert pronouncement closes that space. The not-knowing is competence in disguise"
+  - "Buddhist 'don't-know mind' (Korean Seon — Seung Sahn): the practitioner's task is to maintain genuine not-knowing in the face of impulses to know-and-categorize. The not-knowing is cultivated; the casual not-knowing of ignorance is different from the cultivated not-knowing of beginner-stance"
+  - "operationally distinct from lex-nahg9 upaya: upaya is about USING crude/imprecise vehicles for specific contexts (any vehicle does, choose the one that fits); beginner-stance is about NOT BRINGING a vehicle (suspending the apparatus). Both are forms of non-attachment but at different layers — upaya operates at the choosing-of-tool layer; beginner-stance at the having-no-tool layer"
+  - "operationally distinct from lex-chp44 meta-pointer: meta-pointer is about marking 'more detail than represented'; beginner-stance is about not assuming detail at all. Meta-pointer is a pointer-of-acknowledgment; beginner-stance is openness without pointer"
+  - "operationally a specific instance of lex-uz7g4 archetype-as-projective-shorthand: the Fool / Holy Fool / Beginner figure is one of the canonical archetypes; this atom is the operational MOVE (cultivate the openness), not just the figure"
+  - "pivotal critical question: is this CULTIVATED beginner-stance, or is it actual ignorance pretending to be wisdom? The cultivated form requires available expertise that's deliberately not deployed; the ignorance form is just unprepared. The shoshin instruction presupposes that the practitioner knows the technique — the move is to set it down. Without the knowing, there's nothing to set down"
+  - "key critical question: in what domains does beginner-stance help vs hurt? Beginner-stance is generative for OPEN problems (where solution-space exploration is the bottleneck); it's reckless for SAFETY-CRITICAL execution (the surgeon should not approach the operating table with shoshin during the actual cut). Domain-fit matters"
+critical-questions:
+  - "is beginner-stance actual openness or performed humility? the second corrupts what the first enables"
+  - "are you using beginner-stance to avoid accountability for what you already know?"
+  - "at what point does beginner-stance become an obstacle to building expertise — and have you crossed it?"
+  - "does this domain reward beginner-stance specifically, or are you applying a move that works in art to one that doesn't (e.g. medicine)?"
+status: active

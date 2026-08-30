@@ -1,0 +1,18 @@
+id: lex-demej
+name: a-plan-is-pre-committed-to-a-series-of-graduated-abort-thresholds
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'Before undertaking a course of action whose danger will only become apparent gradually and whose momentum will make real-time judgment unreliable, fix a series of independent, concrete abort criteria in advance — not a single go/no-go line, but several, each escalating, each an unambiguous physical signal rather than a feeling. The point of setting several thresholds rather than one is that momentum and anger erode judgment gradually; a person who blows past the first checkpoint may still respect the second or third, where they would not have trusted themselves to invent a stopping point on the spot. In the Bhadda-sala-Jataka, before the Licchavis set out against Bandhula, Mahali gives them three explicit, physical checkpoints to turn back at — a wheel sunk to the nave, the sound of a thunderbolt, a hole seen ahead — precisely because he expects their resolve, not their judgment, to fail first.'
+related: []
+evokes: [jataka, dvadasanipata, bhadda-sala-jataka, pre-committed-exit-criteria, graduated-abort-thresholds]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-bhadda-sala-jataka
+    citation: 'The Jataka, or Stories of the Buddha''s Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XII (Dvadasanipata), No. 465, Bhadda-sala-jataka. Verified verbatim against a direct extraction of the held copy.'
+    quote: 'Then if you come to a place where a wheel has sunk up to the nave, you must return. If you return not then, return back from that place when you hear the noise of a thunderbolt. If then you turn not, turn back from that place where you shall see a hole in front of your chariots. Go no further!'
+canonical-instances:
+  - 'Before a company enters a costly acquisition negotiation, the board sets three explicit walk-away triggers in advance — a due-diligence red flag, a price above a hard ceiling, a competing bid — rather than trusting the deal team''s judgment once negotiation momentum and sunk cost are already in play.'
+critical-questions:
+  - 'The Licchavis blew through all three thresholds anyway — does pre-committing graduated abort criteria actually work when the people executing the plan are the same people whose judgment the thresholds were designed to route around, or does it only work when a different, less-invested party enforces the stop?'
+status: active

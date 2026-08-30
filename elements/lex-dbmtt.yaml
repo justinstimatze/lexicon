@@ -1,0 +1,18 @@
+id: lex-dbmtt
+name: staging-fabricated-counter-proof-to-test-whether-a-stated-belief-is-genuine-conviction
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: 'To find out whether someone''s confident claim reflects genuine conviction or empty boast, an examiner can manufacture false physical evidence contradicting the claim, then hand it over as though it were genuine. Only after watching the response does the examiner reveal the whole thing was staged. In the Jataka''s tale of Maha-Dhammapala, a teacher brings a stranger''s bones and presents them as the son''s own remains specifically to test the father''s professed belief, then admits it afterward: "I came hither, and brought with me these wild goat''s bones, on purpose to try you."'
+related: []
+evokes: [jataka, dasanipata, maha-dhamma-pala-jataka, fabricated-evidence-trial, testing-a-stated-belief]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-maha-dhamma-pala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 447, Maha-Dhamma-Pala-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "I came hither, and brought with me these wild goat's bones, on purpose to try you."
+canonical-instances:
+  - "A skeptical journalist tells a source that a rival outlet has already published proof his claim is false, purely to see whether the source recants under pressure or holds firm, revealing afterward the rival story never existed."
+critical-questions:
+  - "Does staging false counter-evidence to test conviction risk damaging trust between examiner and examined even after the deception is revealed and the belief is vindicated?"
+status: active

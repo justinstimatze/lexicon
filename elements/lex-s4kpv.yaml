@@ -1,0 +1,19 @@
+id: lex-s4kpv
+name: hubris-overrides-an-explicit-warning-about-a-known-competence-boundary
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A specific, well-informed warning about exactly where a skill's competence boundary lies can still be overridden by hubris in the moment. This holds even when whoever gives the warning has directly observed the boundary and named it precisely. In the Jataka's tale of the javelin performer, a drunken juggler is warned by his own pupil that he can only safely manage four of his five javelins and will be killed attempting the fifth. He dismisses the warning, attempts the fifth anyway, and is run through exactly as predicted. The failure wasn't a lack of information — the pupil named the precise threshold in advance — it was that intoxication and pride outweighed a warning whose accuracy was never actually in doubt."
+related: []
+evokes: [jataka, ekanipata, dubbaca-jataka, hubris-overrides-a-precisely-named-competence-boundary, accurate-warning-insufficient-against-pride]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dubbaca-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 116, Dubbaca-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"You can't manage all five javelins, master. Have one taken away. If you try the five, you will be run through by the fifth and die.\""
+canonical-instances:
+  - "A pilot warned by a co-pilot that fuel reserves only support four more approach attempts, not five, in worsening weather insists on the fifth attempt anyway rather than diverting, despite the warning coming from someone who had just calculated the exact margin."
+critical-questions:
+  - "What would it actually take to make a specific, accurate warning about a known limit override pride in the moment it matters, given that the warning's precision alone clearly wasn't sufficient here?"
+  - "Once a warning like this is given and ignored, does the person who gave it bear any share of responsibility for what follows, or does it rest entirely with whoever chose to defy explicit advice?"
+status: active

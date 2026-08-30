@@ -1,0 +1,19 @@
+id: lex-5gphr
+name: time-an-intervention-to-the-materials-readiness-not-your-schedule
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Before acting on a problem, check whether the situation has actually reached the point where it can be resolved by the action you're about to take, rather than acting because you are ready to act. Hippocrates' Aphorisms restricts purging to humours that have reached a specific ripened state he calls 'concocted.' That state is something the material itself has to reach through its own process, on its own timeline, before removal actually works. Purge material that hasn't reached it and the effort fails or backfires. A flawlessly executed technique cannot compensate for bad timing. Readiness lives in the object being acted on, not in the practitioner's calendar or patience, and confusing the two means judging an intervention's timing by the wrong clock."
+related: []
+evokes: [hippocrates, aphorisms, time-intervention-to-material-readiness, acting-before-ripeness-backfires]
+lineage:
+  - source: primary
+    text: hippocrates-aphorisms-adams1849-sectionI-22
+    citation: "Hippocrates, Aphorisms, trans. Francis Adams (Sydenham Society, 1849), Section I, §22. Verified verbatim against a direct extraction of the held copy."
+    quote: "We must purge and move such humours as are con- cocted, not such as are unconcocted, unless thev are strufralins; to get out, which is mostly not the case."
+canonical-instances:
+  - "a mediator pushes two parties toward a settlement before either side has processed enough of their own grievance to be willing to compromise. The deal collapses. The terms were fine; the readiness the negotiation depended on simply wasn't there yet."
+critical-questions:
+  - "How does a practitioner recognize genuine readiness in a system that cannot self-report it, such as an organizational or economic transition, without an equivalent to a clinician's direct physical signs of concoction?"
+  - "Does waiting for readiness ever become an excuse for indefinite inaction, especially when the signs of readiness are ambiguous and 'not ready yet' can always be argued regardless of how much time has passed?"
+status: active

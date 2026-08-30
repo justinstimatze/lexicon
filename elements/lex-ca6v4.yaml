@@ -1,0 +1,24 @@
+id: lex-ca6v4
+name: perceived-status-similarity-is-a-precondition-for-social-comparison
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Before asking WHOM someone compares themselves to, check whether the comparison could happen at all — Merton's point is that some minimal perceived or imagined similarity in status has to exist first, or the comparison never gets triggered. 'This suggests the general hypothesis that some similarity in status attributes between the individual and the reference group must be perceived or imagined, in order for the comparison to occur at all.' Once that minimal similarity is established, everything else about the comparison — whether it's flattering or painful, whether it produces satisfaction or resentment — follows from the OTHER similarities and differences layered on top of it: 'The underlying similarities of status among members of in-groups... thus appear as only one special, though obviously important, basis for the selection of reference groups. Out-groups may also involve some similarity of status.' The practical upshot: a person is not wounded by every gap between themselves and everyone richer, more successful, or more admired in the world — only by gaps relative to people who first register as similar enough to belong in the same comparison at all. This is why a specific promotion, salary, or achievement stings coming from a near-peer and barely registers coming from someone in a different perceived category entirely (a celebrity, a different generation, a different field) — the difference isn't the size of the gap, it's whether the minimal-similarity gate that lets the comparison happen was ever opened."
+related: []
+evokes: [merton-1957, the-american-soldier, minimal-similarity-precondition, comparison-requires-a-gate, perceived-or-imagined-similarity, keeping-up-with-the-joneses]
+lineage:
+  - source: primary
+    text: merton-1957-minimal-similarity-hypothesis
+    citation: "Robert K. Merton and Alice S. Rossi, 'Contributions to the Theory of Reference Group Behavior,' in Robert K. Merton, Social Theory and Social Structure, Revised and Enlarged Edition (Glencoe, IL: Free Press, 1957), Ch. VIII, p.242. Verified verbatim against a University of Iowa library scan via Internet Archive OCR text (item 31858016281432). A footnote digit sits glued directly to 'obtains.' in the OCR immediately after this sentence; the quote ends before that seam rather than crossing it."
+    quote: "'This suggests the general hypothesis that some similarity in status attributes between the individual and the reference group must be perceived or imagined, in order for the comparison to occur at all.'"
+  - source: primary
+    text: merton-1957-out-groups-can-share-status-similarity
+    citation: "Robert K. Merton and Alice S. Rossi, 'Contributions to the Theory of Reference Group Behavior' (1957), same chapter, p.243, continuing the analysis after a footnote and page break."
+    quote: "'The underlying similarities of status among members of in-groups, singled out by Mead as the social context, thus appear as only one special, though obviously important, basis for the selection of reference groups. Out-groups may also involve some similarity of status.'"
+canonical-instances:
+  - "An engineer feels genuine sting comparing their salary to a former bootcamp classmate now at a bigger company, and feels almost nothing comparing it to a hedge-fund trader's salary reported in the news — not because the trader's number is smaller, but because the classmate cleared the minimal-similarity gate (same field, same starting point) and the trader never did."
+  - "Social media comparison research often measures exposure to 'more successful' others as if raw exposure predicts distress, but Merton's frame predicts the effect should concentrate specifically among accounts perceived as similar-enough-to-compare-to (same age, same field, same visible starting conditions) rather than scaling with fame or wealth as such."
+critical-questions:
+  - "How does the minimal-similarity gate itself get set — is it fixed by objective, checkable status markers (age, occupation, income bracket), or can it be manipulated by framing (a marketer or a rival deliberately emphasizing a shared trait to make an otherwise-dissimilar figure register as comparable)?"
+  - "Merton frames this as a threshold (comparison occurs or doesn't), but could perceived similarity instead work as a continuous multiplier on the intensity of a comparison's emotional effect, rather than an on/off gate — and would that distinction actually change how the mechanism should be used diagnostically?"
+status: active

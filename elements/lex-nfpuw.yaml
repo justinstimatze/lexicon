@@ -1,0 +1,19 @@
+id: lex-nfpuw
+name: the-same-off-ramp-offered-and-refused-at-every-stage
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A warning structure can offer the identical escape route again after every incremental worsening of a situation, refused again every time — showing that the failure isn''t ignorance of the remedy, since the remedy is stated plainly and repeatedly, but a refusal that persists despite full information. In the Jataka''s tale of Cetiya, the same offer of restoration is repeated at every stage of the king''s sinking: "Then once again he said, "Owing to your lying you are sunk in the earth up to the ankles: consider, O great king," and spoke the fifth stanza:— One word of truth, and all thy gifts, O king, thou shalt regain: A lie will sink thee in the soil of Ceti to remain."'
+related: []
+evokes: [jataka, atthanipata, cetiya-jataka, normalization-of-deviance, repeated-off-ramp-refused]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-cetiya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 422, Cetiya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Then once again he said, \"Owing to your lying you are sunk in the earth up to the ankles: consider, O great king,\" and spoke the fifth stanza:— One word of truth, and all thy gifts, O king, thou shalt regain: A lie will sink thee in the soil of Ceti to remain."
+canonical-instances:
+  - "A committee reviewing a failing project offers the exact same off-ramp (kill it now, write off the small sunk cost) at every quarterly review for two years, and the sponsor declines it identically each time, right up until the budget overrun becomes unrecoverable."
+critical-questions:
+  - "If the same warning and the same remedy are heard and understood every time, what does 'the failure is ignorance' even mean as an alternative explanation — is it ever actually ignorance, or always refusal?"
+  - "Does repeating the identical off-ramp at every stage eventually stop functioning as a real offer and start functioning as a ritual neither party expects to be taken?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-f2nnf
+name: unaddressed-repeated-correction-of-a-liar-compounds-into-retaliatory-destruction
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Correcting the same face-saving liar twice without ever resolving the underlying grievance doesn't produce contrition — the accumulated resentment from repeated public exposure can erupt into destruction wildly disproportionate to the original small offenses. In the Jataka's tale of the two novices, after being reproved twice for lying about his contributions, the offending novice's resentment doesn't lead to self-correction but to burning down the elder's dwelling: 'he took a hammer and broke all the vessels used for food, and setting fire to the hut of leaves, took to his heels.'"
+related: []
+evokes: [jataka, catukkanipata, kutidusaka-jataka, repeated-correction-without-resolution-compounds-into-rage, a-trivial-original-offense-produces-a-disproportionate-retaliation]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kutidusaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 321, Kutidusaka-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "he took a hammer and broke all the vessels used for food, and setting fire to the hut of leaves, took to his heels."
+canonical-instances:
+  - "An employee publicly corrected twice by the same supervisor for taking credit on minor tasks doesn't reform — instead, feeling humiliated rather than instructed, they quietly sabotage a major project right before a client deadline."
+critical-questions:
+  - "Was the correction itself handled badly in a way that provoked this reaction, or is disproportionate retaliation simply a risk inherent to correcting someone whose self-image depends on the false credit?"
+  - "Could earlier intervention — addressing the pattern after the first incident more thoroughly, rather than a second correction — have prevented the escalation entirely?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-djzm6
+name: blocked-internally-a-reformer-seeks-an-unaffiliated-outside-authority
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Having failed to change a group''s course from within, a dissenting member can leave and search specifically for an outside party with no stake in the group''s interests to accomplish the correction instead. The move generalizes to any case of escalating past a closed internal channel to someone unaffiliated. In the Jataka''s tale of Atthasadda, the rebuffed pupil goes looking for an ascetic who owes the brahmins nothing: "The pupil in fear said, "Very well, devise a means then of getting fish and flesh to eat," and left the city looking for some pious ascetic able to prevent the king from sacrificing."'
+related: []
+evokes: [jataka, atthanipata, atthasadda-jataka, outside-escalation, unaffiliated-third-party-intervention]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-atthasadda-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 418, Atthasadda-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The pupil in fear said, \"Very well, devise a means then of getting fish and flesh to eat,\" and left the city looking for some pious ascetic able to prevent the king from sacrificing."
+canonical-instances:
+  - "Unable to get a safety concern addressed through the usual chain of command, an engineer contacts an outside regulator who has no stake in the company's quarterly numbers, rather than continuing to press people who benefit from the status quo."
+critical-questions:
+  - "What makes an outside party more likely to act on the objection than the internal group was — is it that they lack the same stake, or that they simply haven't heard it yet?"
+  - "Does going outside the group risk consequences for the reformer that staying inside and pressing further would not, and how would that risk change the calculation?"
+status: active

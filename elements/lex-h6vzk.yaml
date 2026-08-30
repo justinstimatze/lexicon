@@ -1,0 +1,20 @@
+id: lex-h6vzk
+name: betraying-an-ally-for-a-third-partys-prize-earns-nothing-from-either-side
+type-in: situation
+type-out: state
+_tier: atomic
+agent-instruction: 'Someone who sells out a benefactor to a third party, expecting a cut of whatever the third party gains, is trusting a stranger''s promise made specifically to someone willing to betray a friend — exactly the kind of promise that stranger has no reason to keep. In the Bhuridatta-Jataka, the outcast Brahmin, over his own son''s explicit warning that "this Brahmin will assuredly cheat you," leads a snake-charmer to his sleeping benefactor Bhuridatta in exchange for a wish-granting jewel; the charmer, once he has the snake in hand, simply hands the jewel over so carelessly it falls and vanishes into the earth, and the Brahmin is left, as the text puts it, "bereft of the three things, the priceless gem, Bhuridatta''s friendship, and his son." The charmer was never bound by a promise made to a man who''d already shown he''d break faith for a price — there was nothing stopping him from taking the prize and giving nothing back.'
+related: []
+evokes: [jataka, mahanipata, bhuridatta-jataka, betrayal, no-honor-among-thieves, broken-promise]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-bhuridatta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 543, Bhuridatta-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The Brahmin found himself bereft of the three things, the priceless gem, Bhuridatta's friendship, and his son, and went off to his home, loudly lamenting, \"I have lost everything, I would not follow my son's words.\""
+canonical-instances:
+  - "An employee who leaks a colleague's confidential project to a rival company in exchange for a promised job offer gets the rival's thanks and nothing else — the offer was never in writing, and a company that just watched them betray one employer has no reason to expect loyalty going the other way."
+  - "An informant who tips off a rival gang to a friend's stash location in exchange for a promised cut collects nothing once the rival has the stash — there was no enforceable claim, only a spoken promise to someone who'd already proven disposable."
+critical-questions:
+  - "The son predicted this outcome exactly and specifically before it happened — does the father's failure to weigh a correct warning against his own greed make this a story about betrayal, or a story about a documented failure of risk assessment that happened to involve one?"
+  - "Is the charmer's failure to pay actually a separate betrayal, or was there ever a real bargain here — can a promise made to induce someone into wronging a third party be called a bargain at all, rather than a con from the start?"
+status: active

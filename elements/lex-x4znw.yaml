@@ -1,0 +1,19 @@
+id: lex-x4znw
+name: performed-virtue-blinds-victims-to-otherwise-obvious-evidence
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'Credentialed piety can function as a cognitive shield strong enough that victims fail to draw an inference they''d otherwise reach instantly, even when the evidence is repeated and direct. In the Jataka''s tale of Dhammaddhaja, the birds lose their eggs immediately after each of the crow''s performances of holiness, yet never suspect him: ''saying, "This crow is a holy person," they do not even suspect him.'''
+related: []
+evokes: [jataka, chanipata, dhammaddhaja-jataka, performed-virtue-blinds-to-evidence, credential-as-cognitive-shield]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dhammaddhaja-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 384, Dhammaddhaja-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The birds not seeing their children when they came made a great outcry, \"Who can be eating them?\" but saying, \"This crow is a holy person,\" they do not even suspect him."
+canonical-instances:
+  - "A charity's donors keep giving even as complaints about missing funds pile up, because the founder's public reputation for personal sacrifice makes the accusation feel unthinkable rather than worth checking."
+critical-questions:
+  - "Is the blind spot caused by the crow's reputation specifically, or would any confident, socially-endorsed explanation have worked just as well to suppress the obvious inference?"
+  - "What would it actually take to break through a credential-based blind spot once it's established — does direct evidence alone ever suffice, or does it require an external voice with no stake in the reputation?"
+status: active

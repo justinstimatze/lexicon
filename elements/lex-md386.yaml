@@ -1,0 +1,19 @@
+id: lex-md386
+name: covert-surveillance-converts-timing-based-suspicion-into-proof
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Noticing that losses began exactly when a newcomer arrived is enough to form a suspicion, but converting suspicion into proof takes a further step — feigning departure and secretly watching before acting on the hypothesis. In the Jataka''s tale of Dhammaddhaja, the leader infers the culprit from timing alone, then tests it directly rather than accuse on inference: ''Then one day the Bodhisatta thought, "There was nothing ... wrong here formerly, it only began since this one came, it is good to try him": so making as if he were going to feed with the other birds he turned back and stood in a secret place.'''
+related: []
+evokes: [jataka, chanipata, dhammaddhaja-jataka, timing-based-suspicion-confirmed-by-surveillance, testing-before-accusing]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dhammaddhaja-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 384, Dhammaddhaja-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Then one day the Bodhisatta thought, \"There was nothing ... wrong here formerly, it only began since this one came, it is good to try him\": so making as if he were going to feed with the other birds he turned back and stood in a secret place."
+canonical-instances:
+  - "An office manager notices supply-closet shortages started the same week a new contractor got a key, and rather than confront them on that timing alone, pretends to leave for the day and watches from the parking lot."
+critical-questions:
+  - "Is timing alone ever strong enough evidence to justify surveillance, given that a newcomer could just as easily be an innocent coincidence with the real cause going unaddressed?"
+  - "What happens to trust in the leader if the surveillance had instead cleared the newcomer — does testing a suspicion this way carry a cost even when it turns out to be right?"
+status: active

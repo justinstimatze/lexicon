@@ -1,0 +1,18 @@
+id: lex-mej5m
+name: a-dying-vow-of-vengeance-is-fulfilled-later-through-rebirth-as-an-avenging-agent
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: 'A character dying at another''s hands can utter a vow to return as a supernatural avenger, with the vow later fulfilled exactly as stated — the reborn avenger killing the original antagonist as promised — establishing that a sincerely made dying wish carries binding causal force extending beyond the death itself. In the Jataka''s tale of Ghata, Mutthika''s dying prayer for vengeance is fulfilled to the letter: "Mutthika in his death-throes, uttered a prayer—''May I become a goblin, and devour him!'' And he became a goblin."'
+related: []
+evokes: [jataka, dasanipata, ghata-jataka, dying-curse-fulfilled, vengeance-across-death]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-ghata-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 454, Ghata-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Mutthika in his death-throes, uttered a prayer—\"May I become a goblin, and devour him!\" And he became a goblin"
+canonical-instances:
+  - "A folk legend holds that a wrongly executed miner's dying vow to haunt the mine that killed him is why every subsequent cave-in at that shaft happens on the anniversary of his death, treating his last words as a binding cause rather than a coincidence."
+critical-questions:
+  - "Does treating a dying vow as literally causally binding serve any function beyond giving survivors a narrative in which the wronged party's wish for justice does not simply vanish with their death?"
+status: active

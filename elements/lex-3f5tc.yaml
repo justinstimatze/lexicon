@@ -1,0 +1,21 @@
+id: lex-3f5tc
+name: a-captive-talks-captors-into-leaving-then-escapes-in-their-absence
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "A trapped party can sometimes escape not by fighting free but by convincing captors that the capture is more valuable if postponed -- getting the captors to leave voluntarily to prepare for a bigger prize, and using their absence to disappear entirely. In Radin's Winnebago Trickster cycle, Trickster is trapped inside a hollow tree with only his tail visible, and a group of women approach to cut him out, believing him a raccoon: 'Ah, it is going to be a fine, large racoon.' Rather than resist discovery, Trickster leans into it and adds a condition that serves only his own escape: 'As soon as my hiding-place has been plugged up by women's clothing, then leave me here and come back after me shortly. I assure you, I am very fat.' The promise of a bigger prize later is exactly what makes the women willing to delay the capture and leave unguarded: 'Yes, we'll do just that,' they answered. So they took off their clothing, plugged up the hole and went home.' The moment they are gone, 'he came out and went on. When the women returned they found nothing.' The capture was never resisted -- it was redirected into a plan the captors built for him. Diagnostic move: when someone who has you cornered proposes waiting or preparing before finishing the job, consider whether that pause is being offered to you or engineered by you -- an eager captor who leaves to get ready has, by definition, stopped watching."
+related: []
+evokes: [radin-winnebago-trickster-cycle, wakdjunkaga, leave-me-here-and-come-back-after-me-shortly, when-the-women-returned-they-found-nothing]
+lineage:
+  - source: primary
+    text: radin-trickster-convinces-the-women-to-leave-and-prepare-then-escapes-the-hollow-tree
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'The Winnebago Trickster Cycle,' episode 18. Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "Finally, when they came very close, the women said, 'Come let us cut it out.' So they began to cut him out of the tree. He held his racoonskin blanket next to the hole and this it was the women saw. Finally the women said, 'Ah, it is going to be a fine, large racoon.' Hearing this, the so-called racoon spoke to them and said, 'As soon as my hiding-place has been plugged up by women's clothing, then leave me here and come back after me shortly. I assure you, I am very fat.''Yes, we'll do just that,' they answered. So they took off their clothing, plugged up the hole and went home. ... Then he came out and went on. When the women returned they found nothing."
+canonical-instances:
+  - "A shoplifter caught by a store employee convinces them to wait for a manager before doing anything, claiming they want to 'sort this out properly and fairly,' and slips out the moment the employee leaves to fetch the manager."
+  - "An employee under investigation for a policy violation convinces their supervisor to hold off on any action until a 'more complete report' can be compiled next week, framing the delay as fairness to all parties, and uses the week to quietly resign and take a competing offer before any findings are finalized."
+critical-questions:
+  - "Would a more suspicious group of women have refused to leave, and does the story suggest anything about what made this particular offer of delayed reward believable enough to act on -- was it Trickster's specific framing, or a general willingness to trust a captured party's own account of its worth?"
+  - "Is there a meaningful difference between this kind of escape, which relies on convincing captors to voluntarily create an opportunity, and simple physical escape -- does the voluntary nature of the captors' departure make them more or less culpable for the outcome?"
+  - "Would checking on the captive periodically, rather than leaving entirely to prepare, have prevented the escape, and does the story suggest any middle ground between total vigilance and total departure that the women could have taken instead?"
+status: active

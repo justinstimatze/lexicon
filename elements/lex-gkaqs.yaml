@@ -1,0 +1,21 @@
+id: lex-gkaqs
+name: delegating-the-risky-theft-to-proxies-while-you-run-the-distraction
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "Splitting a theft into a low-risk role you keep for yourself and a high-risk role you hand to expendable others lets you claim the payoff without ever being the one caught holding the stolen object, as long as you're positioned to reclaim control once the risk has passed. In Radin's comparative Assiniboine summary, Inktonmi is hired to steal a scarce resource, summer, from its owner, and doesn't attempt the theft directly: 'He stations animal helpers one behind another. The fox steals the summer and passes it on to his associates, who escape while Inktonmi engages the owner in conversation.' The physically risky act, being caught holding the stolen object, is distributed across a relay of proxies; Inktonmi's own role is purely social, keeping the victim occupied and unsuspecting. Only after the danger has passed does he reassert ownership over the outcome: 'Inktonmi joins his comrades, and makes summer by opening the bag.' The proxies did the exposed work; the credit and control revert to the one who never touched the stolen object himself. Diagnostic move: when you're orchestrating something risky that requires both a distraction and an actual taking, notice whether you've assigned yourself the safe, deniable role and pushed the exposure onto others, and ask whether reclaiming the payoff afterward is fair to the proxies who carried the actual risk."
+related: []
+evokes: [radin-assiniboine-trickster-summary, inktonmi-and-the-theft-of-summer, stations-animal-helpers-one-behind-another, inktonmi-joins-his-comrades]
+lineage:
+  - source: primary
+    text: radin-inktonmi-delegates-the-theft-of-summer-to-a-relay-of-animal-helpers
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'Summary of the Assiniboine Trickster Myth' (after R. H. Lowie, The Assiniboine, Anthropological Papers of the American Museum of Natural History, Vol. IV, 1909), episode 3. Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "He stations animal helpers one behind another. The fox steals the summer and passes it on to his associates, who escape while Inktonmi engages the owner in conversation. Inktonmi joins his comrades, and makes summer by opening the bag."
+canonical-instances:
+  - "A manager engineers a plan to poach a rival team's client list, personally keeping the rival's account lead on a long, friendly call while a junior staffer downloads the records, then takes sole credit with leadership once the new accounts are secured."
+  - "An organizer of a coordinated walkout keeps a cordial one-on-one meeting with management running as a distraction while the actual work stoppage is triggered by other members, then negotiates the settlement personally once it succeeds."
+critical-questions:
+  - "Do the animal proxies in the relay share in the benefit of the stolen summer, or does the story show Inktonmi retaining exclusive control once he 'makes summer by opening the bag' himself, and does that change how fair the arrangement reads?"
+  - "Is the distraction itself a form of risk-bearing, given that engaging the owner in conversation could plausibly be discovered as complicity, or does the story treat it as strictly safer than the physical theft?"
+  - "Would the relay structure work without a trusted network of associates willing to accept the exposed role, and does the story suggest what Inktonmi offered them in exchange for that risk?"
+status: active

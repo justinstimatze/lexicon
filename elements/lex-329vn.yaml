@@ -1,0 +1,18 @@
+id: lex-329vn
+name: staging-a-public-contest-as-a-pretext-to-lure-and-kill-dangerous-rivals
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than attacking dangerous rivals directly, authorities can stage an ostensibly neutral public sporting event specifically as a pretext to lure the targets into a controlled setting where they can be killed under the appearance of legitimate contest. In the Jataka''s tale of Ghata, the king''s courtiers propose exactly this trap for the Ten Brethren: "Sire, they are wrestlers. Let us hold a wrestling match in the city, and when they enter the ring we will catch them and put them to death."'
+related: []
+evokes: [jataka, dasanipata, ghata-jataka, rigged-tournament-as-trap, public-contest-as-assassination-pretext]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-ghata-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 454, Ghata-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Sire, they are wrestlers. Let us hold a wrestling match in the city, and when they enter the ring we will catch them and put them to death."
+canonical-instances:
+  - "Unable to move against a rival gang openly, a crime boss sponsors a neutral, well-publicized poker tournament specifically to get the rival's leadership into one room under the cover of a legitimate social event, where his own men are waiting."
+critical-questions:
+  - "Does staging a legitimate-seeming public event as an assassination pretext carry different moral weight than an open attack, given that it also endangers or implicates everyone else who attends in good faith?"
+status: active

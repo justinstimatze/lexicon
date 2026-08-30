@@ -1,0 +1,19 @@
+id: lex-x9uzb
+name: refuse-an-unsolicited-reward-to-keep-a-stated-principle-intact
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Even when a reward is offered spontaneously and admiringly, without ever being solicited, a person can still decline it entirely to maintain strict consistency with a stated principle, rather than making a convenient exception just because refusing costs nothing socially in the moment. In the Jataka''s tale of Atthisena, the ascetic refuses the king''s spontaneous gift this way: "Great king, I took the religious life free from defilement: I have no need of cows."'
+related: []
+evokes: [jataka, sattanipata, atthisena-jataka, refuse-unsolicited-reward, principle-held-even-when-convenient-to-break]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-atthisena-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 403, Atthisena-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Great king, I took the religious life free from defilement: I have no need of cows."
+canonical-instances:
+  - "A journalist who has built a reputation on never accepting gifts from sources turns down a small, genuinely no-strings token offered in gratitude after a story ran, not because this particular gift would compromise anything, but because accepting it even once would make the principle negotiable."
+critical-questions:
+  - "Does refusing even a harmless, unsolicited reward risk seeming performative rather than principled, if the refusal itself becomes a way of being seen as virtuous?"
+  - "Is there a point at which rigid consistency stops protecting the principle and starts costing the person real, uncompensated value for no additional integrity gained?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-jcrec
+name: reputational-protection-punishes-before-verifying-the-accusation
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "An institutional leader who fears a scandal's effect on their own standing will sometimes act against the accused immediately, precisely to be seen acting, rather than pause to check whether the accusation is even true. In the Jataka's frame story for the Banyan Deer tale, Devadatta learns a nun under his charge is pregnant and orders her expelled on the spot, reasoning explicitly that tolerating the scandal would damage his own reputation — without asking when the pregnancy actually began. The Buddha instead has the matter formally investigated: a lay disciple compares the exact date of the nun's ordination against the pregnancy's timeline, proving the conception happened before she ever took her vows. The contrast is procedural: one response treats the accusation itself as sufficient grounds for punishment, the other treats it as a claim that has to be checked against dateable facts before anyone acts on it."
+related: []
+evokes: [jataka, ekanipata, nigrodhamiga-jataka, reputation-driven-judgment-without-verification, investigate-before-punishing]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-nigrodhamiga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 12, Nigrodhamiga-jataka, introductory Story of the Present. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"It will be a damaging report to get abroad that one of my Sisters is with child, and that I condone the offence. My course is clear;--I must expel this woman from the Order.\" Without any enquiry, starting forward as if to thrust aside a mass of stone, he said, \"Away, and expel this woman!\""
+canonical-instances:
+  - "A school administrator, hearing a rumor that a teacher struck a student, suspends the teacher the same afternoon to be seen taking the complaint seriously. A colleague who reviews the hallway camera timestamps and staff schedule before acting finds the teacher was in a different building at the time."
+critical-questions:
+  - "Does the rushed response actually protect the institution's reputation better in the short run, even though it produces a worse outcome once the facts come out — is the tradeoff between speed and accuracy sometimes genuinely favoring speed?"
+  - "What kind of accusation resists this fix — the nun's case had a dateable, checkable fact at its center, but what happens when the underlying claim has no equivalent record to verify against?"
+status: active

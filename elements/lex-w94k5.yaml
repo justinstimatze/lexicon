@@ -1,0 +1,19 @@
+id: lex-w94k5
+name: a-guarantee-can-be-honored-in-letter-while-gutted-in-substance
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A formal commitment can be defeated without ever being technically broken, by engineering a way to satisfy its literal wording while eliminating everything the wording was meant to protect. The Panchatantra's lion has guaranteed safety to a camel traveling with his retinue; a jackal advisor, wanting the camel dead without making the lion an oath-breaker, proposes that each animal — himself included — offer to sacrifice himself first, each safely certain the lion will decline, until the offer finally reaches the outsider camel, who accepts out of naivety and is killed. The mechanism is stated as the jackal's own proposed condition: 'if you kill him after guaranteeing his safety, then you are indeed blameworthy... So you may kill him on condition that he voluntarily destines himself to slaughter.' The lion's oath was never broken by any technical measure — the outcome it was meant to prevent happened anyway, engineered entirely around its exact wording."
+related: []
+evokes: [panchatantra, loss-of-friends, a-guarantee-honored-in-letter-gutted-in-substance, manufactured-voluntary-consent-defeats-a-commitment]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-uglys-trust-abused
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book I, 'Ugly's Trust Abused' (the camel and the lion's retinue). Verified verbatim against a direct extraction of the held copy."
+    quote: "if you kill him after guaranteeing his safety, then you are indeed blameworthy. If, however, of his own accord he devotedly offers his own life to his lord and king, then no blame attaches. So you may kill him on condition that he voluntarily destines himself to slaughter."
+canonical-instances:
+  - "a company that promised employees no forced layoffs instead makes working conditions for a targeted group so unbearable that they 'voluntarily' resign, technically honoring the no-layoffs commitment while producing the exact outcome the commitment was meant to prevent."
+critical-questions:
+  - "Is there a meaningful line between this and ordinary hard bargaining within the rules, or does treating every letter-versus-spirit gap as this kind of engineered bad faith make normal, legitimate compliance with a narrow commitment look sinister by default?"
+  - "Could the lion, as the party who made the original guarantee, be held responsible for failing to anticipate this exact loophole, or does the fable place all the blame on the jackal who designed the mechanism?"
+status: active

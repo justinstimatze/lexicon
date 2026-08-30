@@ -1,0 +1,18 @@
+id: lex-esxja
+name: verifying-an-accusation-by-going-directly-to-the-accused
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Even after receiving a written report and a confession from a secondary source, an authority refuses to treat either as settled and insists on hearing the account from the accused party directly before acting. Corroboration from multiple secondary sources is treated as insufficient compared to a direct account from the person actually implicated, reflecting a due-process instinct or a trust bond strong enough to override circumstantial evidence. In the Jataka''s tale of Harita, the king disbelieves both his ministers'' letter and his own queen''s confession, and goes to the accused ascetic himself: The king thought, "They say this, being eager to separate us," and disbelieved it. ... He disbelieved her also, and thought, "I will ask the man himself,"'
+related: []
+evokes: [jataka, navanipata, harita-jataka, verify-with-the-accused-directly, due-process-heuristic]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-harita-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 431, Harita-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The king thought, \"They say this, being eager to separate us,\" and disbelieved it. ... He disbelieved her also, and thought, \"I will ask the man himself,\""
+canonical-instances:
+  - "A university dean receives an anonymous letter, then has it confirmed by the professor's own department chair — and still schedules a direct meeting with the accused professor before deciding anything, because a confirmed secondhand account isn't the same thing as hearing it from him."
+critical-questions:
+  - "Insisting on the accused's own account can also be exploited by a skilled liar. What separates this as a fairness-motivated due-process move from simply being an opening a manipulative accused party could talk their way through?"
+status: active

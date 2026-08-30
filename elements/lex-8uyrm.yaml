@@ -1,0 +1,22 @@
+id: lex-8uyrm
+name: tactical-victory-is-meaningless-against-unlimited-reserves
+type-in: state
+type-out: claim
+_tier: atomic
+agent-instruction: "A single battle's body count can be strategically meaningless if the enemy's true threat is its capacity to keep sending more regardless of losses -- a locally decisive victory changes nothing when the opposing force is, for practical purposes, inexhaustible. Black Elk states this directly about the Wasichus (white settlers) after his people wiped out a hundred soldiers at the Fetterman fight: 'a hundred Wasichus was not much if there were others and others without number where those came from.' His own boyhood confusion sharpens the point. He couldn't tell why the same report -- strangers are coming -- meant either bison herds or mortal danger, and asked his grandfather what it actually meant. 'That they are many' answers a different question than the boy asked -- not who is coming, but how much it matters that more always can. Any single column of soldiers was beatable; what stood behind it, an effectively unlimited supply of replacements, was the actual threat. Beating a finite, locally-present force actually changes what happens next. Beating a column backed by bottomless reserves only buys time before the next one arrives -- the strategic picture never moves."
+related: []
+evokes: [black-elk-speaks, that-they-are-many, a-hundred-wasichus-was-not-much, unlimited-reserves, attrition-versus-annihilation]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch2-early-boyhood
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 2, 'Early Boyhood.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "It was the Wasichus who got rubbed out in that battle, and all the people were talking about it for a long while; but a hundred Wasichus was not much if there were others and others without number where those came from. [...] I remember once that I asked my grandfather about this. I said: 'When the scouts come back from seeing the prairie full of bison somewhere, the people say the Wasichus are coming; and when strange men are coming to kill us all, they say the Wasichus are coming. What does it mean?' And he said, 'That they are many.'"
+canonical-instances:
+  - "A small resistance cell destroys an occupying garrison and celebrates a real, local win, but the occupying power simply ships in a new garrison from a population base the resistance has no way to touch or exhaust, and nothing about the strategic balance actually moved."
+  - "Ho Chi Minh's reported warning to a French colonial officer -- 'you will kill ten of my men, and we will kill one of yours, and in the end it will be you who tire of it' -- names the same asymmetry from the other side: raw kill-ratio is irrelevant when one side's reserve capacity vastly outlasts the other's."
+  - "A startup wins a pricing war against one competitor's regional office, only to discover the competitor is a subsidiary of a much larger company that can absorb the loss indefinitely and simply keep opening new regional offices -- the win was against the wrong unit of analysis."
+critical-questions:
+  - "Does an actor facing an inexhaustible-seeming adversary have any strategy left besides retreat or negotiated accommodation -- is there a way to convert a reserve-capacity mismatch into something other than eventual defeat, or does recognizing the asymmetry mainly clarify that the fight was never winnable on these terms?"
+  - "How would a group in Black Elk's position actually distinguish 'the enemy's reserves are genuinely inexhaustible' from 'the enemy's reserves are large but finite, and continued resistance could still change the calculus' -- since both look identical from inside a single battle?"
+  - "Is Black Elk's grandfather's 'that they are many' answer actually explaining what the word Wasichu refers to, or is he redefining what the boy should have been asking about in the first place?"
+status: active

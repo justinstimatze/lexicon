@@ -1,0 +1,19 @@
+id: lex-ddbkc
+name: simulating-decay-exploits-a-captors-own-spoilage-heuristic
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A captive can trigger a captor's own judgment that the catch has become worthless, by manufacturing the specific sensory signals the captor uses to decide something has already started to spoil, rather than by resisting the capture directly. In the Jataka's tale of the trained nephew stag, the animal simulates death convincingly enough — bloating his body with held breath, rolling his eyes back, letting flies settle, going rigid — that the hunter concludes the catch went bad hours ago and loosens the snare himself to discard it. The stag never fights the trap; he defeats the hunter's own valuation heuristic, letting the hunter's rational response to what looks like spoiled meat do the work that struggling against the snare never could."
+related: []
+evokes: [jataka, ekanipata, tipallattha-miga-jataka, feigned-decay-exploits-captors-heuristic, defeating-a-valuation-rule-not-the-trap]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-tipallattha-miga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 16, Tipallattha-Miga-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "he pawed up the ground round his hoofs... swelled himself out by drawing in the wind; turned up his eyes; breathed only with the lower nostril... made himself generally so rigid and so stiff as to look like a corpse"
+canonical-instances:
+  - "A whistleblower's confiscated laptop is returned to IT for wiping and resale after it appears to have suffered irreparable hardware failure — a fabricated symptom the owner arranged in advance, exploiting the technician's own routine triage rule rather than trying to physically prevent the device from being taken."
+critical-questions:
+  - "Does this technique generalize past captors who make a one-time discard decision, or does it fail against anyone who keeps re-checking the catch instead of walking away once a first judgment is made?"
+  - "What happens if the captor has a second heuristic layered on top of the first, like confirming death by touch or smell before releasing the snare — how many independent signals does the simulation actually need to satisfy?"
+status: active

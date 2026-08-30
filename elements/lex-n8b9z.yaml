@@ -1,0 +1,20 @@
+id: lex-n8b9z
+name: an-abandoned-harmful-act-still-waits-to-resurface
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Stopping partway through a harmful act — reconsidering and pulling back before completing it — does not erase the act's consequence, only defers it. The deferred consequence can wait a very long time, through periods where everything seems fine, and then resurface at an unrelated later crisis, disabling you specifically at the moment you can least afford it. In the Jataka's frame story, the Elder Moggallana had once, in a past life, staged a fake robbery to kill his own parents at his wife's urging — but when they, unable to see him clearly, mistook him for a robber and lamented only for his safety, he was ashamed, called off the attack, and comforted them instead. The act was never completed. Lifetimes later, fleeing brigands hired to kill him, he tries to escape by flight — a power his spiritual attainment normally gives him without effort — and finds it gone: \"This action for ever so long not finding its opportunity but ever biding its time, like a core of flame hidden under ashes, caught up and seized upon the man when he was re-born for the last time, and the Elder, in consequence of his action, was unable to fly up into the air.\" The one power that could have saved him fails him precisely because of the act he thought he had walked back from."
+related: []
+evokes: [jataka, cattalisanipata, sarabhanga-jataka, deferred-not-cancelled-consequence, vulnerability-surfaces-at-the-worst-moment]
+lineage:
+  - source: primary
+    text: jataka-francis1905-sarabhanga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XVII (Cattalisanipata), No. 522, Sarabhanga-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "This action for ever so long not finding its opportunity but ever biding its time, like a core of flame hidden under ashes, caught up and seized upon the man when he was re-born for the last time, and the Elder, in consequence of his action, was unable to fly up into the air."
+canonical-instances:
+  - "An engineer once started, then abandoned partway through, a risky database migration that would have corrupted customer records — caught it, rolled it back, and moved on. Years later, during an unrelated outage, the half-applied rollback's leftover inconsistent state is the specific thing that keeps the recovery script from running cleanly."
+  - "A founder once drafted, then never sent, a deceptive term sheet to an early investor after getting cold feet. Years later, mid-acquisition due diligence — the one moment the company most needs a clean paper trail — that draft surfaces in a backup and becomes the detail the buyer's lawyers fixate on, though nothing ever came of it at the time."
+critical-questions:
+  - "Is the mechanism here really that the abandoned act itself causes the later failure, or is this a story choosing to connect two otherwise-unrelated events with a moral because a satisfying causal story is more memorable than 'bad luck at a bad time'?"
+  - "If stopping partway through a harmful act still leaves a consequence waiting, what distinguishes an act that's truly been walked back (comforting the parents, in the tale) from one that hasn't — is there anything a person can do once the act is abandoned, or is the deferred consequence simply unavoidable regardless of later remorse or repair?"
+status: active

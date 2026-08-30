@@ -1,0 +1,19 @@
+id: lex-uu25j
+name: exceeding-an-experience-derived-safety-ceiling-destroys-irreversibly
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A boundary set by someone with more experience of a known hazard exists precisely because the failure mode past that boundary is catastrophic and irreversible, so disregarding it out of pride or ambition removes the chance to learn from the mistake. In the Jataka's tale of Migalopa, the father vulture sets an explicit altitude limit based on a fatal wind hazard; the son exceeds it anyway and is destroyed instantly: 'Migalopa through disobedience did not do his father's bidding, but rising and rising he passed the limit his father told him, clove even the Black Winds when he met them, and flew upwards till he met the Verambha winds in the face. They struck him, and at their mere stroke he fell into pieces and disappeared in the air.'"
+related: []
+evokes: [jataka, chanipata, migalopa-jataka, disobeying-an-experience-based-limit, irreversible-catastrophic-failure]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-migalopa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 381, Migalopa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Migalopa through disobedience did not do his father's bidding, but rising and rising he passed the limit his father told him, clove even the Black Winds when he met them, and flew upwards till he met the Verambha winds in the face. They struck him, and at their mere stroke he fell into pieces and disappeared in the air."
+canonical-instances:
+  - "A junior diver ignores the depth limit their instructor set based on known nitrogen-narcosis risk at that site, goes deeper to see a wreck up close, and loses consciousness before anyone can reach them."
+critical-questions:
+  - "Does the son's death actually validate the father's specific limit, or could the limit itself have been overly conservative in a way that just happened to look wise after one fatal test?"
+  - "What separates a safety ceiling worth trusting on someone else's word from an arbitrary restriction dressed up as caution — how would the son have told the difference before testing it?"
+status: active

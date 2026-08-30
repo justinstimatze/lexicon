@@ -1,0 +1,19 @@
+id: lex-baegn
+name: long-cultivated-discipline-collapses-from-one-unguarded-glimpse
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A discipline maintained for years against deliberate, sustained provocation can still fail instantly against one unplanned, momentary sensory cue it was never built to cover. The years of successful resistance prove nothing about resistance to a stimulus that never previously occurred. In the Jataka's tale of the meditating ascetic, a hermit has held meditative trance for years when the queen's robe slips as she rises to greet him. The single unguarded glimpse undoes what the discipline had held through much larger, expected provocations: 'Bodhisatta let this unusual sight penetrate his senses, and looked upon her with desire. Then the evil passion that had been calmed by the power of his ecstasy, rose as a cobra rises spreading his hood, from the basket in which he is kept: he was like a milky tree struck by the axe.' The discipline held against every threat it had ever faced. It had simply never faced this one."
+related: []
+evokes: [jataka, tikanipata, samkappa-jataka, a-tested-defense-proves-nothing-against-an-untested-stimulus, momentary-unplanned-exposure-defeats-sustained-discipline]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-samkappa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 251, Samkappa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Bodhisatta let this unusual sight penetrate his senses, and looked upon her with desire. Then the evil passion that had been calmed by the power of his ecstasy, rose as a cobra rises spreading his hood, from the basket in which he is kept: he was like a milky tree struck by the axe."
+canonical-instances:
+  - "A trader who has never once broken risk limits under the market's worst deliberate stress tests places an oversized position the first time a routine data feed glitches and shows an impossible price for three seconds. The years of discipline were built to withstand volatility. A data malfunction never looked like volatility to begin with."
+critical-questions:
+  - "Does this mean sustained discipline is worthless, or only that it's narrower than it looks — does the ascetic's years of trance still count for something even though this one moment defeated it?"
+  - "Could any amount of prior training have covered a stimulus this specific and this unplanned, or does every discipline necessarily have some blind spot that only a genuinely novel event can find?"
+status: active

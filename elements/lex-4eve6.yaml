@@ -1,0 +1,19 @@
+id: lex-4eve6
+name: a-silenced-subordinate-reroutes-the-truth-through-an-external-third-party
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When raising an objection directly to a corrupt superior gets you shut down and told to profit alongside them instead of correcting course, taking the concern outside the chain of command to someone with the standing to actually intervene can succeed where continued direct confrontation would not. In the Jataka's tale of the four cries, the chief priest's own pupil objects on scriptural grounds to the planned mass sacrifice, is told to be quiet and share in the spoils, and instead of persisting or complying, defects: 'The priest replied, \"You are to bring here the king's property, and we shall have abundant dainties to eat. Only hold your peace.\" And with these words he drove his pupil away... But the youth thought, \"I will have no part in this matter,\" and went and found the Bodhisatta in the king's garden.'"
+related: []
+evokes: [jataka, catukkanipata, lohakumbhi-jataka, escalating-outside-a-corrupt-chain-of-command, refusing-complicity-by-seeking-an-external-authority]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-lohakumbhi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 314, Lohakumbhi-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The priest replied, \"You are to bring here the king's property, and we shall have abundant dainties to eat. Only hold your peace.\" And with these words he drove his pupil away... But the youth thought, \"I will have no part in this matter,\" and went and found the Bodhisatta in the king's garden."
+canonical-instances:
+  - "A junior auditor who flags a discrepancy to their supervisor is told to keep quiet and let the client relationship run its course; instead of dropping it, they route the concern to the firm's independent ethics hotline rather than raising it with the supervisor again."
+critical-questions:
+  - "Does going outside the chain of command carry real professional risk for the subordinate, and does the story's clean resolution understate how often this move costs the whistleblower their position regardless of being right?"
+  - "Was there a viable outside party to appeal to in this case (the Buddha, uniquely accessible) — does the mechanism depend on someone like that being reachable at all, which isn't guaranteed in most real hierarchies?"
+status: active

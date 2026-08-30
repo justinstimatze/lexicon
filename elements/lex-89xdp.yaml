@@ -1,0 +1,19 @@
+id: lex-89xdp
+name: a-panicked-lucky-improvisation-gets-retold-as-skill
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When a desperate, uninformed improvisation under pressure happens to work — dumping an arbitrary substance into a malfunctioning machine with no idea whether it would help, and having it work — the retroactive narrative available afterward almost always credits skill or instinct rather than the panic and luck actually present in the moment. The person who acted becomes a hero, and the story that survives is the one where they knew what they were doing, because a story of blind panic that happened to pay off is a worse story and a worse credential than a story of calm expertise. This is worth separating from ordinary outcome bias: the distortion here isn't just judging the decision by its result, it's actively replacing the decision-maker's own remembered uncertainty with a retrofitted confidence that wasn't there."
+related: []
+evokes: [jackall-moral-mazes, "the great fear that all he had worked for was about to crumble", retrofitted-confidence-after-a-lucky-guess]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch3-phosphate-hero
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 3, Section III."
+    quote: "told his crew, without the faintest idea of the right thing to do and with the great fear that all he had worked for was about to crumble before him, to dump ten pounds of phosphate into the machine. The machine sprang to life and he became a hero."
+canonical-instances:
+  - "An engineer who rebooted a failing production server on a hunch, with no diagnosis and genuine dread that it might make things worse, is described in the postmortem as having 'quickly identified and resolved the root cause.'"
+critical-questions:
+  - "Is the retold version actually inaccurate, or did the person's panic-driven guess draw on real tacit expertise they genuinely couldn't articulate in the moment — is 'panic' and 'skill under pressure' always a clean distinction, or sometimes the same thing viewed from different distances?"
+status: active

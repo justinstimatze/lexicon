@@ -1,0 +1,21 @@
+id: lex-vymbm
+name: proclaiming-self-sufficiency-while-destroying-every-tool-that-supports-you
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "When someone insists loudly that only their own competence matters, watch what they do to the equipment and companions around them -- the proclamation is sometimes accompanied by discarding the very things that make the competence real. In Radin's Winnebago Trickster cycle, Trickster declares 'It is I who am going on the warpath to fight, I!' and smashes his own boat to prove he needs no transport. He then turns on his sacred warbundle -- 'you can do nothing of value... you can go on the warpath? You are simply a nuisance' -- and stamps it into the ground. Finally he throws away his arrowbundle, his only weapon, shouting 'It is only I who can do that. It is I who can fight, not you.' Each destruction is framed as proof of self-sufficiency, but each one also removes a real capability, until he is walking alone with no boat, no sacred power, and no weapon at all. The self-sufficiency the boasts describe becomes literally true only because nothing is left to test it against. Diagnostic move: when someone frames discarding support as evidence of their own strength, check what capability just left with the thing they discarded -- the claim of self-sufficiency and the fact of having nothing left can look identical from the outside."
+related: []
+evokes: [radin-winnebago-trickster-cycle, wakdjunkaga, it-is-i-who-am-going-on-the-warpath, you-are-simply-a-nuisance-thats-all]
+lineage:
+  - source: primary
+    text: radin-trickster-destroys-boat-warbundle-and-arrowbundle-while-boasting-self-sufficiency
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'The Winnebago Trickster Cycle,' episodes 2-3. Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "'It is I who am going on the warpath to fight, I!' Turning to his boat, he shouted, 'You cannot fight! Why should you come along?' Thereupon he pulled it up on land and smashed it to pieces. ... 'It is I who am going on the warpath, I! I am capable of fighting, that is why I am going. I can move about easily. But you, warbundle, cannot do this, you can do nothing of value. It is only when I carry you on my back that you can move. You, cannot, of yourself, move about, nor can you move anything. How, therefore, can you go on the warpath? You are simply a nuisance; that's all.' Thus he shouted. Thereupon he stamped his warbundle into the ground. ... 'You are unable to go on the warpath! It is only I who can do that. It is I who can fight, not you, and that is why I am going on the warpath!'"
+canonical-instances:
+  - "A new manager announces that the team's existing tools and processes are dead weight compared to their own judgment, cancels the shared tracking system and the review checklist within the first month, and only later discovers how much coordination those tools were quietly doing."
+  - "A founder insists a startup needs no outside investors or advisors because their own vision is sufficient, turns down a board seat and a mentorship offer that came with real expertise, and ends up making preventable mistakes that the discarded relationships would have caught."
+critical-questions:
+  - "Is Trickster's boasting sincere self-belief or a performance for an audience that is shrinking with every destroyed object -- does the story suggest he still has bystanders to impress by the time he throws away the arrowbundle, or is he alone and posturing to no one?"
+  - "Would keeping the boat, warbundle, and arrowbundle actually have changed what happens to Trickster later in the cycle, or does the story treat this scene as a character portrait with no consequence, making the self-sufficiency claim costless rather than genuinely tested?"
+  - "Is there a meaningful difference between discarding support because it is genuinely useless and discarding it to prove a point about one's own competence -- does the text give any evidence the boat or warbundle were actually failing him, or were they functioning fine when destroyed?"
+status: active

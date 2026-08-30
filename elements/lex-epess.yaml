@@ -1,0 +1,18 @@
+id: lex-epess
+name: a-diagnostic-catalogue-of-untrustworthy-character-types-built-from-a-single-encounter
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'Rather than issuing a single specific warning, a target who has just refused one bad-faith approach can generalize the encounter into a structured checklist of the different kinds of people not to trust, converting one specific refusal into a general-purpose vetting tool. In the Jataka''s tale of Kukkuta, the Fowl''s refusal of the Falcon expands into a taxonomy of untrustworthy types: "Trust not in those whose words are lies, nor those who only know Self-interest, nor who have sinned, nor who too-pious show."'
+related: []
+evokes: [jataka, dasanipata, kukkuta-jataka, red-flag-taxonomy, generalizing-a-single-encounter-into-a-checklist]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kukkuta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 448, Kukkuta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Trust not in those whose words are lies, nor those who only know Self-interest, nor who have sinned, nor who too-pious show."
+canonical-instances:
+  - "After being burned by one contractor who cut corners while performing extreme religious devotion for the client's benefit, a homeowner writes up a general checklist of red flags — the over-promiser, the habitual corner-cutter, the performatively pious — to screen every future hire, not just avoid that one contractor."
+critical-questions:
+  - "Does generalizing from a single bad encounter into a broad diagnostic checklist risk over-fitting the checklist to one person's specific tactics rather than capturing real, transferable warning signs?"
+status: active

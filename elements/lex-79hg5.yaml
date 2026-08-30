@@ -1,0 +1,18 @@
+id: lex-79hg5
+name: striking-first-with-a-preemptive-accusation-flips-victim-and-accuser
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'Someone who has just been rejected and who anticipates the rejected party reporting the encounter first reasons explicitly about the race to be believed: whoever speaks to the authority first gets to frame who is the victim and who is the wrongdoer, regardless of what actually happened. Rather than waiting to see whether an accusation comes, the rejected party manufactures self-inflicted evidence of victimhood and rushes to be heard before the person who actually has the truthful account can speak. The actor names this reasoning out loud, in the moment, as the explicit reason for acting immediately — a reader doesn''t have to infer the motive after the fact. In the Maha-Paduma-Jataka, after propositioning her stepson and being refused, the queen thinks in terror, ''if he tell the king first, there is no life for me! I must get speech of him first myself'' — and immediately fakes injury and illness to present herself as the wronged party before he can report what actually happened.'
+related: []
+evokes: [jataka, dvadasanipata, maha-paduma-jataka, race-to-be-believed-first, preemptive-self-victimization-flips-accusation]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-maha-paduma-jataka
+    citation: 'The Jataka, or Stories of the Buddha''s Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XII (Dvadasanipata), No. 472, Maha-paduma-jataka. Verified verbatim against a direct extraction of the held copy.'
+    quote: 'Then in great terror she thought: "If he tell the king first, there is no life for me! I must get speech of him first myself." Accordingly leaving her food untouched she donned a soiled robe, and made nail-scratches upon her body.'
+canonical-instances:
+  - 'An employee who propositioned a subordinate and was reported to HR the next morning had, the night before, already filed his own complaint claiming the subordinate had harassed him, specifically so that whichever complaint HR opened first would frame the investigation''s starting assumption about who the aggressor was.'
+critical-questions:
+  - 'The strategy worked initially because the king acted on the queen''s account without hearing the son''s side first — does ''strike first'' actually succeed on its own merits, or does it only work when paired with an authority predisposed to act on one-sided testimony, which is a separate failure this mechanism merely exploits?'
+status: active

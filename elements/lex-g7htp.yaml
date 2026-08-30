@@ -1,0 +1,19 @@
+id: lex-g7htp
+name: mistimed-accuracy-does-as-much-damage-as-falsehood
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A signal that's accurate in content but delivered without regard to timing can do as much damage as a signal that's simply false, what's actually being punished is untrained timing, independent of whether the message itself was ever accurate. In the Jataka's tale of the cemetery rooster, a bird raised without any training crows at midnight and at noon exactly as reliably and accurately as it would at dawn — the crowing itself is never wrong — but the household built around a schedule that assumes correct timing is ruined by a signal that shows up whenever it feels like it, and the bird is killed for a fault that was never about truthfulness at all."
+related: []
+evokes: [jataka, ekanipata, akalaravi-jataka, mistimed-accuracy-does-as-much-damage-as-falsehood, the-fault-is-untrained-timing-not-content]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-akalaravi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 119, Akalaravi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "No parents trained, no teacher taught this bird: Both in and out of season was he heard."
+canonical-instances:
+  - "A monitoring system correctly flags a real anomaly in production traffic, but does so by paging the entire on-call team at 3 a.m. for something that could easily have waited for the morning standup, and the team disables the alert entirely after a few repeats, treating an accurate signal as if it were a false one."
+critical-questions:
+  - "Is the fix here training the signal's timing specifically, or does a signal need a fundamentally different design — one that separates 'this is true' from 'this needs attention right now' — to avoid the same failure recurring?"
+  - "Does an audience's tolerance for a mistimed but accurate signal ever recover once trust has broken down, or does the household's reaction here suggest the relationship is permanently damaged regardless of later good timing?"
+status: active

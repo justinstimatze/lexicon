@@ -1,0 +1,19 @@
+id: lex-kw5a6
+name: innate-standard-refuses-debasement-even-under-a-deliberate-test
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "An entire upbringing spent in humble, degraded circumstances doesn't necessarily condition someone into accepting a matching debasement later, if their self-conception was never actually built from that upbringing in the first place. Offering conditions that match someone's history is not the same as offering conditions that match their standard. In the Jataka's tale of the thoroughbred foal, a colt raised from birth on cheap gruel and scraps by a poor old woman is offered the same fare again by its new owner, purely as a test. It refuses outright: 'But I am chief of steeds, as you are ware; Therefore from you I will not take this fare.' The years of humble feeding never became the standard the foal held itself to. They were simply what circumstance had supplied."
+related: []
+evokes: [jataka, tikanipata, kundaka-kucchi-sindhava-jataka, upbringing-does-not-automatically-become-self-conception, a-conditioning-test-fails-against-an-unconditioned-standard]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kundaka-kucchi-sindhava-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 254, Kundaka-kucchi-sindhava-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "But Iam chief of steeds, as you are ware; Therefore from you I will not take this fare."
+canonical-instances:
+  - "A new hire who spent their entire early career underpaid and under-resourced at a struggling startup refuses, at their new company, to accept the same makeshift equipment offered as a cost-saving test, because years of scarcity never taught them that scarcity was the standard they deserved."
+critical-questions:
+  - "Is this really about an unconditioned inner standard, or does the foal's refusal only make sense within a story that has already decided the foal is nobly born — does the mechanism hold for someone with no comparably special origin to fall back on?"
+  - "How would an observer distinguish a genuinely unconditioned standard from simple stubbornness or a lucky guess about what better treatment might be available elsewhere?"
+status: active

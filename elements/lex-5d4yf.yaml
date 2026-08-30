@@ -1,0 +1,19 @@
+id: lex-5d4yf
+name: a-bargain-with-no-end-condition-creates-unlimited-liability
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A bargain struck without a fixed end-condition leaves the promisor obligated indefinitely, and the diagnostic question that exposes the error after the fact is simply whether a limit of time was ever fixed. In the Jataka''s tale of Sutano, the king''s catastrophic vow is retroactively diagnosed this way: "Was a limit of time fixed, O king?" "No." "That was wrong when you were about it."'
+related: []
+evokes: [jataka, sattanipata, sutano-jataka, unbounded-promise-unlimited-liability, missing-end-condition]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sutano-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 398, Sutano-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Was a limit of time fixed, O king?\" \"No.\" \"That was wrong when you were about it:"
+canonical-instances:
+  - "A company agrees to give a vendor 'ongoing priority support' without specifying a term or review date, and years later finds itself still bound to terms that made sense only for the original emergency that prompted the deal."
+critical-questions:
+  - "Is the fix simply always fixing a term, or are there commitments where an open-ended promise is the actual point and a time limit would defeat its purpose?"
+  - "Once an unbounded promise is made and relied upon by the other side, does adding a limit later count as honoring the original bargain or breaking it?"
+status: active

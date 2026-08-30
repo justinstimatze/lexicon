@@ -1,0 +1,36 @@
+id: lex-xcaqj
+name: generalization-then-instantiation
+type-in: state
+type-out: process
+_tier: atomic
+agent-instruction: "When solving a specific problem, generalize first then instantiate. Solve the general case (which may be easier without specifics fixing variables incorrectly), then specialize to the case at hand. The general view reveals what's incidental versus essential."
+related: [lex-4yhqs, lex-chp44, lex-gx8m2, lex-kkr43, lex-xfda8, lex-eehjz, lex-4ww6k, lex-ndwng, lex-u7tb6, lex-t9xgv]
+scaffolds-from: [lex-u7tb6]
+evokes: [abstract-then-apply, climb-then-descend, level-up-then-down, lift-and-re-land]
+lineage:
+  - source: primary
+    text: polya-1945
+    citation: "George Polya, How to Solve It (Princeton UP 1945; 2nd ed. 1957) — 'Generalization' (p.108-110) and 'Specialization' (p.190) as paired devise-a-plan moves; the canonical 'Inventor's Paradox' framing where the more-general problem is paradoxically EASIER than the special case because the additional structure reveals what the special case obscures."
+    quote: "Generalization is passing from the consideration of one object to the consideration of a set containing that object; or passing from the consideration of a restricted set to that of a more comprehensive set containing the restricted one. [p.108 — the canonical definition.] The reader will not fail to observe that the second problem is more general than the first, and, nevertheless, much easier than the first. In fact, our main achievement in solving the first problem was to invent the second problem. Inventing the second problem, we recognize the role of the center of symmetry; we disentangled that property of the octahedron which is essential for the problem at hand, namely that it has such a center. The more general problem may be easier to solve. This sounds paradoxical but, after the foregoing example, it should not be paradoxical to us. The main achievement in solving the special problem was to invent the general problem. After the main achievement, only a minor part of the work remains. [p.109 — the Inventor's-Paradox payoff: generalization can EASE rather than complicate.]"
+  - source: practitioner
+    text: maclane-categorical-foundations
+    citation: "Mac Lane, Categories for the Working Mathematician — universal-property constructions are generalization-then-instantiation as a methodological discipline"
+  - source: practitioner
+    text: polya-decomposition-pass
+    citation: "promoted from cross-attestation: Polya, scientific method (case → law → predict), category theory, design-pattern abstraction (recognize the pattern → instantiate per case)"
+canonical-instances:
+  - "stuck on integrating a specific function: generalize to a parameterized family, solve the family, take the limit/specific-value at your case. Polya's Inventor's-Paradox example (the octahedron with center of symmetry): the GENERAL problem (any body with a center of symmetry) is easier than the specific (this octahedron) because the general problem makes the decisive structure visible"
+  - "mathematical induction is implicit generalization-then-instantiation: prove for arbitrary n (the general claim), then instantiate at any specific n. Often easier to prove ∀n than n=27 specifically because the inductive hypothesis is itself a tool"
+  - "Lagrangian mechanics generalizes Newton's laws: the abstract action-principle (δ∫L dt = 0) is methodologically EASIER to work with than instantiating Newtonian forces case-by-case — once you have the right Lagrangian, the equations fall out by routine variation. The generalization is the working level; instantiation is the answer"
+  - "generic programming: write `sort<T>` once with a Comparable constraint, instantiate at every concrete type. The abstract specification is often clearer than the concrete one because it forces honest naming of what actually matters (the comparison) vs. what's accidental (the element type)"
+  - "scientific method as repeated generalization-then-instantiation: cases → law → predicted-cases → check"
+  - "design patterns: recognizing 'this is Strategy' (generalization to the abstract pattern) → 'so I'll structure my code as algorithm-as-object' (instantiation in this codebase)"
+  - "operationally distinct from lex-gx8m2 find-related-problem: find-related searches MEMORY for an analogous solved case; generalization-then-instantiation INVENTS a more abstract problem that subsumes the current one. Find-related needs prior experience; generalization is creative invention of structure"
+  - "operationally distinct from lex-kkr43 simplification-by-removing-constraints: they are INVERSE moves. Simplification DROPS structure (toy version, fewer variables) to find a tractable starting point; generalization ADDS structure (more parameters, broader class) to make the indispensable pattern visible. Polya treats both as legitimate Devise-a-Plan moves; the Inventor's Paradox says generalization is the surprising one"
+  - "operationally distinct from lex-4yhqs coarse-graining: coarse-graining LOSES detail to gain tractability (lossy compression); generalization-then-instantiation PRESERVES the original case as a specific instantiation of a richer family. Generalization is lossless in the case-of-interest; coarse-graining is not"
+critical-questions:
+  - "does the generalization make the crucial structure VISIBLE, or just enlarge the problem? Polya's Inventor's-Paradox payoff requires the general problem to expose what the specific case obscures. If generalizing just produces a more abstract version of the same opacity, the move was wasted"
+  - "can you instantiate back at your case once the general problem is solved? generalization without successful instantiation produces an abstract result with no contact to the original problem. The discipline: verify the specific case is reachable from the general solution, not just notionally derivable"
+  - "is this distinct from lex-kkr43 simplification-by-removing-constraints? they are INVERSE moves. Simplification DROPS structure (toy version); generalization ADDS structure (richer family). Both legitimate Polya devise-a-plan moves; Inventor's Paradox highlights that generalization is the surprising one"
+  - "is this distinct from lex-4yhqs coarse-graining? coarse-graining LOSES detail (lossy); generalization PRESERVES the original case as a specific instantiation (lossless on the case-of-interest). Generalization is lossless on your case; coarse-graining is not"
+status: active

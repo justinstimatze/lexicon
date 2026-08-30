@@ -1,0 +1,29 @@
+id: lex-x7w9r
+name: enshittification-stage-2-is-externalization-onto-undefended-commons-instantiated
+type-in: claim
+type-out: posture
+_tier: molecule
+agent-instruction: "When diagnosing a platform's degradation trajectory, hold both postures at once: is this enshittification (a lock-in-enabled shift from user-value toward extraction), and specifically, is its middle stage an instance of externalizing costs onto an undefended commons (user attention, personal data)? The two atoms name the same platform mechanism at different resolutions — enshittification names the multi-stage arc, externalization names what stage two of that arc specifically IS."
+related: [lex-ukgke, lex-z2fkk]
+scaffolds-from: [lex-ukgke, lex-z2fkk]
+evokes: [doctorow-enshittification, externalizing-onto-commons, platform-degradation-stages, surveillance-capitalism-instantiation]
+decomposes-into:
+  - lex-ukgke
+  - lex-z2fkk
+assembly: "parallel(lex-ukgke, lex-z2fkk)"
+premises:
+  - "enshittification names a platform's structural degradation path across stages: initially subsidizing users to build lock-in, then extracting value from users once lock-in makes exit costly, then extracting further from business customers (lex-ukgke)"
+  - "externalizing onto an undefended commons names the general competitive-advantage move of shifting costs onto a payer with no organized defense — user attention and personal data, harvested without meaningful consent, is the canonical modern instance (lex-z2fkk)"
+  - "the composing claim is an identity, not an analogy: enshittification's stage-2 user-attention-and-data harvesting IS the lex-z2fkk pattern, instantiated at platform-specific scale — diagnosing a platform as mid-enshittification and diagnosing it as externalizing onto an undefended commons are, at that stage, the same diagnosis stated at two different grains"
+critical-questions:
+  - "does every enshittifying platform's stage-2 actually take the externalization-onto-commons form, or are there enshittification paths whose middle stage extracts value some other way (e.g., raising prices directly on a captive user base, which is extraction without externalization)? If so, the identity claim is stage-2-typical rather than stage-2-necessary."
+  - "which diagnostic is more actionable for an outside observer — noticing the multi-stage arc (which requires historical before/after comparison) or noticing the undefended-commons externalization directly (which is visible at a single point in time)? The composition suggests the second may be the earlier-warning signal."
+  - "if a platform's users organize and gain defended standing (a users' union, regulatory protection, effective exit options), does that convert the externalization back into ordinary extraction from a defended payer — and does that, per lex-5gg2c's already-existing test, count as escaping the margin race rather than merely relocating it?"
+lineage:
+  - source: practitioner
+    text: assembled-from-lex-ukgke-lex-z2fkk
+    citation: "Molecule assembled from lex-ukgke (enshittification-as-the-platform-degradation-path-from-user-value-to-extraction, Doctorow) and lex-z2fkk (externalizing-onto-undefended-commons-is-the-competitive-advantage, Zuboff). lex-z2fkk's own canonical-instances state the link directly: 'Composes with lex-ukgke (enshittification): the stage-2 user-attention-and-data harvesting of Doctorow's 3-stage lifecycle IS the lex-z2fkk pattern instantiated at the platform-specific scale.' A third leg — lex-994yb fixed-cost-recovery-channel, which both lex-ukgke and lex-z2fkk also cite — is left out of this molecule: it's already the keystone constituent of the existing lex-5gg2c molecule (escaping-margin-race-by-decoupling-fixed-cost-onto-consenting-payer), and re-including it here would duplicate content lex-5gg2c already carries rather than add a distinct claim."
+canonical-instances:
+  - "Facebook News Feed algorithm changes (2012-2018): initial subsidy phase gave publishers free, high-reach distribution to build platform lock-in; the extraction phase throttled organic reach to force publishers into paid promotion — the throttled-reach extraction IS simultaneously the externalization of the platform's monetization problem onto publishers who had no organized defense against the algorithm change and no meaningful exit once their audience was platform-dependent."
+  - "Amazon Marketplace seller-fee escalation: the platform's initial seller-subsidy phase (low fees, strong search placement) built merchant lock-in; the extraction phase raised fees and inserted paid-placement requirements — extracting from sellers who, as an undefended, individually-negotiating commons with no collective bargaining standing, had no recourse comparable to a union or regulator."
+status: under-review

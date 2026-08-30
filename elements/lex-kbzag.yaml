@@ -1,0 +1,21 @@
+id: lex-kbzag
+name: assuming-the-test-rewards-wealth-when-it-measures-effort
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "When a gatekeeper sets a demanding test, don't assume the test rewards the currency you happen to have the most of -- three suitors who competed on wealth all failed an identical test because they never questioned whether wealth was what it measured. In Cushing's telling, three young men approach the maiden of Mátsaki each convinced that a bigger bundle of presents is the winning move, and one, 'a young man who had everything, made a bundle of presents as large as he could carry; but it did him no good. He, too, ran away from the may-flies and gnats and mosquitoes.' All three fail the identical corn-hoeing test, driven off by the same swarm of insects, because the test was never measuring bundle size at all. Only the fourth suitor, poor and bringing a small bundle, correctly reads what's actually being measured: 'I do not wonder that she asks hard tasks of her lovers; for it is not of their bundles that she thinks, but of themselves.' He succeeds not by outcompeting the others in the currency they were all optimizing, but by recognizing early that the test measured something else entirely -- sustained effort under real hardship -- and preparing specifically for that instead. Diagnostic move: before investing more heavily in whatever currency you already have in abundance to clear a demanding gate, ask directly what the gate is actually built to measure -- a test that looks like it rewards resources, credentials, or scale may in fact be filtering for something orthogonal, and repeated failure by well-resourced candidates competing on the wrong axis is itself the evidence that the axis is wrong."
+related: []
+evokes: [competing-harder-on-the-wrong-currency-still-fails, cushing-trial-of-lovers, repeated-failure-by-well-resourced-rivals-signals-the-wrong-axis, the-test-measures-effort-not-the-size-of-your-bundle]
+lineage:
+  - source: primary
+    text: cushing-trial-of-lovers-wealthy-suitors-fail-poor-suitor-reads-the-test
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Trial of Lovers: or the Maiden of Mátsaki and the Red Feather.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "he was a young man who had everything, he made a bundle of presents as large as he could carry; but it did him no good. He, too, ran away from the may-flies and gnats and mosquitoes... 'I do not wonder that she asks hard tasks of her lovers; for it is not of their bundles that she thinks, but of themselves.'"
+canonical-instances:
+  - "Multiple well-funded startups compete for a strategic enterprise contract by offering the lowest price and biggest feature bundle, all losing to a smaller company that correctly identified the client was actually screening for a demonstrated ability to move fast under real operational pressure during a paid pilot, not for the largest proposal."
+  - "Several wealthy, well-connected applicants to a highly selective mentorship program are rejected despite offering to donate or network on the program's behalf, while an under-resourced applicant is accepted because they alone recognized the program was filtering for demonstrated resilience under a specific hands-on trial task, not for what the applicant could bring to the table."
+critical-questions:
+  - "how would a candidate competing on the wrong currency ever detect, in real time, that repeated failures by equally well-resourced peers is evidence the test measures something else, rather than evidence that they simply need an even bigger bundle?"
+  - "is it possible the maiden's test genuinely does favor a certain kind of wealth -- access to specific knowledge, like the grandmother's tactical advice -- just not the kind the suitors assumed -- does the winning suitor's success actually disprove that wealth matters, or just that a different kind of wealth mattered?"
+  - "does recognizing 'this test measures something else' actually help if you don't have access to whatever informational advantage a knowing grandmother provided -- is the diagnostic move here actionable for someone without an equivalent insider, or does it just redescribe an outcome that depended on luck of birth?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-6fv7b
+name: a-minor-present-slight-is-projected-into-a-catastrophized-future-threat
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A ruler can observe a trivial present offense and, instead of addressing it as such, project it forward into an imagined scenario of future power loss. That projection alone becomes grounds for an immediate, disproportionate, irreversible action against a currently harmless party. The threat inflation is what converts a small present slight into grounds for a drastic act. In the Jataka's tale of Culladhammapala, a king reasons from his wife's momentary inattention straight to his own eventual loss of standing to their infant son: 'Even now this woman is filled with pride on account of her boy, and does not value me a straw, but as the boy grows up, she will think, \"I have a man for my son,\" and will take no notice of me. I will have him put to death at once.'"
+related: []
+evokes: [jataka, pancanipata, culladhammapala-jataka, threat-inflation-justifies-preemptive-action, minor-slight-projected-into-future-catastrophe]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-culladhammapala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 358, Culladhammapala-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Even now this woman is filled with pride on account of her boy, and does not value me a straw, but as the boy grows up, she will think, \"I have a man for my son,\" and will take no notice of me. I will have him put to death at once."
+canonical-instances:
+  - "A founder notices a co-founder spending extra time mentoring a talented new hire and, rather than raising the mild irritation directly, reasons forward to a future where the new hire is groomed to replace them, and moves to have the new hire fired before that imagined future ever has a chance to develop."
+critical-questions:
+  - "Is the projected future threat actually plausible, or does the act of projecting it forward manufacture a justification for something the person already wanted to do for other reasons?"
+  - "Does responding to the imagined future threat foreclose the much more likely benign outcomes, meaning the preemptive action destroys more value than the worst-case scenario it was meant to prevent?"
+status: active

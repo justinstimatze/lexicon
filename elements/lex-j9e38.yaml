@@ -1,0 +1,19 @@
+id: lex-j9e38
+name: repeating-a-fatal-assumption-without-verifying-it-first
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a threat's location or nature is inferred rather than directly observed, and a first attempt to act on that inference fails fatally, the correct response is to check the inference itself before a second party repeats the same attempt. In the Jataka's tale of the lion cubs and the jackal, a jealous jackal courting their sister is mistakenly described as lying 'up in the sky' — actually a reflection in a crystal cave the sister has never seen clearly. Six brothers in turn leap at the reflection exactly as their sister described it and are killed instantly against the crystal; only the seventh stops to ask where the jackal actually is, recognizes the description doesn't match anything real, and locates the crystal cave himself before choosing an entirely different method of attack. The sister's wrong description was only ever a guess. Six brothers in turn accepted it as verified fact instead of checking it themselves, even after watching it kill the one before them, and that repetition is the actually fatal pattern."
+related: []
+evokes: [jataka, dukanipata, sigala-jataka, unverified-inference-repeated-until-checked, diagnose-a-failed-methods-cause-before-repeating-it]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sigala-jataka-152
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 152, Sigala-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "these were all foolish, and lacked the fulness of wisdom; not knowing that this is the Crystal Cave, they beat their hearts out against it, and were killed. This is what comes of acting in rashness without due reflection;"
+canonical-instances:
+  - "After the first two engineers on a team each get paged and burn a night debugging a production alert based on a colleague's secondhand description of the failure, the third engineer on call reads the actual logs before acting and discovers the described failure mode doesn't match what's actually happening."
+critical-questions:
+  - "How many repeated failures does it typically take before someone stops trusting the inherited description and checks the underlying claim directly, and what makes that check costly enough that five people skip it in a row?"
+  - "Was the sister's original description made in good faith from a genuine limitation (never having seen the crystal cave clearly), or is the more interesting failure entirely on the brothers' side, for treating a secondhand account as equivalent to direct observation?"
+status: active

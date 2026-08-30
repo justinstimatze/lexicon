@@ -1,0 +1,19 @@
+id: lex-s83jk
+name: normalcy-is-defined-relative-to-a-known-healthy-baseline
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When judging whether a reading from a monitored system is abnormal, compare it against that system's own known-healthy baseline rather than against an absolute external standard. Hippocrates' Aphorisms: 'We must look to the urinary evacuations, whether they resemble those of persons in health; if not at all so, they are particularly morbid, but if they are like those of healthy persons, they are not at all morbid.' The diagnostic test named here is comparative rather than absolute. There is no independently defined 'normal urine' apart from what healthy people's urine actually looks like — the reference class is empirical, drawn from real observed cases, rather than derived from a theoretical ideal. This makes the whole method dependent on the baseline itself being correct. Get the baseline wrong, or never establish one at all, and every comparison built on top of it inherits the error silently."
+related: []
+evokes: [hippocrates, aphorisms, anomaly-detection-via-known-baseline, normalcy-defined-comparatively-not-absolutely]
+lineage:
+  - source: primary
+    text: hippocrates-aphorisms-adams1849-sectionVII-67
+    citation: "Hippocrates, Aphorisms, trans. Francis Adams (Sydenham Society, 1849), Section VII, §67. Verified verbatim against a direct extraction of the held copy."
+    quote: "We must look to the urinary evacuations, whether tliey resemble those of persons in health ; if not at all so, they are particularly morbid, but if they are like those of healthy persons, they are not at all morbid."
+canonical-instances:
+  - "a server-monitoring system flags CPU usage as anomalous by comparing it against that specific server's own historical baseline under normal load. A fixed universal threshold couldn't do this job: the load that would be alarming for one service is Tuesday-afternoon-routine for another."
+critical-questions:
+  - "What happens when the baseline itself is corrupted or was measured during an unrepresentative period — does the whole method silently fail by comparing against a bad reference without any way to notice the reference is bad?"
+  - "Is there ever a genuinely absolute standard that doesn't require a comparative baseline at all, or does the aphorism's logic imply that all diagnostic normalcy judgments are ultimately relative to some reference population?"
+status: active

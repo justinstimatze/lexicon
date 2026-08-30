@@ -1,0 +1,19 @@
+id: lex-z7eeq
+name: overheard-talk-shapes-behavior-and-can-be-reversed-by-the-same-channel
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Someone can absorb a disposition purely from ambient talk they weren't the intended audience for. Reversing it can work through that same unaddressed channel, rather than through direct correction. In the Jataka's tale of the royal elephant, the animal overhears burglars planning violence near his stall and internalizes it, turning vicious with no one ever having instructed him to. He's reformed not by scolding or retraining aimed at him directly, but by having virtuous men seated to talk near him instead, so the same passive listening that made him vicious remakes him gentle. The mechanism doesn't require the listener to be an intended party to either conversation — proximity and repetition did the shaping both times."
+related: []
+evokes: [jataka, ekanipata, mahilamukha-jataka, ambient-exposure-shapes-behavior, reverse-the-channel-not-the-target]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahilamukha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 26, Mahilamukha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Through hearing first the burglars' wicked talk Damsel-face ranged abroad to wound and kill; Through hearing, later, wise men's lofty words The noble elephant turned good once more."
+canonical-instances:
+  - "A new hire absorbs a cynical, corner-cutting attitude toward safety procedures just from sitting near a break room where veteran staff complain about them daily, and is later turned around not through a formal safety briefing but by being moved to a desk near a team that discusses near-misses seriously and often."
+critical-questions:
+  - "Does this channel only work on someone with no strong prior disposition of their own, or can enough repeated ambient exposure override an established character just as it shaped an unformed one?"
+  - "How would anyone know in advance which kind of talk a given space is quietly conditioning the people inside it toward, before the effect becomes visible in someone's behavior?"
+status: active

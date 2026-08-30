@@ -1,0 +1,19 @@
+id: lex-dgvep
+name: after-defeating-the-threat-hunt-down-whoever-was-profiting-from-it
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Defeating a direct, visible threat isn't the end of the danger if someone else was orchestrating or profiting from it behind the scenes — the group's next move should be asking who benefited from the threat's presence, not simply celebrating its removal. In the Jataka's tale, a herd of boars kills the tiger that had been picking them off one at a time, and their leader's first question afterward isn't whether they're safe but whether there's another enemy: \"Well, don't you like it?\" \"My lord, you have done for the Tiger, and that's one; but there is another left worse than ten tigers... A sham ascetic, who eats the meat which the Tiger brings him from time to time.\" The boars immediately hunt down and kill the ascetic too — the tiger's handler and beneficiary, not merely its victim's predator."
+related: []
+evokes: [jataka, pakinnakanipata, taccha-sukara-jataka, pursuing-the-beneficiary-behind-a-defeated-threat, a-visible-predator-can-have-an-invisible-patron]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-taccha-sukara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XIV (Pakinnaka-Nipata), No. 492, Taccha-sukara-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "My lord, you have done for the Tiger, and that's one; but there is another left worse than ten tigers... A sham ascetic, who eats the meat which the Tiger brings him from time to time."
+canonical-instances:
+  - "A neighborhood watch group that finally catches the person breaking into cars doesn't stop there — they ask who was fencing the stolen goods, since removing the thief without touching the buyer just leaves an incentive structure in place for the next opportunist to fill the same role."
+critical-questions:
+  - "This story is substantially a retelling of the same boar-and-tiger tale in Book III's Vaddhaki-sukara-Jataka (No. 283), already mined for its coordinated-mimicry deterrence move and its feigned-weakness pincer-trap frame story. Is the sham ascetic's elimination a genuinely distinct beat this telling adds, or a detail present in both tellings that the earlier pass simply didn't surface?"
+  - "The boars only learn the sham ascetic exists because one of them happens to know he's been eating the tiger's kills. What does the group do when the threat's beneficiary is real but genuinely unknown to anyone in the group — is the instinct to look for a hidden patron useful without a lead to act on?"
+status: active

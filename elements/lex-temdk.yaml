@@ -1,0 +1,21 @@
+id: lex-temdk
+name: declining-needed-help-in-front-of-a-host-to-preserve-appearances
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "Turning down real, needed help in the moment it's offered, purely to look self-sufficient in front of the person offering it, can leave you and the people depending on you without something you actually cannot afford to lack. In Radin's Winnebago Trickster cycle, snipe generously offers Trickster extra fish to bring home to his hungry children: 'Older brother, take some fish along for the children. I can go out and get some for you.' Trickster refuses, and the narrator is explicit about both the lie and its purpose: ''Younger brother, we have some fish to eat at home,' answered Trickster with pretended dignity. As a matter of fact, of course, they were keenly in want of food. He said this simply to make an effect.' There is no strategic reason for the refusal; his family is genuinely without food, and the offer would have solved it directly. The only thing preserved by declining is the appearance, to snipe, that Trickster's own household does not need this. Diagnostic move: when you catch yourself refusing real, offered help specifically because accepting it would look like an admission of lack in front of the person offering, separate the two costs before answering -- what the refusal actually protects, other people's temporary impression of you, against what it actually costs, the real thing you and your dependents keep going without."
+related: []
+evokes: [radin-winnebago-trickster-cycle, wakdjunkaga, pretended-dignity, he-said-this-simply-to-make-an-effect]
+lineage:
+  - source: primary
+    text: radin-trickster-declines-needed-fish-out-of-pretended-dignity
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'The Winnebago Trickster Cycle,' episode 42. Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "When he finished eating he thanked them and said, 'Ah, my younger brother, it is good that you have all the fish you want. Older brother, take some fish along for the children. I can go out and get some for you.''Younger brother, we have some fish to eat at home,' answered Trickster with pretended dignity. As a matter of fact, of course, they were keenly in want of food. He said this simply to make an effect."
+canonical-instances:
+  - "A small business owner turns down a supplier's offer of a short-term credit extension during a genuine cash crunch, telling them 'we're fine, just being cautious,' purely to avoid looking like the business is struggling, and misses payroll the following week that the credit extension would have covered."
+  - "A parent declines a neighbor's offer to drive their child to school during a week the family car is broken down, insisting 'we've got it handled,' specifically to avoid looking like they can't manage on their own, and the child ends up missing two days of school walking in bad weather that the ride would have solved."
+critical-questions:
+  - "Is Trickster's refusal purely about appearances in this specific instance, or is there a longer-term relationship cost to repeatedly accepting help from the same generous relative that might justify some genuine reluctance, distinct from pretended dignity?"
+  - "Does the narrator's explicit statement that this was done 'simply to make an effect' change how the reader should judge the refusal, compared to a version of the story where Trickster's motive was left ambiguous or where he seemed to sincerely believe his own claim?"
+  - "Would snipe have respected Trickster less, or more, if Trickster had simply admitted the household was out of food and accepted the fish -- does the story give any indication of whether the appearance being protected was ever actually at risk?"
+status: active

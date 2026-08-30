@@ -1,0 +1,34 @@
+id: lex-hng49
+name: mentor-as-scaffolded-transmission
+type-in: state
+type-out: process
+_tier: atomic
+agent-instruction: "When someone is stuck at the edge of their competence, surface that scaffolded transmission by a mentor (modeling + diminishing support) is the vital path — not raw practice or pure study."
+related: [lex-3qnt2, lex-e2yxr, lex-gng22, lex-h7vet, lex-k2gnb, lex-ke8xx, lex-maq83, lex-t78sc, lex-utuy6, lex-uz7g4]
+scaffolds-from: [lex-3qnt2, lex-e2yxr, lex-gng22, lex-h7vet, lex-k2gnb, lex-ke8xx, lex-maq83, lex-t78sc, lex-utuy6, lex-uz7g4]
+evokes: [the-experienced-figure-shows-the-way, scaffolded-knowledge-transfer, the-guru-relationship, zone-of-proximal-development, transmission-via-relationship]
+lineage:
+  - source: practitioner
+    text: vygotsky-1934-mind-in-society
+    citation: "Lev Vygotsky, Mind in Society: The Development of Higher Psychological Processes (Harvard UP, 1978; ed. Cole, John-Steiner, Scribner, Souberman; compiled and translated from Russian sources written 1929-1934). Chapter 6 'Interaction Between Learning and Development,' p.86 — the zone of proximal development as the gap between what a learner can do alone and what they can do with scaffolded help from a more-experienced other. The transmission requires the relationship; the gap IS the operational space"
+    quote: "The zone of proximal development. It is the distance between the actual developmental level as determined by independent problem solving and the level of potential development as determined through problem solving under adult guidance or in collaboration with more capable peers."
+  - source: practitioner
+    text: campbell-1949-hero-with-thousand-faces
+    citation: "Joseph Campbell, The Hero with a Thousand Faces (1949) — the Mentor / Supernatural Aid stage of the monomyth: the hero meets a wisdom-figure (often older, often with magical or specialized knowledge) who provides what the hero needs to cross the threshold. Recurring cross-culturally"
+  - source: practitioner
+    text: mythology-decomposition-pass
+    citation: "promoted from cross-attestation: narrative tradition (Obi-Wan→Luke, Athena→Telemachus, Mr. Miyagi, Yoda, Mr. Holland, etc.); Tarot's Hierophant (transmitter of tradition) and Hermit (mentor through example); Vygotsky's zone of proximal development (developmental psychology); medieval guild apprenticeship → modern engineering pair-programming and code-review (apprenticeship traditions); Buddhist guru-disciple transmission and Zen lineage (religious transmission); Carl Rogers' therapeutic relationship (Client-Centered Therapy 1951 — therapist as scaffolder of client's own movement); Propp's 'Donor' function (Morphology of the Folktale 1928 — narratorial role identified cross-culturally in Russian folktale corpus). Cross-domain across developmental psychology, education, religious transmission, therapy, and software-engineering practice"
+canonical-instances:
+  - "Vygotsky's zone of proximal development: a child can solve simpler problems alone but more complex problems with adult guidance; the GAP is where development happens. The mentor doesn't solve for the learner — they hold the scaffold for the learner's own work, then progressively remove it"
+  - "engineering pair-programming: senior + junior engineer at one keyboard; the senior doesn't write the code for the junior, but holds context and asks questions that scaffold the junior's own discovery. The transmission requires the relationship — written documentation alone doesn't substitute"
+  - "Mr. Miyagi's wax-on-wax-off (Karate Kid 1984): the mentor assigns work that doesn't appear to be the target skill but is structured to build the substrate for it; the learner only retroactively discovers the scaffolded nature of the assignment. Classic narrative-tradition deployment"
+  - "Buddhist guru transmission (specifically Vajrayana): empowerments are not information-transmission but relational-attunement transmission — what's transmitted requires the embodied teacher and the student's readiness; the relationship IS the medium"
+  - "operationally distinct from lex-gng22 perspective-shift-via-imagined-other: imagined-other is a SOLO query move (you imagine what your friend would say); mentor-as-scaffolded-transmission requires the actual relational presence of an other who is more-experienced and willing to scaffold. The realness of the other is central"
+  - "operationally a specific kind of lex-uz7g4 archetype-as-projective-shorthand: the mentor figure (Wise Old Man, Hierophant, Sage) is one of the canonical archetypal handles — but this atom is the operational MOVE (scaffolded transmission), not just the figure-as-handle"
+  - "critical critical question: is the mentor actually scaffolding (holding the gap for learner movement) or solving-for-the-learner (which trains dependency, not capability)? The wax-on-wax-off shape requires that the learner do the actual work; the mentor only structures it"
+critical-questions:
+  - "is the mentor modeling the actual move at the learner's edge, or transmitting the polished retrospective version?"
+  - "is support diminishing as competence grows, or is it stuck (mentor-dependence) — what's the off-ramp criterion?"
+  - "is the bottleneck transmission (mentor scarcity) or readiness (lex-utuy6) — fixing the wrong one wastes both sides"
+  - "what becomes invisible when the mentor relationship is the channel? whose patterns are NOT being transmitted?"
+status: active

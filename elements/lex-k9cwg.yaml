@@ -1,0 +1,20 @@
+id: lex-k9cwg
+name: an-improvised-official-mission-converts-captors-into-escorts
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Caught by a hostile authority with no leverage and no time to plan, invent an official mission on the spot that only makes sense if the captors treat you as a messenger rather than a prisoner — the fabrication works because acting on it costs the captors nothing to verify and everything to ignore if it turns out true. In the Bhuridatta-Jataka, a tortoise thrown into a whirlpool as punishment lands among hostile young Nagas who cry "Seize that slave"; with nothing to work with, he invents on the spot that he is a royal messenger sent to arrange a marriage between the king of Benares and the Naga king: "our king has sent me as he wishes to give his daughter to King Dhatarattha." The Nagas, unable to instantly disprove it and unwilling to risk insulting their own king by killing a diplomat, escort him to the Naga king in honor instead of executing him.'
+related: []
+evokes: [jataka, mahanipata, bhuridatta-jataka, improvised-cover-story, false-credential, captor-as-escort]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-bhuridatta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 543, Bhuridatta-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Why do you speak in this way who belong to the court of King Dhatarattha? I am a tortoise named Cittacula, and I am come to Dhatarattha as a messenger from the king of Benares; our king has sent me as he wishes to give his daughter to King Dhatarattha, shew me to him."
+canonical-instances:
+  - "A trespasser caught on a construction site at night claims on the spot to be the night inspector sent by the city, and the confused security guard walks them out through the gate rather than detaining them."
+  - "A hacker caught mid-intrusion on a phone call poses as an IT technician sent to fix the very system they were breaching, and the panicked employee on the other end grants remote access instead of hanging up."
+critical-questions:
+  - "The lie here escalates far beyond the tortoise's control — the fabricated marriage proposal nearly starts a war once the Nagas act on it in good faith — does a cover story's success at the moment of capture guarantee anything about its cost once others build on it as true?"
+  - "The tactic depends on the captors having more to lose by verifying wrongly than by escorting cautiously — what kind of captor is immune to it because they'd rather kill first and risk the insult than take the chance?"
+status: active

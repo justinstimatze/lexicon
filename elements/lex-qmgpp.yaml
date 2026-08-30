@@ -1,0 +1,18 @@
+id: lex-qmgpp
+name: refutation-by-a-cascading-series-of-escalating-negative-images
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: 'A speaker refuting a claim in favor of some desire can overwhelm it not with logical argument but with an accumulating series of increasingly vivid, painful physical images, using the sheer density and escalation of imagery itself as the persuasive mechanism rather than any single decisive point. In the Jataka''s tale of the five Pacceka-Buddhas, the king refutes his queen''s praise of desire by piling image upon image of increasing violence: "Than sword well whetted, or a blade implacable, athirst, Than knives deep driven in the heart, desires are more accurst. A pit as deep as men are tall, where live coals blazing are, A ploughshare heated in the sun,—desires are worser far."'
+related: []
+evokes: [jataka, ekadasanipata, paniya-jataka, cascading-negative-imagery, persuasion-by-accumulation]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-paniya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 459, Paniya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Than sword well whetted, or a blade implacable, athirst, Than knives deep driven in the heart, desires are more accurst. A pit as deep as men are tall, where live coals blazing are, A ploughshare heated in the sun,—desires are worser far."
+canonical-instances:
+  - "An anti-smoking ad doesn't rely on the statistic alone but stacks image after image — the tar-blackened lung, the amputated foot, the child breathing secondhand smoke through a hospital window — letting accumulation do work no single fact would."
+critical-questions:
+  - "Does piling on escalating imagery actually strengthen the underlying claim, or does it just produce an emotional overwhelm that substitutes for, rather than supports, the argument being made?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-f7b3m
+name: acting-on-an-ambiguous-cue-forecloses-checking-the-actual-outcome
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When you return to a scene bearing a single alarming cue, treat the impulse to act on it immediately as itself the danger, since acting forecloses the few seconds that would let you check what actually happened. The Panchatantra's mongoose kills a snake to save a family's baby, then runs to greet the returning mother with a bloody mouth; she reads the blood as evidence the mongoose has eaten her child and kills him on the spot — only to find the baby safe and the dead snake beside him. The moral names the general failure: 'Let the well-advised be done; ill-advised leave unbegun: else, remorse will be let loose, as with lady and mungoose.' The mother's cue (blood, excitement) was real evidence of something, but she filled in what it was evidence of rather than spending the trivial extra time needed to check."
+related: []
+evokes: [panchatantra, ill-considered-action, ambiguous-cue-forecloses-verification, snap-threat-assessment-kills-a-defender]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-the-loyal-mungoose
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book V, 'The Loyal Mungoose.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Let the well-advised be done; Ill-advised leave unbegun: Else, remorse will be let loose, As with lady and mungoose."
+canonical-instances:
+  - "a manager sees a direct report's code deployed just before a production outage and immediately fires them in front of the team, only to learn afterward that the report's change had actually contained an unrelated bug and their deploy had nothing to do with the actual outage — a few minutes of checking the logs would have shown this before any irreversible action was taken."
+critical-questions:
+  - "Is there a general amount of delay that would have been enough for the mother to check safely, or does the fable's lesson only work in hindsight, when we already know what the extra seconds would have revealed?"
+  - "Does this claim generalize to situations where checking first genuinely isn't possible — a real emergency where any delay at all would let an actual threat escape or worsen — or does the fable assume a margin for verification that not every ambiguous-cue situation actually has?"
+status: active

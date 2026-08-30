@@ -1,0 +1,19 @@
+id: lex-enst8
+name: a-formal-convention-is-hijacked-when-gatekeepers-check-form-not-substance
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A trust-based social convention that grants automatic passage or privilege to anyone who invokes the right words can be exploited by someone with no legitimate claim to it at all, because the gatekeepers enforcing the convention check only that the form was followed, never whether the substance behind it is real. In the Jataka's tale of the hungry commoner, a custom grants unimpeded passage to anyone who shouts a specific word: 'At that time and in that nation, if a man called out \"Messenger!\" no one would stay him; and so it was that the multitude divided and gave him way to pass.' The man has no message and no official standing. He simply says the word that unlocks the passage, and the checkpoint verifies nothing beyond that."
+related: []
+evokes: [jataka, tikanipata, duta-jataka, a-checkpoint-verifies-the-claims-form-not-its-truth, invoking-the-right-words-substitutes-for-a-legitimate-claim]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-duta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 260, Duta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "(At that time and in that nation, if a man called out \"Messenger!\" no one would stay him; and so it was that the multitude divided and gave him way to pass.)"
+canonical-instances:
+  - "An office worker with no actual authorization walks past building security every day simply by holding up a badge-shaped card and saying 'delivery,' because the guards have been trained to wave through anyone who says the word rather than to check whether the card or the claim is genuine."
+critical-questions:
+  - "Is this really a flaw in the convention itself, or an acceptable tradeoff — does verifying every claimed messenger's substance cost more in delay and friction than the occasional exploit like this one costs?"
+  - "Suppose the checkpoint were tightened to verify substance instead of form. Is there any reason to think a more elaborate performance of legitimacy couldn't defeat that version too?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-8tk5h
+name: sabotage-by-nomination-for-an-impossible-task-backfires
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Jealous rivals who can't attack a threat directly sometimes nominate them for a task designed to be publicly unachievable, hoping the failure discredits them — a maneuver that backfires catastrophically if the target actually succeeds, converting an intended humiliation into a spectacular public demonstration of skill. In the Jataka's tale of Prince Peerless, resentful court archers, annoyed that a newcomer is paid more than they are, maneuver the king into tasking him with an impossible trick shot: 'The newcomer is so much better paid than we, that perhaps you might make him bring down the fruit.' He pulls it off with a display so precise and theatrical that the court showers him with gifts amounting to ten million pieces of money. The rivals didn't just fail to discredit him — they handed him the exact stage his skill needed to become undeniable."
+related: []
+evokes: [jataka, dukanipata, asadisa-jataka, an-impossible-task-nominated-to-discredit-becomes-a-showcase, jealousy-hands-a-rival-the-stage-it-meant-to-deny-them]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-asadisa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 181, Asadisa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The newcomer is so much better paid than we, that perhaps you might make him bring down the fruit."
+canonical-instances:
+  - "Veteran colleagues resentful of a new hire's salary suggest management assign them the account everyone privately considers unsalvageable, expecting a quick, humiliating failure, and instead watch the new hire turn it into the team's biggest win of the year."
+critical-questions:
+  - "Did the rivals actually misjudge Peerless's skill, or did they correctly judge the odds and simply lose an acceptable gamble — is 'this backfired' the right frame, or was it always a coin flip they happened to lose?"
+  - "Would the outcome have been different if the rivals had proposed a task that was merely difficult rather than something everyone including the king believed was truly impossible — does the extremity of the impossibility claim make the eventual triumph land harder?"
+status: active

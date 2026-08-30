@@ -1,0 +1,22 @@
+id: lex-4txf9
+name: distributed-innocuous-questions-reassemble-into-a-forbidden-picture
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "A group can extract a sensitive aggregate picture from informants who never realize they are being profiled, by spreading the inquiry across many different questioners asking many different, individually-innocent-seeming questions over time, then combining every answer like a picture puzzle into a composite chart the informants never saw coming. The tell that would give the operation away -- a shocked expression, an exclamation, a visible reaction -- has to be withheld throughout, or the informants would notice they were being read and start guarding their answers. Gilman states the method and its concealment together: 'With the lightest touch, different women asking different questions at different times, and putting all our answers together like a picture puzzle, they had figured out a sort of skeleton chart as to the prevalence of disease among us... Never a shocked expression of the face or exclamation of revolt had warned us; they had been extracting the evidence without our knowing it all this time.'"
+related: []
+evokes: [herland, chapter-12, putting-all-our-answers-together-like-a-picture-puzzle, never-a-shocked-expression-of-the-face-had-warned-us, distributed-questions-reassembled-without-the-informants-knowing]
+lineage:
+  - source: primary
+    text: gilman-1915-herland-chapter-12
+    citation: "Charlotte Perkins Gilman, Herland (1915), Chapter 12, 'Expelled.' Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "Little had we thought that our careful efforts at concealment had been so easily seen through, with never a word to show us that they saw. They had followed up words of ours on the science of optics, asked innocent questions about glasses and the like, and were aware of the defective eyesight so common among us. With the lightest touch, different women asking different questions at different times, and putting all our answers together like a picture puzzle, they had figured out a sort of skeleton chart as to the prevalence of disease among us. Even more subtly with no show of horror or condemnation, they had gathered something--far from the truth, but something pretty clear--about poverty, vice, and crime... Never a shocked expression of the face or exclamation of revolt had warned us; they had been extracting the evidence without our knowing it all this time."
+canonical-instances:
+  - "A competitor never asks a departing engineer directly what a rival's unreleased product does; instead, different interviewers ask different, unrelated-sounding questions across several casual conversations over months, and an analyst later assembles the scattered answers into a fairly complete picture of the roadmap the engineer never realized they had disclosed."
+  - "A journalist investigating a closed institution sends several different volunteers to ask staff innocuous, disconnected questions about scheduling, supply orders, and staffing patterns over separate visits, none of which alone reveals anything, then combines the answers into an accurate picture of internal conditions the institution never intended to make public."
+  - "A market researcher trains a survey team to never react visibly to any answer, however alarming, and spreads related questions thin across many different respondents and sessions so no single one notices what topic is being mapped. The resulting aggregate finding is one none of the individual respondents would ever have agreed to help produce."
+critical-questions:
+  - "How reliable is a picture assembled this way -- since no single informant confirmed the whole, how much of the final chart is genuine signal versus an artifact of how the pieces happened to be combined?"
+  - "Is there a meaningful ethical line between reconstructing a public aggregate fact this way and reconstructing something the informants would have actively refused to disclose if asked directly and all at once -- does the piecemeal method make an otherwise-refused disclosure legitimate simply because no single question crossed a line?"
+  - "Does the informants' later discovery that they were profiled this way change the trust in the relationship going forward, or does the method's very subtlety mean the discovery, if it ever comes, arrives too late to matter?"
+status: active

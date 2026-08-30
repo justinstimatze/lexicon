@@ -1,0 +1,19 @@
+id: lex-5c45y
+name: adversaries-who-believe-themselves-unobserved-leak-to-a-listener
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Two parties in conflict, believing they are alone together, will often taunt each other with exactly the information a hidden third party needs. Their confidence in being unobserved is the entire mechanism behind the leak. In the Panchatantra, two supernatural adversaries argue privately, each mocking the other's specific vulnerability: 'in this fashion each laid bare the other's weakness.' A princess hidden behind a branch hears every word neither adversary intended for her, and acts on it directly: 'the princess, hiding behind a branch, overheard their conversation, and did just as they suggested.' Neither adversary meant to help her. Both simply felt safe enough in their privacy to say aloud what a wary audience would never risk revealing."
+related: []
+evokes: [panchatantra, crows-and-owls, unobserved-adversaries-leak-to-a-hidden-listener, confidence-of-privacy-enables-the-leak]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-the-snake-in-the-princes-belly
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book III, 'The Snake in the Prince's Belly.' Verified verbatim against a direct extraction of the held copy."
+    quote: "In this fashion each laid bare the other’s weakness."
+canonical-instances:
+  - "two rival executives arguing privately in what they believe is an empty conference room each reveal, in the heat of mutual accusation, the specific vulnerability the other could exploit against them — unaware a junior employee working late in an adjacent room, visible through a glass wall neither of them checked, hears the entire exchange and later uses it."
+critical-questions:
+  - "Does this mechanism actually require genuine conflict between the two parties, or would two allies speaking freely in a moment of assumed privacy be just as likely to leak exploitable information to an unseen listener?"
+  - "Is the princess's presence purely coincidental good fortune, or is there a general lesson here about how often adversaries in genuine conflict fail to check whether they're actually alone before speaking freely?"
+status: active

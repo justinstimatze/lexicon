@@ -1,0 +1,21 @@
+id: lex-y7det
+name: repeating-an-unsolicited-request-erodes-its-own-sincerity
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone asks the same question a second or third time without new information prompting it, treat the repetition itself as evidence against the sincerity the first ask displayed, not as a courtesy failure to be smoothed over. The I Ching's Appendix I states this as a teacher's stated policy, not a mood: 'I do not seek the youthful and inexperienced; he seeks me... When he shows (the sincerity that marks) the first recourse to divination, I instruct him... A second and third application create annoyance, and I do not instruct so as to create annoyance.' The refusal functions as a diagnostic move rather than personal offense. A genuine first request already carries its own sincerity; asking again without anything new to justify it undercuts that sincerity rather than reinforcing it."
+related: []
+evokes: [i-ching, yi-jing, legge, ten-wings, tuan-zhuan, sincerity-diagnostic]
+lineage:
+  - source: primary
+    text: legge-1899-i-ching-appendix-i-mang
+    citation: "James Legge, translator, The Yî King (I Ching), Sacred Books of the East vol. 16 (Oxford University Press, 1899), Appendix I ('Treatise on the Thwan'), commentary on Hexagram IV (Măng, youthful inexperience). Verified verbatim against a direct extraction of the text hosted at sacred-texts.com, clean digital text, no OCR."
+    quote: "'I do not seek the youthful and inexperienced; he seeks me:'--so does will respond to will. 'When he shows (the sincerity that marks) the first recourse to divination, I instruct him:'--for possessing the qualities of the undivided line and being in the central place, (the subject of the second line thus speaks). 'A second and third application create annoyance, and I do not instruct so as to create annoyance:'--annoyance (he means) to the ignorant."
+canonical-instances:
+  - "The passage frames the exchange as bidirectional from the start — 'so does will respond to will' — meaning the teacher's willingness to instruct was already conditional on the student's will showing up first; a repeated ask signals that will wasn't firm enough to act on its own answer, which is the opposite of what a sincere first request is supposed to demonstrate."
+  - "A customer who calls a company's support line, gets a clear answer, then calls back the same day asking the identical question is giving the support agent the same signal this passage names — the repetition reads as distrust of the first answer, not as diligence."
+critical-questions:
+  - "Does the rule risk punishing a genuine case of forgetting or a changed situation, where a second ask really is warranted and isn't evidence of insincerity at all?"
+  - "Is the diagnosis symmetric — does a teacher who answers every repeated question without complaint actually train more insincerity into future requests, by removing the cost this rule imposes?"
+  - "Does the mechanism require the asker to already know the first answer was adequate, or does it also apply when the first answer was genuinely unclear and a second ask is a request for clarification rather than a repeat?"
+status: active

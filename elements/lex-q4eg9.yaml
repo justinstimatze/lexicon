@@ -1,0 +1,20 @@
+id: lex-q4eg9
+name: single-embodied-affect-test-replaces-per-item-deliberation
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When facing a large number of similar keep-or-discard decisions, consider replacing a battery of analytic criteria (unworn-in-two-years, one-in-one-out, might-need-it-someday) with one cheap, embodied test applied identically to every item. Kondo's method — physically touching each item and noticing the body's reaction — arrived only after her elaborate rule-based systems produced exhaustion without lasting order. The mechanism generalizing past tidying: a single proxy that can be applied consistently and requires no case-by-case justification may outperform a more 'accurate' multi-criteria system that's too effortful to sustain across hundreds of decisions, because the multi-criteria system's real failure mode is getting abandoned partway through — the criteria themselves are usually fine; nobody keeps applying them long enough for that to matter."
+evokes: [kondo, konmari, spark-joy, decision-heuristic, embodied-cognition]
+lineage:
+  - source: primary
+    text: kondo-2014-life-changing-magic-of-tidying-up
+    citation: "Marie Kondo, The Life-Changing Magic of Tidying Up (Ten Speed Press, 2014). No page/chapter numbers recoverable from the ebook-convert extraction (mobi source); cited by passage — the account of her own discard-fatigue breakdown that produced the method. Verified verbatim, clean ebook text, no OCR."
+    quote: "Through this experience, I came to the conclusion that the best way to choose what to keep and what to throw away is to take each item in one's hand and ask: 'Does this spark joy?' If it does, keep it. If not, dispose of it. This is not only the simplest but also the most accurate yardstick by which to judge. ... you must take each outfit in your hand. When you touch a piece of clothing, your body reacts."
+canonical-instances:
+  - "Kondo's own prior method: applying a checklist (unworn for two years, discard one item per new purchase, throw out anything uncertain) produced thirty bags of discarded items in a month with no lasting improvement in tidiness, and increasing irritability from the constant vigilance the checklist demanded — the failure that motivated replacing the checklist with the single embodied test."
+  - "operationally distinct from ordinary satisficing (Simon), which lowers the bar for how good a single decision needs to be: this atom is about swapping an entire battery of decision criteria for one physically-administered proxy, a change to the shape of the decision procedure itself."
+critical-questions:
+  - "Does the embodied-affect proxy track what the decision-maker would endorse on reflection, or is it picking up short-term novelty and sentiment that produces regret later? Kondo asserts it's 'the most accurate yardstick'; nothing in the source independently tests that against a criterion of later-reported satisfaction."
+  - "Does this generalize past physical possessions to decisions with no physical object to hold — a commitment, a relationship, a project? The embodiment (literally touching the item) may be doing real work that a purely abstract single-question proxy can't replicate."
+  - "What happens when the single test gives an ambiguous or absent reading — an item that sparks neither joy nor aversion? Kondo's method has less to say about the large middle category than about clear positive or negative cases."
+status: active

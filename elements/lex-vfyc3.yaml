@@ -1,0 +1,24 @@
+id: lex-vfyc3
+name: an-external-redefinition-can-flip-a-stable-practices-moral-valence
+type-in: situation
+type-out: state
+_tier: atomic
+agent-instruction: "A practice can remain completely unchanged in itself while its moral valence flips entirely because of an external redefinition event that has nothing to do with the practice's actual operation — a DDT manufacturer who spent years confident he was saving thousands of lives became, after Silent Spring's publication, retroactively cast as a mass murderer of falcons and robins, with no change in what the work itself was. The person who lived through this doesn't necessarily land on either the old self-story or the new external one; a documented reaction is bemusement rather than either guilt or defensive vindication — a refusal to fully internalize either verdict, old or new. This is distinct from simple regret or denial: it's a genuine unresolved doubling where the same set of facts sits under two incompatible moral framings and the person occupies neither cleanly."
+related: []
+evokes: [jackall-moral-mazes, "a feeling of disappointment without a feeling of shame", moral-valence-flips-without-the-underlying-facts-changing]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch6-ddt-murderer-of-falcons
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 6, Dexterity with Symbols."
+    quote: "I knew that I was saving thousands of lives by doing this."
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch6-ddt-bemused
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 6, Dexterity with Symbols."
+    quote: "I guess I'm more bemused than anything else."
+canonical-instances:
+  - "A researcher who spent a career studying a substance later reclassified as hazardous describes feeling neither guilty for the original work nor fully vindicated by the honest state of knowledge at the time — settling instead into a persistent, unresolved bemusement at how completely the same body of work can be recast."
+critical-questions:
+  - "Is bemusement here a mature, honest response to a genuinely unresolvable situation, or is it a comfortable third option that lets the person avoid the harder work of either full accountability or full defense of the original choice?"
+status: active

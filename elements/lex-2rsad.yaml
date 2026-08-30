@@ -1,0 +1,57 @@
+id: lex-2rsad
+name: identity-protective-belief-maintenance
+type-in: claim
+type-out: posture
+_tier: reaction
+agent-instruction: "When someone won't update on disconfirming evidence, check whether the belief is identity-constitutive. They're not defending the claim; they're defending what believing it makes them. Address the identity stakes, not just the claim."
+related: [lex-znaau, lex-we98d, lex-t9fs7, lex-rcj6y, lex-u8u7y, lex-vacbr, lex-vtytt, lex-jw34x, lex-e5des, lex-gc6ek, lex-x6sbv, lex-k2kdc, lex-d7h2y, lex-cgqta, lex-ymckb, lex-cjuza, lex-85bw8, lex-5kjya, lex-fzd6w, lex-xehnw, lex-96xn9, lex-s27um, lex-fjzum, lex-w3e3z, lex-rptqb, lex-gwx3j, lex-yv8ag, lex-6tvr6, lex-4ydm6, lex-cxffc, lex-e3ddu, lex-z8hbu, lex-y48fs, lex-k8bsd, lex-fv4a3, lex-qg68a, lex-7tvr6, lex-am8cj, lex-55dm8, lex-5qkj9, lex-nb82m, lex-ttaq9, lex-tqd9x, lex-6nj6k, lex-q4kj7]
+scaffolds-from: [lex-t9fs7, lex-rcj6y, lex-vacbr, lex-we98d, lex-rptqb]
+evokes: [kahan-numeracy-paradox, the-tribe-defends-the-claim, smarter-rationalizing, motivated-protection-of-self-concept, the-stack-that-keeps-the-belief-alive]
+reactants:
+  - "a claim C threatening self-concept S in domain D"
+conditions:
+  - "C is genuinely identity-threatening (not a false positive) AND the belief is identity-load-bearing AND no within-tribe authority has yet accepted C (within-tribe acceptance suspends the reaction)"
+mechanism: "motivated-reasoning (lex-rcj6y) selects interpretation I of C such that ¬threat(I, S) — the constitutive first step; identity-protective-cognition (lex-vacbr) crystallizes posture P = defend(I) tied to identity — the constitutive terminal step; lex-t9fs7 confirmation-bias then directs ongoing evidence-search toward I-supporting material (the forward-looking monitor over the transformation). C is defended against, often with the defended belief MORE entrenched than baseline (Festinger When-Prophecy-Fails dynamic)"
+catalysts:
+  - lex-t9fs7 # confirmation-bias directs ongoing evidence-search reinforcing the defended posture (Wason 1960; Nickerson 1998)
+  - "high cognitive-reflection ability (Kahan 2013 numeracy-paradox): better reasoning tools make the defense HARDER, not softer — the machinery fires harder with better tools"
+products:
+  - "an identity-protective defended-posture: the threatening claim is reframed/dismissed and the belief is often more entrenched than baseline"
+inhibitors:
+  - "a within-tribe authority accepting C (suspends identity-protection); a meta-cognitive break (the agent notices the motivated-reasoning operation themselves); overwhelming cumulative evidence (weakens the defense in some subjects, though it strengthens it in others — Kahan numeracy-paradox)"
+reversibility: "tribe-determined — fires on the tribe's stance, so if the in-group itself shifts (Catholic Church on Galileo; a party flip) the defense reverses direction; identity-protection is pro-tribe-alignment, not pro-status-quo"
+critical-questions:
+  - is C actually identity-threatening, or is the apparent threat illusory and the molecule firing on a false positive?
+  - has the participant noticed the motivated-reasoning operation themselves (meta-cognitive break)?
+  - is there a within-tribe authority who has accepted C? (within-tribe acceptance suspends identity-protection)
+  - what's the cost of accepting C vs cost of defending against it under a Bayesian-rational analysis? (the molecule fires regardless, but cost-asymmetry predicts intensity)
+  - is the molecule operating on a single claim or a cumulative-evidence stream? (the molecule weakens against overwhelming evidence in some subjects but strengthens in others — Kahan 2013 numeracy-paradox)
+lineage:
+  - source: practitioner
+    text: kahan-2013-ideology-motivated-reasoning-cognitive-reflection
+    citation: "Dan Kahan, 'Ideology, motivated reasoning, and cognitive reflection,' Judgment and Decision Making 8(4):407-424 (July 2013) — the canonical paper demonstrating that cognitive-reflection ability AMPLIFIES motivated-reasoning when conclusions are identity-relevant. Subverts the assumption that better-thinking would correct bias. Already in lex-vacbr lineage; here ported with assembly-step framing as the terminal-step engine"
+    quote: "Subjects who scored highest in cognitive reflection were the most likely to display ideologically motivated cognition. [Abstract.] The goal of protecting one's identity or standing in an affinity group that shares fundamental values can generate motivated cognition relating to policy-relevant facts. [Section 2 definition.] The tendency of subjects (varying in political dispositions) to form ideologically congenial assessments of the validity of the Cognitive Reflection Test became progressively more pronounced as subjects' CRT scores increased. [Central empirical claim — counterintuitive numeracy-paradox finding that subverts standard dual-process predictions. This molecule names the structural machinery the Kahan finding documents: motivated-reasoning (step 2) selects identity-protective interpretation, identity-protective-cognition (step 3) crystallizes the defense-posture. Higher cognitive-reflection ability is more machinery, not less bias — the molecule fires harder with better tools, not softer.]"
+  - source: practitioner
+    text: kunda-1990-case-for-motivated-reasoning
+    citation: "Ziva Kunda, 'The Case for Motivated Reasoning,' Psychological Bulletin 108(3):480-498 (1990) — the canonical statement of motivated-reasoning as a cognitive process. Already in lex-rcj6y lineage; verbatim from fbaum.unc.edu/teaching/articles/Psych-Bulletin-1990-Kunda.pdf abstract. Here ported as the engine of the assembly's first step (motivated-reasoning selects identity-protective interpretation of threatening claim)"
+    quote: "Motivation may affect reasoning through reliance on a biased set of cognitive processes — that is, strategies for accessing, constructing, and evaluating beliefs. The motivation to be accurate enhances use of those beliefs and strategies that are considered most appropriate, whereas the motivation to arrive at particular conclusions enhances use of those that are considered most likely to yield the desired conclusion. There is considerable evidence that people are more likely to arrive at conclusions that they want to arrive at, but their ability to do so is constrained by their ability to construct seemingly reasonable justifications for these conclusions. [Abstract — Kunda's reasonableness-constraint qualification is what makes this molecule's machinery work: the agent doesn't simply assert the identity-protective conclusion; they construct a defensible-looking justification. The Kahan 2013 numeracy-finding documents what happens when the agent has high reasonableness-construction capacity — they reach more polarized identity-protective conclusions, not fewer.]"
+  - source: practitioner
+    text: wason-1960-failure-to-eliminate-hypotheses
+    citation: "Peter Wason, 'On the failure to eliminate hypotheses in a conceptual task,' Quarterly Journal of Experimental Psychology 12(3):129-140 (1960) — the canonical 2-4-6 task demonstration of systematic confirmation-seeking (verbatim quote carried in lex-t9fs7's own Wason entry). Here named as the engine of the assembly's forward-looking step (ongoing evidence-search reinforces the defended posture)"
+    quote: "[Tier-3 deepening source; verified Nickerson 1998 review provides the canonical operationalization. The molecule's premise 4 (lex-t9fs7 confirmation-bias directs ongoing evidence-search toward I-supporting material) is the forward-looking consequence of the defended posture — preserved in decomposes-into and related to record the co-occurring forward-monitor mechanism, though assembly types only the constitutive input→output transformation (claim → defended-posture)]"
+  - source: discovery-loop
+    text: periodic-table-distillation-pass-
+    citation: "The co-occurrence pass identified lex-rcj6y × lex-vacbr as the strongest pair in score's corpus (52.9% strength — when one fires, the other almost always fires). A clique analysis added lex-t9fs7 to close the 3-clique (0133 ↔ 0135, 0133 ↔ 0137 both present). M1 candidate"
+  - source: practitioner
+    text: assembly-typecheck-pass-1
+    citation: "Substrate-meta decision (decomposes-into vs assembly distinction). Original assembly was sequential(lex-rcj6y, lex-vacbr, lex-t9fs7) but the 4th premise describes lex-t9fs7 as 'ongoing evidence-search' — forward-looking, not part of the input-claim→defended-posture transformation. Assembly reduced to sequential(lex-rcj6y, lex-vacbr); lex-t9fs7 retained in decomposes-into and related to record the co-occurring forward-monitor mechanism. Principle established: decomposes-into names co-occurring constituent mechanisms (the periodic-table 3-clique still holds); assembly types only the constitutive input→output transformation. Forward-looking and ongoing dynamics belong in premises until the assembly grammar gains a with-monitor(...) or similar construct."
+canonical-instances:
+  - "climate-change denial in U.S. conservatives despite scientific consensus: the molecule fires when climate-action implications threaten conservative identity-tied policy preferences (Kahan 2013 numeracy paradox subjects)"
+  - "vaccine hesitancy in tight-knit communities: community membership IS the pivotal identity; vaccine-acceptance claims are defended against because acceptance would weaken in-group standing"
+  - "smoker dismissing health warnings (cf. Festinger 1957): smoker identity tied to social-self image; health-claim threatens; molecule produces increased rationalization"
+  - "Festinger Riecken & Schachter 1956 doomsday-cult: when prophecy failed, the threatening claim (you-were-wrong) was defended against by intensified proselytizing — the molecule's defense-mechanism manifested as evangelism rather than belief-revision"
+  - "academic identity protecting against paradigm-threatening evidence: senior scholars in established paradigms reject anomalies more than junior scholars (per Kuhn SSR Ch.7-12); the molecule fires harder when more identity-investment is at stake"
+  - "operationally distinct from lex-we98d cognitive-dissonance: dissonance is the affective driver (discomfort); this molecule is the structural three-step that the dissonance recruits to maintain consistency. Dissonance is the FORCE; this molecule is the MACHINERY the force operates"
+  - "operationally compositional with lex-5yufs form-persists-when-content-dissolves: identity-protective belief-maintenance can produce form-persistence (the institution / belief-system / ritual persists while its key substance has been hollowed out by accumulated motivated-reasoning revisions). The two compose at field-scale"
+  - "essential critical question: when does the molecule reverse direction (i.e., when does identity-protection produce belief-CHANGE rather than belief-defense)? Empirically: when the in-group itself shifts (e.g., Catholic Church reversal on Galileo; mainstream party flips). The molecule fires on tribe-determined-stance; if tribe shifts, molecule shifts. Identity-protection isn't pro-status-quo; it's pro-tribe-alignment"
+status: active

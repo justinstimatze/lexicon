@@ -1,0 +1,20 @@
+id: lex-yd2fr
+name: the-retreating-attackers-own-words-become-unimpeachable-testimony
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'The very party that intended harm, upon abandoning its plan, can voluntarily supply both physical evidence and explicit verbal credit to the intended victim''s protector — praise that is unimpeachable precisely because it comes from someone with every incentive to stay silent or claim otherwise. In the Jataka''s tale of Jagara, the retreating robbers do exactly this: "Master Caravan-leader, you are owner of your property because you have got your life owing to that man who keeps awake so diligently: you should pay honour to him." The caravan-men rising betimes saw the stones and other things thrown away by the robbers and gave honour to the lay-brother, recognising that they owed their lives to him.'
+related: [lex-ff24x]
+scaffolds-from: [lex-ff24x]
+evokes: [jataka, sattanipata, jagara-jataka, adversary-corroboration, testimony-from-a-hostile-source]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-jagara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 414, Jagara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Master Caravan-leader, you are owner of your property because you have got your life owing to that man who keeps awake so diligently: you should pay honour to him.\" The caravan-men rising betimes saw the stones and other things thrown away by the robbers and gave honour to the lay-brother, recognising that they owed their lives to him."
+canonical-instances:
+  - "A rival who scouted a startup for acquisition and walked away tells a mutual contact, unprompted, that the only reason he backed off was the founder's unusually thorough contract review process — praise the founder could never have manufactured himself."
+critical-questions:
+  - "This testimony carries weight because the attacker has nothing left to gain by giving it — what would that credibility do if he still stood to profit from the story?"
+  - "Would the protector's diligence have ever been recognized at all without this accidental, unprompted disclosure from the very party it deterred?"
+status: active

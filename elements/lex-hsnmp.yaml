@@ -1,0 +1,19 @@
+id: lex-hsnmp
+name: moral-guilt-is-resolved-by-intent-not-mere-causal-contribution
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Being a necessary causal link in a chain that leads to harm doesn't by itself establish guilt — an act performed with no intention to cause harm, even one that predictably enables it, can still be judged innocent — what guilt actually tracks is the intent behind the act, and mere causal contribution to the outcome is beside the point. In the Jataka's tale of the decoy partridge, tormented by doubt over whether it bears guilt for kin who die because of its forced cry, the bird asks an ascetic to resolve the question, and receives a clean rule: 'If no evil in thy heart Prompts to deed of villainy, Shouldst thou play a passive part, Guilt attaches not to thee.'"
+related: []
+evokes: [jataka, catukkanipata, tittira-jataka, causal-contribution-without-intent-carries-no-guilt, a-passive-unwilling-role-in-harm-is-judged-innocent]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-tittira-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 319, Tittira-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "If no evil in thy heart Prompts to deed of villainy, Shouldst thou play a passive part, Guilt attaches not to thee."
+canonical-instances:
+  - "A pharmacist who fills a legitimate prescription that a patient later uses to overdose spends months wracked with guilt over having been part of the causal chain, until a colleague points out that filling a valid prescription with no knowledge of harmful intent carries no actual culpability, however painful the coincidence."
+critical-questions:
+  - "Does this standard let people off too easily for predictable harm they should have anticipated even without directly intending it — is 'no evil in the heart' the same thing as 'no responsibility to have foreseen the outcome'?"
+  - "Who gets to judge whether the heart was actually free of evil intent, given that the partridge itself is the only witness to its own motives — does the rule depend on a self-report that can't be externally verified?"
+status: active

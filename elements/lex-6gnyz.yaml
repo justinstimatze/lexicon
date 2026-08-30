@@ -1,0 +1,26 @@
+id: lex-6gnyz
+name: a-situation-decomposes-into-stocks-flows-and-loops
+type-in: situation
+type-out: composition
+_tier: atomic
+agent-instruction: "When facing an undifferentiated situation, decompose it into stocks (what accumulates), flows (what fills or drains the accumulation), and the feedback loop governing the flow rate — before reaching for a single triggering cause. The situation's behavior comes from this structure, not from any one event inside it."
+related: [lex-rfxtb, lex-448qd]
+scaffolds-from: [lex-rfxtb]
+evokes: [stock-flow-decomposition, the-bathtub-model, present-memory-of-past-flows, systems-zoo]
+lineage:
+  - source: primary
+    text: meadows-2008-thinking-in-systems-ch1-stocks-flows
+    citation: "Donella H. Meadows, Thinking in Systems: A Primer, ed. Diana Wright (Chelsea Green, 2008), Ch.1 'The Basics.' After establishing that a system is more than the sum of its parts (the ground lex-rfxtb multifactorial-frame already covers), Meadows supplies the specific compositional anatomy any system decomposes into: stocks (accumulations built up over time), flows (the fillings and drainings that change a stock), and the feedback loops that modulate those flows. The move this atom names is diagnostic: given an undifferentiated situation, ask what's accumulating, what's filling or draining it, and what governs the rate, before reaching for a single triggering event."
+    quote: "[Ch.1, on stocks:] 'A stock is the foundation of any system. Stocks are the elements of the system that you can see, feel, count, or measure at any given time. A system stock is just what it sounds like: a store, a quantity, an accumulation of material or information that has built up over time. It may be the water in a bathtub, a population, the books in a bookstore, the wood in a tree, the money in a bank, your own self-confidence.' [On flows:] 'Stocks change over time through the actions of a flow. Flows are filling and draining, births and deaths, purchases and sales, growth and decay, deposits and withdrawals, successes and failures. A stock, then, is the present memory of the history of changing flows within the system.'"
+canonical-instances:
+  - "a company's declining morale decomposes into: the stock of goodwill built up over years, drained by a flow of broken promises and layoffs, refilled slowly (if at all) by a flow of consistent follow-through. Read this way, the fix isn't a single all-hands speech — an attempt to instantly refill a slow-moving stock — it's attention to the flow rate over time"
+  - "population growth (Meadows's own worked example): births and immigration are inflows, deaths and emigration are outflows, the population itself is the stock. The composition explains why population keeps growing for decades after birth rates fall — the stock has too much accumulated momentum for a flow change to show up immediately"
+  - "operationally distinct from lex-rfxtb multifactorial-frame: lex-rfxtb names the general frame-shift — stop asking what caused this, start asking what factors compose it. This atom names the specific compositional vocabulary (stock/flow/feedback-loop) that frame cashes out into once you commit to decomposing a situation rather than explaining it causally"
+  - "operationally distinct from lex-448qd leverage-points-are-ranked-by-depth-not-by-reach: that atom assumes the stock/flow/loop decomposition has already happened and asks where in that structure to intervene. This atom is the prior step — performing the decomposition itself, before any intervention question gets asked"
+critical-questions:
+  - "what is actually accumulating here — a store of something that persists across time — as opposed to a single event or transaction?"
+  - "what flow fills the stock, what flow drains it, and are those flows currently balanced or is the stock trending?"
+  - "is there a feedback loop governing either flow's rate, and does that loop reinforce the current trend or correct it?"
+  - "am I about to propose fixing this by acting on the stock directly — usually slow, expensive, resisted — when the real leverage is in one of its flows?"
+severity-tier: info
+status: active

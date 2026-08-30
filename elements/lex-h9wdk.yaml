@@ -1,0 +1,20 @@
+id: lex-h9wdk
+name: a-visitors-suspicious-selectivity-triggers-evidence-preservation-before-confrontation
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When someone ostensibly offering something to everyone behaves with a selectivity that doesn''t match that story — visiting only your household, repeatedly, while appearing to canvass the whole street — intercept quietly, secure any physical evidence, and log its provenance with names, dates, and the deliverer''s own words before confronting anyone. In the Maha-Ummagga-Jataka, a slave-girl hawks a pot of dates door to door but never actually sells to anyone else. Lady Amara notices "the girl went nowhere else, there must be something behind it," draws her in, and while sending her off on a pretext, checks the pot and finds a smuggled jewel. She then documents it immediately: "she wrote down on a leaf, ''On such a day of such a month the teacher Senaka sent a jewel from the king''s crest for a present by the hand of such and such a girl.''"'
+related: []
+evokes: [jataka, mahanipata, maha-ummagga-jataka, evidence-preservation, suspicious-selectivity, provenance-record]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-maha-ummagga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 546, Maha-Ummagga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: 'she noticed that the girl went nowhere else, there must be something behind it... While she was gone Amara put her hand into the pot and found the jewel... Then she wrote down on a leaf, "On such a day of such a month the teacher Senaka sent a jewel from the king''s crest for a present by the hand of such and such a girl."'
+canonical-instances:
+  - "A store manager notices a 'survey taker' outside only ever approaches one particular employee's car in the lot, never anyone else's, despite claiming to be surveying random shoppers; before saying anything, she photographs the interaction, notes the time and the surveyor's badge, and holds it in case the employee is later accused of something the surveyor plants."
+  - "An HR investigator notices an anonymous 'company-wide' feedback form was, according to the timestamp log, only ever sent to three specific employees despite being announced as universal; she preserves the send log with names and times before raising the discrepancy with anyone."
+critical-questions:
+  - "This depends on noticing the selectivity at all — a target who canvasses two or three decoy households before the real one would defeat the pattern-recognition this relies on. How robust is the method against an adversary aware that selectivity itself is the giveaway?"
+  - "Preserving evidence quietly before confronting anyone assumes you can act without tipping off the sender in the meantime — what happens when securing the evidence itself risks alerting them that the delivery was intercepted?"
+status: active

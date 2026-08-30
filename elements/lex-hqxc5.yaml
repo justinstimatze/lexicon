@@ -1,0 +1,21 @@
+id: lex-hqxc5
+name: retaliation-through-a-vastly-more-powerful-ally-outruns-the-original-wrong
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "Calling in an ally powerful enough to guarantee you win a grievance can solve the immediate wrong while producing damage so far beyond the original offense that undoing it becomes its own separate project. In Radin's comparative Assiniboine summary, Sitconski loses meat to a small, specific thief: 'Mink steals the meat.' His response isn't proportionate to Mink -- he escalates past the actual wrongdoer entirely: 'Sitconski angrily calls on Thunder, who causes a flood. All unwinged animals perish.' The flood doesn't discriminate between the mink who wronged him and every other flightless creature that did nothing; the ally's power operates at its own scale, not the scale of the grievance that invoked it. Only after the indiscriminate damage is done does the story record any correction: 'Thunder stops the rain, and Sitconski revives the animals.' The revival is necessary precisely because the retaliation overshot the target so completely. Diagnostic move: before invoking an ally, authority, or system whose power vastly exceeds what your specific grievance requires, ask whether that power can actually be aimed narrowly at the wrongdoer, or whether it operates at a scale that will catch everyone nearby -- and if it's the latter, have a plan for undoing the collateral damage before you invoke it, not after."
+related: []
+evokes: [radin-assiniboine-trickster-summary, sitconski-and-mink-and-thunder, sitconski-angrily-calls-on-thunder, all-unwinged-animals-perish]
+lineage:
+  - source: primary
+    text: radin-sitconskis-flood-revenge-against-mink-kills-all-unwinged-animals
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'Summary of the Assiniboine Trickster Myth' (after R. H. Lowie, The Assiniboine, Anthropological Papers of the American Museum of Natural History, Vol. IV, 1909), episode 14. Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "Mink steals the meat. Sitconski angrily calls on Thunder, who causes a flood. All unwinged animals perish. Thunder stops the rain, and Sitconski revives the animals."
+canonical-instances:
+  - "A homeowner whose neighbor's dog keeps digging up their garden calls in a city code-enforcement sweep, which ends up citing half the block for unrelated minor violations, and the homeowner spends the next month helping neighbors appeal fines that had nothing to do with the original dog."
+  - "A manager frustrated by one underperforming vendor escalates the complaint to corporate procurement, which responds by freezing payments to the entire vendor category, stalling several unrelated projects that depended on other, blameless vendors caught in the same freeze."
+critical-questions:
+  - "Does the story treat the flood's indiscriminate scope as a foreseeable consequence Sitconski should have anticipated, or as an unpredictable overreach by Thunder that Sitconski himself didn't intend?"
+  - "Is the revival presented as full restitution that erases the harm, or does the story leave open whether something was lost even for the animals who were eventually revived?"
+  - "Would a less powerful ally who could only punish Mink specifically have been available to Sitconski, and does the story suggest he chose Thunder because of the scale of retaliation he wanted, not just its certainty?"
+status: active

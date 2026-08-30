@@ -1,0 +1,18 @@
+id: lex-smnaj
+name: responding-to-confession-with-respect-enables-honest-disclosure
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Once an agent confesses, an authority''s reaction of expressed respect for the honesty, rather than immediate condemnation, allows the exchange to continue into full disclosure and eventual resolution instead of shutting down further conversation. A non-punitive response to admitted wrongdoing creates the conditions under which further truth and correction become possible, where a punitive response would likely have foreclosed it. In the Jataka''s tale of Harita, the king''s reaction to the ascetic''s confession is praise rather than punishment: "Endowed with holiness and intellect / The saintly Harita wins our respect."'
+related: []
+evokes: [jataka, navanipata, harita-jataka, psychological-safety-after-confession, non-punitive-response-enables-disclosure]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-harita-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 431, Harita-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Endowed with holiness and intellect / The saintly Harita wins our respect."
+canonical-instances:
+  - "A manager who learns an employee shipped a bug that took down production responds first by thanking her for immediately flagging it rather than trying to hide it, and the conversation that follows surfaces two more related issues she would never have mentioned to a manager who reacted with anger."
+critical-questions:
+  - "Does responding to confession with respect risk under-weighting the seriousness of what was actually done, in exchange for keeping the channel of disclosure open?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-trctv
+name: enacting-an-impossible-task-structurally-identical-to-a-superiors-own-habit
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When direct verbal criticism of a superior's habit has already failed, a subordinate can instead physically enact an absurd action that is structurally identical in form to the superior's own conduct — forcing the target to draw the analogy himself rather than having it argued at him. The persuasive force comes from structural equivalence between two impossible acts, distinct from a magnitude-comparison argument that escalates a lesser case into a greater one. In the Jataka's tale of Karandiya, a man spends himself trying to level the whole earth with a spade; the verse then applies the same standard back to the brahmin's own demand: 'If a man of mortal birth has no power to level earth, heretics may well refuse, Brahmin, to adopt thy views.'"
+related: []
+evokes: [jataka, pancanipata, karandiya-jataka, staged-enactment-forces-a-structural-analogy, impossible-demonstration-mirrors-an-impossible-demand]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-karandiya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 356, Karandiya-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "If aman of mortal birth Has no power to level earth, Heretics may well refuse, Brahmin, to adopt thy views."
+canonical-instances:
+  - "A junior engineer, unable to talk a lead out of demanding zero-bug releases, spends an afternoon publicly trying to eliminate every typo from the entire codebase's comments — an equally unreachable standard — letting the lead see the same futility mirrored back before the lead reconsiders the original demand."
+critical-questions:
+  - "Does the target actually draw the intended analogy, or does the staged demonstration just read as a bizarre, unrelated stunt that fails to connect back to the original habit being criticized?"
+  - "Is there a risk this technique reads as mockery rather than argument, damaging the relationship even when the structural point is correct?"
+status: active

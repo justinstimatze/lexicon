@@ -1,0 +1,19 @@
+id: lex-jh5uw
+name: removing-an-attacks-required-timing-window-deters-without-confrontation
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "An adversary's decision to attack is often conditioned on a specific vulnerability window opening, so continuous, unbroken presence — even if never intended as active defense — can remove that window entirely and achieve deterrence without any confrontation at all. In the Jataka's tale of the pacing ascetic, five hundred robbers surround a caravan camp planning to strike once the visible sentry falls asleep. The ascetic, an unrelated figure simply keeping to his own nightlong walking meditation, never stops pacing, so the window the robbers were waiting for never opens, and they give up and leave without a fight ever taking place."
+related: []
+evokes: [jataka, ekanipata, asamkiya-jataka, denying-the-required-vulnerability-window, deterrence-through-unbroken-presence]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-asamkiya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 76, Asamkiya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Surely that must be their sentry,\" said the robbers when they noticed him; \"we will wait till he is asleep and then loot them.\""
+canonical-instances:
+  - "A warehouse never fully powers down its motion-sensor lighting overnight, even during slow periods. A would-be burglar scoping the property for a dark, unmonitored window never finds one, and moves on."
+critical-questions:
+  - "Does the defender need to know they're deterring anything at all for this to work, given that the ascetic's pacing was never intended as security in the first place?"
+  - "What happens once an adversary realizes the presence is unconditional and unrelated to actual vigilance — does an attacker who tests it directly, rather than just waiting, discover there was never any real threat behind the deterrence?"
+status: active

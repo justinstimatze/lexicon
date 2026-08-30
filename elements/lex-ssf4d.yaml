@@ -1,0 +1,19 @@
+id: lex-ssf4d
+name: settle-a-subjective-contest-through-a-displaced-objective-proxy
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than rule directly on a contested and inherently subjective claim, an authority can invent an external, verifiable test and let its outcome decide the original dispute. In the Jataka''s tale of Sirikalakanni, Sakka doesn''t judge which goddess is more deserving; he sends both to a merchant''s reserved seat and lets whoever occupies it first settle the matter: ''"There is in Benares a merchant called Suciparivdara; in his house are prepared an unused couch and bed: she who can first sit or lie there is the proper one to bathe first."'''
+related: []
+evokes: [jataka, chanipata, sirikalakanni-jataka, subjective-dispute-settled-by-proxy-test, displaced-objective-criterion]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sirikalakanni-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 382, Sirikalakanni-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "There is in Benares a merchant called Suciparivdara; in his house are prepared an unused couch and bed: she who can first sit or lie there is the proper one to bathe first."
+canonical-instances:
+  - "Two department heads each claim their team deserves the larger budget based on 'impact'; rather than judge impact directly, the CFO decides the dispute by whichever team can produce a signed customer commitment first."
+critical-questions:
+  - "Does the proxy test actually track the quality the original dispute was about, or does it just substitute a different, easier-to-measure quality that happens to be available?"
+  - "Who controls the design of the proxy test, and does that party's own bias get smuggled into a decision that looks objective on its surface?"
+status: active

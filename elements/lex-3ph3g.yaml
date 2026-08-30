@@ -1,0 +1,18 @@
+id: lex-3ph3g
+name: a-fortiori-shaming-via-an-extreme-precedent
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'To persuade disputants to reconcile, a speaker cites reconciliation between parties with vastly higher stakes and greater cause for enmity, implying that if even they made peace, the present dispute cannot justify continued conflict. The device re-scales the audience''s sense of proportion rather than adjudicating the dispute''s merits directly, letting it defuse conflict without either side losing face by conceding the object-level argument. In the Jataka''s tale of Kosambi, the verses cite warriors who plundered and wounded each other making peace, to shame quarreling monks: "If men all scarred with wounds in deadly strife, / Reivers and robbers, taking human life, / Nay those that plunder a whole realm, may be / Friends with their foes, should Brethren not agree?"'
+related: []
+evokes: [jataka, navanipata, kosambi-jataka, scale-contrast-persuasion, a-fortiori-argument]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kosambi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 428, Kosambi-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "If men all scarred with wounds in deadly strife, / Reivers and robbers, taking human life, / Nay those that plunder a whole realm, may be / Friends with their foes, should Brethren not agree?"
+canonical-instances:
+  - "A mediator trying to settle a bitter dispute between two co-founders over a trademark opens by noting that two rival nations that fought an actual war later signed a trade pact, and lets the comparison do the work of making the founders' fight look small by contrast."
+critical-questions:
+  - "Does the extreme precedent actually address why these two disputants are still angry, or does it just make continuing the dispute socially embarrassing without resolving anything underneath?"
+status: active

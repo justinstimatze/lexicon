@@ -1,0 +1,21 @@
+id: lex-8tmvh
+name: not-acting-can-be-virtue-when-acting-would-require-violence
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "When someone with real power fails to intervene against a threat, that failure to act can be judged as virtuous rather than negligent, if the only available form of intervention would itself have required violence. An old, conservative Winnebago defender of Wakdjunkaga concedes every specific harm attributed to the trickster, then names the one thing that redeems him: 'True it is that because of him men die, that because of him men steal, that because of him men abuse women, that they lie and are lazy and unreliable. Yes, he is responsible for all this. Yet one thing he never did: he never went on the warpath, he never waged war.' Radin draws out why this detail carries so much weight: 'the reference to his not having gone on the warpath is very illuminating. It indicates that, for this particular individual, Wakdjunkaga's failure to help mankind by destroying those who were plaguing it was not a reprehensible thing because it would have meant violence, meant waging war.' The trickster's failure to defend humanity against its enemies isn't excused as an oversight -- it's reframed as evidence of a deeper restraint, since the only defense on offer was war. Diagnostic move: before judging someone's failure to intervene as pure negligence, check what intervention would actually have required -- if the only available form of help was itself violent or destructive, the restraint from acting may be doing real moral work rather than simply representing a missed opportunity to help."
+related: []
+evokes: [radin-the-attitude-of-the-winnebago-toward-wakdjunkaga, he-never-went-on-the-warpath, a-genial-and-good-natured-person, this-was-not-a-reprehensible-thing]
+lineage:
+  - source: primary
+    text: radin-a-winnebago-defender-reframes-wakdjunkagas-inaction-as-restraint
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'The Attitude of the Winnebago Toward Wakdjunkaga.' Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "True it is that because of him men die, that because of him men steal, that because of him men abuse women, that they lie and are lazy and unreliable. Yes, he is responsible for all this. Yet one thing he never did: he never went on the warpath, he never waged war. ... The reference to his not having gone on the warpath is very illuminating It indicates that, for this particular individual, Wakdjunkaga's failure to help mankind by destroying those who were plaguing it was not a reprehensible thing because it would have meant violence, meant waging war."
+canonical-instances:
+  - "A company's founder is criticized for never pursuing an aggressive lawsuit against a competitor who was clearly infringing their patents, and a former colleague defends the founder by pointing out that winning would have required bankrupting a smaller company employing hundreds of people, reframing the inaction as restraint rather than weakness."
+  - "A retired general is remembered for never ordering a preemptive strike against a hostile neighboring force during a tense standoff, and military historians later credit that restraint, not as a failure to protect the border, but as the single decision that kept a regional conflict from becoming a full war."
+critical-questions:
+  - "Does this defense actually establish that no non-violent form of help was available, or does it simply assume the only alternative to inaction was war, potentially overlooking other interventions that might have existed?"
+  - "Is there a point at which repeated failure to act, even for principled reasons, becomes indistinguishable in its consequences from active harm, and does the defender's framing here risk excusing real, ongoing suffering because the alternative sounds worse in the abstract?"
+  - "Would this same defense be offered as readily if the person doing the judging were the one suffering from the ongoing harms Wakdjunkaga's inaction allowed, rather than an outside observer evaluating his character in the abstract?"
+status: active

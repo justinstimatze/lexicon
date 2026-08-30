@@ -1,0 +1,22 @@
+id: lex-z52me
+name: simulating-a-cornered-opponents-despair-corrects-overcaution
+type-in: situation
+type-out: posture
+_tier: atomic
+agent-instruction: "When you're facing an opponent who looks tactically strong from where you stand — barricaded, well-positioned, holding a fortified stronghold — don't take their position's outward strength as their felt experience. Musashi's 'become the enemy' move is to simulate their actual subjective state: someone surrounded and out of options doesn't feel fortified, they feel hunted, with the whole world against them and no escape. Swapping into that felt perspective, rather than only noting their objective position, corrects the tendency to over-credit a cornered opponent's strength and grow excessively cautious against someone who is, from the inside, in the weaker position."
+related: []
+evokes: [become-the-enemy, musashi-five-rings, pheasant-and-hawk, walk-a-mile-in-their-shoes, theory-of-mind-in-conflict]
+lineage:
+  - source: primary
+    text: musashi-1645-to-become-the-enemy
+    citation: "Miyamoto Musashi, The Book of Five Rings (Go Rin no Sho, 1645), trans. Victor Harris (Allison & Busby, 1974) — Feedbooks edition, Chapter 3, 'The Fire Book,' section 'To Become the Enemy.' Translator confirmed as Harris via the Wikipedia 'The Book of Five Rings' article's own footnoted citation, cross-checked against the local Wikipedia ZIM archive (see lex-y53nq's lineage for the full verification note)."
+    quote: "'\"To become the enemy\" means to think yourself in the enemy's position. In the world people tend to think of a robber trapped in a house as a fortified enemy. However, if we think of \"becoming the enemy\", we feel that the whole world is against us and that there is no escape. He who is shut inside is a pheasant. He who enters to arrest is a hawk. You must appreciate this. In large-scale strategy, people are always under the impression that the enemy is strong, and so tend to become cautious.'"
+canonical-instances:
+  - "A negotiator facing a counterparty with no other offers on the table treats them as holding a strong bargaining position by their visible posture at the table, until simulating the counterparty's actual felt lack of alternatives reveals them as the boxed-in, desperate party instead."
+  - "A security team over-estimates a cornered intruder's remaining capability because the intruder still holds network access; simulating the intruder's actual state — visibility into being tracked, narrowing options, no clean exit — would predict panic-driven mistakes rather than continued competent attack."
+  - "A besieging army reads a walled city's intact fortifications as strength, when the people inside, cut off from supply and reinforcement, experience the same walls as a trap with the world outside arrayed against them."
+critical-questions:
+  - "Is 'they must feel desperate' itself an unfounded projection — could the cornered party hold hidden resources or knowledge that make their position genuinely stronger than both a naive external read and their own felt experience suggest?"
+  - "This atom frames the simulation as reducing excess caution — could the same perspective-swap sometimes reveal a cornered opponent as more dangerous, not less, since someone with nothing left to lose behaves differently than someone with something to protect? What decides which way the correction cuts?"
+  - "Does 'becoming the enemy' require any real information about them, or is it purely an internal simulation exercise — and if the latter, what stops it from just reproducing your own assumptions back at you?"
+status: active

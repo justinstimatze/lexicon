@@ -1,0 +1,19 @@
+id: lex-wv7ey
+name: prove-quality-by-seeking-out-the-hardest-most-expert-market
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than avoid the market with the most informed scrutiny, someone confident in their own skill can deliberately sell into exactly that market, since succeeding there is the strongest possible proof of quality — the harder the audience, the more the success actually demonstrates. In the Jataka''s tale of Suci, the smith is warned off selling needles in a village of expert smiths, but chooses it precisely for that reason: ''"Young man, dwellers in all the kingdom come to this village for needles and the like: it is in folly you wish to sell needles in a village of smiths; though you declare the praise of your needle all day no one will take it from your hand; if you wish to get a price, go to another village"'''
+related: []
+evokes: [jataka, chanipata, suci-jataka, costly-signaling-via-hardest-market, proof-of-quality-through-informed-scrutiny]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-suci-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 387, Suci-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Young man, dwellers in all the kingdom come to this village for needles and the like: it is in folly you wish to sell needles in a village of smiths; though you declare the praise of your needle all day no one will take it from your hand; if you wish to get a price, go to another village\""
+canonical-instances:
+  - "A new compiler author submits their optimizer's benchmark results to the one conference audience full of people who've spent their careers building compilers, rather than a general audience who couldn't tell a good result from a mediocre one."
+critical-questions:
+  - "Does this strategy only work when the underlying quality is genuinely strong — would a mediocre product seeking the hardest market simply be exposed rather than validated?"
+  - "Is the informed audience's approval actually worth more in practice than a broader, less discerning market's approval, if the broader market is where the eventual customers actually are?"
+status: active

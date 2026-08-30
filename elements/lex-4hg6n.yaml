@@ -1,0 +1,19 @@
+id: lex-4hg6n
+name: fighting-over-an-ambiguous-incidental-entitlement-can-consume-the-shared-asset
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When two parties dispute an ambiguous, never-specified incidental entitlement attached to a shared asset, check whether the argument itself is consuming the asset the entitlement was attached to. In Aesop's 'The Ass and His Shadow,' a traveller and the owner of a hired ass argue over who has the right to rest in the animal's shadow — a term neither had thought to specify in advance — and escalate so completely that: 'From words they came to blows; and while they were belabouring each other the Ass took to his heels and was soon out of sight.' The dispute was never about the ass itself, only about an incidental and unspecified benefit of using it, yet the fight over that minor entitlement destroyed access to the substantive asset both parties actually needed."
+related: []
+evokes: [aesop, the-ass-and-his-shadow, ambiguous-entitlement-dispute, contract-ambiguity-consumes-the-asset]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-ass-and-his-shadow
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Ass and His Shadow.' Verified verbatim against a direct extraction of the held copy."
+    quote: "From words they came to blows; and while they were belabouring each other the Ass took to his heels and was soon out of sight."
+canonical-instances:
+  - "co-founders burning so much in legal fees fighting over a minor, unspecified IP clause in a split that the company itself collapses before the dispute is ever resolved."
+critical-questions:
+  - "Could either party have prevented this outcome by specifying the ambiguous term in advance, or does an unspecified incidental benefit like the shadow only ever surface as a dispute once it unexpectedly matters?"
+  - "Is there a way to recognize, mid-argument, that a fight over an incidental term is putting the substantive shared asset at risk, before the asset is actually lost?"
+status: active

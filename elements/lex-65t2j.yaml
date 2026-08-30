@@ -1,0 +1,19 @@
+id: lex-65t2j
+name: an-unexplained-withdrawal-makes-a-third-party-flee-on-its-own-assumption
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Instead of engaging an enemy at the expected point of confrontation, an actor can withdraw by an unexpected route with all forces and offer no explanation; the resulting uncertainty can cause a third party to assume total abandonment and flee the seat of power voluntarily, handing over control without any direct confrontation. In the Jataka''s tale of Parantapa, the viceroy''s silent withdrawal does exactly this to his own father: "he avoided the gate where the hostile king was posted, and went out by another which he had opened. As he went the whole city became as it were deserted, for all men went out with him. The king thought, ''My viceroy has emptied the city and fled with all my forces: the enemy is lying all round the city: I am but a dead man.''"'
+related: []
+evokes: [jataka, sattanipata, parantapa-jataka, unexplained-withdrawal-triggers-self-elimination, ambiguity-as-a-weapon]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-parantapa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 416, Parantapa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "taking his men he avoided the gate where the hostile king was posted, and went out by another which he had opened. As he went the whole city became as it were deserted, for all men went out with him. He encamped in a certain open space and waited. The king thought, \"My viceroy has emptied the city and fled with all my forces: the enemy is lying all round the city: [417] Iam but a dead man.\""
+canonical-instances:
+  - "Rather than publicly contest an unpopular directive, a general counsel quietly relocates her whole team's work to a separate project with no announcement, and the CEO who issued the directive resigns days later, having concluded from the silence alone that the board had already abandoned him."
+critical-questions:
+  - "Was the third party's flight actually the withdrawing party's intended effect, or an unplanned consequence of leaving the situation ambiguous?"
+  - "Does relying on someone else's misinterpretation to produce a favorable outcome carry any risk if that person reacts differently than assumed?"
+status: active

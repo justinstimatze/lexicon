@@ -1,0 +1,18 @@
+id: lex-2eyht
+name: a-diminishing-bribe-weaponized-as-an-insult
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'A tempter probing a target''s resolve across repeated approaches can deliberately decrease the value offered each time, stating openly that the decrease tracks the target''s perceived fading worth — turning the gift itself into a calculated provocation designed to test whether insult succeeds where a straightforward offer failed. In the Jataka''s tale of the chaste king, the disguised Sakka explains his shrinking offers to the princess in exactly these terms: "Lady Princess, I am a wary trader, and I waste not my substance for nought. If you were increasing in youth or beauty, I would also increase the present I offer you; but you are fading, and so I make the offering dwindle also."'
+related: []
+evokes: [jataka, ekadasanipata, udaya-jataka, escalating-bribe-as-insult, disguised-deity-test]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-udaya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 458, Udaya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Lady Princess, I am a wary trader, and I waste not my substance for nought. If you were increasing in youth or beauty, I would also increase the present I offer you; but you are fading, and so I make the offering dwindle also."
+canonical-instances:
+  - "A negotiator lowers their offer on each successive call and tells the seller plainly that the price drops because the seller's leverage is visibly weakening, betting the insult provokes a concession the fair offer never got."
+critical-questions:
+  - "Is the diminishing bribe actually testing the target's resolve, or is it testing something else entirely — whether the target can be provoked into an emotional reaction that overrides their better judgment?"
+status: active

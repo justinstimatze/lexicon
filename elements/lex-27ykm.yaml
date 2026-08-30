@@ -1,0 +1,18 @@
+id: lex-27ykm
+name: a-staged-non-violent-deterrent-uses-the-targets-own-fear-to-produce-genuine-reform
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'To correct someone''s behavior without resorting to the violence they themselves proposed, an agent can stage a threat that plays on the target''s specific fear — such as being displaced or replaced — producing real behavioral change through anticipated loss rather than through any actual harm inflicted. In the Jataka''s tale of Takkala, the son proposes threatening his mother with the prospect of being replaced by a niece, explicitly framed as an alternative to her own violent solution: "''let us try to vex her. You give out that in such and such a village lives a niece of yours, who will attend upon your father and your son and you; so you will go and fetch her.''"'
+related: []
+evokes: [jataka, dasanipata, takkala-jataka, staged-deterrent, fear-of-replacement-as-corrective-lever]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-takkala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 446, Takkala-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "let us try to vex her. You give out that in such and such a village lives a niece of yours, who will attend upon your father and your son and you; so you will go and fetch her."
+canonical-instances:
+  - "Instead of firing a chronically underperforming salesperson, a manager announces he is interviewing external candidates for the role, and the credible threat of replacement produces the behavioral change months of direct feedback never had."
+critical-questions:
+  - "Does a staged fear-based deterrent produce durable reform, or only compliance that lasts exactly as long as the threat of replacement remains credible?"
+status: active

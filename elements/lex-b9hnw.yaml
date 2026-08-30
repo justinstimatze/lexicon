@@ -1,0 +1,19 @@
+id: lex-b9hnw
+name: a-stock-caricature-of-critics-preempts-engaging-real-criticism
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A group that feels besieged by outside critics tends to develop a stock, sardonic caricature of the critic-type — regulators as unkempt hippies who know nothing about the business, activists as would-be saviors of the universe — and this caricature lets any future specific criticism from that category get dismissed by pattern-matching to the type rather than engaged on its individual merits. The caricature doesn't need to be accurate about any particular critic; its function is to pre-load a dismissal response so the group never has to evaluate a new criticism fresh. Watch for a group's stock description of 'the kind of person who criticizes us' as a sign that specific, possibly valid criticism from that category will be filtered through the caricature rather than heard."
+related: []
+evokes: [jackall-moral-mazes, "sardonic caricatures of their principal adversaries", the-preloaded-critic-caricature]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch6-sardonic-caricatures
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 6, Dexterity with Symbols."
+    quote: "managers see themselves and their traditional prerogatives as being under siege, and they generally respond with a set of sardonic caricatures of their principal adversaries that often, in fact, ridicule these adversaries' perceived inconsistencies."
+canonical-instances:
+  - "A faculty department that habitually describes student complaints as 'entitled and unwilling to work hard' dismisses a specific, well-documented complaint about grading inconsistency the same way it dismisses vague general grievances, without examining the specific complaint's substance."
+critical-questions:
+  - "How would anyone inside the besieged group actually notice a valid criticism being filtered out this way, given that the caricature's whole function is to make dismissal feel like accurate pattern-recognition rather than avoidance?"
+status: active

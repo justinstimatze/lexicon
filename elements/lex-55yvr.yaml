@@ -1,0 +1,19 @@
+id: lex-55yvr
+name: covertly-testing-experts-against-known-ground-truth-reveals-the-honest-one
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When someone wants to know which of several purported experts is actually reliable, staging a private event only they know actually happened and then quizzing the experts about it separates honest, accurate reporting from generic, safe answers designed to sound plausible either way. The test works because the questioner alone holds the ground truth the experts are unknowingly being scored against. In the Jataka's tale of the disguised king, a king wandering incognito is briefly mugged and released, an event only he knows occurred. Quizzing his astrologers the next morning, most give vague, comfortable answers, but one reports the event accurately: 'Yes, my lord: last night you fell into the hands of your enemies, and in a moment you got free again.' The king's verdict is immediate: 'That is the kind of man a star-gazer ought to be.'"
+related: []
+evokes: [jataka, tikanipata, nana-cchanda-jataka, a-privately-known-event-becomes-a-ground-truth-test-for-experts, generic-safe-answers-are-separated-from-genuine-accuracy]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-nana-cchanda-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 289, Nana-cchanda-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Yes, my lord: last night you fell into the hands of your enemies, and in a moment you got free again.\" The king said, \"That is the kind of man a star-gazer ought to be."
+canonical-instances:
+  - "A CFO suspects several outside auditors of giving boilerplate assessments, so she quietly plants one unusual transaction whose real story only she knows. Each auditor's report is judged on whether it flagged and correctly characterized that single transaction, not on how confident the overall summary sounded."
+critical-questions:
+  - "Does this test genuinely measure competence, or could it simply reward whichever expert happened to have better information access on this one occasion, without reflecting their overall reliability?"
+  - "Is there a risk that experts who learn this kind of covert testing occurs will start hedging even harder to avoid being caught wrong on an unverifiable claim, making the test less effective once it becomes expected?"
+status: active

@@ -1,0 +1,21 @@
+id: lex-v6s2z
+name: repeated-direct-verification-outweighs-the-apparition-explanation
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When you report something anomalous and the group's first move is to explain it away as illusion, omen, or misperception, don't let the availability of a comfortable non-literal explanation talk you out of what you actually, repeatedly checked. In Cushing's telling, a hunter who has genuinely seen a human youth living among a Deer herd returns to report it, and the community's immediate reaction reaches for the supernatural-but-safe interpretation: 'You have seen an apparition, and of evil omen to your family.' The hunter doesn't hedge or defer to the group's more comfortable framing. He states exactly what he did to check: 'I looked, and again I looked, and yet again, and again, and I avow to you that what I saw was as plain and as mortal as the Deer themselves.' His authority comes specifically from having verified the sighting multiple times before ever reporting it, not from insisting on his own credibility in the abstract. The community accepts this and organizes a hunt on the strength of it. Diagnostic move: when your own repeated, direct observation conflicts with a group's preferred explanation for something strange, don't retreat into the easier social framing just because it's the one that requires no further action -- cite specifically how many times and how carefully you checked, since the strength of a claim against a comfortable dismissal comes from the verification behind it, not from repeating the claim itself more insistently."
+related: []
+evokes: [cite-the-verification-not-just-the-claim, cushing-the-foster-child-of-the-deer, apparition-and-evil-omen-is-the-comfortable-explanation, i-looked-and-again-i-looked-and-yet-again]
+lineage:
+  - source: primary
+    text: cushing-foster-child-deer-hunter-insists-on-repeated-verification
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Foster-Child of the Deer.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'You have seen an apparition, and of evil omen to your family, alas! alas!' 'No,' said he, 'I looked, and again I looked, and yet again, and again, and I avow to you that what I saw was as plain and as mortal as the Deer themselves.'"
+canonical-instances:
+  - "An engineer who has repeatedly reproduced a critical bug reports it to a team eager to dismiss it as a one-off fluke or environmental glitch, and specifically cites the number of times and the exact conditions under which they reproduced it, rather than simply insisting the bug is real, which is what actually gets the team to take it seriously enough to investigate."
+  - "A witness to unusual activity at a workplace reports it to colleagues who immediately suggest they must have misread the situation, and rather than accepting the easier explanation, states plainly how many times and how closely they observed it before saying anything, which is what moves the group from dismissal to actually looking into it."
+critical-questions:
+  - "does the hunter's account only get believed because the group happens to organize a hunt anyway, essentially treating it as low-cost to investigate -- would the same repeated-verification claim have been accepted if acting on it were expensive or socially costly to the group?"
+  - "is 'I checked several times' actually a strong form of evidence, or does it just sound more convincing than a single claim without being any more reliable -- repeated looking at the same scene doesn't rule out a shared illusion or misperception the way an independent check would?"
+  - "how should someone calibrate this against situations where the 'apparition, evil omen' explanation is actually correct, and insisting on a mundane explanation despite repeated looking would be the error -- does the story only vindicate the hunter because the youth turns out to be real?"
+status: active

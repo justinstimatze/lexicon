@@ -1,0 +1,19 @@
+id: lex-4zthj
+name: bribing-an-insider-to-stage-a-bottleneck-you-alone-can-solve
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Someone excluded from a collaborative effort can buy their way in by paying an insider to quietly engineer a foreseeable resource shortage and arrange for the excluded party to be its only available source, rather than by arguing for inclusion directly. In the Jataka's tale of the four sprites building a hall, Goodness is barred from the men's project on account of her sex, so she bribes the carpenter to make her its principal partner. The carpenter, in on the arrangement, sits on the finished pinnacle-post until construction is nearly done, letting the crew discover on its own that no seasoned pinnacle-wood exists anywhere else. A search turns one up only in Goodness's house; the men initially refuse to trade partnership for it, and it's the bribed carpenter himself who argues them into accepting her terms."
+related: []
+evokes: [jataka, ekanipata, kulavaka-jataka, bribed-insider-stages-a-solvable-bottleneck, engineered-scarcity-buys-inclusion]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kulavaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 31, Kulavaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Of these Goodness, finding herself alone with the carpenter, gave him a douceur, saying,--\"Brother, contrive to make me the principal person in connexion with this hall.\" \"Very good,\" said he. And before doing any other work on the building, he had some pinnacle-wood dried, which he fashioned and bored and made into a finished pinnacle. This he wrapped up in a cloth and laid aside."
+canonical-instances:
+  - "A vendor excluded from a construction consortium pays a project manager to delay ordering a specialized part until the schedule is too tight to source it elsewhere, and to steer the search toward the one supplier who happens to have it already in stock."
+critical-questions:
+  - "Does the excluded party need genuine leverage over the insider, whether money or something else, or could the same staged-shortage trick work through pure persuasion if the insider already sympathized with being excluded?"
+  - "What happens to the group's trust in the insider once the staging is eventually discovered — does the story's happy ending depend on the deception never coming to light?"
+status: active

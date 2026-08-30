@@ -1,0 +1,21 @@
+id: lex-c8x8x
+name: an-escalating-demand-can-be-cover-for-a-parallel-infiltration
+type-in: process
+type-out: warning
+_tier: atomic
+agent-instruction: "When a threat you can't yet get past keeps escalating what it demands from you, one item after another, don't assume the demands themselves are the danger -- the real attack may be proceeding in parallel, and every demand you satisfy is buying the attacker time to finish it. In Cushing's telling, a Cannibal Demon finds a maiden sheltering in a too-small cave mouth and starts asking for food: 'Throw me a rabbit!' Then another. When the rabbits run out he escalates without pause -- 'Throw me your overshoes!' -- then her moccasins, her belt, her mantle, her blanket, her overdress, 'until, behold, she had nothing left!' The demands were never going to stop at a reasonable point, because they were never really the point. While she was occupied surrendering one possession after another, the Demon 'lifting his great flint axe, began to shatter the rock about the entrance to the cave,' the actual project his shouted demands had been covering the whole time. Diagnostic move: when someone you can't repel keeps a running conversation of escalating demands going, check what else might be happening while your attention and compliance are absorbed by answering them -- a demand with no natural stopping point may be less interested in what you hand over than in how long it can keep you responding instead of noticing the real approach."
+related: []
+evokes: [answering-the-demand-is-what-buys-the-attacker-time-to-finish-the-real-work, cushing-the-rabbit-huntress-and-her-adventures, throw-me-another-until-she-had-nothing-left, pound-pound-pound-went-the-demons-axe]
+lineage:
+  - source: primary
+    text: cushing-atahsaia-escalating-demands-while-breaking-in
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Rabbit Huntress and Her Adventures.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'Throw me a rabbit! shouted the old Demon. ... Throw me another! ... so the poor maiden was forced to say: I have no more. Throw me your overshoes! cried he. She threw the overshoes of deerskin, and these like the rabbits he speedily devoured. Then he called for her moccasins, and she threw them; for her belt, and she threw it; and finally, wonderful to tell, she threw even her mantle, and blanket, and her overdress, until, behold, she had nothing left! ... Finally, lifting his great flint axe, he began to shatter the rock about the entrance to the cave, and slowly but surely he enlarged the hole.'"
+canonical-instances:
+  - "A scammer on the phone keeps a victim escalating through smaller 'verification' payments one after another, each framed as the last one needed to unlock a supposed windfall, while accomplices use the extended call to work through the victim's actual bank security questions in a separate channel."
+  - "An intruder negotiating loudly through a locked door keeps asking a homeowner for one item after another supposedly to 'de-escalate,' while a second intruder uses the noise and the homeowner's fixed attention on the front door to force entry through a back window."
+critical-questions:
+  - "Would the maiden have fared any differently if she had refused the first demand outright, given that the Demon was working on the entrance regardless of her compliance -- did giving him the rabbits and clothing actually cost her anything beyond what the axe alone would have taken?"
+  - "Is there a way to distinguish, in the moment, an escalating demand that is genuinely about the items requested from one that's cover for something else happening in parallel, or does the distinction only become visible in hindsight, as it does here?"
+  - "Does noticing the parallel threat actually change what the maiden could have done, trapped as she was in a cave with no other exit -- is this diagnostic move useful only when the victim has an alternative course of action available?"
+status: active

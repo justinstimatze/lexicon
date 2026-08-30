@@ -1,0 +1,14 @@
+# secrets
+.env
+*.env.local
+
+# Go binaries
+/lexicon
+/cmd/lexicon/lexicon
+
+# v0 session-state (per-machine, not for sharing)
+session-log.jsonl
+
+# editor / OS
+.DS_Store
+.vscode/

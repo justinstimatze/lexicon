@@ -1,0 +1,19 @@
+id: lex-h4jkz
+name: hoarding-secures-neither-enjoyment-nor-protection-from-loss
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Asserted ownership without any willingness to use or share what's held provides no actual security — it guarantees exclusion from benefit while doing nothing to prevent eventual loss to time, other claimants, or heirs. The Jataka's tale of Mayhaka states this through a bird whose plaintive claim of possession changes nothing about who actually eats the fruit: \"There is a bird called Mayhaka, in mountain cave it lives: On pipal trees with ripening fruit, 'mine,' 'mine' the cry it gives. The other birds, while thus he plains, in flocks about him fly: They eat the fruit, but still goes on the Mayha's plaintive cry.\""
+related: []
+evokes: [jataka, chanipata, mayhaka-jataka, hoarding-secures-nothing, asserted-ownership-without-use]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mayhaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 390, Mayhaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "There is a bird called Mayhaka, in mountain cave it lives: On pipal trees with ripening fruit, \"mine,\" \"mine\" the cry it gives. [302] The other birds, while thus he plains, in flocks about him fly: They eat the fruit, but still goes on the Mayha's plaintive cry. And even so a single man enormous wealth may win, And yet may not divide it fair between himself and kin."
+canonical-instances:
+  - "A homeowner who refuses to let anyone use a spare room 'because it's mine' leaves it locked and empty for a decade, and when the house eventually passes to relatives who never asked permission, the room has secured the owner nothing at all."
+critical-questions:
+  - "Does the claim that hoarding secures nothing hold even in cases where guarding a resource genuinely does prevent it from being taken by force, rather than simply shared or spent?"
+  - "Is the bird's cry actually pointless, or does it serve some other function — status, habit, identity — even though it fails at the function of securing the fruit?"
+status: active

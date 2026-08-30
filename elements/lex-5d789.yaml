@@ -1,0 +1,19 @@
+id: lex-5d789
+name: a-minor-fault-shows-starkly-only-against-an-otherwise-clean-record
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Scrutiny can fall harder on a small lapse from someone already striving for purity than on a much larger transgression from someone with no such record, on the reasoning that a stain is visible only against a clean background and invisible against one already degraded. In the Jataka's tale of Bhisapuppha, the goddess declines to rebuke a man destroying lotus plants outright but scolds the ascetic for merely smelling a flower from a distance: \"Disgusting like a nurse's dress are men disorderly: I have no speech with men like him, but I deign to speak to thee. When a man is free from evil stains and seeks for purity, A sin like a hair-tip shows on him like a dark cloud in the sky.\""
+related: []
+evokes: [jataka, chanipata, bhisapuppha-jataka, minor-fault-shows-against-clean-record, differential-scrutiny-by-existing-standard]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-bhisapuppha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 392, Bhisapuppha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Disgusting like a nurse's dress are men disorderly: I have no speech with men like him, but I deign to speak to thee. When a man is free from evil stains and seeks for purity, A sin like a hair-tip shows on him like a dark cloud in the sky."
+canonical-instances:
+  - "A reviewer flags a single missing citation in an otherwise meticulous paper as a serious lapse, while barely mentioning the sloppy sourcing throughout a different paper from an author known for cutting corners — the same-sized flaw reads as scandal in one record and as business-as-usual in the other."
+critical-questions:
+  - "Is holding the already-good to a stricter visible standard fair, or does it perversely punish improvement by making every remaining flaw more conspicuous the closer someone gets to blameless?"
+  - "Does this pattern actually improve behavior among the nearly-pure, or does it just teach them to hide small lapses more carefully rather than address them?"
+status: active

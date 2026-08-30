@@ -1,0 +1,30 @@
+id: lex-x8dqm
+name: under-determined-rule-produces-domain-boundary-not-a-single-correct-method
+type-in: situation
+type-out: claim
+_tier: molecule
+agent-instruction: "When a rule or model admits multiple legitimate methods of application and they disagree on some cases, don't reach for 'one method must be wrong' — check whether the disagreement marks a genuine domain boundary (the methods were never meant to cover that region) rather than a rule failure. Diagnosing which regime is operative at a given case is often more productive than litigating which method is universally correct."
+related: [lex-8n237, lex-stppu]
+scaffolds-from: [lex-8n237, lex-stppu]
+evokes: [cardozo-legitimation-methods, domain-boundary-not-rule-failure, apparent-contradiction-diagnostic, regime-identification-over-universal-correctness]
+decomposes-into:
+  - lex-8n237
+  - lex-stppu
+assembly: "sequential(lex-8n237, lex-stppu)"
+premises:
+  - "an under-determined rule (a statute, a trained model's implicit policy, a professional norm) admits multiple legitimate methods of application or legitimation, and reasonable practitioners using different methods can reach different conclusions on the same case (lex-8n237)"
+  - "when two methods produce contradictory outputs, the contradiction can look like evidence that the rule itself is broken or that one method is simply wrong"
+  - "but the contradiction more often marks a domain boundary — a point where the methods' respective ranges of applicability don't overlap the way they appear to — rather than a genuine rule failure (lex-stppu)"
+  - "the productive diagnostic move is asking which training-regime or method is operative at the specific case in question, not which method is universally correct"
+critical-questions:
+  - "is the apparent contradiction actually at a domain boundary, or is it a genuine case where the methods overlap and simply disagree? Not every contradiction is boundary-marking — some really are rule failures, and treating every disagreement as a boundary risks explaining away real inconsistency."
+  - "how do you identify which method's domain a specific case falls into, especially near the boundary itself where the diagnostic is hardest to apply? The composition names the phenomenon but not a general procedure for locating the boundary precisely."
+  - "does recognizing a domain boundary change what should be DONE with the case at hand, or only how the disagreement should be explained? A boundary diagnosis that doesn't cash out into a decision procedure risks becoming a way to defer rather than resolve the practical question."
+lineage:
+  - source: practitioner
+    text: assembled-from-lex-8n237-lex-stppu
+    citation: "Molecule assembled from lex-8n237 (under-determined-rule-admits-multiple-legitimation-methods, Cardozo) and lex-stppu (apparent-contradiction-marks-domain-boundary-not-rule-failure). lex-stppu's own canonical-instances state the link: 'diagnosis is more productive than identifying which training-regime is operative at which prompt-context. Composes with lex-8n237 Cardozo (multiple methods of rule-application within an AI system).'"
+canonical-instances:
+  - "Common-law judicial reasoning (Cardozo's own domain): a statute can be legitimated by textualist, purposivist, or precedent-following methods; when two methods yield different rulings on a hard case, the disagreement often marks a genuine boundary in the statute's drafted scope rather than proof that one interpretive method is wrong across the board."
+  - "Large language model behavior across prompt-contexts: a model trained across many regimes (instruction-following, role-play, code-completion) can produce apparently contradictory outputs to superficially similar prompts; the productive diagnosis is identifying which training-regime the specific prompt-context activated, rather than treating the contradiction as evidence the model's policy is simply broken."
+status: under-review

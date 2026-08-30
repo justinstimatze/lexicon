@@ -1,0 +1,22 @@
+id: lex-vbcpx
+name: a-companion-refuses-a-meaningful-death-request-on-timing-not-survival-grounds
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A badly wounded person, believing death is coming regardless, can ask to be helped back into a fight to die a meaningful death in battle rather than from the wound -- and a trusted companion can physically prevent this, arguing not that death itself would be wrong but that dying specifically today, for no strategic gain, would be foolish, because the wounded person's ongoing usefulness to their people outweighs a symbolically satisfying death right now. Bleeding from a gut wound, Black Elk asks Protector to help him back into the fight: 'It is a good day to die, so I will go over there!' Protector's refusal concedes the framework entirely and disputes only the timing: 'You must not die to-day. That would be foolish. Your people need you. There may be a better day to die.'"
+related: [lex-4wnyg]
+evokes: [black-elk-speaks, the-end-of-the-dream, it-is-a-good-day-to-die, that-would-be-foolish, there-may-be-a-better-day-to-die]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch25-end-of-the-dream
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 25, 'The End of the Dream.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "By now I was crazy to kill, and I said to Protector: 'Help me on my horse! Let me go over there. It is a good day to die, so I will go over there!' But Protector said: 'No, young nephew! You must not die to-day. That would be foolish. Your people need you. There may be a better day to die.'"
+canonical-instances:
+  - "A veteran surgeon, exhausted and convinced she has nothing left to give after a catastrophic case, tells a colleague she wants to resign on the spot, and the colleague talks her out of it not by disputing her exhaustion but by arguing that today's resignation, made in crisis, would waste her value to patients who need her tomorrow."
+  - "A soldier wounded in an ambush wants to charge back into the firefight to die alongside his unit rather than be evacuated, and his sergeant physically restrains him, arguing not that a battlefield death would be dishonorable but that today's specific fight offers nothing worth dying for that his survival wouldn't serve better."
+  - "A striking union leader, arrested and facing a symbolic act of defiance that would likely end in his death, is talked out of it by an older organizer who argues the movement needs his leadership for the harder fight still ahead, not that martyrdom itself would be wrong."
+critical-questions:
+  - "Is 'there may be a better day to die' a genuine promise Protector can make, or a persuasive fiction offered in the moment to defuse a crisis, with no real basis for knowing whether a better day will actually come?"
+  - "Does conceding the framework, that dying meaningfully in battle is a legitimate goal, and disputing only the timing actually work better than disputing the framework itself, or does it just postpone the same argument to whatever day eventually gets called the better one?"
+  - "Protector's argument rests on Black Elk's people needing him -- does this kind of appeal only work on someone whose identity is already bound up in collective duty, and would it have any purchase on a wounded person motivated by something other than service to a group?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-fqgdu
+name: attributing-a-flattering-motive-baits-out-an-honest-less-flattering-confession
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Instead of asking someone directly why they did something, describing their action as if it were skilled and purposeful can provoke them to correct the flattering assumption with the plain, less impressive truth. The bait works because being seen as more capable than you actually are triggers a correction, where a neutral question might not. In the Jataka's tale of the shredding monkey, a gardener drops discarded leaf-cups from a tree, and a monkey shreds each one as it falls. The Bodhisatta addresses the monkey as if the destruction were expert craftsmanship: 'No doubt the king of beasts is clever In pottle-making; he would never Destroy what's made with so much pother, Unless he meant to make another.' The monkey corrects him immediately: 'Neither my father nor my mother Nor I myself could make another. What others make, we tear to pieces: The proper way of monkeys, this is!'"
+related: []
+evokes: [jataka, tikanipata, puta-dusaka-jataka, misattributing-skill-provokes-a-correction-into-the-plain-truth, a-flattering-false-premise-elicits-honest-confession]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-puta-dusaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 280, Puta-dusaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "No doubt the king of beasts is clever In pottle-making; he would never Destroy what's made with so much pother, Unless he meant to make another.\" ... \"Neither my father nor my mother Nor I myself could make another. What others make, we tear to pieces: The proper way of monkeys, this is!"
+canonical-instances:
+  - "A manager suspects an employee broke a piece of equipment out of carelessness, but says instead: 'I assume you were testing its load limits on purpose.' The employee corrects the flattering guess and admits plainly they just weren't paying attention."
+critical-questions:
+  - "Does this tactic risk backfiring by letting a genuinely guilty party simply accept the flattering explanation rather than correct it, if the false motive happens to be more convenient than the truth?"
+  - "Is the monkey's correction actually honest self-disclosure, or is it closer to reflexive pride in its own species' nature, unrelated to any deliberate choice to tell the truth?"
+status: active

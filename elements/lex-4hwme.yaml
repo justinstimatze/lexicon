@@ -1,0 +1,19 @@
+id: lex-4hwme
+name: behavioral-contagion-from-proximity-is-fixed-by-swapping-the-model
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Sustained proximity to a flawed exemplar can produce the same flaw in an observer through pure imitation, with no incentive, intent, or even conscious noticing involved on either side. The fix is replacing the exemplar. Correcting the imitator does nothing. In the Jataka's tale of the limping horse, a royal horse begins limping purely from watching his lame trainer walk in front of him every day. Physicians examine the horse and find nothing physically wrong; the Bodhisatta diagnoses the real cause and prescribes the real fix: 'Find but a fit and proper groom, on whom you can depend, To bridle him and exercise, the horse will quickly mend; His sorry plight will be set right; he imitates his friend.' Nothing was ever wrong with the horse's legs — training him harder or examining him further would have missed the actual variable entirely."
+related: []
+evokes: [jataka, dukanipata, giridanta-jataka, unconscious-imitation-of-a-flawed-model-not-incentive, fix-the-model-not-the-imitator]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-giridanta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 184, Giridanta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Find but a fit and proper groom, on whom you can depend, To bridle him and exercise, the horse will quickly mend; His sorry plight will be set right; he imitates his friend."
+canonical-instances:
+  - "A junior team member starts hedging every technical claim with excessive qualifiers and second-guessing simple decisions, and management spends weeks trying to build up their confidence directly before realizing the fix is simply moving them off a team led by a manager who does exactly the same thing in every meeting."
+critical-questions:
+  - "How would anyone distinguish this from a case where the horse actually has developed a real physical issue the physicians simply failed to detect — what makes the Bodhisatta confident enough to rule out physical causes entirely rather than treating both possibilities as open?"
+  - "Does the imitation require sustained daily proximity specifically, or would occasional but vivid exposure to the flawed model produce the same contagion? Exposure amount is what the story never actually varies to test."
+status: active

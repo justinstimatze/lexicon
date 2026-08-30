@@ -1,0 +1,25 @@
+id: lex-46mbg
+name: the-same-practice-can-help-one-subgroup-and-harm-another
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Don't analyze a social practice's consequences at the level of 'society' or 'the organization' as a single unified beneficiary — check separately what it does for each subgroup within that system, because a practice functional for one part can be dysfunctional for another part of the very same whole. Merton names this the false postulate of functional unity: the assumption that every standardized social or cultural item is functional for the entire system, and functional for everyone in it. He gives the reverse case explicitly — increased pride within individual families can serve to disrupt the solidarity of the very local community those families belong to, so the same sentiment that looks adaptive at one level of analysis is corrosive at another. Before accepting that a persisting institution or norm is 'good for the group,' specify which subgroup you mean, since a different one may be paying the cost."
+related: [lex-fsh3p]
+evokes: [postulate-of-functional-unity, merton-1957, family-pride-vs-community-solidarity, no-single-beneficiary-level, functional-for-whom]
+lineage:
+  - source: primary
+    text: merton-1957-functional-unity-contrary-to-fact
+    citation: "Robert K. Merton, Social Theory and Social Structure, Revised and Enlarged Edition (Glencoe, IL: Free Press, 1957), Ch. I 'Manifest and Latent Functions,' pp.27-28, critiquing the 'postulate of the functional unity of society.' The source text runs the two page images together across a page break with no lost words."
+    quote: "'One need not go far afield to show that the assumption of the complete functional unity of human society is repeatedly contrary to fact. Social usages or sentiments may be functional for some groups and dysfunctional for others in the same society.'"
+  - source: primary
+    text: merton-1957-family-pride-disrupts-community-solidarity
+    citation: "Robert K. Merton, Social Theory and Social Structure (1957), same chapter and pages, immediately following, citing Bateson. A footnote-number marker glued directly onto 'Bateson' in the source text (a superscript digit rendered inline) is elided with an ellipsis rather than reproduced; every other word is verbatim."
+    quote: "'Anthropologists often cite \"increased solidarity of the community\" and \"increased family pride\" as instances of functionally adaptive sentiments. Yet, as Bateson ... among others has indicated, an increase of pride among individual families may often serve to disrupt the solidarity of a small local community.'"
+canonical-instances:
+  - "A strict seniority-based promotion system is functional for long-tenured employees (predictable advancement, reduced office politics) and dysfunctional for high-performing newer hires, who leave for employers that promote on merit — the same policy scored oppositely depending on which employee subgroup is the unit of analysis."
+  - "Zoning laws that protect a neighborhood's property values are functional for existing homeowners and dysfunctional for renters and prospective buyers priced out of the area — 'good for the neighborhood' silently means 'good for the subgroup that already owns property in it.'"
+  - "operationally distinct from lex-fsh3p an-item-can-be-both-functional-and-dysfunctional-at-once: this atom's axis is WHO the item is functional or dysfunctional for (different subgroups get different verdicts on the same practice); lex-fsh3p's axis is that a SINGLE unit can receive both a functional and a dysfunctional consequence from the same item simultaneously, requiring a net-balance judgment rather than a split-by-subgroup one. The two critiques compose: a full analysis checks both which subgroups are affected and, within each, whether the net balance for that subgroup is positive."
+critical-questions:
+  - "How finely should subgroups be divided before the analysis stops being useful — families, generations, income brackets, individuals? Merton doesn't supply a stopping rule, and dividing finely enough will eventually find SOME subgroup harmed by nearly any practice, which risks making the critique unfalsifiable in the other direction from lex-pazxc's concern."
+  - "When a practice is functional for a numerically small but powerful subgroup and dysfunctional for a numerically large but weak one, does 'functional for the system' just collapse into 'functional for whoever controls it'? Merton's broader net-balance framing (see lex-fsh3p) explicitly allows for retention 'by means of direct coercion or indirect persuasion' rather than by genuine collective benefit."
+status: active

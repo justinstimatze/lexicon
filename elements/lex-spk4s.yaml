@@ -1,0 +1,32 @@
+id: lex-spk4s
+name: isolate-component-for-separate-treatment
+type-in: state
+type-out: composition
+_tier: atomic
+agent-instruction: "When a system is too complex to reason about whole, isolate one component and treat it separately. The isolation creates a tractable sub-problem; rejoining is its own task. Don't optimize the component in isolation past the point where rejoining-cost dominates."
+related: [lex-2n84d, lex-2vvck, lex-3ep98, lex-4dsbe, lex-5b9gv, lex-7xbt6, lex-9akfh, lex-9nj6a, lex-avv9k, lex-b4vxq, lex-bqxvx, lex-btfca, lex-d2tsa, lex-e9z2y, lex-ea5ug, lex-eybad, lex-hm8yx, lex-jy4aq, lex-mnxhs, lex-mx4q5, lex-ts4qp, lex-v95t7, lex-yg484]
+scaffolds-from: [lex-hm8yx, lex-eybad]
+evokes: [extract-the-piece, separate-and-handle, single-out-for-special-case, peel-off-the-component]
+lineage:
+  - source: primary
+    text: altshuller-1984-principle-2-removal
+    citation: "G. S. Altshuller, Creativity as an Exact Science: The Theory of the Solution of Inventive Problems, trans. Anthony Williams (Gordon and Breach, 1984), Ch.5 'Forty Basic Methods,' Principle 2 'The Principle of Removal.'"
+    quote: "'2. The principle of removal. Extracting the 'disturbing' part from the object (the 'disturbing' property) or, on the other hand, extracting the only necessary part or property. Unlike the previous method, where it was a case of dividing the object down into identical parts, here the suggestion is to divide the object into different parts. Example: Usually on small pleasure craft and cabin cruisers electricity for lighting and other needs is provided by a generator driven by the main engine. In order to obtain electrical power while moored one has to install an auxiliary generator with a lead from an internal combustion engine. The engine, naturally, makes noise and sets up vibration. It is proposed to house the engine and generator in a separate capsule placed some distance away from the cabin cruiser and joined to it by a cable.'"
+  - source: practitioner
+    text: software-refactoring-tradition
+    citation: "Fowler 1999 Refactoring — extract-method, extract-class, extract-interface are the canonical software analogues; separating one concern out of a tangled larger structure to act on it directly"
+  - source: practitioner
+    text: triz-decomposition-pass
+    citation: "promoted from cross-attestation: TRIZ (engineering invention), software refactoring (extract-X family), biology (organ-specialization in evolution: a function isolated to a dedicated structure), management (single-team-owns-this-thing organizational moves)"
+canonical-instances:
+  - "extract-method refactor: a long function has a 5-line block doing one logical thing — extracting it to its own function lets you name it, test it, and replace it independently"
+  - "TRIZ classic: a noisy element in a system (e.g., a vibrating motor causing problems) — isolate it (mount on dampers) so the rest of the system isn't subject to its effect"
+  - "biological evolution: a function distributed across a tissue can be isolated to a specialized organ — kidney filtering vs distributed solute-management; allows independent optimization"
+  - "operationally distinct from lex-9akfh decoupling-via-indirection: indirection adds a layer between A and B; isolation EXTRACTS one component out of a unified object so it can be treated as its own object"
+  - "operationally distinct from lex-hm8yx scale-separation: scale-separation is the recognition that scales naturally decouple; isolation is the active intervention to make a component separately-actionable"
+critical-questions:
+  - "the actually-separable check: is the component genuinely separable, or is its function distributed-and-interdependent with the rest? Premature isolation of an essentially-distributed component (e.g., extracting a 'logger' from code where logging is intertwined with control-flow) produces brittle abstractions. Practitioner-discipline: probe the coupling-edges before extracting; if extraction requires inventing many new interfaces, the boundary is wrong"
+  - "the interface-cost vs isolation-benefit calculation: every extraction creates a new interface; the interface has maintenance cost. Net-positive when the isolated component can be independently developed, tested, replaced, OR reasoned about. Net-negative when the extraction just adds indirection without enabling those capacities. Practitioner-question: what specific capacity does this extraction unlock that wasn't possible before?"
+  - "the right-line-of-cleavage discrimination: where to make the cut? The wrong cut creates abstractions that leak, fight against the underlying structure, or fragment along arbitrary lines. Refactoring literature: cleavage should follow rate-of-change axes (parts that change together stay together) or knowledge-axes (parts requiring same expertise stay together). Practitioner-discipline: name the cleavage-axis explicitly"
+  - "the recombination question: after isolation, can the system still be composed cleanly when the component needs to interact with the rest? Some isolations are one-directional (the extracted piece is referenced but doesn't reference back); others are bi-directional (mutual references via interfaces). The bi-directional case often creates the most maintenance debt"
+status: active

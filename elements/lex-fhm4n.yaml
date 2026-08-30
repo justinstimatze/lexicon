@@ -1,0 +1,19 @@
+id: lex-fhm4n
+name: status-fear-keeps-a-privately-known-truth-publicly-denied
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Someone can be fully certain a claim is true and still deny it in public, when acknowledging it costs them standing in front of an audience whose judgment they fear more than their own conscience. In the Jataka's tale of the faggot-gatherer's son, a king privately knows a child is his own, but denies fathering him anyway, purely because admitting it in front of his court feels unbearable. The denial has nothing to do with genuine doubt about the facts — the king states outright that he knows the truth — and everything to do with the audience the admission would be made in front of. The mechanism generalizes past paternity to any case where a person holds a known truth hostage to how its admission will be read by onlookers whose opinion outweighs, in the moment, the cost of maintaining a lie."
+related: []
+evokes: [jataka, ekanipata, katthahari-jataka, status-driven-denial-of-known-truth, audience-cost-of-admission]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-katthahari-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 7, Katthahari-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The king knew well enough that this was the truth, but shame before all his court made him reply, \"He is no son of mine.\""
+canonical-instances:
+  - "An executive privately knows a project they championed caused a costly outage, and says so in a one-on-one with their manager. In the all-hands meeting the next day, with the whole department watching, they attribute the outage to an unrelated vendor issue instead."
+critical-questions:
+  - "Does the size of the audience matter in a graded way — would the same person have admitted the truth to a smaller or less consequential group, or is any audience at all enough to trigger the denial?"
+  - "What actually breaks a denial like this? Evidence that leaves no room for deniability is one route. A slower one: the same shame that produced the denial curdles over time into its own pressure to confess."
+status: active

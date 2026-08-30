@@ -1,0 +1,19 @@
+id: lex-rct6c
+name: technical-capability-to-build-something-is-not-judgment-to-abstain
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Skill sufficient to reconstruct or build a dangerous thing is a separate capacity from the judgment to ask whether it should be built at all — and the second can be entirely absent in someone who has the first in abundance. The Panchatantra's four scholars find a lion's bones; three reassemble the skeleton and bring it to life using their considerable learning, ignoring the fourth's plain warning: 'This is a lion. If you bring him to life, he will kill every one of us.' The three proceed anyway and are killed; the fourth, who lacked their scholarship but had the sense to climb a tree first, survives. The verse states the ranking directly: 'Scholarship is less than sense; therefore seek intelligence: senseless scholars in their pride made a lion; then they died.'"
+related: []
+evokes: [panchatantra, ill-considered-action, capability-to-build-is-not-judgment-to-abstain, technical-skill-outruns-restraint]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-the-lion-makers
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book V, 'The Lion-Makers.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Scholarship is less than sense; Therefore seek intelligence: Senseless scholars in their pride Made a lion; then they died."
+canonical-instances:
+  - "a research team with the technical expertise to publish a novel pathogen-enhancement method has that expertise entirely uncoupled from any process for evaluating whether the capability should be demonstrated at all, and the publication decision ends up made by whoever has the skill to write the paper rather than by anyone positioned to weigh the risk."
+critical-questions:
+  - "Is 'sense' here actually a separate faculty from scholarship, or is the real story that the fourth scholar simply had less invested ego in demonstrating mastery, making restraint easier for reasons that have nothing to do with wisdom?"
+  - "Does this generalize to any group project with an internal skeptic, or does it specifically require the skeptic to be right about a catastrophic and irreversible outcome — would the same story read as obstruction rather than wisdom if the lion had turned out to be harmless?"
+status: active

@@ -1,0 +1,23 @@
+id: lex-rgmbf
+name: a-verbal-declaration-plus-a-symbolic-object-performs-an-identity-change
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A person can be handed an adult-grade tool of office and told outright that they now hold a new identity, and the declaration plus the object together announce the transition on the spot, with behavior expected to follow the announcement rather than precede it. Breaking camp to join Crazy Horse's resistance, Black Elk's aunt hands her thirteen-year-old nephew 'a six-shooter like the soldiers had' and tells him 'I was a man now.' Nothing about his body changed in that moment -- he says himself he 'was not very big' for his age. But the declaration is immediately followed by real stakes: within days he rides into his first fight, deliberately prepared to die there. The words and the weapon perform the change; the battle that follows is what actually tests whether it holds."
+related: [lex-cnjfd]
+scaffolds-from: [lex-cnjfd]
+evokes: [black-elk-speaks, fight-with-three-stars, a-six-shooter-like-the-soldiers-had, i-was-a-man-now, declaration-plus-object-as-identity-rite]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch8-fight-with-three-stars
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 8, 'The Fight with Three Stars.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "My aunt, who was living at the Soldiers' Town, must have felt the way we did, because when we were breaking camp she gave me a six-shooter like the soldiers had, and told me I was a man now. I was thirteen years old and not very big for my age, but I thought I should have to be a man anyway."
+canonical-instances:
+  - "A family hands a teenager the keys to the family car and says 'you're driving us now,' and the teenager, however nervous, straightens up and takes the wheel differently than they did in the passenger seat an hour earlier."
+  - "A military unit presents a soldier with their unit's insignia and a formal declaration of rank change, and peers immediately begin treating and addressing them differently, before any new duty has actually been performed."
+  - "A company hands a new hire a company laptop and badge on day one and calls them 'part of the team' in the same breath, and the hire starts speaking in terms of 'we' about the company almost immediately, well before contributing anything."
+critical-questions:
+  - "Given lex-cnjfd's finding that identity shift actually requires a real occasion to exercise the role plus reasonable success at it, not mere access -- does the declaration-plus-object here do any independent work, or is it just a symbolic head start on an identity that the coming battle, not the six-shooter, actually confers?"
+  - "Would the six-shooter alone, without the spoken words 'you are a man now,' have produced the same shift in Black Elk's self-conception, or is the verbal declaration doing work the object by itself could not?"
+  - "His aunt chose this specific moment, breaking camp for war, to make the declaration -- does the timing itself matter, tying the identity change to an imminent test, or would the same words have worked just as well on an ordinary day?"
+status: active

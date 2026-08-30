@@ -1,0 +1,21 @@
+id: lex-qaqhm
+name: choose-the-ally-who-was-kind-when-you-were-vulnerable
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When you're offered a choice of companion or ally from among strangers, and you have no other information to go on, look back at who treated you well the moment you were most exposed and had nothing yet to offer -- that single data point, from before there was anything to gain by being kind to you, is worth more than any credential the others present now. In Cushing's telling, a young man arriving alone among an entire council of unfamiliar Rattlesnake-beings is invited to choose one of them as a travelling companion for a fearful, unknown journey. He doesn't ask about their individual powers or reputations -- he scans the room 'to find which face should be kindest to him,' and picks based on exactly one thing: 'she found me and loved me in that she gently and without fear brought me into your presence.' She showed him kindness at the exact moment he arrived disoriented and vulnerable, before he had demonstrated anything or offered anything in return, and that single early act is what he weighs above every other consideration available to him. Diagnostic move: when choosing who to trust or ally with from among people you don't yet know well, weight most heavily how someone treated you during your first, most exposed encounter with them -- before you had status, leverage, or anything to offer -- since that's the moment least distorted by what they might be angling to get from you now."
+related: []
+evokes: [weight-the-treatment-you-got-before-you-had-anything-to-offer, cushing-the-boy-hunter-and-the-rattlesnakes, which-face-should-be-kindest-to-him, kindness-before-there-was-anything-to-gain]
+lineage:
+  - source: primary
+    text: cushing-boy-hunter-chooses-companion-by-earliest-kindness
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Boy Hunter Who Never Sacrificed to the Deer He Had Slain: or the Origin of the Society of Rattlesnakes.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'It is well, my fathers,' said the young man, and, casting his eyes about the council to find which face should be kindest to him, he chose the maiden, and said: 'Let it be this one, for she found me and loved me in that she gently and without fear brought me into your presence.'"
+canonical-instances:
+  - "A new employee choosing which senior colleague to seek out as an informal mentor bypasses the most impressive-seeming candidates and gravitates toward the one who happened to be genuinely kind and helpful during their very first, disoriented day, reasoning that this kindness, offered before the employee had anything to offer in return, is the most reliable signal available."
+  - "Someone navigating a difficult bureaucratic process and needing to pick one contact to keep working with chooses the one clerk who was patient and helpful during their first, most confused and powerless visit, over others who seem more senior or capable now, because that early kindness happened when there was nothing to be gained from giving it."
+critical-questions:
+  - "does this heuristic risk overweighting a single early interaction that could have been circumstantial, a good mood, a slow day, rather than a genuine and reliable trait -- how much should one data point from a moment of vulnerability actually be trusted to predict how someone will behave as a committed ally later?"
+  - "is there a meaningful difference between kindness shown to a stranger with no visible value yet, versus kindness that anticipates future value the kind person can already see coming -- did the Rattlesnake maiden already suspect who the youth was and what he was worth to her people when she helped him?"
+  - "what happens when the person who was kindest at first contact turns out to be poorly matched for what the actual journey or task requires -- does this pattern trade away practical fit for a purely relational signal, and is that always the right trade?"
+status: active

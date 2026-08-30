@@ -1,0 +1,18 @@
+id: lex-kyc7c
+name: honoring-a-commitment-after-its-original-justification-has-lapsed
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'An agent can continue to honor a prior commitment even after the specific danger or reason that motivated it has been removed, holding to the letter of the original instruction rather than recalculating based on the now-changed circumstances. In the Jataka''s tale of Dasaratha, Rama''s twelve-year exile term was set to protect him from a scheming stepmother; his father is now dead and his brothers are begging him to take the throne immediately, with the original danger gone — yet he still declines: "''Brother, my father commanded me to receive the kingdom at the end of twelve years. If I go now, I shall not carry out his bidding. After three more years I will come.''"'
+related: []
+evokes: [jataka, ekadasanipata, dasaratha-jataka, rule-following-past-its-triggering-reason, precommitment-discipline]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dasaratha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 461, Dasaratha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Brother, my father commanded me to receive the kingdom at the end of twelve years. If I go now, I shall not carry out his bidding. After three more years I will come."
+canonical-instances:
+  - "An executor keeps a deceased founder's trust locked until the specified date even after the family circumstance that originally justified the delay has resolved, honoring the letter of the will rather than recalculating what the founder would probably want now."
+critical-questions:
+  - "Is Rama's return date a rule worth following for its own sake, or does honoring it here cost the kingdom three extra years of an interim government run by slippers, when the reason for the delay no longer applies to anyone?"
+status: active

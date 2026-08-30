@@ -1,0 +1,19 @@
+id: lex-g6cds
+name: threat-ranks-by-niche-competition-not-by-raw-power
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When assessing who poses the greatest threat, check whether the ranking should track raw power or proximity of competition for the same resource or niche. The 36 Stratagems' 'Befriend a distant state while attacking a neighbour' names your closest domestic rival as the real danger, ahead of whoever is biggest across the whole board. The strongest actor overall may never compete for any of your resources. Your closest rival in your own specific space is fighting you for the exact same territory right now. Threat calibration should follow what is actually contested, letting the abstract power ranking fall away entirely."
+related: []
+evokes: [36-stratagems, befriend-a-distant-state-while-attacking-a-neighbour, niche-competition, threat-calibration]
+lineage:
+  - source: primary
+    text: taylor-2013-36-stratagems-23-befriend-a-distant-state
+    citation: "Peter Taylor, The Thirty-Six Stratagems: A Modern-Day Interpretation of a Strategy Classic (Infinite Ideas, 2013), Stratagem 23, 'Befriend a distant state while attacking a neighbour.' Verified verbatim against a direct pdftotext extraction of the held copy."
+    quote: "When you are the strongest in one field, your greatest threat is from the second strongest in your field, not the strongest from another field."
+canonical-instances:
+  - "airline alliance structures (Star Alliance, Oneworld, SkyTeam) deliberately pair carriers with non-overlapping route networks as partners, while carriers serving the exact same routes remain fierce direct rivals regardless of their relative size — partnership and rivalry track shared territory, not overall scale."
+critical-questions:
+  - "Does this calibration break down once a distant, larger power decides to enter your specific niche — does the 'distant' threat only stay low-priority as long as it stays distant, requiring continuous reassessment?"
+  - "Is proximity of competition always the dominant variable, or can a sufficiently large power gap override niche calibration, making the strongest actor overall a real threat even without direct competition today?"
+status: active

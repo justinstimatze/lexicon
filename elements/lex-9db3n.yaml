@@ -1,0 +1,21 @@
+id: lex-9db3n
+name: never-fully-merge-your-force-into-anothers-even-in-cooperation
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When collaborating closely with an ally, partner organization, or larger coalition, don't let your own team, resource, or asset become fully absorbed into the joint effort's shared structure -- keep it identifiably and operationally yours, because full merger is one of the few conditions from which you can't simply walk away when the alliance sours or the joint effort ends. Kautilya's summary standard for an ideal army specifies this as a named calamity to avoid: 'In war, it should never be abandoned, left leaderless or totally merged into someone else's army.' The pairing with 'abandoned' and 'left leaderless' is instructive -- all three describe ways a force stops being a controllable, extractable asset of its own commander, whether through neglect, decapitation, or dissolution into a larger whole. Being merged is the cooperative-sounding version of the same failure: nothing hostile has happened, the merger may even have been mutually agreed and beneficial in the moment, but the practical result is identical to abandonment -- the original commander can no longer reliably extract, redirect, or reclaim the force as a distinct instrument once it's needed for something other than the joint purpose it was merged for. Diagnostic move: when entering a close partnership, joint venture, or coalition, notice the moment your people, budget, or authority stop having a clearly marked boundary and a route back to your sole control -- treat that boundary-loss as a cost of the collaboration to weigh explicitly, not a natural and costless byproduct of good cooperation, and keep a subset of the merged resource identifiably separable even while the joint effort is working well."
+related: []
+evokes: [keep-the-extraction-route-open-even-while-cooperating, kautilya-the-ideal-army, merger-is-cooperative-sounding-abandonment, an-asset-fully-absorbed-into-a-joint-effort-cant-be-reclaimed]
+lineage:
+  - source: primary
+    text: kautilya-arthashastra-ideal-army-never-fully-merged
+    citation: "Kautilya, The Arthashastra, ed./trans. L.N. Rangarajan (Penguin Books, 1992), Part XI 'Defence and War,' section 'Military Organization,' 'The Ideal Army,' editorial summary preceding {8.5.2-20}."
+    quote: "'In war, it should never be abandoned, left leaderless or totally merged into someone else's army.'"
+canonical-instances:
+  - "A small nonprofit joining a large coalition campaign keeps its own donor list, staff reporting lines, and a named subset of its programming entirely under its own control, rather than folding its entire operation into the coalition's shared structure -- so that when the coalition's priorities shift or the campaign ends, the nonprofit still exists as a distinct, functioning organization."
+  - "An engineering team seconded to a cross-company joint project insists on keeping its own manager and reporting chain intact rather than being fully reassigned into the partner company's org chart, so that when the joint project concludes, the team returns to its home organization as a coherent unit rather than having quietly become permanent employees of the partner by default."
+critical-questions:
+  - "does insisting on a separable identity within a joint effort undermine the trust and full commitment that make the collaboration actually work -- do partners who sense you've kept an exit route become less willing to invest fully in the shared work themselves?"
+  - "is full merger sometimes genuinely the better choice, when the joint effort's success depends on eliminating exactly the kind of divided loyalty or split command that keeping a separate identity preserves -- does this advice systematically undervalue situations where committing fully is what wins?"
+  - "how does a party actually judge, in real time, when ordinary close cooperation has crossed into the kind of full merger this warns against, given that the transition is usually gradual and each individual step of deepening integration looks reasonable on its own?"
+status: active

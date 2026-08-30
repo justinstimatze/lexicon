@@ -1,0 +1,19 @@
+id: lex-ecak5
+name: a-fabricated-supernatural-threat-clears-a-post-no-force-could-take
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A post defended by armed, competent guards can be cleared not by overpowering them but by convincing them a threat exists that their training and weapons offer no defense against, since a guard's willingness to hold a position depends on believing the threat is one they can actually meet. In the Jataka's tale of the sneezing corpse, a wise-woman convinces an escort of armed guards that a dead man placed under a bed will attack when it sneezes. When the hidden prince fakes the sneeze on cue, the entire escort abandons its post and flees, despite being fully armed and vastly outnumbering any single attacker — because the fabricated threat was framed as something no sword could stop."
+related: []
+evokes: [jataka, ekanipata, asilakkhana-jataka, fabricated-unbeatable-threat-clears-armed-defenders, framing-a-threat-as-outside-the-defenders-competence]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-asilakkhana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 126, Asilakkhana-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Listen. Under the bed that I shall set up, there will be a dead man; and that dead man will sneeze. And mark well that, so soon as he has sneezed, he will come out from under the bed and seize on the first person he finds.\""
+canonical-instances:
+  - "A well-armed security detail guarding a building abandons its post entirely after being convinced a fabricated biohazard alert means the building's ventilation system is actively spreading an untreatable pathogen, a threat their training and equipment offer no way to counter, even though no actual danger exists."
+critical-questions:
+  - "Does this technique depend specifically on the fabricated threat being outside the defenders' competence, or would an equally severe but conventional threat, one they felt equipped to fight, fail to produce the same abandonment?"
+  - "How would defenders verify a claimed threat of this kind before reacting, given that the entire tactic depends on there being no time or means to check it in the moment?"
+status: active

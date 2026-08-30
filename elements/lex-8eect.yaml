@@ -1,0 +1,19 @@
+id: lex-8eect
+name: strip-a-flattering-self-label-from-a-group-by-precise-redefinition
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A group that has adopted a self-congratulatory label without actually meeting its criteria can be stripped of it by first letting them expect praise, then denying them membership in the category and supplying the real, narrower definition that excludes them. In the Jataka's tale of Vighasa, the parrot lets the ascetics assume his opening remark is flattery, then redefines the label they've claimed: \"Should not wise men listen when a parrot speaks in human tongue: Hearken, brethren: 'tis our praises clearly that this bird has sung.\" ... \"Not your praises Iam singing, carrion-eaters: list to me, Refuse is the food you eat, not remnants left from charity.\""
+related: []
+evokes: [jataka, chanipata, vighasa-jataka, stripping-an-unearned-self-label, precise-redefinition-denies-membership]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-vighasa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 393, Vighasa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Should not wise men listen when a parrot speaks in human tongue: Hearken, brethren: 'tis our praises clearly that this bird has sung. ... Not your praises Iam singing, carrion-eaters: list to me, Refuse is the food you eat, not remnants left from charity. ... They who giving alms to priests and brahmins, wants to satisfy Eat the rest, 'tis they who live on remnants left from charity."
+canonical-instances:
+  - "A committee that's taken to calling itself the 'ethics review board' without actually reviewing anything for months hears an outside consultant open with what sounds like praise for their diligence, only to have the consultant redefine what an ethics review board actually does and point out they don't qualify."
+critical-questions:
+  - "Does letting the group initially misread the remark as praise serve any purpose beyond a rhetorical setup, or is the sting entirely dependent on that brief moment of false expectation?"
+  - "Is redefining the category the right response to an unearned label, or does it risk being read as pedantic gatekeeping rather than a substantive correction?"
+status: active

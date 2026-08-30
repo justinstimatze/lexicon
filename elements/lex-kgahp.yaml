@@ -1,0 +1,18 @@
+id: lex-kgahp
+name: identifying-the-unperceived-via-testimony-matched-to-memorized-lore
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'Lacking direct sensory access, an expert can rely entirely on others'' verbal description of observable signs and match those descriptions against an internalized body of specialized knowledge to correctly identify something the expert cannot perceive firsthand. In the Jataka''s tale of Supparaka, the blind navigator identifies an unknown sea purely from the crew''s description, checked against memorized mariner''s lore: "The Great Being, at this question, conning over in mind his mariner''s lore, answered by repeating the second stanza: ''Merchants come from Bharukaccha, seeking riches to purvey, This is Knuramali ocean where your ship has gone astray.''"'
+related: []
+evokes: [jataka, ekadasanipata, supparaka-jataka, diagnosis-by-testimony, expertise-without-direct-perception]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-supparaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 463, Supparaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The Great Being, at this question, conning over in mind his mariner's lore, answered by repeating the second stanza: \"Merchants come from Bharukaccha, seeking riches to purvey, This is Knuramali ocean where your ship has gone astray.\""
+canonical-instances:
+  - "A remote specialist diagnoses a rare mechanical fault purely from a field technician's verbal description of the sounds and vibrations, matching the account against a memorized catalog of known failure signatures without ever seeing the machine directly."
+critical-questions:
+  - "This method depends entirely on the reporting party's description being accurate and complete — what happens to the diagnosis when the crew's account of an unfamiliar sea is itself imprecise or incomplete?"
+status: active

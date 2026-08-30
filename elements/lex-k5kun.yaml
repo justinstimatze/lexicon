@@ -1,0 +1,21 @@
+id: lex-k5kun
+name: static-rest-cannot-symbolize-dynamic-equilibrium
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When designing a symbol, diagram, or illustration meant to convey stability-under-change, check whether the stabilizing element is shown actively holding its position or merely sitting still. Waite's critique of a variant Wheel of Fortune card names the failure exactly: some versions show the Sphinx couchant (lying down, at rest) on a pedestal rather than balanced atop the turning wheel itself, which 'defrauds the symbolism by stultifying the essential idea of stability amidst movement.' A resting figure depicts the absence of motion, not the maintained tension of an actively-balanced one — the two images look similar but assert opposite claims. The same confusion recurs whenever stability gets illustrated as static rather than as continuously counterbalancing: a stagnant system read as resilient, or a truce depicted as passivity rather than as sustained, effortful counterweight."
+related: []
+evokes: [waite, pictorial-key-to-the-tarot, wheel-of-fortune, dynamic-equilibrium, symbol-design]
+lineage:
+  - source: primary
+    text: waite-1910-pictorial-key-wheel-of-fortune
+    citation: "Arthur Edward Waite, The Pictorial Key to the Tarot (Rider, 1910), Part II Section 2, 'Wheel of Fortune.' The primary text behind the Rider-Waite-Smith deck's card meanings, illustrated by Pamela Colman Smith; not to be confused with L. W. De Laurence's 1918 plagiarized republication of this same book under his own name. Verified verbatim against a direct extraction of the full text hosted at sacred-texts.com, clean digital text, no OCR."
+    quote: "Sometimes the sphinx is represented couchant on a pedestal above, which defrauds the symbolism by stultifying the essential idea of stability amidst movement."
+canonical-instances:
+  - "Waite's own gloss on the correct version names the mechanism directly: 'The Sphinx is the equilibrium therein' — equilibrium requires the wheel's motion and the Sphinx's counterbalance to be depicted together, in the same frame, not the Sphinx alone at rest somewhere off the moving structure."
+  - "A tightrope walker's outstretched arms photographed mid-crossing convey the same active counterbalance the couchant sphinx fails to convey; a photo of the same walker simply seated on the platform beside the rope would communicate calm, not the maintained skill of staying upright over the wire."
+critical-questions:
+  - "Is this specific to visual/pictorial symbols, or does the same substitution error occur in verbal descriptions of equilibrium (a report calling a volatile market 'stable' with no mention of the ongoing corrective trades holding it there)?"
+  - "How would a viewer who has never seen the wheel actually turning tell the difference between the correct depiction and the couchant one, without already knowing what dynamic equilibrium is supposed to look like?"
+  - "Does every dynamic equilibrium require a visible counterbalancing agent to depict correctly, or are there stable systems whose stability comes from a structural constraint with no single active element to draw?"
+status: active

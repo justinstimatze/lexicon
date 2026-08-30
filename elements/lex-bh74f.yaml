@@ -1,0 +1,20 @@
+id: lex-bh74f
+name: wide-repetition-detaches-a-signal-from-its-original-meaning
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A message built to carry a specific function — identify someone, close a search, trigger a reward — can be copied by listeners who never decode that function at all; they hear it repeated by enough other people and reproduce it as a style, a habit, an aesthetic preference, while the actual instruction inside it goes unexecuted by everyone but the rare listener who happens to parse it correctly. In the Jataka's tale of Sonaka, king Arindama composes a song offering a reward to whoever brings him news of his vanished friend, and it escapes him entirely: \"Then a nautch girl, catching it up, as it were, from his very mouth, sang the words, and then another and another took it up till the whole harem, thinking it was a favourite air of the king's, all sang it. And gradually both towns-people and country-folk sang the same song and the king too constantly sang it.\""
+related: []
+evokes: [jataka, satthinipata, sonaka-jataka, signal-detached-from-meaning, imitation-without-comprehension]
+lineage:
+  - source: primary
+    text: jataka-francis1905-sonaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XIX (Satthinipata), No. 529, Sonaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Then a nautch girl, catching it up, as it were, from his very mouth, sang the words, and then another and another took it up till the whole harem, thinking it was a favourite air of the king's, all sang it. And gradually both towns-people and country-folk sang the same song and the king too constantly sang it."
+canonical-instances:
+  - "A company's internal wiki page named 'incident-runbook-v2' spreads through Slack as the go-to link people paste whenever anything breaks, cited constantly for years, while almost nobody who links it has actually read past its table of contents — the link itself has become the socially correct gesture, detached from whether the runbook inside gets followed."
+  - "A protest chant coined to make one specific, actionable demand gets adopted by crowds at unrelated marches over the following decade purely because it scans well and sounds righteous, with the demand itself forgotten by most of the people chanting it."
+critical-questions:
+  - "Does the song's spread ever come close to solving the king's actual problem, or does mass repetition of a signal without its meaning make the real solution — someone who actually goes looking for Sonaka — statistically less likely by drowning out the few who might parse it correctly?"
+  - "The boy who eventually resolves the song learned it the same way everyone else did, by rote, from his mother's example — does the fact that meaning-blind transmission still delivered him to the one person who could complete it undercut the claim that detachment from meaning is a loss, or was that just luck operating on a large enough sample?"
+status: active

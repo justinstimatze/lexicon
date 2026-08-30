@@ -1,0 +1,22 @@
+id: lex-7ba3u
+name: awe-based-fear-is-distinct-from-threat-based-fear
+type-in: state
+type-out: claim
+_tier: atomic
+agent-instruction: "A person can explicitly separate two responses usually collapsed under the single word fear: self-protective vigilance triggered by expectation of harm, and an involuntary, diffuse awe or submission triggered by proximity to someone recognized as exceptional, with no expectation of harm involved at all. Black Elk names this distinction directly about Crazy Horse: 'I was not afraid that he would hurt me; I was just afraid.' The sentence refuses the reader's default assumption -- that fear implies a feared harm -- and replaces it with an unexplained residue, a fear with the threat-component removed but the feeling fully intact. He generalizes it past his own case in the next breath: 'Everybody felt that way about him.'"
+related: []
+evokes: [black-elk-speaks, wasichus-in-the-hills, i-was-just-afraid, not-afraid-he-would-hurt-me, fear-without-a-feared-harm]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch7-wasichus-in-the-hills
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 7, 'Wasichus in the Hills.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "Then he would say things to tease me, but I would not say anything back, because I think I was a little afraid of him. I was not afraid that he would hurt me; I was just afraid. Everybody felt that way about him."
+canonical-instances:
+  - "A student describes being unable to speak up in a renowned professor's office hours, insisting the professor has never been anything but kind, yet the student's hands still shake and their mouth still goes dry every time."
+  - "An employee reports feeling a kind of dread before meetings with a universally respected but gentle-mannered founder, explicitly clarifying they've never been reprimanded or treated harshly, that the feeling has nothing to do with expecting punishment."
+  - "A congregant describes trembling in the presence of a revered spiritual teacher who has shown them nothing but warmth, unable to locate any specific danger the feeling might be warning them about."
+critical-questions:
+  - "Is awe-based fear actually a separate emotional category, or is it threat-based fear responding to a real but harder-to-articulate threat, such as the risk of social humiliation or of failing to measure up, rather than physical harm?"
+  - "Does naming and separating these two kinds of fear change anything practically, or is the distinction only useful as a description after the fact, with no way to tell which one you're feeling while it's happening?"
+  - "If everyone around Crazy Horse felt this same unexplained fear, does that agreement make it more likely the feeling was tracking something real about him, or is it just evidence of how easily an unexplained feeling spreads once people already expect to have it?"
+status: active

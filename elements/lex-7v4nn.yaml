@@ -1,0 +1,20 @@
+id: lex-7v4nn
+name: unverifiable-status-argues-for-a-uniform-policy-not-a-classified-one
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When you cannot reliably tell someone's real standing from how they present — their manner, dress, or apparent position — the safe policy is to treat everyone by the same baseline rule rather than calibrate your treatment to a classification you can't actually verify. The risk of misjudging someone as beneath you, and being wrong, is what a uniform policy protects against; a classified one just multiplies the chances to get it wrong. In the Jataka's tale of Sarabhanga, Sakka catches what looks like a contradiction: the sage first says patience toward harsh speech from anyone is the highest virtue, then later singles out patience toward one's social inferiors specifically as the harder, higher form. The sage resolves it by pointing out that the second claim only applies once you already know someone actually is your inferior — which you usually can't: \"How hard it is to judge a man that's polished in exterior / Be he one's better, equal or, it may be, one's inferior. / The best of men pass through the world ofttimes in meanest form disguised; / So then bear with rough speech from all, if thou, my friend, be well advised.\" Because status can't be reliably read from the outside, the working policy collapses back to treating everyone the same way."
+related: []
+evokes: [jataka, cattalisanipata, sarabhanga-jataka, classification-uncertainty-favors-uniform-treatment, appearance-does-not-reveal-status]
+lineage:
+  - source: primary
+    text: jataka-francis1905-sarabhanga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XVII (Cattalisanipata), No. 522, Sarabhanga-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "How hard it is to judge a man that's polished in exterior / Be he one's better, equal or, it may be, one's inferior. / The best of men pass through the world ofttimes in meanest form disguised; / So then bear with rough speech from all, if thou, my friend, be well advised."
+canonical-instances:
+  - "A support rep can't tell from a chat window whether the person on the other end is a first-time user or the company's biggest enterprise customer testing the product incognito, so the team trains everyone to give every ticket the same careful, unhurried response rather than trying to triage tone by guessed importance."
+  - "A moderator reviewing anonymous forum posts can't verify who's actually a domain expert and who's a confident amateur from writing style alone, so the community's rule is to apply the same evidentiary bar to every claim regardless of how authoritative the poster sounds, rather than extending looser scrutiny to posts that read as expert."
+critical-questions:
+  - "The sage's resolution only works if the uniform policy (patience toward all) is itself cheap or even virtuous to apply universally — what happens when the uniform policy has a real cost, so that misclassifying downward is expensive in a way that misclassifying upward isn't, and the two error types aren't symmetric?"
+  - "Is 'you can't verify status from appearance' actually true here, or is it a convenient premise for a story that wants to teach universal patience regardless — in domains where status genuinely is legible (a badge, a verified credential), does the argument for uniform treatment still hold, or does it only apply under real uncertainty?"
+status: active

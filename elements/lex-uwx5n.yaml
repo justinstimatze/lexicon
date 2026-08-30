@@ -1,0 +1,20 @@
+id: lex-uwx5n
+name: an-exposed-fraud-inverts-the-exposure-into-a-victimhood-claim
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Once a fraud is publicly exposed by someone the fraud can't out-argue, the fraud can invert the exposure into a claim of having been victimized by the exposer — and if the fraud already holds the confidence of an authority who trusts them, that authority's protective instinct gets weaponized against the very person who told the truth. In the Jataka's tale of Somanassa, a false ascetic is caught by the young prince doing ordinary gardening work rather than living the ascetic life he claims — the prince publicly calls him a worldling. Rather than defend himself, the impostor stages his own injury and, when the returning king comes to check on him, fabricates an assault: \"'Thee I rejoice to see O King, though absent long! Your son, who came to me, Wrought unprovoked this wrong.'\" The king immediately orders his own son executed on the impostor's word alone, with no independent check of the claim."
+related: []
+evokes: [jataka, visatinipata, somanassa-jataka, expose-a-fraud, victimhood-inversion, weaponized-trust]
+lineage:
+  - source: primary
+    text: jataka-rouse1901-somanassa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XV (Visati-Nipata), No. 505, Somanassa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "'Thee I rejoice to see O King, though absent long! Your son, who came to me, Wrought unprovoked this wrong.'"
+canonical-instances:
+  - "A manager caught fabricating expense reports by a junior analyst immediately reports the analyst to HR for creating a hostile work environment, knowing the department head who receives the complaint already trusts the manager's judgment over an entry-level employee's."
+  - "A public figure caught in a documented lie by a journalist responds not by addressing the specific claim but by publicly framing the story as harassment, appealing to an audience already primed to see any criticism of the figure as persecution."
+critical-questions:
+  - "The king believes the impostor instantly, with no independent verification, because the impostor already occupies a trusted position in the household. What breaks this pattern — is it the authority demanding evidence before acting, or something about how the original trust was established in the first place?"
+  - "The prince's exposure of the fraud was itself blunt and public, with no attempt to verify privately first or give the impostor a face-saving way out. Does confronting a fraud publicly, rather than privately, make this counter-move more available to them?"
+status: active

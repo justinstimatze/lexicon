@@ -1,0 +1,21 @@
+id: lex-6tf9m
+name: a-fixed-sequences-order-can-be-driven-by-each-states-own-exhaustion
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a sequence of states runs in a fixed, specific order, check whether that order comes from an arbitrary convention or from each state logically exhausting itself into its successor. The I Ching's 'Orderly Sequence of the Hexagrams' argues the second kind of order for its entire 64-hexagram sequence, stating the same underlying pattern dozens of times with different specific cases: 'Things cannot for ever be shut up, and hence Phî is followed by Thung Zăn'; 'Things cannot for ever be in a state of extraordinary (progress); and hence Tâ Kwo is followed by Khân.' Each transition comes with a stated reason, working through an actual argument rather than a bare assertion — the text's claim is that a state's own limits are what generate its specific successor, a much stronger structural commitment than saying only that things change."
+related: []
+evokes: [i-ching, ten-wings, xu-gua, orderly-sequence, self-exhausting-states]
+lineage:
+  - source: primary
+    text: legge-1899-i-ching-appendix-vi-orderly-sequence
+    citation: "The Yî King, translated by James Legge, Appendix VI, 'The Orderly Sequence of the Hexagrams' (Xu Gua), Sacred Books of the East vol. 16 (Oxford, 1899). Verified verbatim against a direct extraction of the full text hosted at sacred-texts.com, clean digital text, no OCR."
+    quote: "Things cannot for ever be shut up, and hence Phî is followed by Thung Zăn. To him who cultivates union with men, things must come to belong, and hence Thung Zăn is followed by Tâ Yû. [...] Things cannot for ever be in a state of extraordinary (progress); and hence Tâ Kwo is followed by Khân. Khân denotes falling into peril. When one falls into peril, he is sure to attach himself to some person or thing; and hence Khân is followed by Lî. Lî denotes being attached, or adhering, to."
+canonical-instances:
+  - "The pattern repeats with near-total consistency across all 64 transitions in both sections of the appendix — states of confinement give way to their release, states of accumulation give way to their dispersal, states of advance give way to their limit — which is itself evidence the author treats this as a single generative principle applied uniformly, not a set of independent just-so stories."
+  - "A market bubble's correction takes a specific, recognizable shape driven by the bubble's own internal exhaustion (unsustainable growth, a buyer pool that's run dry) — the same structure as this atom's mechanism, with the prior state's own limits generating what comes next instead of an arbitrary external shock doing it."
+critical-questions:
+  - "Is this genuinely a claim about necessity, or is it a curator's after-the-fact narrative imposed on an order that was actually fixed by some other consideration (ritual, numerological, or historical accident) and only rationalized this way afterward?"
+  - "Does every state in the sequence actually exhaust itself into a unique determined successor, or does the text sometimes pick one plausible-sounding transition among several that would have fit equally well?"
+  - "If a state's own exhaustion really determines its successor, why does the order run in only one direction — could the same logic just as easily run the sequence backward, deriving each state from what follows it?"
+status: active

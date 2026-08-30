@@ -1,0 +1,18 @@
+id: lex-g9ec8
+name: feigning-madness-in-public-to-gain-privileged-access-that-sane-deference-would-forbid
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'A character can deliberately perform insanity in public, an act with real social cost, specifically because the performance grants license to approach and speak to someone in a way that ordinary, deferential sane speech never would. In the Jataka''s tale of Ghata, Ghatapandita feigns madness through the city precisely to gain the access needed to reach his grief-stricken royal brother: "So assuming the appearance of madness, he paced through the whole city, gazing up at the sky, and crying out, ''Give me a hare! Give me a hare!''"'
+related: []
+evokes: [jataka, dasanipata, ghata-jataka, feigned-madness-as-ploy, hamlets-antic-disposition]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-ghata-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 454, Ghata-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "So assuming the appearance of madness, he paced through the whole city, gazing up at the sky, and crying out, \"Give me a hare! Give me a hare!\""
+canonical-instances:
+  - "A junior aide who cannot get a hearing through normal channels starts publicly acting erratically enough to be labeled eccentric, using the resulting reputation as license to walk into the executive's office and say things a properly deferential subordinate never could."
+critical-questions:
+  - "A feigned-madness performance carries a real social cost, which is supposed to make it a credible signal of desperate sincerity. But a sufficiently patient actor could pay that same cost on purpose — how would an observer tell the two apart?"
+status: active

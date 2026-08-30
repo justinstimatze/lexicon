@@ -1,0 +1,21 @@
+id: lex-thw8q
+name: committing-first-proves-a-doubted-resource-can-scale
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When a resource looks obviously too small or too fragile to serve a group's actual need, don't assume its capacity is fixed at what it visibly appears to hold -- some resources only reveal their true capacity once someone actually commits weight to them, and that first commitment is what licenses everyone else to follow. In Eastman's telling, ten stranded young men find only 'a little mussel shell at the edge of the water' where they need a boat. Nobody can verify in advance that it will work: 'At first they were doubtful and hung back.' The only way to find out is for someone to step in first -- 'in the end one ventured and stepped into the shell, which bore up his weight' -- and it's only after that first real test that the shell's capacity turns out not to be fixed at all: 'Then another and another followed, until the ten men stood upon the shell, which had become a fine large canoe.' The shell didn't secretly have room for ten men all along, waiting to be discovered -- it became a canoe for ten specifically because someone treated the uncertain first step as worth the risk, and each subsequent person's willingness to follow was licensed by the person before them, not by any independent evidence of the shell's capacity. Diagnostic move: when a group is stalled because an available resource looks too small to solve the shared problem, look at what happens if just one person tests it fully rather than everyone waiting for proof it will hold -- some capacities only exist in a resource once someone's actual commitment activates them, and the doubt keeping everyone waiting can be exactly what's preventing the test that would resolve it."
+related: []
+evokes: [the-first-mover-activates-a-capacity-that-doubt-was-hiding, eastman-the-ten-virgins, a-doubted-vessel-scales-only-after-someone-commits-fully, followers-are-licensed-by-the-first-persons-risk-not-independent-proof]
+lineage:
+  - source: primary
+    text: eastman-ten-virgins-mussel-shell-becomes-canoe
+    citation: "Charles A. Eastman (Ohiyesa) and Elaine Goodale Eastman, Wigwam Evenings: Sioux Folk Tales Retold (Little, Brown, 1909), 'Twenty-Fifth Evening: The Ten Virgins.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "the young man who had last joined the party spied a little mussel shell at the edge of the water, and invited them to step in. At first they were doubtful and hung back; but in the end one ventured and stepped into the shell, which bore up his weight. Then another and another followed, until the ten men stood upon the shell, which had become a fine large canoe, and carried them all in safety to the opposite shore."
+canonical-instances:
+  - "A crowdfunding campaign looks unable to reach its goal and hesitant backers wait on the sidelines; once one committed backer makes a large pledge, others follow in quick succession, and the campaign's total funding turns out to be far larger than what the pre-pledge hesitancy would have predicted."
+  - "A department is hesitant to adopt a new software tool because it looks too limited to handle their actual workflow; once one team commits fully and stretches the tool through custom configuration and vendor pressure to cover their edge cases, other teams follow, and the tool's practical capacity turns out to expand well past what the doubtful early trial suggested."
+critical-questions:
+  - "how does a group distinguish a resource that will genuinely scale once someone commits from one that will simply break under the second person's weight -- does this pattern have any way to tell the difference in advance, or only after the fact?"
+  - "the first person to step onto the shell bears a real, asymmetric risk that everyone who follows doesn't -- does this framework account fairly for that risk, or does it treat the first mover's courage as a costless resource for the group to benefit from?"
+  - "is the shell's capacity actually changing, or is what's really changing the group's willingness and coordination -- would the insight hold up better reframed as entirely about the followers' behavior rather than about some hidden property of the vessel?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-zndwk
+name: explain-a-case-via-a-canonical-list-of-the-never-satisfied
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A specific instance of dissatisfaction can be explained, or explained away, by citing an enumerated general list of things that "cannot be satisfied," using membership in the taxonomy itself as the explanation rather than reasoning about the specific situation. In the Jataka''s tale of Sattubhasta, a wife''s infidelity is folded into a long recited list this way: "nor a woman with three things, intercourse, adornment and child-bearing, nor a brahmin with sacred texts, nor a sage with ecstatic meditation ... nor the energetic man with energy, nor the talker with talk, nor the politic man with the council, nor the believer with serving the church, nor the liberal man with giving away, nor the learned with hearing the law."'
+related: []
+evokes: [jataka, sattanipata, sattubhasta-jataka, canonical-taxonomy-as-explanation, category-membership-substitutes-for-situational-reasoning]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sattubhasta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 402, Sattubhasta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "nor a woman with three things, intercourse, adornment and child-bearing, nor a brahmin with sacred texts, nor a sage with ecstatic meditation, nor a sekha. with honour, nor one free from desire with penance, nor the energetic man with energy, nor the talker with talk, nor the politic man with the council, nor the believer with serving the church, nor the liberal man with giving away, nor the learned with hearing the law, nor the four congregations 2 with seeing the Buddha."
+canonical-instances:
+  - "A manager waves off a specific complaint about unfair scheduling with the line that shift workers are simply never satisfied with any schedule — filing it under a general category rather than checking whether this particular schedule was actually unreasonable."
+critical-questions:
+  - "The source list assigns 'never satisfied' to a whole gender category (women, via intercourse/adornment/child-bearing) alongside role-based categories like brahmins and talkers — does folding a person's specific choice into a trait assigned to their demographic category explain anything, or does it just launder a stereotype as though it were an observation?"
+  - "What does citing the taxonomy save the speaker from having to do — namely, examine why this particular case of dissatisfaction actually happened?"
+status: active

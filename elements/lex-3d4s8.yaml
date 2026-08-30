@@ -1,0 +1,19 @@
+id: lex-3d4s8
+name: any-stated-conviction-reads-as-inflexibility-risk
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "In an environment that rewards interchangeability, stating any fixed personal conviction — regardless of its content — reads as a warning sign about future flexibility, independent of whether the specific belief is objectionable. A manager who objects on principle to one assignment gets quietly marked as someone who might object again elsewhere, because the mechanism being tested is willingness to leave beliefs at the door, not the merit of any particular belief. This means the penalty attaches to the mere fact of having declared a principle at all, not to which principle was declared — a person with no stated convictions and a person with entirely reasonable ones are treated identically favorably, while anyone who states any conviction, reasonable or not, is treated identically with suspicion."
+related: [lex-crex2]
+evokes: [jackall-moral-mazes, "as long as they leave them at home", interchangeability-tested-by-suppressing-conviction]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch3-any-conviction-disqualifies
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 3, Section II."
+    quote: "we'd always wonder about the guy. And in the back of our minds, we'd be thinking that he'll soon object to working in the soda ash division because he doesn't like glass. [...] To me, a person can have any beliefs they want, as long as they leave them at home."
+canonical-instances:
+  - "A new hire who objects on principle to one specific marketing tactic is quietly assumed by colleagues to be a future source of friction on unrelated projects, even though nothing about the objection predicts disagreement on anything else."
+critical-questions:
+  - "Is the suspicion actually content-blind, or does it only look that way because the one tested case happened to involve an unusually mild objection — would a stated conviction on a topic the organization considers high-stakes get the same uniform, mild suspicion?"
+status: active

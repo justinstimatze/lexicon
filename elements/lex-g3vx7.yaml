@@ -1,0 +1,19 @@
+id: lex-g3vx7
+name: defusing-anger-by-noting-the-accuser-authorized-the-behavior-himself
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When someone is enraged at a subordinate's presumptuous behavior, the fastest way to defuse it isn't to defend the behavior on its own merits — it's to point out that the accuser is the one who created the elevated position that produced it. In the Jataka's tale of Sujata, the minister intervenes in the king's rage at his queen not by excusing her question, but by redirecting responsibility to its source: 'These are the sins of a woman, my lord, promoted to high estate: Forgive her and cease from thine anger, O king, for 'twas thou didst make her great.' The king accepts this and restores her — the anger dissolves once its target shifts from the subordinate's conduct to the superior's own prior choice."
+related: []
+evokes: [jataka, catukkanipata, sujata-jataka, redirecting-blame-to-the-authority-who-created-the-conditions, an-accusers-own-past-decision-undercuts-their-present-anger]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sujata-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 306, Sujata-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "These are the sins of a woman, my lord, promoted to high estate: Forgive her and cease from thine anger, O king, for 'twas thou didst make her great."
+canonical-instances:
+  - "A founder is furious that a junior hire pushed back on a decision in front of investors, and a co-founder calms them not by defending the hire's tone but by reminding the founder that they were the one who insisted on 'hiring people who'll tell us when we're wrong.'"
+critical-questions:
+  - "Does this actually resolve the underlying issue, or does it just redirect blame in a way that leaves the queen's original conduct — whatever it actually was — permanently unexamined?"
+  - "Would this argument work on someone less receptive than the king turns out to be, or does it depend on the accuser already having enough self-awareness to accept responsibility once it's named?"
+status: active

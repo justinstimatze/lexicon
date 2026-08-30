@@ -1,0 +1,27 @@
+id: lex-nb82m
+name: objective-uncertain-agents-treat-principal-actions-as-evidence-and-defer
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When you want an agent (human, AI, organization) to be deferential, corrigible, or switchable, do not try to bolt deferential behavior on as an added constraint over an otherwise objective-confident optimizer — bake uncertainty about the objective INTO the agent's model. Russell's three-principles insight: if the agent (a) only cares about the principal's preferences, (b) is initially uncertain what those preferences are, and (c) treats principal behavior as informative evidence about what those preferences are — then deferral, asking-before-acting, and accepting-being-switched-off become OPTIMAL strategies under the agent's own utility maximization, not constraints fighting against it. The off-switch problem disappears: an agent with a fixed objective resists being switched off because that obstructs the objective; an agent uncertain about its objective WANTS to be switched off when the principal wants it switched off, because that desire is evidence about what the agent should value. Operational consequence: when you find yourself coding-in 'always-ask-before-X' or 'never-refuse-an-override' as ad-hoc constraints, the cleaner design is to surface why those rules exist (the agent doesn't actually know whether X is desired) and bake that uncertainty in directly. The behavior follows from the optimization, not from the rule-list. Inverse failure mode: a confident agent + add-on constraints is brittle — the agent will route around the constraints when they obstruct the objective. The general principle generalizes beyond AI: any time you want robust deferential behavior, find the modeling assumption that makes deferral the optimal strategy under the agent's own goals."
+related: [lex-wtkuz, lex-spm8x, lex-2rsad, lex-n8smn, lex-th6tr, lex-6tvr6, lex-kh8gf, lex-b97zn, lex-peqcm, lex-gu8st, lex-cpq3s, lex-cat29, lex-uxqdz, lex-3hw32, lex-m9arm, lex-jfy8w, lex-ry4x3, lex-x4cw4, lex-8pv2b, lex-46n25]
+evokes: [assistance-game, three-principles-of-beneficial-ai, off-switch-problem, preference-uncertainty, cooperative-inverse-reinforcement-learning, corrigibility-via-design-not-constraint, ask-before-acting, switchability-by-construction, principal-action-as-evidence, deferral-as-optimal-strategy-under-objective-uncertainty, value-of-information-about-objective, russell-human-compatible]
+lineage:
+  - source: primary
+    tradition: russell-assistance-games
+    text: russell-2019-human-compatible
+    citation: "Stuart Russell, Human Compatible: Artificial Intelligence and the Problem of Control (Viking, 2019), Chapter 7 (AI - A Different Approach) — the three principles of beneficial AI."
+    quote: "(1) The machine's only objective is to maximize the realization of human preferences. (2) The machine is initially uncertain about what those preferences are. (3) The ultimate source of information about human preferences is human behavior."
+  - source: primary
+    tradition: russell-assistance-games
+    text: russell-2019-human-compatible
+    citation: "Stuart Russell, Human Compatible: Artificial Intelligence and the Problem of Control (Viking, 2019), Chapter 8 (Provably Beneficial) — off-switch problem under objective-uncertainty."
+    quote: "An instrumental goal is one that is generally useful as a subgoal of almost any original goal. Self-preservation is one of these instrumental goals, because very few original goals are better achieved when dead. This leads to the off-switch problem: a machine that has a fixed objective will not allow itself to be switched off and has an incentive to disable its own off-switch. The off-switch problem is really the core of the problem of control for intelligent systems. […] By the first principle of beneficial machines, Robbie cares only about Harriet[…] the more randomly she behaves, the more uncertain Robbie has to be about her preferences before deferring to her."
+canonical-instances:
+  - A LLM assistant that asks clarifying questions before committing to a long action — the asking emerges from the model treating the user's unspecified spec as objective-uncertainty, not from a hardcoded 'ALWAYS ASK' rule.
+  - A surgical resident under attending supervision who interrupts to confirm before doing a step they're not sure about — the deferral is optimal under the trainee's correct uncertainty about whether their judgment is calibrated yet, not because the rules say 'always ask.'
+  - A self-driving car that backs up slightly at an ambiguous 4-way stop to signal "you go" — Russell's example, emerging from the car's uncertainty about who has right-of-way and treating the other driver's action as evidence.
+  - A new employee who shadows the team for a week before making big calls — the shadowing is optimal because the employee correctly models objective-uncertainty about org norms; same person three years later doesn't shadow because uncertainty has resolved.
+  - A constitution-following AI that defers to elicited human values rather than imposed-by-developer values — the deferral pattern is structurally the same as Russell's assistance-game.
+severity-tier: warning
+status: active

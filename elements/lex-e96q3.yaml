@@ -1,0 +1,20 @@
+id: lex-e96q3
+name: real-restraint-shows-when-permission-removes-every-barrier
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Resisting a desire while it's forbidden proves little on its own — the prohibition itself is doing part of the work. The sharper test is what happens once every external barrier is gone: no law against it, no one who will ever find out, and the person with the strongest claim against it offering it up freely. In the Jataka's tale of Ummadanti, king Sivi has fallen so hopelessly in love with his loyal general Ahiparaka's wife that he can no longer function; Ahiparaka offers her to him outright and pre-empts the one objection left — \"Except thyself and me, O king, no one / In the whole world will know the deed that's done: / Lo! Ummadantt is my gift to thee, / Thy passion sated, send her back to me.\" The king refuses anyway, on grounds that survive even that: \"I might destroy myself for fleshly appetite, / Yet would I never dare by wrong destroy the right.\""
+related: []
+evokes: [jataka, pannasanipata, ummadanti-jataka, restraint-tested-by-permission-not-prohibition, virtue-under-zero-external-constraint]
+lineage:
+  - source: primary
+    text: jataka-francis1905-ummadanti-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XVIII (Pannasanipata), No. 527, Ummadanti-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Except thyself and me, O king, no one / In the whole world will know the deed that's done: / Lo! Ummadantt is my gift to thee, / Thy passion sated, send her back to me. ... I might destroy myself for fleshly appetite, / Yet would I never dare by wrong destroy the right."
+canonical-instances:
+  - "An auditor discovers a discrepancy that only they and the CFO will ever know about, and the CFO offers a substantial personal gift 'as a thank-you for your discretion.' No client, regulator, or colleague would ever learn either way. The auditor reports it anyway."
+  - "A trustee managing a friend's estate could quietly redirect a small, untraceable sum to themselves with the friend's blessing already half-offered in passing ('you've done so much, take something for yourself'). They decline and document the offer instead."
+critical-questions:
+  - "The king's stated reasons shift over the exchange — first that the world will hear of his sin, then, after that's countered, that doing wrong is wrong regardless of who knows. Which reason is the one actually holding the refusal up, and would it have held if Ahiparaka had never raised the secrecy point at all?"
+  - "Ahiparaka's offer is itself extraordinary generosity under real duress — does the king's refusal read differently once you weigh what accepting would have cost the one person selflessly offering, rather than treating the test as purely about the king's own character?"
+status: active

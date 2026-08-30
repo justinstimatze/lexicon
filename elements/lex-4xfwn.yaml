@@ -1,0 +1,19 @@
+id: lex-4xfwn
+name: staging-an-adverse-ordeal-tests-a-trait-a-self-report-cannot
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Wanting to verify a claimed but unproven trait in someone, a person with authority over them can covertly stage an adverse ordeal without warning, observing the genuine reaction under manufactured crisis rather than trusting a self-report that could simply be untested self-belief. In the Jataka's tale of the tested daughter, a father wanting to confirm his daughter's virtue stages a mock sexual advance on her in the woods, without any warning: 'Now I've caught you, pray don't cry; As the town does, so do I.' Her genuine, immediate refusal is evidence a simple question could never have produced, since anyone can claim virtue when nothing is actually at stake, and the claim only becomes meaningful once tested against real pressure the subject didn't see coming."
+related: [lex-z4mtg]
+evokes: [jataka, dukanipata, seggu-jataka, an-unwarned-ordeal-tests-what-self-report-cannot-verify, manufactured-crisis-as-a-verification-method]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-seggu-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 217, Seggu-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "All the world's on pleasure bent; Ah, my baby innocent! Now I've caught you, pray don't cry; As the town does, so do I."
+canonical-instances:
+  - "A company running a security audit doesn't just ask employees whether they'd report a suspicious request for credentials — it sends a convincing fake phishing email from a fabricated executive account, because a self-reported intention to resist a scam is a much weaker signal than how someone actually behaves when the pressure feels real and unannounced."
+critical-questions:
+  - "Does staging the ordeal without any warning or consent cross a line the verification value doesn't justify, given that a manufactured sexual advance from a father causes real trauma regardless of what it successfully measures?"
+  - "Is there a less harmful way to achieve the same verification — some test of a claimed trait under genuine, unexpected pressure that doesn't require deceiving and frightening the very person being tested?"
+status: active

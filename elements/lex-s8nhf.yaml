@@ -1,0 +1,18 @@
+id: lex-s8nhf
+name: guilt-as-a-visible-physiological-mark
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Harming others for pleasure is presented as leaving a psychosomatic trace — the perpetrator''s own conscience degrading their strength and appearance over time — making inner moral state legible from outward condition, and licensing judgment of character from visible decline without direct testimony. In the Jataka''s tale of Cakkavaka, the ruddy goose explains the crow''s dull plumage this way: "And for their pleasure harmless creatures kill, / Upbraided by their conscience pine away, / And see their strength and comeliness decay."'
+related: []
+evokes: [jataka, navanipata, cakkavaka-jataka, guilt-manifests-physically, moral-state-legible-from-appearance]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-cakkavaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 434, Cakkavaka-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "And for their pleasure harmless creatures kill, / Upbraided by their conscience pine away, / And see their strength and comeliness decay."
+canonical-instances:
+  - "A colleague notices a normally sharp coworker has grown visibly haggard and unfocused in the weeks since he took credit for a junior teammate's work, and reads the decline as the toll of a guilty conscience rather than as unrelated stress."
+critical-questions:
+  - "Is a visible physical decline actually reliable evidence of a guilty conscience, or could the same outward signs come from causes that have nothing to do with wrongdoing at all?"
+status: active

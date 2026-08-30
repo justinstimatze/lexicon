@@ -1,0 +1,18 @@
+id: lex-8xcsc
+name: removing-the-threatened-object-rather-than-confronting-or-yielding-to-the-threat
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A target facing a persistent, illegitimate demand can skip both granting it and confronting the demander. Removing the contested object from reach neutralizes the threat structurally, with no direct response to the demand at all. In the Jataka''s tale of Dasaratha, rather than accuse his queen or overtly refuse her, the king sends his sons away to remove them from her reach: "He thought within himself: ''Women are ungrateful and treacherous. This woman might use a forged letter or a treacherous bribe to get my sons murdered.'' So he sent for his sons, and told them all about it, saying: ''My sons, if you live here some mischief may befall you. Go to some neighbouring kingdom, or to the woodland, and when my body is burnt, then return and inherit the kingdom which belongs to your family.''"'
+related: []
+evokes: [jataka, ekadasanipata, dasaratha-jataka, routing-around-a-threat, structural-workaround]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dasaratha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 461, Dasaratha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "He thought within himself: \"Women are ungrateful and treacherous. This woman might use a forged letter or a treacherous bribe to get my sons murdered.\" So he sent for his sons, and told them all about it, saying: \"My sons, if you live here some mischief may befall you. Go to some neighbouring kingdom, or to the woodland, and when my body is burnt, then return and inherit the kingdom which belongs to your family.\""
+canonical-instances:
+  - "Rather than confront a board member he suspects is maneuvering to oust his co-founder, a CEO quietly moves the co-founder into an external role that's simply out of that board member's reach, sidestepping the fight entirely."
+critical-questions:
+  - "Does removing the threatened object actually resolve the underlying danger, or does it just relocate it — the king's sons are safe, but the scheming queen and her motive are both still fully in place at court."
+status: active

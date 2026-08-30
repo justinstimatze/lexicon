@@ -1,0 +1,18 @@
+id: lex-2uga5
+name: selecting-demonstrated-competence-over-a-superficially-disqualifying-trait
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'Faced with an obvious apparent disqualifier for a role, a group can select the candidate anyway because a track record of demonstrated competence outweighs the surface disqualification. In the Jataka''s tale of Supparaka, merchants hire a blind man as their ship''s navigator over the seemingly disqualifying fact of his blindness, on the strength of his known record: "''Blind you may be, master,'' said the merchants, ''but you are the best.''"'
+related: []
+evokes: [jataka, ekadasanipata, supparaka-jataka, competence-over-surface-disqualification, track-record-over-stigma]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-supparaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 463, Supparaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Blind you may be, master,\" said the merchants, \"but you are the best.\""
+canonical-instances:
+  - "A hiring committee passes over younger candidates with unblemished recent resumes to bring on a much older engineer whose formal credentials look outdated, because his actual track record of shipping working systems outweighs the surface mismatch."
+critical-questions:
+  - "Supparaka's navigation runs entirely on memorized lore, so his blindness turns out to be irrelevant to the task rather than an obstacle overcome. Does the tale actually show competence outweighing a disqualifying trait, or does it just show a trait that was never a real disqualifier for this job in the first place?"
+status: active

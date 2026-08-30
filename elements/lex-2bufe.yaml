@@ -1,0 +1,22 @@
+id: lex-2bufe
+name: reputation-is-anchored-to-outcome-not-to-antecedent-merit
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Reputation functions as a running tally of outcomes, retroactively read back onto merit, rather than a running tally of merit itself. The instant fortune reverses, the same reasoning and character that was praised while succeeding gets reinterpreted as having been flawed all along, because reputation was never independently anchored to the reasoning, only to whether events validated it. Boethius names this as the sharpest cut of his own fall: 'men's opinions for the most part look not to real merit, but to the event; and only recognise foresight where Fortune has crowned the issue with her approval. Whereby it comes to pass that reputation is the first of all things to abandon the unfortunate.'"
+related: [lex-5uyjt, lex-zdxzh]
+evokes: [consolation-of-philosophy, book-i-prose-iv, reputation-is-the-first-of-all-things-to-abandon-the-unfortunate, foresight-recognised-only-where-fortune-has-crowned-the-issue, halo-effect-in-reverse]
+lineage:
+  - source: primary
+    text: boethius-c524-consolation-of-philosophy-book-i-prose-iv
+    citation: "Boethius, The Consolation of Philosophy (c. 524 AD), trans. H. R. James (London: George Bell & Sons, 1897), Book I, Prose IV. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "Verily this is the very crown of my misfortunes, that men's opinions for the most part look not to real merit, but to the event; and only recognise foresight where Fortune has crowned the issue with her approval. Whereby it comes to pass that reputation is the first of all things to abandon the unfortunate. I remember with chagrin how perverse is popular report, how various and discordant men's judgments."
+canonical-instances:
+  - "A CEO praised for years as a visionary risk-taker is retroactively described as reckless and undisciplined the moment a single bet fails publicly, even though the decision process behind the earlier wins and the failed bet was identical."
+  - "A general celebrated for bold, unconventional tactics after a string of victories is condemned as rash and incompetent after one defeat using the same tactical approach, by the same officers who praised the earlier campaigns."
+  - "An investor whose concentrated, high-conviction portfolio outperforms the market for a decade is called disciplined and insightful; the same unchanged strategy earns the label reckless the first year it underperforms."
+critical-questions:
+  - "Is this actually irrational, or is outcome sometimes the only externally observable evidence anyone besides the decision-maker has about the quality of a process that was never fully visible to them?"
+  - "Does treating reputation as purely outcome-tracked let a genuinely bad decision-maker who got lucky escape scrutiny for as long as the luck holds, which a merit-tracking reputation would at least attempt to catch?"
+  - "Boethius voices this from the position of the newly fallen -- would a currently successful person, facing the same argument about their own praised reputation, agree it is equally outcome-contingent, or does the insight only feel true from inside failure?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-h7n62
+name: untested-reputation-collapses-at-its-first-real-test
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A reputation built on the claim that one could perform some feat, if only asked, survives only as long as nobody actually asks. In the Jataka's tale of the vain monk Kokalika, he has spent time telling brothers he would recite scripture publicly 'if they were to ask.' The Community takes him at his word and asks. He dresses for the occasion and takes the preaching seat, and then: 'The first verse of the first stanza he repeated; but what came next he could not think. So rising from the seat in confusion, he passed out through the meeting, and sought his own cell.' Nothing about his actual capability changed between the boast and the failure — the boast was never tested until the moment it was, and it had never been true."
+related: []
+evokes: [jataka, dukanipata, daddara-jataka, kokalika-jataka, an-untested-claim-of-capability-survives-until-asked, boasting-substitutes-for-a-capability-that-was-never-there]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-daddara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 172, Daddara-jataka (frame story). Verified verbatim against a direct extraction of the held copy."
+    quote: "The first verse of the first stanza he repeated; but what came next he could not think. So rising from the seat in confusion, he passed out through the meeting, and sought his own cell."
+canonical-instances:
+  - "An employee who has told coworkers for months that they could easily fix the team's flaky deployment pipeline 'if anyone actually asked' gets handed the task in a team meeting and spends the next two days visibly failing to make any progress on it."
+critical-questions:
+  - "Is the boaster's failure actually about the specific test they faced, or would any sufficiently concrete test have exposed the same gap — is there a version of the claim that was true in some weaker form the specific ask didn't capture?"
+  - "Why did the boast go untested for as long as it did — is there something about how these claims get made that makes them specifically resistant to being checked casually, short of a formal public ask?"
+status: active

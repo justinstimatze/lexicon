@@ -1,0 +1,20 @@
+id: lex-ecduj
+name: converting-defeated-rivals-into-kin-through-reciprocal-marriage
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Once you've beaten a group of rivals decisively enough that killing them would be a free choice rather than a necessity, binding them into your own family instead removes the incentive for future retaliation more durably than either mercy alone or execution — the same excess resources that made you dangerous to them can be spent making them relatives instead of enemies. In the Jataka's tale of Kusa, having defeated the seven kings who besieged his father-in-law's city, the Bodhisatta declines to kill them and instead reasons: \"What can I do with these men when once dead? Let not their coming here be without good result. Pabhavati has seven younger sisters, daughters of king Madda. I will bestow them in marriage on these seven princes.\""
+related: [lex-2gpdr]
+evokes: [jataka, sattatinipata, kusa-jataka, alliance-through-marriage, converting-threat-into-obligation]
+lineage:
+  - source: primary
+    text: jataka-francis1905-kusa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XX (Sattatinipata), No. 531, Kusa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Being thus spoken to, the Great Being thought, \"What can I do with these men when once dead? Let not their coming here be without good result. Pabhavati has seven younger sisters, daughters of king Madda. I will bestow them in marriage on these seven princes.\""
+canonical-instances:
+  - "After a hostile takeover attempt fails, the acquiring firm's board is offered seats on the target company's own board rather than being frozen out entirely — converting people with both the means and the motive for a second attempt into people with a formal stake in the target's success."
+  - "A conquering medieval king marries his defeated rivals' daughters to his own generals instead of executing the rival lords, turning a defeated ruling class into an extended family network whose interests now run through the new regime rather than against it."
+critical-questions:
+  - "The seven sisters are given in marriage, not consulted — how much of this move's apparent elegance depends on treating them as fungible resources for cementing alliances rather than as people with their own preferences about seven strangers who just laid siege to their city?"
+  - "Binding a rival into your family converts overt hostility into dependence, but does it eliminate the original grievance or just make it harder for the rival to act on — and what happens to the alliance once the specific person who orchestrated it is no longer in power?"
+status: active

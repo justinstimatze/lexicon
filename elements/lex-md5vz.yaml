@@ -1,0 +1,20 @@
+id: lex-md5vz
+name: feigning-death-buys-time-until-the-captor-grows-careless
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When caught by a stronger adversary who intends to kill you later rather than immediately, feigning death can turn captivity into a waiting game whose outcome depends on the captor's own diligence rather than yours. The Dakota tale of Iktomi and the Coyote is the case: a coyote plays dead rather than get eaten on the spot, then endures real escalating risk — being carried, swung toward a fire — while giving no sign of life. Iktomi's failure to re-verify the kill before building his fire opens the one gap the coyote needs. The tactic doesn't eliminate the danger; it transfers control of the outcome to how long the captor stays careful."
+evokes: [zitkala-sa, old-indian-legends, iktomi, feigned-death, thanatosis]
+lineage:
+  - source: primary
+    text: zitkala-sa-1901-old-indian-legends-iktomi-and-the-coyote
+    citation: "Zitkála-Šá, Old Indian Legends (Ginn & Company, 1901), 'Iktomi and the Coyote.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "All the while the coyote on his back lay gazing into the sky with wide open eyes. His long white teeth fairly gleamed as he smiled and smiled. 'To ride on one's own feet is tiresome, but to be carried like a warrior from a brave fight is great fun!' said the coyote in his heart."
+canonical-instances:
+  - "The specific escalation the coyote tolerates without breaking the ruse — being carried on Iktomi's back, swung toward the fire — shows what the tactic actually costs to run."
+  - "Iktomi's own parting words, framed as a lesson to himself: 'Another day, my friend, do not take too much for granted. Make sure the enemy is stone dead before you make a fire!' — naming verification-before-treating-a-kill-as-settled as the failure the coyote exploited."
+critical-questions:
+  - "What determines how long a captor's carelessness takes to arrive — does feigning death work only when the captor has some independent reason to relax vigilance (hunger, distraction, overconfidence), or does the tactic actively encourage that overconfidence?"
+  - "Does this generalize past physical predation to a weaker party 'playing dead' in a negotiation, conflict, or competitive setting — going along with an apparent defeat until the stronger party's guard drops?"
+  - "How does the tactic fail — what happens in this genre's other tellings when the captor does verify before acting?"
+status: active

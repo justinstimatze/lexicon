@@ -1,0 +1,18 @@
+id: lex-4xxut
+name: abductive-reconstruction-of-an-unwitnessed-history-from-present-physical-traces
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'An expert examining only present physical evidence can reconstruct a specific, unobserved causal history that explains a defect — not guessing at the defect generically, but inferring the exact originating event from the traces it left behind. In the Jataka''s tale of Supparaka, the blind valuer feels a disqualified elephant and reconstructs precisely how it came to be deformed: "This elephant is not fit to be the elephant of state. This has the qualities of an elephant that is deformed behind. When his dam brought him forth, she could not take him on her shoulder; so she let him fall on the ground, and thus he became deformed in his hind feet."'
+related: [lex-h5jyn]
+evokes: [jataka, ekadasanipata, supparaka-jataka, abductive-reasoning, reconstructing-history-from-physical-traces]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-supparaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 463, Supparaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "This elephant is not fit to be the elephant of state. This has the qualities of an elephant that is deformed behind. When his dam brought him forth, she could not take him on her shoulder; so she let him fall on the ground, and thus he became deformed in his hind feet."
+canonical-instances:
+  - "A structural engineer runs a hand along a hairline crack in a beam and names the exact overload event that formed it — which stage of construction, what stress — reading the whole history purely off the crack's shape and location."
+critical-questions:
+  - "The tale confirms the valuer's reconstruction was true every time — what would distinguish a genuinely reliable abductive read of physical traces from an equally confident but wrong one, given the story never shows him getting it wrong?"
+status: active

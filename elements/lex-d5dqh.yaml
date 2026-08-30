@@ -1,0 +1,21 @@
+id: lex-d5dqh
+name: disguise-as-prey-turns-the-predator-into-transportation
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When you need to reach a place that's only accessible to a predator or gatekeeper, and there's no way in on your own, consider disguising yourself as the exact thing the predator is built to carry off -- its own hunting behavior can become your transportation into the one place you couldn't otherwise reach. In Cushing's telling, a boy needs to get inside an Eagle's nest on an unclimbable cliff. Instead of trying to scale it, he greases a slippery rawhide suit, ties a blood-filled intestine at his throat, and performs helpless, wounded prey convincingly enough that the parent Eagle 'swooped down on him, and tried to grasp him in his talons' -- and carries him, struggling exactly as real prey would, straight up to the nest he could never have climbed to himself. The predator's own hunting instinct, which would be lethal to genuine prey, becomes free delivery into the fortress it guards, precisely because the boy made himself look like the thing that instinct exists to retrieve. Diagnostic move: when you're facing a gatekeeper or predator whose function is to capture and remove something and bring it to an otherwise-inaccessible place, ask whether presenting yourself convincingly as that exact something lets their own operating procedure do the work of getting you where a direct approach never could."
+related: []
+evokes: [the-predators-own-instinct-becomes-your-delivery-mechanism, cushing-how-the-summer-birds-came, dress-as-the-thing-the-gatekeeper-is-built-to-retrieve, free-transport-into-the-fortress-it-guards]
+lineage:
+  - source: primary
+    text: cushing-summer-birds-boy-disguises-as-prey-to-reach-eagle-nest
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'How the Summer Birds Came.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "he took the piece of rawhide he had skinned from the four-fold Bison, and, cutting it out, made himself a suit... scraped the hair off, greased it all over... slipped on his rawhide suit, and tied the intestine of blood round his neck, like a sausage. Then he began to cry and shake his head... The Eagle swooped down on him, and tried to grasp him in his talons... finally, during his struggling, he got one talon through a stitch in the coat, and he spread out his wings, and flew up, and circled round and round over the point where the young Eagles nest was, when he let go and shook the boy free, and the boy rolled over and over and came down into the nest."
+canonical-instances:
+  - "A security researcher wanting to test the internal defenses of a company's server room, which is inaccessible without an internal escort, poses convincingly as IT equipment scheduled for internal transfer and lets the company's own internal logistics process carry it directly into the restricted area a direct entry attempt would have been stopped at."
+  - "An investigative journalist unable to get access to a closed political inner circle submits themselves as the exact kind of low-level volunteer the campaign is known to sweep up and place close to leadership, letting the campaign's own recruitment and placement process do the work of getting them access that a direct request for an interview never would have."
+critical-questions:
+  - "how does someone calibrate how convincingly they need to imitate the prey without the disguise itself becoming lethal before the plan can pay off -- the boy risks the Eagle's talons actually killing him during the very transport that's supposed to save him effort?"
+  - "does this tactic only work against a predator or gatekeeper acting on instinct or routine procedure rather than genuine discernment -- would it fail immediately against an adversary who actually inspects what it's carrying before delivering it?"
+  - "once inside, the disguise has to be dropped to act -- does the story understate how narrow the window is between 'successfully delivered' and 'discovered as a fraud,' and what happens to this tactic in situations where that window is much shorter than it was for the boy?"
+status: active

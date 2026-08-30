@@ -1,0 +1,19 @@
+id: lex-jw77q
+name: relieving-acute-desperation-can-create-an-irreversible-worse-trap
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "An improvised action taken to escape acute desperation can solve the immediate problem completely while creating a new, worse, and irreversible one in its place — because the desperation crowded out any consideration of what happens after the immediate need is met. In the Jataka's tale of the trapped king, a desperately thirsty king fleeing a lost battle finds a well with no rope, improvises a line too short to reach the water, and simply drops the rest of the way to drink: 'So down he dropped, and drank his fill; but he could not get up again, so he remained standing there in the well.' The thirst is solved entirely. The well he chose to solve it in has no exit."
+related: []
+evokes: [jataka, tikanipata, tirita-vaccha-jataka, solving-acute-desperation-can-create-an-irreversible-worse-problem, a-one-way-door-entered-under-acute-pressure]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-tirita-vaccha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 259, Tirita-vaccha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "So down he dropped, and drank his fill; but he could not get up again, so he remained standing there in the well."
+canonical-instances:
+  - "A company facing an imminent cash crunch takes on emergency debt at terms nobody would accept under normal conditions, solving the immediate liquidity problem completely while creating repayment obligations that make the company's actual survival less likely than the crunch itself would have."
+critical-questions:
+  - "Was there genuinely no better option available to the desperate king, or does hindsight make an unavoidable emergency measure look like an obviously bad decision only after the specific downside became visible?"
+  - "Does acute desperation reliably impair the ability to check for an exit before acting, or did this king simply have no way to know the well offered no way out until he was already inside it?"
+status: active

@@ -1,0 +1,22 @@
+id: lex-9mk87
+name: concentration-of-decision-making-power-is-itself-a-fraud-risk-signal
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Treat one person's unchecked control over a decision as a red flag before you have any evidence they've misused it. The risk lives in the absence of an independent check that could catch a deviation, regardless of how honest the person currently is. When an auditor, a board, or a reviewer sees that a single figure holds overwhelming control over an organization's decisions, the correct response is heightened scrutiny of that concentration itself, separate from any character judgment about the person holding it. Watch for the failure mode where an oversight body sees the concentration, correctly logs it as a risk factor, and then talks itself out of acting on it by trusting a subordinate structure — a board, a committee — to constrain the very figure the report just flagged as unconstrained."
+related: [lex-977gg]
+evokes: [healthsouth-scrushy, auditor-red-flag, unchecked-authority, concentration-risk, oversight-failure]
+lineage:
+  - source: primary
+    text: matulich-solieri-felo-hodowanitz-2009-healthsouth-scrushy-ch26
+    citation: "Serge Matulich and David M. Currie (eds.), Handbook of Frauds, Scams, and Swindles: Failures of Ethics in Leadership (CRC Press, 2009), Chapter 26, 'Richard Scrushy: The Rise and Fall of the King of Health Care,' by Steven A. Solieri, Andrew J. Felo, and Joan Hodowanitz, p.344 (page marker embedded in the extracted text). Verified verbatim against ebook-convert extraction, curly quotes preserved."
+    quote: "When the auditors at Ernst & Young evaluated the risk of fraud at HealthSouth at the end of 2002, they concluded that Scrushy had “an overwhelming amount of control over the Company” (U.S. House of Representatives 2003, part 2, 490). Auditors regard such a concentration of power to be a potential red flag because of the increased risk of financial fraud. It seems, however, that Ernst & Young assumed that HealthSouth's board of directors could control its strong-willed chairman and CEO."
+canonical-instances:
+  - "The HealthSouth / Scrushy fraud (2003): Ernst & Young's own auditors identified Scrushy's overwhelming control as a fraud red flag, correctly named the risk, and then discounted it by assuming the board could constrain him — the same board later shown to provide no effective check. Detection worked; the response to what was detected failed."
+  - "Sole-signatory financial controls in a small nonprofit or startup: one person with unaccompanied authority to move money, approve their own expenses, or override a purchase order is a textbook internal-controls red flag in accounting practice however trustworthy that person has been so far. The control's absence is itself the finding, independent of any observed behavior."
+  - "operationally distinct from lex-977gg critical-systems-rest-on-an-unmaintained-single-point-dependency: lex-977gg is a reliability frame — a system fails when the one component the whole thing depends on breaks, whether or not anyone was watching for it. This atom is an accountability frame — a system is exposed to fraud specifically because no independent check exists to catch a deviation, whether or not the concentrated figure ever deviates. The remedy differs too: redundancy fixes lex-977gg's failure; here the fix is oversight strong enough to survive resistance from the person it's watching."
+critical-questions:
+  - "Has the concentration actually been logged as a risk anywhere, or has an oversight body implicitly accepted it by never raising the question? A fraud that later surfaces often has an audit trail showing the concentration was noticed and then explained away — a different failure than being missed, and the one worth studying per the HealthSouth case."
+  - "Name the actual mechanism assumed to constrain the concentrated figure. Has it ever been tested against real resistance, or only assumed to hold?"
+  - "Is the red flag being raised honestly, or is the auditor's own independence compromised — as Ernst & Young's later testimony revealed, when HealthSouth was among its highest-paying clients in the state? A concentration-of-power signal can be correctly identified and still go unacted on, for reasons that have nothing to do with the signal's validity."
+status: active

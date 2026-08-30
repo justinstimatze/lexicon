@@ -1,0 +1,21 @@
+id: lex-g7262
+name: disguise-the-attack-as-an-already-normalized-routine-event
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When you need to get close enough to attack someone who's alert and skilled at their own trade, don't invent a novel disguise -- take the shape of whatever background occurrence they've already learned to see as normal and unthreatening within that exact activity. In Cushing's telling, sorcerers plotting against a legendary hunter don't try to catch him off guard with something unusual; they specifically target his vocation's own normal background noise: 'He is a hunter, and the Coyote loves well to follow the hunter.' A coyote trailing a hunter to scavenge kills is such an ordinary, expected sight that the youth doesn't investigate it at all -- 'He seeks the blood of my slain Deer,' he thinks, and goes back to his prayers, giving the disguised sorcerer the exact unguarded moment needed to strike. The attack doesn't work because the disguise is clever in the abstract; it works because it's clever specifically about this target's routine, exploiting the fact that an expert's greatest vigilance gaps are built into whatever they've correctly learned to stop paying attention to. Diagnostic move: when trying to get close to someone skilled and alert in a specific domain, study what they've learned to treat as routine and ignorable within that exact domain -- their competence itself has created a category of things they no longer check, and disguising your approach as one of those things gets you further than any attempt to seem harmless in general."
+related: []
+evokes: [an-experts-vigilance-gaps-are-built-from-their-own-competence, cushing-the-foster-child-of-the-deer, he-seeks-the-blood-of-my-slain-deer, the-coyote-loves-well-to-follow-the-hunter]
+lineage:
+  - source: primary
+    text: cushing-foster-child-deer-sorcerer-disguised-as-a-routine-coyote
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Foster-Child of the Deer.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "One of their number stood forth and said: 'I will destroy him in his own vocation. He is a hunter, and the Coyote loves well to follow the hunter.' ... The youth, looking at him, merely thought: 'He seeks the blood of my slain Deer,' and he went on with his prayers and sacrifices to the dead of the Deer. But soon, stiffening his limbs, the Coyote swiftly scudded across the open, and, with a puff from his mouth and nostrils like a sneeze toward the youth, threw himself against him and arose a man."
+canonical-instances:
+  - "A social engineer targeting a security-conscious IT administrator doesn't attempt an obviously suspicious approach, but disguises a malicious request as the exact routine, low-priority ticket type the administrator has learned to process quickly and without scrutiny, exploiting the category of requests their competence has taught them to stop double-checking."
+  - "A predator targeting an experienced night-shift security guard doesn't try to sneak past in an unusual way, but times their approach to coincide with a delivery or maintenance pattern the guard has learned to wave through without a second look, using the guard's own accurate sense of what's routine against them."
+critical-questions:
+  - "does this tactic only work against genuine experts whose competence has actually created blind spots around routine occurrences -- would it fail against someone less experienced who treats everything, routine or not, with equal scrutiny?"
+  - "how would a target defend against this without abandoning the efficiency that comes from correctly ignoring genuinely routine background events -- is there a way to stay alert to disguised threats without losing the benefit of pattern-recognition that filters out real, harmless routine occurrences?"
+  - "the youth's specific vulnerability was a prayer ritual that took his full attention away from an already-dismissed background presence -- does this pattern depend on catching the target during a moment of additional, unrelated absorption, or would the disguise alone have been enough even at full alertness?"
+status: active

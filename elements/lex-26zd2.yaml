@@ -1,0 +1,19 @@
+id: lex-26zd2
+name: the-register-of-address-in-a-request-sets-the-reward-given
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "How intimately someone frames their relationship to you when asking for something can function as the actual variable a giver responds to, independent of the size or reasonableness of the request itself — escalating the claimed closeness escalates what you receive. In the Jataka's tale of the hunter and the four merchants' sons, each successive youth begs for venison using a warmer term of address, and the hunter matches the reward exactly to the intimacy claimed: a curt 'Hi, Sirrah' earns 'mere skin and bone,' while addressing him as universal 'friend' earns the whole cartload — outranking even the youth who called him 'father': 'A world without friends, I venture to think, a wilderness surely must be, In that title of friend all that's dear is implied, so I give all the deer unto thee.'"
+related: []
+evokes: [jataka, catukkanipata, mamsa-jataka, claimed-intimacy-not-request-size-sets-the-reward, friend-outranks-father-in-the-hunters-accounting]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mamsa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 315, Mamsa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "A world without friends, I venture to think, a wilderness surely must be, In that title of friend all that's dear is implied, so I give all the deer unto thee."
+canonical-instances:
+  - "Four different colleagues email the same overworked IT admin asking for the same expedited fix; the one who opens with 'hey, fellow night-owl' gets it done in ten minutes, while the one who opens with a formal ticket number waits three days — the technical request was identical."
+critical-questions:
+  - "Is the hunter's grading actually about intimacy, or is it really just responding to politeness and warmth generically, with 'friend' happening to signal the most warmth rather than the most literal closeness?"
+  - "Does this reward structure incentivize sincere relationship-framing, or does it just teach requesters to perform whichever register of address extracts the most, regardless of the real relationship?"
+status: active

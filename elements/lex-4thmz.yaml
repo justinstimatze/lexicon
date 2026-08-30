@@ -1,0 +1,19 @@
+id: lex-4thmz
+name: deliver-full-counsel-then-explicitly-release-the-outcome
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "An advisor can give their complete argument and then explicitly disclaim any need for compliance, separating the act of counseling well from any attachment to whether the counsel is followed. In the Jataka's tale of Darimukha, having exhausted his persuasion, Darimukha states plainly that he's done his part regardless of the outcome: 'O king, be ordained or not, but anyhow I have told the wretchedness of desires and the blessings of ordination, be thou zealous.'"
+related: []
+evokes: [jataka, chanipata, darimukha-jataka, full-counsel-then-release-attachment, non-coercive-advisory-posture]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-darimukha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 378, Darimukha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "O king, be ordained or not, but anyhow I have told the wretchedness of desires and the blessings of ordination, be thou zealous,"
+canonical-instances:
+  - "A doctor lays out every reason a patient should quit smoking, then tells them plainly that the decision is theirs and the doctor's job ends at making sure they understood the stakes."
+critical-questions:
+  - "Does explicitly releasing attachment to the outcome make the counsel more persuasive by removing pressure, or does it signal that the advisor doesn't expect to be listened to?"
+  - "Is there a point where declining to keep pushing amounts to abandoning someone who might have been moved by one more attempt?"
+status: active

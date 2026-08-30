@@ -1,0 +1,21 @@
+id: lex-4jtzt
+name: default-to-speed-and-require-a-named-reason-to-slow-down
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When advancing toward a goal, don't treat 'move faster' and 'wait' as equally available options to weigh case by case -- make speed the default and require any deliberate slowdown to be justified by a specific, nameable condition it's actually buying you, so that hesitation never gets to disguise itself as prudence. Kautilya's rule for the army's march states exactly six conditions under which the pace should deliberately slow -- countering a threat to the rear, clearing a difficult path, awaiting reinforcements or the right season, waiting for the enemy's position to deteriorate, waiting for subversion efforts already underway to bear fruit, or waiting for the enemy to make a helpful mistake -- and then closes with the default: 'In the absence of any such reason, the march shall be speeded up.' Each of the six named reasons describes something concrete the delay is purchasing (safety from a specific threat, an ally's arrival, an opponent's decline, a spy's payoff) -- none of them is 'to be careful' or 'to make sure' in the abstract. This structure makes vague caution impossible to hide inside: a commander who wants to slow down has to name which of the six conditions applies, and if none does, the rule itself forecloses the option. Diagnostic move: before slowing down or delaying a decision already in motion, name the specific condition the delay is buying -- a resource that hasn't arrived yet, a risk that hasn't yet passed, information that isn't yet in -- and if no such condition can be named, treat the default (move faster, not slower) as the one already in force rather than something that has to be argued back into place."
+related: []
+evokes: [speed-is-the-default-slowness-needs-a-named-justification, kautilya-rate-of-march, vague-caution-cannot-survive-having-to-be-named, six-conditions-that-license-a-deliberate-slowdown]
+lineage:
+  - source: primary
+    text: kautilya-arthashastra-rate-of-march-default-to-speed
+    citation: "Kautilya, The Arthashastra, ed./trans. L.N. Rangarajan (Penguin Books, 1992), Part XI 'Defence and War,' section 'Base Camp to Battle Ground,' 'Rate of March,' {10.2.12,13}."
+    quote: "'In the absence of any such reason, the march shall be speeded up.'"
+canonical-instances:
+  - "A product team preparing to ship a finished feature requires anyone proposing to delay the launch to name a specific, concrete thing the delay would fix (a known bug, a pending legal review, a partner integration not yet ready) rather than accepting 'let's make sure it's really ready' as a standalone reason, since that vague standard could justify delaying indefinitely."
+  - "A hiring manager moving to make an offer to a strong candidate requires anyone suggesting to wait for more candidates to name the specific gap in the current pool that waiting would fill, rather than accepting general caution as sufficient justification for slowing down a process where delay itself has a real cost (the candidate taking another offer)."
+critical-questions:
+  - "does requiring named justifications for delay risk excluding real, legitimate caution that's hard to articulate precisely -- some genuine risks are diffuse or intuitive rather than nameable as one of a fixed list of conditions, and this framework has no room for them?"
+  - "who decides whether a proposed reason for delay actually qualifies as one of the named conditions, and can that judgment itself be captured by whoever benefits from moving fast, systematically underweighting real but hard-to-prove risks?"
+  - "does a fixed list of licensed delay-conditions become outdated or incomplete as circumstances change, leaving genuinely new reasons to slow down without a category to fit into, and defaulting to speed by omission rather than by genuine absence of risk?"
+status: active

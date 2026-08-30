@@ -1,0 +1,19 @@
+id: lex-h9sff
+name: a-trusted-role-grants-unsupervised-access-that-enables-a-heist
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Occupying a role that carries automatic social trust — the pious ascetic, the harmless holy man — grants access to spaces and time alone with them that a stranger would never receive, and that unsupervised access is exactly what a patient plan can exploit later, with no further deception needed beyond having taken on the role. In the Jataka's tale of Prince Chatta, his disguised band of ascetics is welcomed and lodged unsupervised in the king's own garden — precisely where his plundered family treasure lies buried: 'The king was so charmed with their deportment that he called them up and made them sit on the dais and gave them rice and cakes... The king was still more pleased, and exacting a promise from them he made them all stay in his garden.'"
+related: []
+evokes: [jataka, catukkanipata, brahachatta-jataka, a-trusted-role-buys-unsupervised-access-with-no-further-deception, the-access-itself-not-the-disguise-is-what-enables-the-plan]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-brahachatta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 336, Brahachatta-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The king was so charmed with their deportment that he called them up and made them sit on the dais and gave them rice and cakes... The king was still more pleased, and exacting a promise from them he made them all stay in his garden."
+canonical-instances:
+  - "A contractor wearing a well-known utility company's uniform is waved through a gated corporate campus without a second look and spends unsupervised hours in a server room — no one questions the uniform, and the uniform alone is what does the work a fabricated cover story would otherwise need to do."
+critical-questions:
+  - "Is the vulnerability here really about a specific role being exploited, or is it about unsupervised access itself — would any credential that grants unmonitored physical access to a secure location carry the same risk, regardless of what trust story justifies it?"
+  - "Does exposing this one instance of abuse damage trust in the underlying role broadly, making future genuine holders of that role subject to more scrutiny than they'd otherwise face?"
+status: active

@@ -1,0 +1,18 @@
+id: lex-f879q
+name: two-recipients-of-the-identical-favor-give-opposite-responses-to-the-same-later-test
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'When two people who received an identical benefit from a common benefactor are later approached by the same petitioner under the same circumstances, their sharply different responses reveal something about their characters that receiving the identical original favor never could, since the test isolates what each did with what they were given. In the Jataka''s tale of Nigrodha, Branch and Banyan, who owe their fortunes to the same overheard secret, respond oppositely when Pottika later comes to each for welcome: Branch orders, "''Comrade indeed! who is his comrade? A mad baseborn churl! seize him!''" while Banyan "caused him to be shaved and cared for, and adorned with all manner of ornaments."'
+related: []
+evokes: [jataka, dasanipata, nigrodha-jataka, contrasted-responses-to-identical-test, gratitude-versus-ingratitude]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-nigrodha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 445, Nigrodha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Comrade indeed! who is his comrade? A mad baseborn churl! seize him!"
+canonical-instances:
+  - "Two founders who built their company on the same early advice from a mentor react oppositely when that mentor later falls on hard times and asks each for a favor: one has him escorted out of the lobby, the other flies him in and puts him up at her own house."
+critical-questions:
+  - "A single later encounter can still be shaped by factors that have nothing to do with the disposition it claims to reveal — a bad day, an unrelated grudge, the mood in the room. What would it take to be confident this particular test isolated character rather than circumstance?"
+status: active

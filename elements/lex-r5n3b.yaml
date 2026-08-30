@@ -1,0 +1,19 @@
+id: lex-r5n3b
+name: a-contemptuously-rejected-appeal-for-mercy-licenses-the-escalation-that-follows
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A weak party's first move can be a straightforward, legitimate appeal for mercy; when that appeal is dismissed with contempt rather than simply refused, the dismissal narratively licenses a disproportionate retaliatory campaign that follows — the escalation reads as provoked rather than initiated, because the option of resolving things peacefully was offered and specifically rejected. In the Jataka's tale of Latukika, a quail whose young were killed pleads first, and only after being scorned turns to organizing revenge: 'Power abused is not all gain, power is often folly's bane. Beast that didst my young ones kill, I will work thee mischief still.'"
+related: []
+evokes: [jataka, pancanipata, latukika-jataka, rejected-mercy-appeal-licenses-escalation, provoked-rather-than-initiated-retaliation]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-latukika-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 357, Latukika-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Power abused is not all gain, Power is often folly's bane. Beast that didst my young ones kill, I will work thee mischief still."
+canonical-instances:
+  - "A small supplier asks a large retailer directly to renegotiate a contract that's driving it out of business, and is laughed off. Only after that direct appeal is contemptuously dismissed does the supplier begin organizing other affected suppliers into a coordinated campaign — a move it can frame, to itself and to onlookers, as forced rather than chosen."
+critical-questions:
+  - "Does the initial appeal actually need to be sincere, or can it function purely as a procedural step taken to secure the moral cover for an escalation that was already planned regardless of the response?"
+  - "Is the framing of provoked-not-initiated actually accurate, or does it let the weaker party avoid responsibility for choosing escalation over other available responses to being rebuffed?"
+status: active

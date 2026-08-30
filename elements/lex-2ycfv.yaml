@@ -1,0 +1,21 @@
+id: lex-2ycfv
+name: polish-effects-are-perceptually-inseparable-from-the-underlying-mechanism
+type-in: claim
+type-out: composition
+_tier: atomic
+agent-instruction: "A layer of effect that changes nothing about a system's underlying mechanism — an animation, a sound cue, a camera shake, a squash-and-stretch deformation — can shift how convincing and appealing that mechanism feels just as strongly as an actual change to the mechanism itself, because the person experiencing it cannot introspectively separate the polish from the substance. Treat 'just cosmetic' as a claim to verify, not a given: a purely decorative layer added on top of an unchanged system can move perceived quality, perceived difficulty, even perceived fairness, without the underlying numbers moving at all. This cuts both ways as a design lever and as a diagnostic — you can improve a felt experience cheaply by adding polish instead of reworking mechanics, and you can be misled into crediting or blaming a mechanism for an effect that a cosmetic layer actually produced."
+related: [lex-26v8g]
+evokes: [game-feel, juice, squash-and-stretch, polish-vs-simulation, de-blob-squash-shader]
+lineage:
+  - source: primary
+    text: swink-2009-game-feel-ch1-defining-game-feel
+    citation: "Steve Swink, Game Feel: A Game Designer's Guide to Virtual Sensation (Morgan Kaufmann/CRC Press, 2009), Chapter 1 'Defining Game Feel.' No page numbers survive this epub extraction, only chapter headings. Verified verbatim against ebook-convert extraction."
+    quote: "Polish refers to any effect that artificially enhances interaction without changing the underlying simulation. This could mean dust particles at a character's feet as it slides, a crashing sound when two cars collide, a \"camera shake\" to emphasize a weighty impact, or a keyframed animation that makes a character seem to squash and stretch as it moves. Polish effects add appeal and emphasize the physical nature of interactions, helping designers sell those objects to the player as real. ... If all polish were removed, the essential functionality of the game would be unaltered, but the player would find the experience less perceptually convincing and therefore less appealing. This is because — for players — simulation and polish are indistinguishable."
+canonical-instances:
+  - "The student game De Blob's squash-shader, cited by Swink from a developer post: with zero change to the underlying physics, adding a subtle squash-and-stretch deformation to a rolling ball changed the felt material of the gameplay entirely — from 'a ball made of stone' to 'a ball of paint' — purely through a visual effect layered on top of unchanged collision and movement code."
+  - "operationally distinct from lex-26v8g lived-duration-is-categorically-distinct-from-spatialized-clock-time: Bergson's durée is about subjective time-experience diverging from clock time as measured externally. This atom is about a game or interface's polish layer diverging from its underlying mechanism as measured internally by its own code — a design-engineering claim about perceptual inseparability, not a metaphysics-of-time claim. Different domain, different mechanism; grouped only by both concerning a gap between an internal felt quality and an external measurable fact."
+critical-questions:
+  - "Has the polish layer actually been isolated and removed to test this claim, or is the inseparability being assumed? Swink's own worked example (De Blob) is a case where the developers explicitly toggled the effect on and off and reported the difference — the claim is falsifiable and worth testing that way rather than accepted on description alone."
+  - "Is a design problem actually a mechanics problem being misdiagnosed as needing more polish, or a polish problem being misdiagnosed as needing a mechanics rework? The atom cuts both ways — knowing which one you're facing changes whether the cheap fix (add polish) or the expensive fix (rework the mechanism) is the right move."
+  - "Does the polish/simulation inseparability generalize past games to any system with a felt user-facing surface over a hidden mechanism — software UI animations, physical product tactile feedback, financial-app balance-update effects? The claim as stated is scoped to games; testing the boundary of where it still holds is open."
+status: active

@@ -1,0 +1,21 @@
+id: lex-8cksq
+name: an-unratified-self-worth-claim-reads-as-vanity
+type-in: claim
+type-out: state
+_tier: atomic
+agent-instruction: "When someone asserts their own worth — a claim to skill, status, or pride — the same internal assessment can land as two entirely different social objects depending on one external fact: whether the audience grants it. Pitt-Rivers's anthropology of honor treats this as the defining feature of the category, not an incidental risk of claiming honor. The identical self-estimation, met with recognition, becomes honor; met with refusal, it becomes vanity, and the claimant becomes an object of ridicule. Nothing about the claim's internal content changed. What changed is a social ratification event that happened entirely outside the claimant's control. When judging whether someone's self-assertion reads as earned confidence or as arrogance, check whether you're actually evaluating the claim's substance or just reporting whether your own group has already ratified it."
+related: [lex-9yxm6]
+evokes: [pitt-rivers, honor-and-shame, mediterranean-anthropology, social-ratification, claim-to-pride]
+lineage:
+  - source: primary
+    text: pitt-rivers-1977-fate-of-shechem-anthropology-of-honour
+    citation: "Julian Pitt-Rivers, The Fate of Shechem, or the Politics of Sex: Essays in the Anthropology of the Mediterranean (Cambridge University Press, 1977), Ch.1 'The Anthropology of Honour,' pp.1-2."
+    quote: "Honour is the value of a person in his own eyes, but also in the eyes of his society. It is his estimation of his own worth, his claim to pride, but it is also the acknowledgement of that claim, his excellence recognised by society, his right to pride. [...] The claimant to honour must get himself accepted at his own evaluation, must be granted reputation, or his claim becomes mere vanity, an object of ridicule or contempt — but granted by whom?"
+canonical-instances:
+  - "Pitt-Rivers's own closing question in this passage — 'granted by whom?' — points at the second half of the mechanism this atom doesn't cover: once you accept that ratification is what converts self-assessment into honor, the identity of the ratifying audience becomes the whole game, since different audiences can grant or refuse the same claim independently."
+  - "operationally distinct from lex-9yxm6 (Goffman, face as a social loan that is granted once and then held conditionally, with self-policing driven by the threat of its later withdrawal): Goffman's mechanism concerns an already-possessed thing sustained over time through conduct. Pitt-Rivers's mechanism concerns a single binary determination made at the moment of assertion, sorting one unchanged internal state into one of two opposite social categories."
+critical-questions:
+  - "Does a claimant who can predict an audience's verdict in advance still make an internally identical claim, or has the anticipation already reshaped what gets asserted?"
+  - "Can a claimant appeal a society's refusal to ratify, or is the verdict final once rendered — and if appeal is possible, doesn't that complicate the pure binary this atom describes?"
+  - "Is honor's dependence on external ratification a distinctly Mediterranean cultural pattern as Pitt-Rivers frames it, or a general feature of any status claim in any society, differing only in how visibly the ratification step is performed?"
+status: active

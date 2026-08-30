@@ -1,0 +1,18 @@
+id: lex-8993f
+name: citing-an-extreme-precedent-to-shame-a-lesser-present-lapse
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'To argue that a present, comparatively small lapse is indefensible, a speaker can cite an extreme historical case of sustained restraint under maximal and continuous temptation, framing the present failure as an a fortiori case: if that much harder standard was met, this much easier one has no excuse. In the Jataka''s tale of the chaste king, a backsliding monk is confronted with kings who shared one chamber with a desired partner for seven hundred years without ever yielding: "Wise men of old, who were kings in Surundha, a city prosperous and measuring twelve leagues either way, though for seven hundred years they abode in one chamber with a woman beauteous as the nymphs divine, yet did not yield to their senses, and never so much as looked at her with desire."'
+related: []
+evokes: [jataka, ekadasanipata, udaya-jataka, a-fortiori-argument, shaming-by-extreme-precedent]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-udaya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 458, Udaya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Wise men of old, who were kings in Surundha, a city prosperous and measuring twelve leagues either way, though for seven hundred years they abode in one chamber with a woman beauteous as the nymphs divine, yet did not yield to their senses, and never so much as looked at her with desire."
+canonical-instances:
+  - "A running coach tells an athlete tempted to skip one cold-morning training session about an Olympian who trained through a war zone, implying that if that was survivable, this excuse doesn't hold."
+critical-questions:
+  - "Does citing an extreme outlier as the standard actually motivate change, or does the sheer disproportion between the cited case and the present lapse make the comparison feel unfair rather than persuasive?"
+status: active

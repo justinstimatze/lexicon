@@ -1,0 +1,18 @@
+id: lex-fx59j
+name: gratitude-loyalty-outlasting-continued-utility
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'An agent continues to honor a past benefactor purely on the basis of benefit already received, even after the relationship has become costly or unrewarding in the present. This models loyalty as backward-looking and non-transactional — a commitment triggered by history of benefit rather than continuously re-evaluated against current payoff — which is what makes it legible as virtue rather than ordinary self-interested behavior. In the Jataka''s tale of Mahasuka, the parrot refuses to abandon the tree that fed him even after it has withered to a bare stump: "I too would fain be kind and good / To one that long my friend has stood; / I wish to live, but have no heart / From this old tree, though dead, to part."'
+related: []
+evokes: [jataka, navanipata, mahasuka-jataka, backward-looking-loyalty, gratitude-as-non-transactional]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahasuka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 429, Mahasuka-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "I too would fain be kind and good / To one that long my friend has stood; / I wish to live, but have no heart / From this old tree, though dead, to part."
+canonical-instances:
+  - "A veteran employee stays on at a struggling startup that once took a chance on her when no one else would, long after competitors are offering far better pay, because she measures the relationship by what it once gave her rather than by what it currently pays."
+critical-questions:
+  - "Does backward-looking loyalty ever become a liability — a reason to stay somewhere that no longer deserves it, simply because it once did?"
+status: active

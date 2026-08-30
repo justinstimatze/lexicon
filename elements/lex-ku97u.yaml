@@ -1,0 +1,19 @@
+id: lex-ku97u
+name: a-categorical-rule-issued-before-temptation-appears-binds-future-judgment
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A leader who foresees a future temptation can issue a categorical, no-exceptions rule in advance, before anyone is actually confronted with the tempting object — binding the group's future judgment while it remains unclouded by desire. The rule works because it's installed before the moment it needs to govern, not negotiated in the moment itself. In the Jataka's tale of Gumbiya, a caravan leader warns his people before they encounter any danger: 'in eating see that you take no strange food, without first asking me about it: for demons set in the road baskets of fresh rice and various sweet wild fruits, and sprinkle poison over them.'"
+related: []
+evokes: [jataka, pancanipata, gumbiya-jataka, precommitment-rule-issued-before-temptation-appears, binding-future-judgment-while-unclouded]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-gumbiya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 366, Gumbiya-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "In eating see that you take no strange food, without first asking me about it: for demons set in the road baskets of fresh rice and various sweet wild fruits, and sprinkle poison over them."
+canonical-instances:
+  - "Before a team goes to a conference known for aggressive recruiter tactics, a manager sets a blanket rule in advance: no verbal agreements to anything, no matter how good it sounds, without checking back first — issued while no one is actually facing a tempting offer yet."
+critical-questions:
+  - "Does a categorical rule issued in advance actually survive contact with a genuinely compelling exception once the group is in the field, or does it just get quietly overridden the moment the real temptation looks different from what was anticipated?"
+  - "Is there a cost to blanket precommitment rules that block genuinely safe opportunities along with the dangerous ones, since the rule can't discriminate in advance between the two?"
+status: active

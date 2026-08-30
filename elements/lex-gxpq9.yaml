@@ -1,0 +1,19 @@
+id: lex-gxpq9
+name: redirect-a-larger-partys-power-onto-your-target
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When you lack the power for a direct move against a target, look for a third party with much greater power and engineer the circumstances that will make them act on your behalf without ever asking them to. The Panchatantra's crow, unable to kill a snake threatening her nest directly, steals a golden chain from bystanders and drops it into the snake's hole — and the humans chasing their stolen property kill the snake themselves while recovering it. The verse names the general move: 'In cases where brute force would fail, a shrewd device may still prevail: the crow-hen used a golden chain, and so the dreadful snake was slain.' The crow never confronts the snake and never asks the humans for help; she only arranges the scene so their own existing motive does the work."
+related: []
+evokes: [panchatantra, loss-of-friends, redirect-a-third-partys-power-onto-your-target, engineer-circumstances-not-confrontation]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-how-the-crow-hen-killed-the-black-snake
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book I, 'How the Crow-Hen Killed the Black Snake.' Verified verbatim against a direct extraction of the held copy."
+    quote: "In cases where brute force would fail, A shrewd device may still prevail: The crow-hen used a golden chain, And so the dreadful snake was slain."
+canonical-instances:
+  - "a small nonprofit unable to challenge a polluting factory directly instead leaks the factory's regulatory violations to a competitor who stands to gain market share from the factory's shutdown, and the competitor's own lawyers do the enforcement work the nonprofit could never have afforded."
+critical-questions:
+  - "Does engineering someone else's existing motive to act on your behalf carry a moral cost distinct from acting directly yourself, given that the third party doesn't know they're being used as an instrument?"
+  - "How reliably can someone predict that a third party's motive will actually produce the specific outcome wanted, rather than some other reaction the schemer didn't anticipate or control?"
+status: active

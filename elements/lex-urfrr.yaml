@@ -1,0 +1,22 @@
+id: lex-urfrr
+name: bystanders-preparing-a-coffin-corroborates-a-crises-perceived-severity
+type-in: state
+type-out: claim
+_tier: atomic
+agent-instruction: "Outside observers' concrete, costly preparatory actions -- not just their verbal testimony -- can serve as harder evidence of how severe a private crisis was perceived to be, because a family only buys a coffin, or begins a funeral, when the outcome is genuinely expected. Black Elk was unconscious throughout his own three-day crisis and has no first-hand account of how serious it looked from outside; what he reports instead is what the French host family had already started doing about it: 'They were sure I would soon be really dead, and they were getting ready to buy my coffin.'"
+related: []
+evokes: [black-elk-speaks, the-spirit-journey, getting-ready-to-buy-my-coffin, they-could-not-feel-my-heart-at-all, maybe-only-a-box]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch20-spirit-journey
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 20, 'The Spirit Journey.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "I had been dead three days, except that once in awhile I would breathe just a little. Often they said they could not feel my heart at all. They were sure I would soon be really dead, and they were getting ready to buy my coffin."
+canonical-instances:
+  - "A family begins arranging funeral logistics before a coma patient wakes, cited afterward as the clearest available index of how close to death the attending doctors actually believed the patient was."
+  - "A company's own competitors start quietly poaching its clients weeks before it folds, and that poaching is later read as harder evidence of the firm's real distress than anything the firm itself said publicly."
+  - "Townspeople begin digging graves in advance of an expected battle, the digging itself standing as testimony to how catastrophic the coming losses were expected to be, independent of any casualty count later reported."
+critical-questions:
+  - "The coffin-buying is offered as evidence of how severe Black Elk's own crisis was -- but a different household facing an identical crisis might never have started buying a coffin at all, simply because their own customs around death preparation work differently. Does the gesture reveal more about the crisis or about this family's habits?"
+  - "Black Elk was unconscious for the entire episode and relies entirely on what he was told afterward -- does secondhand testimony about someone else's preparatory actions carry the same evidentiary weight as directly witnessing those actions himself?"
+  - "Would a household with no custom of advance funeral preparation, or one that treats it as inviting bad luck, ever generate this particular kind of corroborating evidence, even facing a crisis just as severe?"
+status: active

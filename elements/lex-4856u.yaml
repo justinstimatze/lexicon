@@ -1,0 +1,19 @@
+id: lex-4856u
+name: acting-on-a-warned-against-charm-under-duress-triggers-a-chain-reaction
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A specific, explicit warning against invoking a dangerous shortcut can be overridden by immediate personal distress, and the resulting chain of consequences can then spread far beyond the original decision. In the Jataka's tale of Vedabbha, the Bodhisatta warns his master never to recite a treasure-summoning charm while the two are captive, since it will draw robbers who kill for the gold and then kill each other over it. Bound and afraid, the brahmin recites it anyway to buy his own comfort, and the resulting slaughter — a translator's note ties this tale to the ancestry of Chaucer's Pardoner's Tale — runs to a thousand men before it burns out. The warning wasn't wrong or unclear; distress simply outweighed it at the moment the charm was available to use."
+related: []
+evokes: [jataka, ekanipata, vedabbha-jataka, explicit-warning-overridden-by-immediate-distress, a-shortcut-triggers-a-cascading-chain-reaction]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-vedabbha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 48, Vedabbha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Misguided effort leads to loss, not gain; Thieves killed Vedabbha and themselves were slain."
+canonical-instances:
+  - "A developer is told explicitly not to run a certain database migration script outside of a maintenance window because it can cascade into data loss under load. Panicking over a looming deadline, they run it anyway during peak traffic, and the resulting corruption takes down three dependent services before anyone can intervene."
+critical-questions:
+  - "Does the size of the eventual cascade actually track the size of the original override, or can an equally minor lapse under duress sometimes trigger a chain this large purely by chance of timing?"
+  - "Would repeating the warning at the moment of temptation, rather than only once far in advance, have changed the outcome, or does distress make any warning equally ineffective regardless of timing?"
+status: active

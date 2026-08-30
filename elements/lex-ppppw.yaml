@@ -1,0 +1,19 @@
+id: lex-ppppw
+name: an-authority-overrides-a-subordinates-stated-mortal-fear-with-pure-rank
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A subordinate can voice a specific, reasoned fear of death before undertaking a command, and the superior can override the warning purely on the basis of positional authority, indifferent to the stated risk. In the Jataka''s tale of Parantapa, the king does exactly this to his son: "Go, dear son, and fight him." "O king, I have seen a vision: I cannot go, for I fear I shall lose my life." "What is your life or death to me? Go."'
+related: []
+evokes: [jataka, sattanipata, parantapa-jataka, authority-overrides-stated-fear, rank-dismisses-a-reasoned-warning]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-parantapa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 416, Parantapa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Go, dear son, and fight him.\" \"O king, I have seen a vision: I cannot go, for I fear I shall lose my life.\" \"What is your life or death to me? Go.\""
+canonical-instances:
+  - "A junior trader tells his desk head he's certain a specific position will blow up and asks not to be assigned to it, and the desk head assigns him anyway, indifferent to the specific warning because seniority alone settles the matter."
+critical-questions:
+  - "Does overriding a stated fear purely on rank ever produce a better outcome than taking the warning seriously, or does it just externalize the cost of being wrong onto whoever has the least power to refuse?"
+  - "What would it take for positional authority to actually weigh a subordinate's specific reasoning rather than dismiss it by default?"
+status: active

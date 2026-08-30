@@ -1,0 +1,44 @@
+id: lex-utn22
+name: argument-from-position-to-know-as-defeasible-deference-to-source-with-access
+type-in: claim
+type-out: posture
+_tier: atomic
+agent-instruction: "When weighing a claim because the source has access (insider, eyewitness, expert-witness), check the four questions: does the source actually have access? Is the source competent to evaluate what they observed? Is the source honest? Is there corroboration? Position-to-know is defeasible deference, not authority."
+related: [lex-af9ax, lex-kebfa, lex-q9asc, lex-dm5te, lex-th68b, lex-hesjt, lex-xhwqt, lex-aut4h, lex-zd7vh, lex-kh9cr, lex-hhx7u, lex-rnwph, lex-38ygs, lex-7t3wr, lex-y7p3z, lex-tpv83, lex-chtk9, lex-9uac6, lex-xqamc]
+scaffolds-from: [lex-af9ax, lex-th68b, lex-hesjt]
+evokes: [testimony, eyewitness-deference, role-based-epistemic-source, ask-the-stranger, the-person-who-was-there, witness-credit, asking-the-knowledgeable]
+premises:
+  - "source a is in a position to know about things in subject domain S containing proposition A"
+  - "a asserts that A (in domain S) is true (false)"
+  - "therefore presumptively A is true (false)"
+decomposes-into:
+  - lex-af9ax
+  - lex-th68b
+  - lex-hesjt
+assembly: "sequential(identify-source-position, attribute-assertion) → defeasibility-attach(lex-af9ax, defeaters=lex-th68b)"
+critical-questions:
+  - "is a in a position to know whether A is true (false)? Walton's CQ1 — the core gate. A passer-by asked for directions in a foreign city is presumptively in a position to know, but presumption fails if they're a fellow-tourist. The position-to-know premise is about access / role / presence, not expertise"
+  - "is a an honest (trustworthy, reliable) source? Walton's CQ2. Distinct from CQ1 — someone can be in a position to know and still lie or misremember. Hume's defeaters bear here: 'a man delirious, or noted for falsehood and villany, has no manner of authority with us'"
+  - "did a actually assert that A is true (false)? Walton's CQ3 — the assertion-attribution gate. Often the source's claim has been reported, paraphrased, or transmitted through intermediaries; the chain can introduce distortion the original source never produced"
+  - "what is the experiential conformity-record of reports of this kind? Hume's empiricist gate: our assurance derives from observed conformity of similar reports to facts. Eyewitness testimony of a sober adult passes; eyewitness testimony of a stressed witness identifying a stranger at distance under poor lighting fails — by reference to documented conformity-records, not by abstract principle"
+  - "is this position-to-know reasoning, or is it argument-from-expert-opinion (lex-kebfa) — a subtype? Walton notes argument-from-expert-opinion is a subtype of position-to-know specialized to information-seeking dialogues where one party has specialist training. Conflating the two obscures cases where access without expertise suffices (eyewitness) or expertise without access fails (an expert in another city giving an opinion about local conditions they cannot observe)"
+lineage:
+  - source: primary
+    tradition: walton
+    text: walton-reed-macagno-2008
+    citation: "Douglas Walton, Chris Reed, Fabrizio Macagno, *Argumentation Schemes* (Cambridge University Press 2008), Ch.1 §2 'Argument from Position to Know and Expert Opinion' (pp.13-15). Walton explicitly distinguishes argument-from-position-to-know as the more general scheme (foreigner asking a stranger for directions as classic instance) of which argument-from-expert-opinion is a subtype. Three CQs: position-to-know, honesty/trustworthiness, did-a-actually-assert. Cited as Walton (1996, p.61). Compendium restatement at Ch.9 #1 p.309. Local copy."
+    quote: "'The argument from position to know is a type of argument based on the presumption by a proponent that a respondent is privy to some information or knowledge that can be extracted from him (her, it) by questioning. The classic example is the dialogue in which someone lost in a foreign city asks a stranger where the Central Station (or some other building or institution) is located. The questioner presumes, perhaps wrongly, that the person queried is familiar with the town. ... Argument from Position to Know. Major Premise: Source a is in a position to know about things in a certain subject domain S containing proposition A. Minor Premise: a asserts that A (in domain S) is true (false). Conclusion: A is true (false). ... CQ1: Is a in a position to know whether A is true (false)? CQ2: Is a an honest (trustworthy, reliable) source? CQ3: Did a assert that A is true (false)? ... Argument from expert opinion is a subtype of the more general argumentation scheme for argument from position to know.'"
+  - source: primary
+    tradition: hume
+    text: hume-1748-enquiry-section-x
+    citation: "David Hume, *An Enquiry Concerning Human Understanding* (London 1748), Section X 'Of Miracles,' Part I, paragraphs 87-88 (Selby-Bigge §87-§88). Hume's empiricist epistemology of testimony: assurance from testimony derives from observed conformity of similar reports to facts, not from any independent epistemic principle. The wise man proportions his belief to the evidence; testimony is weighed against the experiential conformity-record. PD (Hume d. 1776). Methodologically-distinct from Walton: Walton gives a dialectical / formal-pragmatic scheme; Hume gives an empiricist epistemology of why the scheme works and when it fails. Local copy Hume-1748-Enquiry.epub (PG transcription)."
+    quote: "[§88] To apply these principles to a particular instance; we may observe, that there is no species of reasoning more common, more useful, and even necessary to human life, than that which is derived from the testimony of men, and the reports of eye-witnesses and spectators. [...] Our assurance in any argument of this kind is derived from no other principle than our observation of the veracity of human testimony, and of the usual conformity of facts to the reports of witnesses. [...] Were not the memory tenacious to a certain degree, had not men commonly an inclination to truth and a principle of probity; were they not sensible to shame, when detected in a falsehood: Were not these, I say, discovered by experience to be qualities, inherent in human nature, we should never repose the least confidence in human testimony. A man delirious, or noted for falsehood and villany, has no manner of authority with us. [Part I] And as the evidence, derived from witnesses and human testimony, is founded on past experience, so it varies with the experience, and is regarded either as a proof or a probability, according as the conjunction between any particular kind of report and any kind of object has been found to be constant or variable. [...] We frequently hesitate concerning the reports of others. We balance the opposite circumstances, which cause any doubt or uncertainty; and when we discover a superiority on any side, we incline to it; but still with a diminution of assurance, in proportion to the force of its antagonist."
+canonical-instances:
+  - "asking a local for directions in a foreign city — presumes the local is in a position to know, may be wrong if they're another tourist"
+  - "interviewing an eyewitness to an accident — presumes presence + observation, defeats on impaired perception, distance, lighting, witness-stress documented to degrade identification accuracy"
+  - "consulting the on-call engineer about a production outage — presumes access to logs / dashboards / system-state, distinct from expertise-in-the-domain (which is lex-kebfa)"
+  - "asking the person-who-was-in-the-room what was actually said — presumes presence; defeats on selective recall, motivated retelling, distance from event"
+  - "deferring to the database administrator on what queries are actually being run — position-to-know via privileged-access, not via training-in-database-theory"
+  - "interviewing a defector about internal regime operations — position-to-know via prior role-access, weighted against possible incentive to misrepresent for asylum / reward / revenge"
+severity-tier: info
+status: active

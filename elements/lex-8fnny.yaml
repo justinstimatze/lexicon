@@ -1,0 +1,19 @@
+id: lex-8fnny
+name: staged-restraint-shakes-down-those-who-did-the-actual-deed
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Someone who never actually engaged with a dangerous situation can extract payment from the people who did, by staging a claim of restrained mastery over it and then demanding to know who else was involved. In the Jataka's tale of the archer's tiger, villagers mob-kill a tiger together. The archer Bhimasena then claims he'd been tracking and controlling it with a mere creeper, like leading an ox, and now needs to know who killed it before he can 'get back with his creeper.' The claim requires no proof and invites no direct challenge, because it terrifies the actual killers into believing they've committed some offense against his supposed authority over the beast, and they pay him to stay silent about a crime that was never really theirs to answer for."
+related: []
+evokes: [jataka, ekanipata, bhimasena-jataka, staged-authority-shakes-down-real-actors, fabricated-restraint-claim-extracts-silence-money]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-bhimasena-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 80, Bhimasena-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "'Who has killed the tiger? I meant to lead it ... by a creeper, like an ox, to the king, and with this intent had ... just stepped into the thicket to get a creeper. I must know who killed the tiger before I could get back with my creeper.'"
+canonical-instances:
+  - "After a group of employees quietly fixes a production outage themselves without following the official escalation process, a manager who did nothing during the incident claims they had been personally containing the damage through back-channel coordination, and demands to know who acted without authorization before deciding whether to report it."
+critical-questions:
+  - "Why does the claim work at all, given how implausible it is on its face — does it depend specifically on the actual actors feeling guilty about breaking some other rule, which makes them vulnerable to an unrelated fabricated authority claim?"
+  - "Would a single actor who calls the bluff publicly, asking for proof of the claimed restraint, collapse the whole shakedown immediately, or does the extractor have a fallback once challenged?"
+status: active

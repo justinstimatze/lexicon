@@ -1,0 +1,19 @@
+id: lex-28s3q
+name: interrupting-a-costly-decision-by-asking-if-a-disinterested-authority-was-consulted
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Before an expensive, irreversible action goes forward on the recommendation of interested parties, a single question — has anyone with no stake in the outcome been asked? — can halt the momentum without directly contradicting the advisors or the decision-maker's judgment. In the Jataka's tale of the four cries, as the mass animal sacrifice is being prepared on the brahmins' advice, Queen Mallika stops the king cold with exactly this question: 'Have you, my lord, consulted the chief brahmin in the Deva-world as to the origin of these cries?' The king admits he hasn't, goes to the Buddha instead, and the entire sacrifice is called off."
+related: [lex-vf5ff]
+evokes: [jataka, catukkanipata, lohakumbhi-jataka, one-question-halts-momentum-toward-a-costly-decision, has-a-disinterested-party-actually-been-asked]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-lohakumbhi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 314, Lohakumbhi-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The queen said, \"Have you, my lord, consulted the chief brahmin in the Deva-world as to the origin of these cries?\" \"Who, lady,\" said the king, \"is the chief brahmin in the Deva-world?\" \"The Great Gotama,\" she replied, \"the Supreme Buddha.\" \"Lady,\" he said, \"I have not consulted the Supreme Buddha.\" \"Then go,\" she answered, \"and consult him.\""
+canonical-instances:
+  - "Before a board approves an expensive restructuring recommended by the consulting firm that will also execute it, one director simply asks whether anyone outside that firm has reviewed the numbers — the question alone is enough to delay the vote and bring in an independent auditor."
+critical-questions:
+  - "Does this only work because the questioner (a queen) already holds enough standing to be heard — would the same question from someone with less standing than the interested advisors actually halt anything?"
+  - "Is a disinterested second opinion always available in practice, or does the tactic depend on there being some recognized, accessible authority outside the interested parties' circle, as the Buddha conveniently is here?"
+status: active

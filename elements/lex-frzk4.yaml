@@ -1,0 +1,19 @@
+id: lex-frzk4
+name: build-a-captive-substitute-supply-to-absorb-an-externality
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When a powerful party can't be stopped from causing recurring harm, one fix is not to confront them but to engineer an alternative supply that absorbs the harm in the original victims' place. In the Jataka's Banyan Deer tale, the king of Benares hunts the forest deer for sport regardless of the herd's wishes. Rather than resist directly, the deer herds propose sowing food and water in the king's own pleasure-garden, driving deer into it, and delivering that captive population over to him — redirecting the hunting pressure onto a supply built specifically to take it, instead of leaving it to fall wherever the king's hunts happen to land."
+related: []
+evokes: [jataka, ekanipata, nigrodhamiga-jataka, captive-substitute-absorbs-externality, redirecting-harm-to-a-built-buffer]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-nigrodhamiga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 12, Nigrodhamiga-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Suppose we were to sow food and supply water for the deer in his own pleasaunce, and, having driven in a number of deer, to bar them in and deliver them over to the king!"
+canonical-instances:
+  - "A neighborhood plagued by cars cutting through a residential street to avoid a backed-up highway exit builds a dedicated frontage road specifically to take that overflow traffic, rather than lobbying to have the highway itself fixed."
+critical-questions:
+  - "Does the substitute supply actually reduce total harm, or does it just relocate the same harm onto whoever ends up inside the buffer, without shrinking the underlying demand that caused it?"
+  - "What stops the powerful party from simply exhausting the captive supply and returning to the original, unprotected population once the buffer runs out?"
+status: active

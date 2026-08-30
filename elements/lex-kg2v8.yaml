@@ -1,0 +1,19 @@
+id: lex-kg2v8
+name: a-magnanimous-winner-feels-more-oppressive-than-a-vindictive-one
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "After a contest resolves, the winner who responds with visible generosity toward the defeated party is publicly praised for big-hearted sensitivity — but the defeated party often experiences that same generosity as more oppressive than open vindictiveness would have been. Vindictiveness at least lets the loser hold a clear grievance and a clean adversarial stance; magnanimity denies them even that, since responding to generosity with continued resentment reads as petty or ungracious, trapping the loser in a position where their genuine distress has no legitimate outlet. The mechanism to watch for is this: the loser's actual experience and the public's read on the winner's behavior point in opposite directions, and only the public read gets counted as the social record of what happened."
+related: []
+evokes: [jackall-moral-mazes, "more oppressive than vindictiveness", magnanimity-traps-the-defeated-more-than-vindictiveness]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch8-magnanimous-winner-oppressive
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 8, Invitations to Jeopardy, Section II."
+    quote: "the victor enjoys plaudits for big-hearted sensitivity while his defeated opponent often finds such generosity more oppressive than vindictiveness."
+canonical-instances:
+  - "After winning a contested promotion, a manager publicly praises the passed-over colleague's contributions and offers them a prominent role on the new team — earning admiration from onlookers, while the colleague privately feels unable to express any resentment without appearing ungracious in the face of visible kindness."
+critical-questions:
+  - "Is the loser's distress here actually caused by the magnanimity itself, or by the loss they were always going to feel regardless of how the winner behaved — is magnanimity the oppressor, or just the thing that removes the loser's last acceptable channel for expressing a distress that already existed?"
+status: active

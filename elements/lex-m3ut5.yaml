@@ -1,0 +1,19 @@
+id: lex-m3ut5
+name: a-fixed-spec-solution-cannot-fit-a-target-defined-by-continuous-change
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a solution designed for a fixed specification keeps failing against a particular target, check whether the target's defining property is that it never holds still long enough to have one. In Aesop's 'The Moon and Her Mother,' a mother asks a tailor to make the Moon a garment fitted to her size; skill has nothing to do with his refusal — he names the target's shape as the actual obstacle: 'there's no fitting your figure,' since the Moon's phase never sits still long enough to take one. The problem is unsolvable in the form asked, because it demands a static-fit method applied to a target whose whole nature is continuous, non-stationary change."
+related: [lex-travw]
+evokes: [aesop, the-moon-and-her-mother, static-fit-vs-moving-target, unsolvable-not-badly-solved]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-moon-and-her-mother
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Moon and Her Mother.' Verified verbatim against a direct extraction of the held copy."
+    quote: "there's no fitting your figure. At one time you're a New Moon, and at another you're a Full Moon; and between whiles you're neither one nor the other."
+canonical-instances:
+  - "trying to lock a fixed brand identity or org chart for a startup that is still actively pivoting its product: the design problem itself is unsolvable at that stage of the company, regardless of who is asked to do it or how skilled they are."
+critical-questions:
+  - "Is there a workable alternative to a fixed-spec solution for a genuinely moving target — a garment or a process built to flex with the change — or does the fable's framing assume no such adaptive solution exists?"
+  - "How does an outside party tell the difference between a target that is genuinely, structurally non-stationary and one that merely appears changeable because no one has yet identified its actual stable state?"
+status: active

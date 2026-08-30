@@ -1,0 +1,24 @@
+id: lex-qbfvw
+name: a-correct-report-dies-without-a-patron-to-carry-its-cost
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Whether a substantively accurate but organizationally inconvenient report survives depends far less on its accuracy than on whether its author has a powerful sponsor willing to absorb the political cost of forwarding it. Without a patron — a 'godfather' higher up who can fight for the report in rooms the author has no access to — the author is stuck in a fealty relationship that carries obligations without protection: they owe deference upward but receive no backing in return. Being right is necessary but not sufficient for a report's survival; the missing variable is whether someone with standing has decided the report is worth spending their own capital on."
+related: []
+evokes: [jackall-moral-mazes, "a powerful godfather higher in the organization", accuracy-without-sponsorship-dies-quietly]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch5-no-powerful-godfather
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 5, Drawing Lines."
+    quote: "Nor had White been adopted by a powerful godfather higher in the organization who could fight for him in forums to which White himself had no access."
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch5-fealty-without-support
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 5, Drawing Lines."
+    quote: "White was caught in a fealty relationship with all of its obligations—especially those of protocol—but with little likelihood of support for his work or of future rewards."
+canonical-instances:
+  - "An engineer's accurate warning about a design flaw is filed and forgotten because no senior leader championed it, while a less rigorous report from a well-connected colleague, backed by a vice-president willing to push it forward, drives an immediate policy change."
+critical-questions:
+  - "If the unsponsored report's findings later prove correct in a costly way, does the failure to act get attributed to the absence of sponsorship, or does the organization simply conclude the original author should have tried harder to build a sponsor relationship first?"
+status: active

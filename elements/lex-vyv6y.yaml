@@ -1,0 +1,19 @@
+id: lex-vyv6y
+name: a-shirkers-rushed-shortcut-contaminates-a-shared-good-faith-pool
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "One participant's deferred effort, rushed at the last minute into a shared resource pool, produces a defect indistinguishable from good work until someone downstream relies on it — at which point the cost lands on the whole group rather than the shirker alone. In the Jataka's tale of the green branches, a lazy pupil naps instead of gathering firewood, then grabs wet, unseasoned branches at the last moment and piles them onto the group's dry-wood stack. The next morning, a servant takes wood from the pile in good faith, assuming it's all dry like the rest, and can't get a fire lit before sunrise. The defect was invisible at the moment it entered the shared pool; it only became visible once someone who had no way to check trusted it."
+related: []
+evokes: [jataka, ekanipata, varana-jataka, rushed-defect-contaminates-a-trusted-pool, hidden-cost-lands-on-whoever-relies-on-it-downstream]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-varana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 71, Varana-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Learn thou from him who tore green branches down, That tasks deferred are wrought in tears at last."
+canonical-instances:
+  - "One engineer skips writing real tests for a rushed feature and commits a stub that always passes, indistinguishable in the test suite from genuine coverage, and a teammate who later refactors that code in good faith, trusting the green checkmark, ships a break straight to production."
+critical-questions:
+  - "Does the group have any practical way to detect a defect like this before it's relied upon, given that the whole problem is that it looks identical to legitimate work at the point of contribution?"
+  - "Is responsibility for the resulting failure entirely on the original shirker, or does the downstream party who trusted an unverified shared resource without checking it bear some share as well?"
+status: active

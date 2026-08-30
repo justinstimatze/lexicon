@@ -1,0 +1,19 @@
+id: lex-reb44
+name: validate-the-reasoning-behind-a-fear-then-remove-the-actual-threat
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'After hearing the reasoning behind an alarm, an authority can validate that the fear is proportionate to a real danger rather than dismissing all fear as weakness, and then intervene to remove the actual threat. In the Jataka''s tale of Kotisimbali, the roc-king does exactly this once he understands the tree-spirit''s reasoning: "Fear is right if things are fearful: ''gainst the coming danger guard: Wise men look on both worlds calmly if they present fears discard." So speaking, the roc-king by his power drove the bird away from that tree.'
+related: []
+evokes: [jataka, sattanipata, kotisimbali-jataka, validate-then-act-on-a-real-fear, distinguish-rational-from-irrational-alarm]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kotisimbali-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 412, Kotisimbali-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Fear is right if things are fearful: 'gainst the coming danger guard: Wise men look on both worlds calmly if they present fears discard."
+canonical-instances:
+  - "After hearing out the operations lead's specific reasoning for halting the deployment, the VP agrees the concern is legitimate, kills the deployment, and has the underlying dependency fixed before trying again."
+critical-questions:
+  - "Does validating a subordinate's specific fear this one time make it harder to push back on their alarm the next time it turns out to be unfounded?"
+  - "What distinguishes 'fear that is right' from fear that merely feels justified in the moment — is there a reliable test beyond the authority's own judgment call?"
+status: active

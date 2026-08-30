@@ -1,0 +1,22 @@
+id: lex-wszcj
+name: match-the-strength-of-a-corrective-to-the-listeners-readiness
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When someone is in acute distress, a caregiver or advisor can deliberately withhold the strongest, most direct corrective and apply milder treatment first, reserving harder truths until the person's capacity to bear them has grown -- not because the harsher truth is false, but because delivered too early it would harden resistance rather than heal it. Philosophy states the calculation explicitly before proceeding: 'since a throng of tumultuous passions hath assailed thy soul, since thou art distraught with anger, pain, and grief, strong remedies are not proper for thee in this thy present mood. And so for a time I will use milder methods, that the tumours which have grown hard through the influx of disturbing passion may be softened by gentle treatment, till they can bear the force of sharper remedies.'"
+related: [lex-zmvj5]
+evokes: [consolation-of-philosophy, book-i-prose-v, strong-remedies-are-not-proper-for-thee-in-this-thy-present-mood, softened-by-gentle-treatment-till-they-can-bear-sharper-remedies, dose-the-medicine-to-the-patients-strength]
+lineage:
+  - source: primary
+    text: boethius-c524-consolation-of-philosophy-book-i-prose-v
+    citation: "Boethius, The Consolation of Philosophy (c. 524 AD), trans. H. R. James (London: George Bell & Sons, 1897), Book I, Prose V. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "since a throng of tumultuous passions hath assailed thy soul, since thou art distraught with anger, pain, and grief, strong remedies are not proper for thee in this thy present mood. And so for a time I will use milder methods, that the tumours which have grown hard through the influx of disturbing passion may be softened by gentle treatment, till they can bear the force of sharper remedies."
+canonical-instances:
+  - "A grief counselor meeting someone one week after a sudden loss avoids confronting an estranged relationship with the deceased, focusing instead on stabilizing daily functioning, and raises the harder material only months later once the acute crisis has passed."
+  - "A financial advisor meeting a client who just lost a job doesn't lead with a blunt accounting of how far spending must be cut, but starts with the least alarming adjustments, saving the full picture for a follow-up once the client isn't in active panic."
+  - "A physical therapist working with a patient newly diagnosed with a chronic condition begins with small, encouraging exercises rather than the full long-term prognosis and workload, introducing the harder truths in stages as the patient's resilience builds."
+critical-questions:
+  - "Does withholding the full truth now risk the listener making a consequential decision on incomplete information, in a way that a single, immediate, complete disclosure would have prevented?"
+  - "Who decides when the listener's capacity has 'grown enough' for the harder remedy -- doesn't this hand the caregiver open-ended discretion to defer discomfort indefinitely under the cover of pacing?"
+  - "Is the milder treatment actually calibrated to the patient's readiness, or is it sometimes calibrated to the deliverer's own reluctance to be the bearer of hard truths, dressed up as therapeutic patience?"
+status: active

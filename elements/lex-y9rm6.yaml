@@ -1,0 +1,19 @@
+id: lex-y9rm6
+name: reserving-the-top-slot-for-an-unmet-hypothetical-superior
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than assume one''s own position marks the ceiling, a person can permanently reserve their institution''s highest slot for an unknown future superior, treating their own rank as provisional rather than final. In the Jataka''s tale of Sirikalakanni, the merchant keeps a couch and bed permanently unused on the reasoning that someone of purer morals than himself might one day arrive: ''He thought, "If one of purer morals than I should come, it would not be proper to give him my couch to sit on or my bed to lie on, but to give him one pure and unused": so he had an unused couch and bed prepared on one side in his presence-chamber.'''
+related: []
+evokes: [jataka, chanipata, sirikalakanni-jataka, reserving-a-slot-for-a-future-superior, structural-humility-practice]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sirikalakanni-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 382, Sirikalakanni-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "He thought, \"If one of purer morals than I should come, it would not be proper to give him my couch to sit on or my bed to lie on, but to give him one pure and unused\": so he had an unused couch and bed prepared on one side in his presence-chamber."
+canonical-instances:
+  - "A lab keeps a fully-stocked bench permanently empty and unassigned, on the theory that a visiting researcher with a more urgent project might need it on short notice, rather than filling it with the current team's overflow work."
+critical-questions:
+  - "Does keeping a slot permanently reserved for a hypothetical superior actually improve outcomes, or is it a costly gesture that never gets used precisely because the imagined superior rarely shows up?"
+  - "Who decides whether an arriving person actually qualifies as purer or better, and what happens to the practice once that judgment call is contested?"
+status: active

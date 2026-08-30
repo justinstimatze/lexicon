@@ -1,0 +1,18 @@
+id: lex-3sd66
+name: feigning-death-to-lower-a-targets-guard-before-striking
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A predator who cannot catch a wary target directly stages incapacitation so the target will approach voluntarily, at which point the predator strikes, exploiting the target''s compassion or curiosity response to apparent death or weakness. In the Jataka''s tale of Putimansa, the jackal plans to play dead once the goat''s guard is down: "My dear, all the goats have died out. We must devise how to eat this she-goat. Now here is my plan. You are to go by yourself, and become friendly with her, and when confidence has sprung up between you, I will lie down and pretend to be dead."'
+related: []
+evokes: [jataka, navanipata, putimansa-jataka, playing-possum-predator-tactic, feigned-incapacitation-lures-target]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-putimansa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 437, Putimansa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "My dear, all the goats have died out. We must devise how to eat this she-goat. Now here is my plan. You are to go by yourself, and become friendly with her, and when confidence has sprung up between you, I will lie down and pretend to be dead."
+canonical-instances:
+  - "A phone scammer opens confused and helpless to draw out an elderly target's sympathy; the actual request for banking details waits until that sympathy has done its work and the target's guard is down."
+critical-questions:
+  - "Does the tactic depend specifically on triggering compassion for apparent weakness, or would any sufficiently convincing lowered-guard signal — not just feigned death — work the same way?"
+status: active

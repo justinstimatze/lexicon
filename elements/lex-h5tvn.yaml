@@ -1,0 +1,20 @@
+id: lex-h5tvn
+name: a-manufactured-threat-against-many-targets-harvests-silent-individual-bribes
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'To extract payment from many separate parties without any of them realizing the others paid too, stage a costly-looking threat against each one in turn — demolishing a house, seizing property — then accept a bribe to "spare" them, and make silence about the bribe a condition of the deal. No target ever learns the threat was never uniformly real, because each is sworn not to compare notes with anyone else. In the Maha-Ummagga-Jataka, Mahosadha''s men announce they''ll demolish houses across the city to build lodging for the visiting king. The queen-mother pays to be spared: "take this bribe, a hundred thousand pieces of money, and let him build elsewhere." The reply seals the scheme: "we will leave your house alone; but do not tell any one that you have given this bribe, that no others may wish to bribe us to spare their houses." Kevatta pays the same bribe next, unaware she already had; "by seizing houses in all parts of the city, and procuring bribes, they got nine crores of gold pieces" — without a single house actually being torn down.'
+related: []
+evokes: [jataka, mahanipata, maha-ummagga-jataka, manufactured-threat, silent-bribe, prevented-comparison]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-maha-ummagga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 546, Maha-Ummagga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: 'we will leave your house alone; but do not tell any one that you have given this bribe, that no others may wish to bribe us to spare their houses.'
+canonical-instances:
+  - "A corrupt inspector visits every restaurant on a block threatening a code violation that would force weeks of closure, accepts a private cash payment to 'overlook' it at each one, and tells each owner not to mention the payment to their neighbors — so no restaurant owner ever discovers the inspector took the same bribe up and down the street."
+  - "A scam caller tells each victim individually that their computer has been specifically and uniquely compromised, charges them for a 'fix,' and instructs them not to discuss it with family or friends 'for their own security' — the isolation instruction is what prevents victims from comparing stories and realizing the threat was identical and fabricated for everyone who called."
+critical-questions:
+  - "The scheme depends entirely on targets never comparing notes — how fragile is it once even one pair of victims happens to talk, given that a single comparison can expose the whole pattern retroactively?"
+  - "This is functionally extortion dressed as a favor — does labeling the payment a 'bribe' the target volunteers, rather than a direct demand, meaningfully change what's actually happening, or just make it easier for the target to rationalize paying?"
+status: active

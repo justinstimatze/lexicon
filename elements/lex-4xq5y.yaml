@@ -1,0 +1,19 @@
+id: lex-4xq5y
+name: manufactured-scarcity-frames-innocents-for-a-crime-nobody-committed
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Someone wanting to disrupt a target's reputation can plant a false prophecy, then quietly make the thing it promised vanish. Whoever was standing nearby when it turned up missing takes the suspicion. No accusation ever has to be made directly. In the Jataka's tale of the vanished mangoes, Sakka wants to disrupt a hermitage's peace. He plants a false prophecy with the queen, then makes the entire orchard's mangoes vanish: 'She will tell the king, and he will send to the orchard for a mango fruit: I will cause all the fruit to disappear. They will tell the king that there is none, and when he asks who eats it, they will say \"The ascetics.\"' The ascetics never touched the fruit. The scarcity itself was engineered to point at them."
+related: []
+evokes: [jataka, tikanipata, abbhantara-jataka, engineered-scarcity-directs-blame-toward-innocent-bystanders, no-direct-accusation-is-needed-when-circumstance-does-the-accusing]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-abbhantara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 281, Abbhantara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "She will tell the king, and he will send to the orchard for a mango fruit: I will cause all the fruit to disappear. They will tell the king that there is none, and when he asks who eats it, they will say 'The ascetics'."
+canonical-instances:
+  - "A disgruntled employee quietly deletes a shared drive's backup files right before a project deadline, knowing that when management asks why the files are missing, the contractors with the most recent access to that drive will be the first and only people suspected."
+critical-questions:
+  - "Does this scheme depend on the saboteur having a level of hidden power or access that most real-world actors wouldn't have, making the mechanism more relevant to institutional actors than individuals?"
+  - "How would the falsely accused party ever clear themselves, given that the scarcity itself was manufactured specifically to look like ordinary, unexplained disappearance rather than sabotage?"
+status: active

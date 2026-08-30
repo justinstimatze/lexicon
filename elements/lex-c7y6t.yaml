@@ -1,0 +1,19 @@
+id: lex-c7y6t
+name: reading-tracks-that-only-lead-in-avoids-a-threats-home-domain-entirely
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A trap set inside a threat's home territory can be defeated not by confronting the threat but by getting what you need without ever entering the domain where it has power. In the Jataka's tale of the monkey-king's heir, a father hoping to eliminate a rival son sends him to fetch lotuses from a lake haunted by a lake-ogre whose danger is confined to the water itself. The son studies the footprints around the lake — all leading in, none coming back out — infers the trap, and picks the flowers by leaping across and grabbing them mid-air, always keeping clear of the water where the ogre's power actually resides. The lake's danger was total inside the water and completely absent one step outside it. Rather than fight what waited inside the boundary, the son simply redrew where he operated."
+related: []
+evokes: [jataka, ekanipata, tayodhamma-jataka, avoiding-a-threats-domain-rather-than-confronting-it, a-boundary-a-threat-cannot-cross]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-tayodhamma-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 58, Tayodhamma-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "always keeping out of the ogre's watery domain"
+canonical-instances:
+  - "A researcher who needs data from inside a hostile jurisdiction's network arranges for a local contact to relay only publicly available exports across the border, rather than ever connecting a device to the network directly, since the jurisdiction's actual legal reach is confined to devices physically or digitally present inside it."
+critical-questions:
+  - "How would the son have proceeded if the task genuinely couldn't be completed without entering the domain at all — does this technique only work when the boundary of the threat's power happens to leave a viable path around it?"
+  - "Was reading the footprints' one-way pattern necessary to the solution, or would a general policy of staying at the water's edge regardless of any direct evidence have worked just as well?"
+status: active

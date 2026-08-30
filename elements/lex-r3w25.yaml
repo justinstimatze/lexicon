@@ -1,0 +1,53 @@
+id: lex-r3w25
+name: confirmation-filtered-tribal-perception
+type-in: state
+type-out: state
+_tier: reaction
+agent-instruction: "When group X claims 'we all see Y' about contested evidence, ask: would group not-X see the same Y if presented with the same data? If no, the perception is filtered by tribal alignment, not by the evidence itself."
+related: [lex-hbgcb, lex-t9fs7, lex-rcj6y, lex-vacbr, lex-8c35v, lex-betym, lex-mmq8x, lex-srj3h, lex-wjwuc, lex-9wbd3, lex-ykb5a, lex-wf4nj, lex-ucw53, lex-3qnq3, lex-3yvwm, lex-ctnnx, lex-p3tbg, lex-cjuza, lex-y2nej, lex-85bw8, lex-2habe, lex-aufzn, lex-wkcck, lex-vk65z, lex-5kjya, lex-rgr3t, lex-fzd6w, lex-w97xs, lex-b6kvs, lex-3u25r, lex-ymvt4, lex-ubdyr, lex-w6zhq, lex-96xn9, lex-s27um, lex-68gd3, lex-ckahh, lex-dgwbn, lex-rwvkh, lex-rsnn7, lex-cpq3s, lex-cat29, lex-m9arm, lex-ttaq9, lex-jfy8w, lex-v64bg, lex-r5fy3, lex-bkaum, lex-bun8e, lex-kgphf, lex-xu94g, lex-bmujx, lex-3ajns, lex-4kn98, lex-qg753, lex-bx8hz, lex-5dnd9, lex-r7zuy]
+scaffolds-from: [lex-hbgcb, lex-t9fs7, lex-bmujx, lex-ucw53, lex-3ajns, lex-w6zhq, lex-4kn98]
+evokes: [the-tribes-consensus-is-itself-an-artifact, you-only-see-the-evidence-you-look-for, social-proof-passes-through-bias-filter, false-consensus-effect, what-everyone-knows-is-what-the-bias-shows]
+reactants:
+  - lex-hbgcb # social-proof-as-action-signal: the agent's perception/read of the in-group social field
+conditions:
+  - "the agent has a prior stance / hypothesis the tribe holds (or that the agent assumes the tribe holds)"
+mechanism: "lex-t9fs7 confirmation-bias operates over the agent's perception of the social field — in-group-affirming signals are noticed and remembered while in-group-disconfirming signals (dissenting tribe-members, ambiguous cases, silent majorities) are filtered out; lex-hbgcb social-proof then operates on the BIASED perception, reading the filtered evidence as `everyone like me thinks X` even when the actual distribution is more dispersed. The social-proof signal that drives subsequent identity-protective cognition is corrupt at the input layer"
+catalysts:
+  - lex-t9fs7 # confirmation-bias is the filter that warps the read of the social field
+  - "homogeneous information-streams (partisan media bubbles) that pre-filter the visible exemplars toward in-group-affirming ones"
+products:
+  - "a perceived in-group-consensus that is a motivated artifact of the bias-filter, not a faithful read of the social distribution — perceived-distribution diverges from measured-distribution (pluralistic ignorance; Prentice & Miller 1993)"
+inhibitors:
+  - "a high-base-rate survey of actual in-group views (corrects it IF the molecule is still at perception-level); fails when consolidated to identity-level (the survey data is re-filtered through the same bias, lex-vacbr has taken over)"
+reversibility: "self-reinforcing when broadcast — the agent acts as if X is consensus, the broadcast feeds OTHER agents' biased perception, closing a feedback loop (opinion-cascade dynamics); correctable at perception-level, locked-in at identity-level"
+critical-questions:
+  - "what's the actual distribution? Pluralistic-ignorance research (Prentice & Miller 1993, O'Gorman 1986) consistently shows in-group consensus is over-estimated by members. The molecule's diagnostic is that perceived-distribution diverges from measured-distribution"
+  - "does giving the agent a high-base-rate-survey of actual in-group views shift their perception? If yes, the molecule is firing on a perception-correctable level. If no, the molecule has consolidated to identity-level (lex-vacbr has taken over) and survey data won't budge it"
+  - "operationally distinct from lex-t9fs7 confirmation-bias solo: solo confirmation-bias filters evidence about the world; lex-r3w25 names confirmation-bias filtering evidence about the social distribution of beliefs about the world. The bias's substrate shifts from facts to social-facts"
+  - "operationally distinct from lex-hbgcb social-proof-as-action-signal solo: solo social-proof reads the social field as input; lex-r3w25 names what happens when that read is itself biased. Solo social-proof can be debunked by showing the agent the actual distribution; lex-r3w25 may persist because the agent re-filters the survey data through the same bias"
+  - "is the molecule producing a stable belief or amplifying spirals? When confirmation-filtered social-proof is then publicly broadcast (the agent acts as if X is consensus), the broadcast contributes to OTHER agents' biased perception, which closes a feedback loop. This is one mechanistic account of opinion-cascade dynamics"
+lineage:
+  - source: practitioner
+    text: wason-1960-failure-to-eliminate-hypotheses
+    citation: "Peter Wason, 'On the failure to eliminate hypotheses in a conceptual task,' Quarterly Journal of Experimental Psychology 12(3):129-140 (1960) — confirmation-bias as systematic confirmation-seeking (verbatim quote carried in lex-t9fs7's own Wason entry); the Nickerson 1998 review below supplies the modern operationalization that this molecule generalizes from object-field to social-field substrate"
+    quote: "[Tier-3 deepening source; verified Nickerson 1998 review (ported in lex-betym) supplies the canonical operationalization of confirmation-bias as seeking/interpreting evidence in ways partial to existing beliefs. This molecule generalizes the mechanism from object-field to social-field — the bias filters the agent's read of in-group consensus, not just their read of world-facts]"
+  - source: practitioner
+    text: prentice-miller-1993-pluralistic-ignorance
+    citation: "Deborah Prentice & Dale Miller, 'Pluralistic ignorance and alcohol use on campus,' J. Personality and Social Psychology 64(2):243-256 (1993) — empirical demonstration that in-group members systematically over-estimate the prevalence of in-group-typical views. Tier-3 deepening source; the discrepancy between perceived-and-actual distribution remains the operational diagnostic for this molecule"
+    quote: "[Tier-3 deepening source — Prentice & Miller 1993; widely-cited empirical-psychology finding that perceived in-group norms systematically over-estimate actual prevalence (campus alcohol use; tobacco-cessation norms; political-tolerance survey research). The discrepancy is the diagnostic gap this molecule names — perceived consensus diverges from measured consensus reliably under confirmation-filtered social perception]"
+  - source: practitioner
+    text: cialdini-1984-influence
+    citation: "Robert Cialdini, Influence: The Psychology of Persuasion (Harper 1984; revised eds 2007, 2021). Cialdini's social-proof principle assumes the social signal is read accurately; this molecule is the perturbation that says no, the read itself is bias-filtered. The social-proof input that drives behavioral compliance is therefore corrupt at the perception layer. (already in lex-hbgcb lineage; here ported with bias-filter framing)"
+    quote: "The principle of social proof. It states that one means we use to determine what is correct is to find out what other people think is correct. The principle applies especially to the way we decide what constitutes correct behavior. We view a behavior as more correct in a given situation to the degree that we see others performing it. [Ch.4 opening — the canonical Cialdini statement assumes the 'see others performing it' read is accurate. This molecule names the failure-mode in that assumption: under confirmation-bias, the 'others' visible to the agent are filtered toward in-group-affirming exemplars; the resulting social-proof input is not a faithful read of the social distribution but a biased extract. Cialdini's compliance-professional applications operate within this molecule when the social-proof being broadcast is manufactured or selectively presented — the agent's confirmation-filter then locks in on the manufactured signal as confirmation of what 'people like me' do.]"
+  - source: practitioner
+    text: score-drivermap-mining-pass-1
+    citation: "The co-occurrence pass identified confirmation_bias × curiosity_exploration (13 plays, 14.4% strength) as a co-occurrence pair; curiosity_exploration is not in substrate but the spirit of the pair (bias-filtered exploration of the field) is captured here through bias-filtered exploration of the SOCIAL field. The mechanism generalizes from object-domain to social-domain"
+canonical-instances:
+  - "U.S. partisan media bubbles: a Republican voter consuming Fox News + conservative social media perceives 'most reasonable people agree X'; a Democrat consuming MSNBC + liberal social media perceives 'most reasonable people agree not-X'. Both perceptions are confirmation-filtered reads of broadly-shared social fields"
+  - "academic discipline politics: a junior scholar in a methodologically-contested field perceives 'all the smart people support method M'; the perception is filtered to in-group senior figures and against out-group critics. The 'consensus' is real among those the scholar attends to"
+  - "tech-stack zealotry: a developer immersed in a particular framework's community perceives 'everyone is using this'; the perception filters out the much-larger non-using majority because they're not in the developer's information stream. The social-proof signal feels overwhelming"
+  - "religious-community theological consensus: members perceive denominational positions as broadly held among 'serious believers'; the perception filters dissenters out as 'not serious'. The filter is self-reinforcing because the criterion for 'serious' tracks position-agreement"
+  - "operationally compositional with lex-2rsad identity-protective-belief-maintenance: lex-2rsad's defense relies on social-proof-of-in-group-stance; if that social-proof is itself a lex-r3w25 artifact, the entire defense is operating on biased input. The two molecules chain: lex-r3w25 corrupts the social-input; lex-2rsad then defends the resulting (corrupt) belief against incoming threats"
+  - "operationally compositional with lex-8c35v cialdini-three-lever-influence: a persuader using cialdini's social-proof lever may be exploiting (or victimized by) the same lex-r3w25 perception-bias. When social-proof is artificially manufactured (laughter tracks, fake reviews) it succeeds because lex-r3w25 filters out the agent's potential skepticism toward the source"
+severity-tier: info
+status: active

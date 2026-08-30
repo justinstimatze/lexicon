@@ -1,0 +1,18 @@
+id: lex-kam85
+name: escalating-material-appeasement-cannot-satisfy-a-structurally-mismatched-demand
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'When a threatening demand is met with material tribute and the same demand recurs immediately and identically no matter how much is given, the recurrence itself is diagnostic: it reveals that the offered currency is the wrong kind of thing to resolve what''s actually being asked for. The gap between tribute and demand doesn''t close as the tribute scales from a king''s stores to an army''s provisions to the entire city''s food supply, and the reason is structural: quantity was never the axis this demand ran on. Treating an appetite like this as a supply problem just guarantees an escalation with no ceiling; what the story offers as the actual fix is moral reform, a different kind of response altogether. In the Maha-Kanha-Jataka, a monstrous hound devours an entire kingdom''s food supply in single mouthfuls and roars for more each time, escalating through a king''s personal stores, his army''s provisions, and finally all the food in the city, with each tribute vanishing instantly and the identical demand returning — until the king realizes ''this is no hound'' and the offering of food itself was never going to work.'
+related: []
+evokes: [jataka, dvadasanipata, maha-kanha-jataka, wrong-currency-of-appeasement, material-tribute-cannot-satisfy-a-non-material-demand]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-maha-kanha-jataka
+    citation: 'The Jataka, or Stories of the Buddha''s Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XII (Dvadasanipata), No. 469, Maha-kanha-jataka. Verified verbatim against a direct extraction of the held copy.'
+    quote: 'The hound seemed to make but one mouthful of the whole, then roared again. Again the king put his question. "My hound is still hungry," was the reply. Then he had all the food of his elephants and horses and so forth brought and given to him. This also he finished off all at once; and then the king had all the food in the city given him.'
+canonical-instances:
+  - 'A support team keeps throwing bigger discounts at a customer who churns anyway each time, not realizing the complaints were never about price — the customer''s actual demand was a product fix the team never offered, so no discount, however large, was ever going to be the thing that satisfied the recurring complaint.'
+critical-questions:
+  - 'Is the demand genuinely mismatched to material appeasement, or would a truly unlimited supply of food (rather than merely a large finite kingdom''s worth) have eventually satisfied the hound — and if the story never actually tests that limit, is the ''wrong currency'' conclusion something the king discovers or something the tale simply asserts?'
+status: active

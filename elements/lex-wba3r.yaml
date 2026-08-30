@@ -1,0 +1,18 @@
+id: lex-wba3r
+name: converting-an-abstract-limit-into-a-self-verifiable-criterion
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than stating a boundary as an arbitrary distance or trusting a subordinate''s memory of an instruction, an elder ties the limit to something the traveler can personally observe and check in the moment. This converts an externally imposed rule into a self-administered trigger condition, which is more robust than blind obedience because it re-verifies itself every time the criterion is met rather than depending on recall or trust alone. In the Jataka''s tale of Gijjha, the father vulture phrases the flight limit as a visible horizon-shape rather than a number: "My son, when thou canst scan from thy look out / Earth''s rounded sphere by ocean girt about, / No farther go, but straight return, I pray."'
+related: []
+evokes: [jataka, navanipata, gijjha-jataka, trigger-based-safety-rule, observable-boundary-condition]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-gijjha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 427, Gijjha-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "My son, when thou canst scan from thy look out / Earth's rounded sphere by ocean girt about, / No farther go, but straight return, I pray."
+canonical-instances:
+  - "A dive instructor tells a student to turn back not at a fixed depth number but the moment their exhaled bubbles stop rising in a clean vertical line — a condition the diver can check for themselves at any moment, rather than a number they have to remember and trust."
+critical-questions:
+  - "Does phrasing a limit as an observable trigger ever fail where a stated number would have succeeded — for instance when the observable condition itself is harder to perceive accurately than a number is to remember?"
+status: active

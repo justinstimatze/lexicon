@@ -1,0 +1,19 @@
+id: lex-d7cgz
+name: waiting-for-material-weakness-misjudges-an-identity-level-commitment
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A persuader can recalibrate timing rather than argument, waiting for a target's material circumstances to weaken before making the same pitch again. That bet misjudges whether the commitment being targeted was ever funded by the resource that's now running out. In the Jataka's tale of the tree-fairy and Anathapindika, a fairy twice fails to talk the merchant's household out of supporting the Buddha while he's wealthy. Once his fortune is spent down to poverty, she calculates he'll now be receptive to the same pitch and tries it directly on him — and is refused again, more forcefully than before. Anathapindika's commitment was never a function of his wealth, so its depletion changed nothing about his answer."
+related: []
+evokes: [jataka, ekanipata, khadirangara-jataka, material-weakness-misjudged-as-commitment-weakness, identity-level-commitment-does-not-scale-with-resources]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-khadirangara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 40, Khadirangara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Now that fairy who had not dared to speak to the merchant in the days of his magnificence, thought that now he was poor he would hearken to her"
+canonical-instances:
+  - "A vendor who couldn't get a company to drop a competitor's product while budgets were flush tries the same pitch again the moment the company announces layoffs, assuming financial pressure will finally make the switch attractive, only to be told the decision was never about price to begin with."
+critical-questions:
+  - "Is there a way to distinguish, in advance, which commitments are genuinely funded by resources that can run out from which are held independently of them, before wasting an approach timed to a weakness that was never real?"
+  - "Does the target's refusal actually get stronger under pressure, the way Anathapindika's does here, or does that intensification depend on something specific to how directly the pitch names the hardship?"
+status: active

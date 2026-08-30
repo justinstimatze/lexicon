@@ -1,0 +1,23 @@
+id: lex-pb5sq
+name: accurate-observation-does-not-compel-the-event-it-observes
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "The fact that an observer accurately perceives an event as it happens does not retroactively impose necessity on that event or strip it of its own freely-caused character -- watching something occur is not the same as compelling it to occur, regardless of how certain or complete the observer's perception is. Philosophy poses the question that undercuts the whole worry: 'Why, then, dost thou insist that the things which are surveyed by the Divine eye are involved in necessity, whereas clearly men impose no necessity on things which they see? Does the act of vision add any necessity to the things which thou seest before thy eyes?'"
+related: [lex-kw2cv, lex-2ssrj]
+scaffolds-from: [lex-kw2cv]
+evokes: [consolation-of-philosophy, book-v-prose-vi, does-the-act-of-vision-add-any-necessity, men-impose-no-necessity-on-things-which-they-see, seeing-is-not-compelling]
+lineage:
+  - source: primary
+    text: boethius-c524-consolation-of-philosophy-book-v-prose-vi
+    citation: "Boethius, The Consolation of Philosophy (c. 524 AD), trans. H. R. James (London: George Bell & Sons, 1897), Book V, Prose VI. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "Why, then, dost thou insist that the things which are surveyed by the Divine eye are involved in necessity, whereas clearly men impose no necessity on things which they see? Does the act of vision add any necessity to the things which thou seest before thy eyes?"
+canonical-instances:
+  - "A security camera that perfectly records a store's entire day of business doesn't cause any of the events it captures -- the footage's total, accurate coverage of what happened has no bearing on whether the events themselves were freely chosen or compelled."
+  - "A biographer who documents every detail of a subject's life with complete accuracy isn't thereby claimed to have caused any of the subject's choices -- exhaustive, correct knowledge of what someone did is not the same thing as having determined that they would do it."
+  - "An analyst with a flawless track record of correctly predicting a colleague's decisions isn't, by virtue of that predictive accuracy, actually controlling those decisions -- being reliably foreseen and being caused are two different relationships to an event."
+critical-questions:
+  - "Does this argument actually address the hardest version of the worry, or does it quietly change the subject -- ordinary human observation happens roughly simultaneously with or after the event, while the objection was specifically about knowledge that precedes the event by definition, which vision of a present event doesn't model at all?"
+  - "If accurate advance knowledge of a free choice is possible at all, doesn't the very existence of that advance knowledge require the choice to already have a determinate outcome before it's made, regardless of whether the act of knowing itself is what causes that determinacy?"
+  - "Human vision only ever sees the present, so the analogy smuggles in exactly the disanalogy that needs defending -- can the argument work at all before Philosophy separately establishes, via [[lex-kw2cv]], that God's vision of the future is really vision of an eternal present rather than genuine foresight of what hasn't happened yet?"
+status: active

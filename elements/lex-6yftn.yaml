@@ -1,0 +1,19 @@
+id: lex-6yftn
+name: probing-your-own-reputations-durability-via-a-controlled-transgression
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Someone whose virtue is publicly assumed can deliberately test the actual limits of that assumption by committing a small, controlled transgression and observing how it's received — treating their own standing as a hypothesis to check rather than a fact to rest on. In the Jataka's tale of the self-testing priest, a brahmin famous for virtue secretly takes a single coin from the royal treasury for three days running, apparently to probe the durability of his own reputation: 'In testing his virtue he for three days took a coin from the royal treasurer's board.'"
+related: []
+evokes: [jataka, catukkanipata, silavimamsa-jataka, testing-ones-own-assumed-virtue-with-a-controlled-transgression, reputation-treated-as-a-hypothesis-not-a-fact]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-silavimamsa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 330, Silavimamsa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "In testing his virtue he for three days took a coin from the royal treasurer's board."
+canonical-instances:
+  - "A manager known for an open-door, no-retaliation policy quietly floats a mildly critical anonymous suggestion through the same channel their own team uses, to see for themselves whether the policy actually holds up in practice rather than assuming it does because they designed it that way."
+critical-questions:
+  - "Is this a legitimate way to check one's own integrity, or does it cross into actual wrongdoing regardless of the tester's motive — does intent to self-test excuse the theft itself?"
+  - "What would the priest have learned if he'd been caught and punished instead of exposed and then pardoned — does the test only look wise in hindsight because it happened to end well?"
+status: active

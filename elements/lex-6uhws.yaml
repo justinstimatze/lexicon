@@ -1,0 +1,21 @@
+id: lex-6uhws
+name: manufactured-scarcity-around-a-windfall-erases-a-competitors-caution
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Once you're trapped and want company, don't invite others in -- pretend you'd rather keep the spoils to yourself, and their own competitive instinct will do the recruiting you can't risk doing directly. In Cushing's telling, a Coyote falls into a hidden pit-trap and lures a passing Bear in by claiming it's a feast, but once several animals are already inside, the tactic flips: 'Keep away, my friends,' cried out the Coyote. 'No such luck for you. We got here first. Our spoils!' The other pests, hearing this, don't get suspicious -- they get desperate: '\"Can't I come?\" \"Can't I come?\" cried out one after another.' The Coyote's grudging, rationed reply is what finishes the job: 'Well, yes,--no,--there may not be enough for you all.' 'Come on, though; come on! who cares?' cried the Bear, and the whole crowd 'rushed in so fast that very soon the pit-hole was almost full of them,' none of them stopping to ask why two creatures were so oddly gleeful about having fallen into a hole. Manufactured stinginess about a suspicious windfall converts wariness into urgency, because the story it tells isn't 'something is wrong here' but 'I might be left out.' Diagnostic move: when access to an unexplained windfall is being rationed or grudgingly restricted right in front of you, notice that the restriction itself is what's driving your hurry -- ask why the ones already inside are so pleased before assuming the only risk is missing out."
+related: []
+evokes: [rationed-access-to-a-windfall-erases-caution-about-the-windfall-itself, cushing-how-the-corn-pests-were-ensnared, no-such-luck-for-you-we-got-here-first, there-may-not-be-enough-for-you-all]
+lineage:
+  - source: primary
+    text: cushing-coyote-manufactures-scarcity-to-fill-the-pit-trap
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'How the Corn-Pests Were Ensnared.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'Keep away, my friends, cried out the Coyote. No such luck for you. We got here first. Our spoils! Can't I come? Can't I come? cried out one after another. Well, yes,--no,--there may not be enough for you all. Come on, though; come on! who cares?--cried out the old Bear. And they rushed in so fast that very soon the pit-hole was almost full of them, scrambling to get ahead of one another, and before they knew their predicament they were already in it.'"
+canonical-instances:
+  - "A scammer running a fake investment opportunity tells early inquirers that spots are extremely limited and they'd rather not let more people in on such a good deal, and the resulting scramble to not be excluded gets more victims to wire money faster and with less scrutiny than a straightforward pitch ever would."
+  - "A retailer flashes a low-stock warning on a product page the moment a shopper starts hesitating, and the fear of missing out on a supposedly scarce item overrides the shopper's half-formed doubts about whether they actually need it or whether the price is fair."
+critical-questions:
+  - "Would any of the pests have paused to question the situation if the Coyote had simply invited them in warmly from the start, or does the tactic specifically require the appearance of reluctance to work -- is manufactured stinginess doing real work here, or would open generosity have recruited the same crowd just as fast?"
+  - "Is there a point at which the sheer number of creatures already clamoring at the edge of the pit should itself have been a warning sign, separate from anything the Coyote said -- does social proof compound the scarcity effect here, or are they operating independently?"
+  - "Does the trick depend on the victims' own competitive relationship with each other, given that these are all corn-pests already competing for the same fields, or would it work just as well on a group with no prior rivalry?"
+status: active

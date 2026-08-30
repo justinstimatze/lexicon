@@ -1,0 +1,18 @@
+id: lex-v5per
+name: verifying-a-claimed-skill-via-an-engineered-test
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than accepting a claimed competence at face value, an evaluator devises an increasingly elaborate, deceptive route specifically to see whether the claim holds under conditions the claimant could not have anticipated or memorized. Trust in a claimed skill is earned by passing an adversarially designed test, not by the claim itself. In the Jataka''s tale of Padakusalamanava, a father tests his son''s claimed footprint-tracking skill by threading a deliberately confusing route through three neighbors'' houses and out around the city before doubling back, specifically so the boy could not have anticipated or memorized the path in advance.'
+related: []
+evokes: [jataka, navanipata, padakusalamanava-jataka, adversarial-skill-verification, controlled-trial-for-a-claim]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-padakusalamanava-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 432, Padakusalamanava-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Then his father, to prove him, went out of his house after the early meal, and going into his next-door neighbour's house, from it passed into another, and from this third house again returned to his own home, and thence made his way to the North gate, and passing out by it made a circuit of the city from right to left."
+canonical-instances:
+  - "Before trusting a new hire's claimed fluency in a legacy codebase, a tech lead assigns a bug deliberately buried behind three unrelated red herrings rather than just asking the candidate to describe their experience."
+critical-questions:
+  - "Does an engineered test that the claimant could eventually pass by trial and error actually distinguish real skill from lucky persistence, or does it need some additional constraint (time limit, single attempt) to do that?"
+status: active

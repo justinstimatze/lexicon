@@ -1,0 +1,19 @@
+id: lex-xekvf
+name: decision-paralysis-as-a-blame-diffusion-strategy
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Two stated operating principles work together as a blame-diffusion system: avoid making any decision at all if possible, and when a decision can't be avoided, involve as many people as possible in making it. The second principle isn't about improving decision quality through broader input — it's explicitly justified by the ability to 'point in as many directions as possible' if the decision fails. Wide involvement here is a liability-spreading mechanism dressed as collaborative process, and the tell is that the stated justification is about post-failure attribution, not pre-decision judgment quality. Distinguish this from genuine consensus-building by checking which one the participants themselves cite as the reason for the group's size."
+related: [lex-8c9vv]
+evokes: [jackall-moral-mazes, "point in as many directions as possible", committee-as-blame-diffuser]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch4-decision-paralysis-blame-diffusion
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 4, Looking Up and Looking Around."
+    quote: "The basic principles of decision making in this organization and probably any organization are: (1) avoid making any decision if at all possible; (2) if a decision has to be made, involve as many people as you can so that, if things go south, you're able to point in as many directions as possible."
+canonical-instances:
+  - "A risky product launch gets routed through six departmental sign-offs not because each department's expertise is load-bearing for the decision, but so that a failed launch has six plausible places to distribute the blame."
+critical-questions:
+  - "Is the wide involvement actually diffusing accountability without diffusing genuine judgment, or does drawing in more perspectives sometimes improve the decision as a real side effect, even when liability-spreading was the stated motive for including them?"
+status: active

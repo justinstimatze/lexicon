@@ -1,0 +1,19 @@
+id: lex-9626m
+name: running-a-scheme-does-not-protect-you-from-a-bigger-one
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Successfully deceiving someone does not grant immunity from being deceived in turn by an operator more practiced than you — and the scale of your own scheme sets the scale of your exposure when it gets turned back on you. The Panchatantra's farmer's wife runs a con on her husband to meet a lover, only to be conned herself by a sharper operator who exploits the exact cover she'd built. The crocodile's taunt in Ryder's translation delivers the reversal directly: 'You naked thing! Your cleverness is twice as great as mine, 'twould seem; lover and husband lost, you sit beside the stream' — she ends the story with less than she had before attempting the deception at all, having lost both relationships her scheme was built to protect."
+related: []
+evokes: [panchatantra, loss-of-gains, running-a-scheme-invites-a-bigger-one, deceiver-has-no-immunity-from-deception]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-the-farmers-wife
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book IV, 'The Farmer's Wife' (told by the crocodile). Verified verbatim against a direct extraction of the held copy."
+    quote: "You naked thing! Your cleverness is twice As great as mine, ’twould seem; Lover and husband lost, You sit beside the stream."
+canonical-instances:
+  - "an employee who has been quietly padding expense reports for years without consequence assumes their scheme has made them harder to deceive, and is the easiest mark in the office for a colleague running a more sophisticated skimming operation, precisely because their own comfort with deception has dulled their suspicion of it in others."
+critical-questions:
+  - "The aphorism assumes running a scheme dulls your guard against a bigger one. Having learned deception's mechanics firsthand could just as easily sharpen someone's alertness to it — which effect actually dominates?"
+  - "Is the wife's total loss (both lover and husband) a proportionate consequence of the specific scheme she ran, or does the story overstate the downside to make the moral land harder than the situation actually warrants?"
+status: active

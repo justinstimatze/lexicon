@@ -1,0 +1,19 @@
+id: lex-55bdt
+name: the-wronged-party-vetoes-a-third-partys-offer-to-punish-their-betrayer
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'When someone more powerful than you, moved by loyalty to you, offers to punish the person who wronged you, you can refuse the punishment on your own authority even though the offer is made in your name and the anger is on your behalf. The refusal has to happen before the punishment lands, since the offer is real and the powerful party is willing to act on it immediately. In the Jataka''s tale, the king discovers that the man he is honoring betrayed the golden deer who saved his life, and moves at once to execute him: "This four-winged flyer I''ll let fly, and pierce him to the heart! So let him perish, the evil-doer in his treachery, who for such kindness done no thanks did cherish!" The deer, who has every standing to want this, intervenes instead: "Shame on the fool, O king, indeed! But no good men approve a killing; let the wretch go, and give his meed, all that you promised him fulfilling: and I will serve you at your need." He does not ask for leniency because the betrayer deserves it — he asks because he does not want a killing done on his account.'
+related: [lex-yc8jv]
+evokes: [jataka, terasanipata, ruru-jataka, veto-a-proxys-punishment, mercy-not-grounded-in-desert]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-ruru-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XIII (Terasanipata), No. 482, Ruru-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: 'Shame on the fool, O king, indeed! / But no good men approve a killing; / Let the wretch go, and give his meed, / All that you promised him fulfilling: / And I will serve you at your need.'
+canonical-instances:
+  - "A founder learns that a departed employee leaked confidential product plans to a competitor, and when the board — furious on the founder's behalf — moves to pursue the maximum legal penalty available, the founder asks them to stand down and settle quietly instead, not because the leak was forgivable but because escalating the fight serves the board's anger, not the founder's actual interests."
+critical-questions:
+  - "Operationally distinct from lex-yc8jv (a victim's own pity psychologically disarms the aggressor's conscience directly): there the effect runs on the wrongdoer through the victim's private feeling; here the deer is actively overruling a THIRD PARTY who wants to punish on the victim's behalf, for reasons that have nothing to do with disarming anyone's conscience. Is the deer's stated reason (no good men approve a killing) doing real work, or is it cover for a simpler calculation — that provoking the king's temper further serves no one?"
+  - "The king grants the veto instantly and without argument. Would the mechanism hold up against a benefactor who felt more strongly that the betrayer had to be punished regardless of the victim's wishes?"
+status: active

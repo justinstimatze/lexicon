@@ -1,0 +1,22 @@
+id: lex-n4cy8
+name: ritual-competition-grants-temporary-exemption-from-a-feared-outcome
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A formal contest can be built so that its winner receives a specific, time-bounded supernatural protection, converting a feared outcome into something a single competitive achievement can ward off for a fixed period. Before the sun dance's holy tree is planted, mounted warriors gather around the circle and, at a signal, all charge inward at once toward the spot where the tree will stand: 'whoever was the first could not be killed in war that year.' The reward isn't distributed to everyone who participates or awarded for effort -- it goes to exactly one rider, decided by speed and luck in a single chaotic scramble, and it expires on a fixed calendar regardless of what that rider does afterward."
+related: []
+evokes: [black-elk-speaks, fight-with-three-stars, sun-dance, could-not-be-killed-in-war-that-year, one-winner-one-year-of-protection]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch8-fight-with-three-stars
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 8, 'The Fight with Three Stars.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "mounted warriors gathered around the circle of the village, and at a signal they all charged inward upon the center where the tree would stand, each trying to be the first to touch the sacred place; and whoever was the first could not be killed in war that year. When they all came together in the middle, it was like a battle, with the ponies rearing and screaming in a big dust and the men shouting and wrestling and trying to throw each other off the horses."
+canonical-instances:
+  - "A trading firm holds an annual competition where the top performer gets a guaranteed bonus floor for the coming year regardless of how the market moves, converting a single competitive win into a bounded period of protection from an otherwise-shared risk."
+  - "A fraternal organization holds a yearly contest where the winner is exempted from a feared, randomly assigned duty for the following twelve months, with the exemption expiring automatically on the anniversary of the contest."
+  - "An insurance cooperative grants one member a year of waived premiums based on winning an annual safety-record raffle, temporarily lifting a shared burden for exactly one person on a fixed clock."
+critical-questions:
+  - "Does the exemption's fixed, calendar-bound expiration actually matter for how the winner behaves during that year, or does the psychological effect of having won outlast the technical protection whether or not anyone still believes the protection is literally in force?"
+  - "Since only one rider out of the whole charging crowd wins, what happens to everyone else's fear of death in battle that year -- does a single winner's exemption do anything for the group's morale as a whole, or does it just redistribute the fear onto everyone who didn't win?"
+  - "Is the contest actually decided by skill, or is it closer to a lottery given how chaotic a mass charge toward one small spot would be -- and does it matter to the participants which one it is?"
+status: active

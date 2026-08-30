@@ -1,0 +1,19 @@
+id: lex-u7wyz
+name: gratitude-goes-untested-until-the-beneficiary-is-asked-to-reciprocate
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A relationship built on past generosity can look completely secure until the giver actually needs something back, at which point the beneficiary's real disposition — grateful or not — finally becomes visible for the first time. In the Jataka's tale of the ruined benefactor, a man who once gave half his entire fortune to a destitute friend later falls into poverty himself and turns to that same friend for help, only to be turned away with a token handful of bran. The friendship had never actually been tested by anything harder than receiving; the moment it required giving something back, its real character showed itself, unrelated to how warm or reliable it had appeared the whole time it cost nothing to maintain."
+related: []
+evokes: [jataka, ekanipata, asampadana-jataka, gratitude-untested-until-reciprocation-is-required, a-relationships-real-character-shows-under-cost]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-asampadana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 131, Asampadana-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"There's no room here for you. Take a dole of rice, find somewhere to cook and eat it, and then begone and never come to visit me again.\""
+canonical-instances:
+  - "A founder who once gave a struggling friend free office space and introductions to early investors later asks that same friend, now successful, for a small bridge loan during a rough quarter, and discovers for the first time that the friendship never had any capacity to give back at all."
+critical-questions:
+  - "Is there a way to learn whether a relationship would hold up under a reciprocation demand before actually needing to make one, or does this kind of test only ever reveal its answer at the exact moment it's too late to plan around a bad outcome?"
+  - "Does the friend's refusal here reflect a permanent character trait, or could genuine hardship on the friend's own side explain the response without it being simple ingratitude?"
+status: active

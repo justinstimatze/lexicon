@@ -1,0 +1,19 @@
+id: lex-5m359
+name: a-coincidental-reward-gets-misattributed-to-the-immediately-preceding-act
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a reward arrives right after a specific action, check whether the timing is coincidental before crediting that action as the cause. In Aesop's 'The Man and the Image,' a man who has long honored a statue smashes it in frustration and finds gold hidden inside; he credits the violence, not the years of devotion: 'O you old fraud, you! When I honoured you, you did me no good whatever: but no sooner do I treat you to insults and violence than you make a rich man of me!' The gold was there the entire time, unrelated to either the devotion or the smashing — the man performs a double misattribution, first believing devotion should have caused a payout, then believing violence actually did, when neither action had any causal connection to the coincidental discovery."
+related: []
+evokes: [aesop, the-man-and-the-image, misattributed-coincidental-reward, superstition-formation]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-man-and-the-image
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Man and the Image.' Verified verbatim against a direct extraction of the held copy."
+    quote: "O you old fraud, you! When I honoured you, you did me no good whatever: but no sooner do I treat you to insults and violence than you make a rich man of me!"
+canonical-instances:
+  - "a gambler who happens to hit a jackpot right after slapping the slot machine in frustration thereafter ritually slaps every machine before pulling the lever — a superstition formed from a single coincidental payout, structurally identical to accidental operant reinforcement."
+critical-questions:
+  - "Would the man have drawn any causal conclusion at all if he had simply found the gold without either devoting himself first or smashing the statue afterward, or does misattribution specifically require some preceding action to hang the credit on?"
+  - "How many repetitions of an uncaused outcome does it take before a superstition like this one becomes resistant to correction, even after the person discovers the true, unrelated cause?"
+status: active

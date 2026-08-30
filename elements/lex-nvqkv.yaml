@@ -1,0 +1,21 @@
+id: lex-nvqkv
+name: false-alarms-spend-down-the-response-youll-need-for-the-real-one
+type-in: process
+type-out: warning
+_tier: atomic
+agent-instruction: "Every false alarm you raise doesn't just fail to help -- it withdraws directly from a finite account of trust that determines whether anyone responds to your next one, and that account can hit zero exactly when the real threat finally arrives. In Eastman's telling, Unktomee, having talked his way into a herd of Elk and been made their chief, twice cries a false alarm out of carelessness -- 'Fly! fly! I am struck by an arrow!' when it was only a falling stick, then again when it was only a falling acorn. Each time, the herd's response measurably degrades: the first time they simply flee; the second time they're 'still more displeased' but still respond; by the third time, when they've actually scented a real hunter, they don't warn Unktomee at all -- 'the Elks stole away from Unktomee and left him sleeping,' and he alone is found and shot. The herd's abandonment isn't cruelty or an overreaction to two harmless mistakes -- it's the direct, proportionate result of a trust account that had already been spent down to nothing by the time the real danger showed up needing exactly the response that had already been withdrawn twice for nothing. Diagnostic move: before raising an alarm, escalation, or warning you're not fully certain about, remember that the cost isn't limited to this one instance being wrong -- it's a withdrawal from the same finite reserve of credibility your next, possibly genuine, alarm will need to draw on, and a reserve spent on false positives isn't available when the real one comes."
+related: []
+evokes: [each-false-alarm-spends-trust-the-real-one-will-need, eastman-unktomee-and-the-elk, credibility-is-a-finite-account-not-a-renewable-resource, abandoned-precisely-when-the-real-threat-arrives]
+lineage:
+  - source: primary
+    text: eastman-unktomee-elk-false-alarms-spend-trust
+    citation: "Charles A. Eastman (Ohiyesa) and Elaine Goodale Eastman, Wigwam Evenings: Sioux Folk Tales Retold (Little, Brown, 1909), 'Tenth Evening: Unktomee and the Elk.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'Fly! fly! I am struck by an arrow!' But when no hunter appeared, they were provoked... 'Unktomee is deceiving us; it was only a stick that fell from the tree!' ... a second time the Elks were aroused in vain. They were still more displeased... A third time they lay down, but this time the Elks stole away from Unktomee and left him sleeping, for they had scented the hunter. When the hunter came, therefore, he found only the chief Elk still sleeping, and he let fly an arrow and wounded him severely."
+canonical-instances:
+  - "An on-call engineer pages the whole team twice for issues that turn out to be non-critical monitoring glitches, and when a genuine production outage hits a week later, colleagues assume it's another false alarm and respond slowly, having already spent their willingness to drop everything on the two prior pages that turned out to be nothing."
+  - "A community activist group cries emergency over two situations that turn out to be overstated, and when a genuinely urgent issue arises later, local media and supporters treat the new alarm with the same skepticism earned by the previous two, responding too slowly to matter."
+critical-questions:
+  - "how does someone actually know, in the moment of an uncertain threat, whether raising the alarm is worth the risk of spending trust on a possible false positive -- is there a way to calibrate this in advance, or is the cost only ever visible in hindsight?"
+  - "is the herd's decision to abandon Unktomee entirely, rather than simply responding more skeptically or slowly, actually the right response to two false alarms -- does this framework risk justifying total abandonment as proportionate when a middle-ground response might have saved him without costing the herd anything?"
+  - "does this pattern hold the same way when the false alarms are made in good faith (genuine but mistaken caution) versus when they're careless or manipulative, as Unktomee's specifically were -- should the response calibrate differently based on why the credibility was spent, not just that it was?"
+status: active

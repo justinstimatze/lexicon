@@ -1,0 +1,18 @@
+id: lex-krq7b
+name: self-sacrifice-is-reasoned-by-minimizing-harm-to-dependents-not-oneself
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'An agent facing certain personal destruction and given some latitude in how it happens doesn''t reason about which mode of destruction hurts least for themselves — they reason about which mode does least damage to everyone whose wellbeing depends on them, treating their own suffering as the variable that matters least in the decision. The distinguishing move is explicit: the agent states outright that their own pain isn''t what''s driving the choice, so a listener who assumes self-interested motives will misread the request until the dependents are named. In the Bhadda-sala-Jataka''s companion tale, a tree-spirit facing the felling of his tree by royal builders reasons not about which method of cutting hurts him least, but that ''my own destruction does not touch me so near as the destruction of my children'' — the many kindred spirits who dwell in the surrounding saplings — and acts to protect them rather than himself.'
+related: []
+evokes: [jataka, dvadasanipata, samudda-vanijja-jataka, self-sacrifice-reasoned-by-dependents-harm, own-suffering-explicitly-deprioritized]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-samudda-vanijja-jataka
+    citation: 'The Jataka, or Stories of the Buddha''s Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XII (Dvadasanipata), No. 466, Samudda-vanijja-jataka. Verified verbatim against a direct extraction of the held copy.'
+    quote: 'My own destruction does not touch me SO near as the destruction of my children: therefore I must protect their lives.'
+canonical-instances:
+  - 'A small-business owner facing certain bankruptcy chooses the liquidation path that pays out his part-time staff''s final wages in full rather than the path that would let him personally keep a larger severance, reasoning explicitly that his own financial hit matters less than what his employees, several of whom have no other income, stand to lose.'
+critical-questions:
+  - 'Does explicitly naming dependents as the reason actually change what the agent does, or would the same choice (protect the more vulnerable party) have been made anyway, with the stated reasoning serving mainly to make an otherwise self-interested-looking request legible as altruistic?'
+status: active

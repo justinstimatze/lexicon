@@ -1,0 +1,20 @@
+id: lex-8ww9q
+name: reframing-each-concession-as-generosity-ratchets-toward-exclusivity
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A shared-by-default resource can be narrowed all the way down to a single exclusive recipient without anyone ever having to argue for exclusivity directly, if each successive narrowing is framed as generosity relative to the step just before it. In the Jataka's tale of Illisa's wife, once the miser admits his craving for a cake, she proposes cooking for the whole town, then just their street, then just the household, then just the children, then just the two of them, then just him alone — and at every step, an objection reframes the smaller offer as still magnanimous compared to what came right before it. The final outcome, one man's private cake, is never argued for on its own merits; it's reached one small, locally-reasonable step at a time."
+related: []
+evokes: [jataka, ekanipata, illisa-jataka, incremental-reframing-narrows-a-shared-good-to-one, each-step-justified-only-against-the-last]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-illisa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 78, Illisa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"I'll cook cakes enough to feast the whole town of Jagghery.\" \"Why trouble about them? They must work to earn their own meal.\" \"Well then, I'll cook only enough for our street.\" \"How rich you are!\" \"Then, I'll cook just enough for our own household.\" \"How extravagant you are!\" \"Very good, I'll cook only enough for our children.\" \"Why bother about them?\" \"Very good then, I'll only provide for our two selves.\" \"Why should you be in it?\" \"Then, I'll cook just enough for you alone,\" said the wife."
+canonical-instances:
+  - "A budget proposal to fund an entire department's training program gets whittled down, one meeting at a time, first to just one team, then to just the managers on that team, then to just the director, with each reduction praised as fiscally responsible relative to the version before it, until the training budget exists for one person."
+  - "In a companion telling of the same miser-cycle (Book XXI, Asitinipata, No. 535, Sudhabhojana-jataka), the miser Kosiya's wife runs the identical narrowing sequence over a bowl of rice porridge — the whole city, then their street, then seven households, then the household's attendants, then their kinsfolk, then just the two of them — until Kosiya rejects even her: 'And pray who are you? It is not allowable in your case.'"
+critical-questions:
+  - "Would the final outcome look obviously indefensible if it had been proposed outright as the opening offer, and if so, is the incremental framing doing the actual persuasive work, or would people have accepted the same endpoint either way?"
+  - "Who benefits from a narrowing like this being reached gradually rather than argued for directly — does the person who ends up with the exclusive benefit need to orchestrate the steps, or can this happen without anyone intending the final outcome from the start?"
+status: active

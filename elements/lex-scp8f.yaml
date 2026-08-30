@@ -1,0 +1,18 @@
+id: lex-scp8f
+name: paying-the-price-of-a-bargain-while-arranging-to-hear-none-of-its-terms
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'An agent facing a costly-sounding condition on a reward can satisfy the condition''s outward form while privately arranging never to encounter its actual content, collecting the reward with the letter fulfilled and the substance untouched. In the Jataka''s tale of Mittavindaka, a son agrees to attend an all-night sermon for a promised sum, then deliberately sleeps through it: "For desire of this money the son consented. As soon as he had broken his fast he went to the cloister, and there he spent the day; but at night to the end that not one word of the Law should reach his ear he lay down in a certain place, and fell asleep." He then still demands payment before performing even the token gesture of drinking the promised gruel: "''You promised me a thousand pieces, mother,'' he says, ''first give this to me, and afterward I will drink.''"'
+related: []
+evokes: [jataka, dasanipata, catu-dvara-jataka, mittavindaka, malicious-compliance, letter-vs-spirit]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-catu-dvara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 439, Catu-dvara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "For desire of this money the son consented. As soon as he had broken his fast he went to the cloister, and there he spent the day; but at night to the end that not one word of the Law should reach his ear he lay down in a certain place, and fell asleep."
+canonical-instances:
+  - "A new hire agrees to \"shadow the safety team for a week\" as a condition of a signing bonus, shows up each day, and spends the week answering email in the back of the room, collecting the bonus having technically attended without absorbing a single briefing."
+critical-questions:
+  - "Is there a way to distinguish, from the outside, someone who technically satisfied a condition in bad faith from someone who genuinely tried and simply failed to absorb what was offered?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-vxvze
+name: unchanged-affection-becomes-dangerous-once-one-partys-power-grows
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A behavior that was genuinely safe and welcome earlier in a relationship can become dangerous later purely because one party's physical or positional power has grown, even though neither the behavior nor the affection behind it has changed at all. In the Jataka's tale of the iguana and the chameleon, a small iguana's crushing embraces are perfectly tolerable to his chameleon friend while the iguana is young — the same embraces become life-threatening once the iguana grows to full size, with nothing in the gesture itself having changed. Rather than confront his friend directly about the new danger, the chameleon secretly guides a hunter to destroy the entire iguana colony, escalating a private, unaddressed problem into a wholesale betrayal that a single honest conversation about a changed dynamic might have avoided entirely."
+related: []
+evokes: [jataka, ekanipata, godha-jataka, growing-power-changes-the-valence-of-unchanged-behavior, unaddressed-danger-escalates-into-disproportionate-betrayal]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-godha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 141, Godha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "as these mountainous embraces of the young giant grew painful indeed, the chameleon foresaw that they would be the death of him if they went on a few days longer, and he resolved to combine with a hunter to destroy the whole tribe of iguanas."
+canonical-instances:
+  - "A junior colleague's blunt, joking feedback style was harmless when they had no authority over anyone, but becomes genuinely damaging once they're promoted into a role where the same unfiltered comments now carry real consequences for the people receiving them, and no one flags the shift until it causes serious harm."
+critical-questions:
+  - "Would naming the changed dynamic directly, rather than resorting to a hidden and disproportionate betrayal, have actually worked here, given how much the chameleon apparently feared confronting a much larger, once-trusted friend?"
+  - "How can a relationship build in a mechanism for renegotiating what's safe as power shifts between two parties, before the imbalance grows severe enough that the weaker party feels their only option is covert retaliation?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-d2jqm
+name: a-rare-comprehension-opens-an-intelligence-channel-others-cant-perceive
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A learned ability others don''t share can let a person overhear a plan being discussed by parties who believe themselves unheard by anyone, giving privileged intelligence unavailable through ordinary means. In the Jataka''s tale of Parantapa, the king''s understanding of animal speech lets him overhear exactly this kind of plot: "Do not make a noise, dears: there is a man in that chamber who has taken his shoes off and laid them on the floor: he is lying on a plank, but is not asleep yet: when he falls asleep, I will take his shoes and give you food."'
+related: [lex-a3gxc]
+evokes: [jataka, sattanipata, parantapa-jataka, privileged-intelligence-channel, understanding-what-others-assume-goes-unheard]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-parantapa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 416, Parantapa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Do not make a noise, dears: there is a man in that chamber who has taken his shoes off and laid them on the floor: he is lying on a plank, but is not asleep yet: when he falls asleep, I will take his shoes and give you food."
+canonical-instances:
+  - "A manager who happens to understand the technical jargon two contractors are casually using in the hallway realizes they're discussing a scheme to overbill the project, intelligence neither contractor would ever have shared knowing she could follow it."
+critical-questions:
+  - "Does having this kind of privileged channel create an obligation to act on what's overheard, or is silence sometimes the more defensible choice?"
+  - "How would the overhearing party's rare ability itself be verified by anyone else, given that its whole value depends on the source remaining unknown to those being overheard?"
+status: active

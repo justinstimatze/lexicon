@@ -1,0 +1,18 @@
+id: lex-u9waw
+name: corrupting-through-a-chain-of-intermediaries
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A party who wants a corrupt outcome does not approach the target directly — a councillor or dispatched agent presents the request as coming from someone else''s interest, insulating the true beneficiary from the target''s suspicion or refusal, with each link in the chain carrying plausible deniability. In the Jataka''s tale of Lomasakassapa, Sakka manipulates the king, who dispatches a councillor to approach the ascetic in the king''s name: "Next day the king summoned a councillor named Sayha and said, "Good sir, go to my dear friend Lomasakassapa and in my name speak thus to him: "The king by persuading you to offer a sacrifice will become sole ruler in all India, and he will grant you as much land as you desire: come with me to offer sacrifice."'
+related: []
+evokes: [jataka, navanipata, lomasakassapa-jataka, cutout-intermediary, power-behind-the-throne]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-lomasakassapa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 433, Lomasakassapa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Next day the king summoned a councillor named Sayha and said, \"Good sir, go to my dear friend Lomasakassapa and in my name speak thus to him: \"The king by persuading you to offer a sacrifice will become sole ruler in all India, and he will grant you as much land as you desire: come with me to offer sacrifice.\""
+canonical-instances:
+  - "A lobbyist never contacts the regulator directly; instead a mid-level agency staffer relays the same request framed as their own idea, so the regulator never has to weigh the lobbyist's actual interest against the ask."
+critical-questions:
+  - "Does the chain of intermediaries actually protect the true beneficiary from consequences, or does it only delay discovery of whose interest was really being served?"
+status: active

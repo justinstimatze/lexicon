@@ -1,0 +1,20 @@
+id: lex-w8ndc
+name: manufactured-abundance-defeats-a-deprivation-strategy
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When an adversary tries to force surrender by cutting off a specific resource, don''t just endure the shortage in secret — manufacture visible, undeniable evidence that the resource is still abundant, so the deprivation strategy looks pointless and the adversary abandons it before it can actually bite. In the Maha-Ummagga-Jataka, Culani-Brahmadatta besieges Mithila and cuts off its water, hoping thirst will force the gates open. Mahosadha secretly force-grows a giant lily overnight using smuggled seed and a hidden bamboo frame, then has his men throw the flower over the wall at the enemy: "Ho servants of Brahmadatta! don''t starve for want of food. Here you are, wear the flower and fill your bellies with the stalk!" Convinced the city has water to spare, Brahmadatta gives up cutting the water — and Mahosadha repeats the same trick with rice and then firewood when each new deprivation plan is tried.'
+related: []
+evokes: [jataka, mahanipata, maha-ummagga-jataka, manufactured-abundance, siege-deception, defeating-deprivation]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-maha-ummagga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 546, Maha-Ummagga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: 'Ho servants of Brahmadatta! don''t starve for want of food. Here you are, wear the flower and fill your bellies with the stalk!'
+canonical-instances:
+  - "A startup facing a hostile competitor spreading rumors of an imminent cash crunch, intended to scare off customers and vendors, responds by conspicuously announcing a large (real but modest) new funding round and publicly paying every outstanding vendor invoice early, so the scarcity narrative collapses before it can trigger a real run."
+  - "A besieged medieval garrison, running low on grain, is said to have thrown its last loaves of bread over the wall at the besieging army to signal it had food to spare, convincing the attackers a starvation siege would take too long to be worth continuing."
+critical-questions:
+  - "This only buys time — the underlying scarcity is real even if hidden, so what happens if the adversary doesn't fully believe the display and simply waits the deception out instead of abandoning the strategy?"
+  - "Manufacturing convincing evidence of abundance usually costs real resources or effort in its own right — at what point does the cost of maintaining the deception exceed the cost of the shortage it's meant to hide?"
+status: active

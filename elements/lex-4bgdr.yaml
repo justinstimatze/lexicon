@@ -1,0 +1,24 @@
+id: lex-4bgdr
+name: a-need-can-be-met-by-more-than-one-structure
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Don't treat a currently-existing institution as the only possible way its underlying need could be met — that assumption (Merton's 'postulate of indispensability') is usually smuggled in rather than demonstrated. The same function that one structure currently serves can typically be fulfilled by an alternative structure instead: 'just as the same item may have multiple functions, so may the same function be diversely fulfilled by alternative items.' A functional need is permissive of a structure, not determinant of it — it rules out arrangements that couldn't meet the need at all, but leaves a real range of alternative arrangements that could. Before defending an existing institution as necessary because it currently serves a real purpose, ask what OTHER structures could plausibly serve the same purpose — the concept Merton names for this is 'functional alternatives,' also called functional equivalents or functional substitutes."
+related: [lex-2vvck, lex-3zfwb, lex-aeg2j]
+evokes: [postulate-of-indispensability, functional-alternatives, functional-equivalents, functional-substitutes, merton-1957, needs-are-permissive-not-determinant]
+lineage:
+  - source: primary
+    text: merton-1957-alternative-structures-serve-same-function
+    citation: "Robert K. Merton, Social Theory and Social Structure, Revised and Enlarged Edition (Glencoe, IL: Free Press, 1957), Ch. I 'Manifest and Latent Functions,' pp.33-34, critiquing the 'postulate of indispensability.' Verified verbatim against a University of Iowa library scan via Internet Archive OCR text (item 31858016281432)."
+    quote: "'It diverts attention from the fact that alternative social structures (and cultural forms) have served, under conditions to be examined, the functions necessary for the persistence of groups. Proceeding further, we must set forth a major theorem of functional analysis; just as the same item may have multiple functions, so may the same function be diversely fulfilled by alternative items. Functional needs are here taken to be permissive, rather than determinant, of specific social structures.'"
+  - source: primary
+    text: merton-1957-named-concept-functional-alternatives
+    citation: "Robert K. Merton, Social Theory and Social Structure (1957), same chapter and page, immediately following."
+    quote: "'In contrast to this implied concept of indispensable cultural forms (institutions, standardized practices, belief-systems, etc.), there is, then, the concept of functional alternatives, or functional equivalents, or functional substitutes.'"
+canonical-instances:
+  - "Employer-provided health insurance currently serves the function of financing medical care in the United States, but single-payer systems, private individual-market insurance, and health savings accounts each demonstrably meet the same underlying need in other countries or contexts — the need for financed medical care doesn't determine which of these structures fills it."
+  - "A company defending its expensive in-person annual conference as essential to 'company culture' should be asked what functional alternatives (a smaller regional gathering, an online community, quarterly team retreats) might serve the same underlying need for shared identity at lower cost — the need for cohesion doesn't specify that particular event as the only way to meet it."
+critical-questions:
+  - "How do you find the true boundary of what counts as a 'functional alternative' rather than a different function entirely — church attendance and a secular civic club might both serve a need for community belonging, but they serve very different additional functions besides that one, so is substitutability partial or complete?"
+  - "Does the mere theoretical existence of an alternative mean the switching cost is negligible? Merton's own qualifier is that needs are 'permissive, rather than determinant' — an alternative structure being possible in principle doesn't mean the transition from the current structure to it is cheap, safe, or politically achievable in a given case."
+status: active

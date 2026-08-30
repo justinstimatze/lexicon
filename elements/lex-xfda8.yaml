@@ -1,0 +1,25 @@
+id: lex-xfda8
+name: optimize-only-when-amortized-savings-exceed-the-optimization-cost
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When proposing to optimize a hot path, surface Knuth's rule — premature optimization is the root of evil; optimize only when amortized savings (over expected lifetime) exceed the optimization cost; otherwise leave the simple version."
+related: [lex-xcaqj, lex-j929z, lex-mnjrw, lex-jey4w]
+evokes: [xkcd-1205-is-it-worth-the-time, time-saved-vs-time-spent, frequency-times-savings, dont-optimize-the-one-off, the-automation-break-even-table]
+lineage:
+  - source: primary
+    text: xkcd-1205-is-it-worth-the-time
+    citation: "Randall Munroe, xkcd #1205 'Is It Worth the Time?' (2013-04-29), with the explainxkcd.com community explanation. Refs-grounded froml 2026-05-28. The comic is a table: how much time you may spend optimizing or automating a task before the optimization costs more than the total time it will ever save, as a function of how often you do the task and how much time each instance saves. The substrate-claim: the payoff of a one-time investment to make a recurring task cheaper is the per-instance saving multiplied by the number of future instances; invest in the optimization only when that amortized total exceeds the up-front cost. Internal double-quotes rendered as single-quotes for YAML"
+    quote: "How long can you work on making a routine task more efficient before you're spending more time than you save? [...] (across five years) [The comic's framing question; the transcript puts wiki markup between the two halves.] [Worked example, explainxkcd: a task done weekly where you save 1 minute each time recurs 260 times over five years = 260 minutes ~ 4.3 hours saved, so up to ~4 hours of one-time optimization breaks even.] Title text: 'Don't forget the time you spend finding the chart to look up what you save.' [elides two sentences on the meta-cost of reading and evaluating this very reminder.] 'Remember, every second counts toward your life total, including these right now.' [The recursive joke — the meta-cost of deciding whether to optimize is itself a cost.]"
+canonical-instances:
+  - "the algebra the comic encodes: total time saved over the horizon = frequency-per-period x periods x time-saved-per-instance; optimize/automate iff that product exceeds the one-time cost to build the optimization. A rare task (low frequency) or a tiny per-instance saving rarely justifies more than minutes of tooling, however satisfying the automation feels"
+  - "the programmer's standing temptation it diagnoses: engineers habitually optimize tasks they expect to repeat, but the optimization effort frequently exceeds the lifetime savings — the comic is the back-of-envelope check against that bias. explainxkcd links it directly to 974 'The General Problem' (over-generalizing a specific task)"
+  - "shaving-the-yak / premature automation: writing a script to avoid a 30-second manual task you do twice a year is a net loss even though it feels like progress; the table makes the loss legible"
+  - "operationally complementary to lex-xcaqj generalization-then-instantiation: lex-xcaqj (Polya's Inventor's Paradox) is the case where investing in the MORE-general solution pays off because the extra structure makes the problem easier; lex-xfda8 is the cost-discipline that bounds it — generalize or optimize only when the amortized payoff clears the investment. lex-xcaqj says when the bigger move helps; lex-xfda8 says when it is not worth making"
+  - "operationally adjacent to lex-j929z processing-effort-as-relevance-cost: both treat effort as a quantity to be economized against expected return; lex-j929z is the in-the-moment cognitive cost of processing for relevance, lex-xfda8 is the explicit amortized-time calculus for deciding whether to invest in a reusable efficiency"
+critical-questions:
+  - "the frequency-times-horizon estimate: how often will this task actually recur, and over what horizon will the optimization remain valid? Both are routinely overestimated — tasks get retired, tools change, requirements move — so the realistic future-instance count is usually smaller than it feels"
+  - "the per-instance saving (net of new overhead): how much time does the optimization actually save EACH time, after subtracting any overhead it introduces (e.g. maintaining the script)? Small net per-instance savings rarely amortize"
+  - "the hidden costs the title-text names: the cost of deciding whether to optimize, of finding/learning the tool, and of maintaining it are themselves part of the investment side; a thorough accounting often tips a marginal case to 'not worth it'"
+  - "the non-time-payoffs caveat: the chart values only time. Sometimes optimization is justified by error-reduction, reduced drudgery/morale, capability that did not exist before, or learning value — the amortized-time rule is necessary for the time dimension but not sufficient when other values dominate"
+status: active

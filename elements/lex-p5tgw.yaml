@@ -1,0 +1,19 @@
+id: lex-p5tgw
+name: sole-novelty-captures-maximal-prestige-in-the-absence-of-comparison
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "An ordinary item can capture maximal prestige purely from being the only example of its kind present, with no genuine merit required — what inflates the value is the absence of anything to compare it against. In the Jataka's tale of the crow in Baveru, a common crow, brought to a land with no native birds at all, is prized and lavishly kept for being the sole novelty: 'At this time, it is said, there were no birds in Baveru.' 'In a place where no other birds existed, a crow endowed with ten evil qualities attained the highest gain and glory.'"
+related: []
+evokes: [jataka, catukkanipata, baveru-jataka, absence-of-comparison-inflates-an-ordinary-things-value, being-the-sole-example-substitutes-for-actual-merit]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-baveru-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 339, Baveru-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "In a place where no other birds existed, a crow endowed with ten evil qualities attained the highest gain and glory."
+canonical-instances:
+  - "The first mediocre coffee shop to open in a small, isolated town becomes the most talked-about business in the region purely for being the only option — its coffee is unremarkable, but with nothing local to compare it against, it's treated as exceptional."
+critical-questions:
+  - "Does this only work in genuinely isolated conditions, or would the crow's prestige have collapsed the instant even a single mediocre bird — not necessarily a superior one — was introduced for comparison?"
+  - "Is there a cost to the natives here beyond the eventual embarrassment of having overvalued something ordinary — did the crow's inflated status actually harm them in some material way during the period they believed in it?"
+status: active

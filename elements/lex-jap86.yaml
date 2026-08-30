@@ -1,0 +1,20 @@
+id: lex-jap86
+name: an-and-in-a-definition-silently-excludes-asymmetric-cases
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "A definition built on a logical AND between two conditions looks more rigorous than one built on OR -- it demands mutual, reciprocal satisfaction rather than settling for either. But the added conjunction has a real cost: it silently excludes every case where the relationship runs in only one direction. Freeman notes that Rhenman's stakeholder definition -- a group the firm depends on AND that depends on the firm -- rules out government and adversarial groups, who can plainly affect a firm without the firm affecting them back in any comparable way. Freeman's own footnote states the fix directly: swap the AND for an OR and the definition recovers the asymmetric cases. Before adopting a definition that requires both conditions to hold, check what real cases satisfy only one condition -- if those cases matter, the AND is quietly deciding they don't count, dressed up as rigor rather than declared as a choice."
+related: []
+evokes: [freeman-1984-strategic-management, chapter-2, rhenman-stakeholder-definition, and-versus-or, mutual-dependency-definition]
+lineage:
+  - source: primary
+    text: freeman-1984-strategic-management-ch2
+    citation: "R. Edward Freeman, Strategic Management: A Stakeholder Approach (Pitman, 1984), Chapter 2 'The Stakeholder Concept and Strategic Management,' section 'The Organization Theory Literature' and footnote 17."
+    quote: "Rhenman goes on to argue that a 'stakeholders' conception of the firm can lead to a theory of industrial democracy. [...] His narrow construal of the concept using 'and' to denote the fact that the company and stakeholder must have mutual claims could rule out important groups, most notably government and adversarial groups, who are dependent on the firm, but on whom the firm does not depend. [...] If we replace 'and' with 'or' in Rhenman's definition we get a concept similar to the one developed throughout this monograph."
+canonical-instances:
+  - "A vendor-qualification policy requires that a supplier both depend on the company for a majority of its revenue AND that the company depend on the supplier for a critical input -- a rule meant to screen for genuine mutual commitment that quietly excludes a small, easily-replaced supplier who depends heavily on the contract even though the company doesn't depend on them back, leaving that supplier's real vulnerability invisible to the policy."
+  - "A conflict-of-interest rule flags a relationship only when both parties stand to gain financially from the outcome, missing every case where only one party has a financial stake and the other has influence over the decision without a matching stake of their own -- exactly the asymmetric case conflict-of-interest rules exist to catch."
+critical-questions:
+  - "Is the AND-based definition ever the correct choice -- are there real situations where only the mutual, reciprocal cases should count, and widening to OR would sweep in noise that genuinely doesn't belong in the category?"
+  - "How do you catch this kind of silent exclusion before it causes harm, given that a definition using AND looks identical in form to a well-reasoned, deliberately narrow one -- is there a way to audit a definition's boolean structure against the cases it's meant to cover before relying on it?"
+status: active

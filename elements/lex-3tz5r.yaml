@@ -1,0 +1,19 @@
+id: lex-3tz5r
+name: overriding-a-calibrated-warning-via-overconfidence-in-strength
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When an agent with unusual capability treats a limit set by an experienced elder as advisory rather than binding, the failure is not lack of information — the warning is exactly calibrated to a danger invisible from inside the agent''s own frame of reference, and competence at the visible parts of a task breeds complacency about invisible tail risk. In the Jataka''s tale of Gijjha, a vulture king''s father sets a flight boundary against a wind zone that only manifests past a certain point, and the young vulture, capable and strong, discounts the received limit rather than the risk: "My son, you must not go beyond such and sucha point." He said, "Very good," but one day when it rained, he flew up with the other vultures, and leaving the rest behind, and going beyond the prescribed limit, he came within the range of the Veramba wind, and was blown into atoms.'
+related: []
+evokes: [jataka, navanipata, gijjha-jataka, icarus, overconfidence-in-competence, invisible-tail-risk]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-gijjha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 427, Gijjha-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"My son, you must not go beyond such and sucha point.\" He said, \"Very good,\" but one day when it rained, he flew up with the other vultures, and leaving the rest behind, and going beyond the prescribed limit, he came within the range of the Veramba wind, and was blown into atoms."
+canonical-instances:
+  - "A star trader with a flawless track record ignores the risk desk's position-size limit, reasoning that the cap was written for traders less skilled than herself; the limit was never about skill, it was calibrated to a liquidity crunch invisible from inside any single winning streak."
+critical-questions:
+  - "Does discounting a general-purpose limit ever make sense for a genuinely exceptional agent, or is the danger always invisible from the inside regardless of skill?"
+  - "The elder's warning came from experience, not authority alone. What would it take for a warning like this to be wrong rather than merely unheeded?"
+status: active

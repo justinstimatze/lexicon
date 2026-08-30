@@ -1,0 +1,19 @@
+id: lex-bgm8c
+name: a-planted-signal-turns-a-targets-own-overconfidence-into-the-vulnerability
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A fabricated signal can manipulate a target into unknowingly enabling their own exploitation, and the mechanism completes itself when a second party's overconfidence in that same signal becomes the actual point of failure. In the Panchatantra, a wife's lover disguises his voice as a goddess and tells the wife's husband that feeding him butter-cakes will cause him to go blind; the husband complies, believing he is following divine instruction rather than being deliberately incapacitated. Once the lover appears blinded, his own overconfidence in the fabricated signal — 'the Brahman has gone blind. What can he do to me?' — becomes the exact vulnerability that leads to his exposure, since he stops guarding against a threat he wrongly believes has already been neutralized."
+related: []
+evokes: [panchatantra, crows-and-owls, planted-signal-manipulates-target-into-self-sabotage, overconfidence-in-a-fabricated-signal-is-the-real-vulnerability]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-the-butter-blinded-brahman
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book III, nested inside 'The Frogs That Rode Snakeback' (the butter-blinded Brahman). Verified verbatim against a direct extraction of the held copy."
+    quote: "Then the Brahman behind the goddess’ back spoke, disguising his natural tone: “If you never stop giving him such food as butter and butter-cakes, then he will presently go blind.”"
+canonical-instances:
+  - "a fraudster convinces a company's finance team, through a spoofed executive email, to disable a specific fraud-detection control 'temporarily for an audit,' and once the control is down, the fraudster's own belief that the coast is now clear leads them to move funds through a channel that's actually still being monitored by a separate, undisclosed system."
+critical-questions:
+  - "Is the husband's compliance in this fable a special case — obedience to a perceived divine command — or does the mechanism generalize to any authoritative-seeming instruction a target has no independent way to verify?"
+  - "Does the scheme's ultimate exposure depend specifically on the lover's overconfidence, or would the fraud have succeeded indefinitely if he had simply maintained ordinary caution instead of assuming the fabricated signal had permanently neutralized the threat?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-m5v4w
+name: self-discovered-fake-intelligence-carries-a-credibility-premium
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When trying to deceive a target with fabricated intelligence, check whether routing it through the target's own collection process — so they believe they discovered it themselves — earns more trust than delivering it to them directly. The 36 Stratagems' 'Let the enemy's own spy sow discord in the enemy camp' names the broader goal, causing internal discord that compromises an enemy's ability to fight, but the sharper mechanism sits in how the fabricated material is delivered: information a target believes it uncovered through its own effort carries a credibility that the same information handed over directly never earns, because self-sourced evidence bypasses the skepticism a target automatically applies to anything given to them."
+related: []
+evokes: [36-stratagems, enemys-own-spy-sows-discord, self-discovered-evidence-credibility-bias, fabricated-intelligence]
+lineage:
+  - source: primary
+    text: taylor-2013-36-stratagems-33-enemys-own-spy
+    citation: "Peter Taylor, The Thirty-Six Stratagems: A Modern-Day Interpretation of a Strategy Classic (Infinite Ideas, 2013), Stratagem 33, 'Let the enemy's own spy sow discord in the enemy camp.' Verified verbatim against a direct pdftotext extraction of the held copy."
+    quote: "Undermine your enemy's ability to fight by secretly causing discord between him and his friends, allies, advisors, family, commanders, soldiers and population. While he is preoccupied settling internal disputes, his ability to attack or defend, is compromised."
+canonical-instances:
+  - "Operation Mincemeat (1943): British intelligence planted fabricated invasion documents on a corpse specifically for German intelligence to discover on their own. A direct channel delivering the identical false documents would have earned nowhere near the same credibility."
+critical-questions:
+  - "How does an actor engineer a target's own collection process to surface planted material without the staging itself becoming detectable — does the technique require unusual access to that process, or can it work through cruder means (planted rumors, leaked documents)?"
+  - "Once a target has been burned by discovering they were fed self-sourced disinformation, does the credibility premium of self-discovered evidence survive, or does the target begin distrusting their own collection process going forward?"
+status: active

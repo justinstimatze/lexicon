@@ -1,0 +1,19 @@
+id: lex-fpsjw
+name: reframing-a-forced-loss-as-a-gift-controls-the-narrative-for-onlookers
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a loss is forced on you and cannot be reversed, check whether publicly reframing it as a voluntary gift can control how the story is told to whoever is watching, even though the object itself is not saved. Aesop's 'The Hunter and the Horseman' has a hunter fail to recover a hare stolen outright by a passing horseman, and instead of admitting the loss, call after him: 'All right, sir, all right, take your hare: it was meant all along as a present.' Nothing about the transaction changes — the hare is still gone and was still taken by force — but the reframe protects the hunter from the reputational cost of having visibly been robbed, aimed specifically at the thief and any onlookers rather than at recovering anything."
+related: []
+evokes: [aesop, the-hunter-and-the-horseman, reframing-loss-as-gift, reputation-spin-for-an-audience]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-hunter-and-the-horseman
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Hunter and the Horseman.' Verified verbatim against a direct extraction of the held copy."
+    quote: "he gave up trying to overtake the Horseman, and, to save his face, called after him as loud as he could, All right, sir, all right, take your hare: it was meant all along as a present."
+canonical-instances:
+  - "a forced executive exit or a hostile-takeover concession gets spun in a press release as a 'strategic decision' the company chose, when the actual sequence of events was a loss the company had no power to prevent."
+critical-questions:
+  - "Does this reframe actually work on the audience it's aimed at, or is it transparent enough that everyone present understands exactly what happened regardless of the hunter's chosen wording?"
+  - "Is there a meaningful cost to reframing a loss this way beyond the immediate moment — does habitually spinning forced losses as choices erode credibility the same way a discovered lie would?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-pqe28
+name: a-conditional-resource-grant-locks-in-a-behavior-change
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Rather than simply thanking a benefactor, a beneficiary can transfer a valuable resource explicitly tied to a specific future-behavior condition, converting a one-time act of mercy into a structurally incentivized permanent change rather than an unconditional reward that carries no ongoing leverage. In the Jataka's tale of Suvannamiga, the spared doe's mate gives the hunter a jewel with an explicit condition attached: 'Friend, henceforth take not the life of any creature, but with this jewel set up a household and maintain a wife and children, and give alms and do other good works.'"
+related: []
+evokes: [jataka, pancanipata, suvannamiga-jataka, conditional-resource-grant-locks-in-behavior-change, gratitude-converted-into-structural-incentive]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-suvannamiga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 359, Suvannamiga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Friend, henceforth take not the life of any creature, but with this jewel set up a household and maintain a wife and children, and give alms and do other good works."
+canonical-instances:
+  - "A nonprofit that forgives a vendor's overbilling error doesn't just accept an apology; it ties the forgiveness to the vendor adopting a specific new invoicing process going forward, turning a one-time act of grace into a lasting change in how the vendor operates rather than a debt the vendor simply feels grateful for."
+critical-questions:
+  - "Does attaching a condition to the grant actually make the behavior change more durable, or does it undermine the sincerity of the original mercy by turning it retroactively into a transaction?"
+  - "What happens once the resource itself is spent or the household is established — does the behavioral condition still bind once its material leverage is gone, or does compliance depend entirely on continued enforcement?"
+status: active

@@ -1,0 +1,18 @@
+id: lex-bup6e
+name: a-proven-betrayer-proposes-renewed-trust-offering-only-a-verbal-promise-as-new-input
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: 'A party who has already inflicted repeated, demonstrated harm can approach the same victim again proposing renewed trust, offering nothing new but a verbal promise of reform — no changed circumstance, no accountability mechanism, just words — and can repeat the approach across multiple attempts despite flat refusal each time. In the Jataka''s tale of Kukkuta, a Falcon who has already devoured the Fowl''s entire flock proposes friendship on nothing but a promise: "''Good Sir, for my former sins you cannot trust me now; but I promise that I will never do so again!''"'
+related: []
+evokes: [jataka, dasanipata, kukkuta-jataka, false-friend-persistence, reformed-predator-trope]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kukkuta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 448, Kukkuta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Good Sir, for my former sins you cannot trust me now; but I promise that I will never do so again!"
+canonical-instances:
+  - "A vendor who has already breached contract terms twice, costing a company real losses each time, calls a third time proposing a renewed partnership on nothing but a verbal assurance that this time will be different, with no new safeguard offered."
+critical-questions:
+  - "Is there ever a point at which a verbal promise alone, with no changed circumstance behind it, should be enough to justify renewed trust after repeated proven betrayal?"
+status: active

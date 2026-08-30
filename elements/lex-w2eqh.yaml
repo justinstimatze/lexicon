@@ -1,0 +1,19 @@
+id: lex-w2eqh
+name: external-coercive-stakes-make-discipline-effortless-willpower-does-not
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Maintaining flawless discipline is categorically easier when an external enforcer makes failure immediately and visibly costly than when the same discipline depends entirely on internal willpower with no outside consequence attached. The Jataka's tale of the oil-pot walker names this directly: carrying a brimming pot through a crowd without spilling a drop is called an easy task specifically because a swordsman follows behind, ready to execute anyone who spills — the difficulty of the physical task hasn't changed, but the presence of certain, immediate punishment removes the temptation to relax that would otherwise creep in. The comparison is explicit: ordinary mindfulness, which carries no such enforcement, is named as the genuinely hard version of the same challenge."
+related: []
+evokes: [jataka, ekanipata, telapatta-jataka, external-enforcement-makes-discipline-easy, unenforced-willpower-is-the-harder-version]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-telapatta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 96, Telapatta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Not hard at all, Brethren; it was quite an easy task,--easy for the very good reason that he was escorted along by one who threatened him with a drawn sword.\""
+canonical-instances:
+  - "A trader given a strict stop-loss rule enforced automatically by the trading platform, which liquidates the position the instant it's breached, follows the rule flawlessly for years, then struggles for the first time to hold the identical discipline manually on a personal account with no automatic enforcement at all."
+critical-questions:
+  - "Can the effect of certain, immediate external consequence ever be replicated internally, or does willpower alone always remain the harder version of any task that external enforcement could make trivially easy?"
+  - "Does removing the external enforcer after discipline has been built under its pressure leave the underlying skill intact, or does the ease evaporate along with the sword the moment it's no longer there?"
+status: active

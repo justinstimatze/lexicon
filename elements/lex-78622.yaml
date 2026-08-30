@@ -1,0 +1,19 @@
+id: lex-78622
+name: dont-recruit-an-ally-more-powerful-than-the-problem-requires
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Before bringing in a powerful outside party to solve a problem, check whether that party's capability, once inside your perimeter, could simply be redirected onto you. The Panchatantra's frog, plagued by a pest, invites a snake to clear it out — and the snake, having nothing left to eat once the job is done, does not leave; it turns its appetite on its recruiter. The verse states the general risk: 'Whoever fraternizes with too vigorous a foe, is eating poison, and will soon perceive it to be so.' The mistake is not choosing an unreliable ally — the snake does exactly what it was hired to do — it is choosing an ally whose capability exceeds the actual size of the problem, with no plan for what that surplus capability turns toward once the original target is gone."
+related: []
+evokes: [panchatantra, loss-of-gains, oversized-ally-turns-on-its-recruiter, capability-surplus-after-the-job-is-done]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-handsome-and-theodore
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book IV, 'Handsome and Theodore.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Whoever fraternizes with Too vigorous a foe, Is eating poison, and will soon Perceive it to be so."
+canonical-instances:
+  - "a small company brings in a large, well-funded partner specifically to help win one deal, and once that deal closes the partner — now embedded in the client relationship — uses its greater leverage to absorb the account entirely rather than exiting."
+critical-questions:
+  - "Is there a way to structure the arrangement so the powerful ally has a clear reason to leave once the job is done, rather than simply avoiding powerful allies altogether — does an exit clause solve the underlying risk, or only delay it?"
+  - "How does someone judge, before recruiting help, whether an ally's capability actually exceeds what the problem needs, versus assuming any strong ally is automatically oversized?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-arf33
+name: a-harsh-opening-statement-provokes-a-griever-into-articulating-their-own-premise
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Rather than consoling directly, an outside authority can open with a deliberately harsh, near-accusatory statement designed to provoke the griever into stating their own rationale for grieving aloud — only after the belief has been articulated does the authority supply a targeted rebuttal aimed at that specific statement. The provocation isn't cruelty; it's a way to get the premise on the table before arguing against it. In the Jataka's tale of Migapotaka: 'to sorrow for the dead doth ill become the lone ascetic, free from ties of home.'"
+related: []
+evokes: [jataka, pancanipata, migapotaka-jataka, provocation-elicits-the-premise-before-refutation, socratic-goad-before-consolation]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-migapotaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 372, Migapotaka-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "To sorrow for the dead doth ill become The lone ascetic, free from ties of home."
+canonical-instances:
+  - "A coach, instead of comforting a player devastated by a loss, opens with a blunt line about how a player who claims to have already accepted the risk of losing shouldn't be this shaken by it — provoking the player to explain out loud exactly what they'd actually been telling themselves, which the coach can then directly address."
+critical-questions:
+  - "Does the harsh opening risk alienating the griever before the rebuttal ever arrives, closing off the conversation rather than eliciting the premise it was meant to surface?"
+  - "Is this technique appropriate across relationships and power dynamics, or does it require a specific kind of standing — a teacher, an elder, a recognized authority — to land as provocation rather than as simple callousness?"
+status: active

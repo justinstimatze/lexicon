@@ -1,0 +1,22 @@
+id: lex-9yb6e
+name: evaluation-forces-continual-redefinition-of-program-objectives
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When a program, policy, or initiative is placed under ongoing outside research or evaluation, expect a side-effect independent of whatever the evaluation's data eventually shows: the mere presence of a research orientation pressures the people running the program to state their objectives more explicitly than they otherwise would have bothered to, and to keep restating them as the evaluation proceeds. This is distinct from the classic reactivity/Hawthorne concern (that being STUDIED changes the SUBJECTS' behavior) — here the party changed by the act of being evaluated is the program's own LEADERSHIP, and what changes is the explicitness of their goals, not their day-to-day conduct. Reader names this as one of the concrete benefits the Cornell program's collaboration with outside sociologists produced, separate from the substantive findings: carrying the research forward necessitated continual redefinition of objectives, which in turn gave the program administrators a degree of critical objectivity about their own educational process that they applied both to the program and to the evaluation itself. The practical implication: if you want an organization to sharpen its own goals, subjecting it to sustained outside evaluation can do real work toward that end even before the evaluation produces a single finding."
+related: [lex-zvzjh]
+evokes: [reader-1957-cctp, research-orientation-forces-clarity, being-evaluated-sharpens-the-evaluated-not-just-the-subjects, evaluation-as-a-forcing-function, side-benefit-of-outside-scrutiny, continual-redefinition-of-objectives]
+lineage:
+  - source: primary
+    text: reader-1957-research-orientation-forces-objectives
+    citation: "George G. Reader, \"The Cornell Comprehensive Care and Teaching Program,\" in Merton, Reader, and Kendall, eds., The Student-Physician (Cambridge: Harvard University Press for The Commonwealth Fund, 1957), p.99."
+    quote: "'The very presence of a research orientation causes those medical educators responsible for innovations in the curriculum to state their objectives as clearly as possible, and carrying forward the research necessitates continual redefinition of objectives.'"
+canonical-instances:
+  - "A startup that commits to quarterly OKR reviews finds that the review process itself, not just the metrics it surfaces, forces the leadership team to state goals in falsifiable terms they had never bothered to articulate before outside review began."
+  - "A nonprofit that agrees to an outside program evaluator finds that preparing for the evaluator's questions makes program staff sharpen, and periodically rewrite, their own theory of change — independent of what the evaluation's eventual data shows."
+  - "A government agency subject to a legislated sunset review re-litigates and clarifies its own mission statement every time the review comes due, an effect of the review process's existence rather than of any particular finding it produces."
+critical-questions:
+  - "Is this a genuine effect of evaluation itself, or a selection effect — do only programs whose leadership is already inclined toward self-scrutiny volunteer for sustained outside evaluation in the first place, making the causal arrow uncertain?"
+  - "Could the forced articulation distort a program's actual objectives toward whatever happens to be measurable, rather than genuinely sharpening its goals — a risk adjacent to Goodhart's law that Reader does not raise but that the mechanism seems to invite once objectives are stated in evaluation-friendly terms?"
+  - "Reader frames 'continual redefinition of objectives' as a benefit. When does continual redefinition instead indicate that a program never had stable goals to begin with? What would distinguish healthy iterative clarification, of the kind Reader describes, from goalpost-moving that a less charitable observer would flag as evidence the program lacks a fixed target?"
+status: active

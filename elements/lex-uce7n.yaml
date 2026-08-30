@@ -1,0 +1,21 @@
+id: lex-uce7n
+name: an-inferior-substitute-passes-only-the-losers-own-self-check
+type-in: process
+type-out: warning
+_tier: atomic
+agent-instruction: "When you improvise a replacement for something you've lost, the fact that it satisfies your own test of function doesn't mean it's actually equivalent -- your self-check may simply be worse at detecting the loss than an outside observer would be. In Cushing's telling, a blinded Coyote gropes his way through a valley and finds two frozen cranberries where his eyes used to be: 'Ha! said he, lucky fellow, I! Here is one of my eyes. So he picked it up and clapped it into one of his empty sockets; then he peered up to the sky, and the light struck through it. Didn't I tell you so, old fellow? It is one of your eyes.' The cranberries pass his only available test -- light gets through, and that is all he has left to check with. 'He didn't seem to see quite as well as he had seen before, but still the cranberries answered the purpose of eyes exceedingly well, and the poor wretch of a Coyote never knew the difference.' Everyone else could see the difference instantly: 'it was observed when he returned to his companions ... that he had yellow eyes instead of black ones.' The substitution was permanent and obvious to the entire world except the one person whose only available instrument for checking it was the very thing that had been damaged. Diagnostic move: when you've lost something and improvised a replacement, remember that your own satisfaction with the replacement is being judged using the same damaged apparatus that created the need for it in the first place -- ask someone with an intact, external vantage point before declaring the substitution equivalent."
+related: []
+evokes: [the-instrument-that-checks-the-repair-is-the-thing-that-broke, cushing-coyote-and-the-ravens-who-raced-their-eyes, here-is-one-of-my-eyes-a-cranberry, yellow-eyes-instead-of-black-ones]
+lineage:
+  - source: primary
+    text: cushing-coyote-cranberry-eyes-never-knew-the-difference
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Coyote and the Ravens Who Raced Their Eyes.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'Ha! said he, lucky fellow, I! Here is one of my eyes. So he picked it up and clapped it into one of his empty sockets; then he peered up to the sky, and the light struck through it. Didn't I tell you so, old fellow? It is one of your eyes, by the souls of your ancestors! ... He didn't seem to see quite as well as he had seen before, but still the cranberries answered the purpose of eyes exceedingly well, and the poor wretch of a Coyote never knew the difference; only it was observed when he returned to his companions in the Canon of the Cedars that he had yellow eyes instead of black ones.'"
+canonical-instances:
+  - "A manager who loses access to a key report improvises a rough substitute metric that seems to track well enough by their own casual glance, never noticing it has silently drifted from what the original measured, while everyone downstream who actually relies on the number can see the discrepancy immediately."
+  - "Someone who damages their hearing gradually turns the television up louder and louder, satisfied each time that it sounds fine to them, while everyone else in the room can hear exactly how far the volume has drifted from what anyone else would consider normal."
+critical-questions:
+  - "Is the Coyote's failure to notice a matter of the cranberries genuinely passing every test available to him, or is there a test he could have run (asking a companion, comparing the sensation to memory) that he simply didn't think to try?"
+  - "Does the permanence of the color change (yellow instead of black) suggest the substitution was inherently detectable to any outside observer, or could a more careful improvisation have escaped notice by everyone rather than just the Coyote himself?"
+  - "Is there a meaningful difference between not noticing a substitution because your only checking instrument is compromised, versus not noticing because you never bothered to check at all -- does the story distinguish between these, or collapse them into the same outcome?"
+status: active

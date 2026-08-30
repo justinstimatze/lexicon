@@ -1,0 +1,22 @@
+id: lex-kwpyr
+name: a-reform-is-held-to-a-proof-standard-only-its-own-existence-could-meet
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Defenders of an existing institution routinely demand that anyone proposing to replace it first prove the replacement's superiority. The existing institution itself only ever had to clear a much lower bar: that people currently seem content with it. This evidentiary bar is structurally unmeetable: a proposed institution's actual benefits can only be observed once the new conditions it would create already exist, so proof is demanded before the very evidence that could supply it is even possible to gather. Gilman names the double bind directly: 'it is far easier to prove present evil than future good. Yet this is what is most exactingly demanded. It is required of the advocate of social reform not only that he convince the contented followers of the present system of its wrong, but that he prove to their satisfaction the superiority of some other system. This, in the nature of the case, is impossible.'"
+related: []
+evokes: [women-and-economics, chapter-x, easier-to-prove-present-evil-than-future-good, this-in-the-nature-of-the-case-is-impossible, proof-demanded-before-the-evidence-can-exist]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-x
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter X. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "So to-day, in questioning the economic status of woman and her position in the home and in the family, it is far easier to prove present evil than future good. Yet this is what is most exactingly demanded. It is required of the advocate of social reform not only that he convince the contented followers of the present system of its wrong, but that he prove to their satisfaction the superiority of some other system. This, in the nature of the case, is impossible. When people are contented, you cannot make them feel that what is is wrong, or that something else might be better."
+canonical-instances:
+  - "A company's leadership demands that anyone proposing a new organizational structure prove in advance that it will outperform the current one, even though the only way to genuinely measure the new structure's performance is to actually run the organization under it for a while first."
+  - "A city council requires proponents of a new public transit system to prove ridership numbers that can only be observed once the system is built and running, while the existing car-centric infrastructure was never required to clear any comparable bar before it was built."
+  - "A school board asks advocates for a new teaching method to demonstrate superior long-term outcomes before piloting it anywhere. Those outcomes can only be measured in students who have already spent years being taught the new way -- students who don't exist yet because the pilot hasn't started."
+critical-questions:
+  - "Is the proof-standard genuinely unmeetable, or can smaller-scale pilots, natural experiments, or comparisons with other places that already tried the reform supply enough evidence to satisfy a reasonable version of the demand, short of full-scale adoption?"
+  - "Does the incumbent institution actually face a lower bar, or does it also have to survive an ongoing, less visible test -- continued adoption, continued use -- that a bad institution would eventually fail even without a formal proof requirement?"
+  - "If the proof-standard really can't be met in advance, what replaces it as the legitimate basis for deciding whether to try a reform -- pure political will, small experiments, or some other standard -- and does substituting that standard just relocate the unfairness rather than resolve it?"
+status: active

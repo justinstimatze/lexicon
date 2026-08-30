@@ -1,0 +1,19 @@
+id: lex-mc4ns
+name: a-leverageless-mediator-is-crushed-by-inserting-into-a-conflict-not-theirs
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A third party with no stake and no authority in a conflict, watching neither side yield to appeals, can escalate from calling out to physically placing themselves between the two combatants — and because they have no actual leverage over either side, the intervention does not stop the conflict, it just adds a body in its path. In the Jataka''s tale, two rams are fighting on a pasture, and a fork-tailed bird tries to talk them down: "he tried to restrain them by calling out — ''Uncle, don''t fight!'' Not a word he got from them: in the midst of the battle, mounting first on the back, then on the head, he besought them to stop, but could do nothing." Escalating past appeal into the only leverage he can imagine — his own body — he places himself directly in harm''s way: "At last he cried, ''Fight, then, but kill me first!'' and placed himself between the two heads. They went on butting away at each other. The bird was crushed as by a pounder, and came to destruction by his own act."'
+related: []
+evokes: [jataka, terasanipata, takkariya-jataka, leverageless-mediation, third-party-destroyed-by-intervening]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-takkariya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XIII (Terasanipata), No. 481, Takkariya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: 'At last he cried, "Fight, then, but kill me first!" and placed himself between the two heads. They went on butting away at each other. The bird was crushed as by a pounder, and came to destruction by his own act.'
+canonical-instances:
+  - "A junior teammate with no formal authority over either side of an escalating dispute between two senior engineers keeps trying to get them to a shared decision, and when neither will back down, starts personally forwarding each one's harshest messages to the other in an attempt to force a reckoning — and ends up the one both sides blame when the fallout lands, having absorbed the collision instead of preventing it."
+critical-questions:
+  - "Would any amount of goodwill have saved the bird, or was the outcome fixed the moment he chose physical insertion over a strategy that didn't require the rams' voluntary cooperation — is there a version of intervening in a conflict that doesn't require leverage over at least one side?"
+  - "The tale frames this as the bird's own act destroying him — does that framing understate the rams' culpability, or is the point specifically that a mediator who accepts this risk knowingly still bears the consequences of that choice?"
+status: active

@@ -1,0 +1,18 @@
+id: lex-9hedm
+name: verifying-a-claim-from-a-safe-distance-before-committing
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A wary target, suspicious despite reassurance, arranges to observe evidence of a claim from a position of safety before fully committing to the risky action, and abandons the plan the instant the observed behavior contradicts the claim. In the Jataka''s tale of Putimansa, the goat watches the supposedly dead jackal from a distance and catches him giving himself away: "Why thus does Putimainsa stare? / His look misliketh me: / Of such a friend one should beware, / And far away should flee."'
+related: []
+evokes: [jataka, navanipata, putimansa-jataka, verify-before-committing-from-safety, catching-the-predators-tell]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-putimansa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 437, Putimansa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Why thus does Putimainsa stare? / His look misliketh me: / Of such a friend one should beware, / And far away should flee."
+canonical-instances:
+  - "Before entering an abandoned building she's told is safe, a journalist first watches from across the street for ten minutes and notices a guard's shadow moving inside that the source swore was empty, and walks away."
+critical-questions:
+  - "What made the goat's suspicion strong enough to warrant checking from a distance in the first place, given that she had already been reassured by a trusted intermediary?"
+status: active

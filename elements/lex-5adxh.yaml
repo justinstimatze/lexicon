@@ -1,0 +1,19 @@
+id: lex-5adxh
+name: mirror-a-bad-faith-excuse-back-at-matching-absurdity
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone offers an implausible excuse to cover a wrong, and a third party will end up adjudicating it, skip contesting the excuse's logic. Build a counter-claim on that identical logical structure, equally implausible, and put both in front of the adjudicator together. A merchant in the Panchatantra, told his stored iron was 'eaten by mice' when it was actually just stolen, doesn't argue that mice can't eat iron. He borrows the thief's own son, claims a hawk carried the boy off, and states the shared logic outright when confronted: 'Where mice eat balance-beams of iron a thousand pals in weight, a hawk might steal an elephant; a boy is trifling freight.' Presented with two equally absurd claims running on the same premise, the adjudicator sees the absurdity of the pattern itself rather than being asked to evaluate either claim on its own."
+related: []
+evokes: [panchatantra, loss-of-friends, mirror-a-bad-faith-excuse-with-matching-absurdity, expose-a-pattern-by-duplicating-it]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-the-mice-that-ate-iron
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book I, 'The Mice That Ate Iron.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Where mice eat balance-beams of iron A thousand pals in weight, A hawk might steal an elephant; A boy is trifling freight."
+canonical-instances:
+  - "a vendor claims a shipment was 'lost due to unprecedented weather conditions' to avoid a contractual penalty, and the client responds not by disputing the weather report but by claiming their own payment was 'lost due to an unprecedented banking error' of identical implausibility, forcing a mediator to see both excuses as the same move rather than judging the weather claim on its own credibility."
+critical-questions:
+  - "Does this tactic actually resolve the dispute, or does it just produce a stalemate where the adjudicator sees two absurd claims and still has to decide which party is actually right?"
+  - "Is there a risk that mirroring an opponent's bad-faith excuse this way looks, to an outside observer, like the responding party is being equally dishonest, rather than making a pointed rhetorical move?"
+status: active

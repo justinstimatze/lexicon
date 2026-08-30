@@ -1,0 +1,20 @@
+id: lex-wxr9n
+name: pre-selected-demand-outweighs-execution-quality-in-persuasion
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When deciding where to invest effort in a persuasive effort — a better offer, sharper copy, a lower price, versus finding an audience already primed to want the thing — don't default to assuming craft quality is the dominant lever. Halbert's hamburger-stand thought experiment asks: given a choice of exactly one competitive advantage against an identical rival stand, what would you pick? Most people choose a better location, price, or product. Halbert's answer is audience pre-selection — 'a starving crowd' — which he claims dominates every craft-side lever combined: a starving audience buys a mediocre product without hesitation, and no amount of product excellence moves a satisfied one. This is a claim about which lever matters most when the two trade off against each other, distinct from a general reminder to know your audience."
+evokes: [halbert, boron-letters, starving-crowd, direct-response-marketing, audience-preselection]
+lineage:
+  - source: primary
+    text: halbert-2013-boron-letters-ch6-starving-crowd
+    citation: "Gary Halbert and Bond Halbert, The Boron Letters (Bond Halbert Publishing, 2013 collected edition), Chapter 6 (letter dated June 17, 1984). No page numbers recoverable from the pdftotext extraction; cited by chapter/letter date. Verified verbatim against a direct pdftotext -layout extraction, clean text, no OCR."
+    quote: "'The only advantage I want,' I reply, 'is A STARVING CROWD!' What I am trying to teach you here is to constantly be on the lookout for groups of people (markets) who have demonstrated that they are starving (or at least hungry!) for some particular product or service."
+canonical-instances:
+  - "Halbert's own hamburger-stand thought experiment, posed to his son as a letter-writing exercise: given a choice of exactly one competitive advantage against an identical rival stand, most people choose location, price, or product quality; Halbert's answer is audience pre-selection, framed as decisively outweighing all three craft-side options combined."
+  - "operationally distinct from the corpus's existing persuasion/deception/trust cluster (disconfirmation, path-dependence, media framing, competitive-equilibrium theory, and similar): none of those address the question of which lever — audience selection versus message craft — dominates when the two trade off; they address how persuasion or deception operates once a target audience is already fixed."
+critical-questions:
+  - "Is 'starving crowd beats craft' actually true in general, or does it hold only in direct-response marketing specifically, where demand is often externally observable (search volume, existing purchase behavior) before any message is crafted? In domains where demand is latent or must be created, this heuristic may not transfer."
+  - "How does a practitioner actually identify a 'starving crowd' in advance, as opposed to recognizing one only in hindsight once a campaign succeeds? Halbert's framing asserts the lever's dominance without giving a reliable method for detecting the condition ahead of time."
+  - "Does treating audience-selection as dominant risk under-investing in craft to a degree that squanders an otherwise-primed audience — is there a floor of execution quality below which even a starving crowd won't convert?"
+status: active

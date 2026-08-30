@@ -1,0 +1,21 @@
+id: lex-hk836
+name: an-order-to-flee-issued-only-to-test-loyalty
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A leader can issue a direct, sincere-sounding order for a subordinate to flee and save themselves — not because compliance is actually wanted, but as a live test of whether the subordinate's loyalty will override the order itself. The order has to be genuine enough to be a real test; if the subordinate suspects it's staged, refusing proves nothing. In the Jataka's tale of the golden geese, King Dhatarattha, caught in a snare, urges his minister to fly to safety with the rest of the fleeing flock. When Sumukha refuses and vows to die at his side instead, Dhatarattha reveals the order was never meant to be obeyed: \"'A noble heart, brave words are these, Sumukha, which you say: 'Twas but to put you to the test I bade you fly away.'\" Sumukha's loyalty is confirmed by his violation of an instruction that looked, in the moment, like a real command."
+related: []
+evokes: [jataka, visatinipata, hamsa-jataka, rohanta-miga-jataka, loyalty-test, order-not-meant-to-be-obeyed]
+lineage:
+  - source: primary
+    text: jataka-rouse1901-hamsa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XV (Visati-Nipata), No. 502, Hamsa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "'A noble heart, brave words are these, Sumukha, which you say: 'Twas but to put you to the test I bade you fly away.'"
+canonical-instances:
+  - "A general orders a trusted aide to leave a besieged command post and reach safety, secretly hoping — and expecting — that the aide will refuse the direct order and stay to help hold the position."
+  - "A struggling founder tells their earliest engineer, in front of the rest of the team, to take an outside offer and not feel guilty about leaving a sinking company — watching to see whether the engineer takes the exit or insists on staying."
+  - "The same king and minister run the test twice more, almost word for word, in two later tellings of the same tale-cycle (Book XXI, Asitinipata, Nos. 533 and 534, Cullahamsa- and Mahahamsa-jataka). In No. 534: 'There go the birds, the ruddy geese, all overcome with fear, O golden-yellow Sumukha, depart! What wouldst thou here?' Sumukha holds his ground once more, and passes the same unstated test."
+critical-questions:
+  - "Dhatarattha only reveals the test was a test after Sumukha passes it. What happens to the relationship if Sumukha had actually obeyed and fled — does the king ever tell him it was a test, or does the subordinate simply fail without knowing they were being tested at all?"
+  - "The order has to look sincere to function as a real test, which means the subordinate genuinely believes, in the moment, that compliance is wanted and safe. Is there a meaningful difference between testing loyalty this way and simply deceiving someone for your own reassurance?"
+status: active

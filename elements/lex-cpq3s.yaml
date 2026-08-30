@@ -1,0 +1,33 @@
+id: lex-cpq3s
+name: voters-punish-incumbents-for-suffering-regardless-of-causal-responsibility
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When evaluating democratic accountability — whether voters reward and punish leaders based on what those leaders actually did — assume the answer is mostly NO. Achen and Bartels (2017) documented that voters punish incumbents for events demonstrably outside any leader's control: droughts, floods, shark attacks (Wilson 1916 New Jersey shore — voters in counties where sharks attacked swam away from the incumbent), measles outbreaks, sports-team losses. This 'blind retrospection' is the operational meaning of retrospective voting: when in pain, voters kick the dog within reach, which is the incumbent. The 'folk theory of democracy' — that voters assess candidates' policies, weigh evidence, and choose by considered judgment — is empirically false; voters mostly group-identify and rationalize, then retrospect blindly. Operational consequences: (1) democratic outcomes are far more random than the folk theory predicts — competence has weaker selection pressure than expected because random pain shocks confound signal; (2) the incentive to govern well is correspondingly attenuated — diligent incumbents get punished for bad luck almost as often as negligent ones; (3) leaders who can attribute their pain to a scapegoat outperform leaders who cannot — the available causal narrative gets accepted faster than the technically correct one; (4) policy quality is loosely coupled to election outcomes; the tighter coupling is between voters' moment-of-vote subjective welfare and their attribution-by-narrative-availability. Inverse: the rare cases where causal attribution IS clear and salient (a leader's personal scandal, a war they started by name) do see proper signal; the failure mode is the generic 'incumbent owns the economy' attribution which is mostly luck. Transferable diagnostic in any principal-agent system relying on retrospective performance reviews: ask whether the principal can disentangle agent-contribution from luck. If not, accountability is mostly blind and the agent's incentive is to minimize visible pain regardless of underlying competence."
+related: [lex-spm8x, lex-r3w25, lex-s2pjj, lex-7wvdb, lex-qhydj, lex-63e4c, lex-b97zn, lex-hbknh, lex-nbk6e, lex-r3aug, lex-nb82m, lex-fa9nq]
+scaffolds-from: [lex-fa9nq]
+evokes: [blind-retrospection, folk-theory-of-democracy, shark-attacks-1916-wilson, achen-bartels-2017, voters-kick-the-dog-when-in-pain, retrospective-voting-without-causal-attribution, democratic-accountability-is-attenuated-by-noise, identity-and-rationalization-not-policy, the-rationalizing-voter, droughts-floods-and-shark-attacks, luck-confounds-competence-signal]
+lineage:
+  - source: primary
+    tradition: achen-bartels-realist-democracy
+    text: achen-bartels-2017-democracy-for-realists
+    citation: "Christopher H. Achen and Larry M. Bartels, Democracy for Realists: Why Elections Do Not Produce Responsive Government (Princeton University Press, 2017), Chapter 1 (Democratic Ideals and Realities), section on the folk theory."
+    quote: "That way of thinking about democracy has passed into everyday wisdom, not just in the United States but in a great many other countries around the globe. It constitutes a kind of 'folk theory' of democracy, a set of accessible, appealing ideas assuring people that they live under an ethically defensible form of government that has their interests at heart. Unfortunately, while the folk theory of democracy has flourished as an ideal, its credibility has been severely undercut by a growing body of scientific evidence presenting a different and considerably darker view of democratic politics."
+  - source: primary
+    tradition: achen-bartels-realist-democracy
+    text: achen-bartels-2017-democracy-for-realists
+    citation: "Christopher H. Achen and Larry M. Bartels, Democracy for Realists: Why Elections Do Not Produce Responsive Government (Princeton University Press, 2017), Chapter 5 (Blind Retrospection)."
+    quote: "Our assertion is that voters' retrospections are blind, not just in natural disasters but in hardships of all kinds. When they are in pain they are likely to kick the government, so long as they can justify doing so with whatever plausible cultural constructions are available to them. […] In most retrospective voting of all kinds is more a matter of kicking the dog than of rationally assessing blame or credit."
+  - source: primary
+    tradition: achen-bartels-realist-democracy
+    text: achen-bartels-2017-democracy-for-realists
+    citation: "Christopher H. Achen and Larry M. Bartels, Democracy for Realists: Why Elections Do Not Produce Responsive Government (Princeton University Press, 2017), Chapter 5 — the 1916 shark attacks finding."
+    quote: "Since there are many realms of politics, economics, and society in which leaders' responsibility for good or bad outcomes is far from clear, we consider cases in which leaders are clearly not responsible for good or bad outcomes — droughts, floods, and shark attacks. We find that voters punish incumbent politicians for changes in their welfare that are clearly acts of God or nature. That suggests that their ability (or their inclination) to make sensible judgments regarding credit and blame is highly circumscribed."
+canonical-instances:
+  - The 1916 New Jersey shark attacks — Woodrow Wilson lost vote share in coastal counties where shark attacks occurred, controlling for everything else; the sharks were not the President's fault. Achen-Bartels canonical example.
+  - Drought and flood effects 1900-2000 — Achen-Bartels Figure 5.4 shows incumbent vote share dropping in farm states after drought, even when the drought was clearly weather, not policy.
+  - 2009 H1N1 flu response — Obama administration scored unevenly with voters as a function of how visible their region's pain was, regardless of whether the response was good or bad.
+  - Pandemic-era incumbent ousting (2020-2024 globally) — incumbents across politically diverse governments lost vote share during COVID-19 economic disruption, regardless of whether their specific response was better or worse than counterfactual; voters punished incumbents because they were in pain.
+  - Local sports-team losses correlated with incumbent vote share (Healy, Malhotra, Mo 2010) — voters in counties whose college football team unexpectedly lost the weekend before an election downgraded the incumbent; the football game was not the incumbent's fault.
+severity-tier: warning
+status: active

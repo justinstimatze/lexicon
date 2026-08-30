@@ -1,0 +1,22 @@
+id: lex-7w5wt
+name: a-gift-recalled-is-argued-to-never-have-been-owned
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A benefactor withdrawing what they gave can argue that the gift was never truly the recipient's property, only lent for use at the giver's pleasure -- so its recall is not a wrong done, but simply the giver exercising a right that was always retained. Fortune makes this defense in her own voice: 'I took thee, naked and destitute as thou wast, I cherished thee with my substance... I surrounded thee with a royal abundance of all those things that are in my power. Now it is my pleasure to draw back my hand. Thou hast reason to thank me for the use of what was not thine own; thou hast no right to complain, as if thou hadst lost what was wholly thine... I might boldly affirm that if those things the loss of which thou lamentest had been thine, thou couldst never have lost them.'"
+related: []
+evokes: [consolation-of-philosophy, book-ii-prose-ii, thou-hast-reason-to-thank-me-for-the-use-of-what-was-not-thine-own, if-those-things-had-been-thine-thou-couldst-never-have-lost-them, fortunes-own-defense-speech]
+lineage:
+  - source: primary
+    text: boethius-c524-consolation-of-philosophy-book-ii-prose-ii
+    citation: "Boethius, The Consolation of Philosophy (c. 524 AD), trans. H. R. James (London: George Bell & Sons, 1897), Book II, Prose II. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "I took thee, naked and destitute as thou wast, I cherished thee with my substance, and, in the partiality of my favour for thee, I brought thee up somewhat too indulgently, and this it is which now makes thee rebellious against me. I surrounded thee with a royal abundance of all those things that are in my power. Now it is my pleasure to draw back my hand. Thou hast reason to thank me for the use of what was not thine own; thou hast no right to complain, as if thou hadst lost what was wholly thine own. [...] I might boldly affirm that if those things the loss of which thou lamentest had been thine, thou couldst never have lost them."
+canonical-instances:
+  - "A landlord who terminates a longtime tenant's below-market lease reminds them the rent had always been discretionary on the landlord's part, never something the tenant was owed, so ending it isn't taking anything the tenant ever owned."
+  - "A patron who withdraws long-standing informal financial support from a protege frames the withdrawal as simply ceasing a discretionary gift, never a debt or a right the protege held."
+  - "A company that revokes stock options granted at hire, citing a clawback clause, tells the departing employee they never fully owned the shares, only a conditional right to them."
+critical-questions:
+  - "Does the argument's validity depend on the gift's terms actually having been conditional from the start, or does the giver retroactively invent the 'always conditional' framing only once withdrawal becomes convenient?"
+  - "If the recipient built their life, plans, or identity around the gift as though it were secure, does the giver's legal or rhetorical claim that it was 'never truly theirs' erase the real harm of the withdrawal, even if the claim about ownership is technically accurate?"
+  - "Fortune uses this defense while also admitting the gifts were never given on any fixed terms at all -- does an entirely unstated, unilaterally revisable arrangement even count as a 'loan' in the sense that would make its recall blameless, or is that framing itself doing rhetorical work the facts don't support?"
+status: active

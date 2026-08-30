@@ -1,0 +1,22 @@
+id: lex-dbk9r
+name: pliability-keeps-a-grip-live-fixedness-makes-it-dead
+type-in: situation
+type-out: posture
+_tier: atomic
+agent-instruction: "Musashi's grip instruction generalizes past the sword: when you lock any working tool, stance, or plan into one fixed configuration, you don't just risk becoming predictable to an opponent — you lose your own readiness for whatever comes next. A held-tight grip can't redirect at the moment contact happens; only a grip that stays slightly loose ('living') converts into whatever the instant actually requires. This is a claim about your own responsiveness, not about deceiving anyone else: fixedness costs you options even if no one ever notices you were rigid. The prescription isn't total looseness either — some fingers stay tight — the discipline is which parts stay live."
+related: [lex-dme3d]
+evokes: [dead-hand-living-hand, musashi-five-rings, floating-grip, fixedness-versus-pliability, wedging-in]
+lineage:
+  - source: primary
+    text: musashi-1645-holding-the-long-sword
+    citation: "Miyamoto Musashi, The Book of Five Rings (Go Rin no Sho, 1645), trans. Victor Harris (Allison & Busby, 1974) — Feedbooks edition, Chapter 2, 'The Water Book,' section 'Holding the Long Sword.' Translator confirmed as Harris via the Wikipedia 'The Book of Five Rings' article's own footnoted citation, cross-checked against the local Wikipedia ZIM archive (see lex-y53nq's lineage for the full verification note)."
+    quote: "'Grip the long sword with a rather floating feeling in your thumb and forefinger, with the middle finger neither tight nor slack, and with the last two fingers tight. It is bad to have play in your hands. [...] The grip for combat and for sword-testing is the same. There is no such thing as a \"man-cutting grip\". Generally, I dislike fixedness in both long swords and hands. Fixedness means a dead hand. Pliability is a living hand. You must bear this in mind.'"
+canonical-instances:
+  - "A rock climber grips a hold with just enough tension to stay attached and no more, because a death-grip fatigues faster and can't quickly reposition when the next hold demands a different angle."
+  - "A driver holds a steering wheel loosely enough to feel the road's feedback through it; a white-knuckle grip transmits the same wheel but reads none of the signal, because the driver's own hand has gone rigid against it."
+  - "operationally distinct from lex-dme3d soft-overcomes-hard: lex-dme3d is about redirecting an OPPONENT's incoming hard force by meeting it with softness — the softness is a tactic aimed outward. This atom is about your OWN readiness — a pliable grip keeps your next move available regardless of whether an opponent ever applies force against it. The two can co-occur (a soft response requires a hand that wasn't already locked rigid) but name different mechanisms: one about redirection, one about preserved optionality."
+critical-questions:
+  - "Is there a floor below which pliability just becomes insufficient commitment? Musashi still specifies the last two fingers stay 'tight,' so total looseness isn't the prescription either — where's the line between a living hand and no grip at all?"
+  - "Does this generalize to non-physical 'grips' — holding a plan, a belief, a negotiating position — the same way, or does the muscular case carry a disanalogy: a hand can be pliable and still hold the sword, but can a 'pliable' plan still function as a plan?"
+  - "Does an opponent's own read of your tension state give away which one they're facing, making this partly a signal as well as a private discipline — or is fixedness-versus-pliability genuinely invisible from outside until the moment of contact?"
+status: active

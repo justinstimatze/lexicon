@@ -1,0 +1,19 @@
+id: lex-phq84
+name: compliance-paperwork-can-exclude-the-channel-for-bad-news
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A mandatory attestation process can be structured to generate proof of 'no problems reported' while deliberately not providing any channel for reporting problems — the paperwork protects the signer from the charge 'you never told us' while simultaneously blocking the subordinate's ability to say 'we had no way to tell you.' The letters up the chain 'assure' each executive that appropriate steps were taken, but that assurance is explicitly defined to exclude alerting higher management in writing to any actual or potential problem. This produces a compliance record that looks like open communication but is engineered to prevent exactly the communication it appears to certify — check whether a reporting system has an actual channel for negative findings, not just a channel for confirming their absence."
+related: [lex-yqe6n]
+evokes: [jackall-moral-mazes, "does not include alerting higher management in writing", assurance-paperwork-engineered-to-exclude-bad-news]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch4-assurance-excludes-alerting
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 4, Looking Up and Looking Around."
+    quote: "Assurance here, a staff member close to the operation points out, does not include alerting higher management in writing to potential or actual problems."
+canonical-instances:
+  - "A quarterly compliance form asks managers to certify that no safety violations occurred on their watch, with no field anywhere on the form for reporting a violation that did occur — so the only two possible submissions are silence and false certification."
+critical-questions:
+  - "Was the missing reporting channel designed deliberately to prevent bad news from surfacing, or did it emerge from a genuine oversight in form design that nobody noticed because no one urgently needed to report a problem yet?"
+status: active

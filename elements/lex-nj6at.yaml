@@ -1,0 +1,19 @@
+id: lex-nj6at
+name: escalating-competitive-bribery-corrupts-the-arbiter-and-the-system
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When two parties dispute a ruling and the losing side responds by out-bidding the winner for a reversal, the resulting bidding war doesn't just corrupt the specific decision — it destroys the arbiter's capacity to render any decision the disputants will accept as final, since each new ruling simply becomes the next side's starting bid. In the Jataka's tale of the quarreling ascetics, two bands dispute a favored resting-tree; the losing side out-bribes the winner with a finer gift to reverse the ruling, prompting a further counter-bribe, until the king who took both bribes is destroyed along with his entire kingdom: 'The king of Bharu, as old stories say, Made holy hermits quarrel on a day: For the which sin it fell that he fell dead, And with him all his kingdom perished.' The king's ordinary justice-dispensing role was never designed to survive being treated as an auction, and once both sides discovered that any ruling was purchasable, no ruling could actually settle anything."
+related: []
+evokes: [jataka, dukanipata, bharu-jataka, competitive-counter-bribery-destroys-an-arbiters-finality, a-purchasable-ruling-cannot-settle-a-dispute]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-bharu-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 213, Bharu-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The king of Bharu, as old stories say, Made holy hermits quarrel on a day: For the which sin it fell that he fell dead, And with him all his kingdom perished."
+canonical-instances:
+  - "Two departments competing for a shared budget allocation escalate through successive rounds of behind-the-scenes lobbying and favor-trading with the executive who controls it, until neither department trusts any decision that executive makes, and the executive's authority to allocate anything at all quietly collapses."
+critical-questions:
+  - "Was the king's downfall really about taking bribes specifically, or would any arbiter who let a losing party appeal a ruling through unofficial back channels — bribery or otherwise — have suffered the same collapse in perceived legitimacy?"
+  - "Is there a point in the escalation where the king could have stopped the corruption without losing everything, or does the story suggest that accepting even the first bribe already made the eventual total collapse inevitable?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-8tkmy
+name: narrating-a-parallel-case-deters-without-a-direct-accusation
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A person with authority over a valuable but flawed subordinate can end the subordinate's misconduct without confronting them directly. Publicly narrating a parallel case that mirrors the subordinate's own behavior closely enough lets the subordinate recognize themselves in it, while everyone else hears only a general remark. In the Jataka's tale of the intriguing courtier, a wronged subordinate asks the king what to do about a servant who has betrayed his trust: 'There is a man within my house, a zealous servant too; He has betrayed my trust, O king! Say--what am I to do?' The king answers not with judgment but with his own parallel case: 'I too a zealous servant have; and here he stands, indeed! Good men, I trow, are rare enow: so patience is my rede.' The courtier recognizes himself in the king's answer and stops the behavior — never once accused, never once needing to be, and still permitted to remain a useful subordinate."
+related: []
+evokes: [jataka, dukanipata, khanti-vannana-jataka, a-narrated-parallel-case-deters-without-direct-confrontation, preserving-a-subordinates-usefulness-while-stopping-the-behavior]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-khanti-vannana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 225, Khanti-vannana-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "There is aman within my house, a zealous servant too; He has betrayed my trust, O king! Say--what am I to do?... I too a zealous servant have; and here he stands, indeed! Good men, I trow, are rare enow: so patience is my rede."
+canonical-instances:
+  - "A CEO who learns a talented but abrasive VP has been taking credit for a direct report's work brings up, in a leadership meeting the VP attends, an unrelated case study about a leader who did exactly that and lost the report's trust — the VP quietly stops the behavior without ever being named."
+critical-questions:
+  - "How does the person delivering the parallel case calibrate the level of resemblance — too vague and the subordinate never recognizes themselves, too exact and it stops being deniable as a general remark and becomes a direct accusation in disguise?"
+  - "Does this method actually resolve the underlying issue, or does it only stop the specific behavior being narrated while leaving the subordinate's disposition toward similar misconduct untouched for a situation the parallel case doesn't cover?"
+status: active

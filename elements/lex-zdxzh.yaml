@@ -1,0 +1,22 @@
+id: lex-zdxzh
+name: a-fortune-bound-ally-becomes-an-enemy-when-fortune-turns
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "An alliance formed because one party currently enjoys good fortune doesn't just fail to survive that fortune's reversal -- it actively converts into hostility, because the bond was never anchored to anything but the fortune itself. This differs from reputation merely fading (see [[lex-2bufe]], where reputation tracks outcome rather than merit). Here, specific named individuals who profited from your position turn into active adversaries once it's gone. Philosophy poses the question of whether a friendship attached only to luck offers any real protection, then answers it herself: 'Nay; him whom good fortune has made a friend, ill fortune will make an enemy. And what plague is more effectual to do hurt than a foe of one's own household?'"
+related: [lex-2bufe]
+evokes: [consolation-of-philosophy, book-iii-prose-v, him-whom-good-fortune-has-made-a-friend-ill-fortune-will-make-an-enemy, a-foe-of-ones-own-household, fair-weather-friend-turns-hostile]
+lineage:
+  - source: primary
+    text: boethius-c524-consolation-of-philosophy-book-iii-prose-v
+    citation: "Boethius, The Consolation of Philosophy (c. 524 AD), trans. H. R. James (London: George Bell & Sons, 1897), Book III, Prose V. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "Are friends any protection who have been attached by fortune, not by virtue? Nay; him whom good fortune has made a friend, ill fortune will make an enemy. And what plague is more effectual to do hurt than a foe of one's own household?"
+canonical-instances:
+  - "A newly promoted executive's inner circle of supporters, built entirely from people who benefited from favors and access while she held budget authority, turns on her the moment she's demoted, several actively lobbying for her removal to protect their own positions."
+  - "A lottery winner's new circle of friends, drawn entirely by the winnings, becomes openly resentful and hostile once the money runs out, rather than simply drifting away -- some pursuing lawsuits or public accusations against the now-broke winner."
+  - "A political leader's coalition of fortune-seeking allies, having profited from proximity to power, becomes his most aggressive critics the moment he loses his office, competing to distance themselves by attacking him first."
+critical-questions:
+  - "Is 'fortune made them a friend, so misfortune makes them an enemy' too strong a claim -- couldn't a fortune-based ally simply become indifferent or absent, without the added step of active hostility, and does the historical or anecdotal evidence actually support the stronger claim?"
+  - "How would someone in a position of fortune-derived power actually distinguish a fortune-bound ally from a virtue-bound one before the test of reversal arrives, when both may express identical loyalty while the fortune still holds?"
+  - "Does blaming the ally's fortune-based attachment let the power-holder avoid a harder question -- whether their own conduct while in power, how they treated these allies, what obligations they created or broke, contributed to the hostility, rather than the hostility being purely a structural inevitability of fortune-based bonds?"
+status: active

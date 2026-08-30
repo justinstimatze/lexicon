@@ -1,0 +1,19 @@
+id: lex-a9mft
+name: answer-a-question-about-your-conduct-by-turning-it-into-a-parable
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than lecture directly, a speaker asked about their own conduct can answer with an account of what they did, then explicitly generalize it into a parable applicable to the listener''s own different role. In the Jataka''s tale of Mahakapi, the dying monkey-king does this for the king who watches him, mapping troop-loyalty onto a ruler''s duty to his kingdom: "A parable for thee, O king, if thou the truth would''st read: The happiness of kingdom and of army and of steed And city must be dear to thee, if thou would''st rule indeed."'
+related: []
+evokes: [jataka, sattanipata, mahakapi-jataka, answer-via-autobiographical-parable, generalize-your-own-conduct-into-a-lesson]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahakapi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 407, Mahakapi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "A parable for thee, O king, if thou the truth would'st read: The happiness of kingdom and of army and of steed And city must be dear to thee, if thou would'st rule indeed."
+canonical-instances:
+  - "Asked by a young manager why she stayed late fixing a junior colleague's mistake instead of just flagging it, a veteran engineer answers by describing exactly what she did, then generalizes it directly: a team lead's job is to make the whole team's success feel like their own, the same way she made that one bug her own."
+critical-questions:
+  - "Does mapping your own conduct onto someone else's very different role and responsibilities actually transfer, or does the parable only feel apt because both parties want it to?"
+  - "Is there a risk that framing personal conduct as a universal lesson overstates how replicable or generalizable that conduct actually was?"
+status: active

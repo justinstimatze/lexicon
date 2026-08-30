@@ -1,0 +1,18 @@
+id: lex-8scz8
+name: passive-authority-carries-responsibility-for-what-it-merely-permits
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: 'A leader who does not personally commit a harmful act but permits it under social pressure, without prohibiting it, can recognize afterward that the resulting harm is morally attributable to their own permissive word alone, even absent any direct action. In the Jataka''s tale of the five Pacceka-Buddhas, a zemindar who sanctioned traditional slaughter under crowd pressure sees the resulting carnage and locates the responsibility entirely in his own consent: "The man seeing a great quantity of fish and flesh, thought to himself, ''All these living creatures the men have slain, and all because of my word alone!''" A second zemindar reaches the same conclusion after sanctioning a drinking festival that ends in violence: "''If I had not permitted this, they would not have suffered this misery.''"'
+related: []
+evokes: [jataka, ekadasanipata, paniya-jataka, ethics-of-complicity, responsibility-for-permission]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-paniya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 459, Paniya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The man seeing a great quantity of fish and flesh, thought to himself, \"All these living creatures the men have slain, and all because of my word alone!\""
+canonical-instances:
+  - "A landlord who quietly allowed a tenant's unlicensed subletting because objecting felt like too much conflict later realizes he owns real responsibility for the fire code violations that resulted, despite never having done anything himself."
+critical-questions:
+  - "Both zemindars faced real social pressure to permit what they later regret — does treating passive permission as fully equivalent to direct action account for the coercion they were under, or does it collapse an important distinction between the two?"
+status: active

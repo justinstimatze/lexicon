@@ -1,0 +1,18 @@
+id: lex-653b4
+name: an-ultimatum-is-inverted-by-pointing-out-the-issuer-is-the-more-easily-replaceable-party
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: 'When someone frames a household or relational conflict as an ultimatum against a vulnerable, harder-to-replace party, the other side can invert the framing by pointing out that the ultimatum-issuer is, by comparison, the one with more options and less claim to permanence in that position. In the Jataka''s tale of Takkala, the son answers his wife''s demand to expel his aged father by reversing who is actually replaceable: "''Lady, you are young, and you can live where you will; but my father is an old man. If you don''t like him, you can leave the house.''"'
+related: []
+evokes: [jataka, dasanipata, takkala-jataka, inverted-ultimatum, relative-replaceability-argument]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-takkala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 446, Takkala-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Lady, you are young, and you can live where you will; but my father is an old man. If you don't like him, you can leave the house."
+canonical-instances:
+  - "When a new business partner insists a company's aging founding engineer be pushed out as a condition of the deal, the CEO counters that the new partner, unlike the engineer whose knowledge is irreplaceable, is free to walk away and find another deal elsewhere."
+critical-questions:
+  - "Does the strength of this inversion depend on the underlying claim about relative replaceability actually being true, or does the rhetorical move work even when the two parties are, in reality, more comparably replaceable than it suggests?"
+status: active

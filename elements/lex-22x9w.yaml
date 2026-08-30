@@ -1,0 +1,22 @@
+id: lex-22x9w
+name: naming-an-instance-precedes-naming-the-condition-that-produces-it
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "The ability to name specific harmful instances develops earlier and more easily than the ability to recognize that a whole system or condition reliably produces those instances. A society can spend centuries condemning individual bad actors within a harmful institution without ever concluding that the institution itself needs to change. Gilman states the cognitive gap directly, then applies it: 'There are savages who can say \"hot fire,\" \"hot stone,\" \"hot water,\" but cannot say \"heat,\" cannot think it... They have observed specific instances, but are unable to collate them, to generalize therefrom... A bad priest, a bad king, a bad master, were long observed and pointedly objected to before it began to be held that the condition of monarchy or the condition of slavery must needs bear fruit, and that, if we did not like the fruit, we might better change the tree.'"
+related: []
+evokes: [women-and-economics, chapter-v, hot-fire-hot-stone-hot-water, a-bad-priest-a-bad-king-a-bad-master, instance-recognition-precedes-condition-recognition]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-v
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter V. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "There are savages who can say 'hot fire,' 'hot stone,' 'hot water,' but cannot say 'heat,' cannot think it. Similarly, they can say 'good man,' 'good knife,' 'good meat'; but they cannot say 'goodness,' they cannot think it. They have observed specific instances, but are unable to collate them, to generalize therefrom. [...] A bad priest, a bad king, a bad master, were long observed and pointedly objected to before it began to be held that the condition of monarchy or the condition of slavery must needs bear fruit, and that, if we did not like the fruit, we might better change the tree."
+canonical-instances:
+  - "A company fires a series of managers over several years for burning out their teams, treating each case as an individual failure of temperament, without ever asking whether the reporting structure or workload targets those managers were all operating under is what reliably produces the burnout."
+  - "A city removes and replaces corrupt individual officials in the same agency for decades, each removal treated as resolving the problem, without anyone examining whether the agency's incentive structure is what keeps producing corrupt officials regardless of who holds the role."
+  - "A hospital disciplines individual nurses for medication errors year after year, each case handled as personal carelessness, before anyone asks whether the understaffed shift schedule itself is the condition generating the errors, independent of which specific nurse is on duty."
+critical-questions:
+  - "Is this really a cognitive-developmental limit, as Gilman frames it via the savages comparison, or is it better explained by incentives -- individuals who benefit from a system have reason to prefer blaming individual bad actors over questioning the system itself, regardless of anyone's actual cognitive capacity to generalize?"
+  - "Once a society does make the leap to seeing the condition rather than just the individual instances, does that automatically translate into acting on it, or can a society intellectually grasp that the institution is the problem while still, for other reasons, continuing to blame individuals in practice?"
+  - "Gilman's framing implies a one-way developmental sequence from instance-recognition to condition-recognition -- but could a society recognize a systemic condition in one domain while remaining stuck at instance-blaming in another, meaning the capacity isn't a single general trait a whole society either has or lacks?"
+status: active

@@ -1,0 +1,31 @@
+id: lex-v64bg
+name: visible-deviation-from-group-norms-attracts-correction-pressure
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When evaluating why someone or something is being targeted, criticized, or 'hammered down' by a group, weight the deru-kugi-wa-utareru pattern surfaced by the Japanese proverb (Deru kugi wa utareru, literally 'the protruding nail will be hammered'): visible deviation from group norms attracts correction pressure proportional to how visible the deviation is, not necessarily to how harmful it is. The mechanism is decoupled from substantive-harm — what triggers the pressure is the SIGNAL of nonconformity, not the cost of the nonconformity. Transferable across many domains: workplace pressure on outliers (the high performer who makes others look bad gets sidelined, not for performance but for visibility), tall-poppy syndrome in egalitarian cultures, social-media pile-ons (the visible target attracts disproportionate response), academic suppression of heterodox-but-correct results, dialect leveling (distinctive features standardize out), homogenization in group decision-making (Janis groupthink). Cross-cultural attestation as evidence: the same pattern appears in Russian 'tall grass gets mowed first,' Australian 'tall-poppy syndrome,' Northern European Jante Law ('do not think you are anything special'), Anglo-American 'don't make yourself a target' — broad cross-cultural surfaces of the same structural mechanism strongly suggest it is a tier-1 cognitive-fit primitive. Operational diagnostic: when someone is being attacked, ask whether the attack is proportionate to actual harm OR proportionate to visibility/deviance. If the latter, you are watching deru-kugi dynamics, and substantive arguments about harm will not resolve it — only changing the visibility profile will. Operational consequence for change-makers: useful novel ideas can be killed simply for being visible; the way to ship them is often to make them invisible or to gradually normalize the deviation before raising visibility. Caveat: the pattern can be HEALTHY (catching actual violations of beneficial norms) or PATHOLOGICAL (leveling beneficial novelty). The atom names the mechanism; whether to invoke or resist it requires judgment about whether the norms being defended are themselves central. Cultural-context note: more pronounced in collectivist cultures and small groups; weaker in individualist cultures and large anonymous groups, though still operative."
+related: [lex-spm8x, lex-r3w25, lex-n8smn, lex-exczm, lex-s2pjj, lex-qhydj, lex-ewjec, lex-4ydm6, lex-ry9qx, lex-5y7zb, lex-z7kgm, lex-uxqdz, lex-m9arm, lex-jfy8w, lex-rve8w]
+evokes: [deru-kugi-wa-utareru, the-protruding-nail-will-be-hammered, galef-2015-even-monkeys-fall-from-trees, tall-poppy-syndrome, jante-law, social-leveling-pressure, visibility-as-target, conformity-pressure, tall-grass-gets-mowed-first, groupthink-mechanism, the-cost-of-visibility, cross-cultural-attestation-of-folk-wisdom]
+lineage:
+  - source: primary
+    tradition: japanese-kotowaza
+    text: galef-2015-even-monkeys-fall-from-trees
+    citation: Proverb #43 — Deru kugi wa utareru
+    quote: "Deru kugi wa utareru. The protruding nail will be hammered."
+  - source: cross-attestation
+    tradition: folk-wisdom-cross-cultural
+    text: galef-2015-even-monkeys-fall-from-trees
+    citation: Galef preface on cross-cultural mapping
+    quote: "Soon after the column's inception, I took to adding Western equivalents, partly to explain and also to help bridge the cultural gap. […] it became a kind of game."
+canonical-instances:
+  - The Japanese workplace pattern Galef names — the employee who stands out, even by performing well, attracts correction pressure that punishes the visibility itself, not the performance.
+  - Australian tall-poppy syndrome — the cultural-norm word for the same pattern; high-achievers face active social pressure to be 'cut down to size' regardless of whether their achievement harms anyone.
+  - Scandinavian Jante Law (Aksel Sandemose 1933) — explicit codification of the same pattern across ten commandments of 'do not think you are anything special'; structural mechanism identical to deru-kugi.
+  - Russian 'высокая трава первая косится' / 'the tall grass gets mowed first' — same mechanism, different surface; cross-cultural attestation is the evidence of cognitive-fit.
+  - American 'the nail that sticks up gets hammered down' — direct calque of the Japanese, used in U.S. business writing about conformity dynamics; the proverb traveled.
+  - Academic suppression of heterodox results — visibility of the result attracts gatekeeping pressure (rejections, dismissive citations, career-damaging coordination against the author) often disproportionate to the substantive critique.
+  - Social-media pile-on dynamics — the visible target attracts response disproportionate to the harm caused; visibility itself becomes the harm-coordinate.
+  - Dialect leveling — distinctive linguistic features standardize out over generations as visibly-distinctive speakers face correction pressure from majority-dialect speakers.
+  - The 'gray rock' interpersonal strategy for dealing with abusers — deliberately reducing one's visibility-as-distinct-target to reduce the abuser's deru-kugi response.
+severity-tier: warning
+status: active

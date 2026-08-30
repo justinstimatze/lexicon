@@ -1,0 +1,22 @@
+id: lex-uf24v
+name: victory-song-thanks-the-defeated-enemy-by-name-for-a-mock-gift
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A post-battle victory song can address the named, defeated enemy directly, thanking him ironically for the weapons and horses his defeat yielded, as though he had given them freely, converting looted spoils into an object of mocking gratitude rather than framing the victory around his suffering or death. Singing over the aftermath of Little Bighorn, Black Elk's people address Custer -- Long Hair -- by name and in second person, as if he were a generous host rather than a slain enemy: 'Long Hair, guns I had none. You brought me many. I thank you! You make me laugh!' The same structure repeats for horses. The song never mentions his death, his suffering, or the battle's violence directly -- it stages the entire outcome as an unwitting act of generosity from the man they killed, addressed to him as though he could still hear the thanks."
+related: []
+evokes: [black-elk-speaks, rubbing-out-of-long-hair, long-hair-guns-i-had-none, you-brought-me-many-i-thank-you, kill-song-as-mock-gratitude]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch9-rubbing-out-of-long-hair
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 9, 'The Rubbing Out of Long Hair.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "'Long Hair, guns I had none. You brought me many. I thank you! You make me laugh!' [...] 'Long Hair, horses I had none. You brought me many. I thank you! You make me laugh!'"
+canonical-instances:
+  - "A rival sports team's fans chant a defeated star player's own name back at him after a blowout loss, thanking him sarcastically for handing them an easy trophy, rather than chanting anything about the losing team's suffering."
+  - "A hostile corporate takeover's winning side circulates an internal memo addressed directly to the ousted founder, thanking him by name for building the very assets the new owners just acquired at a discount."
+  - "A prize-fighting champion, after knocking out a trash-talking challenger, addresses him by name in the post-fight interview thanking him for the easy paycheck and the entertaining warm-up, rather than commenting on the beating delivered."
+critical-questions:
+  - "Does addressing the dead or defeated enemy directly, in second person, function differently for the singers than a third-person account of the same victory would -- does it matter that the song is staged as though Long Hair could still hear it?"
+  - "Why frame the spoils as a gift specifically, rather than singing about conquest or plunder directly -- does casting Custer as an unwitting benefactor add a particular kind of insult beyond simply celebrating the win?"
+  - "These songs were composed and sung the same night as the battle, while grief for their own dead, including Black Elk's cousin, was also present in the camp -- does the mockery serve a different function when it's happening alongside real losses of their own, rather than after a costless victory?"
+status: active

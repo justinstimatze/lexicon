@@ -1,0 +1,19 @@
+id: lex-68zwn
+name: forcing-a-claimed-neutral-authority-to-perform-under-pressure-exposes-it
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A fabricated impartial authority invoked to settle a dispute in one party's favor can be exposed by subjecting the claimed authority itself to real physical stress, rather than by arguing against the ruling it produced. In the Jataka's tale of the tree-spirit's verdict, a merchant hides his own father inside a hollow tree to pose as a Tree-Sprite and rule in his favor over a profit-sharing dispute. Suspicious of the too-convenient ruling, the honest partner sets the tree on fire specifically to test whether it's really a spirit or a hidden human, and the 'spirit' is forced to reveal himself the moment the fire becomes unbearable. The stress test worked because a genuine spirit would have no reason to fear fire, while a hidden human has no way to fake indifference to it."
+related: []
+evokes: [jataka, ekanipata, kutavanija-jataka, stress-testing-a-claimed-authority-exposes-fabrication, physical-pressure-cannot-be-faked-through]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kutavanija-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 98, Kutavanija-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "the Bodhisatta resolved to find out whether it was indeed a Tree-Sprite or not. So he filled the hollow trunk with straw and set it on fire."
+canonical-instances:
+  - "A tenant suspicious that a landlord's 'independent property inspector' is conveniently always siding with the landlord in disputes requests the inspector show up unannounced for a surprise re-inspection rather than the usual scheduled visit, and the inspector, unable to fake independence under those conditions, stops responding to the tenant's requests entirely."
+critical-questions:
+  - "Does this technique generalize past claims that can be tested with a literal physical stressor like fire — is there an equivalent stress test for a fabricated authority whose fraud isn't rooted in a physical body that can be endangered?"
+  - "What is the ethical line between a legitimate stress test that forces a fraud to reveal itself and a genuinely dangerous act that would harm a real, non-fraudulent authority if the suspicion had been wrong?"
+status: active

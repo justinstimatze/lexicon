@@ -1,0 +1,20 @@
+id: lex-cfhab
+name: a-good-relationship-has-more-room-to-fall-than-rise
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "A currently-friendly relationship can carry more downside risk than an already-adversarial one, because the two face opposite ceilings. Freeman's 'defensive stakeholder' -- low cooperative potential, high competitive threat -- is essentially a good relationship with little room left to improve: there's not much more goodwill available to gain, but a great deal of room for it to sour. An already-adversarial party has nowhere left to fall, so nearly any change registers as upside, and that relative safety is a structural fact about the position, something an organization can actually count on. The maxim Freeman states directly: one is most vulnerable with one's friends, rather than one's enemies, because the friendly relationship is the one that can still get worse -- and its current comfort can mask exactly how much is riding on it staying that way."
+related: []
+evokes: [freeman-1984-strategic-management, chapter-5, defensive-stakeholders, cooperative-potential, most-vulnerable-with-ones-friends]
+lineage:
+  - source: primary
+    text: freeman-1984-strategic-management-ch5
+    citation: "R. Edward Freeman, Strategic Management: A Stakeholder Approach (Pitman, 1984), Chapter 5 'Formulating Strategies for Stakeholders,' section 'Generic Strategies for Stakeholders.'"
+    quote: "Defensive stakeholders can be of relatively little help, but can take steps (behaviors) to prevent the firm from achieving its objectives. Defensive stakeholders often have current or actual behavior which is quite helpful, thus their possibilities for improvement, and (in turn) high CP are quite limited. Defensive stakeholders illustrate the maxim, that one is most vulnerable with one's friends, rather than one's enemies. [...] Offensive stakeholders can help a great deal in achieving objectives, but pose little relative threat. Perhaps they are already killing the organization on this issue, and their actual behavior could not be any worse."
+canonical-instances:
+  - "A company's single largest customer has been a smooth, low-maintenance account for a decade, generating little urgency to invest in the relationship since nothing has ever gone wrong. That very stability is what makes losing the account catastrophic and largely unhedged, while a smaller, chronically difficult customer already generates so much friction that almost any relationship investment there shows up as clear improvement."
+  - "A long-tenured, high-performing employee who has never once raised a complaint gets none of the retention attention lavished on a newer, more vocal hire, because there's little visible upside to investing further in someone already fully engaged -- right up until the quiet departure that the company had no warning system built to catch."
+critical-questions:
+  - "A currently-good relationship's own comfort is exactly what suppresses the signals that would normally prompt attention -- what would an organization even look for to catch quiet erosion before it shows up as a departure?"
+  - "Does this asymmetry argue for actively investing in good relationships specifically because they're under-monitored, or does it just describe a risk that has to be accepted as the cost of any relationship good enough to require little maintenance?"
+status: active

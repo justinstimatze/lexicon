@@ -1,0 +1,29 @@
+id: lex-ry4x3
+name: pairwise-comparison-elicits-more-reliable-preferences-than-absolute-scoring-from-humans
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: "When you need to elicit human preferences over a set of options — for training a model, ranking content, choosing a design, evaluating performance, or aggregating opinion — prefer pairwise (or N-wise) COMPARISON over absolute numerical scoring. Christiano et al. 2017 (the canonical RLHF paper) found in deep-RL settings that humans can reliably compare two short clips of agent behavior even when they would struggle to assign each clip an absolute score — and a reward model trained on those comparisons drove complex behaviors (Atari games, simulated robot locomotion) using less than 1% of the agent's interaction budget for human feedback. The transferable claim about humans: relative judgments are cognitively cheaper and more reliable than absolute judgments, because absolute judgments require an internal calibration humans don't maintain (the rater's '7/10' today might be a '8/10' tomorrow on the same item), while pairwise judgments only require local comparison. Operational consequences: (1) when designing a rating UI, prefer 'which of these two is better' over '1-10 scale.' (2) When evaluating multiple proposals, present them in pairs, not as a list with absolute ratings. (3) When tracking employee performance, comparison against peers (relative ranking) is more reliable than absolute target-achievement scoring, though it has its own failure modes (forced-distribution stack-ranking). (4) When eliciting expert judgment for a model, ask 'which of these two is more X?' rather than 'rate each on a scale.' (5) RLHF for large language models (Ouyang et al. 2022 InstructGPT and subsequent) is a direct application: human raters compare model responses pairwise, the comparisons train a reward model, and the LLM is then fine-tuned against the reward model. Inverse failure mode: when the option set is large and the comparison-graph is sparse, pairwise data is insufficient and you need ranking-aggregation methods. Generalizes far beyond AI: scientific peer review (rejected vs accepted is a binary comparison, but reviewers struggle to score absolute quality); evaluating job candidates (interview-by-comparison vs scorecard-by-rubric); market research (A/B preference vs Likert scale)."
+related: [lex-kebfa, lex-spm8x, lex-7wvdb, lex-nx7u7, lex-kh8gf, lex-b97zn, lex-peqcm, lex-hbknh, lex-n5cf6, lex-nbk6e, lex-nb82m, lex-gu8st, lex-cat29]
+evokes: [christiano-2017-deep-rl-from-human-preferences, rlhf, pairwise-preference, reward-model, relative-vs-absolute-judgment, humans-are-bad-at-absolute-scores, instructgpt-fine-tuning, judge-by-comparison, deep-rl-without-hand-coded-reward, scalable-oversight, less-than-1-percent-of-interaction-budget]
+lineage:
+  - source: primary
+    tradition: christiano-rlhf
+    text: christiano-2017-deep-rl-from-human-preferences
+    citation: "Paul Christiano et al., 'Deep Reinforcement Learning from Human Preferences,' arXiv:1706.03741 (NeurIPS 2017). Abstract."
+    quote: "For sophisticated reinforcement learning (RL) systems to interact usefully with real-world environments, we need to communicate complex goals to these systems. In this work, we explore goals defined in terms of (non-expert) human preferences between pairs of trajectory segments. We show that this approach can effectively solve complex RL tasks without access to the reward function, including Atari games and simulated robot locomotion, while providing feedback on less than 1% of our agent's interactions with the environment."
+  - source: primary
+    tradition: christiano-rlhf
+    text: christiano-2017-deep-rl-from-human-preferences
+    citation: "Paul Christiano et al., 'Deep Reinforcement Learning from Human Preferences,' arXiv:1706.03741 (NeurIPS 2017). Section 1 (Introduction)."
+    quote: "We ask the human to compare short video clips of the agent's behavior, rather than to supply an absolute numerical score. We found comparisons to be easier for humans to provide in some domains, while being equally useful for learning human preferences. Comparing short video clips is nearly as fast as comparing individual states, but we show that the resulting comparisons are significantly more helpful."
+canonical-instances:
+  - InstructGPT / ChatGPT / Claude RLHF training — human raters compare pairs of model responses; reward model learns from the comparisons; LLM is fine-tuned against the reward model. Christiano 2017 is the canonical primary for the technique.
+  - Wine-judging in formal competitions — wine professionals judge in flights (pairwise / N-wise) rather than scoring each wine in isolation, because absolute scoring drifts within a single tasting session.
+  - Sports tournaments (chess Elo, tennis ATP rankings, MMA fight outcomes) — pairwise outcomes aggregated to a ranking; absolute 'skill score' would be unreliable.
+  - Peer review of papers — implicit pairwise comparison ('this is better/worse than what we usually publish at this venue') is more reliable than absolute quality scoring, though current peer-review systems hide the comparison nature.
+  - User research A/B testing — pairwise comparison of two design variants is more reliable than absolute satisfaction scoring.
+  - Performance review by forced-distribution stack-ranking — comparison-based, with its own failure modes (intra-group pairwise rankings don't aggregate to absolute talent levels).
+  - Stack-ranking in art / film / music criticism — 'best of year' lists are implicit pairwise comparison; the related practice of absolute 'star ratings' is empirically less reliable across raters.
+severity-tier: info
+status: active

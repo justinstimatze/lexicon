@@ -1,0 +1,19 @@
+id: lex-qguws
+name: an-existing-routine-of-trust-supplies-the-means-and-opportunity-for-harm
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A plot against someone can be built around an existing, unremarkable routine of trust, turning ordinary proximity and an assigned task into the exact means and opportunity for harm. In the Jataka''s tale of Parantapa, the murder plot is designed around the servant''s own routine duty: "He makes you carry his sword and bathing-dress when he goes to bathe: take him off his guard at the bathing-place, cut off his head and chop his body to pieces with the sword and then bury him in the ground."'
+related: []
+evokes: [jataka, sattanipata, parantapa-jataka, trusted-routine-as-means-of-harm, ordinary-proximity-enables-violence]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-parantapa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 416, Parantapa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "He makes you carry his sword and bathing-dress when he goes to bathe: take him off his guard at the bathing-place, cut off his head and chop his body to pieces with the sword and then bury him in the ground."
+canonical-instances:
+  - "A fraud is designed entirely around the one bookkeeper trusted to reconcile the accounts alone every Friday afternoon, converting a routine task nobody thinks to double-check into the exact window where the theft happens undetected."
+critical-questions:
+  - "Does the existence of this vulnerability suggest that any sufficiently trusted, unsupervised routine is a latent opportunity for harm, regardless of how long it's been running safely?"
+  - "What would it cost to introduce enough friction into a trusted routine to close this kind of opportunity, without destroying the trust that made the routine valuable in the first place?"
+status: active

@@ -1,0 +1,20 @@
+id: lex-w6ntg
+name: claiming-a-vulnerable-asset-first-forecloses-a-worse-claimant
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'To protect someone or something vulnerable from a genuinely dangerous future claimant, a trusted party can preemptively make the claim themselves, with every intention of giving it back, purely to occupy the position before someone worse does. Once claimed by a party acting in good faith, the asset is no longer available for anyone else to ask for. In the Vessantara-Jataka, Sakka, king of the gods, worries that after Vessantara has already given away his children, some genuinely predatory figure will next ask for his wife Maddi and take her permanently, leaving Vessantara ruined. So Sakka disguises himself as a brahmin and asks for Maddi first: "I will take the form of a brahmin, and beg for Maddi... I shall make it impossible that she should be given to anyone else and then I will give her back." He is not the threat; he is inoculation against the threat, occupying the claim before a real predator can.'
+related: []
+evokes: [jataka, mahanipata, vessantara-jataka, preemptive-claim, protective-inoculation, trusted-intermediary]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-vessantara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 547, Vessantara-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "I shall make it impossible that she should be given to anyone else and then I will give her back."
+canonical-instances:
+  - "A family friend, knowing a vulnerable elderly relative is a target for predatory 'investment advisors,' gets themselves named as a temporary co-signer on the relative's accounts first — not to take anything, but so the position is already filled when the real predator comes calling."
+  - "A publisher preemptively acquires the rights to a promising but naive first-time author's next two books at a modest, fair advance, specifically to keep the author from later signing an exploitative deal with a less scrupulous house once their profile rises."
+critical-questions:
+  - "This only works because Sakka is trustworthy and genuinely intends to give Maddi back — what distinguishes protective preemption from a bad-faith actor using the exact same move to lock in a claim they never intend to relinquish?"
+  - "The person being 'protected' here (Maddi) is never consulted about whether she wants this preemptive claim made on her behalf — does the tactic's ethical standing depend on the protected party's own consent, and what happens when getting that consent isn't possible in time?"
+status: active

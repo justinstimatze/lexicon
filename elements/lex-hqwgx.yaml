@@ -1,0 +1,19 @@
+id: lex-hqwgx
+name: an-apparent-capability-gap-can-really-be-a-stakes-asymmetry
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When one party consistently outperforms another in a contest both are equally capable of, check whether the difference is actually motivation intensity rather than skill or effort. Aesop's 'The Hare and the Hound' has a hound give up chasing a hare it could not catch, and when mocked for failing against a smaller animal, explains the real variable: 'don't forget it's one thing to be running for your dinner, but quite another to be running for your life.' Complacency explains nothing here — a missed meal for the hound sat on one side of the scale, survival itself on the hare's. That gap in what each stood to lose decided the outcome, with no difference in speed or skill required at all."
+related: []
+evokes: [aesop, the-hare-and-the-hound, stakes-asymmetry, motivation-explains-apparent-capability-gap]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-hare-and-the-hound
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Hare and the Hound.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Ah, well, said the Hound, don't forget it's one thing to be running for your dinner, but quite another to be running for your life."
+canonical-instances:
+  - "a scrappy startup outcompetes a much better-resourced incumbent on a specific feature race, because the incumbent's individual engineers have modest career stakes in the outcome while the startup's survival depends on it directly."
+critical-questions:
+  - "How would an outside observer distinguish a stakes-driven performance gap from a genuine skill gap when watching a single contest, given that both produce the same visible outcome?"
+  - "Does raising the stakes for the underperforming party reliably close the gap, or is there a point past which added pressure produces worse performance instead of matching the more motivated party's intensity?"
+status: active

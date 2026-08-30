@@ -1,0 +1,22 @@
+id: lex-4chft
+name: selling-a-craft-shrinks-its-substance-and-grows-its-display
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When practitioners of a craft are also competing for customers, clients, or students, watch for the specific failure Musashi names: the craft's substance (the nut) shrinks while its visible display (the flower) grows, because display, not substance, is what sells. Schools compete on 'This Dojo' versus 'That Dojo,' colouring and showing off technique, hastening the bloom, because that's what looks impressive to a buyer who can't evaluate the underlying skill directly. The warning sign isn't dishonesty — everyone involved can believe they're teaching well — it's that the competitive incentive systematically rewards whatever is legible and impressive over whatever actually works."
+related: []
+evokes: [the-nut-and-the-flower, musashi-five-rings, this-dojo-that-dojo, arts-for-sale, immature-strategy-is-the-cause-of-grief]
+lineage:
+  - source: primary
+    text: musashi-1645-arts-for-sale
+    citation: "Miyamoto Musashi, The Book of Five Rings (Go Rin no Sho, 1645), trans. Victor Harris (Allison & Busby, 1974) — Feedbooks edition, Chapter 1, 'The Ground Book,' section 'The Way of Strategy.' Translator confirmed as Harris via the Wikipedia 'The Book of Five Rings' article's own footnoted citation, cross-checked against the local Wikipedia ZIM archive (see lex-y53nq's lineage for the full verification note). 'the nut has become less than th flower' reproduced as printed in this edition — a dropped 'e' in 'the,' not silently corrected."
+    quote: "'If we look at the world we see arts for sale. Men use equipment to sell their own selves. As if with the nut and the flower, the nut has become less than th flower. In this kind of Way of Strategy, both those teaching and those learning the way are concerned with colouring and showing off their technique, trying to hasten the bloom of the flower. They speak of \"This Dojo\" and \"That Dojo\". They are looking for profit. Someone once said \"Immature strategy is the cause of grief\". That was a true saying.'"
+canonical-instances:
+  - "A martial-arts or coding-bootcamp-style school whose marketing emphasizes flashy forms or impressive-looking capstone projects, because that's what converts prospective students, while the actual combat-effectiveness or job-placement substance quietly erodes — no one lies; the selection pressure alone does it."
+  - "A researcher who optimizes a result's presentation for a punchy visual and a dramatic headline claim, because that is what earns attention and citations, at the expense of the less showy but more load-bearing methodological substance underneath it."
+  - "A restaurant that plates for the photograph a customer will post rather than for how the dish eats, because the photograph is what drives the next customer's booking."
+critical-questions:
+  - "Is there a craft where selling pressure and substance-preservation are actually aligned — where what's visually impressive also is the substance — and if so, what's structurally different about it?"
+  - "Musashi frames this as a consequence of a for-profit structure — does the same drift occur in non-commercial competitive settings, such as academic prestige or status within a hobbyist community, where there is no literal sale?"
+  - "Can a buyer who cannot evaluate substance directly ever select against this dynamic, or does the information asymmetry make the flower-over-nut drift structurally unavoidable regardless of anyone's individual honesty?"
+status: active

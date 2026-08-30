@@ -1,0 +1,19 @@
+id: lex-eg3qn
+name: graduated-exposure-erodes-a-categorical-avoidance-instinct
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A target with an absolute avoidance rule against a category of danger can still be captured, if the approach is broken into small individually-safe steps instead of attempted in one exposure the rule would immediately reject. In the Jataka's tale of the wind-antelope, the animal is normally so wary that after seeing a man once it won't return to that spot for a week — a blanket avoidance rule, not a graded risk assessment. A hunter defeats this by never presenting the rule with a single decision to reject: he offers honeyed grass, then shows himself gradually, then stands beside the animal as it grows accustomed to his presence, each increment small enough to pass the categorical rule undetected until the antelope is eating from his hand. The rule was never disabled — it simply never fired, because no single step in the sequence looked like the thing it was built to avoid."
+related: [lex-cmwnj]
+evokes: [jataka, ekanipata, vatamiga-jataka, graduated-exposure-defeats-categorical-avoidance, incremental-approach-evades-detection-threshold]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-vatamiga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 14, Vatamiga-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Marking the success of his snare, the gardener began gradually to show himself... growing familiar with the sight of him, it gathered confidence and gradually came to eat grass from the man's hand."
+canonical-instances:
+  - "A security team has a strict rule against installing any software from outside the approved list. An attacker introduces a small, seemingly harmless utility first, gets it whitelisted, then bundles progressively broader capability into routine updates to that same already-trusted utility until the rule stops meaning anything."
+critical-questions:
+  - "Is there a reliable way to detect the sequence itself, even when each individual step passes the categorical rule — does the pattern require watching cumulative drift rather than any single decision point?"
+  - "Does the technique require the target to have no memory across increments, the way the antelope's caution resets, or does it work just as well against a target who could in principle notice the trend if they compared today's step to last month's?"
+status: active

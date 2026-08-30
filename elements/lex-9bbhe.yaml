@@ -1,0 +1,19 @@
+id: lex-9bbhe
+name: both-sides-need-the-mask-of-objectivity-to-cover-what-is-political
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Managers and the outside consultants they hire have complementary needs that keep the appearance of objective, expert analysis running regardless of its actual accuracy: managers need the mask of objectivity to cover the capriciousness and arbitrariness of decisions that are really political, and consultants need to maintain their occupational self-image as genuine experts. Each party's need to preserve their own professional identity fuels the other's — the relationship persists not because the analysis is reliably objective, but because both sides are structurally invested in it looking that way. This means the appearance of rigor in a manager-consultant relationship should be weighted by how much both parties need that appearance to be true, independent of whether it actually is."
+related: []
+evokes: [jackall-moral-mazes, "the mask of objectivity to cover the capriciousness and arbitrariness of corporate life", mutual-need-for-the-mask-of-objectivity]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch6-mask-of-objectivity
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 6, Dexterity with Symbols."
+    quote: "managers need and desire the mask of objectivity to cover the capriciousness and arbitrariness of corporate life; consultants want to maintain their occupational self-image as experts."
+canonical-instances:
+  - "A leadership team commissions a data-driven analysis to justify a reorganization decision it had already reached informally, and the analytics firm's incentive to be seen as rigorous keeps both parties from acknowledging that the analysis was scoped to reach a predetermined conclusion."
+critical-questions:
+  - "Does recognizing this mutual need actually change how much weight the analysis deserves, or is genuinely rigorous work still possible within a relationship where both parties have a stake in its appearing rigorous regardless of outcome?"
+status: active

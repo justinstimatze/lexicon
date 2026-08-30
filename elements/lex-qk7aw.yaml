@@ -1,0 +1,19 @@
+id: lex-qk7aw
+name: a-fabricated-countdown-panics-a-mark-into-a-non-deliberative-decision
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone needs you to hand over something valuable quickly, check whether they've manufactured an artificial deadline specifically to prevent you from reasoning it through. Aesop's 'The Thief and the Innkeeper' has a thief convince a fellow traveller that he suffers fits of transformation on a countdown: 'when I have yawned three times I become a ravening wolf and fly at men's throats.' The victim, panicked by the ticking clock, hands over his coat for safekeeping and flees before he can question any part of the story — the fabrication does the thief's actual work for him, since the victim's own urgency, not any direct theft, produces the loss."
+related: []
+evokes: [aesop, the-thief-and-the-innkeeper, fabricated-countdown, panic-induced-non-deliberative-decision]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-thief-and-the-innkeeper
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Thief and the Innkeeper.' Verified verbatim against a direct extraction of the held copy."
+    quote: "why I have these fits of yawning I cannot tell: maybe they are sent as a punishment for my misdeeds; but, whatever the reason, the facts are that when I have yawned three times I become a ravening wolf and fly at men's throats."
+canonical-instances:
+  - "a tech-support scam manufactures a fake countdown — 'your account locks in three minutes' — to extract credentials before the victim has time to verify any part of the claim."
+critical-questions:
+  - "Would a simple pause before acting have been enough to break the fabrication, or does the induced panic itself impair the victim's ability to even consider pausing, making the countdown's real function psychological rather than informational?"
+  - "How would a target distinguish a fabricated countdown from a genuine time-sensitive emergency in the moment, given that both demand the same immediate, non-deliberative response?"
+status: active

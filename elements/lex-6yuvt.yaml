@@ -1,0 +1,19 @@
+id: lex-6yuvt
+name: forcing-past-a-subordinates-unexplained-refusal-costs-what-investigating-it-would-not-have
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'When a subordinate agent balks at a boundary for reasons its handler cannot perceive, the handler has two options: force it through, or stop and investigate why. In the Jataka''s tale, king Kalinga''s state elephant halts at the edge of the sacred bo-tree circuit and will go no further, "again and again the king urged him on, but pass he could not." The king''s own chaplain, seeing the same ground the elephant refuses, dismounts and looks closely rather than dismissing the animal''s balking: "This," thought he, "is the place where all the Buddhas have crushed all the desires of the flesh; and beyond this none can pass, no not if he were Sakka himself." He reports what he found and advises the king to descend. But the king does not wait for that judgment before it arrives — he has already driven the goad into the animal to test the soothsayer''s claim by force: "Pierced, the creature trumpets loudly, shrill as any heron cries, moved, then fell upon his haunches neath the weight, and could not rise" — and dies. Only after killing the first elephant does a second, willingly, carry the king across the same ground the first had refused.'
+related: []
+evokes: [jataka, terasanipata, kalinga-bodhi-jataka, anomalous-signal-investigated-not-forced, cost-of-not-trusting-a-lesser-agents-refusal]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kalinga-bodhi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XIII (Terasanipata), No. 479, Kalinga-Bodhi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: 'Pierced, the creature trumpets loudly, shrill as any heron cries, / Moved, then fell upon his haunches neath the weight, and could not rise.'
+canonical-instances:
+  - "A junior technician refuses to run a scheduled migration, unable to say exactly why beyond 'the numbers look wrong,' and a manager who overrides the objection and forces the run through loses a day's data — while a second technician, called in to investigate the same anomaly the first one flagged, would have found the same schema mismatch the chaplain found by simply looking closely at what the elephant already sensed."
+critical-questions:
+  - "The story validates the refusal after the fact, by way of religious lore — how should this generalize to ordinary cases where a subordinate's refusal turns out to have no real basis at all, and forcing past it would have cost nothing?"
+  - "What made the chaplain investigate instead of dismissing the animal's balking as stubbornness, when the king's own instinct was to force it — is there a transferable signal that distinguishes 'worth investigating' from 'just push through'?"
+status: active

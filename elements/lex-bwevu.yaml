@@ -1,0 +1,29 @@
+id: lex-bwevu
+name: a-front-disguises-its-funder-and-targets-the-undecided-public
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A political front organization works by two coordinated design choices: its visible face is engineered for maximum sympathy — 'small businessmen struggling against bureaucratic tyranny' rather than the actual large corporate funders behind it — and its persuasive target is specifically the broader undecided public, not the opposing side, since regulators, activists, and the businessmen themselves are never actually fooled by the maneuver. In its most literal degenerate case, a front can be nothing more than expensive, well-illustrated letterhead with no real organization behind it at all — the disguise doesn't need substance, only enough surface to be presentable to the audience it's actually built for. Evaluating whether a front 'worked' should be measured against undecided-public opinion, not against whether informed insiders were deceived, because insiders were never the target."
+related: []
+evokes: [jackall-moral-mazes, "valiantly joining forces to struggle against bureaucratic tyranny", the-front-organizations-two-part-design]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch7-alliance-front-cfc
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 7, The Magic Lantern — the 'Alliance for Responsible CFC Policy.'"
+    quote: "On the surface, the Alliance seemed to be a coalition of the industrial consumers of CFCs, that is, small manufacturers [...] In reality, the chemical company and the other big producers of CFCs bankrolled and controlled the whole operation"
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch7-fronts-target-broader-public
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 7, The Magic Lantern."
+    quote: "None of the major players in such a drama-that is, regulators, environmental activists, politicians, or businessmen themselves-are really fooled by such a classic maneuver."
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch7-stationery-only
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 7, The Magic Lantern — the 'Total Litter Control' bottle-bill campaign."
+    quote: "the committee existed only on expensive and well-illustrated stationery."
+canonical-instances:
+  - "A coalition called 'Consumers for Fair Pricing' campaigns against a proposed regulation on behalf of the industry it would regulate, presenting itself as a grassroots consumer group while being funded and directed entirely by the affected industry's trade association — a distinction its actual opponents are fully aware of, but the undecided public reading news coverage is not."
+critical-questions:
+  - "Since the sponsoring industry knows the front doesn't fool its direct opponents, is the strategy actually a bet that the undecided public's opinion matters more to the eventual outcome than the informed opposition's, and is that bet usually correct?"
+status: active

@@ -1,0 +1,21 @@
+id: lex-b4pa8
+name: the-trap-lets-you-succeed-and-detonates-when-you-claim-the-prize
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "A trap doesn't have to stop you from succeeding at the task in front of you -- it can let you succeed completely and spring only at the separate moment when you try to take possession of what you won. In Cushing's telling, two War-gods send enchanted stone deer and antelope to lure a thieving Tarantula out of hiding, knowing hunting is his one irresistible compulsion. He hunts perfectly: he draws, fires, and drops all four animals clean, exulting each time, 'who says I am not a good hunter?' The hunt itself was never the trap. The trap waits until he bends down, ties the first carcass to carry it home, and tries to rise with his burden: '_klo-o-o-o-o!_ he fell down almost crushed under a mass of white rock.' The same thing happens with the second carcass, and the third. Every kill was real and clean; the animals only reverted to stone at the exact instant he attempted to claim them as his own. Diagnostic move: when you've succeeded cleanly at a task that seems designed to test your one known compulsion, don't relax at the moment of apparent victory -- if a trap is present at all, it's more likely to be waiting at the handoff, the instant you reach to actually take what you've won, than anywhere in the effort that got you there."
+related: []
+evokes: [success-at-the-task-is-not-the-same-checkpoint-as-claiming-the-prize, cushing-the-young-swift-runner-stripped-by-the-tarantula, klo-o-o-o-o-a-mass-of-white-rock, who-says-i-am-not-a-good-hunter]
+lineage:
+  - source: primary
+    text: cushing-stone-deer-trap-springs-at-the-moment-of-possession
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Young Swift-Runner Who Was Stripped of His Clothing by the Aged Tarantula.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'He untied the strap which he had brought along and tied together the legs of the first deer he had shot. He stooped down, raised the deer, knelt on the ground and drew the strap over his forehead, and was just about to rise with his burden and make off for his den when, klo-o-o-o-o! he fell down almost crushed under a mass of white rock. Goodness! what's this? Mercy, but this is startling! He looked around, but he saw nothing of his game save a shapeless mass of white rock. Well, I will try this other one, said he to himself. He had no sooner placed the other on his back than down it bore him, another mass of white rock!'"
+canonical-instances:
+  - "An undercover operation lets a target successfully complete an entire illegal transaction, negotiate the price, verify the goods, and agree to terms, and arrests them only at the precise moment they physically take possession of the contraband, since everything before that point was still deniable as talk."
+  - "A video game boss fight lets a player land every hit perfectly and reduce the boss to zero health, then triggers a scripted second phase exactly as the player moves in for the finishing blow, so that the trap isn't in the difficulty of the fight itself but in the specific instant of claiming victory."
+critical-questions:
+  - "Would the Tarantula have avoided the trap entirely if he had sent the game home some other way, without personally handling or claiming each carcass -- is the vulnerability specifically about the act of physical possession, or would any form of benefiting from the kill have triggered it?"
+  - "Does the trap's design assume the target will always attempt to claim every single prize rather than stopping after the first failure, and does the Tarantula's decision to try a second and third carcass after the first turned to stone suggest something about how compulsion overrides even direct, repeated evidence of danger?"
+  - "Is there a meaningful difference between a trap that springs during the pursuit of a goal and one that springs at the moment of claiming success, in terms of how a target could reasonably guard against either -- does succeeding cleanly at a task ever actually mean the danger has passed?"
+status: active

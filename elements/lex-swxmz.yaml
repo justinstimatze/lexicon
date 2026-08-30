@@ -1,0 +1,30 @@
+id: lex-swxmz
+name: signal-cost-collapse-triggers-lemons-market-unraveling
+type-in: situation
+type-out: frame
+_tier: molecule
+agent-instruction: "When the cost of producing a type-T signal collapses toward zero (fluent LLM text, deepfake video, mass-produced credentials), stop trusting the signal's content and check whether the underlying market for the claim it once certified is now unraveling Akerlof-style. Move verification to provenance and out-of-band channels before the content itself."
+related: [lex-hfjhy, lex-aryva]
+scaffolds-from: [lex-aryva, lex-hfjhy]
+evokes: [akerlof-lemons, signal-cost-collapse, deepfake-trust-erosion, provenance-over-content, verification-channel-migration]
+decomposes-into:
+  - lex-aryva
+  - lex-hfjhy
+assembly: "sequential(lex-aryva, lex-hfjhy)"
+premises:
+  - "a market depends on a signal that is costly enough to produce that only genuinely-qualified senders can afford to send it credibly (lex-aryva's asymmetric-quality-information precondition)"
+  - "when the cost of producing that signal collapses toward zero, low-quality senders can now produce it as cheaply as high-quality senders, so the signal stops discriminating between them"
+  - "the diagnostic value of the signal's content approaches zero at the same rate the production cost does (lex-hfjhy's signal-mimicry mechanism, generalized past biological mimicry to any cheap-to-fake artifact)"
+  - "the market for the underlying claim the signal used to certify collapses toward the Akerlof lemons equilibrium unless an independent, still-costly verification channel exists"
+critical-questions:
+  - "has the signal's production cost actually collapsed, or has only the COPYING cost collapsed while genuine production still requires the original scarce input? A forged diploma is cheap to copy but a real one still requires the underlying education — the collapse has to hit the signal's generation cost specifically, not just its reproduction."
+  - "what would an out-of-band verification channel look like here, and does it survive the same cost-collapse that broke the original signal? A verification channel that's just as cheap to fake (a second easily-forged credential) doesn't fix anything — it has to be independently costly."
+  - "is the market actually unraveling, or is it segmenting instead — high-trust buyers moving to verified channels while a lemons-priced market persists alongside for buyers who can't or won't verify? Akerlof's original collapse assumes one market; cost-collapse markets often bifurcate rather than disappear."
+lineage:
+  - source: practitioner
+    text: assembled-from-lex-hfjhy-lex-aryva
+    citation: "Molecule assembled from lex-hfjhy (signal-mimicry, extended by Chiang 2026 *The Atlantic* to zero-marginal-cost AI-generated signals) and lex-aryva (asymmetric-quality-information-drives-good-out, Akerlof 1970 'The Market for Lemons'). lex-hfjhy's own canonical-instances already state the link: 'Composes with lex-aryva Akerlof asymmetric-quality-info: when the signal-cost collapses and signals are cheap-to-produce regardless of type, the market for the underlying claim collapses unless an out-of-band verification channel exists.' This molecule promotes that already-drafted synthesis to a first-class retrievable unit."
+canonical-instances:
+  - "AI-generated cover letters and resumes: once a fluent, well-formatted application is free to produce regardless of the applicant's actual qualifications, the application-quality signal that hiring once relied on stops discriminating — the market response is a shift toward verification channels that are still costly to fake (live coding interviews, reference calls, work-sample tests) rather than trusting the document itself."
+  - "Deepfake video evidence: once convincing fabricated video is cheap to produce, video-as-evidence collapses toward the lemons equilibrium in contested contexts (courts, journalism) unless chain-of-custody / cryptographic provenance / multi-source corroboration substitutes for the content itself as the actual verification channel."
+status: under-review

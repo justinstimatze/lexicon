@@ -1,0 +1,19 @@
+id: lex-mn6zb
+name: test-an-accusatory-mechanism-not-just-the-accusations-plausibility
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone shields a damaging claim behind unfalsifiable cover ('I was half-asleep, I don't recall what I said'), don't evaluate the claim's plausibility directly — instead test whether the same cover-story mechanism, applied to a neutral case, produces equally absurd output. In the Panchatantra, a jealous sweeper named Bull fabricates a rumor against a merchant using exactly this shield. The king, suspicious, replicates the same conditions on himself and produces an equally false confession: 'from the day of my birth I never ate a cucumber while engaged in that occupation... this blockhead has talked unimaginable nonsense about me.' The king does not investigate whether the original accusation was true — he investigates whether the channel that produced it was capable of producing truth at all, and finds it isn't."
+related: []
+evokes: [panchatantra, loss-of-friends, test-the-mechanism-not-the-claim, deniability-shielded-rumor-exposed-by-replication]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-merchant-strong-tooth
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book I, 'Merchant Strong-Tooth.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Why, from the day of my birth I never ate a cucumber while engaged in that occupation. And since this blockhead has talked unimaginable nonsense about me, it must be the same with Strong-Tooth. This being so, I made a mistake in taking the poor man's honors from him."
+canonical-instances:
+  - "an HR investigator receiving an anonymous tip attributed to 'something I overheard, though I can't be sure exactly what was said' tests the tip's own reliability by seeing whether the same secondhand-hearsay channel produces equally confident, equally false claims about an unrelated employee, rather than trying to directly verify the original accusation."
+critical-questions:
+  - "Does replicating the accusatory mechanism on a neutral case actually prove the original accusation false, or does it only prove the mechanism is unreliable in general — could an unreliable channel still occasionally produce a true claim?"
+  - "Is this test practical to run in most real situations, given that the king's version required deliberately triggering the same sleep-talking mechanism on himself — how often is that kind of direct replication actually available?"
+status: active

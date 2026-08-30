@@ -1,0 +1,19 @@
+id: lex-pmcse
+name: parading-an-irresistible-prize-through-rival-territory-to-provoke-a-fight
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Wanting a conflict you can't openly declare, send something highly desirable on tour through the territories of potential rivals with instructions to treat any attempt to claim it as grounds for war — manufacturing a legitimate-looking casus belli out of someone else's predictable response to temptation. In the Jataka's tale of King Kalinga, itching for a war he cannot otherwise start, his ministers advise: 'You have four daughters of surpassing beauty. Bid them adorn themselves with jewels, and then seated in a covered carriage let them be driven to every village, town and royal city with an armed escort. And if any king shall be desirous of taking them into his harem, we will get up a fight with him.'"
+related: []
+evokes: [jataka, catukkanipata, cullakalinga-jataka, manufactured-provocation-via-an-irresistible-lure, war-cannot-be-declared-directly-so-a-trap-is-toured]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-cullakalinga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 301, Cullakalinga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Sire, there is one way open to you. You have four daughters of surpassing beauty. Bid them adorn themselves with jewels, and then seated in a covered carriage let them be driven to every village, town and royal city with an armed escort. And if any king shall be desirous of taking them into his harem, we will get up a fight with him.\""
+canonical-instances:
+  - "A company can't be seen suing a competitor without provocation, so it launches a product that deliberately uses a name close enough to the rival's trademark to invite a takedown letter — then treats the rival's own legal response as the aggression that justifies the countersuit."
+critical-questions:
+  - "Does the target's response to the lure actually establish fault, or does the scheme just relabel a predictable reaction to temptation as unprovoked aggression?"
+  - "What happens to the bait itself — in this case, the daughters offered no say — when the provocation succeeds and the promised conflict actually occurs?"
+status: active

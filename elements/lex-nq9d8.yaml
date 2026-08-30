@@ -1,0 +1,18 @@
+id: lex-nq9d8
+name: smallest-possible-input-matures-into-the-largest-outcome
+type-in: state
+type-out: claim
+_tier: atomic
+agent-instruction: "The item smallest at the start of a category can become the largest at the category's mature state, when the growth process compounds rather than scales linearly with starting size — a mustard seed is the smallest of seeds sown, yet grows into the largest of garden plants. Judging an outcome's eventual scale from its starting size assumes a linear relationship between the two that a compounding growth process doesn't actually have."
+related: []
+evokes: [kjv, grain-of-mustard-seed, least-of-all-seeds, smallest-seed-biggest-tree, from-tiny-acorns]
+lineage:
+  - source: primary
+    text: kjv-1611-matthew-13-the-mustard-seed
+    citation: "The Holy Bible, King James Version (1611; this edition Project Gutenberg #10), Matthew 13:31-32. Verified verbatim against a direct extraction of the held copy."
+    quote: "The kingdom of heaven is like to a grain of mustard seed, which a man took, and sowed in his field: Which indeed is the least of all seeds: but when it is grown, it is the greatest among herbs, and becometh a tree, so that the birds of the air come and lodge in the branches thereof."
+canonical-instances:
+  - "A two-person side project with no funding and no advantage over any of a dozen better-resourced competitors becomes, five years later, the category's largest player — not despite starting smallest, but because the growth mechanism it hit on compounded while its better-funded competitors scaled linearly."
+critical-questions:
+  - "Is there actual evidence of a compounding mechanism here, or is 'small beginnings, big outcomes' being invoked as inspiration for a venture that's simply going to stay small?"
+status: active

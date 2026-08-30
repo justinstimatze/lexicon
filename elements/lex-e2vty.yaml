@@ -1,0 +1,20 @@
+id: lex-e2vty
+name: demonstrate-a-changes-value-informally-before-seeking-formal-ratification
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When you need a formal governing body to approve a change, don't bring the proposal to them cold — try it informally first, generate evidence it works, and only then submit it for formal approval. Goss identifies this sequencing, alongside built-in representation, as one of the two reasons a new medical-training program's internal changes met little resistance from higher administrative levels: 'One part of the answer is the fact that many of the alterations in Program detail were formally presented to the C. C. & T. P. Advisory Committee for final approval only after they had been at least tentatively shown to be useful.' The order matters: by the time the formal body is asked to rule on the change, the question is no longer 'should we try this speculative idea' but 'should we ratify something that has already, tentatively, worked' — a much easier question to answer yes to, and one that shifts the burden of proof away from the proposer. This is distinct from the representation-based cooptation mechanism she also describes: that one works by ensuring every affected interest has already been consulted before a vote; this one works by ensuring the formal body is voting on demonstrated results rather than an untested hypothesis, regardless of who sits on the body. Diagnostic move: before bringing a proposed change to whatever body must formally approve it, ask whether there is a way to run it informally, at small scale, first — a temporary or ad hoc trial that generates real evidence — so that the formal request becomes a ratification of something already shown to work rather than a bet on something untested."
+related: [lex-fdt8d]
+evokes: [goss-1957, tentatively-shown-to-be-useful, informal-trial-before-formal-approval, sequencing-approval-after-evidence, pilot-then-ratify]
+lineage:
+  - source: primary
+    text: goss-1957-tentatively-shown-useful-before-approval
+    citation: "Mary E. W. Goss, \"Change in the Cornell Comprehensive Care and Teaching Program,\" in Merton, Reader, and Kendall, eds., The Student-Physician (Cambridge: Harvard University Press for The Commonwealth Fund, 1957), pp.261-262."
+    quote: "'One part of the answer is the fact that many of the alterations in Program detail were formally presented to the C. C. & T. P. Advisory Committee for final approval only after they had been at least tentatively shown to be useful.'"
+canonical-instances:
+  - "A team lead lets an engineer quietly run a new deploy process on one low-stakes service for a month before bringing 'adopt this company-wide' to the architecture review board — the board is now ratifying a month of clean deploys, not evaluating a proposal on paper."
+  - "A nonprofit's program staff run a modified intake form with a handful of clients informally before asking the board to approve it as the new standard form — the board's question becomes 'should we keep doing what's already working' rather than 'should we authorize an unproven change.'"
+critical-questions:
+  - "This sequencing only works when an informal trial is actually possible without triggering the same approval requirement the formal change would — what kinds of changes (budget commitments, anything visible to outside parties, anything affecting people who didn't consent to being part of an informal trial) can't be tried quietly first, and does this mechanism simply not apply to them?"
+  - "Does bringing only pre-validated successes to the formal body train that body to rubber-stamp rather than genuinely scrutinize proposals — and if organizational memory of 'the committee always approves what staff bring' sets in, does the committee's oversight function quietly erode even though, in any single instance, the sequencing looks like good practice?"
+status: active

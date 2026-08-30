@@ -1,0 +1,19 @@
+id: lex-cx9he
+name: letting-objectors-opt-out-is-persuasion-optimization-not-just-ethics
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A firm that lets employees decline to work on accounts they find personally uncomfortable is doing more than accommodating individual conscience — the policy is also, and perhaps primarily, a persuasion-optimization move, because psychological discomfort undermines the emotional conviction, or convincing appearance of conviction, that selling a client's viewpoint to the public actually requires. Coerced advocacy from someone who privately objects tends to read as less persuasive than willing advocacy, so letting objectors abstain protects the firm's persuasive effectiveness independent of any genuine ethical motive behind the policy. This means a company's accommodation of employee conscience can be fully explained by self-interested performance-optimization, with the ethical framing being true but incidental to why the policy actually exists."
+related: []
+evokes: [jackall-moral-mazes, "convincing semblance thought necessary to sell a client's viewpoint", opt-out-policies-as-persuasion-optimization]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch7-opt-out-of-uncomfortable-accounts
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 7, The Magic Lantern."
+    quote: "do not require their executives to work on accounts with which they feel \"uncomfortable.\""
+canonical-instances:
+  - "A sales organization allows representatives to opt out of pitching a product line they personally distrust, framed internally as respecting individual conscience, while sales leadership privately understands that a rep who doesn't believe in the pitch closes noticeably fewer deals."
+critical-questions:
+  - "If the opt-out policy is really about persuasion effectiveness rather than ethics, would the firm still honor it in a case where the objecting employee's discomfort was clearly wrong or based on misinformation, or does the policy only survive contact with a case where honoring it also happens to serve the firm's interest?"
+status: active

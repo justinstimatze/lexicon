@@ -1,0 +1,20 @@
+id: lex-b3nkw
+name: a-provenance-question-only-the-true-owner-can-answer-exposes-a-thief
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When two parties dispute ownership of an object and a direct claim of possession can''t settle it, ask a question about the object''s history or making that only the genuine owner would know from lived experience, then check the answer against the object itself. In the Maha-Ummagga-Jataka, Mahosadha settles a necklace dispute this way: "What scent do you use for this necklace?" She replied, "I always use sabbasamhharaka." Then he asked the other, who replied, "How shall a poor woman like me get sabbasamhdraka? I always scent it with perfume made of piyangu flowers." He then had the necklace itself checked against each claimed scent — the true owner''s answer matched what was verifiably there.'
+related: []
+evokes: [jataka, mahanipata, maha-ummagga-jataka, provenance-question, thief-detection, verifiable-detail]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-maha-ummagga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 546, Maha-Ummagga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: '"What scent do you use for this necklace?" She replied, "I always use sabbasamhharaka." Then he asked the other, who replied, "How shall a poor woman like me get sabbasamhdraka? I always scent it with perfume made of piyangu flowers."'
+canonical-instances:
+  - "A pawnbroker suspects a ring was stolen and asks the seller what the inscription inside the band says; the true owner answers instantly, the thief guesses and gets it wrong."
+  - "In the same tale, a woman is accused of stealing a spun ball of cotton thread; asked what she wrapped inside it as a core, the true spinner correctly says a cotton seed, and the accuser's guess of a timbaru seed is proven wrong when the ball is unwound."
+critical-questions:
+  - "This only works when the true owner's provenance knowledge is something a thief genuinely couldn't fake or guess — how would you tell in advance whether the specific detail you pick is actually unguessable, versus a detail a clever thief might reasonably infer?"
+  - "The method assumes exactly one party is lying; what happens to it when both parties genuinely believe conflicting accounts, or when the disputed object has passed through enough hands that a non-owner could plausibly have picked up the true detail?"
+status: active

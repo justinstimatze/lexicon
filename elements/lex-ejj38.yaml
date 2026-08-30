@@ -1,0 +1,19 @@
+id: lex-ejj38
+name: visible-cosmetic-effort-can-camouflage-a-hidden-real-theft
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone entrusted with a valuable resource lavishes conspicuous effort on a cheap, easily-observed dimension of their job, check whether that visible diligence is covering for theft on a costlier, harder-to-observe dimension. In Aesop's 'The Horse and the Groom,' a groom who steals and sells the horse's feed compensates by grooming it obsessively; the horse states the trade outright: 'If you really want me to look sleek and well, you must comb me less and feed me more.' The two dimensions are deliberately decoupled — the cosmetic one is cheap to fake diligence on, and its visibility is exactly what makes it useful as cover for the theft happening where no one is watching."
+related: []
+evokes: [aesop, the-horse-and-the-groom, visible-effort-substitution, principal-agent-fraud]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-horse-and-the-groom
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Horse and the Groom.' Verified verbatim against a direct extraction of the held copy."
+    quote: "If you really want me to look sleek and well, you must comb me less and feed me more."
+canonical-instances:
+  - "a contractor who spends conspicuous time on cosmetic finish work — trim, paint, polish — while skimming the materials budget on structural components no inspector will ever open the wall to check."
+critical-questions:
+  - "How would a principal reliably tell the difference between genuine cosmetic diligence paired with real neglect elsewhere, versus an agent who is simply better at the visible dimension and equally competent at the hidden one — is conspicuous effort itself ever innocent evidence?"
+  - "Does this pattern require the two dimensions to trade off against the same resource (time, budget), or can it also arise when they draw from entirely separate pools, making the cosmetic effort pure decoration rather than a genuine cost the agent is diverting?"
+status: active

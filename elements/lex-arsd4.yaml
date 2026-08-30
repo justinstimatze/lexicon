@@ -1,0 +1,19 @@
+id: lex-arsd4
+name: incidental-contact-with-a-tainted-source-condemns-an-otherwise-fine-object
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "An object can be judged permanently ruined by brief, incidental contact with something perceived as unlucky or unclean, even though nothing about the object's actual function or safety has changed. In the Jataka's tale of the gnawed robe, a wealthy man has a perfectly good set of clothes ritually discarded because a mouse gnawed a corner of them, declaring the whole garment 'as deadly as though steeped in venom' from that single contact. The judgment tracks a perceived transfer of ill luck from the source (the mouse) to the object (the robe) rather than any measurable property of the robe itself, which is why the reaction is total discard rather than repair of the actual damaged corner."
+related: []
+evokes: [jataka, ekanipata, mangala-jataka, contamination-bias-condemns-a-functional-object, perceived-transfer-of-luck-not-actual-damage]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mangala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 87, Mangala-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "this suit of clothes, having been gnawed by mice, is like ill-luck personified, and as deadly as though steeped in venom"
+canonical-instances:
+  - "A homeowner throws away an entire, otherwise functional couch because a single cushion touched a spilled bottle of what they believed was a cursed item at a garage sale, rather than simply cleaning or replacing that one cushion."
+critical-questions:
+  - "Is this purely superstition, or does it share a structure with legitimate contamination concerns — food safety, quarantine — where a small point of contact really does justify discarding a larger whole, and if so, what distinguishes the two cases?"
+  - "Does the reaction scale with how much the person values the perceived source of contamination as unlucky, or is a fixed, total discard the typical response regardless of how minor or major the actual point of contact was?"
+status: active

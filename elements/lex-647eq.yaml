@@ -1,0 +1,19 @@
+id: lex-647eq
+name: a-direct-question-forces-an-unfiltered-self-disqualifying-answer
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Asked directly to describe what she values, a party can't help but answer honestly, and the honest answer itself lists exactly the traits that disqualify her — the diagnostic works because direct questioning forces a self-revelation the respondent can't filter in time. In the Jataka's tale of Sirikalakanni, Kalakanni is asked what kind of people she favors and answers in a way that names her own vices: 'The hypocrite, the wanton, the morose, The man of envy, greed and treachery: Such are the friends I love: and I dispose Their gains that they may perish utterly.'"
+related: []
+evokes: [jataka, chanipata, sirikalakanni-jataka, direct-question-forces-self-disqualification, honest-answer-reveals-disqualifying-truth]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sirikalakanni-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 382, Sirikalakanni-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The hypocrite, the wanton, the morose, The man of envy, greed and treachery: Such are the friends I love: and I dispose Their gains that they may perish utterly."
+canonical-instances:
+  - "Asked in an interview what kind of team members they work best with, a candidate lists 'people who don't push back' and 'people who don't ask too many questions' — answering honestly and disqualifying themselves in the same breath."
+critical-questions:
+  - "Does this diagnostic only work on someone unprepared for the question — would a more self-aware or rehearsed respondent simply give a filtered answer instead?"
+  - "Is the direct question actually necessary, or could the same disqualifying information have been inferred from indirect evidence without asking at all?"
+status: active

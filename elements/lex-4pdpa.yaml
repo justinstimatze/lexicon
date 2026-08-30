@@ -1,0 +1,20 @@
+id: lex-4pdpa
+name: an-advisors-plausible-excuse-lets-harm-continue
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When evidence of harm reaches a decision-maker, an advisor's plausible-sounding excuse for it isn't neutral commentary — it's an active mechanism that lets the harm continue, because it gives the decision-maker a reason to believe things are already fine and no correction is needed. The excuse doesn't have to be false to do this work; it only has to be reasonable enough to relieve the pressure the raw evidence was creating. In the Jataka's tale of the tinduka-tree spirit, a king travels in disguise to hear what his subjects really think of his rule, and each time someone's raw grievance reaches him, his priest offers a mitigating explanation — culminating in a frog being eaten by crows, which the priest excuses with 'Kings cannot, frog, as you must know, / Guard every creature here below.' The frog itself names exactly what the excuse is doing: 'The priest with words too flattering / Thus wickedly deceives the king; / The king, though people are oppressed, / Deems the priest's policy the best.'"
+related: []
+evokes: [jataka, timsanipata, gandatindu-jataka, flattering-excuse-enables-continued-harm, plausible-rationalization-deceives-a-decision-maker]
+lineage:
+  - source: primary
+    text: jataka-francis1905-gandatindu-jataka-priest-excuse
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XVI (Timsanipata), No. 520, Gandatindu-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Kings cannot, frog, as you must know, / Guard every creature here below. ... The priest with words too flattering / Thus wickedly deceives the king; / The king, though people are oppressed, / Deems the priest's policy the best."
+canonical-instances:
+  - "A board member raises a pattern of customer complaints about safety, and the general counsel offers a reasonable-sounding explanation — isolated incidents, a vocal minority, normal churn — that isn't obviously false but is exactly plausible enough to let the board table the issue instead of investigating it."
+  - "A city council member points to rising eviction filings in one district, and a staff economist explains it away as a temporary correction from pandemic-era protections ending, a real and defensible dynamic that nonetheless lets the council stop asking whether current policy is making it worse."
+critical-questions:
+  - "How would the decision-maker in this position actually distinguish a genuinely correct, mitigating explanation from a plausible one that's doing the work of an excuse — is there a reliable test, or does it only become clear afterward, once the pattern of harm repeats?"
+  - "The frog is the one voice that names the mechanism explicitly — does calling out an excuse as an excuse require someone with nothing to lose from saying so, and is that kind of witness reliably available in real institutions?"
+status: active

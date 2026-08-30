@@ -1,0 +1,31 @@
+id: lex-2trsd
+name: competing-volition-distraction-and-care-structure-the-divided-self
+type-in: structure
+type-out: claim
+_tier: molecule
+agent-instruction: "When self-control failure or restless activity looks like it needs a single explanation (weak willpower, poor time-management, boredom), check for the deeper structural claim these three traditions converge on independently: the self is not a unified agent that sometimes fails to act on what it knows. Augustine's contribution is that the WILL ITSELF is multiple — competing volitional sub-agents within the self, each wanting something different, not one agent failing to execute (lex-5tpy8). Pascal's contribution is that outward distraction (scrolling, achievement-chasing, consumption) is often sought specifically to AVOID attending to one's own condition, not pursued for its ostensible reward (lex-cgbrt). Heidegger's contribution is the formal structure underneath both: care as the unity of projection (what you're ahead-of-yourself toward), thrownness (the facticity you didn't choose but now inhabit), and engagement (what you're currently absorbed in) — three structural moments held together, not one simple state (lex-zd4sv). None of the three reduces to 'try harder.'"
+related: [lex-5tpy8, lex-cgbrt, lex-zd4sv]
+scaffolds-from: [lex-5tpy8, lex-cgbrt, lex-zd4sv]
+evokes: [augustinian-divided-will, pascalian-distraction, heideggerian-care-structure, self-is-not-unified]
+decomposes-into:
+  - lex-5tpy8
+  - lex-cgbrt
+  - lex-zd4sv
+assembly: "classification(lex-5tpy8, lex-cgbrt, lex-zd4sv)"
+premises:
+  - "self-control failure is often mis-analyzed as a single agent knowing-but-not-doing (akrasia); Augustine's transferable contribution is that the will itself is multiple — competing volitional sub-agents within one self, each with its own want (lex-5tpy8)"
+  - "outward distraction is frequently explained by its ostensible reward when the actual driver is avoidance of attending to one's own condition — Pascal's transferable contribution names distraction-seeking as itself a structural move, not a lapse (lex-cgbrt)"
+  - "care is the formal unity of three structural moments held together at once — projection (potentiality-for-being ahead of oneself), thrownness (the facticity one is already in but didn't choose), and engagement (what one is currently absorbed in) — Heidegger's ontological account of why the self is never simply present-at-hand to itself (lex-zd4sv)"
+  - "the three are independent instances of the same underlying claim — that the self, examined closely, turns out to be structurally divided or multiply-composed rather than a simple unified agent that sometimes fails — arrived at from three distinct traditions (Augustinian theology, Pascalian apologetics, Heideggerian phenomenology)"
+critical-questions:
+  - "do the three traditions actually name the SAME structural division, or does grouping them obscure real differences — Augustine's is a moral/theological division of will, Pascal's is a psychological account of motivated avoidance, and Heidegger's is a formal ontological structure prior to any particular content — is 'divided self' doing too much unifying work across genuinely different claims?"
+  - "does lex-cgbrt's distraction-avoidance claim actually require lex-5tpy8's multiple-wills claim to be true, or could distraction-avoidance be fully explained without positing competing sub-agents (e.g., a single agent simply finding self-attention aversive)?"
+  - "is Heidegger's care-structure (665) meant as the general ontological ground that both 740 and 741 are ontic instances of, which would make this more of a sequential/foundational relationship than a flat classification of three siblings?"
+lineage:
+  - source: practitioner
+    text: assembled-from-lex-5tpy8-lex-cgbrt-lex-zd4sv
+    citation: "Molecule assembled from lex-5tpy8 (single-self-houses-multiple-competing-volitional-sub-agents, Augustine), lex-cgbrt (outward-distraction-is-sought-to-avoid-contemplation-of-own-condition, Pascal), and lex-zd4sv (care-is-the-formal-unity-of-projection-thrownness-engagement, Heidegger). lex-cgbrt's own text: 'Composes with lex-5tpy8 + lex-rfcb7. Composes with lex-zd4sv (Heidegger care-structure).' Types don't chain (740: structure→claim, 741: process→claim, 665: state→frame), and 740/741 share type-out=claim but different type-in, so `classification` rather than `sequential`/`parallel`."
+canonical-instances:
+  - "A person who has resolved, sincerely, to spend the evening on a task they know matters, finds themselves an hour later scrolling instead: the failure isn't ignorance of the goal but a competing sub-agent within the self that wanted something else (lex-5tpy8), and the scrolling itself is sought specifically because attending to their own unfinished condition is uncomfortable (lex-cgbrt) — both are ontic phenomena within the deeper structure of a self that is always already thrown into a situation it didn't choose while projecting toward possibilities and absorbed in some current engagement (lex-zd4sv)."
+  - "An organization's leadership team knows the strategically correct move but keeps deferring it in favor of urgent-feeling busywork: read through Augustine's lens, this is competing organizational sub-wills rather than simple negligence (lex-5tpy8); read through Pascal's lens, the busywork is sought to avoid confronting the organization's actual, harder condition (lex-cgbrt); read through Heidegger's lens, the organization (like any Dasein-analog) is structurally thrown into inherited constraints while projecting toward goals and absorbed in present tasks, and none of the three readings reduces to a simple willpower or time-management fix (lex-zd4sv)."
+status: under-review

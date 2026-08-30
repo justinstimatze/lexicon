@@ -1,0 +1,19 @@
+id: lex-ppe2s
+name: an-audiences-own-reflex-can-become-live-proof-of-your-point
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When you cannot win an audience's attention through direct address, check whether an incomplete narrative hook can pull them in, and then use their own reflexive response to the hook as demonstrated evidence for your actual point. Demades, unable to quiet a distracted audience with a direct speech, tells a fable about Demeter, a swallow, and an eel crossing a river, then stops mid-story right as Demeter's fate is left unresolved; when the crowd calls out 'What happened to Demeter?' he answers: 'Demeter is very angry with you for listening to fables when you ought to be minding public business.' The rebuke does not merely assert that the audience is distractible — their own demonstrated curiosity, captured live in the moment, is the proof."
+related: []
+evokes: [aesop, demades-and-his-fable, performative-rebuke, audience-reflex-as-live-evidence]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-demades-and-his-fable
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'Demades and His Fable.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Demeter, a Swallow, and an Eel were once travelling together, and came to a river without a bridge: the Swallow flew over it, and the Eel swam across; and then he stopped. What happened to Demeter? cried several people in the audience. Demeter, he replied, is very angry with you for listening to fables when you ought to be minding public business."
+canonical-instances:
+  - "a teacher or manager who cannot get a room to focus hooks them with an engaging but irrelevant aside, then explicitly points out that the room just proved the point about misplaced attention by falling for the hook itself."
+critical-questions:
+  - "Does this move risk backfiring if the audience feels tricked rather than persuaded — does the demonstrated proof land as insight, or does it read as a cheap gotcha that damages the speaker's credibility instead?"
+  - "Would the rebuke have landed with the same force if Demades had simply asserted the audience's distractibility directly, or does the live, self-incriminating nature of the demonstration specifically carry the persuasive weight here?"
+status: active

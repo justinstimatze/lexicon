@@ -1,0 +1,24 @@
+id: lex-zbncd
+name: rising-credential-bar-closes-internal-mobility-and-imports-class-cleavage
+type-in: state
+type-out: claim
+_tier: atomic
+agent-instruction: "When a field's operating positions come to require formal technical credentials that were not previously required, check for two effects landing together rather than separately: the informal channel of promotion-from-within (rising through the ranks on demonstrated skill) closes, AND — if access to the new credential is itself unevenly distributed across social strata — the newly credentialed entrants are increasingly drawn from strata already remote from the people they will now supervise, importing an external class cleavage into what had been an internal hierarchy of experience. Merton: 'Advances in methods of production, as Elliott Dunlap Smith and Robert S. Lynd, among others, have observed, may enlarge the social cleavage between workmen and operating executives. It may produce a sharper social stratification of industry.' He then traces the specific mechanism through educational access: 'To the extent that opportunities for higher education are socially stratified, moreover, managers come increasingly to be drawn from social strata remote from those of workers. Also, since technically trained personnel enter industry at a relatively high level, they have little occasion to share the job experience of workers at an early stage of their careers and tend, accordingly, to have an abstract knowledge about rather than a concrete acquaintance with the perspective of workers.' Diagnostic use: when a field professionalizes by adding a credential requirement, don't evaluate the change only on whether the credential improves competence — separately ask (a) whether it closes a promotion channel that previously let experienced non-credentialed people rise, and (b) whether access to the credential itself tracks existing social stratification; if both are true, the field should expect growing distance in outlook between its newly credentialed leaders and its front-line workers, independent of any individual leader's good intentions."
+related: []
+evokes: [merton-1957, elliott-dunlap-smith, robert-s-lynd, social-cleavage-between-workmen-and-executives, abstract-knowledge-not-concrete-acquaintance]
+lineage:
+  - source: primary
+    text: merton-1957-technology-enlarges-social-cleavage
+    citation: "Robert K. Merton, Social Theory and Social Structure, Revised and Enlarged Edition (Glencoe, IL: Free Press, 1957), Ch. XVII 'The Machine, the Worker, and the Engineer,' p.565. Verified verbatim against a University of Iowa library scan via Internet Archive OCR text (item 31858016281432)."
+    quote: "'Advances in methods of production, as Elliott Dunlap Smith and Robert S. Lynd, among others, have observed, may enlarge the social cleavage between workmen and operating executives. It may produce a sharper social stratification of industry.'"
+  - source: primary
+    text: merton-1957-managers-drawn-from-strata-remote-from-workers
+    citation: "Robert K. Merton, Social Theory and Social Structure (1957), same chapter, p.566."
+    quote: "'To the extent that opportunities for higher education are socially stratified, moreover, managers come increasingly to be drawn from social strata remote from those of workers. Also, since technically trained personnel enter industry at a relatively high level, they have little occasion to share the job experience of workers at an early stage of their careers and tend, accordingly, to have an abstract knowledge about rather than a concrete acquaintance with the perspective of workers.'"
+canonical-instances:
+  - "A trade that begins requiring a four-year degree for supervisory roles it previously filled by promoting its most skilled tradespeople closes an internal ladder at the same moment it starts recruiting supervisors from a demographic that never worked the floor."
+  - "A hospital system that shifts head-nurse and ward-management roles to require an MBA-style credential, rather than promoting from its own senior nursing staff, ends up with managers whose acquaintance with patient-floor work is abstract rather than concrete, exactly as Merton describes for industry."
+critical-questions:
+  - "Does raising the credential bar always produce this effect, or only when the credential's cost or access is itself stratified — i.e., would a widely and cheaply available credential (e.g., a free certification open to all incumbents) avoid the class-cleavage half of the mechanism while still closing the pure seniority-based promotion path?"
+  - "Is the resulting gap in outlook (abstract knowledge vs. concrete acquaintance) reversible by deliberate rotation or shadowing programs, or does Merton's account imply the gap is structurally reinforced by the recruitment pattern itself, requiring a change to who is recruited rather than added training for whoever is already recruited?"
+status: active

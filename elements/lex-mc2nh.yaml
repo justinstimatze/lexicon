@@ -1,0 +1,19 @@
+id: lex-mc2nh
+name: fear-tracks-a-threats-capacity-to-multiply-not-its-present-harm
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When assessing how alarmed to be about a threat, check whether the calibration is actually about its current magnitude or about its potential to replicate. In Aesop's 'The Frogs' Complaint Against the Sun,' the frogs are not primarily troubled by the sun as it stands: 'The Sun is bad enough even while he is single, drying up our marshes with his heat as he does. But what will become of us if he marries and begets other Suns?' The present harm is described as tolerable; the anticipated harm from the threat multiplying is what actually drives the alarm. Treating the two as the same thing — reacting only to what a threat currently does rather than to what it could become if it reproduces — misreads where the real danger sits."
+related: []
+evokes: [aesop, the-frogs-complaint-against-the-sun, anticipatory-scaling-risk, replication-as-the-real-threat]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-frogs-complaint-against-the-sun
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Frogs' Complaint Against the Sun.' Verified verbatim against a direct extraction of the held copy."
+    quote: "The Sun is bad enough even while he is single, drying up our marshes with his heat as he does. But what will become of us if he marries and begets other Suns?"
+canonical-instances:
+  - "an antitrust objection to a dominant platform's acquisition, aimed less at the current harm the platform causes than at the multiplication of that harm across many more subsidiaries once the deal expands its reach."
+critical-questions:
+  - "How would an observer distinguish a genuine multiplication risk from unfounded catastrophizing about a threat that has no real mechanism to reproduce — what would count as evidence the sun actually could 'marry and beget other Suns'?"
+  - "Does front-loading concern about future multiplication risk drawing attention and resources away from the present, tolerable harm that is actually happening right now?"
+status: active

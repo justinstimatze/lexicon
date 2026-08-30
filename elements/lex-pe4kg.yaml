@@ -1,0 +1,19 @@
+id: lex-pe4kg
+name: an-unverifiable-self-reported-claim-settles-a-status-dispute-peacefully
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A status dispute among parties with no existing hierarchy can be resolved peacefully by accepting an unverifiable, self-reported claim at face value, rather than by force, even though nothing about the claim can actually be checked. In the Jataka's tale of the partridge, monkey, and elephant, the three animals determine seniority by each recounting how far back their memory of a shared banyan-tree extends. The partridge wins by claiming to have eaten the seed of the tree's predecessor, a claim no one present has any way to confirm or refute. The group accepts it anyway, because the alternative — contesting seniority by force or by an equally unverifiable counter-claim — costs more than treating the assertion as settled."
+related: []
+evokes: [jataka, ekanipata, tittira-jataka, unverifiable-claim-settles-status-peacefully, accepting-unfalsifiable-testimony-over-force]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-tittira-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 37, Tittira-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Friends, of old there was a great banyan-tree at such and such a spot; I ate its seeds, and voided them here; that was the origin of this tree. Therefore, I have knowledge of this tree from before it was born, and am older than the pair of you.\""
+canonical-instances:
+  - "Three co-founders with no formal org chart settle who gets final say on product decisions when one recounts, unprompted and unprovable, having sketched the original concept on a napkin before the others joined, and the other two accept the account rather than litigate the point."
+critical-questions:
+  - "What happens once a self-reported claim like this is later shown to be false — does the settled hierarchy collapse retroactively, or does the peaceful outcome it produced stand on its own regardless of the claim's truth?"
+  - "Does this mechanism only work when the stakes of getting seniority wrong are low, the way lodging order is here, or does it break down once the disputed status carries real consequences worth contesting harder?"
+status: active

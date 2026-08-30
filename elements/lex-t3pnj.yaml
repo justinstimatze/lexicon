@@ -1,0 +1,19 @@
+id: lex-t3pnj
+name: a-manufactured-signal-of-strength-deters-without-any-real-defense
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A lone, undefended target can deter an attack by manufacturing the sound and appearance of a roused, defended household, giving intruders no way to distinguish a genuine defense from a performance of one. In the Jataka's tale of the friend named Curse, alone in a house at night with burglars outside, he runs about rousing imaginary occupants, ordering one to sound the conch and another to beat the drum, filling the house with the noise of activity that isn't there. The burglars, hearing what sounds like a full, alert household, conclude the place isn't as undefended as they'd been told and flee without ever testing whether the signal was real."
+related: []
+evokes: [jataka, ekanipata, kalakanni-jataka, manufactured-signal-deters-without-real-defense, noise-of-defense-substitutes-for-defense]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kalakanni-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 83, Kalakanni-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"The house is not so empty as we were told; the master must be at home.\""
+canonical-instances:
+  - "A solo shopkeeper closing up alone at night keeps a radio tuned to a talk station, playing at normal volume from the back room. Anyone casing the store from outside hears what sounds like two people talking, not one person locking up by themselves."
+critical-questions:
+  - "Does this technique only work against an opportunistic threat deciding in the moment, or would an attacker who had done real reconnaissance beforehand see through the manufactured signal immediately?"
+  - "What happens the first time the bluff is called — is there a fallback once an intruder decides to test the signal directly rather than simply walking away?"
+status: active

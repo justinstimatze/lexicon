@@ -1,0 +1,19 @@
+id: lex-hmmpr
+name: a-subordinate-tests-the-unverified-substance-before-the-superior-consumes-it
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Before consuming an unknown or unverified substance himself, a person of higher status can have a lower-status subordinate consume it first, using the subordinate''s outcome as the safety test. In the Jataka''s tale of Mahakapi, the king does exactly this with the unfamiliar mango: "he cut it with a knife, and first making the foresters eat of it, he ate of it himself and had some of it given to his seraglio and his ministers."'
+related: []
+evokes: [jataka, sattanipata, mahakapi-jataka, risk-transferred-to-a-subordinate-first, royal-food-taster-pattern]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahakapi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 407, Mahakapi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "he cut it with a knife, and first making the foresters eat of it, he ate of it himself [371] and had some of it given to his seraglio and his ministers."
+canonical-instances:
+  - "Before rolling a risky config change out to the whole fleet, a platform team pushes it first to a low-priority internal service and only proceeds to production once that instance has run clean for a full day."
+critical-questions:
+  - "Does routing the risk through a lower-status subordinate first actually discharge the higher-status person's responsibility for what happens to that subordinate, or just delay when the responsibility gets acknowledged?"
+  - "Is the subordinate's consent to bear that risk ever genuinely free, or does the power difference that makes them available for the test also make refusing it costly?"
+status: active

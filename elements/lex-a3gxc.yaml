@@ -1,0 +1,20 @@
+id: lex-a3gxc
+name: quietly-tip-off-the-target-instead-of-exposing-the-schemer
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Rather than confront or expose a schemer, a person with covert intelligence about a plan can quietly tip off the intended victim with specific corrective instructions, neutralizing the plan without ever revealing the source of the information. In the Jataka''s tale of Parantapa, the king does exactly this for the sleeping traveler whose shoes are about to be stolen: he opened a window and said, "Who is there?" "I, your majesty, a traveller." "Where are your shoes?" "On the floor." "Lift them and bang them up."'
+related: [lex-d2jqm]
+scaffolds-from: [lex-d2jqm]
+evokes: [jataka, sattanipata, parantapa-jataka, tip-off-without-exposing-the-source, neutralize-a-plot-covertly]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-parantapa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 416, Parantapa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "the Bodhisatta understood her call, and leaving his bedroom he opened a window and said, \"Who is there?\" \"I, your majesty, a traveller.\" \"Where are your shoes?\" \"On the floor.\" \"Lift them and bang them up.\""
+canonical-instances:
+  - "Overhearing that a vendor plans to exploit a specific gap in a client's contract renewal process, an account manager doesn't call out the vendor — she just quietly tells the client to tighten that one clause before renewal, without ever explaining how she knew."
+critical-questions:
+  - "Does protecting the source at the cost of never confronting the schemer let the same scheme resurface later against someone else, since the schemer faces no consequence?"
+  - "What does the intended victim lose by never learning who protected them or why, compared to a more direct warning that named the threat?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-kh2g5
+name: tolerance-for-inconsistency-is-bounded-by-a-social-label
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Corporate bureaucracies place no real premium on consistency and impose no real check on ordinary inconsistency in stated positions over time — as long as the person maintains the right appearances and never gets stuck with the social label of being 'flaky.' The boundary being enforced isn't logical coherence, it's reputational: the same amount of actual position-shifting is tolerated indefinitely for someone read as savvy and penalized instantly for someone who acquires the flaky label. This means predicting whether someone can get away with shifting a stated position isn't about how large or frequent the shift is — it's about which side of an already-assigned reputational label they're currently standing on."
+related: []
+evokes: [jackall-moral-mazes, "does not get stuck with the label of being flaky", the-flaky-label-not-the-inconsistency-is-punished]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch6-flaky-label
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 6, Dexterity with Symbols."
+    quote: "corporate bureaucracies do not, however, put any premium on such garden variety inconsistency. There is also no check on it as long as one carefully maintains the requisite appearances and does not get stuck with the label of being \"flaky.\""
+canonical-instances:
+  - "Two executives reverse the same strategic position within the same quarter; one is described afterward as 'adapting to new information' and the other, already carrying a reputation for indecision, is described as 'flip-flopping again' — the actual reversal is identical in both cases."
+critical-questions:
+  - "Once someone acquires the flaky label, is there any behavior that actually removes it, or does the label become self-sustaining regardless of subsequent consistency, since every future shift gets read through the lens the label already established?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-wnx2c
+name: self-interested-advisors-escalate-ambiguous-fear-into-a-remedy-that-profits-them
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When the people consulted to interpret an ambiguous, frightening event stand to personally profit from whatever remedy they prescribe, watch for the interpretation to escalate toward the most expensive, most profitable-to-them intervention rather than the most accurate one. In the Jataka's tale of the four cries, the king's brahmins, asked to explain unexplained sounds in the night, prescribe a massive kingdom-wide sacrifice — and the text shows them openly relishing the personal payoff rather than the diagnosis itself: 'they dug a sacrificial pit and fastened their numerous victims to their stakes, and were highly excited at the thought of the dainties they were to eat, and the wealth they would gain, and went about backwards and forwards, saying, \"Sir, I must have so and so.\"'"
+related: []
+evokes: [jataka, catukkanipata, lohakumbhi-jataka, an-interpreters-financial-stake-inflates-the-prescribed-remedy, ambiguous-fear-escalated-toward-the-advisors-own-profit]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-lohakumbhi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 314, Lohakumbhi-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "they dug a sacrificial pit and fastened their numerous victims to their stakes, and were highly excited at the thought of the dainties they were to eat, and the wealth they would gain, and went about backwards and forwards, saying, \"Sir, I must have so and so.\""
+canonical-instances:
+  - "A homeowner hears strange noises in the attic and calls a pest-control company for a quote; the technician who profits per treatment recommends a full-property fumigation costing thousands, while an independent inspector later finds the noise was just a loose vent flap."
+critical-questions:
+  - "Is the escalation always consciously self-serving, or can advisors genuinely believe in the expensive remedy while also happening to benefit from it — does the mechanism require deliberate deception, or just structurally misaligned incentives?"
+  - "What check exists against this besides consulting a disinterested outside authority, as Queen Mallika does — is there a way to detect self-interested escalation from inside the advisory relationship itself?"
+status: active

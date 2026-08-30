@@ -1,0 +1,19 @@
+id: lex-pn3he
+name: believing-your-own-pr-forecloses-the-reflection-it-requires
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Managers who come to genuinely believe their own organization's and their own personal public relations narrative pay a specific cost: the attainment of that level of sincerity actively inhibits critical reflection, especially about moral dilemmas. This is a distinct failure mode from cynical performance of a narrative one doesn't believe — the cynical performer at least retains the internal vantage point from which to notice a gap between story and reality, while the genuine believer has collapsed that vantage point entirely and lost the very capacity that would let them notice something is wrong. Ironically, becoming a more convincing, more sincere believer in one's own narrative is what closes off the reflective capacity needed to catch a real problem before it becomes a crisis."
+related: []
+evokes: [jackall-moral-mazes, "inhibits critical reflection, especially about moral dilemmas", genuine-belief-in-your-own-narrative-forecloses-reflection]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch8-believing-own-pr
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 8, Invitations to Jeopardy, Section II."
+    quote: "some managers often come to believe, as noted earlier, their own public relations about their organizations and about themselves. The attainment of such a degree of sincerity inhibits critical reflection, especially about moral dilemmas."
+canonical-instances:
+  - "An executive who has spent years genuinely internalizing the company's self-narrative as an ethical industry leader is the last person in the organization to notice a developing scandal that everyone maintaining more cynical distance from the same narrative saw coming."
+critical-questions:
+  - "Is sincere belief actually the worse position here, or does the cynical performer's retained critical distance just as often get used to rationalize continuing a problem rather than to catch and fix it — does either stance reliably outperform the other in practice?"
+status: active

@@ -1,0 +1,20 @@
+id: lex-df99k
+name: perceived-exhaustion-signals-far-earlier-than-actual-capacity-runs-out
+type-in: state
+type-out: claim
+_tier: atomic
+agent-instruction: "Treat the feeling of having reached your absolute limit as an early warning signal, not a measurement of remaining capacity. Goggins's claim from his own ultra-endurance experience is that the quitting impulse fires at roughly 40% of true capacity, leaving most of what's actually available untapped. This is a single athlete's self-report and personal framework, not a measured physiological finding — no controlled study backs the specific 40% figure, and 'governor' is Goggins's own metaphor for whatever mechanism produces the early warning, not an established biological process. Use it as a prompt to test the feeling against reality in a specific instance (can you actually do ten more, one more mile, one more round) rather than as a citable statistic to apply automatically."
+evokes: [goggins, the-40-percent-rule, central-governor-model, perceived-exertion, callusing-the-mind]
+lineage:
+  - source: primary
+    text: goggins-2018-cant-hurt-me-ch10-the-40-percent-rule
+    citation: "David Goggins, Can't Hurt Me: Master Your Mind and Defy the Odds (Lioncrest Publishing, 2018), Chapter 10 'The 40% Rule.' Verified verbatim against the source text. Evidentiary status: this is a single ultra-endurance athlete's self-report and coined framework, echoing without directly citing the contested Central Governor Model of fatigue (Noakes) — no peer-reviewed source for the specific 40% figure is cited by Goggins."
+    quote: "Sadly, most of us give up when we've only given around 40 percent of our maximum effort. Even when we feel like we've reached our absolute limit, we still have 60 percent more to give! That's the governor in action! Once you know that to be true, it's simply a matter of stretching your pain tolerance, letting go of your identity and all your self-limiting stories, so you can get to 60 percent, then 80 percent and beyond without giving up. I call this The 40% Rule."
+canonical-instances:
+  - "Goggins's own account of the Hurt 100 ultramarathon: he describes repeatedly hitting a wall he believed was his true limit, then continuing well past it once he reframed the wall as a mental signal rather than a physical ceiling — the anecdote that generated the rule, not a controlled test of it."
+  - "operationally distinct from ordinary deliberate-practice or comfort-zone-expansion claims already in this corpus: those describe training design at the edge of demonstrated ability with structured feedback. This atom is narrower and more specific — a claim about the size of the gap between a felt limit and an actual one, offered as a number, with no measurement behind the number."
+critical-questions:
+  - "Has the 40% figure ever been tested against an objective performance measure, or is it purely a felt estimate repeated because it's memorable and motivating? Treat any specific percentage in this territory as rhetorical until shown otherwise."
+  - "Does pushing past a perceived limit ever coincide with the limit being real — genuine injury risk, cardiac or heat-related danger — rather than merely psychological? The Central Governor Model this rule echoes is itself contested partly on that exact point — some physiological limits function as real safety boundaries rather than conservative overestimates."
+  - "Is this atom being applied to physical endurance specifically, or stretched to cover unrelated domains (cognitive effort, emotional resilience) where the underlying mechanism, if any, may be completely different?"
+status: active

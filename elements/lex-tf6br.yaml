@@ -1,0 +1,35 @@
+id: lex-tf6br
+name: catastrophic-clarification
+type-in: state
+type-out: state
+_tier: atomic
+agent-instruction: "When ambiguity persists long past comfort, force catastrophic clarification: name the worst case explicitly and act as if it's true until proven otherwise. The clarification cost is real but bounded; ambiguity's cost compounds invisibly."
+related: [lex-8ennw, lex-ypecd, lex-zgmyw, lex-2x8qw, lex-vtytt, lex-ppq72, lex-6vpw5]
+evokes: [the-tower-falls, creative-destruction, dark-night-of-the-soul, sudden-revelation-via-collapse, the-edifice-collapses-and-the-sky-is-visible]
+lineage:
+  - source: practitioner
+    text: tarot-the-tower-card
+    citation: "Tarot's The Tower (Major Arcana XVI): a tower struck by lightning, occupants falling — depicts catastrophic collapse of a structure that was hiding or constraining truth. The collapse is the revelation. Distinctively NOT a card about gradual improvement; the breakthrough is structurally violent"
+  - source: practitioner
+    text: schumpeter-1942-creative-destruction
+    citation: "Joseph Schumpeter, Capitalism, Socialism and Democracy (Harper & Brothers, 1942), Chapter 7 'The Process of Creative Destruction.' Canonical economic statement: destruction IS what creates space for the new; not opposed-to-progress but constitutive-of-progress"
+    quote: "The opening up of new markets, foreign or domestic, and the organizational development from the craft shop and factory to such concerns as U.S. Steel illustrate the same process of industrial mutation—if I may use that biological term—that incessantly revolutionizes the economic structure from within, incessantly destroying the old one, incessantly creating a new one. This process of Creative Destruction is the essential fact about capitalism."
+  - source: practitioner
+    text: eldredge-gould-1972-punctuated-equilibrium
+    citation: "Niles Eldredge and Stephen Jay Gould, 'Punctuated equilibria: an alternative to phyletic gradualism' (1972) — biological evolution proceeds via long stasis interrupted by rapid speciation events; the discontinuity is the mechanism"
+  - source: practitioner
+    text: tarot-decomposition-pass
+    citation: "promoted from cross-attestation: Tarot (The Tower), economics (Schumpeter creative destruction), biology (punctuated equilibrium), software engineering (clean-rewrite vs incremental-refactor: sometimes the legacy system blocks improvement and only destruction-and-rebuild creates space), religion (the dark night of the soul as Catholic/Carmelite mystical tradition's name for breakthrough-via-collapse — John of the Cross), therapy (crisis-as-breakthrough in clinical practice), geology (catastrophism as geological theory)"
+canonical-instances:
+  - "Schumpeter's canonical case: railroads displaced canals; the displacement WAS the productivity gain. Trying to preserve canals while developing railroads would have produced neither. The destruction was the mechanism"
+  - "software clean-rewrite: when a legacy system's accumulated technical debt prevents adding new features faster than it accumulates new debt, incremental refactoring may be net-negative; sometimes only burning-it-down-and-starting-over enables progress. The Tower move applied to engineering"
+  - "punctuated equilibrium in biology: the Cambrian explosion (~540 mya) added more body plans in 20 million years than the previous 3 billion years; the rapid speciation event was discontinuous with the prior near-stasis. The catastrophe-flavored discontinuity IS the mechanism by which evolution explores design-space"
+  - "operationally distinct from lex-8ennw harm-as-resource-via-redirection: harm-as-resource RECYCLES a harmful effect as input for value generation (waste heat → district heating); catastrophic-clarification is the SPECIFIC SHAPE where DESTRUCTION CREATES SPACE for new structure to emerge. The harm isn't recycled; it's the mechanism for clearing"
+  - "operationally adjacent to lex-ypecd inversion-as-meaning-modifier: a catastrophic-clarification can be read as the inversion of stability-as-progress (sometimes destabilization IS progress); the orientation flip is informative"
+  - "cardinal critical question: is the proposed catastrophe ACTUALLY a clarification (the destroyed structure was load-bearing-on-falsehood), or is it just destruction without revelation? The Tower card requires the lightning + the falling occupants + the visible new ground. Without all three, the move is just destruction"
+critical-questions:
+  - "is the catastrophe surfacing structure that was always there, or producing new structure under load? mistake the second for the first and you mis-design the recovery"
+  - "what was unknowable before the failure that is now knowable — and is that learning preservable past the next quiet period?"
+  - "is the urge to 'never let this happen again' a learning move or a control move? the second often blocks the first"
+  - "could you have obtained the same clarification at lower cost via a deliberate stress probe before the catastrophe — why didn't you?"
+status: active

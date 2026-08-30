@@ -1,0 +1,19 @@
+id: lex-p2cdm
+name: a-grudge-stays-concealed-until-the-power-balance-flips
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A grudge held against someone with power over you can stay completely hidden for years, showing no sign of its existence until the roles reverse and acting on it finally becomes safe. The absence of visible resentment during the period of subordination is not evidence the resentment isn't there. In the Jataka's tale of the caned student, a boy is punished for repeated theft and hides the resulting fury rather than showing it: 'the offence he hid away in his heart, and determined to murder his teacher.' Decades pass with no outward sign. Only once he has inherited the throne, and the teacher is powerless before him, does the concealed grudge surface as an actual plan for execution."
+related: []
+evokes: [jataka, tikanipata, tila-muttha-jataka, concealed-resentment-waits-for-a-power-reversal-to-act, absence-of-visible-anger-is-not-absence-of-grudge]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-tila-muttha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 252, Tila-muttha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "But the offence he hid away in his heart, and determined to murder his teacher."
+canonical-instances:
+  - "A junior employee disciplined harshly for a minor error shows no outward resentment for years, and only once promoted above the manager who disciplined them does the old grievance resurface as a deliberate campaign to have that manager removed."
+critical-questions:
+  - "Is there any reliable way to detect a concealed grudge before the power balance shifts, or does the concealment strategy specifically depend on giving the powerful party no signal to act on while they still hold the advantage?"
+  - "Does the length of the concealment change how the eventual act should be judged — does decades of hidden resentment make the retaliation more justified, or does the deliberate patience make it more calculated and less excusable?"
+status: active

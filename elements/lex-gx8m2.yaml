@@ -1,0 +1,30 @@
+id: lex-gx8m2
+name: find-related-problem
+type-in: question
+type-out: claim
+_tier: atomic
+agent-instruction: "When stuck on a hard problem, surface Pólya's find-related-problem move — search for a simpler/analogous problem you already know how to solve; the solution path often transfers with adjustment."
+related: [lex-89rjr, lex-xcaqj, lex-bpr6b, lex-p6p82, lex-dvydj, lex-s7qxv, lex-xfsbm, lex-w2ayd, lex-bwghp]
+scaffolds-from: [lex-dvydj, lex-xfsbm]
+evokes: [recognize-structural-analog, recall-prior-solved-instance, analogical-recognition-before-derivation, similarity-as-shortcut]
+lineage:
+  - source: primary
+    text: polya-1945
+    citation: "George Polya, How to Solve It (Princeton UP 1945; 2nd ed. 1957) — 'Have you seen it before?' as the canonical Stage-2 (Devising a plan) prompt; the front-matter chart (p.xvi) lists it as the SECOND DEVISE-A-PLAN question after 'Find the connection between the data and the unknown.' The fuller treatment is in the dictionary entry on p.110"
+    quote: "Have you seen it before? It is possible that we have solved before the same problem that we have to do now, or that we have heard of it, or that we had a very similar problem. These are possibilities which we should not fail to explore. We try to remember what happened. Have you seen it before? Or have you seen the same problem in a slightly different form? Even if the answer is negative such questions may start the mobilization of useful knowledge. [p.110 — the canonical have-you-seen-it-before treatment.] In order to obtain the solution, we have to extract relevant elements from our memory, we have to mobilize the pertinent parts of our dormant knowledge. ... Thus, any feature of the present problem that played a role in the solution of some other problem may play again a role. Therefore, if any feature of the present problem strikes us as possibly important, we try to recognize it. [p.110 — the operational mechanism: feature-driven analogical retrieval.] [Front-matter chart, p.xvi: 'Have you seen it before? Or have you seen the same problem in a slightly different form? Do you know a related problem? Do you know a theorem that could be useful?']"
+  - source: practitioner
+    text: case-based-reasoning-literature
+    citation: "Schank 1982 (dynamic memory), Kolodner 1993 — CBR as the AI subfield built around find-related-problem"
+  - source: practitioner
+    text: polya-decomposition-pass
+    citation: "promoted from cross-attestation: Polya, case-similarity-mapping (the structural-mapping concept this find-step feeds into — reserved during early planning but never minted), CBR, programmer 'have I done this before' tradecraft"
+canonical-instances:
+  - "RECOGNIZE the structurally-analogous solved problem ('this looks like the inscribed-angle theorem applies') BEFORE re-deriving from scratch — recall a known case, not blind search"
+  - "encountering a new bug: search the issue tracker for similar symptoms before reading the offending code from scratch"
+  - "research literature search: the discipline of 'check if someone has solved this' before re-deriving. Distinct from goal-state-anchoring (lex-89rjr): anchoring fixes WHAT-DONE-LOOKS-LIKE; find-related fetches HOW-IT-WAS-SOLVED-BEFORE."
+critical-questions:
+  - "is the related problem actually analogous, or merely surface-similar? Polya's 'have you seen it before' relies on STRUCTURAL similarity — same shape of unknown, same kind of data. Surface-similar problems (same words, same domain) can mislead if their structure differs. Name the shared structural feature, not just the keyword"
+  - "is recall faster than re-derivation here? for novel problems, retrieving an analogue + adapting it can be slower than fresh derivation when the analogue must be heavily modified. The discipline: estimate adaptation-cost vs derivation-cost before committing to the retrieved analogue"
+  - "is the practitioner's memory the right scope, or do they need external search? Polya assumes solver-memory; in modern practice the analogue may be in a library, paper, or codebase never seen. lex-gx8m2 extends to external search (issue trackers, literature) — but the analogical-recognition step still has to happen on retrieval"
+  - "is this distinct from lex-89rjr goal-state-anchoring? anchoring fixes WHAT-DONE-LOOKS-LIKE; find-related fetches HOW-IT-WAS-SOLVED-BEFORE. They co-fire — you can anchor goal-state then find a related problem whose solution maps to it — but the moves differ"
+status: active

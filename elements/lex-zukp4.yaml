@@ -1,0 +1,19 @@
+id: lex-zukp4
+name: a-costume-fools-the-naive-but-not-the-discerning-judge
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A costume signaling membership in a trusted category can pass an inspection that only checks the costume. It fails completely against an inspection that checks the underlying substance the costume claims to represent. In the Jataka's tale of the monkey and the ascetic's hut, a cold monkey dons a dead hermit's bark robe and gear to be let in by the fire. The child, reading only the costume, urges his father to admit the 'poor old hermit'; the father looks past the robe to the face and refuses: 'He would but defile our dwelling if he came inside the door; Such a face--'tis easy telling--no good brahmin ever bore.' The costume was never wrong about what it claimed to be — it just never had to survive contact with someone checking for the thing itself rather than its markers."
+related: [lex-k4zph]
+evokes: [jataka, dukanipata, makkata-jataka, surface-marker-vs-substance-check, a-trust-signal-only-fools-whoever-doesnt-check-past-it]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-makkata-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 173, Makkata-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "He would but defile our dwelling if he came inside the door; Such a face--'tis easy telling--no good brahmin ever bore."
+canonical-instances:
+  - "A candidate whose resume and interview answers hit every keyword a junior recruiter is screening for sails through the first round. A senior engineer then asks them to actually reason through a problem instead of naming the right frameworks, and the candidate is caught out immediately."
+critical-questions:
+  - "Is the father's rejection actually reliable, or is 'no good brahmin ever bore that face' just a different, subtler surface heuristic — physiognomy instead of costume — that happens to get the right answer here without being a genuine substance check either?"
+  - "How often does a costume-level check get relied on specifically because a substance check is expensive or slow, and is that tradeoff usually made consciously or does it just default to whoever's doing the checking that day?"
+status: active

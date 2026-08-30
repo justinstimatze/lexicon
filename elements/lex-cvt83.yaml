@@ -1,0 +1,19 @@
+id: lex-cvt83
+name: certainty-of-a-bad-outcome-ends-suffering-that-hope-prolongs
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Sustained uncertainty about whether something wanted will arrive keeps a person in active distress; the moment that uncertainty resolves into certain disappointment, the distress can end faster than it would have if hope had never been abandoned — because hope itself was the thing keeping the person keyed up. In the Jataka's tale of the waiting slave, Pingala waits all night for her lover, growing more anxious with each passing watch, but finds peace the instant she gives up: 'but at daybreak, losing hope, she said, \"He will not come now,\" and lay down and fell asleep.'"
+related: []
+evokes: [jataka, catukkanipata, silavimamsa-jataka, abandoning-hope-can-end-suffering-faster-than-sustaining-it, certainty-of-loss-brings-peace-that-uncertainty-withholds]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-silavimamsa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 330, Silavimamsa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "but at daybreak, losing hope, she said, \"He will not come now,\" and lay down and fell asleep."
+canonical-instances:
+  - "A job applicant who spends weeks anxiously refreshing their email for a response finally gets the rejection and, rather than feeling worse, sleeps soundly for the first time in days — the bad news ended a suspense that was costing more than the disappointment itself."
+critical-questions:
+  - "Does this pattern generalize, or does it depend on the specific case where continued hope genuinely had no realistic payoff — would giving up prematurely on a still-live possibility produce the same peace, or just needless regret?"
+  - "Is peace here actually a good outcome, or is it a form of resignation that forecloses any further effort to change the situation while it might still be changeable?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-8js7x
+name: close-a-shortfall-by-substituting-your-own-body-for-the-missing-link
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When a physical or logistical plan comes up short of its target because of a miscalculation, the person responsible can close the remaining gap by holding the structure together with their own body, becoming the missing piece of infrastructure so others can cross safely. In the Jataka''s tale of Mahakapi, the monkey-king does exactly this after his bridge falls short: "so seizing a branch firmly with both hands he gave signal to the troop of monkeys, ''Go quickly with good luck, treading on my back along the bamboo shoot.''"'
+related: [lex-ptch5, lex-ryam5]
+evokes: [jataka, sattanipata, mahakapi-jataka, self-as-missing-infrastructure, close-the-gap-with-your-own-body]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahakapi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 407, Mahakapi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "so seizing a branch firmly with both hands he gave signal to the troop of monkeys, \"Go quickly with good luck, treading on my back along the bamboo shoot.\""
+canonical-instances:
+  - "When a structural beam turns out to be a foot short of code on-site, the lead contractor braces the gap with his own body weight while the crew finishes the pour, rather than stopping the job to fabricate a proper extension."
+critical-questions:
+  - "Is substituting your own body for a missing structural piece genuine leadership, or does it just paper over a planning failure that should have been caught before anyone was standing on it?"
+  - "What happens to everyone who depended on the gap being closed if the substitute — a person, unlike a fixed structure — reaches their physical limit partway through?"
+status: active

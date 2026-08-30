@@ -1,0 +1,19 @@
+id: lex-85xp2
+name: staged-status-theater-extracts-payment-from-inferring-rivals
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Rivals who can't observe your real capital directly will price you based on visible signals of commitment and status, so staging those signals can extract payment even without the capital they imply. In the Jataka's mouse-merchant tale, a young trader makes a token down payment on an unseen ship's cargo, then pitches a pavilion and instructs his staff to pass visitors through three successive ushers before reaching him. A hundred merchants, reading the theater as evidence of serious backing, each pay him twice over — once to buy a share, again to buy him out entirely — inferring his leverage from the performance rather than from any capital he actually holds."
+related: []
+evokes: [jataka, ekanipata, cullaka-setthi-jataka, staged-status-signal, inferred-leverage-extracts-payment]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-cullaka-setthi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 4, Cullaka-Setthi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "he had a pavilion pitched hard by and said to his people as he took his seat inside, \"When merchants are being shewn in, let them be passed on by three successive ushers into my presence.\""
+canonical-instances:
+  - "A founder with a token deposit on an office lease has an assistant screen every investor call through two layers before a connection goes through. Several sign term sheets on the strength of that screening alone, having never seen a revenue number."
+critical-questions:
+  - "Does the theater need to be paired with even a small real commitment, the way the down payment on the ship's cargo grounds it here, or does pure signaling work on its own without any underlying stake at all?"
+  - "What happens once a rival tests the signal directly, by asking for concrete numbers instead of inferring from the performance — does the theater survive a direct question, or does it only work on someone who never asks one?"
+status: active

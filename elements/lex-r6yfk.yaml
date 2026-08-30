@@ -1,0 +1,20 @@
+id: lex-r6yfk
+name: chase-the-source-casting-an-image-not-the-image-itself
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When something valuable appears to be located at a visible site but repeated direct effort there produces nothing, consider that the visible site may only be showing a projection of something located elsewhere, and redirect the search to whatever is doing the projecting. In the Maha-Ummagga-Jataka, a jewel appears to lie in a lake, and Senaka drains the water and digs the mud twice, finding nothing — because as soon as the lake refills, the jewel is visible again. Mahosadha looks and reasons differently: "Sire, it is the reflexion which is visible both in the lake and in the pail, but the jewel is in a crow''s nest in this palm-tree: send up a man and have it brought down." The jewel was never in the water at all; the lake was only reflecting a jewel sitting in a nest on the overhanging tree.'
+related: []
+evokes: [jataka, mahanipata, maha-ummagga-jataka, reflection-vs-source, misdirected-search, redirect-to-origin]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-maha-ummagga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 546, Maha-Ummagga-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: '"Sire, it is the reflexion which is visible both in the lake and in the pail, but the jewel is in a crow''s nest in this palm-tree: send up a man and have it brought down."'
+canonical-instances:
+  - "A support team spends weeks patching a spike in error logs on a checkout page, unaware the errors are a downstream symptom of a misconfigured upstream authentication service — the visible failure site was never where the actual defect lived."
+  - "A homeowner repeatedly repaints a water stain on the ceiling only for it to reappear, until a plumber traces it not to the ceiling itself but to a slow leak in a pipe one floor above, on the far side of the room from where the stain shows."
+critical-questions:
+  - "Mahosadha recognized the reflection by testing it against a second surface (the pail) — what happens when there's no second surface available to compare against, and the apparent site and the true source can't be that easily disentangled?"
+  - "This move assumes there is a discoverable, physical source doing the projecting — does it generalize to cases where the visible symptom has no single upstream origin, but arises from several converging causes at once?"
+status: active

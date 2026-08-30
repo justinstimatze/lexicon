@@ -1,0 +1,19 @@
+id: lex-7bh7s
+name: preemptive-distrust-destroys-the-mechanism-it-was-trying-to-secure
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Fear that a valuable, ongoing arrangement might end someday can lead to grabbing everything at once instead of trusting the incremental process that was actually producing the value, destroying the very mechanism the grab was meant to secure against future loss. In the Jataka's tale of the golden mallard, a wife suspicious that her husband might eventually abandon the family decides not to trust his continued voluntary gift of feathers, plucking him completely bare in a single act to guarantee she gets everything before he can leave. The forced, complete extraction is what destroys the mechanism — his remaining feathers grow back as ordinary crane feathers once taken by force, permanently ending an arrangement that patience would have preserved indefinitely."
+related: []
+evokes: [jataka, ekanipata, suvannahamsa-jataka, preemptive-distrust-destroys-what-it-tries-to-secure, forced-extraction-ends-what-patience-would-preserve]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-suvannahamsa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 136, Suvannahamsa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"There's no trusting animals, my children. Who's to say your father might not go away one of these days and never come back again? Let us use our time and pluck him clean next time he comes, so as to make sure of all his feathers.\""
+canonical-instances:
+  - "A landlord worried that a long-term, reliable tenant might eventually move out demands the tenant prepay two years of rent immediately rather than continuing the arrangement month to month, and the tenant, offended by the sudden distrust, gives notice and leaves within the week."
+critical-questions:
+  - "Is the underlying fear of eventual loss ever unfounded enough to make patience clearly the better strategy, or does every ongoing arrangement carry some real risk of ending that a one-time grab genuinely protects against?"
+  - "Does the person who acts on preemptive distrust ever learn that their own action caused the loss, or does the ending simply confirm, in their eyes, that the original distrust was justified all along?"
+status: active

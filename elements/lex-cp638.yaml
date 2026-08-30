@@ -1,0 +1,22 @@
+id: lex-cp638
+name: sitting-at-the-intersection-of-two-taboos-compounds-unexaminability
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A subject can become almost impossible to examine clearly when it sits at the intersection of two separately-taboo domains, each independently discouraging scrutiny for its own reason -- one region too sacred to question, the other too shameful to discuss openly. The two taboos don't simply add; they compound, because a challenge to the subject from either direction can be deflected by invoking the other domain's prohibition, leaving almost no angle of approach left unguarded. Gilman states this about motherhood: 'It is so associated with our religious instincts, on the one hand, and our sex-instincts, on the other, both of which we have long been forbidden to discuss,--the one being too holy and the other too unholy,--that it is well-nigh impossible to think clearly and dispassionately on the subject.'"
+related: []
+evokes: [women-and-economics, chapter-ix, the-one-being-too-holy-and-the-other-too-unholy, well-nigh-impossible-to-think-clearly-and-dispassionately, two-taboos-close-off-every-angle-of-approach]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-ix
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter IX. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "This matriolatry is a sentiment so deep-seated, wide-spread, and long-established as to be dominant in every class of minds. It is so associated with our religious instincts, on the one hand, and our sex-instincts, on the other, both of which we have long been forbidden to discuss,--the one being too holy and the other too unholy,--that it is well-nigh impossible to think clearly and dispassionately on the subject. It is easy to understand why we are so triple-plated with prejudice in the case."
+canonical-instances:
+  - "An organization's treatment of a beloved founder is nearly impossible to critique honestly, because the founder's methods are wrapped in both the sacred origin-story of the company and the shame-laden subject of internal power abuse -- questioning the methods risks being read as attacking the company's soul, while naming the abuse risks being read as airing shameful secrets."
+  - "A family's finances around an inheritance are almost impossible to discuss plainly, because the topic sits at the intersection of grief (too sacred to interrupt with practical questions) and money (too crass to raise during mourning) -- either angle of approach gets shut down by the other domain's rule."
+  - "Military conduct during a nation's founding war is difficult to examine honestly, because it sits at the intersection of national origin mythology (too sacred to question) and wartime atrocity (too shameful to discuss) -- historians raising either question get accused of violating the other domain's taboo."
+critical-questions:
+  - "Is the compounding effect genuinely multiplicative, making the subject harder to examine than either taboo alone would predict, or does it simply mean two independent obstacles have to be cleared rather than one, which is additive rather than something qualitatively new?"
+  - "Once a subject is identified as sitting at this double intersection, does naming the mechanism actually make it easier to examine, or does the very act of naming it trigger both taboos at once and produce more resistance than approaching from either domain separately would have?"
+  - "Are there topics that only feel double-taboo but are actually single-taboo with an extra layer of social discomfort mistaken for a second genuine prohibition -- how would you tell a real compounding case from one where a single taboo is simply doing double rhetorical duty?"
+status: active

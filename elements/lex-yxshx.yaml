@@ -1,0 +1,21 @@
+id: lex-yxshx
+name: becoming-the-bait-reverses-a-predators-advantage-over-you
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "When someone with power over you abandons you somewhere you can't easily recover from, transforming yourself into the exact thing that party wants can pull them back within your reach and reverse who has leverage over whom. In Radin's comparative Assiniboine summary, Sitconski asks the eagle to carry him, and the eagle simply drops him: 'Eagle abandons him on a mountain top. Sitconski tumbles down head foremost, and sticks in a swamp.' Stranded, he doesn't climb back up or seek another ally -- he changes what he is: 'When he frees himself, he turns into a moose to entice the eagle down. When the eagle eats of the meat, Sitconski kills him.' The eagle's advantage was elevation and appetite; Sitconski's countermove supplies exactly what the appetite wants, at ground level, where the elevation no longer protects the eagle. Diagnostic move: when you've been abandoned or exploited by someone whose advantage depends on staying elevated, distant, or otherwise out of your reach, consider whether you can become something that specific party is drawn to close that distance voluntarily, rather than trying to close it yourself against their advantage."
+related: []
+evokes: [radin-assiniboine-trickster-summary, sitconski-and-the-eagle, turns-into-a-moose-to-entice-the-eagle-down, abandoned-on-a-mountain-top]
+lineage:
+  - source: primary
+    text: radin-sitconski-becomes-a-moose-to-lure-and-kill-the-eagle
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'Summary of the Assiniboine Trickster Myth' (after R. H. Lowie, The Assiniboine, Anthropological Papers of the American Museum of Natural History, Vol. IV, 1909), episode 8. Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "Sitconski wishes to travel with the eagle. Eagle abandons him on a mountain top. Sitconski tumbles down head foremost, and sticks in a swamp. When he frees himself, he turns into a moose to entice the eagle down. When the eagle eats of the meat, Sitconski kills him."
+canonical-instances:
+  - "A supplier who was cut loose by a buyer the moment a cheaper option appeared rebrands as exactly the kind of vendor that buyer's rival is actively hunting for, and waits for the outreach instead of chasing the original buyer back."
+  - "An employee passed over for a promotion by a manager who only responds to visible wins builds a highly visible side project in the manager's own area of interest, drawing that manager to seek them out instead of asking again directly."
+critical-questions:
+  - "Does the mechanism require the pursuer's appetite to be specific and predictable, and would it fail against a predator whose interest can't be anticipated or manufactured as bait?"
+  - "Is there a real difference between becoming bait to lure someone within reach and simply setting a trap, or does the transformation into something desirable add something a static trap couldn't accomplish?"
+  - "What does it cost Sitconski to make himself into prey even temporarily, and does the story consider that risk, or does it treat the disguise as costless because he controls when to stop being a moose?"
+status: active

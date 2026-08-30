@@ -1,0 +1,19 @@
+id: lex-uecdb
+name: bracketed-morality-transfers-to-whoever-holds-power-over-you
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Under bureaucratic employment, an employee's operative moral code isn't imported from outside the organization — it's assigned wholesale by whoever holds power over them at the moment. What counts as 'right' inside the hierarchy is whatever the person one rung up wants, treated as literally synonymous with morality rather than merely a rule one complies with while privately holding a separate standard. This is a stronger and more specific claim than 'people compromise their ethics at work' — it's the felt collapse of the moral question into the power question, stated by an insider as plain operative fact rather than as critique or complaint. Watch for language that equates satisfying a superior with doing right, not just with staying employed."
+related: []
+evokes: [jackall-moral-mazes, "what the guy above you wants from you", leave-your-ethics-at-the-door]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-introduction-bracketed-morality
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Introduction: Business as a Social and Moral Terrain — a former corporate vice-president, quoted directly."
+    quote: "What is right in the corporation is not what is right in a man's home or in his church. What is right in the corporation is what the guy above you wants from you. That's what morality is in the corporation."
+canonical-instances:
+  - "A soldier in a chain of command experiences an order's rightness as settled by the order itself and the rank behind it, not by an independent ethical review the soldier runs afterward."
+critical-questions:
+  - "Is the speaker describing genuine belief-replacement, or just naming strategic compliance more bluntly than most people would — and does the distinction matter if the resulting behavior is identical either way?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-a3fsh
+name: relay-the-same-insight-through-multiple-voices-at-rising-difficulty
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'The same psychological point can be delivered by three different speakers in sequence, each escalating the claim slightly beyond the last, so the target absorbs the full force of it incrementally rather than resisting one direct statement all at once. In the Jataka''s tale of Dasannaka, three counselors relay the point in rising order of difficulty: "Greed may lure a man to swallow swords though sharpened perfectly: But to say, ''I give this freely,'' that a harder feat would be;" then "Not by words men live, and not by language uttered fruitlessly: But to give and not regret it, that a greater feat would be:" then "If a man should give a gift, or small or great, in charity, Nor regret the giving after: that a harder feat would be."'
+related: []
+evokes: [jataka, sattanipata, dasannaka-jataka, graduated-multi-voice-escalation, relay-structure-defuses-resistance]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dasannaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 401, Dasannaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Greed may lure a man to swallow swords though sharpened perfectly: But to say, \"I give this freely,\" that a harder feat would be;"
+canonical-instances:
+  - "A performance review is delivered not by one manager stating the hard truth outright, but through three separate conversations with different colleagues, each one landing a slightly sharper version of the same underlying feedback than the last."
+critical-questions:
+  - "Does spreading a single insight across multiple voices make it easier to accept because it feels like independent consensus, even when it was coordinated from the start?"
+  - "What determines the right order of escalation — is there a principled reason the mildest version should come first, or could the sequence just as easily run the other way?"
+status: active

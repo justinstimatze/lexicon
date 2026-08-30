@@ -1,0 +1,20 @@
+id: lex-8xdwr
+name: claiming-a-protected-role-exploits-the-threatener's-own-code
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Facing someone about to kill you who nonetheless holds to a code of conduct, an improvised, unverifiable claim to a role that code protects can stop them cold — not because they believe you, necessarily, but because violating the role itself would cost them something they weren''t willing to risk. The lie works by aiming at the threatener''s own stated principles rather than at their mercy. In the Vessantara-Jataka, a forest guard draws his bow on the wandering brahmin Jujaka, certain he has come to beg away Vessantara''s wife or children and resolved to kill him first. Jujaka, with no evidence and no real standing, claims on the spot to be an ambassador sent to summon Vessantara home. The guard, who a moment before was reciting how he would tear out Jujaka''s heart and liver, stops immediately: "The ambassador''s inviolate, and no man may him kill: this is a very ancient rule." The rule was the guard''s own, invoked by the very man it protects.'
+related: []
+evokes: [jataka, mahanipata, vessantara-jataka, improvised-lie, exploiting-the-enforcers-own-rule, escaping-violence]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-vessantara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 547, Vessantara-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The ambassador's inviolate, and no man may him kill: this is a very ancient rule."
+canonical-instances:
+  - "A journalist detained by a militia group at a checkpoint, with no press credentials on hand, claims loudly to be traveling under a diplomatic escort due any minute — the militia, wary of an international incident their own leadership has warned them against, lets the group pass rather than verify the claim on the spot."
+  - "An intruder cornered by a homeowner claims to be a licensed inspector sent by the utility company, invoking the homeowner's own understanding that harming a contractor on a legitimate call would bring real consequences — buying time to leave rather than proving the claim."
+critical-questions:
+  - "Jujaka's claim happened to be false and unverified in the moment — what distinguishes this from ordinary lying under duress, if anything, beyond the specific target being the listener's own professed rule rather than their sympathy?"
+  - "The guard's restraint here protects Jujaka on his way to commit the tale's central harm — does the tactic's moral standing depend entirely on what the liar does with the safety it buys, given the lie itself is content-neutral?"
+status: active

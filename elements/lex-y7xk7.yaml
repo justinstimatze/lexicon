@@ -1,0 +1,22 @@
+id: lex-y7xk7
+name: accepting-payment-while-disclaiming-it-as-the-actual-motive
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A person can accept a valuable gift offered in gratitude for help they gave, while explicitly stating that they would have provided the same help for nothing -- separating the transaction of gratitude from the actual motivation that drove the original act. After curing Cuts-to-Pieces's son, Black Elk reports the payment and the disclaimer together: 'Cuts-to-Pieces gave me a good horse for doing this; but of course I would have done it for nothing.' He keeps the horse. The statement arrives only once the exchange is already finished, a retrospective clarification about what was doing the real motivating work, rather than terms he'd set out in advance."
+related: []
+evokes: [black-elk-speaks, the-first-cure, a-good-horse-for-doing-this, i-would-have-done-it-for-nothing, payment-accepted-motive-disclaimed]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch17-first-cure
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 17, 'The First Cure.' Black Elk's own narrated words, transcribed and edited by Neihardt. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "Cuts-to-Pieces gave me a good horse for doing this; but of course I would have done it for nothing."
+canonical-instances:
+  - "A neighbor who spent a weekend helping a family rebuild after a fire accepts the check they're handed afterward, while telling them plainly that the help would have come regardless of any payment."
+  - "A veteran teacher who tutors a struggling student for free through the semester accepts a thank-you gift from the grateful parents at the end, while making clear the tutoring was never contingent on receiving anything back."
+  - "A rescue diver who saves a stranded swimmer accepts the reward money the family offers afterward. He tells reporters plainly that nothing on offer was what got him into the water."
+critical-questions:
+  - "Does accepting the payment while disclaiming it as the motive actually change anything about the transaction, or is the disclaimer purely a statement about internal psychology that leaves the external exchange exactly as it would have been either way?"
+  - "Would refusing the horse outright have communicated the same thing more convincingly than accepting it while verbally disclaiming its importance, or does accepting the gift while stating the disclaimer actually serve a different social function, honoring the giver's need to reciprocate?"
+  - "Is there any way to verify whether the stated motive, that the help would have come for nothing, is accurate, or does a claim like this only ever rest on the helper's own retrospective self-report, made easier to believe once the outcome already turned out well?"
+status: active

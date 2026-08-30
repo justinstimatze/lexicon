@@ -1,0 +1,20 @@
+id: lex-z6kwx
+name: an-earlier-independent-gift-wastes-the-better-gift-that-follows-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When two people independently try to provide for the same need without coordinating, the first contribution to arrive can consume the recipient's capacity before the second, better one shows up — so well-intentioned parallel generosity can waste the superior effort rather than compound it, unless the contributors coordinate timing rather than just goodwill. In the Jataka's tale of Sona and Nanda, the younger brother gathers whatever ordinary fruit is nearby and brings it first thing each morning; the elder travels far for the sweetest, ripest fruit but arrives too late: \"Dear son, we ate early this morning what your younger brother brought us and we are now fasting. We have no need of this fruit now. So his fruit was not eaten but was all wasted, and the next day and so on it was just the same.\""
+related: []
+evokes: [jataka, sattatinipata, sona-nanda-jataka, uncoordinated-parallel-effort, capacity-consumed-by-the-first-arrival]
+lineage:
+  - source: primary
+    text: jataka-francis1905-sona-nanda-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XX (Sattatinipata), No. 532, Sona-Nanda-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Dear son, we ate early this morning what your younger brother brought us and we are now fasting. We have no need of this fruit now. So his fruit was not eaten but was all wasted, and the next day and so on it was just the same."
+canonical-instances:
+  - "Two engineers independently fix the same bug without telling each other; the junior engineer's quick, partial patch merges first, and by the time the senior engineer's more thorough fix is ready, the team has already moved on and the better fix never gets reviewed."
+  - "A family sends a sick relative two care packages from different siblings, sent independently without coordinating; the first, hastily assembled box arrives and gets used up, so the second sibling's more thoughtfully chosen package sits unopened and unappreciated by the time it arrives."
+critical-questions:
+  - "The wise brother's fix is to require synchronization ('you are to wait till I come, and we will both of us at the same time supply them with food') — is coordination always available as a solution, or does it only work when, as here, one party has the standing to actually impose a shared schedule on the other?"
+  - "Is the waste really about timing, or about a deeper asymmetry — that recipients have finite capacity to receive at all, so even perfectly coordinated giving would eventually hit the same ceiling once total input exceeds what can be absorbed?"
+status: active

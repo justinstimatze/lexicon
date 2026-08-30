@@ -1,0 +1,19 @@
+id: lex-5abyj
+name: repeating-a-public-lie-increases-the-cost-of-reversing-it
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: 'Once a false claim is asserted publicly, each opportunity to recant can be declined in favor of restating the original claim, and each restatement carries a steeper visible cost than the last — because reversing course now would mean admitting the growing cost was for nothing. In the Jataka''s tale of Cetiya, the king sinks further into the earth with each repetition of his lie rather than stop at any point and tell the truth: "But for the third time the king said, "You are junior and Korakalambaka is elder," and at this lie he sank in the ground up to the knees."'
+related: []
+evokes: [jataka, atthanipata, cetiya-jataka, escalating-commitment, sunk-cost-of-a-repeated-lie]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-cetiya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 422, Cetiya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "But for the third time the king said, \"You are junior and Korakalambaka is elder,\" and at this lie he sank in the ground up to the knees."
+canonical-instances:
+  - "A company that issues one misleading earnings statement keeps restating the same rosy numbers each quarter rather than correcting the record, because each new restatement would now also have to explain why the prior ones were wrong."
+critical-questions:
+  - "At what point does the cost of admitting the original lie stop growing faster than the cost of continuing it — is there a threshold where reversal actually becomes cheaper again?"
+  - "Does anyone around the person lying have an incentive to point out the growing cost, or does everyone nearby benefit in some way from the lie continuing?"
+status: active

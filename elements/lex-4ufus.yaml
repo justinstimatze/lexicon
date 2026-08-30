@@ -1,0 +1,18 @@
+id: lex-4ufus
+name: impartial-fairness-deployed-deliberately-to-build-personal-loyalty
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: 'Even-handed, impartial distribution of resources across many different constituencies can be used deliberately to build a broad coalition of personal loyalty; the fairness does real ethical work, but it is also being run here as a loyalty-generation mechanism. In the Jataka''s tale of Prince Samvara, the prince''s fair administration of food, taxes, and lodging across every group in the city is described explicitly in terms of the loyalty it purchases: "Thus following the advice of the Great Being, he made friends with every body, those in the household and those without, all in the city, the subjects of the kingdom, strangers, by his winsomeness binding them to him as it were by a band of iron: to all of them he was dear and beloved."'
+related: []
+evokes: [jataka, ekadasanipata, samvara-jataka, fairness-as-loyalty-generation, patronage-through-impartiality]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-samvara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 462, Samvara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Thus following the advice of the Great Being, he made friends with every body, those in the household and those without, all in the city, the subjects of the kingdom, strangers, by his winsomeness binding them to him as it were by a band of iron: to all of them he was dear and beloved."
+canonical-instances:
+  - "A new plant manager applies the overtime policy identically across every shift and every team. It's the fair thing to do, and she also knows evenhandedness is exactly what will make every one of them back her when the union contract comes up for renewal."
+critical-questions:
+  - "Does treating fairness instrumentally, as a means to loyalty, change anything about the fairness itself, or does the motive behind an impartial act matter only to the actor and not at all to the people who benefit from being treated fairly?"
+status: active

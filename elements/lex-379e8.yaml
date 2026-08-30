@@ -1,0 +1,22 @@
+id: lex-379e8
+name: commercial-demand-diffuses-abstract-methods-past-academic-disdain
+type-in: posture
+type-out: process
+_tier: atomic
+agent-instruction: "When judging whether a new abstract method, tool, or notation will spread, don't weight a high-status institution's disdain for it (dismissing it as low-brow, 'too mercantile,' or beneath serious study) as evidence against its future adoption -- status-conscious institutions are a lagging indicator of diffusion, not a leading one. Look instead at whether an unglamorous, practically-motivated population has an immediate, repeated, high-volume use for the method. If so, that population will refine, teach, and standardize it long before the high-status institution admits it into its own curriculum -- and by the time it does, the practical tradition may already be generations ahead, having done the real work of proving the method out."
+related: [lex-wfwy8]
+evokes: [botteghe-dabaco, fibonacci-liber-abbaci, too-mercantile-for-universities, double-entry-bookkeeping-diffusion, abacus-schools, van-egmond]
+lineage:
+  - source: primary
+    text: postrel-2020-fabric-of-civilization-ch5-traders
+    citation: "Virginia Postrel, The Fabric of Civilization: How Textiles Made the World (Basic Books, 2020), Chapter Five: Traders, on the botteghe d'abaco (abacus schools) that spread Hindu-Arabic numerals and pen-and-paper reckoning through Italian merchant culture from the early fourteenth century."
+    quote: "Fibonacci's novel methods of pen-and-paper reckoning were ideal for businessmen who wrote lots of letters and needed permanent account records. By the late thirteenth century, specialized teachers had begun to teach the new system and to produce handbooks in the vernacular... Hence the spread of botteghe d'abaco, beginning in Florence in the early fourteenth century. They 'mark the first appearance in the West of schools devoted exclusively to the study of mathematics,' writes historian of mathematics Warren Van Egmond, 'and they were surely the first to teach mathematics on an elementary and practical level.'... They made small but important advances in algebra, a subject universities scorned as too mercantile, and devised solutions to common practical problems... They were the first Europeans to make a living entirely from math."
+canonical-instances:
+  - "Warren Van Egmond's 1976 study of nearly two hundred abacus manuscripts found that Italian merchant-mathematics teachers -- working entirely outside the university system, which inherited the Greek view of mathematics as abstract logic unworthy of commercial contamination -- made genuine advances in algebra and multiplication/division technique while teaching problems entirely about converting cloth, pepper, and currency, and were the first Europeans to earn a living from mathematics alone."
+  - "Luca Pacioli's 1494 Summa de Arithmetica, the encyclopedic capstone of the abacus-manual tradition, popularized double-entry bookkeeping -- a technique merchant houses like the Datini and Fugger banks had already been refining in practice for over a century before it was compiled into a text at all, let alone taught as formal accounting education."
+critical-questions:
+  - "Is the disdained population actually USING the method for real, repeated, high-stakes transactions (not merely encountering it), which would predict rapid refinement through practice rather than stagnation?"
+  - "What is the high-status institution's stated objection -- is it about the method's validity, or about the social class or purpose it's associated with ('too mercantile')? A status-based objection unrelated to correctness is a weak signal about the method's future."
+  - "Once the high-status institution does adopt the method, does it credit the practical tradition that diffused and refined it first, or does the adoption erase that lineage -- a separate but related bias worth checking for in how the eventual 'discovery' gets told."
+severity-tier: info
+status: active

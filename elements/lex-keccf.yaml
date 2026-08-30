@@ -1,0 +1,19 @@
+id: lex-keccf
+name: blindness-to-your-own-faults-can-be-purely-positional-not-moral
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone is quick to see others' faults but blind to their own, check whether the asymmetry is architectural — a matter of what is literally in view — rather than a character flaw like hypocrisy or self-deception. Aesop's 'The Two Bags' gives every person two bags slung over the shoulder: 'The Bag in front contains his neighbours' faults, the one behind his own. Hence it is that men do not see their own faults, but never fail to see those of others.' The explanation offered is purely positional: the bag of one's own faults simply sits out of one's own field of view, a structural fact about the arrangement, with no accusation of bad faith attached."
+related: []
+evokes: [aesop, the-two-bags, positional-blindness, self-fault-invisibility, bias-blind-spot]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-two-bags
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Two Bags.' Verified verbatim against a direct extraction of the held copy."
+    quote: "The Bag in front contains his neighbours' faults, the one behind his own. Hence it is that men do not see their own faults, but never fail to see those of others."
+canonical-instances:
+  - "performance reviews where people rate their own contributions to team friction far lower than peers rate them, not from dishonesty but because everyone else's behavior is what actually sits in their field of view — the empirical 'bias blind spot' described by Pronin and colleagues follows the same structural logic."
+critical-questions:
+  - "If the blindness is purely positional rather than moral, does that mean it is correctable simply by changing what's put in view — through feedback, a mirror, a recording — or does something deeper resist the correction even once the fault becomes visible?"
+  - "Does everyone carry the same two bags in the same arrangement, or does the degree of self-blindness vary by person, and if so, what would explain the difference if the mechanism is purely structural?"
+status: active

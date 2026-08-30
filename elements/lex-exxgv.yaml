@@ -1,0 +1,24 @@
+id: lex-exxgv
+name: frictionless-interactions-go-uncounted-by-the-metric-meant-to-track-them
+type-in: situation
+type-out: frame
+_tier: atomic
+agent-instruction: "When a tracking system logs an interaction as a discrete, effortful event — a scheduled meeting, a filed ticket, a formal referral — expect it to systematically undercount exactly the version of that interaction that has become easiest and most informal, because the people involved stop perceiving the low-friction version as the kind of thing worth logging. Olencki found this studying consultation records in a medical-training program: 'It is difficult to measure the result with respect to conferences, since students definitely underreported these.' Her diagnosis of why is the interesting part: 'In a sense this is a compliment to the way conferences were organized. The Public Health Nurse, for instance, was so easily available that students would chat with her informally about their patients and forget to enter a conference on the Visit Report.' The mechanism inverts the usual worry about undercounting (that a resource is too hard to reach, so people give up before it registers) — here the resource is EASY to reach, and that very ease is what erases it from the record: a formal, effortful conference feels like a distinct, loggable event, while an easy hallway chat with someone always available doesn't register in memory as 'a conference' at all, even though it serves the identical function the tracking system exists to measure. The practical consequence is a systematic bias: the more successfully a service is designed to remove friction, the more its actual usage will be undercounted relative to services that remain harder to access — meaning naive comparisons across services using logged-event counts will make the well-designed, low-friction service look underused precisely because it is working. Diagnostic move: when a metric shows one channel, service, or person being used far less than expected, before concluding it's underused, check whether it is unusually easy and informal to reach — if so, the low count may reflect invisible success rather than low usage, and the true rate needs to be estimated some other way (direct observation, self-report probes, proxy indicators) rather than trusted from the log."
+related: []
+evokes: [olencki-1957, public-health-nurse-informal-chat, undercounting-conferences, ease-of-access-erases-the-record, frictionless-success-corrupts-the-metric]
+lineage:
+  - source: primary
+    text: olencki-1957-students-underreported-conferences
+    citation: "Margaret Olencki, \"Range of Patient Contacts in the Comprehensive Care and Teaching Program,\" in Merton, Reader, and Kendall, eds., The Student-Physician (Cambridge: Harvard University Press for The Commonwealth Fund, 1957), p.280."
+    quote: "'It is difficult to measure the result with respect to conferences, since students definitely underreported these.'"
+  - source: primary
+    text: olencki-1957-compliment-to-how-organized
+    citation: "Margaret Olencki, \"Range of Patient Contacts in the Comprehensive Care and Teaching Program\" (1957), p.280, footnote."
+    quote: "'In a sense this is a compliment to the way conferences were organized. The Public Health Nurse, for instance, was so easily available that students would chat with her informally about their patients and forget to enter a conference on the Visit Report.'"
+canonical-instances:
+  - "A company's helpdesk metrics show a sharp drop in tickets filed against the platform team after they start sitting in the open engineering area — leadership reads this as the platform team having fewer problems to fix, when the real story is that engineers now just lean over and ask, and those quick fixes never become tickets at all."
+  - "A hospital's referral-tracking system shows very few 'consultations' with the on-call pharmacist compared to other specialists, because nurses just text her directly with quick questions instead of filing a formal consult request — the low official count reflects that she is unusually accessible, not that she's rarely needed."
+critical-questions:
+  - "Does this mechanism have a natural ceiling — could a service become SO frictionless that its true usage volume actually grows unboundedly while its logged count stays near zero, making the undercount not just biased but essentially unmeasurable by any adjustment factor applied to the log?"
+  - "Olencki treats the undercounting as a 'compliment' to good design, but does the same undercounting also erase the evidence an organization would need to justify keeping or expanding that easily-available resource — could invisible success in the metrics eventually lead an organization to defund the very service that was working best, simply because nothing on paper shows it being used?"
+status: active

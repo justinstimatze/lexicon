@@ -1,0 +1,19 @@
+id: lex-yztvb
+name: a-stigmatized-occupation-systematizes-what-everyone-does-privately
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A publicly stigmatized occupation's actual offense can be that it unapologetically systematizes, professionalizes, and scales up a behavior that everyone already engages in privately without examining it — 'we do something wrong and we try to explain it,' at a professional scale, using the same basic moves an ordinary person uses to manage their own reputation day to day. The discomfort the occupation generates isn't really about the behavior being uniquely wrong; it's that seeing it performed openly, deliberately, and at scale forces an uncomfortable recognition of the same ploys people already use in the small dramas of their own private lives. This reframes moral objections to the stigmatized profession as partly a reaction to visibility and scale rather than to a genuinely novel category of wrongdoing."
+related: []
+evokes: [jackall-moral-mazes, "we remind them of themselves, on a grand scale", stigma-from-scaling-up-an-ordinary-private-behavior]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch7-pr-systematizes-what-everyone-does
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 7, The Magic Lantern."
+    quote: "I think that what people don't like about PR is that we remind them of themselves, on a grand scale, on a large screen where they can see all the ploys they use to manipulate others in the little dramas of their own lives."
+canonical-instances:
+  - "A professional matchmaking service draws public disdain for 'commodifying' romantic attraction, even though the specific criteria it optimizes for are the same ones most people already apply privately when evaluating potential partners — the discomfort tracks the visibility and explicitness of the process more than any genuinely new form of behavior."
+critical-questions:
+  - "Is the stigma actually just a reaction to visibility and scale, or does professionalizing and scaling up a private behavior sometimes introduce a genuinely different harm — one that the private, small-scale version doesn't produce simply because of its limited reach?"
+status: active

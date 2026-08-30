@@ -1,0 +1,18 @@
+id: lex-ej2xh
+name: misattributing-a-returning-loved-ones-signal-to-an-impersonal-cause
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A character lacking full information can misread an ambiguous physical sign as an impersonal or hostile natural event, producing dramatic irony for an audience that already knows the true, personal cause the character has not yet recognized. In the Jataka''s tale of the elephant who supported his mother, the sound of her returning son drawing water with his trunk reaches his blind mother as unseasonable rain, and she curses it rather than recognizing him: "But the mother of the Bodhisatta thought it had begun to rain, and repeated the tenth stanza, rebuking the rain: ''Who brings unseasonable rain—what evil deity? For he is gone, my own, my son, who used to care for me.''"'
+related: []
+evokes: [jataka, ekadasanipata, mati-posaka-jataka, dramatic-irony, delayed-recognition]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mati-posaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XI (Ekadasanipata), No. 455, Mati-posaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "But the mother of the Bodhisatta thought it had begun to rain, and repeated the tenth stanza, rebuking the rain: \"Who brings unseasonable rain—what evil deity? For he is gone, my own, my son, who used to care for me.\""
+canonical-instances:
+  - "A grandmother hears footsteps on the porch and assumes it's the wind rattling the screen door again, grumbling about the draft, seconds before the grandchild she's been waiting on all week walks in."
+critical-questions:
+  - "Does the emotional payoff of this device depend on the misattribution being genuinely plausible, or does the audience's foreknowledge do all the work regardless of how believable the character's mistake is?"
+status: active

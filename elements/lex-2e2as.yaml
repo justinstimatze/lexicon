@@ -1,0 +1,19 @@
+id: lex-2e2as
+name: mismatched-tempo-not-uniform-speed-is-the-actual-failure-mode
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "The failure that destroys outcomes isn't consistent slowness or consistent haste on their own — it's applying the wrong tempo to the wrong moment: rushing when patience was called for, and dawdling when speed was the only thing that would work. In the Jataka's tale of the slothful king, the Bodhisatta generalizes the tortoise lesson past simple laziness into this precise calibration problem: 'Whoso doth hurry when he ought to rest, And tarries long when utmost speed is best, Destroys the slender fabric of his weal, As withered leaf is crushed beneath the heel. But they who wait betimes nor haste too soon, Fulfil their purpose, as her orb the moon.'"
+related: []
+evokes: [jataka, catukkanipata, gajakumbha-jataka, the-failure-is-mismatched-tempo-not-fixed-speed, calibrating-pace-to-the-moment-rather-than-a-default-setting]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-gajakumbha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 345, Gajakumbha-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Whoso doth hurry when he ought to rest, And tarries long when utmost speed is best, Destroys the slender fabric of his weal, As withered leaf is crushed beneath the heel. But they who wait betimes nor haste too soon, Fulfil their purpose, as her orb the moon."
+canonical-instances:
+  - "A founder who moves fast on every routine operational decision but drags out the one moment that actually needs urgency — walking away from a collapsing partnership — loses the company not because they're generally too slow or too fast, but because the tempo was backward exactly when it mattered."
+critical-questions:
+  - "Is calibrating tempo to each moment actually a learnable skill, or does it require a kind of judgment that's inseparable from broader wisdom — can someone be taught 'when to rush' as a discrete skill apart from generally understanding their situation well?"
+  - "Does this framework risk becoming unfalsifiable in hindsight — any failure can be relabeled as 'wrong tempo for the moment' after the fact, which may not actually help someone calibrate correctly in the moment itself."
+status: active

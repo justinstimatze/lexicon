@@ -1,0 +1,19 @@
+id: lex-5egav
+name: a-self-interested-arbiter-profits-by-prolonging-a-dispute-not-resolving-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Before accepting a self-nominated party as a neutral mediator, check whether they actually stand to gain more from the dispute continuing than from resolving it. The Panchatantra's cat, performing exaggerated piety to win the trust of a feuding rabbit and partridge, volunteers as their arbiter — and once both parties are close enough, kills them both at once rather than mediating anything: 'that seedy rogue won their trust so fully that both drew near him. Then, of course, he seized them simultaneously.' The verse names the general risk: 'a seedy umpire is not very pleasing to either adversary: rabbit and partridge teach you that — they died, confiding in the cat.' The performed piety was not incidental to the scheme; it was the entire mechanism, since an arbiter who looks convincingly disinterested is the only kind capable of drawing both wary parties within reach at once."
+related: []
+evokes: [panchatantra, crows-and-owls, a-self-interested-arbiter-prolongs-a-dispute, performed-piety-draws-wary-parties-into-reach]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-the-cats-judgment
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book III, 'The Cat's Judgment.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Why spin it out? That seedy rogue won their trust so fully that both drew near him. Then, of course, he seized them simultaneously, one with his paw, the other with the saw of his teeth."
+canonical-instances:
+  - "two feuding business partners accept a mutual acquaintance's offer to mediate their dispute, not realizing the mediator profits directly from prolonging the standoff through billable hourly consulting, and both eventually discover the mediator has been quietly encouraging each side's worst suspicions of the other rather than actually working toward resolution."
+critical-questions:
+  - "How would either the rabbit or the partridge have actually verified the cat's disinterestedness in advance, given that the performed piety that won their trust was specifically designed to be indistinguishable from the genuine kind?"
+  - "Is there a way to structure mediation so the arbiter's incentives are aligned with resolution rather than continuation, or does any voluntary, self-nominated arbiter carry some version of this risk by default?"
+status: active

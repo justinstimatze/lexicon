@@ -1,0 +1,19 @@
+id: lex-y4e4c
+name: trust-built-with-a-role-holder-doesnt-carry-to-their-successor
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Trust developed through repeated safe interaction with a specific person occupying a role can partially carry over out of sheer habit when someone new takes that same role, but the habituated deference doesn't survive contact with actual, independent evidence about the new occupant's intentions. The Jataka's lizard visits a genuinely holy ascetic's hermitage daily. A fraudulent impostor takes over the same position, and the lizard's habituated deference carries over at first — until scent and behavior cues specific to this new person reveal that he means to kill and eat it. What transferred automatically was the habit of trust. The actual reasons behind it stayed with the person who earned them, and independent evidence closed that gap before it proved fatal."
+related: []
+evokes: [jataka, ekanipata, godha-jataka, trust-in-a-role-does-not-transfer-to-a-new-occupant, habituated-deference-versus-independent-evidence]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-godha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 138, Godha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Snuffing up the wind which was blowing towards him from the hermit's cell, the Bodhisatta smelt the smell of lizard's flesh, and at once realised how the taste of lizard had made the ascetic want to kill him with a mallet and eat him up."
+canonical-instances:
+  - "A customer who has trusted a specific account manager for years continues sharing sensitive business details with that manager's replacement out of pure habit, until an offhand comment from the new manager reveals a conflict of interest that has nothing to do with the role itself and everything to do with who now holds it."
+critical-questions:
+  - "How much independent evidence does it actually take to override habituated trust in a role, and does that threshold change depending on how long the original, well-founded trust had been built up?"
+  - "Is there a way to consciously reset trust to zero the moment a role changes hands, rather than relying on incidental cues to eventually surface a problem, and what would that cost in terms of efficiency for every legitimate handover?"
+status: active

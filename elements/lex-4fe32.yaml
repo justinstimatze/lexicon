@@ -1,0 +1,18 @@
+id: lex-4fe32
+name: a-grievance-is-broadcast-in-advance-of-the-act-it-will-justify
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: 'Someone planning a high-stakes betrayal doesn''t announce the betrayal itself in advance — they instead nurse and repeatedly voice a specific grievance narrative well before acting on it, so that by the time the act occurs, the justification is already public record rather than a post-hoc excuse. The advance broadcast does double duty: it primes the actor''s own resolve through repetition, and it pre-installs sympathy or at least a ready explanation in observers who will later be asked to judge the act. In the Bhadda-sala-Jataka, before Digha-Karayana seizes power from King Pasenadi, he spends time ''picking faults in the king and saying, He murdered my uncle'' — voicing the grievance that will later stand as his justification long before he acts on it.'
+related: []
+evokes: [jataka, dvadasanipata, bhadda-sala-jataka, justification-preregistered-before-the-act, grievance-broadcast-primes-both-actor-and-audience]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-bhadda-sala-jataka
+    citation: 'The Jataka, or Stories of the Buddha''s Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XII (Dvadasanipata), No. 465, Bhadda-sala-jataka. Verified verbatim against a direct extraction of the held copy.'
+    quote: 'But he went about picking faults in the king and saying, "He murdered my uncle."'
+canonical-instances:
+  - 'A deputy who plans to force out his CEO spends months privately telling colleagues about specific decisions he thinks were reckless, so that when the ouster happens, people already have a ready narrative for why it was justified rather than experiencing it as an unexplained power grab.'
+critical-questions:
+  - 'Does voicing the grievance in advance actually make the later act more legitimate, or does it only make the act more predictable — and if Karayana''s real motive was naked ambition rather than loyalty to his uncle, does the preregistered grievance function as genuine justification or as cover manufactured for exactly this purpose?'
+status: active

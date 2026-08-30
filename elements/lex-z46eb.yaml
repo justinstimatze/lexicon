@@ -1,0 +1,18 @@
+id: lex-z46eb
+name: an-apparently-self-harming-request-is-validated-once-its-hidden-motive-surfaces
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When someone makes a request that looks masochistic or irrational on its face — asking to be harmed piecemeal rather than quickly, for instance — an interlocutor''s default assumption is that self-interest explains all requests, so the apparently self-harming one reads as incomprehensible or suspicious until the requester''s actual motive is disclosed. Once the hidden altruistic reasoning becomes visible, the same request that looked irrational becomes not just explicable but admirable; the request didn''t change, only what the listener knew about why it was made. In the Bhadda-sala-Jataka''s companion tale, the king, baffled that the tree-spirit would ask to be cut apart slowly rather than felled outright, demands to know ''why dost thou wish to be cut up piecemeal'' — and only grants the request once he understands it''s meant to save the surrounding kindred trees rather than reflecting some death-wish on the spirit''s own part.'
+related: []
+evokes: [jataka, dvadasanipata, samudda-vanijja-jataka, hidden-motive-reframes-apparent-irrationality, request-validated-only-once-altruism-disclosed]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-samudda-vanijja-jataka
+    citation: 'The Jataka, or Stories of the Buddha''s Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XII (Dvadasanipata), No. 466, Samudda-vanijja-jataka. Verified verbatim against a direct extraction of the held copy.'
+    quote: 'O Lucky Tree! O woodland king! what pleasure couldst thou feel, Why, for what reason dost thou wish to be cut up piecemeal?'
+canonical-instances:
+  - 'A terminally ill patient''s request to delay a pain-management increase confuses her care team until she explains it''s so she can stay lucid enough to finish transferring her small business''s accounts to her daughter — after which the same request that looked like needless suffering becomes something the team actively helps her arrange.'
+critical-questions:
+  - 'Does the king only grant the request because the motive turned out to be altruistic — would he have refused a request to be cut apart slowly for a purely selfish reason, and if so, is what''s actually being evaluated the requester''s character rather than the request''s own merits?'
+status: active

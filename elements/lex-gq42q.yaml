@@ -1,0 +1,34 @@
+id: lex-gq42q
+name: incremental-self-justification-manufactures-strategically-effective-self-deception
+type-in: process
+type-out: posture
+_tier: molecule
+agent-instruction: "When an actor's self-belief seems too convenient AND you can trace a history of small, incrementally self-justified choices behind it, treat the conviction as manufactured rather than merely held: the pyramid-of-choice trajectory is what built the belief, and the belief's genuineness is what now protects the actor from the leakage tells that would betray a conscious liar. Diagnostic move: locate the earliest cheap-to-reverse choice in the trajectory — that is both the cheapest intervention point and the moment the manufactured belief did not yet exist to defend."
+related: [lex-e3yhv, lex-y48fs, lex-xrg6e]
+scaffolds-from: [lex-y48fs, lex-e3yhv]
+evokes: [pyramid-of-choice, self-deception-as-adaptive-mechanism, sincere-belief-as-strategic-asset, manufactured-conviction, deception-through-genuine-belief, tavris-aronson-trivers-synthesis]
+decomposes-into:
+  - lex-y48fs
+  - lex-e3yhv
+assembly: "parallel(lex-y48fs, lex-e3yhv)"
+premises:
+  - "a sequence of small choices, each nearly reversible on its own when made, accumulates in one direction (lex-y48fs's pyramid-of-choice mechanism)"
+  - "each choice produces dissonance, and dissonance is resolved by retrospectively revising the actor's own belief toward what the choice required, rather than by admitting error"
+  - "the revision compounds: each resolved dissonance raises commitment, which lowers the dissonance-cost of the next choice in the same direction"
+  - "by the time the trajectory has run, the actor holds the belief sincerely — not as a performed cover story but as a genuine conviction (this is where lex-y48fs's diachronic construction hands off to lex-e3yhv's synchronic payoff)"
+  - "a sincerely held false belief removes the autonomic tells, micro-behavioral leakage, and cognitive-load signature that betray conscious lying (lex-e3yhv's mechanism)"
+  - "the actor now deceives others more effectively than a conscious liar would, at a cost paid in reality-alienation and in domains decided by accuracy rather than impression"
+critical-questions:
+  - "is there an actual multi-step trajectory behind the belief, or a single decision misread as gradual? The compound pattern requires lex-y48fs's incrementalism specifically — a single large decision can still produce lex-e3yhv's leakage-tell-free sincerity (e.g. sudden conversion), but then the early-cheap-step diagnostic below doesn't apply, because there's no early step to find."
+  - "does finding the early cheap-to-reverse step actually still work once the belief has stabilized into genuine conviction? Tavris-Aronson's own answer is no — by the time lex-e3yhv's payoff is operating, the actor is no longer aware of holding a constructed belief, so pointing at the pyramid's base doesn't feel like evidence to them, it feels like an attack on who they are. The diagnostic value of finding the early step is retrospective (for an outside analyst) or preventive (for someone still early in their own trajectory), not persuasive against someone already at lex-e3yhv's payoff stage."
+  - "can the compound pattern be interrupted at the lex-e3yhv end instead of the lex-y48fs end? Institutional accuracy-checks (audit, double-blind protocol, peer review) don't need to find the pyramid's first step — they just need to make the domain accuracy-decided rather than impression-decided, which removes lex-e3yhv's payoff regardless of how far the trajectory has run. This is a second intervention channel independent of catching the trajectory early."
+  - "is the self-deceiver a bad-faith target for correction, or does the compound mechanism argue for treating them as a genuine (if manufactured) believer? Since lex-e3yhv's payoff is that the belief is sincere, treating the person as if they know they're lying will read to them as false and produce defensive escalation — often the next small choice up the pyramid. Approaches that work against a conscious liar (confrontation, catching inconsistencies) are likely to backfire against someone this pattern actually describes."
+lineage:
+  - source: practitioner
+    text: assembled-from-lex-e3yhv-lex-y48fs
+    citation: "Molecule assembled from lex-e3yhv (self-deception-improves-other-deception-by-removing-leakage-tells, Trivers 2011) and lex-y48fs (pyramid-of-choice-incremental-self-justification, Tavris & Aronson 2007). Both atoms already document the compositional relationship at length in their own canonical-instances (lex-e3yhv #30, lex-y48fs #32): lex-y48fs is the diachronic construction process, lex-e3yhv is the synchronic payoff once construction is complete. This molecule promotes that documented relationship to a first-class retrievable unit — sequential(lex-y48fs, lex-e3yhv) — so the compound pattern is directly surfaceable rather than requiring a reader to notice the cross-reference buried in either atom's instance list."
+canonical-instances:
+  - "The tax-evader who begins with one aggressive-but-defensible deduction, is not challenged, takes a slightly bolder one the next year (lex-y48fs's trajectory), and five years in sincerely believes 'I'm just being smart about the law' (lex-e3yhv's payoff) — and now passes an audit interview a cynical evader would fail, because there is no longer anything to leak."
+  - "Road to St. Andrews, extended: Tom DeLay's acceptance of lunch, then golf, then the Scotland trip (lex-y48fs) is the visible trajectory; what let the arrangement survive scrutiny as long as it did was that by the end DeLay was not performing innocence, he believed it (lex-e3yhv) — no coached answer to defend, no inconsistency to catch."
+  - "Contrast case showing the molecule does NOT apply: a scammer running the identical script on every mark is a conscious, disciplined liar with a stable cover story — no personal stake escalating with each use, so no pyramid and no genuine belief forms. Skilled interviewers can and do catch these operators on leakage tells. The molecule names the manufactured-believer, not the practiced performer."
+status: under-review

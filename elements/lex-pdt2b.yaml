@@ -1,0 +1,19 @@
+id: lex-pdt2b
+name: a-physical-inconsistency-exposes-concealment-testimony-cannot
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A cover-up can leave a purely physical, sensory trace that exposes it even when every verbal account stays perfectly consistent and nobody involved says anything incriminating. In the Jataka's tale of the hidden lover, a wife hastily covers her lover's leftover meal by topping it with freshly cooked rice, but the temperature layering itself betrays the substitution before any words are exchanged: 'Hot at top, and cold at bottom, not alike it seems to be: I would ask you for the reason: come, my lady, answer me!' The wife says nothing damaging and the concealment attempt is otherwise competent. The tell sits nowhere in what anyone claims. It sits in a material property, heat distribution, that the cover-up's own method of construction couldn't avoid leaving behind."
+related: []
+evokes: [jataka, dukanipata, ucchittha-bhatta-jataka, a-material-trace-exposes-concealment-independent-of-testimony, the-methods-mechanics-leave-a-detectable-signature]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-ucchittha-bhatta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 212, Ucchittha-bhatta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Hot at top, and cold at bottom, not alike it seems to be: I would ask you for the reason: come, my lady, answer me!"
+canonical-instances:
+  - "An employee claims they've been steadily working on a report all afternoon, but a colleague notices the document's last-saved timestamp jumped from an hour ago to two minutes before it was shared, a purely mechanical trace of last-minute assembly that no verbal account could paper over."
+critical-questions:
+  - "Does this kind of detection generalize, or does it depend on the specific concealment method (layering hot over cold) leaving an unusually legible physical signature that a more careful cover-up could have avoided?"
+  - "Would the husband have caught the deception at all without already suspecting something was off, or does noticing a subtle physical inconsistency like temperature layering require a level of attention that's only present once trust has already started to erode?"
+status: active

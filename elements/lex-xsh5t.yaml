@@ -1,0 +1,19 @@
+id: lex-xsh5t
+name: calibrate-your-tactic-to-each-rivals-actual-power-tier
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When you face multiple rivals of different strength, apply a distinct tactic to each keyed to how much relative power they actually hold, rather than defaulting to one approach across the board. The Panchatantra's jackal Supersmart survives among a lion, a tiger, and a leopard by treating each differently — deference toward the one strong enough to destroy him outright, psychological manipulation toward the one genuinely dangerous but manageable, and cheap bribery toward the merely useful one — reserving direct confrontation only for a true equal. The verse states the taxonomy directly: 'Sway patrons with obeisance; in heroes raise a doubt; fling petty bribes to flunkeys; with equals, fight it out.' A single strategy applied uniformly across parties of unequal power wastes deference on the weak and invites destruction from the strong."
+related: []
+evokes: [panchatantra, loss-of-gains, calibrate-tactic-to-relative-power, one-strategy-does-not-fit-every-rival]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-how-supersmart-ate-the-elephant
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book IV, 'How Supersmart Ate the Elephant.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Sway patrons with obeisance; In heroes raise a doubt; Fling petty bribes to flunkeys; With equals, fight it out."
+canonical-instances:
+  - "a startup founder negotiating simultaneously with a dominant platform partner, a mid-size competitor, and a small vendor treats each relationship with a completely different posture — deferential toward the platform that could shut them out entirely, wary and calculating toward the competitor, transactional toward the vendor — rather than adopting one consistent negotiating stance across all three."
+critical-questions:
+  - "How reliably can relative power actually be assessed in advance? Misjudge a genuine equal as a mere flunky and the framework sends you at them with a petty bribe instead of a real contest."
+  - "Does this framework risk becoming self-fulfilling, where treating someone as a 'flunky' worth only a petty bribe actively damages a relationship that could otherwise have developed into something more valuable than the tactic assumed?"
+status: active

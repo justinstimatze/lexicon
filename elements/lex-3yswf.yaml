@@ -1,0 +1,22 @@
+id: lex-3yswf
+name: moral-failure-reframed-as-developmental-error-not-sin
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: "A culture can raise children without ever presenting their mistakes and misdeeds as sins or moral failures, treating them instead as errors and misplays, the way a friendly card game treats a weak player's mistakes with cheerful tolerance rather than condemnation. The underlying ethical framework replaces a good-versus-evil vocabulary with a growth vocabulary: life is understood as a process of growth, and both the pleasure and the duty of living lie in that growth, so a shortcoming is a stage to move through rather than a stain to carry. Gilman states this directly: 'Even their shortcomings and misdeeds in childhood never were presented to them as sins; merely as errors and misplays--as in a game. Some of them... were treated with cheerful allowance, as a friendly group at whist would treat a poor player... They had no theory of the essential opposition of good and evil; life to them was growth...'"
+related: []
+evokes: [herland, chapter-9, never-presented-to-them-as-sins-merely-as-errors-and-misplays, a-friendly-group-at-whist-would-treat-a-poor-player, growth-vocabulary-replaces-sin-vocabulary]
+lineage:
+  - source: primary
+    text: gilman-1915-herland-chapter-9
+    citation: "Charlotte Perkins Gilman, Herland (1915), Chapter 9, 'Our Relations and Theirs.' Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "Even their shortcomings and misdeeds in childhood never were presented to them as sins; merely as errors and misplays--as in a game. Some of them, who were palpably less agreeable than others or who had a real weakness or fault, were treated with cheerful allowance, as a friendly group at whist would treat a poor player. Their religion, you see, was maternal; and their ethics, based on the full perception of evolution, showed the principle of growth and the beauty of wise culture. They had no theory of the essential opposition of good and evil; life to them was growth; their pleasure was in growing, and their duty also."
+canonical-instances:
+  - "A coding bootcamp treats a student's buggy first program not as evidence of incompetence but as an ordinary stage in learning to write software, the same way an instructor would treat a chess beginner's blunder -- something to correct and move past, not something to feel ashamed of."
+  - "A sports academy treats a young athlete's repeated fouls during their first season as technique errors to be coached out, rather than character flaws to be scolded, framing every mistake as information about where their skill still needs to grow rather than as a moral lapse."
+  - "A family therapy practice reframes a teenager's lying to their parents not as a sin requiring punishment but as a developmental misstep in learning to navigate trust and autonomy, treating the behavior the way a driving instructor treats a stalled car -- a correctable stage, not a character verdict."
+critical-questions:
+  - "Does removing sin-language and shame from childhood mistakes actually produce better long-term behavior, or does some measure of felt consequence -- even discomfort -- serve a necessary role in learning that pure developmental framing might strip away?"
+  - "Is there a category of harmful action serious enough that treating it purely as a game-error, with cheerful tolerance, would fail to convey the actual weight of what happened to anyone genuinely hurt by it?"
+  - "Does this framework depend on the near-total absence of serious crime and violence Gilman's Herland enjoys, meaning it works because there is little at stake in most childhood errors -- and would it hold up in a society with real, high-stakes harms to account for?"
+status: active

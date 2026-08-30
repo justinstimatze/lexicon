@@ -1,0 +1,19 @@
+id: lex-brvmw
+name: a-status-inversion-spectacle-reopens-a-closed-question-indirectly
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Rather than argue directly against a settled decision, staging a visible mismatch — a strikingly high-status figure publicly deferring to someone humble or plain-looking — can provoke enough curiosity in the decision-maker to reopen the question without ever confronting the decision itself. In the Jataka's tale of Dhajavihetha, Sakka stages exactly this to reach a king who has already banished an entire class of people: \"Sakka set him before and came himself after, making respectful salutation and venerating the paccekabuddha ... Noble of face, you make obeisance low; Behind one mean and poor to sight you go: Is he your better or your equal, say, Declare to us your name and his, we pray.\""
+related: []
+evokes: [jataka, chanipata, dhajavihetha-jataka, status-inversion-reopens-closed-question, spectacle-as-indirect-persuasion]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dhajavihetha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 391, Dhajavihetha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Sakka set him before and came himself after, making respectful salutation and venerating the paccekabuddha: himself becoming a beautiful young Brother he went thrice round the whole city from end to end, and then coming to the king's gate he stood in the air. ... Noble of face, you make obeisance low; Behind one mean and poor to sight you go: Is he your better or your equal, say, Declare to us your name and his, we pray."
+canonical-instances:
+  - "A junior clerk lobbying against a policy that bans an entire vendor category gets a widely respected retired judge to publicly ask the clerk for advice in front of the council, forcing the councilors to wonder why someone so distinguished would defer to someone they'd already dismissed."
+critical-questions:
+  - "Does staging a status-inversion spectacle actually change the decision-maker's mind, or does it only buy a moment of attention that still has to be followed up with a real argument?"
+  - "Is this technique available to anyone with a grievance, or does it require access to a genuinely high-status ally willing to stage the reversal?"
+status: active

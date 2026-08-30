@@ -1,0 +1,19 @@
+id: lex-rxbaj
+name: a-tokenized-expert-sabotages-the-decision-out-of-spite
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "An expert brought in only after a decision is already made, purely to rubber-stamp it, can use their remaining authority to sabotage the outcome — not because the sabotage serves any goal beyond registering that being treated as a formality has a cost. In the Jataka's tale of the family astrologer, the households fix a wedding date without consulting him first, then approach him afterward as a pro-forma courtesy. Recognizing the insult, he deliberately declares the stars unfavorable, purely to punish being treated as a rubber stamp rather than a real authority; the families miss the window and the bride marries someone else. His false reading required no lie that could be checked — only a domain where his word was the only available evidence."
+related: []
+evokes: [jataka, ekanipata, nakkhatta-jataka, spite-sabotage-by-a-tokenized-expert, unfalsifiable-authority-enables-retaliation]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-nakkhatta-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 49, Nakkhatta-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"He didn't ask me in the first instance,\" thought the indignant ascetic, \"but having already fixed the day, without consulting me, just makes an empty ... reference to me now. Very good; I'll teach him a lesson.\""
+canonical-instances:
+  - "A company finalizes a product launch date without looping in its lead security reviewer, then sends the plan over for a pro-forma sign-off. The reviewer, recognizing the courtesy for what it is, flags an ambiguous but technically defensible vulnerability that delays the launch by a month."
+critical-questions:
+  - "How would the families have known the astrologer's reading was retaliatory rather than genuine, given that his domain offers no independent way to check his word?"
+  - "Does this pattern require the expert's authority to be genuinely unfalsifiable, the way astrology is here, or does it also work in domains where the sabotage could eventually be caught and traced back to spite?"
+status: active

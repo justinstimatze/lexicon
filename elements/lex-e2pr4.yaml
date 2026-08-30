@@ -1,0 +1,21 @@
+id: lex-e2pr4
+name: proximity-to-power-sets-exposure-independent-of-merit
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When two positions of otherwise identical rank or quality produce very different outcomes, check whether proximity to power explains the gap before looking anywhere else. The I Ching's Great Appendix names exactly this split among structurally equivalent lines: 'the second is the object of much commendation, and the fourth the subject of many apprehensions,--from its nearness (to that line)... the third meets with many misfortunes, while the occupant of the fifth achieves much merit:--this arises from one being in the noble position and the other in the mean.' Two pairs of positions, matched in their own internal quality, diverge in fortune purely because of where each one sits relative to the seat of power — not because of any difference in the position's own nature."
+related: []
+evokes: [i-ching, yi-jing, legge, ten-wings, xi-ci, great-appendix, proximity-to-power]
+lineage:
+  - source: primary
+    text: legge-1899-i-ching-appendix-iii-ii-proximity
+    citation: "James Legge, translator, The Yî King (I Ching), Sacred Books of the East vol. 16 (Oxford University Press, 1899), Appendix III ('The Great Appendix'), Section II, paragraphs 61-62. Verified verbatim against a direct extraction of the text hosted at sacred-texts.com, clean digital text, no OCR."
+    quote: "the second is the object of much commendation, and the fourth the subject of many apprehensions,--from its nearness (to that line). But for a line in a place of weakness it is not good to be far (from the occupant of the place of strength), and what its subject should desire in such a case is (merely) to be without blame... the third meets with many misfortunes, while the occupant of the fifth achieves much merit:--this arises from one being in the noble position and the other in the mean."
+canonical-instances:
+  - "The text specifically flags that the two compared lines share 'the same quality' before splitting them by outcome — the passage isn't comparing a strong position against a weak one, it's comparing two positions with matched internal quality that diverge purely by rank and nearness to the source of authority."
+  - "Two equally competent staffers, one whose desk sits next to the CEO's office and one in a satellite building, routinely face very different scrutiny and different opportunity purely from spatial and organizational proximity, independent of any difference in their actual work."
+critical-questions:
+  - "Is nearness to power always a liability (more apprehension, more exposure) as this passage frames it, or can the same proximity that produces exposure also produce disproportionate reward when things go well — does the passage only capture the downside half of the effect?"
+  - "Does 'nearness' here mean literal adjacency in the hexagram's line structure, or does it generalize to any organizational or social sense of being close to an authority figure — and does the mechanism actually transfer across those different senses of nearness?"
+  - "If exposure tracks proximity rather than merit, does deliberately maintaining distance from power become a rational strategy for reducing risk, even at the cost of the opportunities that closeness would otherwise bring?"
+status: active

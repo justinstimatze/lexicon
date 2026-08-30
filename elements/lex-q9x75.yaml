@@ -1,0 +1,19 @@
+id: lex-q9x75
+name: universalizing-a-beliefs-implied-premise-turns-it-into-its-own-refutation
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A counterargument against a belief's claimed efficacy can work by universalizing the belief's implied premise: if the mechanism actually worked as claimed, then everyone who used it would succeed by it; since nobody demonstrably does, the mechanism's presumed causal power is refuted. This is a specific, reusable logical structure — reductio via universalization — distinct from simply asserting the belief is false. In the Jataka's tale of Migapotaka: 'if by our tears we might prevail against the grave, thus would we all unite our dearest ones to save.'"
+related: []
+evokes: [jataka, pancanipata, migapotaka-jataka, reductio-via-universalizing-the-implied-premise, refuting-a-mechanism-by-its-own-universal-failure]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-migapotaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 372, Migapotaka-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "If by our tears we might prevail against the grave, Thus would we all unite our dearest ones to save."
+canonical-instances:
+  - "A skeptic responds to a colleague's claim that a specific lucky ritual reliably improves quarterly sales by pointing out that if the ritual actually worked as described, every team that performed it would be hitting record numbers — since they aren't, the claimed causal mechanism collapses on its own logic rather than needing outside evidence."
+critical-questions:
+  - "Does the universalization test actually apply cleanly here, or could the belief hold only under specific conditions that aren't present for everyone who tries it, meaning the refutation is too quick?"
+  - "Is there a difference between refuting the literal causal claim and refuting the emotional or ritual value the belief provides — does winning the logical argument leave the underlying need for consolation completely unaddressed?"
+status: active

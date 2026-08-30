@@ -1,0 +1,21 @@
+id: lex-npehs
+name: the-more-convincing-the-decoy-the-harder-the-attacker-commits
+type-in: process
+type-out: warning
+_tier: atomic
+agent-instruction: "A decoy's danger to whoever attacks it scales with how well it mimics the real target's surface -- the more completely the attacker believes it's real, the more force they commit, and that full commitment is what turns their own weapon against them. In Cushing's telling, a Locust escapes a Coyote's anger by building a body double engineered specifically to pass inspection: he splits his own back, crawls out, and finds 'a suitable quartz stone, which, being light-colored and clear, would not make his skin look unlike himself,' seals it into his empty skin with pitch, and leaves 'his exact counterfeit sticking to the bark.' The Coyote, certain he's facing the same Locust that has ignored his mounting threats, commits everything: 'making a quick jump, he snapped the Locust skin off of the bough, and bit it so hard that it crushed and broke the teeth in the middle of his jaw.' A half-convincing decoy invites a cautious, testing bite. This one invited his full weight, because nothing about it suggested he should hold back. Diagnostic move: when you build a decoy to absorb an attack meant for you, the fidelity of the substitution is not just camouflage -- it's what licenses the attacker's maximum commitment, and a decoy that's too obviously fake may cost you less by inviting a lighter, more survivable response."
+related: []
+evokes: [fidelity-of-the-substitute-licenses-the-attackers-full-commitment, cushing-coyote-and-the-locust, light-colored-and-clear-would-not-make-his-skin-look-unlike-himself, his-exact-counterfeit-sticking-to-the-bark]
+lineage:
+  - source: primary
+    text: cushing-locust-stone-decoy-breaks-coyotes-teeth
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Coyote and the Locust.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'catching tight hold of the bark, he swelled himself up and strained until his back split open; then he skinned himself out of his old skin, and, crawling down the tree, found a suitable quartz stone, which, being light-colored and clear, would not make his skin look unlike himself. He took the stone up the tree and carefully placed it in the empty skin. Then he cemented the back together with a little pitch and left his exact counterfeit sticking to the bark ... and making a quick jump, he snapped the Locust skin off of the bough, and bit it so hard that it crushed and broke the teeth in the middle of his jaw, driving some of them so far down in his gums that you could hardly see them, and crowding the others out so that they were regular tusks.'"
+canonical-instances:
+  - "A homeowner installs a highly realistic decoy security camera, and a burglar who believes it's live and recording avoids the house entirely rather than testing it, while a burglar who suspects it's fake might have risked a closer look that a real camera would have caught on film."
+  - "A negotiator bluffs with a counteroffer built to look exactly like a genuine walk-away position, complete with real-seeming internal deadlines and a plausible alternative supplier, and the other side, fully convinced, commits to concessions they would never have made against a bluff they suspected was thin."
+critical-questions:
+  - "Does the Locust's own safety actually depend on the Coyote biting hard enough to break his teeth, or would a decoy that simply diverted the attack without provoking maximum force have served the Locust's purposes just as well -- is the injury to the attacker the point, or a bonus?"
+  - "Would the trick have worked at all if the stone had been a color or texture that showed through the translucent skin -- how much of the decoy's success rests on that one specific material choice versus the general strategy of leaving a counterfeit behind?"
+  - "Is there a limit to how convincing a decoy should be made, given that a more convincing decoy invites a more committed and less predictable attack -- could the Locust have miscalculated here in a way that endangered the real Locust nearby?"
+status: active

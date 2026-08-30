@@ -1,0 +1,19 @@
+id: lex-qf7g3
+name: authority-launders-a-private-motive-as-neutral-enforcement
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Someone with the power to stage an apparently neutral, procedurally correct enforcement action can use it to launder an entirely private and illegitimate motive, making a targeted act of predation look like impartial justice to everyone watching. In the Jataka's tale of the covetous king, he desires a commoner's wife, and rather than acting openly, has a servant plant his own jewel in the husband's cart: 'Here, my good fellow, take this jewelled crest, and make as though you were passing down the street. As you go, drop it in the waggon of yonder man.' He then stages a public search, 'finds' the planted evidence, and has the husband condemned as a thief — the entire machinery of impartial law enforcement conscripted to clear the way for exactly the private theft it exists to prevent."
+related: []
+evokes: [jataka, dukanipata, manicora-jataka, planted-evidence-launders-a-private-motive-as-neutral-process, the-appearance-of-due-process-conceals-a-targeted-act]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-manicora-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 194, Manicora-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Here, my good fellow, take this jewelled crest, and make as though you were passing down the street. As you go, drop it in the waggon of yonder man."
+canonical-instances:
+  - "A manager who wants a particular employee gone for personal reasons has a compliant colleague quietly flag a minor policy violation that was never actually enforced against anyone else, then processes the resulting termination entirely through official HR channels so it appears to be routine, neutral discipline rather than a targeted removal."
+critical-questions:
+  - "What would it have taken for anyone in the story to catch this — is planted evidence detectable in principle by a sufficiently careful search, or does the mechanism specifically depend on nobody having reason to doubt the process itself?"
+  - "Does the eventual divine intervention in the story (Sakka's correction) suggest this kind of laundering is only defeatable by an outside power with perfect information, meaning that within ordinary human institutions the scheme would have simply succeeded?"
+status: active

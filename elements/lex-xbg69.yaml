@@ -1,0 +1,19 @@
+id: lex-xbg69
+name: a-demonstrated-willingness-to-betray-gets-the-betrayer-eliminated-first
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone betrays a partner to curry favor with a more powerful new ally, check whether that demonstrated willingness to betray makes the betrayer the new ally's first target rather than a trusted asset. Aesop's 'The Ass, the Fox, and the Lion' states the outcome plainly: 'Betray a friend, and you'll often find you have ruined yourself.' The mechanism is specific about timing and cause — the betrayer is dealt with immediately, before their usefulness is even spent, because completing the betrayal is itself the evidence the new power needs that this person will do the same to them the moment it serves their interest."
+related: []
+evokes: [aesop, the-ass-the-fox-and-the-lion, betrayal-backfires, disqualifying-signal, sequenced-elimination]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-ass-the-fox-and-the-lion
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Ass, the Fox, and the Lion.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Betray a friend, and you'll often find you have ruined yourself."
+canonical-instances:
+  - "an executive who leaks a colleague's confidential information to an acquiring company to secure their own position is often the first person let go post-acquisition, because the new owners now know exactly what this person is willing to do to anyone, including them."
+critical-questions:
+  - "Does the timing hold generally — is the betrayer always eliminated before their usefulness is spent, or does this only apply when the new power has an easy, low-cost way to dispose of them immediately?"
+  - "Is there a version of this exchange where the betrayer's usefulness is high enough, or the disposal cost high enough, that the new ally tolerates the demonstrated risk rather than acting on it right away?"
+status: active

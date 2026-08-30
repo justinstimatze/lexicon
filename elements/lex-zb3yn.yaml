@@ -1,0 +1,18 @@
+id: lex-zb3yn
+name: self-interested-actor-disguises-threat-elimination-as-counsel
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'An actor whose own position is threatened by another''s growing power frames the destruction of that power as a boon to a third party, concealing that the real motive is self-preservation. The manipulated party never learns the instigator''s actual stake, so they evaluate the advice as disinterested when it is not. In the Jataka''s tale of Lomasakassapa, Sakka''s own throne is threatened by the ascetic''s mounting virtue, and he hides that motive behind a gift offered to the king: "This ascetic, by the exceedingly fierce fire of his virtue, would make me fall even from the abode of Sakka. After a secret interview with the king of Benares, I will break down his austerity."'
+related: []
+evokes: [jataka, navanipata, lomasakassapa-jataka, self-interested-advice-disguised-as-gift, concealed-motive-in-counsel]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-lomasakassapa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 433, Lomasakassapa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "This ascetic, by the exceedingly fierce fire of his virtue, would make me fall even from the abode of Sakka. After a secret interview with the king of Benares, I will break down his austerity."
+canonical-instances:
+  - "An incumbent executive whose position is threatened by a rising deputy's growing influence quietly frames a \"generous opportunity\" — a transfer to a dead-end division — as a career gift, never revealing that the real motive is removing a threat to her own job."
+critical-questions:
+  - "If the manipulated party never learns the instigator's real stake, is there any way for them to distinguish genuinely disinterested advice from this pattern before the outcome makes the motive visible?"
+status: active

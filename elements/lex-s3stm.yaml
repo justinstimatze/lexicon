@@ -1,0 +1,22 @@
+id: lex-s3stm
+name: a-conceded-specialty-levers-open-a-resisted-one
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Someone can resist the idea that a beloved, emotionally-charged activity requires specialized skill rather than love alone. A persuader can point to a domain the resister has already conceded is a specialized craft requiring trained skill, and ask why love doesn't similarly qualify someone to perform that specialized task -- if affection alone isn't expected to make a parent a competent dentist for their own child's teeth, the same logic should apply to the equally skilled task of raising the child well, exposing the resistance as inconsistent rather than principled. Gilman stages this exactly: Somel presses Van on why child-rearing should be exempt from the specialization he already grants elsewhere. 'You told us about your dentists,' she said, at length, 'those quaintly specialized persons who spend their lives filling little holes in other persons' teeth... Does mother-love urge mothers--with you--to fill their own children's teeth? Or to wish to?'"
+related: []
+evokes: [herland, chapter-7, you-told-us-about-your-dentists, does-mother-love-urge-mothers-to-fill-their-own-childrens-teeth, a-conceded-specialty-exposes-an-inconsistent-resistance]
+lineage:
+  - source: primary
+    text: gilman-1915-herland-chapter-7
+    citation: "Charlotte Perkins Gilman, Herland (1915), Chapter 7, 'Our Growing Modesty.' Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "\"You told us about your dentists,\" she said, at length, \"those quaintly specialized persons who spend their lives filling little holes in other persons' teeth--even in children's teeth sometimes.\" \"Yes?\" I said, not getting her drift. \"Does mother-love urge mothers--with you--to fill their own children's teeth? Or to wish to?\" \"Why no--of course not,\" I protested. \"But that is a highly specialized craft. Surely the care of babies is open to any woman--any mother!\" \"We do not think so,\" she gently replied."
+canonical-instances:
+  - "A parent insists no professional financial advisor understands their child's future better than they do, and a friend points out that the same parent hires a licensed electrician to rewire their house rather than doing it out of love for their family, asking why financial planning for that same family should be any different."
+  - "A manager insists that caring deeply about their team means they should personally handle every performance review, untrained. A colleague notes that this same manager would never let an untrained employee touch the company's payroll out of sheer good intentions. Why does review-writing get a pass that payroll never would?"
+  - "A hobbyist gardener insists that loving their orchard means they alone should manage its pest control. An agronomist neighbor points out that this same gardener already hires a licensed arborist for the property's oldest trees. Why does the rest of the orchard deserve less rigor than the trees already handed to a specialist?"
+critical-questions:
+  - "Does the analogy actually hold -- is 'specialization' doing the same work in both domains, or does the comparison quietly smuggle in a different sense of skill (technical, mechanical) that doesn't transfer cleanly to a domain (like emotional attunement in child-rearing) that might not reduce to the same kind of trainable expertise?"
+  - "Could the resister accept the analogy's logic but reject its conclusion -- agreeing that both domains require skill, while insisting that unlike dentistry, this particular skill is one every parent can and should be expected to acquire themselves, rather than delegate to a specialist?"
+  - "Does using an already-conceded case as leverage risk overreaching? Unlike dentistry, the emotional and relational stakes of delegating this particular task to a stranger might differ in kind, not merely in degree, from anything the dental analogy actually covers."
+status: active

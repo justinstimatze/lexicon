@@ -1,0 +1,19 @@
+id: lex-43ywj
+name: rejecting-that-symmetric-retaliation-restores-trust
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "An offer to stay premised on the wrong having been formally balanced out — harm answered with equal harm — can be flatly rejected on the grounds that achieving numerical symmetry between wrongs doesn't actually repair what the relationship lost, since the original trust and the thing destroyed remain gone regardless of the accounting. In the Jataka's tale of the mother heron, the king argues the wrong has now been repaid in kind and asks her to remain, and her reply dismisses the whole premise: 'Wronged can with wrong-doer ne'er As of old be made at one: Nought, O king, can keep me here, Lo! from henceforth I am gone.'"
+related: []
+evokes: [jataka, catukkanipata, kuntani-jataka, symmetric-retaliation-does-not-restore-what-trust-lost, formal-balance-of-harms-is-rejected-as-insufficient-repair]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kuntani-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 343, Kuntani-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Wronged can with wrong-doer ne'er As of old be made at one: Nought, O king, can keep me here, Lo! from henceforth I am gone."
+canonical-instances:
+  - "A business partner argues that since both sides have now cost each other roughly equal amounts of money through separate breaches, the ledger is even and the partnership can pick back up where it left off. The wronged partner isn't moved: being made financially whole is not the same thing as trusting the arrangement again."
+critical-questions:
+  - "Is the heron's position actually right, or does she reject a genuine offer of repair out of pride, when the king's argument for symmetric balance has some real logical force to it?"
+  - "Does this stance generalize past this specific relationship — are there cases where a formal, agreed-upon exchange of harms genuinely does restore a working relationship, even if it can't restore the original trust?"
+status: active

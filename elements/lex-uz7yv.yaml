@@ -1,0 +1,29 @@
+id: lex-uz7yv
+name: kin-altruism-and-shared-intentionality-partition-cooperation-by-relatedness-cost
+type-in: claim
+type-out: claim
+_tier: molecule
+agent-instruction: "When explaining why a cooperative act happened, check which regime the cost and kinship-distance fall into: low-cost cooperation among genetic relatives is well explained by inclusive fitness alone, but high-cost coordination among genetically unrelated or distantly-related actors needs a further capacity — shared intentionality, the we-mode formation of a joint goal — that kin-selection math doesn't supply on its own. Don't reach for kin-altruism to explain costly cooperation between strangers, and don't reach for shared-intentionality to explain cheap favors between siblings when relatedness alone accounts for it."
+related: [lex-5dnd9, lex-46n25]
+scaffolds-from: [lex-5dnd9, lex-46n25]
+evokes: [inclusive-fitness, shared-intentionality, we-mode, kin-vs-mixed-kinship-cooperation, cooperation-cost-partition]
+decomposes-into:
+  - lex-5dnd9
+  - lex-46n25
+assembly: "parallel(lex-5dnd9, lex-46n25)"
+premises:
+  - "inclusive fitness extends selection through relatives, weighted by degree of relatedness — a costly act toward a relative can still be selected-for if the relatedness-weighted benefit exceeds the cost (Hamilton's rule), which explains low-cost, high-relatedness cooperation without requiring any further cognitive capacity (lex-5dnd9)"
+  - "shared intentionality — theory-of-mind plus the further capacity for we-mode, forming a joint goal together rather than merely predicting another's individual goal — is what's required to explain high-cost coordination among mixed-kinship or unrelated groups, where relatedness-weighting alone doesn't supply enough benefit to select for the cost (lex-46n25)"
+  - "the two mechanisms partition the cooperation space by relatedness and cost rather than compete to explain the same cases: inclusive fitness covers the low-cost/high-relatedness region, shared intentionality covers the high-cost/mixed-kinship region"
+critical-questions:
+  - "for a specific cooperative act, has the relatedness and the cost actually been estimated, or is the classification into 'kin-altruism case' vs. 'shared-intentionality case' being asserted from the outcome alone? Both mechanisms can in principle produce similar-looking cooperative behavior, so the partition requires measuring the two independent variables, not just observing the cooperation."
+  - "do the two mechanisms ever compose rather than partition — e.g., a mixed-kinship group where shared intentionality forms the joint goal but inclusive fitness still provides additional selective pressure for the kin-related subset of participants? The atoms' own framing treats them as covering distinct regions, but real cases may blend both."
+  - "is there a cost/relatedness threshold where the explanatory handoff from lex-5dnd9 to lex-46n25 actually occurs, or is the boundary fuzzy and context-dependent (varying by species, by the specific cost being borne, by ecological pressure)?"
+lineage:
+  - source: practitioner
+    text: assembled-from-lex-5dnd9-lex-46n25
+    citation: "Molecule assembled from lex-5dnd9 (inclusive-fitness-extends-selection-through-relatives-weighted-by-relatedness, Hamilton) and lex-46n25 (shared-intentionality-enables-collaborative-action-via-joint-goals, Tomasello). lex-46n25's own canonical-instances state the link directly: 'Composes with lex-5dnd9 inclusive-fitness (kin altruism explains low-cost cooperation in genetically related groups; shared intentionality explains high-cost coordination in mixed-kinship groups)...'."
+canonical-instances:
+  - "Alloparenting vs. large-game hunting parties: a grandmother caring for a grandchild at modest personal cost is well explained by inclusive fitness alone — the relatedness-weighted benefit clears Hamilton's rule without requiring any joint-goal cognition beyond ordinary care-instinct. A multi-male hunting party coordinating a costly, dangerous large-game hunt among genetically unrelated or distantly-related men requires shared intentionality — an explicitly formed joint goal and coordinated role-division that inclusive fitness math, applied to unrelated participants, cannot supply the selective pressure for."
+  - "Corporate teamwork across unrelated colleagues: high-cost, coordinated project work among genetically unrelated coworkers is a paradigm shared-intentionality case (joint goal formation, we-mode task allocation) with essentially zero inclusive-fitness contribution — useful as a clean test case for isolating lex-46n25's mechanism from lex-5dnd9's, since relatedness is functionally absent."
+status: under-review

@@ -1,0 +1,22 @@
+id: lex-2ym4r
+name: one-relationship-frame-monopolizes-interpretation-of-all-contact-between-two-groups
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When one relationship type between two categories of people becomes culturally overloaded and dominant, all other forms of contact between members of those two categories get reflexively reinterpreted through that single lens, even when the actual motive is something else entirely, like ordinary friendship or shared interest. The oversaturated frame doesn't just bias interpretation -- it makes the other, legitimate relationship types structurally difficult to form or even recognize as what they are. Gilman states the confusion directly: 'That people want to see each other is construed by us to mean that \"he\" wants to see \"her,\" and \"she\" wants to see \"him.\"... friendship between man and woman being a common laughing-stock.'"
+related: []
+evokes: [women-and-economics, chapter-xiv, that-people-want-to-see-each-other, friendship-between-man-and-woman-being-a-common-laughing-stock, one-frame-crowds-out-every-other-relationship-type]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-xiv
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter XIV. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "To want a good time is not the same thing as to want the society of the other sex... That people want to see each other is construed by us to mean that 'he' wants to see 'her,' and 'she' wants to see 'him.' [...] Young men and women are allowed to associate more or less freely, but always on a strictly sex-basis, friendship between man and woman being a common laughing-stock."
+canonical-instances:
+  - "In an office where cross-departmental collaboration is rare, when a manager from one department starts regularly consulting a colleague in another, coworkers assume romantic involvement rather than recognizing genuine professional respect and shared problem-solving interest, and the two eventually limit their contact to avoid the gossip."
+  - "In a tight-knit religious community where adult friendship across genders is unusual, a widow and widower who talk for hours about books and ideas find themselves gently steered toward courtship by well-meaning relatives, even though neither one is interested in anything but the conversation itself."
+  - "In a competitive academic field where cross-gender mentorship is rare, a senior researcher who takes real interest in a junior colleague's work finds the relationship reflexively read by others as romantic rather than professional, making the junior colleague reluctant to seek that mentorship at all."
+critical-questions:
+  - "Does the monopolizing frame apply symmetrically to both categories of people, or does it fall more heavily on one side -- making, say, women's motives for cross-group contact more automatically sexualized than men's -- in ways that would make the mechanism itself asymmetric rather than a simple mutual crowding-out?"
+  - "How much of the oversaturation is genuinely cultural interpretation versus an accurate read of actual base rates -- if romantic motive really is statistically the most common reason for this kind of contact, is the reflexive assumption a bias or a reasonable prior?"
+  - "Once a society successfully diversifies the legitimate contexts for cross-group contact (shared work, shared institutions, mixed social spaces), does the monopolizing frame actually recede, or does it persist as a lingering interpretive habit even after the structural conditions that produced it have changed?"
+status: active

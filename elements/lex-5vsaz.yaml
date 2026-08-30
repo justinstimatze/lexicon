@@ -1,0 +1,19 @@
+id: lex-5vsaz
+name: character-flaws-function-as-self-imposed-taxes-no-policy-relieves
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a group blames an external authority's policy for a burden, check whether a larger share of that burden is actually self-imposed by character habits the policy has no power to touch. Franklin's Father Abraham tells a crowd complaining about heavy government taxes that idleness, pride, and folly cost them several times more than the government levy does, and no commissioner can grant relief from any of it. The mechanism is jurisdictional. A tax commissioner can grant an abatement because the tax is an external rule someone administers. Idleness, pride, and folly are administered by no one outside the person paying them. There is no commissioner to petition and no abatement to request, because the only party who could reduce this cost is the one already refusing to."
+related: []
+evokes: [franklin, way-to-wealth, self-imposed-cost-has-no-external-relief-valve, blaming-policy-for-a-character-cost]
+lineage:
+  - source: primary
+    text: franklin-1758-way-to-wealth
+    citation: "Benjamin Franklin, Father Abraham's Speech ('The Way to Wealth' / 'Poor Richard Improved'), 1758 (Gutenberg #43855). Verified verbatim against a direct extraction of the held copy."
+    quote: "We are taxed twice as much by our idleness, three times as much by our pride, and four times as much by our folly; and from these taxes the commissioners cannot ease or deliver us by allowing an abatement."
+canonical-instances:
+  - "a household blames rising costs entirely on inflation or policy while a comparable share of its actual financial strain traces to habits — impulse spending, unused subscriptions, procrastinated repairs — that no government relief program is positioned to address."
+critical-questions:
+  - "How would someone actually apportion 'twice, three times, four times' the tax between idleness, pride, and folly versus the real government levy — is this a measurable claim or a rhetorical multiplier meant only to reorder attention?"
+  - "Does naming a cost self-imposed risk excusing an unjust external policy by redirecting blame inward, even when the external policy is also genuinely unfair?"
+status: active

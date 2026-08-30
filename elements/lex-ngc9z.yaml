@@ -1,0 +1,22 @@
+id: lex-ngc9z
+name: power-traps-its-holder-whether-kept-or-relinquished
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A position of power can trap its holder in a genuine double bind. Keeping it demands perpetual defense against rivals, which means never being safe; giving it up doesn't rescue you either, because the position's enemies and obligations don't dissolve just because you've stepped away. Philosophy grounds this in two historical cases before naming the pattern: 'Nero drove his friend and preceptor, Seneca, to the choice of the manner of his death. Antoninus exposed Papinianus, who was long powerful at court, to the swords of the soldiery. Yet each of these was willing to renounce his power. Seneca tried to surrender his wealth also to Nero, and go into retirement; but neither achieved his purpose. When they tottered, their very greatness dragged them down. What manner of thing, then, is this power which keeps men in fear while they possess it -- which when thou art fain to keep, thou art not safe, and when thou desirest to lay it aside thou canst not rid thyself of?'"
+related: []
+evokes: [consolation-of-philosophy, book-iii-prose-v, when-thou-art-fain-to-keep-thou-art-not-safe, their-very-greatness-dragged-them-down, damned-if-you-hold-it-damned-if-you-dont]
+lineage:
+  - source: primary
+    text: boethius-c524-consolation-of-philosophy-book-iii-prose-v
+    citation: "Boethius, The Consolation of Philosophy (c. 524 AD), trans. H. R. James (London: George Bell & Sons, 1897), Book III, Prose V. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "Nero drove his friend and preceptor, Seneca, to the choice of the manner of his death. Antoninus exposed Papinianus, who was long powerful at court, to the swords of the soldiery. Yet each of these was willing to renounce his power. Seneca tried to surrender his wealth also to Nero, and go into retirement; but neither achieved his purpose. When they tottered, their very greatness dragged them down. What manner of thing, then, is this power which keeps men in fear while they possess it--which when thou art fain to keep, thou art not safe, and when thou desirest to lay it aside thou canst not rid thyself of?"
+canonical-instances:
+  - "A crime-family underboss who wants out finds that walking away doesn't end the danger -- rivals who feared his position while he held it now see his retirement as the moment of maximum vulnerability, and former allies who profited from his position resent losing access enough to turn on him."
+  - "A CEO under board pressure to step down discovers that announcing an intent to resign doesn't end the political maneuvering against her -- successor candidates begin positioning immediately, and her diminished authority during the transition leaves her less able to defend decisions made while she still held full power."
+  - "An aging mafia don who tries to retire to a quiet life finds that former rivals, no longer deterred by his organization's strength, see his reduced protection as an opportunity to settle old scores he assumed had been closed by his years in charge."
+critical-questions:
+  - "Are Seneca and Papinianus really representative cases, or are they cherry-picked extreme examples from history's most notoriously murderous courts -- would the pattern hold for ordinary corporate or institutional power transitions, most of which end without violence?"
+  - "Does the double bind actually describe power itself, or does it describe power specifically under a tyrant or in a zero-sum court, where losing favor is inherently dangerous -- in more institutionalized, rule-bound settings, stepping down from power is often genuinely safe?"
+  - "If both keeping and relinquishing power are dangerous, what does this argument actually recommend a power-holder do differently -- does naming the trap offer any escape from it, or does it just describe a situation with no available exit?"
+status: active

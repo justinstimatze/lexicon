@@ -1,0 +1,21 @@
+id: lex-cumxf
+name: an-involuntary-reflex-is-the-single-point-of-failure-in-a-human-chain
+type-in: structure
+type-out: warning
+_tier: atomic
+agent-instruction: "When a plan requires every participant in a long coordinated chain to indefinitely suppress an involuntary bodily reflex, that plan has a failure probability that climbs toward certainty as the chain gets longer, no matter how much everyone wants to succeed. In Cushing's telling, hundreds of Coyotes link themselves tail-to-tail up the face of a cliff, and the chief's only precaution is a one-time preparatory ritual: 'Eructate thoroughly before you do so. If you do not, we may be in a pretty mess; for, supposing that any one along the line should hiccough, he would lose his hold, and down we would all fall!' The precaution treats an ongoing risk as something a single act of preparation can retire. It can't: 'one near the top, in the agitation of the moment, began to sneeze, lost his hold, and down the whole string, hundreds of them, fell.' A sneeze is not a discipline failure -- it is a reflex, and a chain of hundreds guarantees that somebody's reflex will fire before the climb is over. The catastrophe is total, not local: the whole line falls for one link's involuntary twitch. Diagnostic move: when a plan's safety depends on every participant in a long chain never sneezing, never hiccoughing, never flinching, treat that requirement as a countdown to failure rather than a solved problem, and ask what happens to the whole structure, not just to the one person, when it inevitably fires."
+related: []
+evokes: [an-involuntary-reflex-anywhere-in-the-chain-ends-the-whole-chain, cushing-coyotes-steal-the-sacred-dance-children, hang-tight-my-friends-hang-tight, one-sneeze-hundreds-fall]
+lineage:
+  - source: primary
+    text: cushing-coyote-chain-up-thunder-mountain-collapses-on-a-sneeze
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'How the Coyotes Tried to Steal the Children of the Sacred Dance.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'Hang tight, my friends, every one of you, and every one fall in line. Eructate thoroughly before you do so. If you do not, we may be in a pretty mess; for, supposing that any one along the line should hiccough, he would lose his hold, and down we would all fall! ... Souls of my ancestors! Hang tight, my friends! Hang tight! Hang tight! said he, when, suddenly, one near the top, in the agitation of the moment, began to sneeze, lost his hold, and down the whole string, hundreds of them, fell, and were completely flattened out among the rocks.'"
+canonical-instances:
+  - "A human chain of rescuers passes a person hand to hand across a fast current, with the plan resting entirely on nobody's grip slipping for the several minutes the crossing takes, and a single cramped hand partway through drops the chain into the water regardless of how carefully everyone else held on."
+  - "An operations team designs a failover process that depends on every on-call engineer never being asleep, sick, or in a dead zone at the exact moment an alert fires, treating a one-time training session as having retired a risk that is actually ongoing and compounds with every additional engineer added to the rotation."
+critical-questions:
+  - "Does eructating beforehand meaningfully reduce the odds of a mid-climb sneeze or hiccough, or is the chief's precaution addressed to the wrong mechanism entirely -- does the story present it as a real safeguard or as a hollow ritual of leadership?"
+  - "Would a shorter chain, or one broken into independently-secured segments, have survived a single reflex failure without a total collapse -- does the story's catastrophe come from the reflex itself or from the chain's all-or-nothing coupling?"
+  - "Is there a length or duration past which any chain relying on universal reflex suppression becomes almost certain to fail, and if so, does the story's 'hundreds' figure suggest the chief should have known this going in?"
+status: active

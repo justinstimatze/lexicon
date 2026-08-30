@@ -1,0 +1,18 @@
+id: lex-u3yzm
+name: weaponizing-a-change-of-mind-as-proof-of-lying
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When a person revises an earlier judgment after learning new context, an opponent treats the revision itself, rather than the underlying facts, as the offense — recasting ordinary reconsideration as proof of dishonesty. This punishes exactly the behavior that ought to be rewarded, and forecloses good-faith correction by making any change of stated position costly. In the Jataka''s tale of Kosambi, a monk waves off an inadvertent act as harmless, and once formal process gets underway the same act gets branded a sin — a shift his colleague seizes on: "This Vinaya scholar before said it was no sin, and now says it is a sin: he is a liar."'
+related: []
+evokes: [jataka, navanipata, kosambi-jataka, flip-flop-accusation, punishing-updated-judgment]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kosambi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 428, Kosambi-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "This Vinaya scholar before said it was no sin, and now says it is a sin: he is a liar."
+canonical-instances:
+  - "A pundit who revises a prediction after new polling data comes in gets accused on air of \"flip-flopping\" by an opponent who never engages with whether the new data actually changed the picture."
+critical-questions:
+  - "If revising a judgment on new information gets treated as dishonesty, what does that do to anyone's incentive to revise a judgment in public again?"
+status: active

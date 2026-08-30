@@ -1,0 +1,20 @@
+id: lex-ptch5
+name: witnessing-selfless-sacrifice-reverses-a-hostile-intent-completely
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'A person who arrived specifically intending to kill or exploit a target can have that intention reversed entirely to reverence and care, solely by directly witnessing the target perform an act of selfless sacrifice for others. In the Jataka''s tale of Mahakapi, this happens to the king who came to hunt the monkey-troop: "The king being awake saw all that was done by the monkeys and the Bodhisatta: and he lay down thinking, ''This animal, not reckoning his own life, has caused the safety of his troop.'' When day broke, being pleased with the Bodhisatta, he thought, ''It is not right to destroy this king of the monkeys.''"'
+related: [lex-8js7x]
+scaffolds-from: [lex-8js7x]
+evokes: [jataka, sattanipata, mahakapi-jataka, witnessed-sacrifice-reverses-hostile-intent, conversion-through-observed-nobility]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-mahakapi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 407, Mahakapi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The king being awake saw all that was done by the monkeys and the Bodhisatta: and he lay down thinking, \"This ... animal, not reckoning his own life, has caused the safety of his troop.\" When day broke, being pleased with the Bodhisatta, he thought, \"It is not right to ... destroy this king of the monkeys: I will bring him down by some means and take care of him:\""
+canonical-instances:
+  - "A rival executive who arrived at a merger meeting planning to force out the founding team watches the founder personally absorb a huge financial loss to protect the staff's severance, and abandons the takeover plan entirely by the time the meeting ends."
+critical-questions:
+  - "Does a single witnessed act of sacrifice actually reveal reliable character, or could it be an exception that happens not to generalize to how the target treats people the rest of the time?"
+  - "Would the same reversal have happened if the sacrifice had gone unwitnessed — does this mechanism depend entirely on the hostile party happening to be watching at the right moment?"
+status: active

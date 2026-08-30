@@ -1,0 +1,19 @@
+id: lex-t9qce
+name: using-an-existing-hazard-as-an-indirect-instrument-of-revenge
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Rather than attack a wrongdoer directly, engineering a situation that delivers them into an already-present environmental danger lets that hazard do the actual harm — the avenger never has to be the direct agent of the retaliation. In the Jataka's tale of the mother heron, she leads the offending boys to view a chained tiger kept in the palace, then throws them at its feet, letting the tiger complete the retaliation: 'Now these boys came to see the tiger and the heron went with them, thinking, \"Even as my young ones were killed by them, just so will I deal with these boys,\" and she took hold of them and threw them down at the foot of the tiger.'"
+related: []
+evokes: [jataka, catukkanipata, kuntani-jataka, an-existing-hazard-completes-retaliation-the-avenger-only-arranges, delivering-a-wrongdoer-into-danger-rather-than-attacking-directly]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kuntani-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 343, Kuntani-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Now these boys came to see the tiger and the heron went with them, thinking, \"Even as my young ones were killed by them, just so will I deal with these boys,\" and she took hold of them and threw them down at the foot of the tiger."
+canonical-instances:
+  - "An employee wronged by a colleague doesn't confront them directly — they simply make sure that colleague is the one who has to present the flawed numbers the colleague themselves insisted on using, in front of the one executive known to eviscerate anyone caught with bad data."
+critical-questions:
+  - "Does using an existing hazard this way actually reduce the avenger's culpability, or is engineering the delivery just as morally weighted as inflicting the harm directly, given the outcome is identical and fully intended?"
+  - "Is there a meaningful difference in how observers judge this compared to direct attack — does the indirection actually provide any real cover, or does everyone understand exactly what happened regardless?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-j2aqv
+name: one-bad-actor-triggers-condemnation-of-the-whole-class
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Discovering that a single bad actor belongs to an identifiable class can trigger a sweeping policy against the entire class, causing broad collateral harm from a single-instance inference. In the Jataka's tale of Dhajavihetha, the king finds one criminal disguised as a monk and concludes all monks behave this way, expelling the entire order from his kingdom: \"The king thought, 'These men go about by day in ascetic's garb and misconduct themselves at night;' so being angry with the Brethren, he adopted heretical views, and sent round a proclamation by drum that all the Brethren must depart from his kingdom and that his men would punish them wherever found.\""
+related: []
+evokes: [jataka, chanipata, dhajavihetha-jataka, one-bad-actor-condemns-the-class, overgeneralized-punitive-policy]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dhajavihetha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 391, Dhajavihetha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "lived by day in disguise of a Brother. The king thought, \"These men go about by day in ascetic's garb and misconduct themselves at night;\" so being angry with the Brethren, he adopted heretical views, and sent round a proclamation by drum that all the Brethren must depart from his kingdom and that his men would punish them wherever found."
+canonical-instances:
+  - "A city bans an entire class of food carts from a district after one unlicensed vendor causes a health scare, shutting down dozens of compliant vendors who had nothing to do with the incident."
+critical-questions:
+  - "How large a class does one bad instance justify condemning — does the size of the group matter to whether the inference is reasonable, or does any single instance license the same sweeping response regardless?"
+  - "What would it take for the king to reverse course once the policy is in place, given that admitting the overgeneralization means admitting the initial anger was misapplied?"
+status: active

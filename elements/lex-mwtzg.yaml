@@ -1,0 +1,19 @@
+id: lex-mwtzg
+name: a-true-statements-moral-standing-doesnt-depend-on-whether-it-offends
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'A principled defense of continued correction holds that the moral quality of speaking a true, righteous statement is entirely independent of whether the hearer takes offense at it. In the Jataka''s tale of Gandhara, this position is stated as a flat principle: "Let my hearer scatter chaff, or let him take offence or not, Righteousness when I am speaking, sin on me can leave no spot."'
+related: [lex-3vz9u]
+evokes: [jataka, sattanipata, gandhara-jataka, truth-independent-of-reception, speak-truth-regardless-of-offense]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-gandhara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 406, Gandhara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Let my hearer scatter chaff, or let him take offence or not, Righteousness when I am speaking, sin on me can leave no spot."
+canonical-instances:
+  - "A safety officer keeps filing the same accurate hazard reports even after being told they're unwelcome, holding that their accuracy is the only thing that should govern whether they get filed."
+critical-questions:
+  - "Does holding this principle risk using 'I was just being truthful' as cover for statements that were needlessly harsh rather than necessarily true?"
+  - "Is moral responsibility for a statement's effect really separable from the choice of when and how to say it, or does that choice itself carry some of the responsibility?"
+status: active

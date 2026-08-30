@@ -1,0 +1,21 @@
+id: lex-h68rm
+name: conspicuous-spending-can-read-as-a-warning-not-a-credential
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Ordinary status-signaling logic treats visibly higher spending as a credential — better dress, better watch, better car reads as more successful and, by extension, more trustworthy. The Ferengi Rules of Acquisition invert that reading outright: 'Don't trust a man wearing a better suit than your own.' Overspending relative to the observer becomes a warning sign instead of a credential, on the theory that someone who needs to visibly outspend you is compensating for something, or spending money they don't actually have. Before reading a display of wealth as reassurance, check which of the two readings the surrounding context actually supports — the same signal supports opposite conclusions depending on who's likely to be sending it and why."
+related: [lex-j3zmx]
+evokes: [ferengi, rules-of-acquisition, star-trek, conspicuous-consumption, status-signal-inversion, veblen]
+lineage:
+  - source: primary
+    text: star-trek-ds9-rules-of-acquisition-47
+    citation: "Star Trek: Deep Space Nine, Rule of Acquisition #47, spoken dialogue from 'Rivals' (season 2, episode 11, 1994). Verified against Memory Alpha's sourced compilation of on-screen Rules of Acquisition dialogue (a wiki page functioning as a transcript aggregator with per-rule episode citations, not quoted for its own editorial framing)."
+    quote: "Don't trust a man wearing a better suit than your own."
+canonical-instances:
+  - "A con artist dressing sharper than the mark specifically to look successful and trustworthy is the exact scenario this rule warns about — the visible spending was manufactured for the encounter itself, disconnected from any underlying financial position."
+  - "operationally distinct from ordinary Veblen conspicuous-consumption theory (higher visible spending signals higher status, full stop): this atom's claim is conditional on the observer's own relative position — the rule specifically compares the other party's spending against your own, not against some fixed status ladder."
+critical-questions:
+  - "How would someone distinguish a genuine wealth signal from a manufactured one in real time, given that the rule offers no test beyond the spending itself looking excessive relative to the observer?"
+  - "Does this heuristic just relocate the trust problem rather than solving it — swapping unwarranted trust in visible wealth for unwarranted suspicion of anyone who dresses well, with no better hit rate than the naive reading it replaces?"
+  - "Is the inversion specific to encounters where deception is already a live possibility (negotiation, a first meeting with a stranger), or does the rule's author intend it as a general rule for reading anyone's spending?"
+status: active

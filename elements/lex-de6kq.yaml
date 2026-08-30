@@ -1,0 +1,18 @@
+id: lex-de6kq
+name: delivered-compliance-outranks-declared-agreement
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Someone who initially refuses a request but later does it anyway has actually complied; someone who agrees immediately and never follows through has not — and the second son's polite verbal agreement is worth nothing next to the first son's grudging but completed action. When judging whether someone will do something, the moment of their verbal response is weak evidence next to what they've actually delivered by the deadline, even when the verbal response was the more socially pleasant moment."
+related: []
+evokes: [kjv, i-will-not-but-afterward-he-repented, i-go-sir-and-went-not, actions-not-promises, the-two-sons-in-the-vineyard]
+lineage:
+  - source: primary
+    text: kjv-1611-matthew-21-the-two-sons
+    citation: "The Holy Bible, King James Version (1611; this edition Project Gutenberg #10), Matthew 21:28-31. Verified verbatim against a direct extraction of the held copy."
+    quote: "A certain man had two sons; and he came to the first, and said, Son, go work to day in my vineyard. He answered and said, I will not: but afterward he repented, and went. And he came to the second, and said likewise. And he answered and said, I go, sir: and went not. Whether of them twain did the will of his father? They say unto him, The first."
+canonical-instances:
+  - "A vendor who initially refuses a tight deadline outright but delivers the work two days late has served the client better than one who cheerfully agreed to every timeline and delivered nothing at all — the polite yes was worth less at the actual deadline than the honest no ever was."
+critical-questions:
+  - "Is there a pattern to this specific person's gap between declared agreement and delivered action, or is one instance being generalized into a character judgment from a single data point?"
+status: active

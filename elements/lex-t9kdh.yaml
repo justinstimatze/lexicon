@@ -1,0 +1,20 @@
+id: lex-t9kdh
+name: refusing-a-more-sympathetic-lie-about-your-own-identity-even-while-dying
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Offered the chance to claim a higher, more sympathetic identity that a hostile listener would readily believe and that would likely soften their guilt or improve your treatment, a person can refuse the advantageous lie and state the plain, lower-status truth instead, treating honesty as binding even when a beneficial fiction would go completely undetected. In the Jataka''s tale of Sama, dying from the king''s poisoned arrow and asked his lineage, the Bodhisatta considers exactly this option and rejects it: "The Great Being reflected, ''If I told him that I belonged to the gods or the Kinnaras, or that I was a Khattiya or of similar race, he would believe me; but one must only speak the truth,'' so he said: ''They called me Sama while I lived,—an outcast hunter''s son am I.''"'
+related: [lex-brvau]
+evokes: [jataka, mahanipata, sama-jataka, suvannasama-jataka, truth-telling-under-cost, refused-advantageous-lie]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-sama-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 540, Sama-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The Great Being reflected, \"If I told him that I belonged to the gods or the Kinnaras, or that I was a Khattiya or of similar race, he would believe me; but one must only speak the truth,\" so he said: \"They called me Sama while I lived,—an outcast hunter's son am I.\""
+canonical-instances:
+  - "A survivor pulled from a car crash, asked by the paramedics who's at fault, could easily claim the other driver ran the light and be believed, since no witnesses are around and it would guarantee more sympathy and less scrutiny during treatment, but states plainly that they themselves were checking a phone at the intersection."
+  - "An employee injured by a manager's negligence, filling out the incident report while still in pain, could claim total innocence and inflate the manager's fault for a stronger case, but describes accurately that they had also skipped a safety step, even though the more sympathetic version would likely have gone unchallenged."
+critical-questions:
+  - "Sama's truthful answer happens to move the king toward remorse rather than contempt — how does this move hold up in a case where the lower-status truth would instead have gotten the dying person's plea for help dismissed entirely?"
+  - "Is refusing the advantageous lie a claim about the intrinsic wrongness of lying, or a bet that the truth will actually serve better in this specific case — and how would you tell the difference from the outside?"
+status: active

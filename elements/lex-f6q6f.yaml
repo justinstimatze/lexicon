@@ -1,0 +1,22 @@
+id: lex-f6q6f
+name: a-single-survival-confirms-a-protective-vow-without-a-base-rate
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A person can make a vow of future offering specifically to be protected from harm in an upcoming danger, come through that danger unharmed, and treat the survival as direct confirmation the vow worked. Before the battle, Standing Bear had killed a red bird and made a private bargain: 'I had made a vow that I would make an offering if this would keep me from getting hurt in the next fight.' He comes through the fighting unwounded and states the result as settled fact in the very next clause: 'and it did.' Nothing in his account compares his outcome to warriors who made no such vow, or asks how dangerous his own position in the fight actually was. One outcome, matched against one prior promise, closes the question for him."
+related: []
+evokes: [black-elk-speaks, rubbing-out-of-long-hair, i-had-made-a-vow, and-it-did, one-survival-one-confirmation]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch9-rubbing-out-of-long-hair
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 9, 'The Rubbing Out of Long Hair,' Standing Bear's inserted testimony. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "I had killed a red bird a few days before and I fastened this in my hair. I had made a vow that I would make an offering if this would keep me from getting hurt in the next fight; and it did."
+canonical-instances:
+  - "A gambler wears a specific shirt to a high-stakes game after promising themselves they'll donate their winnings to charity if they come out ahead, wins that night, and treats the win as proof the promise itself brought the luck."
+  - "A patient facing a risky surgery promises to volunteer regularly if they survive, comes through the operation successfully, and cites the survival as confirmation the promise mattered, without any sense of what the surgery's actual success rate was."
+  - "A soldier who prayed a specific prayer before a firefight and came home unhurt tells others the prayer protected him. It never occurs to him to ask how many soldiers who prayed nothing at all came home from that same engagement just as unhurt."
+critical-questions:
+  - "What would Standing Bear have concluded if he'd been wounded despite the vow -- would that outcome have disconfirmed the bargain, or would some other explanation (an imperfect offering, bad timing) have been reached for instead?"
+  - "Is there any actual way, from inside a single lived experience, to distinguish 'the vow worked' from 'I would have survived anyway,' or does the confirmation only ever look solid because the counterfactual can never be observed?"
+  - "Standing Bear reports this as a flat, unqualified fact rather than a belief or hope -- does the certainty of the phrasing itself suggest he'd have said the same thing regardless of whether the vow's mechanism was real, simply because he did in fact survive?"
+status: active

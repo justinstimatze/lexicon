@@ -1,0 +1,19 @@
+id: lex-xv8fd
+name: voluntary-self-degradation-deters-a-stronger-challenger
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A physically weaker party facing a challenge it cannot win by force has another option: deliberately becoming repulsive enough that the stronger party refuses contact, substituting disgust for the fight entirely. The stronger party's advantage assumes an ordinary confrontation; it says nothing about tolerating what that party finds intolerable. In the Jataka's tale of the boar who challenges a lion, the boar's kin advise him to roll in an ascetics' dunghill for seven days until the filth dries onto his body, then meet the lion downwind. The lion never touches him: 'Friend Boar, a pretty trick this! Were you not all besmeared with filth, I should have had your life this very day. But as it is, bite you I cannot, nor so much as touch you with my foot. Therefore I Spare your life.' The boar doesn't win by becoming stronger. He wins by making the lion's own fastidiousness the constraint that actually decides the outcome, in place of the strength the lion actually has."
+related: []
+evokes: [jataka, dukanipata, sukara-jataka, weaponized-self-disgust-as-deterrent, exploit-the-strong-partys-own-standards-not-its-strength]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sukara-jataka-153
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 153, Sukara-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Friend Boar, a pretty trick this! Were you not all besmeared with filth, I should have had your life this very day. But as it is, bite you I cannot, nor so much as touch you with my foot. Therefore I Spare your life."
+canonical-instances:
+  - "A tenant with no legal leverage against a landlord threatening eviction starts publicly and loudly documenting every code violation in the building to local inspectors, making the property itself a liability the landlord doesn't want inspected closely enough to force the eviction."
+critical-questions:
+  - "Does this tactic only work once, since a stronger party who learns the underlying trick can simply overcome its own fastidiousness the next time — and if so, is the boar's win permanent or a single-use exploit of a standard the lion could choose to abandon?"
+  - "What made the lion's fastidiousness a hard constraint rather than a preference it could set aside under sufficient provocation, and does the tactic still work against a stronger party willing to tolerate the disgust if the stakes are high enough?"
+status: active

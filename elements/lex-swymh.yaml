@@ -1,0 +1,20 @@
+id: lex-swymh
+name: assessment-embedded-in-the-task-replaces-the-separate-test-event
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "To measure a competency, consider instrumenting the ongoing activity itself rather than interrupting it for a separate test. Design the activity so that performing it naturally produces the evidence a valid measurement needs — the sequence of actions taken, the choices made under complex conditions — and derive the assessment from that evidence stream. Done well, the person being measured experiences no distinct testing moment at all; the measurement runs continuously underneath normal performance of the task. This works only when the underlying evidentiary model has been built with the same rigor a formal test would require — evidence-centered design, not just watching someone play and guessing at what it shows."
+evokes: [stealth-assessment, evidence-centered-design, ecd, shute-ventura, embedded-measurement]
+lineage:
+  - source: primary
+    text: shute-ventura-2013-stealth-assessment-p31-32
+    citation: "Valerie J. Shute and Matthew Ventura, Stealth Assessment: Measuring and Supporting Learning in Video Games (MIT Press, 2013), pp.31-32. Verified verbatim against a pdftotext -layout extraction; the source is born-digital, no OCR involved."
+    quote: "Stealth assessment refers to ECD-based assessments that are woven directly and invisibly into the fabric of the gaming environment. During gameplay, students naturally produce rich sequences of actions while performing complex tasks, drawing on the very skills or competencies that we want to assess (e.g., scientific inquiry skills and creativity). Evidence needed to assess the skills is thus provided by the players' interactions with the game itself (i.e., the processes of play), which can be contrasted with a typically singular outcome of an activity—the norm in educational environments."
+canonical-instances:
+  - "A science-inquiry game that scores a student's hypothesis-testing skill from the actual sequence of experiments they choose to run during ordinary play, rather than stopping play to administer a written test on the scientific method — the student experiences one continuous activity, and the measurement is a byproduct of playing it well or poorly."
+  - "operationally distinct from a graded quiz embedded mid-lesson: a quiz is still a discrete test event, just placed inside a longer activity — students recognize it as being tested. Stealth assessment specifically requires the person being measured to have no experience of a separate testing moment; the evidence comes from the ordinary process of doing the task, not from a task-shaped-like-a-test inserted into a larger activity."
+critical-questions:
+  - "Does the underlying evidence model actually meet the validity standard a formal test would be held to, or is 'stealth assessment' being used to describe informal observation dressed up in measurement language? Evidence-centered design is a specific, rigorous methodology, not a synonym for watching someone play."
+  - "Does removing the visible test event change what's being measured? Stealth assessment measures ordinary unmonitored play, and a person who knows they're being tested performs differently — more carefully, more anxiously, sometimes better, sometimes worse. Whether that difference matters enough to undermine a given use case is a question that needs a real answer before the two are treated as interchangeable."
+  - "What happens to informed consent and disclosure when the person being assessed doesn't know an assessment is happening? The invisibility that makes the measurement more naturalistic is the same property that raises a transparency question outside low-stakes educational contexts."
+status: active

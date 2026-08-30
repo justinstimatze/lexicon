@@ -1,0 +1,19 @@
+id: lex-ja5ha
+name: self-congratulation-on-virtue-follows-a-costless-act-of-hoarding
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Finding food or resources you didn't work or sacrifice for, then stashing it away for later personal use, can still generate a private feeling of having been virtuous — the self-congratulation attaches to the act of intending future generosity, not to any generosity actually performed yet. In the Jataka's tale of the four friends, the otter comes across a fisherman's buried catch, the jackal an unwatched meal, and the monkey a stand of ripe mangoes — each stores the windfall for his own future eating and then lies down satisfied with himself: 'he took hold of the withe with his teeth and laid the fish in the jungle where he dwelt, intending to eat them at a fitting time. And then he lay down, thinking how virtuous he was!'"
+related: []
+evokes: [jataka, catukkanipata, sasa-jataka, self-congratulation-precedes-any-actual-act-of-giving, hoarding-a-windfall-is-mistaken-for-virtue]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sasa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 316, Sasa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "he took hold of the withe with his teeth and laid the fish in the jungle where he dwelt, intending to eat them at a fitting time. And then he lay down, thinking how virtuous he was!"
+canonical-instances:
+  - "Someone finds a stack of free promotional gift cards at a conference booth, pockets all of them for personal use later, and feels a genuine glow of generosity at the thought that they'll probably give a couple away eventually — despite having given nothing away yet."
+critical-questions:
+  - "Does the intention to eventually share actually matter morally, or is the self-congratulation entirely unearned until an actual beggar is turned away or fed?"
+  - "Is there a meaningful difference between the otter/jackal/monkey's self-satisfaction and the hare's later genuine sacrifice, or does the story only distinguish them because the hare happens to get tested and they don't?"
+status: active

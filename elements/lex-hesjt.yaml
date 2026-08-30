@@ -1,0 +1,33 @@
+id: lex-hesjt
+name: defeasibility-attach
+type-in: composition
+type-out: posture
+_tier: atomic
+agent-instruction: "When stating a conclusion that depends on a defeasible premise, explicitly note the defeaters that would retract it. Don't pretend the inference is unconditional when it isn't."
+related: [lex-af9ax, lex-th68b, lex-2sx7q, lex-eg9zm, lex-ucrqj, lex-da3g3, lex-fpvsu, lex-xhwqt, lex-utn22, lex-aut4h, lex-zd7vh, lex-kh9cr, lex-hhx7u, lex-rnwph, lex-38ygs, lex-7t3wr, lex-y7p3z, lex-tpv83, lex-chtk9, lex-9uac6, lex-xqamc, lex-jafkg, lex-ftu47, lex-vx867, lex-ht9ud]
+scaffolds-from: [lex-af9ax, lex-th68b, lex-ht9ud, lex-ucrqj]
+evokes: [composition-operation, presumption-with-defeaters, retract-on-evidence, walton-style-defeasibility, hold-lightly]
+formal-if-any: "defeasibility-attach(A, defeaters=D) — A holds presumptively as a posture; if any d ∈ D answers affirmatively the posture retracts"
+lineage:
+  - source: practitioner
+    text: composition-operations-design-note
+    citation: "v0 composition-operations vocabulary (lexicon, 2026-05-02); defined as the bond that turns a presumption-atom into a retractable posture"
+  - source: primary
+    tradition: walton
+    text: walton-reed-macagno-2008
+    citation: "Douglas Walton, Chris Reed, and Fabrizio Macagno, Argumentation Schemes (Cambridge University Press 2008), Ch.1 §3 'Critical Questions,' p.15. PDF on shelf (isbn13 9780521723749), verbatim 2026-05-21."
+    quote: "One of the features of argumentation schemes that is key to evaluating whether an argument fitting a scheme should be judged strong or weak is the list of associated critical questions — questions that can be asked (or assumptions that are held) by which a nondeductive argument based on a scheme might be judged to be (or presented as being) good or fallacious. The critical questions form a vital part of the definition of a scheme, and are one of the benefits of adopting a scheme-based approach."
+  - source: practitioner
+    text: substrate-attestation
+    citation: "promoted to first-class entry from substrate use: originally observed as the closing bond across the Walton meta-pattern molecules (e.g. lex-kebfa argument-from-expert-opinion); the four-molecule count this citation was first written against is stale — only lex-kebfa of the original set survived, and the bond has since grown to appear across substrate/'s molecule-tier assemblies well beyond that original cluster. Query `assembly:.*defeasibility-attach\\(` across substrate/ for the current count rather than trust a hardcoded list here."
+canonical-instances:
+  - "in lex-kebfa argument-from-expert-opinion: defeasibility-attach(defeasible-presumption, defeaters=critical-question-checklist) — the presumption holds unless one of the 7 critical questions retracts it"
+  - "the cognitive operation that turns 'X is true' into 'X is true unless conditions Q1...Qn obtain', making the conclusion inspectable rather than dogmatic"
+  - "operationally distinct from lex-af9ax defeasible-presumption (the atom): defeasibility-attach is the OPERATION that produces the defeasible posture; lex-af9ax is the kind of POSTURE that gets produced when a presumption is held with defeaters"
+  - "the recurring closing-bond in Walton's argumentation schemes — what makes them defeasible-arguments rather than dogmatic-arguments"
+critical-questions:
+  - "is the attach-operation present, or is the inference dogmatic? without defeasibility-attach the scheme is treated as conclusive — the operation is what converts 'A is true' into 'A is true unless D'. Diagnostic: can the conclusion be retracted at all? If not, the attach didn't happen"
+  - "is the defeater-set named at attach-time, or implicit? a defeasibility-attach with no specified D leaves the inference notionally-retractable but operationally dogmatic (no one knows what would force retraction). The discipline: specify the defeater-set explicitly at the attach"
+  - "is this distinct from lex-af9ax defeasible-presumption? defeasibility-attach is the OPERATION; lex-af9ax is the kind of POSTURE produced. The operation produces the posture; the posture is what's held. Conflating misses that the attach can be analyzed (was it performed correctly?) independently of the posture"
+  - "is the attach essential, or decorative? if the inference would be held with the same confidence even without the defeater-list (because the practitioner doesn't expect any defeater to fire), the attach is theater. Test: under what conditions would you actually retract?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-7m6hu
+name: switch-to-a-cautionary-story-when-direct-argument-stalls
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'When direct doctrinal or propositional argument fails to move a listener, a persuader can switch registers entirely and tell a story with a protagonist who suffers the exact consequence in question — doing persuasive work that further direct argument could not. In the Jataka''s tale of Indriya, the teacher Sarabhanga does this once Narada keeps refusing to yield: "Narada, listen to this: he who will not do at first what is proper to be done, must weep and lament like the young man who went to the forest," and so he told an old tale.'
+related: []
+evokes: [jataka, atthanipata, indriya-jataka, narrative-transportation, story-persuades-where-argument-stalls]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-indriya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 423, Indriya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Narada, listen to this: he who will not do at first what is proper to be done, must weep and lament like the young man who went to the forest,"
+canonical-instances:
+  - "After three direct pitches about diversification fail to move a client fixated on one stock, the advisor stops arguing numbers and tells him instead about a specific client who rode a single position to zero — and that's the version that finally lands."
+critical-questions:
+  - "What does a story accomplish that a restated version of the same argument doesn't — is it emotional engagement, a concrete case to reason from, or something else entirely?"
+  - "Could a well-chosen story mislead as easily as it persuades, if the story's specifics don't actually generalize to the listener's situation the way the storyteller implies they do?"
+status: active

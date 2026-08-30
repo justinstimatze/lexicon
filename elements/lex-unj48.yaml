@@ -1,0 +1,19 @@
+id: lex-unj48
+name: an-unfulfilled-debt-of-sustenance-overrides-urgent-personal-want
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A party can decline to break a standing commitment even for an urgent personal want, on the grounds that they've been sustained by someone and still owe a debt of service not yet discharged. In the Jataka's tale of Nandiya, the deer refuses to leap the fence to see his ailing parents, because he still owes the king for his daily food: 'I owe the King my daily drink and food: I cannot go till I have made it good.'"
+related: []
+evokes: [jataka, chanipata, nandiyamiga-jataka, sustenance-debt-overrides-urgent-want, unfulfilled-obligation-outranks-personal-urgency]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-nandiyamiga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 385, Nandiyamiga-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "I owe the King my daily drink and food: I cannot go till I have made it good."
+canonical-instances:
+  - "An employee on a fully-funded fellowship declines an urgent family request to leave early, reasoning that the funder sustained a full year of their work and the obligation isn't discharged until the term is complete."
+critical-questions:
+  - "Is treating an ongoing debt of sustenance as binding even against urgent personal need a form of integrity, or does it risk making the debtor a captive to whoever is feeding them?"
+  - "Does the obligation's weight depend on whether the provider would actually release the debtor if asked, or does it hold regardless of what the provider would say?"
+status: active

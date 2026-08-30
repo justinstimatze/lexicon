@@ -1,0 +1,20 @@
+id: lex-axdv4
+name: tracing-a-skills-full-arc-past-the-immediate-reward
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Before accepting the reward a hard-won skill has just earned you, trace its full arc: what obtaining it required, what enjoying its rewards will require going forward, and where that whole chain ends, instead of stopping at the immediate payoff sitting in front of you. In the Jataka's tale of Jotipala, a master archer has just given the most dazzling demonstration of martial skill in the kingdom's history and been promised the post of commander-in-chief the next morning, along with wealth beyond counting. That night, instead of simply accepting the reward, he traces the skill itself end to end: \"My skill,\" he thought, \"in the beginning is evidently death, in the middle it is the enjoyment of sin, and in the end it is re-birth in hell: for the destruction of life and excessive carelessness in sinful enjoyment causes re-birth in hell. The post of commander-in-chief is given me by the king, and great power will accrue to me, and I shall have a wife and many children; but if the objects of desire are multiplied, it will be hard to get rid of desire.\" He gives away his treasure and walks into the forest before the appointment is even confirmed, at the exact peak of the achievement rather than after its consequences have had time to compound."
+related: []
+evokes: [jataka, cattalisanipata, sarabhanga-jataka, jotipala-jataka, evaluate-the-whole-chain-not-the-immediate-payoff, renunciation-at-the-peak]
+lineage:
+  - source: primary
+    text: jataka-francis1905-jotipala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XVII (Cattalisanipata), No. 522, Sarabhanga-jataka (Jotipala episode). Verified verbatim against a direct extraction of the held copy."
+    quote: "My skill, he thought, in the beginning is evidently death, in the middle it is the enjoyment of sin, and in the end it is re-birth in hell: for the destruction of life and excessive carelessness in sinful enjoyment causes re-birth in hell. The post of commander-in-chief is given me by the king, and great power will accrue to me, and I shall have a wife and many children; but if the objects of desire are multiplied, it will be hard to get rid of desire."
+canonical-instances:
+  - "A trader has just closed the single most profitable position of their career using an aggressive leverage strategy. Instead of scaling the strategy up, they spend that night tracing where the strategy's edge actually comes from, what kind of losses it's structurally exposed to, and what kind of life keeps chasing bigger versions of this trade requires — and closes the account the next morning."
+  - "A researcher's manipulative-but-effective growth hack has just produced the best engagement numbers the team has ever seen, and leadership is already drafting the rollout plan. Before it ships, they trace the technique from what it exploits in users' attention, through what scaling it company-wide would require maintaining, to what kind of product and company that leaves them running in five years — and pulls the proposal."
+critical-questions:
+  - "Jotipala walks away with nothing left to lose reputationally — the skill is already proven publicly, so only the reward is on the table when he renounces it. Does the pattern still work for someone who'd have to walk away before ever proving the skill at all, where the arc-tracing has to happen without the payoff already visible?"
+  - "The full-arc judgment here rests on a specific worldview (rebirth, karma) that supplies the 'end' of the chain with certainty the tale itself doesn't argue for — what does this pattern require when the actual long-run endpoint of a skill's rewards is genuinely uncertain rather than doctrinally given?"
+status: active

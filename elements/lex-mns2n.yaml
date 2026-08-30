@@ -1,0 +1,19 @@
+id: lex-mns2n
+name: an-involuntary-binding-transmits-a-partners-uncorrelated-risk-to-you
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When entering a binding commitment with a partner whose environment or risk exposure differs fundamentally from your own, check whether the binding itself, not any shared fault, is what transmits their catastrophic risk to you. In Aesop's 'The Mouse, the Frog, and the Hawk,' a frog ties a mouse to its own leg by a thread meant to help the mouse cross water; when a hawk swoops down for the exposed mouse, 'the Frog was unable to loose the knot which bound him to the Mouse, and thus was carried off along with him and eaten by the Hawk.' The frog did nothing wrong on its own terms and would have been safe underwater. What forced it into the mouse's fate was the tie itself, with no shared vulnerability required at all."
+related: []
+evokes: [aesop, the-mouse-the-frog-and-the-hawk, involuntary-binding, correlated-risk-transmission]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-mouse-the-frog-and-the-hawk
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Mouse, the Frog, and the Hawk.' Verified verbatim against a direct extraction of the held copy."
+    quote: "The Frog was unable to loose the knot which bound him to the Mouse, and thus was carried off along with him and eaten by the Hawk."
+canonical-instances:
+  - "a solvent company or individual co-signing or guaranteeing debt for a fundamentally mismatched partner gets dragged into that partner's insolvency, with no way to sever the tie once trouble arrives, even though the co-signer's own underlying business was never at risk."
+critical-questions:
+  - "Does the danger come specifically from the inability to decouple in time, or would the frog have been equally doomed even with an instant release mechanism, given how quickly the hawk struck?"
+  - "How would a party entering a binding commitment assess in advance whether their partner's risk profile is different enough from their own to make the binding itself the real hazard, before any trouble actually arrives?"
+status: active

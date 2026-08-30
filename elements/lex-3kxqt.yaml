@@ -1,0 +1,19 @@
+id: lex-3kxqt
+name: a-substitute-body-satisfies-accountability-while-the-real-target-is-freed
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When releasing a high-profile prisoner would be too visible to survive scrutiny, producing a replacement body to fill the role publicly lets the expected outcome (an execution occurs) stay intact while the actual target quietly escapes. In the Jataka's tale of Sama and the robber, releasing a notorious prisoner would be too visible for the governor to survive, but he names the one condition under which it could still happen: '\"This is a notorious robber, I cannot let him go free after this sort. But if I could find another man as a substitute, I could put the robber in a covered carriage and send him to you.\"'"
+related: []
+evokes: [jataka, catukkanipata, kanavera-jataka, a-decoy-body-preserves-the-visible-outcome, public-accountability-is-satisfied-while-the-real-target-escapes]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kanavera-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 318, Kanavera-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"This is a notorious robber, I cannot let him go free after this sort. But if I could find another man as a substitute, I could put the robber in a covered carriage and send him to you.\""
+canonical-instances:
+  - "A regulator can't be seen quietly clearing a politically connected executive of wrongdoing, so a lower-level scapegoat is charged and publicly punished instead — the visible outcome of accountability is preserved, while the actual target of the investigation is released."
+critical-questions:
+  - "What happens to the substitute — in this Jataka, an unwitting young man who volunteers out of love and is executed in the robber's place, never knowing what role he was filling — is this mechanism only viable because someone else absorbs the entire cost?"
+  - "Does producing a substitute actually satisfy accountability, or does it just satisfy the appearance of accountability, leaving the real wrongdoing entirely unaddressed?"
+status: active

@@ -1,0 +1,20 @@
+id: lex-r6vpz
+name: wounding-an-unknown-harmless-discovery-to-guarantee-an-answer-for-a-future-question
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'Encountering something unfamiliar and posing no threat, a person can choose to injure and disable it purely to secure the ability to interrogate it, reasoning not from present danger but from the anticipated cost of someday being asked about the discovery and having no answer. In the Jataka''s tale of Sama, King Piliyakkha, seeing an unknown golden-skinned figure by the river and fearing he will otherwise vanish before answering, reasons: "But I shall not always live here in Himavat, and one day I shall go back to Benares, and my ministers will ask me whether I have not seen some new marvel in the course of my rambles in Himavat. If I tell them that I have seen such and such a creature, and they proceed to ask me what its name was, they will blame me if I have to answer that I do not know; so I will wound it and disable it, and then ask it."'
+related: []
+evokes: [jataka, mahanipata, sama-jataka, suvannasama-jataka, preemptive-harm, reputational-insurance]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-sama-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 540, Sama-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "But I shall not always live here in Himavat, and one day I shall go back to Benares, and my ministers will ask me whether I have not seen some new marvel in the course of my rambles in Himavat. If I tell them that I have seen such and such a creature, and they proceed to ask me what its name was, they will blame me if I have to answer that I do not know; so I will wound it and disable it, and then ask it."
+canonical-instances:
+  - "A biologist on a remote expedition captures and kills a rare bird for a specimen the moment she spots it, not because she needs the body for study, but because she's certain she'll be asked back at the university whether she got a confirmed identification and doesn't want to admit she let an unidentified marvel simply fly off."
+  - "A hiker traps a snake he can't identify and crushes its head so he can photograph its markings clearly, reasoning that his friends will ask what kind it was and he doesn't want to say he isn't sure."
+critical-questions:
+  - "The king's whole justification rests on an imagined future conversation that may never happen — how does this move look once you notice the actual cost (irreversible harm to an innocent) is certain while the anticipated cost (an unanswerable question) is merely speculative?"
+  - "Would gently approaching and risking the discovery fleeing have cost the king anything beyond the small chance of an unsatisfying answer to a hypothetical question — or does the story's own outcome (utter catastrophe) suggest the harm-first option was never actually the safer bet it seemed?"
+status: active

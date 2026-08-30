@@ -1,0 +1,19 @@
+id: lex-78r2r
+name: an-option-that-gets-followed-beats-one-that-is-merely-optimal
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When choosing between a theoretically superior option and a slightly worse but more palatable one, weight the odds that each will actually be followed before comparing their nominal effectiveness. Hippocrates' Aphorisms: 'An article of food or drink which is slightly worse, but more palatable, is to be preferred to such as are better but less palatable.' The comparison is not between two versions of the same effectiveness — it is between a smaller effect that reliably happens and a larger effect that depends on sustained compliance the less palatable option may not get. An intervention's real-world effect is the product of its theoretical potency and the probability it gets carried out, and a plan optimized purely for the first factor while ignoring the second can underperform a plan that deliberately traded some potency for adherence."
+related: []
+evokes: [hippocrates, aphorisms, adherence-beats-theoretical-optimum, effectiveness-discounted-by-compliance-probability]
+lineage:
+  - source: primary
+    text: hippocrates-aphorisms-adams1849-sectionII-38
+    citation: "Hippocrates, Aphorisms, trans. Francis Adams (Sydenham Society, 1849), Section II, §38. Verified verbatim against a direct extraction of the held copy."
+    quote: "An article of food or drink which is slightly worse, hut more palatable, is to be preferred to such as are better but less palatable."
+canonical-instances:
+  - "a fitness coach prescribes a moderately effective workout plan a client will actually do three times a week over a maximally effective plan the client abandons after two sessions, because the moderate plan's real-world result compounds over months while the optimal plan's result is zero."
+critical-questions:
+  - "Is there a point where the palatable option is so much less effective that no amount of extra adherence can make up the difference, making the theoretically better option correct after all despite lower compliance?"
+  - "Does this reasoning risk becoming a permanent excuse to avoid the harder, more effective option, treating 'people won't actually do it' as a fixed fact rather than something that could itself be changed?"
+status: active

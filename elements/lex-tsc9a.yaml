@@ -1,0 +1,30 @@
+id: lex-tsc9a
+name: engineered-benchmark-plus-matched-architecture-collapses-stalled-domain
+type-in: state
+type-out: state
+_tier: molecule
+agent-instruction: "When a domain has stalled for decades despite effort, check both halves before declaring it intractable: is there a benchmark engineered to actually stress the domain's substrate-asymmetry (not just look hard), and is there an architecture whose structure matches that asymmetry (not just more capacity)? Progress needs both — a matched architecture with no stress-test can't be validated, and a hard benchmark with a mismatched architecture just fails slower."
+related: [lex-p34bd, lex-xrbzz]
+scaffolds-from: [lex-p34bd, lex-xrbzz]
+evokes: [casp-alphafold, benchmark-architecture-pairing, domain-symmetry-matching, stalled-field-unstall-conditions]
+decomposes-into:
+  - lex-p34bd
+  - lex-xrbzz
+assembly: "parallel(lex-p34bd, lex-xrbzz)"
+premises:
+  - "a stalled domain has an underlying substrate-asymmetry (the actual structure of the problem) that prior benchmarks and architectures have failed to expose or exploit"
+  - "an engineered benchmark specifically designed to maximize that asymmetry (lex-p34bd) makes genuine progress measurable and fake progress (overfitting, mode-collapse) visible"
+  - "an architecture whose structure is matched to the same problem-symmetry (lex-xrbzz) is what actually exploits the asymmetry the benchmark exposes"
+  - "the two are independent, co-required conditions, not a sequence — a matched architecture without the stress-test benchmark can't be validated as genuinely solving the problem rather than gaming a weak one, and a hard benchmark without a matched architecture just documents continued failure"
+critical-questions:
+  - "is the benchmark actually engineered to the domain's real asymmetry, or does it just look hard by conventional metrics (large scale, many examples) without targeting the specific structural difficulty? A benchmark that's merely large doesn't do lex-p34bd's job."
+  - "does the claimed architecture-match reflect genuine structural correspondence (attention mechanisms mirroring protein-folding's long-range dependencies) or is it post-hoc pattern-matching applied to a success story after the fact?"
+  - "when a domain unstalls, which half moved first — did a new benchmark reveal that existing architectures were closer than thought, or did a new architecture reveal that existing benchmarks were too weak to notice? The two can unstall a field in either order."
+lineage:
+  - source: practitioner
+    text: assembled-from-lex-p34bd-lex-xrbzz
+    citation: "Molecule assembled from lex-p34bd (benchmark-task-engineered-to-maximize-substrate-asymmetry) and lex-xrbzz (architecture-matched-to-problem-symmetry-collapses-stalled-domain), both drawn from the CASP14/AlphaFold protein-folding case. lex-xrbzz's own text draws the distinction explicitly: 'Distinct from lex-p34bd (which is about how the BENCHMARK is chosen) — lex-xrbzz is about how the ARCHITECTURE encodes domain-symmetry. Composes with lex-p34bd (CASP14 is the engineered-benchmark; AlphaFold is the architecture-matched solution).'"
+canonical-instances:
+  - "CASP14 + AlphaFold (2020): CASP's blind-prediction protocol specifically stresses the sequence-to-structure asymmetry that had stalled protein folding for decades (lex-p34bd); AlphaFold's attention-based architecture was structurally matched to the long-range residue-dependency shape of that asymmetry (lex-xrbzz). Neither alone explains the field's sudden unstalling — a weaker benchmark would have let a lesser architecture claim victory, and a mismatched architecture would have failed CASP14 regardless."
+  - "Contrast case: a domain with a hard benchmark but no matched architecture (e.g., early machine translation against BLEU before transformer architectures existed) stays stalled — the benchmark alone doesn't produce the unlock; it just accurately measures continued failure until an architecture arrives that fits the domain's actual symmetry."
+status: under-review

@@ -1,0 +1,19 @@
+id: lex-6m35j
+name: informal-reputation-trading-decides-political-fate
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "The opinions that actually determine someone's advancement or downfall in an organization aren't the ones recorded in formal reviews — they're the ones traded informally in meetings, private conversations, and chance hallway encounters, forming a shadow reputation economy that runs in parallel to, and frequently overrides, the official evaluation system. Anyone navigating institutional politics needs to track this informal channel as the real ledger, since a spotless formal record offers little protection against a negative informal narrative that's already circulating in rooms the person being discussed will never enter. This is distinct from ordinary office gossip in scope: it's specifically the channel where fates, not just impressions, get decided."
+related: []
+evokes: [jackall-moral-mazes, "the real opinions that really count", the-shadow-evaluation-channel]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch2-informal-cognitive-maps
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 2, Section II."
+    quote: "the real opinions—the ones that really count in determining people's fates—are those which are traded back and forth in meetings, private conferences, chance encounters, and so on."
+canonical-instances:
+  - "An employee with strong formal performance reviews is quietly passed over for promotion because a negative impression formed in an informal conversation between two senior leaders never surfaces anywhere the employee could see or respond to."
+critical-questions:
+  - "Is the informal channel actually more predictive of someone's fate than the formal record, or does it just feel more decisive because it's invisible and therefore un-auditable, which makes any given outcome easy to attribute to it after the fact?"
+status: active

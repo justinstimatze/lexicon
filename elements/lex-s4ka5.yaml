@@ -1,0 +1,21 @@
+id: lex-s4ka5
+name: internal-composure-must-precede-any-attempt-to-move-others
+type-in: process
+type-out: state
+_tier: atomic
+agent-instruction: "Before trying to influence, persuade, or make a request of others, secure three internal conditions first, in this order: your own state, your manner of speaking, the terms of the relationship you're drawing on. The I Ching's Great Appendix names each precondition against the specific external act it has to precede — the superior man 'composes himself before he (tries to) move others,' with matching preconditions given for speech and for making requests. A predicted failure attaches to skipping each one: 'If he try to move others while he is himself in unrest, the people will not (act) with him,' and speaking from apprehension gets the same non-response. This is a structural, checkable claim rather than a general call to composure — the pairing between each internal condition and the act it gates is specific and testable."
+related: []
+evokes: [i-ching, yi-jing, legge, ten-wings, xi-ci, great-appendix, composure-precedes-influence]
+lineage:
+  - source: primary
+    text: legge-1899-i-ching-appendix-iii-ii-composes-himself
+    citation: "James Legge, translator, The Yî King (I Ching), Sacred Books of the East vol. 16 (Oxford University Press, 1899), Appendix III ('The Great Appendix'), Section II, paragraph 44. Verified verbatim against a direct extraction of the text hosted at sacred-texts.com, clean digital text, no OCR."
+    quote: "The Master said:--'The superior man (in a high place) composes himself before he (tries to) move others; makes his mind restful and easy before he speaks; settles (the principles of) his intercourse with others before he seeks anything from them. The superior man cultivates these three things, and so is complete. If he try to move others while he is himself in unrest, the people will not (act) with him; if he speak while he is himself in a state of apprehension, the people will not respond to him; if without (certain principles of) intercommunication, he issue his requests, the people will not grant them. When there are none to accord with him, those who (work to) injure him will make their appearance.'"
+canonical-instances:
+  - "The passage names a cost for skipping the sequence that goes past mere ineffectiveness: 'when there are none to accord with him, those who (work to) injure him will make their appearance' — an unprepared attempt to influence doesn't just fail neutrally, it actively exposes the failed influencer to attack."
+  - "A manager who announces a difficult reorganization while visibly rattled, without having first worked out their own footing or the actual terms of the ask, reliably gets the muted or resistant response this passage predicts — not because the content of the message was wrong, but because the sequence was skipped."
+critical-questions:
+  - "Can the three preconditions actually be verified from the inside before acting, or does someone in genuine unrest reliably misjudge their own composure and act anyway, undercutting the practical value of the advice?"
+  - "Does the ordering (self, then speech, then relationship terms) actually matter, or would settling the three conditions in a different sequence produce the same protection against the named failure modes?"
+  - "Does urgency ever justify skipping the sequence — are there situations where moving others while genuinely unsettled is still the better option than waiting to compose oneself first?"
+status: active

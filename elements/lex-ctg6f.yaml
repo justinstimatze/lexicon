@@ -1,0 +1,22 @@
+id: lex-ctg6f
+name: internal-factions-fight-each-other-as-if-they-were-separate-agents
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "When a single actor's own competing impulses are strong enough, they can be experienced and acted out as though they belonged to two separate agents at war, complete with threats, injury, and grief that never recognizes the unity underneath. In Radin's Winnebago Trickster cycle, Trickster's right arm and left arm literally fight over a buffalo carcass he is skinning: 'Give that back to me, it is mine! Stop that or I will use my knife on you!' So spoke the right arm. Thereupon the left arm released its hold. But, shortly after, the left arm again grabbed hold of the right arm. The two arms escalate into a real fight -- 'that quarrel soon turned into a vicious fight and the left arm was badly cut up' -- and the injured side mourns the wound as an external misfortune: 'Oh, oh! Why did I do this? Why have I done this? I have made myself suffer!' The grief is genuine and the injury is real, but the fight was never between two parties; it was one body attacking itself and then experiencing its own damage as a surprise. Diagnostic move: when you notice yourself narrating an internal conflict in the language of two opposing parties -- 'part of me wants X, part of me insists on Y' -- treat any resulting damage as self-inflicted from the start, not as something that happened to you from outside."
+related: [lex-5tpy8]
+scaffolds-from: [lex-5tpy8]
+evokes: [radin-winnebago-trickster-cycle, wakdjunkaga, i-have-made-myself-suffer, right-arm-fights-left-arm]
+lineage:
+  - source: primary
+    text: radin-tricksters-right-arm-and-left-arm-fight-each-other
+    citation: "Paul Radin, The Trickster: A Study in American Indian Mythology (Philosophical Library, 1956), 'The Winnebago Trickster Cycle,' episode 5. Verified verbatim against a direct pdftotext -layout extraction, real text layer, no OCR."
+    quote: "'Give that back to me, it is mine! Stop that or I will use my knife on you!' So spoke the right arm. 'I will cut you to pieces, that is what I will do to you,' continued the right arm. Thereupon the left arm released its hold. ... In this manner did Trickster make both his arms quarrel. That quarrel soon turned into a vicious fight and the left arm was badly cut up. 'Oh, oh! Why did I do this? Why have I done this? I have made myself suffer!'"
+canonical-instances:
+  - "A person torn between staying at a stable job and pursuing a risky project describes the decision as 'my cautious side fighting my ambitious side,' sabotages the stable job out of frustration with the standoff, and then grieves the lost income as though it had been taken from them rather than given up by their own hand."
+  - "A team lead who both wants to ship fast and wants the code reviewed thoroughly alternates between rushing a merge and then reverting it for review, describing the resulting delay as the team 'fighting itself,' when the delay is entirely the product of the lead's own two demands colliding."
+critical-questions:
+  - "Does personifying the conflict as two separate arms make it easier or harder for Trickster to resolve, compared to recognizing from the start that both impulses are his own -- does the story suggest the personification is what allows the fight to escalate as far as it does?"
+  - "Is the left arm's grief -- 'I have made myself suffer' -- an accurate diagnosis despite the personified framing, or does even that moment of insight stop short of recognizing that the right arm was never a separate agent either?"
+  - "Would Trickster have behaved differently toward the buffalo carcass if he had experienced the conflicting impulses as a single ambivalence rather than as two named combatants, or does the story suggest the outcome, a wounded arm, was inevitable regardless of how the conflict was framed?"
+status: active

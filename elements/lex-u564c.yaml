@@ -1,0 +1,19 @@
+id: lex-u564c
+name: favoritism-lets-both-factions-assume-the-other-will-handle-the-crisis
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'When a leader singles out one faction for favor over another without assigning clear duty, both factions can independently conclude the other group bears responsibility for the critical task, and neither acts — producing a collective failure that individual favoritism alone wouldn''t predict. In the Jataka''s tale of Dhumakari, this is exactly what happened to King Dhananjaya: "King Dhananjaya disregarded his old soldiers and showed favour to new-comers. He went to fight in a disturbed frontier province: but neither his old warriors nor the new-comers would fight, each thinking the other party would see to the matter. The king was defeated."'
+related: []
+evokes: [jataka, sattanipata, dhumakari-jataka, favoritism-creates-a-responsibility-gap, both-sides-assume-the-other-will-act]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dhumakari-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 413, Dhumakari-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "King Dhanafjaya disregarded his old soldiers and showed favour to new-comers. He went to fight in a disturbed frontier province: but neither his old warriors nor the new-comers would fight, each thinking the other party would see to the matter. The king was defeated."
+canonical-instances:
+  - "A CEO who visibly favors the newly-acquired team over the legacy engineering group finds that when a critical production outage hits, neither team steps up to own the fix, each assuming the favored or disfavored status of the other settles whose job it actually is."
+critical-questions:
+  - "Is the failure here really about favoritism itself, or about the leader never explicitly assigning ownership regardless of who was favored?"
+  - "Would clear duty assignment have prevented the collapse even with the favoritism left fully intact, or does unequal treatment corrode willingness to act no matter how clearly duties are spelled out?"
+status: active

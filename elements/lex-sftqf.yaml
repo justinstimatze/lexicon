@@ -1,0 +1,19 @@
+id: lex-sftqf
+name: alternating-opposite-complaints-manufacture-a-no-win-bind
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: 'A manipulator can engineer complaints so that no possible response succeeds — swinging deliberately between two opposite failure conditions so any correction just triggers the other complaint, then citing the resulting inconsistency as evidence against the target rather than against the manipulator. In the Jataka''s tale of Kaccani, the daughter-in-law does this with her mother-in-law''s food: "thenceforth she gave her rice-gruel either very hot or very cold or very salt or saltless. When the old woman complained that it was too hot or too salt, she threw in cold water enough to fill the dish: and then on complaints of its being cold and saltless, she would make a great outcry, "Just now you said it was too hot and too salt: who can Satisfy you?""'
+related: []
+evokes: [jataka, atthanipata, kaccani-jataka, double-bind, engineered-no-win-complaint]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kaccani-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 417, Kaccani-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "thenceforth she gave her rice-gruel either very hot or very cold or very salt or saltless. When the old woman complained that it was too hot or too salt, she threw in cold water enough to fill the dish: and then on complaints of its being cold and saltless, she would make a great outcry, \"Just now you said it was too hot and too salt: who can Satisfy you?\""
+canonical-instances:
+  - "A manager alternates between calling a draft 'too long, nobody will read it' and, once trimmed, 'too thin, where's the analysis' — then cites the writer's inconsistent output as proof they can't be trusted with the work."
+critical-questions:
+  - "How would the target distinguish a genuinely shifting standard from one alternated on purpose — is there a way to test which is happening while it's happening?"
+  - "Once the outcry becomes the visible evidence, does anyone go back and check whether the underlying complaints were ever internally consistent in the first place?"
+status: active

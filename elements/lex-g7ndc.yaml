@@ -1,0 +1,20 @@
+id: lex-g7ndc
+name: a-convenient-personal-memory-outweighs-a-contradicting-one-in-the-same-room
+type-in: claim
+type-out: state
+_tier: atomic
+agent-instruction: 'When a doctrine that conveniently excuses someone''s behavior needs evidence, a personal anecdote that confirms it gets treated as proof, while a contradicting personal anecdote offered by someone else present is dismissed as bad luck rather than counter-evidence — because the two anecdotes are judged by whether they''re convenient, not by whether they''re equally unfalsifiable. In the Mahanaradakassapa-Jataka, the minister Alata backs a nihilist "no consequences for sin" doctrine by claiming to remember a past life as a killer who was nonetheless reborn prosperous: "I too remember having gone through a former birth... verily there are no evil consequences for sin, I did not have to go to hell." In the same room, the slave Bijaka offers the mirror case — a virtuous past life followed by a miserable rebirth — and weeps that virtue seems to produce no fruit. The king accepts Alata''s anecdote as settling the question and treats Bijaka''s identical kind of claim as merely sad, not as evidence against the doctrine he''s already decided to believe.'
+related: []
+evokes: [jataka, mahanipata, mahanaradakassapa-jataka, motivated-reasoning, cherry-picked-anecdote, unfalsifiable-evidence]
+lineage:
+  - source: primary
+    text: jataka-cowellrouse1907-mahanaradakassapa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. VI, trans. E. B. Cowell and W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1907), Book XXII (Mahanipata), No. 544, Mahanaradakassapa-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "I too remember having gone through a former birth. I was a cow-killing huntsman named Pingala in a city. Many a sin did I commit in wealthy Benares... Passing from that birth, I was then born in the prosperous family of a general; verily there are no evil consequences for sin, I did not have to go to hell."
+canonical-instances:
+  - "A CEO cites their own rags-to-riches story as proof that hard work alone determines success, while an equally hardworking employee's stalled career sitting in the same meeting is read as a personal failing rather than evidence against the theory."
+  - "A smoker points to a great-uncle who smoked daily and lived to ninety as proof cigarettes aren't really dangerous, while dismissing a friend's parent who died of lung cancer at fifty as simply unlucky rather than as the more statistically expected case."
+critical-questions:
+  - "Both anecdotes here are single data points with no way to verify the claimed past lives at all — does the doctrine's real flaw lie in Alata's selective use of evidence, or in treating any single anecdote, convenient or not, as capable of settling the question?"
+  - "The king already wanted to believe the convenient doctrine before either testimony was given — does the anecdote actually cause the belief, or only supply an after-the-fact justification for a conclusion he'd reach either way?"
+status: active

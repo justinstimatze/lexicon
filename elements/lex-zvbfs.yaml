@@ -1,0 +1,19 @@
+id: lex-zvbfs
+name: assistance-before-advice-is-the-correct-sequence-in-a-crisis
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone is in active danger, check the order of your response: help belongs first, correction only afterward, because reversing that sequence guts the correction of any value it might have had. Aesop's 'The Boy Bathing' has a boy struggling in a river cry for help, only to be met with a passer-by's scolding about his recklessness before any rescue is attempted. The fable's own moral names the correct order plainly, putting rescue ahead of any lecture about how the danger arose. Advice arriving ahead of rescue functions the same as help withheld, even when the advice itself is perfectly sound."
+related: []
+evokes: [aesop, the-boy-bathing, crisis-sequencing, assistance-before-advice]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-boy-bathing
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Boy Bathing.' Verified verbatim against a direct extraction of the held copy."
+    quote: "Give assistance, not advice, in a crisis."
+canonical-instances:
+  - "a bystander lecturing an injured cyclist about not wearing a helmet before calling for emergency help or applying first aid — the lecture may be entirely correct and still costs the victim exactly the time that mattered most."
+critical-questions:
+  - "Does this sequencing rule hold universally, or are there emergencies where a piece of advice (don't move, stay calm) is itself the correct first action and functions as assistance rather than a separate step after it?"
+  - "How urgent does a situation need to be before the assistance-first rule applies — at what point does a difficulty stop counting as a crisis and correction becomes appropriate again before action?"
+status: active

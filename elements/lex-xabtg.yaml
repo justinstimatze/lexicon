@@ -1,0 +1,19 @@
+id: lex-xabtg
+name: a-nested-story-manages-anothers-patience-during-a-long-wait
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When someone threatens to abandon a long effort out of frustration, telling them a story-within-the-story that reframes their impatience as premature can sustain their investment more effectively than simply asking them to wait. In the Jataka's tale of Asanka, whenever the king nears giving up, Asanka tells him of a crane that waited on a hilltop and was eventually rewarded, using the embedded tale as leverage over the king's mood: 'Hope on, O king, the fruit of hope is sweet: A bird hoped on and never own'd defeat.'"
+related: []
+evokes: [jataka, chanipata, asanka-jataka, nested-story-manages-patience, story-as-leverage-over-emotional-state]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-asanka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VI (Chanipata), No. 380, Asanka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Hope on, O king, the fruit of hope is sweet: A bird hoped on and never own'd defeat."
+canonical-instances:
+  - "A startup's early engineer, ready to quit after a brutal year with no revenue, is talked down by the founder retelling the story of a competitor who nearly folded before their breakout year — not new data, just a reframing story timed to the moment of doubt."
+critical-questions:
+  - "Does the nested story actually change the odds of eventual success, or does it only change how the wait feels while the odds stay exactly what they were?"
+  - "What happens to trust in the storyteller if the hoped-for outcome never arrives — does the parable's persuasive power convert into resentment once the wait proves to have been for nothing?"
+status: active

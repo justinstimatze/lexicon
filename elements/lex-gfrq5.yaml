@@ -1,0 +1,19 @@
+id: lex-gfrq5
+name: advancement-requires-visible-equanimity-about-playing-the-game
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Rising within a political system requires two separable skills that are often conflated: the ability to actually play the system, and the ability to appear undisturbed while playing it. The second is what actually gates advancement — someone can play the game competently and still be held back if their visible discomfort with the game itself becomes apparent, because that discomfort reads as a threat to keep participating reliably. Displayed equanimity is being tested as its own trait, separate from and in addition to raw political skill, which means someone who privately loathes the game but performs comfort with it will out-advance someone whose skill is identical but whose discomfort shows."
+related: []
+evokes: [jackall-moral-mazes, "you can't be disturbed by the game", equanimity-as-a-separately-tested-trait]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch6-play-the-game-not-disturbed
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 6, Dexterity with Symbols."
+    quote: "It's the ability to play this system that determines whether you will rise."
+canonical-instances:
+  - "Two colleagues navigate the same office politics equally skillfully; one visibly enjoys or shrugs off the maneuvering while the other's evident distaste for it, though never voiced as complaint, quietly marks them as a worse fit for further advancement."
+critical-questions:
+  - "Is visible equanimity actually predictive of anything useful about future leadership capacity, or is it purely a filter for temperament that has nothing to do with whether someone would perform well in a role with more authority?"
+status: active

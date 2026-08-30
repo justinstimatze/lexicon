@@ -1,0 +1,19 @@
+id: lex-bbfgr
+name: resources-manufacture-outcomes-but-not-genuine-character
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "However much power or wealth is available to fabricate a desired physical outcome, genuine character in a person cannot be manufactured the same way. It has to already exist, waiting to be found, rather than get produced on demand. In the Jataka's tale of the escalating impossible tasks, each demand — a garden, a jewel-studded lake, an ivory palace — is solved by divine power acting on the petitioner's behalf, until the final task: produce a park-keeper possessing four specific virtues. Even a god cannot manufacture this: 'Not even a deity can make a man with all four virtues.' The petitioner's own realization states the boundary precisely: 'What the great king Sakka can make by his power, that he has made. He cannot make a park-keeper with four virtues.' Every prior task was a problem of arranging matter; this one required locating a person who actually was what was needed, since no amount of power could fabricate the trait itself."
+related: []
+evokes: [jataka, dukanipata, dhammaddhaja-jataka, character-must-be-located-not-fabricated, unlimited-power-still-cannot-manufacture-a-trait]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dhammaddhaja-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 220, Dhammaddhaja-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Not even a deity can make a man with all four virtues... What the great king Sakka can make by his power, that he has made. He cannot make a park-keeper with four virtues."
+canonical-instances:
+  - "A well-funded startup can buy office space, equipment, marketing, and even talented hires, but no amount of capital can manufacture the founder's own judgment and integrity under pressure — investors eventually realize they either found the right person at the start or they didn't, and no later spending fixes that gap."
+critical-questions:
+  - "Is the boundary really at 'character' specifically, or does the same limit apply to any sufficiently complex, internally consistent trait that can't be assembled from separable parts the way a garden or palace can be built piece by piece?"
+  - "How does the petitioner actually verify that Chattapani genuinely possesses the four virtues rather than having merely learned to perform them convincingly — does the story's resolution smuggle in a self-report it just spent the whole tale arguing can't be trusted?"
+status: active

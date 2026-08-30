@@ -1,0 +1,34 @@
+id: lex-6vpw5
+name: automation-closes-the-refuge-tier
+type-in: situation
+type-out: frame
+_tier: atomic
+agent-instruction: "When a refuge role (the last simple skill-based job, the niche where being-mediocre-was-fine) is up for automation, surface that the refuge tier is closing — the automation eliminates the substrate, not just the job; affected people need a different rung, not a faster version of the same rung."
+related: [lex-smxtw, lex-tf6br, lex-gma7u]
+scaffolds-from: [lex-tf6br]
+evokes: [flee-up-the-skill-ladder, the-refuge-is-the-tier-being-automated, high-ground-automated, useless-class, no-higher-tier-to-flee-to, designated-refuge-collapses]
+lineage:
+  - source: practitioner
+    text: prospect-essay-post-copyright-reward-2026-05-25
+    citation: "prospect essay 'Post-copyright reward and the missing middle' §7 (the-boundary / missing-middle), 2026-05-25. The refuge-tier framing: each automation wave was historically survived by fleeing UP to a higher human-only tier; the move fails when the refuge IS the tier being automated. Creative work was the designated refuge from automation, so automating it closes the escape. Generalizes to junior-dev pipelines, paralegals, radiologists — any field where the 'flee upward' strategy assumes a still-human higher tier."
+    quote: "creativity was the designated refuge from automation — the high ground is the thing being automated. [prospect essay §7, 2026-05-25 — re-readable practitioner source]"
+  - source: primary
+    text: keynes-1930-economic-possibilities
+    citation: "John Maynard Keynes, 'Economic Possibilities for our Grandchildren' (1930), published in *Essays in Persuasion* (Macmillan 1931). Coined 'technological unemployment' ('unemployment due to our discovery of means of economising the use of labour outrunning the pace at which we can find new uses for labour'). The historical optimism assumed displaced labor flees up to new, higher-value tiers; Keynes treats the disease as 'only a temporary phase of maladjustment.' Yuval Noah Harari's 'useless class' (Homo Deus, 2015) is the pessimistic modern restatement: when there is no higher tier the displaced can flee to. Verified verbatim 2026-06-20 against the published essay text."
+    quote: "[John Maynard Keynes (1930), 'Economic Possibilities for our Grandchildren,' §I:] 'We are being afflicted with a new disease of which some readers may not yet have heard the name, but of which they will hear a great deal in the years to come--namely, technological unemployment. This means unemployment due to our discovery of means of economising the use of labour outrunning the pace at which we can find new uses for labour. But this is only a temporary phase of maladjustment. All this means in the long run that mankind is solving its economic problem. I would predict that the standard of life in progressive countries one hundred years hence will be between four and eight times as high as it is to-day.' [Keynes coins 'technological unemployment' AND immediately frames it as temporary — the higher-tier-emerges optimism that the atom names as the failure case. Keynes's projection (four-to-eight-times higher standard of life by 2030) has held; Keynes's structural-assumption (displaced labor flees to higher tier reliably) is precisely the assumption lex-6vpw5 names as conditional. Harari 2015 'useless class' from *Homo Deus* (in-copyright, paywalled; logged in wanted-materials at procurement-priority) is the modern pessimistic restatement; lex-6vpw5 names the substrate-condition that makes the divergence key: WHETHER a higher human-only tier reliably appears. Now refs-grounded against the 1930 essay; Harari 2015 remains tier-3 within this citation block.]"
+  - source: discovery-loop
+    text: prospect-session-2026-05-25
+    citation: "articulated in the prospect session 2026-05-25 as the sharpest instance of the automation-underclass thesis — creativity was the *designated refuge* from automation, which makes its automation qualitatively different from automating a routine tier. Same shape as 'if AI does junior-dev work, where do seniors come from?'"
+    quote: "the creative version is the sharpest instance because creativity was the designated refuge from automation [prospect session 2026-05-25]; hollowing the middle severs the pipeline that produces the future top [same session]"
+canonical-instances:
+  - "Historical automation waves survived by tier-flight: manual labor → operating machines → maintaining machines → designing machines → creative/judgment work. Each wave's displaced workers fled up to a tier the automation couldn't reach. The atom fires when the wave reaches the tier that was itself the refuge."
+  - "Creative work as the designated refuge (prospect): 'do something a machine can't' meant 'be creative.' GenAI automates the refuge itself, so there is no obvious higher human-only tier to flee to."
+  - "Junior-dev pipeline: if AI does the junior-dev work, the apprenticeship tier that produced seniors is removed — the refuge (entry-level practice) IS the pipeline to mastery. Severs the career ladder, not just the bottom rung."
+  - "Paralegals → lawyers, radiology residents → radiologists: automating the lower-skill practice tier removes the training ground for the higher tier; the refuge-tier and the apprenticeship-tier coincide."
+  - "Keynes 1930 technological-unemployment optimism vs Harari 'useless class' pessimism: the divergence is exactly whether a higher tier reliably exists to absorb displaced labor. The atom names the failure case."
+  - "operationally adjacent to lex-smxtw competence-substitution-inverts-the-seniority-premium: 0285 is the MECHANISM (automation substitutes competence, so the experienced are hit hardest); 0284 is the STRUCTURAL CONSEQUENCE (the higher human-only tier you'd flee to is gone). They co-fire on GenAI labor-displacement prompts."
+  - "operationally adjacent to lex-tf6br catastrophic-clarification (Schumpeter): the Schumpeterian 'destruction is the gain' steelman assumes creative destruction reopens higher tiers; 0284 is the case where it doesn't — the refuge closes rather than relocating upward."
+critical-questions:
+  - "is there genuinely no higher human-only tier, or just none visible yet? The optimistic prior (Keynes) is that new tiers always emerged before. The discriminator is whether the automation targets a GENERAL human capacity (judgment, creativity) rather than a specific skill — when the general capacity is automated, the 'flee upward' move has no remaining target."
+severity-tier: info
+status: active

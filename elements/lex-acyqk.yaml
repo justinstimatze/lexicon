@@ -1,0 +1,19 @@
+id: lex-acyqk
+name: breaking-an-unliftable-whole-into-pieces-makes-it-tractable
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "An asset too large or heavy to move as a single unit can become portable by dividing it into smaller pieces, rather than by abandoning it or straining to move the whole at once. In the Jataka's tale of the gold bar, the Buddha illustrates this with people of past times who, finding a mass of gold too heavy to lift, break it into pieces and carry it away piece by piece — the same principle he applies to a monk overwhelmed by the whole of Morality, who becomes able to practice it once it's reduced to three graspable rules instead of the entire body of teaching at once. The move generalizes past physical weight: a task, a body of knowledge, or an asset that's unliftable as a single mass can become tractable once broken into pieces sized to what can actually be carried."
+related: []
+evokes: [jataka, ekanipata, kancanakkhandha-jataka, breaking-a-whole-into-carryable-pieces, unliftable-mass-becomes-tractable-piecemeal]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kancanakkhandha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 56, Kancanakkhandha-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Brethren, even a heavy burthen becomes light, if taken piecemeal; and thus the wise and good of past times, on finding a huge mass of gold too heavy to lift, first broke it up and then were enabled to bear their treasure away piece by piece.\""
+canonical-instances:
+  - "A team inherits a sprawling, unmaintainable codebase that no one is willing to take ownership of as a whole, and splits it into smaller services with individually assignable owners, converting an unmanageable mass into pieces that an individual engineer can actually carry."
+critical-questions:
+  - "Does the cutting itself cost anything — value lost at the seams, coordination overhead between the newly separate pieces — that the frugal picture of 'the same gold, just lighter' leaves out?"
+  - "Is there a lower limit where a piece becomes too small to be useful on its own, so that dividing further stops helping and starts just fragmenting the asset instead?"
+status: active

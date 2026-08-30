@@ -1,0 +1,24 @@
+id: lex-2pr43
+name: advancement-trades-tangible-work-for-abstraction-and-status
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "The felt senselessness of managerial work increases specifically as the work becomes more abstract, and abstraction typically increases as one advances up a hierarchy — meaning career advancement systematically trades away the tangible, sensory, hands-on connection to a task that often made the earlier work feel meaningful. A plant manager who still finds real satisfaction slipping out before dawn just to walk the machinery floor and smell the oil and grease names exactly what gets lost in the trade: advancement offers status and abstraction in exchange for the concrete, embodied engagement that felt like 'what life is all about.' This isn't nostalgia for lower-status work — it's a structural tradeoff built into most advancement paths, worth naming explicitly before assuming a promotion is a pure gain."
+related: []
+evokes: [jackall-moral-mazes, "I love the smell of the oil and the grease and the sound of the machines", advancement-trades-tangibility-for-abstraction]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch8-abstraction-increases-with-advancement
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 8, Invitations to Jeopardy, Section II."
+    quote: "the problem of the senselessness of managerial work increases as the work itself becomes more abstract, typically as one advances."
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch8-love-the-smell-of-oil
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 8, Invitations to Jeopardy, Section II."
+    quote: "I love the smell of the oil and the grease and the sound of the machines. For me, that's what life is all about."
+canonical-instances:
+  - "A surgeon promoted into hospital administration finds the new role prestigious and better compensated, but describes missing the direct, tangible satisfaction of operating with their own hands far more than expected, well after the promotion's novelty has worn off."
+critical-questions:
+  - "Is this tradeoff actually inherent to advancement, or does it depend heavily on the specific field — are there advancement paths where increased responsibility doesn't require increased abstraction away from tangible work, and if so, what makes them different?"
+status: active

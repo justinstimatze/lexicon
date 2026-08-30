@@ -1,0 +1,20 @@
+id: lex-9du33
+name: leadership-requires-projecting-conviction-across-contradictions
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Aspiring to significant leadership requires adeptness at inconsistency — doublethink and doublespeak — but the harder, load-bearing half of the skill isn't holding contradictory positions, it's projecting absolute conviction in whichever one you're currently asserting, with no visible acknowledgment of the shift. A leader who signals awareness of their own inconsistency, even honestly, undermines the specific quality followers need to see: total, uncomplicated confidence in the position of the moment. This means leadership doublethink isn't measured by how many contradictory positions someone can hold — plenty of people can do that privately — but by how completely they can suppress any visible sign of the switch each time, since the visible signal, not the underlying inconsistency, is what would actually cost them followers."
+related: [lex-anu75]
+scaffolds-from: [lex-anu75]
+evokes: [jackall-moral-mazes, "the ability to project absolute conviction in whatever one asserts at the moment", conviction-projection-as-the-hard-half-of-doublethink]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-afterword-leadership-doublethink
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), \"Moral Mazes and the Great Recession,\" Section III."
+    quote: "adeptness at inconsistency, in particular doublethink and doublespeak, becomes an essential requirement for those who aspire to big-time leadership. Such adeptness must be coupled with the ability to project absolute conviction in whatever one asserts at the moment."
+canonical-instances:
+  - "A political leader reverses a major policy position entirely within a single term, and voters who supported the original position stay loyal specifically because the reversal was delivered with the same unwavering certainty as the original stance, with no visible hedge or acknowledgment of the change."
+critical-questions:
+  - "Is conviction-projection actually separable from the underlying inconsistency as a skill, or does sustained, undetected practice at faking total conviction eventually erode the leader's own ability to track which position they actually hold?"
+status: active

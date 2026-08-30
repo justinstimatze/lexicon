@@ -1,0 +1,19 @@
+id: lex-vuk66
+name: an-opponents-known-unconditional-generosity-is-exploited-by-simply-asking
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When an adversary is known to give away anything requested without negotiation, the correct move against them isn't to fight for what you want. It's to simply ask for it. Preparing for a contest wastes the exact leverage the opponent's own reputation for generosity already hands you for free. In the Jataka's tale of the sacred elephant, a drought-stricken king wants a rival's rain-bringing elephant and his court advises against war for a specific reason: 'O king, there is no need to fight him. The king is fond of giving, he loves giving ... he would even cut off his head in all its magnificence, or tear out his gracious eyes, or give up his very kingdom. There will be no need even to plead for the elephant. He will give it without fail.' Ambassadors ask. The elephant is handed over immediately, with no siege required."
+related: []
+evokes: [jataka, tikanipata, kurudhamma-jataka, an-opponents-unconditional-generosity-substitutes-asking-for-fighting, exploiting-a-known-disposition-rather-than-preparing-for-contest]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kurudhamma-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book III (Tikanipata), No. 276, Kurudhamma-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "O king, there is no need to fight him. The king is fond of giving, he loves giving: were he but asked, he would even cut off his head in all its magnificence, or tear out his gracious eyes, or give up his very kingdom. There will be no need even to plead for the elephant. He will give it without fail."
+canonical-instances:
+  - "A startup wanting access to a larger company's proprietary dataset skips the lengthy licensing negotiation its lawyers prepared and simply emails the well-known open-data advocate who runs the larger company's research division, who grants access within the day, exactly as their reputation predicted."
+critical-questions:
+  - "Does exploiting a known generous disposition risk exhausting it over time, turning a reliable resource into one the opponent eventually learns to guard more carefully?"
+  - "Is there a meaningful difference between exploiting a genuinely virtuous disposition this way and simply taking advantage of someone who can't say no, even when the person being asked seems to want to give?"
+status: active

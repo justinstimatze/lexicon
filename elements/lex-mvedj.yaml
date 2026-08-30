@@ -1,0 +1,19 @@
+id: lex-mvedj
+name: a-mundane-observation-is-banked-as-future-figurative-ammunition
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Rather than inventing a warning message in the abstract, a teacher can watch an ordinary, unrelated event and encode it as portable figurative language, banking the analogy for a future situation whose specifics aren't yet known — manufacturing rhetorical material opportunistically from real-time observation rather than designing it from a stated purpose. In the Jataka's tale of Musika, the Bodhisatta watches a horse kill a pestering mouse and notes what only he now knows: 'others from not knowing ask, \"Where is the mouse?\" But I alone know that the mouse has been killed by the horse, and dropped into the well.'"
+related: []
+evokes: [jataka, pancanipata, musika-jataka, mundane-event-banked-as-future-figurative-ammunition, analogy-construction-from-real-time-observation]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-musika-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 373, Musika-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "The Bodhisatta witnessed the whole thing and said, \"Others from not knowing ask, 'Where is the mouse?' But I alone know that the mouse has been killed by the horse, and dropped into the well.\""
+canonical-instances:
+  - "A manager who happens to witness a minor scheduling mixup between two vendors files the specific story away without any immediate use for it, then pulls it out months later as the perfect illustrative anecdote when a completely different team needs to understand why redundant sign-off steps matter."
+critical-questions:
+  - "Does banking an observation for future use actually require any special skill, or is it simply a byproduct of paying more careful attention than most people do to ordinary events as they happen?"
+  - "Is there a risk of forcing an analogy to fit a later situation it doesn't actually match well, just because it happens to be the material that was banked and ready?"
+status: active

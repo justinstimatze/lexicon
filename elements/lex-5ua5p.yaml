@@ -1,0 +1,19 @@
+id: lex-5ua5p
+name: a-testimony-chain-traces-backward-to-one-unverified-origin
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A claim that has spread through an entire population, each level citing the next as its source, can be traced backward through every intermediate transmitter — and the whole cascade often terminates at a single individual who never actually verified what they reported. In the Jataka's tale of the panicking animals, when the lion asks who actually witnessed the earth breaking up, the answer passes back through elephants, lions, tigers, rhinoceroses, oxen, buffaloes, elks, boars, and deer, until it reaches one hare who never checked what he heard: 'He asked the elephants. \"We don't know,\" they said, \"the lions know.\" But the lions said, \"We don't know, the tigers know\"'... 'The deer said, \"We ... don't know, the hares know.\" When the hares were questioned, they pointed to one particular hare and said, \"This one told us.\"'"
+related: []
+evokes: [jataka, catukkanipata, daddabha-jataka, an-entire-cascade-traces-back-to-one-uninspected-source, mass-belief-does-not-imply-multiple-independent-witnesses]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-daddabha-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 322, Daddabha-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"Who saw it collapsing?\" he said. \"The elephants know all about it,\" they replied. He asked the elephants. \"We don't know,\" they said, \"the lions know.\" But the lions said, \"We don't know, the tigers know.\" The tigers said, \"The rhinoceroses know.\" The rhinoceroses said, \"The wild oxen know.\" The wild oxen, \"the buffaloes.\" The buffaloes, \"the elks.\" The elks, \"the boars.\" The boars, \"the deer.\" The deer said, \"We ... don't know, the hares know.\" When the hares were questioned, they pointed to one particular hare and said, \"This one told us.\""
+canonical-instances:
+  - "A rumor that a factory is closing spreads through an entire supply chain, each supplier citing the last as confirmation, until a fact-checker traces it back through a dozen firms to a single low-level employee who misread a routine memo and mentioned it once at lunch."
+critical-questions:
+  - "Does tracing the chain back actually settle whether the original claim is true or false, or does it only establish how many people it passed through — the hare could still turn out to have witnessed something real that everyone else simply misjudged as false?"
+  - "Why did no one in the chain stop to ask the tracing question themselves before the lion did — is there something about being embedded in a fleeing crowd that specifically suppresses this kind of backward-checking?"
+status: active

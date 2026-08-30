@@ -1,0 +1,22 @@
+id: lex-vyudn
+name: a-participant-retrospectively-diagnoses-their-own-combat-frenzy-as-impaired-judgment
+type-in: state
+type-out: claim
+_tier: atomic
+agent-instruction: "After making a violent mistake in the chaos of battle, a participant can report the error candidly and account for it not by minimizing it or defending the decision, but by naming their own group's altered mental state at the time as the direct cause -- offered as diagnosis, not excuse. Standing Bear describes his party mistakenly scalping a dead ally: someone shouts 'Scalp that Ree!,' a man does it, and only when they turn the body over do they see it's 'a Shyela -- one of our friends.' Standing Bear doesn't defend the mistake as reasonable given the circumstances, or blame whoever shouted the order. He states it plainly and generalizes it to everyone present: 'We were all crazy.' The sentence appears twice in his account, framing his own combat state, not any individual's specific error, as the actual explanation."
+related: []
+evokes: [black-elk-speaks, rubbing-out-of-long-hair, scalp-that-ree, we-were-all-crazy, self-diagnosed-impaired-judgment]
+lineage:
+  - source: primary
+    text: neihardt-1932-black-elk-speaks-ch9-rubbing-out-of-long-hair
+    citation: "John G. Neihardt, Black Elk Speaks: The Complete Edition (University of Nebraska Press, Bison Books, 2014 premier annotated edition; originally published by William Morrow, 1932), Chapter 9, 'The Rubbing Out of Long Hair,' Standing Bear's inserted testimony. Verified verbatim against a direct ebook-convert extraction, clean text, no OCR."
+    quote: "We were all crazy, and I will tell you something to show how crazy we were. There was a dead Indian lying there on his face, and someone said: 'Scalp that Ree!' A man got off and scalped him; and when they turned the dead man over, it was a Shyela -- one of our friends. We were all crazy."
+canonical-instances:
+  - "A trader who executed a disastrous series of impulsive trades during a market crash later tells colleagues plainly, 'I wasn't thinking straight that day,' offering the panic itself as the explanation rather than defending any individual trade as reasonable."
+  - "A driver involved in a road-rage incident later tells police, unprompted, that they were in a state where they weren't making good decisions, naming their own impaired judgment as the cause rather than justifying the specific actions taken."
+  - "A team that shipped a reckless, damaging change during a production outage later writes in the postmortem that everyone was operating in a degraded, panicked state, treating the team's collective condition, not any one engineer's specific call, as the root cause."
+critical-questions:
+  - "Does naming 'we were all crazy' as the cause actually explain the mistake, or does it just relabel the same error in a way that forecloses asking what specifically about that moment made a trained, experienced fighter unable to tell friend from enemy?"
+  - "Is this self-diagnosis more honest than the ordinary tendency to construct a flattering post-hoc story about one's own behavior, given that Standing Bear gains nothing and admits genuine wrongdoing by using it, or is 'we were crazy' its own kind of excuse that spreads individual responsibility across a whole group?"
+  - "Standing Bear tells this story specifically to illustrate his broader claim about the day's mental state -- does choosing this particular anecdote, rather than a less damning one, suggest he's being unusually candid, or does the story's vividness serve his narrative regardless of how representative it actually was?"
+status: active

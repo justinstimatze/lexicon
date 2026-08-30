@@ -1,0 +1,19 @@
+id: lex-u77sy
+name: serial-exploitation-eliminates-each-trusting-host-as-a-witness
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A wandering exploiter can accumulate advantage across a series of trusting hosts by trading a returnable asset for each host's unique resource, then eliminating each host immediately afterward — removing them both as a witness and as anyone who could reclaim what was traded. In the Jataka's tale of the trickster and the three hermits, he trades a flying gem for a fire-summoning axe, a war-drum, and a wish-granting bowl in turn, killing each hermit with the newly acquired tool and recovering his gem before moving to the next: 'Axe! smash that hermit's skull and bring the gem to me!' By the time he reaches Benares he has all four items and a kingdom, and none of the three hermits who each held one piece of the trade survives to compare notes or ask for the gem back."
+related: []
+evokes: [jataka, dukanipata, dadhi-vahana-jataka, serial-trust-exploitation-eliminates-each-witness, a-recoverable-asset-lets-the-same-trade-repeat]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dadhi-vahana-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 186, Dadhi-vahana-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Axe! smash that hermit's skull and bring the gem to me!"
+canonical-instances:
+  - "A con artist moves from town to town offering the same 'investment opportunity,' collecting funds and disappearing before any single victim can compare notes with the next one, ensuring no accumulated pattern of complaints ever catches up with the earlier trades."
+critical-questions:
+  - "Does the whole scheme actually depend on the gem being recoverable, or could the same serial-exploitation-plus-elimination structure work with a resource that can't be recovered, just requiring the trickster to bring something new to each new trade instead of reusing one asset?"
+  - "What made none of the three hermits suspicious after news of the first hermit's death — did they simply never hear of it, or does the story require the trickster to move fast enough that word can't travel between hermitages?"
+status: active

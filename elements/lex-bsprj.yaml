@@ -1,0 +1,19 @@
+id: lex-bsprj
+name: reframing-a-request-into-safe-vocabulary-erodes-its-substance
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Getting a sensitive or stigmatized proposal past organizational gatekeepers often requires laundering it into the institution's approved register — dropping words like 'ethics' or 'values' for neutral-sounding substitutes like 'decision-making process,' 'trade-offs,' and 'hard decisions between competing interests.' The recasting is what buys access, but the cost is real: whatever made the original proposal distinctive gets sanded off in the translation, because the safe vocabulary was built to make things sound unremarkable. This is a general pattern for getting past any gatekeeper whose approval depends on pattern-matching to familiar language — the price of admission is degrading the very content that made the request worth making in the first place."
+related: []
+evokes: [jackall-moral-mazes, "the bland euphemistic language that is the lingua franca", institutional-euphemism-as-toll]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-introduction-recasting-language
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Introduction: Business as a Social and Moral Terrain."
+    quote: "They urged me to avoid any mention of ethics or values altogether and concentrate instead on the \"decision-making process\" where I could talk about \"trade-offs\" and focus on the \"hard decisions between competing interests\" that mark managerial work."
+canonical-instances:
+  - "A grant applicant is coached to replace 'this addresses a moral failure in how the system treats patients' with 'this optimizes for patient-outcome trade-offs' — the funding clears, but the specific harm the proposal was written to name is no longer stated anywhere in it."
+critical-questions:
+  - "How much of the original claim survived the recasting, and is anyone tracking what got dropped, or does the sanitized version simply become the new record of what was proposed?"
+status: active

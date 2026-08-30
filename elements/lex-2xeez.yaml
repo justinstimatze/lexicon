@@ -1,0 +1,21 @@
+id: lex-2xeez
+name: breaking-a-prohibition-to-provide-for-someone-can-kill-them-instead
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "When you break an explicit rule and justify it as an act of care for someone you love, the rule may have existed precisely to prevent the harm your 'caring' violation now causes that same person. In Cushing's telling, twin brothers are given one condition by their divine father for their resurrected mother's safety: they must not kill any deer, antelope, or mountain sheep, 'for in that case ye shall perish with your mother.' Surrounded by game on the journey home, the younger brother reaches for a justification that sounds like devotion: 'Why not? Here our poor mother has nothing but corn-cakes to eat, with all this meat around us.' He shoots the antelope. The other animals, enraged, immediately trample the mother to death while the brothers flee up a tree, and the brothers themselves are killed soon after. The violation, framed entirely as generosity toward her, is the direct and immediate cause of her death, not a risk that happened to materialize separately. Diagnostic move: when you're tempted to break an explicit prohibition on the grounds that it's for the benefit of the very person the prohibition protects, treat that justification with special suspicion -- a rule that specifically forbids an action 'for their sake' is often forbidding it because that action is exactly what endangers them."
+related: []
+evokes: [a-rule-broken-for-someones-benefit-can-be-the-thing-that-kills-them, cushing-the-maiden-the-sun-made-love-to-origin-of-anger, our-poor-mother-has-nothing-but-corn-cakes-to-eat, ye-shall-perish-with-your-mother]
+lineage:
+  - source: primary
+    text: cushing-younger-brother-breaks-the-taboo-to-feed-his-mother-and-kills-her
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'The Maiden the Sun Made Love To, and Her Boys: or the Origin of Anger.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'Now, I have given ye with your birth the power to slay all game; but mind that not a single rabbit, nor deer, nor antelope, nor mountain sheep, nor elk--though he be the finest ye have ever seen--shall ye slay, for in that case ye shall perish with your mother. ... Why not? Here our poor mother has nothing but corn-cakes to eat, with all this meat around us. And before his brother could speak another word, he drew his arrow to the head, and tsi! it pierced the heart of the great antelope and it fell dead. Now, all the great animals round about grew angry when they saw this ... the great deer had trampled their poor mother to death.'"
+canonical-instances:
+  - "A caregiver ignores a doctor's explicit instruction not to give a frail elderly patient a large meal too soon after surgery, reasoning that the patient looks hungry and deserves to be fed generously, and the meal triggers a complication that the instruction existed specifically to prevent."
+  - "A parent breaks an agreed household rule against giving a child unsupervised access to a pool, reasoning that the child loves swimming and deserves the treat after a hard week, not recognizing that the rule was created for exactly the drowning risk that then occurs."
+critical-questions:
+  - "Was the younger brother's stated motive, wanting to feed his mother, sincere, or was it a convenient framing for an impulse he already wanted to act on regardless -- does the story give any indication of which, and does it matter for the lesson?"
+  - "Would the outcome have differed if the elder brother's repeated warnings had been heeded even a moment sooner, or was the antelope's death already sufficient to trigger the animals' retaliation regardless of how quickly they fled afterward?"
+  - "Is there a meaningful difference between a prohibition whose reason is stated plainly in advance, as this one is ('for in that case ye shall perish'), and one that simply forbids an action without explanation -- does an explicit stated consequence make violating it for a sympathetic reason more or less forgivable?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-6rmfj
+name: a-fabricated-religious-obligation-lures-a-target-into-isolation
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'An aggressor can invent an unquestionable obligation — a religious debt, a ritual duty — as pretext to move a target to a remote, elevated, witness-free location where the real intent can be acted on. This names the general tactic of using a socially unchallengeable reason as cover to isolate someone. In the Jataka''s tale of Sulasa, the robber Sattuka invents a debt to a mountain deity to lure his wife to a cliff-top: "Dear, when I was being hauled along by the king''s men, I promised an offering to a tree-deity on a mountaintop, who is now threatening me because I have not paid it: let us make an offering."'
+related: []
+evokes: [jataka, atthanipata, sulasa-jataka, pretexting, fabricated-obligation-as-lure]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sulasa-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 419, Sulasa-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Dear, when I was being hauled along by the king's men, I promised an offering to a tree-deity on a mountaintop, who is now threatening me because I have not paid it: let us make an offering."
+canonical-instances:
+  - "A scammer tells an elderly target that a 'court fee' must be paid in person at a specific location by a specific time, using the unquestionable authority of 'the court' to get the target alone and moving before anyone can intervene."
+critical-questions:
+  - "What makes an invented obligation hard to question in the moment — is it the social weight of the category (religious duty, legal requirement), or the target's trust in the specific person invoking it?"
+  - "Would checking the obligation's authenticity with any third party before complying have been possible here, and what stopped that check from happening?"
+status: active

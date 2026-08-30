@@ -1,0 +1,19 @@
+id: lex-5amrc
+name: an-overconfident-holdout-ignores-the-evacuation-order-and-doesnt-survive-alone
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'An individual can disregard a leader''s precautionary evacuation order out of overconfidence or procrastination, and be destroyed along with everyone under his charge who trusted him to heed it. In the Jataka''s tale of Kapi, the holdout monkey dismisses the warning with exactly this deferral: "I will see about it afterwards."'
+related: []
+evokes: [jataka, sattanipata, kapi-jataka, overconfident-holdout, deferral-that-dooms-dependents]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kapi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VII (Sattanipata), No. 404, Kapi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "I will see about it afterwards."
+canonical-instances:
+  - "A regional manager dismisses a company-wide order to migrate off an end-of-life system immediately, telling his own team he'll get to it later, and it's his branch alone that goes down when the vendor pulls support."
+critical-questions:
+  - "What made this holdout confident enough to defer action when everyone else in the same position complied — was it genuinely different information, or simple overconfidence?"
+  - "Does the harm here fall only on the holdout, or does his deferral put people who trusted his judgment at risk they never agreed to take on?"
+status: active

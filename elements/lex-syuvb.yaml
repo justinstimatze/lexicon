@@ -1,0 +1,18 @@
+id: lex-syuvb
+name: family-reputation-is-cited-as-evidence-that-overrides-physical-proof-in-front-of-you
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: 'Confronted with physical evidence contradicting a belief, an agent can defend the belief not by examining the evidence but by appealing to an inherited group identity or unbroken family precedent, treating the identity-claim as stronger warrant than the artifact in hand. In the Jataka''s tale of Maha-Dhammapala, the father dismisses his son''s supposed bones purely on family-tradition grounds: "In our family for seven generations no such thing has been, as a death in tender years; and you are speaking falsehood."'
+related: []
+evokes: [jataka, dasanipata, maha-dhamma-pala-jataka, tradition-as-evidentiary-anchor, identity-protective-cognition]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-maha-dhamma-pala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 447, Maha-Dhamma-Pala-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "In our family for seven generations no such thing has been, as a death in tender years; and you are speaking falsehood."
+canonical-instances:
+  - "Shown a lab result suggesting a hereditary condition has appeared in his child, a man dismisses the diagnosis outright, telling the doctor no one in his family line has ever had that condition and the test must be wrong."
+critical-questions:
+  - "An unbroken family or group precedent can feel like real grounds for doubting a piece of physical evidence. Is there a version of that move that isn't just identity protecting itself from an update it doesn't want to make?"
+status: active

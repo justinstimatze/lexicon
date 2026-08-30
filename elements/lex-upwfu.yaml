@@ -1,0 +1,19 @@
+id: lex-upwfu
+name: inserting-a-physical-safeguard-before-placing-yourself-in-a-dangerous-partys-power
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Before performing a service that requires putting yourself physically inside a more powerful party's ability to harm you, build in a concrete safeguard against betrayal first — not because betrayal is expected, but because trust alone isn't verifiable once you're already vulnerable. In the Jataka's tale of the woodpecker, before putting its head inside a lion's mouth to remove a lodged bone, the bird takes a precaution despite the lion's promise: 'Then it thought: \"Who knows what this fellow will be about?\" And to prevent his closing his mouth, it fixed a stick between his upper and lower jaw' before ever placing its head inside."
+related: []
+evokes: [jataka, catukkanipata, javasakuna-jataka, a-concrete-safeguard-precedes-entering-a-dangerous-partys-power, trust-verified-mechanically-not-assumed]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-javasakuna-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 308, Javasakuna-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "\"All right,\" said the bird, and ordered the lion to lie down upon his side. Then it thought: \"Who knows what this fellow will be about?\" And to prevent his closing his mouth, it fixed a stick between his upper and lower jaw, and then putting its head into the lion's mouth, it struck the end of the bone with its beak."
+canonical-instances:
+  - "A repair technician who has to reach inside a running industrial press to clear a jam locks out the machine's power source first and physically wedges a block into the mechanism, rather than trusting the operator's word that the machine won't be restarted while their arm is inside."
+critical-questions:
+  - "Does inserting a visible safeguard risk offending or provoking the more powerful party, who might read the precaution itself as an accusation of bad faith?"
+  - "Is a physical safeguard always available in situations like this, or does the woodpecker's option (a stick between the jaws) only work because the specific mechanics of the danger happen to allow for a simple mechanical block?"
+status: active

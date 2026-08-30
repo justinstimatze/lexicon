@@ -1,0 +1,19 @@
+id: lex-a9saz
+name: an-unyielding-formulaic-refrain-proves-an-antagonist-cannot-be-reasoned-with
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A victim's advocate can repeat an almost identical appeal at each successive stage of escalating harm, with only the final term changing, so the refrain's exact repetition and uniform rejection proves the antagonist is immune to any form of appeal — in sharp contrast to cases where a nearly identical genre of plea succeeds. The repetition itself is the evidence of intransigence. In the Jataka's tale of Culladhammapala, the queen offers herself in her son's place at each stage of his mutilation, the wording barely changing as the stakes rise: 'Mahdapatapa's wretched queen, 'tis I alone to blame have been. Bid Dhammapala, Sire, go free, and off with hands of luckless me.'"
+related: []
+evokes: [jataka, pancanipata, culladhammapala-jataka, repeated-formulaic-appeal-proves-intransigence, uniform-rejection-across-escalating-stakes]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-culladhammapala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 358, Culladhammapala-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Mahdapatapa's wretched queen, 'Tis I alone to blame have been. Bid Dhammapala, Sire, go free, And off with hands of luckless me."
+canonical-instances:
+  - "A parent repeats, almost word for word, the same offer to take responsibility in place of a child facing escalating school discipline — first for a lost assignment, then for a suspension, then for expulsion — using nearly identical phrasing each time, so that the administration's unchanged refusal at every stage becomes visible proof that no appeal was ever going to work."
+critical-questions:
+  - "Does the near-identical wording across escalating stakes read as proof of intransigence to everyone, or could it instead read as a failure of the advocate to adapt their argument as the situation worsened?"
+  - "Is there a point at which continuing to repeat a formula that has already failed multiple times becomes counterproductive, signaling desperation rather than moral clarity?"
+status: active

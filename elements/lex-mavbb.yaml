@@ -1,0 +1,19 @@
+id: lex-mavbb
+name: manufacturing-an-impossible-standard-as-pretext-for-punishment
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Unable to attack a rival directly, someone with the power to assign tasks can propose an assignment specifically engineered to be unachievable within the given constraints, so the rival's inevitable failure can be used to justify a punishment that was actually decided in advance. In the Jataka's tale of the corrupt minister, unable to move against a rival honest official directly, he proposes exactly this mechanism to the king: 'Tell him to do what is impossible, and if he cannot, put him to death for that.' The task itself (a mature garden built overnight) is chosen entirely for its unachievability. It answers no legitimate need. The point was never the garden — the failure it was designed to produce was the actual deliverable."
+related: []
+evokes: [jataka, dukanipata, dhammaddhaja-jataka, an-impossible-assignment-as-manufactured-grounds-for-punishment, the-failure-not-the-task-is-the-actual-goal]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-dhammaddhaja-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 220, Dhammaddhaja-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Tell him to do what is impossible, and if he cannot, put him to death for that."
+canonical-instances:
+  - "A manager who wants a high-performing but disliked employee gone assigns them a project with a deadline everyone privately knows is unachievable given the stated resources, planning to cite the inevitable missed deadline as grounds for termination rather than admit the real motive."
+critical-questions:
+  - "How would an observer distinguish a manufactured-impossible task from a genuinely ambitious but achievable one before the deadline arrives — is there a way to detect this pattern in advance rather than only recognizing it in hindsight once the failure has already been used?"
+  - "What happens to the schemer's plan if the target somehow succeeds anyway — does the story's own resolution, where divine help closes the impossible gap, suggest this tactic is actually fragile against a sufficiently resourced target rather than a reliable weapon?"
+status: active

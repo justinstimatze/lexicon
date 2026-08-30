@@ -1,0 +1,19 @@
+id: lex-6wzy7
+name: culpability-tracks-intent-not-outcome-alone
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'The same fatal outcome can be judged entirely differently depending on whether the actor intended it, so that forgiveness or punishment turns on the actor''s state of mind rather than merely on the fact that a death occurred. In the Jataka''s tale of Sumangala, the king''s willingness to forgive turns explicitly on this distinction: "Sumangala, why did you kill that paccekabuddha, through whom I was gaining merit?" "O king, I did not mean to kill him, but it was in this way that I did the deed,"'
+related: []
+evokes: [jataka, atthanipata, sumangala-jataka, mens-rea, intent-determines-culpability]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sumangala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book VIII (Atthanipata), No. 420, Sumangala-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Sumangala, why did you kill that paccekabuddha, through whom I was gaining merit?\" \"O king, I did not mean to kill him, but it was in this way that I did the deed,"
+canonical-instances:
+  - "Two drivers who each strike a pedestrian face very different consequences once one is shown to have been checking a phone and the other to have swerved to avoid a sudden obstacle — the injury is identical, but the intent behind it is not."
+critical-questions:
+  - "How does a decision-maker verify a claim of unintentional harm when the only account of intent available comes from the person who benefits from being believed?"
+  - "Should the surviving party's grief or loss carry any weight independent of the actor's intent, or does intent fully settle the moral question by itself?"
+status: active

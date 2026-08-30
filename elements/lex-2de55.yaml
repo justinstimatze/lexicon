@@ -1,0 +1,19 @@
+id: lex-2de55
+name: a-guarantor-adds-no-security-when-their-risk-correlates-with-the-debtors
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When evaluating a proposed guarantor or co-signer, check whether their own risk profile is genuinely independent of the principal debtor's, since a guarantor whose risk moves together with the debtor's adds nothing to the arrangement's real security. Aesop's 'The Sheep, the Wolf, and the Stag' has a stag ask a sheep to lend a wolf some corn, offering to stand as guarantor; the sheep declines, naming exactly why the guarantee is worthless: 'The Wolf is in the habit of seizing what he wants and running off with it without paying, and you, too, can run much faster than I. So how shall I be able to come up with either of you when the debt falls due?' Both the wolf and the stag share the same underlying unreliability — speed and unaccountability — so stacking a second unreliable party does nothing to cure the first one's risk."
+related: []
+evokes: [aesop, the-sheep-the-wolf-and-the-stag, correlated-guarantor-risk, worthless-co-signer]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-sheep-the-wolf-and-the-stag
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Sheep, the Wolf, and the Stag.' Verified verbatim against a direct extraction of the held copy."
+    quote: "The Wolf is in the habit of seizing what he wants and running off with it without paying, and you, too, can run much faster than I. So how shall I be able to come up with either of you when the debt falls due?"
+canonical-instances:
+  - "a lender requiring a co-signer who shares the same financial-recklessness profile as the primary borrower, providing zero incremental security even though the paperwork formally lists two names on the obligation instead of one."
+critical-questions:
+  - "How would the sheep verify, before agreeing, whether a proposed guarantor's risk is genuinely independent of the principal's, given that the correlation may not be obvious from the guarantor's own reputation alone?"
+  - "Does a guarantor need to be fully independent to add any value, or is there a useful middle ground where partial independence still improves the sheep's odds of recovering something, even if not full security?"
+status: active

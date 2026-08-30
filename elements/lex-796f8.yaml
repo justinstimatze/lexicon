@@ -1,0 +1,19 @@
+id: lex-796f8
+name: status-claims-carry-no-weight-where-your-rank-is-unwitnessed
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Dignity and rank only function where an audience is present that recognizes them; away from anyone who can attest to your actual standing, insisting on the respect that rank would normally command is pointless, because there's no one there for the insistence to work on. In the Jataka's tale of the Daddara Nagas, two powerful serpent princes banished to live disguised among humans are mocked and pelted by boys who have no idea what they're addressing. The elder brother restrains the younger's urge to retaliate: 'An exile driven to a foreign shore Must of abuse lay up a goodly store; For where his rank and virtues none can know, Only the fool his pride would care to show.'"
+related: []
+evokes: [jataka, catukkanipata, daddara-jataka, dignity-requires-a-witness-to-function, insisting-on-unrecognized-rank-is-pointless]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-daddara-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 304, Daddara-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "An exile driven to a foreign shore Must of abuse lay up a goodly store; For where his rank and virtues none can know, Only the fool his pride would care to show."
+canonical-instances:
+  - "A senior executive traveling incognito on a budget airline gets brushed off by a gate agent over a minor rule and has to decide whether to invoke their title — but nobody in that terminal has any way to verify or care about it, so pulling rank there accomplishes nothing that patience wouldn't."
+critical-questions:
+  - "Is tolerating the disrespect actually the right call here, or does it just teach the abuser that this behavior carries no cost regardless of who the target turns out to be?"
+  - "Does the calculation change once there's any chance the audience could eventually learn who you are — at what point does 'unwitnessed' stop being true?"
+status: active

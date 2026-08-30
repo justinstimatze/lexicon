@@ -1,0 +1,19 @@
+id: lex-h5jyn
+name: an-unbroadcast-private-gratitude-is-reconstructed-from-its-unguarded-expression-alone
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: 'Someone who deliberately tells no one about an event can still have that event correctly reconstructed by an attentive outsider who witnessed none of it, purely from the specific content and tone of unguarded private speech overheard by chance. The reconstruction works not because the private speaker meant to communicate anything, but because genuine, spontaneous expression carries more specific information than the speaker realizes. In the Jataka''s tale, a king who was rescued from a pit by a stag tells no one what happened, but alone at dawn chants his gratitude aloud in verse. His chaplain, arriving to pay respects, overhears the chant through the door and — never having witnessed the rescue — infers the entire episode from its content and shape alone: "that which fell out betwixt the king and the stag became clear as a face reflected in a well-polished mirror." When the astonished king asks how he could possibly know, the chaplain names the method outright — reading the verse, without having witnessed anything it describes: "O lord of men! I neither heard that thing, / Nor was I there to see that day: / But from the verses thou didst sweetly sing / Wise men can gather how the matter lay."'
+related: [lex-4xxut]
+evokes: [jataka, terasanipata, sarabha-miga-jataka, inference-from-unguarded-speech, reconstructing-an-unwitnessed-event]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sarabha-miga-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book XIII (Terasanipata), No. 483, Sarabha-miga-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: 'O lord of men! I neither heard that thing, / Nor was I there to see that day: / But from the verses thou didst sweetly sing / Wise men can gather how the matter lay.'
+canonical-instances:
+  - "A therapist overhears a client, thinking aloud during an unrelated session, mention offhand that they've stopped checking their phone during dinner and correctly infers a specific reconciliation with an estranged sibling that the client never intended to discuss that day, purely from the particular relief in how the client phrased it."
+critical-questions:
+  - "Operationally distinct from lex-4xxut (an expert reads an unwitnessed causal history off present physical traces — a deformed elephant's limb): that mechanism reasons from physical evidence left behind by an event; this one reasons from the CONTENT AND STYLE of spontaneous private speech about an event, with no physical trace involved at all. Does inferring from language carry the same evidentiary weight as inferring from a physical mark, or is speech a fundamentally noisier channel that just happened to be reconstructed correctly this once?"
+  - "The chaplain's reconstruction is confirmed as fully accurate — the story doesn't show what a plausible but wrong reconstruction from the same evidence would have looked like. What would distinguish this from a lucky guess dressed up as inference?"
+status: active

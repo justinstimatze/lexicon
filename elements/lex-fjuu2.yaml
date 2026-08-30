@@ -1,0 +1,19 @@
+id: lex-fjuu2
+name: an-advance-warning-shifts-blame-onto-those-who-insist
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Before performing a known-risky action, an actor can explicitly warn the other party of the specific harm it will cause, let them insist on it anyway, and secure verbal cover in the process — so that when the foreseen harm occurs exactly as predicted, responsibility has already been narratively shifted onto those who overrode the warning. The disclaimer isn't meant to prevent the act, only to relocate the blame for its consequences. In the Jataka's tale of Sussondi, a minstrel warns his shipmates: 'I would make music, but if I do, the fish will be so excited that your vessel will be wrecked.' They insist anyway, and he answers: 'Then do not be angry with me' — before playing the music that wrecks their ship exactly as he foretold."
+related: []
+evokes: [jataka, pancanipata, sussondi-jataka, advance-disclaimer-shifts-blame-for-foreseen-harm, warning-obtained-insistence-secures-verbal-cover]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-sussondi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book V (Pancanipata), No. 360, Sussondi-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "He said, \"I would make music, but if I do, the fish will be so excited that your vessel will be wrecked.\" \"If a mere mortal,\" they said, \"make music, there will be no excitement on the part of the fish. Play to us.\" \"Then do not be angry with me,\" he said, and tuning his lute and keeping perfect harmony between the words of his song and the accompaniment of the lute string, he made music for them."
+canonical-instances:
+  - "A contractor tells a client explicitly that removing a structural wall on the cheap without permits will likely cause problems within a few years. The client insists on proceeding anyway to save money. When cracks appear later, the contractor points back to the exact warning and the client's own insistence as having already settled where the responsibility lies."
+critical-questions:
+  - "Does giving the warning actually discharge the moral responsibility for going through with a harmful act, or is the warning itself a way of getting permission to do something the actor wanted to do regardless of the outcome?"
+  - "Is there a difference between a warning given in good faith to genuinely inform a decision, and one given performatively, mainly to be pointed back to later — and can an observer tell the two apart at the time they're given?"
+status: active

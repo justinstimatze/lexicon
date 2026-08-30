@@ -1,0 +1,19 @@
+id: lex-62679
+name: provisional-language-means-your-word-is-never-binding
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "In an environment where every statement is treated as provisional rather than binding, people aren't held to what they say — not because they lie more than elsewhere, but because there's a shared, unspoken agreement that context can retroactively change what any given statement meant or committed the speaker to. This differs from ordinary flexibility or hedging: the provisionality is the default mode of speech itself, not an exception carved out for special cases. Recognizing this changes how to read a commitment made in such an environment — treat it as the current best guess under current conditions, not a promise that survives a change in conditions, and don't be surprised when it doesn't."
+related: []
+evokes: [jackall-moral-mazes, "their word is always provisional", speech-as-perpetually-revisable]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch6-provisional-language
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 6, Dexterity with Symbols."
+    quote: "In this sense, the corporation is a place where people are not held to what they say because it is generally understood that their word is always provisional."
+canonical-instances:
+  - "A manager who confidently commits to a project timeline in a planning meeting revises the commitment without apology two weeks later when priorities shift, and no one present treats the revision as a broken promise, because the original statement was never understood as binding in the first place."
+critical-questions:
+  - "Does treating all commitments as provisional actually protect anyone, or does it just remove the ability to hold anyone accountable for anything, including commitments that genuinely should have been binding?"
+status: active

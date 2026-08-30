@@ -1,0 +1,18 @@
+id: lex-54n4s
+name: a-competence-test-backfires-by-incriminating-its-author
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: 'An evaluator secretly stages a fake crime to test whether a subject''s claimed competence is real, without anticipating that a genuinely competent investigator, if successful, will necessarily trace the crime back to whoever staged it. This is a general hazard of testing someone''s competence with a manufactured problem: a successful result implicates whoever staged the test as surely as it demonstrates the subject''s skill. In the Jataka''s tale of Padakusalamanava, the king and priest steal treasure themselves purely to test the tracker''s skill: the pair gave notice to the keepers of the various treasures, and taking the most valuable jewels descended from the terrace, and after groping their way three times round the palace, they placed a ladder on the top of the wall and by means of it descended to the outside. ... Coming to the edge of a tank they thrice marched solemnly round it, and then dropped their treasure in the tank, and climbed back to the terrace.'
+related: []
+evokes: [jataka, navanipata, padakusalamanava-jataka, staged-test-backfires-on-the-tester, sting-exposes-its-own-operator]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-padakusalamanava-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IX (Navanipata), No. 432, Padakusalamanava-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "the pair gave notice to the keepers of the various treasures, and taking the most valuable jewels descended from the terrace, and after groping their way three times round the palace, they placed a ladder on the top of the wall and by means of it descended to the outside. ... Coming to the edge of a tank they thrice marched solemnly round it, and then dropped their treasure in the tank, and climbed back to the terrace."
+canonical-instances:
+  - "A security team stages a fake insider-threat scenario to test a new fraud-detection analyst, not realizing that a truly competent analyst tracing the \"leak\" will end up flagging the security team's own credentials as the source."
+critical-questions:
+  - "Is there a way to test a claimed competence with a manufactured problem that doesn't risk this exposure, or does any sufficiently realistic staged test necessarily carry the same risk to whoever stages it?"
+status: active

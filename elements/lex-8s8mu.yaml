@@ -1,0 +1,21 @@
+id: lex-8s8mu
+name: readiness-should-not-scale-with-apparent-threat-size
+type-in: situation
+type-out: posture
+_tier: atomic
+agent-instruction: "Hold vigilance and composure at a constant baseline rather than letting either scale with the apparent number or size of the threats in front of you. The failure runs in both directions and both directions are the same mistake: relaxing because a single threat looks small invites the surprise that a lone attacker can still be lethal, while panicking because many threats look large fragments your attention across all of them and leaves you fully prepared for none. Treat one adversary with the alertness you'd bring to many, and treat many adversaries with the same centered composure you'd bring to one. The count of apparent threats is not a reliable input to how ready you need to be; it is only a reliable input to how ready you feel, and those are not the same quantity."
+related: []
+evokes: [ueshiba-art-of-peace, aikido, budo, constant-readiness, normalcy-bias, threat-inflation]
+lineage:
+  - source: primary
+    text: ueshiba-2011-art-of-peace
+    citation: "Morihei Ueshiba, The Art of Peace, trans. and ed. John Stevens (Shambhala Publications, Shambhala Classics edition, 2011; text originally published 2002), Part Three, The Art of Peace."
+    quote: "'Face a single foe as if you are facing ten thousand enemies; face ten thousand enemies as a single foe.'"
+canonical-instances:
+  - "An on-call engineer treats a single alert from a service with a known-solid track record with the same triage discipline as a page from a flaky service, because the alert count says nothing about whether this particular instance is the one that's actually a fire; a security team facing a coordinated attack across a hundred endpoints stays as methodical and centered per-endpoint as it would for one, rather than letting the scale of the incident collapse its process into panic."
+  - "A negotiator facing a single, seemingly minor counterparty extends the same preparation and scrutiny they'd give a room full of hostile stakeholders, because the counterparty's apparent smallness is exactly the condition under which a negotiator gets caught flat-footed; the same negotiator, facing an actually hostile room of many parties, keeps the composed, one-at-a-time attention they'd give a single person rather than letting the headcount induce overwhelm."
+  - "Operationally distinct from lex-rn9ht hypervigilance: hypervigilance is threat-perception persisting past an actual threat, producing false positives from an already-elevated baseline. This atom targets where the baseline sits in the first place, holding it fixed regardless of how large or small the current threat happens to feel."
+critical-questions:
+  - "Is a genuinely fixed baseline of readiness even achievable, or does sustained maximum vigilance against a single minor threat carry its own cost (fatigue, false-positive fatigue, burnout) that the maxim doesn't price in?"
+  - "Are there situations where scaling readiness to threat count is actually correct -- triage, resource allocation under real scarcity -- and this atom's discipline only applies to the SUBJECTIVE experience of alertness, not to the objective allocation of finite response capacity?"
+status: active

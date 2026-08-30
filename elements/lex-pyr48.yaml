@@ -1,0 +1,19 @@
+id: lex-pyr48
+name: pain-overrides-a-captive-tools-deliberate-withholding-of-its-function
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A captive being used as a tool can deliberately withhold the specific act that makes it useful once it recognizes the harm that act causes — but its controller doesn't need to persuade or replace it, only to inflict enough pain to override the refusal directly. In the Jataka's tale of the decoy partridge, realizing its cry lures kin to their deaths, the bird falls silent to stop the killing; its owner responds not by accepting the silence but by beating it until it cries out involuntarily: 'So it kept quiet. When its master found it was quiet, he struck it on the head with a piece of bamboo. The partridge from the pain it suffered uttered a cry.'"
+related: []
+evokes: [jataka, catukkanipata, tittira-jataka, inflicted-pain-overrides-a-tools-own-moral-refusal, withheld-function-is-restored-by-force-not-persuasion]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-tittira-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 319, Tittira-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "So it kept quiet. When its master found it was quiet, he struck it on the head with a piece of bamboo. The partridge from the pain it suffered uttered a cry."
+canonical-instances:
+  - "A worker on a piece-rate line who deliberately slows down to avoid producing goods they've realized are unsafe finds their supervisor doesn't negotiate — the supervisor simply threatens their pay until the worker resumes the original pace, restoring the output without addressing the worker's actual objection."
+critical-questions:
+  - "Does forcing the behavior back through pain actually solve the controller's problem, or does it just guarantee the tool will look for a way to escape or sabotage the arrangement the moment an opportunity arises?"
+  - "Is there a meaningful difference between overriding an animal's instinctive withholding this way and overriding a person's deliberate moral refusal, or does the mechanism operate identically regardless of whether the withholding was a conscious choice?"
+status: active

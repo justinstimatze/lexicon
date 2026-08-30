@@ -1,0 +1,22 @@
+id: lex-escrw
+name: condemning-the-act-while-excusing-the-disposition-is-inconsistent
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A society can hold two incompatible standards at once. It judges a behavior morally wrong when performed, yet excuses the underlying character trait that reliably produces that behavior as simply natural or given. Gilman names the inconsistency directly and states the principle that resolves it -- a disposition and the conduct it produces have to answer to the same moral test, since nature draws no line between what a creature is and what that creature does. 'We have held it as right that man should be so, but wrong that man should do so. Nature does not work in that way.'"
+related: []
+evokes: [women-and-economics, chapter-iii, what-it-is-right-to-be-it-is-right-to-do, we-have-held-it-as-right-that-man-should-be-so, disposition-and-conduct-share-one-moral-standard]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-iii
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter III. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "We have treated it always as a field of voluntary action, not as a condition of morbid development. We have held it as right that man should be so, but wrong that man should do so. Nature does not work in that way. What it is right to be, it is right to do. What it is wrong to do, it is wrong to be."
+canonical-instances:
+  - "A company culture excuses a star performer's habitual dishonesty as just how competitive people are, while formally disciplining any specific lie that performer tells -- treating the disposition as natural and the acts it produces as punishable violates the same consistency Gilman names."
+  - "A parent says it's simply boys being boys that their son is aggressive, while separately punishing every specific act of aggression he commits -- excusing the trait while condemning its predictable output is holding two standards for one thing."
+  - "An institution treats a certain profession's tendency toward burnout-driven corner-cutting as an unavoidable fact of the job, while individually blaming and firing whoever's corner-cutting causes a visible failure -- the trait is accepted as given even as its output is treated as a personal moral failure."
+critical-questions:
+  - "Doesn't ordinary moral life routinely and reasonably separate disposition from conduct -- we forgive someone's temper as a trait to manage while still holding them accountable for what they do in anger, and that distinction seems like basic maturity rather than logical inconsistency?"
+  - "If a trait is genuinely difficult or slow to change, doesn't treating it as natural while still holding the resulting conduct to a standard serve a practical purpose -- setting a behavioral bar people can actually be held to, even while acknowledging that fully eliminating the underlying tendency may take generations?"
+  - "Gilman uses this principle to argue a disposition should be treated as changeable. The same principle could just as easily run the other way: if the disposition really is fixed and natural, perhaps the conduct it produces deserves to be excused too."
+status: active

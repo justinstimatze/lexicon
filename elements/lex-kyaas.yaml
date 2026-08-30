@@ -1,0 +1,19 @@
+id: lex-kyaas
+name: chasing-a-speculative-payoff-can-cost-more-than-the-sure-thing-forgone
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Before abandoning a reliable resource to pursue a larger but uncertain payoff, price in the certain thing you're giving up while you wait, on top of the odds the payoff never arrives at all. The Panchatantra's jackal abandons a dependable food source to trail a bull for fifteen years, waiting for a speculative reward that never materializes, admitting the pattern himself: 'if any leave a certain thing, for things uncertain wandering, the sure that was, is sure no more; what is not sure, was lost before.' The fable stages the counter-argument too — a companion urging boldness, 'depend on energetic might' — making this a genuine tradeoff between certain small value and speculative large value, not a one-sided warning against ambition; the jackal's specific error was in how long he was willing to keep paying the certain cost against a payoff that showed no signs of ever resolving."
+related: []
+evokes: [panchatantra, winning-of-friends, opportunity-cost-of-chasing-speculative-gain, a-certain-thing-forgone-is-a-real-cost]
+lineage:
+  - source: primary
+    text: panchatantra-ryder1925-hang-ball-and-greedy
+    citation: "The Panchatantra, trans. Arthur W. Ryder (University of Chicago Press, 1925), Book II, 'Hang-Ball and Greedy.' Verified verbatim against a direct extraction of the held copy."
+    quote: "If any leave a certain thing, For things uncertain wandering, The sure that was, is sure no more; What is not sure, was lost before."
+canonical-instances:
+  - "an employee turns down a series of steady promotions at their current company for fifteen years, holding out for a specific senior role they've been informally promised will eventually open up, and retires having given up a decade and a half of compounding raises and title growth for a role that never actually materialized."
+critical-questions:
+  - "How would the jackal, or anyone in his position, have known in advance that fifteen years was too long to wait, when the same patience might have paid off handsomely if the bull's situation had resolved favorably on year sixteen?"
+  - "Does the fable's own inclusion of the counter-argument ('depend on energetic might') undercut its central warning, by admitting that boldness and patience with uncertain payoffs sometimes really is the better strategy?"
+status: active

@@ -1,0 +1,19 @@
+id: lex-kub23
+name: an-unclaimed-easy-resource-implies-a-hidden-reason-it-was-left-alone
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A valuable, easily accessible resource that a nearby population with every incentive to take it has nevertheless left untouched is itself evidence of a hidden danger, even before any direct sign of that danger appears. In the Jataka's tale of the poisonous tree, a caravan leader spots a fruit-laden tree near a village, easy to climb, its fruit untouched. He concludes it must be dangerous: if the fruit were safe, the villagers who pass it daily would already have stripped it bare. No inspection of the fruit itself was needed; the absence of an action that self-interest would otherwise guarantee was the evidence."
+related: []
+evokes: [jataka, ekanipata, phala-jataka, absence-of-expected-action-implies-hidden-danger, self-interest-as-a-baseline-for-inference]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-phala-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. I, trans. Robert Chalmers, ed. E.B. Cowell (Cambridge University Press, 1895), Book I (Ekanipata), No. 54, Phala-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "When near a village grows a tree Not hard to climb, 'tis plain to me, Nor need I further proof to know, --No wholesome fruit thereon can grow!"
+canonical-instances:
+  - "A house-hunter notices that a spacious, well-located apartment near several long-term residents has sat vacant and unrented for months at a below-market price, and concludes there must be an undisclosed problem with it, without needing to see the problem directly."
+critical-questions:
+  - "How reliable is this inference when the surrounding population's incentives or knowledge differ from the observer's own — could villagers avoid a perfectly safe tree for an unrelated cultural or superstitious reason that has nothing to do with the fruit's actual safety?"
+  - "Does the strength of this signal scale with how strong the self-interest to act would normally be, and is there a way to estimate how suspicious an absence really is before treating it as proof?"
+status: active

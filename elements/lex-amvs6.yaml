@@ -1,0 +1,20 @@
+id: lex-amvs6
+name: staging-self-incrimination-to-test-an-accusers-own-doctrine
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When several people hold contradictory doctrines but agree on condemning you for the same act, manufacturing a small, deliberately provocative version of that act and letting each of them accuse you gives you a live test case. Applying each accuser's own stated principle to your 'offense,' in turn, either clears you under their own logic or exposes that their outrage was never actually consistent with what they claim to believe. In the Jataka's tale of Mahabodhi, the sage Bodhi returns to court wearing a monkey's dried skin, deliberately narrating every one of his own ordinary actions, sitting, walking, sweeping, as though the dead skin had performed them, specifically to bait the king's five heretical councillors into denouncing him: \"This man is guilty of murder... he says he killed a monkey, ate its flesh and goes about with its skin,\" and they clap their hands and ridicule him. He then turns to the councillor who denies all moral causation and, quoting the man's own creed back at him, \"If this thy creed, 'All acts of men, or good or base, / From natural causes spring, I hold, in every case,' / Where in involuntary acts can sin find place?\" concludes, \"If such the creed thou holdst and this be doctrine true, / Then was my action right when I that monkey slew.\" He repeats the same maneuver against each of the other four."
+related: []
+evokes: [jataka, pannasanipata, mahabodhi-jataka, self-as-live-test-case, applying-an-opponents-own-doctrine-against-them]
+lineage:
+  - source: primary
+    text: jataka-francis1905-mahabodhi-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. V, trans. H. T. Francis, ed. E. B. Cowell (Cambridge University Press, 1905), Book XVIII (Pannasanipata), No. 528, Mahabodhi-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "This man is guilty of murder. Consider, pray, the act of this ascetic: he says he killed a monkey, ate its flesh and goes about with its skin,\" and clapping their hands they ridiculed him. ... If this thy creed, \"All acts of men, or good or base, / From natural causes spring, I hold, in every case,\" / Where in involuntary acts can sin find place? ... If such the creed thou holdst and this be doctrine true, / Then was my action right when I that monkey slew."
+canonical-instances:
+  - "A philosophy professor whose five colleagues each publicly champion incompatible ethical theories deliberately commits a minor, victimless breach of department protocol. Pressed by each colleague in turn to explain the violation strictly within their own stated framework, several reach for justifications their theory doesn't actually support."
+  - "A regulator whose industry critics simultaneously call a company too reckless and too compliance-obsessed to innovate deliberately makes one small, symbolic risk-taking decision. Pressed to explain the objection strictly under each camp's own stated standard, at least one side's complaint turns out to have never really been about the standard it claimed to hold."
+critical-questions:
+  - "Bodhi absorbs real public ridicule from the councillors, letting the humiliation stand in front of the king well before he ever reveals the trap. Is that exposure a necessary part of what makes the eventual rebuttal land so hard, or could the same philosophical point have been made without staging an accusation against himself first?"
+  - "This move depends entirely on the accusers having stated, articulable doctrines that can be quoted back at them consistently. What happens against critics who never commit to an explicit position in the first place, and can object to the bait-act on ad hoc grounds each time, immune to being caught in their own inconsistency?"
+status: active

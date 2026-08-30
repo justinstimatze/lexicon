@@ -1,0 +1,19 @@
+id: lex-4esqx
+name: indifference-to-a-change-of-rulers-when-the-burden-stays-fixed
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a change of authority is announced, check whether the subordinates affected actually stand to experience any change in their material conditions, since indifference to who rules can be entirely rational when the burden itself is invariant. In Aesop's 'The Ass and the Old Peasant,' a peasant urges his grazing ass to flee an approaching enemy; the ass, indifferent, asks only one question about the new owners: 'do you think they'll make me carry heavier loads than I have to now?' Told no, the ass concludes: 'I don't mind if they do take me, for I shan't be any worse off.' Read past the apathy, the ass is making a specific, arguable claim: the identity of the ruler is irrelevant when the treatment received won't change either way."
+related: []
+evokes: [aesop, the-ass-and-the-old-peasant, indifference-to-change-of-rulers, invariant-burden]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-ass-and-the-old-peasant
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Ass and the Old Peasant.' Verified verbatim against a direct extraction of the held copy."
+    quote: "And if so, do you think they'll make me carry heavier loads than I have to now? No, said his master. Oh, well, then, said the Ass, I don't mind if they do take me, for I shan't be any worse off."
+canonical-instances:
+  - "a warehouse worker shrugging off news that their employer is being acquired, reasoning that the pay and workload won't meaningfully change under new ownership, so the identity of who signs the paychecks isn't worth worrying about."
+critical-questions:
+  - "Is the ass's reasoning actually correct in the general case, or does it understate how often a change of rulers eventually does change treatment, even when the incoming party makes no such promise up front?"
+  - "Does this apathy have a cost beyond the ass's own comfort — does a subordinate population's indifference to who rules make it easier for genuinely worse treatment to arrive unopposed later, once the change is already accepted?"
+status: active

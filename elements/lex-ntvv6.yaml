@@ -1,0 +1,19 @@
+id: lex-ntvv6
+name: a-flawed-analogy-induces-self-humiliation-by-exploiting-vanity
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A deceptively simple analogy can induce someone to humiliate themselves in public, by exploiting their vanity to make a flawed inference feel like flattering common sense. The Jataka's tale of the brahmin and the horse gives the clean case: a chaplain is publicly praised for his richly caparisoned horse. His deceitful wife convinces him the praise transfers to the trappings themselves rather than to the horse: 'Ah, husband, you do not know wherein lies the beauty of this horse. It is all in his fine trappings...You will see the king, and he will praise you, and all the people will praise you.' He does it, and is publicly ridiculed instead. The analogy was never sound — a horse's trappings borrow their meaning from being on a horse — but it was flattering enough, and vain enough to want, that he never checked it before acting on it."
+related: []
+evokes: [jataka, dukanipata, ruhaka-jataka, a-flattering-analogy-bypasses-scrutiny, vanity-as-the-exploited-vulnerability-in-a-bad-inference]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-ruhaka-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 191, Ruhaka-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Ah, husband, you do not know wherein lies the beauty of this horse. It is all in his fine trappings. Now if you would make yourself fine like the horse, put his trappings on yourself and go down into the street, prancing along horse-fashion. You will see the king, and he will praise you, and all the people will praise you."
+canonical-instances:
+  - "An executive praised for a department's strong results, built entirely on a system a predecessor designed, is convinced by a flatterer that the praise reflects personal genius rather than the system, and publicly announces plans to replicate the same success personally in a completely different department, without the system that actually produced it."
+critical-questions:
+  - "Is vanity really the specific vulnerability being exploited, or would the same flawed analogy have worked on someone motivated by simple credulity or a desire to please their spouse, without any particular vanity involved at all?"
+  - "What would checking the analogy before acting have actually required — is there a cheap test the brahmin could have run privately before staking his public reputation on it?"
+status: active

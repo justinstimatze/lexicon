@@ -1,0 +1,18 @@
+id: lex-mkgba
+name: a-small-gift-given-from-scarcity-outweighs-a-large-gift-given-from-abundance
+type-in: claim
+type-out: claim
+_tier: atomic
+agent-instruction: 'The moral weight of a gift can be explicitly decoupled from its absolute size and pegged instead to what it costs the giver relative to what they have, such that a modest gift from someone with little counts for more, ethically, than a much larger gift from someone with abundance to spare. In the Jataka''s tale of Bilari-Kosiya, this principle is stated directly by the god Matali: "Some give from little, some give not though they have plenteous store: Who gives from little, if he gave a thousand, twere no more."'
+related: []
+evokes: [jataka, dasanipata, bilari-kosiya-jataka, widows-mite, gift-weighed-by-cost-to-giver]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-bilari-kosiya-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. IV, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1901), Book X (Dasanipata), No. 450, Bilari-Kosiya-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Some give from little, some give not though they have plenteous store: Who gives from little, if he gave a thousand, twere no more."
+canonical-instances:
+  - "A charity's annual report puts a retired janitor's small monthly donation ahead of a billionaire's much larger one-time gift, with an explicit note on why: measured against what each of them actually had to give, the janitor gave the larger share."
+critical-questions:
+  - "Does weighing a gift by its cost to the giver rather than its absolute size actually produce fairer moral judgments, or does it risk discouraging the wealthy from giving at all if their larger gifts are treated as counting for less?"
+status: active

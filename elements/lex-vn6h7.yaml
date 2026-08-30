@@ -1,0 +1,19 @@
+id: lex-vn6h7
+name: a-meaningless-tic-is-exposed-as-noise-by-a-contrasting-trial
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A behavioral tic that appears to carry information can be mistaken for a meaningful signal after a single observation, and only a controlled second trial under the opposite condition can reveal whether it actually discriminates between anything at all. In the Jataka's tale of the curling lip, a minister interprets a prince's habitual lip-curl as evidence of shrewd judgment after it follows a deliberately wrong verdict: 'Surely the lad is wise beyond all men. He curls his lip--he must see through us, then!' When the identical lip-curl recurs the very next day after a correct verdict, the minister realizes the tic carries no information whatsoever: 'Not right from wrong, nor bad from good he knows: He curls his lip--but no more sense he shows.' The single observation looked meaningful only because it happened to follow a wrong verdict. It took a second, contrasting trial — the identical behavior after a correct verdict — to reveal the behavior tracked nothing at all."
+related: []
+evokes: [jataka, dukanipata, padanjali-jataka, a-single-observation-cannot-validate-a-signal-a-contrast-trial-can, a-fixed-behavior-that-follows-every-condition-discriminates-nothing]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-padanjali-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. II, trans. W. H. D. Rouse, ed. E. B. Cowell (Cambridge University Press, 1895), Book II (Dukanipata), No. 247, Padanjali-jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "Surely the lad is wise beyond all men. He curls his lip--he must see through us, then!... Not right from wrong, nor bad from good he knows: He curls his lip--but no more sense he shows."
+canonical-instances:
+  - "A hiring manager reads a candidate's confident, decisive tone in one interview as a sign of strong judgment, but a second interviewer notices the candidate answers every question, including ones with obviously wrong premises, with the exact same confident tone, revealing the confidence tracks nothing about the actual correctness of what they're saying."
+critical-questions:
+  - "How many trials does it actually take to distinguish a meaningful signal from noise — was one contrasting case enough here because the tic recurred identically, or would a more cautious minister have wanted several more observations before concluding anything?"
+  - "Does this generalize past behavioral tics to any single-observation inference about a person's competence or judgment — is the deeper lesson that one data point can never validate a signal, only a comparison across a varied condition can?"
+status: active

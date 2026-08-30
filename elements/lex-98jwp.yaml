@@ -1,0 +1,19 @@
+id: lex-98jwp
+name: a-feigned-embrace-covers-an-act-of-violence-and-theft
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "An outward display of affection or intimacy can be timed and used as the actual physical mechanism of an attack, so that the moment of apparent tenderness is indistinguishable, to the victim, from the moment of assault. In the Jataka's tale of Sama and the robber, planning his escape, he lures her into a secluded thicket under a show of passion, then uses the embrace itself to render her insensible: 'So under a show of violent affection for her, he entered into a thicket of kanavera bushes, and pretending to embrace her, he squeezed her till she became insensible. Then throwing her down he spoiled her of all her ornaments.'"
+related: []
+evokes: [jataka, catukkanipata, kanavera-jataka, an-embrace-doubles-as-the-instrument-of-attack, intimacy-timed-to-disguise-violence]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-kanavera-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 318, Kanavera-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "So under a show of violent affection for her, he entered into a thicket of kanavera bushes, and pretending to embrace her, he squeezed her till she became insensible. Then throwing her down he spoiled her of all her ornaments, and fastening them in her outer garment he placed the bundle on his shoulder, and leaping over the garden wall made off."
+canonical-instances:
+  - "A con artist arranges a farewell hug with a mark right before boarding a train, using the embrace to lift a wallet and a set of keys, so the mark's last physical memory of the encounter is warmth rather than theft."
+critical-questions:
+  - "Does the victim's inability to distinguish the attack from the affection in the moment change how the betrayal is remembered afterward, or does the memory of tenderness get permanently contaminated once the theft is discovered?"
+  - "Is this pattern detectable in advance by anything other than hindsight — was there a way for Sama to have recognized the danger before the embrace, or does the mechanism specifically depend on total surprise?"
+status: active

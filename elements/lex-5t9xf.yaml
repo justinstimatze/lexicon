@@ -1,0 +1,22 @@
+id: lex-5t9xf
+name: separately-named-movements-can-be-one-shift-felt-in-two-places
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Two social movements can organize around different grievances, each naming itself after its own group's particular pain, while actually being two visible symptoms of one single underlying shift in the wider system. Each movement's participants feel their own group's pain most acutely, so they read the general phenomenon as a claim specific to their own class. Neither name captures the level where the two movements are actually one thing. Gilman states this about the labor movement and the woman's movement of her own era: 'this is shown by the twin struggle that convulses the world to-day,--in sex and economics,--the 'woman's movement' and the 'labor movement.' Neither name is wholly correct. Both make a class issue of what is in truth a social issue, a question involving every human interest... Sociologically, these conditions... mean but one thing,--the increase of social consciousness.'"
+related: []
+evokes: [women-and-economics, chapter-vii, neither-name-is-wholly-correct, the-twin-struggle-that-convulses-the-world, two-named-grievances-one-underlying-shift]
+lineage:
+  - source: primary
+    text: gilman-1898-women-and-economics-chapter-vii
+    citation: "Charlotte Perkins Gilman, Women and Economics: A Study of the Economic Relation Between Men and Women as a Factor in Social Evolution (Boston: Small, Maynard & Company, 1898), Chapter VII. Verified verbatim against a direct plain-text extraction, clean text, no OCR."
+    quote: "This is shown by the twin struggle that convulses the world to-day,--in sex and economics,--the 'woman's movement' and the 'labor movement.' Neither name is wholly correct. Both make a class issue of what is in truth a social issue, a question involving every human interest. But the women naturally feel most the growing healthful pain of their position. They personally revolt, and think it is they who are most to be benefited. Similarly, since the 'laboring classes' feel most the growing healthful pain of their position, they as naturally revolt under the same conviction. Sociologically, these conditions, which some find so painful and alarming, mean but one thing,--the increase of social consciousness."
+canonical-instances:
+  - "A company's engineering-burnout complaints and its sales-quota-rebellion are treated by leadership as two unrelated departmental disputes, when both trace to the same underlying shift -- an aggressive new growth target imposed company-wide -- with each department reading the strain through its own most-felt grievance rather than recognizing the shared root cause."
+  - "Tenant organizing against rent hikes and small-business organizing against commercial lease increases run as two separate campaigns with two separate names, when both are downstream of the same underlying shift in how a city's real estate is being financed, with each group experiencing the shared cause as a claim specific to their own situation."
+  - "A hospital's nursing-shortage protests and its billing-department turnover crisis are handled as unrelated staffing problems, when both are symptoms of the same underlying cost-cutting shift at the administrative level, with each group's felt urgency about their own department obscuring the single cause behind both."
+critical-questions:
+  - "How would you actually verify that two differently-named movements share one root cause, rather than merely sharing a superficial resemblance or a coincidental timing that makes them look connected when their causes are genuinely separate?"
+  - "If each movement's participants feel their own group's pain most acutely and organize around it, does correctly renaming the phenomenon as one shared underlying cause actually help either movement, or does it risk diluting the specific, locally-felt claims that gave each movement its organizing force in the first place?"
+  - "Gilman treats 'increase of social consciousness' as the single true name behind both movements -- but is a label that abstract capable of directing action the way the more specific, locally-felt names can, or does correctly identifying the shared root cause come at the cost of practical guidance for what either movement should actually do?"
+status: active

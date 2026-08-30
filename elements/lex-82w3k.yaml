@@ -1,0 +1,19 @@
+id: lex-82w3k
+name: deliberately-testing-an-unproven-causal-claim-via-a-real-experiment
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "Told an unproven claim about cause and effect — that a specific behavior of yours produces a specific outcome in the world — rather than accepting or dismissing it on faith, deliberately running the behavior yourself and observing the result settles the question empirically, even at real short-term cost. In the Jataka's tale of the ascetic and the fig, told that fruit sweetness tracks the justice of his own rule, the king tests this directly rather than taking the ascetic's word for it: 'And thinking to prove the words of the ascetic, he ruled unjustly, saying to himself, \"Now I shall know all about it,\"'"
+related: []
+evokes: [jataka, catukkanipata, rajovada-jataka, an-unproven-causal-claim-is-tested-by-deliberately-running-it, empirical-verification-preferred-over-taking-a-claim-on-faith]
+lineage:
+  - source: primary
+    text: jataka-chalmers1895-rajovada-jataka
+    citation: "The Jataka, or Stories of the Buddha's Former Births, Vol. III, trans. H. T. Francis and R. A. Neil, ed. E. B. Cowell (Cambridge University Press, 1897), Book IV (Catukkanipata), No. 334, Rajovada-Jataka. Verified verbatim against a direct extraction of the held copy."
+    quote: "And thinking to prove the words of the ascetic, he ruled unjustly, saying to himself, \"Now I shall know all about it,\""
+canonical-instances:
+  - "Told by a consultant that customer complaints are directly caused by how quickly the support team responds rather than what they say, a manager deliberately slows response times for a week on a controlled subset of tickets just to see whether the complaint rate actually shifts before committing budget to a fix."
+critical-questions:
+  - "Is deliberately ruling unjustly, even briefly and for the sake of a test, itself an unjustifiable harm to the subjects who experience real consequences from it — does the value of the experiment excuse the cost imposed on others?"
+  - "Does a single test like this actually confirm causation, or could the fig's changed taste have another explanation entirely, meaning the king may have drawn the right conclusion from an insufficient experiment?"
+status: active

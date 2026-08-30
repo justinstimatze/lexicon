@@ -1,0 +1,19 @@
+id: lex-p7w2b
+name: evaluate-a-long-contributors-latest-failure-against-accumulated-service
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When judging a long-serving contributor's most recent failure, check whether the correct evaluation standard is that single latest event or the accumulated record behind it. Aesop's 'The Old Hound,' beaten by his master for losing his grip during a hunt after years of loyal service, defends himself against the wrong standard: 'My will is as strong as ever, master, but my body is old and feeble. You ought to honour me for what I have been instead of abusing me for what I am.' This is a claim about which yardstick is fair for a case of natural decline with no negligence involved — distinct from a case where an owner's own neglect caused the decline — and it argues that a lifetime of contribution should weigh into the standard applied to the most recent, unavoidable shortfall."
+related: []
+evokes: [aesop, the-old-hound, evaluation-standard-for-natural-decline, lifetime-contribution-vs-latest-failure]
+lineage:
+  - source: primary
+    text: aesop-vernonjones1912-the-old-hound
+    citation: "Aesop's Fables, translated by V. S. Vernon Jones (1912, Project Gutenberg #11339), 'The Old Hound.' Verified verbatim against a direct extraction of the held copy."
+    quote: "My will is as strong as ever, master, but my body is old and feeble. You ought to honour me for what I have been instead of abusing me for what I am."
+canonical-instances:
+  - "a performance review that judges a veteran employee's late-career slowdown purely on the latest quarter, ignoring decades of prior contribution that a fairer evaluation standard would weigh into the assessment."
+critical-questions:
+  - "Does the hound's argument only hold when the decline is genuinely natural and unavoidable? A decline that could have been managed or mitigated might get the same defense invoked, blurring the line the argument actually depends on."
+  - "How much weight should past contribution carry against a current failure when the current failure has real, ongoing costs — does honoring past service risk excusing present harm that others now have to absorb?"
+status: active

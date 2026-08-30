@@ -1,0 +1,21 @@
+id: lex-wxwuv
+name: betray-the-accomplice-to-the-wronged-party-once-caught
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "When you're caught for something you couldn't have done without an accomplice's help, don't assume loyalty to the person who enabled you survives the moment you're asked to explain yourself to the party you wronged -- naming the accomplice is often the cheapest way out, and the story doesn't have to punish the person who asks for it to punish the one who's named. In Cushing's telling, two gods steal sacred thunder and lightning only because their grandfather, the Centipede, physically infiltrated the guarded house and stole it for them at real personal risk. When the theft is discovered and 'the two boys, when asked how they stole the lightning-shaft and the thunder-stone, told on their poor old grandfather,' the consequence lands entirely on him: 'The beloved Gods of the Rain gave him the lightning-shaft to handle in another way, and it so burned and shrivelled him that he became small.' The boys who conceived the plan and reaped its fun face no recorded punishment at all -- the accomplice who made it physically possible absorbs the entire cost of exposure, permanently and visibly, in a way his descendants still carry. Diagnostic move: when you're implicated in something you couldn't have pulled off alone, notice the pull to answer 'how did you do it' with the truth about who helped you -- that honesty routes the consequence toward the person who trusted you enough to take the real risk, while you, the one asked the question, often walk away from the same exposure that permanently marks them."
+related: []
+evokes: [naming-the-accomplice-routes-the-cost-away-from-you, cushing-thunder-stone-and-lightning-shaft, they-told-on-their-poor-old-grandfather, the-accomplice-absorbs-the-permanent-mark]
+lineage:
+  - source: primary
+    text: cushing-thunder-lightning-boys-give-up-the-centipede
+    citation: "Frank Hamilton Cushing, Zuñi Folk Tales (G. P. Putnam's Sons, 1901), 'How Áhaiyúta and Mátsailéma Stole the Thunder-Stone and the Lightning-Shaft.' Verified verbatim against the raw Gutenberg text file, clean ASCII, no OCR."
+    quote: "'It is said by some that the two boys, when asked how they stole the lightning-shaft and the thunder-stone, told on their poor old grandfather, the Centipede. The beloved Gods of the Rain gave him the lightning-shaft to handle in another way, and it so burned and shrivelled him that he became small, as you can see by looking at any of his numerous descendants.'"
+canonical-instances:
+  - "A junior employee who couldn't have accessed a restricted system without a sympathetic colleague quietly enabling it names that colleague the moment compliance investigators start asking questions, and the colleague, who took the actual professional risk to help, is the one who ends up disciplined or fired while the employee who asked for the favor faces lighter consequences for having 'cooperated.'"
+  - "A student who cheated with material a friend risked their own reputation to obtain gives up the friend's name the instant a teacher asks how they got it, and the friend who provided the material bears the full weight of the academic consequences while the student who used it and was caught first escapes with a lesser penalty for having been forthcoming."
+critical-questions:
+  - "is naming the accomplice under direct questioning from a legitimately wronged authority actually a betrayal, or is it simply an unavoidable consequence of getting caught -- does the story frame this as a moral failure of the boys, or as a neutral fact of how the theft was eventually traced?"
+  - "why does the punishment fall so disproportionately on the Centipede rather than on the two boys who planned the theft and enjoyed its results -- is this a comment on how power distributes consequences toward whoever is most replaceable or least protected, rather than toward whoever is most responsible?"
+  - "does the Centipede's willingness to help in the first place, despite predicting exactly this outcome ('the consequences be on your own heads'), suggest he accepted the risk knowingly, which would complicate treating the boys' honesty about his involvement as a pure act of betrayal?"
+status: active

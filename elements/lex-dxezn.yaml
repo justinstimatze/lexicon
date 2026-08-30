@@ -1,0 +1,19 @@
+id: lex-dxezn
+name: a-superiors-principled-looking-reversal-is-actually-interest-driven
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone in authority abruptly calls a halt to a practice that had been tolerated for a long time, the intervention typically isn't a moral awakening about the practice itself — it's that the specific direction the practice has recently taken has come to threaten one of the authority's own interests. The stated justification will usually be framed as principled concern, but the actual trigger is almost always self-interested and specific to a recent development, not a general ethical reassessment of something that was equally objectionable before. Read a sudden top-down crackdown as evidence of a newly threatened interest first, and treat the moral framing as the least informative part of the explanation."
+related: []
+evokes: [jackall-moral-mazes, "the direction a particular game is taking which threatens some interest of their own", principled-crackdown-as-interest-protection]
+lineage:
+  - source: primary
+    tradition: jackall-moral-mazes
+    text: jackall-2014-moral-mazes-ch6-halt-to-a-game-is-interest-driven
+    citation: "Robert Jackall, Moral Mazes: The World of Corporate Managers (Oxford University Press, 2014), Chapter 6, Dexterity with Symbols."
+    quote: "if the guys on high do call a halt to some game, it's not because they're bothered by the game itself but only by the direction a particular game is taking which threatens some interest of their own."
+canonical-instances:
+  - "A long-tolerated informal practice of quietly adjusting expense reports gets abruptly banned the same month a senior executive's own expenses come under external scrutiny, framed publicly as a new commitment to integrity rather than a response to that specific exposure."
+critical-questions:
+  - "Is there a way to distinguish a genuinely principled crackdown from an interest-driven one before the outcome reveals which it was, or does the timing relative to a threatened interest remain the only reliable signal available in the moment?"
+status: active
