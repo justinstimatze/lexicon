@@ -491,7 +491,8 @@ function NodeDetail({ node, onSelect }: { node: Selectable; onSelect: (n: Select
               {parent.title}
             </button>
             <div className="mt-1 text-[11px] text-ink-faint italic">
-              Corpus-wide association, not a confirmed prerequisite — this source lost the tree-reach cut.
+              A real connection, not a confirmed prerequisite — not enough of the tree above cites it back to earn
+              its own place in the sequence.
             </div>
           </div>
         )

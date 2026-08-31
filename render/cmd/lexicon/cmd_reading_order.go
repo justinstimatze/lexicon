@@ -127,7 +127,7 @@ var curatedSources = []readingOrderSource{
 	// The citation-text slug convention here is "hyde-<descriptive-phrase>"
 	// rather than "author-year-title", which is why a prefix scan for
 	// "hyde-1998" alone would still miss the other 105.
-	{Key: "hyde-trickster", Title: "Trickster Makes This World: Mischief, Myth, and Art", Author: "Lewis Hyde", Edition: "Farrar, Straus and Giroux, 1998", Kind: "core", Prefixes: []string{"hyde-"}},
+	{Key: "hyde-trickster", Title: "Trickster Makes This World: Mischief, Myth, and Art", Author: "Lewis Hyde", Edition: "Farrar, Straus and Giroux, 1998", Kind: "core", Prefixes: []string{"hyde-"}, URL: "https://bookshop.org/p/books/trickster-makes-this-world-mischief-myth-and-art-lewis-hyde/c4b32bec5f4b2827?ean=9780374532550"},
 }
 
 // spark candidates: a generous pool of single/few-atom sources with high
@@ -150,7 +150,11 @@ var sparkCandidates = []readingOrderSource{
 	// Previous link resolved to an unavailable CD-Audio edition. Verified
 	// 2026-08-30: this one's the paperback, in stock.
 	{Key: "kuhn-structure-of-scientific-revolutions", Title: "The Structure of Scientific Revolutions", Author: "Thomas S. Kuhn", Edition: "University of Chicago Press, 1962", Kind: "spark", Prefixes: []string{"kuhn-1962"}, URL: "https://bookshop.org/books/the-structure-of-scientific-revolutions-50th-anniversary-edition/9780226458120"},
-	{Key: "goffman-presentation-of-self", Title: "The Presentation of Self in Everyday Life", Author: "Erving Goffman", Edition: "1959", Kind: "spark", Prefixes: []string{"goffman-1959"}, URL: "https://bookshop.org/p/books/the-presentation-of-self-in-everyday-life-erving-goffman/54312506540f2312"},
+	// US paperback went to Backorder sometime after the 2026-08-30 check --
+	// stock drifts, so this list needs re-verifying periodically, not just
+	// once. UK site has it in stock; same fallback used elsewhere here.
+	// Found during the 2026-08-31 re-verification sweep.
+	{Key: "goffman-presentation-of-self", Title: "The Presentation of Self in Everyday Life", Author: "Erving Goffman", Edition: "1959", Kind: "spark", Prefixes: []string{"goffman-1959"}, URL: "https://uk.bookshop.org/p/books/the-presentation-of-self-in-everyday-life-erving-goffman/823fcde2fd2bab08?ean=9780241547991"},
 	{Key: "arthur-increasing-returns", Title: "Increasing Returns and Path Dependence in the Economy", Author: "W. Brian Arthur", Edition: "University of Michigan Press, 1994", Kind: "spark", Prefixes: []string{"arthur-1994-increasing-returns"}},
 	// Previous link resolved to a backordered CD-Audio edition; no in-stock
 	// US paperback found. Falls back to uk.bookshop.org, same as
@@ -198,12 +202,15 @@ var sparkCandidates = []readingOrderSource{
 	{Key: "hume-enquiry", Title: "An Enquiry Concerning Human Understanding", Author: "David Hume", Edition: "1748", Kind: "spark", Prefixes: []string{"hume-enquiry"}, URL: "https://www.gutenberg.org/ebooks/9662"},
 	{Key: "james-varieties", Title: "The Varieties of Religious Experience: A Study in Human Nature", Author: "William James", Edition: "1902", Kind: "spark", Prefixes: []string{"james-1902"}, URL: "https://www.gutenberg.org/ebooks/621"},
 	{Key: "james-principles", Title: "The Principles of Psychology", Author: "William James", Edition: "1890", Kind: "spark", Prefixes: []string{"james-1890"}, URL: "https://www.gutenberg.org/ebooks/57634"},
-	{Key: "lakoff-johnson-metaphors", Title: "Metaphors We Live By", Author: "George Lakoff and Mark Johnson", Edition: "University of Chicago Press, 1980; afterword 2003", Kind: "spark", Prefixes: []string{"lakoff-johnson-1980"}},
-	{Key: "pierson-politics-in-time", Title: "Politics in Time: History, Institutions, and Social Analysis", Author: "Paul Pierson", Edition: "Princeton University Press, 2004", Kind: "spark", Prefixes: []string{"pierson-2004"}},
-	{Key: "postrel-fabric-of-civilization", Title: "The Fabric of Civilization: How Textiles Made the World", Author: "Virginia Postrel", Edition: "Basic Books, 2020", Kind: "spark", Prefixes: []string{"postrel-2020"}},
-	{Key: "greene-48-laws-of-power", Title: "The 48 Laws of Power", Author: "Robert Greene", Edition: "Penguin Group, 1998", Kind: "spark", Prefixes: []string{"greene-1998"}},
-	{Key: "mauss-the-gift", Title: "The Gift", Author: "Marcel Mauss", Edition: "Essai sur le don, 1923-24/1925; trans. Cunnison 1954", Kind: "spark", Prefixes: []string{"mauss-1925"}},
-	{Key: "sperber-wilson-relevance", Title: "Relevance: Communication and Cognition", Author: "Dan Sperber and Deirdre Wilson", Edition: "Harvard UP / Blackwell, 1986; 2nd ed. 1995", Kind: "spark", Prefixes: []string{"sperber-wilson-1986"}},
+	{Key: "lakoff-johnson-metaphors", Title: "Metaphors We Live By", Author: "George Lakoff and Mark Johnson", Edition: "University of Chicago Press, 1980; afterword 2003", Kind: "spark", Prefixes: []string{"lakoff-johnson-1980"}, URL: "https://bookshop.org/p/books/metaphors-we-live-by-george-lakoff/fecd2470b7899a7d?ean=9780226468013"},
+	{Key: "pierson-politics-in-time", Title: "Politics in Time: History, Institutions, and Social Analysis", Author: "Paul Pierson", Edition: "Princeton University Press, 2004", Kind: "spark", Prefixes: []string{"pierson-2004"}, URL: "https://bookshop.org/p/books/politics-in-time-history-institutions-and-social-analysis-paul-pierson/5879c306fb923f2d?ean=9780691117157"},
+	{Key: "postrel-fabric-of-civilization", Title: "The Fabric of Civilization: How Textiles Made the World", Author: "Virginia Postrel", Edition: "Basic Books, 2020", Kind: "spark", Prefixes: []string{"postrel-2020"}, URL: "https://bookshop.org/p/books/the-fabric-of-civilization-how-textiles-made-the-world-virginia-postrel/eea980284ea41e4c?ean=9781541617629"},
+	{Key: "greene-48-laws-of-power", Title: "The 48 Laws of Power", Author: "Robert Greene", Edition: "Penguin Group, 1998", Kind: "spark", Prefixes: []string{"greene-1998"}, URL: "https://bookshop.org/p/books/the-48-laws-of-power-robert-greene/460d5cb2175c1dab?ean=9780140280197"},
+	// The default-selected paperback (ean 9780393320435) is on indefinite
+	// backorder -- a second paperback listing (9780415267496) of the same
+	// Halls translation is actually in stock. Checked live, not assumed.
+	{Key: "mauss-the-gift", Title: "The Gift", Author: "Marcel Mauss", Edition: "Essai sur le don, 1923-24/1925; trans. Cunnison 1954", Kind: "spark", Prefixes: []string{"mauss-1925"}, URL: "https://bookshop.org/p/books/the-gift-the-form-and-reason-for-exchange-in-archaic-societies-marcel-mauss/c760ec5200b67360?ean=9780415267496"},
+	{Key: "sperber-wilson-relevance", Title: "Relevance: Communication and Cognition", Author: "Dan Sperber and Deirdre Wilson", Edition: "Harvard UP / Blackwell, 1986; 2nd ed. 1995", Kind: "spark", Prefixes: []string{"sperber-wilson-1986"}, URL: "https://bookshop.org/p/books/relevance-2e-dan-sperber/d01e5fd0874a7481?ean=9780631198789"},
 	{Key: "homer-odyssey", Title: "The Odyssey", Author: "Homer", Edition: "trans. William Cullen Bryant, 1871", Kind: "spark", Prefixes: []string{"homer-odyssey"}, URL: "https://standardebooks.org/ebooks/homer/the-odyssey/william-cullen-bryant"},
 	{Key: "marcus-aurelius-meditations", Title: "Meditations", Author: "Marcus Aurelius", Edition: "c. 170-180 CE", Kind: "spark", Prefixes: []string{"marcus-aurelius"}, URL: "https://www.gutenberg.org/ebooks/2680"},
 	{Key: "grimm-kinder-und-hausmaerchen", Title: "Kinder- und Hausmärchen (Children's and Household Tales)", Author: "Jacob and Wilhelm Grimm", Edition: "1812", Kind: "spark", Prefixes: []string{"grimm-1812"}, URL: "https://www.gutenberg.org/ebooks/5314"},
@@ -211,13 +218,24 @@ var sparkCandidates = []readingOrderSource{
 	{Key: "wollstonecraft-vindication", Title: "A Vindication of the Rights of Woman", Author: "Mary Wollstonecraft", Edition: "1792", Kind: "spark", Prefixes: []string{"wollstonecraft-1792"}, URL: "https://www.gutenberg.org/ebooks/3420"},
 	{Key: "darwin-origin-of-species", Title: "On the Origin of Species by Means of Natural Selection", Author: "Charles Darwin", Edition: "John Murray, 1859", Kind: "spark", Prefixes: []string{"darwin-1859"}, URL: "https://www.gutenberg.org/ebooks/1228"},
 	{Key: "nietzsche-beyond-good-and-evil", Title: "Beyond Good and Evil", Author: "Friedrich Nietzsche", Edition: "1886", Kind: "spark", Prefixes: []string{"nietzsche-1886"}, URL: "https://www.gutenberg.org/ebooks/4363"},
+	// The cited Hays 1991 21st Century Edition doesn't appear on
+	// bookshop.org -- only Hereford's older translation does, which is a
+	// documented wording mismatch against what the atoms actually quote
+	// (see feedback_pin_the_edition_before_procuring). Left unlinked rather
+	// than point readers at the wrong edition.
 	{Key: "nimzowitsch-my-system", Title: "My System", Author: "Aron Nimzowitsch", Edition: "1925; 21st Century Edition, ed. Lou Hays, 1991", Kind: "spark", Prefixes: []string{"nimzowitsch-1925"}},
 	{Key: "kant-groundwork", Title: "Fundamental Principles of the Metaphysic of Morals (Groundwork)", Author: "Immanuel Kant", Edition: "1785", Kind: "spark", Prefixes: []string{"kant-1785"}, URL: "https://www.gutenberg.org/ebooks/5682"},
-	{Key: "schelling-strategy-of-conflict", Title: "The Strategy of Conflict", Author: "Thomas C. Schelling", Edition: "Harvard UP, 1960", Kind: "spark", Prefixes: []string{"schelling-1960"}},
+	// US listing is on indefinite backorder; the UK site has the same ISBN
+	// in stock, same fallback pattern already used for mills-power-elite and
+	// berlin-hedgehog-and-fox below.
+	{Key: "schelling-strategy-of-conflict", Title: "The Strategy of Conflict", Author: "Thomas C. Schelling", Edition: "Harvard UP, 1960", Kind: "spark", Prefixes: []string{"schelling-1960"}, URL: "https://uk.bookshop.org/p/books/the-strategy-of-conflict-with-a-new-preface-by-the-author-thomas-c-schelling/1321cc772f0f5a82?ean=9780674840317"},
 	{Key: "truth-narrative", Title: "Narrative of Sojourner Truth", Author: "Sojourner Truth (as told to Olive Gilbert)", Edition: "1850", Kind: "spark", Prefixes: []string{"truth-1850"}, URL: "https://www.gutenberg.org/ebooks/1674"},
-	{Key: "turchin-ages-of-discord", Title: "Ages of Discord: A Structural-Demographic Analysis of American History", Author: "Peter Turchin", Edition: "Beresta Books, 2016", Kind: "spark", Prefixes: []string{"turchin-2017"}},
-	{Key: "drucker-practice-of-management", Title: "The Practice of Management", Author: "Peter F. Drucker", Edition: "Harper & Brothers, 1954", Kind: "spark", Prefixes: []string{"drucker-1954"}},
-	{Key: "americas-test-kitchen-science-of-good-cooking", Title: "The Science of Good Cooking", Author: "The Editors at America's Test Kitchen and Guy Crosby", Edition: "America's Test Kitchen, 2012", Kind: "spark", Prefixes: []string{"americas-test-kitchen"}},
+	{Key: "turchin-ages-of-discord", Title: "Ages of Discord: A Structural-Demographic Analysis of American History", Author: "Peter Turchin", Edition: "Beresta Books, 2016", Kind: "spark", Prefixes: []string{"turchin-2017"}, URL: "https://bookshop.org/p/books/ages-of-discord-a-structural-demographic-analysis-of-american-history-peter-turchin/18fe81b13d6080d5?ean=9780996139540"},
+	{Key: "drucker-practice-of-management", Title: "The Practice of Management", Author: "Peter F. Drucker", Edition: "Harper & Brothers, 1954", Kind: "spark", Prefixes: []string{"drucker-1954"}, URL: "https://bookshop.org/p/books/the-practice-of-management-peter-drucker/ec6cfc71872a6c0c?ean=9780750685047"},
+	// No US paperback listing at all; the English edition only exists here
+	// as an ebook (a Chinese hardcover translation is the only physical
+	// listing found) -- linked as the least-bad real option.
+	{Key: "americas-test-kitchen-science-of-good-cooking", Title: "The Science of Good Cooking", Author: "The Editors at America's Test Kitchen and Guy Crosby", Edition: "America's Test Kitchen, 2012", Kind: "spark", Prefixes: []string{"americas-test-kitchen"}, URL: "https://bookshop.org/p/books/the-science-of-good-cooking-master-50-simple-concepts-to-enjoy-a-lifetime-of-success-in-the-kitchen/3b8034795849025d?ean=9781936493463"},
 	// machiavelli-1513-the-prince-ch-6 / -ch-17: two atoms, real primary
 	// lineage, never registered as a candidate source at all -- so they
 	// never entered reach/threshold computation and were invisible even in
