@@ -57,7 +57,11 @@ func (s readingOrderSource) matches(text string) bool {
 var curatedSources = []readingOrderSource{
 	{Key: "jataka", Title: "The Jataka, or Stories of the Buddha's Former Births", Author: "trans. various, ed. E. B. Cowell", Edition: "Cambridge University Press, 1895–1907, 6 vols", Kind: "core", Prefixes: []string{"jataka-"}, URL: "https://sacred-texts.com/bud/j1/index.htm"},
 	{Key: "neihardt-black-elk-speaks", Title: "Black Elk Speaks", Author: "John G. Neihardt", Edition: "1932; Complete Edition, University of Nebraska Press, 2014", Kind: "core", Prefixes: []string{"neihardt-1932-black-elk-speaks-"}, URL: "https://bookshop.org/p/books/black-elk-speaks-john-g-neihardt/65256685272a9d0a"},
-	{Key: "merton-social-theory", Title: "Social Theory and Social Structure", Author: "Robert K. Merton", Edition: "Revised and Enlarged Edition, Free Press, 1957", Kind: "core", Prefixes: []string{"merton-1949-social-theory", "merton-1957"}},
+	// merton-lazarsfeld-1957: same book, Ch.XIV "Studies in Radio and Film
+	// Propaganda" -- co-authored so its citation-text slug never matched the
+	// solo "merton-1957" prefix above. 7 atoms invisible for this reason
+	// alone; found in the 2026-08-31 reading-order coverage sweep.
+	{Key: "merton-social-theory", Title: "Social Theory and Social Structure", Author: "Robert K. Merton", Edition: "Revised and Enlarged Edition, Free Press, 1957", Kind: "core", Prefixes: []string{"merton-1949-social-theory", "merton-1957", "merton-lazarsfeld-1957"}},
 	{Key: "aesop-fables", Title: "Aesop's Fables", Author: "trans. V. S. Vernon Jones", Edition: "1912", Kind: "core", Prefixes: []string{"aesop-vernonjones1912-"}, URL: "https://www.gutenberg.org/ebooks/11339"},
 	{Key: "cushing-zuni-folk-tales", Title: "Zuñi Folk Tales", Author: "Frank Hamilton Cushing", Edition: "G. P. Putnam's Sons, 1901", Kind: "core", Prefixes: []string{"cushing-"}, URL: "https://www.gutenberg.org/ebooks/54682",
 		Note: "Zuni elders documented Cushing acquiring sacred artifacts from them by theft, against their wishes."},
@@ -72,7 +76,12 @@ var curatedSources = []readingOrderSource{
 	// grouping pass (one exact-slug key, one author-name key derived from
 	// the same atoms' citation prose) before this was caught; the real
 	// slugs below are the seven distinct lineage.text values, no duplicates.
-	{Key: "student-physician", Title: "The Student-Physician: Introductory Studies in the Sociology of Medical Education", Author: "eds. Robert K. Merton, George G. Reader, Patricia L. Kendall", Edition: "Harvard University Press for The Commonwealth Fund, 1957", Kind: "core", Prefixes: []string{"fox-1957", "goss-1957", "rogoff-1957", "kendall-selvin-1957", "martin-1957", "huntington-1957", "olencki-1957"}},
+	// reader-1957 (the volume's own co-editor, his own chapter), appendix-c-1957
+	// (a co-authored statistical appendix), and thielens-1957 (an eighth
+	// case-study chapter) are three MORE chapters of this same volume, missed
+	// by the original seven-prefix list -- 14 atoms invisible for this reason
+	// alone; found in the 2026-08-31 reading-order coverage sweep.
+	{Key: "student-physician", Title: "The Student-Physician: Introductory Studies in the Sociology of Medical Education", Author: "eds. Robert K. Merton, George G. Reader, Patricia L. Kendall", Edition: "Harvard University Press for The Commonwealth Fund, 1957", Kind: "core", Prefixes: []string{"fox-1957", "goss-1957", "rogoff-1957", "kendall-selvin-1957", "martin-1957", "huntington-1957", "olencki-1957", "reader-1957", "appendix-c-1957", "thielens-1957"}},
 	{Key: "altshuller-triz", Title: "Creativity as an Exact Science: The Theory of the Solution of Inventive Problems", Author: "G. S. Altshuller", Edition: "trans. Anthony Williams, Gordon and Breach, 1984", Kind: "core", Prefixes: []string{"altshuller-1984-"}},
 	{Key: "sen-collective-choice", Title: "Collective Choice and Social Welfare", Author: "Amartya Sen", Edition: "Holden-Day, 1970; Expanded Edition, Penguin, 2017", Kind: "core", Prefixes: []string{"sen-1970-collective-choice-and-social-welfare"}},
 	{Key: "boethius-consolation", Title: "The Consolation of Philosophy", Author: "Boethius", Edition: "c. 524 AD, trans. H. R. James, 1897", Kind: "core", Prefixes: []string{"boethius-c524-consolation-of-philosophy-"}, URL: "https://www.gutenberg.org/ebooks/14328"},
@@ -112,6 +121,13 @@ var curatedSources = []readingOrderSource{
 	{Key: "maurer-big-con", Title: "The Big Con: The Story of the Confidence Man", Author: "David W. Maurer", Edition: "1940", Kind: "core", Prefixes: []string{"maurer-1940-the-big-con"}, URL: "https://bookshop.org/p/books/the-big-con-the-story-of-the-confidence-man-david-maurer/8657182"},
 	{Key: "polya-how-to-solve-it", Title: "How to Solve It", Author: "George Pólya", Edition: "Princeton University Press, 1945", Kind: "core", Prefixes: []string{"polya-19"}, URL: "https://bookshop.org/books/how-to-solve-it-a-new-aspect-of-mathematical-method-9780691164076/9780691164076"},
 	{Key: "woolf-room-of-ones-own", Title: "A Room of One's Own", Author: "Virginia Woolf", Edition: "1929", Kind: "core", Prefixes: []string{"woolf-1929-aroomofonesown"}, URL: "https://gutenberg.ca/ebooks/woolfv-aroomofonesown/woolfv-aroomofonesown-00-h.html"},
+	// 106 atoms -- more than any other single source in this file -- and
+	// zero registration until the 2026-08-31 reading-order coverage sweep,
+	// triggered by a reader asking why Marx and Machiavelli were missing.
+	// The citation-text slug convention here is "hyde-<descriptive-phrase>"
+	// rather than "author-year-title", which is why a prefix scan for
+	// "hyde-1998" alone would still miss the other 105.
+	{Key: "hyde-trickster", Title: "Trickster Makes This World: Mischief, Myth, and Art", Author: "Lewis Hyde", Edition: "Farrar, Straus and Giroux, 1998", Kind: "core", Prefixes: []string{"hyde-"}},
 }
 
 // spark candidates: a generous pool of single/few-atom sources with high
@@ -159,6 +175,43 @@ var sparkCandidates = []readingOrderSource{
 	{Key: "carse-finite-and-infinite-games", Title: "Finite and Infinite Games: A Vision of Life as Play and Possibility", Author: "James P. Carse", Edition: "Free Press, 1986", Kind: "spark", Prefixes: []string{"carse-1986-finite-and-infinite-games"}, URL: "https://bookshop.org/p/books/finite-and-infinite-games-james-carse/bd091bd7f22106b4"},
 	{Key: "hofstadter-godel-escher-bach", Title: "Gödel, Escher, Bach: An Eternal Golden Braid", Author: "Douglas R. Hofstadter", Edition: "Basic Books, 1979", Kind: "spark", Prefixes: []string{"hofstadter-1979-godel-escher-bach"}, URL: "https://bookshop.org/p/books/godel-escher-bach-an-eternal-golden-braid-douglas-r-hofstadter/12389924"},
 	{Key: "hofstadter-i-am-a-strange-loop", Title: "I Am a Strange Loop", Author: "Douglas R. Hofstadter", Edition: "Basic Books, 2007", Kind: "spark", Prefixes: []string{"hofstadter-2007"}, URL: "https://bookshop.org/p/books/i-am-a-strange-loop-douglas-r-hofstadter/f4ca6403106c6f64"},
+	// Everything below this line was found by the 2026-08-31 reading-order
+	// coverage sweep: real, primary-sourced, multi-atom (or high-in-degree)
+	// works with zero registration in either candidate list -- the same
+	// defect shape as the Machiavelli/Marx gap a reader caught, at real
+	// scale (782 distinct unregistered citation-text work-keys total; these
+	// are the ones with enough atoms or in-degree to be a genuine editorial
+	// gap rather than a single incidental citation). Titles/editions below
+	// are copied from the atoms' own existing citation text, not invented.
+	{Key: "aristotle-nicomachean-ethics", Title: "Nicomachean Ethics", Author: "Aristotle", Edition: "c. 350 BCE", Kind: "spark", Prefixes: []string{"aristotle-nicomachean", "aristotle-ne-"}},
+	{Key: "aristotle-rhetoric", Title: "Rhetoric", Author: "Aristotle", Edition: "c. 350 BCE", Kind: "spark", Prefixes: []string{"aristotle-rhetoric"}},
+	{Key: "aristotle-poetics", Title: "Poetics", Author: "Aristotle", Edition: "c. 335 BCE", Kind: "spark", Prefixes: []string{"aristotle-poetics"}},
+	{Key: "aristotle-posterior-analytics", Title: "Posterior Analytics", Author: "Aristotle", Edition: "c. 350 BCE", Kind: "spark", Prefixes: []string{"aristotle-c350bce-posterior-analytics"}},
+	{Key: "plato-selected-dialogues", Title: "Selected Dialogues (Apology, Crito, Euthyphro, Gorgias, Meno, Phaedo, Republic, Sophist, Symposium, Theaetetus, Timaeus)", Author: "Plato, trans. Benjamin Jowett", Edition: "various", Kind: "spark", Prefixes: []string{"plato-apology", "plato-c380bce", "plato-c385bce", "plato-c399bce", "plato-euthyphro", "plato-gorgias", "plato-meno", "plato-republic", "plato-sophist", "plato-theaetetus", "plato-timaeus"}},
+	{Key: "hume-treatise", Title: "A Treatise of Human Nature", Author: "David Hume", Edition: "1739-40", Kind: "spark", Prefixes: []string{"hume-treatise"}},
+	{Key: "hume-enquiry", Title: "An Enquiry Concerning Human Understanding", Author: "David Hume", Edition: "1748", Kind: "spark", Prefixes: []string{"hume-enquiry"}},
+	{Key: "james-varieties", Title: "The Varieties of Religious Experience: A Study in Human Nature", Author: "William James", Edition: "1902", Kind: "spark", Prefixes: []string{"james-1902"}},
+	{Key: "james-principles", Title: "The Principles of Psychology", Author: "William James", Edition: "1890", Kind: "spark", Prefixes: []string{"james-1890"}},
+	{Key: "lakoff-johnson-metaphors", Title: "Metaphors We Live By", Author: "George Lakoff and Mark Johnson", Edition: "University of Chicago Press, 1980; afterword 2003", Kind: "spark", Prefixes: []string{"lakoff-johnson-1980"}},
+	{Key: "pierson-politics-in-time", Title: "Politics in Time: History, Institutions, and Social Analysis", Author: "Paul Pierson", Edition: "Princeton University Press, 2004", Kind: "spark", Prefixes: []string{"pierson-2004"}},
+	{Key: "postrel-fabric-of-civilization", Title: "The Fabric of Civilization: How Textiles Made the World", Author: "Virginia Postrel", Edition: "Basic Books, 2020", Kind: "spark", Prefixes: []string{"postrel-2020"}},
+	{Key: "greene-48-laws-of-power", Title: "The 48 Laws of Power", Author: "Robert Greene", Edition: "Penguin Group, 1998", Kind: "spark", Prefixes: []string{"greene-1998"}},
+	{Key: "mauss-the-gift", Title: "The Gift", Author: "Marcel Mauss", Edition: "Essai sur le don, 1923-24/1925; trans. Cunnison 1954", Kind: "spark", Prefixes: []string{"mauss-1925"}},
+	{Key: "sperber-wilson-relevance", Title: "Relevance: Communication and Cognition", Author: "Dan Sperber and Deirdre Wilson", Edition: "Harvard UP / Blackwell, 1986; 2nd ed. 1995", Kind: "spark", Prefixes: []string{"sperber-wilson-1986"}},
+	{Key: "homer-odyssey", Title: "The Odyssey", Author: "Homer", Edition: "trans. William Cullen Bryant, 1871", Kind: "spark", Prefixes: []string{"homer-odyssey"}},
+	{Key: "marcus-aurelius-meditations", Title: "Meditations", Author: "Marcus Aurelius", Edition: "c. 170-180 CE", Kind: "spark", Prefixes: []string{"marcus-aurelius"}},
+	{Key: "grimm-kinder-und-hausmaerchen", Title: "Kinder- und Hausmärchen (Children's and Household Tales)", Author: "Jacob and Wilhelm Grimm", Edition: "1812", Kind: "spark", Prefixes: []string{"grimm-1812"}},
+	{Key: "mill-on-liberty", Title: "On Liberty", Author: "John Stuart Mill", Edition: "London: J.W. Parker & Son, 1859", Kind: "spark", Prefixes: []string{"mill-1859"}},
+	{Key: "wollstonecraft-vindication", Title: "A Vindication of the Rights of Woman", Author: "Mary Wollstonecraft", Edition: "1792", Kind: "spark", Prefixes: []string{"wollstonecraft-1792"}},
+	{Key: "darwin-origin-of-species", Title: "On the Origin of Species by Means of Natural Selection", Author: "Charles Darwin", Edition: "John Murray, 1859", Kind: "spark", Prefixes: []string{"darwin-1859"}},
+	{Key: "nietzsche-beyond-good-and-evil", Title: "Beyond Good and Evil", Author: "Friedrich Nietzsche", Edition: "1886", Kind: "spark", Prefixes: []string{"nietzsche-1886"}},
+	{Key: "nimzowitsch-my-system", Title: "My System", Author: "Aron Nimzowitsch", Edition: "1925; 21st Century Edition, ed. Lou Hays, 1991", Kind: "spark", Prefixes: []string{"nimzowitsch-1925"}},
+	{Key: "kant-groundwork", Title: "Fundamental Principles of the Metaphysic of Morals (Groundwork)", Author: "Immanuel Kant", Edition: "1785", Kind: "spark", Prefixes: []string{"kant-1785"}},
+	{Key: "schelling-strategy-of-conflict", Title: "The Strategy of Conflict", Author: "Thomas C. Schelling", Edition: "Harvard UP, 1960", Kind: "spark", Prefixes: []string{"schelling-1960"}},
+	{Key: "truth-narrative", Title: "Narrative of Sojourner Truth", Author: "Sojourner Truth (as told to Olive Gilbert)", Edition: "1850", Kind: "spark", Prefixes: []string{"truth-1850"}},
+	{Key: "turchin-ages-of-discord", Title: "Ages of Discord: A Structural-Demographic Analysis of American History", Author: "Peter Turchin", Edition: "Beresta Books, 2016", Kind: "spark", Prefixes: []string{"turchin-2017"}},
+	{Key: "drucker-practice-of-management", Title: "The Practice of Management", Author: "Peter F. Drucker", Edition: "Harper & Brothers, 1954", Kind: "spark", Prefixes: []string{"drucker-1954"}},
+	{Key: "americas-test-kitchen-science-of-good-cooking", Title: "The Science of Good Cooking", Author: "The Editors at America's Test Kitchen and Guy Crosby", Edition: "America's Test Kitchen, 2012", Kind: "spark", Prefixes: []string{"americas-test-kitchen"}},
 	// machiavelli-1513-the-prince-ch-6 / -ch-17: two atoms, real primary
 	// lineage, never registered as a candidate source at all -- so they
 	// never entered reach/threshold computation and were invisible even in
