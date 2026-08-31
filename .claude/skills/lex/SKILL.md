@@ -1,4 +1,5 @@
 ---
+name: lex
 description: Identify the elements patterns operating in a situation, transcript, news story, decision, or passage of text the user pastes or describes. Surfaces the named atoms that apply, translates each into "here's the move" plain language, and flags the adjacency frontier (atoms the situation evokes but elements/ doesn't yet contain). Use whenever the user asks "what's going on here", "what patterns apply", "what should I do", or pastes content for analysis. Also use proactively on any sufficiently rich passage the user introduces.
 ---
 
