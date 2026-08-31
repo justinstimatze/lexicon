@@ -102,17 +102,6 @@ export interface TechTreeHandle {
 export const TechTree = forwardRef<TechTreeHandle>(function TechTree(_props, ref) {
   const [selected, setSelected] = useState<Selectable | null>(null)
   const [showDashed, setShowDashed] = useState(false)
-  // Further-satellites show by default (empty set); a node's own key goes
-  // in here only once someone collapses that specific cluster.
-  const [collapsedFurther, setCollapsedFurther] = useState<Set<string>>(new Set())
-  const toggleFurther = useCallback((key: string) => {
-    setCollapsedFurther((prev) => {
-      const next = new Set(prev)
-      if (next.has(key)) next.delete(key)
-      else next.add(key)
-      return next
-    })
-  }, [])
   const [positions, setPositions] = useState<Map<string, { x: number; y: number }>>(new Map())
   const [canvasSize, setCanvasSize] = useState({ width: 0, height: 0 })
   const [availableWidth, setAvailableWidth] = useState<number | undefined>(undefined)
@@ -247,11 +236,11 @@ export const TechTree = forwardRef<TechTreeHandle>(function TechTree(_props, ref
         strongest link into the next. A full line means a real scaffolds-from prerequisite was found; a dashed-but-
         heavy line means it's still the strongest link but no prerequisite has been confirmed yet, so treat that
         direction as a guess. Click a source to see what it's primed by and what it primes next. Read any era in
-        any order. A source badged "N further" also has satellites attached — real sources that lost the top-15
-        cut on tree-restricted reach, tucked under whichever tree node cites them most. No line is drawn to them
-        deliberately: that association is corpus-wide, not tree-confirmed, so it gets adjacency, not an edge.
-        Click the badge to collapse a crowded cluster. A rare further source cites, and is cited by, nothing in the
-        tree at all — it still gets a pill, just in its own row at the bottom rather than tucked under a parent.
+        any order. The small pills under a source are its satellites — real sources that lost the top-15 cut on
+        tree-restricted reach, tucked under whichever tree node cites them most. No line is drawn to them
+        deliberately: that association is corpus-wide, not tree-confirmed, so it gets adjacency, not an edge. A rare
+        further source cites, and is cited by, nothing in the tree at all — it still gets a pill, just in its own
+        row at the bottom rather than tucked under a parent.
       </p>
 
       <div
@@ -301,15 +290,10 @@ export const TechTree = forwardRef<TechTreeHandle>(function TechTree(_props, ref
                   const isNeighbor = !isSelected && (connected?.nodeKeys.has(n.key) ?? false)
                   const isDimmed = !!connected && !isSelected && !isNeighbor
                   const kids = furtherByParent.get(n.key) ?? []
-                  const kidsCollapsed = collapsedFurther.has(n.key)
                   return (
-                    // relative + fixed width so the badge (absolutely
-                    // positioned against THIS wrapper, not the button) can
-                    // sit outside the button's own box without the
-                    // button's overflow-hidden clipping it, and so
-                    // satellite pills wrap to the same width as the node
-                    // above them.
-                    <div key={n.key} className="relative flex flex-col items-start" style={{ width: NODE_WIDTH }}>
+                    // Fixed width so satellite pills wrap to the same width
+                    // as the node above them.
+                    <div key={n.key} className="flex flex-col items-start" style={{ width: NODE_WIDTH }}>
                       <button
                         ref={(el) => {
                           if (el) nodeRefs.current.set(n.key, el)
@@ -331,36 +315,6 @@ export const TechTree = forwardRef<TechTreeHandle>(function TechTree(_props, ref
                         <span className="truncate text-[10px] text-ink-faint">{n.author}</span>
                       </button>
                       {kids.length > 0 && (
-                        <button
-                          type="button"
-                          onClick={(e) => {
-                            e.stopPropagation()
-                            toggleFurther(n.key)
-                          }}
-                          title={kidsCollapsed ? "show further keystones" : "collapse further keystones"}
-                          className={
-                            // min-h-6/min-w-6 (not padding) is the touch
-                            // target -- 24px either way, per WCAG 2.5.8 --
-                            // so the VISIBLE chip can stay small instead of
-                            // scaling with the tap-target fix. -top-4 clears
-                            // the title below it (measured 10.25px down from
-                            // the card's own top) with the same margin as
-                            // before. Quiet by default: satellites are
-                            // already showing, so there's nothing new to
-                            // announce -- the loud pill moved to the
-                            // collapsed state instead, which is the one that
-                            // actually needs to say "there's more, click to
-                            // bring it back."
-                            "absolute -top-4 -right-2 z-10 inline-flex min-h-6 min-w-6 items-center justify-center rounded-full px-1.5 font-mono text-[9px] tracking-wide whitespace-nowrap transition " +
-                            (kidsCollapsed
-                              ? "border border-primary bg-primary text-accent-ink hover:bg-accent-soft"
-                              : "text-ink-faint hover:text-primary")
-                          }
-                        >
-                          {kids.length} further
-                        </button>
-                      )}
-                      {kids.length > 0 && !kidsCollapsed && (
                         <div className="mt-1.5 flex flex-wrap gap-1">
                           {kids.map((f) => (
                             <FurtherPill key={f.key} node={f} isSelected={selected?.key === f.key} onSelect={selectNode} />
@@ -414,20 +368,6 @@ function FurtherPill({
   onSelect: (n: Selectable) => void
 }) {
   const label = `${node.title} — ${node.author}`
-  if (isSelected) {
-    return (
-      <button
-        type="button"
-        onClick={() => onSelect(node)}
-        title={label}
-        style={{ width: NODE_WIDTH, height: NODE_HEIGHT }}
-        className="flex flex-col justify-center overflow-hidden rounded-sm border border-dotted border-primary bg-bg-raised px-2 py-1 text-left ring-2 ring-primary ring-offset-1 ring-offset-bg-well transition"
-      >
-        <span className="truncate text-[11px] font-semibold text-foreground">{node.title}</span>
-        <span className="truncate text-[10px] text-ink-faint">{node.author}</span>
-      </button>
-    )
-  }
   return (
     <button
       type="button"
@@ -435,7 +375,16 @@ function FurtherPill({
       title={label}
       // py-1.5, not the -0.5 the pill shipped with -- clears the WCAG
       // 2.5.8 24px touch-target floor (measured 20.25px tall before).
-      className="max-w-[190px] truncate rounded-full border border-dotted border-rule-state bg-bg-well px-2 py-1.5 font-mono text-[9.5px] text-ink-dim transition hover:border-primary/60 hover:text-primary"
+      // Selected used to grow this to full node size (208x52) in place;
+      // dropped that -- the drawer already shows full detail on any
+      // click, so the size jump wasn't adding information, just
+      // reflowing whatever else was in the pill row.
+      className={
+        "max-w-[190px] truncate rounded-full border px-2 py-1.5 font-mono text-[9.5px] transition " +
+        (isSelected
+          ? "border-primary bg-bg-raised text-foreground ring-2 ring-primary ring-offset-1 ring-offset-bg-well"
+          : "border-dotted border-rule-state bg-bg-well text-ink-dim hover:border-primary/60 hover:text-primary")
+      }
     >
       {node.title}
     </button>

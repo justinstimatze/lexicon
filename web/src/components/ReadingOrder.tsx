@@ -256,8 +256,8 @@ copy every unread link →
           <div className="border-b border-rule pb-2">
             <h2 className="font-mono text-[12px] tracking-[0.1em] text-foreground uppercase">Further keystones</h2>
             <p className="mt-1 max-w-[70ch] text-[13px] text-ink-dim">
-              Most further sources now sit as satellites under a tree node in the diagram above — click its
-              "N further" badge to see them. This {unattachedFurther.length === 1 ? "one has" : `${unattachedFurther.length} have`}{" "}
+              Most further sources now sit as satellites under a tree node in the diagram above, in the small pill
+              row below it. This {unattachedFurther.length === 1 ? "one has" : `${unattachedFurther.length} have`}{" "}
               real standing in the corpus at large but nothing in the tree above cites it back at all, so{" "}
               {unattachedFurther.length === 1 ? "it sits" : "they sit"} in the diagram's own unattached row instead
               of tucked under a parent.
