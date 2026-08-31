@@ -53,6 +53,13 @@ export interface ReadingOrderFurther {
   reach: number
   total_in_degree: number
   max_in_degree: number
+  // The tree node (a ReadingOrderNode.key) this source associates with
+  // most strongly, in either citation direction — deliberately not a tree
+  // edge; the frontend renders it as a loose satellite, not a solid
+  // parent-child line, since the underlying signal is corpus-wide weight
+  // that lost the tree-reach cut, not a confirmed prerequisite. Empty
+  // when nothing in the tree cites this source at all.
+  parent?: string
 }
 
 export interface ReadingOrderData {

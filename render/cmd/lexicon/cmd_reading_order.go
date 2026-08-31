@@ -283,6 +283,18 @@ type roFurther struct {
 	Reach      int    `json:"reach"`
 	TotalIndeg int    `json:"total_in_degree"`
 	MaxIndeg   int    `json:"max_in_degree"`
+	// Parent is the single tree node (a key in Nodes) this further source
+	// associates with most strongly -- the finalKeys member with the
+	// highest combined citation weight in EITHER direction (related is a
+	// symmetric, reciprocally-linted field in this corpus, so direction
+	// rarely disagrees). Empty when nothing in the tree cites this source
+	// at all; the frontend renders those as unattached rather than forcing
+	// a parent. This is deliberately NOT a tree edge -- it's the weaker,
+	// corpus-wide signal that lost the tree-reach cut in the first place,
+	// so the frontend should render it as a looser association (a
+	// satellite chip, not a solid parent-child line) rather than reusing
+	// the tree's own confirmed/tiebreak edge vocabulary.
+	Parent string `json:"parent,omitempty"`
 }
 
 type readingOrderOutput struct {
@@ -515,6 +527,31 @@ func cmdReadingOrder(renderDir string, args []string) {
 	finalSet := map[string]bool{}
 	for _, k := range finalKeys {
 		finalSet[k] = true
+	}
+
+	// Attach each further source to its single strongest tree parent, so
+	// the frontend can render it as a satellite under a real node instead
+	// of a disconnected list. Combined weight in both directions (see the
+	// symmetric-related-field note above) picked over a single direction
+	// to avoid an arbitrary tiebreak when a pair cites each other equally;
+	// ties beyond that fall back to the finalKeys' own atom_count, then
+	// key, matching the same tiebreak style used for solid tree edges.
+	for i := range further {
+		fk := further[i].Key
+		var bestParent string
+		bestWeight := 0
+		for _, tk := range finalKeys {
+			w := edgeWeight[tk][fk] + edgeWeight[fk][tk]
+			if w == 0 {
+				continue
+			}
+			if w > bestWeight ||
+				(w == bestWeight && bestParent != "" && len(sourceAtoms[tk]) > len(sourceAtoms[bestParent])) {
+				bestWeight = w
+				bestParent = tk
+			}
+		}
+		further[i].Parent = bestParent
 	}
 
 	nodes := make([]roNode, 0, len(finalKeys))

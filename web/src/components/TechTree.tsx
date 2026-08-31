@@ -1,10 +1,23 @@
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react"
 import readingOrderData from "@/data/reading-order.json"
-import type { ReadingOrderData, ReadingOrderEdge, ReadingOrderNode } from "@/lib/readingOrder"
+import type { ReadingOrderData, ReadingOrderEdge, ReadingOrderFurther, ReadingOrderNode } from "@/lib/readingOrder"
 import { Dialog, DialogContent, DialogBody } from "@/components/ui/dialog"
 
 const data = readingOrderData as unknown as ReadingOrderData
 const nodesByKey = new Map(data.nodes.map((n) => [n.key, n]))
+
+// Further sources that lost the top-15 tree-reach cut but still cite (or
+// are cited by) a tree node somewhere -- grouped by that single strongest
+// parent so they render as satellites under it. Sources with no parent at
+// all (nothing in the tree connects to them) are handled separately, in
+// ReadingOrder.tsx's leftover "further keystones" list.
+const furtherByParent = new Map<string, ReadingOrderFurther[]>()
+for (const f of data.further) {
+  if (!f.parent) continue
+  const arr = furtherByParent.get(f.parent) ?? []
+  arr.push(f)
+  furtherByParent.set(f.parent, arr)
+}
 
 const NODE_WIDTH = 208
 const NODE_HEIGHT = 52
@@ -55,6 +68,17 @@ function bySolidFirst(a: ReadingOrderEdge, b: ReadingOrderEdge) {
 export function TechTree() {
   const [selected, setSelected] = useState<ReadingOrderNode | null>(null)
   const [showDashed, setShowDashed] = useState(false)
+  // Further-satellites show by default (empty set); a node's own key goes
+  // in here only once someone collapses that specific cluster.
+  const [collapsedFurther, setCollapsedFurther] = useState<Set<string>>(new Set())
+  const toggleFurther = useCallback((key: string) => {
+    setCollapsedFurther((prev) => {
+      const next = new Set(prev)
+      if (next.has(key)) next.delete(key)
+      else next.add(key)
+      return next
+    })
+  }, [])
   const [positions, setPositions] = useState<Map<string, { x: number; y: number }>>(new Map())
   const [canvasSize, setCanvasSize] = useState({ width: 0, height: 0 })
   const [availableWidth, setAvailableWidth] = useState<number | undefined>(undefined)
@@ -172,13 +196,20 @@ export function TechTree() {
         <span className="flex items-center gap-1.5">
           <span className="inline-block h-2.5 w-2.5 border border-dashed border-ink-dim" /> keystone
         </span>
+        <span className="flex items-center gap-1.5">
+          <span className="inline-block h-2 w-4 rounded-full border border-rule-light bg-bg-well" /> further keystone
+          (satellite, no line — see note below)
+        </span>
       </div>
       <p className="font-mono text-[10px] text-ink-faint">
         Top-to-bottom position is a computed era — solid lines are each source's
         strongest link into the next. A full line means a real scaffolds-from prerequisite was found; a dashed-but-
         heavy line means it's still the strongest link but no prerequisite has been confirmed yet, so treat that
         direction as a guess. Click a source to see what it's primed by and what it primes next. Read any era in
-        any order.
+        any order. A source badged "N further" also has satellites attached — real sources that lost the top-15
+        cut on tree-restricted reach, tucked under whichever tree node cites them most. No line is drawn to them
+        deliberately: that association is corpus-wide, not tree-confirmed, so it gets adjacency, not an edge.
+        Click the badge to collapse a crowded cluster.
       </p>
 
       <div
@@ -227,28 +258,62 @@ export function TechTree() {
                   const isSelected = selected?.key === n.key
                   const isNeighbor = !isSelected && (connected?.nodeKeys.has(n.key) ?? false)
                   const isDimmed = !!connected && !isSelected && !isNeighbor
+                  const kids = furtherByParent.get(n.key) ?? []
+                  const kidsCollapsed = collapsedFurther.has(n.key)
                   return (
-                    <button
-                      key={n.key}
-                      ref={(el) => {
-                        if (el) nodeRefs.current.set(n.key, el)
-                        else nodeRefs.current.delete(n.key)
-                      }}
-                      type="button"
-                      onClick={() => selectNode(n)}
-                      title={`${n.title} — ${n.author}`}
-                      style={{ width: NODE_WIDTH, height: NODE_HEIGHT }}
-                      className={
-                        "flex flex-col justify-center overflow-hidden rounded-sm border bg-bg-raised px-2 py-1 text-left transition hover:border-primary/70 hover:bg-bg-raised/80 " +
-                        (n.kind === "core" ? "border-2 border-primary/60" : "border border-dashed border-ink-dim") +
-                        (isSelected ? " ring-2 ring-primary ring-offset-1 ring-offset-bg-well" : "") +
-                        (isNeighbor ? " border-primary" : "") +
-                        (isDimmed ? " opacity-45" : "")
-                      }
-                    >
-                      <span className="truncate text-[11px] font-semibold text-foreground">{n.title}</span>
-                      <span className="truncate text-[10px] text-ink-faint">{n.author}</span>
-                    </button>
+                    // relative + fixed width so the badge (absolutely
+                    // positioned against THIS wrapper, not the button) can
+                    // sit outside the button's own box without the
+                    // button's overflow-hidden clipping it, and so
+                    // satellite pills wrap to the same width as the node
+                    // above them.
+                    <div key={n.key} className="relative flex flex-col items-start" style={{ width: NODE_WIDTH }}>
+                      <button
+                        ref={(el) => {
+                          if (el) nodeRefs.current.set(n.key, el)
+                          else nodeRefs.current.delete(n.key)
+                        }}
+                        type="button"
+                        onClick={() => selectNode(n)}
+                        title={`${n.title} — ${n.author}`}
+                        style={{ height: NODE_HEIGHT }}
+                        className={
+                          "flex w-full flex-col justify-center overflow-hidden rounded-sm border bg-bg-raised px-2 py-1 text-left transition hover:border-primary/70 hover:bg-bg-raised/80 " +
+                          (n.kind === "core" ? "border-2 border-primary/60" : "border border-dashed border-ink-dim") +
+                          (isSelected ? " ring-2 ring-primary ring-offset-1 ring-offset-bg-well" : "") +
+                          (isNeighbor ? " border-primary" : "") +
+                          (isDimmed ? " opacity-45" : "")
+                        }
+                      >
+                        <span className="truncate text-[11px] font-semibold text-foreground">{n.title}</span>
+                        <span className="truncate text-[10px] text-ink-faint">{n.author}</span>
+                      </button>
+                      {kids.length > 0 && (
+                        <button
+                          type="button"
+                          onClick={(e) => {
+                            e.stopPropagation()
+                            toggleFurther(n.key)
+                          }}
+                          title={kidsCollapsed ? "show further keystones" : "collapse further keystones"}
+                          className={
+                            "absolute -top-2 -right-2 rounded-full border px-1.5 py-0.5 font-mono text-[9px] tracking-wide whitespace-nowrap transition " +
+                            (kidsCollapsed
+                              ? "border-rule-light bg-bg-well text-ink-faint hover:border-primary/60 hover:text-primary"
+                              : "border-primary/60 bg-primary/15 text-primary")
+                          }
+                        >
+                          {kids.length} further
+                        </button>
+                      )}
+                      {kids.length > 0 && !kidsCollapsed && (
+                        <div className="mt-1.5 flex flex-wrap gap-1">
+                          {kids.map((f) => (
+                            <FurtherPill key={f.key} node={f} />
+                          ))}
+                        </div>
+                      )}
+                    </div>
                   )
                 })}
               </div>
@@ -263,6 +328,24 @@ export function TechTree() {
         </DialogContent>
       </Dialog>
     </div>
+  )
+}
+
+function FurtherPill({ node }: { node: ReadingOrderFurther }) {
+  const label = `${node.title} — ${node.author}`
+  const className =
+    "max-w-[190px] truncate rounded-full border border-rule-light bg-bg-well px-2 py-0.5 font-mono text-[9.5px] text-ink-dim transition hover:border-primary/60 hover:text-primary"
+  if (node.url) {
+    return (
+      <a href={node.url} target="_blank" rel="noreferrer" title={label} className={className}>
+        {node.title}
+      </a>
+    )
+  }
+  return (
+    <span title={label} className={className}>
+      {node.title}
+    </span>
   )
 }
 

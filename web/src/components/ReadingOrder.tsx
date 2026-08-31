@@ -134,6 +134,10 @@ export function ReadingOrder() {
 
   const coreCount = data.nodes.filter((n) => n.kind === "core").length
   const sparkCount = data.nodes.filter((n) => n.kind === "spark").length
+  // Further sources WITH a parent now render as satellites inside TechTree
+  // itself (see furtherByParent there); this list is only the rare
+  // leftover nothing in the tree cites back at all.
+  const unattachedFurther = data.further.filter((n) => !n.parent)
   const progress = useReadingProgress()
   const readCount = data.nodes.filter((n) => progress.has(n.key)).length
   const [openStatus, setOpenStatus] = useState<string | null>(null)
@@ -217,18 +221,19 @@ copy every unread link →
         })}
       </div>
 
-      {data.further.length > 0 && (
+      {unattachedFurther.length > 0 && (
         <section className="flex flex-col gap-3">
           <div className="border-b border-rule pb-2">
             <h2 className="font-mono text-[12px] tracking-[0.1em] text-foreground uppercase">Further keystones</h2>
             <p className="mt-1 max-w-[70ch] text-[13px] text-ink-dim">
-              These didn't make the tree above — not enough of the tree's OWN sources cite back into them to earn a
-              placed, ordered slot — but the rest of the corpus leans on them plenty. Worth having on hand; just not
-              worth crowding the diagram for.
+              Most further sources now sit as satellites under a tree node in the diagram above — click its
+              "N further" badge to see them. This {unattachedFurther.length === 1 ? "one has" : `${unattachedFurther.length} have`}{" "}
+              real standing in the corpus at large but nothing in the tree above cites it back at all, so there's no
+              node to attach {unattachedFurther.length === 1 ? "it" : "them"} to.
             </p>
           </div>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            {data.further.map((n) => (
+            {unattachedFurther.map((n) => (
               <FurtherCard key={n.key} node={n} isRead={progress.has(n.key)} />
             ))}
           </div>
