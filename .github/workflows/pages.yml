@@ -1,17 +1,26 @@
 name: Pages
 
-# MANUAL ONLY. This workflow publishes every atom in elements/ — id,
-# name, tier, status, cluster, canonical-instances and evokes, plus all edges —
-# to a URL any stranger can read, and it does so regardless of whether the repo
-# itself is public. It ran on every push to substrate/** (the directory's
+# This workflow publishes every atom in elements/ — id, name, tier, status,
+# cluster, canonical-instances and evokes, plus all edges — to a URL any
+# stranger can read. It ran on every push to substrate/** (the directory's
 # pre-2026-08-20 name) from 2026-07-22 until 2026-08-04, which published a
-# private repo's contents for two weeks.
+# private repo's contents for two weeks; the push trigger was removed
+# entirely after that and this stayed workflow_dispatch-only until the repo
+# actually went public (2026-08-23, confirmed via `gh repo view`).
 #
-# The push trigger is deliberately removed. Re-add it only when the repo is
-# actually public. Note that `configure-pages` below carries `enablement: true`,
-# so a run of this workflow will re-enable Pages even if Pages was disabled at
-# the repository level — running it IS the decision to publish.
+# Re-added 2026-08-31 as a tag push only, not every push to main -- a tag is
+# a deliberate release act (`git tag`), not something that fires on every
+# commit, so the "running it IS the decision to publish" framing below still
+# holds: tagging a release now IS that decision, made once, on purpose,
+# rather than something to separately remember to go dispatch afterward.
+# workflow_dispatch stays available for a manual re-publish with no new tag.
+# Note that `configure-pages` below carries `enablement: true`, so a run of
+# this workflow will re-enable Pages even if Pages was disabled at the
+# repository level.
 on:
+  push:
+    tags:
+      - 'v*'
   workflow_dispatch:
 
 # GitHub Pages: one running deploy at a time. Rapid-fire pushes cancel the
