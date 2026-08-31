@@ -29,6 +29,12 @@ for (const f of data.further) {
   furtherByParent.set(f.parent, arr)
 }
 
+// The rare further source with zero edge to any tree node in either
+// direction -- rendered as its own trailing row rather than left out of
+// the diagram entirely, so every source in the list below has some node
+// here, the same way every tree node does.
+const unattachedFurther = data.further.filter((f) => !f.parent)
+
 const NODE_WIDTH = 208
 const NODE_HEIGHT = 52
 // Matches DialogContent's `max-w-md` in ui/dialog.tsx (28rem). The drawer
@@ -232,8 +238,8 @@ export const TechTree = forwardRef<TechTreeHandle>(function TechTree(_props, ref
           <span className="inline-block h-2.5 w-2.5 border border-dashed border-ink-dim" /> keystone
         </span>
         <span className="flex items-center gap-1.5">
-          <span className="inline-block h-2 w-4 rounded-full border border-rule-light bg-bg-well" /> further keystone
-          (satellite, no line — see note below)
+          <span className="inline-block h-2 w-4 rounded-full border border-dotted border-rule-light bg-bg-well" /> further
+          keystone (satellite, no line — see note below)
         </span>
       </div>
       <p className="font-mono text-[10px] text-ink-faint">
@@ -244,7 +250,8 @@ export const TechTree = forwardRef<TechTreeHandle>(function TechTree(_props, ref
         any order. A source badged "N further" also has satellites attached — real sources that lost the top-15
         cut on tree-restricted reach, tucked under whichever tree node cites them most. No line is drawn to them
         deliberately: that association is corpus-wide, not tree-confirmed, so it gets adjacency, not an edge.
-        Click the badge to collapse a crowded cluster.
+        Click the badge to collapse a crowded cluster. A rare further source cites, and is cited by, nothing in the
+        tree at all — it still gets a pill, just in its own row at the bottom rather than tucked under a parent.
       </p>
 
       <div
@@ -354,6 +361,18 @@ export const TechTree = forwardRef<TechTreeHandle>(function TechTree(_props, ref
               </div>
             </div>
           ))}
+          {unattachedFurther.length > 0 && (
+            <div className="flex flex-col gap-2">
+              <div className="font-mono text-[10px] tracking-[0.1em] text-ink-faint uppercase">
+                Unattached — no tree connection
+              </div>
+              <div className="flex flex-wrap gap-x-2 gap-y-5">
+                {unattachedFurther.map((f) => (
+                  <FurtherPill key={f.key} node={f} isSelected={selected?.key === f.key} onSelect={selectNode} />
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </div>
 
@@ -402,7 +421,7 @@ function FurtherPill({
       type="button"
       onClick={() => onSelect(node)}
       title={label}
-      className="max-w-[190px] truncate rounded-full border border-rule-light bg-bg-well px-2 py-0.5 font-mono text-[9.5px] text-ink-dim transition hover:border-primary/60 hover:text-primary"
+      className="max-w-[190px] truncate rounded-full border border-dotted border-rule-light bg-bg-well px-2 py-0.5 font-mono text-[9.5px] text-ink-dim transition hover:border-primary/60 hover:text-primary"
     >
       {node.title}
     </button>
