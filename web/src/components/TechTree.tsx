@@ -1,10 +1,20 @@
-import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react"
+import {
+  forwardRef,
+  useCallback,
+  useEffect,
+  useImperativeHandle,
+  useLayoutEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react"
 import readingOrderData from "@/data/reading-order.json"
 import type { ReadingOrderData, ReadingOrderEdge, ReadingOrderFurther, ReadingOrderNode } from "@/lib/readingOrder"
 import { Dialog, DialogContent, DialogBody } from "@/components/ui/dialog"
 
 const data = readingOrderData as unknown as ReadingOrderData
 const nodesByKey = new Map(data.nodes.map((n) => [n.key, n]))
+const furtherByKey = new Map(data.further.map((f) => [f.key, f]))
 
 // Further sources that lost the top-15 tree-reach cut but still cite (or
 // are cited by) a tree node somewhere -- grouped by that single strongest
@@ -71,7 +81,19 @@ function isTreeNode(n: Selectable): n is ReadingOrderNode {
   return "tier" in n
 }
 
-export function TechTree() {
+// Lets a click outside the diagram (the era lists and further-keystones
+// grid below it in ReadingOrder.tsx) open the same drawer a graph click
+// does, and -- for anything with a rendered node -- scroll/highlight it
+// in place, via the same selectNode path a graph click already uses.
+// State stays local to TechTree rather than lifting to ReadingOrder: the
+// position-measurement, drawer-width narrowing, and scroll-into-view
+// effects below are all keyed off this component's own DOM refs, and
+// none of that has a reason to live in the parent.
+export interface TechTreeHandle {
+  select: (key: string) => void
+}
+
+export const TechTree = forwardRef<TechTreeHandle>(function TechTree(_props, ref) {
   const [selected, setSelected] = useState<Selectable | null>(null)
   const [showDashed, setShowDashed] = useState(false)
   // Further-satellites show by default (empty set); a node's own key goes
@@ -147,6 +169,13 @@ export function TechTree() {
     setSelected(null)
     setAvailableWidth(undefined)
   }
+
+  useImperativeHandle(ref, () => ({
+    select(key: string) {
+      const target = nodesByKey.get(key) ?? furtherByKey.get(key)
+      if (target) selectNode(target)
+    },
+  }))
 
   useEffect(() => {
     if (!selected) return
@@ -335,7 +364,7 @@ export function TechTree() {
       </Dialog>
     </div>
   )
-}
+})
 
 // Selecting a satellite (click opens the same detail drawer a tree node
 // opens, via onSelect) also promotes it to full node size in place -- same

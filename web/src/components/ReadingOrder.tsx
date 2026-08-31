@@ -1,7 +1,7 @@
-import { useMemo, useState } from "react"
+import { useMemo, useRef, useState } from "react"
 import readingOrderData from "@/data/reading-order.json"
 import type { ReadingOrderData, ReadingOrderFurther, ReadingOrderNode } from "@/lib/readingOrder"
-import { TechTree } from "@/components/TechTree"
+import { TechTree, type TechTreeHandle } from "@/components/TechTree"
 import { toggleRead, useReadingProgress } from "@/lib/readingProgress"
 
 const data = readingOrderData as unknown as ReadingOrderData
@@ -68,15 +68,33 @@ function eraCopy(tier: number): EraCopy {
   return ERA_COPY[tier] ?? { label: `Era ${tier + 1}`, framing: "" }
 }
 
-function SourceCard({ node, isRead }: { node: ReadingOrderNode; isRead: boolean }) {
+function SourceCard({
+  node,
+  isRead,
+  onOpen,
+}: {
+  node: ReadingOrderNode
+  isRead: boolean
+  onOpen: (key: string) => void
+}) {
   return (
     <div
+      role="button"
+      tabIndex={0}
+      onClick={() => onOpen(node.key)}
+      onKeyDown={(e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault()
+          onOpen(node.key)
+        }
+      }}
       className={
-        "flex flex-col gap-1 border border-rule bg-bg-raised p-3 transition-opacity " + (isRead ? "opacity-50" : "")
+        "flex cursor-pointer flex-col gap-1 border border-rule bg-bg-raised p-3 text-left transition-opacity hover:border-primary/60 " +
+        (isRead ? "opacity-50" : "")
       }
     >
       <div className="flex items-start justify-between gap-2">
-        <label className="flex min-w-0 items-start gap-2">
+        <label className="flex min-w-0 items-start gap-2" onClick={(e) => e.stopPropagation()}>
           <input
             type="checkbox"
             checked={isRead}
@@ -110,6 +128,7 @@ function SourceCard({ node, isRead }: { node: ReadingOrderNode; isRead: boolean 
           href={node.url}
           target="_blank"
           rel="noreferrer"
+          onClick={(e) => e.stopPropagation()}
           className="mt-1 self-start text-[11px] text-primary underline decoration-dotted underline-offset-2 hover:text-accent-soft"
         >
           read it →
@@ -141,6 +160,8 @@ export function ReadingOrder() {
   const progress = useReadingProgress()
   const readCount = data.nodes.filter((n) => progress.has(n.key)).length
   const [openStatus, setOpenStatus] = useState<string | null>(null)
+  const techTreeRef = useRef<TechTreeHandle>(null)
+  const openInTree = (key: string) => techTreeRef.current?.select(key)
 
   // Bookshop.org has no bulk "add these N books to a cart" link or API —
   // their one feature shaped like this (Book Lists) lives inside the
@@ -197,7 +218,7 @@ copy every unread link →
         {openStatus && <p className="mt-1 font-mono text-[11px] text-primary">{openStatus}</p>}
       </div>
 
-      <TechTree />
+      <TechTree ref={techTreeRef} />
 
       <div className="flex flex-col gap-8">
         {eras.map(([tier, nodes]) => {
@@ -213,7 +234,7 @@ copy every unread link →
                   .slice()
                   .sort((a, b) => b.atom_count - a.atom_count)
                   .map((n) => (
-                    <SourceCard key={n.key} node={n} isRead={progress.has(n.key)} />
+                    <SourceCard key={n.key} node={n} isRead={progress.has(n.key)} onOpen={openInTree} />
                   ))}
               </div>
             </section>
@@ -234,7 +255,7 @@ copy every unread link →
           </div>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {unattachedFurther.map((n) => (
-              <FurtherCard key={n.key} node={n} isRead={progress.has(n.key)} />
+              <FurtherCard key={n.key} node={n} isRead={progress.has(n.key)} onOpen={openInTree} />
             ))}
           </div>
         </section>
@@ -243,15 +264,32 @@ copy every unread link →
   )
 }
 
-function FurtherCard({ node, isRead }: { node: ReadingOrderFurther; isRead: boolean }) {
+function FurtherCard({
+  node,
+  isRead,
+  onOpen,
+}: {
+  node: ReadingOrderFurther
+  isRead: boolean
+  onOpen: (key: string) => void
+}) {
   return (
     <div
+      role="button"
+      tabIndex={0}
+      onClick={() => onOpen(node.key)}
+      onKeyDown={(e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault()
+          onOpen(node.key)
+        }
+      }}
       className={
-        "flex flex-col gap-1 border border-dashed border-ink-dim bg-bg-raised p-3 transition-opacity " +
+        "flex cursor-pointer flex-col gap-1 border border-dashed border-ink-dim bg-bg-raised p-3 text-left transition-opacity hover:border-primary/60 " +
         (isRead ? "opacity-50" : "")
       }
     >
-      <label className="flex min-w-0 items-start gap-2">
+      <label className="flex min-w-0 items-start gap-2" onClick={(e) => e.stopPropagation()}>
         <input
           type="checkbox"
           checked={isRead}
@@ -276,6 +314,7 @@ function FurtherCard({ node, isRead }: { node: ReadingOrderFurther; isRead: bool
           href={node.url}
           target="_blank"
           rel="noreferrer"
+          onClick={(e) => e.stopPropagation()}
           className="mt-1 self-start text-[11px] text-primary underline decoration-dotted underline-offset-2 hover:text-accent-soft"
         >
           read it →
