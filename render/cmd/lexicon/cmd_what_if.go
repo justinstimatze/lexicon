@@ -51,6 +51,7 @@ func cmdWhatIf(renderDir string, args []string) {
 	maxProbes := fl.Int("max-probes", probe.DefaultMaxProbes, "(probe mode) cap on probes returned")
 	explainFlag := fl.Bool("explain", false, "route the markdown output through an LLM-backed translator so end-users see plain conversational language instead of chemistry vocabulary, tier labels, and lex-NNNN ids")
 	format := fl.String("format", "json", "(intervene + pattern-id) output format: json (default, agent-consumable) or markdown")
+	detail := fl.Bool("detail", false, "(pattern-id, json format) include critical_questions and the full 6-neighbor adjacency list. Default omits critical_questions and caps adjacencies at 3.")
 	_ = fl.Parse(args)
 
 	// CLI/batch use can afford to wait; the 8s lens default is tuned for
@@ -78,7 +79,7 @@ func cmdWhatIf(renderDir string, args []string) {
 	case "intervene":
 		runIntervene(renderDir, *contextStr, *topK, *noLens, *explainFlag, *format)
 	case "pattern-id":
-		runPatternID(renderDir, *contextStr, *topK, *noLens, *explainFlag, *format)
+		runPatternID(renderDir, *contextStr, *topK, *noLens, *explainFlag, *detail, *format)
 	default:
 		fatal("--mode must be 'probe', 'greedy', 'intervene', or 'pattern-id', got %q", *mode)
 	}
@@ -207,7 +208,7 @@ func loadCorpusOrFatal(renderDir string) *pkglexicon.Corpus {
 	return corp
 }
 
-func runPatternID(renderDir, contextStr string, topK int, noLens, explainFlag bool, format ...string) {
+func runPatternID(renderDir, contextStr string, topK int, noLens, explainFlag, detail bool, format ...string) {
 	outputFormat := "json"
 	if len(format) > 0 && format[0] != "" {
 		outputFormat = format[0]
@@ -223,7 +224,7 @@ func runPatternID(renderDir, contextStr string, topK int, noLens, explainFlag bo
 	}
 
 	if outputFormat == "json" {
-		fmt.Println(formatPatternIDJSON(contextStr, picked, scores, lexMatch, corp.Pool(), corp.FrameStatus(), !noLens, topK))
+		fmt.Println(formatPatternIDJSON(contextStr, picked, scores, lexMatch, corp.Pool(), corp.FrameStatus(), !noLens, topK, detail))
 		return
 	}
 	emitOutput(formatPatternID(contextStr, picked, scores, corp.Pool(), corp.FrameStatus()), explainFlag)
@@ -232,11 +233,21 @@ func runPatternID(renderDir, contextStr string, topK int, noLens, explainFlag bo
 // formatPatternIDJSON returns the structured JSON shape of the same data
 // formatPatternID emits as markdown. The shape is the agent-consumable
 // contract — id/name/tier/score, lexical_match, frame-status, gloss,
-// agent-instruction, top-3 critical-questions, and adjacencies. Stable enough
-// that consumers can pin to specific keys.
-func formatPatternIDJSON(contextStr string, picked []*types.LexEntry, scores map[string]float64, lexMatch map[string]bool, pool map[string]*types.LexEntry, fsMap framestatus.Map, lensUsed bool, topK int) string {
-	const maxAdjacencies = 6
-	const maxCQs = 3
+// agent-instruction, and adjacencies. Stable enough that consumers can pin
+// to specific keys. detail=false (the default) omits critical_questions and
+// caps adjacencies at 3 rather than 6 — critical_questions runs several
+// hundred chars per entry and adjacencies duplicate content a follow-up
+// lexicon_constellation call already provides on demand, so the full shape
+// costs real per-call tokens for content most callers never read. detail=true
+// restores the original always-everything shape for a caller doing deep
+// analysis on a single passage.
+func formatPatternIDJSON(contextStr string, picked []*types.LexEntry, scores map[string]float64, lexMatch map[string]bool, pool map[string]*types.LexEntry, fsMap framestatus.Map, lensUsed bool, topK int, detail bool) string {
+	maxAdjacencies := 3
+	maxCQs := 0
+	if detail {
+		maxAdjacencies = 6
+		maxCQs = 3
+	}
 	type adjacency struct {
 		ID    string `json:"id"`
 		Name  string `json:"name"`

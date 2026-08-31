@@ -234,55 +234,40 @@ func mcpInstructionsFor(renderDir string) string {
 
 const mcpInstructionsTmpl = `lexicon is Justin's pattern elements (%s covering reasoning,
 strategy, ethics, narrative, scientific method, power dynamics, etc.).
-Each atom names a recurring cognitive or structural move and carries
-verbatim lineage from primary sources.
+Each atom names a recurring cognitive or structural move, with verbatim
+lineage from primary sources.
 
-When to call lexicon_read:
-- A user pastes a news story, transcript, doc, or prose and you want
-  to surface which patterns are operating in it.
-- You're trying to make sense of a situation (your own reasoning, a
-  conversation, a stuck design decision) and want elements prompts.
-- Default: just call it whenever a passage of >2-3 sentences would
-  benefit from named-pattern decomposition. Cheap to call.
+lexicon_read: call whenever a passage of >2-3 sentences (a pasted news
+story, transcript, doc, or your own reasoning/a stuck decision) would
+benefit from named-pattern decomposition. Compact JSON by default; pass
+detail=true only if you need critical_questions or the full 6-neighbor
+adjacency list.
 
-When to call lexicon_list:
-- You want to know what atoms exist before phrasing a query.
-- Rare. Most tasks call lexicon_read directly.
+lexicon_list: rare — only when you need the atom inventory before
+phrasing a query.
 
-When to call lexicon_extrapolate:
-- You already have a constellation of atom IDs (from a previous
-  lexicon_read result, from a forecasting back-test fan-out, from a
-  curated list) and want to know what's on the ADJACENCY FRONTIER —
-  atoms the gestalt invokes but doesn't contain, ranked by how many of
-  the constellation point at each. Pure elements-graph walk:
-  deterministic, no LLM call, no model confound. Use this when
-  "ontological negative space of the chosen frame" is the question.
+lexicon_extrapolate: given a constellation of atom IDs (e.g. from a prior
+lexicon_read), returns the ADJACENCY FRONTIER — atoms the gestalt invokes
+but doesn't contain, ranked by how many point at each. No LLM call.
 
-Output of lexicon_read is JSON: {context, top_k, lens_used, patterns:
-[{id, name, tier, score, frame_status, frame_handle, gloss,
-agent_instruction, critical_questions, adjacencies: [{id, name, gloss}]}]}.
-Pass format="markdown" for the human-readable structured render, or
-format="plain" for the LLM-translated narrative. Output of
-lexicon_extrapolate is JSON with id, name, tier, adjacency_count,
-pointed_at_by per candidate.`
+See each tool's own description for its JSON shape.`
 
 func readToolDefinition() map[string]any {
 	return map[string]any{
 		"name": "lexicon_read",
-		"description": "Surface the top-K lexicon atoms that fire on a passage of text. " +
-			"Default output is JSON: {context, top_k, lens_used, patterns:[{id, name, " +
-			"tier, score, frame_status, frame_handle, gloss, agent_instruction, " +
-			"critical_questions, adjacencies:[{id, name, gloss}]}]}. agent_instruction " +
-			"is the imperative 'when-you-see-this-do-this' rule when authored. The " +
-			"semantic-lens pass uses an LLM filter; pass no_lens=true for a faster " +
-			"lexical-only fallback. Pass format=\"markdown\" for the human-readable " +
-			"structured render, or format=\"plain\" for the LLM-translated narrative.",
+		"description": "Surface the top-K lexicon atoms firing on a passage of text. JSON: " +
+			"{context, top_k, lens_used, patterns:[{id, name, tier, score, frame_status, " +
+			"gloss, agent_instruction, adjacencies:[{id, name}]}]}. agent_instruction is " +
+			"the 'when-you-see-this-do-this' rule. Compact by default (3 adjacencies, no " +
+			"critical_questions); pass detail=true for the full 6-neighbor shape with " +
+			"critical_questions. no_lens=true skips the LLM lens for a faster lexical-only " +
+			"pass. format=\"markdown\"/\"plain\" for human-readable output.",
 		"inputSchema": map[string]any{
 			"type": "object",
 			"properties": map[string]any{
 				"text": map[string]any{
 					"type":        "string",
-					"description": "The passage to analyze (article excerpt, transcript chunk, doc paragraph, your own writing).",
+					"description": "The passage to analyze.",
 				},
 				"top_k": map[string]any{
 					"type":        "integer",
@@ -290,16 +275,20 @@ func readToolDefinition() map[string]any {
 				},
 				"no_lens": map[string]any{
 					"type":        "boolean",
-					"description": "Skip the LLM-backed semantic lens and run lexical-only on the full pool. Faster (no API call), less precise.",
+					"description": "Skip the LLM-backed semantic lens; faster, less precise.",
+				},
+				"detail": map[string]any{
+					"type":        "boolean",
+					"description": "Include critical_questions and expand adjacencies to 6 (default: omitted / capped at 3 for a leaner response).",
 				},
 				"format": map[string]any{
 					"type":        "string",
-					"description": "Output format: \"json\" (default, agent-consumable), \"markdown\" (structured human-readable), \"plain\" (LLM-translated narrative).",
+					"description": "\"json\" (default), \"markdown\" (structured), \"plain\" (LLM-translated narrative).",
 					"enum":        []any{"json", "markdown", "plain"},
 				},
 				"no_explain": map[string]any{
 					"type":        "boolean",
-					"description": "DEPRECATED: use format=\"markdown\". Forces markdown instead of JSON when set.",
+					"description": "DEPRECATED: use format=\"markdown\".",
 				},
 			},
 			"required": []any{"text"},
@@ -310,13 +299,11 @@ func readToolDefinition() map[string]any {
 func extrapolateToolDefinition() map[string]any {
 	return map[string]any{
 		"name": "lexicon_extrapolate",
-		"description": "Adjacency-frontier read on a constellation of atom IDs. " +
-			"Given N atoms, returns atoms NOT in the input set that are pointed at " +
-			"by one or more of them, ranked by adjacency-count. Pure elements-graph " +
-			"walk — no LLM, no model confound. Returns JSON: " +
-			"{constellation, missing, candidates: [{id, name, tier, status, " +
-			"adjacency_count, pointed_at_by}]}. Use when you have a constellation " +
-			"and want the ontological negative space of the frame implied by it.",
+		"description": "Adjacency-frontier read on a constellation of atom IDs: atoms NOT " +
+			"in the input set that are pointed at by one or more of them, ranked by " +
+			"adjacency-count. No LLM. JSON: {constellation, missing, candidates:[{id, name, " +
+			"tier, status, adjacency_count, pointed_at_by}]}. Use to find the ontological " +
+			"negative space of a frame implied by a constellation of atoms.",
 		"inputSchema": map[string]any{
 			"type": "object",
 			"properties": map[string]any{
@@ -338,21 +325,15 @@ func extrapolateToolDefinition() map[string]any {
 func distinctnessToolDefinition() map[string]any {
 	return map[string]any{
 		"name": "lexicon_distinctness",
-		"description": "Mining-pass audit helper. Pass a candidate atom's name + brief " +
-			"description; returns elements atoms most likely to overlap with the " +
-			"candidate, each carrying its own 'operationally distinct from' entries so " +
-			"you can see what near-neighbors it has already distinguished itself against. " +
-			"Returns JSON: {candidate, lens_used, warning?, matches:[{id, name, tier, score, " +
-			"status, frame_status, gloss, agent_instruction, operationally_distinct_from:[...]}]}. " +
-			"The corpus is scanned in token-budgeted chunks (every atom gets a real LLM look, " +
-			"not just a pre-filtered subset) run concurrently and merged. lens_used is false, and " +
-			"warning is set, when EVERY chunk failed (even after one retry each) or no_lens=true " +
-			"was passed -- in that state matches are ranked by tier/status only, carry no content " +
-			"signal, and are identical for every query at a given top_k. warning can also be set " +
-			"when lens_used is true: that means some but not all chunks failed, so matches are " +
-			"real for the chunks that succeeded but corpus coverage was incomplete for this call -- " +
-			"read warning either way, don't gate only on lens_used. On lens_used=false, retry the " +
-			"call. Use before drafting a new atom to verify it isn't already covered.",
+		"description": "Pre-mint overlap check. Pass a candidate atom's name + brief " +
+			"description; returns the corpus atoms most likely to overlap, each with its " +
+			"own 'operationally distinct from' entries. JSON: {candidate, lens_used, " +
+			"warning?, matches:[{id, name, tier, score, status, frame_status, gloss, " +
+			"agent_instruction, operationally_distinct_from:[...]}]}. Scanned in concurrent " +
+			"token-budgeted chunks so every atom gets a real look. If warning is set, " +
+			"coverage was incomplete (some/all chunks failed, or no_lens=true) — matches " +
+			"may lack content signal; retry when lens_used=false. Use before drafting a new " +
+			"atom to verify it isn't already covered.",
 		"inputSchema": map[string]any{
 			"type": "object",
 			"properties": map[string]any{
@@ -415,14 +396,12 @@ func callDistinctness(renderDir string, arguments json.RawMessage) (string, bool
 func predictToolDefinition() map[string]any {
 	return map[string]any{
 		"name": "lexicon_predict",
-		"description": "Forecast downstream effects of an action or situation by surfacing " +
-			"matched reaction-tier atoms. Returns JSON: {context, reactions:[{id, name, " +
-			"tier, frame_status, mechanism, reactants, products, catalysts, inhibitors, " +
-			"conditions, reversibility, gloss}], fallback_matches:[...]}. Each reaction " +
-			"names what's likely (products), what accelerates it (catalysts), what blocks " +
-			"it (inhibitors), and the preconditions (conditions). Use when you have a " +
-			"plan or situation and want elements-grounded predictions about how it will " +
-			"play out. Falls back to top-3 non-reaction matches when no reaction fires.",
+		"description": "Forecast downstream effects of a plan or situation via matched " +
+			"reaction-tier atoms. JSON: {context, reactions:[{id, name, tier, frame_status, " +
+			"mechanism, reactants, products, catalysts, inhibitors, conditions, " +
+			"reversibility, gloss}], fallback_matches:[...]}. products = what's likely, " +
+			"catalysts = what accelerates it, inhibitors = what blocks it. Falls back to " +
+			"top-3 non-reaction matches when no reaction fires.",
 		"inputSchema": map[string]any{
 			"type": "object",
 			"properties": map[string]any{
@@ -484,14 +463,13 @@ func callPredict(renderDir string, arguments json.RawMessage) (string, bool) {
 func constellationToolDefinition() map[string]any {
 	return map[string]any{
 		"name": "lexicon_constellation",
-		"description": "Return the N-hop neighborhood of one focal atom as structured JSON. " +
-			"Use after lexicon_read identifies a high-relevance atom and you want its " +
-			"adjacencies expanded without further LLM calls. Returns " +
+		"description": "N-hop neighborhood of one focal atom, structured JSON. Use after " +
+			"lexicon_read identifies a high-relevance atom and you want its adjacencies " +
+			"expanded — no LLM call, pure elements-graph walk. Returns " +
 			"{focal:{id,name,tier,status,gloss,agent_instruction}, " +
 			"outgoing:{related,decomposes_into,premises,evokes}, " +
-			"incoming:{related_from,decomposes_into_from}, hop2:{via_lex-XXXX:[...]}} — " +
-			"each neighbor carries gloss + agent_instruction so the caller can compose " +
-			"without a follow-up read. Default hops=1. Pure elements-graph walk; no LLM call.",
+			"incoming:{related_from,decomposes_into_from}, hop2:{via_lex-XXXX:[...]}}, each " +
+			"neighbor carrying gloss + agent_instruction. Default hops=1.",
 		"inputSchema": map[string]any{
 			"type": "object",
 			"properties": map[string]any{
@@ -582,6 +560,7 @@ func callRead(renderDir string, arguments json.RawMessage) (string, bool) {
 		NoLens    bool   `json:"no_lens"`
 		NoExplain bool   `json:"no_explain"`
 		Format    string `json:"format"`
+		Detail    bool   `json:"detail"`
 	}
 	if err := json.Unmarshal(arguments, &args); err != nil {
 		return fmt.Sprintf("lexicon_read: invalid arguments: %s", err), true
@@ -606,6 +585,9 @@ func callRead(renderDir string, arguments json.RawMessage) (string, bool) {
 	}
 	if args.Format != "" {
 		cliArgs = append(cliArgs, "--format", args.Format)
+	}
+	if args.Detail {
+		cliArgs = append(cliArgs, "--detail")
 	}
 	cliArgs = append(cliArgs, "-")
 
