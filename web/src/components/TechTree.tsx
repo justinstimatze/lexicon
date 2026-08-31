@@ -341,8 +341,15 @@ export const TechTree = forwardRef<TechTreeHandle>(function TechTree(_props, ref
                           className={
                             // py-1.5 (not the -0.5 elsewhere) clears the WCAG
                             // 2.5.8 24px touch-target floor -- this badge
-                            // measured 19.5px tall before.
-                            "absolute -top-2 -right-2 z-10 rounded-full border px-1.5 py-1.5 font-mono text-[9px] tracking-wide whitespace-nowrap shadow-[0_1px_3px_rgba(0,0,0,0.5)] transition " +
+                            // measured 19.5px tall before. top-[-19px] (not
+                            // -top-2) shifts the anchor up so the extra
+                            // height goes into the empty space above the
+                            // card instead of down across the title, which
+                            // it was overlapping once the badge got taller.
+                            // Measured against the actual title position
+                            // (10.25px below the card's own top) rather than
+                            // assumed, with ~2px of real clearance.
+                            "absolute top-[-19px] -right-2 z-10 rounded-full border px-1.5 py-1.5 font-mono text-[9px] tracking-wide whitespace-nowrap shadow-[0_1px_3px_rgba(0,0,0,0.5)] transition " +
                             (kidsCollapsed
                               ? "border-rule-state bg-bg-well text-ink-faint hover:border-primary/60 hover:text-primary"
                               : "border-primary bg-primary text-accent-ink hover:bg-accent-soft")
