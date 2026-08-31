@@ -183,32 +183,38 @@ var sparkCandidates = []readingOrderSource{
 	// are the ones with enough atoms or in-degree to be a genuine editorial
 	// gap rather than a single incidental citation). Titles/editions below
 	// are copied from the atoms' own existing citation text, not invented.
-	{Key: "aristotle-nicomachean-ethics", Title: "Nicomachean Ethics", Author: "Aristotle", Edition: "c. 350 BCE", Kind: "spark", Prefixes: []string{"aristotle-nicomachean", "aristotle-ne-"}},
-	{Key: "aristotle-rhetoric", Title: "Rhetoric", Author: "Aristotle", Edition: "c. 350 BCE", Kind: "spark", Prefixes: []string{"aristotle-rhetoric"}},
-	{Key: "aristotle-poetics", Title: "Poetics", Author: "Aristotle", Edition: "c. 335 BCE", Kind: "spark", Prefixes: []string{"aristotle-poetics"}},
+	{Key: "aristotle-nicomachean-ethics", Title: "Nicomachean Ethics", Author: "Aristotle", Edition: "c. 350 BCE", Kind: "spark", Prefixes: []string{"aristotle-nicomachean", "aristotle-ne-"}, URL: "https://www.gutenberg.org/ebooks/8438"},
+	// No standalone Rhetoric on Gutenberg as of this check -- Internet
+	// Archive's Loeb Classical Library edition (Freese trans., 1926, public
+	// domain), confirmed not access-restricted.
+	{Key: "aristotle-rhetoric", Title: "Rhetoric", Author: "Aristotle", Edition: "c. 350 BCE", Kind: "spark", Prefixes: []string{"aristotle-rhetoric"}, URL: "https://archive.org/details/aristotleartofrh0000aris"},
+	{Key: "aristotle-poetics", Title: "Poetics", Author: "Aristotle", Edition: "c. 335 BCE", Kind: "spark", Prefixes: []string{"aristotle-poetics"}, URL: "https://www.gutenberg.org/ebooks/1974"},
+	// No clean single free English text found for this one (2 atoms, the
+	// thinnest of the four Aristotle entries) -- left unlinked rather than
+	// force a low-confidence pick. Revisit rather than guess.
 	{Key: "aristotle-posterior-analytics", Title: "Posterior Analytics", Author: "Aristotle", Edition: "c. 350 BCE", Kind: "spark", Prefixes: []string{"aristotle-c350bce-posterior-analytics"}},
-	{Key: "plato-selected-dialogues", Title: "Selected Dialogues (Apology, Crito, Euthyphro, Gorgias, Meno, Phaedo, Republic, Sophist, Symposium, Theaetetus, Timaeus)", Author: "Plato, trans. Benjamin Jowett", Edition: "various", Kind: "spark", Prefixes: []string{"plato-apology", "plato-c380bce", "plato-c385bce", "plato-c399bce", "plato-euthyphro", "plato-gorgias", "plato-meno", "plato-republic", "plato-sophist", "plato-theaetetus", "plato-timaeus"}},
-	{Key: "hume-treatise", Title: "A Treatise of Human Nature", Author: "David Hume", Edition: "1739-40", Kind: "spark", Prefixes: []string{"hume-treatise"}},
-	{Key: "hume-enquiry", Title: "An Enquiry Concerning Human Understanding", Author: "David Hume", Edition: "1748", Kind: "spark", Prefixes: []string{"hume-enquiry"}},
-	{Key: "james-varieties", Title: "The Varieties of Religious Experience: A Study in Human Nature", Author: "William James", Edition: "1902", Kind: "spark", Prefixes: []string{"james-1902"}},
-	{Key: "james-principles", Title: "The Principles of Psychology", Author: "William James", Edition: "1890", Kind: "spark", Prefixes: []string{"james-1890"}},
+	{Key: "plato-selected-dialogues", Title: "Selected Dialogues (Apology, Crito, Euthyphro, Gorgias, Meno, Phaedo, Republic, Sophist, Symposium, Theaetetus, Timaeus)", Author: "Plato, trans. Benjamin Jowett", Edition: "various", Kind: "spark", Prefixes: []string{"plato-apology", "plato-c380bce", "plato-c385bce", "plato-c399bce", "plato-euthyphro", "plato-gorgias", "plato-meno", "plato-republic", "plato-sophist", "plato-theaetetus", "plato-timaeus"}, URL: "https://standardebooks.org/ebooks/plato/dialogues/benjamin-jowett"},
+	{Key: "hume-treatise", Title: "A Treatise of Human Nature", Author: "David Hume", Edition: "1739-40", Kind: "spark", Prefixes: []string{"hume-treatise"}, URL: "https://www.gutenberg.org/ebooks/4705"},
+	{Key: "hume-enquiry", Title: "An Enquiry Concerning Human Understanding", Author: "David Hume", Edition: "1748", Kind: "spark", Prefixes: []string{"hume-enquiry"}, URL: "https://www.gutenberg.org/ebooks/9662"},
+	{Key: "james-varieties", Title: "The Varieties of Religious Experience: A Study in Human Nature", Author: "William James", Edition: "1902", Kind: "spark", Prefixes: []string{"james-1902"}, URL: "https://www.gutenberg.org/ebooks/621"},
+	{Key: "james-principles", Title: "The Principles of Psychology", Author: "William James", Edition: "1890", Kind: "spark", Prefixes: []string{"james-1890"}, URL: "https://www.gutenberg.org/ebooks/57634"},
 	{Key: "lakoff-johnson-metaphors", Title: "Metaphors We Live By", Author: "George Lakoff and Mark Johnson", Edition: "University of Chicago Press, 1980; afterword 2003", Kind: "spark", Prefixes: []string{"lakoff-johnson-1980"}},
 	{Key: "pierson-politics-in-time", Title: "Politics in Time: History, Institutions, and Social Analysis", Author: "Paul Pierson", Edition: "Princeton University Press, 2004", Kind: "spark", Prefixes: []string{"pierson-2004"}},
 	{Key: "postrel-fabric-of-civilization", Title: "The Fabric of Civilization: How Textiles Made the World", Author: "Virginia Postrel", Edition: "Basic Books, 2020", Kind: "spark", Prefixes: []string{"postrel-2020"}},
 	{Key: "greene-48-laws-of-power", Title: "The 48 Laws of Power", Author: "Robert Greene", Edition: "Penguin Group, 1998", Kind: "spark", Prefixes: []string{"greene-1998"}},
 	{Key: "mauss-the-gift", Title: "The Gift", Author: "Marcel Mauss", Edition: "Essai sur le don, 1923-24/1925; trans. Cunnison 1954", Kind: "spark", Prefixes: []string{"mauss-1925"}},
 	{Key: "sperber-wilson-relevance", Title: "Relevance: Communication and Cognition", Author: "Dan Sperber and Deirdre Wilson", Edition: "Harvard UP / Blackwell, 1986; 2nd ed. 1995", Kind: "spark", Prefixes: []string{"sperber-wilson-1986"}},
-	{Key: "homer-odyssey", Title: "The Odyssey", Author: "Homer", Edition: "trans. William Cullen Bryant, 1871", Kind: "spark", Prefixes: []string{"homer-odyssey"}},
-	{Key: "marcus-aurelius-meditations", Title: "Meditations", Author: "Marcus Aurelius", Edition: "c. 170-180 CE", Kind: "spark", Prefixes: []string{"marcus-aurelius"}},
-	{Key: "grimm-kinder-und-hausmaerchen", Title: "Kinder- und Hausmärchen (Children's and Household Tales)", Author: "Jacob and Wilhelm Grimm", Edition: "1812", Kind: "spark", Prefixes: []string{"grimm-1812"}},
-	{Key: "mill-on-liberty", Title: "On Liberty", Author: "John Stuart Mill", Edition: "London: J.W. Parker & Son, 1859", Kind: "spark", Prefixes: []string{"mill-1859"}},
-	{Key: "wollstonecraft-vindication", Title: "A Vindication of the Rights of Woman", Author: "Mary Wollstonecraft", Edition: "1792", Kind: "spark", Prefixes: []string{"wollstonecraft-1792"}},
-	{Key: "darwin-origin-of-species", Title: "On the Origin of Species by Means of Natural Selection", Author: "Charles Darwin", Edition: "John Murray, 1859", Kind: "spark", Prefixes: []string{"darwin-1859"}},
-	{Key: "nietzsche-beyond-good-and-evil", Title: "Beyond Good and Evil", Author: "Friedrich Nietzsche", Edition: "1886", Kind: "spark", Prefixes: []string{"nietzsche-1886"}},
+	{Key: "homer-odyssey", Title: "The Odyssey", Author: "Homer", Edition: "trans. William Cullen Bryant, 1871", Kind: "spark", Prefixes: []string{"homer-odyssey"}, URL: "https://standardebooks.org/ebooks/homer/the-odyssey/william-cullen-bryant"},
+	{Key: "marcus-aurelius-meditations", Title: "Meditations", Author: "Marcus Aurelius", Edition: "c. 170-180 CE", Kind: "spark", Prefixes: []string{"marcus-aurelius"}, URL: "https://www.gutenberg.org/ebooks/2680"},
+	{Key: "grimm-kinder-und-hausmaerchen", Title: "Kinder- und Hausmärchen (Children's and Household Tales)", Author: "Jacob and Wilhelm Grimm", Edition: "1812", Kind: "spark", Prefixes: []string{"grimm-1812"}, URL: "https://www.gutenberg.org/ebooks/5314"},
+	{Key: "mill-on-liberty", Title: "On Liberty", Author: "John Stuart Mill", Edition: "London: J.W. Parker & Son, 1859", Kind: "spark", Prefixes: []string{"mill-1859"}, URL: "https://www.gutenberg.org/ebooks/34901"},
+	{Key: "wollstonecraft-vindication", Title: "A Vindication of the Rights of Woman", Author: "Mary Wollstonecraft", Edition: "1792", Kind: "spark", Prefixes: []string{"wollstonecraft-1792"}, URL: "https://www.gutenberg.org/ebooks/3420"},
+	{Key: "darwin-origin-of-species", Title: "On the Origin of Species by Means of Natural Selection", Author: "Charles Darwin", Edition: "John Murray, 1859", Kind: "spark", Prefixes: []string{"darwin-1859"}, URL: "https://www.gutenberg.org/ebooks/1228"},
+	{Key: "nietzsche-beyond-good-and-evil", Title: "Beyond Good and Evil", Author: "Friedrich Nietzsche", Edition: "1886", Kind: "spark", Prefixes: []string{"nietzsche-1886"}, URL: "https://www.gutenberg.org/ebooks/4363"},
 	{Key: "nimzowitsch-my-system", Title: "My System", Author: "Aron Nimzowitsch", Edition: "1925; 21st Century Edition, ed. Lou Hays, 1991", Kind: "spark", Prefixes: []string{"nimzowitsch-1925"}},
-	{Key: "kant-groundwork", Title: "Fundamental Principles of the Metaphysic of Morals (Groundwork)", Author: "Immanuel Kant", Edition: "1785", Kind: "spark", Prefixes: []string{"kant-1785"}},
+	{Key: "kant-groundwork", Title: "Fundamental Principles of the Metaphysic of Morals (Groundwork)", Author: "Immanuel Kant", Edition: "1785", Kind: "spark", Prefixes: []string{"kant-1785"}, URL: "https://www.gutenberg.org/ebooks/5682"},
 	{Key: "schelling-strategy-of-conflict", Title: "The Strategy of Conflict", Author: "Thomas C. Schelling", Edition: "Harvard UP, 1960", Kind: "spark", Prefixes: []string{"schelling-1960"}},
-	{Key: "truth-narrative", Title: "Narrative of Sojourner Truth", Author: "Sojourner Truth (as told to Olive Gilbert)", Edition: "1850", Kind: "spark", Prefixes: []string{"truth-1850"}},
+	{Key: "truth-narrative", Title: "Narrative of Sojourner Truth", Author: "Sojourner Truth (as told to Olive Gilbert)", Edition: "1850", Kind: "spark", Prefixes: []string{"truth-1850"}, URL: "https://www.gutenberg.org/ebooks/1674"},
 	{Key: "turchin-ages-of-discord", Title: "Ages of Discord: A Structural-Demographic Analysis of American History", Author: "Peter Turchin", Edition: "Beresta Books, 2016", Kind: "spark", Prefixes: []string{"turchin-2017"}},
 	{Key: "drucker-practice-of-management", Title: "The Practice of Management", Author: "Peter F. Drucker", Edition: "Harper & Brothers, 1954", Kind: "spark", Prefixes: []string{"drucker-1954"}},
 	{Key: "americas-test-kitchen-science-of-good-cooking", Title: "The Science of Good Cooking", Author: "The Editors at America's Test Kitchen and Guy Crosby", Edition: "America's Test Kitchen, 2012", Kind: "spark", Prefixes: []string{"americas-test-kitchen"}},
@@ -217,14 +223,16 @@ var sparkCandidates = []readingOrderSource{
 	// never entered reach/threshold computation and were invisible even in
 	// "Further reading". Found 2026-08-31 when a reader asked why
 	// Machiavelli and Marx were missing from the tab.
-	{Key: "machiavelli-the-prince", Title: "The Prince", Author: "Niccolò Machiavelli", Edition: "1513", Kind: "spark", Prefixes: []string{"machiavelli-1513-the-prince"}},
+	{Key: "machiavelli-the-prince", Title: "The Prince", Author: "Niccolò Machiavelli", Edition: "1513, trans. W. K. Marriott, 1908", Kind: "spark", Prefixes: []string{"machiavelli-1513-the-prince"}, URL: "https://www.gutenberg.org/ebooks/1232"},
 	// marx-1867-capital / marx-1867-capital-vol-i-part-viii: same gap.
 	// Distinct from the unrelated marx-2022-status-and-culture-* slugs
 	// elsewhere in the corpus, which cite W. David Marx's *Status and
 	// Culture* (2020) -- a same-surname collision in the citation-text
 	// convention, not the same author.
-	{Key: "marx-capital", Title: "Capital: A Critique of Political Economy, Volume I", Author: "Karl Marx", Edition: "1867, trans. Moore & Aveling, ed. Engels", Kind: "spark", Prefixes: []string{"marx-1867-capital"}},
-	{Key: "marx-engels-communist-manifesto", Title: "The Communist Manifesto", Author: "Karl Marx and Friedrich Engels", Edition: "1848", Kind: "spark", Prefixes: []string{"marx-engels-1848-communist-manifesto"}},
+	// Not on Gutenberg -- marxists.org's own edition text confirms the same
+	// Moore & Aveling translation the corpus cites.
+	{Key: "marx-capital", Title: "Capital: A Critique of Political Economy, Volume I", Author: "Karl Marx", Edition: "1867, trans. Moore & Aveling, ed. Engels", Kind: "spark", Prefixes: []string{"marx-1867-capital"}, URL: "https://www.marxists.org/archive/marx/works/1867-c1/"},
+	{Key: "marx-engels-communist-manifesto", Title: "The Communist Manifesto", Author: "Karl Marx and Friedrich Engels", Edition: "1848", Kind: "spark", Prefixes: []string{"marx-engels-1848-communist-manifesto"}, URL: "https://www.gutenberg.org/ebooks/61"},
 }
 
 func allSources() []readingOrderSource {

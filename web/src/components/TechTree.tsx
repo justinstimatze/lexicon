@@ -259,7 +259,7 @@ export function TechTree() {
               <div className="font-mono text-[10px] tracking-[0.1em] text-ink-faint uppercase">
                 {TIER_LABELS[tier] ?? `Era ${tier + 1}`}
               </div>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-x-2 gap-y-5">
                 {nodes.map((n) => {
                   const isSelected = selected?.key === n.key
                   const isNeighbor = !isSelected && (connected?.nodeKeys.has(n.key) ?? false)
@@ -303,10 +303,10 @@ export function TechTree() {
                           }}
                           title={kidsCollapsed ? "show further keystones" : "collapse further keystones"}
                           className={
-                            "absolute -top-2 -right-2 z-10 rounded-full border px-1.5 py-0.5 font-mono text-[9px] tracking-wide whitespace-nowrap transition " +
+                            "absolute -top-2 -right-2 z-10 rounded-full border px-1.5 py-0.5 font-mono text-[9px] tracking-wide whitespace-nowrap shadow-[0_1px_3px_rgba(0,0,0,0.5)] transition " +
                             (kidsCollapsed
                               ? "border-rule-light bg-bg-well text-ink-faint hover:border-primary/60 hover:text-primary"
-                              : "border-primary/60 bg-primary/15 text-primary")
+                              : "border-primary bg-primary text-accent-ink hover:bg-accent-soft")
                           }
                         >
                           {kids.length} further
