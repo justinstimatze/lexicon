@@ -489,7 +489,12 @@ function NodeDetail({ node, onSelect }: { node: Selectable; onSelect: (n: Select
       <div className="mb-3 text-ink-dim">
         {node.author} — {node.edition}
       </div>
-      {node.note && <div className="mb-3 text-[12px] text-ink-dim italic">{node.note}</div>}
+      {node.note && (
+        <div className="mb-3">
+          <div className="mb-1 font-mono text-[10px] tracking-[0.08em] text-ink-faint uppercase">Note</div>
+          <div className="text-[12px] text-ink-dim italic">{node.note}</div>
+        </div>
+      )}
       <dl className="mb-4 grid grid-cols-2 gap-x-4 gap-y-1 font-mono text-[11px] text-ink-faint">
         <dt>atoms drawn</dt>
         <dd className="text-ink-dim">{node.atom_count}</dd>

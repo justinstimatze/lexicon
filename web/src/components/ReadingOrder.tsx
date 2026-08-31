@@ -83,6 +83,10 @@ function SourceCard({
       tabIndex={0}
       onClick={() => onOpen(node.key)}
       onKeyDown={(e) => {
+        // Only the card's own keydown, not one bubbled up from the
+        // checkbox or the read-it link -- otherwise Space to toggle
+        // "read" also pops the drawer open as an unrelated side effect.
+        if (e.target !== e.currentTarget) return
         if (e.key === "Enter" || e.key === " ") {
           e.preventDefault()
           onOpen(node.key)
@@ -122,7 +126,12 @@ function SourceCard({
         {node.atom_count} atom{node.atom_count === 1 ? "" : "s"} drawn · cited back by {node.reach} other{" "}
         {node.reach === 1 ? "source" : "sources"} in this list
       </span>
-      {node.note && <span className="text-[11px] text-ink-dim italic">{node.note}</span>}
+      {node.note && (
+        <span className="text-[11px] text-ink-dim italic">
+          <span className="not-italic text-ink-faint">Note: </span>
+          {node.note}
+        </span>
+      )}
       {node.url ? (
         <a
           href={node.url}
@@ -280,6 +289,10 @@ function FurtherCard({
       tabIndex={0}
       onClick={() => onOpen(node.key)}
       onKeyDown={(e) => {
+        // Only the card's own keydown, not one bubbled up from the
+        // checkbox or the read-it link -- otherwise Space to toggle
+        // "read" also pops the drawer open as an unrelated side effect.
+        if (e.target !== e.currentTarget) return
         if (e.key === "Enter" || e.key === " ") {
           e.preventDefault()
           onOpen(node.key)
@@ -309,7 +322,12 @@ function FurtherCard({
         {node.atom_count} atom{node.atom_count === 1 ? "" : "s"} drawn · leaned on by {node.total_in_degree} atoms
         corpus-wide
       </span>
-      {node.note && <span className="text-[11px] text-ink-dim italic">{node.note}</span>}
+      {node.note && (
+        <span className="text-[11px] text-ink-dim italic">
+          <span className="not-italic text-ink-faint">Note: </span>
+          {node.note}
+        </span>
+      )}
       {node.url ? (
         <a
           href={node.url}
