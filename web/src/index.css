@@ -16,6 +16,7 @@
     --color-ink-faint: var(--ink-faint);
     --color-rule: var(--rule);
     --color-rule-light: var(--rule-light);
+    --color-rule-state: var(--rule-state);
     --color-accent-soft: var(--accent-soft);
     --color-accent-ink: var(--accent-ink);
     --color-sidebar-ring: var(--sidebar-ring);
@@ -68,9 +69,15 @@
     --bg-well: #120f0b;
     --ink: #ede2ce;
     --ink-dim: #9c8b6d;
-    --ink-faint: #8e7e62;
+    --ink-faint: #988769;
     --rule: #3d3223;
     --rule-light: #4d4030;
+    /* rule-light sits at 1.9:1 on bg-well, fine for a decorative hairline
+       but under WCAG 1.4.11's 3:1 floor for a border that IS the state
+       signal (further-pill/badge dotted vs solid). rule-state is that
+       token, scoped to those interactive borders only -- widening
+       rule-light itself would brighten every ambient rule on the page. */
+    --rule-state: #766249;
     --accent: #d97b3f;
     --accent-soft: #b8672f;
     --accent-ink: #1a1108;

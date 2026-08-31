@@ -238,7 +238,7 @@ export const TechTree = forwardRef<TechTreeHandle>(function TechTree(_props, ref
           <span className="inline-block h-2.5 w-2.5 border border-dashed border-ink-dim" /> keystone
         </span>
         <span className="flex items-center gap-1.5">
-          <span className="inline-block h-2 w-4 rounded-full border border-dotted border-rule-light bg-bg-well" /> further
+          <span className="inline-block h-2 w-4 rounded-full border border-dotted border-rule-state bg-bg-well" /> further
           keystone (satellite, no line — see note below)
         </span>
       </div>
@@ -339,9 +339,12 @@ export const TechTree = forwardRef<TechTreeHandle>(function TechTree(_props, ref
                           }}
                           title={kidsCollapsed ? "show further keystones" : "collapse further keystones"}
                           className={
-                            "absolute -top-2 -right-2 z-10 rounded-full border px-1.5 py-0.5 font-mono text-[9px] tracking-wide whitespace-nowrap shadow-[0_1px_3px_rgba(0,0,0,0.5)] transition " +
+                            // py-1.5 (not the -0.5 elsewhere) clears the WCAG
+                            // 2.5.8 24px touch-target floor -- this badge
+                            // measured 19.5px tall before.
+                            "absolute -top-2 -right-2 z-10 rounded-full border px-1.5 py-1.5 font-mono text-[9px] tracking-wide whitespace-nowrap shadow-[0_1px_3px_rgba(0,0,0,0.5)] transition " +
                             (kidsCollapsed
-                              ? "border-rule-light bg-bg-well text-ink-faint hover:border-primary/60 hover:text-primary"
+                              ? "border-rule-state bg-bg-well text-ink-faint hover:border-primary/60 hover:text-primary"
                               : "border-primary bg-primary text-accent-ink hover:bg-accent-soft")
                           }
                         >
@@ -421,7 +424,9 @@ function FurtherPill({
       type="button"
       onClick={() => onSelect(node)}
       title={label}
-      className="max-w-[190px] truncate rounded-full border border-dotted border-rule-light bg-bg-well px-2 py-0.5 font-mono text-[9.5px] text-ink-dim transition hover:border-primary/60 hover:text-primary"
+      // py-1.5, not the -0.5 the pill shipped with -- clears the WCAG
+      // 2.5.8 24px touch-target floor (measured 20.25px tall before).
+      className="max-w-[190px] truncate rounded-full border border-dotted border-rule-state bg-bg-well px-2 py-1.5 font-mono text-[9.5px] text-ink-dim transition hover:border-primary/60 hover:text-primary"
     >
       {node.title}
     </button>
