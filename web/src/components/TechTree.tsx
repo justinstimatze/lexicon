@@ -65,8 +65,14 @@ function bySolidFirst(a: ReadingOrderEdge, b: ReadingOrderEdge) {
 // render/cmd/lexicon/cmd_reading_order.go). Scaffolds-from covers 877 of
 // 3664 atoms as of 2026-08-30, so most solid edges are still the proxy;
 // each renders honestly rather than looking equally confirmed.
+type Selectable = ReadingOrderNode | ReadingOrderFurther
+
+function isTreeNode(n: Selectable): n is ReadingOrderNode {
+  return "tier" in n
+}
+
 export function TechTree() {
-  const [selected, setSelected] = useState<ReadingOrderNode | null>(null)
+  const [selected, setSelected] = useState<Selectable | null>(null)
   const [showDashed, setShowDashed] = useState(false)
   // Further-satellites show by default (empty set); a node's own key goes
   // in here only once someone collapses that specific cluster.
@@ -132,7 +138,7 @@ export function TechTree() {
     return visible >= NODE_WIDTH * 2 ? visible : undefined
   }
 
-  function selectNode(n: ReadingOrderNode) {
+  function selectNode(n: Selectable) {
     setSelected(n)
     setAvailableWidth(computeAvailableWidth())
   }
@@ -297,7 +303,7 @@ export function TechTree() {
                           }}
                           title={kidsCollapsed ? "show further keystones" : "collapse further keystones"}
                           className={
-                            "absolute -top-2 -right-2 rounded-full border px-1.5 py-0.5 font-mono text-[9px] tracking-wide whitespace-nowrap transition " +
+                            "absolute -top-2 -right-2 z-10 rounded-full border px-1.5 py-0.5 font-mono text-[9px] tracking-wide whitespace-nowrap transition " +
                             (kidsCollapsed
                               ? "border-rule-light bg-bg-well text-ink-faint hover:border-primary/60 hover:text-primary"
                               : "border-primary/60 bg-primary/15 text-primary")
@@ -309,7 +315,7 @@ export function TechTree() {
                       {kids.length > 0 && !kidsCollapsed && (
                         <div className="mt-1.5 flex flex-wrap gap-1">
                           {kids.map((f) => (
-                            <FurtherPill key={f.key} node={f} />
+                            <FurtherPill key={f.key} node={f} isSelected={selected?.key === f.key} onSelect={selectNode} />
                           ))}
                         </div>
                       )}
@@ -331,21 +337,46 @@ export function TechTree() {
   )
 }
 
-function FurtherPill({ node }: { node: ReadingOrderFurther }) {
+// Selecting a satellite (click opens the same detail drawer a tree node
+// opens, via onSelect) also promotes it to full node size in place -- same
+// dimensions and layout as a real node, but a dotted border rather than
+// core's solid or keystone's dashed, so the moment of focus doesn't read
+// as "this just became a tree member." The read-it link, if any, lives in
+// the drawer now (matching a tree node's own behavior) rather than on the
+// pill itself.
+function FurtherPill({
+  node,
+  isSelected,
+  onSelect,
+}: {
+  node: ReadingOrderFurther
+  isSelected: boolean
+  onSelect: (n: Selectable) => void
+}) {
   const label = `${node.title} — ${node.author}`
-  const className =
-    "max-w-[190px] truncate rounded-full border border-rule-light bg-bg-well px-2 py-0.5 font-mono text-[9.5px] text-ink-dim transition hover:border-primary/60 hover:text-primary"
-  if (node.url) {
+  if (isSelected) {
     return (
-      <a href={node.url} target="_blank" rel="noreferrer" title={label} className={className}>
-        {node.title}
-      </a>
+      <button
+        type="button"
+        onClick={() => onSelect(node)}
+        title={label}
+        style={{ width: NODE_WIDTH, height: NODE_HEIGHT }}
+        className="flex flex-col justify-center overflow-hidden rounded-sm border border-dotted border-primary bg-bg-raised px-2 py-1 text-left ring-2 ring-primary ring-offset-1 ring-offset-bg-well transition"
+      >
+        <span className="truncate text-[11px] font-semibold text-foreground">{node.title}</span>
+        <span className="truncate text-[10px] text-ink-faint">{node.author}</span>
+      </button>
     )
   }
   return (
-    <span title={label} className={className}>
+    <button
+      type="button"
+      onClick={() => onSelect(node)}
+      title={label}
+      className="max-w-[190px] truncate rounded-full border border-rule-light bg-bg-well px-2 py-0.5 font-mono text-[9.5px] text-ink-dim transition hover:border-primary/60 hover:text-primary"
+    >
       {node.title}
-    </span>
+    </button>
   )
 }
 
@@ -360,7 +391,7 @@ function EdgeList({
   edges: ReadingOrderEdge[]
   side: "from" | "to"
   empty: string
-  onSelect: (n: ReadingOrderNode) => void
+  onSelect: (n: Selectable) => void
 }) {
   return (
     <div>
@@ -398,12 +429,14 @@ function EdgeList({
   )
 }
 
-function NodeDetail({ node, onSelect }: { node: ReadingOrderNode; onSelect: (n: ReadingOrderNode) => void }) {
-  const primedBy = data.edges.filter((e) => e.to === node.key).sort(bySolidFirst)
-  const primesNext = data.edges.filter((e) => e.from === node.key).sort(bySolidFirst)
+function NodeDetail({ node, onSelect }: { node: Selectable; onSelect: (n: Selectable) => void }) {
+  const tree = isTreeNode(node)
+  const primedBy = tree ? data.edges.filter((e) => e.to === node.key).sort(bySolidFirst) : []
+  const primesNext = tree ? data.edges.filter((e) => e.from === node.key).sort(bySolidFirst) : []
+  const parent = !tree && node.parent ? nodesByKey.get(node.parent) : undefined
   return (
     <div>
-      <div className="text-primary">{node.kind === "core" ? "core read" : "keystone"}</div>
+      <div className="text-primary">{tree ? (node.kind === "core" ? "core read" : "keystone") : "further keystone"}</div>
       <div className="mb-1 text-sm font-semibold text-foreground">{node.title}</div>
       <div className="mb-3 text-ink-dim">
         {node.author} — {node.edition}
@@ -412,27 +445,57 @@ function NodeDetail({ node, onSelect }: { node: ReadingOrderNode; onSelect: (n: 
       <dl className="mb-4 grid grid-cols-2 gap-x-4 gap-y-1 font-mono text-[11px] text-ink-faint">
         <dt>atoms drawn</dt>
         <dd className="text-ink-dim">{node.atom_count}</dd>
-        <dt>era</dt>
-        <dd className="text-ink-dim">{TIER_LABELS[node.tier] ?? node.tier}</dd>
-        <dt>cited back by</dt>
-        <dd className="text-ink-dim">{node.reach} other {node.reach === 1 ? "source" : "sources"} in this list</dd>
+        {tree && (
+          <>
+            <dt>era</dt>
+            <dd className="text-ink-dim">{TIER_LABELS[node.tier] ?? node.tier}</dd>
+            <dt>cited back by</dt>
+            <dd className="text-ink-dim">
+              {node.reach} other {node.reach === 1 ? "source" : "sources"} in this list
+            </dd>
+          </>
+        )}
+        {!tree && (
+          <>
+            <dt>leaned on by</dt>
+            <dd className="text-ink-dim">{node.total_in_degree} atoms corpus-wide</dd>
+          </>
+        )}
       </dl>
-      <div className="mb-4 flex flex-col gap-4">
-        <EdgeList
-          title="Primed by"
-          edges={primedBy}
-          side="from"
-          empty="Nothing else in this list primes this — a root."
-          onSelect={onSelect}
-        />
-        <EdgeList
-          title="Primes next"
-          edges={primesNext}
-          side="to"
-          empty="Nothing forward from here yet — an endpoint in this tree."
-          onSelect={onSelect}
-        />
-      </div>
+      {tree ? (
+        <div className="mb-4 flex flex-col gap-4">
+          <EdgeList
+            title="Primed by"
+            edges={primedBy}
+            side="from"
+            empty="Nothing else in this list primes this — a root."
+            onSelect={onSelect}
+          />
+          <EdgeList
+            title="Primes next"
+            edges={primesNext}
+            side="to"
+            empty="Nothing forward from here yet — an endpoint in this tree."
+            onSelect={onSelect}
+          />
+        </div>
+      ) : (
+        parent && (
+          <div className="mb-4">
+            <div className="mb-1 font-mono text-[10px] tracking-[0.08em] text-ink-faint uppercase">Attached to</div>
+            <button
+              type="button"
+              onClick={() => onSelect(parent)}
+              className="text-left text-[12px] leading-snug text-foreground hover:text-primary hover:underline"
+            >
+              {parent.title}
+            </button>
+            <div className="mt-1 text-[11px] text-ink-faint italic">
+              Corpus-wide association, not a confirmed prerequisite — this source lost the tree-reach cut.
+            </div>
+          </div>
+        )
+      )}
       {node.url ? (
         <a
           href={node.url}
