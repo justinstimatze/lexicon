@@ -19,6 +19,34 @@ set -euo pipefail
 
 REPO_ROOT="$(git rev-parse --show-toplevel)"
 
+# Skill-frontmatter guard: a project skill at .claude/skills/<dir>/SKILL.md
+# needs name: <dir> in its frontmatter, or Claude Code never registers it as
+# an invocable skill. Confirmed 2026-08-31: lex/SKILL.md had description:
+# only, no name:, and sat silently inert for 11 days -- looked finished, zero
+# errors anywhere, never fired. Runs unconditionally (not gated behind the
+# elements-relevant check below), since a skill commit rarely touches elements/.
+skill_files="$(git diff --cached --name-only --diff-filter=ACM)"
+skill_bad=0
+skill_report=""
+while IFS= read -r f; do
+    [[ -z "$f" ]] && continue
+    case "$f" in .claude/skills/*/SKILL.md) ;; *) continue ;; esac
+    skill_dir="$(basename "$(dirname "$f")")"
+    frontmatter="$(git show ":$f" 2>/dev/null | awk '/^---$/{c++; next} c==1')" || frontmatter=""
+    declared_name="$(printf '%s\n' "$frontmatter" | grep -E '^name:' | sed -E 's/^name:[[:space:]]*//' | head -1)" || declared_name=""
+    if [[ -z "$declared_name" ]]; then
+        skill_bad=1
+        skill_report+=$'\n  '"$f: missing name: field -- skill will not register"
+    elif [[ "$declared_name" != "$skill_dir" ]]; then
+        skill_bad=1
+        skill_report+=$'\n  '"$f: name: $declared_name does not match directory $skill_dir"
+    fi
+done <<< "$skill_files"
+if [[ "$skill_bad" == "1" ]]; then
+    echo "pre-commit BLOCKED: skill frontmatter guard$skill_report"
+    exit 1
+fi
+
 # Refs backup: refs/ is gitignored (~8GB of primary sources at this scale).
 # Incremental rsync to a sibling mirror dir — delta-only, so a typical
 # elements/-only commit is ms (rsync notices no changes); a procurement
