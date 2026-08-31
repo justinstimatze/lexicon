@@ -159,6 +159,19 @@ var sparkCandidates = []readingOrderSource{
 	{Key: "carse-finite-and-infinite-games", Title: "Finite and Infinite Games: A Vision of Life as Play and Possibility", Author: "James P. Carse", Edition: "Free Press, 1986", Kind: "spark", Prefixes: []string{"carse-1986-finite-and-infinite-games"}, URL: "https://bookshop.org/p/books/finite-and-infinite-games-james-carse/bd091bd7f22106b4"},
 	{Key: "hofstadter-godel-escher-bach", Title: "Gödel, Escher, Bach: An Eternal Golden Braid", Author: "Douglas R. Hofstadter", Edition: "Basic Books, 1979", Kind: "spark", Prefixes: []string{"hofstadter-1979-godel-escher-bach"}, URL: "https://bookshop.org/p/books/godel-escher-bach-an-eternal-golden-braid-douglas-r-hofstadter/12389924"},
 	{Key: "hofstadter-i-am-a-strange-loop", Title: "I Am a Strange Loop", Author: "Douglas R. Hofstadter", Edition: "Basic Books, 2007", Kind: "spark", Prefixes: []string{"hofstadter-2007"}, URL: "https://bookshop.org/p/books/i-am-a-strange-loop-douglas-r-hofstadter/f4ca6403106c6f64"},
+	// machiavelli-1513-the-prince-ch-6 / -ch-17: two atoms, real primary
+	// lineage, never registered as a candidate source at all -- so they
+	// never entered reach/threshold computation and were invisible even in
+	// "Further reading". Found 2026-08-31 when a reader asked why
+	// Machiavelli and Marx were missing from the tab.
+	{Key: "machiavelli-the-prince", Title: "The Prince", Author: "Niccolò Machiavelli", Edition: "1513", Kind: "spark", Prefixes: []string{"machiavelli-1513-the-prince"}},
+	// marx-1867-capital / marx-1867-capital-vol-i-part-viii: same gap.
+	// Distinct from the unrelated marx-2022-status-and-culture-* slugs
+	// elsewhere in the corpus, which cite W. David Marx's *Status and
+	// Culture* (2020) -- a same-surname collision in the citation-text
+	// convention, not the same author.
+	{Key: "marx-capital", Title: "Capital: A Critique of Political Economy, Volume I", Author: "Karl Marx", Edition: "1867, trans. Moore & Aveling, ed. Engels", Kind: "spark", Prefixes: []string{"marx-1867-capital"}},
+	{Key: "marx-engels-communist-manifesto", Title: "The Communist Manifesto", Author: "Karl Marx and Friedrich Engels", Edition: "1848", Kind: "spark", Prefixes: []string{"marx-engels-1848-communist-manifesto"}},
 }
 
 func allSources() []readingOrderSource {
