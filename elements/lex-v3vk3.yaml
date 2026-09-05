@@ -1,0 +1,21 @@
+id: lex-v3vk3
+name: quantify-cost-of-delay-to-make-tradeoffs-commensurable
+type-in: situation
+type-out: frame
+_tier: atomic
+agent-instruction: "When a decision trades schedule against scope, quality, or risk, don't debate the proxy variables directly — convert the time axis into a single dollar-per-week cost of delay first. Once schedule, scope, and risk are all expressed in the same currency, the trade-off stops being a philosophical argument and becomes arithmetic anyone can check."
+related: [lex-994yb, lex-tt6y5, lex-yyfx5]
+evokes: ["the-golden-key", "the-50-to-1-spread", "life-cycle-profit-impact"]
+lineage:
+  - source: primary
+    text: reinertsen-2016-principles-of-product-development-flow-ch2-cost-of-delay
+    citation: "Donald G. Reinertsen, The Principles of Product Development Flow: Second Generation Lean Product Development (Celeritas Publishing, 2nd ed. 2016), Ch.2 'The Economic View,' Principle E3 'The Principle of Quantified Cost of Delay.' Reinertsen opens the chapter with a diagnostic test: ask ten people on the same project to independently estimate the profit cost of a 60-day delay, and the typical spread of answers is 50 to 1 — evidence that without a shared cost-of-delay (COD) number, schedule/scope/risk trade-offs are being made on incommensurable, unverifiable intuition. Quantifying COD converts every trade-off (queues, batch size, variability, excess capacity) into one comparable currency, life-cycle profit impact."
+    quote: "[Reinertsen 2016, Ch.2, opening test:] 'Find 10 people working on the same development project. Ask them to independently estimate what it would cost the company, in pretax profit, if their project were 60 days late to market. Rank their answers from the highest to the lowest. In the last 20 years, the typical range of answers that I receive from people working on exactly the same project is 50 to 1.' [On the principle itself:] 'E3: The Principle of Quantified Cost of Delay: If you only quantify one thing, quantify the cost of delay. ... We simply have no business trading money for cycle time if we do not know the economic value of cycle time. ... Cost of delay is the golden key that unlocks many doors. It has an astonishing power to totally transform the mind-set of a development organization.' [On what quantification buys:] 'With an economic framework, we can normally bring this range down to 2 to 1, a 25-fold improvement.'"
+canonical-instances:
+  - "Reinertsen's own field example (Ch.2): releasing an immature product from the development lab to the factory early raises defect-correction cost from $2,000 to $20,000 but saves four weeks of cycle time — an argument nobody can resolve by philosophical debate ('should engineering finish first?') until both the schedule value and the cost increase are expressed in the same unit and compared directly."
+  - "The 50-to-1 to 2-to-1 spread reduction Reinertsen reports from organizations that actually adopt a quantified COD (Ch.2): the same underlying facts, the same people, an order-of-magnitude tighter estimate once forced into one shared currency."
+critical-questions:
+  - "Is the cost-of-delay figure itself defensible, or does quantifying a guess just launder unexamined intuition into false-precision arithmetic? Reinertsen's own answer (the Imperfection Principle) is that even an imperfect COD estimate beats no shared currency at all — but a wildly wrong COD can still produce a confidently wrong trade-off."
+  - "Does the decision genuinely trade time against another variable, or is COD being invoked for a decision where schedule isn't actually the binding constraint?"
+  - "Once quantified, is the COD number being kept current as the project's economics shift, or is a stale COD from project kickoff still driving decisions months later?"
+status: active

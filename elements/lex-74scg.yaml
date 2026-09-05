@@ -1,0 +1,21 @@
+id: lex-74scg
+name: shared-identity-and-resource-boundaries-precede-any-cooperative-rule
+type-in: situation
+type-out: structure
+_tier: atomic
+agent-instruction: "Before installing any other cooperative mechanism — monitoring, sanctions, collective choice — first make sure the group's own membership and the boundaries of what it's managing are unambiguous to everyone in it. Every other design principle presupposes an answer to 'who is in this group, and what exactly are we jointly responsible for?' — skip that and the other mechanisms have nothing stable to attach to."
+related: [lex-ak2nb, lex-p9dfj]
+evokes: ["Ostrom-design-principle-1", "who-is-in-this-group", "fluid-membership-with-clear-context"]
+lineage:
+  - source: primary
+    text: wilson-ostrom-cox-2013-generalizing-core-design-principles-boundaries
+    citation: "Elinor Ostrom's design principle 1, as restated in David Sloan Wilson, Elinor Ostrom, Michael E. Cox, 'Generalizing the core design principles for the efficacy of groups,' Journal of Economic Behavior & Organization 90S (2013): S21-S32, p.S22 (drawing on Ostrom 1990, Governing the Commons, Ch.3). The eight core design principles are individually restated in the paper's introduction before being re-derived from multilevel-selection theory in Section 3; principle 1 is the precondition the other seven presuppose — a cooperative mechanism needs a settled answer to who the members are and what resource or endeavor is jointly at stake before monitoring, sanctions, or collective-choice arrangements have anything determinate to apply to."
+    quote: "[Wilson, Ostrom & Cox 2013, p.S22:] '(1) Clearly defined boundaries. The identity of the group and the boundaries of the shared resource are clearly delineated.'"
+canonical-instances:
+  - "The West Side Community Collaborative, Buffalo (Oakerson and Clifton 2011, cited in Wilson, Ostrom & Cox 2013, p.S29): 'By limiting the range of the actions to [a] single block, and then moving on to neighboring blocks, the WSCC was able to make use of well understood boundaries to produce collective efforts' — the group's jurisdiction was scoped block by block rather than declared over the whole neighborhood at once, keeping the boundary legible at every stage."
+  - "Hunter-gatherer social organization, as the same paper notes (p.S22-S23): membership is fluid across contexts (the same men who hunt together may raid separately), yet within any one context — this hunting party, this raiding party — the boundary of who's in and what's shared is unambiguous; the clarity is per-context, not a single fixed roster."
+critical-questions:
+  - "Is the boundary actually clear to every member, or clear only to whoever set it up? A boundary nobody else can state precisely functions the same as no boundary."
+  - "Does a fluid or context-dependent membership (people belonging to several overlapping groups) get mistaken for an absent boundary, when the real test is whether each context's own boundary is clear while it's active?"
+  - "As the group or resource grows, has the boundary been re-drawn and re-communicated, or is everyone still operating on the original, now-stale, delineation?"
+status: active

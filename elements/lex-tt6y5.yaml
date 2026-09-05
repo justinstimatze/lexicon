@@ -1,0 +1,21 @@
+id: lex-tt6y5
+name: watch-the-idle-work-product-not-the-busy-worker
+type-in: situation
+type-out: frame
+_tier: atomic
+agent-instruction: "When hunting for waste in a process, stop watching whether people look busy — go find where the work itself is sitting idle in a queue between activities. In any process with real variability, the queue's cost almost always dwarfs whatever you'd save by pushing worker utilization a few points higher; manufacturing already learned this the hard way with inventory, and product development hasn't caught up yet."
+related: [lex-v3vk3]
+evokes: ["the-inactivity-principle", "motionless-work-products-not-motionless-engineers", "manufacturing-already-learned-this"]
+lineage:
+  - source: primary
+    text: reinertsen-2016-principles-of-product-development-flow-ch2-inactivity-principle
+    citation: "Donald G. Reinertsen, The Principles of Product Development Flow (2nd ed. 2016), Ch.2 'The Economic View,' Principle E5 'The Inactivity Principle.' Reinertsen contrasts product development's visible-activity bias (praising Toyota engineers for spending 80 percent of their time 'adding value') with manufacturing's own hard-won lesson that idle inventory, not idle machines, is the dominant source of waste — arguing product development has not yet made the same shift in what it watches."
+    quote: "[Reinertsen 2016, Ch.2:] 'E5: The Inactivity Principle: Watch the work product, not the worker. ... In product development, our greatest waste is not unproductive engineers, but work products sitting idle in process queues. ... In product development, value-added time is a proxy variable that interacts negatively with other proxy variables. ... when we increase value-added time in a process with variability, we will create queues. The cost of these queues is usually far greater than any efficiency savings that come from increasing the percent of value-added time. ... Today, we realize that inventory is the biggest source of waste in manufacturing. ... In product development, our problem is virtually never motionless engineers. It is almost always motionless work products.'"
+canonical-instances:
+  - "Reinertsen's own manufacturing-history parallel (Ch.2): managers once walked the factory floor worrying about idle machines and treated any output as better than idleness, which 'led to excess inventory, low quality, high overhead, and long cycle time' — until inventory itself, not machine idleness, was recognized as manufacturing's real waste."
+  - "The Toyota comparison Reinertsen cites and rejects as the wrong lesson (Ch.2): observers praising Toyota engineers for 80 percent value-added time miss that the actual lever is queue reduction, not activity-efficiency — a company could raise value-added time and still lose more to the queues that increase creates."
+critical-questions:
+  - "Is the observed 'inefficiency' actually idle engineers, or is it work sitting in a queue while engineers who look busy work on something else? These look identical from a headcount-utilization report and require different fixes."
+  - "Would pushing utilization higher to close the visible-activity gap increase queue size and cost more than it saves — has that trade-off actually been quantified, or is utilization being optimized on the assumption that busier is strictly better?"
+  - "Has the queue's cost been measured directly (cost of delay against the critical path), or is 'watch the work product' being adopted as a slogan without the quantification that makes the diagnosis actionable?"
+status: active

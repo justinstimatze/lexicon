@@ -1,0 +1,20 @@
+id: lex-n68tm
+name: correlate-functional-categories-not-their-many-implementations
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When testing whether a general design principle or practice predicts an outcome, don't correlate the outcome against any single specific implementation of it — pool every implementation that serves the same function into one category first, then correlate. A principle with many workable implementations will show a weak or null correlation against any one of them even when the underlying principle itself is strongly predictive."
+related: [lex-ak2nb, lex-p9dfj]
+evokes: ["ultimate-vs-proximate-causation", "aggregation-before-correlation", "Ostrom's-1990-database-null-result"]
+lineage:
+  - source: primary
+    text: wilson-ostrom-cox-2013-generalizing-core-design-principles
+    citation: "David Sloan Wilson, Elinor Ostrom, Michael E. Cox, 'Generalizing the core design principles for the efficacy of groups,' Journal of Economic Behavior & Organization 90S (2013): S21-S32, p.S26. Section 3.2 'The distinction between design principles and their implementations' explains why Ostrom's own analysis of her CPR database initially failed to find a correlation between institutional performance and specific practices, and why re-analyzing at the functional-category level succeeded. The distinction maps onto ultimate vs. proximate causation in evolutionary theory (Wilson and Gowdy, 2013): a design principle is the ultimate/functional-level cause, its specific implementation is the proximate/mechanistic-level cause, and the two stand in a one-to-many relationship."
+    quote: "[Wilson, Ostrom & Cox 2013, p.S26:] 'Any design principle, core or auxiliary, can be potentially implemented in more than one way. For example, monitoring can be accomplished by hiring a person to monitor, by taking turns, by installing surveillance cameras, and so on. ... The importance of distinguishing between design principles (ultimate causation) and their implementations (proximate causation) is illustrated by a problem that Ostrom encountered while analyzing her database of CPR groups (Ostrom, 1990). At first she tried to correlate the performance of the groups with specific implementations, without success. The reason is easy to understand in retrospect: If there are 10 successful ways to monitor (for example), then the correlation between any one way and group performance will be weak. Only when she combined different implementations into functional categories was she able to demonstrate a strong association between the design principles and group performance.'"
+canonical-instances:
+  - "Ostrom's own CPR-institution database (Ostrom 1990; cited in Wilson, Ostrom & Cox 2013, p.S26): correlating group performance against any single specific monitoring practice (a hired monitor, rotating self-monitoring, surveillance cameras) returned a weak, null-looking result; re-coding the same data by functional category ('is monitoring present, in any form') revealed the real, strong effect."
+critical-questions:
+  - "Do the candidate implementations actually serve the same function, or only look superficially similar? Pooling implementations that don't share a mechanism launders noise into a spurious correlation instead of revealing a real one."
+  - "Is a null result at the single-implementation level being read as disproof of the underlying principle, when it may only disprove that this one implementation is the one that matters?"
+  - "How many genuinely distinct implementations does the principle have? With only one or two, pooling adds little; with ten or more (Ostrom's own monitoring example), failing to pool all but guarantees a null result regardless of the true effect size."
+status: active

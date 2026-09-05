@@ -1,0 +1,21 @@
+id: lex-txyhz
+name: coordinate-nested-groups-at-each-spheres-own-optimal-scale
+type-in: structure
+type-out: frame
+_tier: atomic
+agent-instruction: "When a cooperative activity spans more than one scale (a block within a neighborhood within a city; a team within a division within a company), don't default to managing the whole thing at the largest scale, and don't leave each small scale fully autonomous either. Find the sphere-by-sphere optimal scale for each piece of the activity, let the lowest capable jurisdiction handle what fits it, and build explicit coordination between the scales for what doesn't."
+related: [lex-ak2nb, lex-spa4p]
+evokes: ["Ostrom-design-principle-8", "subsidiarity", "polycentric-governance"]
+lineage:
+  - source: primary
+    text: wilson-ostrom-cox-2013-generalizing-core-design-principles-polycentric-governance
+    citation: "Elinor Ostrom's design principle 8, as restated in Wilson, Ostrom & Cox 2013, 'Generalizing the core design principles for the efficacy of groups,' Journal of Economic Behavior & Organization 90S (2013): S21-S32, p.S22 (drawing on Ostrom 1990, Governing the Commons, Ch.3, and Vincent Ostrom, Tiebout & Warren 1961's original polycentric-governance analysis). Section 5 (p.S29-S30) extends this to argue there is 'no viable alternative to polycentric governance' once a modern society's countless spheres of activity are recognized as each having a different optimal scale."
+    quote: "[Wilson, Ostrom & Cox 2013, p.S22:] '(8) For groups that are part of larger social systems, there must be appropriate coordination among relevant groups. Every sphere of activity has an optimal scale. Large scale governance requires finding the optimal scale for each sphere of activity and appropriately coordinating the activities, a concept called polycentric governance (McGinnis, 1999). A related concept is subsidiarity, which assigns governance tasks by default to the lowest jurisdiction, unless this is explicitly determined to be ineffective.'"
+canonical-instances:
+  - "The West Side Community Collaborative, Buffalo (Oakerson and Clifton 2011, cited p.S29): block clubs handled block-level upkeep and monitoring, while the city's Housing Court supplied strong sanctions the blocks themselves had no authority to impose — 'the layered nature of the urban commons requires more than a single level of collective organization.'"
+  - "The Design Your Own Park competition, Binghamton (Wilson 2011c, cited p.S29-S30): neighborhood groups design and run individual parks, while the Mayor's Office, City Council, and Parks Department supply the city-scale infrastructure (land, funding processes, cross-neighborhood coordination) no single neighborhood group could provide for itself."
+critical-questions:
+  - "Has the optimal scale for this specific sphere of activity actually been identified, or is the scale just whatever the org chart already has in place?"
+  - "When a lower jurisdiction is handling a task by subsidiarity's default, is there an actual mechanism for escalating to a higher jurisdiction when the lower one is demonstrably failing — or does 'lowest jurisdiction by default' become 'lowest jurisdiction no matter what'?"
+  - "Are the coordination mechanisms BETWEEN scales, not just within each scale, explicit and functioning, or does each scale operate in isolation with coordination assumed rather than built?"
+status: active

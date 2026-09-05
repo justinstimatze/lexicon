@@ -1,0 +1,21 @@
+id: lex-spa4p
+name: zero-defection-payoff-forces-cooperation-as-sole-strategy
+type-in: structure
+type-out: state
+_tier: atomic
+agent-instruction: "When designing a cooperative institution, don't just add positive incentives for group-serving behavior — check whether the combined design (proportional cost/benefit sharing, collective-choice input, monitoring, graduated sanctions) has actually closed off the payoff advantage of defecting. Only once no member can systematically benefit at others' expense does group-serving behavior stop being a virtue you have to urge and become the only strategy left standing."
+related: [lex-ak2nb, lex-cat29, lex-p9dfj, lex-txyhz]
+evokes: ["a-major-evolutionary-transition", "between-group-selection-unopposed", "the-genie-and-the-neighbor's-two-eyes"]
+lineage:
+  - source: primary
+    text: wilson-ostrom-cox-2013-generalizing-core-design-principles
+    citation: "David Sloan Wilson, Elinor Ostrom, Michael E. Cox, 'Generalizing the core design principles for the efficacy of groups,' Journal of Economic Behavior & Organization 90S (2013): S21-S32, p.S26 (synthesis) and p.S25 (the multilevel-selection mechanics the synthesis rests on). Section 2.2 establishes that within-group selection rewards RELATIVE fitness, not absolute fitness, illustrated by the authors' folk-tale of a genie granting a wish on condition the neighbor gets double. Section 3's closing synthesis argues that Ostrom's eight design principles, taken together, eliminate the within-group payoff differential that would otherwise reward defection, which is what allows between-group cooperative selection to operate unopposed."
+    quote: "[Wilson, Ostrom & Cox 2013, p.S25, on relative-fitness logic:] 'The logic of maximizing relative fitness within groups is captured by a folk tale in which a genie offers a man a wish, with the provision that his neighbor will get double. \"Put out one of my eyes\", the man replies.' [p.S26, the design-principles synthesis:] 'To summarize, when a group possesses the core design principles, the opportunities for some members to benefit at the expense of others become extremely limited. Succeeding as a group becomes the only remaining option. This is the basic requirement for a major evolutionary transition in any species.'"
+canonical-instances:
+  - "The paper's own genie folk-tale (p.S25): a man asks to have one of his own eyes put out rather than let his neighbor's reward exceed his — a stylized illustration of how RELATIVE, not absolute, payoff drives within-group behavior absent any design-principle correction."
+  - "The West Side Community Collaborative, Buffalo (Oakerson and Clifton 2011, cited pp.S28-S29): once proportional cost/benefit, monitoring, and graduated sanctions were in place block by block, 'holdout' property owners who tried to free-ride on neighbors' reinvestment 'profited little and were forced to exit' — the defection payoff was closed off, not merely discouraged."
+critical-questions:
+  - "Has the design actually closed the payoff gap, or only reduced it? A residual defection advantage, even a small one, leaves defection still locally dominant — the mechanism requires the differential to be extremely limited, not merely smaller."
+  - "Is 'succeeding as a group becomes the only remaining option' true for every member, or only for the median member — could a subgroup still find an exploitable residual advantage the design missed?"
+  - "Does this collapse into lex-p9dfj's designed-procedural-friction if applied to a market-externality context instead of a within-group evolutionary-selection context? Keep them distinct: lex-p9dfj re-internalizes an externalized cost; this atom eliminates a within-group fitness differential — related mechanisms, different registers (economic-externality vs. evolutionary-selection)."
+status: active

@@ -1,0 +1,21 @@
+id: lex-pa7hy
+name: self-made-rules-earn-compliance-imposed-rules-earn-resistance
+type-in: situation
+type-out: posture
+_tier: atomic
+agent-instruction: "When a group needs rules to govern its own shared activity, let the members draft and consent to at least some of those rules themselves rather than handing down a complete rulebook from outside or above. People resist being told what to do even when the content of the rule is reasonable, and work hard for a goal they helped set even when it's demanding — the authorship of the rule changes how much enforcement it needs."
+related: [lex-9manj, lex-ak2nb, lex-d486g]
+evokes: ["Ostrom-design-principle-3", "consensus-decision-making", "people-hate-being-told-what-to-do"]
+lineage:
+  - source: primary
+    text: wilson-ostrom-cox-2013-generalizing-core-design-principles-collective-choice
+    citation: "Elinor Ostrom's design principle 3, as restated in Wilson, Ostrom & Cox 2013, 'Generalizing the core design principles for the efficacy of groups,' Journal of Economic Behavior & Organization 90S (2013): S21-S32, p.S22 (drawing on Ostrom 1990, Governing the Commons, Ch.3). Section 3 (p.S25-S26) adds the mechanism: consensus decision-making is itself a group-level adaptation, since members will not agree to arrangements that place them at a disadvantage — self-authorship is what converts a rule from an imposition into a commitment."
+    quote: "[Wilson, Ostrom & Cox 2013, p.S22:] '(3) Collective-choice arrangements. Group members must be able to create at least some of their own rules and make their own decisions by consensus. People hate being told what to do but will work hard for group goals that they have agreed upon.'"
+canonical-instances:
+  - "The Good Behavior Game (Embry 2002, cited p.S27): 'Even first graders are able to list the appropriate dos and don'ts, but the important fact is that they are creating their lists and not lists arbitrarily imposed upon them by the teacher and school' — the same behavioral norms, adopted by consensus rather than announced, are what makes the program work at scale."
+  - "The Sudbury Valley School (Gray and Chanoff 1986, cited p.S27-S28): 'the governance of the school is scrupulously democratic, with students taking part in all of the major decisions, including hiring and firing of faculty' — a school-scale collective-choice arrangement, not a classroom-scale one."
+critical-questions:
+  - "Is the group actually creating its own rules, or is it being consulted on rules whose real content was already decided elsewhere — cosmetic consensus rather than genuine collective choice?"
+  - "Does consensus decision-making degrade as the group scales past the size where everyone can meaningfully participate in drafting the rules, and if so, has representative or nested collective choice replaced it rather than quietly reverting to imposed rules?"
+  - "For a rule genuinely imposed from outside (a legal requirement, a safety regulation) — can the group still exercise collective choice over HOW it complies, even when it can't choose WHETHER to comply?"
+status: active

@@ -1,0 +1,21 @@
+id: lex-d486g
+name: institutional-scaffolding-substitutes-for-absent-natural-cooperation
+type-in: situation
+type-out: posture
+_tier: atomic
+agent-instruction: "Before building out Ostrom's full monitoring-and-sanctions apparatus to secure cooperation in a new group, check whether genealogical kinship, already-proven mutual trust, or a shared emergency with trivial defection payoff is already doing the work — any one of these secures cooperation on its own, and the full design-principle scaffolding on top is unneeded overhead. Reserve the scaffolding for the common case: non-relatives, unproven trust, ordinary non-emergency stakes."
+related: [lex-ak2nb, lex-pa7hy, lex-uz7yv]
+evokes: ["kin-altruism-as-a-free-substitute", "trivial-defection-incentive", "the-dire-emergency-exemption"]
+lineage:
+  - source: primary
+    text: wilson-ostrom-cox-2013-generalizing-core-design-principles
+    citation: "David Sloan Wilson, Elinor Ostrom, Michael E. Cox, 'Generalizing the core design principles for the efficacy of groups,' Journal of Economic Behavior & Organization 90S (2013): S21-S32, p.S26. Section 3.1 'Clarifying the concept of core design principles' names the design principles as one of several possible routes to strong between-group cooperative selection, not a universal requirement — genealogical relatedness, proven mutual altruism, and dire-emergency conditions with trivial defection incentive can each secure cooperation on their own, without any of the eight design principles being present."
+    quote: "[Wilson, Ostrom & Cox 2013, p.S26:] 'The core principles are not required for between-group selection to operate strongly, as long as other factors intervene. For example, groups whose members are closely related genealogically, or who have amply demonstrated their altruistic tendencies to each other, are likely to cooperate without requiring monitoring, sanctions, and so on. Emergency situations that result in huge benefits of cooperation and trivial incentives to cheat likewise do not require some of the core design principles. ... Nevertheless, we think that the core design principles are still useful to keep in mind because they apply to most human groups whose members are not close relatives, proven friends, or coping with a dire emergency. In many human social situations, the core design principles are required to accomplish shared objectives.'"
+canonical-instances:
+  - "Ancestral raiding or hunting parties composed of kin and long-proven campmates, as the paper's own hunter-gatherer discussion frames it: cooperation holds without formal monitoring or sanctions, because relatedness and demonstrated track record already do the work the design principles would otherwise have to supply."
+  - "The paper's own contrasting case studies — the Regent Academy (at-risk 9th/10th-graders, strangers to each other and to staff, ordinary daily stakes) and the West Side Community Collaborative (Buffalo property owners, non-kin, no shared emergency) — both required the full design-principle apparatus (identity, monitoring, graduated sanctions, conflict resolution) precisely because none of kinship, proven trust, or dire emergency was present to substitute for it."
+critical-questions:
+  - "Is the group actually kin, proven-trusted, or facing a dire trivial-defection-incentive emergency — or does it only feel that way because members have been cooperating smoothly so far? Smooth cooperation can also mean the scaffolding is already invisibly in place, not that it's unneeded."
+  - "If one of the three substitute conditions weakens over time (kin drift apart, trust erodes, the emergency passes), does the group have design-principle scaffolding ready, or will cooperation collapse when the free substitute disappears?"
+  - "Is 'this group doesn't need the overhead' being used to justify skipping monitoring and sanctions for a group that is actually just non-kin strangers with ordinary stakes — the paper's stated common case where the principles ARE required?"
+status: active

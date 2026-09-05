@@ -1,0 +1,20 @@
+id: lex-vjuhn
+name: a-shared-exchange-rate-lets-control-skip-participation
+type-in: situation
+type-out: structure
+_tier: atomic
+agent-instruction: "When many people must make small trade-off decisions fast — weight vs. cost, speed vs. quality, scope vs. schedule — don't route every one through a central approver. Compute the single system-level-correct exchange rate once, hand it down as a decision rule, and let people trade freely against it. You keep control of the economics without touching a single decision, and you remove the queue of decisions waiting on your desk."
+related: [lex-p9dfj]
+evokes: ["control-without-participation", "the-boeing-777-weight-for-dollars-rule", "5000-engineers-trading-without-asking"]
+lineage:
+  - source: primary
+    text: reinertsen-2016-principles-of-product-development-flow-ch2-decision-rules
+    citation: "Donald G. Reinertsen, The Principles of Product Development Flow (2nd ed. 2016), Ch.2 'The Economic View,' Principle E13 'The First Decision Rule Principle.' Reinertsen's worked example is Boeing's weight-for-cost trade-off on the 777 program: rather than route every subsystem's weight/cost trade-off through a central authority, or leave each subsystem to negotiate its own locally-optimal-but-globally-inconsistent trade rate from unequal initial allocations, Boeing computed one system-level-correct exchange rate and distributed authority to trade against it."
+    quote: "[Reinertsen 2016, Ch.2, on the Boeing 777:] 'Boeing calculated a decision rule for trading off weight and unit cost, a rule that was correct at the system level. Any designer was authorized to increase unit cost by up to $300, by making design changes or material substitutions, to save a pound of weight. As a result, Boeing had 5,000 engineers making system-level optimum trade-offs without the need to ask for permission from their superiors. ... The intrinsic elegance of this approach is that the superiors didn't actually give up control over the decision. Instead, they recognized that they could still control the decision without participating in it. They simply had to control the economic logic of the decision. Control without participation is control without decision-making delays.'"
+canonical-instances:
+  - "Boeing 777 weight-for-cost decision rule (Reinertsen 2016, Ch.2): 5,000 engineers each authorized to spend up to $300 in unit cost to save one pound of weight, with no individual approval required, because the exchange rate itself was already set correct at the system level."
+critical-questions:
+  - "Is the distributed exchange rate actually correct at the system level, or was it set once under conditions that have since shifted? A stale rate distributed widely does more damage than a slow central approval, because it's now wrong in thousands of places instead of one."
+  - "Does everyone trading against the rule understand what it's protecting against, or will an unanticipated combination of many small locally-correct trades still produce a system-level bad outcome the rate didn't anticipate?"
+  - "Is this actually a single, clean exchange rate, or are there hidden multiple objectives being traded that a one-dimensional rate can't honestly capture — in which case the delegation is papering over a decision that still needs judgment, not arithmetic?"
+status: active
