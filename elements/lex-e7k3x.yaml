@@ -1,0 +1,23 @@
+id: lex-e7k3x
+name: a-norm-holds-only-when-violating-it-costs-the-violators-own-side
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When judging whether a norm will actually stop a violation in progress, don't count the opposition's resistance — count whether the violator's own side is willing to pay a cost over it. Opposition resistance is expected and, on its own, usually survivable; a leader backed by a unified coalition can absorb it indefinitely. Levitsky and Ziblatt's own two clearest 'the guardrails held' cases both turn on defection from the violator's own side, not the opposing party: 'But the norm held. Roosevelt's court-packing plan faced greater opposition than any other initiative undertaken during his presidency. It was opposed not only by Republicans but by the press, prominent lawyers and judges, and a surprisingly large number of fellow Democrats. Within months, the proposal was dead—killed by a Congress dominated by Roosevelt's own party.' ... 'Although Nixon held out hope that he could muster up the 34 Republican votes needed to avoid a Senate conviction, Senate Republicans sent Barry Goldwater to inform him of the inevitability of impeachment. When Nixon asked Goldwater how many votes he had, Goldwater reportedly replied, 'Ten at most, maybe less.' Two days later, Nixon resigned.' In every one of the book's failure cases — Peru, Venezuela, Hungary — the enabling body stayed unified behind the leader with no internal defection at all. A norm survives specifically when its violation costs the violator support from people who share their side, not merely when it draws predictable opposition from people who never supported them."
+related: [lex-cahck, lex-dvb4u, lex-ygwne]
+evokes: [levitsky-ziblatt-2018-how-democracies-die, fdr-court-packing-defeated-by-own-party, goldwater-ten-votes-at-most, mccarthy-censure-vote]
+lineage:
+  - source: primary
+    text: levitsky-ziblatt-2018-how-democracies-die-ch6-the-guardrails-held-via-own-party-defection
+    citation: "Steven Levitsky & Daniel Ziblatt, How Democracies Die (Crown, 2018), Chapter 6 'The Unwritten Rules of American Politics,' on FDR's 1937 court-packing defeat and Nixon's 1974 resignation."
+    quote: "'But the norm held. Roosevelt's court-packing plan faced greater opposition than any other initiative undertaken during his presidency. It was opposed not only by Republicans but by the press, prominent lawyers and judges, and a surprisingly large number of fellow Democrats. Within months, the proposal was dead—killed by a Congress dominated by Roosevelt's own party.' ... 'Although Nixon held out hope that he could muster up the 34 Republican votes needed to avoid a Senate conviction, Senate Republicans sent Barry Goldwater to inform him of the inevitability of impeachment. When Nixon asked Goldwater how many votes he had, Goldwater reportedly replied, 'Ten at most, maybe less.' Two days later, Nixon resigned.'"
+canonical-instances:
+  - "FDR's 1937 court-packing plan was killed by a Congress his own party controlled, at the peak of his personal popularity — he had just been reelected with 61 percent of the vote, the largest mandate in American history to that point, and it still wasn't enough to survive his own coalition's refusal to go along."
+  - "Nixon resigned within two days of learning his own remaining Senate Republican support had collapsed to 'ten at most, maybe less' — not when Democrats first called for his removal, which they had been doing for months without effect."
+  - "Joseph McCarthy's 1954 Senate censure required, and got, Republican votes against a sitting Republican senator — the same red-baiting tactic his own party's leadership (Taft, then Eisenhower) had tolerated and actively used while it still won them elections."
+critical-questions:
+  - "Can in-group defection be encouraged deliberately ahead of a violation, or is it only ever observable after the fact, once someone has already decided the cost is worth paying?"
+  - "All three instances involve a violator whose own side still had functioning internal channels — primaries, censure votes, a free press within their own coalition — capable of registering disapproval. Does the mechanism require those channels to exist, meaning a party with no internal dissent left standing is immune to it regardless of how far a violation goes?"
+  - "Nixon faced both opposition pressure and in-group defection at once. Is in-group defection doing independent causal work, or is it better read as the signal that opposition pressure has finally become too costly for the violator's own side to keep ignoring, rather than a separate mechanism in its own right?"
+status: active
+severity-tier: info
