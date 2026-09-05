@@ -1,0 +1,20 @@
+id: lex-bgwkr
+name: internal-status-hierarchies-persist-under-shared-marginalization
+type-in: state
+type-out: claim
+_tier: atomic
+agent-instruction: "When a group shares a common marginalized status, don't assume that shared position produces solidarity or a flattened internal hierarchy. Members often need to feel superior to some other kind of member of the same broader out-group, and rank each other by proximity to whatever the majority currently finds most acceptable - so the most stigmatized subgroup within a marginalized population can face harsher judgment from insiders than from outside it. Naming this dynamic explicitly, rather than assuming solidarity is automatic, helps explain internal policing that would otherwise look irrational, including in yourself."
+related: [lex-2gtzb]
+evokes: ["tiffanys-law", "a-freaks-a-freak-so-who-cares-what-kind", "making-things-harder-for-the-rest-of-us-girls"]
+lineage:
+  - source: primary
+    text: wynn-2020-shame-contrapoints-tiffanys-law
+    citation: "Natalie Wynn, 'Shame' (ContraPoints, YouTube, published 2020-02-16). Wynn names the mechanism directly as 'Tiffany's Law' while explaining why coming out as a lesbian felt harder for her than coming out as trans, then implicates herself in it by confessing to having privately judged more visibly nonconforming trans lesbians."
+    quote: "'I would like to propose a sociological theory. Tiffany's Law: all freaks have a deep psychological need to feel superior to a different type of freak. And trans lesbians are pretty close to the bottom of that pecking order.' ... [self-implicating instance:] 'At my worst, I would sit there telling another trans person, Why are trans lesbians so cringey? They're making things harder for the rest of us girls.'"
+canonical-instances:
+  - "Wynn's own confessed judgment of other trans lesbians' public self-presentation, by her own account made while sharing the exact marginalized category (trans, lesbian) she was ranking within - offered as a first-person instance of the mechanism, not just an observation about other people."
+critical-questions:
+  - "Is the ranking actually about respectability to the dominant majority, as Wynn frames it, or could it be ordinary in-group status competition that would occur even without an external majority watching at all?"
+  - "Does naming and confessing to the dynamic, as Wynn does on camera, actually reduce it going forward, or does public self-implication mostly function as its own kind of status move within the same hierarchy it describes?"
+  - "Wynn generalizes from one marginalized population (trans people) to 'all freaks' - is the mechanism actually general across different kinds of stigmatized groups, or does it depend on specific features of how that particular community's respectability politics work?"
+status: active
