@@ -4,7 +4,7 @@ type-in: question
 type-out: process
 _tier: molecule
 agent-instruction: "When two desired properties are in contradiction, decompose the parameter that's actually in tension. The contradiction often reduces to a single parameter that needs to be split in time, in space, or in context. Find the parameter; the split follows."
-related: [lex-3d2he, lex-4xcqa, lex-63agu, lex-73m95, lex-75nw3, lex-94nsz, lex-975pa, lex-9hapj, lex-aj89z, lex-cpjma, lex-dk7dq, lex-ds73b, lex-duz8k, lex-et8q2, lex-hkn3v, lex-jbegr, lex-kfzr2, lex-krh3b, lex-pbdbb, lex-spk4s, lex-stppu, lex-tghq5, lex-ts7f6, lex-uq4xw, lex-wdeje, lex-xr5f5, lex-yg484]
+related: [lex-3d2he, lex-4xcqa, lex-63agu, lex-73m95, lex-75nw3, lex-7ea49, lex-94nsz, lex-975pa, lex-9hapj, lex-aj89z, lex-cpjma, lex-dk7dq, lex-ds73b, lex-duz8k, lex-et8q2, lex-hkn3v, lex-jbegr, lex-kfzr2, lex-krh3b, lex-pbdbb, lex-spk4s, lex-stppu, lex-tghq5, lex-ts7f6, lex-uq4xw, lex-wdeje, lex-xr5f5, lex-yg484]
 scaffolds-from: [lex-ds73b, lex-spk4s, lex-wdeje, lex-hkn3v]
 evokes: [find-the-conflict-then-dissolve-it, look-up-the-pattern-in-the-matrix, triz-method, what-two-things-cant-coexist]
 decomposes-into:
@@ -39,10 +39,15 @@ lineage:
   - source: practitioner
     text: triz-decomposition-pass
     citation: "worked example assembling 3 of the 4 atoms newly promoted in this pass (lex-spk4s, lex-wdeje directly; lex-ds73b from physics pass); names the TRIZ meta-method as a coherent molecule. Uses sequential() and choice() composition operations — choice now at 3 attestations (lex-bpr6b, lex-sjsxx, this), triggering choice's promotion to first-class entry in a follow-up pass"
+  - source: primary
+    text: americas-test-kitchen-crosby-2012-science-of-good-cooking-concept-21-sugar-timing
+    citation: "The Editors at America's Test Kitchen and Guy Crosby, The Science of Good Cooking (America's Test Kitchen, 2012), Concept 21, 'Whipped Egg Whites Need Stabilizers.' A measured, non-pedagogical instance of the molecule's own time-based separation method: sugar stabilizes a whipped-egg-white foam but also blocks the protein cross-linking that builds the foam in the first place, so the contradiction is resolved by timing its addition rather than by dropping either requirement."
+    quote: "'Sugar, however, interferes with the ability of proteins to cross-link. If it's added too early, fewer proteins will bond and trap air, resulting in a foam that is less voluminous.' ... 'The key is to add sugar only when the whites have been whipped enough to gain some volume but still have enough free water left in them to dissolve the sugar completely.'"
 canonical-instances:
   - "widely-taught TRIZ-pedagogy example, not sourced to Altshuller's own text: a furnace wall must be thin (for thermal efficiency) AND thick (for strength); a variable-thickness wall, thin where thermal flow matters and thick where structural load is, dissolves the apparent contradiction because the parameters were assumed to apply uniformly across the wall. Altshuller's own Principle 15 example (a welding electrode bent along its length so its shape changes optimally at each stage of the weld) makes the same move — repositioning parts so the object is optimal locally rather than uniformly — with a different object."
   - "software analogue: an API must be expressive (for power) AND minimal (for ease-of-use). Apply Principle #1 Segmentation (layered API: minimal core + expressive optional layers) — the contradiction was assumed-uniform"
   - "operationally distinct from lex-ftke9 work-backwards-from-goal: working backwards starts from the desired end-state; contradiction-resolution starts from a NAMED conflict between two desired properties. Both can be combined sequentially (work-backwards to the goal, identify the contradiction, apply principle)"
   - "the LEFT-OUT step: TRIZ's contradiction matrix encodes empirical findings about which principles work for which contradictions; this molecule's choice() arm is named as 'contradiction-matrix-lookup' but the matrix itself is content not yet in the substrate. A future pass could mine the matrix's 39×39 cells as content-data, but it would be lookup-table material rather than atomic-cognitive-move material"
+  - "measured kitchen-science instance, no invented pedagogy needed: whipping egg whites requires proteins to cross-link into a foam, but sugar — needed afterward to keep that same foam from collapsing — blocks cross-linking if present from the start. Neither requirement is dropped; the contradiction resolves by timing alone, adding the sugar only once cross-linking already has a head start, just before the soft-peak stage."
 severity-tier: info
 status: active

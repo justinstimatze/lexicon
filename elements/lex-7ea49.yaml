@@ -1,0 +1,22 @@
+id: lex-7ea49
+name: preload-the-resource-a-coming-stressor-will-deplete
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When something is about to face a depleting stress — meat about to be cooked, an athlete about to race, any system about to face a known draw-down — check whether you can load extra of the exact resource that stress is going to consume, before the stress starts, rather than planning to replace the loss once it's underway. America's Test Kitchen's explanation of why brining works: 'It all comes down to the reshaping of protein molecules in the meat—a task taken on by the salt in the brine. This reshaping helps the proteins to hold on to the added water, even after the meat is cooked.' ... 'This rearrangement of the protein molecules creates gaps that fill up with water. More than that: The salt actually dissolves some of the proteins, forming a gel capable of holding on to even more water.' The brine's work is already finished by the time cooking starts — it reshapes the meat's protein hours in advance, so what goes into the oven is already built to hold onto moisture that the coming heat would otherwise drive out. Before a depleting stress event, name the specific resource it will draw down. Then ask whether pre-loading extra of that resource, in a form built to resist the coming loss, is something you can still do now but won't be able to do once the stress begins."
+related: [lex-mnxhs, lex-cmwnj, lex-d4tdk, lex-becfq]
+evokes: [americas-test-kitchen-crosby-2012-science-of-good-cooking, brining, diffusion-and-osmosis, protein-reshaping, banking-a-resource-in-advance]
+lineage:
+  - source: primary
+    text: americas-test-kitchen-crosby-2012-science-of-good-cooking-concept-11-brining
+    citation: "The Editors at America's Test Kitchen and Guy Crosby, The Science of Good Cooking: Master 50 Simple Concepts to Enjoy a Lifetime of Success in the Kitchen (America's Test Kitchen, 2012), Concept 11, 'Brining Maximizes Juiciness in Lean Meats.'"
+    quote: "'It all comes down to the reshaping of protein molecules in the meat—a task taken on by the salt in the brine. This reshaping helps the proteins to hold on to the added water, even after the meat is cooked.' ... 'This rearrangement of the protein molecules creates gaps that fill up with water. More than that: The salt actually dissolves some of the proteins, forming a gel capable of holding on to even more water.'"
+canonical-instances:
+  - "The book's own opening case: two identical turkeys roasted the same way, one brined overnight and one not. The unbrined bird comes out dry, especially in the breast; the brined one holds firm and juicy, purely because of protein restructuring that finished hours before either bird ever saw the oven — nothing about the roasting itself differed."
+  - "Hypothetical: an ultramarathon runner front-loads fluid and electrolytes in the days before a race rather than relying on drinking during it. Once cramping or dehydration symptoms show up mid-race, more fluid slows the decline but can't retroactively give the tissue what pre-race loading would already have banked."
+critical-questions:
+  - "The book's own caution on brine strength applies here directly: too little salt and the effect barely happens; too much and water moves the wrong direction, out of the meat instead of in. Is there a general tuning problem behind this — a narrow window where pre-loading helps, with too little doing nothing and too much backfiring — or is that specific to the osmotic mechanism brining happens to use?"
+  - "Pre-loading takes time and effort spent before anyone knows the stress will actually arrive in the form expected. What happens when the resource pre-loaded turns out to be the wrong one — the stress depletes something else instead — and is there a way to hedge that risk without pre-loading against every possible stressor at once?"
+  - "Does pre-loading ever leave the object worse off if the stress never comes at all — an over-brined roast eaten before it needed to survive a long cook, a pre-charged battery degraded by sitting at full charge — or is the technique free whenever the stress is genuinely certain to arrive?"
+status: active
+severity-tier: info

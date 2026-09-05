@@ -4,7 +4,7 @@ type-in: situation
 type-out: composition
 _tier: atomic
 agent-instruction: "When a single technique or setting can't satisfy two conflicting requirements on the same object -- speed and intensity for one, patience and gentleness for the other -- don't compromise on a single setting; split the action into two techniques, one per requirement. Then treat the ORDER of those two techniques as its own variable to solve, not a default: it depends on a property of the specific object (its size, mass, or starting state), not on which requirement matters more in general. A small or thin object can usually take the intense technique first, since a short gentle pass afterward corrects what little damage accrued. A large, dense, or cold object may need the gentle technique first instead, because the intense technique alone would have to run so long to reach the object's core that its own side effect -- the very damage it exists to avoid -- compounds past what a gentle finishing pass could recover. Check which failure mode the intense technique would hit first against the specific object at hand, not the general case, before defaulting to whichever order is conventional."
-related: [lex-9xzrt]
+related: [lex-7ea49, lex-9xzrt]
 scaffolds-from: [lex-9xzrt]
 evokes: [americas-test-kitchen, guy-crosby, sear-then-roast, reverse-sear, stovetop-plus-oven, order-of-operations-depends-on-thermal-mass]
 lineage:
