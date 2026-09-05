@@ -1,0 +1,20 @@
+id: lex-q9jf4
+name: slang-trickles-up-from-the-margins-losing-meaning-as-it-climbs
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: "When tracking how a new word, style, or expression spreads through a culture, don't default to a trickle-down model where elites originate trends that filter to the masses. For American slang specifically, the origin point is usually the opposite end: new words are coined by the most marginalized people, then diffuse upward - first to other marginalized groups, then to more mainstream and privileged users. Track what gets lost at each step: the original context and meaning routinely erodes as a term climbs, and by the time it reaches the most privileged users, it usually carries little of the situation that produced it."
+related: [lex-zag6n]
+evokes: ["trickle-up-model-of-linguistics", "realness-versus-passing", "shon-faye-tragic-comic-disguise"]
+lineage:
+  - source: primary
+    text: wynn-2019-opulence-contrapoints-trickle-up-slang
+    citation: "Natalie Wynn, 'Opulence' (ContraPoints, YouTube, published 2019-10-12). Discussing the ballroom-scene-derived word 'realness' and its adoption by 'every white queer,' Wynn names the diffusion mechanism explicitly, then quotes writer Shon Faye on what the term loses in transit from its ballroom origin to generic usage."
+    quote: "[Wynn:] 'American slang works according to what we might call a trickle-up model of linguistics. All the new words are invented by the most marginalized gay and trans people of color. Then, those words trickle up to straight black people and white gays, and then finally, white cishets start using them. A lot of times, the original meaning or context gets lost along the way.' ... [quoting Shon Faye, on-screen caption elides the subject:] '[Realness] was not just a sassy byword for a convincing costume, but a tragic comic disguise of the chasm between what is being emulated and what is absent, namely, racial justice, class equality, and safety.'"
+canonical-instances:
+  - "'Realness' itself, per Wynn's own account: coined in 1980s Harlem ballroom culture by Black and Latino queer and trans participants to mean passing convincingly enough to expose, by the very difficulty of the performance, the racial and economic injustice that made the performed status unattainable in reality - a meaning Wynn says has been flattened, by the time 'every white queer' uses the word, into 'a generic trans notion of passing' with none of that political charge left."
+critical-questions:
+  - "Is the trickle-up direction actually general across all American slang, or is Wynn generalizing from the specific and well-documented case of ballroom/queer-of-color vocabulary (which she names explicitly) to a broader claim the video doesn't independently support?"
+  - "Does meaning-erosion happen at every step of the upward diffusion equally, or is there a specific point (e.g., mainstream media adoption) where most of the loss actually concentrates?"
+  - "If a marginalized-origin term retains its political charge even after wide adoption (unlike Wynn's 'realness' example), does that count against the erosion claim, or does it just mark an exception worth explaining separately?"
+status: active
