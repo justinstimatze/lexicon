@@ -1,0 +1,23 @@
+id: lex-z7qxa
+name: norm-breaking-is-neutral-what-matters-is-what-it-expands-or-narrows
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Don't treat 'this breaks precedent' as itself evidence that something dangerous is happening — the same act, deviating from an established norm, can be backsliding or progress depending on what it does to who's included, protected, or represented, not on the bare fact that a rule got broken. Levitsky and Ziblatt: 'Presidential norm breaking is not inherently bad. Many violations are innocuous.' ... 'Norm breaking can also be democratizing: In the 1840 presidential election, William Henry Harrison broke tradition by going out and campaigning among voters. The previous norm had been for candidates to avoid campaigning, preserving a Cincinnatus-like fiction that they harbored no personal ambition for power—but limiting voters' ability to get to know them.' ... 'Because societal values change over time, a degree of presidential norm breaking is inevitable—even desirable.' Theodore Roosevelt dining with Booker T. Washington broke the norm of segregation-era social etiquette and drew vicious backlash at the time — the same shape of act as anything on the book's own list of dangerous violations, distinguishable only by direction: it widened, rather than narrowed, who could be treated as a legitimate participant in political life. The diagnostic question is never 'was precedent violated' — it's 'what does this violation open up or shut down, and for whom.'"
+related: [lex-cahck, lex-dvb4u, lex-y2nej]
+evokes: [levitsky-ziblatt-2018-how-democracies-die, carter-walks-the-inaugural-route, harrison-1840-campaigning, roosevelt-dines-with-booker-t-washington, democratizing-norm-breaks]
+lineage:
+  - source: primary
+    text: levitsky-ziblatt-2018-how-democracies-die-ch8-norm-breaking-is-not-inherently-bad
+    citation: "Steven Levitsky & Daniel Ziblatt, How Democracies Die (Crown, 2018), Chapter 8 'Trump Against the Guardrails,' on presidential norm-breaking that democratized rather than damaged American politics."
+    quote: "'Presidential norm breaking is not inherently bad. Many violations are innocuous.' ... 'Norm breaking can also be democratizing: In the 1840 presidential election, William Henry Harrison broke tradition by going out and campaigning among voters. The previous norm had been for candidates to avoid campaigning, preserving a Cincinnatus-like fiction that they harbored no personal ambition for power—but limiting voters' ability to get to know them.' ... 'Because societal values change over time, a degree of presidential norm breaking is inevitable—even desirable.'"
+canonical-instances:
+  - "Jimmy Carter walked the 1977 inaugural parade route instead of riding in an armored limousine, a break the New York Daily News called 'an unprecedented departure from custom' — it became a lasting, harmless tradition rather than a crisis."
+  - "William Henry Harrison's 1840 decision to campaign directly among voters broke the fiction that candidates harbored no personal ambition for office — a norm-break that gave voters an actual look at who they were electing, instead of a name on a ballot standing in for a stranger."
+  - "Theodore Roosevelt's 1901 White House dinner with Booker T. Washington broke, in a historian's words, 'the prevailing social etiquette of white domination.' A newspaper called it 'the most damnable outrage which has ever been perpetrated,' and a sitting U.S. senator publicly hoped both men would 'realize the wisdom of abandoning their purpose to wipe out race lines' — the violation expanded who could be treated as a legitimate political actor, at real personal cost to Roosevelt at the time."
+critical-questions:
+  - "Is 'expands versus narrows inclusion' the right axis in every case, or does it only cleanly separate the book's three examples because all three happen to be about who gets political standing — would a norm-break unrelated to inclusion (a purely administrative or ceremonial change) need a different test entirely?"
+  - "Who gets to judge, in the moment, whether a given break expands or narrows? The Roosevelt dinner that reads as inclusive with a century of hindsight was condemned at the time by a sitting senator as an outrage. Does the diagnostic only work in retrospect, or is there a way to apply it before the consequences are actually known?"
+  - "Could a single violation expand inclusion for one group while narrowing legitimacy or protection for another at the same time — and if so, does the framework require picking one dominant axis to call the act progress or backsliding, or does it just mean some norm-breaks resist a clean verdict?"
+status: active
+severity-tier: info

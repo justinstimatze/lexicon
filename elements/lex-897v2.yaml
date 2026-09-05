@@ -1,0 +1,22 @@
+id: lex-897v2
+name: a-high-enough-violation-rate-overwhelms-case-by-case-correction
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When judging whether repeated norm violations will each draw a proportionate response, check the rate they're arriving at, not just their individual severity — a correction mechanism built to judge one violation at a time has a finite capacity, and enough volume defeats it regardless of how bad any single instance is. Levitsky and Ziblatt, citing Daniel Patrick Moynihan: 'Humans have a limited ability to cope with people behaving in ways that depart from shared standards. When unwritten rules are violated over and over, Moynihan observed, societies have a tendency to 'define deviancy down'—to shift the standard. What was once seen as abnormal becomes normal.' ... 'Trump's tweets may trigger outrage from the media, Democrats, and some Republicans, but the effectiveness of their responses is limited by the sheer quantity of violations. As Moynihan observed, in the face of widespread deviance, we become overwhelmed—and then desensitized. We grow accustomed to what we previously thought to be scandalous.' The failure isn't that any specific violation goes unpunished for being minor — the standard itself quietly moves to meet the violations, because relocating the standard is the only way an overwhelmed observer can stop experiencing every instance as a fresh scandal."
+related: [lex-dduw6, lex-dvb4u, lex-e7k3x, lex-5xsg2]
+evokes: [levitsky-ziblatt-2018-how-democracies-die, moynihan-1993-defining-deviancy-down, desensitization-by-volume, false-statement-every-day]
+lineage:
+  - source: primary
+    text: levitsky-ziblatt-2018-how-democracies-die-ch8-defining-deviancy-down
+    citation: "Steven Levitsky & Daniel Ziblatt, How Democracies Die (Crown, 2018), Chapter 8 'Trump Against the Guardrails,' citing Daniel Patrick Moynihan's 1993 concept of 'defining deviancy down.'"
+    quote: "'Humans have a limited ability to cope with people behaving in ways that depart from shared standards. When unwritten rules are violated over and over, Moynihan observed, societies have a tendency to 'define deviancy down'—to shift the standard. What was once seen as abnormal becomes normal.' ... 'Trump's tweets may trigger outrage from the media, Democrats, and some Republicans, but the effectiveness of their responses is limited by the sheer quantity of violations. As Moynihan observed, in the face of widespread deviance, we become overwhelmed—and then desensitized. We grow accustomed to what we previously thought to be scandalous.'"
+canonical-instances:
+  - "PolitiFact rated 69 percent of Trump's 2016 campaign statements 'mostly false,' 'false,' or 'pants on fire'; as president, the New York Times found he made at least one false or misleading public statement every single day of his first forty days in office — a rate no case-by-case fact-checking response could keep pace with, and the book notes his own supporters did not come to view him as dishonest over that period."
+  - "Hypothetical: a manager who occasionally arrives twenty minutes late draws a pointed conversation every time it happens; a manager who starts arriving late every single day stops drawing any comment at all within a few weeks — not because lateness became acceptable in the abstract, but because nobody has the standing or energy to raise it daily, and 'on time' quietly redefines itself around whenever they actually show up."
+critical-questions:
+  - "Is there a threshold rate at which case-by-case correction reliably breaks down, or does it vary entirely with how much slack the correcting institution has — attention, enforcement capacity, political will — meaning the identical violation rate could overwhelm one system and leave another unaffected?"
+  - "Moynihan's own examples (rising crime, single-parent families) were slow, multi-decade shifts; Trump's rate was daily. Does the mechanism require any particular timescale, or does it work the same whether the volume arrives over years or over weeks, with only total throughput relative to correction capacity mattering?"
+  - "Once a standard has been redefined downward by sheer volume, does reducing the violation rate again reverse it, or does the redefinition become sticky — a new floor that persists even after the original flood of violations stops?"
+status: active
+severity-tier: info
