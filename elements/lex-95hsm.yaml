@@ -1,0 +1,20 @@
+id: lex-95hsm
+name: extend-the-pause-in-proportion-to-the-coming-surprise
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When delivering a beat that depends on surprising an audience — a punchline, a plot twist, a reveal — don't hold pauses at a uniform length regardless of what's coming next. Extend the pause specifically before the moments carrying the largest content surprise, and keep the pace tighter everywhere else. A live-comedy dataset shows this differential coupling, not pause length on average, is what separates expert delivery from amateur delivery: experts lengthen the pre-surprise pause by roughly half again as much as less successful performers do."
+related: [lex-65p3n, lex-k5hgu, lex-xfsbm]
+evokes: ["dual-prediction-violation-framework", "828-chinese-stand-up-performances", "temporal-scaffolding-of-semantic-surprise"]
+lineage:
+  - source: primary
+    text: ma-2026-timing-is-everything-temporal-scaffolding-of-humor-strategic-coupling
+    citation: "Yuxi Ma, Yongqian Peng, Junchen Lyu, Chi Zhang & Yixin Zhu, 'Timing is Everything: Temporal Scaffolding of Semantic Surprise in Humor' (arXiv:2605.00143, accepted CogSci 2026). The paper analyzes 828 professional Chinese stand-up comedy performances (2017-2025) via timestamped ASR transcripts, measuring pause duration/variability, speech rate, and sentence-to-sentence semantic distance (embedding-based). The 'Strategic Coupling' section tests whether comedians differentially lengthen pauses before high- versus low-surprise sentence pairs within each performer's own set (top/bottom 20% of semantic distance), and whether that differential itself scales with overall performance success (top vs. bottom 20% of audience vote rate)."
+    quote: "[Results, 'Strategic Coupling: Timing and Content':] 'Across all performances, pauses were 35.6% longer before high-surprise content compared to low-surprise transitions. Critically, high-performing comedians showed stronger timing-content coupling (41.2% pause increase) than low-performing comedians (27.4% increase).' [and, on the group breakdown:] 'High-performing comedians demonstrated steeper timing modulation (see Fig. 5b): mean pauses increased from 1.14s (low-surprise) to 1.61s (high-surprise), a 41.2% increase. Low-performing comedians showed weaker modulation, with pauses increasing from 0.84s to 1.07s, only a 27.4% increase. This interaction demonstrates that strategic timing-content coupling is not merely a stylistic choice but may be a marker of comedic expertise.'"
+canonical-instances:
+  - "The paper's own sentence-level analysis (Results, Strategic Coupling): within each comedian's own set, the top-20%-semantic-distance sentence pairs get pauses averaging 1.37s beforehand versus 1.01s before the bottom-20%-distance pairs - and this gap itself is roughly 50% larger among top-vote-rate performers (41.2% increase) than among bottom-vote-rate performers (27.4% increase), an interaction confirmed by two-way ANOVA (F(1,3274)=4.23, p=0.040)."
+critical-questions:
+  - "Is the differential coupling actually a deliberate performer choice, or could harder-to-formulate surprising material simply take longer to deliver regardless of intent - the authors themselves flag this as one of three interpretations their correlational data can't distinguish?"
+  - "Does this transfer outside stand-up comedy specifically - the paper's own future-directions section names improvisation, sketch comedy, music, rhetoric, and storytelling as untested extensions, not confirmed ones?"
+  - "The coupling was measured within-performance, relative to each comedian's own baseline distribution of surprise levels - does the technique still make sense as advice for someone without an existing act to calibrate 'high surprise' against?"
+status: active
