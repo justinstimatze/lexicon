@@ -4,7 +4,7 @@ type-in: claim
 type-out: posture
 _tier: atomic
 agent-instruction: "When forecasting an outcome (project duration, policy effect, business success, geopolitical event, personal-life decision), do not start from the case's specific details (inside view). Start from a reference class of comparable cases and their base rates (outside view). Ask: how often do things of this sort happen in situations of this sort? Only THEN adjust for what distinguishes the specific case. Inside-view-only forecasting chronically underestimates duration and difficulty (planning fallacy) and overestimates success-probability because the forecaster's narrative is anchored on the case's apparent uniqueness rather than on the empirical record of similar cases. Diagnostic intervention: before issuing any forecast, name the reference class you'd assign the case to, look up or estimate the base rate, then justify any deviation from that base rate."
-related: [lex-chp44, lex-rcj6y, lex-2rsad, lex-fr9gf, lex-vkhp7, lex-2rpxq, lex-y48fs, lex-hbanm, lex-nx7u7, lex-4d53x, lex-tmy67, lex-s7jjg, lex-s7qxv, lex-ythes, lex-a55ep, lex-rqbsr, lex-kyc5a, lex-5f2nj]
+related: [lex-2rpxq, lex-2rsad, lex-4d53x, lex-5f2nj, lex-a55ep, lex-chp44, lex-fr9gf, lex-hbanm, lex-kyc5a, lex-nx7u7, lex-rcj6y, lex-rqbsr, lex-s7jjg, lex-s7qxv, lex-tmy67, lex-vkhp7, lex-w4x7b, lex-y48fs, lex-ythes]
 scaffolds-from: [lex-vkhp7, lex-a55ep]
 evokes: [outside-view, reference-class-forecasting, kahneman-lovallo-1993, tetlock-gardner-2015, superforecasting, planning-fallacy, base-rate-neglect, flyvbjerg-megaprojects, peter-backus-fermi-estimate, larry-summers-correction-factor, how-often-do-things-of-this-sort-happen, anchor-on-base-rate-not-on-narrative]
 lineage:
