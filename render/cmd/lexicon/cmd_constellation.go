@@ -86,7 +86,15 @@ func reorderFlagsFirst(args []string) []string {
 	var flags, positional []string
 	for i := 0; i < len(args); i++ {
 		a := args[i]
-		if strings.HasPrefix(a, "--") || strings.HasPrefix(a, "-") {
+		// A bare "-" is the read/distinctness stdin sentinel, a positional
+		// argument -- it happens to start with "-" too, which made this
+		// function misclassify it as a flag token. That left it sitting at
+		// the front of the reordered slice (a "flag" with nothing to move
+		// ahead of), so flag.Parse still stopped there and silently dropped
+		// every real flag typed after it on the command line: `read -
+		// --detail` never applied --detail. Confirmed via sough's
+		// 2026-09-03 feedback doc and reproduced live before this fix.
+		if a != "-" && (strings.HasPrefix(a, "--") || strings.HasPrefix(a, "-")) {
 			flags = append(flags, a)
 			// If it's --flag value (no = and not a bool-styled --flag=true),
 			// pull the next token too. This is a heuristic — bool flags don't

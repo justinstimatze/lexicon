@@ -22,6 +22,7 @@ func cmdRead(renderDir string, args []string) {
 	noExplain := fl.Bool("no-explain", false, "skip the plain-language translator (print structured markdown instead). DEPRECATED: prefer --format markdown")
 	format := fl.String("format", "json", "output format: json (default, agent-consumable), markdown (structured), plain (markdown + LLM translator)")
 	detail := fl.Bool("detail", false, "(json format) include critical_questions and the full 6-neighbor adjacency list. Default omits critical_questions and caps adjacencies at 3 — leaner per-call payload.")
+	args = reorderFlagsFirst(args)
 	_ = fl.Parse(args)
 
 	rest := fl.Args()
