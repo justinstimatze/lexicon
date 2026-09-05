@@ -1,0 +1,22 @@
+id: lex-vh2wh
+name: self-interested-risk-aversion-can-substitute-for-principled-gatekeeping
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a system reliably filters out a harmful outcome, don't assume the people running the filter are personally committed to the value it protects — check whether ordinary self-interest is doing the work instead. Levitsky and Ziblatt on why pre-1968 party conventions kept demagogues off the ballot: 'But backroom candidate selection had a virtue that is often forgotten today: It served a gatekeeping function, keeping demonstrably unfit figures off the ballot and out of office. To be sure, the reason for this was not the high-mindedness of party leaders. Rather, party 'bosses,' as their opponents called them, were most interested in picking safe candidates who could win. It was, above all, their risk aversion that led them to avoid extremists.' The filter held for over a century for one specific reason: nominating an extremist was a losing electoral bet, and losing was the one outcome party leaders actually wanted to avoid. Democracy's survival never had to enter into it. A protective effect built on someone else's self-interest is real while the incentive holds — the open question is always what happens to the filter the moment the incentive stops pointing the same direction."
+related: [lex-cahck, lex-dvb4u, lex-gt9kt, lex-mmxs8]
+evokes: [levitsky-ziblatt-2018-how-democracies-die, organization-men, backroom-candidate-selection, risk-averse-party-bosses, safe-candidates-who-could-win]
+lineage:
+  - source: primary
+    text: levitsky-ziblatt-2018-how-democracies-die-ch2-risk-aversion-not-high-mindedness
+    citation: "Steven Levitsky & Daniel Ziblatt, How Democracies Die (Crown, 2018), Chapter 2 'Gatekeeping in America,' on the pre-1968 party-convention nominating system."
+    quote: "'But backroom candidate selection had a virtue that is often forgotten today: It served a gatekeeping function, keeping demonstrably unfit figures off the ballot and out of office. To be sure, the reason for this was not the high-mindedness of party leaders. Rather, party 'bosses,' as their opponents called them, were most interested in picking safe candidates who could win. It was, above all, their risk aversion that led them to avoid extremists.'"
+canonical-instances:
+  - "The book's own case: Ford, Long, and Wallace each commanded real followings by contemporary polling, yet the 'organization men' who controlled convention delegates blocked all three — not from any special reverence for democratic norms, but because backing them was judged too risky a bet to win a general election."
+  - "Hypothetical: a corporate audit committee rejects an aggressive but technically legal tax-avoidance scheme. No one on the committee holds a principled view on fair taxation; what actually worries them is that getting caught would tank the stock they personally hold. The filter against overreach works the same regardless of whether anyone in the room believes in the value it happens to protect."
+critical-questions:
+  - "The book's later chapters describe exactly the failure case: once a party's base starts rewarding extremism, or a faction decides losing control matters more than losing an election, backing the extremist stops being the risky choice and the filter should be expected to fail. Does the historical case actually predict its own collapse, or is that read backward from knowing what happened next?"
+  - "From outside, is there any way to tell whether a given filter is running on self-interest or on genuine commitment to the value it protects, before the incentive shifts and reveals which one it was?"
+  - "Does a filter built on self-interest end up more durable than one built on principle — it needs no one's virtue, only a stable incentive — or less durable, since it holds only as long as that specific incentive structure does and offers nothing once it changes?"
+status: active
+severity-tier: info
