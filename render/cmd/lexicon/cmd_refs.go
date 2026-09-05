@@ -45,6 +45,7 @@ func cmdRefs(renderDir string, args []string) {
 	asJSON := fl.Bool("json", false, "JSON output (default: text)")
 	all := fl.Bool("all", false, "include bulk corpora subdirectories")
 	limit := fl.Int("limit", 20, "max hits (0 = all)")
+	args = reorderFlagsFirst(args)
 	_ = fl.Parse(args)
 
 	query := strings.Join(fl.Args(), " ")

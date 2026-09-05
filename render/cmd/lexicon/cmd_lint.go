@@ -36,6 +36,7 @@ func cmdLint(renderDir string, args []string) {
 		fmt.Fprintln(os.Stderr, "Flags:")
 		fl.PrintDefaults()
 	}
+	args = reorderFlagsFirst(args)
 	_ = fl.Parse(args)
 
 	elementsDir := filepath.Join(renderDir, "..", "elements")
@@ -450,8 +451,8 @@ func sortedKeysIfMissing(from, target map[string]bool) []string {
 //   - error:   self-reference (an atom listing itself is a structural bug)
 //   - warning: dangling reference (target atom not in elements)
 //   - info:    same-tradition + same-derived-tier targets (probably belong
-//             in related[] — symmetric clustering — not in the directed
-//             pedagogical-scaffolding field)
+//     in related[] — symmetric clustering — not in the directed
+//     pedagogical-scaffolding field)
 //
 // Cycles are checked separately by scaffoldsFromCycleCheck (cross-atom
 // pass). Cycles emit info, not warning — mutually-priming pairs are

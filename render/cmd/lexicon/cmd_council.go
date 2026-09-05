@@ -24,6 +24,7 @@ func cmdCouncil(renderDir string, args []string) {
 	topK := fl.Int("top-k", 5, "voices to seat")
 	noLens := fl.Bool("no-lens", false, "skip the LLM-backed semantic lens (lexical-only on full pool)")
 	format := fl.String("format", "json", "output format: json (default, agent-consumable) or text (a printed council session)")
+	args = reorderFlagsFirst(args)
 	_ = fl.Parse(args)
 
 	rest := fl.Args()

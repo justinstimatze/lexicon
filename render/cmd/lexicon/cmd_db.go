@@ -85,6 +85,7 @@ func dbBuild(renderDir string, args []string) {
 func dbQuery(renderDir string, args []string) {
 	fl := flag.NewFlagSet("db query", flag.ExitOnError)
 	dbPath := fl.String("db", "", "SQLite path (default render/../lexicon.db)")
+	args = reorderFlagsFirst(args)
 	_ = fl.Parse(args)
 	if fl.NArg() == 0 {
 		fmt.Fprintln(os.Stderr, "usage: lexicon db query <SQL>")

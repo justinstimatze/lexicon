@@ -63,6 +63,7 @@ func cmdPatchRelated(renderDir string, args []string) {
 		fmt.Fprintln(os.Stderr, "  Line-level patch the related: list of an atom (YAML + source MD).")
 		fl.PrintDefaults()
 	}
+	args = reorderFlagsFirst(args)
 	_ = fl.Parse(args)
 	if fl.NArg() < 3 {
 		fl.Usage()
