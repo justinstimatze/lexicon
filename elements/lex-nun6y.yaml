@@ -1,0 +1,20 @@
+id: lex-nun6y
+name: bind-demand-to-resources-as-late-as-possible
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Don't commit a task to a specific resource far in advance, on the strength of a forecast — the further ahead you bind, the more accumulated random noise from every intervening task you're forecasting through. Wait until the resource's actual, current condition is known, then assign the work. Late binding trades forecast noise for real information, and it's almost always the better trade."
+related: [lex-vjuhn]
+evokes: ["circuit-switching-versus-packet-switching", "the-square-root-of-intervening-tasks", "dispatch-on-actual-not-forecast"]
+lineage:
+  - source: primary
+    text: reinertsen-2016-principles-of-product-development-flow-ch7-late-binding
+    citation: "Donald G. Reinertsen, The Principles of Product Development Flow (2nd ed. 2016), Ch.7 'Controlling Flow Under Uncertainty,' Principle F26 'The Principle of Late Binding.' Reinertsen contrasts circuit-switched telephone networks, which seize a line for a call's entire duration regardless of use, with packet-switched networks like the Internet, which seize capacity only at the instant a packet is actually sent — the later a resource is committed to demand, the less accumulated forecast noise from intervening work affects the assignment."
+    quote: "[Reinertsen 2016, Ch.7:] 'F26: The Principle of Late Binding: The later we bind demand to resources, the smoother the flow. ... If we dispatch work early, there will be a lot of work committed to this node before our job arrives. That means the queue at the node will be affected by the accumulated random variance of all the preceding jobs. ... In contrast, when we dispatch tasks late, we know the actual completion time of the previous tasks. ... Early binding creates difficulties because it makes us dependent on our noisy forecast of the expected duration of an entire group of assigned tasks. ... late binding permits us to use the noise-free information from the tasks already completed to make our loading decision.'"
+canonical-instances:
+  - "Circuit-switched vs. packet-switched telephony, Reinertsen's own contrast (Ch.7): a traditional phone call seizes a trunk line for the whole call even during silence (early, wasteful binding); a packet-switched connection seizes capacity only at the instant of actual transmission (late binding), which is why packet networks handle variable demand far more efficiently."
+critical-questions:
+  - "How far in advance is the resource assignment actually being locked in, and how much intervening work sits between now and that commitment point — the noise this principle warns about scales with how many other tasks' variance has to be forecast through."
+  - "Is there a real cost to waiting for late binding (a resource sitting briefly idle instead of pre-loaded), and has that cost actually been weighed against the forecast-noise savings, or is 'later is always better' being taken as an absolute rather than a trade-off?"
+  - "Does the system actually have the visibility to bind late — does it know the real-time condition of the resource at the moment of assignment, or is 'late binding' just early binding with an extra delay tacked on, still based on a stale forecast?"
+status: active

@@ -1,0 +1,21 @@
+id: lex-tjw8p
+name: hold-variability-at-the-stage-where-its-cost-is-lowest
+type-in: structure
+type-out: process
+_tier: atomic
+agent-instruction: "When variability has to land somewhere in a multi-stage process, choose deliberately which stage absorbs it — don't just let it settle wherever it happens to occur. Find the cheapest stage to hold uncertain waiting time and route the variability there, even if that means moving it upstream, away from where it's currently showing up."
+related: [lex-hb8rs]
+evokes: ["planes-circling-vs-planes-waiting-on-the-ground", "the-ready-queue-before-the-pipeline", "fresh-bugs-only"]
+lineage:
+  - source: primary
+    text: reinertsen-2016-principles-of-product-development-flow-ch4-variability-displacement
+    citation: "Donald G. Reinertsen, The Principles of Product Development Flow (2nd ed. 2016), Ch.4 'Exploiting Variability,' Principle V16 'The Principle of Variability Displacement.' Reinertsen's example is air traffic control: it is far cheaper to hold arriving planes waiting on the ground before takeoff than to hold them circling in the air near a congested destination, so the system deliberately displaces the variability to the ground stage even though the congestion itself occurs at the destination."
+    quote: "[Reinertsen 2016, Ch.4:] 'V16: The Principle of Variability Displacement: Move variability to the process stage where its cost is lowest. ... it is very wasteful to fly planes around in circles. ... it is safer and cheaper to have planes wait before takeoff than in any other place in the system. By doing so, we have coupled the downstream variation of the landing process into cheaper upstream stages.'"
+canonical-instances:
+  - "Reinertsen's own software-bugs application (Ch.4): rather than letting every reported bug enter active work immediately, it's cheaper to hold new bugs in a ready queue and only pull them into active work when serious resources can be allocated — displacing the variability to the cheap holding stage rather than the expensive active-work stage."
+  - "New-project intake, the same principle applied to whole projects (Ch.4): letting a project crawl slowly through the pipeline makes its accumulated market research stale and its investment perishable; it's cheaper to hold the opportunity in a ready queue before it enters the pipeline at all."
+critical-questions:
+  - "Has the actual holding cost at each candidate stage been compared, or is variability being displaced toward whichever stage is easiest to move it to rather than the one that's actually cheapest?"
+  - "Does displacing the variability upstream create a new, more expensive queue somewhere else in the system, or does the upstream stage genuinely have lower holding costs?"
+  - "Are there special-circumstance exceptions (an early patent filing, information that changes the odds of later success) where starting the work immediately is actually the better economic choice despite the general rule?"
+status: active

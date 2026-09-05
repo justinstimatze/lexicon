@@ -1,0 +1,20 @@
+id: lex-g7k5x
+name: a-light-wip-constraint-buys-cycle-time-cheap
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When capping work-in-process, start light — a constraint around twice the natural average WIP level typically buys most of the cycle-time benefit for a tiny underutilization cost. Don't assume a WIP cap has to be tight to be worthwhile, and don't skip capping WIP at all just because a hard cap means occasionally blocking or delaying incoming demand."
+related: [lex-hb8rs, lex-xw7sk]
+evokes: ["M-M-1-k-queueing-system", "the-28-percent-for-1-percent-trade", "kanban's-own-quiet-asymmetry"]
+lineage:
+  - source: primary
+    text: reinertsen-2016-principles-of-product-development-flow-ch6-wip-constraints
+    citation: "Donald G. Reinertsen, The Principles of Product Development Flow (2nd ed. 2016), Ch.6 'Applying WIP Constraints,' Principle W1 'The Principle of WIP Constraints.' Reinertsen models an M/M/1/k queueing system (a finite-capacity variant of the M/M/1/∞ queue from Ch.3) and reports that a WIP constraint set at twice the unconstrained average level produces a 28 percent cycle-time saving for only a 1 percent penalty in blocking and underutilization costs, while a much tighter constraint (half the average level) erases the savings with large blocking costs."
+    quote: "[Reinertsen 2016, Ch.6:] 'W1: The Principle of WIP Constraints: Constrain WIP to control cycle time and flow. ... A relatively light WIP constraint, twice the average WIP level, produces a significant 28 percent cycle-time savings. Yet, it only causes a 1 percent penalty in the form of underutilization and blocking costs. In contrast, a heavy WIP constraint, half the average WIP level, creates large blocking and under-utilization costs that counteract the cycle-time savings.'"
+canonical-instances:
+  - "Reinertsen's own cost-benefit analysis (Ch.6, Figure 6-3): using a 2x-average WIP constraint with conservative assumptions about delay cost, capacity cost, and blocking opportunity cost, the benefits of the constraint come out to about 10 times its economic cost."
+critical-questions:
+  - "Has the actual ratio between the chosen WIP cap and the system's natural unconstrained average been checked, or is a cap being picked arbitrarily without reference to that baseline?"
+  - "Is the constraint being tightened past the point of diminishing returns — the same asymmetric-payoff shape that makes a light constraint cheap can make an overly tight one expensive, since blocking and underutilization costs grow fast as the cap tightens."
+  - "What happens to the demand that gets blocked or delayed when WIP hits its cap — is that cost (rejected or delayed valuable work) actually accounted for, or only the cycle-time benefit?"
+status: active

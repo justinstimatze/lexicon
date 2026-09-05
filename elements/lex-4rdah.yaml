@@ -1,0 +1,20 @@
+id: lex-4rdah
+name: state-the-end-and-why-not-the-method
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When directing someone who will have to adapt to conditions you can't fully anticipate, don't specify what to do, when, with what resources, or by what method — specify the end state you're trying to create and why it matters. A subordinate who deeply understands the intent can improvise the right method when the situation on the ground doesn't match your plan; one who only has a method to follow is stuck the moment reality diverges from it."
+related: []
+evokes: ["Commanders-Intent", "mission-orders", "the-why-not-the-what-or-how"]
+lineage:
+  - source: primary
+    text: reinertsen-2016-principles-of-product-development-flow-ch9-mission-orders
+    citation: "Donald G. Reinertsen, The Principles of Product Development Flow (2nd ed. 2016), Ch.9 'Achieving Decentralized Control,' Principle D8 'The Principle of Mission.' Reinertsen draws on U.S. Marine Corps maneuver-warfare doctrine, where a 'mission order' deliberately omits the how of an operation and instead states the intent — the end state and its purpose — trusting that a subordinate who deeply understands why will choose the right method when the plan meets a battlefield it didn't anticipate."
+    quote: "[Reinertsen 2016, Ch.9:] 'D8: The Principle of Mission: Specify the end state, its purpose, and the minimal possible constraints. ... Mission orders focus on the intent of the operation, rather than constraining how the mission is to be accomplished. ... It communicates the \"why\" of the operation, not the \"what\" or \"how.\" ... They believe that when intent is clear, Marines will be able to select the right course of action.'"
+canonical-instances:
+  - "The military term Reinertsen names directly (Ch.9), the Commander's Intent section of an operation plan: the part of a battle plan the Marines consider incomplete without, precisely because it carries the 'why' that lets a unit adapt when the specific plan no longer fits the battlefield."
+critical-questions:
+  - "Has the actual end state and its purpose been communicated clearly, or has the instruction defaulted to specifying steps and methods because that felt more concrete and easier to write down?"
+  - "Does the person receiving this mission actually have enough context to judge a good method when the situation shifts, or is 'just tell them the why' being used as a shortcut in a case where they genuinely need the how spelled out?"
+  - "When conditions do diverge from the plan, does the stated intent actually resolve the ambiguity about what to do next, or was the 'why' itself too vague to be operationally useful — a mission order only works if the intent is concrete enough to constrain the choice."
+status: active

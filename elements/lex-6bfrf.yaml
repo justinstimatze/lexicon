@@ -1,0 +1,20 @@
+id: lex-6bfrf
+name: local-feedback-loops-are-faster-and-more-stable
+type-in: structure
+type-out: claim
+_tier: atomic
+agent-instruction: "When choosing between a local feedback loop (a signal that only travels between adjacent stages) and a global one (a signal that has to propagate across the whole system), default to local. Shorter loops both prevent more variance from accumulating along the way and avoid the time-lag instability — the overcorrection-then-overcorrection cycle — that comes from acting on information that's already stale by the time it arrives."
+related: [lex-tje7j, lex-86t6v]
+evokes: ["kanban-versus-TOC-again", "the-new-helmsman-zigzag", "closure-time-and-stability"]
+lineage:
+  - source: primary
+    text: reinertsen-2016-principles-of-product-development-flow-ch8-locality-of-feedback
+    citation: "Donald G. Reinertsen, The Principles of Product Development Flow (2nd ed. 2016), Ch.8 'Using Fast Feedback,' Principle FF14 'The Locality Principle of Feedback.' Reinertsen revisits the kanban-vs-Theory-of-Constraints contrast from Ch.6 specifically for feedback-loop speed and stability, and adds a personal illustration: as a young sailor steering an aircraft carrier, the long lag between applying rudder and observing the course change produced the classic new-helmsman zigzag, a stability failure caused purely by loop delay."
+    quote: "[Reinertsen 2016, Ch.8:] 'FF14: The Locality Principle of Feedback: Whenever possible, make feedback local. Local feedback loops are inherently faster than global feedback loops. ... when feedback loops have long closure times, more confounding factors can come into play. Furthermore, there is a greater chance of instability. ... It is quite common for a new helmsman to zigzag the ship across the ocean. He applies the rudder to change course and waits to see the effect of the rudder. When he observes the ship changing course, he removes the rudder. By this time, the rudder has been on so long that the ship continues to change course. Time lags in feedback loops can be deadly to system stability.'"
+canonical-instances:
+  - "The aircraft-carrier helmsman zigzag Reinertsen describes from his own navy service (Ch.8): a new helmsman applies rudder, waits to see the course change, then over-corrects in the opposite direction because the ship kept turning after the rudder was already removed — a pure artifact of feedback-loop lag, not of skill."
+critical-questions:
+  - "How long is this feedback loop's actual closure time, and is that time being compared to how fast the underlying process changes — a slow loop on a fast-changing process is exactly the mismatch that produces lag-driven instability."
+  - "Has a local alternative to this global loop actually been considered, or is the global signal being used by default because it's the one that already exists, regardless of whether a local one would be faster to build?"
+  - "Is the system actually showing the zigzag/overcorrection pattern (oscillating between over- and under-response), which is the specific tell that a feedback loop is too slow for the process it's controlling?"
+status: active

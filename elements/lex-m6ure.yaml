@@ -1,0 +1,20 @@
+id: lex-m6ure
+name: a-large-shortfall-triggers-disengagement-not-more-effort
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Don't expect someone to simply try harder when a project falls far behind — a small deviation from plan often motivates people to close the gap, but a large one tends to do the opposite: it makes the underlying failure look inevitable and gives them a psychological reason to withdraw effort rather than double down, especially when staying visibly attached to one failing project among several risks being personally blamed for it. Design interventions for large excursions around that reality, not around the assumption that pressure alone will produce more effort."
+related: [lex-h7kmr]
+evokes: ["the-three-programs-example", "disengagement-not-heroics", "the-fattened-tail-of-outcomes"]
+lineage:
+  - source: primary
+    text: reinertsen-2016-principles-of-product-development-flow-ch8-amplification-principle
+    citation: "Donald G. Reinertsen, The Principles of Product Development Flow (2nd ed. 2016), Ch.8 'Using Fast Feedback,' Principle FF22 'The Amplification Principle.' Reinertsen's worked example is an engineer split across three programs, one severely behind and two only slightly behind: rather than pouring more time into the troubled program, the engineer is likely to shift time to the healthier programs, because being the sole engineer on three late projects reads worse than being blamed for one late project alone."
+    quote: "[Reinertsen 2016, Ch.8:] 'FF22: The Amplification Principle: The human element tends to amplify large excursions. ... Small deviations can motivate people to conform to plan. ... In contrast, large deviations can have the opposite effect. Large deviations can promote disengagement rather than motivation, particularly when these deviations are large enough to cause us to question the basic feasibility of the plan. ... If time is allocated to the nonproblem projects, then only the problem project will be late. If only one project is late, people are more likely to blame the project than the engineer. Human psychology encourages disengagement from problem projects.'"
+canonical-instances:
+  - "Reinertsen's three-program engineer, stated directly (Ch.8): faced with one severely-behind program and two slightly-behind ones, the psychologically rational move is to protect the two salvageable programs and let the severely-behind one go, even though pouring resources into the worst one might be the economically correct call."
+critical-questions:
+  - "Is this deviation actually large enough to have crossed into disengagement territory, or is it still in the range where people are motivated to close the gap — the effect Reinertsen describes is specifically about large excursions, not deviations generally."
+  - "Is the person disengaging doing so out of genuine reputational self-protection (as in the three-program example), or is there a different, more fixable cause behind the reduced effort that a psychological explanation would wrongly paper over?"
+  - "Has the intervention been designed around this reality — for example, isolating individual blame so a large deviation doesn't threaten someone's standing on their other work — or is the response just applying more pressure, which this principle predicts will backfire on a large-enough gap?"
+status: active

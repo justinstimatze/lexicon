@@ -1,0 +1,20 @@
+id: lex-su2x6
+name: keep-your-best-expert-underutilized-for-emergencies
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Resist the pull to keep your most powerful, most productive people fully booked on routine work — a scarce expert loaded to full utilization is exactly the resource that can't respond quickly when an emergent bottleneck actually needs their firepower. Deliberately load your big guns below full utilization so they stay available for the situations only they can solve."
+related: [lex-vjuhn]
+evokes: ["naval-16-inch-gunfire", "the-10-percent-who-handle-90-percent", "not-an-efficient-substitute-for-small-guns"]
+lineage:
+  - source: primary
+    text: reinertsen-2016-principles-of-product-development-flow-ch6-big-gun-principle
+    citation: "Donald G. Reinertsen, The Principles of Product Development Flow (2nd ed. 2016), Ch.6 'Applying WIP Constraints,' Principle W11 'The Big Gun Principle.' Reinertsen's analogy is WWII amphibious assaults, where scarce battleship gunfire was reserved for strongpoints smaller guns couldn't handle; the product-development parallel is the small group of highly experienced people who can overpower the hardest problems, who must be loaded below full utilization to actually be available when a genuine emergency needs them."
+    quote: "[Reinertsen 2016, Ch.6:] 'W11: The Big Gun Principle: Pull high-powered experts to emerging bottlenecks. ... most development organizations have a handful of special people who seem to be able to overpower the most difficult problems. They are the 10 percent of the staff that handles 90 percent of the most difficult work. ... If we wish to use such resources to destroy emerging queues, it is critical that we load them to less-than-full utilization. If they are heavily utilized, they will not be able to respond quickly. ... The big guns are not most valuable as an efficient substitute for small guns, they are most valuable for handling situations that the small guns cannot handle.'"
+canonical-instances:
+  - "The WWII naval-gunfire analogy itself (Ch.6): battleships' 16-inch guns were allocated specifically to enemy strongpoints that smaller ships' guns couldn't overcome — reserved capability, not routine firepower."
+critical-questions:
+  - "Is this person's expertise actually the kind that's needed for rare, hard emergencies, or are they simply the fastest at routine work — the principle applies to genuine problem-overpowering capability, not just general productivity?"
+  - "Has this expert's utilization been deliberately kept below full, or has 'they're so good, let's keep them fully booked' quietly turned the big gun into an efficient substitute for small guns — exactly the misuse the principle warns against?"
+  - "When an emergency actually arrives, is there a real process for reallocating the expert quickly, or does their routine workload still have to be handed off first, eating into the fast-response advantage the whole arrangement was meant to buy?"
+status: active

@@ -1,0 +1,20 @@
+id: lex-86t6v
+name: resynchronize-to-the-center-not-just-back-in-bounds
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When you intervene to fix a queue or schedule that's drifted, don't just nudge it back inside its acceptable range — restore it all the way to the center of the range. A random process that's merely brought back to the edge of bounds is one bad step away from drifting out again; resetting to center buys real margin against the next random excursion, not a token correction."
+related: [lex-6bfrf, lex-hsbem]
+evokes: ["the-bus-bunching-problem", "replenish-by-five-not-by-one", "a-fast-bus-desynchronizes-the-system"]
+lineage:
+  - source: primary
+    text: reinertsen-2016-principles-of-product-development-flow-ch7-periodic-resynchronization
+    citation: "Donald G. Reinertsen, The Principles of Product Development Flow (2nd ed. 2016), Ch.7 'Controlling Flow Under Uncertainty,' Principle F5 'The Principle of Periodic Resynchronization.' Reinertsen's example is bus bunching (a delayed leading bus picks up more passengers and slows further, while the following bus, seeing fewer, speeds up until they collide into a pair) and a coin-flip gambler's-ruin variant, arguing that restoring a drifted system to bounds is far weaker protection than restoring it to the center of its range."
+    quote: "[Reinertsen 2016, Ch.7:] 'It is important to distinguish resynchronization from simply correcting an out-of-bounds condition. When we resynchronize, we restore conditions to the center of the control range — we do not simply bring them inside the control limit. ... If I only replenish my capital by 1 dollar, there would be a 50 percent chance that I would need to replenish again on the next coin flip. In contrast, if I replenished my capital by 5 dollars, there would only be a 1 in 32 chance that I would need to intervene in the next five flips.'"
+canonical-instances:
+  - "The bus-bunching problem itself (Ch.7): scheduling a fixed departure time from every stop — even holding an early-arriving bus until its scheduled time — prevents the regenerative feedback (a slow bus picks up more riders and slows further; the trailing bus, picking up fewer, speeds up) that otherwise makes buses bunch together."
+critical-questions:
+  - "Is the intervention actually restoring the system to the center of its target range, or just nudging it back within the acceptable boundary — the two look similar in the moment but leave very different amounts of margin against the next random swing."
+  - "Would a locally-optimal choice (like letting an early bus run ahead of schedule) desynchronize the larger system, even though it looks like the right move for that one unit in isolation?"
+  - "How much margin does resynchronizing to center actually buy against the next few cycles of random variation — has that been estimated, or is 'we brought it back to center' being treated as automatically sufficient regardless of how volatile the process actually is?"
+status: active

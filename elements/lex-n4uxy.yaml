@@ -1,0 +1,20 @@
+id: lex-n4uxy
+name: weight-scheduling-priority-by-delay-cost-over-duration
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When jobs waiting in a queue differ in both how long they take and how expensive it is to delay them, don't sequence by first-come-first-served or by simple priority ranking — sequence by delay cost divided by duration (weighted shortest job first). And remember priority is a property of a resource's own local queue, not a global rank stamped on a whole project; a low-priority project's quick task can still deserve to jump ahead of a high-priority project's long one at that specific resource."
+related: [lex-v3vk3]
+evokes: ["WSJF", "the-convoy-effect", "priorities-are-inherently-local"]
+lineage:
+  - source: primary
+    text: reinertsen-2016-principles-of-product-development-flow-ch7-wsjf-and-local-priority
+    citation: "Donald G. Reinertsen, The Principles of Product Development Flow (2nd ed. 2016), Ch.7 'Controlling Flow Under Uncertainty,' Principles F17 'The WSJF Scheduling Principle' and F18 'The Local Priority Principle.' Reinertsen argues weighted-shortest-job-first (cost of delay divided by task duration) beats FIFO, plain ROI ranking, and Critical Chain's minimum-slack-time-first, and that because WSJF depends on a resource-local property (remaining time at that resource) as well as a global one (delay cost), priority itself is inherently local, not a single global project ranking."
+    quote: "[Reinertsen 2016, Ch.7:] 'F17: The WSJF Scheduling Principle: When job durations and delay costs are not homogeneous, use WSJF. ... We base priority on delay cost divided by task duration.' [On locality:] 'F18: The Local Priority Principle: Priorities are inherently local. ... priorities at individual resources are local properties at those resources; they are not global properties of projects. Many companies make the mistake of ranking their projects in priority order and telling the entire organization to support projects based on this ranking. This can lead to an unimportant task on a high-priority project displacing a high-priority task on a lower priority project.'"
+canonical-instances:
+  - "Reinertsen's hospital-emergency-room analogy for the general shape of the problem (Ch.7): random arrivals with different urgencies and different service times is exactly the WSJF situation, which is why triage — priority based on both urgency and expected time to treat, not a fixed rank per patient — outperforms strict FIFO whenever the queue is long."
+critical-questions:
+  - "Have both delay cost and duration actually been estimated for the jobs being sequenced, or is one being ignored (pure ROI ranking, pure FIFO, pure remaining-slack) in a way that systematically misprioritizes some class of job?"
+  - "Is a project-wide priority ranking being applied uniformly at every resource, when the actual right sequence at any one resource depends on what's queued there specifically, not on the project's overall rank?"
+  - "Does the queue here actually have enough length and heterogeneity for sequencing discipline to matter — Reinertsen's own point is that sequencing pays off most when queues are large and job attributes vary a lot, and buys little when queues are already short."
+status: active

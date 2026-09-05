@@ -1,0 +1,21 @@
+id: lex-3c3tg
+name: decentralize-perishable-problems-centralize-scale-economies
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When deciding whether to handle something centrally or push it to the front line, ask two things: does this problem age poorly (does waiting make it worse or the opportunity disappear), and does it have real economies of scale or occur too rarely to justify a dedicated local resource? Decentralize the first kind — pre-position the authority and resources so it can be handled the moment it's noticed. Centralize the second — pool the rare, expensive, or scale-benefiting demand into a shared resource instead of a resource idling at every location."
+related: [lex-58ynk, lex-6pcc4, lex-nma8m]
+evokes: ["fire-extinguishers-versus-fire-trucks", "the-floppy-disk-standard-race", "regulatory-affairs-pooled-not-dedicated"]
+lineage:
+  - source: primary
+    text: reinertsen-2016-principles-of-product-development-flow-ch9-perishability-and-scale
+    citation: "Donald G. Reinertsen, The Principles of Product Development Flow (2nd ed. 2016), Ch.9 'Achieving Decentralized Control,' Principles D1 'The Second Perishability Principle' and D2 'The Scale Principle.' Reinertsen's paired analogy is fire response: fire extinguishers are pre-positioned and decentralized because a fire ages badly and must be caught small, while big fires get centralized fire trucks because the response genuinely requires mass and occurs too rarely to justify a truck at every address."
+    quote: "[Reinertsen 2016, Ch.9:] 'D1: The Second Perishability Principle: Decentralize control for problems and opportunities that age poorly. ... We need to decentralize the authority to act, and pre-position sufficient resources to make this action meaningful.' [On the opposite case:] 'D2: The Scale Principle: Centralize control for problems that are infrequent, large, or that have significant economies of scale. ... Big fires are best handled by fire trucks, not by individuals with garden hoses and fire extinguishers. ... In contrast, frequent, small-excursion, low-variability demand, with limited scale economies, should be serviced with decentralized resources.'"
+canonical-instances:
+  - "The IBM floppy-disk standard, Reinertsen's own example of a perishable market opportunity (Ch.9): IBM set the 8-inch and 5¼-inch floppy standards but was late to the next size, letting Sony and HP's 3½-inch disk win instead — a first-mover opportunity that aged out of reach while IBM was still deciding."
+  - "Regulatory affairs expertise, Reinertsen's own scale-economy example (Ch.9): rather than putting a dedicated regulatory expert on every program, pooling the variable demand from many projects behind one centralized resource gives faster response to all of them, provided that resource is measured on response time rather than efficiency."
+critical-questions:
+  - "Does this problem actually age badly (does delay make it materially worse or the window close), or does it just feel urgent — the decentralization case specifically depends on genuine perishability, not on general busyness."
+  - "Is the centralized resource actually being measured on response time, or on efficiency/utilization — Reinertsen's own point is that centralized resources get a bad reputation for slowness not because centralization is inherently slow, but because the wrong incentive keeps them loaded too high to respond fast."
+  - "Has the decentralized authority actually been paired with pre-positioned resources (the fire-extinguisher half of the deal), or has responsibility been pushed down without the capacity to act on it — decentralizing responsibility alone, without authority and resources, doesn't get the speed benefit."
+status: active

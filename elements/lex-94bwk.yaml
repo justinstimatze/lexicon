@@ -4,7 +4,7 @@ type-in: situation
 type-out: process
 _tier: atomic
 agent-instruction: "Before chasing down and adding capacity to a suspected bottleneck, try reducing batch size first — it's cheaper, reversible, and it was the actual lever behind Toyota's 100-fold cycle-time improvement, not bottleneck-hunting. In product development especially, bottlenecks are stochastic and physically mobile rather than fixed, so capacity added at today's bottleneck may sit idle once the bottleneck moves somewhere else tomorrow."
-related: [lex-xy4uh, lex-vjuhn]
+related: [lex-tje7j, lex-vjuhn, lex-xy4uh]
 evokes: ["Toyota's-100-fold-improvement-wasnt-bottleneck-hunting", "Herbie-the-slowest-Boy-Scout-reconsidered", "the-stochastic-mobile-bottleneck"]
 lineage:
   - source: primary

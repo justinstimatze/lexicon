@@ -4,7 +4,7 @@ type-in: situation
 type-out: process
 _tier: atomic
 agent-instruction: "When you need a control variable to manage flow, don't reach for capacity utilization (real but too hard to measure accurately) or cycle time (real but a lagging indicator — unmeasurable until a job exits). Reach for queue size: it's directly observable in real time, and because it sits on the steep part of the queueing curve, a tight queue-size control band forces utilization into a correspondingly tight range for free."
-related: [lex-gcpzd, lex-hsbem, lex-xw7sk]
+related: [lex-bewvw, lex-g7k5x, lex-gcpzd, lex-hsbem, lex-tjw8p, lex-ugntp, lex-xw7sk, lex-y8szz]
 evokes: ["a-leading-not-a-lagging-indicator", "the-supermarket-checkout-heuristic", "wide-band-forces-narrow-band"]
 lineage:
   - source: primary

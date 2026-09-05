@@ -1,0 +1,20 @@
+id: lex-bewvw
+name: task-start-time-is-a-cheaper-leading-indicator-than-completion
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Whenever a task's completion time correlates strongly with whether it started on time and with the right people, watch start time, not completion time. By the time a task is already finishing late, the window for a cheap intervention has closed; catching a late or under-resourced start still leaves you options — reassigning people, shifting priorities, adjusting constraints — that a late finish no longer offers."
+related: [lex-hb8rs]
+evokes: ["the-correlation-a-manager-actually-tracked", "early-intervention-options-still-open", "the-payoff-of-leading-indicators-can-reverse"]
+lineage:
+  - source: primary
+    text: reinertsen-2016-principles-of-product-development-flow-ch8-leading-indicators
+    citation: "Donald G. Reinertsen, The Principles of Product Development Flow (2nd ed. 2016), Ch.8 'Using Fast Feedback,' Principle FF3 'The Principle of Leading Indicators.' Reinertsen relays an experienced manager's practice of watching task START times rather than completion times, because in that manager's organization a task starting on time with the right resources correlated strongly with finishing on time — making start time a leading indicator cheap enough to act on, while completion time only confirms the outcome after the window for intervention has closed."
+    quote: "[Reinertsen 2016, Ch.8:] 'FF3: The Principle of Leading Indicators: Select control variables that predict future system behavior. ... A very experienced manager once told me that he paid more attention to task start times than task completion times. ... there was a very high correlation between having the correct person start a task on time and completing this task on time. ... if he focused on task completion times, the task would already be late by the time he tried to control it. By then, his intervention would be very inefficient. In contrast, if he discovered a task had not started on time, he had many options.'"
+canonical-instances:
+  - "The manager's own decision menu on a late start (Ch.8): reassigning resources, shifting priorities, or altering project constraints were all still available options at that point — none of which remain live once the task is already finishing late."
+critical-questions:
+  - "Does the correlation between this leading indicator and the eventual outcome actually hold here, or is it being assumed by analogy to a different process where it was verified? Reinertsen is explicit that the payoff of a leading indicator disappears, or even reverses, when the correlation isn't real."
+  - "Is early intervention on this specific problem actually cheaper than late correction, or does this particular task have flat costs across its timeline, in which case the leading-indicator advantage doesn't apply?"
+  - "Is the leading indicator being tracked and acted on, or just tracked — a start-time dashboard nobody responds to buys none of the early-intervention value this principle depends on."
+status: active

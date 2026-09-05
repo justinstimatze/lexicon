@@ -1,0 +1,20 @@
+id: lex-y8szz
+name: a-measured-proxy-can-still-go-unactioned
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "Don't assume that measuring something guarantees it gets managed. A metric is only the measurement half of a control system — it also needs a dynamic response and a stability check, or it's just a number people can watch go wrong without anything changing. Before trusting a metric to drive behavior, check whether an actual response is wired to it, the way a bathroom scale measures weight without doing anything about it."
+related: [lex-hb8rs]
+evokes: ["what-gets-measured-gets-done-questioned", "the-bathroom-scale", "a-metric-is-not-a-control-system"]
+lineage:
+  - source: primary
+    text: reinertsen-2016-principles-of-product-development-flow-ch8-useless-measurement
+    citation: "Donald G. Reinertsen, The Principles of Product Development Flow (2nd ed. 2016), Ch.8 'Using Fast Feedback,' Principle FF9 'The Principle of Useless Measurement.' Reinertsen recounts internalizing the business-school maxim 'what gets measured gets done' uncritically, until observing that it often isn't true — a metric is only the measurement component of a control system, and lacks the dynamic-response and stability elements that actually make a system act on what it measures."
+    quote: "[Reinertsen 2016, Ch.8:] 'FF9: The Principle of Useless Measurement: What gets measured may not get done. ... As anyone who has ever purchased a bathroom scale as a method of losing weight is aware, what gets measured does not necessarily get done. A metric is only a piece of a control system. Selecting metrics is an important part of control system design, but it is only a part.'"
+canonical-instances:
+  - "Reinertsen's own bathroom-scale example (Ch.8): stepping on a scale measures weight precisely and repeatedly, and by itself changes nothing about eating or exercise habits — the measurement exists with no attached corrective action."
+critical-questions:
+  - "Is there an actual response wired to this metric — a threshold that triggers an intervention, a person accountable for acting on it — or does it just get reported and reviewed with no consequence attached?"
+  - "Has this metric's dynamic behavior been checked (does it move fast enough, does the response to it overshoot or oscillate), or has design attention stopped at 'we're measuring the right thing' without asking whether the loop it's part of is even stable?"
+  - "Is the org substituting 'we track this now' for the harder work of building the actual control loop — deciding who acts, on what trigger, with what authority — that would make the tracked number matter?"
+status: active

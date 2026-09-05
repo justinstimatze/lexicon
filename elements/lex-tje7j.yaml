@@ -1,0 +1,20 @@
+id: lex-tje7j
+name: local-wip-constraints-handle-bottlenecks-that-move
+type-in: structure
+type-out: process
+_tier: atomic
+agent-instruction: "When the bottleneck in a process isn't fixed in one place — it moves, appears, and disappears — don't constrain WIP only at the one known bottleneck (Theory of Constraints style). Constrain WIP locally between every pair of adjacent stages instead (kanban style), so any emergent bottleneck anywhere throttles its own upstream neighbor immediately, without waiting for a slow, whole-system signal to propagate."
+related: [lex-6bfrf, lex-94bwk, lex-9pgpf]
+evokes: ["kanban-versus-Goldratt", "the-400-times-faster-response", "stochastic-and-mobile-bottlenecks"]
+lineage:
+  - source: primary
+    text: reinertsen-2016-principles-of-product-development-flow-ch6-local-vs-global-constraints
+    citation: "Donald G. Reinertsen, The Principles of Product Development Flow (2nd ed. 2016), Ch.6 'Applying WIP Constraints,' Principles W3 'The Principle of Global Constraints' and W4 'The Principle of Local Constraints.' Reinertsen contrasts Goldratt's Theory of Constraints, which sets one global WIP pool ahead of a single stable bottleneck, with Toyota's kanban system, which constrains every local WIP pool between adjacent stages — arguing the local approach handles the unpredictable, temporally and physically mobile bottlenecks of product development far better than a global approach built for manufacturing's stable ones."
+    quote: "[Reinertsen 2016, Ch.6, on global (TOC) constraints:] 'This approach is simple and conceptually appealing. It is probably most useful for stable bottlenecks, like those of manufacturing, and less useful for the unpredictable, moving, and limited-duration bottlenecks of product development. ... only the primary, stable bottleneck is being used for control purposes. A temporary bottleneck at another process will not generate any control signal until it causes WIP starvation at the primary bottleneck.' [On local (kanban) constraints:] 'The kanban system makes no assumption about the location of bottlenecks. Any emergent bottleneck will begin to send a control signal that throttles its upstream process. ... if the kanban size is six and the takt time ... is 1 minute, a control signal is generated on average within 3 minutes of a capacity change. Contrast this with a weekly MRP system that might take an average of 20 hours to achieve the same response. The kanban system is 400 times faster in responding to an emerging queue.'"
+canonical-instances:
+  - "Reinertsen's own restart-instability example (Ch.6): a TOC system that drains its WIP buffer during a bottleneck stoppage can swing uncontrollably between high and low operating rates once the bottleneck recovers, because its single long feedback loop reacts too slowly — an instability the kanban system's local loops don't share."
+critical-questions:
+  - "Is the bottleneck in this process actually fixed and stable (manufacturing-like), which would make a single global constraint sufficient, or is it stochastic and mobile (the product-development case this principle targets)?"
+  - "Does the local-constraint approach actually get implemented pool-by-pool between every adjacent pair of stages, or is 'kanban' being invoked as a label while only one global WIP cap is actually enforced?"
+  - "Is the feedback speed of the chosen approach actually being measured — the 400x figure Reinertsen cites is specific to his comparison; a different local-vs-global pair might have a very different ratio, and it's worth checking rather than assuming."
+status: active

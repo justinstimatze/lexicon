@@ -1,0 +1,21 @@
+id: lex-zps52
+name: asymmetric-payoffs-not-amount-of-variability-create-value
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Before reflexively minimizing variability to look safe, check the shape of the payoff-function first. Variability only creates economic value when the payoff is asymmetric — when a win pays far more than a loss costs. Under that condition, more variability can raise expected value even though nothing about the underlying probabilities changed; under a symmetric payoff, the old advice to minimize variability still holds."
+related: [lex-994yb]
+evokes: ["the-newsboy-problem-again", "Black-Scholes-and-option-volatility", "the-Amazon-mud-molecule"]
+lineage:
+  - source: primary
+    text: reinertsen-2016-principles-of-product-development-flow-ch4-asymmetric-payoffs
+    citation: "Donald G. Reinertsen, The Principles of Product Development Flow (2nd ed. 2016), Ch.4 'Exploiting Variability,' Principles V1-V3. Reinertsen's worked example is three technical paths costing $15,000 each: a 50%-chance/$100,000-payoff path has the highest expected value ($35,000) despite maximum uncertainty, while a zero-uncertainty path has the lowest ($1,000) — the deciding factor is the payoff-function's asymmetry, the same logic behind option pricing (Black-Scholes) and pharmaceutical drug-candidate selection."
+    quote: "[Reinertsen 2016, Ch.4:] 'V2: The Principle of Asymmetric Payoffs: Payoff asymmetries enable variability to create economic value. ... In the example of V1, the high-risk alternative made economic sense, even though success and failure were equally likely, because of the payoff-function: we gained $85,000 half the time and lost $15,000 half the time.' [On the general principle:] 'V3: The Principle of Optimum Variability: Variability should neither be minimized nor maximized. ... Variability is only desirable when it increases economic value. This occurs when the positive tail of the probability distribution extends far enough into a high payoff region to overcome the cost of the negative tail.'"
+canonical-instances:
+  - "Reinertsen's pharmaceutical drug-candidate example (Ch.4): a poorly-understood molecule with a $1 billion blockbuster upside and only a $10,000 experiment-cost downside is the economically better bet than a well-understood, lower-variance molecule, precisely because of the payoff asymmetry."
+  - "The Black-Scholes option-pricing logic Reinertsen cites (Ch.4): an option's payoff is asymmetric (unlimited upside, capped downside at the premium paid), which is exactly why higher volatility in the underlying stock makes the option more valuable, not less."
+critical-questions:
+  - "Is the payoff-function actually asymmetric here, or is variability being celebrated on the strength of one favorable-looking example while the downside is just as unbounded as the upside?"
+  - "For product development specifically, does the downside have a real ceiling, or can it run away (unlimited time and expense sunk into a failing path) — Reinertsen notes development projects typically have unlimited downside and limited upside, which caps how much variability is worth seeking."
+  - "Has the marginal trade-off actually been computed (where does the left tail's added cost start outrunning the right tail's added value), or is 'more variability is good here' being asserted past the point where it stops paying?"
+status: active

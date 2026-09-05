@@ -4,7 +4,7 @@ type-in: situation
 type-out: warning
 _tier: atomic
 agent-instruction: "Don't wait for a queue that's spiked into a bad state to work itself back down — a random process has no memory of how it got there, so the odds of it randomly walking back to normal are the same tiny odds it took to get there in the first place. Once a queue drifts high, intervene quickly and decisively; the longer you wait, the more expensive the correction, and the state can persist far longer than intuition expects."
-related: [lex-hb8rs, lex-xw7sk]
+related: [lex-86t6v, lex-gxmee, lex-h7kmr, lex-hb8rs, lex-ugntp, lex-xw7sk]
 evokes: ["the-diffusion-principle", "Feller's-coin-flip-random-walk", "no-natural-predators-for-a-drifted-queue"]
 lineage:
   - source: primary

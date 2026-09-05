@@ -1,0 +1,20 @@
+id: lex-nma8m
+name: hold-reserves-at-every-organizational-level-not-just-the-top
+type-in: structure
+type-out: process
+_tier: atomic
+agent-instruction: "Don't consolidate all your slack into one big reserve controlled from the top. Split it — hold some capacity margin at every level of the organization, so small problems get absorbed instantly by the people closest to them, while genuinely larger problems still escalate to bigger reserves at higher levels. You give up some pure efficiency for a system that responds at the speed each level's own problems actually demand."
+related: [lex-3c3tg]
+evokes: ["the-memory-hierarchy-analogy", "cache-DRAM-and-disk", "one-third-to-one-half-held-back"]
+lineage:
+  - source: primary
+    text: reinertsen-2016-principles-of-product-development-flow-ch9-tactical-reserves
+    citation: "Donald G. Reinertsen, The Principles of Product Development Flow (2nd ed. 2016), Ch.9 'Achieving Decentralized Control,' Principle D15 'The Principle of Tactical Reserves.' Reinertsen contrasts attrition-warfare's single general-controlled reserve with maneuver warfare's reserves held at every organizational level, and draws the direct parallel to a computer's memory hierarchy — small fast cache, larger slower DRAM, largest slowest disk — where the combination approaches the speed of the fastest layer at the cost of the cheapest."
+    quote: "[Reinertsen 2016, Ch.9:] 'D15: The Principle of Tactical Reserves: Decentralize a portion of reserves. ... In maneuver warfare, reserves are held at every organizational level. This gives every level of the organization enough reserve capacity to deal instantly with a certain range of contingency. ... By holding reserves at each organizational level, ever larger supplementary forces can be brought to bear, albeit with longer delays. ... Depending on the nature of the military operation, from one-third to one-half of the force will be held in reserve.' [On the computing analogy:] 'The combined functioning of these three layers of memory produces performance that approaches the speed of the fastest layer at the cost of the cheapest layer. This is the same reason we layer reserves.'"
+canonical-instances:
+  - "The computer memory-hierarchy analogy Reinertsen draws directly (Ch.9): cache is fast and expensive, DRAM is larger and cheaper but slower, disk is largest and cheapest but slowest — frequently-needed data lives in cache, rarely-needed data on disk, and the system as a whole gets near-cache speed without paying cache prices for all its storage."
+critical-questions:
+  - "Is reserve capacity actually distributed across levels, or has it all been pooled into one place (a single program-level reserve controlled by one person) that recreates the single-general-reserve pattern this principle argues against?"
+  - "Does each level's reserve actually match the scale of problem that level is expected to absorb — too small a local reserve just pushes everything up to the next level anyway, defeating the purpose."
+  - "What's the actual cost of holding this much capacity idle at each level, and has it been weighed against the value of the faster local response — this is explicitly a trade, not a free win, and the right split depends on how expensive delay is at each level."
+status: active

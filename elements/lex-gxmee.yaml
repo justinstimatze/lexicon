@@ -1,0 +1,20 @@
+id: lex-gxmee
+name: congestion-collapse-is-a-sudden-not-gradual-failure
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "In any system with regenerative feedback between load and throughput, don't assume performance will simply plateau as you push utilization higher — past a critical loading point, throughput can collapse suddenly and catastrophically rather than degrading gradually. Operate with margin below that point, because the boundary isn't visible until you're already past it."
+related: [lex-xw7sk, lex-hsbem]
+evokes: ["the-1986-Internet-collapse", "the-1000-fold-throughput-drop", "the-expediting-spiral"]
+lineage:
+  - source: primary
+    text: reinertsen-2016-principles-of-product-development-flow-ch7-congestion-collapse
+    citation: "Donald G. Reinertsen, The Principles of Product Development Flow (2nd ed. 2016), Ch.7 'Controlling Flow Under Uncertainty,' Principle F1 'The Principle of Congestion Collapse.' Reinertsen cites the October 1986 Internet congestion collapse, where a fully-utilized link to U.C. Berkeley suddenly lost 1,000x its capacity, as the canonical case of a regenerative-feedback system failing suddenly rather than gradually — and draws the parallel to a factory or development pipeline whose expediting response to high queues itself further reduces throughput."
+    quote: "[Reinertsen 2016, Ch.7:] 'F1: The Principle of Congestion Collapse: When loading becomes too high, we will see a sudden and catastrophic drop in output. ... This first occurred on the Internet in October 1986, when the capacity of a fully utilized link to U.C. Berkeley suddenly dropped by a factor of 1,000. ... At one moment, everything is fine; at the next, the system is incapacitated. When congestion occurs, performance is no longer a simple extrapolation of throughput at lower loads.'"
+canonical-instances:
+  - "Reinertsen's factory analog (Ch.7): high utilization creates large queues, which increases the incentive to expedite jobs; expediting interrupts work and lowers throughput, which grows the queues further and increases expediting even more — the same regenerative structure that produced the 1986 Internet collapse, in a factory instead of a network."
+critical-questions:
+  - "Does this system actually have regenerative feedback (does falling throughput itself trigger a response — expediting, resending, adding demand — that further reduces throughput), or is it a system where throughput simply plateaus without that loop, in which case congestion collapse isn't the risk?"
+  - "Is the operating margin below the peak-throughput point being maintained deliberately, or is utilization being pushed up because everything still looks fine right up until the collapse — which is exactly how this failure mode presents?"
+  - "Has anyone actually looked for the regenerative loop specifically, or is the system just assumed safe because no collapse has happened yet — a system can run right at the edge for a long time before a triggering event pushes it over."
+status: active

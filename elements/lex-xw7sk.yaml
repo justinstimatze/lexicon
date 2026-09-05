@@ -4,7 +4,7 @@ type-in: situation
 type-out: claim
 _tier: atomic
 agent-instruction: "Before loading a resource to near-100% utilization to look efficient, know the actual shape of the cost: queue size roughly doubles every time you halve the remaining excess capacity, so 90-to-95% costs as much as 60-to-80% and then 80-to-90% combined. A small, well-intentioned nudge toward 'fuller' utilization near the top of that curve buys a wildly disproportionate cycle-time penalty."
-related: [lex-hb8rs, lex-hsbem, lex-tt6y5]
+related: [lex-g7k5x, lex-gxmee, lex-hb8rs, lex-hsbem, lex-tt6y5]
 evokes: ["the-queueing-curve", "rho-capacity-utilization", "the-98.5-percent-average"]
 lineage:
   - source: primary

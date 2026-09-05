@@ -1,0 +1,20 @@
+id: lex-ugntp
+name: watch-the-aging-outliers-not-just-average-queue-size
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Average queue size can look fine while a few individual jobs quietly rot near the back of the line. Run an aging analysis — look specifically at how long the oldest items have been waiting — because a job stuck far longer than average is usually a sign of a real, hidden problem, not noise, and it deserves its own preplanned escalation path rather than waiting to surface in the average."
+related: [lex-hb8rs, lex-hsbem]
+evokes: ["accounts-receivable-past-due", "the-90-and-120-day-buckets", "a-preplanned-escalation-path"]
+lineage:
+  - source: primary
+    text: reinertsen-2016-principles-of-product-development-flow-ch6-aging-escalation
+    citation: "Donald G. Reinertsen, The Principles of Product Development Flow (2nd ed. 2016), Ch.6 'Applying WIP Constraints,' Principles W15 'The Aging Principle' and W16 'The Escalation Principle.' Reinertsen draws the analogy to accounts-receivable aging (flagging invoices 90 or 120 days past due as disproportionately likely to be uncollectable) and argues engineering jobs stuck unusually long in a queue deserve the same targeted scrutiny, paired with a preplanned escalation trigger rather than ad hoc attention."
+    quote: "[Reinertsen 2016, Ch.6:] 'W15: The Aging Principle: Watch the outliers. ... averages are deceiving. It is quite useful to know if our average processing time contains some jobs with very long processing times. ... This is called an aging analysis. ... engineering jobs that have been stuck in a WIP pool for a long time are likely to be experiencing unexpected problems.' [On the paired response:] 'W16: The Escalation Principle: Create a preplanned escalation process for outliers. ... The simplest escalation process is to raise jobs to the attention of higher organizational levels when they pass a certain time limit in the queue.'"
+canonical-instances:
+  - "Accounts-receivable aging, the direct analogy Reinertsen draws (Ch.6): businesses routinely flag receivables 90 or 120 days past due as disproportionately likely to go uncollectable — the same aging-tail logic applied to a financial queue instead of a work queue."
+critical-questions:
+  - "Is the aging analysis actually run on individual items, or is a healthy-looking average being trusted without checking whether it's hiding a long tail of stuck outliers?"
+  - "Does the escalation trigger actually fire automatically at a preplanned time threshold, or does an aging item only get attention when someone happens to notice it?"
+  - "Once an outlier is escalated, is the underlying cause of its unusual delay actually being investigated, or is it simply being expedited past the queue without anyone learning why it got stuck in the first place?"
+status: active
