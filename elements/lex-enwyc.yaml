@@ -1,0 +1,23 @@
+id: lex-enwyc
+name: a-crisis-real-or-manufactured-unlocks-tolerance-for-a-power-grab
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a leader hemmed in by ordinary democratic constraints suddenly faces a war, attack, or emergency, watch for the crisis to become the justification for powers that public opinion and institutions would have rejected the week before. The mechanism doesn't require the crisis to be real, only for the public to believe it is. Levitsky and Ziblatt: 'Crises are hard to predict, but their political consequences are not. They facilitate the concentration and, very often, abuse of power.' ... 'For a demagogue who feels besieged by critics and shackled by democratic institutions, crises open a window of opportunity to silence critics and weaken rivals. Indeed, elected autocrats often need crises—external threats offer them a chance to break free, both swiftly and, very often, 'legally.'' ... 'Other leaders invent crises.' Since a fabricated threat unlocks the same public tolerance as a genuine one, a leader who has grasped that fact has every reason to manufacture what luck would otherwise have to supply."
+related: [lex-gfhvt, lex-krmhx, lex-qvngc]
+evokes: [levitsky-ziblatt-2018-how-democracies-die, rally-round-the-flag, reichstag-fire, marcos-manufactured-communist-menace, patriot-act]
+lineage:
+  - source: primary
+    text: levitsky-ziblatt-2018-how-democracies-die-ch4-crisis-as-pretext
+    citation: "Steven Levitsky & Daniel Ziblatt, How Democracies Die (Crown, 2018), Chapter 4 'Subverting Democracy,' on crises real and fabricated as pretexts for concentrating power."
+    quote: "'Crises are hard to predict, but their political consequences are not. They facilitate the concentration and, very often, abuse of power.' ... 'For a demagogue who feels besieged by critics and shackled by democratic institutions, crises open a window of opportunity to silence critics and weaken rivals. Indeed, elected autocrats often need crises—external threats offer them a chance to break free, both swiftly and, very often, 'legally.'' ... 'Other leaders invent crises.'"
+canonical-instances:
+  - "Ferdinand Marcos wanted to declare martial law in the Philippines as early as 1971 but needed a triggering event; a 1972 wave of Manila bombings and an assassination attempt on his defense secretary supplied it, even though the defense secretary later admitted he had been 'nowhere near the scene' of the reported attack on him — the crisis was substantially manufactured, and it still unlocked fourteen years of one-man rule."
+  - "Hitler, Göring, and Goebbels used the February 1933 Reichstag fire — whose actual origin historians still debate — to justify same-day emergency decrees dismantling civil liberties, followed a month later by the Enabling Act; the mechanism worked whether or not the Nazi leadership itself set the fire."
+  - "The USA PATRIOT Act needed no manufacturing at all, and shows the mechanism running on a genuine crisis alone: Bush's approval jumped from 53 to 90 percent after September 11, and the book's own account is blunt that the act would never have cleared Congress without the prior month's attacks behind it."
+critical-questions:
+  - "In the Reichstag and Marcos cases there is real historical doubt about who actually caused the triggering event. Does the tolerance-unlocking effect depend on the truth ever coming out, or does it run identically whether the crisis was staged or the public simply assumes the wrong cause?"
+  - "The PATRIOT Act and Japanese-American internment both show broad public support for policies later widely regretted. Can a proposed emergency power's proportionality actually be judged from inside the crisis it responds to, or is disabling exactly that judgment the whole mechanism, for however long the crisis is allowed to run?"
+  - "Every instance in the chapter is a security or violence crisis with an identifiable external threat. Does an economic collapse or a public-health emergency trigger the same rally-round-the-flag tolerance, or does the mechanism need a threat that can be personified as an enemy?"
+status: active
+severity-tier: info

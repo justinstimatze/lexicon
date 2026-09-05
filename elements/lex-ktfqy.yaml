@@ -1,0 +1,22 @@
+id: lex-ktfqy
+name: facially-neutral-criteria-can-achieve-a-legally-forbidden-target
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a group gains a specific legal protection against being excluded by name, watch for the exclusion to migrate onto a different, unprotected trait that merely correlates with the protected one — the rule stays neutral on its face while the outcome stays exactly what the protection was meant to stop. Levitsky and Ziblatt on the post-Reconstruction South: 'To comply with the letter of the law as stipulated in the Fifteenth Amendment, no mention of race could be made in efforts to restrict voting rights, so states introduced purportedly 'neutral' poll taxes, property requirements, literacy tests, and complex written ballots.' ... 'The overarching aim of all of these restrictions,' historian Alex Keyssar observed, 'was to keep poor and illiterate blacks…from the polls.' The Fifteenth Amendment forbade race as a stated criterion. It left every criterion merely correlated with race — literacy, property, an intentionally confusing ballot — completely open, and the correlation did the excluding work the statute's text never had to admit to. Checking a rule's text against the letter of a protection tells you nothing about whether it was built to defeat the protection's purpose."
+related: [lex-mmxs8]
+evokes: [levitsky-ziblatt-2018-how-democracies-die, keyssar-poll-taxes-literacy-tests, fifteenth-amendment-letter-of-the-law, eight-box-law, dortch-law]
+lineage:
+  - source: primary
+    text: levitsky-ziblatt-2018-how-democracies-die-ch4-facially-neutral-disenfranchisement
+    citation: "Steven Levitsky & Daniel Ziblatt, How Democracies Die (Crown, 2018), Chapter 4 'Subverting Democracy,' on post-Reconstruction Southern voting restrictions, citing historian Alex Keyssar."
+    quote: "'To comply with the letter of the law as stipulated in the Fifteenth Amendment, no mention of race could be made in efforts to restrict voting rights, so states introduced purportedly 'neutral' poll taxes, property requirements, literacy tests, and complex written ballots.' ... 'The overarching aim of all of these restrictions,' historian Alex Keyssar observed, 'was to keep poor and illiterate blacks…from the polls.'"
+canonical-instances:
+  - "South Carolina's 1882 'Eight Box Law' created a ballot too complex for an illiterate voter to navigate; since most of the state's Black residents were illiterate, Black turnout collapsed from 96 percent in 1876 to 11 percent by 1898 once a poll tax and literacy test were added — the statute's text stopped at literacy alone, and its effect matched exactly what naming race outright would have produced."
+  - "Tennessee's 1889 Dortch Law paired a poll tax with a literacy-dependent ballot; the pro-Democratic Memphis press said the quiet part out loud afterward, crediting the law with having 'raised' the Democratic majority 'at least four-fold' — the rule's neutral text and its openly acknowledged discriminatory purpose coexisted without contradiction, since only the text was what any court could test."
+critical-questions:
+  - "Contemporaries in Tennessee and South Carolina stated the discriminatory purpose publicly, in print, at the time, and the laws stood anyway. Does concealment change anything here, given that a court tests the rule's text and not its authors' stated motive?"
+  - "Literacy tests and poll taxes also excluded poor white voters who weren't the intended target. How much collateral exclusion of the wrong population is tolerable to whoever designs the proxy before the proxy stops serving the original goal?"
+  - "U.S. law eventually moved toward banning disparate impact, not just facial discrimination, in some domains. Does that class of protection close off this mechanism entirely, or does it just push the search for an even more distantly correlated proxy one level further out?"
+status: active
+severity-tier: info

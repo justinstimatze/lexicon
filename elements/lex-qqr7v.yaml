@@ -1,0 +1,22 @@
+id: lex-qqr7v
+name: capturing-a-neutral-referee-converts-it-into-a-weapon
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a would-be autocrat gains influence over an institution built to check power neutrally — courts, prosecutors, tax authorities, intelligence services — recognize that capturing it does more than remove a check. It flips the institution into an offensive tool, using the exact same neutral-arbiter machinery the public still believes is impartial. Levitsky and Ziblatt: 'In democracies, such institutions are designed to serve as neutral arbiters. For would-be authoritarians, therefore, judicial and law enforcement agencies pose both a challenge and an opportunity. If they remain independent, they might expose and punish government abuse. It is a referee's job, after all, to prevent cheating. But if these agencies are controlled by loyalists, they could serve a would-be dictator's aims, shielding the government from investigation and criminal prosecutions that could lead to its removal from power.' ... 'Capturing the referees provides the government with more than a shield. It also offers a powerful weapon, allowing the government to selectively enforce the law, punishing opponents while protecting allies.' Watch for both halves, not just the first: an investigation that quietly stops is the shield working; a prosecution, audit, or leak that suddenly starts against a critic is the same captured machinery now pointed outward."
+related: [lex-gfhvt, lex-gt9kt, lex-krmhx]
+evokes: [levitsky-ziblatt-2018-how-democracies-die, capturing-the-referees, shield-and-weapon, fujimori-montesinos-blackmail-tapes, orban-hungary-institution-packing]
+lineage:
+  - source: primary
+    text: levitsky-ziblatt-2018-how-democracies-die-ch4-capturing-the-referees
+    citation: "Steven Levitsky & Daniel Ziblatt, How Democracies Die (Crown, 2018), Chapter 4 'Subverting Democracy,' section on capturing courts, law enforcement, and regulatory agencies."
+    quote: "'In democracies, such institutions are designed to serve as neutral arbiters. For would-be authoritarians, therefore, judicial and law enforcement agencies pose both a challenge and an opportunity. If they remain independent, they might expose and punish government abuse. It is a referee's job, after all, to prevent cheating. But if these agencies are controlled by loyalists, they could serve a would-be dictator's aims, shielding the government from investigation and criminal prosecutions that could lead to its removal from power.' ... 'Capturing the referees provides the government with more than a shield. It also offers a powerful weapon, allowing the government to selectively enforce the law, punishing opponents while protecting allies.'"
+canonical-instances:
+  - "Hungary's Viktor Orbán, after returning to power with a two-thirds majority in 2010, packed the nominally independent Prosecution Service, State Audit Office, Ombudsman's office, Central Statistical Office, and Constitutional Court with partisan loyalists — a wholesale personnel replacement that left the institutions' names and formal charters untouched while inverting their function."
+  - "Peru's Alberto Fujimori worked the mechanism through his intelligence chief Vladimiro Montesinos, who videotaped judges, prosecutors, and politicians in compromising acts and used the footage for blackmail while also paying a 'staggering' number of judges monthly cash on the side — buying both the shield (favorable rulings) and the weapon (selective impeachment of the Constitutional Tribunal justices who blocked Fujimori's third term) from the same captured bench."
+critical-questions:
+  - "Orbán's capture ran through wholesale personnel replacement; Fujimori's ran through bribery and blackmail of individuals already in place. Does the method of capture change how reversible it is once power changes hands — does a bribed judiciary revert faster than a purged one, or slower?"
+  - "The book frames the shield function and the weapon function as two effects of the same capture. Does the shield reliably appear first and give the only visible early warning, or can the weapon show up before anyone notices the referee has stopped being neutral?"
+  - "Some of Peru's courts briefly resisted — ruling several of Fujimori's decrees unconstitutional before the capture was complete. Does early resistance from a partially-captured referee actually slow the takeover, or does it just accelerate the pressure to finish capturing it?"
+status: active
+severity-tier: info
