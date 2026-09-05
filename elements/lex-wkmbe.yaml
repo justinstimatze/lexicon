@@ -1,0 +1,22 @@
+id: lex-wkmbe
+name: cook-tough-cuts-past-the-point-that-ruins-lean-ones
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When more of the same intervention (heat, pressure, duration) has clearly been damaging one kind of input, don't generalize 'more is worse' to every input in that category — check whether what you're acting on has a different internal composition that only starts reacting past the same threshold you've been treating as a stopping point. A lean cut and a collagen-rich cut both lose moisture and get tougher past the same temperature threshold at first, which is why lean cuts should stop there — but in the collagen-rich cut, held at or above that same threshold for long enough, a second, much slower reaction (collagen unwinding into moisture-retaining gelatin) takes over and reverses the trend, ending up more tender than either cut was at the naive stopping point. Diagnose which regime you're in from the object's composition before extrapolating a trend from the direction it's moved so far."
+related: [lex-j5k33, lex-kzjdw]
+evokes: [americas-test-kitchen, guy-crosby, collagen-to-gelatin, low-and-slow, cooked-to-death-on-purpose, the-trend-reverses-if-you-keep-going]
+lineage:
+  - source: primary
+    text: americas-test-kitchen-crosby-2012-science-of-good-cooking
+    citation: "The Editors at America's Test Kitchen and Guy Crosby, The Science of Good Cooking: Master 50 Simple Concepts to Enjoy a Lifetime of Success in the Kitchen (America's Test Kitchen, 2012), Concept 7, 'Cook Tough Cuts Beyond Well-Done,' pp. 252-258."
+    quote: "'Tough cuts of meat don't have to be unpalatable. They can become meltingly tender... if cooked to death. This seems contradictory to most meat cookery, where more time in the oven yields drier, chewier results.' [How the Science Works:] 'Extended cooking destroys lean cuts with little collagen... because as the muscle fibers contract, they steadily give up their juices and become drier and tougher with time... But collagen-rich cuts are too tough to eat when cooked to rare or medium-rare. Extended cooking actually improves the texture of tough cuts with lots of sinuous collagen... because it allows the abundant collagen to transform into gelatin, retaining significantly more moisture, and the tightened muscle fibers to relax a bit, drawing moisture back inside the meat.'"
+canonical-instances:
+  - "The book's own test-kitchen experiment: oxtail braised at a bare simmer, sampled and chilled every 30 minutes. At 30 minutes the braising liquid was barely changed from raw; at 1 hour it was slightly thickened; at 2 hours a fragile jelly that lost its shape when inverted; at 3 hours a firm jelly that held sharp edges — the same held-temperature exposure kept producing more gelatin the longer it continued, well past the point a lean cut would already be ruined."
+  - "The book's own stated practical rule, naming the same threshold cutting two different ways depending on composition: cuts with little collagen should be pulled at a final temperature no higher than 130 degrees for beef or 150 for pork, while collagen-rich cuts are 'too tough to eat' at that same range and need to be held at 160 to 180 degrees for hours — 'a tough pork butt should be roasted for at least five hours.'"
+critical-questions:
+  - "How do you reliably diagnose which regime a given cut is in before committing hours of cooking to it — is cut-name/collagen-content a sufficient proxy, or does composition vary enough within a single named cut to make the call genuinely uncertain in advance?"
+  - "Is this a true reversal (net tenderness improves past the threshold) or a floor effect that only looks like reversal because gelatin's moisture-retention masks continuing fiber-level damage — does the meat keep losing quality by some other measure (structural integrity, distinct fiber texture) even while perceived tenderness improves?"
+  - "Does the claim generalize past meat cookery to any 'more of the same escalation looks like failure, then reverses' situation, or does it specifically require two independently-verified, differently-timed competing mechanisms (fast moisture loss, slow collagen conversion) — without a second mechanism actually present, would pushing further past an apparent-failure point in an unrelated domain just be more of the same failure?"
+status: active
+severity-tier: info

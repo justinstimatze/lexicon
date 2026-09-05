@@ -4,7 +4,7 @@ type-in: state
 type-out: claim
 _tier: atomic
 agent-instruction: "Don't treat two processes as equivalent just because they reach the same final measured value. Check how long each was actually held at or near that value, since a rate-limited transformation (an enzyme reaction, a chemical conversion) can still be far from complete at the moment the target reading is first reached. Where a process is known to be time-dependent as well as level-dependent, hold the intermediate condition longer rather than stopping the instant the target number first appears, and test outcomes with a discriminating measure that a shared final reading would otherwise conceal."
-related: [lex-mr4nb, lex-2cfc3]
+related: [lex-2cfc3, lex-mr4nb, lex-wkmbe]
 evokes: [americas-test-kitchen, guy-crosby, sous-vide-time-matters-too, reaching-a-number-isnt-finishing-the-job, same-reading-different-steak]
 lineage:
   - source: primary

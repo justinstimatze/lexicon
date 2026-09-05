@@ -1,0 +1,23 @@
+id: lex-d4tdk
+name: a-short-wait-recovers-most-of-what-disruption-just-cost
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: "When something you just stopped actively disrupting (heat contracting proteins, any process that squeezed a system out of its resting state) is still visibly at its point of maximum disturbance, don't judge or use it right then — that's peak disruption, not the settled state. Give it a short, deliberate wait: the reversal is usually fast and front-loaded, recovering most of its value in the first short interval, with sharply diminishing returns after that. Scale the wait to the size of what was disrupted rather than using one fixed number, and stop extending it once the returns visibly flatten rather than out of habit or an arbitrary round number."
+related: [lex-2cfc3]
+evokes: [americas-test-kitchen, guy-crosby, dont-slice-it-hot, let-it-settle-first, the-first-ten-minutes-do-most-of-the-work]
+lineage:
+  - source: primary
+    text: americas-test-kitchen-crosby-2012-science-of-good-cooking
+    citation: "The Editors at America's Test Kitchen and Guy Crosby, The Science of Good Cooking: Master 50 Simple Concepts to Enjoy a Lifetime of Success in the Kitchen (America's Test Kitchen, 2012), Concept 3, 'Resting Meat Maximizes Juiciness,' pp. 134-141."
+    quote: "'The roasts that we sliced immediately after cooking shed an average of 10 tablespoons of liquid... In contrast, the roasts that we allowed to rest for 10 minutes before carving shed an average of just 4 tablespoons of liquid. That's a 60 percent decrease in moisture loss by waiting 10 minutes to slice. The numbers continued to improve with extended resting time; the roasts that rested for 20, 30, and 40 minutes lost 2½ tablespoons, 1 tablespoon, and 2 teaspoons of juice, respectively.' [The Takeaway:] 'The most dramatic decrease in moisture loss happens during the first 10 minutes of rest. The trick is to determine the optimal resting time.'"
+canonical-instances:
+  - "The underlying mechanism, from the same concept's own explanation: heat contracts and compresses the protein bundles in muscle fiber, squeezing moisture out into the spaces between them; resting lets the contracted proteins relax and draw some of that expelled moisture back in, which is why cutting immediately floods the cutting board while a rested roast doesn't."
+  - "The size-dependent caveat the book states directly: a big roast stays hot enough to keep benefiting from a long rest, but 'while a big roast will still be hot after a 30-minute rest, a thin steak will be cold' — the same wait that's still paying off for one mass has already gone past the point of diminishing returns, and into a different cost (a cold plate), for a smaller one."
+  - "operationally distinct from lex-2cfc3 (removing-the-driver-does-not-stop-a-system-already-in-motion), grounded in the same book's adjacent Concept 4: lex-2cfc3's mechanism is momentum already imparted continuing to convert after the driver stops (carryover cooking keeps raising internal temperature). This atom's mechanism is a separate, reversible structural relaxation (contracted proteins un-squeezing and reabsorbing expelled liquid) that happens concurrently but is not the same physical process — the two compose in the same resting period without being one phenomenon."
+critical-questions:
+  - "Does the wait need scaling only to size, or also to how the disruption was produced — the book's own second factor names cooking method (surface temperature, not just final internal temperature) as independently lengthening the needed wait, which means size alone is an incomplete rule."
+  - "Is 'diminishing returns' the right frame, or is there a hard ceiling being approached (all reabsorbable moisture reabsorbed) rather than a continuously flattening curve — the two predict different behavior if the disrupted system is unusually large or was disrupted for a long time before the wait began."
+  - "Can the wait itself introduce a new cost that isn't about the original disruption at all (the plate going cold, an audience's patience running out, a decision's context going stale) that eventually outweighs the shrinking benefit of waiting longer — is 'stop when returns flatten' actually sufficient, or does a second, independent stopping condition have to be tracked alongside it?"
+status: active
+severity-tier: info
