@@ -1,0 +1,22 @@
+id: lex-krmhx
+name: overlapping-goals-can-motivate-abdication-without-any-control-illusion
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When mainstream actors hand real power to a figure who threatens the system they belong to, don't assume they must be laboring under the fateful-alliance illusion that they can control or contain him. Check for a second, distinct reason first: his actual agenda may simply overlap with theirs closely enough that going along beats opposing him, with no illusion about controllability required anywhere in the decision. Levitsky and Ziblatt name this directly: 'Collective abdication—the transfer of authority to a leader who threatens democracy—usually flows from one of two sources. The first is the misguided belief that an authoritarian can be controlled or tamed. The second is what sociologist Ivan Ermakoff calls 'ideological collusion,' in which the authoritarian's agenda overlaps sufficiently with that of mainstream politicians that abdication is desirable, or at least preferable to the alternatives.' The two explanations call for different responses. Someone under the control illusion can be shown the historical record of that specific illusion failing before. Someone practicing ideological collusion isn't confused about anything — they've already weighed what the figure will do and decided the overlap in goals is worth it, so evidence about consequences won't change a decision that was never a misjudgment to begin with."
+related: [lex-gfhvt, lex-gt9kt, lex-mmxs8, lex-vh2wh]
+evokes: [levitsky-ziblatt-2018-how-democracies-die, ermakoff-ideological-collusion, collective-abdication, going-along-beats-opposing]
+lineage:
+  - source: primary
+    text: levitsky-ziblatt-2018-how-democracies-die-ch3-two-sources-of-abdication
+    citation: "Steven Levitsky & Daniel Ziblatt, How Democracies Die (Crown, 2018), Chapter 3 'The Great Republican Abdication,' citing sociologist Ivan Ermakoff's concept of ideological collusion."
+    quote: "'Collective abdication—the transfer of authority to a leader who threatens democracy—usually flows from one of two sources. The first is the misguided belief that an authoritarian can be controlled or tamed. The second is what sociologist Ivan Ermakoff calls 'ideological collusion,' in which the authoritarian's agenda overlaps sufficiently with that of mainstream politicians that abdication is desirable, or at least preferable to the alternatives.'"
+canonical-instances:
+  - "The book's own case, offered as an instance of collective abdication generally rather than pinned to one cause specifically: most 2016 Republican leaders held the party line behind Trump despite many having already named him a fraud and a danger to the country. Whether individual leaders believed they could later contain him, or had simply judged his tax, judicial, and deregulation agenda worth the risk, the book doesn't resolve — the distinction itself, not a verdict on which applied, is the transferable content."
+  - "Hypothetical: a corporate board keeps backing a founder-CEO who has started ignoring the board's own governance rules, not because directors think they can rein him in later, but because his product bets keep paying off and no one wants to be the one who forces him out mid-streak. The overlap between his behavior and their own financial interest is worth the governance risk to them, with no illusion about controlling him anywhere in the picture."
+critical-questions:
+  - "Is there any outward behavior that reliably distinguishes an actor genuinely deceived by the control illusion from one practicing conscious collusion, or does the difference only surface later, in whether they ever actually try to rein the figure in once he's in power?"
+  - "Ermakoff's framing treats these as the only two sources of collective abdication. Are there abdications that fit neither — plain fear of retaliation, say, with no belief about control and no real agreement of interest at all?"
+  - "If ideological collusion is a clear-eyed choice rather than a mistake, is it more or less dangerous than the control illusion? A mistaken belief can in principle be corrected by evidence; a deliberate trade of principle for interest has no obvious correction at all."
+status: active
+severity-tier: info
