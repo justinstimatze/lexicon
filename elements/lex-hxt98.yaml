@@ -1,0 +1,20 @@
+id: lex-hxt98
+name: the-corrupting-bestseller-panic-recycles-across-centuries
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: "When a wildly popular book aimed at a stigmatized audience draws accusations that it's corrupting readers, normalizing danger, or enslaving its audience psychologically, check the accusation's actual track record before treating it as a fresh, evidence-based concern. The same complaint - dangerous male love interest, unrealistic wish-fulfillment, susceptible young female readers - has recurred against Samuel Richardson's Pamela (1740), 19th-century 'silly novels by lady novelists,' mass-market bodice-rippers, Twilight, Fifty Shades of Grey, and contemporary romance bestsellers, with the specific target rotating every decade or two while the accusation and its structure stay fixed. A panic this stable across centuries and unrelated books is tracking something about who reads the genre and what genre it is, not a fact freshly discovered about this particular book's content."
+related: [lex-zapvu]
+evokes: ["silly-novels-by-lady-novelists", "pamela-and-anti-pamela", "conduct-books", "twilight-to-fifty-shades-to-colleen-hoover"]
+lineage:
+  - source: primary
+    text: wynn-2024-twilight-contrapoints-recycled-genre-panic
+    citation: "Natalie Wynn, 'Twilight' (ContraPoints, YouTube, published 2024-03-01). Wynn traces the accusation pattern from Thomas Gisborne's 1798 conduct-book warning against novel-reading, through George Eliot's 1856 'Silly Novels by Lady Novelists,' to contemporary criticism of Twilight (quoting writer Erin Meanly) and beyond."
+    quote: "'The point I'm trying to make is that there's a historical continuity from \"Pamela\" to \"Twilight\". ... Another continuity from \"Pamela\" to \"Twilight\" is the persistent anxiety of critics that the romance novel is somehow corrupting the youth, or enslaving women, or both.' ... [quoting an 18th-century conduct book:] '\"To indulge in a practice of reading novels is liable to produce mischievous effects.\"' ... [quoting critic Erin Meanly on Twilight:] '\"Some girls might expect their love life to look just like Bella's. Now that's what I call scary.\"'"
+canonical-instances:
+  - "The rotating target list itself, per Wynn's own account: Samuel Richardson's Pamela (1740) drew 'Anti-Pamela' parody novels accusing its heroine of being a gold-digger in disguise; 19th-century mass-market 'bodice rippers' drew Germaine Greer's 1970 condemnation of readers as 'women cherishing the chains of their own bondage'; Twilight in the 2000s and Fifty Shades of Grey in the 2010s drew the same corrupting-influence framing; by the time of the video, novelist Colleen Hoover's bestsellers about 'dangerous alpha males' were drawing the identical complaint - a different book and author every time, the same accusation every time."
+critical-questions:
+  - "Does the recurrence of the accusation across centuries actually prove it's misplaced, or could each individual instance still be a genuine concern about that specific book's content, coincidentally following a common template because dangerous-male-love-interest romance genuinely recurs as a popular subgenre?"
+  - "Is the pattern actually gender-specific to women's romance fiction, or does an analogous cycle exist for genres coded male (violent video games, gangster rap) with a parallel accusation structure that would undercut the claim that this is specifically about misogyny toward romance readers?"
+  - "Does identifying the panic as recycled change how a legitimate, book-specific criticism should be evaluated, or does it risk becoming a way to wave off any criticism of the current target by pointing to the historical pattern rather than engaging its substance?"
+status: active
