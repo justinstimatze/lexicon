@@ -8,14 +8,26 @@ package main
 // Contract:
 //
 //	{
-//	  "focal":    {id, name, tier, status, gloss, agent_instruction},
-//	  "outgoing": {related: [...], decomposes_into: [...], evokes: [...], premises: [...]},
+//	  "focal":    {id, name, tier, status, gloss, agent_instruction, type_in,
+//	               type_out, premises, critical_questions},
+//	  "outgoing": {related: [...], decomposes_into: [...], evokes: [...]},
 //	  "incoming": {related_from: [...], decomposes_into_from: [...]},
 //	  "hop2":     {via_lex-XXXX: [...]}   // only when --hops 2
 //	}
 //
-// Each neighbor carries {id, name, tier, gloss, agent_instruction} so the
-// caller can compose without a follow-up read.
+// Each neighbor carries {id, name, tier, gloss, agent_instruction, type_in,
+// type_out} so the caller can compose without a follow-up read -- type_in/
+// type_out are exactly the schema's own answer to whether a "related" or
+// "decomposes_into" neighbor is actually type-compatible, which is the
+// premise those buckets are built on.
+//
+// premises/critical_questions live on "focal", not "outgoing": they're
+// prose describing the FOCAL atom's own reasoning structure (Walton-style
+// premise/defeater pairs), not references to other atoms. An earlier
+// version ran them through the same atom-ID resolver as related/
+// decomposes_into ("outgoing.premises"), which meant every premise string
+// silently failed to resolve and the bucket was always empty -- confirmed
+// via freshet's 2026-09-05 structured-fields-not-surfaced feedback.
 
 import (
 	"encoding/json"
@@ -36,22 +48,34 @@ type constellationNeighbor struct {
 	Tier             string `json:"tier,omitempty"`
 	Gloss            string `json:"gloss,omitempty"`
 	AgentInstruction string `json:"agent_instruction,omitempty"`
+	TypeIn           string `json:"type_in,omitempty"`
+	TypeOut          string `json:"type_out,omitempty"`
 }
 
+// constellationFocal always carries the full molecule-assembly triple
+// (Premises/CriticalQuestions) when the focal atom has one -- unlike
+// read/distinctness, constellation has no detail flag to gate payload
+// size against, because it's a single-atom deep-dive, not a many-result
+// listing: one focal atom's full richness costs nothing like N results'
+// worth would.
 type constellationFocal struct {
-	ID               string `json:"id"`
-	Name             string `json:"name"`
-	Tier             string `json:"tier,omitempty"`
-	Status           string `json:"status,omitempty"`
-	Gloss            string `json:"gloss,omitempty"`
-	AgentInstruction string `json:"agent_instruction,omitempty"`
+	ID                string   `json:"id"`
+	Name              string   `json:"name"`
+	Tier              string   `json:"tier,omitempty"`
+	Status            string   `json:"status,omitempty"`
+	Gloss             string   `json:"gloss,omitempty"`
+	AgentInstruction  string   `json:"agent_instruction,omitempty"`
+	TypeIn            string   `json:"type_in,omitempty"`
+	TypeOut           string   `json:"type_out,omitempty"`
+	Premises          []string `json:"premises,omitempty"`
+	CriticalQuestions []string `json:"critical_questions,omitempty"`
 }
 
 type constellationDoc struct {
-	Focal    constellationFocal                  `json:"focal"`
-	Outgoing map[string][]constellationNeighbor  `json:"outgoing,omitempty"`
-	Incoming map[string][]constellationNeighbor  `json:"incoming,omitempty"`
-	Hop2     map[string][]constellationNeighbor  `json:"hop2,omitempty"`
+	Focal    constellationFocal                 `json:"focal"`
+	Outgoing map[string][]constellationNeighbor `json:"outgoing,omitempty"`
+	Incoming map[string][]constellationNeighbor `json:"incoming,omitempty"`
+	Hop2     map[string][]constellationNeighbor `json:"hop2,omitempty"`
 }
 
 // reorderFlagsFirst moves all flag tokens (--name or --name=val) plus
@@ -121,12 +145,16 @@ func cmdConstellation(renderDir string, args []string) {
 func buildConstellation(focal *types.LexEntry, pool map[string]*types.LexEntry, hops int, incoming bool) constellationDoc {
 	doc := constellationDoc{
 		Focal: constellationFocal{
-			ID:               focal.ID,
-			Name:             focal.Name,
-			Tier:             focal.Tier,
-			Status:           focal.Status,
-			Gloss:            patternGloss(focal),
-			AgentInstruction: focal.AgentInstruction,
+			ID:                focal.ID,
+			Name:              focal.Name,
+			Tier:              focal.Tier,
+			Status:            focal.Status,
+			Gloss:             patternGloss(focal),
+			AgentInstruction:  focal.AgentInstruction,
+			TypeIn:            focal.TypeIn,
+			TypeOut:           focal.TypeOut,
+			Premises:          focal.Premises,
+			CriticalQuestions: focal.CriticalQuestions,
 		},
 		Outgoing: map[string][]constellationNeighbor{},
 	}
@@ -142,6 +170,8 @@ func buildConstellation(focal *types.LexEntry, pool map[string]*types.LexEntry, 
 			Tier:             n.Tier,
 			Gloss:            patternGloss(n),
 			AgentInstruction: n.AgentInstruction,
+			TypeIn:           n.TypeIn,
+			TypeOut:          n.TypeOut,
 		}, true
 	}
 
@@ -161,7 +191,6 @@ func buildConstellation(focal *types.LexEntry, pool map[string]*types.LexEntry, 
 
 	addBucket("related", focal.Related, doc.Outgoing)
 	addBucket("decomposes_into", focal.DecomposesInto, doc.Outgoing)
-	addBucket("premises", focal.Premises, doc.Outgoing)
 	if len(focal.Evokes) > 0 {
 		doc.Outgoing["evokes"] = make([]constellationNeighbor, 0, len(focal.Evokes))
 		for _, v := range focal.Evokes {

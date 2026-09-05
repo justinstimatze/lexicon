@@ -57,6 +57,7 @@ func cmdDistinctness(renderDir string, args []string) {
 	fl := flag.NewFlagSet("distinctness", flag.ExitOnError)
 	topK := fl.Int("top-k", 5, "candidates surfaced (default 5)")
 	noLens := fl.Bool("no-lens", false, "skip the LLM-backed semantic lens (lexical-only on full pool)")
+	detail := fl.Bool("detail", false, "include each match's critical_questions (default: omitted -- several hundred chars per molecule-tier match, multiplied across every result)")
 	args = reorderFlagsFirst(args)
 	_ = fl.Parse(args)
 
@@ -134,7 +135,7 @@ func cmdDistinctness(renderDir string, args []string) {
 		FrameStatus: fsMap,
 	})
 
-	fmt.Println(formatDistinctnessJSON(candidate, results, pool, fsMap, lensUsed, warning))
+	fmt.Println(formatDistinctnessJSON(candidate, results, pool, fsMap, lensUsed, warning, *detail))
 }
 
 // scanChunksConcurrently runs the LLM lens over every chunk in parallel
@@ -191,7 +192,7 @@ func scanChunksConcurrently(candidate string, chunks [][]*types.LexEntry, c clie
 	return merged, confidences, chunksOK, chunksFailed
 }
 
-func formatDistinctnessJSON(candidate string, results []types.GateResult, pool map[string]*types.LexEntry, fsMap framestatus.Map, lensUsed bool, warning string) string {
+func formatDistinctnessJSON(candidate string, results []types.GateResult, pool map[string]*types.LexEntry, fsMap framestatus.Map, lensUsed bool, warning string, detail bool) string {
 	type match struct {
 		ID                        string   `json:"id"`
 		Name                      string   `json:"name"`
@@ -201,6 +202,9 @@ func formatDistinctnessJSON(candidate string, results []types.GateResult, pool m
 		FrameStatus               string   `json:"frame_status,omitempty"`
 		Gloss                     string   `json:"gloss,omitempty"`
 		AgentInstruction          string   `json:"agent_instruction,omitempty"`
+		TypeIn                    string   `json:"type_in,omitempty"`
+		TypeOut                   string   `json:"type_out,omitempty"`
+		CriticalQuestions         []string `json:"critical_questions,omitempty"`
 		OperationallyDistinctFrom []string `json:"operationally_distinct_from,omitempty"`
 	}
 	type out struct {
@@ -224,9 +228,14 @@ func formatDistinctnessJSON(candidate string, results []types.GateResult, pool m
 			Status:           e.Status,
 			Gloss:            patternGloss(e),
 			AgentInstruction: e.AgentInstruction,
+			TypeIn:           e.TypeIn,
+			TypeOut:          e.TypeOut,
 		}
 		if fs, ok := fsMap.Lookup(e.ID); ok {
 			m.FrameStatus = string(fs.Status)
+		}
+		if detail && len(e.CriticalQuestions) > 0 {
+			m.CriticalQuestions = e.CriticalQuestions
 		}
 		for _, ci := range e.CanonicalInstances {
 			if strings.Contains(ci, "Operationally distinct from") {

@@ -233,8 +233,13 @@ func runPatternID(renderDir, contextStr string, topK int, noLens, explainFlag, d
 // formatPatternIDJSON returns the structured JSON shape of the same data
 // formatPatternID emits as markdown. The shape is the agent-consumable
 // contract — id/name/tier/score, lexical_match, frame-status, gloss,
-// agent-instruction, and adjacencies. Stable enough that consumers can pin
-// to specific keys. detail=false (the default) omits critical_questions and
+// agent-instruction, type_in/type_out, and adjacencies. Stable enough that
+// consumers can pin to specific keys. type_in/type_out are always included
+// regardless of detail -- required on every atom, cheap, and the schema's
+// own answer to whether two patterns are type-compatible for composition
+// (freshet's 2026-09-05 structured-fields-not-surfaced feedback: this was
+// the one field the fix left genuinely missing). detail=false (the default)
+// omits critical_questions and
 // caps adjacencies at 3 rather than 6 — critical_questions runs several
 // hundred chars per entry and adjacencies duplicate content a follow-up
 // lexicon_constellation call already provides on demand, so the full shape
@@ -263,6 +268,8 @@ func formatPatternIDJSON(contextStr string, picked []*types.LexEntry, scores map
 		FrameHandle       string      `json:"frame_handle,omitempty"`
 		Gloss             string      `json:"gloss,omitempty"`
 		AgentInstruction  string      `json:"agent_instruction,omitempty"`
+		TypeIn            string      `json:"type_in,omitempty"`
+		TypeOut           string      `json:"type_out,omitempty"`
 		CriticalQuestions []string    `json:"critical_questions,omitempty"`
 		Adjacencies       []adjacency `json:"adjacencies,omitempty"`
 	}
@@ -287,6 +294,8 @@ func formatPatternIDJSON(contextStr string, picked []*types.LexEntry, scores map
 			LexicalMatch:     lexMatch[e.ID],
 			Gloss:            patternGloss(e),
 			AgentInstruction: e.AgentInstruction,
+			TypeIn:           e.TypeIn,
+			TypeOut:          e.TypeOut,
 		}
 		if fs, ok := fsMap.Lookup(e.ID); ok {
 			p.FrameStatus = string(fs.Status)

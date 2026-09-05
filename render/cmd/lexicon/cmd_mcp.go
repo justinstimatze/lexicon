@@ -257,11 +257,13 @@ func readToolDefinition() map[string]any {
 		"name": "lexicon_read",
 		"description": "Surface the top-K lexicon atoms firing on a passage of text. JSON: " +
 			"{context, top_k, lens_used, patterns:[{id, name, tier, score, frame_status, " +
-			"gloss, agent_instruction, adjacencies:[{id, name}]}]}. agent_instruction is " +
-			"the 'when-you-see-this-do-this' rule. Compact by default (3 adjacencies, no " +
-			"critical_questions); pass detail=true for the full 6-neighbor shape with " +
-			"critical_questions. no_lens=true skips the LLM lens for a faster lexical-only " +
-			"pass. format=\"markdown\"/\"plain\" for human-readable output.",
+			"gloss, agent_instruction, type_in, type_out, adjacencies:[{id, name}]}]}. " +
+			"agent_instruction is the 'when-you-see-this-do-this' rule. type_in/type_out " +
+			"are always included (cheap, required on every atom) regardless of detail. " +
+			"Compact by default (3 adjacencies, no critical_questions); pass detail=true " +
+			"for the full 6-neighbor shape with critical_questions. no_lens=true skips " +
+			"the LLM lens for a faster lexical-only pass. format=\"markdown\"/\"plain\" " +
+			"for human-readable output.",
 		"inputSchema": map[string]any{
 			"type": "object",
 			"properties": map[string]any{
@@ -329,11 +331,15 @@ func distinctnessToolDefinition() map[string]any {
 			"description; returns the corpus atoms most likely to overlap, each with its " +
 			"own 'operationally distinct from' entries. JSON: {candidate, lens_used, " +
 			"warning?, matches:[{id, name, tier, score, status, frame_status, gloss, " +
-			"agent_instruction, operationally_distinct_from:[...]}]}. Scanned in concurrent " +
-			"token-budgeted chunks so every atom gets a real look. If warning is set, " +
-			"coverage was incomplete (some/all chunks failed, or no_lens=true) — matches " +
-			"may lack content signal; retry when lens_used=false. Use before drafting a new " +
-			"atom to verify it isn't already covered.",
+			"agent_instruction, type_in, type_out, operationally_distinct_from:[...]}]}. " +
+			"type_in/type_out are always included (cheap, required on every atom) -- the " +
+			"schema's own answer to whether a match is really type-compatible with the " +
+			"candidate. Scanned in concurrent token-budgeted chunks so every atom gets a " +
+			"real look. If warning is set, coverage was incomplete (some/all chunks failed, " +
+			"or no_lens=true) — matches may lack content signal; retry when lens_used=false. " +
+			"detail=true adds each match's critical_questions (omitted by default — several " +
+			"hundred chars per molecule-tier match, multiplied across every result). Use " +
+			"before drafting a new atom to verify it isn't already covered.",
 		"inputSchema": map[string]any{
 			"type": "object",
 			"properties": map[string]any{
@@ -349,6 +355,10 @@ func distinctnessToolDefinition() map[string]any {
 					"type":        "boolean",
 					"description": "Skip the LLM-backed semantic lens. Default false.",
 				},
+				"detail": map[string]any{
+					"type":        "boolean",
+					"description": "Include each match's critical_questions (default: omitted).",
+				},
 			},
 			"required": []any{"text"},
 		},
@@ -360,6 +370,7 @@ func callDistinctness(renderDir string, arguments json.RawMessage) (string, bool
 		Text   string `json:"text"`
 		TopK   int    `json:"top_k"`
 		NoLens bool   `json:"no_lens"`
+		Detail bool   `json:"detail"`
 	}
 	if err := json.Unmarshal(arguments, &args); err != nil {
 		return fmt.Sprintf("lexicon_distinctness: invalid arguments: %s", err), true
@@ -377,6 +388,9 @@ func callDistinctness(renderDir string, arguments json.RawMessage) (string, bool
 	}
 	if args.NoLens {
 		cliArgs = append(cliArgs, "--no-lens")
+	}
+	if args.Detail {
+		cliArgs = append(cliArgs, "--detail")
 	}
 	cliArgs = append(cliArgs, "-")
 	ctx, cancel := context.WithTimeout(context.Background(), 90*time.Second)
@@ -466,10 +480,15 @@ func constellationToolDefinition() map[string]any {
 		"description": "N-hop neighborhood of one focal atom, structured JSON. Use after " +
 			"lexicon_read identifies a high-relevance atom and you want its adjacencies " +
 			"expanded — no LLM call, pure elements-graph walk. Returns " +
-			"{focal:{id,name,tier,status,gloss,agent_instruction}, " +
-			"outgoing:{related,decomposes_into,premises,evokes}, " +
-			"incoming:{related_from,decomposes_into_from}, hop2:{via_lex-XXXX:[...]}}, each " +
-			"neighbor carrying gloss + agent_instruction. Default hops=1.",
+			"{focal:{id,name,tier,status,gloss,agent_instruction,type_in,type_out,premises," +
+			"critical_questions}, outgoing:{related,decomposes_into,evokes}, " +
+			"incoming:{related_from,decomposes_into_from}, hop2:{via_lex-XXXX:[...]}}. " +
+			"focal.premises/critical_questions are the molecule's own Walton-style " +
+			"premise/defeater structure (populated on molecule-tier-and-up atoms only) — " +
+			"the checklist for confirming or retracting the pattern, as data rather than " +
+			"prose to re-parse. Each related/decomposes_into neighbor carries gloss, " +
+			"agent_instruction, and its own type_in/type_out, so composition-compatibility " +
+			"is checkable without a follow-up read. Default hops=1.",
 		"inputSchema": map[string]any{
 			"type": "object",
 			"properties": map[string]any{

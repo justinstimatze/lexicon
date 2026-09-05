@@ -58,7 +58,16 @@ type Adjacency struct {
 // without a second lookup: its own score, whether the match had real
 // lexical grounding, frame-status (Principle 10 honesty labels, if the
 // oracle-risk register has an entry), a one-line gloss, the full
-// agent-instruction, up to 3 critical-questions, and up to 6 adjacencies.
+// agent-instruction, its type-in/type-out signature, up to 3
+// critical-questions, and up to 6 adjacencies.
+//
+// TypeIn/TypeOut are required on every atom (SCHEMA.md) and cheap
+// (single words from a bounded vocabulary) -- unlike CriticalQuestions,
+// there's no payload-size reason to gate or truncate them. They're the
+// schema's own answer to "is this atom type-compatible with that one,"
+// which is exactly the question a caller comparing two Patterns (or
+// deciding whether a match is really the same move as a candidate) is
+// usually asking.
 type Pattern struct {
 	ID                string
 	Name              string
@@ -69,6 +78,8 @@ type Pattern struct {
 	FrameHandle       string
 	Gloss             string
 	AgentInstruction  string
+	TypeIn            string
+	TypeOut           string
 	CriticalQuestions []string
 	Adjacencies       []Adjacency
 }
@@ -175,6 +186,8 @@ func (corp *Corpus) Score(ctx context.Context, contextStr string, opts ReadOptio
 			LexicalMatch:     lexMatch[e.ID],
 			Gloss:            gloss(e),
 			AgentInstruction: e.AgentInstruction,
+			TypeIn:           e.TypeIn,
+			TypeOut:          e.TypeOut,
 		}
 		if fs, ok := corp.fsMap.Lookup(e.ID); ok {
 			p.FrameStatus = string(fs.Status)
