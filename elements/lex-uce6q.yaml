@@ -1,0 +1,22 @@
+id: lex-uce6q
+name: a-childs-trajectory-belongs-to-a-future-the-parent-cant-occupy
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "When raising or shaping a child (or, by extension, any successor you're launching into a future you won't inhabit — a mentee, a successor leader, an inherited project), don't treat the goal as reproducing your own thoughts, tastes, or trajectory in them. Provide love, structure, and a stable launch — but not a destination, because they're headed toward a future you cannot visit even in imagination, not a continuation of your own past. Gibran states the boundary precisely: you may house their bodies but not their souls, you may strive to be like them but not make them like you, because life moves forward and does not tarry with yesterday. The discipline is to be a stable, well-aimed launching structure — steady enough that your own tension and care actually send them somewhere — without trying to also be the aim."
+related: [lex-wpx8a]
+evokes: [gibran-the-prophet-on-children, living-arrows-sent-forth, the-house-of-tomorrow-you-cannot-visit, life-goes-not-backward-nor-tarries-with-yesterday]
+lineage:
+  - source: primary
+    text: gibran-1923-the-prophet-on-children
+    citation: "Kahlil Gibran, The Prophet (Alfred A. Knopf, 1923), 'On Children.'"
+    quote: "'Your children are not your children. They are the sons and daughters of Life's longing for itself. They come through you but not from you, and though they are with you yet they belong not to you. You may give them your love but not your thoughts, for they have their own thoughts. You may house their bodies but not their souls, for their souls dwell in the house of tomorrow, which you cannot visit, not even in your dreams. You may strive to be like them, but seek not to make them like you. For life goes not backward nor tarries with yesterday. You are the bows from which your children as living arrows are sent forth.'"
+canonical-instances:
+  - "Hypothetical: a parent who was a professional musician pushes a child toward the same career from early childhood, interpreting any of the child's own diverging interests as a phase to be corrected rather than a real signal, and the relationship sours as the child reaches adulthood and finally pursues something else entirely."
+  - "Hypothetical: a founder grooming a chosen successor to run the company exactly as they would have, rather than preparing them to run it as the successor sees fit, finds the successor either quietly resentful or unprepared for decisions the founder never had to make."
+critical-questions:
+  - "Where is the line between providing no direction at all (a real failure of the 'stable bow' half of the metaphor) and imposing your own trajectory (the failure mode this atom names) — does the metaphor give any actual guidance on how much shaping is bow-like versus arrow-directing, or only a warning without a positive alternative?"
+  - "Does this generalize cleanly to relationships with a real asymmetry of dependency and duty (a parent legally and morally responsible for a minor) the way it might to a looser mentorship, where withholding your own opinion is more straightforwardly the right move?"
+  - "Is 'their own thoughts' something a young child actually has yet in the fully-formed sense the metaphor implies, or does the practical difficulty lie precisely in the years before a child's own direction is legible enough to defer to — meaning the hardest cases are exactly the ones the metaphor is least equipped to adjudicate?"
+status: active
+severity-tier: info

@@ -1,0 +1,22 @@
+id: lex-m2h4d
+name: a-makers-disposition-becomes-a-property-of-the-made-thing
+type-in: process
+type-out: claim
+_tier: atomic
+agent-instruction: "When producing something for other people to use or consume — a meal, a piece of writing, a product, a piece of code — don't treat your own inner disposition while making it as private and inconsequential to the result, separable from whatever objective quality the finished thing has. Gibran's claim is stronger than 'do good work': indifference or resentment during the act of making becomes a real, transmissible property of the thing made, not just a fact about how the maker felt — 'if you bake bread with indifference, you bake a bitter bread that feeds but half man's hunger,' and a grudge held while crushing grapes 'distils a poison in the wine.' If you genuinely cannot bring anything but distaste to a piece of work, the discipline this implies is to stop rather than keep producing degraded output under the appearance of the same product."
+related: [lex-guj26]
+evokes: [gibran-the-prophet-on-work, work-is-love-made-visible, bitter-bread-that-feeds-but-half-mans-hunger, a-grudge-distils-a-poison-in-the-wine]
+lineage:
+  - source: primary
+    text: gibran-1923-the-prophet-on-work
+    citation: "Kahlil Gibran, The Prophet (Alfred A. Knopf, 1923), 'On Work.'"
+    quote: "'Work is love made visible. And if you cannot work with love but only with distaste, it is better that you should leave your work and sit at the gate of the temple and take alms of those who work with joy. For if you bake bread with indifference, you bake a bitter bread that feeds but half man's hunger. And if you grudge the crushing of the grapes, your grudge distils a poison in the wine. And if you sing though as angels, and love not the singing, you muffle man's ears to the voices of the day and the voices of the night.'"
+canonical-instances:
+  - "Hypothetical: two kitchens produce visually identical dishes from the same recipe and ingredients, one staffed by cooks who take pride in the food and one by cooks working a shift they resent; diners in blind tastings consistently rate the first kitchen's plates higher despite no measurable difference in ingredients or technique."
+  - "Hypothetical: a software team ships a feature under deadline pressure with open contempt for the requirements handed down to them; the feature technically passes every test case but customers report it as confusing and unpleasant to use in ways the test suite never measured."
+critical-questions:
+  - "Is this a genuine causal claim (the disposition somehow physically alters the object) or a claim about a real but different mechanism — that indifferent making tends to also cut corners in ways a taster or user can detect, so the 'poison' is really in undetected shortcuts rather than in the feeling itself? Gilman's contrasting claim (lex-datn7) that belief and feeling change the moral coloring of an act but not its actual downstream effect argues explicitly against Gibran's stronger version here — the two make opposite claims about whether inner state has real external consequence, worth holding side by side rather than assuming either wins by default."
+  - "Does the claim hold for purely mechanical, precision-measured production (a machined part to spec) the same way it holds for food, art, or craft, where 'quality' has an irreducibly subjective, human-tasted component - or is the mechanism specific to goods whose value is partly constituted by another person's felt experience of them?"
+  - "If the fix for irreparable distaste is to 'leave your work,' what happens to the many people who cannot leave (economic necessity, no alternative) — does the atom's prescription assume a freedom to exit that most workers performing degraded, resented labor don't actually have?"
+status: active
+severity-tier: info
