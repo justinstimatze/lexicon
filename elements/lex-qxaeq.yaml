@@ -1,0 +1,20 @@
+id: lex-qxaeq
+name: the-same-cringe-trigger-splits-into-compassion-or-contempt
+type-in: situation
+type-out: typology
+_tier: atomic
+agent-instruction: "When someone reacts with 'cringe' to another person's unaware, embarrassing behavior, don't treat the reaction as one uniform feeling. Distinguish compassionate cringe (you identify with the person, feel the embarrassment they would feel if they knew, and the reaction produces solidarity and 'there but for the grace of god go I') from contemptuous cringe (you distance yourself from the person, feel disgust or superiority instead, and the reaction produces mockery and schadenfreude). Both get called by the same word and triggered by the same objective situation - someone lacking self-awareness about how they're perceived - but they are opposite emotional stances with opposite social consequences, so name which one is actually happening before treating 'cringe' as a single, self-explanatory reaction."
+related: [lex-vkxzq, lex-zag6n, lex-k5hgu]
+evokes: ["compassionate-cringe-versus-contemptuous-cringe", "melissa-dahl-cringeworthy", "theres-but-for-the-grace-of-god-go-i"]
+lineage:
+  - source: primary
+    text: wynn-2020-cringe-contrapoints-compassionate-versus-contemptuous
+    citation: "Natalie Wynn, 'Cringe' (ContraPoints, YouTube, published 2020-05-10), drawing on Melissa Dahl's Cringeworthy: A Theory of Awkwardness (2018)."
+    quote: "[Wynn, defining the split:] 'Compassionate cringe involves an emotional identification with the person you're cringing at. Even if they aren't actually embarrassed themselves in the cringeworthy moment, you still feel the embarrassment they would feel or perhaps ought to feel if they were aware of how other people are perceiving them. Contemptuous cringe, on the other hand, involves an emotional distancing from the person you're cringing at. Just like with compassionate cringe, you perceive that the person is embarrassing themselves, but instead of feeling that embarrassment on their behalf, you feel annoyance and disgust at them, and maybe even a little schadenfreude. So these are actually two very different emotional responses, vicarious embarrassment versus contempt. But we call both feelings cringe, not because they're similar feelings, but because they're responses to the same type of situation: people lacking self-awareness embarrassing themselves without realizing it.'"
+canonical-instances:
+  - "Wynn's own paired American Idol example: Red, a cocky contestant with no self-awareness who 'deserves the humiliation he's bringing upon himself,' triggers her contemptuous cringe and even enjoyment of his failure; Meesha, an equally delusional but sympathetic contestant there with her supportive mother, triggers only compassionate cringe and 'no joy, only deep and agonizing cringe' when she fails - identical objective situation, opposite emotional response."
+critical-questions:
+  - "Is the split actually binary, or is it a spectrum where the same person can feel both toward the same target depending on mood, context, or how the footage is framed?"
+  - "Wynn ties the split partly to the target's own confidence (whether they seem to 'deserve' it) - is that actually what drives it, or is it more about the viewer's prior sympathy or alignment with the target, with confidence as a post-hoc justification?"
+  - "Does naming which kind of cringe you're feeling change the feeling itself, or does the label only matter for how you choose to act on it - share the clip, look away, intervene?"
+status: active

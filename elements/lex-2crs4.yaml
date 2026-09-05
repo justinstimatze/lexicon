@@ -1,0 +1,20 @@
+id: lex-2crs4
+name: a-scapegoater-who-overinvests-becomes-the-next-scapegoat
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When a group forms around persecuting someone who's easy to mock, check whether the persecutors actually share the stigmatized trait they're punishing in their target - projected shame is a common engine of scapegoating: people displace self-loathing about a trait onto someone visibly marked by that same trait, then convert the discomfort of self-recognition into righteous contempt. This structure recurses: within the persecuting group, whoever shows excessive, too-personal investment in the persecution gives away that the projection is live for them specifically, and the group will often turn on that person the same way, for the same reason. Don't assume the loudest persecutor is the least implicated - they may be the most."
+related: [lex-68gd3, lex-ymckb]
+evokes: ["a-logs-all-the-way-down", "morbid-cringe", "chris-chan-and-the-christorians", "trollshielding"]
+lineage:
+  - source: primary
+    text: wynn-2020-cringe-contrapoints-a-logs-all-the-way-down
+    citation: "Natalie Wynn, 'Cringe' (ContraPoints, YouTube, published 2020-05-10), discussing the long-running online harassment campaign against Christine Weston Chandler ('Chris-Chan') and the phenomenon of 'A-Logs' within that community; Wynn quotes Margaret Pless's coverage of the same story in New York Magazine."
+    quote: "'This is how scapegoating works, right, you repress your uncomfortable feelings of shame and insecurity and self-loathing, and you displace them onto someone else, usually someone you can feel superior to. Then you blame and persecute the scapegoat, transforming your painful shame and self-loathing into pleasant judgmental self-righteousness.' ... 'A-Log gave the lie to that illusion, because it was obvious that his Chris-Chan obsession wasn't healthy or normal or fine. So the other trolls turned on A-Log and they made him into Chris-Chan 2.0, and they uncovered his autism and his furry porn collection and his cringey erotic fanfiction. ... A-Log saw himself reflected in Chris-Chan, and sort of projected his own shame and self-contempt onto her. A-Log hated Chris-Chan because he saw part of himself in her. And the other trolls hated A-Log because they saw part of themselves in him.' ... [quoting Margaret Pless, New York Magazine:] 'I think it might be A-Logs all the way down.'"
+canonical-instances:
+  - "The Chris-Chan harassment community itself, per Wynn's account: many of the most vocal trolls ('Christorians') are, by her account, autistic and socially isolated themselves, and justify persecuting an autistic trans woman with statements like she's 'giving autistics a bad name' - the same shame-projection structure named directly by a participant (the original 'A-Log') whose excess of emotional investment then got him targeted by the very community he'd been performing membership in."
+critical-questions:
+  - "Is projected shame actually doing the explanatory work here, or is this a psychoanalytic-flavored story applied post-hoc to behavior that has a simpler explanation - boredom, groupthink, plain cruelty?"
+  - "Wynn offers trollshielding - 'protect yourself from the mob by waving your pitchfork the hardest' - as a competing explanation for A-Log's behavior, distinct from projected shame. Can these be told apart from the outside, or does the same behavior always admit both readings?"
+  - "Does the recursive structure ('A-Logs all the way down') actually terminate anywhere, or does naming it just mean the next person turned-on for over-investment becomes A-Log 3.0, with no natural endpoint short of the group dissolving?"
+status: active
