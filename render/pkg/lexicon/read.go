@@ -27,6 +27,14 @@ import (
 const (
 	maxAdjacencies = 6
 	maxCQs         = 3
+
+	// fullPoolLensBudget mirrors distinctnessChunkMaxTokens
+	// (cmd/lexicon/cmd_distinctness.go) -- same headroom under the
+	// real 200k-token ceiling once lens.Filter's own prompt wrapper is
+	// added on top of the raw index. Used only to decide whether an
+	// UNNARROWED pool is small enough to risk a single lens.Filter
+	// call; a genuinely narrowed pool always qualifies.
+	fullPoolLensBudget = 100_000
 )
 
 // ReadOptions configures a Read call. The zero value runs top_k=3 with
@@ -208,32 +216,50 @@ func (corp *Corpus) ScoreRaw(ctx context.Context, contextStr string, topK int, n
 			diag = append(diag, fmt.Sprintf("lens: client init: %v (falling back to lexical full-pool)", err))
 		} else {
 			lensInput := allEntries
+			narrowed := false
 			embedCtx, embedCancel := context.WithTimeout(ctx, ResolveEmbedGateBudget())
 			gateRes, gateErr := embedgate.Score(embedCtx, contextStr, allEntries, embedgate.TopK())
 			embedCancel()
 			switch {
 			case errors.Is(gateErr, embedgate.ErrColdCache):
-				diag = append(diag, "embed gate: prototype cache cold (run: lexicon build-prototypes); lens sees full pool")
+				diag = append(diag, "embed gate: prototype cache cold (run: lexicon build-prototypes)")
 			case gateErr != nil:
-				diag = append(diag, fmt.Sprintf("embed gate: %v (lens sees full pool)", gateErr))
+				diag = append(diag, fmt.Sprintf("embed gate: %v", gateErr))
 			case len(gateRes) > 0:
-				if narrowed, active, logMsg := DecideEmbedNarrowing(gateRes, pool, embedgate.Threshold(), len(allEntries)); active && len(narrowed) > 0 {
+				if n, active, logMsg := DecideEmbedNarrowing(gateRes, pool, embedgate.Threshold(), len(allEntries)); active && len(n) > 0 {
 					diag = append(diag, logMsg)
-					lensInput = narrowed
+					lensInput = n
+					narrowed = true
 				}
 			}
 
-			lensRes, lensErr := lens.Filter(ctx, contextStr, lensInput, c, false)
-			switch {
-			case lensErr != nil:
-				diag = append(diag, fmt.Sprintf("lens: %v (falling back to lexical full-pool)", lensErr))
-			case len(lensRes.Entries) == 0:
-				diag = append(diag, "lens: no semantically relevant primitives — falling back to lexical full-pool")
-			default:
-				diag = append(diag, fmt.Sprintf("lens: %d -> %d candidates", len(lensInput), len(lensRes.Entries)))
-				candidatePool = lensRes.Entries
-				lensConfidences = lensRes.Confidences
-				lensUsed = true
+			// An embed-gate failure (timeout, cold cache) or a narrowing
+			// that didn't fire leaves lensInput at the full pool. lens.Filter
+			// has no size guard of its own -- it builds one index string and
+			// sends it whole -- so an unnarrowed pool this size (~3.4
+			// chars/token, per lens.go's own EstimateTokens comment) reliably
+			// blows the 200k-token ceiling and 400s. That failure was always
+			// guaranteed, never transient: skip the doomed call and go
+			// straight to the lexical fallback that would run anyway, rather
+			// than pay for an API round-trip that cannot succeed. A pool
+			// small enough to still fit one lens.Filter call (small catalog,
+			// or narrowing that DID fire) is unaffected.
+			skipLens := !narrowed && len(lens.ChunkPool(lensInput, fullPoolLensBudget)) > 1
+			if skipLens {
+				diag = append(diag, fmt.Sprintf("lens: unnarrowed pool of %d entries exceeds a safe single lens call — skipping lens, lexical full-pool", len(lensInput)))
+			} else {
+				lensRes, lensErr := lens.Filter(ctx, contextStr, lensInput, c, false)
+				switch {
+				case lensErr != nil:
+					diag = append(diag, fmt.Sprintf("lens: %v (falling back to lexical full-pool)", lensErr))
+				case len(lensRes.Entries) == 0:
+					diag = append(diag, "lens: no semantically relevant primitives — falling back to lexical full-pool")
+				default:
+					diag = append(diag, fmt.Sprintf("lens: %d -> %d candidates", len(lensInput), len(lensRes.Entries)))
+					candidatePool = lensRes.Entries
+					lensConfidences = lensRes.Confidences
+					lensUsed = true
+				}
 			}
 		}
 	}

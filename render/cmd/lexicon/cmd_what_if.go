@@ -214,7 +214,7 @@ func runPatternID(renderDir, contextStr string, topK int, noLens, explainFlag, d
 		outputFormat = format[0]
 	}
 	corp := loadCorpusOrFatal(renderDir)
-	picked, scores, lexMatch, _, diag := corp.ScoreRaw(context.Background(), contextStr, topK, noLens)
+	picked, scores, lexMatch, lensUsed, diag := corp.ScoreRaw(context.Background(), contextStr, topK, noLens)
 	for _, d := range diag {
 		fmt.Fprintln(os.Stderr, d)
 	}
@@ -224,7 +224,7 @@ func runPatternID(renderDir, contextStr string, topK int, noLens, explainFlag, d
 	}
 
 	if outputFormat == "json" {
-		fmt.Println(formatPatternIDJSON(contextStr, picked, scores, lexMatch, corp.Pool(), corp.FrameStatus(), !noLens, topK, detail))
+		fmt.Println(formatPatternIDJSON(contextStr, picked, scores, lexMatch, corp.Pool(), corp.FrameStatus(), lensUsed, topK, detail))
 		return
 	}
 	emitOutput(formatPatternID(contextStr, picked, scores, corp.Pool(), corp.FrameStatus()), explainFlag)
