@@ -1,0 +1,20 @@
+id: lex-x4ngh
+name: sequence-the-highest-risk-work-first-to-cap-exposure
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When a project has an early module with a high chance of failure and a late module that's a sure thing, do the risky one first — even though it feels backwards to save the hard part for later. Sequencing the failure-prone work first means you only pay for the expensive, certain-to-succeed module in the branch of the world where the risky one actually worked; doing the sure thing first means you pay for it regardless, and might still lose the risky bet after."
+related: [lex-xy4uh]
+evokes: ["the-perpetual-motion-car-example", "expected-cost-not-face-value-cost", "de-risk-before-you-spend"]
+lineage:
+  - source: primary
+    text: reinertsen-2016-principles-of-product-development-flow-ch5-batch-content-sequencing
+    citation: "Donald G. Reinertsen, The Principles of Product Development Flow (2nd ed. 2016), Ch.5 'Reducing Batch Size,' Principle B20 'The Principle of Batch Content.' Reinertsen's worked example is a hypothetical car with a $5 million, 5-percent-chance-of-success perpetual-motion-device module and a $100 million, guaranteed-success module for the rest of the car: sequencing the risky module first gives an expected cost of $10 million, while sequencing the sure thing first gives an expected cost of $105 million, because the expensive certain module only needs to be built in the world where the risky module actually succeeded."
+    quote: "[Reinertsen 2016, Ch.5:] 'B20: The Principle of Batch Content: Sequence first that which adds value most cheaply. ... The design of the perpetual motion device, Module 1, will cost $5 million and has a 5 percent chance of success. The design for the rest of the car, Module 2, will cost $100 million and has 100 percent chance of success. ... if we do Module 1 first, we will incur an expected cost of $10 million. If we do Module 2 first, we will incur an expected cost of $105 million. ... By sequencing the high-risk batch first, we reduce the amount of accumulated investment that is exposed to the risk of failure. ... we should sequence first the activities that add the most value for the least cost.'"
+canonical-instances:
+  - "Reinertsen's cost-dominant vs. schedule-dominant sequencing rule (Ch.5): when manufacturing cost is what matters most, design the highest-cost component (e.g. the power supply) first so its cost can be reduced early; when cost of delay dominates instead, design the longest-lead-time component first to keep it off the critical path — the same sequencing logic, applied to two different dominant variables."
+critical-questions:
+  - "Is the failure probability of the risky module a real, evidence-based estimate, or an optimistic guess — sequencing logic built on a wrong probability can send the expensive module first when it shouldn't have."
+  - "Does the risky module's failure genuinely make the expensive module's work unnecessary, or would the expensive module still need to be built regardless of the risky module's outcome — the whole argument depends on that conditional relationship actually holding."
+  - "Is 'do the hard part first' being followed as a slogan, or has the actual expected-cost arithmetic been run for this specific pair of modules and their specific costs and probabilities?"
+status: active

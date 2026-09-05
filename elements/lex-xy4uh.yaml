@@ -1,0 +1,21 @@
+id: lex-xy4uh
+name: a-batch-inherits-its-most-constrained-members-limits
+type-in: structure
+type-out: state
+_tier: atomic
+agent-instruction: "Before bundling several items into one batch, check whether any single item in it carries a stricter constraint (a safety requirement, a compliance rule, a hard dependency) than the rest — because once bundled, the whole batch inherits that one item's constraint, even though the other items never needed it. Pull the constrained item out and let the rest move at their own, less restrictive, pace."
+related: [lex-x4ngh, lex-94bwk]
+evokes: ["the-least-common-denominator-principle", "the-30-test-safety-related-package", "strict-precedence-in-PERT-scheduling"]
+lineage:
+  - source: primary
+    text: reinertsen-2016-principles-of-product-development-flow-ch5-least-common-denominator
+    citation: "Donald G. Reinertsen, The Principles of Product Development Flow (2nd ed. 2016), Ch.5 'Reducing Batch Size,' Principle B10 'The Least Common Denominator Principle of Batch Size.' Reinertsen's worked example is a 30-test package where one or two safety-related tests force the whole package to be treated as safety-related and completed in full before the next activity can proceed — even though most of the 30 tests carry no such requirement on their own."
+    quote: "[Reinertsen 2016, Ch.5:] 'B10: The Least Common Denominator Principle of Batch Size: The entire batch is limited by its worst element. ... When we batch together a number of items, the entire batch acquires the properties of its most limiting element. For example, if we create a large test package with 30 tests, one or two of these tests may be safety-related. This typically forces us to treat the entire test package as safety-related, which means we must complete the entire package before we can authorize the next activity. A small batch approach would recognize that only one or two tests actually have to be performed on the critical path. The others can be done in parallel with other activities.'"
+canonical-instances:
+  - "PERT/precedence-based project scheduling (Ch.5): such methods correctly require that a dependent activity can't be COMPLETED until everything it depends on is complete, but Reinertsen notes they routinely and incorrectly extend this to assume the activity can't be STARTED until prior activities are complete either — the same least-common-denominator error, embedded directly into a standard scheduling method."
+  - "Phase-gate development processes (Ch.5, 'Round Up the Usual Suspects'): requiring 100 percent of a phase's work product before the next phase begins treats every item in that phase's output as equally blocking, regardless of whether any individual item actually needed to wait."
+critical-questions:
+  - "Has the actually-constraining item been identified specifically, or is 'the whole batch is safety-related/blocking' being assumed because it's easier than checking which items really carry the constraint?"
+  - "Can the constrained item be pulled out and handled on its own more restrictive path while the rest of the batch proceeds unconstrained — or is there a real reason (shared setup cost, a single review meeting) the batch has to move together?"
+  - "Is a scheduling or process tool (a PERT chart, a phase-gate policy) silently importing this failure mode by treating 'complete' and 'start' as the same threshold?"
+status: active

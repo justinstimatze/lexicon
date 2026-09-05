@@ -1,0 +1,20 @@
+id: lex-hsbem
+name: a-drifted-queue-wont-randomly-return-to-normal
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "Don't wait for a queue that's spiked into a bad state to work itself back down — a random process has no memory of how it got there, so the odds of it randomly walking back to normal are the same tiny odds it took to get there in the first place. Once a queue drifts high, intervene quickly and decisively; the longer you wait, the more expensive the correction, and the state can persist far longer than intuition expects."
+related: [lex-hb8rs, lex-xw7sk]
+evokes: ["the-diffusion-principle", "Feller's-coin-flip-random-walk", "no-natural-predators-for-a-drifted-queue"]
+lineage:
+  - source: primary
+    text: reinertsen-2016-principles-of-product-development-flow-ch3-diffusion-intervention
+    citation: "Donald G. Reinertsen, The Principles of Product Development Flow (2nd ed. 2016), Ch.3 'Managing Queues,' Principles Q15 'The Diffusion Principle' and Q16 'The Intervention Principle.' Reinertsen draws on William Feller's coin-flip random-walk example (An Introduction to Probability Theory and Its Applications) to show that even a low-variance random process drifts arbitrarily far from its mean and stays there for long stretches, with no tendency to correct itself — combined with the finding that high-queue states do disproportionate damage, this makes fast, decisive intervention on emerging queues the load-bearing response, not patience."
+    quote: "[Reinertsen 2016, Ch.3:] 'Q15: The Diffusion Principle: Over time, queues will randomly spin seriously out of control and will remain in this state for long periods. ... there is only a 50 percent probability that the cumulative total will ever cross the zero axis during the last 500 flips [of 1,000]. ... this value becomes less likely with time. The cumulative sum drifts further and further away from its mean.' [On intervention:] 'Q16: The Intervention Principle: We cannot rely on randomness to correct a random queue. ... If we have drifted 10 heads above the zero line in our coin flip experiment, what is the probability of getting 10 tails in a row to return us to zero? About 1 in 1,000. ... it is critical that we react quickly to emerging queues. If a queue is allowed to persist, it does much more economic damage. ... The longer we delay adding capacity or shedding demand, the more expensive the problem becomes.'"
+canonical-instances:
+  - "Feller's 1,000-coin-flip random walk, cited directly by Reinertsen (Ch.3): a fair coin flipped 1,000 times, +1 for heads and -1 for tails, has only a 50 percent chance of ever crossing back through zero during the final 500 flips — most people, including trained statisticians, wrongly expect the running total to hover near zero throughout."
+critical-questions:
+  - "Is the queue's current bad state actually a persistent drift, or a genuine transient that's already correcting on its own — has the trend over several measurements been checked, not just the current snapshot?"
+  - "What's the actual cost of waiting one more measurement cycle before intervening, versus the cost of intervening now on a state that might have corrected anyway? High-queue states are disproportionately expensive AND persistent, but a single data point doesn't distinguish 'drifted' from 'about to revert.'"
+  - "Is the intervention being sized to the state's estimated persistence (a real fix: adding capacity, shedding demand) or is it a token gesture that won't actually move a queue this far out of range?"
+status: active

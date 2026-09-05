@@ -1,0 +1,21 @@
+id: lex-jq3gn
+name: the-transport-batch-matters-more-than-the-production-batch
+type-in: structure
+type-out: claim
+_tier: atomic
+agent-instruction: "When deciding where to cut batch size, separate the batch that changes the product's state (a production run, a test suite) from the batch that changes its location — moves it to the next person or process step. A large production batch can coexist with a small transport batch; since transport batches drive overlap and feedback speed, shrinking them usually pays off faster than touching the production batch at all."
+related: [lex-tt6y5, lex-v3vk3]
+evokes: ["the-packet-switching-analogy", "run-1000-tests-report-each-as-it-finishes", "two-separate-optimum-batch-sizes"]
+lineage:
+  - source: primary
+    text: reinertsen-2016-principles-of-product-development-flow-ch5-transport-batches
+    citation: "Donald G. Reinertsen, The Principles of Product Development Flow (2nd ed. 2016), Ch.5 'Reducing Batch Size,' Principle B16 'The Principle of Transport Batches.' Reinertsen distinguishes the production batch size (how much work is completed uninterrupted in one setup) from the transport batch size (how much is transferred to the next process stage at once), arguing the transport batch matters more because small transport batches enable overlap and accelerate feedback even when the production batch stays large."
+    quote: "[Reinertsen 2016, Ch.5:] 'B16: The Principle of Transport Batches: The most important batch is the transport batch. ... production batch size and transport batch size are two separate batch size decisions. ... We can run an uninterrupted test suite of 1,000 tests while still transferring test results as each test is completed. Transport batches are generally more important than production batch sizes for two reasons. First, small transport batches allow us to overlap activities which leads to faster cycle time. Second, small transport batches accelerate feedback, which is of critical importance in product development.'"
+canonical-instances:
+  - "Reinertsen's own packet-switching analogy, applied specifically to transport batching (Ch.5): a network forwards a received packet before the next one arrives rather than waiting for the whole file, so most of a message reaches the receiver before the sender has even finished transmitting — the transport batch (one packet) stays small regardless of how the file was assembled."
+  - "The 1,000-test suite example (Ch.5): the production batch (an uninterrupted test run) can stay large for efficiency, while the transport batch (results handed to the next process) shrinks to one test at a time, capturing the feedback-speed benefit without touching the production batch's own economics."
+critical-questions:
+  - "Have the production batch and the transport batch actually been distinguished as two separate decisions, or is 'batch size' being treated as one number that conflates both?"
+  - "If the transport batch were shrunk while the production batch stayed the same, would the next process stage actually be able to consume smaller, more frequent handoffs — or does it have its own large-batch assumption (a weekly review meeting, a scheduled release) that would just queue the small transports back up into a big one?"
+  - "Is there a real setup cost tying production and transport together (the two can only be separated if the process can hand off partial results mid-run), or does this specific process's tooling force them to move as one?"
+status: active

@@ -1,0 +1,20 @@
+id: lex-xw7sk
+name: capacity-utilization-grows-queues-exponentially-not-linearly
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Before loading a resource to near-100% utilization to look efficient, know the actual shape of the cost: queue size roughly doubles every time you halve the remaining excess capacity, so 90-to-95% costs as much as 60-to-80% and then 80-to-90% combined. A small, well-intentioned nudge toward 'fuller' utilization near the top of that curve buys a wildly disproportionate cycle-time penalty."
+related: [lex-hb8rs, lex-hsbem, lex-tt6y5]
+evokes: ["the-queueing-curve", "rho-capacity-utilization", "the-98.5-percent-average"]
+lineage:
+  - source: primary
+    text: reinertsen-2016-principles-of-product-development-flow-ch3-capacity-utilization
+    citation: "Donald G. Reinertsen, The Principles of Product Development Flow (2nd ed. 2016), Ch.3 'Managing Queues,' Principle Q3 'The Principle of Queueing Capacity Utilization.' Drawing on M/M/1/∞ queueing theory (Erlang 1909; Kendall notation, 1953), Reinertsen reports 13 years of data from his own executive courses at Caltech: the average product developer loads their process to 98.5 percent utilization, a level where queueing theory predicts queue size approaching infinity."
+    quote: "[Reinertsen 2016, Ch.3:] 'Q3: The Principle of Queueing Capacity Utilization: Capacity utilization increases queues exponentially. ... For 13 years, I collected data from attendees of my executive courses at Caltech. The average product developer loads their development process to 98.5 percent utilization. ... As we approach 100 percent utilization, queues become exponentially large. In fact, each time we halve the amount of excess capacity, we roughly double the average queue size. As we move from 60 to 80 percent, we double the queue. As we move from 80 to 90 percent, we double it again. As we move from 90 to 95 percent, we double it again. Most product developers load to utilization levels that would only work in a deterministic process.'"
+canonical-instances:
+  - "Reinertsen's own estimation-error point (Ch.3): even the best product developers can easily be off by 10 percent in estimating both demand and capacity; combined, those two independent errors can leave someone unsure whether they're actually running at 55 percent or 95 percent utilization — a difference that produces a 25-to-1 swing in queue size."
+critical-questions:
+  - "Is the utilization figure being quoted a measured number or an assumed one? Reinertsen's own point is that utilization is hard to measure directly (it's a ratio of two individually-hard-to-estimate quantities) and is usually inferred, not observed."
+  - "Is the process actually close to the M/M/1 assumptions (single server, memoryless arrivals and service), or does its real structure (pooled servers, scheduled batches) change how steep the curve actually is at this utilization level?"
+  - "If utilization can't be measured reliably, is queue size or cycle time being tracked directly instead, since both move in lockstep with utilization but are easier to observe?"
+status: active

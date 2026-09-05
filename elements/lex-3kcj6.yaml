@@ -1,0 +1,21 @@
+id: lex-3kcj6
+name: invisible-inventory-hides-on-no-balance-sheet-line
+type-in: situation
+type-out: frame
+_tier: atomic
+agent-instruction: "When hunting for waste, don't trust that 'no visible inventory' means no inventory. In any process whose product is information rather than physical goods, work-in-process can double overnight with zero visible change and no line on any balance sheet — go look for its effects (rising cycle time, delayed feedback, shifting priorities) instead of its appearance."
+related: [lex-tt6y5]
+evokes: ["design-in-process-DIP", "bits-on-a-disk-drive", "no-natural-predators"]
+lineage:
+  - source: primary
+    text: reinertsen-2016-principles-of-product-development-flow-ch3-invisible-inventory
+    citation: "Donald G. Reinertsen, The Principles of Product Development Flow (2nd ed. 2016), Ch.3 'Managing Queues,' Principle Q1 'The Principle of Invisible Inventory.' Reinertsen contrasts manufacturing's physically and financially visible work-in-process (WIP) inventory, reportable straight off the balance sheet, with product development's design-in-process (DIP) inventory, which has no balance-sheet line item and no physical form — so it can grow unnoticed until its effects (cycle time, delayed feedback) surface."
+    quote: "[Reinertsen 2016, Ch.3:] 'Q1: The Principle of Invisible Inventory: Product development inventory is physically and financially invisible. ... If we ask our CFO, \"How much design-in-process (DIP) inventory do we have?\" we will get a puzzled look and the reply, \"There is nothing on our balance sheet called design-in-process inventory. We have no inventory in product development.\" ... One engineering manager from Hewlett-Packard (HP) remarked, \"Our inventory is bits on a disk drive, and we have very big disk drives here at HP!\" ... just because this inventory is invisible doesn't mean it doesn't exist. Product development inventory is observable through its effects: increased cycle time, delayed feedback, constantly shifting priorities, and status reporting.'"
+canonical-instances:
+  - "Reinertsen's own contrast (Ch.3): manufacturing WIP is 'keenly aware'-of, walkable-on-the-floor, and readable off the balance sheet; product development's DIP inventory can double overnight in an engineering department with zero change in the department's physical appearance."
+  - "Reinertsen's follow-on point (Ch.3, Principle Q2): because DIP is invisible, it has 'no natural predators' — companies that would never tolerate manufacturing WIP growth let product-development queues grow unmeasured, some even boasting about the size of their pipeline as if it were an asset."
+critical-questions:
+  - "Is 'we have no inventory here' being said because it's actually true, or because the inventory genuinely exists but has no form anyone in the room knows how to look for?"
+  - "Which of the visible-effect symptoms (rising cycle time, delayed feedback, shifting priorities, more status reporting) are actually present right now, even if nobody has connected them to a hidden queue yet?"
+  - "Has anyone actually tried to measure DIP directly (count of open items in a stage), or is the absence of a measurement being read as absence of the thing itself?"
+status: active

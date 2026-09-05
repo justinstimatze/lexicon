@@ -1,0 +1,21 @@
+id: lex-hb8rs
+name: control-queue-size-not-utilization-or-cycle-time
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When you need a control variable to manage flow, don't reach for capacity utilization (real but too hard to measure accurately) or cycle time (real but a lagging indicator — unmeasurable until a job exits). Reach for queue size: it's directly observable in real time, and because it sits on the steep part of the queueing curve, a tight queue-size control band forces utilization into a correspondingly tight range for free."
+related: [lex-gcpzd, lex-hsbem, lex-xw7sk]
+evokes: ["a-leading-not-a-lagging-indicator", "the-supermarket-checkout-heuristic", "wide-band-forces-narrow-band"]
+lineage:
+  - source: primary
+    text: reinertsen-2016-principles-of-product-development-flow-ch3-queue-size-control
+    citation: "Donald G. Reinertsen, The Principles of Product Development Flow (2nd ed. 2016), Ch.3 'Managing Queues,' Principles Q13 'The First Queue Size Control Principle' and Q14 'The Second Queue Size Control Principle.' Reinertsen rules out capacity utilization as a real-time control variable (it can't be estimated accurately enough) and cycle time (a lagging indicator, unmeasurable until a job exits the system), leaving queue size — directly observable at any instant — as the practical control variable, made effective by how steeply queue size responds to small utilization changes."
+    quote: "[Reinertsen 2016, Ch.3:] 'Q13: The First Queue Size Control Principle: Don't control capacity utilization, control queue size. ... Why not take advantage of the steep slope of the queueing curve? Why not choose queue size as the control variable, instead of capacity utilization? Small changes in capacity utilization will translate to large changes in queue size and cycle time. This means that a relatively wide control band of queue size will force the system into a very tight range of capacity utilization.' [On cycle time:] 'Q14: The Second Queue Size Control Principle: Don't control cycle time, control queue size. Queue size is also a much better control variable than cycle time. Cycle time is always a lagging indicator, because cycle time is not measurable until a job exits the system. ... if 400 passengers are added to an existing queue of 100 passengers, the queue size more than doubles instantly. In contrast, if the extra passengers arrive at time 21, the cycle time will not double until time 41. ... monitoring queues alerts us to a problem 20 times faster than monitoring cycle time.'"
+canonical-instances:
+  - "Supermarket checkout management (Ch.3): stores cross-train checkout operators and open a new register as soon as any line has more than three customers — controlling queue length directly, not utilization or the (unmeasurable in the moment) average wait time."
+  - "Reinertsen's airport-immigration example (Ch.3): 400 passengers added to a 100-passenger queue more than doubles the queue instantly, while the cycle-time signal doesn't show the doubling until 20 time-units later — the same event, seen 20 times faster through one instrument than the other."
+critical-questions:
+  - "Is queue size actually being measured directly and often, or is it being inferred from a periodic status report that's itself lagging?"
+  - "Does the process have a queue-size threshold that actually triggers an intervention, or is queue size tracked as a metric with no corresponding control action attached to it?"
+  - "For a process where queue size genuinely can't be observed, is Little's Formula (queue time × processing rate) being used to back it out, or is the team defaulting back to utilization or cycle time because that's what's already being measured?"
+status: active

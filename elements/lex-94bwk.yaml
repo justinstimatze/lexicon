@@ -1,0 +1,21 @@
+id: lex-94bwk
+name: shrink-batch-size-before-hunting-for-bottlenecks
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Before chasing down and adding capacity to a suspected bottleneck, try reducing batch size first — it's cheaper, reversible, and it was the actual lever behind Toyota's 100-fold cycle-time improvement, not bottleneck-hunting. In product development especially, bottlenecks are stochastic and physically mobile rather than fixed, so capacity added at today's bottleneck may sit idle once the bottleneck moves somewhere else tomorrow."
+related: [lex-xy4uh, lex-vjuhn]
+evokes: ["Toyota's-100-fold-improvement-wasnt-bottleneck-hunting", "Herbie-the-slowest-Boy-Scout-reconsidered", "the-stochastic-mobile-bottleneck"]
+lineage:
+  - source: primary
+    text: reinertsen-2016-principles-of-product-development-flow-ch5-batch-size-first
+    citation: "Donald G. Reinertsen, The Principles of Product Development Flow (2nd ed. 2016), Ch.5 'Reducing Batch Size,' Principle B21 'The Batch Size First Principle.' Reinertsen argues against the popular bottleneck-hunting intuition behind Goldratt's Theory of Constraints (dramatized by the slow Boy Scout Herbie in Goldratt's The Goal), noting that Toyota's own 100-fold manufacturing cycle-time improvement came from batch size reduction, not from finding and expanding bottlenecks — and that product-development bottlenecks are stochastic and physically mobile in a way manufacturing's are not."
+    quote: "[Reinertsen 2016, Ch.5:] 'B21: The Batch Size First Principle: Reduce batch size before you attack bottlenecks. ... start with batch size. This is the great lesson of the Toyota Production System. The 100-fold improvement in manufacturing cycle times was not achieved by finding bottlenecks and adding capacity to the bottlenecks. It was achieved by reducing batch size. ... bottlenecks are terribly seductive. ... In product development, bottlenecks are less of an opportunity than in manufacturing for two key reasons. First, the bottlenecks of product development are stochastic bottlenecks, not deterministic ones. They are temporally mobile. ... Second, bottlenecks in product development are also physically mobile.'"
+canonical-instances:
+  - "Reinertsen's re-reading of Goldratt's Herbie parable (Ch.5): rather than letting the slowest Boy Scout set the pace for the whole troop, Reinertsen's own scouting practice split the group into a faster and a slower batch, each maintaining its own integrity and regrouping at key points — a batch-size fix to the same problem Goldratt frames as a bottleneck problem."
+  - "The staggered-lunch-hours cafeteria example, referenced back from an earlier principle (Ch.5): the queue could have been fixed by doubling cafeteria capacity (attacking the apparent bottleneck) but was instead fixed for free by staggering arrival times — reducing batch size, not adding capacity."
+critical-questions:
+  - "Is the suspected bottleneck actually fixed and stationary (more like manufacturing), or stochastic and mobile (more like the product-development case Reinertsen describes) — the batch-size-first argument is explicitly about the latter, not a universal claim that bottlenecks never matter."
+  - "Has batch size reduction actually been tried and measured before committing to a capacity investment at the bottleneck, or is bottleneck-hunting being reached for because it's the more intuitively appealing explanation?"
+  - "Would reducing batch size at the suspected bottleneck actually address the underlying variability driving the congestion, or is the bottleneck a genuine fixed-capacity constraint no batch-size change can work around?"
+status: active
