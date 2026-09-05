@@ -1,0 +1,20 @@
+id: lex-sscbs
+name: self-testimony-is-honest-yet-necessarily-incomplete
+type-in: process
+type-out: warning
+_tier: atomic
+agent-instruction: "When someone offers their own sincere account of their life or actions as evidence, remember that sincerity does not guarantee completeness. The narrator is also the sole editor of what counts as relevant, and no amount of good faith closes that gap — even a witness with no motive to deceive cannot fully audit their own selection. Ask what a hostile cross-examiner could add to the same story, not just whether the speaker seems truthful."
+related: [lex-68abd, lex-d7h2y]
+evokes: ["ex-parte-evidence-of-ones-own-life", "the-inadequacy-of-all-autobiography-as-history", "writing-just-as-the-spirit-moves"]
+lineage:
+  - source: primary
+    text: gandhi-1927-story-of-my-experiments-with-truth-part4-ch11-intimate-european-contacts
+    citation: "M.K. Gandhi, The Story of My Experiments with Truth: An Autobiography, trans. Mahadev Desai (Navjivan Trust, serialized 1925-1929; Standard Ebooks edition of the public-domain English translation). Part IV, Ch.11 'Intimate European Contacts,' opens with a direct aside on the book's own method: no diary, no fixed plan, and an explicit admission that the choice of what to include or omit cannot be fully justified even by the author's own good faith."
+    quote: "[Part IV, Ch.11:] 'When I began writing it, I had no definite plan before me. I have no diary or documents on which to base the story of my experiments. I write just as the Spirit moves me at the time of writing. ... I understand more clearly today what I read long ago about the inadequacy of all autobiography as history. I know that I do not set down in this story all that I remember. Who can say how much I must give and how much omit in the interests of truth? And what would be the value in a court of law of the inadequate ex parte evidence being tendered by me of certain events in my life? If some busybody were to cross-examine me on the chapters already written, he could probably shed much more light on them.'"
+canonical-instances:
+  - "Gandhi's own admission, stated in the same passage: an autobiography's selection of what to narrate and what to leave out cannot be certified complete even by its own honest author, and a hostile cross-examiner of the very chapters already written could surface more truth than the willing witness supplied alone."
+critical-questions:
+  - "Is the gap here really structural (no one can fully audit their own selection) or is it being used to pre-excuse a specific, avoidable omission the narrator already suspects matters?"
+  - "Does naming this incompleteness up front, as Gandhi does, actually make the account more trustworthy, or does it just inoculate the reader against noticing gaps that a more confident-sounding narrator would have been challenged on?"
+  - "Who plays the 'hostile cross-examiner' role here, if anyone - is there actually someone positioned to supply the missing context, or is the admission a gesture toward a check that doesn't exist in this case?"
+status: active
