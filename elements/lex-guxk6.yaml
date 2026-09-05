@@ -4,7 +4,7 @@ type-in: situation
 type-out: process
 _tier: atomic
 agent-instruction: "When a valuation or prediction problem seems to require a parameter you cannot actually measure or estimate (an investor's risk preference, a subjective probability, anyone's private appetite for risk), check whether you can instead construct a position or comparison whose outcome is pinned by a no-exploitable-gap constraint regardless of that parameter's true value. Black and Scholes' 1973 breakthrough was exactly this move: every prior option-pricing attempt failed because it needed investors' risk preferences or subjective expected returns, which researchers admitted they could not estimate. Black-Scholes instead built a continuously-adjusted hedge (long the stock, short the right ratio of options) whose return is risk-free by construction — if it ever paid more or less than the risk-free rate, arbitrageurs would trade the gap away regardless of how risk-averse or risk-seeking anyone actually is. Deriving the option's value from that constraint alone makes the unmeasurable parameter vanish from the final formula entirely. Before trying to estimate an intractable parameter directly, ask whether a constructed position exists whose value a no-arbitrage (or no-exploitable-gap) argument pins down without it."
-related: [lex-3s2xn]
+related: [lex-3s2xn, lex-jjzh7]
 evokes: [black-scholes-1973, risk-neutral-valuation, the-hedge-ratio, arbitrageurs-would-force-the-return-down, the-expected-return-drops-out-of-the-equation]
 lineage:
   - source: primary
