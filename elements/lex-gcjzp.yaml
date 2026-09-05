@@ -1,0 +1,20 @@
+id: lex-gcjzp
+name: you-envy-the-plausible-future-not-the-impossible-one
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When deciding who someone is likely to envy, don't stop at 'people similar to them' - check whether the similar person's position is actually achievable from where the envier stands. A goal that's been ruled out as genuinely impossible gets envied less, not more, because there's no live comparison left to sustain; a goal held by someone whose position represents a real, plausible next step is what keeps generating painful comparison, because it's a standard you can actually be measured against. This is why envy often concentrates within a group facing a shared constraint rather than toward an outside group facing none of it - the people just ahead of you on a path you're still on are the ones whose position stays live enough to hurt."
+related: [lex-xehnw]
+evokes: ["you-cant-envy-what-you-know-is-impossible", "another-trans-woman-as-a-plausible-self", "the-cis-woman-i-stopped-imagining-being"]
+lineage:
+  - source: primary
+    text: wynn-2021-envy-contrapoints-attainability-and-target-selection
+    citation: "Natalie Wynn, 'Envy' (ContraPoints, YouTube, published 2021-08-07), reflecting on her own shift from envying cis women to envying other trans women, and quoting a post from her own fan subreddit."
+    quote: "'There definitely was a time in my life when I used to envy cis women for being cis women, but now I kind of just don't even allow myself to have the thought \"what if I were a cis woman?\" So in a way, because becoming a cis woman is impossible, it's unattainable, I actually envy cis women less. So trans women are more likely to envy other trans women. Because of the proximity effect, and because another trans woman represents an actual possibility of what I, a trans woman, could become. She is a standard to which I can plausibly compare myself.'"
+canonical-instances:
+  - "A post from Wynn's own fan subreddit, quoted in the video: a viewer who loved watching trans creators before realizing they themselves were trans, and afterward felt 'an angry resentful feeling in the pit of my stomach' specifically toward passing trans creators - not toward cis creators - once those creators' position became a plausible personal future rather than someone else's unrelated life."
+critical-questions:
+  - "Is 'plausible' doing real predictive work here, or is it just redescribing whichever comparisons already happen to hurt - could this become unfalsifiable, explaining any observed envy pattern after the fact by declaring the target 'plausible'?"
+  - "Wynn frames impossibility as reducing envy by removing the live comparison, but could an impossible target instead produce a different, adjacent feeling (grief, longing, idealization) that gets misread as an absence of envy rather than envy in a different form?"
+  - "Does this predict that envy should fade once a formerly-plausible target becomes definitively unattainable - a role filled, a position closed, a door shut - is that pattern actually observable, or does resentment sometimes outlast the plausibility that supposedly generated it?"
+status: active

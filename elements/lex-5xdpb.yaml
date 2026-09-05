@@ -1,0 +1,21 @@
+id: lex-5xdpb
+name: moral-language-can-launder-private-cruelty-into-public-justice
+type-in: situation
+type-out: warning
+_tier: atomic
+agent-instruction: "When a crowd's punishment of someone is framed in the vocabulary of justice, ethics, or moral outrage, check whether that vocabulary is doing real evaluative work or functioning as a laundering device for an underlying feeling - envy, vindictiveness, plain cruelty - that wouldn't be socially acceptable stated plainly. Cruelty generally cannot conceptualize itself as cruelty, so the same impulse that would read as vicious if named directly reads as righteous once relabeled 'justice served.' Watch especially for cases where the target's alleged crimes are fabricated or wildly disproportionate to the offense - invented decadence, invented villainy - since manufacturing a deserving monster is what lets the punishing feeling stay comfortable calling itself moral."
+related: [lex-59rqy, lex-96xn9]
+evokes: ["cruelty-cannot-conceptualize-itself-as-cruelty", "marie-antoinette-never-said-let-them-eat-cake", "the-libelles-avalanche-of-defamation", "leopards-eating-faces-party"]
+lineage:
+  - source: primary
+    text: wynn-2021-envy-contrapoints-morality-as-envy-disguise
+    citation: "Natalie Wynn, 'Envy' (ContraPoints, YouTube, published 2021-08-07), discussing the fabricated 'let them eat cake' quote and the pornographic Libelles pamphlets used to defame Marie Antoinette before her execution (citing historian Robert Darnton), and Wynn's own reaction to Donald Trump's COVID-19 diagnosis."
+    quote: "'We have a psychological incentive to believe that people whom we envy are immoral monsters. Because then we get to label our hatred and violence towards them \"justice.\" Cruelty generally cannot conceptualize itself as cruelty. And part of the reason for that is calling cruelty what it is takes the fun out of it.' ... 'For most people... for normal people, for other girls, cruelty is only pleasurable as long as they're able to convince themselves it's something other than cruelty. \"Justice served.\"' ... 'Morality, ethics, and justice are often put forward as the respectable public face of private envy, vindictiveness, and hatred.'"
+canonical-instances:
+  - "Marie Antoinette, per Wynn's account: the 'let them eat cake' line she never said (first attributed by Rousseau to an unnamed 'great princess' when Marie Antoinette was nine years old) and the pornographic Libelles pamphlets falsely depicting her as a bisexual orgiast - fabrications that, per historian Robert Darnton (quoted by Wynn), amounted to 'an avalanche of defamation' with 'no parallel in the history of vilification,' letting the Revolutionary Tribunal frame her execution as deserved justice rather than political expediency."
+  - "Wynn's own self-implicating instance: her admitted 'schadenfreude' at Donald Trump's 2020 COVID-19 diagnosis, and her recognition, prompted by being called a 'killjoy' for openly enjoying it rather than moralizing it, that most people need to relabel the same pleasure as 'justice served' to permit themselves to feel it."
+critical-questions:
+  - "Does identifying moral language as a possible disguise for envy risk becoming a universal solvent that can dismiss any moral claim against the privileged as 'just envy' - how do you tell a legitimate moral objection to real wrongdoing from envy wearing moral language, from the outside?"
+  - "Wynn offers her own unmoralized schadenfreude as a kind of honesty contrasted with people who need the 'justice' label - is admitting the cruelty openly actually more honest, or does it just skip the step of checking whether the underlying feeling is proportionate to what a person actually did?"
+  - "In the Marie Antoinette case, the fabrication was demonstrably false - the quote didn't exist, the pamphlets were invented - does the mechanism require actual fabrication, or does it work just as well when the 'crimes' are real but wildly exaggerated in severity?"
+status: active
