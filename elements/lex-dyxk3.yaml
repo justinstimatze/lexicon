@@ -4,7 +4,7 @@ type-in: situation
 type-out: claim
 _tier: atomic
 agent-instruction: "Before trusting a ranked-choice scoring method (marks for first place, fewer for second, and so on, summed across voters) to reflect only the head-to-head standing of your top two options, check what happens to their score gap when a third, already-losing option moves around in the rankings. Sen walks through the exact case: with x and z tied at 7 marks each under a points-based scoring rule, one voter reshuffles only where the third option y sits -- moving it below both x and z, where it was already going to lose either way. Sen: “This change keeps the total score of x unchanged, but z gets one more mark, scoring 8, and now defeats x with its score of 7. While everyone's ordering of x and z are still the same, the social choice between x and z is not the same, and this of course violates condition I.” Nobody changed their mind about x versus z. The only thing that moved was where an also-ran sat beneath them, and that alone flipped which one wins. Diagnostic move: before trusting a points-based aggregation method to reflect the real preference between your top contenders, check whether an option nobody's actually choosing between the leaders can still move points around underneath them and change who wins -- if it can, the ranking between your real contenders isn't as settled as the point totals make it look."
-related: []
+related: [lex-37m5b]
 evokes: [sen-collective-choice-and-social-welfare-chapter-3-collective-rationality, independence-of-irrelevant-alternatives, rank-order-voting-method, borda-count-manipulation, condition-i]
 lineage:
   - source: primary
