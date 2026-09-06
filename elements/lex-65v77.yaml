@@ -1,0 +1,24 @@
+id: lex-65v77
+name: adopted-technology-can-be-collectively-and-deliberately-abandoned
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Don't assume technological or economic change only ever runs one direction, toward more complex or 'advanced' practices -- a population can adopt a technology and later choose, collectively and deliberately, to stop using it. Graeber and Wengrow's case: Neolithic Britain adopted cereal farming from continental Europe, then around 3300 BC gave up cultivating cereals and returned to gathering hazelnuts as a staple plant food, while keeping their domestic pigs and cattle. There's no evidence any outside population displaced them or any catastrophe forced the change -- it looks like a self-conscious decision to partly retreat from farming. The people who went on to build Stonehenge were, in this specific sense, neither straightforward foragers nor straightforward farmers, but a population that had tried a new way of living and chosen not to fully commit to it. Whenever a society's economic trajectory is described as an inevitable one-way progression, check for evidence of the society actually trying the more 'advanced' option and partially or fully backing away from it -- that's the case an inevitability story can't accommodate."
+related: []
+evokes: [david-graeber, david-wengrow, the-dawn-of-everything, neolithic-britain, stonehenge, agricultural-reversal, voluntary-abandonment]
+lineage:
+  - source: primary
+    text: dawn-of-everything-giving-up-agriculture-self-conscious
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.3 'Unfreezing the Ice Age.'"
+    quote: "“it's hard to imagine how giving up agriculture could have been anything but a self-conscious decision. There is no evidence that one population displaced another, or that farmers were somehow overwhelmed by powerful foragers who forced them to abandon their crops.”"
+  - source: primary
+    text: dawn-of-everything-stonehenge-builders-not-farmers
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.3 'Unfreezing the Ice Age.'"
+    quote: "“the people who built Stonehenge were not farmers, or not in the usual sense. They had once been.”"
+canonical-instances:
+  - "The direct textual anchor, on what they kept versus what they dropped: the population that turned away from cereal cultivation nonetheless kept hold of their domestic pigs and herds of cattle, feasting on them seasonally at nearby Durrington Walls -- a partial, selective retreat from farming rather than a wholesale return to pure foraging."
+  - "Hypothetical: a mid-sized city builds an extensive light-rail network in the 1970s, then over the following decades lets ridership decline and eventually tears up most of the track, returning to a car-centric layout without any external shock forcing the reversal -- residents simply preferred driving once cheap parking and highway expansion made it more convenient, and decades later planning historians puzzle over how a city that clearly 'had' rail transit ended up looking, on the ground, indistinguishable from one that never built it."
+critical-questions:
+  - "How confident can archaeology really be that this was a deliberate collective choice rather than the result of some environmental or demographic pressure (soil exhaustion, a cooling climate cutting into cereal yields) that simply left no visible trace in the record? Absence of evidence for one explanation isn't automatically evidence for the self-conscious-choice explanation."
+  - "If a population can voluntarily un-adopt farming once already established, why don't we see this pattern more often across the archaeological record of agricultural societies worldwide? Is Neolithic Britain a genuine general possibility that most societies for other reasons didn't pursue, or an unusual edge case whose lessons don't generalize as broadly as the 'progress isn't inevitable' framing suggests?"
+status: active
