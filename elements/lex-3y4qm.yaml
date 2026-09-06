@@ -4,7 +4,7 @@ type-in: situation
 type-out: claim
 _tier: atomic
 agent-instruction: "When trying to release or extract a compound from a source material, check whether the extracting medium actually matches the compound's solubility class before assuming more heat or more time will get the job done — the identical heat and duration in a mismatched medium can leave most of the payload untapped, because the medium itself, not the energy applied, is the real bottleneck. America's Test Kitchen: 'Spices generally fall into three categories: those with water-soluble flavor compounds, those with fat-soluble flavor compounds, and those that form new flavor molecules when exposed to dry heat alone... We can also cook spices in fat, a process called blooming. This works for spices that are fat-soluble... When we bloom spices, the fat-soluble flavor molecules are released from a solid state into solution form.' A fat-soluble flavor compound given identical heat and time in water instead of oil doesn't just extract a little less — the book's own lab-verified test showed water pulling out roughly half of what oil pulled out for capsaicin, and a full order of magnitude less for thymol. Before reaching for more heat or a longer soak to boost potency, check whether the carrier itself is even capable of dissolving what's being extracted."
-related: [lex-3s2xn]
+related: [lex-3s2xn, lex-kj5fh]
 evokes: [americas-test-kitchen-crosby-2012-science-of-good-cooking, bloom-spices-to-boost-their-flavor, fat-soluble-vs-water-soluble, blooming-in-oil, scoville-heat-units]
 lineage:
   - source: primary
