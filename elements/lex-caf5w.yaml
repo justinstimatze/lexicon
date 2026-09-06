@@ -1,0 +1,24 @@
+id: lex-caf5w
+name: narrowing-to-one-food-web-creates-a-maximally-exposed-target
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a community narrows its livelihood down to a single, immobile, storable resource base, recognize that this doesn't just create a surplus worth stealing -- it also creates a population that can no longer disperse or flee, making it uniquely exposed to total annihilation in a way a mobile, diversified economy isn't. Graeber and Wengrow's case: central Europe's earliest Linear Pottery farming villages built almost everything -- fuel, fodder, construction material, food -- around a single narrow food web of a few cereal crops and livestock. Several of these settlements ended in mass graves showing systematic torture, mutilation, and killing of entire communities, with younger women missing from the remains, suggesting they were taken as captives. A forager band that loses a harvest or a hunting ground can disperse and regroup elsewhere; a village that has narrowed its whole existence to one immobile food web, one fixed location, and one storable surplus has nowhere to retreat to and nothing left once that base is destroyed or captured. The narrowing that makes a surplus extractable is the same narrowing that makes its holders unable to escape when someone decides to take it by force."
+related: []
+evokes: [david-graeber, david-wengrow, the-dawn-of-everything, linear-pottery-culture, mass-graves, neolithic-violence, food-web-narrowing]
+lineage:
+  - source: primary
+    text: dawn-of-everything-telltale-marks-of-torture
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.7 'The Ecology of Freedom.'"
+    quote: "“Their bones show the telltale marks of torture, mutilation and violent death – the breaking of limbs, taking of scalps, butchering for cannibalism.”"
+  - source: primary
+    text: dawn-of-everything-single-food-web
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.7 'The Ecology of Freedom.'"
+    quote: "“Almost everything came to revolve around a single food web for Europe's earliest farmers.”"
+canonical-instances:
+  - "The direct textual anchor, on who was missing from the massacre sites and why it matters: “At Kilianstädten and Asparn, younger women were missing from the assemblage, suggesting their appropriation as captives.”"
+  - "Hypothetical: a small manufacturing town builds its entire economy around one factory that makes a single component for one industry. When that industry consolidates and the factory closes, the town has no fallback -- no diversified local economy to absorb the shock, no way to disperse into other viable livelihoods nearby. A town with three or four different industries could have lost one and adapted; this one had narrowed itself into having nothing left once its single economic base was gone."
+critical-questions:
+  - "Is the vulnerability here really about economic narrowing specifically, or simply about sedentism and population density? A densely settled, immobile forager population relying on one especially rich but singular resource, a salmon run for instance, might well face the same exposure to catastrophic raiding, whether that resource happened to be farmed or foraged."
+  - "The mass graves at these sites are dramatic evidence, but they represent a small number of documented cases. How confident can we be that food-web narrowing was the decisive vulnerability, rather than other factors specific to these particular communities (their location on a contested frontier, local political rivalries) that a wider sample of Linear Pottery sites might not support as a general pattern?"
+status: active
