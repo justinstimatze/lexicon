@@ -1,0 +1,20 @@
+id: lex-qspw3
+name: self-made-man-credits-friends-and-circumstance-alongside-effort
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Someone publicly celebrated as self-made can refuse the full credit that label implies, naming specific people and specific timing as co-authors of their own success rather than accepting sole authorship as flattering shorthand. Douglass, 'pretty generally' called a self-made man, answers: 'while I cannot altogether disclaim this title... I am compelled to give them at least an equal measure of credit, with myself, for the success which has attended my labors in life.' He is explicit that effort alone would not have been sufficient: 'The little energy, industry, and perseverance which have been mine, would hardly have availed me, in the absence of thoughtful friends, and highly favoring circumstances.' The correction runs in a specific direction -- not false modesty that erases his own agency, since he doesn't disclaim the title outright, but an accounting that insists the credit be split roughly in half between his own effort and the friends and timing that made the effort effective."
+related: []
+evokes: [architect-of-my-own-fortune, an-equal-measure-of-credit, thoughtful-friends-and-highly-favoring-circumstances, would-hardly-have-availed-me]
+lineage:
+  - source: primary
+    text: douglass-1881-life-and-times-part-ii-ch18-equal-measure-of-credit
+    citation: "Frederick Douglass, Life and Times of Frederick Douglass (1881), Part II ('Life as a Freeman'), Chapter XVIII, 'Honor to Whom Honor.'"
+    quote: "“I have sometimes been credited with having been the architect of my own fortune, and have pretty generally received the title of a ‘self-made man;’ and while I cannot altogether disclaim this title, when I look back over the facts of my life, and consider the helpful influences exerted upon me, by friends more fortunately born and educated than myself, I am compelled to give them at least an equal measure of credit, with myself, for the success which has attended my labors in life. The little energy, industry, and perseverance which have been mine, would hardly have availed me, in the absence of thoughtful friends, and highly favoring circumstances.”"
+canonical-instances:
+  - "The direct textual anchor: Douglass makes the counterfactual explicit rather than leaving it implied -- without those friends, 'the last forty years of my life might have been spent on the wharves of New Bedford, rolling oil casks... holding my own with difficulty against gaunt-sided poverty' -- naming the specific alternate life his own effort alone would most likely have produced."
+  - "Hypothetical: A tech founder profiled as a self-made billionaire tells the interviewer that a college roommate's family connection got him his first pitch meeting, and that without that one introduction the same product and the same work ethic would likely have gone nowhere, insisting the magazine credit the roommate by name rather than run the self-made framing uncorrected."
+critical-questions:
+  - "Does crediting friends and circumstance this explicitly undersell the actual selectivity of the help -- Douglass was chosen for support because he already showed qualities that made investing in him look worthwhile, so is the credit-split perhaps closer to earned than the humble framing suggests?"
+  - "When does this kind of public credit-sharing serve mainly as an accurate account of causation, and when does it function instead as a strategic move to keep obligated goodwill flowing from the same network going forward?"
+status: active

@@ -1,0 +1,20 @@
+id: lex-u4xzu
+name: volunteering-your-own-stigma-tests-if-warmth-is-conditional-on-ignorance
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "Rather than wait to be discovered and rejected, a person can disclose the very fact that makes them a target for rejection first, which turns the other party's next move into a clean test of whether their goodwill was ever conditional on not knowing. Trying to keep a train seat to himself at night, Douglass warns an approaching stranger before the man can sit down: 'Don't sit down here, my friend, I am a nigger.' The man's answer settles the question instantly and without hedging: 'I don't care who the devil you are, I mean to sit with you.' Because Douglass volunteered the fact rather than having it discovered, there's no way to read the man's response as merely not-yet-having-noticed -- his willingness was tested against full information from the first word, which is exactly what a discovery-based disclosure could never prove."
+related: []
+evokes: [i-am-a-nigger, i-dont-care-who-the-devil-you-are, disclosed-before-discovery, a-test-of-first-contact-goodwill]
+lineage:
+  - source: primary
+    text: douglass-1881-life-and-times-part-ii-ch17-i-dont-care-who-you-are
+    citation: "Frederick Douglass, Life and Times of Frederick Douglass (1881), Part II ('Life as a Freeman'), Chapter XVII, 'Incidents and Events.'"
+    quote: "“On another occasion, traveling by a night train on the New York Central railroad, when the cars were crowded and seats were scarce, and I was occupying a whole seat, the only luxury my color afforded me in traveling, I had laid down with my head partly covered, thinking myself secure in my possession, when a well dressed man approached and wished to share the seat with me. Slightly rising, I said, ‘Don’t sit down here, my friend, I am a nigger.’ ‘I don’t care who the devil you are,’ he said, ‘I mean to sit with you.’ ‘Well, if it must be so,’ I said, ‘I can stand it if you can,’ and we at once fell into a very pleasant conversation, and passed the hours on the road very happily together.”"
+canonical-instances:
+  - "The direct textual anchor: Douglass frames the disclosure as arriving before the man could even reach the seat -- 'slightly rising, I said' -- not as a confession volunteered mid-conversation once some rapport had already formed, which is what makes the man's answer a test of first-contact goodwill rather than of an already-warming relationship."
+  - "Hypothetical: A job applicant with a felony conviction mentions it in the first minute of a networking coffee, before the conversation has built any rapport, rather than waiting for a background check to surface it after an offer -- the contact's unchanged warmth for the rest of the meeting is harder to dismiss as mere ignorance than it would be if the disclosure came only after he'd already grown to like her."
+critical-questions:
+  - "Does the test only work when the discloser has genuinely nothing left to lose in the interaction -- Douglass was already alone in a train car, in no position to be further excluded -- or does it work equally well when the stakes of rejection are higher, such as disclosing before a job offer rather than before a train seat is shared?"
+  - "How does a discloser distinguish a stranger's unhesitating acceptance, which passes the test, from a stranger's performative unhesitating acceptance -- given for an audience or from a wish to seem unprejudiced -- which would pass the same test without reflecting genuine indifference to the disclosed fact?"
+status: active

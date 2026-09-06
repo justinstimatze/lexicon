@@ -1,0 +1,20 @@
+id: lex-rhvj5
+name: denying-a-right-for-lacking-a-capacity-the-denial-itself-prevented
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a group is denied a right on the grounds that they haven't yet developed the capacity the right requires, check whether the very exclusion is what's preventing that capacity from developing, which makes the justification circular rather than a neutral finding. Arguing for woman suffrage on the same footing as Black suffrage, Douglass names the mechanism directly: 'If from the cradle through life the outside world brands a class as unfit for this or that work, the character of the class will come to resemble and conform to the character described.' His proposed fix grants the right up front instead of waiting on proof of readiness, gambling that the right itself will supply the missing motive: 'I would give woman a vote, give her a motive to qualify herself to vote, precisely as I insisted upon giving the colored man the right to vote, in order that he should have the same motives for making himself a useful citizen.' The move only works as a remedy if the deficiency really is downstream of the exclusion; if the deficiency has some other, independent cause, granting the right wouldn't supply a motive for anything."
+related: []
+evokes: [brands-a-class-as-unfit, character-will-conform-to-the-character-described, must-be-presumed-and-expected, grant-the-right-to-supply-the-motive]
+lineage:
+  - source: primary
+    text: douglass-1881-life-and-times-part-ii-ch18-brands-a-class-as-unfit
+    citation: "Frederick Douglass, Life and Times of Frederick Douglass (1881), Part II ('Life as a Freeman'), Chapter XVIII, 'Honor to Whom Honor.'"
+    quote: "“If from the cradle through life the outside world brands a class as unfit for this or that work, the character of the class will come to resemble and conform to the character described. To find valuable qualities in our fellows, such qualities must be presumed and expected. I would give woman a vote, give her a motive to qualify herself to vote, precisely as I insisted upon giving the colored man the right to vote, in order that he should have the same motives for making himself a useful citizen as those in force in the case of other citizens.”"
+canonical-instances:
+  - "The direct textual anchor: Douglass states this as a general premise -- 'To find valuable qualities in our fellows, such qualities must be presumed and expected' -- ahead of any specific instance of Black or female accomplishment he could have pointed to instead."
+  - "Hypothetical: A company declines to promote women into its leadership pipeline because none have the executive experience the role requires, while the only path to that experience runs through roles the company has never promoted a woman into -- the stated disqualification and the actual barrier are the same policy, described from two different angles."
+critical-questions:
+  - "Operationally distinct from lex-4kgfa (every-prediction-wrong-in-the-same-direction-reveals-prejudice-not-inference): that atom diagnoses prejudice retrospectively, once a series of specific predicted deficiencies have already been falsified by direct observation. This atom makes a prospective structural claim about why an observed deficiency exists in the first place -- that the exclusion itself manufactured it -- and proposes a remedy (grant the right first) rather than a diagnostic test."
+  - "How would one distinguish, in a live case, a genuinely circular exclusion (the denial caused the deficiency) from a case where the deficiency has an independent cause and granting the right would not in fact supply the claimed motive -- what evidence would tell these apart before the experiment of granting the right has actually been run?"
+status: active

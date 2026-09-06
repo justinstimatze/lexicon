@@ -1,0 +1,21 @@
+id: lex-xqg44
+name: claimed-ownership-secures-treatment-that-personhood-and-payment-dont
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "In a system that grants full standing only to property, a bystander's false claim that a marginalized person is owned by them can secure protections that the person's own status as a free, paying customer never did. Seated beside his friend Mrs. Amy Post on a Philadelphia streetcar, Douglass is challenged by the conductor, who backs off only once Post claims him as property: 'Lady, does he belong to you?' 'He does,' said Mrs. Post, and there the matter ended. Douglass names the inversion directly: 'I was allowed to ride in peace, not because I was a man, and had paid my fare, but because I belonged to somebody? My color was no longer offensive when it was supposed that I was not a person, but a piece of property.' The safest way to protect someone a system refuses to recognize as fully a person turns out to be claiming them as a possession, since a recognized property claim outranks that person's own paid claim to the same seat."
+related: []
+evokes: [does-he-belong-to-you, he-belonged-to-somebody, not-a-person-but-a-piece-of-property, my-color-was-no-longer-offensive]
+lineage:
+  - source: primary
+    text: douglass-1881-life-and-times-part-ii-ch17-belonged-to-somebody
+    citation: "Frederick Douglass, Life and Times of Frederick Douglass (1881), Part II ('Life as a Freeman'), Chapter XVII, 'Incidents and Events.'"
+    quote: "“I took a seat in a street car by the side of my friend Mrs. Amy Post, of Rochester, New York, who, like myself, had come to Philadelphia to attend an anti-slavery meeting. I had no sooner seated myself when the conductor hastened to remove me from the car. My friend remonstrated, and the amazed conductor said, ‘Lady, does he belong to you?’ ‘He does,’ said Mrs. Post, and there the matter ended. I was allowed to ride in peace, not because I was a man, and had paid my fare, but because I belonged to somebody? My color was no longer offensive when it was supposed that I was not a person, but a piece of property.”"
+canonical-instances:
+  - "The direct textual anchor: Douglass frames the moment as a rhetorical question rather than gratitude -- 'because I belonged to somebody?' -- registering the arrangement as a fresh outrage layered on top of the original one, not a loophole he was glad to exploit."
+  - "Hypothetical: A wealthy shopper's live-in caregiver is stopped by store security on suspicion of shoplifting; the stop ends the moment the shopper says 'she works for my household,' though the caregiver had done nothing different and carried the same identification the whole time -- the accusation dissolves not because her innocence became visible, but because she became legible as someone's asset."
+critical-questions:
+  - "Does this need the ownership claim to be literally believed, or does naming any recognized dependent relationship -- employee, family member, ward -- work just as well, with 'property' simply the most extreme label Douglass's era had available?"
+  - "What happens to the person being claimed once the claiming party leaves? The protection here lasted only as long as Mrs. Post was present to assert it -- does this kind of borrowed standing evaporate the moment the vouching party is no longer in the room?"
+  - "Is this meaningfully different from ordinary vouching for a stranger's good character? Douglass's outrage suggests the difference is that this vouch worked BECAUSE it lowered his classification below personhood, not despite it -- an ordinary character vouch elevates the person vouched for, this one protected him only by degrading his status."
+status: active

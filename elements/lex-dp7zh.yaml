@@ -1,0 +1,20 @@
+id: lex-dp7zh
+name: the-same-suffrage-argument-applies-without-exception-across-excluded-groups
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Having built a life's argument for one group's right to participate in government, a person can bind themselves to extend that same argument to a different population shut out on other grounds, refusing to apply the reasoning selectively. After decades spent arguing for Black suffrage, Douglass states the constraint on himself plainly: 'In a word, I have never yet been able to find one consideration, one argument, or suggestion in favor of man's right to participate in civil government which did not equally apply to the right of woman.' The claim isn't that the two suffrage causes are identical in every historical particular -- it's narrower and stronger: whatever justificatory structure makes the argument work for one case generalizes without a principled stopping point to the other, so refusing to extend it becomes a special pleading Douglass names himself as unable to construct."
+related: []
+evokes: [never-been-able-to-find-one-consideration, applies-equally-to-the-right-of-woman, moral-intelligence-not-sex-or-physical-strength, a-consistency-he-imposes-on-himself]
+lineage:
+  - source: primary
+    text: douglass-1881-life-and-times-part-ii-ch18-never-found-one-consideration
+    citation: "Frederick Douglass, Life and Times of Frederick Douglass (1881), Part II ('Life as a Freeman'), Chapter XVIII, 'Honor to Whom Honor.'"
+    quote: "“In a word, I have never yet been able to find one consideration, one argument, or suggestion in favor of man’s right to participate in civil government which did not equally apply to the right of woman.”"
+canonical-instances:
+  - "The direct textual anchor: earlier in the same passage Douglass locates the shared justificatory basis explicitly before drawing the parallel -- 'Recognizing not sex, nor physical strength, but moral intelligence and the ability to discern right from wrong... as the true basis of Republican government' -- naming the specific premise that, once granted for one group, cannot be coherently withheld from another without contradicting itself."
+  - "Hypothetical: A country that justifies its minimum voting age by appeal to demonstrated reasoning capacity, then denies the same vote to a disabled adult with equivalent demonstrated reasoning capacity solely on the grounds of the disability, is applying the identical underlying justification inconsistently across two different excluded populations."
+critical-questions:
+  - "Operationally distinct from lex-rhvj5 (denying-a-right-for-lacking-a-capacity-the-denial-itself-prevented, minted from the same Douglass passage): that atom is about why one specific exclusion is unjustified on its own terms, because the alleged deficiency is circular. This atom is a distinct, second move -- a consistency check across two separate exclusion arguments, asking whether the justificatory structure used for one case is being applied selectively, independent of whether either case's specific deficiency claim is circular."
+  - "Does the consistency constraint Douglass names here obligate him to extend the same argument to every group excluded from government on some other basis (property, literacy, age), or does it only bind him with respect to groups whose exclusion rests on the specific premise -- sex, or race -- he has already identified as irrelevant to the 'true basis' of the right?"
+status: active
