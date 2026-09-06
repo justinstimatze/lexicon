@@ -1,0 +1,24 @@
+id: lex-kwch3
+name: impersonal-war-markets-manufacture-self-interest-as-real-motive
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When you encounter the assumption that everyone's 'real' motive is self-interest -- that generosity, pride, love, and loyalty are just the polite cover story for what people actually want -- recognize that assumption as a specific historical product. In ordinary human economies, where people know each other and expect to go on knowing each other, motives are assumed to be genuinely mixed: a lord's gift to a retainer can be generous, strategic, and self-glorifying all at once, with no felt contradiction. What changes that is impersonal cash exchange between strangers, born out of the violence of the Axial Age -- soldiers disposing of loot, merchants trading goods nobody asks too many questions about, transactions between people who will never see each other again. Only in that setting does it start to feel natural to strip away every stated motive and assume self-interested calculation is what's really underneath. The 'rational self-interested actor' picture of human nature that founds so much of modern economics is best read as the residue of a specific historical transaction type -- violent, anonymous, one-off exchange -- that became common enough to look like the paradigm case for all human exchange."
+related: [lex-dccpt]
+evokes: [david-graeber, debt-the-first-5000-years, axial-age, self-interest, homo-economicus, human-economies]
+lineage:
+  - source: primary
+    text: graeber-2011-debt-selfish-motive-not-necessarily-real
+    citation: "David Graeber, Debt: The First 5,000 Years (Melville House, 2011), ch.9 'The Axial Age.'"
+    quote: "“What's missing, though, is any sense that the most selfish ('self-interested') motive is necessarily the real one.”"
+  - source: primary
+    text: graeber-2011-debt-radical-simplification-of-motives
+    citation: "David Graeber, Debt: The First 5,000 Years (Melville House, 2011), ch.9 'The Axial Age.'"
+    quote: "“The result, during the Axial Age, was a new way of thinking about human motivation, a radical simplification of motives that made it possible to begin speaking of concepts like 'profit' and 'advantage'.”"
+canonical-instances:
+  - "The direct textual anchor, on how differently motive-speculation runs inside a human economy: “Similarly, gifts between equals are usually fraught with many layers of love, envy, pride, spite, communal solidarity, or any of a dozen other things.”"
+  - "Hypothetical: an economics student raised entirely on textbook models of rational utility-maximization takes a summer job at a family-run farm stand, where the owner gives a struggling neighbor extra vegetables at cost, invites a regular customer's kids to help feed the chickens, and negotiates hard with a wholesale buyer that same afternoon. The student initially tries to find the 'real' profit motive hiding behind each act, until it becomes clear that generosity, community-building, and hard bargaining are simply different registers the same person moves between, none of them a mask for the others."
+critical-questions:
+  - "If the self-interested-actor model really is a product of violent, impersonal exchange, why did it take root so unevenly -- flourishing in Greek and Chinese Axial Age thought but arguably far less in early Buddhist economic writing, which developed inside the same violent, coin-based military states? Does the mechanism need a further filter for which cultures actually adopted the simplified motivational model versus which ones faced the same market conditions but resisted it?"
+  - "Modern behavioral economics has spent decades documenting that real humans deviate constantly from pure self-interested rationality, yet the model persists as the default assumption in policy and theory long after Axial Age war-markets ended. Graeber's account explains how the idea first became thinkable. Whether it also explains why the model still dominates today, centuries after the violent conditions that produced it, is a separate question it leaves open."
+status: active
