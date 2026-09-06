@@ -1,0 +1,24 @@
+id: lex-qbbav
+name: debt-is-suspended-equality-not-yet-restored
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When deciding whether a relationship counts as debt rather than gift, hierarchy, or a completed transaction, check for two conditions Graeber treats as jointly necessary. First, the two parties have to be potential equals -- people who don't consider each other fundamentally different kinds of being, the way a king and a subject, or an adult and a child, do. Second, the inequality between them has to be temporary -- closable, with some way to 'set matters straight' -- rather than a fixed, permanent state. Debt exists only in the interval between those two facts -- it's what's happening while the exchange hasn't yet been brought to completion. The moment settlement happens, the interval closes: the money changes hands, equality is restored, and both parties are free to walk away and have nothing further to do with each other. A debt, in other words, is a suspended state that exists only for as long as the closable inequality behind it hasn't yet been resolved, rather than a fixed balance sitting on a ledger."
+related: [lex-rq8my, lex-zfphu, lex-a6gaj]
+evokes: [david-graeber, debt-the-first-5000-years, potential-equals, unpayable-debt-does-not-exist, exchange-not-yet-completed, walking-away-restores-equality]
+lineage:
+  - source: primary
+    text: graeber-2011-debt-definition-potential-equals
+    citation: "David Graeber, Debt: The First 5,000 Years (Melville House, 2011), ch.5 'A Brief Treatise on the Moral Grounds of Economic Relations,' section 'Hierarchy.'"
+    quote: "“Debt is a very specific thing, and it arises from very specific situations. It first requires a relationship between two people who do not consider each other fundamentally different sorts of being, who are at least potential equals, who are equals in those ways that are really important, and who are not currently in a state of equality—but for whom there is some way to set matters straight.”"
+  - source: primary
+    text: graeber-2011-debt-in-between-eventual-equality
+    citation: "David Graeber, Debt: The First 5,000 Years (Melville House, 2011), ch.5 'A Brief Treatise on the Moral Grounds of Economic Relations,' section 'Hierarchy.'"
+    quote: "“Debt is what happens in between: when the two parties cannot yet walk away from each other, because they are not yet equal. But it is carried out in the shadow of eventual equality. Because achieving that equality, however, destroys the very reason for having a relationship, just about everything interesting happens in between.”"
+canonical-instances:
+  - "The direct textual anchor, marking the boundary condition of the definition -- what happens when a debt seems impossible to close: “This means that there is no such thing as a genuinely unpayable debt. If there was no conceivable way to salvage the situation, we wouldn’t be calling it a ‘debt.’ Even the French villager could, conceivably, save his patron’s life, or win the lottery and buy the factory. Even when we speak of a criminal ‘paying his debt to society,’ we are saying that he has done something so terrible that he has now been banished from that equal status under the law that belongs by natural right to any citizen of his country; however, we call it a ‘debt’ because it can be paid, equality can be restored, even if the cost may be death by lethal injection.”"
+  - "Hypothetical: two coworkers split a dinner bill unevenly one night, with the understanding that the other will cover a rideshare the following week to balance it out. Until that happens, there's a faint mutual awareness neither one mentions but both track. The moment the rideshare gets paid for, the awareness dissolves instantly -- both are free to never think about the arrangement again, because the small, temporary inequality that had been holding them in each other's attention is now closed."
+critical-questions:
+  - "Graeber's definition requires the two parties be 'potential equals ... in the ways that are really important.' In the Madagascar case discussed elsewhere in the book (lex-rq8my), France and the colonized population are nominal legal equals under international law while the actual relationship began in violent conquest -- does the 'equals' requirement do real explanatory work here, or is it satisfiable by any relationship where some formal equality can be asserted regardless of the underlying power reality, making the definition compatible with exactly the cases it might seem to rule out?"
+  - "Graeber insists there is 'no such thing as a genuinely unpayable debt' since even death counts as a form of payment. Does stretching 'payment' this far still describe a restoration of equality, or does the definition quietly abandon its own equals-in-good-standing requirement exactly where the stakes get highest?"
+status: active

@@ -1,0 +1,24 @@
+id: lex-a6gaj
+name: voluntary-gifts-to-a-superior-calcify-into-permanent-tribute
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "In a hierarchical relationship, watch any one-sided, voluntary act given upward -- a gift, a courtesy, an accommodation -- because hierarchy runs on precedent rather than reciprocity. Repeat the act even a few times and it stops being read as a choice: once relations are seen as based on custom, the only way to demonstrate that one has a duty to do something is to show that one has done it before. Graeber's examples run from the Persian tribute system (a province's unique gifts to the Great King became its yearly quota) to Medieval Europe: the ninth-century monks of Saint-Denis supplied two hundred barrels of wine to the royal cellars during one shortage and 'this contribution was thenceforth claimed from them as of right every year,' requiring an imperial charter to undo. It took so little repetition -- Graeber cites 'especially if repeated three of four times' -- that subordinates historically had to insist on a 'letter of non-prejudice': a guarantee, secured in advance, that a given act would not be read as establishing a standing obligation."
+related: [lex-tugg9, lex-qbbav]
+evokes: [david-graeber, debt-the-first-5000-years, precedent-not-reciprocity, letter-of-non-prejudice, persian-tribute-system, custom-as-obligation]
+lineage:
+  - source: primary
+    text: graeber-2011-debt-precedent-saint-denis-ardres
+    citation: "David Graeber, Debt: The First 5,000 Years (Melville House, 2011), ch.5 'A Brief Treatise on the Moral Grounds of Economic Relations,' section 'Hierarchy,' quoting the medieval historian Marc Bloch."
+    quote: "“[I]n the ninth century, when one day there was a shortage of wine in the royal cellars at Ver, the monks of Saint-Denis were asked to supply the two hundred hogs-heads required. This contribution was thenceforth claimed from them as of right every year, and it required an imperial charter to abolish it. At Ardres, we are told, there was once a bear, the property of the local lord. The inhabitants, who loved to watch it fight with dogs, undertook to feed it. The beast eventually died, but the lord continued to exact the loaves of bread.”"
+  - source: primary
+    text: graeber-2011-debt-precedent-letter-of-non-prejudice
+    citation: "David Graeber, Debt: The First 5,000 Years (Melville House, 2011), ch.5 'A Brief Treatise on the Moral Grounds of Economic Relations,' section 'Hierarchy.'"
+    quote: "“In other words, any gift to a feudal superior, ‘especially if repeated three of four times,’ was likely to be treated as a precedent and added to the web of custom. As a result, those giving gifts to superiors often insisted on receiving a ‘letter of non-prejudice’ legally stipulating that such a gift would not be required in the future.”"
+canonical-instances:
+  - "The direct textual anchor, tracing the mechanism to its named origin: “Xenophon claims that in the early days of the Persian Empire, each province vied to send the Great King gifts of its most unique and valuable products. This became the basis of the tribute system: each province was eventually expected to provide the same ‘gifts’ every year.” What began as competitive generosity, freely offered, calcified into a fixed yearly quota with no exit."
+  - "Hypothetical: an employee who once stayed late, unprompted, to help a manager finish a rush project finds that staying late near any deadline is now a silent expectation, with no discussion and no adjustment to pay. The one-time favor has been folded into how this employee works, no longer remembered as a favor at all. If the employee stops now, the manager reads it as failing to do something they've always done."
+critical-questions:
+  - "Does the precedent-becomes-custom logic require a genuine power asymmetry to take hold, or can it operate between formal equals too -- and if it can, is Graeber's sharp contrast between hierarchy running on precedent and exchange running on reciprocity a clean binary, or a difference of degree that shows up, in weaker form, even among peers?"
+  - "Both the Saint-Denis and Ardres cases needed an external authority (an imperial charter) to formally cancel a precedent once it had calcified. Does the mechanism generalize to relationships with no equivalent authority to appeal to -- a subordinate with no 'imperial charter' available -- or does the precedent become effectively permanent whenever no third party exists who could revoke it?"
+status: active
