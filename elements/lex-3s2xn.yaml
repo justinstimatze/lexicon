@@ -4,7 +4,7 @@ type-in: situation
 type-out: process
 _tier: atomic
 agent-instruction: "When a formula, model, or technique feels locked to the specific domain it was built for, check whether some other, institutionally unrelated thing shares the exact same abstract payoff or outcome SHAPE — because if it does, the tool transfers directly, with no new theory needed. Black and Scholes noticed that a company's stockholders, once the company has issued debt, hold something with the exact same payoff shape as a call option: at the debt's maturity, stockholders get whatever the company's assets are worth above the debt's face value, or nothing, if the assets are worth less — 'stockholders have the equivalent of an option on their company's assets... the bond holders own the company's assets, but they have given options to the stockholders ... to buy the assets back.' A stock certificate and an options contract look like nothing alike institutionally, but the option-pricing formula applies to the stock directly once the shared shape is seen, letting them price corporate bonds and the discount for default risk without building anything new. Before assuming a tool is domain-locked, ask what the tool actually operates on structurally (a payoff shape, a decision rule, a search procedure) rather than what it's institutionally named for, and check whether that structure shows up somewhere else wearing different clothes."
-related: [lex-guxk6]
+related: [lex-3y4qm, lex-guxk6]
 evokes: [equity-as-a-call-option-on-firm-assets, structural-match-not-analogy, same-shape-different-institution, merton-1974-structural-credit-model]
 lineage:
   - source: primary

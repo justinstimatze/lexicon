@@ -4,7 +4,7 @@ type-in: composition
 type-out: composition
 _tier: atomic
 agent-instruction: "When two components are tightly coupled, introduce an indirection layer (interface, protocol, mediator). Decoupling-via-indirection lets each side evolve independently; the indirection itself becomes the contract that holds the system together."
-related: [lex-hnfrw, lex-9nj6a, lex-c3rr5, lex-b4vxq, lex-spk4s, lex-22etp, lex-q9znq, lex-gbmev, lex-dwycr, lex-p25q4, lex-sjsae, lex-ew7zx, lex-etfhv, lex-z2s4d, lex-qa6hc]
+related: [lex-22etp, lex-9nj6a, lex-b4vxq, lex-c3rr5, lex-dwycr, lex-etfhv, lex-ew7zx, lex-fgjhn, lex-gbmev, lex-hnfrw, lex-p25q4, lex-q9znq, lex-qa6hc, lex-sjsae, lex-spk4s, lex-z2s4d]
 evokes: [add-a-layer, mediation, butler-pattern, decouple-sender-from-receiver]
 lineage:
   - source: primary

@@ -1,0 +1,22 @@
+id: lex-3y4qm
+name: extraction-potency-depends-on-matching-solvent-not-just-heat-or-time
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When trying to release or extract a compound from a source material, check whether the extracting medium actually matches the compound's solubility class before assuming more heat or more time will get the job done — the identical heat and duration in a mismatched medium can leave most of the payload untapped, because the medium itself, not the energy applied, is the real bottleneck. America's Test Kitchen: 'Spices generally fall into three categories: those with water-soluble flavor compounds, those with fat-soluble flavor compounds, and those that form new flavor molecules when exposed to dry heat alone... We can also cook spices in fat, a process called blooming. This works for spices that are fat-soluble... When we bloom spices, the fat-soluble flavor molecules are released from a solid state into solution form.' A fat-soluble flavor compound given identical heat and time in water instead of oil doesn't just extract a little less — the book's own lab-verified test showed water pulling out roughly half of what oil pulled out for capsaicin, and a full order of magnitude less for thymol. Before reaching for more heat or a longer soak to boost potency, check whether the carrier itself is even capable of dissolving what's being extracted."
+related: [lex-3s2xn]
+evokes: [americas-test-kitchen-crosby-2012-science-of-good-cooking, bloom-spices-to-boost-their-flavor, fat-soluble-vs-water-soluble, blooming-in-oil, scoville-heat-units]
+lineage:
+  - source: primary
+    text: americas-test-kitchen-crosby-2012-science-of-good-cooking-concept-33-blooming-spices
+    citation: "The Editors at America's Test Kitchen and Guy Crosby, The Science of Good Cooking: Master 50 Simple Concepts to Enjoy a Lifetime of Success in the Kitchen (America's Test Kitchen, 2012), Concept 33, 'Bloom Spices to Boost Their Flavor.'"
+    quote: "'Spices generally fall into three categories: those with water-soluble flavor compounds, those with fat-soluble flavor compounds, and those that form new flavor molecules when exposed to dry heat alone.' ... 'We can also cook spices in fat, a process called blooming. This works for spices that are fat-soluble... When we bloom spices, the fat-soluble flavor molecules are released from a solid state into solution form, where they mix and interact, thereby producing an even more complex flavor.'"
+canonical-instances:
+  - "The book's lab-verified experiment: crushed red pepper flakes steeped in oil versus water, both held at 200 degrees for 20 minutes — the oil infusion measured 2233 Scoville Heat Units against 1113 for the water infusion, almost exactly double. Thyme leaves steeped the same way showed an even starker gap: 197 parts per million of thymol in the oil versus 19.4 ppm in the water, a tenfold difference — identical heat, identical time, identical source material, only the solvent differed."
+  - "Hypothetical: a manager tries to motivate a team member who is driven entirely by autonomy and mastery using increasingly generous cash bonuses (the wrong-class solvent for that person's actual motivational chemistry). No amount of additional bonus money extracts much engagement, not because the effort or investment was insufficient, but because money was never the medium that dissolves what actually motivates this particular person."
+critical-questions:
+  - "How would a practitioner determine which solvent class a given compound belongs to before running an experiment — is there a general diagnostic short of the book's own lab test (an independent chromatography measurement), or does this usually require some prior chemical knowledge of the specific compound?"
+  - "Is there always a single best-matched solvent, or can a compound be split across multiple solvent classes such that no single medium extracts the majority of it, requiring a sequential or combined-medium extraction instead of a one-shot choice?"
+  - "In the human-motivation analogy, is there a clean equivalent of 'solvent class' that can be diagnosed in advance, or does human motivation typically mix several 'solubility classes' at once in a way molecules do not, making the metaphor's clean binary an oversimplification when applied to people?"
+status: active
+severity-tier: info
