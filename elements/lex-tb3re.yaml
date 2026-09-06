@@ -4,7 +4,7 @@ type-in: situation
 type-out: claim
 _tier: atomic
 agent-instruction: "When pushing a measure as a target, expect the measure to degrade. Goodhart: optimizing for the proxy detaches it from what it was supposed to indicate. Don't punish on the metric; use the metric as ONE input among many, none of them critical alone."
-related: [lex-29fvm, lex-4ckek, lex-4d53x, lex-5yufs, lex-643m7, lex-66s4q, lex-6gy96, lex-8njgg, lex-agefm, lex-b97zn, lex-cqvnu, lex-cwmus, lex-eqy5r, lex-ewafs, lex-ghtr8, lex-h5av3, lex-hbknh, lex-hr5h5, lex-jmm5b, lex-kh8gf, lex-m4ztd, lex-n365w, lex-n5cf6, lex-nbk6e, lex-nr3kg, lex-peqcm, lex-prwfm, lex-qjsgk, lex-spm8x, lex-wdnmm, lex-y5jm9, lex-yhtvk, lex-yyfx5, lex-z68kz, lex-zfssj, lex-zpfv9]
+related: [lex-29fvm, lex-4ckek, lex-4d53x, lex-5yufs, lex-643m7, lex-652hb, lex-66s4q, lex-6gy96, lex-8njgg, lex-agefm, lex-b97zn, lex-cqvnu, lex-cwmus, lex-eqy5r, lex-ewafs, lex-ghtr8, lex-h5av3, lex-hbknh, lex-hr5h5, lex-jmm5b, lex-kh8gf, lex-m4ztd, lex-n365w, lex-n5cf6, lex-nbk6e, lex-nr3kg, lex-peqcm, lex-prwfm, lex-qjsgk, lex-spm8x, lex-wdnmm, lex-y5jm9, lex-yhtvk, lex-yyfx5, lex-z68kz, lex-zfssj, lex-zpfv9]
 scaffolds-from: [lex-4ckek, lex-cqvnu, lex-nr3kg, lex-spm8x]
 evokes: [goodharts-law, when-a-measure-becomes-a-target, metric-validity-collapse, teaching-to-the-test, strathern-1997, the-measure-stops-tracking-what-it-tracked]
 lineage:

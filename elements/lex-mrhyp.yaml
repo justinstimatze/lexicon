@@ -1,0 +1,22 @@
+id: lex-mrhyp
+name: slowing-the-driver-keeps-a-fast-part-from-outrunning-a-slow-one
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When a single driving force pushes a system whose parts respond at different speeds — a fast-heating exterior and a slow-heating center, a fast-reacting subsystem and a slow-reacting one — check whether weakening the driver, not just watching the slow part more closely, is what actually protects the fast part. America's Test Kitchen's own explanation: 'Whether cooked by conduction, convection, or radiant heat, the outside of food always cooks faster than the inside. And if the temperature is too high, the outer layers may become overcooked by the time conduction moves the heat toward the center of the food... A greater difference in temperature between the food's edge and its center means that this will happen faster. Conversely, a smaller temperature difference within the food will help the exterior retain more moisture and produce more uniform cooking.' The exterior doesn't overcook because it's watched too little — it overcooks because the gap between it and the slower-responding center stays open too long at too high an intensity. Shrinking that gap, by turning down the driving force itself, is what keeps the fast part from finishing badly while the slow part is still catching up. Turning down the driving force is what closes that gap; watching either endpoint more closely never does."
+related: [lex-d4tdk, lex-7ea49, lex-hm8yx]
+evokes: [americas-test-kitchen-crosby-2012-science-of-good-cooking, gentle-heat-prevents-overcooking, conduction-convection-radiant-heat, low-and-slow-roasting, minimize-the-temperature-differential]
+lineage:
+  - source: primary
+    text: americas-test-kitchen-crosby-2012-science-of-good-cooking-concept-1-gentle-heat
+    citation: "The Editors at America's Test Kitchen and Guy Crosby, The Science of Good Cooking: Master 50 Simple Concepts to Enjoy a Lifetime of Success in the Kitchen (America's Test Kitchen, 2012), Concept 1, 'Gentle Heat Prevents Overcooking.'"
+    quote: "'Whether cooked by conduction, convection, or radiant heat, the outside of food always cooks faster than the inside. And if the temperature is too high, the outer layers may become overcooked by the time conduction moves the heat toward the center of the food.' ... 'A greater difference in temperature between the food's edge and its center means that this will happen faster. Conversely, a smaller temperature difference within the food will help the exterior retain more moisture and produce more uniform cooking.'"
+canonical-instances:
+  - "The book's own controlled experiment: two identical beef rib roasts, one in a 450-degree oven and one in a 250-degree oven, both brought to the same 125-degree center. The hot-oven roast lost nearly a quarter of its weight to evaporated moisture, almost three times the cool-oven roast's loss. The only thing that differed between them was how long and how far the exterior's temperature was allowed to run ahead of the center's before the center caught up."
+  - "Hypothetical: a manager wants an underperforming team to reach a target output level. Pushing hard with an aggressive deadline gets the team's fastest members there quickly but burns them out waiting on the slowest members to finish; setting a gentler, longer deadline lets the whole team arrive close together, with the fastest members never far ahead of where the slowest ones currently are."
+critical-questions:
+  - "How far can the driving force be weakened before the process stops working altogether, like a roast that never browns, without giving up some property only a stronger driver could supply?"
+  - "This is adjacent to scale-separation (treating fast and slow variables as decoupled for analysis) but describes an active INTERVENTION rather than an analytical stance — does weakening the driver ever fail because the fast and slow parts are coupled tightly enough that slowing the whole system just delays the same overshoot rather than shrinking it?"
+  - "The book's own caveat is that gentler heat sacrifices a browned crust — is the traded-away property always cosmetic/secondary in cases where this technique applies, or are there systems where the fast part's overshoot is actually doing something necessary, making the differential itself worth preserving rather than closing?"
+status: active
+severity-tier: info
