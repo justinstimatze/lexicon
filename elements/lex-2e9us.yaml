@@ -1,0 +1,24 @@
+id: lex-2e9us
+name: personal-sovereignty-attenuates-with-distance-from-the-rulers-body
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a ruler's authority is personal and arbitrary rather than institutional, check how far that authority actually extends before assuming it governs a whole territory -- because this kind of sovereignty is radically non-delegable, reaching only as far as the ruler can personally walk, see, reach, or be carried, and attenuating rapidly beyond that radius. Graeber and Wengrow's case: the Natchez Great Sun could order summary executions within his own presence but was routinely ignored once out of sight, and building an administrative apparatus doesn't actually fix this problem, since it just relocates it -- you still need subordinates to genuinely comply and honestly report whether they have, rather than quietly ignoring or reinterpreting instructions. Frederick the Great's repeated decrees freeing Prussia's serfs came to nothing because his own bureaucrats simply disregarded them, or when challenged, insisted the words meant the opposite of what was obviously intended. A ruler's stated power over a territory and that ruler's actual, exercised power over it are two different measurements, and the gap between them is largest exactly where personal presence is required and smallest where routine, impersonal procedure can substitute for it."
+related: []
+evokes: [david-graeber, david-wengrow, the-dawn-of-everything, natchez, great-sun, frederick-the-great, sovereignty, delegation]
+lineage:
+  - source: primary
+    text: dawn-of-everything-sovereignty-extends-as-far-as-the-king
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.10 'Why the State Has No Origin.'"
+    quote: "“The king's sovereignty extends about as far as the king himself can walk, reach, see or be carried. Within that circle it is absolute. Outside it, it attenuates rapidly.”"
+  - source: primary
+    text: dawn-of-everything-frederick-the-great-serfs
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.10 'Why the State Has No Origin.'"
+    quote: "“Frederick the Great of Prussia found that his repeated efforts to free the country's serfs came to nothing because bureaucrats would simply ignore the decrees or, if challenged by his legates, insisted the words of the decree should be interpreted as saying the exact opposite of what was obviously intended.”"
+canonical-instances:
+  - "The direct textual anchor, on how the Natchez case made this visible: 'as noted by another observer, Father Pierre de Charlevoix, \"The great Village of the Natchez is at present reduced to a very few Cabins. The Reason which I heard for this is that the Savages, from whom the Great Chief has the Right to take all they have, get as far away from him as they can.\"'"
+  - "Hypothetical: a startup's founder personally reviews and approves every hiring decision while the company has fifteen employees, and this works well. At two hundred employees, the founder still insists on final say over every hire, but by then most offers are actually being extended by department heads who've learned which candidates to route around the founder's attention entirely -- the founder's stated authority over hiring hasn't changed, but its actual reach has quietly shrunk to whichever decisions happen to cross the founder's desk."
+critical-questions:
+  - "Doesn't modern bureaucratic administration solve exactly this problem at scale -- states today do successfully enforce decisions across vast, unseen territories, so where is the line between the pre-modern non-delegable sovereignty described here and a genuinely effective modern administrative apparatus? The Frederick the Great example is 1780s Prussia; does the mechanism still hold once record-keeping, audit trails, and career incentives for compliance are sophisticated enough?"
+  - "Is the attenuation really about physical distance from the ruler's body, or is it better explained by the ruler's lack of independent means to verify compliance at a distance? Under that second reading the operative variable is monitoring capacity, and a ruler with sufficiently good long-distance reporting could exercise sovereignty without ever leaving the palace."
+status: active

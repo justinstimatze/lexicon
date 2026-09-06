@@ -1,0 +1,24 @@
+id: lex-tdke6
+name: violence-information-and-charisma-substitute-for-each-other-as-power-bases
+type-in: situation
+type-out: frame
+_tier: atomic
+agent-instruction: "When analyzing any claim to social power or exclusive property, check which of three independent bases is actually doing the work -- the threat of violence, control over information, or individual charisma -- and notice that removing one doesn't eliminate the power, it just reroutes the remaining weight onto the other two. Graeber and Wengrow's thought experiment: if everyone on earth became physically invulnerable, a person could still keep exclusive rights to a diamond necklace by controlling who knows where it's kept. If everyone also lost the ability to keep a secret, that same person could still keep the necklace by convincing everyone she was so extraordinary that she alone deserved to have things no one else could. All three bases coexist to some degree in most real hierarchies, but a society, institution, or claim to authority can also be built almost entirely on just one of them -- which is exactly what lets otherwise puzzling ancient societies (a warrior aristocracy with no monopoly on secrets, a knowledge-cult with no army) be understood as coherent forms of domination rather than dismissed as not-quite-states."
+related: []
+evokes: [david-graeber, david-wengrow, the-dawn-of-everything, three-elementary-forms-of-domination, sovereignty, charisma, control-of-knowledge]
+lineage:
+  - source: primary
+    text: dawn-of-everything-three-principles
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.10 'Why the State Has No Origin.'"
+    quote: "“We would like to suggest that these three principles – call them control of violence, control of information, and individual charisma – are also the three possible bases of social power.”"
+  - source: primary
+    text: dawn-of-everything-kim-kardashian-thought-experiment
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.10 'Why the State Has No Origin.'"
+    quote: "“Could Kim Kardashian still maintain exclusive rights over her jewellery? ... perhaps not if she showed it off too regularly ... but she certainly could if she normally kept it hidden in a safe, the combination of which she alone knew.”"
+canonical-instances:
+  - "The direct textual anchor, on the modern state as all three combined: 'the modern state is defined as a combination of sovereignty, bureaucracy and a competitive political field.' Sovereignty rests on control of violence. Bureaucracy runs on control of information via 'official secrets.' Electoral politics runs on charisma."
+  - "Hypothetical: a small-town newspaper editor who has no formal authority and no financial leverage over anyone in town nonetheless shapes local decisions for decades, purely because she alone knows which officials have quietly done favors for which donors, and everyone assumes she'd publish it if crossed. The town has no monopoly-of-violence explanation for her influence -- her power runs entirely on the second of the three bases."
+critical-questions:
+  - "Are these three bases really independent primitives, or could charisma itself be reduced to a form of information control (people follow the charismatic because they believe, rightly or wrongly, that this person has access to something -- divine favor, hidden knowledge, superior judgment -- that others lack)? If charisma collapses into information, the framework may really only have two elementary bases, not three."
+  - "The thought experiment isolates each basis by imagining the other two entirely absent, which never happens in any real society. How much does the framework actually predict about a messy real case with all three present in different proportions, beyond supplying three labels to apply once the outcome is already known?"
+status: active
