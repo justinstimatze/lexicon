@@ -1,0 +1,20 @@
+id: lex-dk5t2
+name: guaranteed-repayment-removes-the-risk-that-disciplines-lenders
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a rule treats a debt (or any conditional commitment) as absolutely owed regardless of circumstances, check whether that absoluteness removes a risk the underlying system depends on to stay disciplined. Graeber's point about lending: 'the remarkable thing about the statement \"one has to pay one's debts\" is that even according to standard economic theory, it isn't true. A lender is supposed to accept a certain degree of risk. If all loans, no matter how idiotic, were still retrievable -- if there were no bankruptcy laws, for instance -- the results would be disastrous. What reason would lenders have not to make a stupid loan?' A lender who knows repayment is guaranteed no longer needs to distinguish a sound borrower from a bad bet, because the guarantee collects either way -- so the very rule meant to protect lenders' fair claim to repayment, pushed to an absolute, removes the incentive that would otherwise make lenders careful about who they lend to in the first place."
+related: []
+evokes: [david-graeber, debt-the-first-5000-years, moral-confusion, one-has-to-pay-ones-debts, lender-risk-discipline, imf-structural-adjustment]
+lineage:
+  - source: primary
+    text: graeber-2011-debt-guaranteed-repayment-removes-risk
+    citation: "David Graeber, Debt: The First 5,000 Years (Melville House, 2011), ch.1 'On the Experience of Moral Confusion.'"
+    quote: "“Actually, the remarkable thing about the statement ‘one has to pay one’s debts’ is that even according to standard economic theory, it isn’t true. A lender is supposed to accept a certain degree of risk. If all loans, no matter how idiotic, were still retrievable—if there were no bankruptcy laws, for instance—the results would be disastrous. What reason would lenders have not to make a stupid loan?”"
+canonical-instances:
+  - "The direct textual anchor, applied at global scale: Graeber traces how removing that risk in practice actually played out -- Western banks in the 1970s, flush with OPEC money, sent agents to convince Third World dictators to take out loans at low rates; once the IMF stood ready to enforce repayment on the borrowing country's population regardless of who actually pocketed the money or whether the loan was ever sound, the banks 'were willing to fork over billions of dollars to a bunch of obvious crooks in the first place' -- the guarantee is what made the reckless lending rational for the lender."
+  - "Hypothetical: a company institutes a policy that any vendor invoice, once approved by any employee, must be paid in full with no dispute process. Procurement staff stop bothering to verify vendor quality or contract terms carefully, because the no-dispute guarantee means a bad vendor gets paid exactly the same as a good one -- the policy meant to protect vendors from being stiffed ends up removing the one incentive (risk of nonpayment) that would have kept procurement diligent."
+critical-questions:
+  - "Is bankruptcy law (or any other risk-restoring mechanism) always the right fix once this failure mode is diagnosed, or are there cases where the disciplining function needs to come from somewhere other than restoring the lender's own risk of loss -- reputational consequences, regulatory oversight -- because reintroducing default risk directly would harm the borrower more than it disciplines the lender?"
+  - "Graeber's IMF case involves a third party (the country's population) bearing the cost of a guarantee that was never actually made to them -- they didn't choose to guarantee their government's loans. Does the mechanism require the guarantee to fall on the actual contracting party, or does it generalize just as cleanly when the guaranteed repayment is extracted from someone who was never a party to the original loan at all?"
+status: active
