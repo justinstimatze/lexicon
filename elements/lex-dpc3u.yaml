@@ -1,0 +1,24 @@
+id: lex-dpc3u
+name: a-problems-vocabulary-sets-the-boundary-of-imaginable-solutions
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When picking a word to describe a social problem, notice that the abstraction level of the term -- not the severity of what it names -- quietly sets the boundary of what counts as a realistic response. Graeber and Wengrow's example: framing a problem as 'inequality' makes it sound like something to adjust incrementally, because it's genuinely unclear what 'eliminating inequality' would even mean -- wealth inequality, opportunity, how equal is equal enough? Compare that to older, more concrete framings of the identical underlying phenomenon: 'concentration of capital,' 'oligopoly,' 'class power.' Each of those names a specific arrangement, which makes overthrowing or dismantling it immediately conceivable in a way 'inequality' doesn't. The word doesn't just describe the problem, it pre-loads the menu of thinkable responses -- so before accepting a debate's vocabulary at face value, check whether a more concrete or more abstract alternative term would open up options the current framing has quietly foreclosed."
+related: []
+evokes: [david-graeber, david-wengrow, the-dawn-of-everything, inequality, technocratic-framing, vocabulary-constrains-imagination]
+lineage:
+  - source: primary
+    text: dawn-of-everything-inequality-technocratic-framing
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.1 'Farewell to Humanity's Childhood.'"
+    quote: "“The term 'inequality' is a way of framing social problems appropriate to an age of technocratic reformers, who assume from the outset that no real vision of social transformation is even on the table.”"
+  - source: primary
+    text: dawn-of-everything-not-clear-what-eliminating-inequality-means
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.1 'Farewell to Humanity's Childhood.'"
+    quote: "“It's possible to imagine overthrowing capitalism or breaking the power of the state, but it's not clear what eliminating inequality would even mean.”"
+canonical-instances:
+  - "The direct textual anchor, on what the vocabulary permits instead: “Debating inequality allows one to tinker with the numbers, argue about Gini coefficients and thresholds of dysfunction, readjust tax regimes or social welfare mechanisms, even shock the public with figures.”"
+  - "Hypothetical: a hospital system's leadership describes its understaffing crisis as a 'workforce optimization challenge.' Consultants arrive to model shift schedules and tweak incentive bonuses. A nurse describes the identical situation as 'the hospital refusing to hire enough nurses to keep patients safe' -- and under that framing, the obvious next step is a staffing mandate or a strike, options the optimization vocabulary never puts on the table at all."
+critical-questions:
+  - "Is 'inequality' really less actionable than 'class power' or 'concentration of capital', or does the argument overstate a difference in connotation as if it were a difference in what can actually be measured and legislated against? Gini coefficients, after all, have driven real redistributive policy in some countries -- doesn't that undercut the claim that the term itself forecloses transformation?"
+  - "If concrete, structural vocabulary ('oligopoly,' 'class power') genuinely opens up more radical options, why did political and academic discourse migrate toward the more abstract term 'inequality' in the first place? Was this migration itself a deliberate choice by those who benefit from narrower framings, or a more diffuse cultural drift with no single author or motive?"
+status: active

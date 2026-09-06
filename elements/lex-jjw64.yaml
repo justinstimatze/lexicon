@@ -1,0 +1,24 @@
+id: lex-jjw64
+name: opposed-origin-stories-can-share-the-same-politically-convenient-conclusion
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a debate presents itself as a choice between two fundamentally opposed accounts, check whether both sides actually share a structural assumption that matters more than which pole they favor. Graeber and Wengrow's case: Rousseau's story (humans began innocent and egalitarian, then fell through agriculture and property) and Hobbes's story (humans began in a violent state of nature, and only escaped it through state power) look like opposites, one optimistic about human nature, one pessimistic. But both assume a single evolutionary sequence of stages that every society passes through, and both cash out politically in the same place: current hierarchy and inequality are the inevitable price of complex society, so the most anyone can do is tinker at the margins. Two narratives that disagree about the starting point can still funnel toward an identical, convenient endpoint when they share the deeper premise neither side has questioned. Before accepting a debate's framing as a real fork in the road, check what both sides are quietly agreeing on -- that's usually where the actual constraint on the conversation is hiding."
+related: []
+evokes: [david-graeber, david-wengrow, the-dawn-of-everything, hobbes, rousseau, false-binary, state-of-nature]
+lineage:
+  - source: primary
+    text: dawn-of-everything-dont-like-the-choice
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.1 'Farewell to Humanity's Childhood.'"
+    quote: "“As the reader can probably detect from our tone, we don't much like the choice between these two alternatives.”"
+  - source: primary
+    text: dawn-of-everything-completely-different-starting-points-similar-result
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.1 'Farewell to Humanity's Childhood.'"
+    quote: "“many modern writers treat Leviathan in the same way others treat Rousseau's Discourse – as if it were laying the groundwork for an evolutionary study of history; and although the two have completely different starting points, the result is rather similar.”"
+canonical-instances:
+  - "The direct textual anchor, on the shared political payoff of both stories: Rousseau's fall from egalitarian innocence and the Hobbesian escape from violent anarchy both end up implying that 'the best we can hope for are more sophisticated internal and external controls' over the same basic hierarchical arrangement, whichever starting myth one prefers."
+  - "Hypothetical: two pundits argue fiercely about whether a company's culture declined because leadership got too permissive (letting standards slip) or too controlling (crushing initiative). Both accounts assume the company once had a single, coherent 'real' culture that later degraded, and both conclude that the only fix is adjusting how much control management exercises -- neither considers that the company may never have had one unified culture to begin with, a possibility the shared assumption rules out before the argument even starts."
+critical-questions:
+  - "Is it always true that apparently opposed narratives share a hidden common premise, or does looking hard enough for one risk manufacturing a false equivalence between genuinely different positions that happen to reach superficially similar policy conclusions for unrelated reasons?"
+  - "Graeber and Wengrow present their own alternative (varied, experimental early societies) as an escape from the Hobbes/Rousseau binary -- but does their account avoid smuggling in its own unexamined shared assumption, and if so, what would that assumption be, and how would one go about testing for it the same way they test Hobbes and Rousseau?"
+status: active

@@ -1,0 +1,24 @@
+id: lex-dnr8w
+name: real-free-choice-between-societies-is-a-natural-experiment-armchairs-cant-match
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a theorist claims people would obviously prefer one kind of society over another, check whether anyone has ever actually gotten to make that choice freely, with full experience of both sides, and see what they did. Graeber and Wengrow's case against Steven Pinker's claim that anyone would 'leap for safety' from tribal life into Western civilization: colonial North America produced exactly this natural experiment, repeatedly. Colonists captured or adopted by indigenous societies were, on later contact with European society, given the choice of where to stay -- and overwhelmingly chose to remain with or return to their indigenous communities, even when it meant giving up wealth and a comfortable estate. Indigenous people incorporated into European society, given the same choice in reverse, almost always went the other way, escaping back at the first opportunity. A revealed preference from people who actually lived both options beats a theorist's confident prediction about what people would prefer, every time the two disagree -- and the burden shifts onto the theory to explain the mismatch, not onto the natural experiment to defer to the theory."
+related: []
+evokes: [david-graeber, david-wengrow, the-dawn-of-everything, helena-valero, benjamin-franklin, revealed-preference, captivity-narratives]
+lineage:
+  - source: primary
+    text: dawn-of-everything-numerous-occasions-to-make-this-choice
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.1 'Farewell to Humanity's Childhood.'"
+    quote: "“there have been numerous occasions when individuals found themselves in a position to make precisely this choice – and they almost never go the way Pinker would have predicted.”"
+  - source: primary
+    text: dawn-of-everything-valero-fully-informed-decision
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.1 'Farewell to Humanity's Childhood.'"
+    quote: "“After a while, given the ability to make a fully informed decision, Helena Valero decided she preferred life among the Yanomami, and returned to live with them.”"
+canonical-instances:
+  - "The direct textual anchor, from Benjamin Franklin's own letter on ransomed captives returned to English society: “they become disgusted with our manner of life, and the care and pains that are necessary to support it, and take the first opportunity of escaping again into the Woods, from whence there is no reclaiming them.”"
+  - "Hypothetical: a management consultant argues that any employee would obviously prefer a fully remote role with flexible hours over a rigid in-office schedule. A company that actually let staff choose between the two arrangements after a year of experiencing each finds a third of employees choosing to return to the office voluntarily, citing collaboration and structure they hadn't valued in the abstract -- a result the consultant's confident prediction never anticipated because it was never tested against anyone who had lived both."
+critical-questions:
+  - "How representative are these captivity cases? People taken in as children, or who spent years being socialized into indigenous kinship networks, may not be comparable to an adult choosing between two societies they understand equally well from the start -- does the natural experiment actually isolate a preference for the society, or a preference for whichever community successfully socialized someone into feeling they belonged?"
+  - "Even granting that captives preferred to stay, is that evidence about which society was better in some general sense, or just evidence that switching identities and communities in adulthood is difficult and that people gravitate toward wherever their currently-established social bonds are? Would the same captives, given a choice on the very day of their capture with no time to acclimate, have chosen differently?"
+status: active
