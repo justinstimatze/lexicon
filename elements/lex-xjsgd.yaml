@@ -1,0 +1,25 @@
+id: lex-xjsgd
+name: a-coercive-election-threat-hardens-resistance-and-backfires
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A threat meant to intimidate voters away from a candidate or choice can instead harden resistance and increase support for exactly that choice, because being threatened into compliance reads as an insult demanding defiance rather than a reason to comply. Southern leaders, before the 1860 election, announced in advance that they would secede if Lincoln won and would submit to his rule under no circumstances. Douglass names the effect directly: 'this southern threat lost many votes, but it gained more than would cover the lost. It frightened the timid, but stimulated the brave; and the result was -- the triumphant election of Abraham Lincoln.' He identifies the specific insult in the threat's form: 'It was not only unfair, but insolent, and more like an address to cowardly slaves than to independent freemen; it had in it the meanness of the horse-jockey, who, on entering a race, proposes, if beaten, to run off with the stakes.' The mechanism splits the audience into two groups with opposite reactions -- 'it frightened the timid, but stimulated the brave' -- and the outcome depends on which group is larger or more politically decisive; the threat is not simply ineffective, it actively converts some fraction of an otherwise-persuadable audience into partisans of the threatened choice, purely because a demand for submission was made where none was owed."
+related: [lex-bjqgm]
+evokes: [it-frightened-the-timid-but-stimulated-the-brave, rule-or-ruin-intimidation, the-meanness-of-the-horse-jockey, an-insult-and-a-challenge-in-one]
+lineage:
+  - source: primary
+    text: douglass-1881-life-and-times-part-ii-ch10-southern-threat-backfires
+    citation: "Frederick Douglass, Life and Times of Frederick Douglass (1881), Part II ('Life as a Freeman'), Chapter X, 'The Beginning of the End.'"
+    quote: "“As I have said, this southern threat lost many votes, but it gained more than would cover the lost. It frightened the timid, but stimulated the brave; and the result was—the triumphant election of Abraham Lincoln.”"
+  - source: primary
+    text: douglass-1881-life-and-times-part-ii-ch10-meanness-of-the-horse-jockey
+    citation: "Frederick Douglass, Life and Times of Frederick Douglass (1881), Part II ('Life as a Freeman'), Chapter X, 'The Beginning of the End.'"
+    quote: "“It was not only unfair, but insolent, and more like an address to cowardly slaves than to independent freemen; it had in it the meanness of the horse-jockey, who, on entering a race, proposes, if beaten, to run off with the stakes.”"
+canonical-instances:
+  - "The direct textual anchor: Douglass describes the threat as having come 'as an insult and a challenge in one,' and names a specific third response beyond frightened-and-timid or stimulated-and-brave -- those who were 'tired of the rule-or-ruin intimidation adopted by the South' and 'felt then, if never before, that they had quailed before it too often and too long,' converting past acquiescence itself into a reason for present defiance."
+  - "Hypothetical: a landlord threatens to raise every tenant's rent if the building's tenants vote to unionize. Some tenants, fearing the increase, vote against unionizing; but a larger number who had been on the fence read the threat itself as proof the landlord fears organized tenants, and vote to unionize specifically because of it."
+critical-questions:
+  - "Operationally distinct from lex-bjqgm (suppressing-a-grievances-expression-becomes-proof-of-its-legitimacy): that atom is a response to an ALREADY-EXPRESSED grievance, where suppressing it reads as an admission the suppressor cannot win the argument. This atom is a threat aimed PRE-EMPTIVELY at a future choice not yet made, and the backfire mechanism is insult-driven defiance rather than an inference about who is losing an argument -- the threatened choice need not be a grievance at all. Do the two mechanisms compound when a threat is issued specifically to suppress support for a cause already being argued?"
+  - "What determines the split between the 'frightened' and the 'stimulated' -- is it a fixed trait of the audience, or does it depend on how credible and how personally costly the threat actually is? A sufficiently credible, sufficiently severe threat might tip the balance toward the frightened group instead."
+  - "Douglass frames the timing as significant -- the South had 'quailed before it too often and too long' by this point. Does the backfire require a history of prior submission to the same threat, so that this instance crosses an accumulated threshold, or can a first-time threat backfire just as reliably?"
+status: active
