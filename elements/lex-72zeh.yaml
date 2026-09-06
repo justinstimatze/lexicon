@@ -1,0 +1,25 @@
+id: lex-72zeh
+name: an-unauthorized-custom-survives-only-until-someone-defies-it
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A discriminatory custom that no one can trace to any actual living order or authority survives purely because no one has tested it -- defying it directly, rather than petitioning to have it formally revoked, is often enough to end it, because there is no real authority behind it to enforce continued compliance. When police at Lincoln's 1865 inaugural reception turned Douglass away for his color, he refused to leave and had his presence announced directly to Lincoln, who welcomed him in immediately. Douglass discovered afterward there had been no such order at all: 'It came out that the officers at the White House had received no orders from Mr. Lincoln, or from any one else. They were simply complying with an old custom, the outgrowth of slavery, as dogs will sometimes rub their necks, long after their collars are removed, thinking they are still there.' He draws the general lesson directly: 'I have found in my experience that the way to break down an unreasonable custom, is to contradict it in practice.' Negotiating entry on unequal terms as a strategic wedge looks different from this: that route accepts a narrower door as a first step toward a wider one. Here Douglass accepts no door at all -- he simply proceeds as though the custom doesn't bind him, forcing whoever enforces it to either produce a real order or step aside."
+related: []
+evokes: [dogs-rubbing-their-necks-after-the-collar-is-removed, no-orders-from-mr-lincoln-or-from-anyone-else, contradict-it-in-practice, you-have-deceived-me-i-shall-not-go-out]
+lineage:
+  - source: primary
+    text: douglass-1881-life-and-times-part-ii-ch12-breaking-down-an-unreasonable-custom
+    citation: "Frederick Douglass, Life and Times of Frederick Douglass (1881), Part II ('Life as a Freeman'), Chapter XII, 'Hope for the Nation.'"
+    quote: "“It came out that the officers at the White House had received no orders from Mr. Lincoln, or from any one else. They were simply complying with an old custom, the outgrowth of slavery, as dogs will sometimes rub their necks, long after their collars are removed, thinking they are still there. My colored friends were well pleased with what had seemed to them a doubtful experiment, and I believe were encouraged by its success to follow my example. I have found in my experience that the way to break down an unreasonable custom, is to contradict it in practice.”"
+  - source: primary
+    text: douglass-1881-life-and-times-part-ii-ch12-you-have-deceived-me
+    citation: "Frederick Douglass, Life and Times of Frederick Douglass (1881), Part II ('Life as a Freeman'), Chapter XII, 'Hope for the Nation.'"
+    quote: "“We halted so soon as we saw the trick, and I said to the officers: ‘You have deceived me. I shall not go out of this building till I see President Lincoln.’”"
+canonical-instances:
+  - "The direct textual anchor: the officers, once directly challenged, did not produce or claim any written order -- they attempted instead to quietly divert Douglass out a side exit, a tactic that only works on someone who doesn't notice or doesn't press the confrontation to its conclusion."
+  - "Hypothetical: a long-standing office norm holds that only senior staff use the executive elevator, though no policy document says so and no one can name who decided it. A new employee, unaware of the norm, rides it anyway; nothing happens, because there was never an actual rule to enforce -- only unbroken, unquestioned habit."
+critical-questions:
+  - "How does an actor tell in advance whether a custom is genuinely unauthorized and just needs defying, versus backed by real (if unstated) authority that will actually enforce it upon defiance -- Douglass could not have known for certain there was no order until he tested it, and the outcome might have gone differently."
+  - "A single successful defiance might just carve out a one-time exception for whoever tested it, leaving everybody else facing the same wall unchanged. What decides whether a single act of defiance actually ends a custom, versus just exempting the one person who forced the issue?"
+  - "What made this particular custom vulnerable to simple defiance -- the presence of a sympathetic authority (Lincoln himself) who could immediately overrule the officers once informed? Would the same act of defiance work absent any such appeal available, or does the mechanism quietly depend on there being someone above the enforcers willing to side against the custom once asked directly?"
+status: active

@@ -1,0 +1,25 @@
+id: lex-7pzda
+name: resentment-at-a-proposed-protection-shows-the-protection-is-needed
+type-in: claim
+type-out: process
+_tier: atomic
+agent-instruction: "An objection that a protective power will provoke the powerful to resent and retaliate can itself be read as evidence that the group needs the power. Opponents of Black suffrage after the Civil War argued enfranchisement would provoke conflict with the old master class in the South. Douglass turns the objection back on itself: 'The argument that the possession of suffrage would be likely to bring the negro into conflict with the old master-class at the South, had its main force in the admission that the interests of the two classes antagonized each other and that the maintenance of the one would prove inimical to the other. It resolved itself into this, if the negro had the means of protecting his civil rights, those who had formerly denied him these rights would be offended and make war upon him.' He draws the reversal explicitly: 'The very fact therefore that the old master-classes of the South felt that their interests were opposed to those of the freedmen, instead of being a reason against their enfranchisement, was the most powerful one in its favor.' The logic depends on what the resentment actually reveals: a party who would only be offended by a neutral, harmless change has no real stake in preventing it, so genuine, admitted hostility to a group gaining defensive capacity is itself the proof that the group needs that capacity against exactly that hostility."
+related: []
+evokes: [the-most-powerful-argument-in-its-favor, committing-the-lamb-to-the-care-of-the-wolf, they-would-be-offended-and-make-war-upon-him, hostility-to-a-protection-proves-the-danger]
+lineage:
+  - source: primary
+    text: douglass-1881-life-and-times-part-ii-ch13-enfranchisement-objection-reversed
+    citation: "Frederick Douglass, Life and Times of Frederick Douglass (1881), Part II ('Life as a Freeman'), Chapter XIII, 'Vast Changes.'"
+    quote: "“These reasons against the measure which were supposed to be unanswerable, were in some sense the most powerful arguments in its favor. The argument that the possession of suffrage would be likely to bring the negro into conflict with the old master-class at the South, had its main force in the admission that the interests of the two classes antagonized each other and that the maintenance of the one would prove inimical to the other. It resolved itself into this, if the negro had the means of protecting his civil rights, those who had formerly denied him these rights would be offended and make war upon him.”"
+  - source: primary
+    text: douglass-1881-life-and-times-part-ii-ch13-most-powerful-argument-in-its-favor
+    citation: "Frederick Douglass, Life and Times of Frederick Douglass (1881), Part II ('Life as a Freeman'), Chapter XIII, 'Vast Changes.'"
+    quote: "“The very fact therefore that the old master-classes of the South felt that their interests were opposed to those of the freedmen, instead of being a reason against their enfranchisement, was the most powerful one in its favor.”"
+canonical-instances:
+  - "The direct textual anchor: Douglass extends the same reversal to a general principle about any unequal power relationship -- 'until it shall be safe to leave the lamb in the hold of the lion, the laborer in the power of the capitalist, the poor in the hands of the rich, it will not be safe to leave a newly emancipated people completely in the power of their former masters.'"
+  - "Hypothetical: a factory's management argues against unionization by warning that ownership will react badly and relations will sour. A worker organizer points out that management's admitted willingness to retaliate against organized labor is itself the reason workers need the collective protection a union provides, not a reason to remain unorganized and exposed to that same retaliation individually."
+critical-questions:
+  - "Does this reversal hold in every case, or only when the resented protection is genuinely defensive rather than itself aggressive -- would the same logic wrongly justify escalating power grabs by pointing to an opponent's predictable resentment of any power shift at all, defensive or not?"
+  - "Whose resentment counts as diagnostic here -- does the argument require the resentment to come specifically from the party the protection defends against, or would resentment from an unrelated third party carry the same evidentiary weight?"
+  - "Is there a point at which the predicted retaliation becomes so severe or so certain that it should count as a genuine cost to be weighed against the protection's benefit, rather than treated purely as confirming evidence for granting it regardless of that cost?"
+status: active
