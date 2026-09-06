@@ -1,0 +1,24 @@
+id: lex-sej96
+name: classify-by-relation-of-predation-not-mode-of-subsistence
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When trying to explain who dominates whom in a region, don't reach first for how each group gets its food or makes its living -- check instead which group has organized violence to extract labor, people, or tribute from another. Graeber and Wengrow's case: among indigenous American 'capturing societies,' the pattern of domination didn't track subsistence type at all. In Northwest Amazonia, sedentary farmer-fishers raided nomadic foragers; in the Paraguay River basin, nomadic hunter-gatherers raided village farmers; in Florida, the Calusa (fisher-gatherers) raided both fishing and farming communities. Sorting these societies by 'mode of subsistence' obscures the actual axis of power, which is a relationship between groups -- who preys on whom -- not a property internal to either group. The same predatory relationship (extracting slaves, tribute, or labor from a neighbor) can attach to a farming society, a foraging society, or a pastoral one interchangeably; the classification that actually predicts hierarchy and violence is the relation between populations, and it says nothing about the technology either one happens to use to feed itself."
+related: []
+evokes: [david-graeber, david-wengrow, the-dawn-of-everything, capturing-societies, santos-granero, guaicuru, mode-of-subsistence]
+lineage:
+  - source: primary
+    text: dawn-of-everything-classifying-by-subsistence-tells-little
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.5 'Many Seasons Ago.'"
+    quote: "“Classifying these groups according to how much they farmed, fished or hunted tells us little of their actual histories. What really mattered, in terms of the ebb and flow of power and resources, was their use of organized violence to 'feed off' other populations.”"
+  - source: primary
+    text: dawn-of-everything-theorize-the-non-producers-who-prey
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.5 'Many Seasons Ago.'"
+    quote: "“What really needs to be theorized here is not just the mode of production practised by victims of predation, but also that of the non-producers who prey on them.”"
+canonical-instances:
+  - "The direct textual anchor, on how far this cuts against a subsistence-based framework: a 1548 German observer described Arawakan villagers of the Grand Chaco as serfs of Guaicurú foragers 'in the same way as German rustics are with respect to their lords' -- foragers functioning as a feudal aristocracy over farmers, a pairing 'forager' and 'farmer' typologies alone cannot predict."
+  - "Hypothetical: an analyst studying tech-industry power tries to rank companies by what they actually make -- hardware firms, software firms, service platforms -- to predict which ones dominate supply chains. The classification fails completely: dominance instead tracks which companies have built the leverage to extract data, fees, or exclusive terms from others in the chain, a relationship that cuts identically across hardware, software, and services and has nothing to do with what any given company manufactures."
+critical-questions:
+  - "Doesn't a society's mode of subsistence still matter for explaining WHY it was able to become a predator rather than prey -- a fishing economy that produces a massive, storable seasonal surplus (salmon runs) may free up exactly the specialized warrior class needed to raid neighbors, in a way a marginal hand-to-mouth economy couldn't? If so, subsistence mode isn't irrelevant, just not sufficient on its own -- does the atom's framing understate that contribution?"
+  - "Is the predation relationship itself stable enough to serve as a classification, or does it shift so often (today's raiders become tomorrow's raided) that 'capturing society' ends up being a temporary role rather than a durable category comparable to 'forager' or 'farmer'? If the role is inherently unstable, what does that imply for using it as an analytical category at all?"
+status: active
