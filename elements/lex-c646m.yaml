@@ -4,7 +4,7 @@ type-in: claim
 type-out: frame
 _tier: atomic
 agent-instruction: "When you need coordinated group-level behavior, the design move is NOT 'build a central controller for the group' but 'specify local-perception rules each agent runs in parallel and let interaction do the integration.' Three rule-families typically suffice: avoid-collision with neighbors, match-velocity with neighbors, stay-near neighbors. The group-level pattern is the dense-interaction consequence of local rules — no agent has a global view, no agent is in charge."
-related: [lex-6pekt, lex-eg9zm, lex-eybad, lex-k6p4z, lex-m946g, lex-qjkvn, lex-spm8x, lex-vuafu, lex-y93tk, lex-yx7ym]
+related: [lex-6pekt, lex-eg9zm, lex-eybad, lex-k6p4z, lex-m6tjz, lex-m946g, lex-qjkvn, lex-spm8x, lex-vuafu, lex-y93tk, lex-yx7ym]
 scaffolds-from: [lex-eybad]
 evokes: [boids, flock-as-distributed-system, no-one-is-in-charge-but-it-flows, simple-rules-rich-behavior, swarm-without-leader, local-perception-aggregated-into-pattern, three-rules-make-a-flock, separation-alignment-cohesion]
 lineage:

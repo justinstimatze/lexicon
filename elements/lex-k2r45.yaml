@@ -4,7 +4,7 @@ type-in: situation
 type-out: posture
 _tier: atomic
 agent-instruction: "When repeatedly choosing among options of uncertain value, name the explore-exploit tradeoff explicitly: EXPLOITING the best-known option maximizes reward given current knowledge but forecloses information that could reveal a better option; EXPLORING an untested or under-tried option risks near-term reward but earns information that improves every future choice. Neither pure exploitation nor pure exploration is correct — pursuing either exclusively guarantees failure at the task. Calibrate the balance to how much choosing-time remains (explore more early, exploit more as the horizon shortens) and to how much uncertainty remains about the options' true values (explore more when estimates are unreliable, exploit more as they firm up)."
-related: [lex-2zyhy, lex-j2tgc, lex-h8zzt]
+related: [lex-2zyhy, lex-h8zzt, lex-j2tgc, lex-m6tjz]
 evokes: [explore-exploit-tradeoff, multi-armed-bandit, exploration-exploitation-dilemma, information-value-of-an-action, optimal-foraging-theory, epsilon-greedy-policy, cumulative-regret, march-1991-exploration-exploitation]
 lineage:
   - source: primary
