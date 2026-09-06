@@ -1,0 +1,24 @@
+id: lex-vh82r
+name: declining-to-adopt-a-known-technology-is-itself-a-decision
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a group doesn't use a technology or practice available to its neighbors, don't assume they simply hadn't figured it out yet -- check whether they knew perfectly well how to do it and chose not to. Graeber and Wengrow's case: mid-twentieth-century researchers studying African foragers like the !Kung San found they were intimately familiar with the growing cycles of the food plants around them and understood exactly how one would go about planting and harvesting grain. They just saw no reason to. Marshall Sahlins's conclusion: what earlier prehistorians had assumed was technical ignorance about farming was really a self-conscious social decision to keep a life of comparative leisure instead. The lesson generalizes past agriculture: absence of a practice in a society's repertoire is not evidence of an unmet technical ceiling until you've actually ruled out the possibility that the practice was known, considered, and rejected as not worth the trade-off."
+related: [lex-65v77]
+evokes: [david-graeber, david-wengrow, the-dawn-of-everything, marshall-sahlins, original-affluent-society, kung-san, technological-non-adoption]
+lineage:
+  - source: primary
+    text: dawn-of-everything-why-should-we-plant
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.4 'Free People, the Origin of Cultures, and the Advent of Private Property,' citing a !Kung informant via Marshall Sahlins."
+    quote: "“‘Why should we plant,’ one !Kung informant put it—in a phrase cited ever since in a thousand treatises on the origins of farming—‘when there are so many mongongo nuts in the world?’”"
+  - source: primary
+    text: dawn-of-everything-rejected-the-neolithic-revolution
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.4 'Free People, the Origin of Cultures, and the Advent of Private Property,' citing Marshall Sahlins."
+    quote: "“such foragers had ‘rejected the Neolithic Revolution in order to keep their leisure’.”"
+canonical-instances:
+  - "The direct textual anchor, on what the time-allocation data actually showed instead of a technical gap: even in inhospitable deserts like Namibia or Botswana, foragers could feed their whole group and still have three to five days a week left over for gossiping, arguing, playing games, dancing, or travelling for pleasure."
+  - "Hypothetical: an urban planning consultant assumes a rural town never built sidewalks because the community lacked the engineering know-how or funds. Interviews with longtime residents reveal the town debated and voted down a sidewalk proposal twice, on the grounds that walking on the road's grass shoulder was part of what made the town feel like itself -- the absence wasn't a capability gap, it was a repeatedly reaffirmed preference."
+critical-questions:
+  - "How would researchers actually distinguish 'knew how and chose not to' from 'had some partial or half-formed understanding that fell short of full technical competence' in a population with no written record of its own reasoning? Sahlins's !Kung quote is compelling but anecdotal -- what would more rigorous evidence for genuine, considered rejection (versus retrospective rationalization of what was really an unmet capability) actually look like?"
+  - "If declining a known technology can be a stable, freely chosen equilibrium, why does it appear to be rare across the broader archaeological and historical record compared to eventual adoption? Is voluntary non-adoption a real, common possibility that gets systematically underreported, or a genuine minority outcome that this framing risks over-generalizing from a handful of well-documented cases?"
+status: active
