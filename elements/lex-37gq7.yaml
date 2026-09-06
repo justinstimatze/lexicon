@@ -1,0 +1,24 @@
+id: lex-37gq7
+name: organized-war-requires-the-abstraction-of-group-substitutability
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When distinguishing organized war from ordinary interpersonal violence or feuding, look for a specific, non-natural cultural abstraction operating underneath it: that any member of one group counts as an equivalent target for retaliation against any member of a rival group, regardless of who actually committed the original offense. Graeber and Wengrow's case, drawing on Raymond Kelly: if a Hatfield kills a McCoy, the McCoys don't need to find that specific killer -- any Hatfield will do. If France is at war with Germany, any French soldier may kill any German soldier, with no individual grievance connecting the two. This principle of social substitutability is a learned, contingent technology of collective violence, not a natural extension of individual aggression. That's precisely why systematic warfare has historically required ritual, drugs, or deliberate psychological conditioning to make ordinary people, even young men otherwise capable of restraint, willing to treat interchangeable strangers as legitimate targets in the first place."
+related: []
+evokes: [david-graeber, david-wengrow, the-dawn-of-everything, raymond-kelly, social-substitutability, warfare, hatfields-and-mccoys]
+lineage:
+  - source: primary
+    text: dawn-of-everything-social-substitutability
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.12 'Conclusion,' citing Raymond Kelly."
+    quote: "“As Raymond Kelly has adroitly pointed out, it's based on a logical principle that's by no means natural or self-evident, which states that major violence involves two teams, and any member of one team treats all members of the other as equal targets. Kelly calls this the principle of ‘social substitutability’.”"
+  - source: primary
+    text: dawn-of-everything-nothing-hardwired
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.12 'Conclusion.'"
+    quote: "“There is nothing particularly primordial about such arrangements; certainly, there is no reason to believe they are in any sense hardwired into the human psyche. On the contrary, it's almost invariably necessary to employ some combination of ritual, drugs and psychological techniques to convince people, even adolescent males, to kill and injure each other in such systematic yet indiscriminate ways.”"
+canonical-instances:
+  - "The direct textual anchor, on how patchy the archaeological record for actual war is once you look for this specific abstraction rather than for violence in general: 'Systematic studies of the Palaeolithic record offer little evidence of warfare in this specific sense... War did not become a constant of human life after the adoption of farming; indeed, long periods of time exist in which it appears to have been successfully abolished.'"
+  - "Hypothetical: two rival high schools have a long-running prank feud, where any student from one school considers pranking any student from the other fair game, regardless of who started the most recent incident. A guidance counselor trying to end the feud discovers that individual students on both sides mostly like each other personally -- the substitutability isn't a natural outgrowth of interpersonal dislike, it's a shared, learned convention both student bodies adopted and now enforce on newcomers who arrive with no personal grievance at all."
+critical-questions:
+  - "How would you distinguish genuine social substitutability from a society simply having enough interpersonal grudges spread across enough individuals that violence LOOKS collective and indiscriminate from the outside, even though each specific act still traces back to a specific personal dispute? The Hatfield-McCoy case might already blend both -- accumulated personal grievances on both sides, not a clean abstract rule applied from scratch."
+  - "If social substitutability is a learned technology requiring ritual, drugs, or conditioning to sustain, why does it recur so persistently and independently across so many unconnected human societies rather than being a rare, hard-to-transmit invention? Does its recurrence suggest it may tap into some underlying psychological readiness after all, even if it isn't simply 'hardwired'?"
+status: active
