@@ -1,0 +1,21 @@
+id: lex-e8g7z
+name: an-insiders-own-money-reveals-what-their-public-reassurance-hides
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When an insider publicly vouches for an institution's soundness, check what they've actually done with their own stake in it -- private financial behavior is a more reliable signal than public reassurance, because the reassurance costs the speaker nothing while moving their own money costs them something real. As president of the failing Freedmen's Savings Bank, Douglass discovered this contradiction directly among its own trustees: 'those trustees who wished to issue cards and publish addresses professing the utmost confidence in the Bank, had themselves not one dollar deposited there. Some of them, while strongly assuring me of its soundness, had withdrawn their money and opened accounts elsewhere.' The mechanism doesn't require catching anyone in an outright lie about the institution's condition -- a trustee can honestly believe every word of a public reassurance while still quietly protecting their own money against the possibility they're wrong, and the second behavior is the one that reveals their actual, operative estimate of the risk."
+related: []
+evokes: [issuing-cards-and-publishing-addresses, not-one-dollar-deposited-there, withdrawn-their-money-and-opened-accounts-elsewhere, watch-where-the-money-actually-goes]
+lineage:
+  - source: primary
+    text: douglass-1881-life-and-times-part-ii-ch14-trustees-own-money
+    citation: "Frederick Douglass, Life and Times of Frederick Douglass (1881), Part II ('Life as a Freeman'), Chapter XIV, 'Living and Learning.'"
+    quote: "“I found that those trustees who wished to issue cards and publish addresses professing the utmost confidence in the Bank, had themselves not one dollar deposited there. Some of them, while strongly assuring me of its soundness, had withdrawn their money and opened accounts elsewhere.”"
+canonical-instances:
+  - "The direct textual anchor: Douglass contrasts this discovery with his own conduct once he reached the same conclusion about the bank's insolvency -- rather than quietly protecting his own deposit, he left his two thousand dollars in with the other depositors and reported the bank's true condition to the Senate finance committee, the opposite of the trustees' pattern of private protection paired with public reassurance."
+  - "Hypothetical: during a rough quarter, a startup's executives tell employees the company's financial position is strong and no layoffs are planned. Several of those same executives quietly exercise and sell their vested stock options that same month. An employee who checks the public insider-trading filings learns more from that pattern than from any all-hands meeting."
+critical-questions:
+  - "Does this diagnostic require the insider to actually believe their own public reassurance is false, or does it work identically when the insider is simply hedging against uncertainty they haven't consciously resolved -- protecting their own money 'just in case' while still sincerely hoping and publicly asserting the institution is fine?"
+  - "How would an outside observer without Douglass's privileged access as bank president -- unable to see the trustees' personal account records -- ever detect this signal in real time, rather than only reconstructing it after a collapse has already happened?"
+  - "Is the reliability of this signal specific to money (a uniquely legible, trackable form of commitment), or does the same logic extend to other observable private behaviors -- where an insider sends their own children to school, whether they personally use the product they publicly endorse -- as comparably reliable tells?"
+status: active
