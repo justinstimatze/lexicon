@@ -1,0 +1,20 @@
+id: lex-p54n2
+name: a-systems-death-is-masked-by-its-continued-correct-operation
+type-in: state
+type-out: claim
+_tier: atomic
+agent-instruction: "Don't judge whether a system is safely maintained by whether it still runs correctly today. Peter Naur's Theory Building View gives program death a specific, narrow definition: a program dies when the team of programmers who hold its theory -- why it's built the way it is, how it maps to the world, how to extend it -- is dissolved. Nothing about execution changes at that moment. A dead program, in this sense, keeps running in production and keeps producing useful, correct results indefinitely; the loss is invisible from the outside and invisible in the metrics. Naur is explicit about when the death actually becomes visible: only later, at the moment someone brings a demand for a modification that nobody left can intelligently answer. Between the team's dissolution and that first unanswerable demand, the system looks exactly as healthy as it did the day before -- uptime, correctness, and throughput tell you nothing about whether anyone left could safely change it. Diagnostic move: don't wait for a failed modification to discover a system has lost its theory-holders. Track team continuity on critical systems directly, as its own signal, separate from and ahead of operational health."
+related: [lex-nr8x9, lex-98gdu]
+evokes: [peter-naur, programming-as-theory-building, program-life-death-revival, bus-factor, tacit-knowledge-loss]
+lineage:
+  - source: primary
+    text: naur-1985-program-death-defined
+    citation: "Peter Naur, 'Programming as Theory Building' (Microprocessing and Microprogramming 15, 1985, pp.253-261), as reprinted in Alistair Cockburn, Agile Software Development (Addison-Wesley, 2002), Appendix B 'Naur, Ehn, Musashi,' section 'Program Life, Death, and Revival,' p.235."
+    quote: "“The death of a program happens when the programmer team possessing its theory is dissolved. A dead program may continue to be used for execution in a computer and to produce useful results. The actual state of death becomes visible when demands for modifications of the program cannot be intelligently answered. Revival of a program is the rebuilding of its theory by a new programmer team.”"
+canonical-instances:
+  - "The direct textual anchor, on what stays intact through the transition into death: “During the program life a programmer team possessing its theory remains in active control of the program, and in particular retains control over all modifications.”"
+  - "Hypothetical: a startup's payments team is acquihired and every member leaves within the same quarter, but the payment-processing service they built keeps clearing transactions correctly for two more years with no visible change in error rate or latency. When a new regulation requires a genuinely new kind of transaction handling, no one at the company can say with confidence how to add it without risking a silent double-charge bug, and it takes a six-month rewrite to do what the original team could likely have shipped in a sprint."
+critical-questions:
+  - "Team dissolution is rarely all-at-once -- people leave one by one over years, with overlap and partial knowledge transfer at each departure. Does Naur's binary life/death framing survive contact with gradual attrition, or does it need a notion of partial death -- a team that retains some but not all of the original theory, and can answer some modification demands intelligently but not others?"
+  - "The diagnostic test Naur gives for death -- a demand for modification goes unanswered -- only fires when someone actually tries to change the system. A system nobody has tried to modify in years could be fully dead by this definition and no one would know until the day it matters most. What's the earliest observable signal of team-held-theory decay that doesn't require waiting for a failed modification attempt to find out?"
+status: active
