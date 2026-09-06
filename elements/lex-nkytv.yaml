@@ -1,0 +1,24 @@
+id: lex-nkytv
+name: identical-authority-evidence-gets-sorted-by-the-gender-of-who-holds-it
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When the same kind of visual or documentary evidence for authority -- larger-scale depiction, symbols of command, enthronement, gestures of tribute directed toward a figure -- appears in the historical record, check whether it gets sorted into the same interpretive category regardless of the depicted figure's gender, or whether the sorting itself tracks gender. Graeber and Wengrow's case: Minoan Crete's art consistently shows women at larger scale than men, holding staffs of command, presiding over assemblies with no male figure present, and receiving poses of subservience from men bringing tribute. Scholars overwhelmingly file these images under 'religion and ritual,' identifying the women as goddesses or priestesses 'wielding no earthly power,' while functionally identical scenes involving male figures -- Egyptian tomb reliefs, tribute processions before Egyptian kings -- get read straightforwardly as evidence of real political authority. The underlying evidentiary pattern doesn't change between the two cases; only the assigned category changes, and it changes specifically according to who is depicted holding the power."
+related: []
+evokes: [david-graeber, david-wengrow, the-dawn-of-everything, minoan-crete, knossos, arthur-evans, gendered-interpretation, political-vs-religious]
+lineage:
+  - source: primary
+    text: dawn-of-everything-would-this-keep-happening
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.10 'Why the State Has No Origin.'"
+    quote: "“Would this keep happening if these were images of men in positions of authority? Unlikely, since the same scholars usually have no trouble identifying similar scenes that involve males... as reflections of real power relations.”"
+  - source: primary
+    text: dawn-of-everything-goddesses-priestesses-no-earthly-power
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.10 'Why the State Has No Origin.'"
+    quote: "“Most follow Arthur Evans, the early-twentieth-century excavator of Knossos, in identifying such figures as goddesses, or priestesses wielding no earthly power – almost as though they have no connection to the real world.”"
+canonical-instances:
+  - "The direct textual anchor, on Evans's own reasoning about the Knossos Throne Room's occupant: notwithstanding Evans's 'rather desperate insistence that it \"seems better adapted for a man,\"' the room's architecture -- an open space with stone benches arranged so an assembled group could face one another -- fits a council head at least as well as a king, and its likely occupants a succession of female councillors."
+  - "Hypothetical: an archive of nineteenth-century company photographs shows a woman standing at the head of every board meeting, gavel in hand, with male executives seated around her taking notes. A researcher's finding aid describes her as 'the meeting's hostess, providing refreshments and ceremonial welcome,' while an identical photograph from a rival company shows a man in the same position, gavel in hand, and the finding aid there reads 'chairman presiding over the board.'"
+critical-questions:
+  - "Could the different treatment reflect a genuine, independently justified difference in the surrounding evidence -- for instance, if Minoan written records (were Linear A decipherable) might actually describe religious rather than political roles for these women, in a way Egyptian records don't for their male authority figures? Without being able to read Linear A, it's hard to rule out that the asymmetry tracks a real difference in the underlying record rather than pure interpretive bias."
+  - "Scholars do accept female political authority from material evidence alone in some cases -- Egypt's female pharaohs, the warrior-queen tombs of Moche culture mentioned elsewhere in this same book. How would this claim account for those exceptions? If some female-authority evidence gets accepted as political, the pattern may depend on contextual factors this atom's framing leaves out."
+status: active
