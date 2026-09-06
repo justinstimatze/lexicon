@@ -1,0 +1,20 @@
+id: lex-38zu2
+name: debt-manufactures-liars-structurally
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a debtor offers an implausible excuse for a missed or delayed payment, don't treat it as evidence of that individual's particular dishonesty -- treat it as a predictable structural output of being in debt at all. Herodotus recorded that the ancient Persians ranked being in debt as the second-worst disgrace after lying outright, specifically because they believed a person in debt is bound to become a liar. The logic holds up on its own: a debtor who can't pay on time has a standing incentive to fabricate a story rather than admit default outright, since admitting default invites immediate consequences while a plausible excuse buys time. A society with widespread debt will therefore also be a society thick with fabricated explanations -- shipwrecks, robberies, improbable misfortunes offered up as cover -- because owing money is one of the few social positions that makes lying the locally rational move almost by default, regardless of who the debtor actually is."
+related: []
+evokes: [david-graeber, debt-the-first-5000-years, herodotus, persians, unforgiving-servant, debt-and-lying]
+lineage:
+  - source: primary
+    text: graeber-2011-debt-herodotus-persians-debt-lying
+    citation: "David Graeber, Debt: The First 5,000 Years (Melville House, 2011), ch.8 'Credit Versus Bullion, and the Cycles of History,' citing Herodotus."
+    quote: "“To tell a lie is considered by them the greatest disgrace, and next to that to be in debt … especially because they think that one in debt must of necessity tell lies.”"
+canonical-instances:
+  - "The direct textual anchor, on how casually the debtor in Jesus's parable of the unforgiving servant abandons truthfulness the moment repayment is due: “Ten thousand talents? No problem. Just give me a little more time”."
+  - "Hypothetical: an employee two months behind on a personal loan from a coworker starts telling a string of successively larger excuses -- a lost paycheck, a medical bill, a family emergency -- each one plausible on its own but adding up to a pattern the coworker eventually notices. The employee isn't a habitual liar in any other part of their life; the debt itself is what's generating the excuses, one for every month it goes unpaid."
+critical-questions:
+  - "Herodotus is reporting Persian cultural belief about debtors, not a controlled study of lying rates. Is there independent evidence the correlation is real, or could this be a stereotype about debtors -- much like modern stereotypes about people who owe money -- that predates any actual measurement of who lies more?"
+  - "If debt manufactures lying as a structural incentive, does forgiving or restructuring debt actually reduce lying in a population, or does the incentive simply relocate to whatever the next scarce, must-explain-a-shortfall resource becomes -- meaning the mechanism describes a general feature of any binding, overdue obligation, with debt only being history's most common instance of it?"
+status: active

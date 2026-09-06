@@ -1,0 +1,24 @@
+id: lex-dccpt
+name: bullion-follows-violence-credit-follows-trust
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When trying to explain why a society uses cash-like bearer money versus running on credit and reputation, look first at the level of generalized violence, not at technology or wealth. Graeber's Eurasian survey: coinage and bullion dominate specifically in periods of widespread war, because gold and silver require trusting nothing but the metal itself -- they can be stolen, carried anonymously, and accepted by a total stranger with no history behind them, which is exactly the transaction profile you need with an armed, itinerant soldier who won't be around long enough to build credit. Credit-based money requires the opposite: durable networks of trust -- kin, guild, faith community, or a stable state -- that sustained violence tends to destroy. The two forms aren't neutral technical alternatives; each is suited to a different baseline level of trust in the surrounding world, and watching which one a society reaches for tells you something about how safe that world actually is."
+related: [lex-a5qyc]
+evokes: [david-graeber, debt-the-first-5000-years, bullion, credit-money, axial-age, cycles-of-history]
+lineage:
+  - source: primary
+    text: graeber-2011-debt-bullion-predominates-in-violence
+    citation: "David Graeber, Debt: The First 5,000 Years (Melville House, 2011), ch.8 'Credit Versus Bullion, and the Cycles of History.'"
+    quote: "“Bullion predominates, above all, in periods of generalized violence.”"
+  - source: primary
+    text: graeber-2011-debt-coins-can-be-stolen
+    citation: "David Graeber, Debt: The First 5,000 Years (Melville House, 2011), ch.8 'Credit Versus Bullion, and the Cycles of History.'"
+    quote: "“Gold and silver coins are distinguished from credit arrangements by one spectacular feature: they can be stolen.”"
+canonical-instances:
+  - "The direct textual anchor, on the scale of the reversal around 600 AD: “But then, right around 600 ad, about the time that slavery was disappearing, the whole trend was suddenly thrown into reverse. Cash dried up. Everywhere, there was a movement back to credit once again.”"
+  - "Hypothetical: a region descends into civil war and merchants who used to extend thirty-day credit to regular customers start demanding cash on delivery from everyone, including longtime partners, because there's no longer any guarantee the same authority will exist next month to enforce a debt or that a partner won't be a refugee by then. Once a ceasefire holds and courts reopen, credit terms creep back in within a year, well before anyone would call the peace fully secure."
+critical-questions:
+  - "Graeber's own account admits some periods of virtual money persisted through real violence (Mesopotamian credit systems operated even during frequent wars between city-states), and periods of bullion dominance included long stretches of relative peace. Is the correlation with generalized violence really as tight as the cyclical framing suggests, or is 'periods of virtual money' vs 'periods of bullion' itself a simplification that smooths over a much messier, overlapping reality?"
+  - "The mechanism explains why bullion suits strangers and soldiers, but modern economies run enormous cash economies (informal labor, tax evasion, black markets) that persist in times of relative peace and high institutional trust. Does the mechanism generalize to 'cash serves any transaction where trust can't be assumed,' with war just being history's most common source of that condition, or is there something specific to war-time bullion that a peacetime black market doesn't share?"
+status: active

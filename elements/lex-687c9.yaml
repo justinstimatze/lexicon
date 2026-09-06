@@ -1,0 +1,24 @@
+id: lex-687c9
+name: precise-absurd-debt-math-legitimizes-a-war-pretext
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a powerful party frames naked aggression as merely collecting on an old debt, scrutinize how the number was computed. King Enmetena of Lagash justified attacking Umma with a specific, computed grievance: compounding decades of unpaid land-rent at standard interest rates until the total came out to four and a half trillion liters of barley, a sum no one could ever produce or collect. Graeber's read: the absurdity of the sum was deliberate and was itself the point. Getting the compound interest genuinely right, however ridiculous the result, let Enmetena claim the mantle of a wronged creditor owed a technically valid debt rather than an aggressor seizing land he wanted. Watch for the same move whenever a party backs a naked power grab with an unusually precise, elaborately justified figure: the precision's function is to make the underlying claim look like accounting rather than conquest."
+related: [lex-qkpfm]
+evokes: [david-graeber, debt-the-first-5000-years, enmetena, lagash, umma, compound-interest-as-pretext]
+lineage:
+  - source: primary
+    text: graeber-2011-debt-enmetena-sum-was-preposterous
+    citation: "David Graeber, Debt: The First 5,000 Years (Melville House, 2011), ch.8 'Credit Versus Bullion, and the Cycles of History,' section 'Mesopotamia (3500-800 BC).'"
+    quote: "“The sum was, as in the parable, intentionally preposterous.”"
+  - source: primary
+    text: graeber-2011-debt-enmetena-excuse-to-start-a-war
+    citation: "David Graeber, Debt: The First 5,000 Years (Melville House, 2011), ch.8 'Credit Versus Bullion, and the Cycles of History,' section 'Mesopotamia (3500-800 BC).'"
+    quote: "“It was just an excuse to start a war. Still, he wanted everyone to know that he knew exactly how to do the math.”"
+canonical-instances:
+  - "The direct textual anchor, on the specific computed sum: “He announces: if one were to calculate the rental fees for all that land, then the interest that would have been due on that rent, compounded annually, it would reveal that Umma now owes Lagash four and a half trillion liters of barley.”"
+  - "Hypothetical: a company facing a labor dispute circulates an actuarial breakdown, updated to the cent, calculating exactly how much unpaid 'productivity debt' the union's past slowdowns have supposedly cost the company since 1998, compounded at prevailing capital costs. No one expects the union to actually pay it -- the spreadsheet's real job is to make the company's position look like it's owed money rather than like it's trying to break a strike."
+critical-questions:
+  - "Is the precision-as-legitimation move actually necessary, or would a vaguer, unquantified grievance have worked just as well as a pretext for war? If vague grievances work fine elsewhere, what does the elaborate compound-interest math specifically buy Enmetena that a simpler claim wouldn't?"
+  - "Graeber calls the ludicrous size of the sum deliberate, but compound interest genuinely does grow this fast over decades. Is there any way to distinguish a chosen absurd framing from scribes doing the math honestly and Enmetena using the result anyway because it was available, given that both would produce the identical inscription?"
+status: active
