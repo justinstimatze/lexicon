@@ -1,0 +1,24 @@
+id: lex-rvum6
+name: a-system-that-keeps-developing-once-cut-off-differs-from-one-that-does-not
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When deciding how to treat something that's been separated from whatever was driving its development -- harvested produce, a project cut loose from its original sponsor, a component removed from the system that was actively shaping it -- check whether it belongs to the class that keeps developing on its own momentum after separation, or the class that is permanently fixed at whatever state it was in the instant of separation. Treating the second class like the first (expecting further progress that will never arrive) and the first class like the second (finalizing or releasing it too early, while it could still have kept improving on its own) are both errors, and they call for opposite handling. America's Test Kitchen's fruit chemistry draws the line concretely: climacteric fruits (bananas, peaches, pears) generate their own burst of ripening gas and keep converting starch to sugar and softening even after being picked, which is exactly why they're deliberately harvested underripe. Nonclimacteric fruits (blueberries, cherries, oranges) only ever received their sugar from the parent plant and can't manufacture their own ripening burst, so whatever ripeness they have at the moment of picking is permanently all they will get -- buying one on the assumption it will still 'ripen on the counter' fails structurally, not just by degree."
+related: []
+evokes: [americas-test-kitchen, guy-crosby, climacteric-fruit, ethylene-gas, ripens-off-the-vine, harvested-underripe]
+lineage:
+  - source: primary
+    text: americas-test-kitchen-crosby-2012-science-of-good-cooking-climacteric-fruit
+    citation: "The Editors at America's Test Kitchen and Guy Crosby, The Science of Good Cooking (America's Test Kitchen, 2012), Concept 49, 'Sugar and Time Make Fruit Juicier,' p. 1672."
+    quote: "“One type of fruit, called climacteric fruit, produces a sudden burst of ethylene right when it is ready to ripen. During this process, fruits like bananas, peaches, and pears convert starch to sugar and begin to digest their cell walls, thereby becoming sweeter and softer as they ripen. Most importantly, climacteric fruits continue to ripen in this way even after they are separated from the plant.”"
+  - source: primary
+    text: americas-test-kitchen-crosby-2012-science-of-good-cooking-nonclimacteric-fruit
+    citation: "The Editors at America's Test Kitchen and Guy Crosby, The Science of Good Cooking (America's Test Kitchen, 2012), Concept 49, 'Sugar and Time Make Fruit Juicier,' p. 1672."
+    quote: "“The other type of fruit, called nonclimacteric, produces ethylene only very slowly and does not continue to ripen after being separated from the plant. Nonclimacteric fruits like blueberries, cherries, and oranges do not convert starch to sugar but must receive it from the parent plant. As a result, nonclimacteric fruits will not get any sweeter after harvesting and should be purchased as ripe as possible to ensure the best quality.”"
+canonical-instances:
+  - "The direct textual anchor: the harvesting strategy itself only makes sense because climacteric fruit belongs to the self-continuing class -- 'For this reason most climacteric fruits are harvested before they are ripe, at the firm mature stage, when they are better able to withstand the rigors of shipping and storage. This fruit will continue to ripen and become sweeter after it’s brought home from the market.'"
+  - "Hypothetical: a publisher stops actively promoting a serialized novel once the finale airs. Word-of-mouth and fan community discussion keep expanding its audience for years afterward -- a self-continuing property. A brand's unrelated tweet that briefly trends generates zero further attention the moment the platform's algorithm stops surfacing it, no matter how long anyone waits -- a frozen-at-cutoff property, even though both looked like ordinary content the instant before their respective 'separations.'"
+critical-questions:
+  - "Is the climacteric/nonclimacteric line strictly binary in nature, or is 'ripens off the vine' actually a spectrum where a nominally nonclimacteric fruit can still partially continue developing along one dimension (softening) without progressing along another (sweetening)?"
+  - "Outside biology, is there a general diagnostic for whether a separated system belongs to the self-continuing class or the frozen-at-cutoff class, or does it have to be established case by case through direct observation, the way climacteric behavior itself had to be determined fruit by fruit?"
+status: active

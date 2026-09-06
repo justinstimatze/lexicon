@@ -1,0 +1,20 @@
+id: lex-pwm8w
+name: front-loading-what-a-process-meters-out-makes-it-overshoot
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a downstream process is built to precisely control uptake of some quantity toward a target, check whether a preparatory step supplies that same quantity in advance, outside the controlled process -- because doing so defeats the metering and drives the outcome past the target, even though the preparatory step looks like helpful prep rather than interference. America's Test Kitchen's rice experiment is the clean case: rice is cooked with a carefully measured amount of water in a covered pot specifically so the grain absorbs exactly enough as it heats. Soaking the rice beforehand looks like reasonable prep -- it seems like it should help the grain cook faster and more evenly -- but it pre-loads water into the grain before the heat-gated uptake process even starts, so by the time heat is applied the starch granules are already swollen and primed to take on more, and the rice overcooks and blows out. The failure isn't a dosage error inside the preparatory step; it's that the preparatory step and the controlled process are drawing on the identical resource, so anything added ahead of time counts against the metered budget whether or not it was labeled as belonging to a separate stage."
+related: []
+evokes: [americas-test-kitchen, guy-crosby, soaking-vs-rinsing-rice, blown-out-rice, pre-loading-defeats-metering, covered-pot-measured-water]
+lineage:
+  - source: primary
+    text: americas-test-kitchen-crosby-2012-science-of-good-cooking-soaking-rice-takeaway
+    citation: "The Editors at America's Test Kitchen and Guy Crosby, The Science of Good Cooking (America's Test Kitchen, 2012), Concept 30, 'Rinsing (Not Soaking) Makes Rice Fluffy,' p. 1083."
+    quote: "“To be frank, soaking was a waste of time. Even with brown rice, which, with its bran, germ, and aleurone layers intact, can take two to three times longer to cook than white rice, the results were overly tender and unpleasant. Soaking caused the rice to absorb too much water, which in turn caused the starch granules to swell as soon as the heat was applied.”"
+canonical-instances:
+  - "The direct textual anchor: the failure wasn't confined to one rice variety -- 'Every single variety of rice that had been soaked was overcooked and bloated, with grains that tended to blow out,' tested across brown rice, long-grain white rice, and basmati, so the mechanism tracks the shared resource (water) rather than any single grain's particular starch profile."
+  - "Hypothetical: an onboarding manager, meaning to help a new hire 'start strong,' hands over the answer key to their first skills test ahead of time. The whole point of that test was measuring how much training the person still needed. Handing over the answers first breaks the measurement: the calibration now reports full readiness the person doesn't have, and they get assigned work they can't yet do."
+critical-questions:
+  - "Does this require the pre-loaded quantity to be literally identical to what the downstream process meters (water added by soaking, water absorbed by cooking), or does a merely comparable substitute for the metered resource produce the same overshoot?"
+  - "Rinsing, the text's endorsed alternative for long-grain rice, works on surface starch instead of water volume. Testing found it harmless for brown rice, whose intact bran leaves no surface starch behind to rinse away. Does that mean any pre-step leaving the metered resource untouched is safe by default, or could a pre-step interact with the controlled process through some other channel this case doesn't surface?"
+status: active
