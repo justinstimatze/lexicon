@@ -1,0 +1,34 @@
+id: lex-jtngt
+name: pretextual-justification
+type-in: situation
+type-out: posture
+_tier: molecule
+agent-instruction: "When someone's stated reason for an action is being evaluated, check whether it's a pretextual justification -- a composite defense built from three parts working together, not any single lie. Part one: the real motive gets a plausible alternate narrative constructed for it, ideally staged before anyone asks (lex-xj64p). Part two: that narrative gets handed a source or authority to lean on, so it reads as reported rather than invented (lex-q9asc). Part three: the person deploying it is often motivated-reasoned into believing their own cover story, which is what makes the defense durable under real scrutiny rather than collapsing at the first hard question (lex-rcj6y). None of the three parts alone is decisive. A constructed narrative with no attributed source to lean on reads as a bare assertion. An attributed source pointed at no pre-built narrative has nothing to attribute. And sincere belief in a story that nobody actually built in advance amounts to ordinary error rather than a pretext. Diagnostic move: when a stated reason survives challenge suspiciously well, check for all three parts before concluding the justification is honest -- a narrative staged in advance, credibility borrowed from an attributed source, and a defender who has come to believe their own story."
+related: [lex-d7h2y, lex-k2kdc, lex-xj64p, lex-xrg6e]
+scaffolds-from: [lex-xrg6e, lex-q9asc, lex-rcj6y, lex-xj64p]
+evokes: [pretext, cover-story, motivated-cover-narrative, walton-style-defeasible-scheme, signaling-deception-family]
+decomposes-into:
+  - lex-xj64p
+  - lex-q9asc
+  - lex-rcj6y
+premises:
+  - "an actor has a real motive for an action or claim that would draw scrutiny, sanction, or disbelief if stated plainly"
+  - "the actor (or an ally) constructs a plausible alternate narrative for the action or claim, often before the scrutiny arrives (lex-xj64p: staging a cover story in advance)"
+  - "the narrative is presented with borrowed credibility -- attributed to a source, a report, or a norm rather than asserted as the actor's own invention (lex-q9asc: source-attribution)"
+  - "the actor's own belief in the narrative is reinforced by motivated reasoning, so the defense is not maintained as a conscious lie under pressure but experienced by the actor as sincere (lex-rcj6y: motivated-reasoning)"
+  - "therefore, presumptively, the stated reason survives ordinary challenge -- until one of the three supporting parts is independently falsified"
+critical-questions:
+  - "was the alternate narrative actually staged in advance, or improvised after the fact under challenge? An improvised excuse lacks the premeditation that makes lex-xj64p's mechanism operative, and collapses differently under scrutiny (inconsistency across retellings) than a rehearsed one does."
+  - "does the attributed source actually exist and hold the position attributed to it, or was it invented or misquoted? A false attribution is independently falsifiable regardless of how sincerely the narrative or the motivated belief operates."
+  - "the actor's belief in the cover narrative could be genuinely motivated-reasoned (sincere, if self-serving) or a knowing lie performed as sincerity -- these two collapse under different interventions: genealogical or reflective confrontation for the former (see lex-xrg6e's sincere-performance variant), direct evidence of premeditation for the latter."
+  - "can a known, independently-verifiable timeline be found that contradicts the narrative? (see lex-rvrqh, a cover story exposed exactly this way) -- timeline contradiction is often the most decisive single defeater because it exposes the story regardless of how sincerely it's believed or how credible its attributed source, without requiring anyone to adjudicate sincerity at all."
+canonical-instances:
+  - "A government arranges arms-length channels to a proxy force before the violence even begins (lex-xj64p's staging component). When that violence occurs, the resulting attacks get attributed to the proxy's own independent grievances (lex-q9asc's source-attribution component). Officials repeating this account aren't necessarily lying at that point -- years of internal briefings can leave them genuinely convinced the grievances were independent (lex-rcj6y's motivated-reasoning component). What makes state-sponsored deniable violence durable under diplomatic pressure is having all three pieces in place together."
+  - "A corporation facing an environmental violation has already prepared a narrative blaming a subcontractor (staged in advance), attributes the account to an internal audit (borrowed source credibility), and the executives repeating it may have genuinely reasoned themselves into believing the subcontractor was solely at fault (motivated reasoning) -- the defense holds until an independently-verifiable timeline (see critical-questions) shows the company knew before the subcontractor was hired."
+  - "operationally distinct from lex-xrg6e (plausible-deniability) alone: that atom names the single cognitive move of engineering or performing retrospective disclaimability. This molecule is the three-part composite defense built when a cover narrative (lex-xj64p), a borrowed source (lex-q9asc), and self-directed belief (lex-rcj6y) operate together, producing lex-xrg6e's deniable posture as the output of that combination rather than as a fourth ingredient standing alongside the other three."
+status: active
+lineage:
+  - source: practitioner
+    text: pretextual-justification-composite-definition
+    citation: "This corpus's own editorial synthesis: a Walton-scheme-shaped composite naming the pattern where a constructed cover narrative, a borrowed attributed source, and the defender's own motivated belief in the narrative operate together as one defense. Not attributed to a single external author; each constituent atom carries its own independently-verified primary-source lineage (lex-xj64p from the Takkala-jataka, lex-q9asc and lex-rcj6y from their own respective sources)."
+    quote: "Decomposes into source-attribution + motivated-reasoning + a cover-story-construction component. lex-xj64p (staging-a-cover-story-in-advance-to-conceal-planned-violence), already in the library and previously unlinked, supplies the cover-story-construction role directly."

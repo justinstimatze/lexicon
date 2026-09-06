@@ -4,7 +4,7 @@ type-in: claim
 type-out: posture
 _tier: atomic
 agent-instruction: "When an action is structured so the actor can later deny intent ('I didn't tell them to do it'), suspect plausible-deniability engineering. The structure isn't an accident; it's a feature. Trace who benefits from the deniability."
-related: [lex-59rqy, lex-9ty22, lex-c7pga, lex-chp44, lex-d7h2y, lex-dm5te, lex-e3yhv, lex-e48nt, lex-gq42q, lex-hfjhy, lex-k2kdc, lex-q9asc, lex-s2pjj, lex-sfadp, lex-v5fqf, lex-wnmfk, lex-y48fs]
+related: [lex-59rqy, lex-9ty22, lex-c7pga, lex-chp44, lex-d7h2y, lex-dm5te, lex-e3yhv, lex-e48nt, lex-gq42q, lex-hfjhy, lex-jtngt, lex-k2kdc, lex-q9asc, lex-s2pjj, lex-sfadp, lex-v5fqf, lex-wnmfk, lex-y48fs]
 scaffolds-from: [lex-e3yhv, lex-wnmfk, lex-y48fs]
 evokes: [retrospective-disclaimability, signal-with-disavowable-attribution, deniable-assertion, ambiguity-as-shield]
 lineage:
@@ -114,12 +114,11 @@ differ in whether the actor is aware of the gap.
 
 ## Composition notes
 
-The signaling-deception family expects this to compose with
-`source-attribution` (lex-q9asc) and an unmined `cover-story-construction`
-atom into the molecule `pretextual-justification`. Mining pass for
-the cover-story-construction atom is queued.
-
-Probable molecule shape: `defeasibility-attach(<assertion>, defeaters=<disavowal-channels>)`.
+Minted as `lex-jtngt` `pretextual-justification`: composes `source-attribution`
+(lex-q9asc), `motivated-reasoning` (lex-rcj6y), and `lex-xj64p`
+(staging-a-cover-story-in-advance-to-conceal-planned-violence, already in the
+library, supplying the cover-story-construction role no new mining was needed
+for).
 
 roadening note: with canonical-instances 4-6 extending the atom
 to sincere-performance disavowal, the molecule shape generalizes to
