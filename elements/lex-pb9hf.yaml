@@ -1,0 +1,24 @@
+id: lex-pb9hf
+name: absolute-private-property-generalizes-the-slave-is-a-thing-relation
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a legal or conceptual system treats ownership as 'absolute power of a person over a thing,' don't take that framing as an obvious or natural starting point -- it isn't one, and its origin is traceable. Following Orlando Patterson, Graeber argues Roman law's uniquely absolute concept of private property (dominium) only makes sense as a generalization from an existing relation between two people, one of whom was legally defined as a thing: the slave. Once that category existed, Roman jurists extended the same absolute-power logic outward to geese, chariots, jewelry boxes, and everything else the law had anything to do with. Property, in other words, didn't start as a relation between a person and an object and then get applied to people as an ugly edge case; it started as a relation between people (master and slave) and got generalized to objects. Wherever a legal or economic system's founding concept of 'ownership' or 'absolute right' seems to need no justification, ask what earlier, more specific relation it was quietly generalized from, since the answer often explains the concept's stranger features better than any account of property as a natural, self-evident idea."
+related: [lex-4qwcm]
+evokes: [david-graeber, debt-the-first-5000-years, orlando-patterson, dominium, roman-law, slavery-and-social-death]
+lineage:
+  - source: primary
+    text: graeber-2011-debt-patterson-dominium-from-slavery
+    citation: "David Graeber, Debt: The First 5,000 Years (Melville House, 2011), ch.7 'Honor and Degradation,' section 'Ancient Rome (Property and Freedom),' citing Orlando Patterson."
+    quote: "“The most convincing explanation I've seen is Orlando Patterson's: the notion of absolute private property is really derived from slavery. One can imagine property not as a relation between people, but as a relation between a person and a thing, if one's starting point is a relation between two people, one of whom is also a thing.”"
+  - source: primary
+    text: graeber-2011-debt-dominium-extended-to-geese-and-chariots
+    citation: "David Graeber, Debt: The First 5,000 Years (Melville House, 2011), ch.7 'Honor and Degradation,' section 'Ancient Rome (Property and Freedom).'"
+    quote: "“In creating a notion of dominium, then, and thus creating the modern principle of absolute private property, what Roman jurists were doing first of all was taking a principle of domestic authority, of absolute power over people, defining some of those people (slaves) as things, and then extending the logic that originally applied to slaves to geese, chariots, barns, jewelry boxes, and so forth.”"
+canonical-instances:
+  - "The direct textual anchor, on how deep the household-authority root runs into the vocabulary itself: “A family was originally all those people under the domestic authority of a paterfamilias, and that authority was, in early Roman law at least, conceived as absolute.”"
+  - "Hypothetical: a legal system with no prior concept of owning an idea drafts its first intellectual-property statute by directly borrowing the vocabulary and absolute-exclusion logic of its existing law of land title, treating a novel as if it were a plot of ground one could fence off entirely. Decades later, lawyers find themselves arguing about 'trespass' on a copyrighted character and the 'boundaries' of fair use, still working within a metaphor inherited wholesale from a completely different kind of thing, because land title was the closest available template for absolute ownership when the question first came up."
+critical-questions:
+  - "Patterson's thesis explains why Roman property law specifically settled on 'absolute power over a thing' as its starting definition -- but plenty of other slaveholding societies (the Lele, the Tiv, medieval Ireland) never generalized their own slave-as-object logic into an abstract, all-purpose property concept the way Rome did. What was different about Rome -- the scale of its slave population, the specific legal-professional class that systematized the law, something else -- that made this particular generalization happen there and not elsewhere?"
+  - "If dominium really is slavery's logic extended to objects, and modern self-ownership inherits that same logic -- the idea that you own your labor, your body, your very freedom -- does rejecting slavery as immoral without also rejecting the property concept built from it leave a hidden contradiction sitting inside otherwise-progressive ideas about individual rights and self-determination?"
+status: active

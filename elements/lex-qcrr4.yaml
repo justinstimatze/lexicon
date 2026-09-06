@@ -1,0 +1,24 @@
+id: lex-qcrr4
+name: honor-is-surplus-dignity-extracted-from-others-degradation
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When someone's status seems fragile in a way that's out of proportion to any real threat -- a man who reads a sideways glance as a challenge, an institution that treats a minor procedural slight as an attack on its legitimacy -- check whether what's actually at stake is honor rather than dignity. Graeber's distinction: dignity is something anyone can have on their own; honor is surplus dignity, a heightened awareness of power that comes specifically from having stripped away someone else's dignity, or at least being able to. That's what makes honor so much touchier than dignity. A pool of dignity you hold on your own doesn't shrink when someone insults you. A pool of honor built on extracting dignity from others can, because the whole thing is relative and zero-sum -- your excess has to come from somewhere, and anything that looks like a challenge threatens to reverse the flow. Watch for the same shape wherever a party defends 'reputation' or 'face' with an intensity the actual stakes don't explain -- the intensity is often the honor system announcing that its stock depends on someone else's diminishment, not a report on the real damage done."
+related: [lex-a6gaj]
+evokes: [david-graeber, debt-the-first-5000-years, honor-price, medieval-ireland, surplus-dignity, zero-sum-honor]
+lineage:
+  - source: primary
+    text: graeber-2011-debt-honor-is-surplus-dignity
+    citation: "David Graeber, Debt: The First 5,000 Years (Melville House, 2011), ch.7 'Honor and Degradation.'"
+    quote: "“This is because honor is not the same as dignity. One might even say: honor is surplus dignity.”"
+  - source: primary
+    text: graeber-2011-debt-honor-heightened-consciousness-of-power
+    citation: "David Graeber, Debt: The First 5,000 Years (Melville House, 2011), ch.7 'Honor and Degradation.'"
+    quote: "“It is that heightened consciousness of power, and its dangers, that comes from having stripped away the power and dignity of others; or at the very least, from the knowledge that one is capable of doing so.”"
+canonical-instances:
+  - "The direct textual anchor, from medieval Ireland's honor-price system, where a nobleman's disgrace was literally denominated in a female relative's forced servitude: “Honor is a zero-sum game. A man's ability to protect the women of his family is an essential part of that honor.”"
+  - "Hypothetical: a mid-size firm's founder responds to a junior employee's mild pushback in a meeting by publicly dressing them down for the rest of the week, wildly out of proportion to the original comment. The founder's authority in that room has always rested on nobody challenging him without cost, and letting the pushback stand for even a day would have quietly transferred some of that authority to the employee."
+critical-questions:
+  - "Graeber's account makes honor entirely parasitic on someone else's degradation -- but plenty of honor cultures also prize generosity, hospitality, and protecting the weak, virtues that look like the opposite of extraction. Does the surplus-dignity mechanism explain those virtues too (protecting a dependent as a display of the power to have degraded them instead), or does it only cover the touchy, insult-driven half of honor and leave the generous half unexplained?"
+  - "If honor is zero-sum and extracted from others, why do honor codes so often apply most fiercely between near-equals -- dueling aristocrats, rival gang members -- rather than being spent freely on whoever is easiest to degrade? Does the mechanism need a further constraint, that the source of the extracted dignity has to itself carry some value for the extraction to register as honor rather than mere bullying?"
+status: active

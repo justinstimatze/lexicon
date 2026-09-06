@@ -1,0 +1,24 @@
+id: lex-kg79h
+name: boundary-enforcement-punishes-upward-claims-not-downward-failure
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a legal or social code marks a boundary between two statuses with a required signal -- a veil, a uniform, a credential, a title -- check which side of the line the actual enforcement lands on. The Middle Assyrian law code required 'respectable' women to veil in public and forbade prostitutes and slaves from doing so, but its punishments -- public beating, mutilation -- fell entirely on prostitutes and slaves caught wearing the marker reserved for the class above them. No penalty is specified for a respectable woman who simply goes out unveiled; the text assumes that case polices itself, since no one of that status would want to look like the excluded group. The asymmetry is the real content of the boundary: it exists to keep the excluded group from claiming the marker, not to make the privileged group perform its own. Wherever a status marker carries legal teeth, look for whether the penalty structure matches this shape -- harsh on unauthorized upward claims, silent on failures to display the marker from above -- because that shape shows which direction the boundary is actually built to protect."
+related: [lex-49fa3]
+evokes: [david-graeber, debt-the-first-5000-years, middle-assyrian-laws, veiling-code, status-boundary, passing]
+lineage:
+  - source: primary
+    text: graeber-2011-debt-veiling-law-punishes-only-below
+    citation: "David Graeber, Debt: The First 5,000 Years (Melville House, 2011), ch.7 'Honor and Degradation,' section 'Mesopotamia (The Origins of Patriarchy).'"
+    quote: "“The remarkable thing about the laws is that the punishments specified in the code are not directed at respectable women who do not wear veils, but against prostitutes and slaves who do.”"
+  - source: primary
+    text: graeber-2011-debt-veiling-law-self-enforcing
+    citation: "David Graeber, Debt: The First 5,000 Years (Melville House, 2011), ch.7 'Honor and Degradation,' section 'Mesopotamia (The Origins of Patriarchy).'"
+    quote: "“Presumably in the case of respectable women, the law was assumed to be self-enforcing: as what respectable woman would wish to go out on the street in the guise of a prostitute?”"
+canonical-instances:
+  - "The direct textual anchor, on how severe the one-sided penalty actually was: “The prostitute was to be publicly beaten fifty times with staves and have pitch poured on her head; the slave girl was to have her ears cut off.”"
+  - "Hypothetical: a professional licensing board requires certified electricians to display a license number on their work vans and prosecutes unlicensed contractors caught displaying a fake one, with fines and criminal referral. A licensed electrician who forgets to put the number on his van for a season faces no penalty at all -- the board never even checks, because the only scenario the rule was written to prevent is someone unlicensed borrowing the credential's legitimacy."
+critical-questions:
+  - "Is this asymmetry always deliberate, or can it also arise passively -- lawmakers simply not bothering to specify a penalty for a case (a respectable woman going unveiled) they assumed would never actually happen? If the second, does the mechanism still hold, or does it require the asymmetry to be a chosen enforcement strategy rather than an unaddressed edge case?"
+  - "What happens when the excluded group has nothing to lose by claiming the marker anyway, when the penalty for being caught is no worse than the status quo? The Assyrian penalties were severe enough to deter. Does the mechanism predict that boundaries with only mild penalties for upward claiming get tested and eroded far more often, since the one-sided enforcement only holds the line if the penalty is actually harsh enough to matter?"
+status: active
