@@ -1,0 +1,24 @@
+id: lex-9ud63
+name: a-techniques-physical-structure-can-resist-enclosure
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a group's land-tenure system looks unexpectedly collective or fluid, check whether the underlying agricultural or productive technique itself makes fixed private ownership impractical, before crediting the outcome to egalitarian values or ideology. Graeber and Wengrow's case: Neolithic 'flood-retreat' farming in the Fertile Crescent worked by planting on riverbank or lakeside land left fertile by seasonal flooding. Since any given parcel might be fertile one year and flooded or dried out the next, there was little reason for long-term ownership of a fixed plot, and setting up boundary markers made no sense when the ground itself kept shifting. The technique's own physical logic pushed toward collective holding or flexible reallocation of land, independent of whether anyone involved held any particular belief about equality or property. Before attributing a collective or individualist property system to a culture's values, check whether the underlying technology structurally permits the alternative to exist at all."
+related: []
+evokes: [david-graeber, david-wengrow, the-dawn-of-everything, flood-retreat-farming, decrue, enclosure, land-tenure]
+lineage:
+  - source: primary
+    text: dawn-of-everything-little-incentive-for-enclosure
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.6 'Gardens of Adonis.'"
+    quote: "“Any given parcel of territory might be fertile one year, and then either flooded or dried out the next, so there is little incentive for long-term ownership or enclosure of fixed plots. It makes little sense to set up boundary stones when the ground itself is shifting underneath you.”"
+  - source: primary
+    text: dawn-of-everything-did-not-lend-themselves-to-private-property
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.6 'Gardens of Adonis.'"
+    quote: "“these early cultivation systems did not lend themselves to the development of private property.”"
+canonical-instances:
+  - "The direct textual anchor, on the modest engineering flood-retreat farming actually required: the only intervention beyond broadcasting seed on the exposed alluvial bed was sometimes small stone or earthen barriers ('bunds') to nudge the distribution of water, with no need for deforestation, weeding, or irrigation."
+  - "Hypothetical: a coastal fishing community's boats and nets are only usable during a narrow, unpredictable tidal window that shifts every lunar cycle, so no single family can reliably claim the 'best' fishing spot as their own -- the community ends up sharing access on a rotating basis not because anyone decided fishing rights should be communal, but because the tide itself makes exclusive claims impossible to enforce or even define in advance."
+critical-questions:
+  - "Could a sufficiently motivated group have overridden the technique's own resistance to enclosure -- for instance, by claiming rights to an entire floodplain rather than a specific shifting parcel, or by developing hereditary claims to whichever plot happened to be fertile in a given year? If so, does the 'structural resistance' framing overstate a technical constraint that a determined elite could have worked around given sufficient motivation?"
+  - "Flood-retreat farming was practiced for millennia without producing enclosure -- but does the absence of enclosure in the archaeological record actually rule out other, less visible forms of inequality (unequal access to labor, unequal shares of the harvest, ritual privilege) that don't leave the same kind of physical trace as a boundary stone would?"
+status: active

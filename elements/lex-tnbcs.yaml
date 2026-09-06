@@ -1,0 +1,24 @@
+id: lex-tnbcs
+name: cultivating-a-crop-and-domesticating-it-are-different-timescales
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a technology or practice is described as 'emerging' at a given date, check whether that date marks the practice's first appearance or its full completion -- the gap between the two can be a historically significant period in its own right, not just a transitional blur. Graeber and Wengrow's case: in the Fertile Crescent, humans began cultivating wild wheat and barley around 10,000 BC. Laboratory experiments show the genetic mutation that fully domesticates a cereal (locking seed to the stem instead of letting it disperse naturally) can happen in twenty to thirty years, at most two hundred, if people simply harvest consistently with sickles and resow the seed. Actual domestication in the Fertile Crescent wasn't complete until roughly 7000 BC -- about ten times longer than the process required. That three-thousand-year gap is not a slow, blundering version of the same story; it's evidence that early cultivators were doing something other than racing toward full domestication, moving in and out of cultivation as one option among many rather than being swept along by an inevitable process. Whenever a 'revolution' or transition is dated to a technology's first appearance, check how long its full technical completion actually took -- a wide gap between the two is itself a finding worth explaining on its own terms."
+related: [lex-65v77, lex-vh82r]
+evokes: [david-graeber, david-wengrow, the-dawn-of-everything, cereal-domestication, fertile-crescent, agricultural-revolution, pre-domestication-cultivation]
+lineage:
+  - source: primary
+    text: dawn-of-everything-3000-years-too-long-for-revolution
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.6 'Gardens of Adonis.'"
+    quote: "“To be clear: that's 3,000 years of human history, far too long to constitute an 'Agricultural Revolution' or even to be considered some kind of transitional state on the road to farming.”"
+  - source: primary
+    text: dawn-of-everything-ten-times-as-long-as-it-need-have-taken
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.6 'Gardens of Adonis.'"
+    quote: "“the biological process of crop domestication (including the crucial switch-over from brittle rachis to tough) was not completed until closer to 7000 BC – that is roughly ten times as long as it need have taken”"
+canonical-instances:
+  - "The direct textual anchor, on how fast the genetic switch could actually happen under simple harvesting techniques: experiments with wild wheat in the 1980s showed the key domesticating mutation could be achieved 'in as little as twenty to thirty years, or at most 200 years, using simple harvesting techniques like reaping with flint sickles or uprooting by hand.'"
+  - "Hypothetical: a company's leadership dates its 'digital transformation' to the year it first piloted a new software platform, treating everything since as an inevitable, linear rollout. An internal audit finds that most departments only fully adopted the platform's core workflows a decade later, after years of partial, inconsistent use -- the long gap wasn't a slow rollout of a single event, it reflects years of employees treating the new system as optional, useful for some tasks and ignored for others, until conditions changed."
+critical-questions:
+  - "Could the 3,000-year gap simply reflect archaeological measurement limits -- the difficulty of detecting a gradual genetic shift in scattered ancient seed remains -- rather than genuine, sustained human ambivalence about completing domestication? How confident can researchers be that the gap reflects lived experience rather than the coarseness of the evidence available to date it?"
+  - "If early cultivators really were moving in and out of cultivation without being swept toward full domestication, what eventually did tip the balance toward completing the process around 7000 BC? The mechanism explains why domestication didn't happen faster, but doesn't obviously explain why it eventually happened at all rather than continuing indefinitely as one option among many."
+status: active
