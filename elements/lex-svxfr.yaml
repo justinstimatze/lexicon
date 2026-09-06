@@ -4,7 +4,7 @@ type-in: claim
 type-out: frame
 _tier: atomic
 agent-instruction: "A conceptual metaphor can run smoothly even when some obvious entailment of its source domain clearly doesn't apply. Resist the urge to read that mismatch as a sign of sloppy or failing use. Lakoff's Nation-As-Family metaphor maps the government onto a parent and citizens onto children, and the protection, authority, and responsibility structure of parenthood carries over cleanly -- but citizens are adults, so the government doesn't put anyone to bed or tell bedtime stories, and no one experiences this as the metaphor failing. This is what Lakoff calls the Invariance Principle: a metaphor's mapping preserves the source domain's structural relationships, its image-schema, while quietly dropping any specific inference that conflicts with what's already known about the target. The overriding isn't ad hoc patching to save a broken analogy -- it's predictable in advance from the metaphor's own structure and the target domain's independently known properties. Diagnostic move: when a metaphor seems to apply well overall despite an obvious literal mismatch, check whether the mismatch is exactly the kind the Invariance Principle predicts would be suppressed -- a structural relationship holding while a source-specific literal detail silently drops out -- rather than treating either the metaphor's general fit or its one glaring exception as the more important fact."
-related: [lex-kfdep]
+related: [lex-kfdep, lex-qthpp]
 evokes: [george-lakoff, moral-politics-1996, invariance-principle, nation-as-family, image-schema]
 lineage:
   - source: primary
