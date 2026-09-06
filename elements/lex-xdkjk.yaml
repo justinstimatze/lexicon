@@ -1,0 +1,24 @@
+id: lex-xdkjk
+name: freedom-survives-inequality-only-if-wealth-cant-buy-command
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When assessing whether material wealth inequality actually threatens people's freedom, don't stop at measuring how unequal the wealth distribution is -- check whether there's any institutional pathway for wealth to convert into power over other people's wills. Graeber and Wengrow's Wendat case: some seventeenth-century Wendat men accumulated real wealth (wampum, treasures), so the society was not economically egalitarian by any strict measure. But there was no mechanism to turn that wealth into the power to make anyone work for you or obey you -- even holding political office ('chief,' 'captain') carried no right to give binding orders. Seventeenth-century France was the mirror opposite: wealth converted directly into power over other human beings. The diagnostic question is whether the society has built a working mechanism that lets wealth purchase command over others, regardless of how unequally the wealth itself is distributed -- an unequal society with no such mechanism can preserve full personal freedom in a way an equal one with such a mechanism cannot."
+related: []
+evokes: [david-graeber, david-wengrow, the-dawn-of-everything, kandiaronk, wendat, wealth-and-power, wampum]
+lineage:
+  - source: primary
+    text: dawn-of-everything-no-way-to-transform-resources-into-power
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.2 'Wicked Liberty.'"
+    quote: "“Neither in the case of land and agricultural products, nor that of wampum and similar valuables, was there any way to transform access to material resources into power – at least, not the kind of power that might allow one to make others work for you, or compel them to do anything they did not wish to do.”"
+  - source: primary
+    text: dawn-of-everything-power-over-possessions-translated
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.2 'Wicked Liberty.'"
+    quote: "“Power over possessions could be directly translated into power over other human beings.”"
+canonical-instances:
+  - "The direct textual anchor, on what wealth actually bought instead of command: wealthy Wendat men hoarded treasures largely in order to be able to give them away on dramatic occasions, converting riches into prestige and the possibility of political office, never into the right to compel anyone to do anything."
+  - "Hypothetical: two tech founders each amass a personal fortune of the same size. One's fortune sits in an index fund, generating no leverage over anyone else's choices. The other's fortune is concentrated in voting shares of a company that employs ten thousand people and lobbying access that shapes regulation affecting millions -- identical net worth, radically different amounts of power over other people's lives, because only one of the two fortunes has a working pathway into command over others."
+critical-questions:
+  - "Is the line between 'wealth that buys prestige' and 'wealth that buys power over others' really as clean as this framing suggests? Prestige itself often functions as a soft form of power -- people defer to, imitate, or feel obligated toward the prestigious -- so does the Wendat case actually eliminate wealth-to-power conversion, or just make it less direct and coercive?"
+  - "If the mechanism is what matters rather than the degree of inequality, a modern society could in principle permit unlimited wealth accumulation and still preserve full freedom. What it would need is to aggressively block every pathway from wealth to command: campaign finance limits, anti-monopoly law, mandatory profit-sharing. Is that actually achievable, or would sufficiently large wealth gaps eventually find some pathway to power no matter how the institutions were designed?"
+status: active

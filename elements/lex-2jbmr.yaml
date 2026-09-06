@@ -1,0 +1,24 @@
+id: lex-2jbmr
+name: the-critique-was-about-freedom-first-equality-came-later
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When reconstructing a historical debate, check whether a term everyone now assumes was central to it was actually a late addition -- and whether some deeper, earlier concept did the real work first. Graeber and Wengrow's case: in the seventeenth-century encounters between French colonists and Native American intellectuals in New France, the word 'equality' almost never appears in the primary sources. Both sides agreed indigenous societies were more free than European ones; what they argued about was whether that individual liberty was actually desirable at all. Equality only entered the conversation later, and even then as a derivative of freedom rather than a separate ideal -- true equality, in this framing, is what you get when no one has the power to compel anyone else, so people are equally free to obey or disobey as they see fit. It has almost nothing in common with the more familiar notion of equality before the law, which is really equality in common subjugation to a sovereign. A debate's most prominent modern label may not be its original organizing concept. The earliest sources are where to look for the term or concept the argument actually turned on."
+related: []
+evokes: [david-graeber, david-wengrow, the-dawn-of-everything, jesuit-relations, freedom-vs-equality, wendat]
+lineage:
+  - source: primary
+    text: dawn-of-everything-freedom-not-equality-was-the-debate
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.2 'Wicked Liberty.'"
+    quote: "“That indigenous Americans lived in generally free societies, and that Europeans did not, was never really a matter of debate in these exchanges: both sides agreed this was the case. What they differed on was whether or not individual liberty was desirable.”"
+  - source: primary
+    text: dawn-of-everything-equality-direct-extension-of-freedom
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.2 'Wicked Liberty.'"
+    quote: "“Equality here is a direct extension of freedom; indeed, is its expression.”"
+canonical-instances:
+  - "The direct textual anchor, on how thin the actual word's presence was in the primary sources: across the seventy-one volumes of the Jesuit Relations, the words égal or égalité barely appear at all, and almost always in reference to equality between the sexes rather than anything resembling the modern political sense."
+  - "Hypothetical: a historian researching the early internet's open-source movement assumes the founding debate was about 'access' -- who gets to use the software. Digging into mailing-list archives from the era, they find almost no one used that word; the actual, constant argument was over 'control' -- who gets to modify and redistribute the code without anyone else's permission. 'Access' only became the framing years later, once a different generation inherited the movement's ideals and needed a term that fit a debate they were having about something else."
+critical-questions:
+  - "Could the near-absence of the word 'equality' in the Jesuit Relations reflect a translation gap rather than a genuine conceptual absence -- perhaps the Jesuits, writing for a European audience already saturated with hierarchy-talk, simply had no reason to reach for a term whose relevance they hadn't yet recognized, even if the underlying Wendat concept existed in their own language?"
+  - "If freedom really was the primary indigenous critique and equality only derivative, European Enlightenment thought nonetheless ended up centering equality so heavily that 'origin of inequality' became the very question historians organize around. Why did that shift in emphasis happen, and was something lost or added in the process?"
+status: active
