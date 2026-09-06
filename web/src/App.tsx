@@ -11,12 +11,13 @@ const Graph3D = lazy(() => import("@/components/Graph3D").then((m) => ({ default
 const PivotTable = lazy(() => import("@/components/PivotTable").then((m) => ({ default: m.PivotTable })))
 const ListView = lazy(() => import("@/components/ListView").then((m) => ({ default: m.ListView })))
 const ReadingOrder = lazy(() => import("@/components/ReadingOrder").then((m) => ({ default: m.ReadingOrder })))
+const DocumentTrace = lazy(() => import("@/components/DocumentTrace").then((m) => ({ default: m.DocumentTrace })))
 // Split out too, same reason as the three above: it's the only thing on
 // the About tab that needs graph.json, and About is part of the eager
 // app shell — inlining the dataset there would defeat the split.
 const AboutPreview = lazy(() => import("@/components/AboutPreview").then((m) => ({ default: m.AboutPreview })))
 
-type Tab = "about" | "list" | "pivot" | "graph" | "reading-order"
+type Tab = "about" | "list" | "pivot" | "graph" | "reading-order" | "trace"
 
 const TAB_CLASS =
   "h-auto shrink-0 rounded-none px-3 py-2.5 font-mono text-[11px] tracking-[0.08em] text-ink-dim uppercase after:bg-primary data-active:bg-transparent data-active:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/60"
@@ -26,6 +27,7 @@ const ABOUT_NAV: { tab: Tab; label: string; desc: string }[] = [
   { tab: "pivot", label: "Pivot", desc: "Grouped by the shape of claim each entry makes." },
   { tab: "graph", label: "Graph", desc: "Placed by strength of connection to everything else." },
   { tab: "reading-order", label: "Reading Order", desc: "A computed tour through the primary sources themselves." },
+  { tab: "trace", label: "Trace", desc: "A document walked paragraph by paragraph, patterns in reading order." },
 ]
 
 // GitHub Pages serves this as a static file tree with no server-side
@@ -36,7 +38,9 @@ const ABOUT_NAV: { tab: Tab; label: string; desc: string }[] = [
 // refreshes both just work with zero extra GH Pages config.
 function tabFromPath(pathname: string): Tab {
   const seg = pathname.split("/")[1] ?? ""
-  return seg === "list" || seg === "pivot" || seg === "graph" || seg === "reading-order" ? seg : "about"
+  return seg === "list" || seg === "pivot" || seg === "graph" || seg === "reading-order" || seg === "trace"
+    ? seg
+    : "about"
 }
 
 const LOADING_FALLBACK = (label: string) => (
@@ -177,6 +181,9 @@ function AppShell() {
               <TabsTrigger value="reading-order" className={TAB_CLASS}>
                 Reading Order
               </TabsTrigger>
+              <TabsTrigger value="trace" className={TAB_CLASS}>
+                Trace
+              </TabsTrigger>
             </TabsList>
           </div>
         </header>
@@ -199,6 +206,10 @@ function AppShell() {
             <Route
               path="/reading-order"
               element={<Suspense fallback={LOADING_FALLBACK("reading order")}>{<ReadingOrder />}</Suspense>}
+            />
+            <Route
+              path="/trace"
+              element={<Suspense fallback={LOADING_FALLBACK("trace")}>{<DocumentTrace />}</Suspense>}
             />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>

@@ -64,11 +64,13 @@ render/lexicon pivot  -out public/pivot.html
 render/lexicon anki   -out public/lexicon-anki.tsv
 render/lexicon export-graph -out web/src/data/graph.json -details-dir web/public/atoms
 render/lexicon reading-order -out web/src/data/reading-order.json
+render/lexicon document-trace -manifest documents/manifest.json -out web/src/data/document-traces.json
 echo "public/shell.html:  $(wc -c < public/shell.html)  bytes (legacy composed shell)"
 echo "public/matrix.html: $(wc -c < public/matrix.html) bytes (standalone matrix)"
 echo "public/pivot.html:  $(wc -c < public/pivot.html)  bytes (standalone pivot)"
 echo "public/lexicon-anki.tsv: $(wc -c < public/lexicon-anki.tsv) bytes (anki deck)"
 echo "web/src/data/graph.json (bundled, trimmed): $(wc -c < web/src/data/graph.json) bytes"
+echo "web/src/data/document-traces.json: $(wc -c < web/src/data/document-traces.json) bytes"
 echo "web/public/atoms/: $(find web/public/atoms -type f | wc -l) atom detail files"
 
 ( cd web && npm ci && npm run build )

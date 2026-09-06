@@ -60,6 +60,17 @@ Usage:
                                  inlines at build time; consumed by the
                                  web/ frontend's build step. Default
                                  stdout.)
+  lexicon document-trace -manifest <path> [--out <path>] [--top-k N]
+                          [--min-score F] [--no-lens] [--min-words N]
+                                (2026-09-06: walk each document in the
+                                 manifest paragraph by paragraph, matching
+                                 corp.ScoreRaw per paragraph, and emit an
+                                 ORDERED trace of atom hits — a sequence
+                                 across a whole document, not a single
+                                 top-K snapshot like read/what-if.
+                                 Build-time precompute for the web/ SPA's
+                                 Trace tab; never called live from the
+                                 browser. Default stdout.)
   lexicon doctor [--last N] [--json]
                                 (V13: observability snapshot. Reads
                                  ~/.claude/lexicon/{metrics,fires}.jsonl
@@ -397,6 +408,8 @@ func main() {
 		cmdExtrapolate(renderDir, os.Args[2:])
 	case "partitions":
 		cmdPartitions(renderDir, os.Args[2:])
+	case "document-trace":
+		cmdDocumentTrace(renderDir, os.Args[2:])
 	case "list":
 		cmdList(renderDir, os.Args[2:])
 	case "anki":
