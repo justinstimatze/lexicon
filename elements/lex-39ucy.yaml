@@ -1,0 +1,20 @@
+id: lex-39ucy
+name: currency-integrity-depends-on-one-debt-staying-permanently-unpaid
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Some credit systems don't just tolerate an unpaid debt -- they require one. An IOU passed hand to hand functions as money only because the original issuer never redeems it; the moment it's paid off, it stops circulating and the story ends. The Bank of England was founded on exactly this logic. In 1694 a consortium of bankers loaned the English king £1,200,000 and received, in exchange, the exclusive right to issue banknotes against a portion of that debt -- to circulate the king's IOU as currency. That only worked as long as the original loan stayed outstanding. To this day it has never been paid back, and it can't be: paying it off would end the very mechanism that lets it circulate as money in the first place. What looks like the one debt nobody can ever collect on is the foundation the whole system of circulating currency sits on."
+related: [lex-qbbav]
+evokes: [david-graeber, debt-the-first-5000-years, bank-of-england-1694, credit-theory-of-money, henrys-iou, unredeemable-founding-debt]
+lineage:
+  - source: primary
+    text: graeber-2011-debt-bank-of-england-unredeemable-loan
+    citation: "David Graeber, Debt: The First 5,000 Years (Melville House, 2011), ch.3 'Primordial Debts.'"
+    quote: "“In fact this is precisely the logic on which the Bank of England—the first successful modern central bank—was originally founded. In 1694, a consortium of English bankers made a loan of £1,200,000 to the king. In return they received a royal monopoly on the issuance of banknotes. What this meant in practice was they had the right to advance IOUs for a portion of the money the king now owed them to any inhabitant of the kingdom willing to borrow from them, or willing to deposit their own money in the bank—in effect, to circulate or ‘monetize’ the newly created royal debt. This was a great deal for the bankers (they got to charge the king 8 percent annual interest for the original loan and simultaneously charge interest on the same money to the clients who borrowed it), but it only worked as long as the original loan remained outstanding. To this day, this loan has never been paid back. It cannot be. If it ever were, the entire monetary system of Great Britain would cease to exist.”"
+canonical-instances:
+  - "The direct textual anchor, in Graeber's own toy model of credit money: “the IOU can operate as money only as long as Henry never pays his debt.” The moment an IOU is redeemed, it stops circulating and the credit relationship ends -- which means any currency built on circulating IOUs needs its founding obligation left open indefinitely, not settled."
+  - "Hypothetical: a government issues perpetual bonds designed to never mature, and uses the proceeds to back the initial issuance of a new national digital currency. If the government ever fully retired those bonds, the currency's backing mechanism would evaporate along with them -- so retiring the bonds becomes something policymakers actively avoid, since doing so would undercut the currency itself."
+critical-questions:
+  - "Does this mechanism generalize to modern fiat currencies backed by nothing but public trust since 1971, where there may be no single foundational debt still outstanding at all -- or does the Bank of England case describe something specific to credit-money systems built on an identifiable founding loan, that simply doesn't apply once a currency is unpegged from any such underlying IOU?"
+  - "If the founding debt's non-repayment is structurally necessary, does calling it a debt at all still make sense, given the requirement (lex-qbbav) that a real debt hold open the possibility of eventual settlement? Or is the Bank of England's loan actually something else entirely -- a permanent institutional fiction borrowing debt's vocabulary -- precisely because it was never meant to be closable?"
+status: active

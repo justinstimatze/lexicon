@@ -1,0 +1,20 @@
+id: lex-a5qyc
+name: taxation-manufactures-the-market-it-demands-payment-in
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When an authority backed by coercive force wants a market to exist where none currently does, it doesn't need to wait for one to emerge organically -- it can manufacture one directly. Pay your own agents (soldiers, officials) in an arbitrary token, then demand that the entire population hand some of that same token back to you as a tax. Anyone who doesn't already have the token now has to produce something the token-holders want in order to get it: now every family, in order to get their hands on the coins, must find some way to contribute to the general effort to provide soldiers with things they want, and markets are brought into existence as a side effect -- the output of the tax, not a precondition it needed. This inverts the standard textbook sequence of barter, then money, then markets, then taxes, and it answers a real puzzle about ancient states: why extract silver, stamp your own face on it, hand it out, and then turn around and demand people give it back to you, instead of simply keeping the mines for yourself?"
+related: [lex-rq8my]
+evokes: [david-graeber, debt-the-first-5000-years, chartalism, state-theory-of-money, madagascar-head-tax, markets-as-side-effect-of-taxation]
+lineage:
+  - source: primary
+    text: graeber-2011-debt-taxation-manufactures-markets
+    citation: "David Graeber, Debt: The First 5,000 Years (Melville House, 2011), ch.3 'Primordial Debts.'"
+    quote: "“On the other hand, if one simply hands out coins to the soldiers and then demands that every family in the kingdom was obliged to pay one of those coins back to you, one would, in one blow, turn one’s entire national economy into a vast machine for the provisioning of soldiers, since now every family, in order to get their hands on the coins, must find some way to contribute to the general effort to provide soldiers with things they want. Markets are brought into existence as a side effect.”"
+canonical-instances:
+  - "The direct textual anchor, applied under colonial conditions: French general Gallieni's 1901 conquest of Madagascar was followed by a head tax payable only in newly issued Malagasy francs -- what colonial administrators themselves called the “impôt moralisateur,” the “educational” or “moralizing” tax. Peasants who had never needed cash before now had to sell rice at harvest-time low prices to get the francs, then often had to buy their own rice back later at higher prices, falling into debt to the same merchants who sold it to them -- exactly the forced entry into market relations the tax was designed to produce."
+  - "Hypothetical: an occupying military government issues its own scrip to local contractors hired for reconstruction work. It then announces that all property-registration fees must be paid in that scrip instead of the old national currency. Within months a functioning local market in the new scrip appears -- shopkeepers who never dealt with the occupiers start accepting it, purely because enough of their customers now need it to pay a fee that has nothing to do with buying or selling anything at all."
+critical-questions:
+  - "Graeber's army example assumes the population has no other way to acquire the required token except by producing something the token-holders want -- but what if people can also just steal, borrow, or barter for the token itself without entering any new productive market relation at all? Does the mechanism require that the token-holders' wants be for things the tax-paying population can only supply through new market activity, rather than through existing informal channels?"
+  - "Is the same mechanism visible in non-state settings -- a company town's scrip, a platform's proprietary in-app currency, a loyalty-points system -- or does it require the specifically coercive backstop of a state tax, with jail or violence for nonpayment, to actually force market participation rather than simply being ignored?"
+status: active

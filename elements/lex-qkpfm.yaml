@@ -1,0 +1,20 @@
+id: lex-qkpfm
+name: periodic-debt-jubilees-prevent-a-society-tearing-itself-apart
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When private consumer debt is left to run its natural course, don't assume it just sorts winners from losers -- unchecked, it can snowball into mass debt-peonage that tears a society apart. In ancient Mesopotamia, one bad harvest could be enough: peasants' possessions, then their fields, then family members, then eventually the debtors themselves would be seized as collateral, while abandoned farms emptied out and indebted families fled into nomadic bands rather than face repossession. Sumerian and Babylonian kings responded with what economic historian Michael Hudson calls 'clean slates': periodic royal decrees canceling all outstanding consumer debt (commercial debts were untouched), returning seized land, and freeing debt-peons -- not as an emergency measure but as an expected, recurring function of kingship, often issued on first taking the throne and repeated through a reign as needed. The Sumerian word for these decrees, amargi, is the first recorded word for 'freedom' in any known language, and literally means 'return to mother' -- what a freed debt-peon finally got to do."
+related: [lex-dk5t2]
+evokes: [david-graeber, debt-the-first-5000-years, clean-slate, michael-hudson, amargi, sumerian-debt-jubilee]
+lineage:
+  - source: primary
+    text: graeber-2011-debt-mesopotamian-clean-slate
+    citation: "David Graeber, Debt: The First 5,000 Years (Melville House, 2011), ch.3 'Primordial Debts.'"
+    quote: "“If for any reason there was a bad harvest, large proportions of the peasantry would fall into debt peonage; families would be broken up. Before long, lands lay abandoned as indebted farmers fled their homes for fear of repossession and joined semi-nomadic bands on the desert fringes of urban civilization. Faced with the potential for complete social breakdown, Sumerian and later Babylonian kings periodically announced general amnesties.”"
+canonical-instances:
+  - "The direct textual anchor, on the word this practice left behind: “In Sumeria, these were called ‘declarations of freedom’—and it is significant that the Sumerian word amargi, the first recorded word for ‘freedom’ in any known human language, literally means ‘return to mother’—since this is what freed debt-peons were finally allowed to do.”"
+  - "Hypothetical: a farming region hit by three successive drought years sees smallholders borrowing against next year's harvest just to survive the current one, until a third of local farms are mortgaged past their value and a wave of foreclosures begins. A regional government, worried less about creditors' fairness than about mass displacement and unrest, declares all agricultural loans from the drought years forgiven -- treating the debt itself, not the farmers' judgment, as the thing that broke."
+critical-questions:
+  - "Hudson (via Graeber) argues kings could only do this because of their cosmic pretensions -- in taking power, they saw themselves as literally recreating human society, and so were in a position to wipe the slate clean of all previous moral obligations. Does the mechanism require that kind of totalizing authority to work, or could a weaker, more limited government (a modern legislature, a bankruptcy court) achieve the same stabilizing effect without claiming to be recreating society from scratch?"
+  - "Commercial debts were exempted from these clean slates -- only consumer and subsistence debt was cancelled. Does that distinction track something principled -- desperation and bad luck behind a subsistence loan, a calculated risk both parties accepted behind a commercial one -- or is it simply that merchants and temple administrators had enough power to keep their own claims off the chopping block regardless of the justification offered?"
+status: active
