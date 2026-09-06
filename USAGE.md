@@ -12,6 +12,23 @@ doesn't fit here.
 curated set of tools an agent calls directly, no shelling out. This is
 the primary interface.
 
+`lexicon mcp` handles one request at a time over its single stdio
+pipe — there's no request-ID multiplexing. A consumer with concurrent
+callers (multiple agents, a fan-out) needs a lock around one shared
+subprocess rather than issuing calls in parallel, or it risks
+corrupting the newline-delimited-JSON framing. Relatedly, if you're
+writing your own NDJSON reader against this pipe rather than an
+existing MCP client library, check your runtime's stream reader for a
+default max-line-length — some stdlib line readers (not unique to any
+one language) truncate or error on a longer-than-expected single line.
+`lexicon_read`/`lexicon_predict`/`lexicon_distinctness` each shell out
+to a fresh `lexicon` subprocess per call (deliberate crash isolation
+for the network-calling tools, not an oversight) — so each of those
+calls repeats a full corpus load, even within one long-lived MCP
+session. High-volume callers (dozens-to-hundreds of calls per session)
+should budget for that per-call cost rather than assume the corpus is
+cached across calls.
+
 **CLI** — every MCP tool has a CLI equivalent for scripting or manual
 use (`lexicon read`, `lexicon extrapolate`, ...). Build with
 `go build -o lexicon ./cmd/lexicon` from `render/`.
@@ -27,7 +44,7 @@ free:
   set that the constellation points at, ranked by how many of them
   point at it. The ontological negative space of whatever frame the
   constellation names.
-- **`lexicon_constellation`** (no CLI equivalent yet) — the N-hop
+- **`lexicon_constellation`** (`lexicon constellation <id>`) — the N-hop
   neighborhood of one atom: what it relates to, decomposes into, and
   is pointed at by, each neighbor carrying its own gloss and
   agent-instruction so a caller can compose without a follow-up call.
@@ -40,7 +57,9 @@ Two use an LLM-backed semantic lens by default (skip it with
   chunk, your own writing. Each result carries `agent_instruction`
   (the imperative rule) and `critical_questions` (what would confirm
   or reject the pattern actually applying).
-- **`lexicon_predict`** (no CLI equivalent yet) — forecast downstream
+- **`lexicon_predict`** (`lexicon what-if --mode intervene --context -`,
+  a different CLI name than the MCP tool — the mapping isn't obvious
+  from either name alone) — forecast downstream
   effects of a plan or situation via the reaction-tier atoms: what's
   likely, what accelerates it, what blocks it, under what conditions.
 
