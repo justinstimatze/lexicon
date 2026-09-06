@@ -1,0 +1,24 @@
+id: lex-4qwcm
+name: making-a-life-fungible-requires-violence-not-abstraction
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When something gets converted from priceless to priced -- a human life quantified as a number of cattle, cloths, or dollars -- look for the violence that made the conversion possible, not just the math. Graeber's Lele evidence: rip a woman from her family, her mother's kin, her whole web of debts and obligations, and she becomes exchangeable for a person just like her, one life for one life. Rip her out further, more completely, and she becomes exchangeable for an object instead: a bar of camwood, a slave's asking price. The move from one-life-equals-one-life to one-life-equals-a-hundred-cloths never happened because someone did the math and decided a life was worth that much. Graeber is explicit that what did the work was actual violence -- broken bones, ropes, chains -- and that this violence is the only thing that ever makes the equation hold. Wherever a person, a species, or a relationship gets priced, ask what had to be severed from its surrounding context to make the number possible, and by what means."
+related: [lex-vzqv5]
+evokes: [david-graeber, debt-the-first-5000-years, lele-pawnship, commensuration, ripped-from-context]
+lineage:
+  - source: primary
+    text: graeber-2011-debt-violence-of-commensuration
+    citation: "David Graeber, Debt: The First 5,000 Years (Melville House, 2011), ch.6 'Games with Sex and Death,' section 'Reflections on Violence.'"
+    quote: "“This requires a certain violence. To make her equivalent to a bar of camwood takes even more violence, and it takes an enormous amount of sustained and systematic violence to rip her so completely from her context that she becomes a slave.”"
+  - source: primary
+    text: graeber-2011-debt-violence-not-metaphorical
+    citation: "David Graeber, Debt: The First 5,000 Years (Melville House, 2011), ch.6 'Games with Sex and Death,' section 'Reflections on Violence.'"
+    quote: "“I should be clear here. I am not using the word ‘violence’ metaphorically. I am not speaking merely of conceptual violence, but of the literal threat of broken bones and bruised flesh; of punches and kicks; in much the same way that when the ancient Hebrews spoke of their daughters in ‘bondage,’ they were not being poetic, but talking about literal ropes and chains.”"
+canonical-instances:
+  - "The direct textual anchor, on the Lele blood-debt system's own point of transition from life-for-life exchange to life-for-object pricing: “The value of a human life could, sometimes, be quantified; but if one was able to move from A = A (one life equals another) to A = B (one life = one hundred cloths), it was only because the equation was established at the point of a spear.”"
+  - "Hypothetical: a mining company wants to buy out a village's communal forestland, but the elders refuse -- the forest holds the graves of their ancestors and gives every clan its name. Negotiations go nowhere until a change in state land law strips the communal title and forces individual families to register separate parcels. Only after that legal severance does a market price per hectare become negotiable at all -- the coercion that broke the communal claim made the number possible, not the negotiation itself."
+critical-questions:
+  - "Graeber ties this mechanism specifically to physical force -- broken bones, ropes, chains. Modern commensuration (actuarial value-of-life calculations, compensation formulas, market pricing of formerly-priceless goods like carbon emissions or ecosystem services) rarely involves anyone being physically struck. Does the mechanism still require actual physical force to do its work? Or can a purely legal or bureaucratic move -- a change in property law, a court ruling stripping a right -- sever the same context just as completely, with no body ever touched?"
+  - "Compare to the Tiv sister-exchange system described just before this passage, one life for one life, A = A: Graeber treats that too as requiring 'a certain violence,' in the ripping of a woman from her own natal context, well before any life-for-object jump enters the picture. Does that mean the symmetric exchange between supposed equals was never actually the violence-free baseline it's implicitly treated as?"
+status: active
