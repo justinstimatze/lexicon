@@ -1,0 +1,20 @@
+id: lex-aux7n
+name: emancipation-without-resources-leaves-freedom-structurally-dependent
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A population's path out of subjugation can run toward real independence or toward a softer, ongoing dependency depending on one specific fact: whether the emancipation came bundled with any transfer of resources. Douglass makes the comparison explicit: 'When the Hebrews were emancipated, they were told to take spoil from the Egyptians. When the serfs of Russia were emancipated, they were given three acres of ground upon which they could live and make a living. But not so when our slaves were emancipated. They were sent away empty-handed, without money, without friends, and without a foot of land to stand upon.' The claim isn't that formal freedom is worthless without capital -- it's narrower: the specific means of self-support (land, spoil, a stake of any kind) is what converts a legal change in status into an actual change in circumstance, and a population freed without it stays dependent on whoever still controls the resources it needs to live."
+related: []
+evokes: [take-spoil-from-the-egyptians, three-acres-of-ground, sent-away-empty-handed, no-foot-of-land-to-stand-upon]
+lineage:
+  - source: primary
+    text: douglass-1881-life-and-times-part-ii-appendix-sent-away-empty-handed
+    citation: "Frederick Douglass, Life and Times of Frederick Douglass (1881), Appendix, extract from his 1880 West India Emancipation speech, Elmira, N. Y."
+    quote: "“When the Hebrews were emancipated, they were told to take spoil from the Egyptians. When the serfs of Russia were emancipated, they were given three acres of ground upon which they could live and make a living. But not so when our slaves were emancipated. They were sent away empty-handed, without money, without friends, and without a foot of land to stand upon.”"
+canonical-instances:
+  - "The direct textual anchor: Douglass frames this as a comparative claim rather than an isolated complaint -- 'History does not furnish an example of emancipation under conditions less friendly to the emancipated class' -- placing the American case against a reference class of other emancipations rather than judging it against an abstract ideal."
+  - "Hypothetical: A country releases a wrongfully imprisoned man after decades, restoring his legal freedom and clearing his record, but gives him no housing, no back pay, and no job placement -- he leaves prison free in name while remaining functionally dependent on whichever institution or family member is willing to take him in."
+critical-questions:
+  - "Douglass names three specific historical comparisons -- Hebrews, Russian serfs, American freedmen. Does the pattern generalize to any transition out of subjugation, or does it depend on the specific resource (land, capital, social network) matching what the freed population would actually need to be self-supporting in their own economy?"
+  - "Whose responsibility is the resource transfer -- the outgoing power that benefited from the subjugation, a third party such as the state, or does the argument hold regardless of who provides it, so long as it arrives at the moment of emancipation rather than being deferred?"
+status: active

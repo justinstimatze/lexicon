@@ -1,0 +1,24 @@
+id: lex-d52mg
+name: confining-representation-to-identity-matched-roles-marks-incomplete-inclusion
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A gesture of inclusion that only ever assigns a marginalized group's representatives to postings already associated with their own identity can still fall short of full trust, even when those postings are real and dignified in their own right. Garfield tells Douglass he wants to go further than what's already been done: 'he felt the time had come when a step should be taken in advance, in recognition of the claims of colored citizens, and expressed his intention of sending some colored representatives abroad to other than colored nations.' Douglass names the distinction precisely: 'It is a great thing for Hon. John Mercer Langston to represent this republic at Port au Prince, and for Henry Highland Garnet to represent us in Liberia, but it would be indeed a step in advance, to have some colored men sent to represent us in white nationalities.' Sending a Black diplomat to a Black-led nation reads as fitting; sending the same diplomat somewhere his identity carries no such built-in rationale is the harder, more complete form of trust."
+related: []
+evokes: [other-than-colored-nations, a-step-in-advance, represent-us-in-white-nationalities, langston-at-port-au-prince-garnet-in-liberia]
+lineage:
+  - source: primary
+    text: douglass-1881-life-and-times-part-ii-ch19-other-than-colored-nations
+    citation: "Frederick Douglass, Life and Times of Frederick Douglass (1881), Part II ('Life as a Freeman'), Chapter XIX, 'Retrospection.'"
+    quote: "“I called at the Executive Mansion, and was received very kindly by Mr. Garfield, who, in the course of the conversation said, that he felt the time had come when a step should be taken in advance, in recognition of the claims of colored citizens, and expressed his intention of sending some colored representatives abroad to other than colored nations.”"
+  - source: primary
+    text: douglass-1881-life-and-times-part-ii-ch19-a-step-in-advance
+    citation: "Frederick Douglass, Life and Times of Frederick Douglass (1881), Part II ('Life as a Freeman'), Chapter XIX, 'Retrospection.'"
+    quote: "“It is a great thing for Hon. John Mercer Langston to represent this republic at Port au Prince, and for Henry Highland Garnet to represent us in Liberia, but it would be indeed a step in advance, to have some colored men sent to represent us in white nationalities, and we have reason for profound regret that Mr. Garfield could not have lived to carry out his just and wise intentions towards us.”"
+canonical-instances:
+  - "The direct textual anchor: Douglass frames the existing postings as genuinely worth honoring, not as tokenism to be dismissed -- 'It is a great thing' -- before naming the further step, which keeps the critique from reading as ingratitude for real progress already made."
+  - "Hypothetical: A law firm proudly assigns its few disabled attorneys exclusively to disability-rights and accessibility-litigation cases; a partner who suggests staffing one of them on a routine corporate merger instead is proposing the actual advance the firm's current practice has never made."
+critical-questions:
+  - "Is there a legitimate reason to prefer identity-matched postings on their own merits -- shared cultural or linguistic fluency, credibility with a specific counterpart nation -- that this critique risks discounting, or does the critique apply cleanly only once a role's identity-match is incidental rather than functionally useful?"
+  - "Garfield died before acting on this intention, so the historical record shows only the stated plan, not its execution. How should the mechanism be evaluated when it exists only as an articulated intention rather than an observed outcome?"
+status: active

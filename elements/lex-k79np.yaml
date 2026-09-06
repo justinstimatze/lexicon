@@ -1,0 +1,20 @@
+id: lex-k79np
+name: unremoved-coercive-power-keeps-the-old-relation-under-new-names
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a formerly subjugated class is granted the legal titles of freedom -- citizen, soldier, free man -- check whether the specific coercive power that made the old relation work has actually been taken away, or only relabeled. Douglass diagnoses Reconstruction's failure exactly this way: 'They gave freedmen the machinery of liberty, but denied them the steam to put it in motion... they called them citizens, and left them subjects; they called them free, and almost left them slaves.' He locates the one power that mattered and names it directly: the old master class 'retained the power to starve them to death, and wherever this power is held, there is the power of slavery.' His definition of the underlying relation is deliberately operational rather than legal: he who can say to another 'you shall serve me or starve' is a master, whatever the two of them are now legally called. By this test, a change in title changes nothing on its own; only removing the leverage that lets one party dictate the other's survival changes the relation itself."
+related: []
+evokes: [machinery-of-liberty-no-steam, called-them-citizens-left-them-subjects, the-power-to-starve-them-to-death, serve-me-or-starve]
+lineage:
+  - source: primary
+    text: douglass-1881-life-and-times-part-ii-appendix-serve-me-or-starve
+    citation: "Frederick Douglass, Life and Times of Frederick Douglass (1881), Appendix, extract from his 1880 West India Emancipation speech, Elmira, N. Y."
+    quote: "“They gave freedmen the machinery of liberty, but denied them the steam to put it in motion. They gave them the uniform of soldiers, but no arms; they called them citizens, and left them subjects; they called them free, and almost left them slaves. They did not deprive the old master class of the power of life and death which was the soul of the relation of master and slave. They could not of course sell them, but they retained the power to starve them to death, and wherever this power is held, there is the power of slavery. He who can say to his fellow-man, ‘You shall serve me or starve,’ is a master, and his subject is a slave.”"
+canonical-instances:
+  - "The direct textual anchor: Douglass names the specific piece Reconstruction did successfully remove -- 'they could not of course sell them' -- distinguishing it from the piece it left standing, the power over subsistence, which he treats as the part that actually mattered to whether the relation itself had ended."
+  - "Hypothetical: A company ends an exploitative live-in household-staff arrangement and gives the staff formal 'employee' status and a paycheck, while they remain dependent on that same employer for on-site housing with no viable alternative -- the title has changed, but whoever controls the housing still controls whether the employee eats."
+critical-questions:
+  - "Operationally distinct from lex-su2sk (afterlife-of-dismantled-arrangement-persists-as-ongoing-distributional-condition): that atom diagnoses persistence in outcomes -- life expectancy, wealth, incarceration -- after a formal arrangement ends, without specifying a single mechanism. This atom names one specific, transferable operational test, whether one party still holds the power to withhold subsistence, for diagnosing at the moment reform is enacted whether it removed the relation's substance or just its label."
+  - "Is the 'serve me or starve' test too narrow, capturing only economic coercion and missing other forms of unremoved power -- violence, legal harassment, social exclusion -- that could equally leave an old relation intact under a new name?"
+status: active
