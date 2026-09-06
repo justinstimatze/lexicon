@@ -1,0 +1,24 @@
+id: lex-744qr
+name: perpetually-rolled-over-sovereign-debt-is-tribute-in-legal-disguise
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a debt is structurally never meant to be repaid -- only ever refinanced, rolled over, extended indefinitely -- check whether it's actually functioning as tribute wearing the legal and administrative clothing of ordinary lending. Since 1971, foreign central banks, disproportionately those in countries hosting U.S. military bases, have held U.S. Treasury bonds that get perpetually rolled over rather than matured and repaid. Economist Michael Hudson's read: this is the essence of a free financial ride, a tax imposed on the entire globe, though it gets called 'reserve currency management' or 'seigniorage' rather than named as what it structurally does. The tell that separates this from an ordinary loan: a real loan carries a genuine expectation of eventual repayment and a real risk of default changing the relationship. A debt that both parties understand will simply keep rolling over forever functions as a standing payment relabeled as credit, so it never has to be justified as tribute or renegotiated as one."
+related: [lex-rq8my]
+evokes: [david-graeber, debt-the-first-5000-years, michael-hudson, treasury-bonds, seigniorage, tribute]
+lineage:
+  - source: primary
+    text: graeber-2011-debt-hudson-americas-free-financial-ride
+    citation: "David Graeber, Debt: The First 5,000 Years (Melville House, 2011), ch.12, citing economist Michael Hudson."
+    quote: "“To the extent that these Treasury IOUs are being built into the world's monetary base they will not have to be repaid, but are to be rolled over indefinitely. This feature is the essence of America's free financial ride, a tax imposed at the entire globe's expense.”"
+  - source: primary
+    text: graeber-2011-debt-promise-that-will-not-be-kept
+    citation: "David Graeber, Debt: The First 5,000 Years (Melville House, 2011), ch.12."
+    quote: "“Its national debt has become a promise, not just to its own people, but to the nations of the entire world, that everyone knows will not be kept.”"
+canonical-instances:
+  - "The direct textual anchor, on the historical precedent Graeber uses to name the pattern: the Chinese empire's own long-running tribute system rewarded client states with gifts of silk and porcelain far exceeding what it received in return, in exchange for their recognition of the emperor as world-sovereign -- a policy the U.S. more or less had to adopt with its own Cold War-era military protectorates."
+  - "Hypothetical: a franchise chain requires each new location to take out a 'renewable equipment loan' from the parent company that, by explicit policy, never actually gets paid off -- franchisees just refinance it every few years at a set rate, indefinitely. Corporate calls this a standard financing arrangement and a service to franchisees; from the franchisee's side, once you notice the loan structurally never closes, it functions exactly like a permanent royalty payment that was never negotiated or disclosed as one."
+critical-questions:
+  - "If a debt genuinely never gets repaid but the debtor could in principle choose to repay it (unlike literal tribute demanded under military threat), does calling it 'disguised tribute' overstate the coercion involved? What distinguishes a debt relationship both parties are simply comfortable perpetuating from one side being unable to escape it?"
+  - "Some U.S. Treasury bond holders (private investors, some non-client states) do actually cash out and reinvest elsewhere, and the U.S. does make interest payments rather than just refusing them. Does the tribute framing hold for the system as a whole even though individual transactions within it look like ordinary functioning credit markets, or does it only really apply to the subset of holders under genuine military dependency?"
+status: active
