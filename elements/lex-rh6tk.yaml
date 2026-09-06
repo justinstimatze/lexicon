@@ -1,0 +1,21 @@
+id: lex-rh6tk
+name: announcing-a-forced-sale-collapses-the-assets-own-value
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Announcing that you must sell an asset because you're leaving can collapse that asset's market value on the spot, since part of what it was worth traced to your own credible willingness to keep it. Douglass warns Black Southerners against joining the 1879 exodus movement by first selling off their land and livestock: 'Let it be understood that you are going, and you advertise the fact that your mule has lost half its value; for your staying with him makes half his value. Let the colored people of Georgia offer their six millions' worth of property for sale, with the purpose to leave Georgia, and they will not realize half its value. Land is not worth much where there are no people to occupy it, and a mule is not worth much where there is no one to drive him.' The mechanism isn't primarily an information leak about desperation in a single negotiation -- it's that some assets' value is genuinely coupled to continued use by a present owner (a mule needs a driver, land needs an occupant), so announcing departure doesn't just weaken your bargaining position, it shrinks the pool of value there is to bargain over at all."
+related: []
+evokes: [your-staying-with-him-makes-half-his-value, land-is-not-worth-much-where-there-are-no-people, six-millions-worth-of-property, value-coupled-to-continued-occupation]
+lineage:
+  - source: primary
+    text: douglass-1881-life-and-times-part-ii-ch15-mule-lost-half-its-value
+    citation: "Frederick Douglass, Life and Times of Frederick Douglass (1881), Part II ('Life as a Freeman'), Chapter XV, 'Weighed in the Balance' -- from Douglass's paper opposing the 1879 exodus movement."
+    quote: "“Let it be understood that you are going, and you advertise the fact that your mule has lost half its value; for your staying with him makes half his value. Let the colored people of Georgia offer their six millions' worth of property for sale, with the purpose to leave Georgia, and they will not realize half its value. Land is not worth much where there are no people to occupy it, and a mule is not worth much where there is no one to drive him.”"
+canonical-instances:
+  - "The direct textual anchor: Douglass names two separate assets hit by the identical mechanism at two different scales -- a single mule, and Georgia's entire Black-owned property base -- running from one individual sale up to an entire population's collective departure. No coordination is needed for it to fire; a buyer only has to know the seller has nowhere else to be."
+  - "Hypothetical: a family selling their home because they must relocate for a new job tells their real estate agent the timeline is flexible, when in fact they need to close within thirty days. Once potential buyers sense any hint of urgency, offers come in lower, because the family's own need to leave has become part of what the property is worth to a buyer who can now negotiate against a deadline the sellers can't actually enforce."
+critical-questions:
+  - "Does this mechanism apply only to assets whose value genuinely depends on ongoing use by a present occupant (land, livestock, a going business), or does it extend to fungible assets (cash, stocks) whose market value has no real connection to who currently holds them, where only ordinary negotiating leverage, not intrinsic value, would be affected?"
+  - "Is there a way to sell in order to leave without triggering this collapse -- staggering the sale, using an intermediary who doesn't disclose the seller's plans, or is the information effectively unhideable once enough people are leaving at once, as in the Georgia exodus case?"
+  - "Whose interest does pointing this mechanism out actually serve? Douglass is using it as an argument against leaving at all -- but a population correctly warned about this effect could instead coordinate a staggered or disguised departure that avoids the value collapse, rather than concluding they shouldn't leave."
+status: active
