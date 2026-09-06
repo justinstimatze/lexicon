@@ -1,0 +1,24 @@
+id: lex-4y6fb
+name: honoring-anothers-values-fully-can-require-abandoning-the-honoring
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A rule can tell you to act according to someone else's own standard rather than yours. Check what happens when that standard itself rejects the practice being demanded of you. Lakoff's 'strong Golden Rule' improves on the ordinary one: instead of doing unto others as you would have them do unto you, you do unto them as they would have you do unto them, taking their actual values as the standard rather than assuming your own apply. This works cleanly on ordinary disagreements. It breaks on a specific case: a liberal trying to empathize with a conservative whose Strict Father worldview specifically rejects cross-value empathy as a legitimate moral practice. Fully honoring that conservative's values would mean abandoning the empathetic stance the strong Golden Rule was using to honor them in the first place -- to obey the rule all the way through is to stop obeying it. The paradox only bites when the value being honored is itself a stance on whether values should be honored this way, so honoring it consistently requires ceasing to honor it. Diagnostic move: before applying an other-values-standard rule to someone, check whether their values include a position on the rule's own method -- if so, full compliance and successful compliance may not be the same act."
+related: []
+evokes: [george-lakoff, moral-politics-1996, strong-golden-rule, empathy-paradox, strict-father-nurturant-parent]
+lineage:
+  - source: primary
+    text: lakoff-1996-strong-golden-rule-paradox
+    citation: "George Lakoff, Moral Politics: How Liberals and Conservatives Think (University of Chicago Press, 3rd ed., 2016), Chapter 6 'Nurturant Parent Morality,' section 'MORALITY AS EMPATHY.' The chapter text is the unrevised second-edition (1996) text; the third edition adds a new preface and a 2016 afterword around it."
+    quote: "“The strong Golden Rule is, however, not always applicable. Suppose you are a liberal attempting to empathize with a conservative, whose Strict Father views contradict the very kind of empathy you are trying to use. To adopt his values is to undermine any possible success at implementing your values. When the value system as a whole is at stake, the strong Golden Rule may yield a paradox. To obey it is not to obey it.”"
+  - source: primary
+    text: lakoff-1996-strong-golden-rule-defined
+    citation: "George Lakoff, Moral Politics: How Liberals and Conservatives Think (University of Chicago Press, 3rd ed., 2016), Chapter 6 'Nurturant Parent Morality,' section 'MORALITY AS EMPATHY.'"
+    quote: "“To conceptualize moral action as fully empathetic action is more than just abiding by the Golden Rule, to do unto others as you would have them do unto you. The Golden Rule does not take into account that others may have different values than you do. Taking morality as empathy requires basing your actions on their values, not yours. This requires a stronger Golden Rule: Do unto others as they would have you do unto them.”"
+canonical-instances:
+  - "The direct textual anchor is the lineage quote itself: Lakoff names the exact condition under which the strong Golden Rule collapses -- 'when the value system as a whole is at stake' -- distinguishing it from ordinary value disagreements where the rule works as intended."
+  - "Hypothetical: a mediator is trained to fully honor each party's own framework rather than impose a neutral standard. One party in a custody dispute holds that any accommodation or compromise with the other parent is itself a betrayal of the children's safety, full stop. Honoring that party's framework completely -- refusing to seek any accommodation, since accommodation is what their framework forbids -- would end the mediation the mediator was brought in to conduct. Partially honoring it, by seeking some compromise anyway, means not fully honoring it after all. There's no version of full compliance that leaves the mediator still mediating."
+critical-questions:
+  - "Lakoff frames this as a paradox specific to liberal empathy meeting Strict Father resistance to empathy, but the same structure should arise whenever anyone's values include a stance against the very method being used to honor them. Does the paradox actually favor either side, or does it just mean the strong Golden Rule quietly stops applying in exactly the disputes where it would matter most -- disputes about whether cross-value understanding itself is legitimate?"
+  - "If obeying the strong Golden Rule fully means ceasing to obey it, what does a liberal actually do in this situation? Lakoff names the paradox but doesn't resolve it -- does the liberal fall back to ordinary empathy (their own values), switch to some third standard, or is the honest answer that no consistent rule covers this case at all?"
+status: active
