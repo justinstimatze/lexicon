@@ -1,0 +1,24 @@
+id: lex-2dege
+name: conceding-facts-while-redirecting-interest-away-from-them
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When evidence for a claim is fully accepted as real, check whether it's still being neutralized by a second move: redirecting where scholarly or institutional attention actually lands. Graeber and Wengrow's case: historians studying Tlaxcala's sixteenth-century democratic council rarely dispute that the recorded deliberations happened. What draws their attention and debate instead is always the same narrow comparison -- how closely the scene resembles a Greek agora or Roman senate, or whether the Tlaxcalteca were consciously performing republican forms for a European audience. What the council members actually argued, and how their own consensus process worked, generates no comparable interest. Denying facts and redirecting interest away from them are two different moves, and the second one can do all the same exclusionary work as the first while looking, on the surface, like engagement rather than dismissal."
+related: []
+evokes: [david-graeber, david-wengrow, the-dawn-of-everything, tlaxcala, cervantes-de-salazar, indigenous-democracy, subtle-snobbery]
+lineage:
+  - source: primary
+    text: dawn-of-everything-subtle-snobbery
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.9 'Hiding in Plain Sight.'"
+    quote: "“There is a subtle snobbery at play here. It's not so much that anyone denies outright that accounts of deliberative politics reflect historical reality; it's just that no one seems to find this fact particularly interesting.”"
+  - source: primary
+    text: dawn-of-everything-what-seems-interesting-to-historians
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.9 'Hiding in Plain Sight.'"
+    quote: "“What seems interesting to historians is invariably the relation of these accounts to European textual traditions, or European expectations.”"
+canonical-instances:
+  - "The direct textual anchor, on the same redirection applied to a related body of evidence: the Tlaxcalan Actas, detailed written municipal-council records from the decades after conquest, are treated by historians mainly as raising the question of whether indigenous 'democratic mores' were 'some sort of near-miraculous adaptation' to European expectations, rather than as evidence of how the council's own consensus process actually worked."
+  - "Hypothetical: a company's internal audit confirms that a junior employee's cost-saving proposal, quietly implemented two years ago, is the actual reason a product line became profitable. Leadership doesn't dispute the finding. But every subsequent conversation about it focuses on whether the proposal resembles a well-known framework taught at business school, and whether the employee had picked it up from a course -- never on what the employee actually noticed about the product line that led to the idea."
+critical-questions:
+  - "How would you distinguish this pattern from ordinary scholarly specialization, where a particular comparative question (resemblance to classical antiquity) simply happens to be the one a given field's existing training and citation networks are built to pursue? Redirected interest and disciplinary path-dependence could look identical from the outside."
+  - "If the redirection is real, what would count as evidence that it's driven by which culture is doing the governing rather than by genuinely lower reader interest in local political procedure as a topic? The Tlaxcala case is suggestive, but one example can't rule out that consensus-process detail is just an unglamorous topic regardless of who practiced it."
+status: active

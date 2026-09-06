@@ -1,0 +1,24 @@
+id: lex-87nfy
+name: an-outcome-insured-hedge-lets-both-factions-sign-the-same-plan
+type-in: process
+type-out: process
+_tier: atomic
+agent-instruction: "When a group is deeply divided over a high-stakes action and neither faction can persuade the other, look for a proposal that produces a favorable story under both possible results of taking the action -- that structure can convert deadlock into unanimous agreement without either side conceding the argument. Graeber and Wengrow's case: Tlaxcala's council split between welcoming Hernán Cortés as an ally and refusing him as a mortal threat. Temilotecutl's proposal let Cortés enter the city, then had an allied Otomi contingent ambush him. If the ambush killed him, the council would be heroes who'd removed the danger. If it failed, they could disown the attack, blame the impulsive Otomi, and ally with Cortés anyway -- exactly what the other faction wanted all along. Whichever way the ambush went, someone on the council could call it a win, which is what let two factions that agreed on nothing else sign onto the same plan. The mechanism isn't compromise in the usual sense of splitting the difference; it's arranging for every branch of the outcome tree to read as a victory for whoever proposed it."
+related: []
+evokes: [david-graeber, david-wengrow, the-dawn-of-everything, tlaxcala, temilotecutl, hernan-cortes, political-deadlock, scapegoat-hedge]
+lineage:
+  - source: primary
+    text: dawn-of-everything-cunning-plan
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.9 'Hiding in Plain Sight.'"
+    quote: "“Temilotecutl – one of the city's four ‘senior justices’ – stepped in with a cunning plan. To satisfy both sides of the debate, Cortés would be invited into the city, but as soon as he entered Tlaxcalteca territory the city's leading general... would ambush him.”"
+  - source: primary
+    text: dawn-of-everything-heroes-or-blame-the-otomi
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.9 'Hiding in Plain Sight.'"
+    quote: "“If the ambush succeeded, they would be heroes. If it failed, they would blame it on the uncouth and impulsive Otomí, make their excuses, and ally themselves with the invaders.”"
+canonical-instances:
+  - "The direct textual anchor, on the deadlock this plan actually resolved: the council was 'divided, and without consensus' after Xicotencatl the Elder's speech turned members against Maxixcatzin's proposal to ally outright -- the hedge is what let the meeting end in agreement rather than an unresolved vote."
+  - "Hypothetical: a hospital board is split between launching a risky new surgical program immediately and delaying it another year for more staff training. A compromise proposal lets the program launch now but assigns its first cases exclusively to the most cautious, risk-averse surgical team. If outcomes are good, the board that pushed for immediate launch takes credit for moving fast. If outcomes are poor, the board can point to the deliberately conservative team selection as proof they'd already been managing the risk, and delay the wider rollout anyway. Both factions vote yes."
+critical-questions:
+  - "How much does this mechanism depend on the two factions never later comparing notes on what each expected to happen? If both sides can see through the hedge in real time, does the agreement still hold, or does it only work as long as each faction can plausibly believe its own preferred reading of the outcome will be the one that gets told?"
+  - "Doesn't this structure require someone within the group willing to be sacrificed as the scapegoat if things go wrong -- in this case, the Otomi contingent, who weren't full members of the council's own deliberation? Would the mechanism work at all without an available, lower-status party to absorb the failure branch?"
+status: active
