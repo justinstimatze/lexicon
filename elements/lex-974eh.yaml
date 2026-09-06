@@ -1,0 +1,20 @@
+id: lex-974eh
+name: an-invisible-precondition-makes-a-routine-action-forbidden-outright
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When a routine, ordinarily-safe action could become catastrophic in the presence of a precondition you can't currently detect, don't judge the action on its own merits -- treat the whole category of that action as forbidden until the precondition is confirmed cleared. The home-safety instruction behind this: if you smell gas, don't flip a light switch or turn any appliance on or off on your way out, because the smallest spark can trigger an explosion. Flipping a switch is harmless essentially every time you do it; the danger was never in the switch, it's in an accumulated, invisible condition (flammable vapor filling the room) that the action itself can't sense and that turns an unremarkable motion into an ignition source. Waiting to see whether a specific switch-flip is safe is not a real option, because by the time the action's own effects would tell you the precondition was present, the trigger has already happened. Diagnostic move: when a known hazardous precondition might be present but its presence can't be directly confirmed in the moment, don't case-by-case judge whether THIS instance of an ordinarily-safe action is fine -- suspend the entire category of actions that could serve as the trigger until the precondition itself, not the action, has been checked and cleared."
+related: [lex-nn45j]
+evokes: [gas-leak-spark-ignition, invisible-precondition, category-suspension-not-case-judgment, threshold-hazard, do-it-yourself-manual-safety]
+lineage:
+  - source: primary
+    text: handyman-2014-gas-leak-no-switches
+    citation: "The Complete Do-It-Yourself Manual (Newtown, CT: The Editors of Handyman Media / Reader's Digest, 2014), section 'Gas Leaks,' safety caution."
+    quote: "'If you smell gas, get everyone out of your home and call the gas utility from a neighbor's house or a cell phone outside. Don't switch any lights or appliances on or off because the smallest spark can trigger an explosion.'"
+canonical-instances:
+  - "Oil-soaked rags, from the same manual's finishing section, work by a related but distinct logic worth telling apart: 'Oil-soaked rags can ignite spontaneously because of heat buildup.' That hazard needs no triggering action at all -- the precondition (accumulated heat from oxidation) is itself sufficient to ignite. The gas-leak instruction is sharper specifically because the hazard is otherwise inert and totally safe UNTIL a normally-harmless action (a spark-producing switch flip) supplies the missing ingredient -- the danger lives entirely in the combination, not in either half alone."
+  - "Hypothetical: a pilot notices a strong smell of fuel vapor in the cockpit before takeoff. The checklist response isn't to judge whether flipping the avionics master switch specifically, right now, is likely to spark -- it's to treat every switch on the panel as forbidden and evacuate, because the actual risk (vapor concentration reaching the explosive range) can't be read off any single switch's own behavior, and the first switch that turns out to matter is the one that ends the question."
+critical-questions:
+  - "The instruction assumes the precondition (gas concentration) is either safely below threshold or dangerously above it, with the switch-flip mattering only in the second case -- but real gas concentrations exist on a continuum, and very low concentrations pose essentially no ignition risk. Does blanket category-suspension over-generalize past the actual danger zone, and if so, is that over-generalization the correct trade given how costly it is to misjudge which zone you're in?"
+  - "This diagnostic move requires being able to notice the precondition indirectly (a smell, in the gas case) even though the triggering action itself can't detect it -- what happens when the precondition has no reliable indirect signal at all, so there's no cue to suspend the category in the first place? Is the lesson here silent on the harder case where you don't even know to be suspicious?"
+status: active
