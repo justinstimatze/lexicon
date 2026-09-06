@@ -1,0 +1,24 @@
+id: lex-pcbyg
+name: markets-and-capitalism-are-separable-and-even-opposable
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "Don't assume 'pro-market' and 'pro-capitalist' are the same commitment -- historically, they've often pulled in opposite directions. Following Fernand Braudel, Graeber draws a sharp line between the two. A market is people with a surplus of one thing trading through money for something they need -- Braudel's shorthand C-M-C', commodity-money-other-commodity. Capitalism is something else: using money to make more money, M-C-M'. The easiest way to do that is to establish a monopoly, which is why capitalists characteristically seek to ally with political power to restrict the market's freedom rather than extend it. Confucian China ran with this distinction for two thousand years: the state promoted markets aggressively while treating would-be capitalists as parasites to be kept under close administrative supervision, refusing to let merchants team up with the state the way European princes later would. The result reads as a contradiction only if markets and capitalism are assumed to be the same thing -- once separated, 'pro-market and anti-capitalist' is a perfectly coherent, historically successful policy, not an oxymoron."
+related: []
+evokes: [david-graeber, debt-the-first-5000-years, fernand-braudel, confucian-china, market-vs-capitalism]
+lineage:
+  - source: primary
+    text: graeber-2011-debt-capitalism-art-of-money-from-money
+    citation: "David Graeber, Debt: The First 5,000 Years (Melville House, 2011), ch.10 'The Middle Ages,' section 'China,' citing Fernand Braudel."
+    quote: "“capitalism is first and foremost the art of using money to get more money”"
+  - source: primary
+    text: graeber-2011-debt-china-anti-capitalist-market-state
+    citation: "David Graeber, Debt: The First 5,000 Years (Melville House, 2011), ch.10 'The Middle Ages,' section 'China.'"
+    quote: "“From this perspective, China was for most of its history the ultimate anti-capitalist market state.”"
+canonical-instances:
+  - "The direct textual anchor, on why capitalists reach for political alliance rather than market freedom: “For this reason, capitalists, whether merchant princes, financiers, or industrialists, invariably try to ally themselves with political authorities to limit the freedom of the market, so as to make it easier for them to do so.”"
+  - "Hypothetical: a city government aggressively supports its farmers' markets and small-business licensing, keeping barriers to entry low so anyone can set up a stall and sell directly to customers, while simultaneously blocking a proposed merger that would let the two largest grocery chains in the region combine into a single dominant buyer of local produce. Residents debating the policy keep calling it inconsistent -- 'you can't be pro-business and anti-business at the same time' -- without noticing that the city has drawn exactly the market/capitalism line Braudel describes."
+critical-questions:
+  - "Braudel and Graeber both treat monopoly-seeking as the defining, near-inevitable strategy of capital -- but plenty of capitalist firms grow and profit for years in genuinely competitive markets without ever achieving anything like a monopoly. Does the M-C-M' definition of capitalism actually require monopoly-seeking? Or is monopoly simply the easiest, most common route to it, leaving capitalism itself definable independent of that one strategy?"
+  - "If China really was a maximally pro-market, anti-capitalist state for two millennia, why did it not develop the kind of self-sustaining industrial or financial takeoff that European capitalism eventually produced? Does suppressing capital-state alliances come with a real developmental cost that the standard-of-living comparison to 1820s England obscures by cutting the comparison off exactly where European capitalism's advantage first opens up?"
+status: active
