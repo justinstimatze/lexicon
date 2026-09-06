@@ -1,0 +1,21 @@
+id: lex-vpsuq
+name: dependence-on-the-punished-party-ceilings-how-far-punishment-can-go
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "A punisher's own survival can depend on the very party it wants to punish, which puts a hard ceiling on the punishment regardless of how much anger remains -- the limit comes from the punisher's own need, not from any change of heart toward the punished. After emancipation, the old master class tried to make freedom 'a greater calamity to him, if possible, than had been his slavery,' driving freedmen off the land destitute. Douglass names why this couldn't continue: 'It had destroyed the hands, and left the mouths. It had starved the negro, and starved itself. Not even to gratify its own anger and resentment could it afford to allow its fields to go uncultivated, and its tables unsupplied with food. Hence the freedman, less from humanity than cupidity, less from choice than necessity, was speedily called back to labor and life.' The reconciliation Douglass describes is explicitly not moral -- 'less from humanity than cupidity' -- it is the punisher's own hunger overruling its anger, a limit built into the relationship's structure rather than achieved through appeal, protest, or changed conviction on the punisher's part."
+related: []
+evokes: [destroyed-the-hands-and-left-the-mouths, starved-the-negro-and-starved-itself, less-from-humanity-than-cupidity, anger-cannot-outbid-hunger]
+lineage:
+  - source: primary
+    text: douglass-1881-life-and-times-part-ii-ch15-starved-the-negro-and-starved-itself
+    citation: "Frederick Douglass, Life and Times of Frederick Douglass (1881), Part II ('Life as a Freeman'), Chapter XV, 'Weighed in the Balance' -- from Douglass's paper opposing the 1879 Black exodus movement."
+    quote: "“The old master-class then found it had made a great mistake. It had driven away the means of its own support. It had destroyed the hands, and left the mouths. It had starved the negro, and starved itself. Not even to gratify its own anger and resentment could it afford to allow its fields to go uncultivated, and its tables unsupplied with food. Hence the freedman, less from humanity than cupidity, less from choice than necessity, was speedily called back to labor and life.”"
+canonical-instances:
+  - "The direct textual anchor: Douglass frames this reconciliation as an involuntary discovery rather than a policy choice -- 'the old master-class then found it had made a great mistake,' naming the sequence as one where punitive intent ran its course and collided with a structural limit, rather than one where restraint was exercised in advance."
+  - "Hypothetical: a landlord furious at a tenant for organizing a rent strike lets an apartment sit vacant for months out of spite rather than re-rent it to the same tenant on any terms. Eventually the landlord's own mortgage payments force a reconciliation on much the same terms as before -- not because the landlord forgave the tenant, but because an empty unit costs the landlord more than a tenant they resent."
+critical-questions:
+  - "Does the punished party actually benefit from the ceiling that dependency creates, or does the punisher find some third option -- destroying the dependent relationship along with the target, even at cost to itself -- when anger is severe enough? Douglass's account assumes the master class behaves rationally in its own material interest even at the height of its fury; is that assumption reliable in general?"
+  - "How does a dependent-but-punished party recognize, in the moment, that this structural ceiling exists and will eventually be reached, rather than assuming (reasonably, given the severity of the initial punishment) that the punisher intends to carry it through regardless of self-harm?"
+  - "Does the reconciliation this mechanism produces actually improve the punished party's position beyond the immediate crisis, or does it only restore the same underlying relationship of dependency and exploitation that made the original punishment possible in the first place, just with survival newly guaranteed?"
+status: active

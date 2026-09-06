@@ -1,0 +1,21 @@
+id: lex-uhskm
+name: an-advocates-per-head-payment-corrupts-relocation-advocacy
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "An advocate publicly promoting a vulnerable population's relocation for that population's own good can have an undisclosed commercial arrangement paid per person moved rather than per successful outcome, which rewards maximizing volume regardless of what happens to people after the payment is collected. Douglass reports this of agents promoting the 1879 Black exodus movement from the South to Kansas: 'it transpired that some of the agents most active in promoting it had an understanding with certain railroad companies, by which they were to receive one dollar per head upon all such passengers.' The financial structure explains an outcome that pure advocacy wouldn't predict: 'Thousands of these poor people, traveling only so far as they had money to bear their expenses, were dropped on the levees of St. Louis, in the extremest destitution.' Paying agents for successful resettlement would have given them a stake in how the journey ended; paying them for boarding gave them a stake purely in the count at departure, with arrival and everything after left out of the incentive entirely."
+related: []
+evokes: [one-dollar-per-head, dropped-on-the-levees-of-st-louis, the-exodus-movement-of-1879, paid-for-departure-not-arrival]
+lineage:
+  - source: primary
+    text: douglass-1881-life-and-times-part-ii-ch15-one-dollar-per-head
+    citation: "Frederick Douglass, Life and Times of Frederick Douglass (1881), Part II ('Life as a Freeman'), Chapter XV, 'Weighed in the Balance.'"
+    quote: "“I regret to say there was something sinister in this so-called exodus, for it transpired that some of the agents most active in promoting it had an understanding with certain railroad companies, by which they were to receive one dollar per head upon all such passengers. Thousands of these poor people, traveling only so far as they had money to bear their expenses, were dropped on the levees of St. Louis, in the extremest destitution.”"
+canonical-instances:
+  - "The direct textual anchor: Douglass's own response distinguishes the corrupted incentive from the underlying suffering it produced -- he opposed the exodus movement's promotion while still raising two hundred and fifty dollars from Mrs. Elizabeth Thompson to relieve the stranded migrants directly, treating the scheme's victims and its architects as separate problems requiring separate responses."
+  - "Hypothetical: a for-profit addiction treatment referral service advertises itself as a free hotline connecting callers to the best available program, while collecting a placement fee from certain facilities for every caller sent their way regardless of that facility's actual success rate. Callers experience the service as disinterested guidance, while the service itself is paid strictly by placement count, with no stake in what happens to any caller afterward."
+critical-questions:
+  - "How would a well-intentioned observer, without Douglass's after-the-fact access to the railroad arrangements, have detected this corrupted incentive in real time, before thousands of people had already been stranded? Is there a general, in-advance heuristic for spotting a volume-based kickback behind seemingly altruistic advocacy?"
+  - "Does the presence of a per-head payment necessarily mean the underlying advocacy is bad-faith, or could an agent sincerely believe relocation serves the population's interest while also being paid per head -- with the payment structure still producing the same reckless-volume outcome regardless of the agent's actual sincerity?"
+  - "Douglass's broader argument was that the exodus itself was strategically unwise even without any corruption in its promotion. Does the presence of a corrupted financial incentive change the ethical analysis of the underlying policy question, or is it a separate scandal riding alongside a debate that would need to be settled on its own terms either way?"
+status: active
