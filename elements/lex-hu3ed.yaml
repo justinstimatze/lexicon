@@ -1,0 +1,24 @@
+id: lex-hu3ed
+name: relocating-a-commands-source-to-the-self-makes-obedience-acceptable
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "When a society treats being ordered around by another person as one of the worst possible violations, check whether it has still carved out a narrow exception -- one constructed so the compelled party is understood to be obeying only their own hidden will, never someone else's. Graeber and Wengrow's case: Iroquoian dream theory held that dreams expressed a person's own soul's secret, repressed desires, and that these desires had to be honored as binding commands -- even a dream of taking a neighbor's prized possession obligated that neighbor to hand it over, on pain of the dreamer's illness or death. Because the compelling force was framed as the dreamer's own inner self rather than another person's will imposed on them, dream-obedience didn't register as the kind of command an otherwise fiercely autonomy-protecting society would resist. The same act of compulsory compliance becomes acceptable purely by relocating its apparent source from an external authority to the self -- a move worth checking for wherever a norm against being commanded seems to have exactly one exception."
+related: []
+evokes: [david-graeber, david-wengrow, the-dawn-of-everything, iroquoian-dream-theory, ondinnonk, personal-autonomy, wendat]
+lineage:
+  - source: primary
+    text: dawn-of-everything-dreams-as-commands
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.11 'Full Circle.'"
+    quote: "“Dreams were treated as if they were commands, delivered either by one's own soul or possibly, in the case of a particularly vivid or portentous dream, by some greater spirit.”"
+  - source: primary
+    text: dawn-of-everything-fiercely-resisted-order
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.11 'Full Circle.'"
+    quote: "“Any member of an Iroquoian society given an order would have fiercely resisted it as a threat to their personal autonomy – but the one exception to this norm was, precisely, dreams.”"
+canonical-instances:
+  - "The direct textual anchor, on how far the obligation actually extended: 'One Huron-Wendat chief gave away his prized European cat, which he had carried by canoe all the way from Quebec, to a woman who dreamed she could only be cured by owning it.'"
+  - "Hypothetical: a startup's engineering culture has a firm norm against managers dictating how anyone codes -- direct technical orders are treated as a serious breach of professional respect. The same culture fully accepts a ritual in which an engineer, having had a striking insight during a solo late-night debugging session, is expected to act on that insight immediately and redirect the whole team's sprint around it, with no one framing this as the engineer 'giving orders' even though the practical effect on everyone's work is identical to a command, because the insight is understood to have originated within the engineer's own mind rather than been imposed by a superior."
+critical-questions:
+  - "How much genuine choice did the 'dreamer' actually have, given that failing to have or report a dream conveniently aligned with one's own desires was itself socially costly, and falsifying a dream was treated as a serious crime -- doesn't this suggest the exception could function as a disguised channel for expressing demands that would otherwise be unacceptable to state directly, rather than a pure case of self-command?"
+  - "Does relocating a command's apparent source to the self genuinely remove the coercive character of the compliance, or does it just relocate WHO bears the social cost of resisting -- a person pressured to fulfill someone else's reported dream desire is still bearing a real cost for noncompliance (illness fears, gossip, revenge), which looks a great deal like the cost of disobeying an ordinary command."
+status: active

@@ -1,0 +1,24 @@
+id: lex-ezjrd
+name: naming-domination-as-witchcraft-punishes-the-intent-before-any-harm
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a society treats a specific moral category as the worst imaginable horror, check what act that category actually gets attached to -- because coding the desire to command other people as witchcraft or monstrosity, rather than treating it as an ordinary social problem, makes the accusation available against someone's intent to dominate before that intent has produced any other concrete harm. Graeber and Wengrow's case: among the Haudenosaunee, the worst imaginable figure, Adodarhoh, is defined by two traits treated as equally monstrous -- eating human flesh, and issuing commands that others obey purely out of fear. Suspicion of witchcraft functioned as an active deterrent against anyone accumulating visible advantage or command over others, not because wealth or authority was itself forbidden, but because the underlying will to dominate was coded as the same category of horror as cannibalism. This differs from ordinary social leveling (ridicule, gossip, ostracism aimed at outcomes like boastfulness or hoarding): naming domination itself as witchcraft targets the drive to rule as a category of being, catchable in principle before it has visibly cost anyone anything."
+related: [lex-uxqdz]
+evokes: [david-graeber, david-wengrow, the-dawn-of-everything, haudenosaunee, adodarhoh, witchcraft, giving-orders, cannibalism]
+lineage:
+  - source: primary
+    text: dawn-of-everything-giving-of-orders-almost-as-serious
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.11 'Full Circle.'"
+    quote: "“For the Haudenosaunee, the giving of orders is represented as being almost as serious an outrage as the eating of human flesh.”"
+  - source: primary
+    text: dawn-of-everything-danger-of-being-accused-of-witchcraft
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.11 'Full Circle.'"
+    quote: "“the danger of being accused of witchcraft was deployed against office holders to ensure that none could accumulate any appreciable advantage over their fellows – particularly in wealth.”"
+canonical-instances:
+  - "The direct textual anchor, on how the epic itself describes the monstrous figure: 'His body was distorted by seven crooks and his long tangled locks were adorned by withering living serpents. Moreover, this monster was a devourer of raw meat, even of human flesh. He was also a master of wizardry... Adodarhoh was the name of the evil man.'"
+  - "Hypothetical: a tight-knit professional guild has no formal rule against any one member landing an unusually large share of clients. But a member who starts visibly directing others' work assignments, instead of just outperforming them, quickly becomes the subject of dark, only-half-joking rumors about cutting corners. The rumors track no actual evidence of wrongdoing -- only the appearance of trying to command."
+critical-questions:
+  - "How would this be distinguished from ordinary social leveling mechanisms (ridicule, gossip, ostracism) that target visible outcomes like boastfulness or wealth-hoarding rather than an inferred inner intent to dominate -- is 'coding domination as witchcraft' actually a different mechanism, or just witchcraft-language layered on top of the same underlying leveling behavior aimed at outcomes rather than intentions?"
+  - "Could naming domination as witchcraft actually enable abuse rather than prevent it? It hands anyone a ready-made, unfalsifiable accusation to level against a genuinely capable or popular rival. Since the target is inferred intent rather than demonstrated harm, what protects an innocent person from an envy-driven accusation with no real attempt to dominate behind it?"
+status: active
