@@ -4,7 +4,7 @@ type-in: state
 type-out: claim
 _tier: atomic
 agent-instruction: "When tuning a single intensity parameter toward a goal, don't assume the failure you're seeing generalizes in one direction. Check whether the failure mode changes character as you cross from too-little to too-much: insufficient intensity often fails because the transformation never gets a chance to start, while excessive intensity fails because part of the system runs away before the rest catches up. The fix requires locating the zone between two distinct failure regimes, rather than simply dialing the parameter up or down from wherever it currently sits, and diagnosing which regime is active from the shape of the failure itself."
-related: [lex-9xzrt, lex-jmhea, lex-mr4nb]
+related: [lex-9xzrt, lex-e4a67, lex-jmhea, lex-mr4nb]
 evokes: [americas-test-kitchen, guy-crosby, goldilocks-zone-with-a-mechanism, the-magic-temperature, opposite-failures-not-opposite-amounts]
 lineage:
   - source: primary

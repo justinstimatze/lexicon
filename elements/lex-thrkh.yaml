@@ -1,0 +1,22 @@
+id: lex-thrkh
+name: repeated-folding-multiplies-layers-exponentially-not-additively
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a structure is built by repeating the same fold-and-stack operation, don't estimate the result by assuming each repetition adds a fixed number of new layers — check whether each repetition instead multiplies the count that's already there, which produces an enormous structure from a small number of repetitions. America's Test Kitchen on laminated pastry: 'These so-called laminated pastries, which are made up of alternating layers of dough and fat, are created by repeatedly rolling and folding the dough over itself, typically in thirds (like a business letter). Each set of folds is called a turn, and with each turn the number of layers increases exponentially rather than linearly. Thus, the first turn gives three layers, the next seven, then 19, then 55, and so on. Just six turns creates an astonishing 1,459 layers.' A cook who mentally models 'one more fold' as 'add a few more layers' will badly underestimate how thin and numerous the layers become after only a handful of turns — the same gap between linear and exponential intuition that trips up estimates of compound growth in any domain built from repeated multiplication rather than repeated addition."
+related: [lex-ne5z7]
+evokes: [americas-test-kitchen-crosby-2012-science-of-good-cooking, layers-of-butter-make-flaky-pastry, lamination, puff-pastry-turns, exponential-not-linear-growth]
+lineage:
+  - source: primary
+    text: americas-test-kitchen-crosby-2012-science-of-good-cooking-concept-43-lamination-turns
+    citation: "The Editors at America's Test Kitchen and Guy Crosby, The Science of Good Cooking: Master 50 Simple Concepts to Enjoy a Lifetime of Success in the Kitchen (America's Test Kitchen, 2012), Concept 43, 'Layers of Butter Make Flaky Pastry.'"
+    quote: "'These so-called laminated pastries, which are made up of alternating layers of dough and fat, are created by repeatedly rolling and folding the dough over itself, typically in thirds (like a business letter). Each set of folds is called a turn, and with each turn the number of layers increases exponentially rather than linearly. Thus, the first turn gives three layers, the next seven, then 19, then 55, and so on. Just six turns creates an astonishing 1,459 layers.'"
+canonical-instances:
+  - "Puff pastry and croissant dough both rely on this exact progression: a baker who has only ever counted layers by eye, and stops at three or four turns because it 'looks like enough,' has no intuitive way to sense that a fifth or sixth turn would roughly triple the layer count again rather than adding a similar few dozen — the visual difference between turn four (55 layers) and turn six (1,459 layers) is not obvious from watching the dough get folded."
+  - "Hypothetical: a rumor that gets retold by each hearer to three new people per round looks, after two rounds, like it has reached a modest nine new people — a linear-feeling number — but by the sixth round of the same process it has reached thousands, the same shape as the pastry's layer count, from a person who assumed 'a few more retellings' would mean 'a few more people hearing it.'"
+critical-questions:
+  - "Is there a practical ceiling where the exponential relationship breaks down — the book itself only goes to six turns; do additional turns keep multiplying layer count cleanly, or does the physical dough eventually tear, merge layers back together, or otherwise stop behaving like an idealized fold?"
+  - "The book's own sequence (3, 7, 19, 55, ...) isn't a clean doubling or tripling — what's the actual recurrence relation behind fold-in-thirds lamination, and does naming it precisely change the intuition-correction this atom is trying to provide, or is the exponential-growth framing itself the only transferable takeaway regardless of the exact formula?"
+  - "In the rumor-spread analogy and other non-physical instances, does the multiplicative step actually stay constant across repetitions the way a mechanical fold does, or does human/informational spread typically decay (not everyone retells, saturation sets in) in a way a literal dough fold never does — meaning the exponential intuition transfers but the specific growth rate usually doesn't?"
+status: active
+severity-tier: info
