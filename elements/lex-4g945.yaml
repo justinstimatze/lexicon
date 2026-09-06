@@ -4,15 +4,20 @@ type-in: situation
 type-out: claim
 _tier: atomic
 agent-instruction: "When confronting an opponent's visible strength, check whether the more effective target is the upstream resource that enables it rather than the strength itself. The 36 Stratagems' 'Remove the firewood from under the pot' states this directly: 'If something must be destroyed, destroy the source... do not confront your opponent's strong points but instead remove the source of his strength.' This differs from attacking a weak point instead of a strong one (which redirects the attack to a different target entirely) — here the target stays the same strength, but the point of attack moves upstream to whatever feeds it, so removing the source causes the visible strength to collapse on its own."
-related: []
+related: [lex-9f4s2]
 evokes: [36-stratagems, remove-the-firewood-from-under-the-pot, target-the-source-not-the-symptom, upstream-intervention]
 lineage:
   - source: primary
     text: taylor-2013-36-stratagems-19-remove-the-firewood
     citation: "Peter Taylor, The Thirty-Six Stratagems: A Modern-Day Interpretation of a Strategy Classic (Infinite Ideas, 2013), Stratagem 19, 'Remove the firewood from under the pot.' Verified verbatim against a direct pdftotext extraction of the held copy."
     quote: "If something must be destroyed, destroy the source. In other words, do not confront your opponent's strong points but instead remove the source of his strength."
+  - source: primary
+    text: douglass-1881-life-and-times-part-ii-ch8-john-brown-map-speech
+    citation: "Frederick Douglass, Life and Times of Frederick Douglass (1881), Part II ('Life as a Freeman'), Chapter VIII, 'John Brown and Mrs. Stowe.' Douglass records Brown's own stated strategic doctrine for the Harper's Ferry plan, laid out to Douglass directly at Brown's house in Springfield, Mass., 1847."
+    quote: "“The true object to be sought is first of all to destroy the money value of slave property; and that can only be done by rendering such property insecure.”"
 canonical-instances:
   - "the 2011 U.S. Treasury freeze of roughly $29.7 billion in Libyan state assets held in a single bank under Executive Order 13566: rather than confronting Gaddafi's mercenary forces directly, the freeze cut off the payroll funding those forces, targeting the enabling resource instead of the visible military strength itself."
+  - "John Brown's plan for his mountain raids explicitly did not target slavery's visible bulk (the slaveholders, the plantations, or an insurrection freeing slaves en masse) -- it targeted the SECURITY of slave property as an asset class. In Douglass's account of their exchange, Brown expected a run of small, survivable raids to spook Virginia slaveholders into selling their human property further south. Pressed on what happens next, he said he'd simply follow the trade south and keep disrupting it county by county -- a single county driven out of slaveholding, he argued, would weaken the system across the whole state. The enabling source of slavery's whole economic structure was confidence that a slave, once bought, would stay caught -- attacking that confidence directly, rather than the visible institution, was the actual target."
 critical-questions:
   - "How reliably can an actor identify the actual enabling source of an opponent's strength, versus a resource that merely correlates with it? Misdiagnosing it wastes the move, since the visible strength survives untouched."
   - "Does removing the source always cause the visible strength to collapse, or can an opponent already holding a reserve or an alternate supply absorb the loss and keep functioning largely as before?"

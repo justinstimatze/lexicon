@@ -1,0 +1,22 @@
+id: lex-9f4s2
+name: a-third-partys-withheld-participation-opens-a-gate-direct-pressure-cant
+type-in: situation
+type-out: process
+_tier: atomic
+agent-instruction: "A gatekeeper unmoved by pressure from the party its policy excludes may still move for a third party it actually needs something from. Find that third party, and check whether it's willing to make its own cooperation conditional on the policy changing. The New Bedford Lyceum refused for years to admit any colored person to its lectures, unmoved by the protest of the excluded community itself. It changed only when outside speakers the Lyceum wanted -- Charles Sumner, Theodore Parker, Ralph Waldo Emerson, Horace Mann -- refused to lecture in its course while the restriction stood. None of them were excluded by the policy; all of them had leverage the excluded party structurally could not have, because the gatekeeper needed something from them that it did not need from the people it was excluding. The mechanism is not persuasion of the gatekeeper's conscience -- it is making the gatekeeper's own wants incompatible with keeping the policy."
+related: [lex-4g945]
+evokes: [new-bedford-lyceum-refused-colored-admission, sumner-parker-emerson-horace-mann-refused-to-lecture, leverage-you-dont-have-borrowed-from-an-ally-who-does, the-excluded-partys-own-pressure-fails-a-third-partys-succeeds]
+lineage:
+  - source: primary
+    text: douglass-1881-life-and-times-part-ii-ch4-recollections-of-old-friends
+    citation: "Frederick Douglass, Life and Times of Frederick Douglass (1881), Part II ('Life as a Freeman'), Chapter IV, 'Recollections of Old Friends.'"
+    quote: "“though white and colored children attended the same schools, and were treated kindly by their teachers, the New Bedford Lyceum refused till several years after my residence in that city to allow any colored person to attend the lectures delivered in its hall. Not until such men as Hon. Chas. Sumner, Theodore Parker, Ralph W. Emerson, and Horace Mann refused to lecture in their course while there was such a restriction, was it abandoned.”"
+canonical-instances:
+  - "The excluded party (New Bedford's Black community, including Douglass himself, a resident from 1838) had already been pressing the point for years by ordinary means -- Douglass names this explicitly as a standing grievance of his residence there -- with no effect on the Lyceum's policy. The policy moved only once in-demand speakers the Lyceum had no substitute for made their own booking conditional on the restriction's removal."
+  - "Hypothetical: a conference repeatedly declines to add an accessibility ramp despite years of complaints from disabled attendees and advocacy groups. It adds one within a month of its keynote speaker's agent quietly informing organizers the speaker won't appear at an inaccessible venue -- not because the speaker cares more than the advocates did, but because the organizers need the speaker in a way they never needed to accommodate the advocates."
+critical-questions:
+  - "Operationally distinct from lex-4g945 (target the enabling source rather than its visible manifestation): that atom is about redirecting an ATTACK toward an upstream resource. This atom is about a WITHHELD PARTICIPATION by an ally who was never a target or an attacker at all -- Sumner and Emerson were not adversaries of the Lyceum degrading its resource base; they were desired collaborators declining to collaborate. Does the underlying leverage logic (find what the target actually needs, and control access to it) unify these into one broader mechanism, or does the ally/adversary distinction matter enough to keep them separate?"
+  - "Does this mechanism require the third party to already, independently share the excluded group's goal (as Sumner, Parker, Emerson, and Mann evidently did, being noted abolitionist sympathizers), or could it work with a third party who is indifferent to the cause but simply prefers not to be associated with the controversy of enforcing the restriction?"
+  - "What determines whether a gatekeeper responds to this kind of pressure by conceding the policy, versus finding a substitute for the withholding third party and holding the line anyway -- is it just how replaceable the third party's specific contribution is, or something about the gatekeeper's own public exposure once other desired parties know the restriction exists?"
+status: active
+severity-tier: info
