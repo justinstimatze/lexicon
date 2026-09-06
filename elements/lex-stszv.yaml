@@ -1,0 +1,24 @@
+id: lex-stszv
+name: self-interest-is-a-secularized-theological-doctrine
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a concept presents itself as a neutral, mathematical, scientific discovery about human nature, check whether it actually smuggled in a specific, older doctrine wearing new clothes. 'Self-interest,' the supposed root motive economics builds on, is a case in point. Graeber traces the word to around 1510, coined by the Italian historian Francesco Guicciardini as a euphemism for St. Augustine's 'self-love': the post-Fall curse of endless, insatiable desire for self-gratification that, left unchecked, inevitably produces universal competition and war. Swapping in the vocabulary of bookkeeping and interest-bearing loans didn't strip out Augustine's assumption of bottomless appetite -- it just dressed it in impersonal-sounding math, letting a theological claim about original sin pass as objective economic science. The tell: 'interest,' in its literal original sense, is nothing but the demand that money never stop growing -- carrying the same assumption of insatiability the whole way through, however secular the vocabulary sounds. Whenever a supposedly value-neutral technical term turns out, on inspection, to encode a specific and contestable claim about human nature, trace it back to see whose doctrine it's actually still running on."
+related: [lex-kwch3]
+evokes: [david-graeber, debt-the-first-5000-years, self-interest, augustine, self-love, secularized-theology]
+lineage:
+  - source: primary
+    text: graeber-2011-debt-self-interest-euphemism-for-self-love
+    citation: "David Graeber, Debt: The First 5,000 Years (Melville House, 2011), ch.11 'Age of the Great Capitalist Empires,' Part II."
+    quote: "“'Self-interest' is first attested to in the writings of the Italian historian Francesco Guicciadini (who was, in fact, a friend of Machiavelli), around 1510, as a euphemism for St. Augustine's concept of 'self-love.'”"
+  - source: primary
+    text: graeber-2011-debt-augustine-endless-insatiable-desires
+    citation: "David Graeber, Debt: The First 5,000 Years (Melville House, 2011), ch.11 'Age of the Great Capitalist Empires,' Part II."
+    quote: "“For Augustine, the 'love of God' leads us to benevolence toward our fellows; self-love, in contrast, refers to the fact that, since the Fall of Man, we are cursed by endless, insatiable desires for self-gratification.”"
+canonical-instances:
+  - "The direct textual anchor, on how the insatiability survived the translation into economic vocabulary: “what is 'interest' but the demand that money never cease to grow?”"
+  - "Hypothetical: a company's new performance-review rubric replaces vague manager judgment with a 'productivity score' pitched as objective and data-driven. On inspection, the score's underlying formula was built by a consultant who simply operationalized an older, informal belief the company already held -- that any employee not visibly striving for more is coasting -- into a number. The rubric reads as neutral measurement, but it's really that older belief about ambition and worth, now wearing a spreadsheet's authority."
+critical-questions:
+  - "Even if 'self-interest' really does descend from Augustine's 'self-love,' does that genealogy actually undermine the concept's usefulness or accuracy as economic theory? A term can have theological origins and still turn out to correctly describe how people behave -- does tracing the concept's ancestry do any more than an ad hominem attack on its pedigree?"
+  - "Guicciardini coined the term as a euphemism specifically to get away from making 'love' the central explanatory concept -- but if the goal was to escape theological framing, why would he reach for a straightforward synonym for an existing theological doctrine rather than genuinely rethinking the underlying claim? Does the euphemism's persistence suggest the theological content was never really the point people were trying to shed?"
+status: active
