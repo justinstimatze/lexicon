@@ -1,0 +1,24 @@
+id: lex-utfcj
+name: cosmological-hierarchy-and-practical-governance-are-separable-facts
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When a group holds an absolute belief in hierarchy at the level of cosmology, caste, or formal rank, don't assume that belief predicts how its members actually run their shared practical affairs. Graeber and Wengrow's case: Balinese society is a total hierarchy in which every individual has an exact cosmic rank and no two people are considered equal even in principle, yet the seka system manages irrigation, temple upkeep, and communal labor by having everyone, regardless of caste, sit in a circle and decide by consensus -- a high-caste member who won't sit with lowly neighbors simply pays a fine that funds the work instead. Buddhist monastic sanghas show the same split: they emerged from and coexist with a rigid caste society, yet govern themselves internally by unanimous consent. Holding a hierarchical cosmology and running a hierarchical meeting are two different commitments, and a group can keep the first while dropping the second entirely."
+related: []
+evokes: [david-graeber, david-wengrow, the-dawn-of-everything, bali, seka-system, sangha, caste, water-temples]
+lineage:
+  - source: primary
+    text: dawn-of-everything-no-necessary-correspondence
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.8 'Imaginary Cities.'"
+    quote: "“there is no necessary correspondence between overarching concepts of social hierarchy and the practical mechanics of local governance.”"
+  - source: primary
+    text: dawn-of-everything-seka-system-fines
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.8 'Imaginary Cities.'"
+    quote: "“those who consider themselves particularly high and mighty, offended by the prospect of having to sit in a circle on the ground with lowly neighbours, may choose not to attend; but in that case they are obliged to pay fines for non-attendance – fines which are then used to pay for the feast or the repairs.”"
+canonical-instances:
+  - "The direct textual anchor, on the same split showing up in a completely different domain of Balinese life: water-temple irrigation was 'governed by a series of \"water-temples\", through which the distribution of water was managed by an even more complex system of consensual decision-making, according to egalitarian principles, by the farmers themselves' -- in a kingdom whose rulers had no role in managing it at all."
+  - "Hypothetical: a country club maintains a strict, publicly ranked membership tier system -- founding members, senior members, associate members -- with formal deference expected at every social event. Its greens committee, which actually decides course maintenance and scheduling, is elected by simple one-member-one-vote regardless of tier, because no one has ever bothered to change the bylaws governing that one committee. The club's overall culture reads as rigidly hierarchical; the one place real decisions get made runs on flat consensus."
+critical-questions:
+  - "Could the seka system's egalitarian consensus be less a genuine exception to caste and more a lower-stakes domain that the caste hierarchy simply doesn't bother contesting -- would the same high-caste members accept consensus decision-making on a matter that actually threatened their rank or wealth?"
+  - "How far does this generalize beyond irrigation and monastic orders, both practical, technical domains where cosmological rank arguably has little functional relevance anyway? Does the decoupling hold up in domains where hierarchy and practical decision-making would actually compete for the same stakes?"
+status: active

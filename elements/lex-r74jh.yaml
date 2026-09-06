@@ -1,0 +1,24 @@
+id: lex-r74jh
+name: hierarchy-gets-treated-as-the-default-requiring-no-proof
+type-in: situation
+type-out: claim
+_tier: atomic
+agent-instruction: "When assessing evidence about a past or unfamiliar society's governance, check which conclusion is being allowed to stand as the null hypothesis. Graeber and Wengrow's case: scholars of ancient Mesopotamia demand rigorous, explicit evidence before accepting that a city was self-governing or egalitarian, but rarely demand comparable evidence before assuming that same city was ruled by a strongman or hereditary elite -- top-down authority gets treated as the thing you'd expect in the absence of evidence for anything else, while consensus-based governance has to actively earn its way past a much higher bar. The asymmetry traces back to which outcome gets to be the default rather than to anything the ambiguous evidence itself actually shows. Before accepting a 'most likely hierarchical' or 'most likely rulerless' reading of thin evidence, ask what would change if the assumed default were swapped."
+related: []
+evokes: [david-graeber, david-wengrow, the-dawn-of-everything, mesopotamia, primitive-democracy, burden-of-proof, archaeological-inference]
+lineage:
+  - source: primary
+    text: dawn-of-everything-never-demand-comparably-rigorous-proof
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.8 'Imaginary Cities.'"
+    quote: "“Scholars tend to demand clear and irrefutable evidence for the existence of democratic institutions of any sort in the distant past. It's striking how they never demand comparably rigorous proof for top-down structures of authority.”"
+  - source: primary
+    text: dawn-of-everything-default-mode-of-history
+    citation: "David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity (Penguin Books, 2021), ch.8 'Imaginary Cities.'"
+    quote: "“These latter are usually treated as a default mode of history: the kind of social structures you would simply expect to see in the absence of evidence for anything else.”"
+canonical-instances:
+  - "The direct textual anchor, on how automatic the assumption feels even to a careful reader: 'it seems very difficult for most of us even to imagine how self-conscious egalitarianism on a large scale would work. But this again simply serves to demonstrate how automatically we have come to accept an evolutionary narrative in which authoritarian rule is somehow the natural outcome whenever a large enough group of people are brought together.'"
+  - "Hypothetical: an ancient shipwreck yields cargo but no captain's quarters or crew hierarchy markers. One team of researchers concludes the ship was probably run by an unrecorded captain, since 'ships need someone in charge' and treats that as needing no further support. A rival team proposing the crew self-organized in shifts is asked to produce direct textual or artifactual proof before the claim is taken seriously, even though the physical evidence is equally silent on both readings."
+critical-questions:
+  - "Is the asymmetry itself evidence of anything beyond scholarly habit -- could there be an independent base-rate reason, drawn from better-documented societies, to think hierarchical governance really is more common than consensus governance, which would justify treating it as the more probable default rather than an arbitrary one?"
+  - "If both defaults are equally undersupported by thin archaeological evidence, how should a researcher actually proceed rather than just alternate which side carries the burden? Naming the asymmetry diagnoses a bias but doesn't by itself supply a method for reading genuinely ambiguous evidence."
+status: active
