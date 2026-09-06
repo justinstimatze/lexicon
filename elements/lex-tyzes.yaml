@@ -1,0 +1,20 @@
+id: lex-tyzes
+name: different-life-domains-run-mutually-incompatible-moral-models
+type-in: state
+type-out: claim
+_tier: atomic
+agent-instruction: "People don't need their moral commitments to agree with each other across every part of life, and most never notice the gap. George Lakoff's bi-conceptual case: someone can hold Strict Father morality at home -- demanding obedience, doling out reward and punishment, expecting children to earn self-reliance through discipline -- while holding Nurturant Parent morality in politics, favoring social programs and empathy-driven policy for people who need help. Each model is triggered by its own domain instead of being checked against one master framework: family life summons one model, political judgment summons the other, and the person moves between them without ever holding both up against each other at once. The split runs in the opposite direction just as easily -- a political conservative can run a permissive, nurturant household while voting Strict Father politics. Diagnostic move: when someone's stance in one domain looks flatly inconsistent with their stance in another, check whether they are running two models that are each coherent on their own terms and have simply never been asked to share a room. Confusion and hypocrisy are the wrong diagnosis when domain-segregation is the actual mechanism."
+related: [lex-kfdep, lex-hwppp]
+evokes: [george-lakoff, moral-politics-1996, bi-conceptual, strict-father-morality, nurturant-parent-morality]
+lineage:
+  - source: primary
+    text: lakoff-1996-strict-fathers-can-be-liberals
+    citation: "George Lakoff, Moral Politics: How Liberals and Conservatives Think (University of Chicago Press, 3rd ed., 2016), Chapter 1 'The Mind and Politics.' The chapter text is the unrevised second-edition (1996) text; the third edition adds a new preface and a 2016 afterword around it."
+    quote: "“Because people do not use the same models in all aspects of their lives, a political conservative could very well use the Nurturant Parent model in his family life but not in his political life, just as a political liberal could use Strict Father morality in his family life but the Nurturant Parent model in his political life. Strict fathers can be political liberals and nurturant parents can be political conservatives.”"
+canonical-instances:
+  - "The direct textual anchor, on the cognitive-coherence tiebreaker between the two arrangements: “There is no logical contradiction between the use of one model as the basis of actual family life and the use of the other as the basis of one’s politics. But logic is not what is at issue. There is more cognitive coherence and less cognitive dissonance if your politics is governed by the same model of the family that you use in your home life.”"
+  - "Hypothetical: a man runs his household on strict curfews, chores tied directly to allowance, and swift consequences for backtalk, genuinely believing this is what raising decent kids requires. At work, he's the shop steward who fights hardest for injured coworkers who can't make rent, arguing the company owes them help regardless of whose fault the injury was. He doesn't experience these as competing philosophies. Each one simply fits the room he's standing in."
+critical-questions:
+  - "Lakoff's account has each domain activate its own model on its own, but doesn't explain what assigns a given model to a given domain for a particular person -- why does one person's Strict Father instinct land on family while another person's lands on politics? Without an account of that assignment, is bi-conceptualism explaining the split or only naming that it exists?"
+  - "When a bi-conceptual person is confronted directly with the contradiction -- shown that their family rule and their political vote rest on opposite moral premises -- what actually happens? Does one model give way to the other, does the confrontation harden the compartmentalization, or does it land as nothing because the two domains were never competing for the same mental resource to begin with?"
+status: active
