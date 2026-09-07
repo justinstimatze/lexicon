@@ -36,6 +36,11 @@ export interface DocumentTraceHit {
   // Position in the embed gate's candidate ranking — a recall diagnostic,
   // not something a reader needs.
   gate_rank: number
+  // How many of the run's candidate pools produced this hit. The lens is
+  // run once per pool size (see DocumentTraceData.candidates); a pick it
+  // made against two different sets of alternatives is firmer evidence
+  // than one it made once.
+  agreement?: number
 }
 
 export interface DocumentTraceDoc {
@@ -61,7 +66,8 @@ export interface DocumentTraceDoc {
 export interface DocumentTraceData {
   generated_at: string
   model: string
-  candidates: number
+  // Embed-gate pool sizes the lens was run with, one entry per pool.
+  candidates: number[]
   max_picks: number
   min_confidence: number
   documents: DocumentTraceDoc[]
@@ -80,7 +86,7 @@ export function chunksWithHits(doc: DocumentTraceDoc): ChunkWithHits[] {
     arr.push(h)
     byChunk.set(h.chunk_index, arr)
   }
-  for (const arr of byChunk.values()) arr.sort((a, b) => b.confidence - a.confidence)
+  for (const arr of byChunk.values()) arr.sort((a, b) => (b.agreement ?? 1) - (a.agreement ?? 1) || b.confidence - a.confidence)
   return doc.chunks.map((c) => ({ ...c, hits: byChunk.get(c.index) ?? [] }))
 }
 

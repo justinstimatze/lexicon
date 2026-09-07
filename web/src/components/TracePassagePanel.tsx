@@ -12,17 +12,25 @@ function truncate(text: string, max: number) {
   return text.slice(0, text.lastIndexOf(" ", max)) + "…"
 }
 
-function Confidence({ value, tier }: { value: number; tier: string }) {
+function Confidence({ value, tier, agreement }: { value: number; tier: string; agreement: number }) {
   const color = TIER_COLOR[tier] ?? TIER_COLOR.atomic
   return (
     <span
       className="flex items-center gap-2"
-      title="The lens's estimate that this pattern's mechanism is present in the passage, 0 to 1. Nothing below the run's floor is shown."
+      title={
+        "The lens's estimate that this pattern's mechanism is present in the passage, 0 to 1. Nothing below the run's floor is shown." +
+        (agreement > 1 ? ` Chosen in all ${agreement} candidate pools the lens was run against.` : "")
+      }
     >
       <span className="h-[3px] w-14 overflow-hidden rounded-full bg-ink/10">
         <span className="block h-full rounded-full" style={{ width: `${Math.round(value * 100)}%`, backgroundColor: color }} />
       </span>
       <span className="font-mono text-[10px] text-ink-faint tabular-nums">{value.toFixed(2)}</span>
+      {agreement > 1 && (
+        <span aria-label={`agreed by ${agreement} pools`} className="font-mono text-[9px] text-ink-faint/80 tabular-nums">
+          ×{agreement}
+        </span>
+      )}
     </span>
   )
 }
@@ -109,7 +117,7 @@ function HitCard({
           <span className="inline-block h-1.5 w-1.5 rounded-full" style={{ backgroundColor: color }} aria-hidden />
           {hit.tier}
         </span>
-        <Confidence value={hit.confidence} tier={hit.tier} />
+        <Confidence value={hit.confidence} tier={hit.tier} agreement={hit.agreement ?? 1} />
       </div>
       <button
         type="button"
