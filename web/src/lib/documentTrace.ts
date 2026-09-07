@@ -33,6 +33,9 @@ export interface DocumentTraceDoc {
   // reader isn't misled into thinking the author wrote it with these
   // breaks.
   chunking_note?: string
+  // The same trimmed text `chunks[].char_start`/`char_end` index into —
+  // rune counts, matching JS string-index semantics for this corpus.
+  full_text: string
   chunks: DocumentTraceChunk[]
   hits: DocumentTraceHit[]
 }
@@ -59,6 +62,27 @@ export function chunksWithHits(doc: DocumentTraceDoc): ChunkWithHits[] {
   }
   for (const arr of byChunk.values()) arr.sort((a, b) => b.score - a.score)
   return doc.chunks.map((c) => ({ ...c, hits: byChunk.get(c.index) ?? [] }))
+}
+
+// Lives here rather than in TraceNetwork.tsx (which also uses it) because
+// TraceNetwork is deliberately lazy()-loaded to keep react-force-graph-2d
+// out of the eager Trace-tab bundle — DocumentTrace.tsx, which renders
+// eagerly, needs this same color mapping for its full-text highlights and
+// must not import anything from that lazy module to get it.
+export const TIER_COLOR: Record<string, string> = {
+  atomic: "#8a7a5c",
+  molecule: "#c98a4b",
+  reaction: "#7fb0d6",
+}
+
+// A DOM background-color needs to sit behind readable text; the raw hex
+// values above are tuned as opaque canvas fill, too strong for that. Same
+// hue, low alpha — `strong` for the currently-open chunk, so "which one is
+// active" reads as a color difference rather than a box drawn around it
+// (an outline/border on a `<mark>` that wraps multiple lines renders one
+// box per line fragment, not one shape around the whole span).
+export function tierTint(tier: string, strong = false): string {
+  return `${TIER_COLOR[tier] ?? TIER_COLOR.atomic}${strong ? "4d" : "26"}`
 }
 
 export interface TraceGraphNode {

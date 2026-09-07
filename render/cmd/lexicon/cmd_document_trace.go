@@ -10,6 +10,7 @@ import (
 	"regexp"
 	"strings"
 	"time"
+	"unicode/utf8"
 )
 
 // cmdDocumentTrace walks one or more whole documents paragraph by paragraph
@@ -50,7 +51,11 @@ type docManifest struct {
 }
 
 type docTraceChunk struct {
-	Index     int    `json:"index"`
+	Index int `json:"index"`
+	// CharStart/CharEnd are rune counts (not byte offsets) into the
+	// document's full_text, so a frontend can slice them directly with
+	// JavaScript's UTF-16-code-unit string indexing -- see the conversion
+	// at the call site in cmdDocumentTrace.
 	CharStart int    `json:"char_start"`
 	CharEnd   int    `json:"char_end"`
 	Excerpt   string `json:"excerpt"`
@@ -67,14 +72,18 @@ type docTraceHit struct {
 }
 
 type docTraceDoc struct {
-	ID           string          `json:"id"`
-	Title        string          `json:"title"`
-	Author       string          `json:"author"`
-	Year         int             `json:"year"`
-	SourceURL    string          `json:"source_url,omitempty"`
-	ChunkingNote string          `json:"chunking_note,omitempty"`
-	Chunks       []docTraceChunk `json:"chunks"`
-	Hits         []docTraceHit   `json:"hits"`
+	ID           string `json:"id"`
+	Title        string `json:"title"`
+	Author       string `json:"author"`
+	Year         int    `json:"year"`
+	SourceURL    string `json:"source_url,omitempty"`
+	ChunkingNote string `json:"chunking_note,omitempty"`
+	// FullText is the same trimmed text splitParagraphs chunked -- shipped
+	// so a frontend can render the whole document with chunks highlighted
+	// inline, rather than only ever seeing a truncated excerpt.
+	FullText string          `json:"full_text"`
+	Chunks   []docTraceChunk `json:"chunks"`
+	Hits     []docTraceHit   `json:"hits"`
 }
 
 type docTraceOutput struct {
@@ -96,9 +105,12 @@ type paragraphSpan struct {
 // splitParagraphs splits text on runs of blank lines, trims each candidate,
 // drops empty ones, then merges any paragraph under minWords forward into
 // the next paragraph (or backward into the last emitted one, if it's the
-// trailing paragraph with nothing to merge forward into). Byte offsets are
-// tracked against the original text so the frontend can anchor a chunk back
-// to its source position.
+// trailing paragraph with nothing to merge forward into). Spans carry byte
+// offsets into the original text -- Go string indexing is byte-based, and
+// this function needs that for strings.Index. The caller converts to rune
+// counts before serializing (see cmdDocumentTrace), since a frontend slicing
+// full_text with these offsets does so with JavaScript's UTF-16-code-unit
+// string indexing, not bytes.
 func splitParagraphs(text string, minWords int) []paragraphSpan {
 	var raw []paragraphSpan
 	pos := 0
@@ -141,10 +153,11 @@ func splitParagraphs(text string, minWords int) []paragraphSpan {
 
 func excerpt(s string, maxLen int) string {
 	s = strings.Join(strings.Fields(s), " ")
-	if len(s) <= maxLen {
+	r := []rune(s)
+	if len(r) <= maxLen {
 		return s
 	}
-	return strings.TrimSpace(s[:maxLen]) + "…"
+	return strings.TrimSpace(string(r[:maxLen])) + "…"
 }
 
 func cmdDocumentTrace(renderDir string, args []string) {
@@ -206,8 +219,8 @@ func cmdDocumentTrace(renderDir string, args []string) {
 			}
 			chunks = append(chunks, docTraceChunk{
 				Index:     i,
-				CharStart: span.start,
-				CharEnd:   span.end,
+				CharStart: utf8.RuneCountInString(text[:span.start]),
+				CharEnd:   utf8.RuneCountInString(text[:span.end]),
 				Excerpt:   excerpt(span.text, 160),
 				LensUsed:  lensUsed,
 			})
@@ -235,7 +248,7 @@ func cmdDocumentTrace(renderDir string, args []string) {
 		}
 		docs = append(docs, docTraceDoc{
 			ID: m.ID, Title: m.Title, Author: m.Author, Year: m.Year, SourceURL: m.SourceURL,
-			ChunkingNote: m.ChunkingNote, Chunks: chunks, Hits: hits,
+			ChunkingNote: m.ChunkingNote, FullText: text, Chunks: chunks, Hits: hits,
 		})
 	}
 
