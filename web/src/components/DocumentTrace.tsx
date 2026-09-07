@@ -1,252 +1,204 @@
-import { lazy, Suspense, useEffect, useMemo, useState } from "react"
+import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from "react"
+import { useSearchParams } from "react-router-dom"
 import graphData from "@/data/graph.json"
 import type { LexGraph } from "@/lib/graph"
 import documentTraceData from "@/data/document-traces.json"
-import type { ChunkWithHits, DocumentTraceData, DocumentTraceDoc, DocumentTraceHit } from "@/lib/documentTrace"
-import { chunksWithHits, tierTint } from "@/lib/documentTrace"
+import type { ChunkWithHits, DocumentTraceData, DocumentTraceDoc } from "@/lib/documentTrace"
+import { atomPassages, chunksWithHits, paragraphsOf } from "@/lib/documentTrace"
 import { AtomCard } from "@/components/AtomCard"
 import { Dialog, DialogContent, DialogBody } from "@/components/ui/dialog"
-import { fetchAtomDetail, type AtomDetail } from "@/lib/atomDetail"
+import { TraceText } from "@/components/TraceText"
+import { scrollPassageIntoView } from "@/lib/traceScroll"
+import { TracePassagePanel } from "@/components/TracePassagePanel"
+import { cn } from "@/lib/utils"
 
-// force-graph's canvas renderer pulls in its own physics engine — worth
-// splitting out of the tab's initial bundle the same way Graph3D is split
-// out of the app shell, even though this one is far lighter (Canvas2D,
-// no three.js).
+// force-graph's canvas renderer pulls in its own physics engine — kept out
+// of the tab's initial bundle the same way Graph3D is split out of the
+// app shell.
 const TraceNetwork = lazy(() => import("@/components/TraceNetwork").then((m) => ({ default: m.TraceNetwork })))
 
 const graph = graphData as unknown as LexGraph
 const nodesById = new Map(graph.nodes.map((n) => [n.id, n]))
-
 const data = documentTraceData as unknown as DocumentTraceData
 
-type ViewMode = "text" | "network"
-
-interface TextSegment {
-  key: string
-  text: string
-  chunk: ChunkWithHits | null
-}
-
-// Walks full_text once, splitting it at each chunk's (now rune-indexed,
-// JS-string-safe) char_start/char_end boundaries. Any gap between chunks
-// — normally just the blank-line separator the paragraph splitter
-// stripped — renders as plain inert text alongside them.
-function buildSegments(doc: DocumentTraceDoc, chunks: ChunkWithHits[]): TextSegment[] {
-  const segments: TextSegment[] = []
-  let cursor = 0
-  for (const c of chunks) {
-    if (c.char_start > cursor) {
-      segments.push({ key: `gap-${c.index}`, text: doc.full_text.slice(cursor, c.char_start), chunk: null })
-    }
-    const hasHit = c.hits.length > 0
-    segments.push({ key: `chunk-${c.index}`, text: doc.full_text.slice(c.char_start, c.char_end), chunk: hasHit ? c : null })
-    cursor = c.char_end
-  }
-  if (cursor < doc.full_text.length) {
-    segments.push({ key: "gap-end", text: doc.full_text.slice(cursor), chunk: null })
-  }
-  return segments
-}
-
-const TRUNCATE_AT = 200
-
-function truncate(text: string, max: number) {
-  if (text.length <= max) return text
-  return text.slice(0, text.lastIndexOf(" ", max)) + "…"
-}
-
-// The source texts carry runs of 3+ line breaks between title/dateline/
-// byline blocks (each its own blank-line-separated "paragraph" before the
-// floor-merge folds them together) -- rendered verbatim via
-// white-space:pre-wrap, that reads as several empty lines stacked up.
-// Collapsing all the way to a single line break, not just to one blank
-// line, because a highlighted <mark> still draws its own padded box
-// decoration around an empty line -- one blank row inside a hit-bearing
-// passage still shows as a thin floating highlight sliver with nothing in
-// it. Zero blank lines trivially satisfies "no more than one" while
-// actually looking clean. Display-only: operates on a segment's own
-// extracted text, never on full_text or the char_start/char_end offsets
-// used to extract it, so it can't drift the indices other segments
-// depend on.
-function collapseBlankLines(text: string): string {
-  return text.replace(/(\r\n|\r|\n){2,}/g, "\n")
-}
-
-// Shows the atom's own general-mechanism explanation next to the quote
-// that triggered it — a real "why this matches" note, though an honest
-// one: agent_instruction explains the pattern in the abstract, not a
-// bespoke justification for this specific passage. Fetched via the same
-// per-atom cache AtomCard itself uses, so opening the AtomCard dialog
-// right after costs nothing extra.
-function HitRow({ hit, lensUsed, onAtomClick }: { hit: DocumentTraceHit; lensUsed: boolean; onAtomClick: (id: string) => void }) {
-  const [detail, setDetail] = useState<AtomDetail | null>(null)
-  useEffect(() => {
-    let cancelled = false
-    fetchAtomDetail(hit.atom_id).then((d) => {
-      if (!cancelled) setDetail(d)
-    })
-    return () => {
-      cancelled = true
-    }
-  }, [hit.atom_id])
-
+// Where an atom fires in the open document, as jump links — shown in the
+// atom drawer under the card so a reader who arrived from the network
+// (no passage selected on the way in) can still get back to the text.
+function AtomInDocument({
+  doc,
+  chunks,
+  atomId,
+  onSelect,
+}: {
+  doc: DocumentTraceDoc
+  chunks: ChunkWithHits[]
+  atomId: string
+  onSelect: (index: number) => void
+}) {
+  const indices = atomPassages(doc, atomId)
+  if (indices.length === 0) return null
   return (
-    <li className="flex flex-col gap-1 font-mono text-[11px]">
-      <div className="flex items-center justify-between gap-3">
-        <button
-          type="button"
-          onClick={() => onAtomClick(hit.atom_id)}
-          className="min-w-0 truncate text-left text-primary underline decoration-dotted underline-offset-2 hover:text-accent-soft"
-        >
-          {hit.name}
-        </button>
-        <span className="shrink-0 text-ink-faint tabular-nums">
-          {hit.score.toFixed(2)}
-          {hit.lexical_match && !lensUsed ? " · lexical" : ""}
-        </span>
-      </div>
-      {detail?.agent_instruction && <p className="text-ink-dim italic">{truncate(detail.agent_instruction, TRUNCATE_AT)}</p>}
-    </li>
-  )
-}
-
-function ChunkHitPanel({ doc, chunk, onAtomClick }: { doc: DocumentTraceDoc; chunk: ChunkWithHits; onAtomClick: (id: string) => void }) {
-  const fullQuote = collapseBlankLines(doc.full_text.slice(chunk.char_start, chunk.char_end))
-  return (
-    <div className="border border-rule bg-bg-well p-4">
-      <p className="text-[13px] text-ink-dim italic whitespace-pre-wrap">"{truncate(fullQuote, 600)}"</p>
-      {chunk.hits.length === 0 ? (
-        <p className="mt-3 font-mono text-[11px] text-ink-faint">
-          no pattern surfaced above threshold for this passage
-          {!chunk.lens_used && " (lexical-only — the semantic lens was unavailable for this chunk)"}
-        </p>
-      ) : (
-        <ul className="mt-3 flex flex-col gap-3">
-          {chunk.hits.map((h) => (
-            <HitRow key={h.atom_id} hit={h} lensUsed={chunk.lens_used} onAtomClick={onAtomClick} />
-          ))}
-        </ul>
-      )}
-    </div>
-  )
-}
-
-// The same "why" question the Text view's click-through answers (which
-// passage produced this atom, and what was its score) still applies when
-// the atom was reached from the Network view instead, where there's no
-// intermediate chunk click to anchor it -- computed generically from
-// doc.hits so both entry points show it, rather than duplicating this
-// per entry point.
-function AtomDocumentContext({ doc, chunks, atomId }: { doc: DocumentTraceDoc; chunks: ChunkWithHits[]; atomId: string }) {
-  const occurrences = doc.hits
-    .filter((h) => h.atom_id === atomId)
-    .map((h) => {
-      const chunk = chunks.find((c) => c.index === h.chunk_index)
-      return chunk ? { hit: h, quote: collapseBlankLines(doc.full_text.slice(chunk.char_start, chunk.char_end)) } : null
-    })
-    .filter((x): x is { hit: DocumentTraceHit; quote: string } => x !== null)
-
-  if (occurrences.length === 0) return null
-
-  return (
-    <div className="mb-4 border-b border-rule pb-4">
+    <div className="mt-4 border-t border-rule pt-4">
       <div className="mb-2 font-mono text-[10px] tracking-wide text-ink-faint uppercase">
-        in {doc.title} — {occurrences.length} passage{occurrences.length === 1 ? "" : "s"}
+        In {doc.title} — {indices.length} passage{indices.length === 1 ? "" : "s"}
       </div>
-      <ul className="flex flex-col gap-2.5">
-        {occurrences.map((o, i) => (
-          <li key={i} className="font-mono text-[11px]">
-            <p className="text-ink-dim italic whitespace-pre-wrap">"{truncate(o.quote, 260)}"</p>
-            <span className="text-ink-faint tabular-nums">
-              {o.hit.score.toFixed(2)}
-              {o.hit.lexical_match ? " · lexical" : ""}
-            </span>
-          </li>
-        ))}
+      <ul className="flex flex-col gap-1.5">
+        {indices.map((i) => {
+          const c = chunks[i]
+          const lead = c ? paragraphsOf(doc.full_text.slice(c.char_start, c.char_end)).join(" ") : ""
+          return (
+            <li key={i}>
+              <button
+                type="button"
+                onClick={() => onSelect(i)}
+                className="flex w-full items-baseline gap-2 text-left font-mono text-[11px] hover:text-accent-soft focus-visible:ring-2 focus-visible:ring-primary/60 focus-visible:outline-none"
+              >
+                <span className="shrink-0 text-primary underline decoration-dotted underline-offset-2 tabular-nums">¶ {i + 1}</span>
+                <span className="min-w-0 truncate font-serif text-[12px] text-ink-dim">{lead}</span>
+              </button>
+            </li>
+          )
+        })}
       </ul>
     </div>
   )
 }
 
 export function DocumentTrace() {
-  const [docId, setDocId] = useState(data.documents[0]?.id ?? "")
-  const doc = data.documents.find((d) => d.id === docId) ?? data.documents[0]
+  // Selection lives in the URL (#/trace?doc=…&p=3): reloading, sharing,
+  // and back/forward all keep the reader's place, the way Sefaria's
+  // segment links do.
+  const [params, setParams] = useSearchParams()
+  const doc = data.documents.find((d) => d.id === params.get("doc")) ?? data.documents[0]
   const chunks = useMemo(() => (doc ? chunksWithHits(doc) : []), [doc])
-  const segments = useMemo(() => (doc ? buildSegments(doc, chunks) : []), [doc, chunks])
-  const [openChunkIndex, setOpenChunkIndex] = useState<number | null>(0)
+  const activeIndex = useMemo(() => {
+    if (chunks.length === 0) return null
+    const p = Number(params.get("p"))
+    const i = Number.isFinite(p) && p >= 1 ? Math.floor(p) - 1 : 0
+    return Math.min(chunks.length - 1, Math.max(0, i))
+  }, [params, chunks.length])
+
   const [openAtomId, setOpenAtomId] = useState<string | null>(null)
-  const [view, setView] = useState<ViewMode>("text")
+  const [hoverAtomId, setHoverAtomId] = useState<string | null>(null)
 
-  function pickDoc(id: string) {
-    setDocId(id)
-    setOpenChunkIndex(0)
+  const select = useCallback(
+    (index: number, scroll = false) => {
+      if (!doc) return
+      setParams(
+        (prev) => {
+          const next = new URLSearchParams(prev)
+          next.set("doc", doc.id)
+          next.set("p", String(index + 1))
+          return next
+        },
+        { replace: true }
+      )
+      if (scroll) scrollPassageIntoView(index)
+    },
+    [doc, setParams]
+  )
+
+  // A deep link (?p=9) or a document switch should land the reader on the
+  // passage it names; a click on a passage already in view should not
+  // move the page. Runs once per document, after the rows exist. On the
+  // very first mount the page is already at the top, so ¶1 needs no
+  // scroll; on a later switch the page may be scrolled deep into the
+  // previous document, so even ¶1 does.
+  const initialDocRef = useRef<string | null>(null)
+  useEffect(() => {
+    if (!doc || activeIndex === null) return
+    if (initialDocRef.current === doc.id) return
+    const firstMount = initialDocRef.current === null
+    initialDocRef.current = doc.id
+    if (activeIndex > 0 || !firstMount) scrollPassageIntoView(activeIndex)
+  }, [doc, activeIndex])
+
+  const pickDoc = (id: string) => {
+    setParams({ doc: id, p: "1" })
     setOpenAtomId(null)
+    setHoverAtomId(null)
   }
 
-  function openChunk(index: number) {
-    setOpenChunkIndex(index)
-  }
+  // ← / → (or j / k) step through passages when nothing else owns the keys.
+  useEffect(() => {
+    if (activeIndex === null) return
+    const onKey = (e: KeyboardEvent) => {
+      if (openAtomId || e.metaKey || e.ctrlKey || e.altKey) return
+      const t = e.target as HTMLElement | null
+      if (t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.tagName === "SELECT" || t.isContentEditable)) return
+      if ((e.key === "ArrowRight" || e.key === "j") && activeIndex < chunks.length - 1) {
+        e.preventDefault()
+        select(activeIndex + 1, true)
+      } else if ((e.key === "ArrowLeft" || e.key === "k") && activeIndex > 0) {
+        e.preventDefault()
+        select(activeIndex - 1, true)
+      }
+    }
+    window.addEventListener("keydown", onKey)
+    return () => window.removeEventListener("keydown", onKey)
+  }, [activeIndex, chunks.length, openAtomId, select])
 
   if (!doc) {
     return <p className="font-mono text-xs text-ink-faint">no traced documents in this build</p>
   }
 
-  const lensCoverage = chunks.length > 0 ? chunks.filter((c) => c.lens_used).length / chunks.length : 0
-  const activeChunk = openChunkIndex !== null ? chunks[openChunkIndex] : undefined
+  const lensCount = chunks.filter((c) => c.lens_used).length
   const selectedAtom = openAtomId ? nodesById.get(openAtomId) : undefined
+  const highlightAtomId = hoverAtomId ?? openAtomId
 
   return (
-    <div className="mx-auto flex max-w-[1400px] flex-col gap-8">
+    <div className="mx-auto flex max-w-[1520px] flex-col gap-6 max-lg:pb-[46vh]">
       <div className="max-w-[70ch]">
         <h1 className="font-display text-[clamp(22px,2.6vw,32px)] leading-[1.05] font-black tracking-tight text-balance">
           Reading a document as a sequence of patterns
         </h1>
         <p className="mt-3 text-[14px] text-ink-dim">
-          Each document below is walked paragraph by paragraph, independently, against the full corpus — a single
-          top-scoring pattern per paragraph, in the order the paragraph actually occurs. This is a precomputed
-          artifact, not a live query: nothing here calls the matching engine from your browser. None of these
-          documents are by an author already cited anywhere else in this corpus.
+          Each document is walked passage by passage against the full corpus — the two strongest patterns per passage, in
+          reading order. Precomputed at build time, not a live query. None of these authors is cited anywhere else in the
+          corpus.
         </p>
       </div>
 
-      <div className="flex flex-wrap gap-2">
+      <nav aria-label="documents" className="flex flex-wrap gap-2">
         {data.documents.map((d) => (
           <button
             key={d.id}
             type="button"
+            aria-current={d.id === doc.id ? "page" : undefined}
             onClick={() => pickDoc(d.id)}
-            className={
-              "border px-3 py-1.5 text-left font-mono text-[11px] tracking-wide uppercase transition-colors " +
-              (d.id === docId
-                ? "border-primary bg-primary/15 text-foreground"
-                : "border-rule text-ink-dim hover:border-primary/50")
-            }
+            className={cn(
+              "border px-3 py-1.5 text-left font-mono text-[11px] tracking-wide uppercase transition-colors focus-visible:ring-2 focus-visible:ring-primary/60 focus-visible:outline-none",
+              d.id === doc.id ? "border-primary bg-primary/15 text-foreground" : "border-rule text-ink-dim hover:border-primary/50"
+            )}
           >
             {d.title}
           </button>
         ))}
-      </div>
+      </nav>
 
       <div>
-        <div className="flex flex-wrap items-baseline justify-between gap-2 border-b border-rule pb-2">
+        <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 border-b border-rule pb-2">
           <h2 className="font-mono text-[12px] tracking-[0.1em] text-foreground uppercase">
             {doc.title} — {doc.author}, {doc.year}
+            {doc.source_url && (
+              <>
+                {" "}
+                <a
+                  href={doc.source_url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="ml-2 font-normal tracking-normal text-primary normal-case underline decoration-dotted underline-offset-2 hover:text-accent-soft"
+                >
+                  source ↗
+                </a>
+              </>
+            )}
           </h2>
           <span className="font-mono text-[10px] text-ink-faint">
-            {chunks.length} passages · {doc.hits.length} pattern hits ·{" "}
-            {Math.round(lensCoverage * 100)}% semantic, rest lexical-only
+            {chunks.length} passages · {doc.hits.length} hits · semantic lens on{" "}
+            {lensCount === chunks.length ? "every passage" : `${lensCount} of ${chunks.length}`}
           </span>
         </div>
-        {doc.source_url && (
-          <a
-            href={doc.source_url}
-            target="_blank"
-            rel="noreferrer"
-            className="mt-2 inline-block text-[11px] text-primary underline decoration-dotted underline-offset-2 hover:text-accent-soft"
-          >
-            read the full text →
-          </a>
-        )}
         {doc.chunking_note && (
           <p className="mt-2 text-[11px] text-ink-dim italic">
             <span className="not-italic text-ink-faint">Note: </span>
@@ -254,85 +206,30 @@ export function DocumentTrace() {
           </p>
         )}
 
-        <div className="mt-4 flex gap-2">
-          <button
-            type="button"
-            onClick={() => setView("text")}
-            className={
-              "border px-2.5 py-1 font-mono text-[10px] tracking-wide uppercase transition-colors " +
-              (view === "text" ? "border-primary bg-primary/15 text-foreground" : "border-rule text-ink-dim hover:border-primary/50")
-            }
-          >
-            Text
-          </button>
-          <button
-            type="button"
-            onClick={() => setView("network")}
-            className={
-              "border px-2.5 py-1 font-mono text-[10px] tracking-wide uppercase transition-colors " +
-              (view === "network" ? "border-primary bg-primary/15 text-foreground" : "border-rule text-ink-dim hover:border-primary/50")
-            }
-          >
-            Network
-          </button>
-        </div>
+        {/*
+          Three coordinated columns at xl (text · selected passage · its
+          neighbourhood), two at lg (the right pair stacked and sticky), one
+          below that with the passage panel as a bottom sheet so a tap on
+          a passage still produces a visible reaction. Selecting in any
+          column reflects in the others; Jigsaw and Voyant are the prior
+          art for that.
+        */}
+        <div className="mt-5 grid grid-cols-1 items-start gap-5 lg:grid-cols-[minmax(0,1fr)_320px] xl:grid-cols-[minmax(0,1fr)_320px_360px]">
+          <TraceText doc={doc} chunks={chunks} activeIndex={activeIndex} highlightAtomId={highlightAtomId} onSelect={(i) => select(i)} />
 
-        {view === "text" ? (
-          // A side panel next to the text, not a block below a scrolled
-          // container: clicking a highlighted passage has to produce a
-          // visible reaction without the reader needing to notice a
-          // change happened somewhere off-screen and scroll to find it
-          // (genius.com's annotation panel opens right beside the lyric
-          // you clicked, for the same reason). Falls back to stacking
-          // below the text on narrow viewports, where there's no room
-          // for two columns anyway.
-          <div className="mt-4 grid grid-cols-1 items-start gap-4 lg:grid-cols-[minmax(0,1fr)_320px]">
-            <div className="max-h-[70vh] overflow-y-auto border border-rule bg-bg-well p-5">
-              <div className="max-w-[68ch] font-serif text-[15px] leading-relaxed whitespace-pre-wrap text-ink">
-                {segments.map((seg) =>
-                  seg.chunk ? (
-                    <mark
-                      key={seg.key}
-                      role="button"
-                      tabIndex={0}
-                      onClick={() => openChunk(seg.chunk!.index)}
-                      onKeyDown={(e) => {
-                        if (e.key === "Enter" || e.key === " ") {
-                          e.preventDefault()
-                          openChunk(seg.chunk!.index)
-                        }
-                      }}
-                      title={`${seg.chunk.hits[0].name} (${seg.chunk.hits[0].score.toFixed(2)})`}
-                      style={{
-                        backgroundColor: tierTint(seg.chunk.hits[0].tier, openChunkIndex === seg.chunk.index),
-                        boxDecorationBreak: "clone",
-                        WebkitBoxDecorationBreak: "clone",
-                        padding: "0.05em 0.15em",
-                        borderRadius: "0.2em",
-                      }}
-                      className="cursor-pointer text-inherit transition-colors hover:brightness-125 focus-visible:outline focus-visible:outline-2 focus-visible:outline-primary"
-                    >
-                      {collapseBlankLines(seg.text)}
-                    </mark>
-                  ) : (
-                    <span key={seg.key}>{collapseBlankLines(seg.text)}</span>
-                  )
-                )}
-              </div>
-            </div>
-
-            <div className="lg:sticky lg:top-4">
-              {activeChunk ? (
-                <ChunkHitPanel doc={doc} chunk={activeChunk} onAtomClick={setOpenAtomId} />
-              ) : (
-                <p className="border border-dashed border-rule-light p-4 font-mono text-[11px] text-ink-faint">
-                  click a highlighted passage to see which pattern it matched
-                </p>
+          <div className="flex flex-col gap-4 lg:sticky lg:top-4 lg:max-h-[calc(100vh-2rem)] lg:overflow-y-auto xl:contents">
+            <TracePassagePanel
+              doc={doc}
+              chunks={chunks}
+              activeIndex={activeIndex}
+              onSelect={(i) => select(i, true)}
+              onAtomClick={setOpenAtomId}
+              onAtomHover={setHoverAtomId}
+              className={cn(
+                "xl:sticky xl:top-4 xl:max-h-[calc(100vh-2rem)] xl:overflow-y-auto",
+                "max-lg:fixed max-lg:inset-x-0 max-lg:bottom-0 max-lg:z-40 max-lg:max-h-[44vh] max-lg:overflow-y-auto max-lg:border-x-0 max-lg:border-b-0 max-lg:shadow-[0_-8px_24px_rgba(0,0,0,0.35)]"
               )}
-            </div>
-          </div>
-        ) : (
-          <div className="mt-4">
+            />
             <Suspense
               fallback={
                 <div className="flex h-40 items-center justify-center border border-rule bg-bg-well font-mono text-xs text-ink-faint">
@@ -340,10 +237,17 @@ export function DocumentTrace() {
                 </div>
               }
             >
-              <TraceNetwork doc={doc} onAtomClick={setOpenAtomId} />
+              <TraceNetwork
+                doc={doc}
+                chunks={chunks}
+                activeIndex={activeIndex}
+                onAtomClick={setOpenAtomId}
+                onAtomHover={setHoverAtomId}
+                className="xl:sticky xl:top-4"
+              />
             </Suspense>
           </div>
-        )}
+        </div>
       </div>
 
       <Dialog open={!!selectedAtom} onOpenChange={(open) => !open && setOpenAtomId(null)}>
@@ -351,8 +255,16 @@ export function DocumentTrace() {
           <DialogBody>
             {selectedAtom && (
               <>
-                <AtomDocumentContext doc={doc} chunks={chunks} atomId={selectedAtom.id} />
                 <AtomCard node={selectedAtom} onAtomClick={setOpenAtomId} />
+                <AtomInDocument
+                  doc={doc}
+                  chunks={chunks}
+                  atomId={selectedAtom.id}
+                  onSelect={(i) => {
+                    setOpenAtomId(null)
+                    select(i, true)
+                  }}
+                />
               </>
             )}
           </DialogBody>
