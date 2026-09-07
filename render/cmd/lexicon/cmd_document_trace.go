@@ -9,16 +9,27 @@ import (
 	"path/filepath"
 	"regexp"
 	"strings"
+	"sync"
 	"time"
 	"unicode/utf8"
+
+	"github.com/justinstimatze/lexicon/render/internal/client"
+	"github.com/justinstimatze/lexicon/render/internal/lens"
+	pkglexicon "github.com/justinstimatze/lexicon/render/pkg/lexicon"
 )
 
 // cmdDocumentTrace walks one or more whole documents paragraph by paragraph
-// and, for each paragraph, records which corpus atoms it matches — an
+// and, for each paragraph, records which corpus atoms it instantiates — an
 // ORDERED trace of pattern hits across a document, as opposed to
 // `lexicon read`'s single-passage snapshot. Built for the web/ SPA's
 // precomputed "Trace" tab: run once at build time against a fixed manifest
 // of demo documents, never called live from the browser.
+//
+// Scoring is Corpus.TracePassage (pkg/lexicon/passage.go), not ScoreRaw:
+// a wider embed-gate funnel, a passage-specific lens prompt that returns a
+// verbatim evidence span per pick, ranking by lens confidence only, and
+// zero hits allowed. A passage the pipeline could not judge is written as
+// untraced with the reason — never filled with keyword collisions.
 //
 // Usage:
 //
@@ -59,16 +70,30 @@ type docTraceChunk struct {
 	CharStart int    `json:"char_start"`
 	CharEnd   int    `json:"char_end"`
 	Excerpt   string `json:"excerpt"`
-	LensUsed  bool   `json:"lens_used"`
+	// Traced is true when the lens judged this passage, whether or not
+	// it found anything. False means the pipeline could not judge it;
+	// TraceNote says why.
+	Traced    bool   `json:"traced"`
+	TraceNote string `json:"trace_note,omitempty"`
 }
 
 type docTraceHit struct {
-	ChunkIndex   int     `json:"chunk_index"`
-	AtomID       string  `json:"atom_id"`
-	Name         string  `json:"name"`
-	Tier         string  `json:"tier"`
-	Score        float64 `json:"score"`
-	LexicalMatch bool    `json:"lexical_match"`
+	ChunkIndex int     `json:"chunk_index"`
+	AtomID     string  `json:"atom_id"`
+	Name       string  `json:"name"`
+	Tier       string  `json:"tier"`
+	Confidence float64 `json:"confidence"`
+	// Evidence is the lens's verbatim quote; EvidenceStart/End are rune
+	// offsets into full_text (same space as chunk char_start/char_end),
+	// absent when the quote could not be anchored to the passage.
+	Evidence        string `json:"evidence,omitempty"`
+	EvidenceStart   *int   `json:"evidence_start,omitempty"`
+	EvidenceEnd     *int   `json:"evidence_end,omitempty"`
+	EvidencePartial bool   `json:"evidence_partial,omitempty"`
+	Why             string `json:"why,omitempty"`
+	// GateRank is the atom's position in the embed gate's ranking — the
+	// recall diagnostic for -candidates.
+	GateRank int `json:"gate_rank"`
 }
 
 type docTraceDoc struct {
@@ -87,10 +112,12 @@ type docTraceDoc struct {
 }
 
 type docTraceOutput struct {
-	GeneratedAt string        `json:"generated_at"`
-	TopK        int           `json:"top_k"`
-	NoLens      bool          `json:"no_lens"`
-	Documents   []docTraceDoc `json:"documents"`
+	GeneratedAt   string        `json:"generated_at"`
+	Model         string        `json:"model"`
+	Candidates    int           `json:"candidates"`
+	MaxPicks      int           `json:"max_picks"`
+	MinConfidence float64       `json:"min_confidence"`
+	Documents     []docTraceDoc `json:"documents"`
 }
 
 var blankLineRun = regexp.MustCompile(`\n\s*\n+`)
@@ -164,9 +191,12 @@ func cmdDocumentTrace(renderDir string, args []string) {
 	fl := flag.NewFlagSet("document-trace", flag.ExitOnError)
 	manifestPath := fl.String("manifest", "", "path to a JSON manifest listing {id,title,author,year,source_url,text_file}")
 	out := fl.String("out", "", "output path for the document-trace JSON (default: stdout)")
-	topK := fl.Int("top-k", 2, "atoms surfaced per chunk")
-	minScore := fl.Float64("min-score", 0, "drop hits below this score (0 = no filtering; the right value is unverified until run once and eyeballed)")
-	noLens := fl.Bool("no-lens", false, "skip the LLM-backed semantic lens (lexical-only on full pool)")
+	candidates := fl.Int("candidates", 50, "atoms the embed gate hands the lens per passage")
+	maxPicks := fl.Int("max-picks", lens.MaxPassagePicks, "most patterns recorded per passage")
+	minConfidence := fl.Float64("min-confidence", 0.6, "drop lens picks below this confidence")
+	model := fl.String("model", client.Model, "lens model for the passage judgment")
+	retries := fl.Int("lens-retries", 2, "retries per passage on a failed lens call")
+	workers := fl.Int("workers", 2, "passages judged concurrently (each is one local embed plus one lens call)")
 	minWords := fl.Int("min-words", 40, "paragraphs shorter than this get merged into a neighbor before matching")
 	if err := fl.Parse(args); err != nil {
 		fatal("parse flags: %s", err)
@@ -174,15 +204,15 @@ func cmdDocumentTrace(renderDir string, args []string) {
 	if *manifestPath == "" {
 		fatal("document-trace: -manifest is required")
 	}
+	// Both stages' defaults are hook-latency guards: a live turn must
+	// never hang on them. This is a batch precompute, where a slow answer
+	// costs nothing and a timed-out one costs the passage (it ships as
+	// untraced — never as a keyword fallback, but still a gap). The
+	// 2026-09-06 run lost 159 of 247 chunks to the 6s gate budget on a
+	// host that was swapping.
 	if os.Getenv("LEXICON_LENS_TIMEOUT_MS") == "" {
-		_ = os.Setenv("LEXICON_LENS_TIMEOUT_MS", "30000")
+		_ = os.Setenv("LEXICON_LENS_TIMEOUT_MS", "90000")
 	}
-	// The embed gate's 6s default budget is a hook-latency guard: a live
-	// turn must never hang on it. This is a batch precompute, where a slow
-	// answer costs nothing and a timed-out one silently degrades the whole
-	// chunk to keyword-only matching across the full catalog — the
-	// 2026-09-06 run lost 159 of 247 chunks that way on a host that was
-	// swapping, and nothing in the output said so.
 	if os.Getenv("LEXICON_EMBED_GATE_BUDGET_MS") == "" {
 		_ = os.Setenv("LEXICON_EMBED_GATE_BUDGET_MS", "60000")
 	}
@@ -200,7 +230,18 @@ func cmdDocumentTrace(renderDir string, args []string) {
 	}
 	manifestDir := filepath.Dir(*manifestPath)
 
+	if lens.Disabled() {
+		fatal("document-trace: the lens is disabled (no ANTHROPIC_API_KEY, or LEXICON_LENS_DISABLED=1) — there is no keyword-only mode for this command; run it from render/ with .env present")
+	}
+
 	corp := loadCorpusOrFatal(renderDir)
+	opts := pkglexicon.TraceOptions{
+		Candidates:    *candidates,
+		MaxPicks:      *maxPicks,
+		MinConfidence: *minConfidence,
+		Model:         *model,
+		LensRetries:   *retries,
+	}
 
 	var docs []docTraceDoc
 	for _, m := range manifest.Documents {
@@ -220,40 +261,66 @@ func cmdDocumentTrace(renderDir string, args []string) {
 		}
 		spans := splitParagraphs(text, effectiveMinWords)
 		chunks := make([]docTraceChunk, 0, len(spans))
-		var hits []docTraceHit
+		hits := []docTraceHit{}
+		meta := lens.PassageMeta{Title: m.Title, Author: m.Author, Year: m.Year}
+
+		// Passages are independent; judge a few at once. Results land in
+		// index order regardless of completion order, so the output is
+		// byte-stable across worker counts.
+		results := make([]pkglexicon.TraceResult, len(spans))
+		sem := make(chan struct{}, max(1, *workers))
+		var wg sync.WaitGroup
+		var stderrMu sync.Mutex
 		for i, span := range spans {
-			picked, scores, lexMatch, lensUsed, diag := corp.ScoreRaw(context.Background(), span.text, *topK, *noLens)
-			for _, d := range diag {
-				fmt.Fprintf(os.Stderr, "%s chunk %d: %s\n", m.ID, i, d)
-			}
+			wg.Add(1)
+			sem <- struct{}{}
+			go func(i int, passage string) {
+				defer wg.Done()
+				defer func() { <-sem }()
+				r := corp.TracePassage(context.Background(), passage, meta, opts)
+				stderrMu.Lock()
+				for _, d := range r.Diagnostics {
+					fmt.Fprintf(os.Stderr, "%s chunk %d: %s\n", m.ID, i, d)
+				}
+				stderrMu.Unlock()
+				results[i] = r
+			}(i, span.text)
+		}
+		wg.Wait()
+
+		for i, span := range spans {
+			res := results[i]
+			charStart := utf8.RuneCountInString(text[:span.start])
 			chunks = append(chunks, docTraceChunk{
 				Index:     i,
-				CharStart: utf8.RuneCountInString(text[:span.start]),
+				CharStart: charStart,
 				CharEnd:   utf8.RuneCountInString(text[:span.end]),
 				Excerpt:   excerpt(span.text, 160),
-				LensUsed:  lensUsed,
+				Traced:    res.Traced,
+				TraceNote: res.Note,
 			})
-			for _, e := range picked {
-				score := scores[e.ID]
-				if score < *minScore {
-					continue
-				}
-				tier := e.Tier
+			for _, h := range res.Hits {
+				tier := h.Entry.Tier
 				if tier == "" {
 					tier = "atomic"
 				}
-				hits = append(hits, docTraceHit{
-					ChunkIndex:   i,
-					AtomID:       e.ID,
-					Name:         e.Name,
-					Tier:         tier,
-					Score:        score,
-					LexicalMatch: lexMatch[e.ID],
-				})
+				hit := docTraceHit{
+					ChunkIndex:      i,
+					AtomID:          h.Entry.ID,
+					Name:            h.Entry.Name,
+					Tier:            tier,
+					Confidence:      h.Confidence,
+					Evidence:        h.Evidence,
+					EvidencePartial: h.EvidencePartial,
+					Why:             h.Why,
+					GateRank:        h.GateRank,
+				}
+				if h.EvidenceStart >= 0 {
+					s, e := charStart+h.EvidenceStart, charStart+h.EvidenceEnd
+					hit.EvidenceStart, hit.EvidenceEnd = &s, &e
+				}
+				hits = append(hits, hit)
 			}
-		}
-		if hits == nil {
-			hits = []docTraceHit{}
 		}
 		docs = append(docs, docTraceDoc{
 			ID: m.ID, Title: m.Title, Author: m.Author, Year: m.Year, SourceURL: m.SourceURL,
@@ -262,10 +329,12 @@ func cmdDocumentTrace(renderDir string, args []string) {
 	}
 
 	output := docTraceOutput{
-		GeneratedAt: time.Now().UTC().Format(time.RFC3339),
-		TopK:        *topK,
-		NoLens:      *noLens,
-		Documents:   docs,
+		GeneratedAt:   time.Now().UTC().Format(time.RFC3339),
+		Model:         *model,
+		Candidates:    *candidates,
+		MaxPicks:      *maxPicks,
+		MinConfidence: *minConfidence,
+		Documents:     docs,
 	}
 	data, err := json.MarshalIndent(output, "", "  ")
 	if err != nil {
@@ -282,28 +351,55 @@ func cmdDocumentTrace(renderDir string, args []string) {
 	if err := os.WriteFile(*out, data, 0o644); err != nil {
 		fatal("document-trace: write: %s", err)
 	}
-	totalHits, totalChunks, lensChunks := 0, 0, 0
+
+	// Summary. The gate-rank histogram is the answer to "is 50 candidates
+	// enough": picks landing in the last bucket mean the true match was
+	// often near the funnel's edge and a wider gate would find more.
+	totalHits, totalChunks, tracedChunks, emptyChunks, anchored, partial := 0, 0, 0, 0, 0, 0
+	buckets := [4]int{} // 1-10, 11-20, 21-35, 36+
 	for _, d := range docs {
-		totalHits += len(d.Hits)
-		totalChunks += len(d.Chunks)
-		n := 0
-		for _, c := range d.Chunks {
-			if c.LensUsed {
-				n++
+		nTraced, nEmpty := 0, 0
+		perChunk := map[int]int{}
+		for _, h := range d.Hits {
+			perChunk[h.ChunkIndex]++
+			switch {
+			case h.GateRank <= 10:
+				buckets[0]++
+			case h.GateRank <= 20:
+				buckets[1]++
+			case h.GateRank <= 35:
+				buckets[2]++
+			default:
+				buckets[3]++
+			}
+			if h.EvidenceStart != nil {
+				anchored++
+				if h.EvidencePartial {
+					partial++
+				}
 			}
 		}
-		lensChunks += n
-		fmt.Fprintf(os.Stderr, "%s: semantic lens on %d/%d chunks\n", d.ID, n, len(d.Chunks))
+		for _, c := range d.Chunks {
+			if c.Traced {
+				nTraced++
+				if perChunk[c.Index] == 0 {
+					nEmpty++
+				}
+			}
+		}
+		totalHits += len(d.Hits)
+		totalChunks += len(d.Chunks)
+		tracedChunks += nTraced
+		emptyChunks += nEmpty
+		fmt.Fprintf(os.Stderr, "%s: traced %d/%d passages, %d hits, %d passages with nothing\n", d.ID, nTraced, len(d.Chunks), len(d.Hits), nEmpty)
 	}
-	fmt.Printf("wrote %s (%d documents, %d chunks, %d hits; semantic lens on %d/%d chunks)\n",
-		*out, len(docs), totalChunks, totalHits, lensChunks, totalChunks)
-	// A chunk the lens didn't reach is scored by surface-token overlap
-	// across the whole catalog, and its hits saturate at the score ceiling
-	// — the weakest evidence wearing the strongest number. Say so loudly;
-	// the per-chunk diag lines above name the cause (gate timeout, cold
-	// prototype cache, no API key).
-	if lensChunks < totalChunks {
-		fmt.Fprintf(os.Stderr, "WARNING: %d of %d chunks fell back to keyword-only matching — read the diag lines above before committing this output\n",
-			totalChunks-lensChunks, totalChunks)
+	fmt.Printf("wrote %s (%d documents, %d passages, %d hits; traced %d/%d, %d traced with nothing)\n",
+		*out, len(docs), totalChunks, totalHits, tracedChunks, totalChunks, emptyChunks)
+	fmt.Fprintf(os.Stderr, "gate rank of hits: 1-10: %d · 11-20: %d · 21-35: %d · 36+: %d (candidates=%d)\n",
+		buckets[0], buckets[1], buckets[2], buckets[3], *candidates)
+	fmt.Fprintf(os.Stderr, "evidence anchored: %d/%d hits (%d partial)\n", anchored, totalHits, partial)
+	if tracedChunks < totalChunks {
+		fmt.Fprintf(os.Stderr, "WARNING: %d of %d passages are untraced — read the diag lines above before committing this output\n",
+			totalChunks-tracedChunks, totalChunks)
 	}
 }

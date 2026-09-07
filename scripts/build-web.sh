@@ -47,10 +47,10 @@
 #                        into the SPA. Committed, NOT regenerated here by
 #                        default: `lexicon document-trace` walks five
 #                        public-domain texts through the embed gate
-#                        (local Ollama) and the semantic lens (Anthropic
-#                        API), neither of which a CI runner has, and it
-#                        degrades silently rather than failing without
-#                        them. See the guard below.
+#                        (local Ollama) and a passage lens (Anthropic
+#                        API), neither of which a CI runner has. Without
+#                        the key it exits non-zero; without Ollama every
+#                        passage ships as untraced. See the guard below.
 #
 # The legacy trio is self-contained HTML with inline elements JSON;
 # the SPA inlines the same graph (`lexicon export-graph`) at its own
@@ -73,14 +73,15 @@ render/lexicon anki   -out public/lexicon-anki.tsv
 render/lexicon export-graph -out web/src/data/graph.json -details-dir web/public/atoms
 render/lexicon reading-order -out web/src/data/reading-order.json
 # document-trace is a precomputed artifact, not a pure export: it needs a
-# local Ollama for the embed gate and ANTHROPIC_API_KEY for the semantic
-# lens. Without both it doesn't fail — it silently degrades every chunk
-# to keyword-only matching across the whole catalog and would overwrite
-# the committed, lens-backed JSON with a worse one. A GitHub Pages runner
-# has neither, so the committed file ships as-is unless a regeneration is
+# local Ollama for the embed gate and ANTHROPIC_API_KEY for the passage
+# lens. Without the key it refuses to run; without Ollama it writes every
+# passage as untraced (no hits, a note saying why) and would overwrite the
+# committed, lens-backed JSON with an empty one. A GitHub Pages runner has
+# neither, so the committed file ships as-is unless a regeneration is
 # asked for explicitly (locally, from a host with Ollama up and render/.env
-# holding the key). Check the stderr summary it prints before committing
-# the result: it reports how many chunks actually used the lens.
+# holding the key). Read the stderr summary before committing the result:
+# it reports untraced passages, the gate-rank histogram, and how many
+# evidence quotes anchored.
 if [ "${LEXICON_REGEN_TRACE:-0}" = "1" ]; then
   render/lexicon document-trace -manifest documents/manifest.json -out web/src/data/document-traces.json
 else

@@ -85,7 +85,13 @@ contradiction_signal:
 
 Output ONLY the JSON object. No commentary.
 
-Example: {"picks":[{"id":"lex-mnxhs","confidence":0.85,"suggested_mention":"This has the shape of contradiction-resolution-via-parameter-decomposition — varying which property dominates per region. Want to walk that decomposition?"},{"id":"lex-bpr6b","confidence":0.6}],"stuck_signal":false,"contradiction_signal":true,"contradiction_phrasing":"wall must be thin (thermal) and thick (strength)"}`
+Example (ids are placeholders, not catalog entries): {"picks":[{"id":"lex-xxxxx","confidence":0.85,"suggested_mention":"This has the shape of contradiction-resolution-via-parameter-decomposition — varying which property dominates per region. Want to walk that decomposition?"},{"id":"lex-yyyyy","confidence":0.6}],"stuck_signal":false,"contradiction_signal":true,"contradiction_phrasing":"wall must be thin (thermal) and thick (strength)"}`
+
+// The example's ids were lex-mnxhs and lex-bpr6b until 2026-09-06 — both
+// live atoms. A 20-sample relevance pass on a downstream consumer's real
+// traffic found lex-mnxhs surfaced on a text with no contradiction in it,
+// which is what a model echoing the example looks like. Placeholders
+// can't be echoed into a pick: Filter drops any id not in the pool.
 
 // Usage is the V13 prompt-cache accounting returned alongside the
 // filter result. Zero-valued when the lens didn't run.

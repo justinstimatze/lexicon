@@ -277,11 +277,25 @@ func (corp *Corpus) ScoreRaw(ctx context.Context, contextStr string, topK int, n
 		}
 	}
 
+	// The gate's name-token vocab boost (×1.6 when any token of an atom's
+	// kebab name appears in the prompt's vocabulary) predates the lens: it
+	// was the only relevance signal when the gate scored the whole pool
+	// lexically. Once the lens has ranked candidates by mechanism — under
+	// an instruction that says lexical overlap is NOT relevance — applying
+	// the boost afterward lets a word collision outvote that judgment: on
+	// 2026-09-06 document-trace data, 25 of 86 lens-scored passages had a
+	// lower-confidence keyword-boosted atom ranked first over a
+	// higher-confidence one (Federalist ¶3: 0.45 over 0.82). So the vocab
+	// signal is used only on the fallback path, where nothing better exists.
+	var vocab []string
+	if !lensUsed {
+		vocab = ExtractPromptVocab(contextStr)
+	}
 	results := gate.Run(gate.Input{
 		Pool:         candidatePool,
 		Context:      contextStr,
 		TopK:         topK,
-		WorkingVocab: ExtractPromptVocab(contextStr),
+		WorkingVocab: vocab,
 		Confidences:  lensConfidences,
 		FrameStatus:  fsMap,
 	})

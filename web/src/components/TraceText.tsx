@@ -1,48 +1,48 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react"
 import { cn } from "@/lib/utils"
-import type { ChunkWithHits, DocumentTraceDoc } from "@/lib/documentTrace"
-import { TIER_COLOR, paragraphsOf } from "@/lib/documentTrace"
+import type { ChunkWithHits, DocumentTraceDoc, DocumentTraceHit, EvidenceMark } from "@/lib/documentTrace"
+import { TIER_COLOR, displayParagraphs, evidenceMarks, segmentParagraph } from "@/lib/documentTrace"
 import { scrollPassageIntoView } from "@/lib/traceScroll"
 
 // The reading column of the Trace tab. Modelled on how Sefaria presents a
 // text with connections: a passage number in the left gutter, a small dot
 // in the right margin where a passage has something attached, no
-// background highlight anywhere except the one passage currently selected
-// (a flat block wash, not per-line pills). Every passage here has hits, so
-// highlighting them all would say nothing — the dots carry "this is
-// clickable", the wash carries "this is what the panel is showing".
+// background wash anywhere except the one passage currently selected.
+// Inside the selected passage (and any passage a pointed-at atom fires
+// in) the words the lens quoted as evidence are marked — the highlight
+// is the span that carries the match, not the whole paragraph.
 
 interface Passage {
   key: string
   // null for inert text between chunks (rare — the paragraph splitter
   // covers everything except separators, but a stray gap shouldn't vanish)
   index: number | null
-  paragraphs: string[]
+  raw: string
   chunk: ChunkWithHits | null
 }
 
 function buildPassages(doc: DocumentTraceDoc, chunks: ChunkWithHits[]): Passage[] {
   const out: Passage[] = []
   let cursor = 0
-  const pushGap = (key: string, text: string) => {
-    const paragraphs = paragraphsOf(text)
-    if (paragraphs.length > 0) out.push({ key, index: null, paragraphs, chunk: null })
+  const pushGap = (key: string, raw: string) => {
+    if (raw.trim().length > 0) out.push({ key, index: null, raw, chunk: null })
   }
   for (const c of chunks) {
     if (c.char_start > cursor) pushGap(`gap-${c.index}`, doc.full_text.slice(cursor, c.char_start))
-    out.push({
-      key: `p-${c.index}`,
-      index: c.index,
-      paragraphs: paragraphsOf(doc.full_text.slice(c.char_start, c.char_end)),
-      chunk: c,
-    })
+    out.push({ key: `p-${c.index}`, index: c.index, raw: doc.full_text.slice(c.char_start, c.char_end), chunk: c })
     cursor = c.char_end
   }
   if (cursor < doc.full_text.length) pushGap("gap-end", doc.full_text.slice(cursor))
   return out
 }
 
-function MarginDot({ tier, filled, emphasised }: { tier: string; filled: boolean; emphasised: boolean }) {
+type DotState = "hit" | "none" | "untraced"
+
+function MarginDot({ tier, state, filled, emphasised }: { tier: string; state: DotState; filled: boolean; emphasised: boolean }) {
+  if (state === "none") return null
+  if (state === "untraced") {
+    return <span aria-hidden title="not traced" className="block h-2 w-2 rounded-full border border-dashed border-ink-faint/70" />
+  }
   const color = TIER_COLOR[tier] ?? TIER_COLOR.atomic
   return (
     <span
@@ -60,13 +60,13 @@ interface MinimapTick {
   index: number
   top: number
   height: number
-  tier: string
+  tier: string | null
 }
 
 // A bucket bar in the Hypothes.is sense: the whole document compressed
-// into a thin strip, one tick per passage, with the current viewport drawn
-// over it. Common Sense is 169 passages; without this there's no way to
-// see where you are or where the rest is.
+// into a thin strip, one tick per passage with a hit, with the current
+// viewport drawn over it. Common Sense is 169 passages; without this
+// there's no way to see where you are or where the rest is.
 function TraceMinimap({
   articleRef,
   passages,
@@ -93,7 +93,7 @@ function TraceMinimap({
         if (p.index === null || !p.chunk) continue
         const el = article.querySelector<HTMLElement>(`[data-passage="${p.index}"]`)
         if (!el) continue
-        next.push({ index: p.index, top: el.offsetTop / total, height: el.offsetHeight / total, tier: p.chunk.hits[0]?.tier ?? "atomic" })
+        next.push({ index: p.index, top: el.offsetTop / total, height: el.offsetHeight / total, tier: p.chunk.hits[0]?.tier ?? null })
       }
       setTicks(next)
     }
@@ -132,8 +132,10 @@ function TraceMinimap({
     <nav aria-label="passage overview" className="sticky top-4 hidden h-[calc(100vh-2rem)] w-3 shrink-0 sm:block">
       <div className="relative h-full w-full border-l border-rule-light">
         {ticks.map((t) => {
-          const color = TIER_COLOR[t.tier] ?? TIER_COLOR.atomic
           const on = t.index === activeIndex || highlightSet.has(t.index)
+          // A passage with nothing in it is still a place to land, drawn
+          // as the faintest tick so the strip still reads as the whole text.
+          const color = t.tier ? (TIER_COLOR[t.tier] ?? TIER_COLOR.atomic) : null
           return (
             <button
               key={t.index}
@@ -147,7 +149,7 @@ function TraceMinimap({
               style={{
                 top: `${t.top * 100}%`,
                 height: `max(3px, ${t.height * 100}%)`,
-                backgroundColor: on ? color : `${color}66`,
+                backgroundColor: color ? (on ? color : `${color}66`) : on ? "var(--color-ink-dim)" : "var(--color-rule)",
                 clipPath: "inset(0.5px 0 0.5px 3px)",
               }}
             />
@@ -174,8 +176,8 @@ export function TraceText({
   chunks: ChunkWithHits[]
   activeIndex: number | null
   // An atom being pointed at elsewhere (hovered in the neighbourhood graph,
-  // or open in the drawer): every passage it fires in gets its dot lit, so
-  // the three columns read as one linked view.
+  // or open in the detail column): every passage it fires in gets its dot
+  // lit and its evidence marked, so the three columns read as one view.
   highlightAtomId: string | null
   onSelect: (index: number) => void
 }) {
@@ -197,11 +199,11 @@ export function TraceText({
       >
         {passages.map((p) =>
           p.index === null || !p.chunk ? (
-            <div key={p.key} className="grid grid-cols-[1.75rem_minmax(0,1fr)_1.25rem] sm:grid-cols-[2.5rem_minmax(0,1fr)_1.5rem] gap-x-2 py-2">
+            <div key={p.key} className="grid grid-cols-[1.75rem_minmax(0,1fr)_1.25rem] gap-x-2 py-2 sm:grid-cols-[2.5rem_minmax(0,1fr)_1.5rem]">
               <span />
               <div className="max-w-[62ch] space-y-4 text-ink-dim">
-                {p.paragraphs.map((t, i) => (
-                  <p key={i}>{t}</p>
+                {displayParagraphs(p.raw).map((para, i) => (
+                  <p key={i}>{para.text}</p>
                 ))}
               </div>
             </div>
@@ -211,6 +213,7 @@ export function TraceText({
               passage={p}
               active={p.index === activeIndex}
               emphasised={highlightSet.has(p.index)}
+              highlightAtomId={highlightAtomId}
               onSelect={onSelect}
             />
           )
@@ -220,25 +223,59 @@ export function TraceText({
   )
 }
 
+function Evidence({ hit, children, strong }: { hit: DocumentTraceHit; children: React.ReactNode; strong: boolean }) {
+  const color = TIER_COLOR[hit.tier] ?? TIER_COLOR.atomic
+  return (
+    <mark
+      className="rounded-[2px] text-inherit [box-decoration-break:clone]"
+      style={{
+        backgroundColor: strong ? `${color}40` : `${color}22`,
+        boxShadow: `0 1.5px 0 ${color}${strong ? "" : "99"}`,
+        padding: "0.05em 0",
+      }}
+      title={`${hit.name.replace(/-/g, " ")} · confidence ${hit.confidence.toFixed(2)}`}
+    >
+      {children}
+    </mark>
+  )
+}
+
 function PassageRow({
   passage,
   active,
   emphasised,
+  highlightAtomId,
   onSelect,
 }: {
   passage: Passage
   active: boolean
   emphasised: boolean
+  highlightAtomId: string | null
   onSelect: (index: number) => void
 }) {
   const index = passage.index!
-  const top = passage.chunk!.hits[0]
+  const chunk = passage.chunk!
+  const top = chunk.hits[0]
+  const state: DotState = !chunk.traced ? "untraced" : top ? "hit" : "none"
+
+  // Evidence is marked only where a reader is looking: the selected passage
+  // shows all of its hits' spans; a passage a pointed-at atom fires in
+  // shows that atom's span. Everything else renders plain — 169 passages
+  // of Common Sense with every span marked would be the wall of noise the
+  // per-paragraph tint used to be.
+  const marks = useMemo<EvidenceMark[]>(() => {
+    if (active) return evidenceMarks(chunk, chunk.hits)
+    if (emphasised && highlightAtomId) return evidenceMarks(chunk, chunk.hits.filter((h) => h.atom_id === highlightAtomId))
+    return []
+  }, [active, emphasised, highlightAtomId, chunk])
+  const paragraphs = useMemo(() => displayParagraphs(passage.raw), [passage.raw])
+
   return (
     <div
       role="button"
       tabIndex={0}
       aria-pressed={active}
-      aria-label={`passage ${index + 1}${top ? `, ${top.name.replace(/-/g, " ")}` : ""}`}
+      aria-label={`passage ${index + 1}${top ? `, ${top.name.replace(/-/g, " ")}` : chunk.traced ? ", no pattern" : ", not traced"}`}
       data-passage={index}
       onClick={() => onSelect(index)}
       onKeyDown={(e) => {
@@ -248,21 +285,38 @@ function PassageRow({
         }
       }}
       className={cn(
-        "-mx-2 grid cursor-pointer grid-cols-[1.75rem_minmax(0,1fr)_1.25rem] sm:grid-cols-[2.5rem_minmax(0,1fr)_1.5rem] gap-x-2 border-l-2 px-2 py-3 transition-colors duration-150",
+        "-mx-2 grid cursor-pointer grid-cols-[1.75rem_minmax(0,1fr)_1.25rem] gap-x-2 border-l-2 px-2 py-3 transition-colors duration-150 sm:grid-cols-[2.5rem_minmax(0,1fr)_1.5rem]",
         "focus-visible:ring-2 focus-visible:ring-primary/60 focus-visible:ring-inset focus-visible:outline-none",
-        active ? "border-primary bg-primary/[0.07]" : "border-transparent hover:bg-ink/[0.035]"
+        active ? "border-primary bg-primary/[0.05]" : "border-transparent hover:bg-ink/[0.035]"
       )}
     >
-      <span className="pt-[0.3em] pr-1 text-right font-mono text-[10px] text-ink-faint tabular-nums select-none [font-variant-numeric:tabular-nums]">
+      <span
+        className={cn(
+          "pt-[0.3em] pr-1 text-right font-mono text-[10px] tabular-nums select-none [font-variant-numeric:tabular-nums]",
+          state === "hit" ? "text-ink-faint" : "text-ink-faint/60"
+        )}
+      >
         {index + 1}
       </span>
-      <div className="max-w-[62ch] space-y-3">
-        {passage.paragraphs.map((t, i) => (
-          <p key={i}>{t}</p>
+      <div className={cn("max-w-[62ch] space-y-3", state !== "hit" && !active && "text-ink/85")}>
+        {paragraphs.map((para, i) => (
+          <p key={i}>
+            {marks.length === 0
+              ? para.text
+              : segmentParagraph(para, marks).map((s, k) =>
+                  s.hit ? (
+                    <Evidence key={k} hit={s.hit} strong={emphasised ? s.hit.atom_id === highlightAtomId : s.hit === top}>
+                      {s.text}
+                    </Evidence>
+                  ) : (
+                    <span key={k}>{s.text}</span>
+                  )
+                )}
+          </p>
         ))}
       </div>
       <span className="flex justify-center pt-[0.5em]">
-        {top && <MarginDot tier={top.tier} filled={active || emphasised} emphasised={emphasised} />}
+        <MarginDot tier={top?.tier ?? "atomic"} state={state} filled={active || emphasised} emphasised={emphasised} />
       </span>
     </div>
   )

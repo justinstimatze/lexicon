@@ -22,6 +22,8 @@ import (
 	"sort"
 	"strconv"
 	"strings"
+	"sync"
+	"time"
 
 	"github.com/justinstimatze/lexicon/render/internal/types"
 )
@@ -388,8 +390,39 @@ var ErrColdCache = errors.New("embedgate: prototype cache cold (run: lexicon bui
 // Score narrows to whatever subset IS valid. Returns nil only when NOTHING is
 // valid (empty cache, wrong model, or every entry stale), which is the
 // wholesale-cold signal callers still need.
-func loadCachedPrototypes(atoms []*types.LexEntry) map[string][][]float64 {
+// memoCache is the parsed prototype cache held for the process lifetime,
+// keyed on the file's size and mtime so a rebuilt cache is picked up
+// without a restart. readCache itself re-reads the file every call —
+// fine for the hook, which scores one prompt per process, but a batch
+// caller (document-trace, calib, partitions) was re-parsing a ~200MB JSON
+// per passage: several seconds of CPU and a transient allocation of the
+// whole vector set, per chunk, per worker. Only the read path memoizes;
+// LoadOrBuildPrototypes mutates and rewrites the map and keeps the raw
+// reader.
+var (
+	memoMu    sync.Mutex
+	memoCache *protoCache
+	memoSize  int64
+	memoMod   time.Time
+)
+
+func readCacheMemo() protoCache {
+	fi, err := os.Stat(CachePath())
+	if err != nil {
+		return readCache()
+	}
+	memoMu.Lock()
+	defer memoMu.Unlock()
+	if memoCache != nil && fi.Size() == memoSize && fi.ModTime().Equal(memoMod) {
+		return *memoCache
+	}
 	pc := readCache()
+	memoCache, memoSize, memoMod = &pc, fi.Size(), fi.ModTime()
+	return pc
+}
+
+func loadCachedPrototypes(atoms []*types.LexEntry) map[string][][]float64 {
+	pc := readCacheMemo()
 	if len(pc.Entries) == 0 {
 		return nil
 	}

@@ -1,49 +1,33 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { cn } from "@/lib/utils"
-import type { ChunkWithHits, DocumentTraceDoc, DocumentTraceHit, MatchKind } from "@/lib/documentTrace"
-import { MATCH_KIND_LABEL, SCORE_CEILING, TIER_COLOR, atomPassages, matchKind } from "@/lib/documentTrace"
-import { fetchAtomDetail, type AtomDetail } from "@/lib/atomDetail"
+import type { ChunkWithHits, DocumentTraceDoc, DocumentTraceHit } from "@/lib/documentTrace"
+import { TIER_COLOR, atomPassages, paragraphsOf } from "@/lib/documentTrace"
 
-const INSTRUCTION_TRUNCATE_AT = 280
+// How many unwrapped lines of the passage show before the "more" toggle.
+// The whole passage is a few hundred pixels to the left already; the copy
+// here exists so the panel can be read on its own (mobile bottom sheet,
+// or when the reader's eye is on the hits), not to replace the column.
+const PASSAGE_CLAMP_LINES = 10
 
-function truncate(text: string, max: number) {
-  if (text.length <= max) return text
-  return text.slice(0, text.lastIndexOf(" ", max)) + "…"
-}
-
-// A keyword-only hit saturates at the 1.60 ceiling — the weakest evidence
-// drawing the longest bar. Those bars render hatched and dimmed so length
-// reads as "how the pipeline scored it", not "how sure you should be".
-function ScoreBar({ score, tier, kind }: { score: number; tier: string; kind: MatchKind }) {
+function Confidence({ value, tier }: { value: number; tier: string }) {
   const color = TIER_COLOR[tier] ?? TIER_COLOR.atomic
-  const pct = Math.min(100, Math.round((score / SCORE_CEILING) * 100))
-  const weak = kind === "keyword"
   return (
-    <div
+    <span
       className="flex items-center gap-2"
-      title={`score ${score.toFixed(2)} of ${SCORE_CEILING.toFixed(1)}${weak ? " — keyword overlap only, no semantic signal" : ""}`}
+      title="The lens's estimate that this pattern's mechanism is present in the passage, 0 to 1. Nothing below the run's floor is shown."
     >
-      <div className="h-[3px] flex-1 overflow-hidden rounded-full bg-ink/10">
-        <div
-          className="h-full rounded-full"
-          style={{
-            width: `${pct}%`,
-            backgroundColor: weak ? "transparent" : color,
-            backgroundImage: weak ? `repeating-linear-gradient(90deg, ${color}99 0 3px, transparent 3px 6px)` : undefined,
-          }}
-        />
-      </div>
-      <span className="w-8 shrink-0 text-right font-mono text-[10px] text-ink-faint tabular-nums">{score.toFixed(2)}</span>
-    </div>
+      <span className="h-[3px] w-14 overflow-hidden rounded-full bg-ink/10">
+        <span className="block h-full rounded-full" style={{ width: `${Math.round(value * 100)}%`, backgroundColor: color }} />
+      </span>
+      <span className="font-mono text-[10px] text-ink-faint tabular-nums">{value.toFixed(2)}</span>
+    </span>
   )
 }
 
-// One pattern that fired on the selected passage. The passage itself is
-// not re-quoted here — it's a few hundred pixels to the left and already
-// marked as selected; the panel's job is the part the text can't show:
-// which pattern, on what kind of evidence, what it claims, and where else
-// in this document it fires.
+// One pattern the lens found in the selected passage: which pattern, how
+// sure, the sentence saying how this passage does it, the words it
+// pointed at, and where else in the document it fires.
 function HitCard({
   doc,
   hit,
@@ -59,22 +43,9 @@ function HitCard({
   onAtomClick: (id: string) => void
   onAtomHover: (id: string | null) => void
 }) {
-  // Keyed by atom id in the parent list, so a different atom is a fresh
-  // instance — no reset-in-effect needed.
-  const [detail, setDetail] = useState<AtomDetail | null>(null)
-  useEffect(() => {
-    let cancelled = false
-    fetchAtomDetail(hit.atom_id).then((d) => {
-      if (!cancelled) setDetail(d)
-    })
-    return () => {
-      cancelled = true
-    }
-  }, [hit.atom_id])
-
-  const kind = matchKind(hit, chunk)
   const elsewhere = atomPassages(doc, hit.atom_id).filter((i) => i !== chunk.index)
   const color = TIER_COLOR[hit.tier] ?? TIER_COLOR.atomic
+  const anchored = hit.evidence_start !== undefined
 
   return (
     <li
@@ -82,11 +53,12 @@ function HitCard({
       onMouseEnter={() => onAtomHover(hit.atom_id)}
       onMouseLeave={() => onAtomHover(null)}
     >
-      <div className="flex items-center gap-2 font-mono text-[10px] tracking-wide text-ink-faint uppercase">
-        <span className="inline-block h-1.5 w-1.5 rounded-full" style={{ backgroundColor: color }} aria-hidden />
-        <span>{hit.tier}</span>
-        <span aria-hidden>·</span>
-        <span className={cn(kind === "keyword" && "text-ink-faint/80 normal-case")}>{MATCH_KIND_LABEL[kind]}</span>
+      <div className="flex items-center justify-between gap-2">
+        <span className="flex items-center gap-2 font-mono text-[10px] tracking-wide text-ink-faint uppercase">
+          <span className="inline-block h-1.5 w-1.5 rounded-full" style={{ backgroundColor: color }} aria-hidden />
+          {hit.tier}
+        </span>
+        <Confidence value={hit.confidence} tier={hit.tier} />
       </div>
       <button
         type="button"
@@ -97,9 +69,15 @@ function HitCard({
       >
         {hit.name}
       </button>
-      <ScoreBar score={hit.score} tier={hit.tier} kind={kind} />
-      {detail?.agent_instruction && (
-        <p className="font-sans text-[13px] leading-relaxed text-ink-dim">{truncate(detail.agent_instruction, INSTRUCTION_TRUNCATE_AT)}</p>
+      {hit.why && <p className="font-sans text-[13px] leading-relaxed text-ink">{hit.why}</p>}
+      {hit.evidence && (
+        <blockquote
+          className={cn("border-l-2 pl-2.5 font-serif text-[13px] leading-snug text-ink-dim italic", !anchored && "border-dashed")}
+          style={{ borderColor: `${color}${anchored ? "" : "80"}` }}
+          title={anchored ? "marked in the text" : "the lens quoted this, but the words could not be found in the passage as written"}
+        >
+          “{hit.evidence}”
+        </blockquote>
       )}
       {elsewhere.length > 0 && (
         <p className="font-mono text-[10px] text-ink-faint">
@@ -119,6 +97,35 @@ function HitCard({
         </p>
       )}
     </li>
+  )
+}
+
+function PassageText({ doc, chunk }: { doc: DocumentTraceDoc; chunk: ChunkWithHits }) {
+  const [expanded, setExpanded] = useState(false)
+  const paragraphs = paragraphsOf(doc.full_text.slice(chunk.char_start, chunk.char_end))
+  const words = paragraphs.reduce((n, p) => n + p.split(/\s+/).length, 0)
+  // ~12 words per unwrapped line at this column width.
+  const long = words > PASSAGE_CLAMP_LINES * 12
+  return (
+    <div className="border-b border-rule pb-3">
+      <div
+        className={cn("space-y-2 font-serif text-[13.5px] leading-[1.55] text-ink-dim", !expanded && long && "relative max-h-[15.5em] overflow-hidden")}
+      >
+        {paragraphs.map((p, i) => (
+          <p key={i}>{p}</p>
+        ))}
+        {!expanded && long && <div className="pointer-events-none absolute inset-x-0 bottom-0 h-8 bg-gradient-to-t from-bg-well to-transparent" />}
+      </div>
+      {long && (
+        <button
+          type="button"
+          onClick={() => setExpanded((v) => !v)}
+          className="mt-1.5 font-mono text-[10px] text-primary hover:text-accent-soft focus-visible:ring-1 focus-visible:ring-primary focus-visible:outline-none"
+        >
+          {expanded ? "less" : `whole passage · ${words} words`}
+        </button>
+      )}
+    </div>
   )
 }
 
@@ -177,23 +184,28 @@ export function TracePassagePanel({
           </button>
         </div>
       </header>
-      <div className="p-4">
+      <div className="flex flex-col gap-3 p-4">
         {!chunk ? (
-          <p className="font-mono text-[11px] text-ink-faint">Select a passage to see which patterns it matched.</p>
-        ) : chunk.hits.length === 0 ? (
-          <p className="font-mono text-[11px] text-ink-faint">No pattern surfaced above threshold for this passage.</p>
+          <p className="font-mono text-[11px] text-ink-faint">Select a passage to see which patterns it carries.</p>
         ) : (
           <>
-            <ul className="flex flex-col gap-3">
-              {chunk.hits.map((h) => (
-                <HitCard key={h.atom_id} doc={doc} hit={h} chunk={chunk} onSelect={onSelect} onAtomClick={onAtomClick} onAtomHover={onAtomHover} />
-              ))}
-            </ul>
-            {!chunk.lens_used && (
-              <p className="mt-4 border-t border-rule pt-3 font-sans text-[11px] leading-relaxed text-ink-faint">
-                The semantic lens didn't run on this passage, so these are surface-keyword matches across the whole catalog — weaker
-                evidence than the semantic hits elsewhere in this document.
+            <PassageText doc={doc} chunk={chunk} />
+            {!chunk.traced ? (
+              <p className="font-sans text-[12px] leading-relaxed text-ink-faint">
+                Not traced{chunk.trace_note ? `: ${chunk.trace_note}` : ""}. The pipeline could not judge this passage, so it carries no
+                patterns rather than guessed ones.
               </p>
+            ) : chunk.hits.length === 0 ? (
+              <p className="font-sans text-[12px] leading-relaxed text-ink-faint">
+                Nothing in the corpus fires here. Most exposition doesn't instantiate a named move, and the trace says so instead of
+                filling the slot.
+              </p>
+            ) : (
+              <ul className="flex flex-col gap-3">
+                {chunk.hits.map((h) => (
+                  <HitCard key={h.atom_id} doc={doc} hit={h} chunk={chunk} onSelect={onSelect} onAtomClick={onAtomClick} onAtomHover={onAtomHover} />
+                ))}
+              </ul>
             )}
           </>
         )}
