@@ -235,22 +235,34 @@ export function wrapName(name: string, maxChars = 18, maxLines = 3): string[] {
   return lines
 }
 
+// ---------------------------------------------------------------------------
+// Graph views. A node is one OCCURRENCE — one pattern firing in one
+// passage, with its own quote behind it — not the pattern itself. That is
+// what lets a click on a node mean "go to that passage", and what makes a
+// pattern that fires in twelve passages twelve clickable places instead of
+// one node with twelve destinations.
+
 export interface TraceGraphNode {
+  // `${chunk_index}:${atom_id}`
   id: string
+  atomId: string
   name: string
   tier: string
-  hitCount: number
+  chunkIndex: number
+  confidence: number
+  evidence?: string
+  // In how many passages of the whole document this pattern fires.
+  recurrence: number
 }
 
 export interface TraceGraphLink {
   source: string
   target: string
-  weight: number
-  // "transition": this document's TOP hit in one chunk was followed by a
-  // different atom as the top hit of the next chunk — directed, read as
-  // "tends to lead to." "co-occurrence": two atoms both fired within the
-  // same chunk — undirected, read as "shows up alongside."
-  kind: "transition" | "co-occurrence"
+  // "transition": the TOP hit of one passage was followed by the top hit
+  // of the next hit-bearing passage — directed, read as "led to".
+  // "co-occurrence": two hits in the same passage — undirected.
+  // "recurrence": the same pattern firing again in a later passage.
+  kind: "transition" | "co-occurrence" | "recurrence"
 }
 
 export interface TraceGraphData {
@@ -258,60 +270,89 @@ export interface TraceGraphData {
   links: TraceGraphLink[]
 }
 
-function buildGraph(doc: DocumentTraceDoc, chunks: ChunkWithHits[]): TraceGraphData {
-  const hitCount = new Map<string, number>()
-  for (const h of doc.hits) hitCount.set(h.atom_id, (hitCount.get(h.atom_id) ?? 0) + 1)
-
-  const nodeMeta = new Map<string, { name: string; tier: string }>()
-  const links = new Map<string, TraceGraphLink>()
-  const bump = (a: string, b: string, kind: TraceGraphLink["kind"]) => {
-    if (a === b) return
-    const key = kind === "co-occurrence" ? [a, b].sort().join("|") + "|co" : `${a}|${b}|tr`
-    const existing = links.get(key)
-    if (existing) existing.weight += 1
-    else links.set(key, { source: a, target: b, weight: 1, kind })
-  }
-
-  let prevTop: string | undefined
-  for (const c of chunks) {
-    if (c.hits.length === 0) continue
-    for (const h of c.hits) nodeMeta.set(h.atom_id, { name: h.name, tier: h.tier })
-    const [top, ...rest] = c.hits
-    if (prevTop) bump(prevTop, top.atom_id, "transition")
-    prevTop = top.atom_id
-    for (const other of rest) bump(top.atom_id, other.atom_id, "co-occurrence")
-  }
-
-  return {
-    nodes: [...nodeMeta.entries()].map(([id, meta]) => ({ id, name: meta.name, tier: meta.tier, hitCount: hitCount.get(id) ?? 1 })),
-    links: [...links.values()],
-  }
+export function occurrenceId(chunkIndex: number, atomId: string): string {
+  return `${chunkIndex}:${atomId}`
 }
 
-// Derives a per-document network from the same flat `hits` list the text
-// column uses — no backend change needed for this view, by design.
-// Transition edges come from consecutive hit-bearing chunks' TOP hits;
-// co-occurrence edges from hits sharing one chunk. A passage with no hits
-// breaks no transition chain: the previous top carries over it.
-// Self-loops are dropped.
-export function traceGraph(doc: DocumentTraceDoc): TraceGraphData {
-  return buildGraph(doc, chunksWithHits(doc))
+function recurrenceCounts(doc: DocumentTraceDoc): Map<string, number> {
+  const m = new Map<string, number>()
+  for (const i of new Set(doc.hits.map((h) => `${h.chunk_index}:${h.atom_id}`))) {
+    const atomId = i.slice(i.indexOf(":") + 1)
+    m.set(atomId, (m.get(atomId) ?? 0) + 1)
+  }
+  return m
 }
 
-// The neighbourhood of one passage: its own atoms plus the previous and
-// next passages' atoms, with the same edges restricted to that window.
-// Obsidian's local-graph pane is the model — a whole-document force graph
-// of a hundred nodes is a hairball, while 4–8 nodes leave room to draw
-// every label in full. hitCount stays document-wide so node size still
-// says "how often this fires in the whole text".
+// The neighbourhood of one passage: all of its hits, plus the top hit of
+// the passage before and the passage after (transitions run between tops,
+// so nothing an edge needs is lost, and the node count stays at four to
+// six — the number whose full names fit in a 360px column). Obsidian's
+// local-graph pane is the model.
 export function localTraceGraph(doc: DocumentTraceDoc, chunks: ChunkWithHits[], activeIndex: number): TraceGraphData {
-  // The selected passage brings all of its atoms; each neighbour brings
-  // only its top one. Transition edges are between tops, so nothing an
-  // edge needs is lost, and a neighbourhood stays at five or six nodes —
-  // the number whose full names fit in a 360px column. A neighbour's
-  // second and third hits are one click away.
+  const rec = recurrenceCounts(doc)
   const window = chunks
-    .filter((c) => Math.abs(c.index - activeIndex) <= 1)
+    .filter((c) => Math.abs(c.index - activeIndex) <= 1 && c.hits.length > 0)
     .map((c) => (c.index === activeIndex ? c : { ...c, hits: c.hits.slice(0, 1) }))
-  return buildGraph(doc, window)
+
+  const nodes: TraceGraphNode[] = []
+  const links: TraceGraphLink[] = []
+  const seen = new Set<string>()
+  for (const c of window) {
+    for (const h of c.hits) {
+      const id = occurrenceId(c.index, h.atom_id)
+      if (seen.has(id)) continue
+      seen.add(id)
+      nodes.push({
+        id,
+        atomId: h.atom_id,
+        name: h.name,
+        tier: h.tier,
+        chunkIndex: c.index,
+        confidence: h.confidence,
+        evidence: h.evidence,
+        recurrence: rec.get(h.atom_id) ?? 1,
+      })
+    }
+  }
+  let prevTop: string | undefined
+  for (const c of window) {
+    const [top, ...rest] = c.hits
+    const topId = occurrenceId(c.index, top.atom_id)
+    if (prevTop) links.push({ source: prevTop, target: topId, kind: "transition" })
+    prevTop = topId
+    for (const other of rest) links.push({ source: topId, target: occurrenceId(c.index, other.atom_id), kind: "co-occurrence" })
+  }
+  // The same pattern in two passages of the window: drawn as a recurrence
+  // so the reader sees "this one again", not two unrelated nodes.
+  for (let a = 0; a < nodes.length; a++) {
+    for (let b = a + 1; b < nodes.length; b++) {
+      if (nodes[a].atomId === nodes[b].atomId && nodes[a].chunkIndex !== nodes[b].chunkIndex) {
+        links.push({ source: nodes[a].id, target: nodes[b].id, kind: "recurrence" })
+      }
+    }
+  }
+  return { nodes, links }
 }
+
+// Every pattern that fires in the document with the passages it fires
+// in, most recurrent first — the whole-text arc view is drawn from this.
+export interface AtomOccurrences {
+  atomId: string
+  name: string
+  tier: string
+  chunks: number[]
+}
+
+export function atomOccurrences(doc: DocumentTraceDoc): AtomOccurrences[] {
+  const m = new Map<string, AtomOccurrences>()
+  for (const h of doc.hits) {
+    const o = m.get(h.atom_id) ?? { atomId: h.atom_id, name: h.name, tier: h.tier, chunks: [] }
+    if (!o.chunks.includes(h.chunk_index)) o.chunks.push(h.chunk_index)
+    m.set(h.atom_id, o)
+  }
+  const out = [...m.values()]
+  for (const o of out) o.chunks.sort((a, b) => a - b)
+  out.sort((a, b) => b.chunks.length - a.chunks.length || a.name.localeCompare(b.name))
+  return out
+}
+

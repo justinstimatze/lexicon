@@ -94,10 +94,14 @@ export function AtomCard({
   node,
   onClusterClick,
   onAtomClick,
+  compact = false,
 }: {
   node: LexNode
   onClusterClick?: (clusterId: string) => void
   onAtomClick?: (id: string) => void
+  // Skip the id/name heading — for a host that has already rendered them
+  // as its own title (the Trace tab's pattern panel).
+  compact?: boolean
 }) {
   const cluster = graph.clusters.find((c) => c.id === node.cluster)
   useEffect(() => {
@@ -129,8 +133,12 @@ export function AtomCard({
 
   return (
     <div>
-      <div className="text-ink-faint">{node.id}</div>
-      <div className="mb-1.5 text-base leading-snug font-bold text-foreground">{node.name}</div>
+      {!compact && (
+        <>
+          <div className="text-ink-faint">{node.id}</div>
+          <div className="mb-1.5 text-base leading-snug font-bold text-foreground">{node.name}</div>
+        </>
+      )}
       <div className="flex flex-wrap items-center gap-x-1.5 text-ink-dim">
         <span>
           {node.type_in} → {node.type_out}

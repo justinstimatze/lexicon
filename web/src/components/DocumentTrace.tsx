@@ -1,44 +1,42 @@
-import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from "react"
+import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import { useSearchParams } from "react-router-dom"
 import { X } from "lucide-react"
 import graphData from "@/data/graph.json"
 import type { LexGraph, LexNode } from "@/lib/graph"
 import documentTraceData from "@/data/document-traces.json"
 import type { ChunkWithHits, DocumentTraceData, DocumentTraceDoc } from "@/lib/documentTrace"
-import { atomPassages, chunksWithHits, paragraphsOf } from "@/lib/documentTrace"
+import { TIER_COLOR, atomPassages, chunksWithHits, paragraphsOf } from "@/lib/documentTrace"
 import { AtomCard } from "@/components/AtomCard"
 import { TraceText } from "@/components/TraceText"
 import { scrollPassageIntoView } from "@/lib/traceScroll"
 import { TracePassagePanel } from "@/components/TracePassagePanel"
+import { TraceGraphPane } from "@/components/TraceGraphPane"
 import { cn } from "@/lib/utils"
-
-// force-graph's canvas renderer pulls in its own physics engine — kept out
-// of the tab's initial bundle the same way Graph3D is split out of the
-// app shell.
-const TraceNetwork = lazy(() => import("@/components/TraceNetwork").then((m) => ({ default: m.TraceNetwork })))
 
 const graph = graphData as unknown as LexGraph
 const nodesById = new Map(graph.nodes.map((n) => [n.id, n]))
 const data = documentTraceData as unknown as DocumentTraceData
 
-// Where an atom fires in the open document, as jump links — shown under
-// the card so a reader who arrived from the network (no passage selected
-// on the way in) can still get back to the text.
+// Where a pattern fires in the open document, as jump links — the main
+// point of opening a pattern from inside a text, so it sits at the top of
+// the pattern panel, above the pattern's own description.
 function AtomInDocument({
   doc,
   chunks,
   atomId,
+  activeIndex,
   onSelect,
 }: {
   doc: DocumentTraceDoc
   chunks: ChunkWithHits[]
   atomId: string
+  activeIndex: number | null
   onSelect: (index: number) => void
 }) {
   const indices = atomPassages(doc, atomId)
   if (indices.length === 0) return null
   return (
-    <div className="mt-4 border-t border-rule pt-4">
+    <div>
       <div className="mb-2 font-mono text-[10px] tracking-wide text-ink-faint uppercase">
         In {doc.title} — {indices.length} passage{indices.length === 1 ? "" : "s"}
       </div>
@@ -47,15 +45,22 @@ function AtomInDocument({
           const c = chunks[i]
           const hit = c?.hits.find((h) => h.atom_id === atomId)
           const lead = hit?.evidence ?? (c ? paragraphsOf(doc.full_text.slice(c.char_start, c.char_end)).join(" ") : "")
+          const here = i === activeIndex
           return (
             <li key={i}>
               <button
                 type="button"
+                aria-current={here ? "true" : undefined}
                 onClick={() => onSelect(i)}
-                className="flex w-full items-baseline gap-2 text-left font-mono text-[11px] hover:text-accent-soft focus-visible:ring-2 focus-visible:ring-primary/60 focus-visible:outline-none"
+                className={cn(
+                  "flex w-full items-baseline gap-2 text-left font-mono text-[11px] hover:text-accent-soft focus-visible:ring-2 focus-visible:ring-primary/60 focus-visible:outline-none",
+                  here && "text-foreground"
+                )}
               >
-                <span className="shrink-0 text-primary underline decoration-dotted underline-offset-2 tabular-nums">¶ {i + 1}</span>
-                <span className="min-w-0 truncate font-serif text-[12px] text-ink-dim italic">{lead}</span>
+                <span className={cn("shrink-0 underline decoration-dotted underline-offset-2 tabular-nums", here ? "text-foreground" : "text-primary")}>
+                  ¶ {i + 1}
+                </span>
+                <span className={cn("min-w-0 truncate font-serif text-[12px] italic", here ? "text-ink" : "text-ink-dim")}>{lead}</span>
               </button>
             </li>
           )
@@ -67,12 +72,14 @@ function AtomInDocument({
 
 // The detail column's second face: a pattern instead of a passage. It
 // sits in the same slot as the passage panel — not over the graph, not
-// over the text — so the network stays clickable while a pattern is open
-// and the next click just swaps what's shown here.
+// over the text — so the network stays clickable while a pattern is open.
+// Order: the name, then where it fires (the reason a reader opened it),
+// then the pattern's own description behind an expander.
 function TraceAtomPanel({
   node,
   doc,
   chunks,
+  activeIndex,
   onClose,
   onAtomClick,
   onSelectPassage,
@@ -81,15 +88,20 @@ function TraceAtomPanel({
   node: LexNode
   doc: DocumentTraceDoc
   chunks: ChunkWithHits[]
+  activeIndex: number | null
   onClose: () => void
   onAtomClick: (id: string) => void
   onSelectPassage: (index: number) => void
   className?: string
 }) {
+  const color = TIER_COLOR[node.tier] ?? TIER_COLOR.atomic
   return (
     <section aria-label="pattern detail" className={cn("border border-rule bg-bg-well", className)}>
       <header className="flex items-center justify-between gap-2 border-b border-rule px-4 py-2">
-        <h3 className="font-mono text-[10px] tracking-[0.12em] text-ink-faint uppercase">Pattern</h3>
+        <h3 className="flex items-center gap-2 font-mono text-[10px] tracking-[0.12em] text-ink-faint uppercase">
+          <span className="inline-block h-1.5 w-1.5 rounded-full" style={{ backgroundColor: color }} aria-hidden />
+          Pattern · {node.tier}
+        </h3>
         <button
           type="button"
           aria-label="back to passage"
@@ -99,9 +111,20 @@ function TraceAtomPanel({
           <X className="size-4" />
         </button>
       </header>
-      <div className="p-4 text-[12px] leading-relaxed">
-        <AtomCard node={node} onAtomClick={onAtomClick} />
-        <AtomInDocument doc={doc} chunks={chunks} atomId={node.id} onSelect={onSelectPassage} />
+      <div className="flex flex-col gap-4 p-4 text-[12px] leading-relaxed">
+        <div>
+          <div className="font-mono text-[10px] text-ink-faint">{node.id}</div>
+          <div className="font-mono text-[13px] leading-snug font-bold break-words text-foreground">{node.name}</div>
+        </div>
+        <AtomInDocument doc={doc} chunks={chunks} atomId={node.id} activeIndex={activeIndex} onSelect={onSelectPassage} />
+        <details className="border-t border-rule pt-3">
+          <summary className="cursor-pointer font-mono text-[10px] tracking-wide text-ink-faint uppercase select-none hover:text-primary">
+            about this pattern
+          </summary>
+          <div className="mt-3">
+            <AtomCard node={node} onAtomClick={onAtomClick} compact />
+          </div>
+        </details>
       </div>
     </section>
   )
@@ -123,6 +146,11 @@ export function DocumentTrace() {
 
   const [openAtomId, setOpenAtomId] = useState<string | null>(null)
   const [hoverAtomId, setHoverAtomId] = useState<string | null>(null)
+  // The pattern a reader arrived at the current passage through (a graph
+  // node, an arc dot, a "¶ n" link in a pattern panel): its evidence is
+  // marked strongly in the text and its card is marked in the panel,
+  // until the next selection made some other way.
+  const [pickedAtomId, setPickedAtomId] = useState<string | null>(null)
 
   const select = useCallback(
     (index: number, scroll = false) => {
@@ -141,12 +169,23 @@ export function DocumentTrace() {
     [doc, setParams]
   )
 
-  // Picking a passage while a pattern is open returns the detail column
-  // to the passage — the reader asked to see that passage's hits.
+  // A click on the text itself: show that passage's hits, nothing pinned.
   const selectPassage = useCallback(
     (index: number, scroll = false) => {
       setOpenAtomId(null)
+      setPickedAtomId(null)
       select(index, scroll)
+    },
+    [select]
+  )
+
+  // A click on an occurrence (graph node, arc dot): the same as clicking
+  // the passage, with the pattern that was clicked kept in view.
+  const pickHit = useCallback(
+    (index: number, atomId: string) => {
+      setOpenAtomId(null)
+      setPickedAtomId(atomId)
+      select(index, true)
     },
     [select]
   )
@@ -170,6 +209,7 @@ export function DocumentTrace() {
     setParams({ doc: id, p: "1" })
     setOpenAtomId(null)
     setHoverAtomId(null)
+    setPickedAtomId(null)
   }
 
   // ← / → (or j / k) step through passages; Escape closes an open pattern.
@@ -201,7 +241,7 @@ export function DocumentTrace() {
   const tracedCount = chunks.filter((c) => c.traced).length
   const emptyCount = chunks.filter((c) => c.traced && c.hits.length === 0).length
   const selectedAtom = openAtomId ? nodesById.get(openAtomId) : undefined
-  const highlightAtomId = hoverAtomId ?? openAtomId
+  const highlightAtomId = hoverAtomId ?? openAtomId ?? pickedAtomId
 
   const panelClass = cn(
     "xl:sticky xl:top-4 xl:max-h-[calc(100vh-2rem)] xl:overflow-y-auto",
@@ -269,13 +309,13 @@ export function DocumentTrace() {
         )}
 
         {/*
-          Three coordinated columns at xl (text · detail · neighbourhood),
-          two at lg (the right pair stacked and sticky), one below that
-          with the detail panel as a bottom sheet so a tap on a passage
-          still produces a visible reaction. The detail column shows the
-          selected passage or, when a pattern is open, that pattern —
-          never a modal over the other two. Selecting in any column
-          reflects in the others; Jigsaw and Voyant are the prior art.
+          Three coordinated columns at xl (text · detail · graph), two at
+          lg (the right pair stacked and sticky), one below that with the
+          detail panel as a bottom sheet so a tap on a passage still
+          produces a visible reaction. The detail column shows the selected
+          passage or, when a pattern is open, that pattern — never a modal
+          over the other two. Selecting in any column reflects in the
+          others; Jigsaw and Voyant are the prior art.
         */}
         <div className="mt-5 grid grid-cols-1 items-start gap-5 lg:grid-cols-[minmax(0,1fr)_320px] xl:grid-cols-[minmax(0,1fr)_320px_360px]">
           <TraceText doc={doc} chunks={chunks} activeIndex={activeIndex} highlightAtomId={highlightAtomId} onSelect={(i) => selectPassage(i)} />
@@ -286,9 +326,15 @@ export function DocumentTrace() {
                 node={selectedAtom}
                 doc={doc}
                 chunks={chunks}
+                activeIndex={activeIndex}
                 onClose={() => setOpenAtomId(null)}
                 onAtomClick={setOpenAtomId}
-                onSelectPassage={(i) => selectPassage(i, true)}
+                onSelectPassage={(i) => {
+                  // From inside a pattern, "¶ n" is a tour of that pattern's
+                  // firings: go there and keep the panel open for the next one.
+                  setPickedAtomId(selectedAtom.id)
+                  select(i, true)
+                }}
                 className={panelClass}
               />
             ) : (
@@ -296,29 +342,23 @@ export function DocumentTrace() {
                 doc={doc}
                 chunks={chunks}
                 activeIndex={activeIndex}
+                highlightAtomId={highlightAtomId}
                 onSelect={(i) => selectPassage(i, true)}
                 onAtomClick={setOpenAtomId}
                 onAtomHover={setHoverAtomId}
                 className={panelClass}
               />
             )}
-            <Suspense
-              fallback={
-                <div className="flex h-40 items-center justify-center border border-rule bg-bg-well font-mono text-xs text-ink-faint">
-                  loading network…
-                </div>
-              }
-            >
-              <TraceNetwork
-                doc={doc}
-                chunks={chunks}
-                activeIndex={activeIndex}
-                openAtomId={openAtomId}
-                onAtomClick={setOpenAtomId}
-                onAtomHover={setHoverAtomId}
-                className="xl:sticky xl:top-4"
-              />
-            </Suspense>
+            <TraceGraphPane
+              doc={doc}
+              chunks={chunks}
+              activeIndex={activeIndex}
+              openAtomId={openAtomId}
+              highlightAtomId={highlightAtomId}
+              onPickHit={pickHit}
+              onAtomHover={setHoverAtomId}
+              className="xl:sticky xl:top-4"
+            />
           </div>
         </div>
       </div>
