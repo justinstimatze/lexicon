@@ -55,6 +55,23 @@ function truncate(text: string, max: number) {
   return text.slice(0, text.lastIndexOf(" ", max)) + "…"
 }
 
+// The source texts carry runs of 3+ line breaks between title/dateline/
+// byline blocks (each its own blank-line-separated "paragraph" before the
+// floor-merge folds them together) -- rendered verbatim via
+// white-space:pre-wrap, that reads as several empty lines stacked up.
+// Collapsing all the way to a single line break, not just to one blank
+// line, because a highlighted <mark> still draws its own padded box
+// decoration around an empty line -- one blank row inside a hit-bearing
+// passage still shows as a thin floating highlight sliver with nothing in
+// it. Zero blank lines trivially satisfies "no more than one" while
+// actually looking clean. Display-only: operates on a segment's own
+// extracted text, never on full_text or the char_start/char_end offsets
+// used to extract it, so it can't drift the indices other segments
+// depend on.
+function collapseBlankLines(text: string): string {
+  return text.replace(/(\r\n|\r|\n){2,}/g, "\n")
+}
+
 // Shows the atom's own general-mechanism explanation next to the quote
 // that triggered it — a real "why this matches" note, though an honest
 // one: agent_instruction explains the pattern in the abstract, not a
@@ -94,7 +111,7 @@ function HitRow({ hit, lensUsed, onAtomClick }: { hit: DocumentTraceHit; lensUse
 }
 
 function ChunkHitPanel({ doc, chunk, onAtomClick }: { doc: DocumentTraceDoc; chunk: ChunkWithHits; onAtomClick: (id: string) => void }) {
-  const fullQuote = doc.full_text.slice(chunk.char_start, chunk.char_end)
+  const fullQuote = collapseBlankLines(doc.full_text.slice(chunk.char_start, chunk.char_end))
   return (
     <div className="border border-rule bg-bg-well p-4">
       <p className="text-[13px] text-ink-dim italic whitespace-pre-wrap">"{truncate(fullQuote, 600)}"</p>
@@ -110,6 +127,43 @@ function ChunkHitPanel({ doc, chunk, onAtomClick }: { doc: DocumentTraceDoc; chu
           ))}
         </ul>
       )}
+    </div>
+  )
+}
+
+// The same "why" question the Text view's click-through answers (which
+// passage produced this atom, and what was its score) still applies when
+// the atom was reached from the Network view instead, where there's no
+// intermediate chunk click to anchor it -- computed generically from
+// doc.hits so both entry points show it, rather than duplicating this
+// per entry point.
+function AtomDocumentContext({ doc, chunks, atomId }: { doc: DocumentTraceDoc; chunks: ChunkWithHits[]; atomId: string }) {
+  const occurrences = doc.hits
+    .filter((h) => h.atom_id === atomId)
+    .map((h) => {
+      const chunk = chunks.find((c) => c.index === h.chunk_index)
+      return chunk ? { hit: h, quote: collapseBlankLines(doc.full_text.slice(chunk.char_start, chunk.char_end)) } : null
+    })
+    .filter((x): x is { hit: DocumentTraceHit; quote: string } => x !== null)
+
+  if (occurrences.length === 0) return null
+
+  return (
+    <div className="mb-4 border-b border-rule pb-4">
+      <div className="mb-2 font-mono text-[10px] tracking-wide text-ink-faint uppercase">
+        in {doc.title} — {occurrences.length} passage{occurrences.length === 1 ? "" : "s"}
+      </div>
+      <ul className="flex flex-col gap-2.5">
+        {occurrences.map((o, i) => (
+          <li key={i} className="font-mono text-[11px]">
+            <p className="text-ink-dim italic whitespace-pre-wrap">"{truncate(o.quote, 260)}"</p>
+            <span className="text-ink-faint tabular-nums">
+              {o.hit.score.toFixed(2)}
+              {o.hit.lexical_match ? " · lexical" : ""}
+            </span>
+          </li>
+        ))}
+      </ul>
     </div>
   )
 }
@@ -224,9 +278,17 @@ export function DocumentTrace() {
         </div>
 
         {view === "text" ? (
-          <>
-            <div className="mt-4 max-h-[70vh] overflow-y-auto border border-rule bg-bg-well p-5">
-              <div className="max-w-[70ch] font-serif text-[15px] leading-relaxed whitespace-pre-wrap text-ink">
+          // A side panel next to the text, not a block below a scrolled
+          // container: clicking a highlighted passage has to produce a
+          // visible reaction without the reader needing to notice a
+          // change happened somewhere off-screen and scroll to find it
+          // (genius.com's annotation panel opens right beside the lyric
+          // you clicked, for the same reason). Falls back to stacking
+          // below the text on narrow viewports, where there's no room
+          // for two columns anyway.
+          <div className="mt-4 grid grid-cols-1 items-start gap-4 lg:grid-cols-[minmax(0,1fr)_320px]">
+            <div className="max-h-[70vh] overflow-y-auto border border-rule bg-bg-well p-5">
+              <div className="max-w-[68ch] font-serif text-[15px] leading-relaxed whitespace-pre-wrap text-ink">
                 {segments.map((seg) =>
                   seg.chunk ? (
                     <mark
@@ -250,21 +312,25 @@ export function DocumentTrace() {
                       }}
                       className="cursor-pointer text-inherit transition-colors hover:brightness-125 focus-visible:outline focus-visible:outline-2 focus-visible:outline-primary"
                     >
-                      {seg.text}
+                      {collapseBlankLines(seg.text)}
                     </mark>
                   ) : (
-                    <span key={seg.key}>{seg.text}</span>
+                    <span key={seg.key}>{collapseBlankLines(seg.text)}</span>
                   )
                 )}
               </div>
             </div>
 
-            {activeChunk && (
-              <div className="mt-3">
+            <div className="lg:sticky lg:top-4">
+              {activeChunk ? (
                 <ChunkHitPanel doc={doc} chunk={activeChunk} onAtomClick={setOpenAtomId} />
-              </div>
-            )}
-          </>
+              ) : (
+                <p className="border border-dashed border-rule-light p-4 font-mono text-[11px] text-ink-faint">
+                  click a highlighted passage to see which pattern it matched
+                </p>
+              )}
+            </div>
+          </div>
         ) : (
           <div className="mt-4">
             <Suspense
@@ -282,7 +348,14 @@ export function DocumentTrace() {
 
       <Dialog open={!!selectedAtom} onOpenChange={(open) => !open && setOpenAtomId(null)}>
         <DialogContent title={selectedAtom ? selectedAtom.name : "Atom detail"} description={selectedAtom?.id}>
-          <DialogBody>{selectedAtom && <AtomCard node={selectedAtom} onAtomClick={setOpenAtomId} />}</DialogBody>
+          <DialogBody>
+            {selectedAtom && (
+              <>
+                <AtomDocumentContext doc={doc} chunks={chunks} atomId={selectedAtom.id} />
+                <AtomCard node={selectedAtom} onAtomClick={setOpenAtomId} />
+              </>
+            )}
+          </DialogBody>
         </DialogContent>
       </Dialog>
     </div>

@@ -76,13 +76,17 @@ export const TIER_COLOR: Record<string, string> = {
 }
 
 // A DOM background-color needs to sit behind readable text; the raw hex
-// values above are tuned as opaque canvas fill, too strong for that. Same
-// hue, low alpha — `strong` for the currently-open chunk, so "which one is
-// active" reads as a color difference rather than a box drawn around it
-// (an outline/border on a `<mark>` that wraps multiple lines renders one
-// box per line fragment, not one shape around the whole span).
-export function tierTint(tier: string, strong = false): string {
-  return `${TIER_COLOR[tier] ?? TIER_COLOR.atomic}${strong ? "4d" : "26"}`
+// values above are tuned as opaque canvas fill, too strong for that. A
+// hit-bearing passage that ISN'T the active one gets a quiet, tier-neutral
+// wash (subtle enough to scan past, closer to how genius.com highlights
+// annotated lyrics than a loud per-paragraph color block) -- tier color is
+// reserved for the passage actually selected, so color appearing at all
+// is itself a signal something is open, not decoration on every passage.
+export const NEUTRAL_HIT_TINT = "rgba(230, 225, 212, 0.10)"
+
+export function tierTint(tier: string, active: boolean): string {
+  if (!active) return NEUTRAL_HIT_TINT
+  return `${TIER_COLOR[tier] ?? TIER_COLOR.atomic}59`
 }
 
 export interface TraceGraphNode {

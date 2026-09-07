@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react"
 import ForceGraph2D, { type ForceGraphMethods, type NodeObject, type LinkObject } from "react-force-graph-2d"
+import { forceCollide } from "d3-force-3d"
 import type { DocumentTraceDoc, TraceGraphLink, TraceGraphNode } from "@/lib/documentTrace"
 import { TIER_COLOR, traceGraph } from "@/lib/documentTrace"
 
@@ -15,6 +16,29 @@ const MAX_LABELED_NODES = 12
 
 type FGNode = NodeObject<TraceGraphNode>
 type FGLink = LinkObject<TraceGraphNode, TraceGraphLink>
+
+// nodeRelSize below (6, not force-graph's default of 4) — a document
+// where most atoms fire once (Gettysburg Address: 20 of 20) means most
+// nodes sit at this floor, and at the default size + a zoomed-out fit
+// they render small enough to be genuinely hard to click precisely
+// (confirmed live: repeatable clicks on a visually-correct atomic node
+// missed while an adjacent, larger molecule node worked every time).
+const NODE_REL_SIZE = 6
+
+function nodeVal(n: FGNode): number {
+  return 4 + Math.sqrt(n.hitCount) * 2.5
+}
+
+// force-graph's own node-circle radius formula (nodeVal * nodeRelSize)
+// plus room for the label drawn under it. Used as the collision-force
+// radius so nodes and labels physically cannot overlap, regardless of
+// the random initial layout a force simulation starts from — tuning
+// charge/link strength alone only makes overlap LESS LIKELY, not
+// impossible, and a dense document's random seed can still converge into
+// an illegibly tight, unclickable clump.
+function nodeRadius(n: FGNode): number {
+  return Math.sqrt(nodeVal(n)) * NODE_REL_SIZE + 26
+}
 
 const TIER_LEGEND: { tier: string; label: string }[] = [
   { tier: "atomic", label: "atomic" },
@@ -66,16 +90,22 @@ export function TraceNetwork({ doc, onAtomClick }: { doc: DocumentTraceDoc; onAt
     didInitialZoomRef.current = false
   }, [doc])
 
-  // Loosen the default force layout for more breathing room between nodes
-  // — the default spacing produces an illegible label-and-circle pileup
-  // once a document has more than a handful of distinct atoms. Must
-  // reheat after touching force params, or the change silently does
-  // nothing once cooldownTicks has already exhausted the simulation.
+  // Loosen the default force layout for more breathing room, and add a
+  // real collision force so nodes physically cannot overlap. Charge/link
+  // tuning alone only makes overlap less likely -- it's still a random
+  // process, and a dense document's random initial layout can converge
+  // into an illegibly tight, unclickable clump regardless (confirmed live:
+  // the same document rendered cleanly in one run and as a dense
+  // overlapping mass in the next, purely from a different random seed).
+  // Collision force is what actually guarantees separation. Must reheat
+  // after touching force params, or the change silently does nothing once
+  // cooldownTicks has already exhausted the simulation.
   useEffect(() => {
     const fg = fgRef.current
     if (!fg) return
-    fg.d3Force("charge")?.strength(-180)
-    fg.d3Force("link")?.distance(70)
+    fg.d3Force("charge")?.strength(-220)
+    fg.d3Force("link")?.distance(80)
+    fg.d3Force("collide", forceCollide<FGNode>((n) => nodeRadius(n)).strength(1))
     fg.d3ReheatSimulation()
   }, [doc])
 
@@ -111,8 +141,9 @@ export function TraceNetwork({ doc, onAtomClick }: { doc: DocumentTraceDoc; onAt
           height={dims.height}
           graphData={graph}
           nodeId="id"
+          nodeRelSize={NODE_REL_SIZE}
           nodeLabel={(n) => `${(n as FGNode).name} · ${(n as FGNode).hitCount} hit${(n as FGNode).hitCount === 1 ? "" : "s"}`}
-          nodeVal={(n) => 2 + Math.sqrt((n as FGNode).hitCount) * 2.5}
+          nodeVal={(n) => nodeVal(n as FGNode)}
           nodeColor={(n) => TIER_COLOR[(n as FGNode).tier] ?? TIER_COLOR.atomic}
           nodeCanvasObjectMode={() => "after"}
           nodeCanvasObject={(n, ctx, globalScale) => {
@@ -134,7 +165,7 @@ export function TraceNetwork({ doc, onAtomClick }: { doc: DocumentTraceDoc; onAt
           linkCurvature={0.15}
           backgroundColor="rgba(0,0,0,0)"
           onNodeClick={(n) => onAtomClick((n as FGNode).id)}
-          cooldownTicks={80}
+          cooldownTicks={250}
           onEngineStop={() => {
             if (didInitialZoomRef.current) return
             didInitialZoomRef.current = true
