@@ -5,10 +5,10 @@ import * as THREE from "three"
 import { LineMaterial } from "three/examples/jsm/lines/LineMaterial.js"
 import { LineSegments2 } from "three/examples/jsm/lines/LineSegments2.js"
 import { LineSegmentsGeometry } from "three/examples/jsm/lines/LineSegmentsGeometry.js"
-import graphData from "@/data/graph.json"
-import type { LexGraph, LayoutName, LexNode } from "@/lib/graph"
+import { getGraph } from "@/lib/graphStore"
+import type { LayoutName, LexNode } from "@/lib/graph"
 
-const graph = graphData as unknown as LexGraph
+const graph = getGraph()
 
 type GraphNode = LexNode & { fx?: number; fy?: number; fz?: number; x?: number; y?: number; z?: number }
 type GraphLink = { source: string; target: string; type: string }

@@ -21,20 +21,21 @@
 #                        recognition from a scenario, recall of the
 #                        agent-instruction), a static downloadable file,
 #                        not part of the SPA build.
-#   public/graph.json  — the full export as a standalone fetchable file,
-#                        not just inlined into the SPA's JS bundle. This
-#                        is what llms.txt (web/public/llms.txt, copied
-#                        into public/ by the SPA build below) points
-#                        agents at — a plain GET, no scraping the app.
+#   public/graph.json  — the full export as a standalone fetchable file.
+#                        This is what llms.txt (web/public/llms.txt,
+#                        copied into public/ by the SPA build below)
+#                        points agents at — a plain GET, no scraping.
 #   public/atoms/*.json — one file per atom (canonical_instances,
 #                        agent_instruction, critical_questions, lineage),
 #                        fetched by the SPA's detail panel on open. The
-#                        SPA's own bundled graph.json is the trimmed
-#                        export (core fields only, ~270KB) — those
-#                        detail fields are 97% of a -full export's size
-#                        and only ever needed for the one atom currently
-#                        open, so they don't belong in every visitor's
-#                        first-paint bundle.
+#                        SPA's own graph.json (web/src/data/, the trimmed
+#                        export: core fields only) is emitted by Vite as
+#                        a hashed asset and fetched by web/src/lib/
+#                        graphStore.ts with a progress bar before any
+#                        catalog route renders — not inlined into a JS
+#                        chunk. The detail fields are most of a -full
+#                        export's size and only ever needed for the one
+#                        atom currently open, so they stay per-atom.
 #   web/src/data/reading-order.json — bundled straight into the SPA (no
 #                        standalone public/ copy, unlike graph.json —
 #                        nothing outside the app needs this one yet).
@@ -91,7 +92,7 @@ echo "public/shell.html:  $(wc -c < public/shell.html)  bytes (legacy composed s
 echo "public/matrix.html: $(wc -c < public/matrix.html) bytes (standalone matrix)"
 echo "public/pivot.html:  $(wc -c < public/pivot.html)  bytes (standalone pivot)"
 echo "public/lexicon-anki.tsv: $(wc -c < public/lexicon-anki.tsv) bytes (anki deck)"
-echo "web/src/data/graph.json (bundled, trimmed): $(wc -c < web/src/data/graph.json) bytes"
+echo "web/src/data/graph.json (trimmed, fetched by the SPA as an asset): $(wc -c < web/src/data/graph.json) bytes"
 echo "web/src/data/document-traces.json: $(wc -c < web/src/data/document-traces.json) bytes"
 echo "web/public/atoms/: $(find web/public/atoms -type f | wc -l) atom detail files"
 

@@ -1,10 +1,10 @@
 import { useEffect, useState, type ReactNode } from "react"
-import graphData from "@/data/graph.json"
-import type { LexGraph, LexNode } from "@/lib/graph"
+import { getGraph } from "@/lib/graphStore"
+import type { LexNode } from "@/lib/graph"
 import { recordVisit, useTrail } from "@/lib/trail"
 import { fetchAtomDetail, type AtomDetail } from "@/lib/atomDetail"
 
-const graph = graphData as unknown as LexGraph
+const graph = getGraph()
 const nodesById = new Map(graph.nodes.map((n) => [n.id, n]))
 
 const LEX_ID = /lex-[a-z0-9]{5}/g

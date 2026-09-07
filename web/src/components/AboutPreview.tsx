@@ -1,10 +1,9 @@
 import { useEffect, useState } from "react"
-import graphData from "@/data/graph.json"
-import type { LexGraph } from "@/lib/graph"
+import { getGraph } from "@/lib/graphStore"
 import { AtomCard } from "@/components/AtomCard"
 import { fetchAtomDetail, type AtomDetail } from "@/lib/atomDetail"
 
-const graph = graphData as unknown as LexGraph
+const graph = getGraph()
 const nodesById = new Map(graph.nodes.map((n) => [n.id, n]))
 
 // A stable pick, not a random one per load — the highest in-degree active

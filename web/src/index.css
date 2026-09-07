@@ -147,3 +147,22 @@
   font-style: normal;
   color: var(--accent);
 }
+
+/* Indeterminate loading bar: a third-width segment sliding across its
+   track (GraphLoading.tsx). */
+@keyframes loading-slide {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(300%);
+  }
+}
+.loading-slide {
+  animation: loading-slide 1.1s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .loading-slide {
+    animation-duration: 2.4s;
+  }
+}

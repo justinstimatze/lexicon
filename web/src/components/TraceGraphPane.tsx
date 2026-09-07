@@ -3,6 +3,7 @@ import { cn } from "@/lib/utils"
 import type { ChunkWithHits, DocumentTraceDoc } from "@/lib/documentTrace"
 import { TIER_COLOR } from "@/lib/documentTrace"
 import { TraceArcs } from "@/components/TraceArcs"
+import { LoadingBar } from "@/components/GraphLoading"
 
 // force-graph's canvas renderer pulls in its own physics engine — kept out
 // of the tab's initial bundle the same way Graph3D is split out of the
@@ -66,7 +67,10 @@ export function TraceGraphPane({
         ) : (
           <Suspense
             fallback={
-              <div className="flex h-[440px] items-center justify-center font-mono text-xs text-ink-faint">loading network…</div>
+              <div className="flex h-[440px] flex-col items-center justify-center gap-2 font-mono text-[11px] text-ink-faint">
+                <span>loading the network renderer…</span>
+                <LoadingBar fraction={null} className="w-32" />
+              </div>
             }
           >
             <TraceNetwork

@@ -2,20 +2,28 @@ import { lazy, Suspense } from "react"
 import { HashRouter, Navigate, Route, Routes, useLocation, useNavigate } from "react-router-dom"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { TooltipProvider } from "@/components/ui/tooltip"
+import { GraphLoading } from "@/components/GraphLoading"
+import { loadGraph } from "@/lib/graphStore"
 
 // Three.js + react-force-graph-3d is ~2.2MB gzipped on their own — real
 // weight on a mobile network. Code-split so the Pivot tab (and the app
 // shell generally) never pays for it, and the Graph tab pays for it once,
 // in parallel with the rest of the page rather than blocking first paint.
-const Graph3D = lazy(() => import("@/components/Graph3D").then((m) => ({ default: m.Graph3D })))
-const PivotTable = lazy(() => import("@/components/PivotTable").then((m) => ({ default: m.PivotTable })))
-const ListView = lazy(() => import("@/components/ListView").then((m) => ({ default: m.ListView })))
+//
+// The catalog (graph.json, ~3.7MB) is fetched by loadGraph() BEFORE the
+// route's own module is imported: those modules read the catalog at
+// evaluation time through getGraph(), so the fetch has to have finished
+// first. While it's in flight the route's fallback shows real progress.
+const afterGraph = <T,>(load: () => Promise<T>) => loadGraph().then(load)
+const Graph3D = lazy(() => afterGraph(() => import("@/components/Graph3D")).then((m) => ({ default: m.Graph3D })))
+const PivotTable = lazy(() => afterGraph(() => import("@/components/PivotTable")).then((m) => ({ default: m.PivotTable })))
+const ListView = lazy(() => afterGraph(() => import("@/components/ListView")).then((m) => ({ default: m.ListView })))
 const ReadingOrder = lazy(() => import("@/components/ReadingOrder").then((m) => ({ default: m.ReadingOrder })))
-const DocumentTrace = lazy(() => import("@/components/DocumentTrace").then((m) => ({ default: m.DocumentTrace })))
+const DocumentTrace = lazy(() => afterGraph(() => import("@/components/DocumentTrace")).then((m) => ({ default: m.DocumentTrace })))
 // Split out too, same reason as the three above: it's the only thing on
-// the About tab that needs graph.json, and About is part of the eager
+// the About tab that needs the catalog, and About is part of the eager
 // app shell — inlining the dataset there would defeat the split.
-const AboutPreview = lazy(() => import("@/components/AboutPreview").then((m) => ({ default: m.AboutPreview })))
+const AboutPreview = lazy(() => afterGraph(() => import("@/components/AboutPreview")).then((m) => ({ default: m.AboutPreview })))
 
 type Tab = "about" | "list" | "pivot" | "graph" | "reading-order" | "trace"
 
@@ -43,11 +51,7 @@ function tabFromPath(pathname: string): Tab {
     : "about"
 }
 
-const LOADING_FALLBACK = (label: string) => (
-  <div className="flex h-[70vh] w-full items-center justify-center border border-rule bg-bg-well font-mono text-xs text-ink-faint">
-    loading {label}…
-  </div>
-)
+const LOADING_FALLBACK = (label: string) => <GraphLoading label={label} />
 
 function AboutPane({ onNav }: { onNav: (tab: Tab) => void }) {
   return (
@@ -111,13 +115,7 @@ function AboutPane({ onNav }: { onNav: (tab: Tab) => void }) {
         </div>
       </div>
       <div className="w-full md:sticky md:top-20 md:max-h-[min(520px,calc(100vh-6rem))] md:w-96 md:shrink-0 md:overflow-y-auto">
-        <Suspense
-          fallback={
-            <div className="flex h-40 items-center justify-center rounded-md border border-rule bg-bg-well font-mono text-xs text-ink-faint">
-              loading…
-            </div>
-          }
-        >
+        <Suspense fallback={<GraphLoading label="a preview" compact />}>
           <AboutPreview />
         </Suspense>
       </div>

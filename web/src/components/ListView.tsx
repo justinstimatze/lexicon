@@ -1,11 +1,11 @@
 import { useEffect, useMemo, useRef, useState } from "react"
 import { useNavigate, useParams } from "react-router-dom"
-import graphData from "@/data/graph.json"
-import type { LexGraph, LexNode } from "@/lib/graph"
+import { getGraph } from "@/lib/graphStore"
+import type { LexNode } from "@/lib/graph"
 import { AtomCard } from "@/components/AtomCard"
 import { Dialog, DialogContent, DialogBody } from "@/components/ui/dialog"
 
-const graph = graphData as unknown as LexGraph
+const graph = getGraph()
 
 const TIERS = ["atomic", "composition", "molecule", "reaction"] as const
 type Tier = (typeof TIERS)[number]

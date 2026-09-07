@@ -1,11 +1,11 @@
 import { useMemo, useState } from "react"
-import graphData from "@/data/graph.json"
-import type { LexGraph, LexNode } from "@/lib/graph"
+import { getGraph } from "@/lib/graphStore"
+import type { LexNode } from "@/lib/graph"
 import { GAP_SUGGESTIONS } from "@/lib/gapSuggestions"
 import { AtomCard } from "@/components/AtomCard"
 import { Dialog, DialogContent, DialogBody } from "@/components/ui/dialog"
 
-const graph = graphData as unknown as LexGraph
+const graph = getGraph()
 
 // Mirrors render/internal/viz/pivot.go's PivotRowOrder/PivotColOrder —
 // the row/col vocabulary the gap-triage pass (and GAP_SUGGESTIONS'

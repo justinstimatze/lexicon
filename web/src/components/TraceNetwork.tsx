@@ -3,6 +3,7 @@ import ForceGraph2D, { type ForceGraphMethods, type NodeObject, type LinkObject 
 import { forceCollide } from "d3-force-3d"
 import type { ChunkWithHits, DocumentTraceDoc, TraceGraphLink, TraceGraphNode } from "@/lib/documentTrace"
 import { TIER_COLOR, localTraceGraph, wrapName } from "@/lib/documentTrace"
+import { LoadingBar } from "@/components/GraphLoading"
 
 type FGNode = NodeObject<TraceGraphNode>
 type FGLink = LinkObject<TraceGraphNode, TraceGraphLink>
@@ -128,7 +129,17 @@ export function TraceNetwork({
   }
 
   return (
-    <div ref={containerRef} className="w-full overflow-hidden" style={{ height, opacity: ready ? 1 : 0, transition: "opacity 180ms ease-out" }}>
+    <div className="relative">
+      {!ready && (
+        <div
+          role="status"
+          className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-2 font-mono text-[11px] text-ink-faint"
+        >
+          <span>laying out…</span>
+          <LoadingBar fraction={null} className="w-32" />
+        </div>
+      )}
+      <div ref={containerRef} className="w-full overflow-hidden" style={{ height, opacity: ready ? 1 : 0, transition: "opacity 180ms ease-out" }}>
       <ForceGraph2D<TraceGraphNode, TraceGraphLink>
         ref={fgRef}
         width={width}
@@ -194,6 +205,7 @@ export function TraceNetwork({
         cooldownTicks={COOLDOWN_TICKS}
         onEngineStop={fitOnce}
       />
+      </div>
     </div>
   )
 }

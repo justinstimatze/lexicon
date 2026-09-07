@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import { useSearchParams } from "react-router-dom"
 import { X } from "lucide-react"
-import graphData from "@/data/graph.json"
-import type { LexGraph, LexNode } from "@/lib/graph"
+import { getGraph } from "@/lib/graphStore"
+import type { LexNode } from "@/lib/graph"
 import documentTraceData from "@/data/document-traces.json"
 import type { ChunkWithHits, DocumentTraceData, DocumentTraceDoc } from "@/lib/documentTrace"
 import { TIER_COLOR, atomPassages, chunksWithHits, paragraphsOf } from "@/lib/documentTrace"
@@ -13,7 +13,7 @@ import { TracePassagePanel } from "@/components/TracePassagePanel"
 import { TraceGraphPane } from "@/components/TraceGraphPane"
 import { cn } from "@/lib/utils"
 
-const graph = graphData as unknown as LexGraph
+const graph = getGraph()
 const nodesById = new Map(graph.nodes.map((n) => [n.id, n]))
 const data = documentTraceData as unknown as DocumentTraceData
 
