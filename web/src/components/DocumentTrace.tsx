@@ -1,10 +1,18 @@
-import { useState } from "react"
+import { lazy, Suspense, useState } from "react"
 import { Link } from "react-router-dom"
 import documentTraceData from "@/data/document-traces.json"
 import type { ChunkWithHits, DocumentTraceData } from "@/lib/documentTrace"
 import { chunksWithHits } from "@/lib/documentTrace"
 
+// force-graph's canvas renderer pulls in its own physics engine — worth
+// splitting out of the tab's initial bundle the same way Graph3D is split
+// out of the app shell, even though this one is far lighter (Canvas2D,
+// no three.js).
+const TraceNetwork = lazy(() => import("@/components/TraceNetwork").then((m) => ({ default: m.TraceNetwork })))
+
 const data = documentTraceData as unknown as DocumentTraceData
+
+type ViewMode = "strip" | "network"
 
 // One color band per rank within a chunk — the top hit reads strongest,
 // a second hit (if any) reads as a lighter echo. Chunks with zero hits
@@ -73,6 +81,7 @@ export function DocumentTrace() {
   const doc = data.documents.find((d) => d.id === docId) ?? data.documents[0]
   const chunks = doc ? chunksWithHits(doc) : []
   const [openIndex, setOpenIndex] = useState<number | null>(chunks.length > 0 ? 0 : null)
+  const [view, setView] = useState<ViewMode>("strip")
 
   function pickDoc(id: string) {
     setDocId(id)
@@ -138,16 +147,61 @@ export function DocumentTrace() {
             read the full text →
           </a>
         )}
+        {doc.chunking_note && (
+          <p className="mt-2 text-[11px] text-ink-dim italic">
+            <span className="not-italic text-ink-faint">Note: </span>
+            {doc.chunking_note}
+          </p>
+        )}
 
-        <div className="mt-4 flex flex-wrap gap-1.5">
-          {chunks.map((c, i) => (
-            <ChunkChip key={c.index} chunk={c} isOpen={openIndex === i} onToggle={() => setOpenIndex(openIndex === i ? null : i)} />
-          ))}
+        <div className="mt-4 flex gap-2">
+          <button
+            type="button"
+            onClick={() => setView("strip")}
+            className={
+              "border px-2.5 py-1 font-mono text-[10px] tracking-wide uppercase transition-colors " +
+              (view === "strip" ? "border-primary bg-primary/15 text-foreground" : "border-rule text-ink-dim hover:border-primary/50")
+            }
+          >
+            Strip
+          </button>
+          <button
+            type="button"
+            onClick={() => setView("network")}
+            className={
+              "border px-2.5 py-1 font-mono text-[10px] tracking-wide uppercase transition-colors " +
+              (view === "network" ? "border-primary bg-primary/15 text-foreground" : "border-rule text-ink-dim hover:border-primary/50")
+            }
+          >
+            Network
+          </button>
         </div>
 
-        {openChunk && (
-          <div className="mt-3">
-            <ChunkDetail chunk={openChunk} />
+        {view === "strip" ? (
+          <>
+            <div className="mt-4 flex flex-wrap gap-1.5">
+              {chunks.map((c, i) => (
+                <ChunkChip key={c.index} chunk={c} isOpen={openIndex === i} onToggle={() => setOpenIndex(openIndex === i ? null : i)} />
+              ))}
+            </div>
+
+            {openChunk && (
+              <div className="mt-3">
+                <ChunkDetail chunk={openChunk} />
+              </div>
+            )}
+          </>
+        ) : (
+          <div className="mt-4">
+            <Suspense
+              fallback={
+                <div className="flex h-40 items-center justify-center border border-rule bg-bg-well font-mono text-xs text-ink-faint">
+                  loading network…
+                </div>
+              }
+            >
+              <TraceNetwork doc={doc} />
+            </Suspense>
           </div>
         )}
       </div>

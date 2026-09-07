@@ -23,6 +23,24 @@
       "year": 1729,
       "source_url": "https://www.gutenberg.org/ebooks/1080",
       "text_file": "modest-proposal.txt"
+    },
+    {
+      "id": "gettysburg-address",
+      "title": "The Gettysburg Address",
+      "author": "Abraham Lincoln",
+      "year": 1863,
+      "source_url": "https://avalon.law.yale.edu/19th_century/gettyb.asp",
+      "text_file": "gettysburg-address.txt",
+      "min_words": 1,
+      "chunking_note": "The Bliss text is one continuous paragraph in the source. Split here by sentence — these breaks are ours, not Lincoln's, so the trace below has more than one step to walk."
+    },
+    {
+      "id": "cross-of-gold",
+      "title": "Cross of Gold Speech",
+      "author": "William Jennings Bryan",
+      "year": 1896,
+      "source_url": "https://en.wikisource.org/wiki/Cross_of_Gold_Speech",
+      "text_file": "cross-of-gold.txt"
     }
   ]
 }

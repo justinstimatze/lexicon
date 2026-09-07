@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T22:34:42Z",
+  "generated_at": "2026-09-06T23:50:09Z",
   "top_k": 2,
   "no_lens": false,
   "documents": [
@@ -64,98 +64,98 @@
           "char_start": 8075,
           "char_end": 8545,
           "excerpt": "It is in vain to say that enlightened statesmen will be able to adjust these clashing interests, and render them all subservient to the public good. Enlightened…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 8,
           "char_start": 8549,
           "char_end": 9690,
           "excerpt": "The inference to which we are brought is, that the CAUSES of faction cannot be removed, and that relief is only to be sought in the means of controlling its EFF…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 9,
           "char_start": 9694,
           "char_end": 10416,
           "excerpt": "By what means is this object attainable? Evidently by one of two only. Either the existence of the same passion or interest in a majority at the same time must…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 10,
           "char_start": 10420,
           "char_end": 11512,
           "excerpt": "From this view of the subject it may be concluded that a pure democracy, by which I mean a society consisting of a small number of citizens, who assemble and ad…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 11,
           "char_start": 11516,
           "char_end": 11859,
           "excerpt": "A republic, by which I mean a government in which the scheme of representation takes place, opens a different prospect, and promises the cure for which we are s…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 12,
           "char_start": 11863,
           "char_end": 12160,
           "excerpt": "The two great points of difference between a democracy and a republic are: first, the delegation of the government, in the latter, to a small number of citizens…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 13,
           "char_start": 12164,
           "char_end": 13213,
           "excerpt": "The effect of the first difference is, on the one hand, to refine and enlarge the public views, by passing them through the medium of a chosen body of citizens,…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 14,
           "char_start": 13217,
           "char_end": 13914,
           "excerpt": "In the first place, it is to be remarked that, however small the republic may be, the representatives must be raised to a certain number, in order to guard agai…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 15,
           "char_start": 13918,
           "char_end": 14362,
           "excerpt": "In the next place, as each representative will be chosen by a greater number of citizens in the large than in the small republic, it will be more difficult for…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 16,
           "char_start": 14366,
           "char_end": 14992,
           "excerpt": "It must be confessed that in this, as in most other cases, there is a mean, on both sides of which inconveniences will be found to lie. By enlarging too much th…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 17,
           "char_start": 14996,
           "char_end": 16296,
           "excerpt": "The other point of difference is, the greater number of citizens and extent of territory which may be brought within the compass of republican than of democrati…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 18,
           "char_start": 16300,
           "char_end": 17340,
           "excerpt": "Hence, it clearly appears, that the same advantage which a republic has over a democracy, in controlling the effects of faction, is enjoyed by a large over a sm…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 19,
           "char_start": 17344,
           "char_end": 18075,
           "excerpt": "The influence of factious leaders may kindle a flame within their particular States, but will be unable to spread a general conflagration through the other Stat…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 20,
           "char_start": 18079,
           "char_end": 18411,
           "excerpt": "In the extent and proper structure of the Union, therefore, we behold a republican remedy for the diseases most incident to republican government. And according…",
-          "lens_used": true
+          "lens_used": false
         }
       ],
       "hits": [
@@ -220,7 +220,7 @@
           "atom_id": "lex-5nj47",
           "name": "neutralize-a-danger-by-absorbing-and-diffusing-it-not-destroying-it",
           "tier": "atomic",
-          "score": 0.56875,
+          "score": 0.54775,
           "lexical_match": false
         },
         {
@@ -273,227 +273,227 @@
         },
         {
           "chunk_index": 7,
-          "atom_id": "lex-jsere",
-          "name": "small-coalitions-make-private-loyalty-cheaper-than-public-goods",
-          "tier": "atomic",
-          "score": 1.0191999999999999,
+          "atom_id": "lex-mrq9p",
+          "name": "indirect-attack-tactics-require-matching-preconditions-first",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 7,
-          "atom_id": "lex-ktpxs",
-          "name": "without-overarching-authority-defensive-preemption-becomes-equilibrium-among-equal-agents",
+          "atom_id": "lex-24vtm",
+          "name": "public-private-boundary-around-care-is-itself-a-political-choice",
           "tier": "atomic",
-          "score": 0.9687999999999999,
+          "score": 1.1199999999999999,
           "lexical_match": true
         },
         {
           "chunk_index": 8,
-          "atom_id": "lex-zjuhv",
-          "name": "majority-rule-can-license-total-expropriation-of-a-minority",
-          "tier": "atomic",
-          "score": 1.0528,
+          "atom_id": "lex-4kgfa",
+          "name": "every-prediction-wrong-in-the-same-direction-reveals-prejudice-not-inference",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 8,
-          "atom_id": "lex-sxwn7",
-          "name": "balanced-mutual-checking-race-between-state-and-society-maintains-liberty",
-          "tier": "atomic",
-          "score": 1.0191999999999999,
+          "atom_id": "lex-9a377",
+          "name": "sens-liberal-paradox-binds-only-those-keeping-both-commitments",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 9,
-          "atom_id": "lex-czseb",
-          "name": "responsibility-ethic-owns-tainted-means-conviction-ethic-blames-the-world",
-          "tier": "atomic",
-          "score": 0.9099999999999999,
+          "atom_id": "lex-4kgfa",
+          "name": "every-prediction-wrong-in-the-same-direction-reveals-prejudice-not-inference",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 9,
-          "atom_id": "lex-rp7kr",
-          "name": "clear-idea-of-an-emotion-converts-it-from-passion-to-activity",
-          "tier": "atomic",
-          "score": 0.8512,
+          "atom_id": "lex-e9z2y",
+          "name": "causal-inference-method-selection-by-control-and-composition",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 10,
-          "atom_id": "lex-6wha5",
-          "name": "organized-minority-rules-the-unorganized-majority",
-          "tier": "atomic",
-          "score": 1.036,
+          "atom_id": "lex-4kgfa",
+          "name": "every-prediction-wrong-in-the-same-direction-reveals-prejudice-not-inference",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 10,
-          "atom_id": "lex-sxwn7",
-          "name": "balanced-mutual-checking-race-between-state-and-society-maintains-liberty",
-          "tier": "atomic",
-          "score": 0.9099999999999999,
+          "atom_id": "lex-dxx5k",
+          "name": "antifragility-as-system-property",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 11,
-          "atom_id": "lex-kj6tj",
-          "name": "democratic-consent-sustains-rather-than-constrains-soft-administrative-tutelage",
-          "tier": "atomic",
-          "score": 0.6384,
+          "atom_id": "lex-6t73u",
+          "name": "a-cross-trained-hybrid-mistakes-engineered-conflict-for-eternal-nature",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 11,
-          "atom_id": "lex-3656j",
-          "name": "shared-institutional-reality-produced-through-habituation-and-reciprocal-typification",
-          "tier": "atomic",
-          "score": 0.6054999999999999,
-          "lexical_match": false
-        },
-        {
-          "chunk_index": 12,
-          "atom_id": "lex-jsere",
-          "name": "small-coalitions-make-private-loyalty-cheaper-than-public-goods",
-          "tier": "atomic",
-          "score": 0.9687999999999999,
+          "atom_id": "lex-9a377",
+          "name": "sens-liberal-paradox-binds-only-those-keeping-both-commitments",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 12,
-          "atom_id": "lex-66s4q",
-          "name": "delegation-inherently-generates-agency-costs",
-          "tier": "atomic",
-          "score": 0.9099999999999999,
+          "atom_id": "lex-e9z2y",
+          "name": "causal-inference-method-selection-by-control-and-composition",
+          "tier": "molecule",
+          "score": 1.2,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 12,
+          "atom_id": "lex-s2uyr",
+          "name": "oppression-is-five-distinct-structural-forms-not-one-distributive-deficit",
+          "tier": "molecule",
+          "score": 1.2,
           "lexical_match": true
         },
         {
           "chunk_index": 13,
-          "atom_id": "lex-jbb6u",
-          "name": "coalition-to-selectorate-ratio-sets-public-versus-private-spending",
+          "atom_id": "lex-22xk5",
+          "name": "a-deniable-small-gesture-tests-a-patrons-real-welcome",
           "tier": "atomic",
-          "score": 1.3,
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 13,
-          "atom_id": "lex-xj7s3",
-          "name": "preference-falsification-private-belief-while-public-conformity-under-disclosure-cost",
+          "atom_id": "lex-24vtm",
+          "name": "public-private-boundary-around-care-is-itself-a-political-choice",
           "tier": "atomic",
-          "score": 1.1800000000000002,
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 14,
-          "atom_id": "lex-g9b38",
-          "name": "regulator-variety-must-equal-or-exceed-disturbance-variety-to-keep-outcome-bounded",
-          "tier": "atomic",
-          "score": 0.9939999999999999,
+          "atom_id": "lex-w5qfe",
+          "name": "iterative-refinement-of-a-provisional-target-against-feedback",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 14,
-          "atom_id": "lex-cpgyd",
-          "name": "principle-of-similitude-shifts-feasibility-with-scale",
+          "atom_id": "lex-22xk5",
+          "name": "a-deniable-small-gesture-tests-a-patrons-real-welcome",
           "tier": "atomic",
-          "score": 0.6636,
+          "score": 1.1199999999999999,
           "lexical_match": true
         },
         {
           "chunk_index": 15,
-          "atom_id": "lex-mmxs8",
-          "name": "democratizing-a-selection-process-can-dismantle-its-protective-filter",
-          "tier": "atomic",
-          "score": 0.62125,
-          "lexical_match": false
+          "atom_id": "lex-fy5qr",
+          "name": "a-population-sets-a-hard-capacity-ceiling-instead-of-competing-or-conquering",
+          "tier": "molecule",
+          "score": 1.2,
+          "lexical_match": true
         },
         {
           "chunk_index": 15,
-          "atom_id": "lex-ks25x",
-          "name": "rank-mobilizable-resources-by-shared-interest-not-by-availability-or-size",
-          "tier": "atomic",
-          "score": 0.6195,
+          "atom_id": "lex-m2cwp",
+          "name": "pivot-from-dualist-cue-to-multifactorial-frame",
+          "tier": "molecule",
+          "score": 1.2,
           "lexical_match": true
         },
         {
           "chunk_index": 16,
-          "atom_id": "lex-95nes",
-          "name": "keep-the-aim-fixed-and-treat-every-stratagem-as-disposable",
-          "tier": "atomic",
-          "score": 0.6054999999999999,
-          "lexical_match": false
+          "atom_id": "lex-9a377",
+          "name": "sens-liberal-paradox-binds-only-those-keeping-both-commitments",
+          "tier": "molecule",
+          "score": 1.6,
+          "lexical_match": true
         },
         {
           "chunk_index": 16,
-          "atom_id": "lex-cqvnu",
-          "name": "name-to-referent-correspondence-precedes-effective-coordinated-action",
-          "tier": "atomic",
-          "score": 0.56875,
-          "lexical_match": false
-        },
-        {
-          "chunk_index": 17,
-          "atom_id": "lex-6wha5",
-          "name": "organized-minority-rules-the-unorganized-majority",
-          "tier": "atomic",
-          "score": 0.9099999999999999,
+          "atom_id": "lex-ktvpg",
+          "name": "contradictory-folk-verdicts-can-both-be-right-about-different-bundled-mechanisms",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 17,
-          "atom_id": "lex-r7n82",
-          "name": "internal-heterogeneity-cross-cuts-and-blunts-inter-group-hostility",
-          "tier": "atomic",
-          "score": 0.7644,
+          "atom_id": "lex-4kgfa",
+          "name": "every-prediction-wrong-in-the-same-direction-reveals-prejudice-not-inference",
+          "tier": "molecule",
+          "score": 1.6,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 17,
+          "atom_id": "lex-s2uyr",
+          "name": "oppression-is-five-distinct-structural-forms-not-one-distributive-deficit",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 18,
-          "atom_id": "lex-6wha5",
-          "name": "organized-minority-rules-the-unorganized-majority",
-          "tier": "atomic",
-          "score": 0.9939999999999999,
+          "atom_id": "lex-4kgfa",
+          "name": "every-prediction-wrong-in-the-same-direction-reveals-prejudice-not-inference",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 18,
-          "atom_id": "lex-5mnjr",
-          "name": "join-two-equal-partners-not-one-superior-one-to-keep-mutual-checks-intact",
-          "tier": "atomic",
-          "score": 0.8847999999999999,
+          "atom_id": "lex-w5qfe",
+          "name": "iterative-refinement-of-a-provisional-target-against-feedback",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 19,
-          "atom_id": "lex-r7n82",
-          "name": "internal-heterogeneity-cross-cuts-and-blunts-inter-group-hostility",
-          "tier": "atomic",
-          "score": 0.658,
-          "lexical_match": false
+          "atom_id": "lex-4kgfa",
+          "name": "every-prediction-wrong-in-the-same-direction-reveals-prejudice-not-inference",
+          "tier": "molecule",
+          "score": 1.6,
+          "lexical_match": true
         },
         {
           "chunk_index": 19,
-          "atom_id": "lex-z26m9",
-          "name": "exclusive-truth-claim-cosmologies-structurally-produce-intolerance-of-alternatives",
-          "tier": "atomic",
-          "score": 0.6384,
+          "atom_id": "lex-8c35v",
+          "name": "cialdini-three-lever-influence",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 20,
-          "atom_id": "lex-pbdbb",
-          "name": "doctrine-of-the-mean-as-virtue-between-vices",
+          "atom_id": "lex-2at2v",
+          "name": "misattributing-a-personal-timing-failure-to-anothers-character",
           "tier": "atomic",
-          "score": 0.939,
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 20,
-          "atom_id": "lex-z7qxa",
-          "name": "norm-breaking-is-neutral-what-matters-is-what-it-expands-or-narrows",
+          "atom_id": "lex-3v7y3",
+          "name": "converts-rigid-conformity-signals-missing-tacit-knowledge-not-character",
           "tier": "atomic",
-          "score": 0.865,
-          "lexical_match": false
+          "score": 1.6,
+          "lexical_match": true
         }
       ]
     },
@@ -509,42 +509,42 @@
           "char_start": 0,
           "char_end": 402,
           "excerpt": "COMMON SENSE; addressed to the INHABITANTS of AMERICA, On the following interesting SUBJECTS Of the Origin and Design of Government in general, with concise Rem…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 1,
           "char_start": 406,
           "char_end": 646,
           "excerpt": "A new edition, with several additions in the body of the work. To which is added an appendix; together with an address to the people called Quakers. Man knows n…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 2,
           "char_start": 650,
           "char_end": 1166,
           "excerpt": "Thomson. PHILADELPHIA Printed and sold by W. \u0026 T. Bradford, February 14, 1776. MDCCLXXVI Common Sense By Thomas Paine INTRODUCTION. Perhaps the sentiments conta…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 3,
           "char_start": 1170,
           "char_end": 1710,
           "excerpt": "As a long and violent abuse of power, is generally the Means of calling the right of it in question (and in Matters too which might never have been thought of,…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 4,
           "char_start": 1714,
           "char_end": 2097,
           "excerpt": "In the following sheets, the author hath studiously avoided every thing which is personal among ourselves. Compliments as well as censure to individuals make no…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 5,
           "char_start": 2101,
           "char_end": 2688,
           "excerpt": "The cause of America is in a great measure the cause of all mankind. Many circumstances hath, and will arise, which are not local, but universal, and through wh…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 6,
@@ -558,35 +558,35 @@
           "char_start": 3038,
           "char_end": 3351,
           "excerpt": "Who the Author of this Production is, is wholly unnecessary to the Public, as the Object for Attention is the Doctrine itself, not the Man. Yet it may not be un…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 8,
           "char_start": 3355,
           "char_end": 3971,
           "excerpt": "Philadelphia, February 14, 1776 OF THE ORIGIN AND DESIGN OF GOVERNMENT IN GENERAL, WITH CONCISE REMARKS ON THE ENGLISH CONSTITUTION. Some writers have so confou…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 9,
           "char_start": 3975,
           "char_end": 5078,
           "excerpt": "Society in every state is a blessing, but government even in its best state is but a necessary evil; in its worst state an intolerable one; for when we suffer,…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 10,
           "char_start": 5082,
           "char_end": 6268,
           "excerpt": "In order to gain a clear and just idea of the design and end of government, let us suppose a small number of persons settled in some sequestered part of the ear…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 11,
           "char_start": 6272,
           "char_end": 6938,
           "excerpt": "Thus necessity, like a gravitating power, would soon form our newly arrived emigrants into society, the reciprocal blessings of which, would supersede, and rend…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 12,
@@ -607,21 +607,21 @@
           "char_start": 8897,
           "char_end": 9329,
           "excerpt": "Here then is the origin and rise of government; namely, a mode rendered necessary by the inability of moral virtue to govern the world; here too is the design a…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 15,
           "char_start": 9333,
           "char_end": 9961,
           "excerpt": "I draw my idea of the form of government from a principle in nature, which no art can overturn, viz. that the more simple any thing is, the less liable it is to…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 16,
           "char_start": 9965,
           "char_end": 10514,
           "excerpt": "Absolute governments (tho' the disgrace of human nature) have this advantage with them, that they are simple; if the people suffer, they know the head from whic…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 17,
@@ -635,21 +635,21 @@
           "char_start": 10802,
           "char_end": 11076,
           "excerpt": "First.--The remains of monarchical tyranny in the person of the king. Secondly.--The remains of aristocratical tyranny in the persons of the peers. Thirdly.--Th…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 19,
           "char_start": 11080,
           "char_end": 11429,
           "excerpt": "The two first, by being hereditary, are independent of the people; wherefore in a constitutional sense they contribute nothing towards the freedom of the state.…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 20,
           "char_start": 11433,
           "char_end": 11671,
           "excerpt": "To say that the commons is a check upon the king, presupposes two things: First.--That the king is not to be trusted without being looked after, or in other wor…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 21,
@@ -705,14 +705,14 @@
           "char_start": 15513,
           "char_end": 16073,
           "excerpt": "An inquiry into the constitutional errors in the English form of government is at this time highly necessary, for as we are never in a proper condition of doing…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 29,
           "char_start": 16081,
           "char_end": 16625,
           "excerpt": "OF MONARCHY AND HEREDITARY SUCCESSION. Mankind being originally equals in the order of creation, the equality could only be destroyed by some subsequent circums…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 30,
@@ -775,7 +775,7 @@
           "char_start": 26031,
           "char_end": 26867,
           "excerpt": "Secondly, as no man at first could possess any other public honors than were bestowed upon him, so the givers of those honors could have no power to give away t…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 39,
@@ -789,7 +789,7 @@
           "char_start": 28487,
           "char_end": 29188,
           "excerpt": "England, since the conquest, hath known some few good monarchs, but groaned beneath a much larger number of bad ones; yet no man in his senses can say that thei…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 41,
@@ -845,7 +845,7 @@
           "char_start": 33882,
           "char_end": 34520,
           "excerpt": "If we inquire into the business of a king, we shall find that in some countries they have none; and after sauntering away their lives without pleasure to themse…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 49,
@@ -859,7 +859,7 @@
           "char_start": 35553,
           "char_end": 35962,
           "excerpt": "In England a king hath little more to do than to make war and give away places; which in plain terms, is to impoverish the nation and set it together by the ear…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 51,
@@ -880,28 +880,28 @@
           "char_start": 36862,
           "char_end": 37280,
           "excerpt": "It hath been reported of the late Mr. Pelham (who tho' an able minister was not without his faults) that on his being attacked in the house of commons, on the s…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 54,
           "char_start": 37284,
           "char_end": 37922,
           "excerpt": "The sun never shined on a cause of greater worth. 'Tis not the affair of a city, a country, a province, or a kingdom, but of a continent--of at least one eighth…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 55,
           "char_start": 37926,
           "char_end": 38624,
           "excerpt": "By referring the matter from argument to arms, a new æra for politics is struck; a new method of thinking hath arisen. All plans, proposals, \u0026c. prior to the n…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 56,
           "char_start": 38628,
           "char_end": 39183,
           "excerpt": "As much hath been said of the advantages of reconciliation, which, like an agreeable dream, hath passed away and left us as we were, it is but right, that we sh…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 57,
@@ -915,7 +915,7 @@
           "char_start": 39999,
           "char_end": 40240,
           "excerpt": "But she has protected us, say some. That she has engrossed us is true, and defended the continent at our expence as well as her own is admitted, and she would h…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 59,
@@ -978,7 +978,7 @@
           "char_start": 45217,
           "char_end": 45548,
           "excerpt": "I challenge the warmest advocate for reconciliation, to shew, a single advantage that this continent can reap, by being connected with Great Britain. I repeat t…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 68,
@@ -1034,7 +1034,7 @@
           "char_start": 51985,
           "char_end": 52595,
           "excerpt": "It is repugnant to reason, to the universal order of things to all examples from former ages, to suppose, that this continent can longer remain subject to any e…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 76,
@@ -1055,7 +1055,7 @@
           "char_start": 53410,
           "char_end": 54065,
           "excerpt": "As to government matters, it is not in the power of Britain to do this continent justice: The business of it will soon be too weighty, and intricate, to be mana…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 79,
@@ -1104,14 +1104,14 @@
           "char_start": 59536,
           "char_end": 60433,
           "excerpt": "America is only a secondary object in the system of British politics, England consults the good of this country, no farther than it answers her own purpose. Whe…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 86,
           "char_start": 60437,
           "char_end": 61065,
           "excerpt": "Secondly. That as even the best terms, which we can expect to obtain, can amount to no more than a temporary expedient, or a kind of government by guardianship,…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 87,
@@ -1146,21 +1146,21 @@
           "char_start": 63841,
           "char_end": 64351,
           "excerpt": "If there is any true cause of fear respecting independance, it is because no plan is yet laid down. Men do not see their way out-- Wherefore, as an opening into…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 92,
           "char_start": 64355,
           "char_end": 65549,
           "excerpt": "Let the assemblies be annual, with a President only. The representation more equal. Their business wholly domestic, and subject to the authority of a Continenta…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 93,
           "char_start": 65553,
           "char_end": 65930,
           "excerpt": "But as there is a peculiar delicacy, from whom, or in what manner, this business must first arise, and as it seems most agreeable and consistent that it should…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 94,
@@ -1181,7 +1181,7 @@
           "char_start": 67686,
           "char_end": 68137,
           "excerpt": "Should any body of men be hereafter delegated for this or some similar purpose, I offer them the following extracts from that wise observer on governments Drago…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 97,
@@ -1202,21 +1202,21 @@
           "char_start": 70402,
           "char_end": 70676,
           "excerpt": "¹ Thomas Anello, otherwise Massanello, a fisherman of Naples, who after spiriting up his countrymen in the public market place, against the oppressions of the…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 100,
           "char_start": 70680,
           "char_end": 71138,
           "excerpt": "To talk of friendship with those in whom our reason forbids us to have faith, and our affections wounded through a thousand pores instruct us to detest, is madn…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 101,
           "char_start": 71142,
           "char_end": 72109,
           "excerpt": "Ye that tell us of harmony and reconciliation, can ye restore to us the time that is past? Can ye give to prostitution its former innocence? Neither can ye reco…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 102,
@@ -1237,7 +1237,7 @@
           "char_start": 72937,
           "char_end": 73295,
           "excerpt": "As all men allow the measure, and vary only in their opinion of the time, let us, in order to remove mistakes, take a general survey of things, and endeavour, i…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 105,
@@ -1251,21 +1251,21 @@
           "char_start": 74259,
           "char_end": 74641,
           "excerpt": "Were the continent crowded with inhabitants, her sufferings under the present circumstances would be intolerable. The more sea port towns we had, the more shoul…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 107,
           "char_start": 74645,
           "char_end": 75327,
           "excerpt": "Debts we have none; and whatever we may contract on this account will serve as a glorious memento of our virtue. Can we but leave posterity with a settled form…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 108,
           "char_start": 75331,
           "char_end": 75990,
           "excerpt": "The debt we may contract doth not deserve our regard if the work be but accomplished. No nation ought to be without a debt. A national debt is a national bond;…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 109,
@@ -1286,21 +1286,21 @@
           "char_start": 77336,
           "char_end": 78237,
           "excerpt": "Ships. Guns. Cost of one. Cost of all. Cost in £ [pounds sterling] 6 100 35,553 213,318 12 90 29,886 358,632 12 80 23,638 283,656 43 70 17,785 764,755 35 60 14…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 112,
           "char_start": 78241,
           "char_end": 79014,
           "excerpt": "No country on the globe is so happily situated, or so internally capable of raising a fleet as America. Tar, timber, iron, and cordage are her natural produce.…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 113,
           "char_start": 79018,
           "char_end": 80364,
           "excerpt": "In point of manning a fleet, people in general run into great errors; it is not necessary that one fourth part should be sailors. The Terrible privateer, Captai…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 114,
@@ -1314,14 +1314,14 @@
           "char_start": 81200,
           "char_end": 81967,
           "excerpt": "Some, perhaps, will say, that after we have made it up with Britain, she will protect us. Can we be so unwise as to mean, that she shall keep a navy in our harb…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 116,
           "char_start": 81971,
           "char_end": 83554,
           "excerpt": "The English list of ships of war, is long and formidable, but not a tenth part of them are at any one time fit for service, numbers of them not in being; yet th…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 117,
@@ -1335,7 +1335,7 @@
           "char_start": 84340,
           "char_end": 85391,
           "excerpt": "In almost every article of defense we abound. Hemp flourishes even to rankness, so that we need not want cordage. Our iron is superior to that of other countrie…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 119,
@@ -1349,35 +1349,35 @@
           "char_start": 85787,
           "char_end": 86839,
           "excerpt": "The infant state of the Colonies, as it is called, so far from being against, is an argument in favour of independance. We are sufficiently numerous, and were w…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 121,
           "char_start": 86843,
           "char_end": 87777,
           "excerpt": "Youth is the seed time of good habits, as well in nations as in individuals. It might be difficult, if not impossible, to form the Continent into one government…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 122,
           "char_start": 87781,
           "char_end": 88403,
           "excerpt": "The present time, likewise, is that peculiar time, which never happens to a nation but once, viz. the time of forming itself into a government. Most nations hav…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 123,
           "char_start": 88407,
           "char_end": 88766,
           "excerpt": "When William the Conqueror subdued England, he gave them law at the point of the sword; and until we consent, that the seat of government, in America, be legall…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 124,
           "char_start": 88770,
           "char_end": 89734,
           "excerpt": "As to religion, I hold it to be the indispensable duty of all government, to protect all conscientious professors thereof, and I know of no other business which…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 125,
@@ -1419,28 +1419,28 @@
           "char_start": 93423,
           "char_end": 93802,
           "excerpt": "First.--It is the custom of nations, when any two are at war, for some other powers, not engaged in the quarrel, to step in as mediators, and bring about the pr…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 131,
           "char_start": 93806,
           "char_end": 94122,
           "excerpt": "Secondly.--It is unreasonable to suppose, that France or Spain will give us any kind of assistance, if we mean only, to make use of that assistance for the purp…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 132,
           "char_start": 94126,
           "char_end": 94499,
           "excerpt": "Thirdly.--While we profess ourselves the subjects of Britain, we must, in the eye of foreign nations, be considered as rebels. The precedent is somewhat dangero…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 133,
           "char_start": 94503,
           "char_end": 95178,
           "excerpt": "Fourthly.--Were a manifesto to be published, and despatched to foreign courts, setting forth the miseries we have endured, and the peaceable methods we have ine…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 134,
@@ -1454,7 +1454,7 @@
           "char_start": 95868,
           "char_end": 96424,
           "excerpt": "APPENDIX. Since the publication of the first edition of this pamphlet, or rather, on the same day on which it came out, the King's Speech made its appearance in…",
-          "lens_used": true
+          "lens_used": false
         },
         {
           "index": 136,
@@ -1510,7 +1510,7 @@
           "char_start": 104555,
           "char_end": 105068,
           "excerpt": "I proceed now to the second head, viz. Which is the easiest and most practicable plan, reconciliation or independance; with some occasional remarks. He who take…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 144,
@@ -1531,21 +1531,21 @@
           "char_start": 107189,
           "char_end": 107881,
           "excerpt": "It is easy getting into holes and corners and talking of reconciliation: But do such men seriously consider, how difficult the task is, and how dangerous it may…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 147,
           "char_start": 107885,
           "char_end": 109089,
           "excerpt": "Put us, say some, on the footing we were on in sixty-three: To which I answer, the request is not now in the power of Britain to comply with, neither will she p…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 148,
           "char_start": 109093,
           "char_end": 110084,
           "excerpt": "Besides, the taking up arms, merely to enforce the repeal of a pecuniary law, seems as unwarrantable by the divine law, and as repugnant to human feelings, as t…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 149,
@@ -1622,14 +1622,14 @@
           "char_start": 118005,
           "char_end": 119275,
           "excerpt": "O ye partial ministers of your own acknowledged principles. If the bearing arms be sinful, the first going to war must be more so, by all the difference between…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 160,
           "char_start": 119279,
           "char_end": 120114,
           "excerpt": "¹\"Thou hast tasted of prosperity and adversity; thou knowest what it is to be banished thy native country, to be over-ruled as well as to rule, and set upon th…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 161,
@@ -1691,98 +1691,98 @@
       "hits": [
         {
           "chunk_index": 0,
-          "atom_id": "lex-vacza",
-          "name": "present-processes-extrapolated-over-time-explain-historical-record",
+          "atom_id": "lex-22kep",
+          "name": "hermeneutical-injustice-collective-interpretive-gap-prevents-sense-making",
           "tier": "atomic",
-          "score": 1.3840000000000001,
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 0,
-          "atom_id": "lex-8f8jk",
-          "name": "judge-by-consequential-fruits-not-by-organic-genealogical-roots",
+          "atom_id": "lex-2r7ms",
+          "name": "an-expectation-of-distant-origin-lets-anyone-claim-it",
           "tier": "atomic",
-          "score": 0.876,
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 1,
-          "atom_id": "lex-5mtne",
-          "name": "hidden-meaning-reading-lets-an-authoritative-text-survive-changed-commitments",
-          "tier": "atomic",
-          "score": 0.6054999999999999,
-          "lexical_match": false
+          "atom_id": "lex-fy5qr",
+          "name": "a-population-sets-a-hard-capacity-ceiling-instead-of-competing-or-conquering",
+          "tier": "molecule",
+          "score": 1.2,
+          "lexical_match": true
         },
         {
           "chunk_index": 1,
-          "atom_id": "lex-72q3j",
-          "name": "the-whole-and-its-parts-mutually-fix-each-others-meaning",
+          "atom_id": "lex-24vtm",
+          "name": "public-private-boundary-around-care-is-itself-a-political-choice",
           "tier": "atomic",
-          "score": 0.56875,
-          "lexical_match": false
+          "score": 1.1199999999999999,
+          "lexical_match": true
         },
         {
           "chunk_index": 2,
-          "atom_id": "lex-7hdd8",
-          "name": "fashion-cycle-elite-novelty-mass-imitation-elite-departure",
-          "tier": "atomic",
-          "score": 0.6054999999999999,
-          "lexical_match": false
+          "atom_id": "lex-4kgfa",
+          "name": "every-prediction-wrong-in-the-same-direction-reveals-prejudice-not-inference",
+          "tier": "molecule",
+          "score": 1.6,
+          "lexical_match": true
         },
         {
           "chunk_index": 2,
-          "atom_id": "lex-we98d",
-          "name": "cognitive-dissonance",
-          "tier": "atomic",
-          "score": 0.5319999999999999,
-          "lexical_match": false
-        },
-        {
-          "chunk_index": 3,
-          "atom_id": "lex-enpjy",
-          "name": "ruling-power-cloaks-itself-in-a-shared-legitimating-formula",
-          "tier": "atomic",
-          "score": 0.9351999999999998,
+          "atom_id": "lex-37m5b",
+          "name": "arrows-conditions-are-individually-mild-jointly-impossible",
+          "tier": "molecule",
+          "score": 1.2,
           "lexical_match": true
         },
         {
           "chunk_index": 3,
-          "atom_id": "lex-dvb4u",
-          "name": "using-institutional-power-to-the-hilt-breaks-the-system-granting-it",
-          "tier": "atomic",
-          "score": 0.8847999999999999,
+          "atom_id": "lex-9a377",
+          "name": "sens-liberal-paradox-binds-only-those-keeping-both-commitments",
+          "tier": "molecule",
+          "score": 1.6,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 3,
+          "atom_id": "lex-ktvpg",
+          "name": "contradictory-folk-verdicts-can-both-be-right-about-different-bundled-mechanisms",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 4,
-          "atom_id": "lex-7p22j",
-          "name": "writing-the-self-as-honest-subject-matter-founds-the-essay-form",
+          "atom_id": "lex-23ajk",
+          "name": "unresolved-conversion-rates-can-still-yield-a-settled-answer",
           "tier": "atomic",
-          "score": 0.7644,
+          "score": 1.1199999999999999,
           "lexical_match": true
         },
         {
           "chunk_index": 4,
-          "atom_id": "lex-ke8xx",
-          "name": "purification-cannot-be-delegated-though-guidance-can",
+          "atom_id": "lex-2at2v",
+          "name": "misattributing-a-personal-timing-failure-to-anothers-character",
           "tier": "atomic",
-          "score": 0.5529999999999999,
-          "lexical_match": false
-        },
-        {
-          "chunk_index": 5,
-          "atom_id": "lex-s22hf",
-          "name": "same-effects-across-disparate-domains-warrant-single-underlying-cause",
-          "tier": "atomic",
-          "score": 0.826,
+          "score": 1.1199999999999999,
           "lexical_match": true
         },
         {
           "chunk_index": 5,
-          "atom_id": "lex-7mdpd",
-          "name": "humanity-as-end-never-merely-as-means",
-          "tier": "atomic",
-          "score": 0.7013999999999999,
+          "atom_id": "lex-6t73u",
+          "name": "a-cross-trained-hybrid-mistakes-engineered-conflict-for-eternal-nature",
+          "tier": "molecule",
+          "score": 1.6,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 5,
+          "atom_id": "lex-ppm3j",
+          "name": "greene-style-power-tactic-substrate-instance",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
@@ -1803,82 +1803,82 @@
         },
         {
           "chunk_index": 7,
-          "atom_id": "lex-2ecyy",
-          "name": "a-principle-needs-tradition-to-decide-a-concrete-case",
-          "tier": "atomic",
-          "score": 0.8763999999999998,
+          "atom_id": "lex-8c35v",
+          "name": "cialdini-three-lever-influence",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 7,
-          "atom_id": "lex-m33nq",
-          "name": "justifiability-to-others-is-basic-not-derivative-of-independent-wrongness",
+          "atom_id": "lex-24vtm",
+          "name": "public-private-boundary-around-care-is-itself-a-political-choice",
           "tier": "atomic",
-          "score": 0.7265999999999999,
+          "score": 1.1199999999999999,
           "lexical_match": true
         },
         {
           "chunk_index": 8,
-          "atom_id": "lex-382xa",
-          "name": "aligning-public-names-with-reality-precondition-for-coordinated-action",
+          "atom_id": "lex-22hn2",
+          "name": "reform-writers-get-credited-with-starting-a-shift-already-underway",
           "tier": "atomic",
-          "score": 0.91,
-          "lexical_match": false
+          "score": 1.6,
+          "lexical_match": true
         },
         {
           "chunk_index": 8,
-          "atom_id": "lex-62ej3",
-          "name": "cross-cultural-political-variation-traces-to-variation-in-the-source-model",
+          "atom_id": "lex-2r7ms",
+          "name": "an-expectation-of-distant-origin-lets-anyone-claim-it",
           "tier": "atomic",
-          "score": 0.79,
-          "lexical_match": false
-        },
-        {
-          "chunk_index": 9,
-          "atom_id": "lex-2kbpp",
-          "name": "freedom-is-traded-for-security-comfort-and-relief-from-deliberation",
-          "tier": "atomic",
-          "score": 1.4560000000000002,
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 9,
-          "atom_id": "lex-srj3h",
-          "name": "harm-principle-self-protection-as-sole-warrant-for-coercion",
+          "atom_id": "lex-254bc",
+          "name": "a-discredited-messenger-neutralizes-even-a-true-disclosure",
           "tier": "atomic",
-          "score": 1.2640000000000002,
+          "score": 1.6,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 9,
+          "atom_id": "lex-295yy",
+          "name": "powerlessness-is-task-execution-without-authority-or-respectability",
+          "tier": "atomic",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 10,
-          "atom_id": "lex-kuqt8",
-          "name": "purposeful-action-requires-uneasiness-plus-efficacy-belief",
+          "atom_id": "lex-22nfh",
+          "name": "excluding-death-or-dirt-completely-also-excludes-the-life-it-fed",
           "tier": "atomic",
-          "score": 1.3840000000000001,
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 10,
-          "atom_id": "lex-dnr8w",
-          "name": "real-free-choice-between-societies-is-a-natural-experiment-armchairs-cant-match",
+          "atom_id": "lex-22xk5",
+          "name": "a-deniable-small-gesture-tests-a-patrons-real-welcome",
           "tier": "atomic",
-          "score": 1.2160000000000002,
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 11,
-          "atom_id": "lex-fcuqe",
-          "name": "which-virtues-exist-tracks-economic-conditions-not-timeless-morality",
-          "tier": "atomic",
-          "score": 0.6636,
+          "atom_id": "lex-ppm3j",
+          "name": "greene-style-power-tactic-substrate-instance",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 11,
-          "atom_id": "lex-czw2y",
-          "name": "a-virtues-object-migrates-as-social-scale-expands",
-          "tier": "atomic",
-          "score": 0.6384,
+          "atom_id": "lex-e9z2y",
+          "name": "causal-inference-method-selection-by-control-and-composition",
+          "tier": "molecule",
+          "score": 1.2,
           "lexical_match": true
         },
         {
@@ -1915,50 +1915,50 @@
         },
         {
           "chunk_index": 14,
-          "atom_id": "lex-8ca5h",
-          "name": "appeal-to-nature-legitimizes-domination",
+          "atom_id": "lex-29p67",
+          "name": "a-process-can-succeed-without-the-agents-understanding-of-its-mechanism",
           "tier": "atomic",
-          "score": 1.336,
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 14,
-          "atom_id": "lex-2kbpp",
-          "name": "freedom-is-traded-for-security-comfort-and-relief-from-deliberation",
+          "atom_id": "lex-2de55",
+          "name": "a-guarantor-adds-no-security-when-their-risk-correlates-with-the-debtors",
           "tier": "atomic",
-          "score": 1.2640000000000002,
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 15,
-          "atom_id": "lex-8ca5h",
-          "name": "appeal-to-nature-legitimizes-domination",
-          "tier": "atomic",
-          "score": 0.9687999999999999,
+          "atom_id": "lex-6t73u",
+          "name": "a-cross-trained-hybrid-mistakes-engineered-conflict-for-eternal-nature",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 15,
-          "atom_id": "lex-2ecyy",
-          "name": "a-principle-needs-tradition-to-decide-a-concrete-case",
-          "tier": "atomic",
-          "score": 0.9099999999999999,
+          "atom_id": "lex-ktvpg",
+          "name": "contradictory-folk-verdicts-can-both-be-right-about-different-bundled-mechanisms",
+          "tier": "molecule",
+          "score": 1.2,
           "lexical_match": true
         },
         {
           "chunk_index": 16,
-          "atom_id": "lex-k9ku5",
-          "name": "plurality-of-causes-without-experiment-forces-deductive-verification",
-          "tier": "atomic",
-          "score": 1.036,
+          "atom_id": "lex-6t73u",
+          "name": "a-cross-trained-hybrid-mistakes-engineered-conflict-for-eternal-nature",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 16,
-          "atom_id": "lex-j82ew",
-          "name": "democracies-fix-visible-crises-tolerate-invisible-suffering",
-          "tier": "atomic",
-          "score": 0.952,
+          "atom_id": "lex-ktvpg",
+          "name": "contradictory-folk-verdicts-can-both-be-right-about-different-bundled-mechanisms",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
@@ -1979,50 +1979,50 @@
         },
         {
           "chunk_index": 18,
-          "atom_id": "lex-eakk4",
-          "name": "a-weak-kings-graduated-response-to-a-stronger-aggressor",
-          "tier": "molecule",
-          "score": 1.2,
-          "lexical_match": true
+          "atom_id": "lex-ky7un",
+          "name": "established-elite-closure-against-aspirants-forces-counterelite-organization",
+          "tier": "atomic",
+          "score": 0.6054999999999999,
+          "lexical_match": false
         },
         {
           "chunk_index": 18,
-          "atom_id": "lex-2h3pp",
-          "name": "watching-authorities-and-peers-normalize-doubt-recalibrates-when-to-voice-it",
+          "atom_id": "lex-sxwn7",
+          "name": "balanced-mutual-checking-race-between-state-and-society-maintains-liberty",
           "tier": "atomic",
-          "score": 1.1199999999999999,
+          "score": 0.5844999999999999,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 19,
+          "atom_id": "lex-ezcv6",
+          "name": "freedom-is-evaded-by-claiming-fixed-essence-or-no-situation",
+          "tier": "atomic",
+          "score": 0.8512,
           "lexical_match": true
         },
         {
           "chunk_index": 19,
-          "atom_id": "lex-fy5qr",
-          "name": "a-population-sets-a-hard-capacity-ceiling-instead-of-competing-or-conquering",
-          "tier": "molecule",
-          "score": 1.2,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 19,
-          "atom_id": "lex-22kep",
-          "name": "hermeneutical-injustice-collective-interpretive-gap-prevents-sense-making",
+          "atom_id": "lex-enpjy",
+          "name": "ruling-power-cloaks-itself-in-a-shared-legitimating-formula",
           "tier": "atomic",
-          "score": 1.1199999999999999,
+          "score": 0.7265999999999999,
           "lexical_match": true
         },
         {
           "chunk_index": 20,
-          "atom_id": "lex-ppm3j",
-          "name": "greene-style-power-tactic-substrate-instance",
-          "tier": "molecule",
-          "score": 1.6,
+          "atom_id": "lex-enpjy",
+          "name": "ruling-power-cloaks-itself-in-a-shared-legitimating-formula",
+          "tier": "atomic",
+          "score": 0.9687999999999999,
           "lexical_match": true
         },
         {
           "chunk_index": 20,
-          "atom_id": "lex-eakk4",
-          "name": "a-weak-kings-graduated-response-to-a-stronger-aggressor",
-          "tier": "molecule",
-          "score": 1.2,
+          "atom_id": "lex-dvb4u",
+          "name": "using-institutional-power-to-the-hilt-breaks-the-system-granting-it",
+          "tier": "atomic",
+          "score": 0.9099999999999999,
           "lexical_match": true
         },
         {
@@ -2139,35 +2139,35 @@
         },
         {
           "chunk_index": 28,
-          "atom_id": "lex-m33nq",
-          "name": "justifiability-to-others-is-basic-not-derivative-of-independent-wrongness",
-          "tier": "atomic",
-          "score": 0.9099999999999999,
+          "atom_id": "lex-4kgfa",
+          "name": "every-prediction-wrong-in-the-same-direction-reveals-prejudice-not-inference",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 28,
-          "atom_id": "lex-ezcv6",
-          "name": "freedom-is-evaded-by-claiming-fixed-essence-or-no-situation",
-          "tier": "atomic",
-          "score": 0.6054999999999999,
-          "lexical_match": false
+          "atom_id": "lex-8c35v",
+          "name": "cialdini-three-lever-influence",
+          "tier": "molecule",
+          "score": 1.6,
+          "lexical_match": true
         },
         {
           "chunk_index": 29,
           "atom_id": "lex-s2uyr",
           "name": "oppression-is-five-distinct-structural-forms-not-one-distributive-deficit",
           "tier": "molecule",
-          "score": 1.3840000000000001,
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 29,
-          "atom_id": "lex-dpc3u",
-          "name": "a-problems-vocabulary-sets-the-boundary-of-imaginable-solutions",
-          "tier": "atomic",
-          "score": 0.574,
-          "lexical_match": false
+          "atom_id": "lex-smd64",
+          "name": "adaptation-to-strain-sorts-by-accepting-or-rejecting-goals-and-means",
+          "tier": "molecule",
+          "score": 1.6,
+          "lexical_match": true
         },
         {
           "chunk_index": 30,
@@ -2299,18 +2299,18 @@
         },
         {
           "chunk_index": 38,
-          "atom_id": "lex-axg7w",
-          "name": "a-granted-power-arrives-paired-with-its-opposite",
-          "tier": "atomic",
-          "score": 0.9687999999999999,
+          "atom_id": "lex-ppm3j",
+          "name": "greene-style-power-tactic-substrate-instance",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 38,
-          "atom_id": "lex-dvb4u",
-          "name": "using-institutional-power-to-the-hilt-breaks-the-system-granting-it",
-          "tier": "atomic",
-          "score": 0.9351999999999998,
+          "atom_id": "lex-a9wpd",
+          "name": "gof-composite",
+          "tier": "molecule",
+          "score": 1.2,
           "lexical_match": true
         },
         {
@@ -2331,19 +2331,19 @@
         },
         {
           "chunk_index": 40,
-          "atom_id": "lex-jwdqg",
-          "name": "even-tyranny-must-claim-a-morality-to-recruit-followers",
-          "tier": "atomic",
-          "score": 0.9687999999999999,
+          "atom_id": "lex-eakk4",
+          "name": "a-weak-kings-graduated-response-to-a-stronger-aggressor",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 40,
-          "atom_id": "lex-enpjy",
-          "name": "ruling-power-cloaks-itself-in-a-shared-legitimating-formula",
-          "tier": "atomic",
-          "score": 0.637,
-          "lexical_match": false
+          "atom_id": "lex-w5qfe",
+          "name": "iterative-refinement-of-a-provisional-target-against-feedback",
+          "tier": "molecule",
+          "score": 1.6,
+          "lexical_match": true
         },
         {
           "chunk_index": 41,
@@ -2459,18 +2459,18 @@
         },
         {
           "chunk_index": 48,
-          "atom_id": "lex-cgbrt",
-          "name": "outward-distraction-is-sought-to-avoid-contemplation-of-own-condition",
-          "tier": "atomic",
-          "score": 0.7265999999999999,
+          "atom_id": "lex-4kgfa",
+          "name": "every-prediction-wrong-in-the-same-direction-reveals-prejudice-not-inference",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 48,
-          "atom_id": "lex-b95eb",
-          "name": "leader-inaccessibility-lets-intimates-filter-and-distort-decisions",
-          "tier": "atomic",
-          "score": 0.6384,
+          "atom_id": "lex-37m5b",
+          "name": "arrows-conditions-are-individually-mild-jointly-impossible",
+          "tier": "molecule",
+          "score": 1.2,
           "lexical_match": true
         },
         {
@@ -2491,19 +2491,19 @@
         },
         {
           "chunk_index": 50,
-          "atom_id": "lex-eakk4",
-          "name": "a-weak-kings-graduated-response-to-a-stronger-aggressor",
-          "tier": "molecule",
-          "score": 1.2,
+          "atom_id": "lex-y7rqn",
+          "name": "whoever-speaks-for-society-collects-the-debt-everyone-owes-it",
+          "tier": "atomic",
+          "score": 0.8847999999999999,
           "lexical_match": true
         },
         {
           "chunk_index": 50,
-          "atom_id": "lex-26v8g",
-          "name": "lived-duration-is-categorically-distinct-from-spatialized-clock-time",
+          "atom_id": "lex-4nhgj",
+          "name": "sacred-status-empowers-a-ruler-and-confines-them-by-the-same-mechanism",
           "tier": "atomic",
-          "score": 1.1199999999999999,
-          "lexical_match": true
+          "score": 0.62125,
+          "lexical_match": false
         },
         {
           "chunk_index": 51,
@@ -2539,66 +2539,66 @@
         },
         {
           "chunk_index": 53,
-          "atom_id": "lex-zfssj",
-          "name": "words-once-uttered-cannot-be-recalled-so-speech-is-irreversible-action",
-          "tier": "atomic",
-          "score": 0.6636,
+          "atom_id": "lex-774er",
+          "name": "two-things-sharing-one-name-can-be-moving-in-opposite-directions",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 53,
-          "atom_id": "lex-95nes",
-          "name": "keep-the-aim-fixed-and-treat-every-stratagem-as-disposable",
-          "tier": "atomic",
-          "score": 0.62125,
-          "lexical_match": false
-        },
-        {
-          "chunk_index": 54,
-          "atom_id": "lex-auhh9",
-          "name": "eternal-debt-requires-a-fund-that-never-stops-growing",
-          "tier": "atomic",
-          "score": 0.8512,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 54,
-          "atom_id": "lex-z52z4",
-          "name": "catastrophe-accumulates-from-undiscriminated-small-wrongs",
-          "tier": "atomic",
-          "score": 0.6054999999999999,
-          "lexical_match": false
-        },
-        {
-          "chunk_index": 55,
-          "atom_id": "lex-rax8z",
-          "name": "at-critical-junctures-political-agency-selects-among-historically-available-alternatives",
-          "tier": "atomic",
-          "score": 0.6825,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 55,
-          "atom_id": "lex-95nes",
-          "name": "keep-the-aim-fixed-and-treat-every-stratagem-as-disposable",
-          "tier": "atomic",
-          "score": 0.6384,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 56,
-          "atom_id": "lex-ktvpg",
-          "name": "contradictory-folk-verdicts-can-both-be-right-about-different-bundled-mechanisms",
+          "atom_id": "lex-m2cwp",
+          "name": "pivot-from-dualist-cue-to-multifactorial-frame",
           "tier": "molecule",
-          "score": 0.79,
-          "lexical_match": false
+          "score": 1.2,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 54,
+          "atom_id": "lex-774er",
+          "name": "two-things-sharing-one-name-can-be-moving-in-opposite-directions",
+          "tier": "molecule",
+          "score": 1.6,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 54,
+          "atom_id": "lex-a9wpd",
+          "name": "gof-composite",
+          "tier": "molecule",
+          "score": 1.2,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 55,
+          "atom_id": "lex-4kgfa",
+          "name": "every-prediction-wrong-in-the-same-direction-reveals-prejudice-not-inference",
+          "tier": "molecule",
+          "score": 1.6,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 55,
+          "atom_id": "lex-8c35v",
+          "name": "cialdini-three-lever-influence",
+          "tier": "molecule",
+          "score": 1.6,
+          "lexical_match": true
         },
         {
           "chunk_index": 56,
-          "atom_id": "lex-4yj4s",
-          "name": "a-coupled-systems-other-half-follows-once-one-half-moves",
-          "tier": "atomic",
-          "score": 0.7013999999999999,
+          "atom_id": "lex-6t73u",
+          "name": "a-cross-trained-hybrid-mistakes-engineered-conflict-for-eternal-nature",
+          "tier": "molecule",
+          "score": 1.6,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 56,
+          "atom_id": "lex-kebfa",
+          "name": "argument-from-expert-opinion",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
@@ -2619,19 +2619,19 @@
         },
         {
           "chunk_index": 58,
-          "atom_id": "lex-85bw8",
-          "name": "pretext-narrative-conceals-actual-function",
-          "tier": "atomic",
-          "score": 0.6054999999999999,
-          "lexical_match": false
+          "atom_id": "lex-4kgfa",
+          "name": "every-prediction-wrong-in-the-same-direction-reveals-prejudice-not-inference",
+          "tier": "molecule",
+          "score": 1.6,
+          "lexical_match": true
         },
         {
           "chunk_index": 58,
-          "atom_id": "lex-2kbpp",
-          "name": "freedom-is-traded-for-security-comfort-and-relief-from-deliberation",
-          "tier": "atomic",
-          "score": 0.51625,
-          "lexical_match": false
+          "atom_id": "lex-5gg2c",
+          "name": "escaping-margin-race-by-decoupling-fixed-cost-onto-consenting-payer",
+          "tier": "molecule",
+          "score": 1.2,
+          "lexical_match": true
         },
         {
           "chunk_index": 59,
@@ -2763,19 +2763,19 @@
         },
         {
           "chunk_index": 67,
-          "atom_id": "lex-qjkvn",
-          "name": "complementary-niche-partitioning-yields-mutualism-not-direct-competition",
-          "tier": "atomic",
-          "score": 0.6195,
+          "atom_id": "lex-w5qfe",
+          "name": "iterative-refinement-of-a-provisional-target-against-feedback",
+          "tier": "molecule",
+          "score": 1.2,
           "lexical_match": true
         },
         {
           "chunk_index": 67,
-          "atom_id": "lex-8vqvy",
-          "name": "externalities-are-reciprocal-the-question-is-which-harm-to-avoid",
+          "atom_id": "lex-255sa",
+          "name": "open-confrontation-is-licensed-only-by-already-holding-every-advantage",
           "tier": "atomic",
-          "score": 0.6054999999999999,
-          "lexical_match": false
+          "score": 1.1199999999999999,
+          "lexical_match": true
         },
         {
           "chunk_index": 68,
@@ -2891,19 +2891,19 @@
         },
         {
           "chunk_index": 75,
-          "atom_id": "lex-6t73u",
-          "name": "a-cross-trained-hybrid-mistakes-engineered-conflict-for-eternal-nature",
-          "tier": "molecule",
-          "score": 1.6,
+          "atom_id": "lex-fecdf",
+          "name": "inconceivability-mistaken-for-impossibility",
+          "tier": "atomic",
+          "score": 0.6384,
           "lexical_match": true
         },
         {
           "chunk_index": 75,
-          "atom_id": "lex-ppm3j",
-          "name": "greene-style-power-tactic-substrate-instance",
-          "tier": "molecule",
-          "score": 1.6,
-          "lexical_match": true
+          "atom_id": "lex-djru4",
+          "name": "a-fixed-distant-goal-requires-suppressing-changed-minds",
+          "tier": "atomic",
+          "score": 0.6054999999999999,
+          "lexical_match": false
         },
         {
           "chunk_index": 76,
@@ -2939,18 +2939,18 @@
         },
         {
           "chunk_index": 78,
-          "atom_id": "lex-hr3cu",
-          "name": "centralized-planning-erodes-rule-of-law-and-concentrates-power",
+          "atom_id": "lex-23ajk",
+          "name": "unresolved-conversion-rates-can-still-yield-a-settled-answer",
           "tier": "atomic",
-          "score": 1.2160000000000002,
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 78,
-          "atom_id": "lex-b95eb",
-          "name": "leader-inaccessibility-lets-intimates-filter-and-distort-decisions",
+          "atom_id": "lex-26v8g",
+          "name": "lived-duration-is-categorically-distinct-from-spatialized-clock-time",
           "tier": "atomic",
-          "score": 0.948,
+          "score": 1.6,
           "lexical_match": true
         },
         {
@@ -3051,35 +3051,35 @@
         },
         {
           "chunk_index": 85,
-          "atom_id": "lex-zdxzh",
-          "name": "a-fortune-bound-ally-becomes-an-enemy-when-fortune-turns",
-          "tier": "atomic",
-          "score": 0.637,
-          "lexical_match": false
+          "atom_id": "lex-774er",
+          "name": "two-things-sharing-one-name-can-be-moving-in-opposite-directions",
+          "tier": "molecule",
+          "score": 1.6,
+          "lexical_match": true
         },
         {
           "chunk_index": 85,
-          "atom_id": "lex-cahck",
-          "name": "framing-a-rival-as-an-existential-threat-licenses-any-countermeasure",
-          "tier": "atomic",
-          "score": 0.6054999999999999,
-          "lexical_match": false
-        },
-        {
-          "chunk_index": 86,
-          "atom_id": "lex-kj6tj",
-          "name": "democratic-consent-sustains-rather-than-constrains-soft-administrative-tutelage",
-          "tier": "atomic",
-          "score": 0.6573,
+          "atom_id": "lex-dxx5k",
+          "name": "antifragility-as-system-property",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 86,
-          "atom_id": "lex-ewjec",
-          "name": "removing-non-market-exits-makes-market-dependence-structural",
-          "tier": "atomic",
-          "score": 0.6054999999999999,
-          "lexical_match": false
+          "atom_id": "lex-dxx5k",
+          "name": "antifragility-as-system-property",
+          "tier": "molecule",
+          "score": 1.6,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 86,
+          "atom_id": "lex-37m5b",
+          "name": "arrows-conditions-are-individually-mild-jointly-impossible",
+          "tier": "molecule",
+          "score": 1.2,
+          "lexical_match": true
         },
         {
           "chunk_index": 87,
@@ -3147,59 +3147,51 @@
         },
         {
           "chunk_index": 91,
-          "atom_id": "lex-4kgfa",
-          "name": "every-prediction-wrong-in-the-same-direction-reveals-prejudice-not-inference",
-          "tier": "molecule",
-          "score": 1.6,
+          "atom_id": "lex-z775k",
+          "name": "true-individualism-is-epistemic-humility-not-faith-in-individual-reason",
+          "tier": "atomic",
+          "score": 0.8512,
           "lexical_match": true
         },
         {
           "chunk_index": 91,
-          "atom_id": "lex-kebfa",
-          "name": "argument-from-expert-opinion",
-          "tier": "molecule",
-          "score": 1.6,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 92,
-          "atom_id": "lex-kebfa",
-          "name": "argument-from-expert-opinion",
-          "tier": "molecule",
-          "score": 1.2,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 92,
-          "atom_id": "lex-mrq9p",
-          "name": "indirect-attack-tactics-require-matching-preconditions-first",
-          "tier": "molecule",
-          "score": 1.2,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 93,
-          "atom_id": "lex-fy5qr",
-          "name": "a-population-sets-a-hard-capacity-ceiling-instead-of-competing-or-conquering",
-          "tier": "molecule",
-          "score": 1.2,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 93,
-          "atom_id": "lex-ktvpg",
-          "name": "contradictory-folk-verdicts-can-both-be-right-about-different-bundled-mechanisms",
-          "tier": "molecule",
-          "score": 1.2,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 94,
-          "atom_id": "lex-enpjy",
-          "name": "ruling-power-cloaks-itself-in-a-shared-legitimating-formula",
+          "atom_id": "lex-73m95",
+          "name": "anti-problem-elicitation-via-guaranteed-failure-inversion",
           "tier": "atomic",
-          "score": 0.8007999999999998,
-          "lexical_match": true
+          "score": 0.6054999999999999,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 92,
+          "atom_id": "lex-sxwn7",
+          "name": "balanced-mutual-checking-race-between-state-and-society-maintains-liberty",
+          "tier": "atomic",
+          "score": 0.6054999999999999,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 92,
+          "atom_id": "lex-rjd3p",
+          "name": "a-unanimity-requirement-turns-one-objector-into-a-veto",
+          "tier": "atomic",
+          "score": 0.56875,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 93,
+          "atom_id": "lex-7hstb",
+          "name": "a-figures-authority-comes-from-belonging-to-no-named-category",
+          "tier": "atomic",
+          "score": 0.6054999999999999,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 93,
+          "atom_id": "lex-845sm",
+          "name": "bureaucratic-control-and-self-governance-can-partition-by-domain",
+          "tier": "atomic",
+          "score": 0.54775,
+          "lexical_match": false
         },
         {
           "chunk_index": 94,
@@ -3210,11 +3202,19 @@
           "lexical_match": true
         },
         {
+          "chunk_index": 94,
+          "atom_id": "lex-sxwn7",
+          "name": "balanced-mutual-checking-race-between-state-and-society-maintains-liberty",
+          "tier": "atomic",
+          "score": 0.6636,
+          "lexical_match": true
+        },
+        {
           "chunk_index": 95,
           "atom_id": "lex-h7z9x",
           "name": "bracketed-space-time-suspends-ordinary-rules-and-installs-stipulated-ones",
           "tier": "atomic",
-          "score": 1.0191999999999999,
+          "score": 0.8847999999999999,
           "lexical_match": true
         },
         {
@@ -3222,23 +3222,23 @@
           "atom_id": "lex-sxwn7",
           "name": "balanced-mutual-checking-race-between-state-and-society-maintains-liberty",
           "tier": "atomic",
-          "score": 0.8847999999999999,
+          "score": 0.826,
           "lexical_match": true
         },
         {
           "chunk_index": 96,
-          "atom_id": "lex-9wbd3",
-          "name": "greatest-happiness-principle-actions-judged-by-aggregate-welfare",
-          "tier": "atomic",
-          "score": 1.0191999999999999,
+          "atom_id": "lex-xgyv7",
+          "name": "failure-mode-elicitation-by-goal-inversion",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 96,
-          "atom_id": "lex-7mr6w",
-          "name": "survival-test-mistaken-for-purpose-degrades-purpose-attainment",
+          "atom_id": "lex-254bc",
+          "name": "a-discredited-messenger-neutralizes-even-a-true-disclosure",
           "tier": "atomic",
-          "score": 0.9099999999999999,
+          "score": 1.1199999999999999,
           "lexical_match": true
         },
         {
@@ -3275,50 +3275,50 @@
         },
         {
           "chunk_index": 99,
-          "atom_id": "lex-94b62",
-          "name": "collective-action-draws-from-historically-constrained-culturally-transmitted-repertoire",
-          "tier": "atomic",
-          "score": 0.6054999999999999,
-          "lexical_match": false
+          "atom_id": "lex-w5qfe",
+          "name": "iterative-refinement-of-a-provisional-target-against-feedback",
+          "tier": "molecule",
+          "score": 1.6,
+          "lexical_match": true
         },
         {
           "chunk_index": 99,
-          "atom_id": "lex-46twa",
-          "name": "withdrawal-of-creator-class-as-political-leverage",
-          "tier": "atomic",
-          "score": 0.54775,
-          "lexical_match": false
-        },
-        {
-          "chunk_index": 100,
-          "atom_id": "lex-cfhab",
-          "name": "a-good-relationship-has-more-room-to-fall-than-rise",
-          "tier": "atomic",
-          "score": 1.0528,
+          "atom_id": "lex-3ydmv",
+          "name": "fermi-estimation",
+          "tier": "molecule",
+          "score": 1.2,
           "lexical_match": true
         },
         {
           "chunk_index": 100,
-          "atom_id": "lex-zdxzh",
-          "name": "a-fortune-bound-ally-becomes-an-enemy-when-fortune-turns",
+          "atom_id": "lex-2bhh9",
+          "name": "a-relationship-itself-stores-and-retrieves-shared-knowledge",
           "tier": "atomic",
-          "score": 0.7013999999999999,
+          "score": 1.1199999999999999,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 100,
+          "atom_id": "lex-2vaeq",
+          "name": "a-refusal-can-signal-wounded-status-not-incapacity",
+          "tier": "atomic",
+          "score": 1.1199999999999999,
           "lexical_match": true
         },
         {
           "chunk_index": 101,
-          "atom_id": "lex-cj5bf",
-          "name": "gifts-cannot-repurchase-violated-honor",
-          "tier": "atomic",
-          "score": 0.9099999999999999,
+          "atom_id": "lex-6t73u",
+          "name": "a-cross-trained-hybrid-mistakes-engineered-conflict-for-eternal-nature",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 101,
-          "atom_id": "lex-jhwqx",
-          "name": "reconcile-the-individual-without-absolving-the-system",
-          "tier": "atomic",
-          "score": 0.8679999999999998,
+          "atom_id": "lex-w5qfe",
+          "name": "iterative-refinement-of-a-provisional-target-against-feedback",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
@@ -3355,18 +3355,18 @@
         },
         {
           "chunk_index": 104,
-          "atom_id": "lex-26v8g",
-          "name": "lived-duration-is-categorically-distinct-from-spatialized-clock-time",
-          "tier": "atomic",
-          "score": 0.9687999999999999,
+          "atom_id": "lex-6t73u",
+          "name": "a-cross-trained-hybrid-mistakes-engineered-conflict-for-eternal-nature",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 104,
-          "atom_id": "lex-ry9qx",
-          "name": "total-social-fact-single-act-discloses-multiple-dimensions-at-once",
-          "tier": "atomic",
-          "score": 0.8763999999999998,
+          "atom_id": "lex-kebfa",
+          "name": "argument-from-expert-opinion",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
@@ -3387,50 +3387,50 @@
         },
         {
           "chunk_index": 106,
-          "atom_id": "lex-9a377",
-          "name": "sens-liberal-paradox-binds-only-those-keeping-both-commitments",
+          "atom_id": "lex-fy5qr",
+          "name": "a-population-sets-a-hard-capacity-ceiling-instead-of-competing-or-conquering",
           "tier": "molecule",
-          "score": 1.6,
-          "lexical_match": true
+          "score": 0.865,
+          "lexical_match": false
         },
         {
           "chunk_index": 106,
-          "atom_id": "lex-ktvpg",
-          "name": "contradictory-folk-verdicts-can-both-be-right-about-different-bundled-mechanisms",
-          "tier": "molecule",
-          "score": 1.6,
+          "atom_id": "lex-kdt2v",
+          "name": "need-reduction-and-supply-augmentation-are-equivalent-paths-to-affluence",
+          "tier": "atomic",
+          "score": 0.54775,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 107,
+          "atom_id": "lex-39ucy",
+          "name": "currency-integrity-depends-on-one-debt-staying-permanently-unpaid",
+          "tier": "atomic",
+          "score": 0.9687999999999999,
           "lexical_match": true
         },
         {
           "chunk_index": 107,
-          "atom_id": "lex-mh7jf",
-          "name": "conformity-as-identity-signaling",
-          "tier": "molecule",
-          "score": 1.2,
+          "atom_id": "lex-qbbav",
+          "name": "debt-is-suspended-equality-not-yet-restored",
+          "tier": "atomic",
+          "score": 0.9099999999999999,
           "lexical_match": true
         },
         {
-          "chunk_index": 107,
-          "atom_id": "lex-23ajk",
-          "name": "unresolved-conversion-rates-can-still-yield-a-settled-answer",
+          "chunk_index": 108,
+          "atom_id": "lex-26v8g",
+          "name": "lived-duration-is-categorically-distinct-from-spatialized-clock-time",
           "tier": "atomic",
           "score": 1.1199999999999999,
           "lexical_match": true
         },
         {
           "chunk_index": 108,
-          "atom_id": "lex-744qr",
-          "name": "perpetually-rolled-over-sovereign-debt-is-tribute-in-legal-disguise",
+          "atom_id": "lex-295yy",
+          "name": "powerlessness-is-task-execution-without-authority-or-respectability",
           "tier": "atomic",
-          "score": 0.8763999999999998,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 108,
-          "atom_id": "lex-dk5t2",
-          "name": "guaranteed-repayment-removes-the-risk-that-disciplines-lenders",
-          "tier": "atomic",
-          "score": 0.7265999999999999,
+          "score": 1.1199999999999999,
           "lexical_match": true
         },
         {
@@ -3467,38 +3467,86 @@
         },
         {
           "chunk_index": 111,
-          "atom_id": "lex-5gg2c",
-          "name": "escaping-margin-race-by-decoupling-fixed-cost-onto-consenting-payer",
-          "tier": "molecule",
-          "score": 1.6,
-          "lexical_match": true
+          "atom_id": "lex-687c9",
+          "name": "precise-absurd-debt-math-legitimizes-a-war-pretext",
+          "tier": "atomic",
+          "score": 0.658,
+          "lexical_match": false
         },
         {
           "chunk_index": 111,
-          "atom_id": "lex-2dtcp",
-          "name": "capping-a-structures-lifespan-caps-the-cost-of-trying-it",
+          "atom_id": "lex-dkekq",
+          "name": "percentage-differences-can-invert-the-underlying-absolute-numbers",
           "tier": "atomic",
-          "score": 1.1199999999999999,
+          "score": 0.5319999999999999,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 112,
+          "atom_id": "lex-a5qyc",
+          "name": "taxation-manufactures-the-market-it-demands-payment-in",
+          "tier": "atomic",
+          "score": 0.7265999999999999,
           "lexical_match": true
         },
         {
           "chunk_index": 112,
-          "atom_id": "lex-5gg2c",
-          "name": "escaping-margin-race-by-decoupling-fixed-cost-onto-consenting-payer",
-          "tier": "molecule",
-          "score": 1.6,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 112,
-          "atom_id": "lex-smd64",
-          "name": "adaptation-to-strain-sorts-by-accepting-or-rejecting-goals-and-means",
-          "tier": "molecule",
-          "score": 1.6,
+          "atom_id": "lex-xqvcf",
+          "name": "long-distance-trade-independently-invents-trust-enabling-institutions",
+          "tier": "atomic",
+          "score": 0.6384,
           "lexical_match": true
         },
         {
           "chunk_index": 113,
+          "atom_id": "lex-su2x6",
+          "name": "keep-your-best-expert-underutilized-for-emergencies",
+          "tier": "atomic",
+          "score": 0.7265999999999999,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 113,
+          "atom_id": "lex-bepdt",
+          "name": "a-species-wide-capacity-gets-misfiled-as-one-groups-property",
+          "tier": "atomic",
+          "score": 0.54775,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 114,
+          "atom_id": "lex-ktpxs",
+          "name": "without-overarching-authority-defensive-preemption-becomes-equilibrium-among-equal-agents",
+          "tier": "atomic",
+          "score": 0.8763999999999998,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 114,
+          "atom_id": "lex-su2x6",
+          "name": "keep-your-best-expert-underutilized-for-emergencies",
+          "tier": "atomic",
+          "score": 0.6132,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 115,
+          "atom_id": "lex-ppm3j",
+          "name": "greene-style-power-tactic-substrate-instance",
+          "tier": "molecule",
+          "score": 1.6,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 115,
+          "atom_id": "lex-fy5qr",
+          "name": "a-population-sets-a-hard-capacity-ceiling-instead-of-competing-or-conquering",
+          "tier": "molecule",
+          "score": 1.2,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 116,
           "atom_id": "lex-4kgfa",
           "name": "every-prediction-wrong-in-the-same-direction-reveals-prejudice-not-inference",
           "tier": "molecule",
@@ -3506,67 +3554,19 @@
           "lexical_match": true
         },
         {
-          "chunk_index": 113,
-          "atom_id": "lex-6t73u",
-          "name": "a-cross-trained-hybrid-mistakes-engineered-conflict-for-eternal-nature",
+          "chunk_index": 116,
+          "atom_id": "lex-h7vet",
+          "name": "depart-trial-return-arc",
           "tier": "molecule",
           "score": 1.6,
           "lexical_match": true
-        },
-        {
-          "chunk_index": 114,
-          "atom_id": "lex-ktpxs",
-          "name": "without-overarching-authority-defensive-preemption-becomes-equilibrium-among-equal-agents",
-          "tier": "atomic",
-          "score": 0.8847999999999999,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 114,
-          "atom_id": "lex-5y7zb",
-          "name": "stored-value-must-be-defended-which-converts-environment-from-giver-into-threat",
-          "tier": "atomic",
-          "score": 0.637,
-          "lexical_match": false
-        },
-        {
-          "chunk_index": 115,
-          "atom_id": "lex-su2x6",
-          "name": "keep-your-best-expert-underutilized-for-emergencies",
-          "tier": "atomic",
-          "score": 0.8007999999999998,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 115,
-          "atom_id": "lex-ktpxs",
-          "name": "without-overarching-authority-defensive-preemption-becomes-equilibrium-among-equal-agents",
-          "tier": "atomic",
-          "score": 0.6384,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 116,
-          "atom_id": "lex-eakk4",
-          "name": "a-weak-kings-graduated-response-to-a-stronger-aggressor",
-          "tier": "molecule",
-          "score": 0.7825,
-          "lexical_match": false
-        },
-        {
-          "chunk_index": 116,
-          "atom_id": "lex-8uyrm",
-          "name": "tactical-victory-is-meaningless-against-unlimited-reserves",
-          "tier": "atomic",
-          "score": 0.6054999999999999,
-          "lexical_match": false
         },
         {
           "chunk_index": 117,
           "atom_id": "lex-su2x6",
           "name": "keep-your-best-expert-underutilized-for-emergencies",
           "tier": "atomic",
-          "score": 0.7454999999999999,
+          "score": 0.7265999999999999,
           "lexical_match": true
         },
         {
@@ -3574,23 +3574,23 @@
           "atom_id": "lex-vw8c3",
           "name": "producer-supplies-both-need-and-satisfaction-creating-structural-lock-in",
           "tier": "atomic",
-          "score": 0.5844999999999999,
+          "score": 0.56875,
           "lexical_match": false
         },
         {
           "chunk_index": 118,
-          "atom_id": "lex-2apyb",
-          "name": "political-dissent-survival-requires-economic-alternatives-independent-of-the-political-authority",
-          "tier": "atomic",
-          "score": 1.0191999999999999,
+          "atom_id": "lex-mnxhs",
+          "name": "contradiction-resolution-via-parameter-decomposition",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 118,
-          "atom_id": "lex-sxwn7",
-          "name": "balanced-mutual-checking-race-between-state-and-society-maintains-liberty",
-          "tier": "atomic",
-          "score": 0.8847999999999999,
+          "atom_id": "lex-e9z2y",
+          "name": "causal-inference-method-selection-by-control-and-composition",
+          "tier": "molecule",
+          "score": 1.2,
           "lexical_match": true
         },
         {
@@ -3603,90 +3603,98 @@
         },
         {
           "chunk_index": 119,
-          "atom_id": "lex-4nunt",
-          "name": "market-aggregation-weights-preferences-by-purchasing-power",
+          "atom_id": "lex-ndzbt",
+          "name": "visible-to-power-spending-beats-efficient-spending",
           "tier": "atomic",
-          "score": 0.5319999999999999,
+          "score": 0.5424999999999999,
           "lexical_match": false
         },
         {
           "chunk_index": 120,
-          "atom_id": "lex-pauh2",
-          "name": "market-populism-and-state-populism-are-one-animals-two-flanks",
-          "tier": "atomic",
-          "score": 0.9099999999999999,
+          "atom_id": "lex-9a377",
+          "name": "sens-liberal-paradox-binds-only-those-keeping-both-commitments",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 120,
-          "atom_id": "lex-d73nj",
-          "name": "othering-pairs-subordinate-immanence-with-dominant-transcendence",
-          "tier": "atomic",
-          "score": 0.5319999999999999,
-          "lexical_match": false
-        },
-        {
-          "chunk_index": 121,
-          "atom_id": "lex-6tvr6",
-          "name": "pre-commitment-binds-future-action-against-predictable-erosion",
-          "tier": "atomic",
-          "score": 0.9687999999999999,
+          "atom_id": "lex-fy5qr",
+          "name": "a-population-sets-a-hard-capacity-ceiling-instead-of-competing-or-conquering",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 121,
-          "atom_id": "lex-9kuqg",
-          "name": "critical-juncture-amplifies-pre-existing-institutional-asymmetries-into-divergent-paths",
-          "tier": "atomic",
-          "score": 0.56875,
-          "lexical_match": false
+          "atom_id": "lex-37m5b",
+          "name": "arrows-conditions-are-individually-mild-jointly-impossible",
+          "tier": "molecule",
+          "score": 1.6,
+          "lexical_match": true
         },
         {
-          "chunk_index": 122,
-          "atom_id": "lex-enpjy",
-          "name": "ruling-power-cloaks-itself-in-a-shared-legitimating-formula",
-          "tier": "atomic",
-          "score": 0.8512,
+          "chunk_index": 121,
+          "atom_id": "lex-9a377",
+          "name": "sens-liberal-paradox-binds-only-those-keeping-both-commitments",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 122,
-          "atom_id": "lex-rax8z",
-          "name": "at-critical-junctures-political-agency-selects-among-historically-available-alternatives",
-          "tier": "atomic",
-          "score": 0.7644,
+          "atom_id": "lex-fy5qr",
+          "name": "a-population-sets-a-hard-capacity-ceiling-instead-of-competing-or-conquering",
+          "tier": "molecule",
+          "score": 1.6,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 122,
+          "atom_id": "lex-smd64",
+          "name": "adaptation-to-strain-sorts-by-accepting-or-rejecting-goals-and-means",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 123,
-          "atom_id": "lex-4nhgj",
-          "name": "sacred-status-empowers-a-ruler-and-confines-them-by-the-same-mechanism",
-          "tier": "atomic",
-          "score": 0.8512,
+          "atom_id": "lex-4kgfa",
+          "name": "every-prediction-wrong-in-the-same-direction-reveals-prejudice-not-inference",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 123,
-          "atom_id": "lex-dvb4u",
-          "name": "using-institutional-power-to-the-hilt-breaks-the-system-granting-it",
-          "tier": "atomic",
-          "score": 0.6054999999999999,
-          "lexical_match": false
-        },
-        {
-          "chunk_index": 124,
-          "atom_id": "lex-srj3h",
-          "name": "harm-principle-self-protection-as-sole-warrant-for-coercion",
-          "tier": "atomic",
-          "score": 0.9099999999999999,
+          "atom_id": "lex-dxx5k",
+          "name": "antifragility-as-system-property",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 124,
-          "atom_id": "lex-9k7tt",
-          "name": "treat-every-tradition-as-symbolically-true-and-none-as-final",
+          "atom_id": "lex-4kgfa",
+          "name": "every-prediction-wrong-in-the-same-direction-reveals-prejudice-not-inference",
+          "tier": "molecule",
+          "score": 1.6,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 124,
+          "atom_id": "lex-9a377",
+          "name": "sens-liberal-paradox-binds-only-those-keeping-both-commitments",
+          "tier": "molecule",
+          "score": 1.6,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 125,
+          "atom_id": "lex-72q3j",
+          "name": "the-whole-and-its-parts-mutually-fix-each-others-meaning",
           "tier": "atomic",
-          "score": 0.7644,
+          "score": 0.7671999999999999,
           "lexical_match": true
         },
         {
@@ -3698,27 +3706,19 @@
           "lexical_match": false
         },
         {
-          "chunk_index": 125,
-          "atom_id": "lex-fsvv2",
-          "name": "a-rights-metaphor-forces-its-correlative-duty-as-entailment",
-          "tier": "atomic",
-          "score": 0.6054999999999999,
-          "lexical_match": false
-        },
-        {
           "chunk_index": 126,
           "atom_id": "lex-jsere",
           "name": "small-coalitions-make-private-loyalty-cheaper-than-public-goods",
           "tier": "atomic",
-          "score": 0.9351999999999998,
+          "score": 0.9099999999999999,
           "lexical_match": true
         },
         {
           "chunk_index": 126,
-          "atom_id": "lex-dvb4u",
-          "name": "using-institutional-power-to-the-hilt-breaks-the-system-granting-it",
+          "atom_id": "lex-enpjy",
+          "name": "ruling-power-cloaks-itself-in-a-shared-legitimating-formula",
           "tier": "atomic",
-          "score": 0.826,
+          "score": 0.8007999999999998,
           "lexical_match": true
         },
         {
@@ -3726,15 +3726,15 @@
           "atom_id": "lex-hr3cu",
           "name": "centralized-planning-erodes-rule-of-law-and-concentrates-power",
           "tier": "atomic",
-          "score": 0.9687999999999999,
+          "score": 0.8847999999999999,
           "lexical_match": true
         },
         {
           "chunk_index": 127,
-          "atom_id": "lex-u96jb",
-          "name": "a-founding-shock-outlives-the-argument-against-it",
+          "atom_id": "lex-enpjy",
+          "name": "ruling-power-cloaks-itself-in-a-shared-legitimating-formula",
           "tier": "atomic",
-          "score": 0.6636,
+          "score": 0.8512,
           "lexical_match": true
         },
         {
@@ -3742,7 +3742,7 @@
           "atom_id": "lex-ncqgp",
           "name": "outsiders-see-what-insiders-have-stopped-seeing",
           "tier": "atomic",
-          "score": 0.7581,
+          "score": 0.7265999999999999,
           "lexical_match": true
         },
         {
@@ -3750,88 +3750,88 @@
           "atom_id": "lex-d7h2y",
           "name": "paltering-as-truth-arranged-to-deceive",
           "tier": "atomic",
-          "score": 0.5529999999999999,
+          "score": 0.5319999999999999,
           "lexical_match": false
         },
         {
           "chunk_index": 129,
-          "atom_id": "lex-dp7zh",
-          "name": "the-same-suffrage-argument-applies-without-exception-across-excluded-groups",
+          "atom_id": "lex-h4ufh",
+          "name": "a-role-that-must-defend-a-belief-to-outsiders-forces-its-re-derivation",
           "tier": "atomic",
-          "score": 0.6054999999999999,
-          "lexical_match": false
+          "score": 0.6384,
+          "lexical_match": true
         },
         {
           "chunk_index": 129,
           "atom_id": "lex-2ecyy",
           "name": "a-principle-needs-tradition-to-decide-a-concrete-case",
           "tier": "atomic",
-          "score": 0.54775,
+          "score": 0.6054999999999999,
           "lexical_match": false
         },
         {
           "chunk_index": 130,
-          "atom_id": "lex-ppm3j",
-          "name": "greene-style-power-tactic-substrate-instance",
-          "tier": "molecule",
-          "score": 1.6,
-          "lexical_match": true
+          "atom_id": "lex-qbf3g",
+          "name": "standing-outside-a-conflict-lets-you-extract-value-and-void-its-rules",
+          "tier": "atomic",
+          "score": 0.637,
+          "lexical_match": false
         },
         {
           "chunk_index": 130,
-          "atom_id": "lex-2dege",
-          "name": "conceding-facts-while-redirecting-interest-away-from-them",
+          "atom_id": "lex-76nk7",
+          "name": "first-mover-vulnerability-forecloses-negotiated-surrender",
           "tier": "atomic",
-          "score": 1.1199999999999999,
+          "score": 0.5529999999999999,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 131,
+          "atom_id": "lex-w2nkq",
+          "name": "sometimes-strengthening-your-rival-serves-your-own-interest",
+          "tier": "atomic",
+          "score": 0.9687999999999999,
           "lexical_match": true
         },
         {
           "chunk_index": 131,
-          "atom_id": "lex-mh7jf",
-          "name": "conformity-as-identity-signaling",
-          "tier": "molecule",
-          "score": 1.2,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 131,
-          "atom_id": "lex-rnwph",
-          "name": "walton-style-defeasible-scheme-classification",
-          "tier": "molecule",
-          "score": 1.2,
+          "atom_id": "lex-p7uh9",
+          "name": "harm-attribution-is-reciprocal-between-incompatible-uses",
+          "tier": "atomic",
+          "score": 0.8679999999999998,
           "lexical_match": true
         },
         {
           "chunk_index": 132,
-          "atom_id": "lex-774er",
-          "name": "two-things-sharing-one-name-can-be-moving-in-opposite-directions",
-          "tier": "molecule",
-          "score": 1.6,
+          "atom_id": "lex-ncqgp",
+          "name": "outsiders-see-what-insiders-have-stopped-seeing",
+          "tier": "atomic",
+          "score": 0.6384,
           "lexical_match": true
         },
         {
           "chunk_index": 132,
-          "atom_id": "lex-9a377",
-          "name": "sens-liberal-paradox-binds-only-those-keeping-both-commitments",
-          "tier": "molecule",
-          "score": 1.6,
-          "lexical_match": true
+          "atom_id": "lex-pnh7q",
+          "name": "the-same-defection-is-renegade-to-one-group-convert-to-another",
+          "tier": "atomic",
+          "score": 0.6317499999999999,
+          "lexical_match": false
         },
         {
           "chunk_index": 133,
-          "atom_id": "lex-4kgfa",
-          "name": "every-prediction-wrong-in-the-same-direction-reveals-prejudice-not-inference",
-          "tier": "molecule",
-          "score": 1.6,
-          "lexical_match": true
+          "atom_id": "lex-uh8rk",
+          "name": "violence-can-target-a-legal-proceeding-not-the-victim",
+          "tier": "atomic",
+          "score": 0.6054999999999999,
+          "lexical_match": false
         },
         {
           "chunk_index": 133,
-          "atom_id": "lex-zvbd8",
-          "name": "break-design-fixation-by-imagining-the-ideal-or-its-opposite",
-          "tier": "molecule",
-          "score": 1.2,
-          "lexical_match": true
+          "atom_id": "lex-brvau",
+          "name": "refusing-an-available-acquittal-preserves-the-acts-political-meaning",
+          "tier": "atomic",
+          "score": 0.56875,
+          "lexical_match": false
         },
         {
           "chunk_index": 134,
@@ -3851,19 +3851,19 @@
         },
         {
           "chunk_index": 135,
-          "atom_id": "lex-w3e3z",
-          "name": "forcing-the-end-via-prophecy-fulfilling-action",
-          "tier": "atomic",
-          "score": 0.9687999999999999,
+          "atom_id": "lex-4kgfa",
+          "name": "every-prediction-wrong-in-the-same-direction-reveals-prejudice-not-inference",
+          "tier": "molecule",
+          "score": 1.6,
           "lexical_match": true
         },
         {
           "chunk_index": 135,
-          "atom_id": "lex-nr3kg",
-          "name": "peripeteia-pursuit-mechanism-produces-the-aims-opposite",
-          "tier": "atomic",
-          "score": 0.56875,
-          "lexical_match": false
+          "atom_id": "lex-fy5qr",
+          "name": "a-population-sets-a-hard-capacity-ceiling-instead-of-competing-or-conquering",
+          "tier": "molecule",
+          "score": 1.6,
+          "lexical_match": true
         },
         {
           "chunk_index": 136,
@@ -3979,19 +3979,19 @@
         },
         {
           "chunk_index": 143,
-          "atom_id": "lex-6t73u",
-          "name": "a-cross-trained-hybrid-mistakes-engineered-conflict-for-eternal-nature",
-          "tier": "molecule",
-          "score": 1.6,
-          "lexical_match": true
+          "atom_id": "lex-hkn3v",
+          "name": "escalate-a-vague-conflict-to-its-extreme-form-to-reveal-the-resolution",
+          "tier": "atomic",
+          "score": 0.62125,
+          "lexical_match": false
         },
         {
           "chunk_index": 143,
-          "atom_id": "lex-kebfa",
-          "name": "argument-from-expert-opinion",
-          "tier": "molecule",
-          "score": 1.6,
-          "lexical_match": true
+          "atom_id": "lex-brkcw",
+          "name": "sustained-impasse-exposes-the-conceptual-frame-as-the-obstacle",
+          "tier": "atomic",
+          "score": 0.5529999999999999,
+          "lexical_match": false
         },
         {
           "chunk_index": 144,
@@ -4027,50 +4027,50 @@
         },
         {
           "chunk_index": 146,
-          "atom_id": "lex-xgyv7",
-          "name": "failure-mode-elicitation-by-goal-inversion",
-          "tier": "molecule",
-          "score": 1.2,
+          "atom_id": "lex-e5bxp",
+          "name": "dependents-of-two-estranged-patrons-keep-the-rift-open-without-scheming",
+          "tier": "atomic",
+          "score": 0.826,
           "lexical_match": true
         },
         {
           "chunk_index": 146,
-          "atom_id": "lex-y6pqz",
-          "name": "toy-model-then-perturb",
-          "tier": "molecule",
-          "score": 1.2,
+          "atom_id": "lex-7sa7c",
+          "name": "multiple-reference-groups-can-reinforce-or-cancel-each-other",
+          "tier": "atomic",
+          "score": 0.6825,
           "lexical_match": true
         },
         {
           "chunk_index": 147,
-          "atom_id": "lex-4kgfa",
-          "name": "every-prediction-wrong-in-the-same-direction-reveals-prejudice-not-inference",
-          "tier": "molecule",
-          "score": 1.6,
+          "atom_id": "lex-u376n",
+          "name": "perfect-literal-compliance-can-break-a-system-built-on-discretion",
+          "tier": "atomic",
+          "score": 0.8512,
           "lexical_match": true
         },
         {
           "chunk_index": 147,
-          "atom_id": "lex-ppm3j",
-          "name": "greene-style-power-tactic-substrate-instance",
-          "tier": "molecule",
-          "score": 1.6,
+          "atom_id": "lex-gggsp",
+          "name": "deliberate-statutory-ambiguity-routes-power-to-the-adjudicator",
+          "tier": "atomic",
+          "score": 0.8007999999999998,
           "lexical_match": true
         },
         {
           "chunk_index": 148,
-          "atom_id": "lex-dxx5k",
-          "name": "antifragility-as-system-property",
-          "tier": "molecule",
-          "score": 1.6,
+          "atom_id": "lex-p7953",
+          "name": "a-thefts-truth-depends-on-which-property-order-is-presupposed",
+          "tier": "atomic",
+          "score": 0.9687999999999999,
           "lexical_match": true
         },
         {
           "chunk_index": 148,
-          "atom_id": "lex-smd64",
-          "name": "adaptation-to-strain-sorts-by-accepting-or-rejecting-goals-and-means",
-          "tier": "molecule",
-          "score": 1.6,
+          "atom_id": "lex-hduha",
+          "name": "reject-a-tactic-whose-damage-you-cannot-confine-to-its-target",
+          "tier": "atomic",
+          "score": 0.7644,
           "lexical_match": true
         },
         {
@@ -4235,42 +4235,34 @@
         },
         {
           "chunk_index": 159,
-          "atom_id": "lex-6t73u",
-          "name": "a-cross-trained-hybrid-mistakes-engineered-conflict-for-eternal-nature",
-          "tier": "molecule",
-          "score": 1.6,
+          "atom_id": "lex-h4ufh",
+          "name": "a-role-that-must-defend-a-belief-to-outsiders-forces-its-re-derivation",
+          "tier": "atomic",
+          "score": 1.0191999999999999,
           "lexical_match": true
         },
         {
           "chunk_index": 159,
-          "atom_id": "lex-mrq9p",
-          "name": "indirect-attack-tactics-require-matching-preconditions-first",
-          "tier": "molecule",
-          "score": 1.6,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 160,
-          "atom_id": "lex-9a377",
-          "name": "sens-liberal-paradox-binds-only-those-keeping-both-commitments",
-          "tier": "molecule",
-          "score": 1.6,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 160,
-          "atom_id": "lex-ktvpg",
-          "name": "contradictory-folk-verdicts-can-both-be-right-about-different-bundled-mechanisms",
-          "tier": "molecule",
-          "score": 1.6,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 161,
           "atom_id": "lex-b53wy",
           "name": "concede-character-attacks-but-contest-integrity-bearing-factual-claims",
           "tier": "atomic",
-          "score": 0.9435999999999999,
+          "score": 0.9687999999999999,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 160,
+          "atom_id": "lex-sdc6x",
+          "name": "fortune-arrives-mixed-never-purely-good",
+          "tier": "atomic",
+          "score": 0.7265999999999999,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 160,
+          "atom_id": "lex-7ckyv",
+          "name": "mind-over-circumstance-claim-reframes-total-defeat-as-chosen-sovereignty",
+          "tier": "atomic",
+          "score": 0.6825,
           "lexical_match": true
         },
         {
@@ -4278,7 +4270,15 @@
           "atom_id": "lex-jmm5b",
           "name": "stated-intentions-are-weak-evidence-actions-are-strong-evidence",
           "tier": "atomic",
-          "score": 0.9184,
+          "score": 1.0191999999999999,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 161,
+          "atom_id": "lex-b53wy",
+          "name": "concede-character-attacks-but-contest-integrity-bearing-factual-claims",
+          "tier": "atomic",
+          "score": 0.8763999999999998,
           "lexical_match": true
         },
         {
@@ -4286,7 +4286,7 @@
           "atom_id": "lex-b53wy",
           "name": "concede-character-attacks-but-contest-integrity-bearing-factual-claims",
           "tier": "atomic",
-          "score": 0.637,
+          "score": 0.658,
           "lexical_match": false
         },
         {
@@ -4294,7 +4294,7 @@
           "atom_id": "lex-e9qfp",
           "name": "doing-injustice-is-worse-than-suffering-it",
           "tier": "atomic",
-          "score": 0.5529999999999999,
+          "score": 0.5424999999999999,
           "lexical_match": false
         },
         {
@@ -4421,7 +4421,7 @@
           "char_start": 1361,
           "char_end": 1678,
           "excerpt": "But my intention is very far from being confined to provide only for the children of professed beggars: it is of a much greater extent, and shall take in the wh…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 3,
@@ -4435,7 +4435,7 @@
           "char_start": 2487,
           "char_end": 2851,
           "excerpt": "There is likewise another great advantage in my scheme, that it will prevent those voluntary abortions, and that horrid practice of women murdering their bastar…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 5,
@@ -4449,14 +4449,14 @@
           "char_start": 4397,
           "char_end": 4782,
           "excerpt": "I am assured by our merchants, that a boy or a girl, before twelve years old, is no saleable commodity, and even when they come to this age, they will not yield…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 7,
           "char_start": 4786,
           "char_end": 5206,
           "excerpt": "I shall now therefore humbly propose my own thoughts, which I hope will not be liable to the least objection. I have been assured by a very knowing American of…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 8,
@@ -4470,14 +4470,14 @@
           "char_start": 6205,
           "char_end": 6537,
           "excerpt": "I have reckoned upon a medium, that a child just born will weigh 12 pounds, and in a solar year, if tolerably nursed, encreaseth to 28 pounds. I grant this food…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 10,
           "char_start": 6541,
           "char_end": 7145,
           "excerpt": "Infant’s flesh will be in season throughout the year, but more plentiful in March, and a little before and after; for we are told by a grave author, an eminen…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 11,
@@ -4505,91 +4505,91 @@
           "char_start": 9736,
           "char_end": 10719,
           "excerpt": "But in order to justify my friend, he confessed, that this expedient was put into his head by the famous Psalmanaazor, a native of the island Formosa, who came…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 15,
           "char_start": 10723,
           "char_end": 11544,
           "excerpt": "Some persons of a desponding spirit are in great concern about that vast number of poor people, who are aged, diseased, or maimed; and I have been desired to em…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 16,
           "char_start": 11548,
           "char_end": 12238,
           "excerpt": "I have too long digressed, and therefore shall return to my subject. I think the advantages by the proposal which I have made are obvious and many, as well as o…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 17,
           "char_start": 12242,
           "char_end": 12475,
           "excerpt": "Secondly, The poorer tenants will have something valuable of their own, which by law may be made liable to a distress, and help to pay their landlord’s rent,…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 18,
           "char_start": 12479,
           "char_end": 12973,
           "excerpt": "Thirdly, Whereas the maintainance of a hundred thousand children, from two years old, and upwards, cannot be computed at less than ten shillings a piece per ann…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 19,
           "char_start": 12977,
           "char_end": 13604,
           "excerpt": "Fourthly, The constant breeders, besides the gain of eight shillings sterling per annum by the sale of their children, will be rid of the charge of maintaining…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 20,
           "char_start": 13608,
           "char_end": 14376,
           "excerpt": "Sixthly, This would be a great inducement to marriage, which all wise nations have either encouraged by rewards, or enforced by laws and penalties. It would enc…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 21,
           "char_start": 14380,
           "char_end": 14961,
           "excerpt": "Many other advantages might be enumerated. For instance, the addition of some thousand carcasses in our exportation of barrel’d beef: the propagation of swine…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 22,
           "char_start": 14965,
           "char_end": 15352,
           "excerpt": "Supposing that one thousand families in this city, would be constant customers for infants flesh, besides others who might have it at merry meetings, particular…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 23,
           "char_start": 15356,
           "char_end": 17034,
           "excerpt": "I can think of no one objection, that will possibly be raised against this proposal, unless it should be urged, that the number of people will be thereby much l…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 24,
           "char_start": 17038,
           "char_end": 17858,
           "excerpt": "Therefore I repeat, let no man talk to me of these and the like expedients, till he hath at least some glympse of hope, that there will ever be some hearty and…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 25,
           "char_start": 17862,
           "char_end": 19409,
           "excerpt": "After all, I am not so violently bent upon my own opinion, as to reject any offer, proposed by wise men, which shall be found equally innocent, cheap, easy, and…",
-          "lens_used": false
+          "lens_used": true
         },
         {
           "index": 26,
           "char_start": 19413,
           "char_end": 19848,
           "excerpt": "I profess in the sincerity of my heart, that I have not the least personal interest in endeavouring to promote this necessary work, having no other motive than…",
-          "lens_used": false
+          "lens_used": true
         }
       ],
       "hits": [
@@ -4627,18 +4627,18 @@
         },
         {
           "chunk_index": 2,
-          "atom_id": "lex-jafkg",
-          "name": "cognitive-bias-as-systematic-judgment-distortion-mechanism",
-          "tier": "molecule",
-          "score": 1.2,
+          "atom_id": "lex-q6z64",
+          "name": "distance-and-diffuse-responsibility-do-not-modulate-the-moral-demand",
+          "tier": "atomic",
+          "score": 0.8847999999999999,
           "lexical_match": true
         },
         {
           "chunk_index": 2,
-          "atom_id": "lex-2ehyz",
-          "name": "one-members-disobedience-can-doom-the-whole-trusting-collective",
+          "atom_id": "lex-fyxdh",
+          "name": "public-good-reframing-overrides-private-exclusivity-norm",
           "tier": "atomic",
-          "score": 1.1199999999999999,
+          "score": 0.7265999999999999,
           "lexical_match": true
         },
         {
@@ -4659,19 +4659,19 @@
         },
         {
           "chunk_index": 4,
-          "atom_id": "lex-rnwph",
-          "name": "walton-style-defeasible-scheme-classification",
-          "tier": "molecule",
-          "score": 1.6,
+          "atom_id": "lex-q6z64",
+          "name": "distance-and-diffuse-responsibility-do-not-modulate-the-moral-demand",
+          "tier": "atomic",
+          "score": 0.6636,
           "lexical_match": true
         },
         {
           "chunk_index": 4,
-          "atom_id": "lex-6t73u",
-          "name": "a-cross-trained-hybrid-mistakes-engineered-conflict-for-eternal-nature",
-          "tier": "molecule",
-          "score": 1.2,
-          "lexical_match": true
+          "atom_id": "lex-gcw83",
+          "name": "righteous-stupidity-does-more-harm-than-wickedness",
+          "tier": "atomic",
+          "score": 0.56875,
+          "lexical_match": false
         },
         {
           "chunk_index": 5,
@@ -4691,35 +4691,35 @@
         },
         {
           "chunk_index": 6,
-          "atom_id": "lex-22qtd",
-          "name": "delay-judgment-until-anger-has-been-confirmed-to-pass",
+          "atom_id": "lex-aj3v5",
+          "name": "steady-broad-demand-beats-rare-high-value-with-few-buyers",
           "tier": "atomic",
-          "score": 1.1199999999999999,
+          "score": 0.9351999999999998,
           "lexical_match": true
         },
         {
           "chunk_index": 6,
-          "atom_id": "lex-23ajk",
-          "name": "unresolved-conversion-rates-can-still-yield-a-settled-answer",
+          "atom_id": "lex-a5qyc",
+          "name": "taxation-manufactures-the-market-it-demands-payment-in",
           "tier": "atomic",
-          "score": 1.1199999999999999,
+          "score": 0.7896,
           "lexical_match": true
         },
         {
           "chunk_index": 7,
-          "atom_id": "lex-s2uyr",
-          "name": "oppression-is-five-distinct-structural-forms-not-one-distributive-deficit",
-          "tier": "molecule",
-          "score": 1.2,
+          "atom_id": "lex-8f8jk",
+          "name": "judge-by-consequential-fruits-not-by-organic-genealogical-roots",
+          "tier": "atomic",
+          "score": 0.777,
           "lexical_match": true
         },
         {
           "chunk_index": 7,
-          "atom_id": "lex-22qtd",
-          "name": "delay-judgment-until-anger-has-been-confirmed-to-pass",
+          "atom_id": "lex-j5vdt",
+          "name": "rhetoric-is-flattery-not-a-craft",
           "tier": "atomic",
-          "score": 1.1199999999999999,
-          "lexical_match": true
+          "score": 0.595,
+          "lexical_match": false
         },
         {
           "chunk_index": 8,
@@ -4739,35 +4739,35 @@
         },
         {
           "chunk_index": 9,
-          "atom_id": "lex-xgyv7",
-          "name": "failure-mode-elicitation-by-goal-inversion",
-          "tier": "molecule",
-          "score": 1.2,
-          "lexical_match": true
+          "atom_id": "lex-5y7zb",
+          "name": "stored-value-must-be-defended-which-converts-environment-from-giver-into-threat",
+          "tier": "atomic",
+          "score": 0.658,
+          "lexical_match": false
         },
         {
           "chunk_index": 9,
-          "atom_id": "lex-22hn2",
-          "name": "reform-writers-get-credited-with-starting-a-shift-already-underway",
+          "atom_id": "lex-us5qz",
+          "name": "appointing-a-natural-predator-to-guard-its-natural-prey-institutionalizes-exploitation",
           "tier": "atomic",
-          "score": 1.1199999999999999,
-          "lexical_match": true
+          "score": 0.637,
+          "lexical_match": false
         },
         {
           "chunk_index": 10,
-          "atom_id": "lex-mh7jf",
-          "name": "conformity-as-identity-signaling",
-          "tier": "molecule",
-          "score": 1.2,
-          "lexical_match": true
+          "atom_id": "lex-sdc6x",
+          "name": "fortune-arrives-mixed-never-purely-good",
+          "tier": "atomic",
+          "score": 0.637,
+          "lexical_match": false
         },
         {
           "chunk_index": 10,
-          "atom_id": "lex-255sa",
-          "name": "open-confrontation-is-licensed-only-by-already-holding-every-advantage",
+          "atom_id": "lex-tgqrf",
+          "name": "outcomes-cluster-heavily-in-a-vital-few-causes",
           "tier": "atomic",
-          "score": 1.1199999999999999,
-          "lexical_match": true
+          "score": 0.5529999999999999,
+          "lexical_match": false
         },
         {
           "chunk_index": 11,
@@ -4819,210 +4819,923 @@
         },
         {
           "chunk_index": 14,
-          "atom_id": "lex-4kgfa",
-          "name": "every-prediction-wrong-in-the-same-direction-reveals-prejudice-not-inference",
-          "tier": "molecule",
-          "score": 1.6,
+          "atom_id": "lex-5xdpb",
+          "name": "moral-language-can-launder-private-cruelty-into-public-justice",
+          "tier": "atomic",
+          "score": 0.7644,
           "lexical_match": true
         },
         {
           "chunk_index": 14,
-          "atom_id": "lex-s2uyr",
-          "name": "oppression-is-five-distinct-structural-forms-not-one-distributive-deficit",
-          "tier": "molecule",
-          "score": 1.2,
+          "atom_id": "lex-3vp2t",
+          "name": "bait-disguised-as-a-gift-earns-a-voluntary-trade",
+          "tier": "atomic",
+          "score": 0.5319999999999999,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 15,
+          "atom_id": "lex-j82ew",
+          "name": "democracies-fix-visible-crises-tolerate-invisible-suffering",
+          "tier": "atomic",
+          "score": 0.7013999999999999,
           "lexical_match": true
         },
         {
           "chunk_index": 15,
-          "atom_id": "lex-4kgfa",
-          "name": "every-prediction-wrong-in-the-same-direction-reveals-prejudice-not-inference",
-          "tier": "molecule",
-          "score": 1.2,
+          "atom_id": "lex-ayqj9",
+          "name": "not-immediately-lethal-gets-mistaken-for-safe",
+          "tier": "atomic",
+          "score": 0.637,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 16,
+          "atom_id": "lex-8qhr6",
+          "name": "an-organizations-stated-mission-can-need-its-own-problem-to-persist",
+          "tier": "atomic",
+          "score": 1.1280000000000001,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 16,
+          "atom_id": "lex-w385h",
+          "name": "a-groups-only-observable-signal-of-belief-change-is-the-position-itself",
+          "tier": "atomic",
+          "score": 0.948,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 17,
+          "atom_id": "lex-ewjec",
+          "name": "removing-non-market-exits-makes-market-dependence-structural",
+          "tier": "atomic",
+          "score": 0.62125,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 17,
+          "atom_id": "lex-vpsuq",
+          "name": "dependence-on-the-punished-party-ceilings-how-far-punishment-can-go",
+          "tier": "atomic",
+          "score": 0.5844999999999999,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 18,
+          "atom_id": "lex-kwch3",
+          "name": "impersonal-war-markets-manufacture-self-interest-as-real-motive",
+          "tier": "atomic",
+          "score": 0.8512,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 18,
+          "atom_id": "lex-a5qyc",
+          "name": "taxation-manufactures-the-market-it-demands-payment-in",
+          "tier": "atomic",
+          "score": 0.6509999999999999,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 19,
+          "atom_id": "lex-5kjya",
+          "name": "costly-conspicuous-waste-as-status-signal",
+          "tier": "atomic",
+          "score": 0.658,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 19,
+          "atom_id": "lex-jey4w",
+          "name": "cost-denominated-in-life-hours-not-money-reveals-true-price",
+          "tier": "atomic",
+          "score": 0.6384,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 20,
+          "atom_id": "lex-fyxdh",
+          "name": "public-good-reframing-overrides-private-exclusivity-norm",
+          "tier": "atomic",
+          "score": 0.7265999999999999,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 20,
+          "atom_id": "lex-sdc6x",
+          "name": "fortune-arrives-mixed-never-purely-good",
+          "tier": "atomic",
+          "score": 0.5424999999999999,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 21,
+          "atom_id": "lex-2gtzb",
+          "name": "humor-arises-from-violations-perceived-as-simultaneously-benign",
+          "tier": "atomic",
+          "score": 0.658,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 21,
+          "atom_id": "lex-d73nj",
+          "name": "othering-pairs-subordinate-immanence-with-dominant-transcendence",
+          "tier": "atomic",
+          "score": 0.5529999999999999,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 22,
+          "atom_id": "lex-9pnxs",
+          "name": "killing-severed-from-need-and-then-from-commodity-value-signals-collective-insanity",
+          "tier": "atomic",
+          "score": 0.637,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 22,
+          "atom_id": "lex-fjffq",
+          "name": "insatiable-consumption-self-amplifies-the-appetite-it-feeds",
+          "tier": "atomic",
+          "score": 0.56875,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 23,
+          "atom_id": "lex-ncqgp",
+          "name": "outsiders-see-what-insiders-have-stopped-seeing",
+          "tier": "atomic",
+          "score": 1.038,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 23,
+          "atom_id": "lex-dpc3u",
+          "name": "a-problems-vocabulary-sets-the-boundary-of-imaginable-solutions",
+          "tier": "atomic",
+          "score": 0.91,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 24,
+          "atom_id": "lex-brd74",
+          "name": "piecemeal-reform-targets-concrete-evils-not-utopian-blueprints",
+          "tier": "atomic",
+          "score": 0.6384,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 24,
+          "atom_id": "lex-un9yh",
+          "name": "an-unmeetable-standard-meant-as-deflection-backfires-when-reality-meets-it",
+          "tier": "atomic",
+          "score": 0.6054999999999999,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 25,
+          "atom_id": "lex-brd74",
+          "name": "piecemeal-reform-targets-concrete-evils-not-utopian-blueprints",
+          "tier": "atomic",
+          "score": 0.7454999999999999,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 25,
+          "atom_id": "lex-dpc3u",
+          "name": "a-problems-vocabulary-sets-the-boundary-of-imaginable-solutions",
+          "tier": "atomic",
+          "score": 0.658,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 26,
+          "atom_id": "lex-y7xk7",
+          "name": "accepting-payment-while-disclaiming-it-as-the-actual-motive",
+          "tier": "atomic",
+          "score": 1.0191999999999999,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 26,
+          "atom_id": "lex-kwch3",
+          "name": "impersonal-war-markets-manufacture-self-interest-as-real-motive",
+          "tier": "atomic",
+          "score": 0.9687999999999999,
+          "lexical_match": true
+        }
+      ]
+    },
+    {
+      "id": "gettysburg-address",
+      "title": "The Gettysburg Address",
+      "author": "Abraham Lincoln",
+      "year": 1863,
+      "source_url": "https://avalon.law.yale.edu/19th_century/gettyb.asp",
+      "chunking_note": "The Bliss text is one continuous paragraph in the source. Split here by sentence — these breaks are ours, not Lincoln's, so the trace below has more than one step to walk.",
+      "chunks": [
+        {
+          "index": 0,
+          "char_start": 0,
+          "char_end": 173,
+          "excerpt": "Fourscore and seven years ago our fathers brought forth on this continent a new nation, conceived in liberty and dedicated to the proposition that all men are c…",
+          "lens_used": true
+        },
+        {
+          "index": 1,
+          "char_start": 175,
+          "char_end": 304,
+          "excerpt": "Now we are engaged in a great civil war, testing whether that nation or any nation so conceived and so dedicated can long endure.",
+          "lens_used": true
+        },
+        {
+          "index": 2,
+          "char_start": 306,
+          "char_end": 352,
+          "excerpt": "We are met on a great battlefield of that war.",
+          "lens_used": false
+        },
+        {
+          "index": 3,
+          "char_start": 354,
+          "char_end": 492,
+          "excerpt": "We have come to dedicate a portion of that field as a final resting-place for those who here gave their lives that that nation might live.",
+          "lens_used": true
+        },
+        {
+          "index": 4,
+          "char_start": 494,
+          "char_end": 553,
+          "excerpt": "It is altogether fitting and proper that we should do this.",
+          "lens_used": false
+        },
+        {
+          "index": 5,
+          "char_start": 555,
+          "char_end": 649,
+          "excerpt": "But in a larger sense, we cannot dedicate, we cannot consecrate, we cannot hallow this ground.",
+          "lens_used": true
+        },
+        {
+          "index": 6,
+          "char_start": 651,
+          "char_end": 764,
+          "excerpt": "The brave men, living and dead who struggled here have consecrated it far above our poor power to add or detract.",
+          "lens_used": true
+        },
+        {
+          "index": 7,
+          "char_start": 766,
+          "char_end": 872,
+          "excerpt": "The world will little note nor long remember what we say here, but it can never forget what they did here.",
+          "lens_used": true
+        },
+        {
+          "index": 8,
+          "char_start": 874,
+          "char_end": 1008,
+          "excerpt": "It is for us the living rather to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced.",
+          "lens_used": true
+        },
+        {
+          "index": 9,
+          "char_start": 1010,
+          "char_end": 1447,
+          "excerpt": "It is rather for us to be here dedicated to the great task remaining before us--that from these honored dead we take increased devotion to that cause for which…",
+          "lens_used": true
+        }
+      ],
+      "hits": [
+        {
+          "chunk_index": 0,
+          "atom_id": "lex-sxwn7",
+          "name": "balanced-mutual-checking-race-between-state-and-society-maintains-liberty",
+          "tier": "atomic",
+          "score": 0.8512,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 0,
+          "atom_id": "lex-2jbmr",
+          "name": "the-critique-was-about-freedom-first-equality-came-later",
+          "tier": "atomic",
+          "score": 0.62125,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 1,
+          "atom_id": "lex-cahck",
+          "name": "framing-a-rival-as-an-existential-threat-licenses-any-countermeasure",
+          "tier": "atomic",
+          "score": 0.6054999999999999,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 1,
+          "atom_id": "lex-d56d4",
+          "name": "interstate-military-pressure-on-states-as-causal-substrate-for-revolution",
+          "tier": "atomic",
+          "score": 0.54775,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 2,
+          "atom_id": "lex-8sbet",
+          "name": "wishing-a-great-responsibility-had-gone-to-someone-more-worthy",
+          "tier": "atomic",
+          "score": 1.1199999999999999,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 2,
+          "atom_id": "lex-che7k",
+          "name": "a-small-past-gift-is-cited-to-argue-a-present-great-gift-must-also-pay-off",
+          "tier": "atomic",
+          "score": 1.1199999999999999,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 3,
+          "atom_id": "lex-75vrt",
+          "name": "memento-mori-as-action-frame",
+          "tier": "atomic",
+          "score": 0.637,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 3,
+          "atom_id": "lex-nutzk",
+          "name": "the-body-returning-to-earth-is-inconsequential-because-the-spirit-persists-elsewhere",
+          "tier": "atomic",
+          "score": 0.5529999999999999,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 4,
+          "atom_id": "lex-ewfbt",
+          "name": "withhold-known-expertise-until-the-proper-authority-asks",
+          "tier": "atomic",
+          "score": 1.1199999999999999,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 4,
+          "atom_id": "lex-hk2cz",
+          "name": "force-fitting-a-working-analogy-onto-cases-it-was-never-built-for",
+          "tier": "atomic",
+          "score": 1.1199999999999999,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 5,
+          "atom_id": "lex-ke8xx",
+          "name": "purification-cannot-be-delegated-though-guidance-can",
+          "tier": "atomic",
+          "score": 0.9687999999999999,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 5,
+          "atom_id": "lex-pxzz8",
+          "name": "refusing-an-imposed-hierarchy-by-claiming-direct-unmediated-access-to-ultimate-authority",
+          "tier": "atomic",
+          "score": 0.5319999999999999,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 6,
+          "atom_id": "lex-sxsn7",
+          "name": "resisting-domination-reconstitutes-dignity-independent-of-victory",
+          "tier": "atomic",
+          "score": 0.6005999999999999,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 6,
+          "atom_id": "lex-7ckyv",
+          "name": "mind-over-circumstance-claim-reframes-total-defeat-as-chosen-sovereignty",
+          "tier": "atomic",
+          "score": 0.5529999999999999,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 7,
+          "atom_id": "lex-bcese",
+          "name": "fame-is-deflated-by-compounding-scale-across-space-and-time",
+          "tier": "atomic",
+          "score": 0.7265999999999999,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 7,
+          "atom_id": "lex-hqfbk",
+          "name": "traumatic-memory-persists-externally-in-place-not-in-mind",
+          "tier": "atomic",
+          "score": 0.6195,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 8,
+          "atom_id": "lex-pwe2e",
+          "name": "true-respect-for-predecessors-means-surpassing-not-preserving-them",
+          "tier": "atomic",
+          "score": 0.637,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 8,
+          "atom_id": "lex-x24yt",
+          "name": "a-vision-defers-the-personal-wish-and-assigns-communal-duty",
+          "tier": "atomic",
+          "score": 0.5529999999999999,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 9,
+          "atom_id": "lex-n7bkq",
+          "name": "reframing-a-dreaded-act-as-the-fulfillment-of-a-long-held-vow",
+          "tier": "atomic",
+          "score": 0.637,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 9,
+          "atom_id": "lex-ut2hj",
+          "name": "willing-sacrifice-in-turn-sustains-a-reciprocal-system",
+          "tier": "atomic",
+          "score": 0.6054999999999999,
+          "lexical_match": false
+        }
+      ]
+    },
+    {
+      "id": "cross-of-gold",
+      "title": "Cross of Gold Speech",
+      "author": "William Jennings Bryan",
+      "year": 1896,
+      "source_url": "https://en.wikisource.org/wiki/Cross_of_Gold_Speech",
+      "chunks": [
+        {
+          "index": 0,
+          "char_start": 0,
+          "char_end": 472,
+          "excerpt": "Mr. Chairman and Gentlemen of the Convention: I would be presumptuous, indeed, to present myself against the distinguished gentlemen to whom you have listened i…",
+          "lens_used": true
+        },
+        {
+          "index": 1,
+          "char_start": 474,
+          "char_end": 882,
+          "excerpt": "When this debate is concluded, a motion will be made to lay upon the table the resolution offered in commendation of the administration, and also the resolution…",
+          "lens_used": true
+        },
+        {
+          "index": 2,
+          "char_start": 884,
+          "char_end": 2753,
+          "excerpt": "Never before in the history of this country has there been witnessed such a contest as that through which we have just passed. Never before in the history of Am…",
+          "lens_used": true
+        },
+        {
+          "index": 3,
+          "char_start": 2755,
+          "char_end": 3240,
+          "excerpt": "We do not come as individuals. As individuals we might have been glad to compliment the gentleman from New York [Senator Hill], but we know that the people for…",
+          "lens_used": true
+        },
+        {
+          "index": 4,
+          "char_start": 3242,
+          "char_end": 3792,
+          "excerpt": "The gentleman who preceded me [ex-Governor Russell] spoke of the state of Massachusetts; let me assure him that not one present in all this convention entertain…",
+          "lens_used": true
+        },
+        {
+          "index": 5,
+          "char_start": 3794,
+          "char_end": 4847,
+          "excerpt": "We say to you that you have made the definition of a business man too limited in its application. The man who is employed for wages is as much a business man as…",
+          "lens_used": true
+        },
+        {
+          "index": 6,
+          "char_start": 4849,
+          "char_end": 5922,
+          "excerpt": "Ah, my friends, we say not one word against those who live upon the Atlantic coast, but the hardy pioneers who have braved all the dangers of the wilderness, wh…",
+          "lens_used": true
+        },
+        {
+          "index": 7,
+          "char_start": 5924,
+          "char_end": 6206,
+          "excerpt": "The gentleman from Wisconsin has said that he fears a Robespierre. My friends, in this land of the free you need not fear that a tyrant will spring up from amon…",
+          "lens_used": true
+        },
+        {
+          "index": 8,
+          "char_start": 6208,
+          "char_end": 7581,
+          "excerpt": "They tell us that this platform was made to catch votes. We reply to them that changing conditions make new issues; that the principles upon which Democracy res…",
+          "lens_used": true
+        },
+        {
+          "index": 9,
+          "char_start": 7583,
+          "char_end": 8851,
+          "excerpt": "They say that we are opposing national bank currency; it is true. If you will read what Thomas Benton said, you will find he said that, in searching history, he…",
+          "lens_used": true
+        },
+        {
+          "index": 10,
+          "char_start": 8853,
+          "char_end": 9172,
+          "excerpt": "They complain about the plank which declares against life tenure in office. They have tried to strain it to mean that which it does not mean. What we oppose by…",
+          "lens_used": true
+        },
+        {
+          "index": 11,
+          "char_start": 9174,
+          "char_end": 9880,
+          "excerpt": "Let me call your attention to two or three important things. The gentleman from New York says that he will propose an amendment to the platform providing that t…",
+          "lens_used": true
+        },
+        {
+          "index": 12,
+          "char_start": 9882,
+          "char_end": 10732,
+          "excerpt": "He says he will also propose an amendment which will provide for the suspension of free coinage if we fail to maintain the parity within a year. We reply that w…",
+          "lens_used": true
+        },
+        {
+          "index": 13,
+          "char_start": 10734,
+          "char_end": 11274,
+          "excerpt": "And now, my friends, let me come to the paramount issue. If they ask us why it is that we say more on the money question than we say upon the tariff question, I…",
+          "lens_used": true
+        },
+        {
+          "index": 14,
+          "char_start": 11276,
+          "char_end": 12459,
+          "excerpt": "Why is it that within three months such a change has come over the country? Three months ago, when it was confidently asserted that those who believe in the gol…",
+          "lens_used": true
+        },
+        {
+          "index": 15,
+          "char_start": 12461,
+          "char_end": 12957,
+          "excerpt": "Why this change? Ah, my friends, is not the reason for the change evident to any one who will look at the matter? No private character, however pure, no persona…",
+          "lens_used": true
+        },
+        {
+          "index": 16,
+          "char_start": 12959,
+          "char_end": 15008,
+          "excerpt": "We go forth confident that we shall win. Why? Because upon the paramount issue of this campaign there is not a spot of ground upon which the enemy will dare to…",
+          "lens_used": true
+        },
+        {
+          "index": 17,
+          "char_start": 15010,
+          "char_end": 16022,
+          "excerpt": "Mr. Carlisle said in 1878 that this was a struggle between \"the idle holders of idle capital\" and \"the struggling masses, who produce the wealth and pay the tax…",
+          "lens_used": true
+        },
+        {
+          "index": 18,
+          "char_start": 16024,
+          "char_end": 16367,
+          "excerpt": "You come to us and tell us that the great cities are in favor of the gold standard; we reply that the great cities rest upon our broad and fertile prairies. Bur…",
+          "lens_used": true
+        },
+        {
+          "index": 19,
+          "char_start": 16369,
+          "char_end": 18008,
+          "excerpt": "My friends, we declare that this nation is able to legislate for its own people on every question, without waiting for the aid or consent of any other nation on…",
+          "lens_used": true
+        }
+      ],
+      "hits": [
+        {
+          "chunk_index": 0,
+          "atom_id": "lex-pbdbb",
+          "name": "doctrine-of-the-mean-as-virtue-between-vices",
+          "tier": "atomic",
+          "score": 0.8847999999999999,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 0,
+          "atom_id": "lex-e3sk5",
+          "name": "bearing-unjust-suffering-publicly-as-coercive-instrument",
+          "tier": "atomic",
+          "score": 0.6054999999999999,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 1,
+          "atom_id": "lex-j9fzs",
+          "name": "winning-the-audience-with-a-general-principle-before-settling-the-personal-grievance",
+          "tier": "atomic",
+          "score": 1.0191999999999999,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 1,
+          "atom_id": "lex-dfgda",
+          "name": "individual-rights-trump-collective-goal-justifications",
+          "tier": "atomic",
+          "score": 0.8512,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 2,
+          "atom_id": "lex-gt9kt",
+          "name": "alliances-meant-to-control-an-outsider-often-empower-them-instead",
+          "tier": "atomic",
+          "score": 0.8007999999999998,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 2,
+          "atom_id": "lex-vkx3b",
+          "name": "factional-heirs-mistake-a-torn-fragment-for-the-whole-legacy",
+          "tier": "atomic",
+          "score": 0.7265999999999999,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 3,
+          "atom_id": "lex-m33nq",
+          "name": "justifiability-to-others-is-basic-not-derivative-of-independent-wrongness",
+          "tier": "atomic",
+          "score": 0.6825,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 3,
+          "atom_id": "lex-4kfah",
+          "name": "a-social-group-is-relational-identity-not-an-arbitrary-aggregate",
+          "tier": "atomic",
+          "score": 0.637,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 4,
+          "atom_id": "lex-j9fzs",
+          "name": "winning-the-audience-with-a-general-principle-before-settling-the-personal-grievance",
+          "tier": "atomic",
+          "score": 0.6054999999999999,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 4,
+          "atom_id": "lex-zrhqq",
+          "name": "frame-request-in-target-self-interest-currency",
+          "tier": "atomic",
+          "score": 0.6005999999999999,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 5,
+          "atom_id": "lex-bepdt",
+          "name": "a-species-wide-capacity-gets-misfiled-as-one-groups-property",
+          "tier": "atomic",
+          "score": 0.7644,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 5,
+          "atom_id": "lex-xyhw5",
+          "name": "a-goods-name-is-earned-by-reliably-producing-its-effect",
+          "tier": "atomic",
+          "score": 0.6573,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 6,
+          "atom_id": "lex-cahck",
+          "name": "framing-a-rival-as-an-existential-threat-licenses-any-countermeasure",
+          "tier": "atomic",
+          "score": 0.6054999999999999,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 6,
+          "atom_id": "lex-xjsgd",
+          "name": "a-coercive-election-threat-hardens-resistance-and-backfires",
+          "tier": "atomic",
+          "score": 0.56875,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 7,
+          "atom_id": "lex-xdkjk",
+          "name": "freedom-survives-inequality-only-if-wealth-cant-buy-command",
+          "tier": "atomic",
+          "score": 0.9099999999999999,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 7,
+          "atom_id": "lex-jwdqg",
+          "name": "even-tyranny-must-claim-a-morality-to-recruit-followers",
+          "tier": "atomic",
+          "score": 0.6054999999999999,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 8,
+          "atom_id": "lex-m33nq",
+          "name": "justifiability-to-others-is-basic-not-derivative-of-independent-wrongness",
+          "tier": "atomic",
+          "score": 0.6636,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 8,
+          "atom_id": "lex-2ecyy",
+          "name": "a-principle-needs-tradition-to-decide-a-concrete-case",
+          "tier": "atomic",
+          "score": 0.6384,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 9,
+          "atom_id": "lex-wkcck",
+          "name": "sign-value-is-differential-relational-not-positive-substantive",
+          "tier": "atomic",
+          "score": 0.6825,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 9,
+          "atom_id": "lex-a5qyc",
+          "name": "taxation-manufactures-the-market-it-demands-payment-in",
+          "tier": "atomic",
+          "score": 0.6384,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 10,
+          "atom_id": "lex-hca96",
+          "name": "resisting-a-symbolic-concession-tracks-its-threat-to-moral-license",
+          "tier": "atomic",
+          "score": 0.6054999999999999,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 10,
+          "atom_id": "lex-a5pdv",
+          "name": "a-floor-already-at-bottom-prefers-upheaval-over-stability",
+          "tier": "atomic",
+          "score": 0.56875,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 11,
+          "atom_id": "lex-2s3ze",
+          "name": "equivocation-shifts-a-words-sense-across-an-argument",
+          "tier": "atomic",
+          "score": 0.6054999999999999,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 11,
+          "atom_id": "lex-qbbav",
+          "name": "debt-is-suspended-equality-not-yet-restored",
+          "tier": "atomic",
+          "score": 0.5844999999999999,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 12,
+          "atom_id": "lex-w2ndc",
+          "name": "testing-a-claimed-universal-rule-by-asking-why-its-author-is-exempt",
+          "tier": "atomic",
+          "score": 0.658,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 12,
+          "atom_id": "lex-rq3jn",
+          "name": "a-coercive-ultimatum-is-answered-by-an-act-not-a-proposition",
+          "tier": "atomic",
+          "score": 0.5844999999999999,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 13,
+          "atom_id": "lex-n9du6",
+          "name": "repeated-defeat-reclassifies-an-idea-from-impossible-to-necessary",
+          "tier": "atomic",
+          "score": 0.9687999999999999,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 13,
+          "atom_id": "lex-dpc3u",
+          "name": "a-problems-vocabulary-sets-the-boundary-of-imaginable-solutions",
+          "tier": "atomic",
+          "score": 0.56875,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 14,
+          "atom_id": "lex-w385h",
+          "name": "a-groups-only-observable-signal-of-belief-change-is-the-position-itself",
+          "tier": "atomic",
+          "score": 0.9351999999999998,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 14,
+          "atom_id": "lex-847hs",
+          "name": "relative-status-decline-produces-paranoid-exclusionary-politics",
+          "tier": "atomic",
+          "score": 0.6573,
           "lexical_match": true
         },
         {
           "chunk_index": 15,
-          "atom_id": "lex-fy5qr",
-          "name": "a-population-sets-a-hard-capacity-ceiling-instead-of-competing-or-conquering",
-          "tier": "molecule",
-          "score": 1.2,
+          "atom_id": "lex-w385h",
+          "name": "a-groups-only-observable-signal-of-belief-change-is-the-position-itself",
+          "tier": "atomic",
+          "score": 1.0191999999999999,
+          "lexical_match": true
+        },
+        {
+          "chunk_index": 15,
+          "atom_id": "lex-2e9us",
+          "name": "personal-sovereignty-attenuates-with-distance-from-the-rulers-body",
+          "tier": "atomic",
+          "score": 0.8512,
           "lexical_match": true
         },
         {
           "chunk_index": 16,
-          "atom_id": "lex-22hn2",
-          "name": "reform-writers-get-credited-with-starting-a-shift-already-underway",
+          "atom_id": "lex-25aey",
+          "name": "condemning-a-violation-reaffirms-the-violated-norm",
           "tier": "atomic",
-          "score": 1.6,
+          "score": 0.7644,
           "lexical_match": true
         },
         {
           "chunk_index": 16,
-          "atom_id": "lex-23jdq",
-          "name": "brute-effort-against-a-self-replenishing-resource-is-unbounded",
+          "atom_id": "lex-w385h",
+          "name": "a-groups-only-observable-signal-of-belief-change-is-the-position-itself",
           "tier": "atomic",
-          "score": 1.6,
+          "score": 0.7265999999999999,
           "lexical_match": true
         },
         {
           "chunk_index": 17,
-          "atom_id": "lex-xgyv7",
-          "name": "failure-mode-elicitation-by-goal-inversion",
-          "tier": "molecule",
-          "score": 1.2,
+          "atom_id": "lex-8mpe8",
+          "name": "wealth-pump-arrangements-simultaneously-impoverish-workers-and-overproduce-elites",
+          "tier": "atomic",
+          "score": 0.9099999999999999,
           "lexical_match": true
         },
         {
           "chunk_index": 17,
-          "atom_id": "lex-22hn2",
-          "name": "reform-writers-get-credited-with-starting-a-shift-already-underway",
+          "atom_id": "lex-jsere",
+          "name": "small-coalitions-make-private-loyalty-cheaper-than-public-goods",
           "tier": "atomic",
-          "score": 1.1199999999999999,
-          "lexical_match": true
+          "score": 0.6054999999999999,
+          "lexical_match": false
         },
         {
           "chunk_index": 18,
-          "atom_id": "lex-w5qfe",
-          "name": "iterative-refinement-of-a-provisional-target-against-feedback",
-          "tier": "molecule",
-          "score": 1.6,
-          "lexical_match": true
+          "atom_id": "lex-npyes",
+          "name": "active-reciprocal-engagement-with-a-renewable-resource-sustains-it-disuse-degrades-it",
+          "tier": "atomic",
+          "score": 0.6054999999999999,
+          "lexical_match": false
         },
         {
           "chunk_index": 18,
-          "atom_id": "lex-2aded",
-          "name": "efficiency-gains-get-reinvested-as-growth-not-shrinkage",
+          "atom_id": "lex-fcuqe",
+          "name": "which-virtues-exist-tracks-economic-conditions-not-timeless-morality",
           "tier": "atomic",
-          "score": 1.1199999999999999,
+          "score": 0.56875,
+          "lexical_match": false
+        },
+        {
+          "chunk_index": 19,
+          "atom_id": "lex-dp7zh",
+          "name": "the-same-suffrage-argument-applies-without-exception-across-excluded-groups",
+          "tier": "atomic",
+          "score": 0.9687999999999999,
           "lexical_match": true
         },
         {
           "chunk_index": 19,
-          "atom_id": "lex-dxx5k",
-          "name": "antifragility-as-system-property",
-          "tier": "molecule",
-          "score": 1.2,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 19,
-          "atom_id": "lex-2bhh9",
-          "name": "a-relationship-itself-stores-and-retrieves-shared-knowledge",
+          "atom_id": "lex-25aey",
+          "name": "condemning-a-violation-reaffirms-the-violated-norm",
           "tier": "atomic",
-          "score": 1.1199999999999999,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 20,
-          "atom_id": "lex-fy5qr",
-          "name": "a-population-sets-a-hard-capacity-ceiling-instead-of-competing-or-conquering",
-          "tier": "molecule",
-          "score": 1.6,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 20,
-          "atom_id": "lex-6t73u",
-          "name": "a-cross-trained-hybrid-mistakes-engineered-conflict-for-eternal-nature",
-          "tier": "molecule",
-          "score": 1.2,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 21,
-          "atom_id": "lex-ppm3j",
-          "name": "greene-style-power-tactic-substrate-instance",
-          "tier": "molecule",
-          "score": 1.6,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 21,
-          "atom_id": "lex-jafkg",
-          "name": "cognitive-bias-as-systematic-judgment-distortion-mechanism",
-          "tier": "molecule",
-          "score": 1.2,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 22,
-          "atom_id": "lex-5gg2c",
-          "name": "escaping-margin-race-by-decoupling-fixed-cost-onto-consenting-payer",
-          "tier": "molecule",
-          "score": 1.2,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 22,
-          "atom_id": "lex-2jsgs",
-          "name": "one-witness-sees-nothing-while-the-rest-see-a-marvel",
-          "tier": "atomic",
-          "score": 1.1199999999999999,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 23,
-          "atom_id": "lex-23jdq",
-          "name": "brute-effort-against-a-self-replenishing-resource-is-unbounded",
-          "tier": "atomic",
-          "score": 1.6,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 23,
-          "atom_id": "lex-2aded",
-          "name": "efficiency-gains-get-reinvested-as-growth-not-shrinkage",
-          "tier": "atomic",
-          "score": 1.6,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 24,
-          "atom_id": "lex-774er",
-          "name": "two-things-sharing-one-name-can-be-moving-in-opposite-directions",
-          "tier": "molecule",
-          "score": 1.6,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 24,
-          "atom_id": "lex-ppm3j",
-          "name": "greene-style-power-tactic-substrate-instance",
-          "tier": "molecule",
-          "score": 1.6,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 25,
-          "atom_id": "lex-kebfa",
-          "name": "argument-from-expert-opinion",
-          "tier": "molecule",
-          "score": 1.6,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 25,
-          "atom_id": "lex-mnxhs",
-          "name": "contradiction-resolution-via-parameter-decomposition",
-          "tier": "molecule",
-          "score": 1.6,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 26,
-          "atom_id": "lex-2at2v",
-          "name": "misattributing-a-personal-timing-failure-to-anothers-character",
-          "tier": "atomic",
-          "score": 1.1199999999999999,
-          "lexical_match": true
-        },
-        {
-          "chunk_index": 26,
-          "atom_id": "lex-2cjtz",
-          "name": "physically-independent-channels-confirm-single-event",
-          "tier": "atomic",
-          "score": 1.1199999999999999,
+          "score": 0.6825,
           "lexical_match": true
         }
       ]

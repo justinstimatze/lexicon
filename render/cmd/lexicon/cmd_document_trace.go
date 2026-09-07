@@ -29,6 +29,20 @@ type docManifestEntry struct {
 	Year      int    `json:"year"`
 	SourceURL string `json:"source_url,omitempty"`
 	TextFile  string `json:"text_file"`
+	// MinWords overrides the global -min-words flag for this document only.
+	// nil means "use the flag's value" -- most documents don't need this;
+	// it exists for a source whose natural paragraphing doesn't suit the
+	// default floor (e.g. a single continuous paragraph split into
+	// sentences instead, which need a near-zero floor to survive as
+	// separate chunks).
+	MinWords *int `json:"min_words,omitempty"`
+	// ChunkingNote, when set, discloses that this document's chunk
+	// boundaries were imposed by this tool rather than being the source's
+	// own paragraphing -- e.g. a speech transcribed as one continuous
+	// paragraph, split here by sentence so the trace has more than one
+	// step. Surfaced in the frontend so a reader isn't misled into
+	// thinking the author wrote it with these breaks.
+	ChunkingNote string `json:"chunking_note,omitempty"`
 }
 
 type docManifest struct {
@@ -53,13 +67,14 @@ type docTraceHit struct {
 }
 
 type docTraceDoc struct {
-	ID        string          `json:"id"`
-	Title     string          `json:"title"`
-	Author    string          `json:"author"`
-	Year      int             `json:"year"`
-	SourceURL string          `json:"source_url,omitempty"`
-	Chunks    []docTraceChunk `json:"chunks"`
-	Hits      []docTraceHit   `json:"hits"`
+	ID           string          `json:"id"`
+	Title        string          `json:"title"`
+	Author       string          `json:"author"`
+	Year         int             `json:"year"`
+	SourceURL    string          `json:"source_url,omitempty"`
+	ChunkingNote string          `json:"chunking_note,omitempty"`
+	Chunks       []docTraceChunk `json:"chunks"`
+	Hits         []docTraceHit   `json:"hits"`
 }
 
 type docTraceOutput struct {
@@ -177,7 +192,11 @@ func cmdDocumentTrace(renderDir string, args []string) {
 			fatal("document-trace: %s is empty", textPath)
 		}
 
-		spans := splitParagraphs(text, *minWords)
+		effectiveMinWords := *minWords
+		if m.MinWords != nil {
+			effectiveMinWords = *m.MinWords
+		}
+		spans := splitParagraphs(text, effectiveMinWords)
 		chunks := make([]docTraceChunk, 0, len(spans))
 		var hits []docTraceHit
 		for i, span := range spans {
@@ -216,7 +235,7 @@ func cmdDocumentTrace(renderDir string, args []string) {
 		}
 		docs = append(docs, docTraceDoc{
 			ID: m.ID, Title: m.Title, Author: m.Author, Year: m.Year, SourceURL: m.SourceURL,
-			Chunks: chunks, Hits: hits,
+			ChunkingNote: m.ChunkingNote, Chunks: chunks, Hits: hits,
 		})
 	}
 
