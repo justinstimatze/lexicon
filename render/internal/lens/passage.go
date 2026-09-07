@@ -271,31 +271,43 @@ func parsePassageResponse(text string) ([]PassagePick, error) {
 }
 
 // LocateEvidence finds evidence inside passage and returns the span as
-// rune offsets [start, end) into passage. Matching ignores case, folds
-// typographic quotes and dashes to ASCII, and treats any run of
-// whitespace as one space — the source texts are hard-wrapped at ~70
-// columns with CRLF line ends, and the model quotes them unwrapped. If
-// the full span is not found, the leading words are tried in decreasing
-// counts (8, 6, 4) so a quote the model trimmed or mis-copied at its tail
-// still anchors to its head; partial is true in that case. ok is false
-// when nothing anchors.
+// rune offsets [start, end) into passage. Matching ignores case, drops
+// quotation marks (a model writes 'x' where the text has "x"), folds
+// dashes to ASCII, and treats any run of whitespace as one space — the
+// source texts are hard-wrapped at ~70 columns with CRLF line ends, and
+// the model quotes them unwrapped. If the full span is not found, the
+// leading words are tried in decreasing counts (8, 6, 4), then the
+// trailing words, so a quote the model mis-copied at one end still
+// anchors to the other; partial is true in that case. ok is false when
+// nothing anchors — typically a quote spliced from two places.
 func LocateEvidence(passage, evidence string) (start, end int, partial, ok bool) {
 	normP, mapP := normalizeForMatch(passage)
-	normE, _ := normalizeForMatch(evidence)
+	// A model quoting verse writes " / " for a line break the source has
+	// as a newline. Only the evidence is rewritten — the passage's rune map
+	// must stay exact.
+	normE, _ := normalizeForMatch(strings.ReplaceAll(evidence, " / ", " "))
 	normE = strings.TrimSpace(normE)
 	if normE == "" {
 		return 0, 0, false, false
 	}
-	if s, e, found := findNormalized(normP, mapP, normE, len([]rune(passage))); found {
+	n := len([]rune(passage))
+	if s, e, found := findNormalized(normP, mapP, normE, n); found {
 		return s, e, false, true
 	}
 	words := strings.Fields(normE)
-	for _, n := range []int{8, 6, 4} {
-		if len(words) <= n {
+	for _, k := range []int{8, 6, 4} {
+		if len(words) <= k {
 			continue
 		}
-		prefix := strings.Join(words[:n], " ")
-		if s, e, found := findNormalized(normP, mapP, prefix, len([]rune(passage))); found {
+		if s, e, found := findNormalized(normP, mapP, strings.Join(words[:k], " "), n); found {
+			return s, e, true, true
+		}
+	}
+	for _, k := range []int{8, 6, 4} {
+		if len(words) <= k {
+			continue
+		}
+		if s, e, found := findNormalized(normP, mapP, strings.Join(words[len(words)-k:], " "), n); found {
 			return s, e, true, true
 		}
 	}
@@ -324,20 +336,21 @@ func findNormalized(normP string, mapP []int, needle string, passageRunes int) (
 	return start, end, true
 }
 
-// normalizeForMatch lowercases, folds curly quotes and dashes, and
+// normalizeForMatch lowercases, drops quotation marks, folds dashes, and
 // collapses whitespace, returning the normalized string and a map from
 // each normalized rune's index to the original rune index it came from
-// (a collapsed whitespace run maps to its first rune).
+// (a collapsed whitespace run maps to its first rune). Quotes are
+// dropped rather than folded because the model's choice of single or
+// double is unrelated to the text's, and a span that starts or ends on a
+// quote mark should anchor either way.
 func normalizeForMatch(s string) (string, []int) {
 	var b strings.Builder
 	var m []int
 	inSpace := false
 	for i, r := range []rune(s) {
 		switch r {
-		case '‘', '’', '‚', '′':
-			r = '\''
-		case '“', '”', '„', '″':
-			r = '"'
+		case '\'', '"', '‘', '’', '‚', '′', '“', '”', '„', '″':
+			continue
 		case '‐', '‑', '‒', '–', '—', '―':
 			r = '-'
 		}

@@ -178,6 +178,66 @@ func splitParagraphs(text string, minWords int) []paragraphSpan {
 	return merged
 }
 
+// reanchorTrace re-locates every hit's evidence quote inside its chunk's
+// slice of full_text and rewrites evidence_start/evidence_end. It exists
+// because the quotes are the durable part of a run and the offsets are
+// derived: a fix to the anchoring (or to the frontend's expectations)
+// should not cost another pass through the lens.
+func reanchorTrace(inPath, outPath string) {
+	data, err := os.ReadFile(inPath)
+	if err != nil {
+		fatal("document-trace: read %s: %v", inPath, err)
+	}
+	var out docTraceOutput
+	if err := json.Unmarshal(data, &out); err != nil {
+		fatal("document-trace: parse %s: %v", inPath, err)
+	}
+	moved, anchored, lost := 0, 0, 0
+	for di := range out.Documents {
+		d := &out.Documents[di]
+		runes := []rune(d.FullText)
+		chunkAt := make(map[int]docTraceChunk, len(d.Chunks))
+		for _, c := range d.Chunks {
+			chunkAt[c.Index] = c
+		}
+		for hi := range d.Hits {
+			h := &d.Hits[hi]
+			if h.Evidence == "" {
+				continue
+			}
+			c, ok := chunkAt[h.ChunkIndex]
+			if !ok || c.CharStart < 0 || c.CharEnd > len(runes) || c.CharStart > c.CharEnd {
+				continue
+			}
+			slice := string(runes[c.CharStart:c.CharEnd])
+			s, e, partial, found := lens.LocateEvidence(slice, h.Evidence)
+			if !found {
+				lost++
+				h.EvidenceStart, h.EvidenceEnd, h.EvidencePartial = nil, nil, false
+				fmt.Fprintf(os.Stderr, "%s chunk %d: %s evidence not found: %q\n", d.ID, h.ChunkIndex, h.AtomID, h.Evidence)
+				continue
+			}
+			s, e = c.CharStart+s, c.CharStart+e
+			if h.EvidenceStart == nil || h.EvidenceEnd == nil || *h.EvidenceStart != s || *h.EvidenceEnd != e || h.EvidencePartial != partial {
+				moved++
+			}
+			h.EvidenceStart, h.EvidenceEnd, h.EvidencePartial = &s, &e, partial
+			anchored++
+		}
+	}
+	enc, err := json.MarshalIndent(out, "", "  ")
+	if err != nil {
+		fatal("document-trace: marshal: %s", err)
+	}
+	if outPath == "" {
+		outPath = inPath
+	}
+	if err := os.WriteFile(outPath, enc, 0o644); err != nil {
+		fatal("document-trace: write: %s", err)
+	}
+	fmt.Printf("reanchored %s -> %s: %d spans anchored, %d moved, %d not found\n", inPath, outPath, anchored, moved, lost)
+}
+
 func excerpt(s string, maxLen int) string {
 	s = strings.Join(strings.Fields(s), " ")
 	r := []rune(s)
@@ -198,8 +258,13 @@ func cmdDocumentTrace(renderDir string, args []string) {
 	retries := fl.Int("lens-retries", 2, "retries per passage on a failed lens call")
 	workers := fl.Int("workers", 2, "passages judged concurrently (each is one local embed plus one lens call)")
 	minWords := fl.Int("min-words", 40, "paragraphs shorter than this get merged into a neighbor before matching")
+	reanchor := fl.String("reanchor", "", "re-locate every hit's evidence span in an existing output file against its own full_text and write it to -out (no manifest, no API calls)")
 	if err := fl.Parse(args); err != nil {
 		fatal("parse flags: %s", err)
+	}
+	if *reanchor != "" {
+		reanchorTrace(*reanchor, *out)
+		return
 	}
 	if *manifestPath == "" {
 		fatal("document-trace: -manifest is required")
@@ -291,6 +356,15 @@ func cmdDocumentTrace(renderDir string, args []string) {
 		for i, span := range spans {
 			res := results[i]
 			charStart := utf8.RuneCountInString(text[:span.start])
+			// span.text is what the lens read: trimmed paragraphs joined with
+			// "\n\n". The document's own text between span.start and
+			// span.end has CRLFs, indentation and trailing spaces at those
+			// joins, so an offset into span.text is NOT an offset into
+			// full_text — every merged boundary shifted everything after it
+			// by a few characters (51 of 432 spans in the first run ended
+			// mid-word: "pr|ure", "outc|ry"). Anchor against the original
+			// slice, whose offsets are the ones the frontend uses.
+			rawSlice := text[span.start:span.end]
 			chunks = append(chunks, docTraceChunk{
 				Index:     i,
 				CharStart: charStart,
@@ -315,9 +389,14 @@ func cmdDocumentTrace(renderDir string, args []string) {
 					Why:             h.Why,
 					GateRank:        h.GateRank,
 				}
-				if h.EvidenceStart >= 0 {
-					s, e := charStart+h.EvidenceStart, charStart+h.EvidenceEnd
-					hit.EvidenceStart, hit.EvidenceEnd = &s, &e
+				if h.Evidence != "" {
+					if s, e, partial, ok := lens.LocateEvidence(rawSlice, h.Evidence); ok {
+						s, e = charStart+s, charStart+e
+						hit.EvidenceStart, hit.EvidenceEnd, hit.EvidencePartial = &s, &e, partial
+					} else {
+						hit.EvidencePartial = false
+						fmt.Fprintf(os.Stderr, "%s chunk %d: %s evidence not found in original slice: %q\n", m.ID, i, h.Entry.ID, h.Evidence)
+					}
 				}
 				hits = append(hits, hit)
 			}

@@ -54,19 +54,47 @@ func TestLocateEvidenceAcrossHardWrap(t *testing.T) {
 	}
 }
 
-func TestLocateEvidenceFoldsQuotesAndCase(t *testing.T) {
+func TestLocateEvidenceIgnoresQuoteMarksAndCase(t *testing.T) {
 	passage := "He said it was “worse than the disease” — and meant it."
-	s, e, _, ok := LocateEvidence(passage, `\"WORSE than the disease\" - and meant`)
-	if ok {
-		// Backslash-escaped quotes are not folded; that is a model error we
-		// don't paper over. But the unescaped form must match.
-		t.Fatalf("unexpected match on escaped quotes: %d..%d", s, e)
-	}
-	s, e, partial, ok := LocateEvidence(passage, `"WORSE than the disease" - and meant`)
+	s, e, partial, ok := LocateEvidence(passage, `'WORSE than the disease' - and meant`)
 	if !ok || partial {
 		t.Fatalf("ok=%v partial=%v", ok, partial)
 	}
-	if got := string([]rune(passage)[s:e]); got != "“worse than the disease” — and meant" {
+	// The located span runs from the first matched letter to the last:
+	// the passage's own quote marks fall outside it.
+	if got := string([]rune(passage)[s:e]); got != "worse than the disease” — and meant" {
+		t.Fatalf("span = %q", got)
+	}
+	// A straight-quoted source and a single-quoted model quote.
+	src := `governments yet to form. "Render unto Cæsar the things which are` + "\r\n" + `Cæsar's" is the scripture doctrine of courts`
+	s, e, partial, ok = LocateEvidence(src, `'Render unto Cæsar the things which are Cæsar's' is the scripture doctrine of courts`)
+	if !ok || partial {
+		t.Fatalf("ok=%v partial=%v", ok, partial)
+	}
+	if got := string([]rune(src)[s:e]); !strings.HasPrefix(got, "Render unto") || !strings.HasSuffix(got, "doctrine of courts") {
+		t.Fatalf("span = %q", got)
+	}
+}
+
+func TestLocateEvidenceVerseSlash(t *testing.T) {
+	passage := "Man knows no Master save creating\r\nHeaven Or those whom choice and common good ordain."
+	s, e, partial, ok := LocateEvidence(passage, "Man knows no Master save creating Heaven / Or those whom choice and common good ordain.")
+	if !ok || partial {
+		t.Fatalf("ok=%v partial=%v", ok, partial)
+	}
+	if got := string([]rune(passage)[s:e]); !strings.HasSuffix(got, "common good ordain.") {
+		t.Fatalf("span = %q", got)
+	}
+}
+
+func TestLocateEvidenceSuffixFallback(t *testing.T) {
+	passage := "mankind; and is a\r\nformal and pompous method of offering up human sacrifices to the\r\npride of tyrants. But this general massacre"
+	// Head mis-copied ("it is" for "and is"): the tail anchors.
+	s, e, partial, ok := LocateEvidence(passage, "it is a formal and pompous method of offering up human sacrifices to the pride of tyrants")
+	if !ok || !partial {
+		t.Fatalf("ok=%v partial=%v", ok, partial)
+	}
+	if got := string([]rune(passage)[s:e]); !strings.HasSuffix(got, "pride of tyrants") {
 		t.Fatalf("span = %q", got)
 	}
 }
