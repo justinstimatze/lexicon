@@ -43,6 +43,14 @@
 #                        reading-order`; see that command's source for
 #                        the curated source list and the reach/tiering
 #                        algorithm.
+#   web/src/data/document-traces.json — the Trace tab's data, bundled
+#                        into the SPA. Committed, NOT regenerated here by
+#                        default: `lexicon document-trace` walks five
+#                        public-domain texts through the embed gate
+#                        (local Ollama) and the semantic lens (Anthropic
+#                        API), neither of which a CI runner has, and it
+#                        degrades silently rather than failing without
+#                        them. See the guard below.
 #
 # The legacy trio is self-contained HTML with inline elements JSON;
 # the SPA inlines the same graph (`lexicon export-graph`) at its own
@@ -64,7 +72,20 @@ render/lexicon pivot  -out public/pivot.html
 render/lexicon anki   -out public/lexicon-anki.tsv
 render/lexicon export-graph -out web/src/data/graph.json -details-dir web/public/atoms
 render/lexicon reading-order -out web/src/data/reading-order.json
-render/lexicon document-trace -manifest documents/manifest.json -out web/src/data/document-traces.json
+# document-trace is a precomputed artifact, not a pure export: it needs a
+# local Ollama for the embed gate and ANTHROPIC_API_KEY for the semantic
+# lens. Without both it doesn't fail — it silently degrades every chunk
+# to keyword-only matching across the whole catalog and would overwrite
+# the committed, lens-backed JSON with a worse one. A GitHub Pages runner
+# has neither, so the committed file ships as-is unless a regeneration is
+# asked for explicitly (locally, from a host with Ollama up and render/.env
+# holding the key). Check the stderr summary it prints before committing
+# the result: it reports how many chunks actually used the lens.
+if [ "${LEXICON_REGEN_TRACE:-0}" = "1" ]; then
+  render/lexicon document-trace -manifest documents/manifest.json -out web/src/data/document-traces.json
+else
+  echo "document-trace: shipping committed web/src/data/document-traces.json (LEXICON_REGEN_TRACE=1 to regenerate)"
+fi
 echo "public/shell.html:  $(wc -c < public/shell.html)  bytes (legacy composed shell)"
 echo "public/matrix.html: $(wc -c < public/matrix.html) bytes (standalone matrix)"
 echo "public/pivot.html:  $(wc -c < public/pivot.html)  bytes (standalone pivot)"

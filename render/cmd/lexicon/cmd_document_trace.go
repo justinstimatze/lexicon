@@ -177,6 +177,15 @@ func cmdDocumentTrace(renderDir string, args []string) {
 	if os.Getenv("LEXICON_LENS_TIMEOUT_MS") == "" {
 		_ = os.Setenv("LEXICON_LENS_TIMEOUT_MS", "30000")
 	}
+	// The embed gate's 6s default budget is a hook-latency guard: a live
+	// turn must never hang on it. This is a batch precompute, where a slow
+	// answer costs nothing and a timed-out one silently degrades the whole
+	// chunk to keyword-only matching across the full catalog — the
+	// 2026-09-06 run lost 159 of 247 chunks that way on a host that was
+	// swapping, and nothing in the output said so.
+	if os.Getenv("LEXICON_EMBED_GATE_BUDGET_MS") == "" {
+		_ = os.Setenv("LEXICON_EMBED_GATE_BUDGET_MS", "60000")
+	}
 
 	manifestData, err := os.ReadFile(*manifestPath)
 	if err != nil {
@@ -273,10 +282,28 @@ func cmdDocumentTrace(renderDir string, args []string) {
 	if err := os.WriteFile(*out, data, 0o644); err != nil {
 		fatal("document-trace: write: %s", err)
 	}
-	totalHits, totalChunks := 0, 0
+	totalHits, totalChunks, lensChunks := 0, 0, 0
 	for _, d := range docs {
 		totalHits += len(d.Hits)
 		totalChunks += len(d.Chunks)
+		n := 0
+		for _, c := range d.Chunks {
+			if c.LensUsed {
+				n++
+			}
+		}
+		lensChunks += n
+		fmt.Fprintf(os.Stderr, "%s: semantic lens on %d/%d chunks\n", d.ID, n, len(d.Chunks))
 	}
-	fmt.Printf("wrote %s (%d documents, %d chunks, %d hits)\n", *out, len(docs), totalChunks, totalHits)
+	fmt.Printf("wrote %s (%d documents, %d chunks, %d hits; semantic lens on %d/%d chunks)\n",
+		*out, len(docs), totalChunks, totalHits, lensChunks, totalChunks)
+	// A chunk the lens didn't reach is scored by surface-token overlap
+	// across the whole catalog, and its hits saturate at the score ceiling
+	// — the weakest evidence wearing the strongest number. Say so loudly;
+	// the per-chunk diag lines above name the cause (gate timeout, cold
+	// prototype cache, no API key).
+	if lensChunks < totalChunks {
+		fmt.Fprintf(os.Stderr, "WARNING: %d of %d chunks fell back to keyword-only matching — read the diag lines above before committing this output\n",
+			totalChunks-lensChunks, totalChunks)
+	}
 }
